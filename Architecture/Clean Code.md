@@ -1,3 +1,9 @@
+---
+tags:
+  - CodebaseDecision
+  - MacroCodebaseDecision
+  - MicroCodebaseDecision
+---
 Clean code is clear, understandable, and maintainable. When you write clean code, you're thinking of the others who may read and interpret it later. Help others understand the purpose of your code so they can change it eventually.
 
 Clean code principles lead to highly modular source code easier to read and test. If you think of these practices as part of a house, clean code is the foundation. Implementing clean code principles is a foundational skill that pays off especially well when refactoring code or testing code under test. 

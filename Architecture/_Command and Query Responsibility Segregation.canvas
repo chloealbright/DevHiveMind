@@ -1,12 +1,12 @@
 {
 	"nodes":[
 		{"id":"36aa8d0ae4ba3c83","type":"group","x":-500,"y":620,"width":1080,"height":400,"label":"Application Layer is Decoupled into Query & command"},
-		{"type":"file","file":"Dev/Architecture/App Layers/User.md","id":"bd2319cd61cd2488","x":-200,"y":-75,"width":400,"height":151},
-		{"id":"fec86ccf81614402","type":"file","file":"Dev/Architecture/App Layers/Presentation.md","x":-374,"y":220,"width":749,"height":235},
+		{"type":"file","file":"Architecture/App Layers/User.md","id":"bd2319cd61cd2488","x":-200,"y":-75,"width":400,"height":151},
+		{"id":"fec86ccf81614402","type":"file","file":"Architecture/App Layers/Presentation.md","x":-374,"y":220,"width":749,"height":235},
 		{"id":"253718660b50394a","type":"text","text":"# Query\n\n### Answers questions and should not modify state but Returns value like return last search","x":-420,"y":720,"width":420,"height":200},
 		{"id":"5c64f35bd02e5467","type":"text","text":"# Commands\n\n### Does something and should modify state but doesn't return value so **CUD**","x":120,"y":720,"width":400,"height":200},
 		{"id":"1b222ce5807f6d1b","type":"text","text":"# Data Flow","x":591,"y":-49,"width":250,"height":60,"color":"2"},
-		{"id":"18e7df9d3827c332","type":"file","file":"Dev/Architecture/App Layers/Domain.md","x":180,"y":1100,"width":360,"height":400},
+		{"id":"18e7df9d3827c332","type":"file","file":"Architecture/App Layers/Domain.md","x":180,"y":1100,"width":360,"height":400},
 		{"id":"c330140d62001286","type":"text","text":"# Data Access","x":-420,"y":1620,"width":250,"height":60},
 		{"id":"dabf86722d8b7468","type":"text","text":"# Persistence","x":180,"y":1620,"width":250,"height":60},
 		{"id":"71be98c19317f32c","type":"text","text":"<center>\n  <h4 style=\"font-size: 50px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\"> Options </h4>\n</center>\n\n","x":-880,"y":1880,"width":1800,"height":120},
@@ -16,8 +16,8 @@
 		{"id":"728046a98d3fdfb5","type":"text","text":"## Read Database","x":540,"y":2320,"width":250,"height":60},
 		{"id":"1d2d687c399ad26b","type":"text","text":"## Event Store","x":860,"y":2320,"width":250,"height":60},
 		{"id":"50f1407023f83828","type":"text","text":"<center>\n  <h4 style=\"font-size: 50px; -webkit-text-stroke: 1px blue; -webkit-text-fill-color: transparent;\">Event Sourcing </h4>\n</center>\n\n","x":600,"y":2440,"width":460,"height":120,"color":"5"},
-		{"id":"5009100bd524e6cc","x":1167,"y":2382,"width":250,"height":278,"type":"text","text":"Store events\n\nReplay events\n\nmodify entity\n\nStore new event \n\nUpdate read database"},
-		{"id":"aecb2c013244fa48","x":-1395,"y":2560,"width":680,"height":200,"type":"text","text":"## My understanding of execute would be create update and delete to the database  \n  \n## Commands execute data in the domain model, mutate state, raise events, and write out to database"}
+		{"id":"5009100bd524e6cc","type":"text","text":"Store events\n\nReplay events\n\nmodify entity\n\nStore new event \n\nUpdate read database","x":1167,"y":2382,"width":250,"height":278},
+		{"id":"aecb2c013244fa48","type":"text","text":"## My understanding of execute would be create update and delete to the database  \n  \n## Commands execute data in the domain model, mutate state, raise events, and write out to database","x":-1395,"y":2560,"width":680,"height":200}
 	],
 	"edges":[
 		{"id":"9ab856ca9d6efa51","fromNode":"253718660b50394a","fromSide":"top","toNode":"fec86ccf81614402","toSide":"bottom","color":"2"},

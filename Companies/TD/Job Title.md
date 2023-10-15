@@ -1,0 +1,110 @@
+BSA we are in a practice  
+  
+And specifically on the enablement team which deals with people  
+  
+  
+But BSAs are typically on a technical team
+
+
+Software engineer level 10 Is were software architect is 
+
+
+The software architect is specifically at the product family level which only has 1  architect per product family
+
+there can be around 2 to 4 SWE per pod and 1 bsa and one QA per SWE 
+list
+Right now is social engineer instead of a software engineer
+
+
+* What problem you were trying to solve  
+* What technologies you used  
+* What trade-offs you made in the implementation  
+* What (if anything) you’d like to improve
+
+
+A **business systems analyst** is like a translator between a company and its technology. They help businesses figure out how to use computer systems and software to solve problems and improve their operations.  
+  
+Imagine a company wants to upgrade its website to make it easier for customers to shop online. The business systems analyst will talk to the company's staff to understand what they need, like better search features or smoother checkout. Then, they'll work with computer experts to design and build the new website, making sure it does what the company wants.  
+  
+In simple terms, a business systems analyst helps companies use technology to make their work better and more efficient by understanding their needs and turning them into computer solutions.
+
+
+
+## Cre8tive Work
+
+^221ddf
+
+Worked with a third party Technical training firm  
+  
+  
+Forged a strategic alliance with a prominent software engineering upskilling company to organize and execute an intensive software engineering boot camp, tailored to elevate the capabilities of our internal talent pool.
+
+
+A "third-party technical training firm" would likely be a company that offers technical training services independently from the organization that requires the training. This firm could design and conduct training programs for various clients.  
+  
+A "third-party technical training vendor" would generally refer to a supplier of technical training materials, resources, or platforms that can be used by organizations to deliver training to their employees. This could include e-learning platforms, training content, or even physical training materials.  
+  
+The distinction here is that the "firm" directly provides training services, while the "vendor" supplies tools or resources that aid in delivering training. The choice of term depends on whether you're referring to the service provider or the resource provider in the context of third-party technical training.
+
+
+
+## in current work
+Supporting process  
+  
+Talk About random issues that you have faced trying to get app running  
+  
+  
+  
+================================  
+  
+Benefits realization is basically money saved on spending  
+  
+  
+Who doing what from upskilling perspective and diff stakeholders  
+  
+  
+Capital and Operational Expenditure  
+  
+  
+Set meeting around benefits realization for upskilling once you're done doing initial benefits realization work around upskilling  
+  
+  
+Ask if there's any additional financial documentation for cre8tive  
+  
+  
+=================================  
+  
+  
+So after meeting with John Amelia on learn a lot more things about TD's technical infrastructure  
+  
+  
+So when it comes to US employees we have to domains we can access our primary one which is the BKNG and we have access to a Canadian account under the TDBFG domain  
+  
+When it comes to these domains they have similar access and are a part of similar AD groups but the Canadian one may have more in terms of access and AD groups  
+  
+When it comes to GitHub TD has to githubs one with more functionality available like creating multiple repos managing them like you would on a regular GitHub account that is being decommissioned versus another one that's more restrictive and requires you to have Mal codes for adding an application to a repo so for example let's say we want to add our spring boot application and Java code to a repo they each would need their own mal code which you have to request in order to be on a repo and when it comes to the Mal code I'm not sure how to make a request for that in addition to making a request for the repository.  
+  
+  
+When it comes to github actions there's a lot of restricted access but Emilio showed me some workflows that showed docker images  
+  
+  
+  
+==================================  
+  
+Journey early talent intro TD University then to forward deploy or rotation program  
+  
+  
+With personas  
+  
+For new tech hires with experience  
+  
+Also no tech experience  
+  
+T shaping process  
+  
+Td specific process  
+  
+Proof of concept for this stuff  
+  
+  
+Dx exp into TD University

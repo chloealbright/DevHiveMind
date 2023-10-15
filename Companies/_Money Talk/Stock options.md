@@ -1,0 +1,9 @@
+There are a number of more detailed points to keep in mind when you’re offered employee stock options:  
+  
+Options are usually granted on a four-year vesting schedule with a one-year cliff, which means you won’t actually have the option of owning equity in the company if you leave within your first year of working there. Further, on the common vesting schedule, only 25% of the options are available to you after the first year, and the remaining shares typically vest incrementally each month or quarter thereafter.  
+  
+They’re called ‘options’ for a reason, as stock options don’t actually imply ownership in the company, but rather the option to purchase the specified number of shares. If you decide to buy the shares in the future, they’ll cost the ‘strike price’ when the options were granted, which should be significantly lower than the market value of the shares when you sell (otherwise you’d have no reason to buy them in the first place). The ultimate hope is that the value of the company’s shares increases significantly over the time you work there.  
+  
+Even if you do purchase the shares, they’re not actually worth anything until some sort of exit event, like an IPO or acquisition—and the unfortunate reality is that a large percentage of startups fail, rendering the shares worth nothing. Particularly if the company is early-stage, keep in mind that even if its future looks bright, an exit could take years, meaning you’ll have to hold onto the shares for a long time in order to capture any value from them.  
+  
+It’s not the number of shares that counts, but the percent ownership that those shares represent. Ask the hiring manager for each role for the company’s number of shares outstanding and calculate the percent ownership each offer would represent. Compare these numbers, not number of shares, between your offers.

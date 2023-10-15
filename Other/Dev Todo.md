@@ -1,0 +1,163 @@
+![[opm-run.gif]]
+
+
+# <mark style="background: #FF5582A6;">Current </mark>
+#todo/High/Dev 
+- [ ] Search engine optimized for developers to find projects to contribute to or find common errors and issues
+- [x] Edit Article on [_vr headset](_vr%20headset.md)
+- [ ] Edit article on [[_Bootcamp]] ^923f61
+- [ ] Edit article on [_note taking](_note%20taking.md) ^776056
+- [ ] [Testing topics to add to notes](Testing%20topics%20to%20add%20to%20notes.md)
+- [ ] Read [Domain-driven design](Domain-driven%20design.md)
+- [x] Read articles  opened in chrome
+- [x] Compress work stuff [Todo work](Todo%20work.md) and figure out how you will manage work todo
+- [ ] Get certified in Java  
+- [ ] Get certified in Linux  
+- [ ] Looking to automating stock buys
+- [ ] Develop practical fundamental skills around design patterns 
+- [ ] [[Mind map ideas]]
+- [ ] Develop fundamental skills around architecture
+- [ ] Try [[Mind map ideas]]
+- [ ] Add to resume [[Job Title#^221ddf]]
+- [ ] Look into searching tasks or subtask in jira  
+- [ ] identify areas of automation were ever you see 
+- [ ] Identify most expensive manual process  
+- [ ] look a little into alt ways to exclude dir
+- [ ] find a way to categorize code snippets that aren't in cold snippet folder to make it easier to search probably use tags
+	```bash
+	find ~/.local/share/Trash/files
+	```
+
+
+## <mark style="background: #FFB86CA6;">Dev Med</mark>
+#todo/Med/Dev
+- [ ] Act as a doctor determine potential diagnosis based on blood and urine tests asking questions for each test result 
+- [ ] [[dev idea]]
+- [ ] Finish [[LinkedIn video]]
+
+
+## Books
+#todo/Read/Books  
+- [ ] The Richest Man in Babylon by George Samuel Clason
+- [x] Clean code 
+- [ ] Design Patterns
+
+## Medium
+#todo/Read/Interview
+- [ ] [[Grokking System Design Interview Key Performance Metrics Every Engineer Should Know.  by Arslan Ahmad  Geek Culture  Apr, 2023  Medium]]
+- [x] [[Top 10 Microservices Design Principles and Best Practices for Experienced Developers  by Soma  Javarevisited  Medium]]
+- [ ] [[Obsidian Understanding its Core Design Principles  by TfTHacker  Obsidian Observer  Medium]]
+- [ ] [[My Obsidian Setup — My Notes and My Theme settings  by Nuno Campos  Obsidian Observer  Apr, 2023  Medium]]
+- [ ] [[Mastering the Art of API Design - by Alex Xu]]
+
+## <mark style="background: #BBFABBA6;">Low</mark>
+#todo/Low/Dev 
+- [ ] read [Symbolic link](Symbolic%20link.md)
+- [ ] create a bot  
+	> can you create a LinkedIn bot to assist me to in reposting about Technology and programming
+
+### Scripting
+- [ ] program a usb to automatically run a script in Linux
+- [ ] https://askubuntu.com/questions/1063331/how-to-install-google-chrome-extensions-though-terminal
+- [ ] [https://towardsdatascience.com/how-to-use-the-reddit-api-in-python-5e05ddfd1e5c](https://towardsdatascience.com/how-to-use-the-reddit-api-in-python-5e05ddfd1e5c)  
+- [ ] [https://www.youtube.com/watch?v=FdjVoOf9HN4&t=480s](https://www.youtube.com/watch?v=FdjVoOf9HN4&t=480s)  
+
+
+
+# Pull Into Current
+
+## <mark style="background: #FF5582A6;">Future Long-term Spread BAU</mark>
+#todo/Perpetual/Dev 
+- [ ] Identify things to focus on and start doing and prioritize other things and where they should go in terms of bucket also breath and depth  
+- [ ] How to design an app using: mock-ups, models, and routes
+- [ ] Dealing with package dependencies
+- [ ] add future repo connected block
+- [ ] go over java 9 to 11
+- [ ] [[Dev things to Focus on]]
+
+
+
+# <mark style="background: #FF5582A6;">Future immediate</mark>
+  #todo/High/Future
+- [ ] Open Source [[To Look into]]
+
+  
+  
+
+  
+## <mark style="background: #FFB86CA6;">Future Med</mark>
+#todo/Med/Future
+- [ ]  [https://www.geeksforgeeks.org/convert-a-string-into-a-square-matrix-grid-of-characters/](https://www.geeksforgeeks.org/convert-a-string-into-a-square-matrix-grid-of-characters/)    
+- [ ]  [https://stackoverflow.com/questions/360040/which-is-faster-hash-lookup-or-binary-search](https://stackoverflow.com/questions/360040/which-is-faster-hash-lookup-or-binary-search)
+- [ ] [[Algo left to over to do]]
+- [ ] Look into darkbert ai
+- [ ] Logger fix for Data Structures
+	> const log = (pre="", arg="", post="") => {console.log(`${pre} ${arg} ${post} `)} 
+	>  const info = (pre="", arg="", post="") => {console.info(`${pre} ${arg} ${post} `)} 
+	>  const warn = (pre="", arg="", post="") => {console.warn(`${pre} ${arg} ${post} `)} 
+	>  const error = (pre="", arg="", post="") => {console.error(`${pre} ${arg} ${post} `)} 
+	>  const table = (pre="", arg="", post="") => {console.table(`${pre} ${arg} ${post} `)}
+  
+
+
+
+
+## <mark style="background: #BBFABBA6;">Future Low</mark>
+#todo/Low/Future
+-  look into:
+	- [ ] [Chaos Engineering](Chaos%20Engineering.md)
+	- [ ] [Project idea](Project%20idea.md)
+	- [ ] [Tech Things to Research](Tech%20Things%20to%20Research.md)
+- [ ] Math & Logic Puzzles 
+- [ ] [[Try]]
+- [ ] Sudoku back track 
+	- [https://github.com/dtyutyunik/Sudoku](https://github.com/dtyutyunik/Sudoku)  
+	- [https://github.com/mtajammulzia/sudoku-game](https://github.com/mtajammulzia/sudoku-game)  
+	- [https://github.com/Suhaan-Bhandary/Sudoku-Game](https://github.com/Suhaan-Bhandary/Sudoku-Game)
+- [ ]  https://brilliant.org/wiki/logical-puzzles/ 
+
+
+
+
+
+
+### Try
+```javascript
+const log = (level, message, ...context) => {
+  try {
+    const logMessage = `${new Date().toISOString()} [${level.toUpperCase()}]: ${message}`;
+    console.log(logMessage, ...context);
+  } catch (error) {
+    console.error('Error occurred while logging:', error);
+  }
+};
+```
+
+
+
+To account for different data structures and log their values, you can update the logging function to handle various types of data structures. Here's an updated version of the code:
+
+```javascript
+const log = (level, message, ...context) => {
+  const logMessage = `${new Date().toISOString()} [${level.toUpperCase()}]: ${message}`;
+
+  context.forEach((item, index) => {
+    console.log(`Context ${index + 1}:`);
+    console.log(item);
+  });
+
+  console.log(logMessage);
+};
+```
+
+In this updated code:
+
+1. The `log` function still accepts the log level, message, and additional context as parameters.
+
+2. The log message is constructed with the current timestamp, log level, and message, as before.
+
+3. The `context` parameter is an array that can contain different data structures to be logged. Each item in the `context` array is logged separately.
+
+4. The `forEach` method is used to iterate over each item in the `context` array. For each item, it logs a heading indicating the context number (`Context 1:`, `Context 2:`, etc.) and then logs the value of that item.
+
+By updating the code in this way, you can log different data structures passed as context parameters alongside the main log message. This provides flexibility to log specific values or data structures for debugging or analysis purposes.

@@ -1,0 +1,1 @@
+Create a desktop file edit the file allow for execution move to user/share/application so you can access it system wide

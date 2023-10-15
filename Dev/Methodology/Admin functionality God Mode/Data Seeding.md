@@ -1,0 +1,1 @@
+Populating the database with initial data or test data to ensure a consistent starting point for the application.

@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "path": "Workout/Kettle-bell and Dumbbell.md",
+      "ctime": 1683067177355
+    },
+    {
+      "type": "file",
+      "path": "Workout/Regimen.md",
+      "ctime": 1683067177355
+    },
+    {
+      "type": "file",
+      "ctime": 1683462379990,
+      "path": "Personal/Mom.md"
+    },
+    {
+      "type": "group",
+      "ctime": 1684560266466,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1684560245773,
+          "path": "Other/Gen Todo.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1684560245773,
+          "path": "Other/Fin Todo.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1684560245773,
+          "path": "_Low Priority.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1684560245773,
+          "path": "_Read.md"
+        }
+      ],
+      "title": "Main List"
+    },
+    {
+      "type": "file",
+      "ctime": 1684708791188,
+      "path": "_Template/callouts.md"
+    }
+  ]
+}

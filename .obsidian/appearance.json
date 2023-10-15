@@ -1,0 +1,13 @@
+{
+  "accentColor": "",
+  "cssTheme": "Royal Velvet",
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "dashboard",
+    "dashboard-ReadLineLength",
+    "shorter-links",
+    "customCallouts",
+    "Iterative Rainbow Folder Icons"
+  ],
+  "textFontFamily": "FiraCode Nerd Font Mono"
+}

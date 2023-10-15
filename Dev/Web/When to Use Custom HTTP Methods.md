@@ -1,0 +1,9 @@
+There were several attempts to extend HTTP with new methods. The most prominent attempt was WebDAV ([http://www.webdav.org](http://www.webdav.org/)). WebDAV defines several HTTP methods, such as PROPFIND, PROPPATCH, MOVE, LOCK, UNLOCK, etc., for distributed authoring and versioning of documents (see When to Use WebDAV Methods). Other examples include PATCH (How to Use the PATCH Method) for partial updates and MERGE ( [http://msdn.microsoft.com/en-us/library/cc668771.aspx](http://msdn.microsoft.com/en-us/library/cc668771.aspx)) for merging resources. 
+
+Avoid using nonstandard custom HTTP methods. When you introduce new methods, you cannot rely on off-the-shelf software that only knows about the standard HTTP methods. 
+
+Instead, design a controller (see When and How to Use Controllers to Operate on Resources) resource that can abstract such operations, and use HTTP method POST. 
+
+In reality, proxies, caches, and HTTP libraries will treat such methods as nonidempotent, unsafe, and noncacheable. In other words, they apply the same rules to such extension methods as POST, which is nonidempotent, unsafe, and most often noncacheable. This is because idempotency and safety are guarantees that the server must explicitly provide. For unknown custom methods, proxies, caches, and HTTP libraries cannot assume that the server provides such guarantees. Therefore, for most HTTP-aware software and tools, custom HTTP methods are synonymous with POST. 
+
+Moreover, not all HTTP software (including firewalls) may support arbitrary extension methods. Therefore, use custom methods only when wide interoperability is not a concern.

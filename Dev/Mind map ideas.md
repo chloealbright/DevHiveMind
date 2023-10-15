@@ -1,0 +1,4 @@
+- [ ] Code base decisions made at low level in the design of classes and functions and decisions being made  
+- [ ] Code base decisions made at a higher level in terms of components and services and overall architecture and put in the pieces together  
+- [ ] And maybe even a higher level with technologies and stuff
+- [ ] Design patterns mindmap

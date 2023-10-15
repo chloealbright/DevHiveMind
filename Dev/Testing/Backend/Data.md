@@ -1,0 +1,1 @@
+A fixture is a  Data base object help test

@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "219c5054265cd957",
+    "type": "split",
+    "children": [
+      {
+        "id": "daed6edff18d1919",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c209e1040301fb19",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "_Pdf/BMA-SCHEDULE-7.1.2023.pdf"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e1385a1fd039c644",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "4bf2eba12f7ab9f8",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "cbd82abebd2a0e71",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "1fa194dec609243b",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "77e0f5ea0b0230e2",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "8dd0bda547607042",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "69c879b18aa14ebd",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "_Pdf/BMA-SCHEDULE-7.1.2023.pdf",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "fc351322966fc173",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "_Pdf/BMA-SCHEDULE-7.1.2023.pdf",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "c83ffceaa283545f",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "_Pdf/BMA-SCHEDULE-7.1.2023.pdf"
+          }
+        }
+      },
+      {
+        "id": "533e464e87616019",
+        "type": "leaf",
+        "state": {
+          "type": "Strange New Worlds",
+          "state": {}
+        }
+      },
+      {
+        "id": "b4a14e6d8ae44f36",
+        "type": "leaf",
+        "state": {
+          "type": "reminder-list",
+          "state": {}
+        }
+      },
+      {
+        "id": "50edc84ef40f68b0",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "8d17f04cc691db93",
+        "type": "leaf",
+        "state": {
+          "type": "podcast_player_view",
+          "state": {}
+        }
+      },
+      {
+        "id": "af62d434f6bfbf64",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {}
+        }
+      },
+      {
+        "id": "43c417071b9372d4",
+        "type": "leaf",
+        "state": {
+          "type": "todo",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "homepage:Open homepage": false,
+      "janitor:Janitor: scan vault": false,
+      "obsidian-plugin-update-tracker:Plugin Update Tracker": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-projects:Open projects": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-read-it-later:ReadItLater: Save clipboard": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "c209e1040301fb19",
+  "lastOpenFiles": [
+    "Home.md"
+  ]
+}

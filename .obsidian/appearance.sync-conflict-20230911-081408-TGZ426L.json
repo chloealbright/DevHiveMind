@@ -1,0 +1,12 @@
+{
+  "accentColor": "",
+  "cssTheme": "Royal Velvet",
+  "baseFontSize": 20,
+  "enabledCssSnippets": [
+    "dashboard",
+    "dashboard-ReadLineLength",
+    "shorter-links",
+    "customCallouts",
+    "Iterative Rainbow Folder Icons"
+  ]
+}

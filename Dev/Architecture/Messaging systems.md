@@ -1,0 +1,12 @@
+Another skill that a backend developer **needs to have is working with messaging systems**. Messaging systems are tools that enable asynchronous communication between different components of a system, such as services, applications, devices, etc. They allow sending and receiving messages that contain data or commands, without requiring a direct connection or a synchronous response.
+
+Messaging systems are useful for backend development because they enable:
+
+- Decoupling: Messaging systems reduce the dependencies and coupling between different components of a system, making them more modular and flexible.
+- Scalability: Messaging systems allow scaling up or down the number of components of a system, without affecting the communication or performance.
+- Reliability: Messaging systems provide features such as message persistence, delivery guarantees, retries, acknowledgments, etc. to ensure that messages are delivered and processed correctly and reliably.
+- Performance: Messaging systems improve the performance and responsiveness of a system by allowing parallel and concurrent processing of messages.
+
+There are different types of messaging systems, such as message brokers, message queues, message buses, etc. Message brokers are software that act as intermediaries between message producers and consumers. They provide features such as routing, filtering, transforming, aggregating, etc. to manage the flow of messages. Message queues are data structures that store messages in a FIFO (first-in-first-out) order until they are consumed. They provide features such as buffering, load balancing, fault tolerance, etc. to handle the load of messages. Message buses are software that connect different components of a system using a common communication channel. They provide features such as broadcasting, subscribing, publishing, etc. to enable event-driven communication.
+
+A backend developer needs to choose a messaging system that suits their project needs, such as latency, throughput, consistency, availability, etc. They also need to learn how to use a messaging framework or a library to create and manage their messaging system. A messaging framework or a library is a software that provides features and functionalities to simplify the development of messaging systems. Some examples of messaging frameworks and libraries are Apache Qpid, Apache ActiveMQ Artemis, Apache Kafka, etc.

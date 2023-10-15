@@ -1,0 +1,10 @@
+#.obsidian/
+.trash/
+.obsidian/plugins/obsidian-activity-history/
+.obsidian/workspace.*
+.obsidian/workspace-*
+.obsidian/community-plugins.*
+
+
+# Ignore Smart Connections folder because embeddings file is large and updated frequently
+.smart-connections

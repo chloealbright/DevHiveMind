@@ -8,7 +8,9 @@
 - [ ] [[Clean Code]]
 - [ ] [[Design Patterns.pdf]]
 - [ ] Domain-Driven Design (DDD) depending on domain patterns may vary
-- [ ] Microservices
+- [ ] [[Event Driven Architecture Solutions]] 
+- [ ] [[Reactive programming]]
+- [ ] [[Microservices]]
 - [x] [[12 Factor App Docker.canvas|12 Factor App Docker]]
 - [ ] Code Reusability
 - [ ] [[design-system.pdf]]

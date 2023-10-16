@@ -108,4 +108,3 @@ think about time and cost when it comes to advanced functionality keep things ba
 Spaghetti code a whole bunch of functions and variables everywhere decentralized basically functions and variables all over the place not very organized well
 
 
-![[Untethered]]

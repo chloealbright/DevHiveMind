@@ -5,9 +5,10 @@ Agile is a mindset where you apply different frameworks like scrum which is a it
 
 You have a product backlog that flows into Sprint backlog after Sprint planning 
 
+> [!note] Status
 > Committed
-Uncommitted
-Unplanned 
+> Uncommitted
+> Unplanned 
 
 Planning out documentations start something in one medium and then render it down to another and another until you reach the final form on the last platform an example of this is Excel spreadsheet PowerPoint to confluence/jira  
 

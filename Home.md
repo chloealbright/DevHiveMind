@@ -19,11 +19,7 @@ banner_x: 0.5
 	 ![[Dev Todo#^776056]]
 
 
-- 💰 Budget review
-	- [[Q1 2024]]
-	- [[Q2 2024]]
-	- [[Q3 2024]]
-	- [[Q4 2024]]
+
 
 
 - 🔖 Tagged:  favorite 
@@ -39,8 +35,7 @@ banner_x: 0.5
 	- [ ] [[Dev Roadmaps By Priority#New Path | New Path of Exploration]]
 	- [ ] [[Dev Roadmaps By Priority#Side Quest Revist |  Side Quest]]
 
--  Top PDF
-	-  [[BMA-SCHEDULE-7.1.2023.pdf]]
+
 
 
 - 🗄️ Recent file updates

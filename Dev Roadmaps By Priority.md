@@ -7,8 +7,8 @@
 #todo/High/Dev 
 - [ ] [[Clean Code]]
 - [ ] [[Design Patterns.pdf]]
-- [ ] Domain-Driven Design (DDD) depending on domain patterns may vary
 - [ ] [[Event Driven Architecture Solutions]] 
+	- [ ] [[Domain-driven design]]depends on domain which may vary
 - [ ] [[Reactive programming]]
 - [ ] [[Microservices]]
 - [x] [[12 Factor App Docker.canvas|12 Factor App Docker]]

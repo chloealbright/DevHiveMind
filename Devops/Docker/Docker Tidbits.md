@@ -2,15 +2,7 @@ Containerizing microservices ensures isolation.
 
 Having two "Copy" aids with dependencies through layered caching in Docker.
 
-The "Expose" command essentially binds the Docker port.
 
-For Docker run: 
-```bash
-docker run -p 5000:8080 --name containerName -d BaseImageName
-```
-The "-d" flag detaches, allowing background execution. Port 8080 or the Docker image exposed port is mapped to local port 5000 for browser access.
-
-You can even map the same port number so image port 5000 can mapped to local port 5000
 
 Consider using bind mounts for configuration or ENV files. Example:
 ```bash

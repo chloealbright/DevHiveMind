@@ -1,5 +1,15 @@
 Port binding: Your app should be self-contained and bind to a specific port  for external access. Docker enables you to expose and map container ports to host ports, allowing external access to the app through a designated port.
 
+`Expose` command in docker essentially exposes what port the container should listen on at runtime.
+
+ >[!example] Docker port Mapping: 
+```bash
+docker run -p 5000:8080 --name containerName -d BaseImageName
+```
+The "-d" flag detaches, allowing background execution. Port 8080 or the Docker image exposed port is mapped to local port 5000 for browser access.
+
+You can even map the same port number so image port 5000 can mapped to local port 5000
+
 ## Official Description
 ### Export services via port binding
 

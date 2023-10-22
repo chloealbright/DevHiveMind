@@ -53,4 +53,3 @@ The client's operating system handles the actual binding of the local port to th
 
 4. Dynamic Port Allocation: In client-server communication, the server is usually bound to a well-known or registered port (e.g., HTTP on port 80). On the client side, when an application initiates a connection to the server, the operating system assigns a dynamically available local port as the source port for the client application. This dynamic port allocation allows multiple clients on the same device to communicate with the server concurrently without conflicting port numbers.
 
-In summary, port binding is a crucial mechanism that allows network applications and services to communicate effectively over a network. By associating applications with specific port numbers, data packets can be directed to the appropriate applications, enabling smooth and efficient network communication.

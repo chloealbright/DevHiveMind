@@ -1,3 +1,11 @@
+---
+tags:
+  - scaling
+  - revist
+  - review
+  - refine
+  - systemDesign
+---
 Load balancing is a critical concept in the field of distributed systems and computer networking. It refers to the distribution of workloads across multiple computing resources to ensure optimal resource utilization, minimal response time, and high availability. Load balancing becomes particularly important in scenarios where a single server or resource is not sufficient to handle all incoming requests, which is common in high-traffic web applications, online services, and large-scale systems.
 
 Load balancing can be achieved through various methods, but two fundamental approaches are horizontal scaling and vertical scaling. Let's explore their relationship with load balancing:

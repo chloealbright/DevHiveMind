@@ -1,3 +1,11 @@
+---
+tags:
+  - scaling
+  - revist
+  - review
+  - refine
+  - systemDesign
+---
 ![[GetImage (19).png]]
 
 vertical and horizontal Scaling Can apply to many scopes like the Codebase Level with many Small process/MultithreadingProcesses or large fewer Processes and at higher scope in terms of microservices

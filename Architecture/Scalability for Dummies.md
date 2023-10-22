@@ -1,3 +1,11 @@
+---
+tags:
+  - scaling
+  - revist
+  - review
+  - refine
+  - systemDesign
+---
 But what about deployment? How can you make sure that a code change is sent to all your servers without one server still serving old code? This tricky problem is fortunately already solved by the great tool Capistrano. 
 
 After following Part 1 of this series, your servers can now horizontally scale and you can already serve thousands of concurrent requests. But somewhere down the road your application gets slower and slower and finally breaks down. The reason: your database. It’s MySQL, isn’t it? 

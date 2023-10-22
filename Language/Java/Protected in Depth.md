@@ -1,3 +1,7 @@
+---
+tags:
+  - accessModifier
+---
 In Java, the `protected` keyword is an access modifier that can be applied to class members (fields, methods, and nested classes) to control their visibility and accessibility within a class hierarchy. Here's an explanation of the `protected` keyword:
 
 scoped at parent package level

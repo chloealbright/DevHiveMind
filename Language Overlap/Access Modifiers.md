@@ -1,3 +1,8 @@
+---
+tags:
+  - accessModifier
+---
+
 ## Flashcard
 #modifiers
 which access modifier allows code visible to all classes;; public  
@@ -5,7 +10,7 @@ What access modifier is limited to classes;; private
 what modifier is limited to package;; protected  
 where can protected classes be accessed;; package and subclass
 Which access modifier has more scope private or protected;; protected  
-UML sign for access [[Protected]] modifier;; hashtag  
+UML sign for access [[Protected in Depth]] modifier;; hashtag  
 UML sign for access private modifier;; minus  
 UML sign for access public modifier;; plus  
 UML sign for mandatory;; asterisk  
@@ -22,27 +27,33 @@ UML sign for static member for attributes and methods;; underline or bold and un
 ^7de0bf
 
  ```java
- * Mandidtory
+ * Mandidtory  
  O Optional
 ```
-
+>[!note] Example 
+> "astrick sign" function-name
+> 0 function-name
 
 -  **public** - code is visible to all classes everywhere. 
 ```java
 + public
 ```
 
--  **private** - members can only be accessed in their class. 
+### Private
+- The `private` access modifier serves the essential purpose of restricting access to class members, which includes both variables and methods, to within the same class where they are defined. When a member is declared as `private`, it can only be accessed and modified within the class in which it is defined. This encapsulation effectively hides these members from other classes and objects. 
+
+- Private members play a crucial role in upholding the principle of encapsulation by concealing the internal implementation details of a class. This not only helps in maintaining data integrity but also prevents direct manipulation of the class's internal state by external code, thereby enhancing the overall robustness and security of the program or system.
 ```java
 - private
 ```
 
--  **[[Protected]]** - member can only be accessed within its package and by a subclass of its class in another package used a lot with UUID.
+-  **[[Protected in Depth | Protected]]** - member can only be accessed within its package and by a subclass of its class in another package used a lot with UUID.
 ```java
 # protected
 ```
 
-> Your access modifier strategy should use the most restrictive access level that makes sense for the specific member.  Also, avoid public fields except for constants.
+>[!note] Side Note
+>Your access modifier strategy should use the most restrictive access level that makes sense for the specific member.  Also, avoid public fields except for constants.
 
 
 ## Non-Access Modifiers 
@@ -54,9 +65,9 @@ UML sign for static member for attributes and methods;; underline or bold and un
 
 **These are the non-access modifiers for attributes and methods: 
 
--  Abstract - only be used in an abstract class and can only be used on methods. 
+- Abstract - only be used in an abstract class and can only be used on methods. 
 
-- final - both cannot be overridden or modified. 
+- Final - both cannot be overridden or modified. 
   
 -  [[Static methods | static ]]- both belong to the class and not the object. also in uml is represented by being underlined and a little bold. static members are used so, there will be one and only one copy of the member.
  

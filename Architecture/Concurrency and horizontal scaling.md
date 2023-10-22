@@ -1,3 +1,11 @@
+---
+tags:
+  - scaling
+  - revist
+  - review
+  - refine
+  - systemDesign
+---
 Concurrency and horizontal scaling are related but distinct concepts in the context of handling increased workloads in software applications. Here's the difference between the two:  
   
 1. **Concurrency**:  

@@ -32,7 +32,7 @@ However, it is common to see combinations of event-driven architecture with othe
 - Serverless architectures often leverage an event-driven model, where functions (FaaS) are triggered by events. This enables scalable and cost-efficient handling of specific functionalities.  
   
 **Streaming and Event-Driven Architecture:**  
-- Streaming platforms, such as Apache Kafka, can be used to implement event-driven architectures. They provide a scalable and resilient infrastructure for event streaming, enabling real-time communication between components.  
+- Streaming platforms, such as Apache Kafka(Includes Zookeeper), can be used to implement event-driven architectures. They provide a scalable and resilient infrastructure for event streaming, enabling real-time communication between components.  
   
 
 

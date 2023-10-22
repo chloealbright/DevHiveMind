@@ -6,6 +6,9 @@ that Provides a common I/O model
 
 also Abstract details Of underlying source or destination
 
+Stream handles iteration in Java
+
+
 Stream types are unidirectional
 
 You will either read from or write to a stream

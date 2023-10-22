@@ -2,6 +2,15 @@ Containerizing microservices ensures isolation.
 
 Having two "Copy" aids with dependencies through layered caching in Docker.
 
+Use official Docker images from companies or technologies like node official image  
+  
+  
+When managing security you basically doing Linux commands  
+  
+Doing Docker RUN then whatever links command around permissions  
+  
+And Docker USER
+
 
 
 Consider using bind mounts for configuration or ENV files. Example:

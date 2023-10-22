@@ -1,3 +1,10 @@
+Back pressure is a concept typically associated with asynchronous programming and reactive systems, where it's used to handle situations where a downstream component can't keep up with the rate of data being produced by an upstream component. In synchronous code, back pressure doesn't apply in the same way because the execution is typically blocking, meaning the producer will wait for the consumer to process the data.
+
+So, the statement is not entirely accurate. Back pressure is more relevant in asynchronous code.
+
+
+
+
 Back pressure is a crucial concept in the context of event-driven architecture and reactive programming, especially when dealing with asynchronous systems and data streams. Let's break down the concept in both contexts:  
   
 ### Event-Driven Architecture:  

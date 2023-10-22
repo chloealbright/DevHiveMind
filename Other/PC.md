@@ -1,4 +1,4 @@
-![[unnamed (8).jpg]]
+![[_Files/giphy.gif]]
 
 ## Bios
 Remove CMOS battery then flash old bios without gpu
@@ -29,23 +29,6 @@ As for the second slot, it will be disabled if you are using PCIe slots below th
   
 Also, the m.2 on the top is better so I can use that for Windows and the other for Linux
 
-
-# Old Router
-
-DlinkVerizon  
-  
-Galaxyfiber22  
-GalaxyAD  
-  
-Defaults  
-  
-Wi-Fi Name(SSID): dlink-0DB8  
-  
-Password: skcae26812  
-  
-  
-Username: "Admin"  
-Password: blannk
 
 
 # Pc Measurement

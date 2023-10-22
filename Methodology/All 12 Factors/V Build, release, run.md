@@ -1,4 +1,13 @@
-Build, release, run: Docker standardizes the build, release, and run stages of your app in language/runtime/OS agnostic manner. The app can be built using a Dockerfile, released as a container image, and then run in any environment that supports Docker, providing consistency and reproducibility. While also improving things like scalability, load balancing, monitoring and alerting.
+---
+tags:
+  - deployment
+  - phases
+---
+The activities of building, releasing, and running an application typically occur within the "Deployment and Maintenance" stage or phase of the application development lifecycle.
+
+[[Build]], [[Release]], [[Run]]: Docker standardizes the build, release, and run stages of your app in language/runtime/OS agnostic manner. The app can be built using a Dockerfile, released as a container image, and then run in any environment that supports Docker, providing consistency and reproducibility. While also improving things like scalability, load balancing, monitoring and alerting.
+
+These activities are tightly connected and usually occur within the Deployment and Maintenance stage because they are related to transitioning the application from the development and testing environment to the production environment. It's also within this stage that ongoing maintenance and support are provided to ensure the application runs smoothly and remains available to users.
 
 ## Official Description
 ### Strictly separate build and run stages
@@ -20,7 +29,7 @@ Every release should always have a unique release ID, such as a timestamp of the
 Builds are initiated by the app’s developers whenever new code is deployed. Runtime execution, by contrast, can happen automatically in cases such as a server reboot, or a crashed process being restarted by the process manager. Therefore, the run stage should be kept to as few moving parts as possible, since problems that prevent an app from running can cause it to break in the middle of the night when no developers are on hand. The build stage can be more complex, since errors are always in the foreground for a developer who is driving the deploy.
 
 ## Flashcard
-#devOps
-what is the first stages of a application;; build
-what is the second stages of a application;; release
-what is the third stages of a application;; run
+#devops
+what is the first stages of a application;;build
+what is the second stages of a application;;release
+what is the third stages of a application;;run

@@ -1,7 +1,7 @@
 {
-  "collapse-filter": false,
-  "search": "",
-  "showTags": false,
+  "collapse-filter": true,
+  "search": "tag:#systemDesign  ",
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
@@ -18,5 +18,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 1.0136432647705078,
-  "close": true
+  "close": false
 }

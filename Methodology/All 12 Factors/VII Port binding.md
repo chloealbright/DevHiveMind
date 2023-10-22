@@ -1,4 +1,7 @@
-Port binding: Your app should be self-contained and bind to a specific port  for external access. Docker enables you to expose and map container ports to host ports, allowing external access to the app through a designated port.
+Port binding: Your app should be self-contained and bind to a specific port  for external access. Docker enables you to expose and map container ports to host ports, allowing external access to the app through a designated port. 
+
+Your application's code should be designed to read configuration, including port numbers, from environment variables or configuration files weather you doing this locally or in a staging 
+
 
 `Expose` command in docker essentially exposes what port the container should listen on at runtime.
 

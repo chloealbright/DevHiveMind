@@ -1,1 +1,0 @@
-When you select build, it just compiles everything together. However, when you select run, it does the build process, but it also executes your project.

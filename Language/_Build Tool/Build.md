@@ -1,6 +1,19 @@
+---
+tags:
+  - refine
+---
 In a programming context, a build is a version of a program that, as a rule, is a pre-release version and is identified by a build number rather than by a release number. Simply put, a software build is a set of executable code that is ready for use by customers. 
 
 Build is a compiled version of a program. Compile means, convert (a program) into a machine-code or lower-level form in which the program can be executed. 
+
+
+
+Building an application involves compiling the source code and assembling all the necessary components to create an executable version of the software.  
+
+This process often includes tasks such as compiling code, linking libraries, packaging assets, and creating installation packages or container images.  
+
+
+
 
 The "Build" is a process that covers all the steps required to create a "deliverable" of your software. In the Java world, this typically includes: 
 

@@ -1,6 +1,21 @@
 Reformat with other notes from [[Test Cases]]
 
 
+### Simple Test Cases:
+
+- Simple test cases are designed to test the most common and straightforward scenarios of a software application.
+- They typically cover typical user interactions and expected behaviors.
+- These test cases are often used to verify that the software functions as intended under standard conditions.
+- Simple test cases may not always uncover subtle or rare issues in the software.
+
+### Base Test Cases:
+
+- Base test cases are the most straightforward inputs and expected outputs for a problem.
+- Focus on these first to ensure your code handles the fundamental requirements correctly.
+
+
+
+
 ### Edge Case Testing
 
 Edge cases are errors that occur very infrequently. These errors can be as minor as a visual inconsistency or as serious as a total software crash. In order to root out these edge cases before they become an issue, regression testing can be employed to find the source of the problem.

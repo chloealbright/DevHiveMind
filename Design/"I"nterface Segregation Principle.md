@@ -1,6 +1,7 @@
 ---
 tags:
   - SOLID
+  - refine
 ---
 
 ## Interface Segregation Principle (ISP)

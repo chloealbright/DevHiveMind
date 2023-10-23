@@ -110,3 +110,11 @@ The caller would set the required `Dependency` object in the `DependencyContext`
 
 
 These models illustrate different ways to implement dependency injection in software systems. The choice of model depends on the specific requirements of the project, programming language, and the framework or libraries being used.
+
+
+
+
+
+In the SOLID principles of object-oriented programming, the "D" stands for "Dependency Inversion," not "Dependency Injector." The SOLID principles are a set of five design principles that aim to create more maintainable and understandable software. Dependency Inversion is the fifth principle, and it emphasizes that high-level modules (abstractions) should not depend on low-level modules (concrete implementations), but both should depend on abstractions.  
+  
+In contrast, "Dependency Injector" typically refers to a design pattern or mechanism used to implement Dependency Injection, which is a related concept but not part of the SOLID principles. Dependency Injection is a technique that helps achieve the Dependency Inversion principle by injecting dependencies (often through constructor parameters) into a class rather than having the class create or manage its dependencies internally.

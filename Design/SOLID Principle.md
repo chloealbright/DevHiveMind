@@ -1,12 +1,6 @@
 
 
-## O — pen/Closed Principle
 
-Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.
-
-Whenever you need to add additional behaviors, or methods, you don’t have to modify the existing one, instead, you start writing new methods.
-
-Because, _What if you changed a behavior of an object, where some other parts of the system depends on it?_. So, you need to change also every single part in the software that has a dependency with that object, and check the logic, and do some extra testing.
 
 ## L — iskov Substitution Principle
 

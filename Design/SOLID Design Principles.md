@@ -1,34 +1,32 @@
 
 ## "S"ingle Responsibility Principle
 
-Single Responsibility Principle is another SOLID design principle and represents “S” on the SOLID acronym. As per SRP, there should not be more than one reason for a class to change, or a level should always handle single functionality.
-
-> _The key benefit of this principle is that it reduces coupling between the individual component of the software and Code._
-
-For example, If you put more than one functionality in one Class in Java, it introduces **coupling** between two functionality, and even if you change one feature, there is a chance you broke coupled functionality, which requires another round of testing to avoid any surprise on the production environment.
-
-## S — ingle Responsibility Principle
-
-An object should have one and only one responsibility.
+Single Responsibility Principle is another SOLID design principle were you should have functions, classes, or objects should have one and only one responsibility.
 
 You don’t need to have an object that does different or many tasks. An object can have many behaviors and methods, but all of them are relevant to it’s single responsibility.
 
 So, whenever there is a change that needs to happen, there will be only one class to be modified, this class has one primary responsibility.
 
 
-## Open Closed Design Principle
+> _The key benefit of this principle is that it reduces coupling between the individual component of the software and Code._
 
-According to tho this OOP design principle, “Classes, methods or functions should be Open for extension (new functionality) and Closed for modification.”
+For example, If you put more than one functionality in one Class in Java, it introduces **coupling** between two functionality, and even if you change one feature, there is a chance you broke coupled functionality, which requires another round of testing to avoid any surprise on the production environment.
+
+
+## "O"pen Closed Design Principle
+
+According to tho this OOP design principle, software entities like (“Classes, modules, methods, functions, etc...) should be Open for extension (new functionality) and Closed for modification.”
+
+Whenever you need to add additional behaviors, or methods, you don’t have to modify the existing one, instead, you start writing new methods.
 
 This is another beautiful SOLID design principle, coined by Uncle Bob on his classic [**Clean Codebook**](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882?tag=javamysqlanta-20), which prevents someone from changing already tried and tested code.
 
 > _The key benefit of this design principle is that already tried and tested code is not touched which means they won’t break._
 
-Here is a Java code example that _violates_ the Open-Closed Design Principle of Programming:
 
-[  
-](https://javarevisited.blogspot.com/2018/02/10-courses-to-prepare-for-programming-job-interviews.html)
 
+
+Because, _What if you changed a behavior of an object, where some other parts of the system depends on it?_. So, you need to change also every single part in the software that has a dependency with that object, and check the logic, and do some extra testing.
 
 
 ## Liskov Substitution Principle (LSP)

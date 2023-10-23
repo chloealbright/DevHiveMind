@@ -1,7 +1,6 @@
 ---
 tags:
   - SOLID
-  - refine
 ---
 Don’t ask for dependency; it will be provided to you by the framework. This has been very well implemented in the [Spring framework](http://www.java67.com/2017/11/top-5-free-core-spring-mvc-courses-learn-online.html), one of the most popular Java frameworks for writing real-worth applications.
 
@@ -10,29 +9,13 @@ Don’t ask for dependency; it will be provided to you by the framework. This ha
 There are multiple ways to implemented [**Dependency injection**](http://javarevisited.blogspot.com/2012/12/inversion-of-control-dependency-injection-design-pattern-spring-example-tutorial.html) like using bytecode instrumentation, which some AOP (Aspect Oriented Programming) framework like AspectJ does or by using proxies just like used in Spring.
 
 
+In Dependency Inversion:
+
+1. High-level modules (abstractions or interfaces) should not depend on low-level modules (concrete implementations). Both should depend on abstractions.
+2. Abstractions should not depend on details. Details should depend on abstractions.
 
 
-## D — ependency Inversion Principle
-
-Try to minimize the dependency between objects by using abstraction.
-
-If for example you have a _App_ class that depends on very specialized classes; _Database_ and _Mail_ (dependencies).
-
-Instead, we could have _App_ object that deals with _Service_ class, which is more abstract, rather than something very specific. So, now the _App_ class is not dependent on the concrete classes, but on abstraction.
-
-And the benefit of that is we are able to replace and extend the functionality of _Service_ class without changing the _App_ class at all.
-
-Perhaps we can replace the _Database_ and _Mail_ classes, or add additional classes like _Logger_ and _Auth_ as well.
-
-
-
-
-
-
-
-Certainly! Let's illustrate the Dependency Inversion Principle with a TypeScript example. In this example, we'll create a simple notification system where a high-level module (`NotificationService`) depends on low-level modules that implement specific notification methods. We'll apply the Dependency Inversion Principle to decouple these dependencies using interfaces.
-
-Here's the TypeScript code:
+In this example, we'll create a simple notification system where a high-level module (`NotificationService`) depends on low-level modules that implement specific notification methods. We'll apply the Dependency Inversion Principle to decouple these dependencies using interfaces. Here's the TypeScript code:
 
 ```typescript
 // Abstraction: Define an interface for notification methods

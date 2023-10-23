@@ -1,3 +1,7 @@
+---
+tags:
+  - favorite
+---
 In Obsidian, the caret symbol (`^`) is used as a prefix to activate various functions and features within the application. It is part of Obsidian's internal syntax and has specific uses in the context of note-taking and linking within the software. Here are a few notable ways the caret symbol is used in Obsidian:
 
 1. Tagging: By prefixing a word with a caret (`^`), Obsidian interprets it as a tag. Tags are useful for organizing and categorizing your notes. For example, if you write `^important` in a note, it becomes a tag that you can later use to filter and search for notes tagged as "important".

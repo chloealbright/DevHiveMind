@@ -102,7 +102,7 @@ Some of these words <ins>will be underlined</ins>.
 
 
 ## Callout Stuff another form of blockqoutes
-![callouts](callouts.md)
+![Callouts](Callouts.md)
 
 
 

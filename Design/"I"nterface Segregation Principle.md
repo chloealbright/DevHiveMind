@@ -3,9 +3,6 @@ tags:
   - SOLID
   - refine
 ---
-
-## Interface Segregation Principle (ISP)
-
 The interface Segregation Principle states that a client should not implement an [interface](http://javarevisited.blogspot.com/2012/04/10-points-on-interface-in-java-with.html) if it doesn’t use that.
 
 This happens mostly when one interface contains more than one functionality, and the client only needs one feature and no other.

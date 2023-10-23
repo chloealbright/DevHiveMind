@@ -1,3 +1,8 @@
+---
+tags:
+  - SOLID
+  - refine
+---
 A dependency injector is a component or framework that facilitates the process of managing and resolving dependencies in a software system. It provides mechanisms to automatically instantiate and inject dependencies into classes, relieving developers from manually wiring dependencies together.
 
 A dependency injector typically follows a set of principles:

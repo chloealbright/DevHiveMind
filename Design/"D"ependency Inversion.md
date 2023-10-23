@@ -1,6 +1,7 @@
 ---
 tags:
   - SOLID
+  - refine
 ---
 
 ## Dependency Injection or Inversion principle

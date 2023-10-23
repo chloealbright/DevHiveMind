@@ -1,3 +1,7 @@
+---
+tags:
+  - SOLID
+---
 According to tho this OOP design principle, software entities like (“Classes, modules, methods, functions, etc...) should be Open for extension (new functionality) and Closed for modification.”
 
 Whenever you need to add additional behaviors, or methods, you don’t have to modify the existing one, instead, you start writing new methods.

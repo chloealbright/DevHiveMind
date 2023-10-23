@@ -1,3 +1,7 @@
+---
+tags:
+  - SOLID
+---
 
 ## Dependency Injection or Inversion principle
 

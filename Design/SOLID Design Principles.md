@@ -4,6 +4,7 @@ tags:
   - CleanPrinciples
   - ClassStructure
   - MacroCodebaseDecision
+  - SOLID
 ---
 [["S"ingle Responsibility Principle]]
 [["O"pen Closed Design Principle]]

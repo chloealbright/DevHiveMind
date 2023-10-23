@@ -1,3 +1,7 @@
+---
+tags:
+  - SOLID
+---
 
 ## Interface Segregation Principle (ISP)
 

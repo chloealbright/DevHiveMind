@@ -1,3 +1,7 @@
+---
+tags:
+  - SOLID
+---
 Single Responsibility Principle is another SOLID design principle were you should have functions, classes, or objects should have one and only one responsibility.
 
 You don’t need to have an object that does different or many tasks. An object can have many behaviors([[Functions rules#Have No Side Effects | side effects]]) and methods, but all of them are relevant to it’s single responsibility.

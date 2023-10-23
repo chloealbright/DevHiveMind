@@ -1,3 +1,7 @@
+---
+tags:
+  - SOLID
+---
 
 According to the Liskov Substitution Principle, Subtypes must be substitutable for supertype I mean methods or functions which use superclass type must be able to work with the [object](http://javarevisited.blogspot.com/2012/12/what-is-object-in-java-or-oops-example.html) of subclass without any issue”.
 

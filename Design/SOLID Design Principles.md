@@ -1,16 +1,7 @@
-
-## "S"ingle Responsibility Principle
-
-Single Responsibility Principle is another SOLID design principle were you should have functions, classes, or objects should have one and only one responsibility.
-
-You don’t need to have an object that does different or many tasks. An object can have many behaviors and methods, but all of them are relevant to it’s single responsibility.
-
-So, whenever there is a change that needs to happen, there will be only one class to be modified, this class has one primary responsibility.
-
-
-> _The key benefit of this principle is that it reduces coupling between the individual component of the software and Code._
-
-For example, If you put more than one functionality in one Class in Java, it introduces **coupling** between two functionality, and even if you change one feature, there is a chance you broke coupled functionality, which requires another round of testing to avoid any surprise on the production environment.
+[["S"ingle Responsibility Principle]]
+[["O"pen Closed Design Principle]]
+[["L"iskov Substitution Principle]]
+[["I"nterface Segregation Principle]]
 
 
 ## "O"pen Closed Design Principle
@@ -19,14 +10,14 @@ According to tho this OOP design principle, software entities like (“Classes, 
 
 Whenever you need to add additional behaviors, or methods, you don’t have to modify the existing one, instead, you start writing new methods.
 
-This is another beautiful SOLID design principle, coined by Uncle Bob on his classic [**Clean Codebook**](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882?tag=javamysqlanta-20), which prevents someone from changing already tried and tested code.
+Because, _What if you changed a behavior of an object, where some other parts of the system depends on it?_. So, you need to change also every single part in the software that has a dependency with that object, and check the logic, and do some extra testing.
 
 > _The key benefit of this design principle is that already tried and tested code is not touched which means they won’t break._
 
 
 
 
-Because, _What if you changed a behavior of an object, where some other parts of the system depends on it?_. So, you need to change also every single part in the software that has a dependency with that object, and check the logic, and do some extra testing.
+
 
 
 ## Liskov Substitution Principle (LSP)
@@ -40,6 +31,13 @@ LSP is closely related **to the Single responsibility principle** and **Inter
 In order to follow [LSP SOLID design principle](https://click.linksynergy.com/deeplink?id=JVFxdTr9V80&mid=39197&murl=https%3A%2F%2Fwww.udemy.com%2Fsolid-principles-object-oriented-design-architecture%2F), derived class or subclass must enhance functionality, but not reduce them. LSP represents “L” on the SOLID acronym.
 
 
+## L — iskov Substitution Principle
+
+A super class can be replaced by any of it’s inheriting sub classes at any parts of the system without any change in the code.
+
+It means that the sub classes should extend the functionality of the super class without overriding it.
+
+That’s why we’ve mentioned ealier in [Class Diagram](https://medium.com/omarelgabrys-blog/e7535090824c) that it’s not a good case practice to override the methods of the super class in inheritance.
 
 
 ##  Interface Segregation Principle (ISP)
@@ -52,6 +50,14 @@ There is no doubt that Interface design is a tricky job because once you release
 
 > _Another benefit of this design principle in Java is, the interface has the disadvantage of implementing all method before any class can use it so having single functionality means less method to implement._
 
+## I — nterface Segregation Principle
+
+==Interfaces should be specific rather than doing many and different things.==
+
+That’s because any implementing class will only implement the specific needed interfaces rather than being forced to implement methods that it doesn’t need it.
+
+So, large interfaces should be decomposed into smaller, more specific ones.
+
 
 ## Dependency Injection or Inversion principle
 
@@ -62,3 +68,16 @@ Don’t ask for dependency; it will be provided to you by the framework. This ha
 There are multiple ways to implemented [**Dependency injection**](http://javarevisited.blogspot.com/2012/12/inversion-of-control-dependency-injection-design-pattern-spring-example-tutorial.html) like using bytecode instrumentation, which some AOP (Aspect Oriented Programming) framework like AspectJ does or by using proxies just like used in Spring.
 
 You can further see the [**SOLID Principles of Object-Oriented Design and Architecture**](https://click.linksynergy.com/deeplink?id=JVFxdTr9V80&mid=39197&murl=https%3A%2F%2Fwww.udemy.com%2Fsolid-principles-object-oriented-design-architecture%2F) course on Udemy to learn more about this useful principle. It also represents “D” on the SOLID acronym.
+
+
+## D — ependency Inversion Principle
+
+Try to minimize the dependency between objects by using abstraction.
+
+If for example you have a _App_ class that depends on very specialized classes; _Database_ and _Mail_ (dependencies).
+
+Instead, we could have _App_ object that deals with _Service_ class, which is more abstract, rather than something very specific. So, now the _App_ class is not dependent on the concrete classes, but on abstraction.
+
+And the benefit of that is we are able to replace and extend the functionality of _Service_ class without changing the _App_ class at all.
+
+Perhaps we can replace the _Database_ and _Mail_ classes, or add additional classes like _Logger_ and _Auth_ as well.

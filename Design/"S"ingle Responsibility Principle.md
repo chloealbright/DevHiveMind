@@ -1,4 +1,13 @@
-Certainly! The Single Responsibility Principle (SRP) is one of the SOLID principles in object-oriented programming, emphasizing that a class should have only one reason to change. Here are examples in different programming languages:
+Single Responsibility Principle is another SOLID design principle were you should have functions, classes, or objects should have one and only one responsibility.
+
+You don’t need to have an object that does different or many tasks. An object can have many behaviors and methods, but all of them are relevant to it’s single responsibility.
+
+So, whenever there is a change that needs to happen, there will be only one class to be modified, this class has one primary responsibility.
+
+
+> _The key benefit of this principle is that it reduces coupling between the individual component of the software and Code._
+
+For example, If you put more than one functionality in one Class in Java, it introduces **coupling** between two functionality, and even if you change one feature, there is a chance you broke coupled functionality, which requires another round of testing to avoid any surprise on the production environment.
 
 1. **Java:**
    ```java

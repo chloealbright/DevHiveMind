@@ -1,5 +1,5 @@
 
-## Single Responsibility Principle (SRP)
+## "S"ingle Responsibility Principle
 
 Single Responsibility Principle is another SOLID design principle and represents “S” on the SOLID acronym. As per SRP, there should not be more than one reason for a class to change, or a level should always handle single functionality.
 
@@ -7,7 +7,13 @@ Single Responsibility Principle is another SOLID design principle and represents
 
 For example, If you put more than one functionality in one Class in Java, it introduces **coupling** between two functionality, and even if you change one feature, there is a chance you broke coupled functionality, which requires another round of testing to avoid any surprise on the production environment.
 
+## S — ingle Responsibility Principle
 
+An object should have one and only one responsibility.
+
+You don’t need to have an object that does different or many tasks. An object can have many behaviors and methods, but all of them are relevant to it’s single responsibility.
+
+So, whenever there is a change that needs to happen, there will be only one class to be modified, this class has one primary responsibility.
 
 
 ## Open Closed Design Principle

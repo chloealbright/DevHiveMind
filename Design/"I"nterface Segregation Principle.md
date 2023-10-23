@@ -1,3 +1,26 @@
+
+## Interface Segregation Principle (ISP)
+
+The interface Segregation Principle states that a client should not implement an [interface](http://javarevisited.blogspot.com/2012/04/10-points-on-interface-in-java-with.html) if it doesn’t use that.
+
+This happens mostly when one interface contains more than one functionality, and the client only needs one feature and no other.
+
+There is no doubt that Interface design is a tricky job because once you release your interface, you can not change it without breaking all implementation. Well, Java 8’s [default or defender method](https://javarevisited.blogspot.com/2014/07/default-defender-or-extension-method-of-Java8-example-tutorial.html#axzz5kO8vmDxy) feature does provide a way for interface evolution, but not all Programming languages support those features.
+
+> _Another benefit of this design principle in Java is, the interface has the disadvantage of implementing all method before any class can use it so having single functionality means less method to implement._
+
+## I — nterface Segregation Principle
+
+==Interfaces should be specific rather than doing many and different things.==
+
+That’s because any implementing class will only implement the specific needed interfaces rather than being forced to implement methods that it doesn’t need it.
+
+So, large interfaces should be decomposed into smaller, more specific ones.
+
+
+
+
+
 interface is a blueprint that can be used to implement a class. The interface does not contain any concrete methods (methods that have code). All the methods of an interface are abstract methods. 
 
 An interface cannot be instantiated(represent as or by an instance.). However, classes that implement interfaces can be instantiated. Interfaces never contain instance variables but, they can contain public static final variables (i.e., constant class variables) 

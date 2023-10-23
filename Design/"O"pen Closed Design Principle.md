@@ -1,4 +1,13 @@
-The Open/Closed Principle (OCP) states that a class should be open for extension but closed for modification. Here are examples in different programming languages:
+According to tho this OOP design principle, software entities like (“Classes, modules, methods, functions, etc...) should be Open for extension (new functionality) and Closed for modification.”
+
+Whenever you need to add additional behaviors, or methods, you don’t have to modify the existing one, instead, you start writing new methods.
+
+Because, _What if you changed a behavior of an object, where some other parts of the system depends on it?_. So, you need to change also every single part in the software that has a dependency with that object, and check the logic, and do some extra testing.
+
+> _The key benefit of this design principle is that already tried and tested code is not touched which means they won’t break._
+
+
+
 
 1. **Java:**
    ```java

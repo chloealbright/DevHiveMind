@@ -7,7 +7,7 @@ A super class can be replaced by any of it’s inheriting sub classes at any par
 
 It means that the sub classes should extend the functionality of the super class without overriding it.
 
-That’s why we’ve mentioned ealier in [Class Diagram](https://medium.com/omarelgabrys-blog/e7535090824c) that it’s not a good case practice to override the methods of the super class in inheritance.
+That’s why we’ve mentioned earlier in [Class Diagram](https://medium.com/omarelgabrys-blog/e7535090824c) that it’s not a good case practice to override the methods of the super class in inheritance.
 
 >[!note] LSP is closely related **to the Single responsibility principle** and **Interface Segregation Principle**.
 

@@ -11,7 +11,7 @@
 		{"type":"text","text":"<center>\n  <h2 style=\"font-size: 50px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\">App Image </h4>\n</center>\n","id":"40d8167c3b499805","x":-639,"y":-958,"width":273,"height":179,"color":"#00e7eb"},
 		{"type":"file","file":"Methodology/Docker Twelve Factors App/II Dependencies.md","id":"4b093dc34d75dc9c","x":-703,"y":-610,"width":400,"height":340,"color":"1"},
 		{"type":"text","text":"### [[Stateless Processes]]","id":"319ef13acab5892f","x":1200,"y":-760,"width":360,"height":60,"color":"4"},
-		{"type":"text","text":"### horizontal Scaling","id":"7add0137b6a9879f","x":1200,"y":-700,"width":360,"height":60,"color":"4"},
+		{"type":"text","text":"### [[Vertical vs Horizontal scaling | Horizontal Scaling]]","id":"7add0137b6a9879f","x":1200,"y":-700,"width":360,"height":60,"color":"4"},
 		{"type":"file","file":"Methodology/Docker Twelve Factors App/XII Admin processes.md","id":"17c6061aaa8ed807","x":1120,"y":-1774,"width":400,"height":400,"color":"#0084ff"},
 		{"type":"file","file":"Methodology/Docker Twelve Factors App/VIII Concurrency.md","id":"995591e94a2b12d7","x":1120,"y":-1250,"width":400,"height":400,"color":"#0084ff"},
 		{"type":"text","text":"### Load Balancing","id":"f73640ddf1ef4869","x":1200,"y":-640,"width":360,"height":60,"color":"4"},

@@ -7,9 +7,6 @@ tags:
   - systemDesign
 ---
 ![[GetImage (19).png]]
-
-vertical and horizontal Scaling Can apply to many scopes like the Codebase Level with many Small process/MultithreadingProcesses or large fewer Processes and at higher scope in terms of microservices
-
 # Horizontal scaling  
 
 Horizontal scaling (aka scaling out) refers to adding additional nodes or machines to your infrastructure to cope with new demands. If you are hosting an application on a server and find that it no longer has the capacity or capabilities to handle traffic, adding a server may be your solution. 
@@ -61,3 +58,21 @@ Less complex process communication - When a single node handles all the layers o
 Less complicated maintenance - Not only is maintenance cheaper but it is less complex because of the number of nodes you will need to manage.  
 
 Less need for software changes - You are less likely to change how the software on a server works or how it is implemented.
+
+
+
+# Microservice Scaling
+At a higher scope, in terms of microservices, you can apply both vertical and horizontal scaling as well. Vertical scaling might involve optimizing the performance of a single microservice, while horizontal scaling can involve deploying multiple instances of a microservice to handle increased loads. This is a common approach in microservices architectures to achieve scalability and fault tolerance.
+
+
+## Horizontal Scaling (Microservices):
+   - In microservices, horizontal scaling means adding more instances of the same service to distribute the load and improve redundancy.
+   - Instead of making a single service more powerful, you add more identical instances of the service to handle more requests and increase fault tolerance.
+   - Horizontal scaling is beneficial when the system needs to handle increased traffic and needs redundancy and high availability.
+
+
+## Vertical Scaling (Microservices):
+- In microservices architecture, vertical scaling involves increasing the resources (CPU, memory, etc.) of a single service or component to handle increased load or demand.
+   - This means that you're making the existing service more powerful by adding more capacity to it.
+   - Vertical scaling is suitable when a specific microservice is a performance bottleneck, and you want to optimize it by enhancing its capabilities.
+

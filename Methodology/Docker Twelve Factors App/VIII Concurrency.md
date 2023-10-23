@@ -2,4 +2,9 @@ Concurrency: The app should scale out horizontally by adding more processes, rat
 
 In the context of the springboot app from Cre8tive the [[Eureka service]] helps with concurrency.
 
+## Relating Topics
+[[Concurrency Vs Horizontal scaling]]
+[[Concurrent programming]]
+
+
 ![[Twelve Factor App Concurrency]]

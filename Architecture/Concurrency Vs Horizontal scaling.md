@@ -1,15 +1,12 @@
 ---
 tags:
   - scaling
-  - revist
-  - review
-  - refine
   - systemDesign
 ---
+## Concurrency  
+
 Concurrency and horizontal scaling are related but distinct concepts in the context of handling increased workloads in software applications. Here's the difference between the two:  
-  
-1. **Concurrency**:  
-  
+
 - **Definition**: Concurrency refers to an application's ability to execute multiple tasks or processes simultaneously. It's about efficiently managing and executing multiple tasks concurrently within a single instance of the application.  
   
 - **Key Points**:  
@@ -19,7 +16,7 @@ Concurrency and horizontal scaling are related but distinct concepts in the cont
   
 - **Example**: In a web server, concurrency is the ability to handle multiple incoming HTTP requests simultaneously by efficiently managing and processing them concurrently within the same server instance.  
   
-2. **Horizontal Scaling**:  
+## Horizontal Scaling  
   
 - **Definition**: Horizontal scaling, also known as scaling out, involves adding more instances of the application to distribute the workload. It's a strategy for handling increased demand by creating multiple, separate instances of the application.  
   

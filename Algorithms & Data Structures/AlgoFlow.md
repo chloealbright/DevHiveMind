@@ -3,7 +3,7 @@ tags:
   - codeFlow
   - editMerge
 ---
-![[2023-10-24 13.59.45 miro.com 5ef3ca43d8a7.png]]
+![[2023-10-24 16.03.28 miro.com 54a50b4177fe.png]]
 When reading documentation about a Framework, Library, language, technology, or new features always learn about why something was created.  
 
 algo design 

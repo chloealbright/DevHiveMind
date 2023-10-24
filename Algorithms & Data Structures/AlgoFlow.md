@@ -1,5 +1,4 @@
-![[_Files/Algo/GetImage (1).jpeg]]
-
+![[1_RDwwM_zTqRTuuzR25BgU9w.webp]]
 When reading documentation about a Framework, Library, language, technology, or new features always learn about why something was created.  
 
 algo design 

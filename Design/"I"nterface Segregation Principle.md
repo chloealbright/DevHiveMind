@@ -1,61 +1,36 @@
 ---
 tags:
   - SOLID
-  - refine
 ---
-The interface Segregation Principle states that a client should not implement an [interface](http://javarevisited.blogspot.com/2012/04/10-points-on-interface-in-java-with.html) if it doesn’t use that.
+**The Interface Segregation Principle** states that a client should not implement an [interface](http://javarevisited.blogspot.com/2012/04/10-points-on-interface-in-java-with.html) if it doesn't use all of its functionality. This often occurs when an interface contains multiple features, but the client only requires one of them. Interfaces should be specific, focusing on individual tasks rather than trying to do many different things.
 
-This happens mostly when one interface contains more than one functionality, and the client only needs one feature and no other.
+The reasoning behind this principle is to ensure that implementing classes only include the specific interfaces they need, rather than being forced to implement methods they have no use for. Therefore, it's advisable to break down large interfaces into smaller, more specialized ones.
 
-There is no doubt that Interface design is a tricky job because once you release your interface, you can not change it without breaking all implementation. Well, Java 8’s [default or defender method](https://javarevisited.blogspot.com/2014/07/default-defender-or-extension-method-of-Java8-example-tutorial.html#axzz5kO8vmDxy) feature does provide a way for interface evolution, but not all Programming languages support those features.
+Developing interfaces requires careful consideration since once an interface is released, it cannot be modified without potentially breaking existing implementations. Java 8 introduced [default or defender methods](https://javarevisited.blogspot.com/2014/07/default-defender-or-extension-method-of-Java8-example-tutorial.html#axzz5kO8vmDxy) to facilitate interface evolution, but not all programming languages support such features.
 
-> _Another benefit of this design principle in Java is, the interface has the disadvantage of implementing all method before any class can use it so having single functionality means less method to implement._
+One notable benefit of adhering to this design principle in Java is that having single-function interfaces results in fewer methods that need to be implemented. This keeps code more concise and focused.
 
-## I — nterface Segregation Principle
+**Key Points about Interfaces:**
 
-==Interfaces should be specific rather than doing many and different things.==
+- An interface serves as a blueprint for implementing a class. It does not contain concrete methods with code; all methods are abstract.
+- You cannot instantiate an interface, but classes implementing interfaces can be instantiated.
+- Interfaces do not have instance variables but can include public static final variables (constant class variables).
+- Interfaces are essential for achieving abstraction, dynamic method resolution at runtime, loose coupling, and separating method definitions from the inheritance hierarchy.
+- When you anticipate multiple implementations of something, using interfaces is a good practice.
 
-That’s because any implementing class will only implement the specific needed interfaces rather than being forced to implement methods that it doesn’t need it.
+In Java, it's recommended to **program for the interface, not the implementation.** This approach leads to flexible code that can work with any new implementation of the interface. In practical terms, use interface types for variables, return types of methods, or argument types. For example, use:
 
-So, large interfaces should be decomposed into smaller, more specific ones.
+```java
+List numbers = getNumbers();
+```
 
+instead of:
 
+```java
+ArrayList numbers = getNumbers();
+```
 
-
-
-interface is a blueprint that can be used to implement a class. The interface does not contain any concrete methods (methods that have code). All the methods of an interface are abstract methods. 
-
-An interface cannot be instantiated(represent as or by an instance.). However, classes that implement interfaces can be instantiated. Interfaces never contain instance variables but, they can contain public static final variables (i.e., constant class variables) 
-
-Important Reasons For Using Interfaces 
-
-Interfaces are used to achieve abstraction. 
-
-Designed to support dynamic method resolution at run time 
-
-It helps you to achieve loose coupling. 
-
-Allows you to separate the definition of a method from the inheritance hierarchy
-
-
-Use Interfaces when you know there's going to be several implementation of something
-
-## Programming for Interface not implementation
-
-A programmer should always _program for the interface and not for implementation; this_ will lead to flexible code, which can work with any new implementation of the interface.
-
-In concrete words, you should use interface type on variables, return types of a method, or argument type of techniques in Java-like using `SuperClass` type to store object instead using `SubClass`.
-
-I mean
-
-`List numbers= getNumbers();`
-
-instead of
-
-`ArrayList numbers = getNumbers();`
-
-
-The Interface Segregation Principle (ISP) in object-oriented design suggests that a class should not be forced to implement interfaces it does not use. Here are examples in Java, Python, and C#:
+This practice allows for greater flexibility in your code and makes it easier to adapt to changes or new implementations.
 
 ### Java:
 

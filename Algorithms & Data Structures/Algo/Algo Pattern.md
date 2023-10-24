@@ -1,3 +1,9 @@
+---
+tags:
+  - revist
+  - refine
+---
+
 ```javascript
 cyclicSort 
 
@@ -32,7 +38,17 @@ const find_missing_number = ([3, 1, 5, 4, 2]) =>{ 
       return nums; 
 
   }
+ 
+```
 
+
+<iframe src="https://github.com/jacgit18/cuny-ttp-algo-summer2021/blob/main/Code/_Grokking_Algo%20%26%20Leetcode/Cyclic%20Sort/Javascript/lc268.js" allow="fullscreen" allowfullscreen="" style="height:100%;width:100%; aspect-ratio: 16 / 9; "></iframe>
+
+
+
+
+
+```javascript
 
 
 
@@ -54,15 +70,8 @@ while(pointer1<pointer2){ 
 return s;
 
 
-
-
-
-
-
-
-
-
 ```
+
 
 ## find Level Averages  High Level
 

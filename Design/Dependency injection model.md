@@ -1,6 +1,17 @@
 Dependency injection (DI) is a design pattern commonly used in software development to manage the dependencies between components of a system. DI helps improve the modularity, testability, and maintainability of software by decoupling components and making them more independent.
 
-There are different models or approaches to implementing dependency injection. Let's explore three commonly used models:
+A dependency injector is a component or framework that facilitates the process of managing and resolving dependencies in a software system. It provides mechanisms to automatically instantiate and inject dependencies into classes, relieving developers from manually wiring dependencies together.
+
+### A dependency injector typically follows a set of principles:
+
+- Dependency Registration: The injector allows developers to register dependencies by associating them with their corresponding interfaces or classes.
+
+- Dependency Resolution: When a class requests a dependency, the injector resolves it by looking up the registered dependencies based on their associated interfaces or classes.
+
+- Dependency Injection: The injector automatically injects the resolved dependencies into the requesting class, either through constructor injection, setter injection, or other injection methods.
+
+
+### Three commonly  used models or approaches to implementing dependency injection:
 
 1. Constructor Injection: Constructor injection involves passing dependencies to a class through its constructor. The class declares its dependencies as constructor parameters, and the caller is responsible for providing those dependencies when creating an instance of the class. Here's an example in Java:
 
@@ -114,7 +125,3 @@ These models illustrate different ways to implement dependency injection in soft
 
 
 
-
-In the SOLID principles of object-oriented programming, the "D" stands for "Dependency Inversion," not "Dependency Injector." The SOLID principles are a set of five design principles that aim to create more maintainable and understandable software. Dependency Inversion is the fifth principle, and it emphasizes that high-level modules (abstractions) should not depend on low-level modules (concrete implementations), but both should depend on abstractions.  
-  
-In contrast, "Dependency Injector" typically refers to a design pattern or mechanism used to implement Dependency Injection, which is a related concept but not part of the SOLID principles. Dependency Injection is a technique that helps achieve the Dependency Inversion principle by injecting dependencies (often through constructor parameters) into a class rather than having the class create or manage its dependencies internally.

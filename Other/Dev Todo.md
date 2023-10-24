@@ -109,7 +109,7 @@
 	- [ ] [Project idea](Project%20idea.md)
 	- [ ] [Tech Things to Research](Tech%20Things%20to%20Research.md)
 - [ ] Math & Logic Puzzles 
-- [ ] [[Try]]
+- [ ] [[Try Challenge]]
 - [ ] Sudoku back track 
 	- [https://github.com/dtyutyunik/Sudoku](https://github.com/dtyutyunik/Sudoku)  
 	- [https://github.com/mtajammulzia/sudoku-game](https://github.com/mtajammulzia/sudoku-game)  

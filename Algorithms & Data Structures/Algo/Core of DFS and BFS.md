@@ -109,9 +109,9 @@ then do whatever action you want with current.id like pushing it to an array 
 
  *            0 ~~~ 1    4  ~~~ 5 ~~~ 3 
 
- *                  \   / \    / 
+ *                \   / \    / 
 
- *                    7     6 
+ *                  7     6 
 
 DFS: [ 
 

@@ -1,7 +1,6 @@
 ---
 tags:
   - SOLID
-  - refine
 ---
 A super class can be replaced by any of it’s inheriting sub classes at any parts of the system without any change in the code.
 
@@ -11,13 +10,11 @@ That’s why we’ve mentioned earlier in [Class Diagram](https://medium.com/om
 
 >[!note] LSP is closely related **to the Single responsibility principle** and **Interface Segregation Principle**.
 
-> The statement you provided is generally true. It refers to the Liskov Substitution Principle (LSP), which is one of the SOLID principles in object-oriented programming. The LSP states that objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+> The LSP states that objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
 > If a subclass does not support all the functionality of its superclass, it violates the LSP. In other words, if the subclass overrides or extends the behavior of the superclass in a way that makes it incompatible with the expected functionality, it can lead to issues when substituting the subclass for the superclass. This can result in unexpected behavior and violates the principles of polymorphism and code reusability in object-oriented design.
 
 
-
 In order to follow [LSP SOLID design principle](https://click.linksynergy.com/deeplink?id=JVFxdTr9V80&mid=39197&murl=https%3A%2F%2Fwww.udemy.com%2Fsolid-principles-object-oriented-design-architecture%2F), derived class or subclass must enhance functionality, but not reduce them. LSP represents “L” on the SOLID acronym.
-
 
 
 

@@ -6,13 +6,13 @@
 ## Main Long Quest
 #todo/High/Dev 
 - [ ] [[Clean Code]]
+	- [ ] Code Reusability
 - [ ] [[Design Patterns.pdf]]
 - [ ] [[Event Driven Architecture Solutions]] 
 	- [ ] [[Domain-driven design]]depends on domain which may vary
 - [ ] [[Reactive programming]]
 - [ ] [[Microservices]]
 - [x] [[12 Factor App Docker.canvas|12 Factor App Docker]]
-- [ ] Code Reusability
 - [ ] [[design-system.pdf]]
 - [ ] [[system-design.pdf]] 
 - [ ] [[api-security.pdf]]

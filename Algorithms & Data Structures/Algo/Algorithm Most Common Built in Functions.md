@@ -1,6 +1,7 @@
 ## Common Math 
 
 **Link common built-in methods to other code
+```javascript
 
 Math.abs(-1) = 1 
 
@@ -12,7 +13,7 @@ Math.round(1.5) = 2 > 1.4 > 1 
 
 Math.cbrt(5) = returns base of the exponent passed which is 1.709975946676697 and exponent is always 3 so 1.709975946676697^3 = 5 always returns odd also happens to be a decimal if bigger it would return whole number 
 
-Math.sqrt(2) = 1.4142135623730951 exponent 2 base is what the power 2 gives us 2 which always even no matter what number given 
+Math.sqrt(2) = 1.4142135623730951 // exponent 2 base is what the power 2 gives us 2 which always even no matter what number given 
 
 Math.pow(2,3) = 2^3 = 8 
 
@@ -21,6 +22,7 @@ Math.max(value0...valueN) = max value 
 let min = Infinity                                                                                               
 
 Math.min(min...valueN) = min value  
+```
 
 ## Common [[Primitive Types]]
 

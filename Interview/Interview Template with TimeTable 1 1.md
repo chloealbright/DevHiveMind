@@ -82,7 +82,7 @@ Identify base control flow in question 
 
 ## Properties of problem param: 
 
-***Number***(has ascii values) numbers can apply to a lot of diff parms below. Don’t forget [[ Common Built in Functions#Common Math | Math Func ]]
+***Number***(has ascii values) numbers can apply to a lot of diff parms below. Don’t forget [[Algorithm Most Common Built in Functions#Common Math| Math Func ]]
 
 
 <mark style="background: #CACFD9A6;">***String(can iter in array like 2d array for letters) ***</mark>

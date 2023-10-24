@@ -1,4 +1,9 @@
-![[1_RDwwM_zTqRTuuzR25BgU9w.webp]]
+---
+tags:
+  - codeFlow
+  - editMerge
+---
+![[2023-10-24 13.59.45 miro.com 5ef3ca43d8a7.png]]
 When reading documentation about a Framework, Library, language, technology, or new features always learn about why something was created.  
 
 algo design 

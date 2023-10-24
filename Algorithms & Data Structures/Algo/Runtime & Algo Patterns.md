@@ -1,6 +1,6 @@
 ### Algo patterns are good for improving runtime 
 
-but doesnt always do so, sometimes a brute force approach can be more optimal depending on the problem
+but doesn't always do so, sometimes a brute force approach can be more optimal depending on the problem
 ```javascript
 
 

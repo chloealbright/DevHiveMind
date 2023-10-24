@@ -73,7 +73,7 @@ And there are many ways to do this based on the language in javascript that we c
   
 closures.  
 
-```javacript
+```javascript
 // A memoize decorator function  
 // that is capable of handling multiple parameters  
 export const memoize = (fn) => {  

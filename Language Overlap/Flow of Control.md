@@ -95,9 +95,9 @@ function factorial(n: number): number {
 }
 ```
 
-7. **[[Dev/Language Overlap/Exception handling|Exception handling]]**: In cases of errors or exceptional situations, the flow of control can be redirected to an exception handling block to handle the error gracefully instead of terminating the program.
+7. [[Language Overlap/Exception Handling|Exception Handling]]: In cases of errors or exceptional situations, the flow of control can be redirected to an exception handling block to handle the error gracefully instead of terminating the program.
 
-8. **[[Dev/Language/Java/Exception Handling#Throwing Exceptions| Throw Statement]]**: Execution of the current function will stop (the statements after throw won't be executed), and control will be passed to the first catch block in the call stack. If no catch block exists among caller functions, the program will terminate. 
+8. **[[#]]**: Execution of the current function will stop (the statements after throw won't be executed), and control will be passed to the first catch block in the call stack. If no catch block exists among caller functions, the program will terminate. 
 
 ```typescript
 try {

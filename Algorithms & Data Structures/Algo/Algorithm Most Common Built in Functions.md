@@ -1,8 +1,8 @@
 ## Common Math 
 
 **Link common built-in methods to other code
-```javascript
 
+```javascript
 Math.abs(-1) = 1 
 
 Math.ceil(5.95)  always rounds a number up to the next largest integer. = 6 
@@ -103,8 +103,9 @@ String .replace(regexp, newSubstr) .replaceAll       String .replace(rege
 ```
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) 
 
-RegExp.prototype.test()  executes a search for a match between a regular expression and a specified string returns true or false 
 ```javascript
+RegExp.prototype.test()  executes a search for a match between a regular expression and a specified string returns true or false 
+
 const str = 'table football';   
 const regex = new RegExp('foo*');                                                           
 const globalRegex = new RegExp('foo*', 'g');                           
@@ -135,7 +136,8 @@ Array.join(separator(Optional)) 
 
 Array.reverse() 
 
-shift()  removes the first element or unshift()  adds one or more elements to the beginning of an array 
+shift()  // removes the first element or 
+unshift()  // adds one or more elements to the beginning of an array 
 
 slice(start, end) start & end Optional returns a shallow copy of a portion of an array ```
 ## Optional                                           
@@ -180,7 +182,10 @@ Array.some() method tests whether at least one element in the array passes the t
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from) 
 ```javascript
-Array.sort() . sort (a,b) .sort(compareFunc)  .sort(inlineCompFunc)                                                              
+Array.sort() .
+
+
+sort (a,b) .sort(compareFunc)  .sort(inlineCompFunc)                                                              
 
  < 0        sort a before b:  a(1) - b(2) = -1 lower value placed first                                                                                                         
 

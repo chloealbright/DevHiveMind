@@ -72,7 +72,8 @@ polluting the global scope.
 And there are many ways to do this based on the language in javascript that we can use something called  
   
 closures.  
-  
+
+```javacript
 // A memoize decorator function  
 // that is capable of handling multiple parameters  
 export const memoize = (fn) => {  
@@ -89,3 +90,5 @@ cache[JSON.stringify(args)] = result;
 return result;  
 }  
 }
+
+```

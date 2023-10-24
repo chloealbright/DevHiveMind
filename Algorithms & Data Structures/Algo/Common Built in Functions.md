@@ -25,16 +25,18 @@ Math.min(min...valueN) = min value  
 ## Common [[Primitive Types]]
 
 ### Number 
-
+```javascript
 123.456.toFixed() = 123                                                123.456.toFixed(1) = 123.5 automatically rounds 
 
-Number.parseFloat('4.567abcdefgh') = 4.567          Number.parseInt('4.567abcdefgh') = 4 
+Number.parseFloat('4.567abcdefgh') = 4.567          
+Number.parseInt('4.567abcdefgh') = 4 
 
-rm special characters                                                                                     
+// rm special characters 
+let text = "A(B){C};:a.b*!c??!1<>2@#3"                     let newSring = text.replace(/[\d\W_]+/g,"");
+// \d get rid of nums 
+let reg = newSring.replace(/\d/g, "")  
+```
 
-let text = "A(B){C};:a.b*!c??!1<>2@#3"                     let newSring = text.replace(/[\d\W_]+/g,"");         
-
-\d get rid of nums                                                          let reg = newSring.replace(/\d/g, "")  
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt) 
 
@@ -50,11 +52,16 @@ const alpha = Array.from(Array(26)).map((e, i) => i + 65); 
 
 const alphabet = alpha.map((x) =>{ String.fromCharCode(x)); 
 
-String.includes(searchString, position(OPITIONAL) )  or  String.indexOf(searchString, position(OPITIONAL) ) or lastIndexOf() 
+String.includes(searchString, position(OPITIONAL) )  
+// or  
+String.indexOf(searchString, position(OPITIONAL) ) 
+//or  
+lastIndexOf() 
 
-const str = 'searchString, or not to be, that is the question.'        str.includes('searchString', 0))true but false if 1 was passed array also has a includes 
+const str = 'searchString, or not to be, that is the question.'   
+str.includes('searchString', 0))// true but false if 1 was passed array also has a includes 
 
-'   Hello world!   '.trim() = "Hello world!" or trimEnd() or trimStart() 
+' Hello world! '.trim() = "Hello world!" or trimEnd() or trimStart() 
 
 String.slice(beginIndex, endIndex(OPITIONAL) ) 
 

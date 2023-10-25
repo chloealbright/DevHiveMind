@@ -1,6 +1,11 @@
+---
+tags: 
+author: jacgit18
+---
 ![[Thought.gif]]
 
-you can use a regex statement with with some of the array methods but may not be the best in terms of runtime but if we were to go down that path you could first sort which would be O(n log n) and to go even further you could utilize a binary search in combination with the regex statement and the runtime might be O(log n) if you implement it recursively which is the more easier path just in terms of implementation but if you go the iterative path it would be more efficient being O(1)  
+you can use a regex statement with with some of the array methods but may not be the best in terms of runtime but if we were to go down that path you could first sort 
+which would be O(n log n) and to go even further you could utilize a binary search in combination with the regex statement and the runtime might be O(log n) if you implement it recursively which is the more easier path just in terms of implementation but if you go the iterative path it would be more efficient being O(1)  
 
 Getting a better understanding of which algorithm patterns can be applied to each data structure
 

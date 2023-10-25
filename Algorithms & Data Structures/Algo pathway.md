@@ -1,52 +1,61 @@
 ---
 tags:
-  - editMerge
   - codeFlow
+  - CodebaseDecision
+  - CodingProblem
+  - potentialMerge
+author: jacgit18
 ---
-in terms of list element order & Fixed Length
-
 ![[unnamed (11).gif]]
+## Problem Identification
 
-First identify problem  
+When approaching a problem, it's important to begin by identifying the core issue at hand. Rather than focusing too much on the desired output, consider the attributes and parameters involved, especially when multiple parameters are at play prioritize the parameter that is apart of the main functionality or main problem.
 
-Don't focus on the output too much  
+### Handling Numeric Arrays
 
-check attributes if num of param greater then one what is being compared  
+- For an array of numbers, consider attributes like:
+  - Natural numbers (positive and zero)
+  - Integers (including natural and negative numbers)
+  - Rational numbers (decimal and fraction)
+  - Min/Max values
+  - Also Pay attention to the number range and order
 
-if array of nums check range, order, type of nums:  
+### Processing String Arrays
 
-	Natural num(pos & 0), Integers(Natural & neg), Rational num(decimal, fraction), Min/Max  
+- For arrays of strings, think about the following:
+  - Utilizing built-in string and array functions
+  - For arrays of characters, explore algorithm patterns
+  - Consider characteristics such as string length, character range, and empty spaces
+  - Be cautious with assumptions about ASCII values avoid defaulting to ASCII values.
+  
+- Explore factors like string length(odd/even), character range, and the presence of empty spaces.
+- Evaluate whether you need to traverse every element, which ties back to understanding the problem.
+- Also, think about loop direction (from start or end) and handling duplicates (consider using sets for efficient storage).
 
-if array of strings think built in string/array functions else array of characters you can think more about algo patterns then string methods ask about empty space string length range of characters  
+## Sorted Data
 
-if string of various characters think ascii a little don,t default to it  
+When data is sorted, focus on binary search, particularly by targeting the middle element.
 
-odd/even  
+## Partially Sorted Data
 
-think if you need to traverse every element which goes back to understanding problem also looping from start or end also duplicates you can store things in a set instead of adding one by one  
+In cases of partial sorting, especially with elements within a specified range, cyclic sort is a valuable approach.
 
-## Sorted  
-Binary search focus on middle  
+## Unsorted Data
 
-## Partially sorted  
-typically cyclic sort especially if you have all nums in range  
+For unsorted data, the choice of algorithm depends on the problem. If preserving order is not a priority, sorting followed by binary search can be effective. Otherwise, consider patterns that might include a linear search.
 
-## Unsorted  
-can be anything outside of Binary or Cyclic depending on what is being asked but if preserving order isn't a priority you can sort then maybe think about binary search otherwise your doing some type of pattern that might include a linear search  
+When working with nested objects like JSON, you often encounter a structure that resembles a tree, involving repetitive tasks such as traversing file directories. In such cases, using recursion can be a powerful technique to efficiently navigate and process these nested structures. Additionally, when you delve deeper into handling repetitive subproblems within these nested structures, you may consider employing memoization techniques to optimize performance and avoid redundant calculations.
 
-Fixed length you maybe dealing with a matrix or array with elements of a fixed length so it may be some form of Merge Interval where values are unsorted or sorted overall  
+## Fixed Length Data
 
-can apply to numbers or if dealing with ascii values for letters  
+Dealing with data of fixed length, whether it's a matrix or an array, may require approaches like Merge Interval. This can apply to numbers or when handling ASCII values for letters.
 
-where you focus conditional logic on  
+- Focus your conditional logic on the fixed length, which is critical for solving these problems.
 
-with nested objects like Json it can be tree like in terms of repetitive work and going through a file directory so you can do recursion then you get into memiozation  
+## Keeping Scope in Mind
 
-### Keep scope in mind  
-Solve the right problems and pay attention to the scope of the problems and how they affect the greater scope of the world or your world  
+It's essential to consider the broader scope of a problem and its impact on the larger context. While precision is valuable for specific tasks, a more generalized approach can provide a broader perspective.
 
-using precision when it comes to scope is good to learn about specific things but again when it comes to precision you are focus on a specific scope of element of that scope  
-
-but when you blunt you are less precise but can experience things and get a general feel  
-
-this why you cant use one tool for everything you need to learn how use and alternate between being blunt and precise in your approach
+- Precision is useful for specific elements within a scope.
+- A more generalized approach allows you to experience the bigger picture.
+- Alternating between precision and a broader approach is key; no single tool works for every situation.

@@ -2,61 +2,121 @@
 tags:
   - codeFlow
   - editMerge
+  - time
 author: jacgit18
 ---
-![[2023-10-24 16.03.28 miro.com 54a50b4177fe.png]]
-When reading documentation about a Framework, Library, language, technology, or new features always learn about why something was created.  
+![[2023-10-24 23.32.58 miro.com e1b9a1a3bae9.png]]
 
-algo design 
+## When Reading Documentation
 
-## Coding Styles
+When delving into documentation about a framework, library, language, technology, or new features, it's essential to understand the underlying "why" behind their creation. 
+
+## Algorithm Design
+
+### Coding Styles
 
 -   [[Declarative Coding]]
-    
 -   [[Imperative Coding]]
 
 ![[paradigms.png]]
 
-    
--   Code example: 
-    
-    -   add function that iterates through an array and the elements and return the sum  
-        
--   Vs 
-    
-    -   just returning an array.reduce and adding elements lesser steps then other and is more abstract  
-        
-    
--   Keep scope in mind  
-    
-    Solve the right problems and pay attention to the scope of the problems and how they affect the greater scope of the world or your world 
-    
-    using precision when it comes to scope is good to learn about specific things  but again when it comes to precision you are focus on a specific scope of element of that scope 
-    
-    but when you blunt you are less precise but can experience things and get a general feel  
-    
-    this why you can't use one tool for everything you need to learn how use and alternate between being blunt and precise in your approach
+### Code Example
+
+Consider this example: adding a function that iterates through an array, processes its elements, and returns the sum. This approach is compared to simply using `array.reduce` to add the elements, which involves fewer steps and is more abstract.
+
+## Consider Scope
+
+Always keep scope in mind. Solving the right problems and understanding their impact on the broader context is crucial. Precision in problem-solving is valuable for specific tasks, but a more generalized approach has its merits. This balance between precision and generality helps tackle diverse challenges effectively.
+
+## Storing Data in Data Structures
+
+In data structures, **[[Dictionaries]]** and **[[Hashmap]]** are valuable tools for efficient data storage, particularly when dealing with values that appear multiple times in an array. This is particularly useful to avoid nested for loops, which can lead to inefficient O(n^2) algorithms.
+
+- **Bubble Sort**: This algorithm repeatedly moves through the list, comparing adjacent elements and swapping them if they are in the wrong order. Worst case runtime is **O(n^2) 
+
+- **Selection Sort**: This algorithm finds the minimum element from the unsorted part of the list and puts it at the beginning. Worst case runtime **O(n^2)
+
+- **Merge Sort**: A more efficient O(n log n) sorting algorithm. Worst case runtime **O(n log(n))
+
+## Algorithmic Approaches
+
+### Minimum Coin Change Problem
+
+Given a list of coin denominations and a target amount, find the minimum number of coins needed to make that amount using the available denominations.
+
+**Brute Force Algorithm**:  
+The most straightforward approach.
+
+A Brute Force approach would involve trying all possible combinations of coins to make the amount and finding the minimum combination.
+
+```javascript
+function minCoinsBruteForce(coins, amount) {
+  function recursiveFind(remainingAmount) {
+    if (remainingAmount === 0) return 0;
+    if (remainingAmount < 0) return Infinity;
+
+    let minCount = Infinity;
+
+    for (let coin of coins) {
+      let count = recursiveFind(remainingAmount - coin);
+      if (count !== Infinity) {
+        minCount = Math.min(minCount, count + 1);
+      }
+    }
+
+    return minCount;
+  }
+
+  let result = recursiveFind(amount);
+  return result === Infinity ? -1 : result;
+}
+```
+
+**Naïve Algorithm**: 
+An approach that might be optimal but can be further optimized.
+
+The Naïve algorithm would involve dynamic programming to find the minimum number of coins.
+
+```javascript
+function minCoinsNaive(coins, amount) {
+  const dp = new Array(amount + 1).fill(Infinity);
+  dp[0] = 0;
+
+  for (let i = 1; i <= amount; i++) {
+    for (let coin of coins) {
+      if (i - coin >= 0) {
+        dp[i] = Math.min(dp[i], dp[i - coin] + 1);
+      }
+    }
+  }
+
+  return dp[amount] === Infinity ? -1 : dp[amount];
+}
+```
+
+**Greedy Algorithm**: 
+Greedy algorithms are simple, intuitive algorithms that make locally optimal choices at each stage of problem-solving. They are quick and easy to code but may not always produce an overall optimal solution. The simplicity of greedy algorithms makes them suitable for straightforward problems, but they can fall short in complex scenarios.  *Algorithm efficiency OCD*
+
+The Greedy algorithm would involve selecting the largest denomination coin that is less than or equal to the remaining amount, subtracting it from the remaining amount, and repeating this process until the remaining amount becomes zero.
+
+```javascript
+function minCoinsGreedy(coins, amount) {
+  coins.sort((a, b) => b - a); // Sort in descending order
+  let coinCount = 0;
+  let remainingAmount = amount;
+
+  for (let coin of coins) {
+    while (remainingAmount >= coin) {
+      remainingAmount -= coin;
+      coinCount++;
+    }
+  }
+  return coinCount;
+}
+```
 
 
+**Optimal Algorithm**: 
+The true optimal solution, often involving sorting.
 
-### Storing Data in data structures
-
-In Data structures we can use [[Dictionaries]] and [[Hashmap]] to store things in memory so we do have to use nested for loops especially when trying to find values in an array that show up multiple times basically keeping track of the count  
-  
-  
-O(n^2) Bubble shorts run to the left multiple times switching the highest to the lowest until the list is ordered.  
-  
-Selection sort switches numbers at a certain position while checking if the number is the lowest.  
-O(n log n) merge sort  
-  
-also, the linear search can be O(n)
-
-
-
-Brute force -> Naïve( can also be optimal but can be even more optimize)  -> Greedy algorithm(somewhat Optimal approach) -> Optimal approach(true optimal) 
-
-Tend to be linear in work and may include sorting   
-
-A greedy algorithm is a simple, intuitive algorithm that follows the problem-solving heuristic(any approach) of making the locally optimal choice at each stage of the algorithm to get an overall optimal solution. 
-
-However, in many problems, a greedy strategy does not produce an optimal solution. It is very simple quick and easy to code and is considered optimal in terms of making the first immediate optimal choice but not accessing the overall optimal approach that is why it can be bad but sometimes can be okay for simple straight forward problems
+The Optimal algorithm would be the same as the Naïve algorithm, as it's the most efficient approach for solving the minimum coin change problem.

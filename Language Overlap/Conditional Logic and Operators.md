@@ -1,6 +1,9 @@
 ---
 tags:
   - CodebaseDecision
+  - CRUD
+  - READ
+  - AlgorithmComponent
 ---
 This relates to [[Flow of Control]]
 ### isLooselyEqual ==

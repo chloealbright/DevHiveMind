@@ -1,6 +1,6 @@
 ![[_Files/Algo/unnamed 1.gif]]
 
-Bottlenecks 
+## Bottlenecks 
 
 A brute force algorithm is to go through the array, starting from the first element, and then search through the remaining elements (which will form the other side of the pair). For each pair, compute the difference. If the difference equals k, increment a counter of the difference.  
 
@@ -14,11 +14,14 @@ We just have to get rid of the first step entirely and operate on an unsorted ar
 
 Throw everything in the array into the hash table. Then, to look up if x   +    k or x    -k exist in the array, we just look it up in the hash table. We can do this in O(N) time. 
 
-Unnecessary Work 
+
+## Unnecessary Work 
 
 Get rid of unnecessary work like a condition or a loop especially if it doesn't benefit runtime 
 
-Duplicated Work or DRY Don't Repeat Yourself
+
+
+## Duplicated Work or DRY Don't Repeat Yourself
 
 
 

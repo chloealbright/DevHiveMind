@@ -1,3 +1,7 @@
+---
+tags: 
+author: jacgit18
+---
 
 Create high level examples of quoting concepts to get a better understanding and lock it in  
   

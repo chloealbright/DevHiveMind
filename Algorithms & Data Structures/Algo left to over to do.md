@@ -1,85 +1,63 @@
-![[unnamed (8).gif]]
+---
+tags: 
+author: jacgit18
+---
+## Graphs & Graph Generator
+#todo/High/Dev 
+- [ ] Topological Sort Pattern & Coding Challenges
 
-# Graphs & graph generator
+## Matrix
+#todo/High/Dev/CodingChallenge 
+- [ ] Backtracking Pattern & Coding Challenges
 
-topological sort pattern
+## Modified Binary Search Pattern
+#todo/High/Dev/CodingChallenge 
+- [ ] Applicable to Different Data Structures (may require slight syntax changes) & Coding Challenges
 
-coding challenges
+## Linked List Coding Problems
+#todo/High/Dev/CodingChallenge 
+- [ ] Object Pointer Reassignment
+	- Build a foundational understanding of reassigning pointers, which is the building Blocks for Tree and Graph Node Reassignment.  
+	- Helpful for Building Doubly Linked Lists and Cyclical Doubly Linked Lists Generator Functions
+	- Also Useful for Implementing Queues with Linked Lists
 
-# Matrix
+## K-way/2-way Merge Patterns
+#todo/High/Dev/CodingChallenge 
+- [ ] Adapt to Different Data Structures and Vary the Number of Structures Used
 
-backtracking pattern
+## Knapsack Pattern
+#todo/High/Dev/CodingChallenge 
+- [ ] Solve Knapsack-Related Coding Challenges (e.g., Pramp Challenges)
 
-coding challenges
+## Priority Queue
+#todo/High/Dev/CodingChallenge 
+- [ ] Easiest Implementation Using Heaps
+- [ ] To Define
 
-
-# Modified Binary Search pattern
-
-Applying to different Data Structures probably slight syntax change
-
-coding challenges
-
-
-
-# Linked list coding problems Object pointer reassignment building blocks for tree and graph nodes reassignment
-
-
-Build base for resigning pointers will help with graphs & trees
-
-
-Will help with building Doubly Linked List & Cyclical Doubly Linked List generator function
-
-Also implementing queues with Linked List might want to generate a function for that to
-
-
-# Heaps > built with Array easiest better implementation
-
-Insert and bubble up are the same thing for heaps and remove is bubble down
-
-whiteboard heap remove
-
-Top K Elements pattern
-
-# Priority queue > built with Heaps easiest better implementation
-
-to define
-
-# Dynamic Programming what ever else there maybe after Memoize & Tabulation
-
+## Dynamic Programming
+#todo/High/Dev/CodingChallenge 
+- [ ] Explore Memoization and Tabulation more
 ![[1651065056010.676959239.png]]
 
-K-way/2-way - Merge patterns
-can vary with data structures used and number of structures used 2 at min or more
 
-Knapsack pattern
+## Union Find
+#todo/Med/Dev/CodingChallenge 
+- [ ] Create a Queue Generator Method Using Linked Lists
+- [ ] Replace BFS Queues with the New Queue
+- [ ] Edit and Create Other Data Structure Method Generators
 
-k sorted array coding challenges on pramp
+## Heaps
+#todo/Med/Dev/CodingChallenge 
+- [ ] Top K Elements Pattern
+- [ ] Whiteboard Heap Removal
+	- Easiest Implementation Using Arrays
+	- Insertion and Bubbling Up Operations
+	- Removing Elements (Bubble Down)
 
-coding challenges
+## Greedy Algorithms
+#todo/Low/Dev/CodingChallenge 
+- [ ] Explore Greedy Algorithm Concepts and Applications
 
-# Bitwise XOR
-
-pattern
-
-coding challenges
-
-# Greedy Algo
-
-
-
-# Union Find
-
-Create queue generator method with Linked list and replace bfs queues with that new queue also for priority queue
-
-
-edit and create other data Structure method generators
-
-
-# files to edit or look at
-
-priority queue
-
-queue linked list and double linked list
-
-
-# More advanced stuff
+## Bitwise XOR Pattern
+#todo/Low/Dev/CodingChallenge 
+- [ ] Solve Coding Challenges Related to Bitwise XOR

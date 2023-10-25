@@ -1,3 +1,7 @@
+---
+tags: 
+author: jacgit18
+---
 ![[unnamed (52).gif]]
 Worst > Average 
 

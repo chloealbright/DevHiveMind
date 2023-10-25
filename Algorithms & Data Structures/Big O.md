@@ -1,149 +1,121 @@
+---
+tags:
+  - CodebaseDecision
+  - time
+author: jacgit18
+---
+
 ![[_Files/Algo/unnamed (4).gif]]
 
-Runtime can range from Worst, Average, & Best(for sorting algorithm) Case  
+In the realm of algorithm analysis, it's essential to understand the various factors that affect an algorithm's runtime. 
 
-Scale Descending from EXCELLENT to WORST TIME 
-
-# Calculating runtime of algorithm ex: 
-
-	When you have an advance algorithm with multiple parts with different runtimes like on giant function the overall runtime calculates down by this: 
-
-<mark style="background: #FFF3A3A6;">higher WORST runtime  + lower EXCELLENT runtime = higher WORST runtime  </mark>
-
-		O(n) + O(n log(n)) = O(n log(n)) 
-	
-		which ends up being O(n log(n))) since it is trending up towards worst time 
-
-	For Big O complexity, all you care about is the dominant term. n log(n) dominates n so that's the only term that you care about. 
-
-Big O notation describes the asymptotic behavior of functions. Basically, it tells you how fast a function grows or declines. 
-
-Informally, the term asymptotic means approaching a value or curve arbitrarily closely 
-
-	O represents Upper bound or worst case O(n) also known as Landau's symbol which comes from the name of the German number theoretician Edmund Landau who invented the notation. The letter O is used because the rate of growth of a function is also called its order. 
-	
-	Ω represents lower bound or best case Ω(n) also is called the Omega sign which represents the time of end or end of the world 
-	
-	Θ represents any other case besides worst and best O(n) also it's called theta sign which refers to the rate of decline in the value of an option due to the passage of time. It can also be referred to as the time decay of an option. This means an option loses value as time moves closer to its maturity, as long as everything is held constant. 
-
-https://cs.stackexchange.com/questions/57/how-does-one-know-which-notation-of-time-complexity-analysis-to-use 
-
-# Things that increase runtime in a function 
-
-	Operations (+, -, *, /) 
-	
-	Comparisons (<, >, ==) 
-	
-	Looping (for, while)
-	
-	Outside Function call (function()) 
-	
-	Recursion Function call 
+Runtime can vary significantly across different cases, including **Worst**, **Average**, and **Best** scenarios, particularly when it comes to sorting algorithms.
 
 ![[Runtime Big O.png]]
+<mark style="background: #FFB86CA6;">Scale Ascending from 🔼 EXCELLENT to WORST TIME 
+lower EXCELLENT runtime + higher WORST runtime = higher WORST runtime</mark>
 
-RUNTIMES(Assume worst case is within EXCELLENT to WORST TIME RANGE) 
+Let's delve into how to calculate the runtime of an algorithm, especially when you're dealing with complex algorithms composed of multiple parts with different runtimes. The key principle is that the worst-case runtime dominates and determines the overall complexity.
 
-FAST RATE OF GROWTH 
+For instance:
+- If you have part of an algorithm that is O(n)  and another part with O(n log(n)), the overall complexity is O(n log(n)), as it trends  🔼 towards the worst-case runtime.
 
-Besides that, there is <mark style="background: #FFF3A3A6;">CONSTANT TIME</mark> basically a calculation like 5+5 where there is no data processed or just no loops another example of constant time is when you loop through a print statement it is still considered the constant time or <mark style="background: #FFF3A3A6;">O(1)</mark> One more example let's say you have a function that takes in an array of boxes when it takes in an element it only does one thing meaning as the number of operations scale we maintain constant time, <mark style="background: #FFF3A3A6;">O(1)</mark> is considered an <mark style="background: #FFF3A3A6;">EXCELLENT</mark> algorithm since we don’t need to worry about the input size. examples merge, quick, and heap sort and other sorts also let's say console log the first two index of the array in your function it is considered two operations so it will be <mark style="background: #FFF3A3A6;">O(2)</mark> but will still be <mark style="background: #FFF3A3A6;">CONSTANT TIME O(1)</mark> is just a number we run down two because operation tends to increase but as long as <mark style="background: #FFF3A3A6;">CONSTANT TIME</mark> is there we say <mark style="background: #FFF3A3A6;">O(1)</mark>  
+In Big O notation, the dominant term is the one that matters most so for example:
+`O(n) + O(n log(n)) = O(n log(n))` 
 
-<mark style="background: #BBFABBA6;">CONSTANT TIME if no looping</mark>    
+In this example, O(n log(n)) dominates O(n), so the hypercritical algorithm go ends being the worst runtime out of the two.
 
-	O(1) when not creating new data 
+If you console log the first two index of an array in your function it is considered two operations so it will be <mark style="background: #FFF3A3A6;">O(2)</mark> but it will still be <mark style="background: #FFF3A3A6;">CONSTANT TIME O(1)</mark> the two is just a number we will default to O(1) because operation tends to increase but as long as it is <mark style="background: #FFF3A3A6;">CONSTANT TIME</mark> we just say <mark style="background: #FFF3A3A6;">O(1)</mark>  because the time it takes to perform an operation doesn't depend on the size of the input. So, whether you're logging the first two elements or performing other operations on them, as long as the number of operations remains the same and doesn't scale with the size of the input, it's considered constant time, or O(1).
 
-	O(1) can also be for an object lookup 
+`O(1) + O(1) +O(1) + O(1)` = O(1)` 
 
-Then we have O(log n) LOGARITHMIC TIME like binary search where you reduce iteration time half the array each time until you find what you're looking for this is considered GOOD TIME you can think of this as going through a dictionary book that is a large sorted data set trying to find a word under S and reducing the time by going to S. 
+In big O notation, O(1) is used to describe operations that have a fixed or constant time complexity, and this remains true even if there are multiple constant-time operations performed.
 
-LOGARITHMIC TIME O(log n) if using a binary search or some sort of divide and conquer search or multiplication  
 
-for (i=1; i<=n; i = i*2) { 
+**Understanding Big O Notation**
 
-    console.log(i); // 1 
+Big O notation is a way to describe how the efficiency of an algorithm changes with input size. It helps us understand the rate of growth or decline of a function as it approaches a limit. Here's a quick overview of some common notations:
 
-  } 
+- **O(*Landau*)**: Represents an upper bound or **worst-case** scenario. For instance, O(n) denotes linear time complexity.
+- **Ω(*Omega*)**: Represents a lower bound or **best-case** scenario. Ω(n) means that the algorithm's runtime won't be faster than linear.
+- **Θ(*Theta*)**: Denotes an **average-case** scenario between the worst and best cases.
 
-O(n) is the worst-case where n is the number of elements in the array also known as LINEAR TIME complexity where if the array size is increasing the longer it takes to loop through it O(n) is considered FAIR. Basically, anything that uses a loop 
+You can find more information on time complexity analysis notations [here](https://cs.stackexchange.com/questions/57/how-does-one-know-which-notation-of-time-complexity-analysis-to-use).
 
-LINEAR TIME O(n) if one loop 
+## Factors Affecting Runtime
 
-Find max element in an unsorted array,                                                                  
+The runtime of an algorithm can be influenced by several factors, such as:
+- Operations (+, -, \*, /)
+- Comparisons (<, >,\==)
+- Looping (for, while)
+- External function calls
+- Recursive function calls
 
-Duplicate elements in an array with Hash Map 
+## Categories of Runtime
 
-O(n log(n))  LINEARITITHMIC TIME - usually sorting operations 
+In the world of algorithm analysis, we categorize runtimes into different classes based on their growth rates. Let's explore some of these categories:
 
-if sorting or searching is involved  assume LINEARITITHMIC TIME O(n log(n)) merge and quick  sort 
+### Constant Time O(1)/Excellent: 
+- Represents algorithms with a fixed number of operations, regardless of input size. This is ***Excellent runtime***, as you don't need to worry about input size. Examples include **merge**, **quick**, and **heap** sort algorithms.
 
-For O(n^2)- QUADRATIC TIME which is HORRIBLE/Worst you can think of it like for each element in your array it squares the next element increasing time complexity also for nested for loop it can also be O(n^2) depending on what you're looping through so pay attention because if your looping through two different arrays in a nest for loop the first array being in the outer loop and the other in the inner then it is considered O(n *m).  But if you're using for loops that are not nested one after another it would be O(n + m) depending on what's your looping through. but typically we use this when we are comparing every element in a collection needs to be compared to every other element. 
+	- A classic example of constant time is basic arithmetic, like **5 + 5**. No matter the numbers involved, the time it takes to perform this addition operation remains constant and does not depend on the numbers themselves.
+	- Another example is when we loop through a print statement. Even if you print one item or a million items, the time it takes to execute the print statement remains constant, making it an **O(1)** operation.
+	- Now, consider a function that takes an array of boxes as input. If this function performs a single action on each element, such as inspecting or modifying it, the time it takes to process each element is constant. Thus, as the number of operations scales with the size of the array, the overall time complexity remains **O(1)**. This is desirable because it means we don't have to worry about the input size affecting the efficiency of our algorithm.
+	- it's worth noting that sometimes, even if a function appears to involve multiple operations, as long as those operations are not dependent on the input size, we still categorize it as **O(1)**, for instance, when you "console.log" the first two indices of an array in your function. Although it's two operations, it remains a constant time operation because the number of operations does not grow with the size of the input.
 
-+ for steps in order 
+The runtime complexity `O(a * b)` represents what is called `"linear with respect to two variables"` or "product complexity." It means that the runtime of an algorithm or code segment grows proportionally with the product of the sizes of two input variables, a and b. The runtime is directly related to the sizes of both collections or data structures a and b. If you were to double the size of both a and b, the runtime would approximately double as well. This is why it's called linear with respect to two variables, as the runtime increases linearly with the product of the input sizes.
+### Logarithmic Time O(log n): 
+- Commonly found in binary search or divide and conquer search, where the search space is halved with each iteration. This is considered a ***Good runtime***, as it's efficient for large datasets. You can think of this as going through a dictionary book that is a large sorted data set trying to find a word under S and reducing the time by going to S. 
 
-* for nested steps 
+```javascript
+function printPowersOfTwo(n) {
+    for (let i = 1; i <= n; i = i * 2) {
+        console.log(i);
+    }
+}
 
-if comparing and using nested loop QUADRATIC TIMEO(n^2) 
+// Usage
+printPowersOfTwo(16); // Replace 16 with any value of n you want to print powers of 2 up to
+```
 
-Duplicate elements in array **(naïve)**,                                                        
+### Linear Time O(n):
+- Occurs when the algorithm's runtime scales linearly with the input size. It's ***Fair runtime*** but can be less efficient for larger datasets. Examples include finding the maximum element in an unsorted array and duplicate element detection with a hash map generally any looping it just depends what your doing on each iteration like looping a console log string message would be O(1).
 
-Sorting array with bubble sort 
+- **O(n + m)** working with two separate loops  which ends up by Linear time
 
-O(2^n) EXPONENTIAL TIME- recursive algorithms that solve a problem of size N 
+### Linearithmic Time O(n log(n)):
+- Typically associated with sorting and searching operations. Merge and quick sort algorithms fall into this category.
 
-using recursive calls EXPONENTIAL TIMEO(2^n) especially with tree and graph questions also if you use recursion it changes to O(n) for space complexity because you're adding to the call stack taking up memory. Another example is finding all subsets. 
+### Quadratic Time O(n^2): 
+- This runtime is considered ***horrible runtime*** and arises when you compare every element in a collection to every other element. Nested for loops can result in this runtime, but non-nested loops follow O(n \* m) scaling.
 
-O(n^3) CUBIC TIME - triple nested loop or  3 variables equation solver 
+- Quadratic time complexity is typically encountered when you need to compare every element in a collection to every other element, such as when searching for duplicate elements in an array or using a sorting algorithm like bubble sort.
 
-<mark style="background: #BBFABBA6;"><b>O(n!) FACTORIAL TIME</b>- you are adding a loop for every element SLOW RATE OF GROWTH 
-</mark>
-Iterating through half a collection is still O(n)  
+### Exponential Time O(2^n): 
+- Recursive algorithms that grow exponentially. This runtime is often associated with tree and graph problems.
 
-Two separate collections: O(a * b) 
+### Cubic Time O(n^3): 
+- Occurs with triple-nested loops or solving equations with three variables.
 
-FACTORIAL TIMEO(n!) factorial like questions 
+### Factorial Time O(n!)/Worst: 
+- The slowest rate of growth or ***Worst runtime*** , where you add a loop for every element. This is particularly inefficient and should be avoided whenever possible.
 
-Factorials (!) are products of every whole number from 1 to n. In other words, take the number and multiply through n to 1.  
+- Factorials (!) are products of every whole number from 1 to n. In other words, take the number and multiply through n to 1.  
 
-For example: If n is 3, then 3! is 3 x 2 x 1 = 6. 
+	- If n is 3, then 3! is 3 x 2 x 1 = 6. 
 
- Find all permutations of a given set/string 
+Find all permutations of a given set/string is an example of factorial time
+
+## Calculating Big O and Rules
+
+When calculating Big O notation, there are a few rules to keep in mind:
+
+1. **Drop the Constants**: Since Big O notation focuses on the rate of growth, constants can be dropped. For instance, O(2n) simplifies to O(n). Constants only matter when dealing with quadratic (O(n^2)) or exponential (O(2^n)) time complexities.
+
+2. **Drop the Non-Dominant Terms**: In an expression like O(N^2 + N), you can drop the non-dominant term. If the latter N term doesn't significantly affect the runtime, it can be ignored.
+
+3. **In If-Else Blocks, Choose Maximum Complexity**: Big O analysis should focus on the worst-case scenario. Therefore, choose the block with the highest complexity for your calculations.
+
+4. **Runtime of Loop Blocks**: The runtime of a loop block is equal to the runtime of the statements within the loop multiplied by the number of iterations.
 
 So in the end the reality is that some algorithms best cast would be O(n) and there may not be any way of improving it more 
-
-# Calculating Big O & Rules 
-
-1) Drop the constants:- Since we are trying to do worst-case analysis, We can drop the constants as we only care about the growth rate of the algorithm as input size n increases. Constants are insignificant as compared to the input size. 
-
-For example  constants in O(2n)  notation so this would be just O(n)  the only thing that matter if is linear time, in this case, the only time you should keep constants if you're using quadratic time like O(n^2) or  Exponential like O(2^n) 
-
- Drop  the Constant Ex: O(2n) will be O(n) 
-
-It is very possible for O(N) code to run faster than 0( 1) code for specific inputs. Big O just describes the rate of increase. For this reason, we drop the constants in runtime. An algorithm that one might have described as 0(2N) is actually O(N).  
-
-2) Drop the non-dominant term:- Dominant term is the term that increases most quickly as the size of the input increases. Similarly, like dropping the constant, We can also remove a non-dominant term, Since non-dominant terms do not play a significant role in the approximation.  talking about "O()" notation 
-
-For example  O (x^2+3x+100+x/2) 
-
-You will drop a lot of the stuff here so 
-
-You will have O(x^2) because let's say you plug in five for x, x^2 would be 25  
-
-3x would be 15 100 will stay the same and x/2 would be some decimal number but 100 would be dominant but with big O we worry about scale 
-
-So we passed 5,000 x^2 would be dominant that we keep so it'll be O(n^2) 
-
-What do you do about an expression such as O ( N2 + N)? That second N isn't exactly a constant. But it's not especially important.  
-
-We already said that we drop constants. Therefore, 0( N2 +  N2) would be O ( N2). If we don't care about that latter N2 term, why would we care about N? We don't. 
-
-    •  O(N2 +  N) becomes O(N2).  
-
-    • O(N +  log N) becomes O(N). 
-
-    • 0(5*2N +  1000N^100) becomes 0(2N). 
-
-We might still have a sum in a runtime. For example, the expressions(82 +  A) cannot be reduced (without-some special knowledge of A and B).  
-
-3) In If-Else, Include the block having maximum complexity:- As mentioned earlier, We are interested in the worst case. So when calculating Big O, we should choose the block having maximum complexity. Essentially test case. 
-
-4) Runtime of loop block = runtime of statement(s) * number of iteration

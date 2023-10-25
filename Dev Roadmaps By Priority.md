@@ -1,3 +1,7 @@
+---
+tags: 
+author:
+---
 ![[ace-one-piece-boat-sea-travel-6cc0nm9xct5nthwm.gif]]
 ## [Other Road Maps](https://roadmap.sh/)
 
@@ -5,6 +9,7 @@
 
 ## Main Long Quest
 #todo/High/Dev 
+- [ ] Get to the level were you are doing 1 coding question a week while working
 - [ ] [[Clean Code]]
 	- [ ] Code Reusability
 - [ ] [[Design Patterns.pdf]]

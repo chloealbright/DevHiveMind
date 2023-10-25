@@ -1,1 +1,0 @@
-Hi my name is Joshua Carpenter and I'm a software carpenter and engineer I feel like one of the most important things you should do as an engineer is to invest in yourself and your setup because it can be the thing that enables you to learn and produce the best work as possible

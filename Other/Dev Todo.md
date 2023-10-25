@@ -89,7 +89,7 @@
 #todo/Med/Future
 - [ ]  [https://www.geeksforgeeks.org/convert-a-string-into-a-square-matrix-grid-of-characters/](https://www.geeksforgeeks.org/convert-a-string-into-a-square-matrix-grid-of-characters/)    
 - [ ]  [https://stackoverflow.com/questions/360040/which-is-faster-hash-lookup-or-binary-search](https://stackoverflow.com/questions/360040/which-is-faster-hash-lookup-or-binary-search)
-- [ ] [[Algo left to over to do]]
+- [ ] [[Algo left to over to d]]
 - [ ] Look into darkbert ai
 - [ ] Logger fix for Data Structures
 	> const log = (pre="", arg="", post="") => {console.log(`${pre} ${arg} ${post} `)} 

@@ -35,7 +35,6 @@
 - [ ] left over led strip  
 - [ ] motherboard repair  
 - [ ] game server emulator  
-- [ ] list of games that provide server software  
 - [ ] reason for converting to dynamic disk  
 - [ ] probabilistic programming  
 - [ ] truly private internet netninja  
@@ -48,7 +47,6 @@
 - [ ] pc water cooling loop order  
 - [ ] how to exclude websites from being blocked by Private Internet Access  
 - [ ] windows 10 xml  
-
 - [ ] top generator  
 - [ ] [comptia a+ certification](https://certification.comptia.org/certifications/a)  
 - [ ] open source partition recovery software  
@@ -63,7 +61,6 @@
 - [ ] fha loan  
 - [ ] Set up and understand Bitcoin wallet  
 - [ ] Monitor with built in kvm  
-- [ ] Docker  
 - [ ] remove roles and features server 2016  
 - [ ] open shift  
 - [ ] server rack desktop case  

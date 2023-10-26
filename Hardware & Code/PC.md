@@ -1,4 +1,4 @@
-![[_Files/giphy.gif]]
+![[_Images/giphy.gif]]
 
 ## Bios
 Remove CMOS battery then flash old bios without gpu

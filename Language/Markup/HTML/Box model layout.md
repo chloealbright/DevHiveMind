@@ -1,5 +1,5 @@
 
-![[_Files/Languages/Markup/GetImage (3).png]]
+![[_Images/Languages/Markup/GetImage (3).png]]
 
 - Content area - blue box set width and height 
     

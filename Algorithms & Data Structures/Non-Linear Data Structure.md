@@ -1,4 +1,4 @@
-![[_Files/Algo/GetImage (4).png]]
+![[_Images/Algo/GetImage (4).png]]
 
 Worst > Average 
 

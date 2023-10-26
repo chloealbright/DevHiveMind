@@ -1,5 +1,11 @@
-
-
+---
+tags:
+  - linux
+  - cron
+  - scripting
+  - automation
+author: jacgit18
+---
 ```bash
 * * * * *  /home/jac/Sync/DevMindMap/sync.sh
 

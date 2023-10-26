@@ -1,4 +1,4 @@
-![[_Files/Interview/unnamed (4).gif]]
+![[_Images/Interview/unnamed (4).gif]]
 
 # I am not a Junior developer I am a Mid level Software developer
 

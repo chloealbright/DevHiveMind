@@ -2,7 +2,7 @@
 notes can also be converted into different diagram models
 
 
-![[_Files/Companies Models/GetImage (5).png]]
+![[_Images/Companies Models/GetImage (5).png]]
 
 
 
@@ -10,22 +10,22 @@ notes can also be converted into different diagram models
 
 ![[GetImage (2).jpeg]]
 
-![[_Files/Companies Models/GetImage (3).jpeg]]
+![[_Images/Companies Models/GetImage (3).jpeg]]
 
 ![[GetImage (11).png]]
 
 3 Economic Modelling and Scope of Analysis
-![[_Files/Companies Models/GetImage (12).png]]
+![[_Images/Companies Models/GetImage (12).png]]
 
 
-![[_Files/Companies Models/GetImage (5).jpeg]]
+![[_Images/Companies Models/GetImage (5).jpeg]]
 
 
-![[_Files/Companies Models/GetImage (4).jpeg]]
+![[_Images/Companies Models/GetImage (4).jpeg]]
 
 State Diagrams
 
-![[_Files/Companies Models/GetImage (9).png]]
+![[_Images/Companies Models/GetImage (9).png]]
 
 
 Activity vs. State Machines 
@@ -54,20 +54,20 @@ Methods to be invoked as the object exits the state are indicated by the keyword
   
 change names of states like set destination or radius to past tense like destination set or radius setting
 
-![[_Files/Companies Models/GetImage (10).png]]
+![[_Images/Companies Models/GetImage (10).png]]
 [https://www.visual-paradigm.com/guide/uml-unified-modeling-language/about-state-diagrams/](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/about-state-diagrams/)
 
 
-![[_Files/Companies Models/GetImage (8).png]]
+![[_Images/Companies Models/GetImage (8).png]]
 
 [https://www.lucidchart.com/pages/uml-sequence-diagram](https://www.lucidchart.com/pages/uml-sequence-diagram)
 
 
-![[_Files/Companies Models/GetImage (7).png]]
+![[GetImage (7).png]]
 
 
 
-![[_Files/Companies Models/GetImage (6).jpeg]]
+![[_Images/Companies Models/GetImage (6).jpeg]]
 
 [https://dzone.com/articles/how-to-model-business-rules](https://dzone.com/articles/how-to-model-business-rules)  
 

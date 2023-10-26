@@ -1,3 +1,10 @@
+---
+tags:
+  - booleenLogic
+  - discreteMath
+  - testCases
+author: jacgit18
+---
 De Morgan's Law of Union: The complement of the union of the two sets A and B will be equal to the intersection of A' (complement of A) and B' (complement of B). This is also known as De Morgan's Law of Union. It can be represented as (A ∪ B)' = A' ∩ B'. We can also generalize this law. 
 
 [https://www.cuemath.com/data/de-morgans-law/](https://www.cuemath.com/data/de-morgans-law/) 

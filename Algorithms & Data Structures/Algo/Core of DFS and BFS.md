@@ -1,104 +1,89 @@
-The core of DFS and BFS isn't the queue or stack it is the order of operation and base cases depending on the question 
+---
+tags:
+  - bfs
+  - dfs
+  - AlgorithmExamination
+  - potentialMerge
+  - search
+  - looping
+  - traversal
+author: jacgit18
+---
+**The essence of DFS and BFS lies in the order of operations and base cases, depending on the specific problem.**
 
-## **BFQueueS**(Apply to Tree & Graph)O(|V|) 
+## **Breadth-First Search (BFS) with Queue (Applicable to Trees and Graphs) - O(|V|)**
 
-## Tree 
+### Tree
 
-Store [tree] in queue // the length is 1 
+1. Store the `[tree]` in a queue with an initial length of 1.
+2. Initialize a `currentNode` variable.
+3. Create an empty `result` array to store the results.
+4. Iterate while the queue length is greater than 0.
+5. Assign `currentNode` by shifting from the queue, which removes the root node from the queue.
+6. Check the left and right children of the current node and add their references to the queue.
+7. Push 12 to the result array.
+8. Repeat the process by shifting out the left child, which leaves only the right child in the queue. Focus on the current node, which contains the left child. Add its children to the queue and repeat until the queue is empty.
 
-initialize currentNode variable 
+### Graph
 
-initialize empty result array to push to 
+1. Create and store the graph in a queue.
+2. Initialize a `current` variable.
+3. Create and store the added graph nodes in a new set.
+4. Loop through the queue while its length is greater than 0.
+5. Update `current` by dequeuing (using `queue.shift()`) the first element from the queue.
+6. Loop through the edges of the graph, checking if they have been visited with the set.
+7. Push and add the edge into the queue and set.
+8. Perform any desired action with `current.id`, such as pushing it to an array.
 
-iterate through queue length while its greater then 0 
+## **Depth-First Search (DFS) with Stack (Applicable to Trees and Graphs) - O(|V|)**
 
-resign  currentNode to queue.shift() which rm root and stores if in currentNode 
+For DFS, it's not about the queue but more about the order of traversal.
 
-check root left and right and push it,s reference into memory inside queue 
+### Tree
 
-then push 12 to result  then repeat we shift out the left we stored which leaves us with only right in the queue but we put all are focus on the current which contains the left we shift and take a look at its children which get added to queue and we repeat the process till queues is empty  
-
-## Graph 
-
-Create/Store graph in queue  
-
-Create current  
-
-Create/Store add graph into new set  
-
-loop through length of queue as long as greeter then 0 
-
-Update current to first element removed by queue.shift()   
-
-loop through graph edges array checking if we visited with set 
-
-then pushing and adding edge into queue and set  
-
-then do whatever action you want with current.id like pushing it to an array 
-
-## **DFStack**(Apply to Tree & Graph) O(|V|) more so the order not the queue is the core just in terms of traversal 
-
-## Tree 
-
-TREE PRE ORDER:  
-
-```javascript
-BASE CASE 
-
-Action 
-
-left Check = Recursivecall with node.left param  
-
-right Check = Recursivecall with node.right param  
-```
-
- TREE INORDER:  
+**Tree Preorder:**
 
 ```javascript
-BASE CASE 
-
-left Check = Recursivecall with node.left param  
-
-action 
-
-right Check = Recursivecall with node.right param  
+BASE CASE
+Action
+Left Check = Recursive call with node.left as the parameter
+Right Check = Recursive call with node.right as the parameter
 ```
 
-TREE POST ORDER:  
+**Tree Inorder:**
 
 ```javascript
-BASE CASE 
-
- if (node == null) return 0; alt cases 
-
-left Check = Recursivecall with node.left param  
-
-right Check = Recursivecall with node.right param  
-
-action Example get height  return Math.max(left, right) + 1; 
-
-alt action Push current node to value array 
+BASE CASE
+Left Check = Recursive call with node.left as the parameter
+Action
+Right Check = Recursive call with node.right as the parameter
 ```
 
-Graph DFS - (NO PRE/IN/POST ORDER):  is basically BFS but with stacks and pop() instead of shift were we update the current but if doing recursive Implementation the way recursion works if you move the (recursive call or maybe the operating you perform with set it almost acts as a PRE & POST order even though for graphs that doesn't apply because the way it is structured and the set being used) 
+**Tree Postorder:**
 
 ```javascript
-Create/Store graph in stack 
-
-Create current  
-
-Create/Store add graph into new set  
-
-loop through length of stack as long as greeter then 0 
-
-Update current to last element removed by stack.pop()   
-
-loop through graph edges array checking if we visited with set 
-
-then pushing and adding edge into stack and set  
-
-then do whatever action you want with current.id like pushing it to an array 
+BASE CASE
+if (node == null) return 0; // Alternative cases
+Left Check = Recursive call with node.left as the parameter
+Right Check = Recursive call with node.right as the parameter
+Action Example: Get the height - `return Math.max(left, right) + 1;`
+Alternative action: Push the current node to a value array
 ```
+
+### Graph
+
+**Graph DFS (No Pre/In/Post Order):**
+
+It's similar to BFS but uses stacks with `pop()` instead of `shift()`. The order of operations in recursive implementation might mimic pre and post-order traversal, even though these concepts may not directly apply to graphs.
+
+1. Create and store the graph in a stack.
+2. Initialize a `current` variable.
+3. Create and store the added graph nodes in a new set.
+4. Loop through the stack while its length is greater than 0.
+5. Update `current` by popping (using `stack.pop()`) the last element from the stack.
+6. Loop through the edges of the graph, checking if they have been visited with the set.
+7. Push and add the edge into the stack and set.
+8. Perform any desired action with `current.id`, such as pushing it to an array.
 
 ```
  * 
@@ -125,38 +110,28 @@ DFS: [ 
 
 ] 
 ```
-## Topological Sort (Graphs) 
+## **Topological Sort (Graphs)**
 
-todo 
+To be added.
 
-## Dynamic Programming can involve memoize  
+## **Dynamic Programming with Memoization**
 
-### K-way/2-way - Merge (Dynamic Programming) 
+### K-way/2-way Merge (Dynamic Programming)
 
-Dealing with multiple arrays or rows in two dimensional arrays or multiple linked list or other data structures were your finding lowest value and storing them somewhere in order from least to greatest kind of like a min heap or merge sort a little 
+Dealing with multiple arrays, rows in two-dimensional arrays, or multiple linked lists, where you find the lowest value and store them in order from least to greatest, similar to a min-heap or merge sort.
 
-### Knapsack (Dynamic Programming) 
+### Knapsack (Dynamic Programming)
 
-todo 
+To be added.
 
-### Memoize is basically caching can be used with closure were we create empty cache object before return function to call you create a variable to store function return then call variable with param value 
+### Memoization
 
-```
-check if a cache has param if does return current param in cache[n] 
+Memoization is akin to caching and can be used with closures. Before returning a function to be called, you create an empty cache object. When you call the function, you store the return value in a variable. When checking if a value is in the cache, return it if it exists; otherwise, update the cache and return the value, which can be a variable, a recursive call, or a function call.
 
-else update cache[n] with param =  which can be a variable or Recursive call or function call  
-```
+### Top-Down vs. Bottom-Up
 
-### Top Down starts from bigger abstract picture  to smaller detailed picture 
+- **Top-Down**: Starts from a bigger, more abstract picture and works towards smaller details. It's recursive and can exceed the call stack with large values. Memoization is recommended for pure functions where inputs result in predictable outputs.
 
-	Top Down  is recursive so you can exceed call stack with large values so you want to implement Memiozation also Memiozation should only be used for pure functions since your taken in a predictable input and getting a predictable output but you getting memory but for the cost of speed but good for tree like question were work is being repeated 
+- **Bottom-Up (Tabulation)**: Is iterative and often faster, especially with large values. It's data-driven and uses known information to compute unknown values. It follows a different approach where you first address unknown indices and then use known values to fill in the gaps.
 
-### Bottom up is iterative and is more faster especially with large values and is data driven and is known Tabulation 
-
-	basically use known info like the first two index of a array to get other values in the array 
-
-	there is also a dynamic way of doing it by going after unknown index then get known  it's like following a path from different points essentially  
-
-Example top down is like reading a paper from top to  bottom while bottom up is like starting at the middle then end then beginning to get an idea of the bigger picture 
-
-[https://mageswaran1989.medium.com/a-mind-map-of-dynamic-programming-patterns-to-ace-interviews-72ff0370bb27](https://mageswaran1989.medium.com/a-mind-map-of-dynamic-programming-patterns-to-ace-interviews-72ff0370bb27)
+For more information on dynamic programming patterns, you can refer to this [resource](https://mageswaran1989.medium.com/a-mind-map-of-dynamic-programming-patterns-to-ace-interviews-72ff0370bb27).

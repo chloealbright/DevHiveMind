@@ -1,3 +1,14 @@
+---
+tags:
+  - bfs
+  - dfs
+  - AlgorithmExamination
+  - potentialMerge
+  - looping
+  - search
+  - traversal
+author: jacgit18
+---
 ![[unnamed (43).gif]]
 
 DFS “is an algorithm for traversing or searching tree data structure. One starts at the root and explores as far as possible along each branch before backtracking.” — Wikipedia  

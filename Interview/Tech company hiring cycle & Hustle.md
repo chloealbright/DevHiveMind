@@ -1,4 +1,4 @@
-![[_Files/Interview/unnamed (1).png]]
+![[unnamed (1).png]]
 
 ![[Pasted image 20230401105027.png]]
 

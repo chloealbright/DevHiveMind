@@ -1,1 +1,1 @@
-![[_Files/Languages/Markup/GetImage.jpeg]]
+![[_Images/Languages/Markup/GetImage.jpeg]]

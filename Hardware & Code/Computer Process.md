@@ -1,1 +1,1 @@
-![[_Files/Hardware and Code/GetImage (6).jpeg]]
+![[_Images/Hardware and Code/GetImage (6).jpeg]]

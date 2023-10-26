@@ -1,4 +1,4 @@
-![[_Files/Testing/unnamed (10).gif]]
+![[_Images/Testing/unnamed (10).gif]]
 ### **What is Software/Application testing?**
 
 Software testing is a process to detect hidden errors, or functional inconsistencies in a software’s code by running the software through various tests. After the successful completion of testing rounds, a detailed report is prepared by the tester, which assists developers in making sure that the software runs error free, and fix all the identified issues, such as – 

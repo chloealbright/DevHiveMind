@@ -1,3 +1,8 @@
+---
+tags:
+  - AI
+author: jacgit18
+---
 First, there is generalized learning where it takes in information like surroundings. Like if you're outside it will collect data like weather, lighting, dimensions, and other stuff to react to different situations and change the situations  
   
 Then there is reasoning where you're given a few choices and you pick the best one based on that generalized learning  

@@ -5,7 +5,7 @@ tags:
   - CodingProblem
 author: jacgit18
 ---
-![[_Files/Algo/unnamed (3).gif]]
+![[_Images/Algo/unnamed (3).gif]]
 
 # What to Think & Ask About
 

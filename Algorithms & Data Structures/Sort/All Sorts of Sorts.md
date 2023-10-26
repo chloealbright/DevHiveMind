@@ -1,4 +1,4 @@
-![[_Files/Algo/GetImage (3).png]]
+![[_Images/Algo/GetImage (3).png]]
 
 
 Sorting in general Merge & Quicksort(Priority for interview) 

@@ -38,7 +38,7 @@ A map of zip codes and cities. 
 A map of managers and employees. Each manager (key) is associated with a list of employees (value) he manages. 
 A map of classes and students. Each class (key) is associated with a list of students (value).
 
-![[_Files/Algo/GetImage.png]]
+![[_Images/Algo/GetImage.png]]
 
 Since Map is an interface, objects cannot be created of the type map. We always need a class that extends this map in order to create an object. And also, after the introduction of Generics in Java 1.5, it is possible to restrict the type of object that can be stored in the Map.  
 

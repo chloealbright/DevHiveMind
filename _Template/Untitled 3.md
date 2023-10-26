@@ -6,7 +6,7 @@ title: |-
 subtitle: ""
 author: |-
   Dr. Devrim Ozdemir
-   \vspace{1in} 
+   \vspace{1in}
 date: Last compiled on `r format(Sys.time(), '%B %d, %Y')`
 output: pdf_document
 params: 

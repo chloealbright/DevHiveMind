@@ -1,4 +1,4 @@
-![[_Files/LangOverlap/GetImage (3).jpeg]]
+![[_Images/LangOverlap/GetImage (3).jpeg]]
 
 ![[GetImage (15).png]]
 

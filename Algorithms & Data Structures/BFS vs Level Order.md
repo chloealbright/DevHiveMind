@@ -1,6 +1,7 @@
 ---
 tags:
   - AlgorithmExamination
+  - bfs
 author: jacgit18
 ---
 **BFS with Queue:**

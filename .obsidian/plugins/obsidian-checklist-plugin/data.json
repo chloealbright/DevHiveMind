@@ -22,7 +22,6 @@
     "#todo/dev/mid",
     "#todo/dev/low",
     "#todo/high",
-    "#todo/low/dev",
     "#todo/dev/med",
     "#todo/futurelow",
     "#todo/gen/low",
@@ -54,7 +53,6 @@
     "#todo/high/gen",
     "#todo/high/fin",
     "#todo/low/dev/sideresearch",
-    "#todo/med/dev",
     "#todo/perpetual/dev",
     "#todo/high/future",
     "#todo/tosort",
@@ -65,7 +63,10 @@
     "#todo/low/shopping",
     "#todo/low/people",
     "#todo/med/gen",
-    "#todo/high/dev"
+    "#todo/high/dev",
+    "#todo/high/dev/codingchallenge",
+    "#todo/med/dev/codingchallenge",
+    "#todo/low/dev/codingchallenge"
   ],
   "_hiddenTags": []
 }

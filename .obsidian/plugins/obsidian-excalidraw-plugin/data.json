@@ -1,8 +1,8 @@
 {
-  "folder": "Dev/Whiteboard/",
+  "folder": "DevBrain/_Whiteboard/",
   "embedUseExcalidrawFolder": false,
-  "templateFilePath": "Excalidraw/Template.excalidraw",
-  "scriptFolderPath": "Excalidraw/Scripts",
+  "templateFilePath": "_Excalidraw/Template.excalidraw",
+  "scriptFolderPath": "_Excalidraw/Scripts",
   "compress": false,
   "autosave": true,
   "autosaveInterval": 15000,

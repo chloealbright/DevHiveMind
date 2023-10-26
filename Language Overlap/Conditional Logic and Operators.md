@@ -4,8 +4,35 @@ tags:
   - CRUD
   - READ
   - AlgorithmComponent
+  - testCases
+  - refine
+author: jacgit18
 ---
 This relates to [[Flow of Control]]
+
+
+
+## Conditional Logic 
+
+Using not equal might be better than saying not equal or equal to in conditional statement for problem-solving in code because it's fewer lines of code and conditions but the same result 
+
+Too many conditional statements approach doesn't address test cases very well 
+
+A better approach may bring up a lot of test cases and doesn't addresses them so if you are thinking about a lot of conditional statements your approach might not be the best 
+
+Conditional coding avoid else or else if and to many nested conditions  
+
+always create a condition a to exit at begging of loop or method if variable doesn't meet a certain condition having more than one return is ok to do and can make code more efficient 
+
+if you have a lot of conditions break your code down into helper functions to keep that main condition smaller and more readable 
+
+If using other data structures in problem your conditional statements may end up focusing on that new data structure or both depending on the scenario 
+
+loop through length and doing consecutive action on iteration means another loop that is nested 
+
+Recursion can have multiple base cases, you can take in one param and convert into multiple variables divide and conquer especially tree and may use map 
+
+
 ### isLooselyEqual ==
 
 Exclude type check

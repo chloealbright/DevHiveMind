@@ -1,3 +1,11 @@
+---
+tags:
+  - looping
+  - traversal
+  - search
+  - linear
+author: jacgit18
+---
 ![[unnamed (59).gif]]
 with BFS/DFS examples
 

@@ -1,4 +1,4 @@
-![[giphy.gif]]
+![[_Images/giphy.gif]]
 
 
 

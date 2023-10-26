@@ -12,7 +12,6 @@ All primitives are *Immutable(pure/no-mutation)*, i.e., they cannot be altered. 
 Number wrapper 
 ```javascript
 let number = new Number()
-
 ```
 
 >[!note] Unlike many other programming languages, **JavaScript does not define different types of numbers**, like integers, short, long, floating-point etc.

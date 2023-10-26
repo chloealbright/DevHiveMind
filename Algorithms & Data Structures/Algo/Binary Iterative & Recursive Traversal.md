@@ -1,4 +1,17 @@
-![](_Files/Algo/fusion.gif)
+---
+tags:
+  - bfs
+  - dfs
+  - looping
+  - traversal
+  - search
+  - potentialMerge
+  - binary
+author: jacgit18
+---
+![[fusion.gif]]
+
+
 
 trees and graphs are kind of binary by nature so non linear
 
@@ -40,9 +53,9 @@ function indexEqualsValueSearch(arr) { 
 
 // Ex: iter is if (curr.left) stack.push(curr.left) vs rec is recPreOrder(root.left);  
 
+```
 
-
-
+```javascript
 function ArrayIterative (arr){  
 
   for (let i = 0; i < arr.length; i++) {  
@@ -66,9 +79,11 @@ ArrayRecursive(arr, ++index)  
 
 }  
 
-      
+
+```
 
 
+```javascript
 function matrixIter(array) {  
 
 for(let row = 0; row < array.length; row++){  
@@ -114,11 +129,12 @@ return matrixRecursion(arr, currRow + 1, 0);  
 
 }  
 
-  
 
 traverseMatrix(arr) // weird behavior with let arr = [ [ 1, 2, 3 ] ]; prints up to 2  
 
+```
 
+```javascript
 function printFoward(node) {  
 
 let current = node;  
@@ -186,9 +202,10 @@ prev = current;         
 return reverseListRec(next, prev)  
 
 };  
+```
 
-    
 
+```javascript    
 TREE ITERATION      
 function IterativePreOrder(){  
 
@@ -214,8 +231,6 @@ return res.reverse()  
 
  
 }  
-
-
 
 
 function IterativeInOrder(){  
@@ -257,35 +272,13 @@ res.push(curr.key)  
 
 return res.reverse()  
 
-}  
+}     
+```
 
-      
 
-function bfs(node) {  
 
-let queue = [node];  
-let current;  
-let result = [];  
- 
-
-while(queue.length>0) {  
-
- current = queue.shift();  
-
- if(current.left !== null)  queue.push(current.left);  
- if(current.right !== null)  queue.push(current.right);  
-
- result.push(current.value);  
-
-}  
-
-return result;  
-
-}  
-
-      
-
-TREE RECURSION  
+```javascript
+TREE RECURSION DFS 
 function recPreOrder(root){  
 
 let resultPre = []  
@@ -331,10 +324,11 @@ resultPost.push(root.value); //A  
 return resultPost;  
 
 }  
+      
+```
 
-          
-
-Graph  
+```javascript
+// Graph  
 function dfsIterative(vertex) {  
 
 let result = [];  
@@ -399,8 +393,38 @@ return result;  
 
 }  
 
-        
+```
 
+
+
+```javascript
+function bfs(node) {  
+
+let queue = [node];  
+let current;  
+let result = [];  
+ 
+
+while(queue.length>0) {  
+
+ current = queue.shift();  
+
+ if(current.left !== null)  queue.push(current.left);  
+ if(current.right !== null)  queue.push(current.right);  
+
+ result.push(current.value);  
+
+}  
+
+return result;  
+
+}  
+```
+
+
+
+
+```javascript
 function bfs(vertex) {  
 
 let result = [];  
@@ -434,3 +458,82 @@ return result;  
 }
 
 ```
+
+
+
+
+Certainly! Here are the recursive BFS implementations for both a tree and a graph in JavaScript:
+
+**Recursive BFS on a Tree:**
+
+```javascript
+class TreeNode {
+    constructor(value) {
+        this.value = value;
+        this.children = [];
+    }
+}
+
+function recursiveBFSInTree(node) {
+    if (!node) {
+        return;
+    }
+    
+    const queue = [node];
+    
+    while (queue.length > 0) {
+        const current = queue.shift();
+        console.log(current.value);
+        queue.push(...current.children);
+    }
+}
+
+// Example usage
+const root = new TreeNode(1);
+root.children.push(new TreeNode(2), new TreeNode(3));
+root.children[0].children.push(new TreeNode(4), new TreeNode(5));
+root.children[1].children.push(new TreeNode(6), new TreeNode(7));
+
+recursiveBFSInTree(root);
+```
+
+**Recursive BFS on a Graph:**
+
+```javascript
+class Graph {
+    constructor() {
+        this.graph = {};
+    }
+
+    addEdge(node, neighbor) {
+        if (!this.graph[node]) {
+            this.graph[node] = [];
+        }
+        this.graph[node].push(neighbor);
+    }
+}
+
+function recursiveBFSInGraph(graph, node, visited = new Set()) {
+    if (!visited.has(node)) {
+        console.log(node);
+        visited.add(node);
+        const neighbors = graph[node] || [];
+        for (const neighbor of neighbors) {
+            recursiveBFSInGraph(graph, neighbor, visited);
+        }
+    }
+}
+
+// Example usage
+const g = new Graph();
+g.addEdge(0, 1);
+g.addEdge(0, 2);
+g.addEdge(1, 2);
+g.addEdge(2, 0);
+g.addEdge(2, 3);
+g.addEdge(3, 3);
+
+recursiveBFSInGraph(g.graph, 2);
+```
+
+These JavaScript examples provide recursive BFS implementations for both trees and graphs, demonstrating how the logic can be applied in a recursive manner.

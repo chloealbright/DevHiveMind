@@ -1,4 +1,4 @@
-![[_Files/Database/GetImage (5).png]]
+![[_Images/Database/GetImage (5).png]]
 
 Talk about database like the data being organized so you might need a SQL database  
   

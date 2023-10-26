@@ -1,4 +1,4 @@
-![[_Files/Algo/unnamed 1.gif]]
+![[unnamed 1.gif]]
 
 ## Bottlenecks 
 

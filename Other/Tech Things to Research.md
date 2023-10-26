@@ -32,7 +32,6 @@
 - [ ] should you compress c drive windows 10  
 - [ ] secondary computer pre rendering game  
 - [ ] document scanner  
-- [ ] left over led strip  
 - [ ] motherboard repair  
 - [ ] game server emulator  
 - [ ] reason for converting to dynamic disk  

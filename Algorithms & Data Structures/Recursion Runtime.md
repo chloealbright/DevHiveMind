@@ -4,7 +4,7 @@ tags:
   - time
 author: jacgit18
 ---
-![[_Files/Algo/GetImage (2).png]]
+![[_Images/Algo/GetImage (2).png]]
 [https://www.enjoyalgorithms.com/blog/time-complexity-analysis-of-recursion-in-programming](https://www.enjoyalgorithms.com/blog/time-complexity-analysis-of-recursion-in-programming) 
 
 # To know 

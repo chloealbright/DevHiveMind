@@ -1,3 +1,7 @@
+---
+tags: 
+author: jacgit18
+---
 #favorite 
 
 avoid question marks in page name or special characters
@@ -10,8 +14,7 @@ Also attachment
 And all open tabs
 
 
-#### ChatGpt ai  key
-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
+
 
 | ![Image 1](image1.jpg) | ![Image 2](image2.jpg) |
 |:---------------------:|:---------------------:|

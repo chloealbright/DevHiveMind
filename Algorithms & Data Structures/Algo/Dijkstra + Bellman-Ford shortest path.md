@@ -1,3 +1,13 @@
+---
+tags:
+  - AlgorithmExamination
+  - graph
+  - looping
+  - traversal
+  - search
+  - non-linear
+author: jacgit18
+---
 ![[unnamed (45).gif]]
 
 not on the interview but may get a question on which one to use or most likely DFS

@@ -7,7 +7,7 @@ Often, NoSQL is used to mean "not only SQL," meaning that these solutions are mo
 Some NOSQL DB don't have transactions which generally doesn't use tables or SQL but there are some that do when it at least comes to SQL besides that it NOSQL generally doesn't require a fixed schema but It can vary depending on what no SQL DB is used
 
 
-![[_Files/Database/GetImage (12).png]]
+![[_Images/Database/GetImage (12).png]]
 
 
 ## CAP

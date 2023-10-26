@@ -1,4 +1,4 @@
-![[_Files/Testing/GetImage.jpeg]]
+![[_Images/Testing/GetImage.jpeg]]
 # Testing ordered by time it takes 
 
 Unit tests -> integration testing -> End to End test  

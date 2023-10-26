@@ -1,3 +1,7 @@
+---
+tags: 
+author:
+---
 #favorite 
 > [!bug]+
 > > sub text 2 plus make it close and open

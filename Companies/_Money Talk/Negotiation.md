@@ -1,4 +1,4 @@
-![[_Files/Interview/unnamed (3).gif]]
+![[_Images/Interview/unnamed (3).gif]]
 
 Take A Class on Negotiation my number Range is 91,000 to 130,000
 

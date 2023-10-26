@@ -1,4 +1,4 @@
-![[_Files/Interview/unnamed (7).gif]]
+![[unnamed (7).gif]]
 
 Don't make assumptions when you have one tell the interviewer can I assume this.. to convey an assumption and get an idea of things 
 

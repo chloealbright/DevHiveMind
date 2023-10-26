@@ -1,4 +1,4 @@
-![[_Files/Web/GetImage (8).png]]
+![[_Images/Web/GetImage (8).png]]
 
 As many have said before, web servers handle HTTP petitions, while application servers handle petitions for distributed components. So, maybe the easiest way to understand the difference is to compare the two products in regards to programming environment they offer. 
 

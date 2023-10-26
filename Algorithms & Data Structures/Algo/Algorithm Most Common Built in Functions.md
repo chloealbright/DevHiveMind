@@ -1,3 +1,8 @@
+---
+tags:
+  - MicroCodebaseDecision
+author: jacgit18
+---
 ## Common Math 
 
 **Link common built-in methods to other code

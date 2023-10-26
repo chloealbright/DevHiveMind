@@ -3,6 +3,6 @@ The final and central piece of a distributed system is the network that binds al
 
 ![[GetImage (17).png]]![[GetImage (18).png]]
 
-![[_Files/Arch/GetImage (5).jpeg]]
+![[_Images/Arch/GetImage (5).jpeg]]
 
 [https://community.fs.com/blog/ipv4-vs-ipv6-whats-the-difference.html#:~:text=The%20main%20difference%20between%20IPv4,header%20as%20compared%20to%20IPv4](https://community.fs.com/blog/ipv4-vs-ipv6-whats-the-difference.html#:~:text=The%20main%20difference%20between%20IPv4,header%20as%20compared%20to%20IPv4).

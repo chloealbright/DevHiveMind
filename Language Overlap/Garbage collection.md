@@ -111,7 +111,7 @@ On object creation, every object is given, by the VM, a 1 bit marking value, ini
 
 The garbage collector doesn't scan each object individually, but insteads starts from "root" objects. Examples of root objects are; local variabes, static class fields, active Java threads, and JNI references. The below animation visualizes what the object mark phase looks like: 
 
-![[_Files/LangOverlap/GetImage (1).gif]]
+![[GetImage (1).gif]]
 
 ## Sweep 
 

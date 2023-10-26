@@ -1,4 +1,4 @@
-![[_Files/Devops/GetImage.png]]
+![[_Images/Devops/GetImage.png]]
 
 Tries to remove roadblocks in terms of the different processes in software development from the idea stage to the implementation to the testing to the building to the deployment and observation of the system 
 

@@ -1,4 +1,4 @@
-![[_Files/Languages/GetImage (1).png]]
+![[_Images/Languages/GetImage (1).png]]
 
 Both ***Maven*** and ***Gradle*** fall into the category of build tools. They’re designed to automate the work involved to take your application’s source code and transform it into an ***artifact*** to be published. 
 

@@ -38,9 +38,9 @@
 - [ ] **Programming Library Issue Identification:** Investigate and master methods for identifying and addressing challenges within programming libraries, contributing to the advancement of open-source development.
 - [ ] **Code Generator Scripts:** Research, design, and implement scripts that streamline code generation for repetitive programming tasks, significantly enhancing your workflow efficiency.
 - [ ] **Gitbare Repository Problem Solving:** Tackle issues associated with Gitbare repositories and refine your Git version control skills.
-- [ ] **Whiteboarding Abstraction Skills:** Acquire the art of creating lucid and effective abstractions when whiteboarding technical concepts, a vital skill for excelling in interviews.
 - [ ] **Performance Optimization:** Dive deep into the realm of performance optimization, including techniques for minimizing DOM updates and load balancing, ensuring applications run at their peak efficiency.
 - [ ] **Server-Side vs. Single-Page Applications:** Analyze and contrast the advantages and use cases of server-side rendering versus single-page applications, gaining a deep understanding of when to use each approach.
+- [ ] **Whiteboarding Abstraction Skills:** Acquire the art of creating lucid and effective abstractions when whiteboarding technical concepts, a vital skill for excelling in interviews.
 
 
 ## Books

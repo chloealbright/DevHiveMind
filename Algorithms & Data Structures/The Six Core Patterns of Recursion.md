@@ -1,3 +1,8 @@
+---
+tags:
+  - looping
+author: jacgit18
+---
 ![[unnamed (55).gif]]
 
 ## Iteration 

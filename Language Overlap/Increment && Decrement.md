@@ -1,3 +1,8 @@
+---
+tags:
+  - looping
+  - codeFlow
+---
 Pre Increment = (++x) 1 to 10  slightly better the increment operator increments and returns the value after incrementing. 
 
 1, 2, 3, 4, 5 ..., 10 

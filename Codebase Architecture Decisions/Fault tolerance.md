@@ -4,6 +4,7 @@ tags:
   - review
   - refine
   - CodebaseDecision
+  - pattern
 ---
 Fault tolerance refers to the ability of a system to continue operating properly even in the presence of faults or failures. It is a crucial aspect of designing robust and reliable software systems. Fault tolerance aims to minimize the impact of failures on the overall system by providing mechanisms to detect, handle, and recover from faults.
 

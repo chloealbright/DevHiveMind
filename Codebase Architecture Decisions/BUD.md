@@ -1,3 +1,9 @@
+---
+tags:
+  - CodebaseDecision
+  - CleanPrinciples
+  - AlgorithmComponent
+---
 ![[unnamed 1.gif]]
 
 ## Bottlenecks 

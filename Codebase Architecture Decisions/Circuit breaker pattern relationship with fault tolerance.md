@@ -1,3 +1,12 @@
+---
+tags:
+  - revist
+  - refine
+  - review
+  - CodebaseDecision
+  - pattern
+author: jacgit18
+---
 The Circuit Breaker pattern is a software design pattern that is closely related to fault tolerance in distributed systems and microservices architecture. It is used to handle and recover from failures in a more controlled and resilient manner. Here's an explanation of how the Circuit Breaker pattern is related to fault tolerance:
 
 1. **Fault Tolerance Overview:**

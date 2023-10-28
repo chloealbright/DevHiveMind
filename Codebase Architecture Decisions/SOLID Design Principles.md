@@ -6,11 +6,11 @@ tags:
   - MacroCodebaseDecision
   - SOLID
 ---
-[["S"ingle Responsibility Principle]]
-[["O"pen Closed Design Principle]]
-[["L"iskov Substitution Principle]]
-[["I"nterface Segregation Principle]]
-[["D"ependency Inversion]]
+[[_S_ingle Responsibility Principle]]
+[[_O_pen Closed Design Principle]]
+[[_L_iskov Substitution Principle]]
+[[_I_nterface Segregation Principle]]
+[[_D_ependency Inversion]]
 
 The SOLID principles are a set of five principles aimed at making software designs more understandable, flexible, and maintainable. Here's an example of TypeScript code that incorporates all the SOLID principles:
 

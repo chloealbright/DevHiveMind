@@ -14,13 +14,6 @@ banner_x: 0.5
 
 # Vault Info
 
- - ✍️**Writing Projects**
-	 ![[Dev Todo#^923f61 ]]
-	 ![[Dev Todo#^776056]]
-
-
-
-
 
 - 🔖 Tagged:  favorite 
  `$=dv.list(dv.pages('#favorite').sort(f=>f.file.name,"desc").limit(4).file.link)`

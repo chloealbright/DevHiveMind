@@ -1,7 +1,7 @@
 {
   "promptDelete": false,
   "attachmentFolderPath": "_Images",
-  "newFileLocation": "root",
+  "newFileLocation": "current",
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
     "includeName": true,

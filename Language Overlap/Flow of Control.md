@@ -96,7 +96,7 @@ function factorial(n: number): number {
 }
 ```
 
-7. [[Language Overlap/Exception Handling|Exception Handling]]: In cases of errors or exceptional situations, the flow of control can be redirected to an exception handling block to handle the error gracefully instead of terminating the program.
+7. [[Exception Handl|Exception Handl]]: In cases of errors or exceptional situations, the flow of control can be redirected to an exception handling block to handle the error gracefully instead of terminating the program.
 
 8. **Throwing Exception**: Execution of the current function will stop (the statements after throw won't be executed), and control will be passed to the first catch block in the call stack. If no catch block exists among caller functions, the program will terminate. 
 

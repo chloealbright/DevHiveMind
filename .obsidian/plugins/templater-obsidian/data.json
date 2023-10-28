@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "_CODE/C\"Organize\"DE",
+  "templates_folder": "",
   "templates_pairs": [
     [
       "",
@@ -21,11 +21,7 @@
   ],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
-  "enabled_templates_hotkeys": [
-    ""
-  ],
-  "startup_templates": [
-    ""
-  ],
+  "enabled_templates_hotkeys": [],
+  "startup_templates": [],
   "enable_ribbon_icon": true
 }

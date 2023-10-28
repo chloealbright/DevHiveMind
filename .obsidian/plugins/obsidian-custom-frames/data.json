@@ -16,8 +16,8 @@
       "displayName": "Obsidian Forum",
       "icon": "files",
       "hideOnMobile": true,
-      "addRibbonIcon": true,
-      "openInCenter": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
       "zoomLevel": 1,
       "forceIframe": false,
       "customCss": ""

@@ -4,7 +4,8 @@ tags:
 author: jacgit18
 Status: init
 Started: 
-EditDate:
+EditDate: 
+Relates: "[[Back Pressure]]"
 ---
 In Java, the `::` operator is used to create method references or reference to a method. It's also known as the method reference operator. Method references are a shorthand notation for defining a method that can be used as a functional interface (such as a lambda expression).
 

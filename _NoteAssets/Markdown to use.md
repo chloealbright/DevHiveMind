@@ -1,8 +1,14 @@
 ---
-tags: 
+tags:
+  - Markup
+  - favorite
 author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
-#favorite 
+
 
 avoid question marks in page name or special characters
 
@@ -104,8 +110,8 @@ Some of these words <ins>will be underlined</ins>.
 >  *Everything* is going according to **plan**.
 
 
-## Callout Stuff another form of blockqoutes
-![Callouts](Callouts.md)
+
+
 
 
 

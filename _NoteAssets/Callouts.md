@@ -1,9 +1,15 @@
 ---
-tags: 
+tags:
+  - favorite
+  - Markup
+  - markdown
 author: jacgit18
-EditDate:
+EditDate: 
+Status: 
+Started: 
+Relates: "[[Markdown to use]]"
 ---
-#favorite 
+
 > [!bug]+
 > > sub text 2 plus make it close and open
 > > > [!warning]

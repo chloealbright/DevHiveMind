@@ -34,3 +34,13 @@ node --version
 this will change system nvm version and the node version associated with it
 
 nvm use version name
+
+
+if node js not working right
+
+
+- **Creating a Symbolic Link for Node.js:**  
+- If the binary is named `nodejs` instead of `node`, you can prevent issues by creating a symbolic link using the following command:  
+```bash  
+sudo ln -s /usr/bin/nodejs /usr/bin/node  
+```

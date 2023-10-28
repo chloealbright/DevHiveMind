@@ -45,6 +45,7 @@ Converts types & compare value
 Includes type check in comparison
 
 
+Use triple equal sunset checks type and value
 
 ### Value Comparison Operators
 

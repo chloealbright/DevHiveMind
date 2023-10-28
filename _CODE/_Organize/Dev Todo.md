@@ -41,6 +41,7 @@
 - [ ] **Performance Optimization:** Dive deep into the realm of performance optimization, including techniques for minimizing DOM updates and load balancing, ensuring applications run at their peak efficiency.
 - [ ] **Server-Side vs. Single-Page Applications:** Analyze and contrast the advantages and use cases of server-side rendering versus single-page applications, gaining a deep understanding of when to use each approach.
 - [ ] **Whiteboarding Abstraction Skills:** Acquire the art of creating lucid and effective abstractions when whiteboarding technical concepts, a vital skill for excelling in interviews.
+- [ ] create a long list LinkedIn post ideas about popular historical leaders like for example martin Luther king, also events around the year like breast cancer awareness and holidays give ideas for each month in the year on these topic
 
 
 ## Books

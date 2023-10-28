@@ -7,4 +7,7 @@ Started:
 EditDate: 
 Relates: "[[]]"
 ---
-``<iframe src="https://expressjs.com" width="1920" height="1080"></iframe>``
+```html
+<body style="margin: 0; overflow: hidden;"> 
+<iframe src="" style="width: 100%; height: 100vh; border: none;"></iframe> </body>
+```

@@ -1,9 +1,9 @@
 # Dev-Mind-Map
 
 
-![](2Osh.gif)
+![test](2Osh.gif)
 
-
+![Alt](_Images/20sh.gif)
 ## Dev Journey Documentation 
 
 

@@ -2,6 +2,10 @@
 tags:
   - favorite
 author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates: "[[Markdown to use]]"
 ---
 In Obsidian, the caret symbol (`^`) is used as a prefix to activate various functions and features within the application. It is part of Obsidian's internal syntax and has specific uses in the context of note-taking and linking within the software. Here are a few notable ways the caret symbol is used in Obsidian:
 

@@ -10,6 +10,17 @@
       "zoomLevel": 1,
       "forceIframe": false,
       "customCss": "/* hide the menu bar and the \"Keep\" text */\nhtml > body > div:nth-child(2) > div:nth-child(2) > div:first-child,\nhtml > body > div:first-child > header:first-child > div > div:first-child > div > div:first-child > a:first-child > span {\n\tdisplay: none !important;\n}"
+    },
+    {
+      "url": "https://forum.obsidian.md/",
+      "displayName": "Obsidian Forum",
+      "icon": "files",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": ""
     }
   ],
   "padding": 5

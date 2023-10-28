@@ -1,3 +1,12 @@
+---
+tags:
+  - linear
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[unnamed (30).gif]]
 
 A stacks is a higher-level data structures based on lower-level data structures like arrays and linked lists  

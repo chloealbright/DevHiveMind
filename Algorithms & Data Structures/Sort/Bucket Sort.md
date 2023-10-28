@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[unnamed (14).gif]]
 
 Bucket sort is mainly useful when input is uniformly distributed over a range. For example, consider the following problem.  

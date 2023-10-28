@@ -5,6 +5,10 @@ tags:
   - search
   - linear
 author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 ![[unnamed (59).gif]]
 with BFS/DFS examples

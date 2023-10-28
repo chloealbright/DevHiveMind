@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[unnamed (34).gif]]
 
 Dictionaries are abstract data type which means they could be implemented with arrays, linked list, hash tables, tries, and other stuff that let you associate keys with values and you use the keys to look up things just like in a dictionary what you look up a word and get the definition which is the value in this example  

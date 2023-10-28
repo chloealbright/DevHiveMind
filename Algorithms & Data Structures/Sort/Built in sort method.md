@@ -1,10 +1,19 @@
+---
+tags:
+  - sortAlgo
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[unnamed (13).gif]]
-In JavaScript, a sort method may not work the way you expect like if your sorting just letters it will work fine but numbers are a different case because javascript converts numbers to string specifically using charCodeAt which uses Unicode.  
-  
-also depending on the browser the sort may change in terms of Big O  
-  
-so make sure you know how you're built-in methods work  
-  
-depending on the language it can vary depending on the language built-in sorting method implementation  
-  
-Don't focus on sorting algorithms for interviews too much
+
+"In JavaScript, the behavior of the `sort` method may not always align with your expectations. For instance, when sorting letters, it usually works as anticipated. However, when dealing with numbers, a different set of rules comes into play. JavaScript converts numbers to strings during sorting, using the `charCodeAt` method which relies on Unicode values.
+
+Furthermore, it's important to note that the performance of the `sort` method can vary depending on the web browser you're using. This leads to differences in terms of Big O complexity.
+
+When working with built-in sorting methods in various programming languages, it's crucial to understand how they function under the hood. Implementation details can differ, affecting the results you get.
+
+As a side note, while sorting algorithms are important, it's wise not to become overly fixated on them during interviews. Often, it's more crucial to demonstrate your problem-solving skills and understanding of data structures and algorithms as a whole."
+

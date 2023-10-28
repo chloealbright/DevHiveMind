@@ -13,7 +13,7 @@ author:
 - [ ] [[Clean Code]]
 	- [ ] Code Reusability
 - [ ] [[Design Patterns.pdf]]
-- [ ] [[Event Driven Architecture Solutions]] 
+- [ ] [[Event Driven Architecture]] 
 	- [ ] [[Domain-driven design]]depends on domain which may vary
 - [ ] [[Reactive programming]]
 - [ ] [[Microservices]]

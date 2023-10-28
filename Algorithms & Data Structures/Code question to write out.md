@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ## Arrays 
 
 -   How do you find the missing number in a given integer array of 1 to 100? ([solution](http://javarevisited.blogspot.com/2014/11/how-to-find-missing-number-on-integer-array-java.html)) 

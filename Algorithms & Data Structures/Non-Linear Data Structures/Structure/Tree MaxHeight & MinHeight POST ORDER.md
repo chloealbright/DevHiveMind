@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Creating root  with new instance Tree node with a key value value and that gets stored in TreeNode Class then crate a new instances referring to the original root instance to assign left and right values  
 
 class TreeNode { 

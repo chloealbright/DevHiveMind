@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 is non linear but not a Data Structure
 
 An object is an instance of a class. A class can model various things from the real world. It's an abstraction of something (car, socket, map, connection, student, teacher, you name it).

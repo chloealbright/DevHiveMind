@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Discrete Math 1 and 2 explained by professor 
 
 It genuinely depends on the professor teaching it.  The first half of my course was very intensely mathematical but transformed into more of a CS class in the later stages with a lot of programming assignments.  Exam 3 was particularly very program-heavy. 

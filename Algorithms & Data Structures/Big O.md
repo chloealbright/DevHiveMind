@@ -3,6 +3,10 @@ tags:
   - CodebaseDecision
   - time
 author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 
 ![[_Images/Algo/unnamed (4).gif]]

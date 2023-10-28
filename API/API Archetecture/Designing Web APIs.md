@@ -1,4 +1,4 @@
-[[Event Driven Architecture Solutions]] 
+[[Event Driven Architecture]] 
 Event-Driven APIs & WebHooks
 
 

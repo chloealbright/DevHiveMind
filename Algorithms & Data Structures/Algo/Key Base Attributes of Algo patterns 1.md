@@ -1,27 +1,6 @@
 
-### Two Pointer can leverage Set or Map or other Data Structures 
 
-Two pointer can be applied to two arrays or strings or a combination of a string and a array or used to find numbers in a range just like Sliding window  
 
-input of array or string 
-
-left and right pointer  
-
-You may also leverage min and max other Math methods depending on what you're doing 
-
-Similar attributes to Sliding window 
-
-Iterate through array with while loop with condition of while left is less then right pointer 
-
-Maybe swap values 
-
-can be applied to inputs of sorted arrays list or matrix use sorts before using pointers 
-
-Two pointer technique is quite similar but we usually compare the value at the two pointers instead of all the elements between the pointers. 
-
-Two-pointers can also have variations like a fast-slow pointer. 
-
-which is very useful when dealing with cyclic Linked Lists or Arrays. 
 
 ### Cyclic Sort(you can be looking for missing, duplicate, greater or less then/ or looking for a specific value that is missing) 
 
@@ -179,9 +158,6 @@ Remove 
 Object pointer reassignment(i.e Node Pointers) 
 ```
 
-## Top K Elements pattern 
-
-todo
 
 ## Fast & Slow Pointers (Linked List Node pointer Swap) 
 
@@ -203,26 +179,5 @@ Update slowPointer to slowPointer.next 
 Update fastPointer to fastPointer.next.next 
 ```
 
-## In Place Reversal of  Linked List Node 
 
-```javascript
-Check head length or value or exist 
 
-Create/Store linked list in CURRENT variable 
-
-Create/Store  null in PREVIOUS variable 
-
-Iterate while current not equal to  null 
-
-Create/Store  current.next in NEXT variable 
-
-Update current.next to previous 
-
-Update previous to current 
-
-Update current to next 
-
-return previous 
-```
-
-Printing backward specifically recursively goes all the way to null  if you have print after recursive call when you hit last call you print then go back up the call stack and continue console. which are after recursive call

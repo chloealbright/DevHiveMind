@@ -3,6 +3,10 @@ tags:
   - CodebaseDecision
   - time
 author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 ![[unnamed (31).gif]]
 ## Space complexity follows big O rules 

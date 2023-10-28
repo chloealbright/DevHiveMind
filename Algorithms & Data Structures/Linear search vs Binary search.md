@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[unnamed (21).gif]]
 
 Linear search goes one by one starting from the beginning of an array  

@@ -1,6 +1,11 @@
 ---
-tags: 
+tags:
+  - time
 author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 ![[unnamed (52).gif]]
 Worst > Average 

@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[_Images/Algo/GetImage (10).png]]![[_Images/Algo/GetImage (9).png]]
 
 compare tree min and max height and BFS is the more efficient approach 

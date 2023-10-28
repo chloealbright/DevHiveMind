@@ -1,3 +1,12 @@
+---
+tags:
+  - linear
+author: jacgit18
+Status: init
+Started: 
+EditDate: 
+Relates:
+---
 ![[unnamed (38).gif]]
 
 ![[GetImage (45).png]]

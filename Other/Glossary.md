@@ -79,3 +79,7 @@ In the context of asynchronous programming, a logical call stack refers to a con
 The logical stack is a way to visualize the flow of execution in asynchronous code. It helps keep track of the sequence of tasks and operations, especially when there are asynchronous calls that may not complete immediately. Asynchronous tasks can be paused, allowing other tasks to proceed, and then resumed when the asynchronous operation finishes.
 
 This logical stack is essential for managing the state of the program during asynchronous operations, and it contributes to the efficiency of asynchronous programming by enabling concurrent execution of tasks without the need for multiple threads. It's a crucial concept in understanding how asynchronous code can be organized and executed in a non-blocking manner.
+
+
+
+**Propagation** refers to the transmission, spread, or dissemination of something, such as information, signals, or effects, from one point or source to another. It involves the process of carrying or passing on these elements to reach a wider or different area, often involving a sequence of steps or changes as they move from their origin to their destination. Propagation can occur in various contexts, including in the fields of science, technology, communication, and biology. ^5487d3

@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ### [[Declarative Coding]] Example
 
 Array has a map method watch out not to confuse with map data structure 
@@ -79,7 +87,7 @@ const charCounter = (characterString) =>{          
 
    if (!letterFreq[currChar]) {                                                    
 
-          uniqueChars++;                                                                       
+          uniqueChars++;                                                               
 
           letterFreq[currChar] = 1;                                                                                      
 

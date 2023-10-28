@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[unnamed (33).gif]]
 
 Hash Collision is a feature. It arises out of the nature of a hashCode: a mapping from a large value space to a much smaller value space. There are going to be collisions, by design and intent.  

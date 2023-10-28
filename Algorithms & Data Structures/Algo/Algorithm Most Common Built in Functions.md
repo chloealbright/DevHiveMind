@@ -2,6 +2,10 @@
 tags:
   - MicroCodebaseDecision
 author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 ## Common Math 
 

@@ -7,6 +7,10 @@ tags:
   - search
   - non-linear
 author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 ![[unnamed (45).gif]]
 

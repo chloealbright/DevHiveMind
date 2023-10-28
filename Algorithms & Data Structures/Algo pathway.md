@@ -5,6 +5,10 @@ tags:
   - CodingProblem
   - potentialMerge
 author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 ![[unnamed (11).gif]]
 ## Problem Identification

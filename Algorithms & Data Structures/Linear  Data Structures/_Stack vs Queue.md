@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[Pasted image 20230411081206.png]]
 
 Dequeue vs Pop  

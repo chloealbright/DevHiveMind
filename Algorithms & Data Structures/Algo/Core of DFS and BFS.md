@@ -8,6 +8,10 @@ tags:
   - looping
   - traversal
 author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 **The essence of DFS and BFS lies in the order of operations and base cases, depending on the specific problem.**
 

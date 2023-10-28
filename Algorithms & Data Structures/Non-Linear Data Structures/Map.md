@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[unnamed (42).gif]]
 A map is a data structure that stores data in key/value pairs where every key is unique. A map is sometimes called an associative array or dictionary. It is often used for fast look-ups of data. 
 

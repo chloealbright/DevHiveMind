@@ -2,6 +2,10 @@
 tags:
   - looping
 author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 ![[unnamed (55).gif]]
 

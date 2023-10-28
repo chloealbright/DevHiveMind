@@ -2,6 +2,10 @@
 tags:
   - time
 author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 ### Algo patterns are good for improving runtime 
 
@@ -48,6 +52,10 @@ but doesn't always do so, sometimes a brute force approach can be more optimal 
     // return newArray.sort((a, b) => a - b); 
 
 } 
+
+```
+
+```javascript
 
  function sortedSquaredArrayTwo(array) { 
 

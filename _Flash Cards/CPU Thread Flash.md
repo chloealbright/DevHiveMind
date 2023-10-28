@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Can you explain what the thread scheduler is and its relationship to thread priority?
 
 This is another question that addresses how multi-threading works at the CPU level. As a programmer, you may have to know how to write thread scheduler algorithms that prioritize different threads. When answering this question, it's acceptable to give a simple, one-sentence explanation of what a thread scheduler does.

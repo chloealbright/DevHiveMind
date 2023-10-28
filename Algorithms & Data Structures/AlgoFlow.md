@@ -4,6 +4,10 @@ tags:
   - editMerge
   - time
 author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 ![[2023-10-24 23.32.58 miro.com e1b9a1a3bae9.png]]
 

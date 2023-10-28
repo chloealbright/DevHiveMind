@@ -2,6 +2,10 @@
 tags:
   - "#WontReallyUse"
 author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 
 ![[unnamed (17).gif]]

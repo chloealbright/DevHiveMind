@@ -2,6 +2,10 @@
 tags:
   - MicroCodebaseDecision
 author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 > [!note] The pattern names are just visual abstraction of the pattern
 ## Sliding Window
@@ -27,13 +31,34 @@ author: jacgit18
 ## Two Pointer
 
 - **Definition:** The Two Pointer pattern involves using two pointers to traverse arrays or strings.
+- **Commonalities & Common things to Leverage**
+	- Similar attributes to Sliding window 
+	- Math methods like min, max, etc...
+- **Common Sub Steps:**
+	- Iterate through array with while loop with condition of while left is less then right pointer 
+	- Maybe swap values 
 - **Key Elements:**
   - Input array or string.
   - Left and right pointers.
 - **Use Cases:**
   - Comparing values at two pointers.
   - Fast-slow pointer variations.
-- **Use Sorting:** Sort the input arrays/lists if necessary before applying the Two Pointer technique.
+  - Very useful when dealing with cyclic Linked Lists or Arrays. 
+ > [!important]  Used to compare the values at the two pointers instead of all the elements between the pointers. 
+- **Use Sorting:** Sort the input arrays/lists if necessary before applying the Two Pointer technique. 
+
+>[!note] Two pointer can be applied to two arrays or strings or a combination of a string and a array or used to find numbers in a range just like Sliding window  
+
+
+## Fast & Slow Pointers
+
+- **Definition:** Fast & Slow Pointers help detect cycles in linked lists.
+- **Steps:**
+  1. Check for existence of the head.
+  2. Initialize slow and fast pointers.
+  3. Iterate through the list.
+- **Use Cases:** Detecting cycles in linked lists.
+
 
 ## Cyclic Sort
 
@@ -73,6 +98,7 @@ author: jacgit18
 - **Use Cases:** Searching for elements in sorted arrays.
 
 ## Bitwise XOR (to be explored further)
+- 
 
 ## Heaps (Data Structures)
 
@@ -82,22 +108,32 @@ author: jacgit18
 - **Removal:** Use object pointer reassignment (Node Pointers).
 
 ## Top K Elements pattern (work in progress)
+- 
 
-## Fast & Slow Pointers
 
-- **Definition:** Fast & Slow Pointers help detect cycles in linked lists.
-- **Steps:**
-  1. Check for existence of the head.
-  2. Initialize slow and fast pointers.
-  3. Iterate through the list.
-- **Use Cases:** Detecting cycles in linked lists.
 
 ## In-Place Reversal of Linked List Nodes
 
-- **Steps:**
-  1. Check if the head exists.
-  2. Initialize current and previous pointers.
-  3. Iterate through the list to reverse the nodes.
-  4. Return the new head.
+**Steps:**
+```javascript
+Check head length or value or exist 
 
+Create/Store linked list in CURRENT variable 
+
+Create/Store  null in PREVIOUS variable 
+
+Iterate while current not equal to  null 
+
+Create/Store  current.next in NEXT variable 
+
+Update current.next to previous 
+
+Update previous to current 
+
+Update current to next 
+
+return previous 
+```
+
+Printing backward specifically recursively goes all the way to null  if you have print after recursive call when you hit last call you print then go back up the call stack and continue console. which are after recursive call
 

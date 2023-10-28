@@ -1,4 +1,14 @@
-Event-driven architecture, microservices, serverless, Functions as a Service (FaaS), streaming, event sourcing, and Command Query Responsibility Segregation (CQRS) are all concepts that can be combined in various ways to address different requirements in a system. The appropriate combination depends on the specific use case, scalability needs, and architectural goals. Here are some common combinations:  
+---
+tags:
+  - MacroCodebaseDecision
+  - architecturalPatterns
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates: "[[Event Driven Architecture]]"
+---
+The appropriate combination depends on the specific use case, scalability needs, and architectural goals. Here are some common combinations when it comes :  
   
 1. **Microservices with Event-Driven Architecture:**  
 - Microservices often work well with an event-driven architecture. Each microservice can emit events when state changes occur, allowing other microservices to react accordingly. This promotes loose coupling between services.  

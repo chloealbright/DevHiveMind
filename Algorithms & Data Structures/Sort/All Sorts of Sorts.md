@@ -1,3 +1,13 @@
+---
+tags:
+  - time
+  - sortAlgo
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[_Images/Algo/GetImage (3).png]]
 
 

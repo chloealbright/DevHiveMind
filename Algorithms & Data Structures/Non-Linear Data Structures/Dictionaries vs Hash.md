@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[unnamed (36).gif]]![[unnamed (37).gif]]
 
 A dictionary uses a key to reference the value directly inside of an associative array.  

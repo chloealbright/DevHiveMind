@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 A hash table (often called a hash map) is a data structure that maps keys to values. This is similar to an object in JavaScript and a dictionary in Python language.  
 
 In this type of data structure, you give the hash-map a key which can be a word and it retrieves the definition or the value for you. Under the hood, it works a lot like an array. The key gets run through the function called the “hashing function” that spills out the memory location for you making it random access. 

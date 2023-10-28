@@ -2,6 +2,10 @@
 tags:
   - AI
 author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 First, there is generalized learning where it takes in information like surroundings. Like if you're outside it will collect data like weather, lighting, dimensions, and other stuff to react to different situations and change the situations  
   

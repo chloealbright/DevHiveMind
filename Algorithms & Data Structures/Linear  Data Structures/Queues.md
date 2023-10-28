@@ -1,3 +1,12 @@
+---
+tags:
+  - linear
+author: jacgit18
+Status: init
+Started: 
+EditDate: 
+Relates:
+---
 ![[unnamed (27).gif]]
 
 Queues are similar to stacks but we are going first in first out like a checkout line there are dynamic queues that grow in size they are good for background process and task scheduling they are used a lot in cron jobs, memory management, and a lot of background activity. 

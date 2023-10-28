@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[unnamed (49).gif]]
 
 A binary tree isn't considered a binary tree if it has three individual children on the same level after the root it is only considered a tree if it has at least one or two children after the root, You can build a binary tree using a link list.  

@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 When we want to process data efficiently in computer programming, we sometimes use data structures called stacks and queues to form an order for our data. A priority queue functions somewhat like a queue in that it processes data from the front of the list (or queue), but it differs when data is added to the queue. While a traditional queue simply adds the data to the back of the line, priority queues need to ensure that the new data gets a proper place in the line according to its priority. We’ll need to use something called a binary heap to implement our priority queue.  
   
 It doesn't make any sense at all to implement a heap as a linked list. (The most common kinds of) heaps are inherently binary trees. You can store a heap in an array because it's easy to compute the array index of a node's children: the children of the node at index K live at indices 2K+1 and 2K+2 if indices start at 0 (or at indices 2K and 2K+1 if indices start at 1). It's massively more efficient to find the Kth element of an array than the Kth element of a linked list.  

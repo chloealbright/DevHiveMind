@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[unnamed (23).gif]]
 
 counting sort and radix sort is entirely different way to think about sorting.  

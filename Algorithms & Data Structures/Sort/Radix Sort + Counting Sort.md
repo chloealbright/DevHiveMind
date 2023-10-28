@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[unnamed (24).gif]]
 
 Sorting time complexity can be Improved when you don't make comparisons.  

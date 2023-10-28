@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Calculate 
 
 let mid = (lo + hi) >>> 1 // the best, but hard to understand. Any explanations? 

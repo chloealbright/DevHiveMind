@@ -5,6 +5,10 @@ tags:
   - search
   - binary
 author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 ## Key Decisions in Binary Search
 

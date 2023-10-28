@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[_Images/Algo/GetImage (4).png]]
 
 Worst > Average 

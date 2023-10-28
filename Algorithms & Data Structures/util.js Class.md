@@ -1,3 +1,11 @@
+---
+tags: 
+author: 
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 // These functions are designed to be exported, but you could create a class instead. See tutorial video.  
 
 // #1 proper case 

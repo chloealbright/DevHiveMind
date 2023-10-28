@@ -4,15 +4,17 @@ tags:
   - discreteMath
   - testCases
 author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
-De Morgan's Law of Union: The complement of the union of the two sets A and B will be equal to the intersection of A' (complement of A) and B' (complement of B). This is also known as De Morgan's Law of Union. It can be represented as (A ∪ B)' = A' ∩ B'. We can also generalize this law. 
+De Morgan's Law of Union, often referred to as De Morgan's Law, is a fundamental principle in set theory. It states that the complement of the union of two sets, A and B, is equal to the intersection of the complements of A and B. This law can be expressed as (A ∪ B)' = A' ∩ B'. It serves as a key tool for manipulating sets and understanding their relationships.
 
-[https://www.cuemath.com/data/de-morgans-law/](https://www.cuemath.com/data/de-morgans-law/) 
+To further explore this concept, you can visit the following resource: [De Morgan's Law Explanation](https://www.cuemath.com/data/de-morgans-law/).
 
-Propositions a statement or assertion that expresses a judgment or opinion.  
+Propositions are statements or assertions that express judgments or opinions. In a mathematical context, propositions are used to make claims, such as "3 is greater than 4," "an infinite set exists," or "7 is prime." Axioms are propositions that are assumed to be true, serving as the foundational building blocks for mathematical systems.
 
-A proposition is a mathematical statement such as "3 is greater than 4," "an infinite set exists," or "7 is prime." An axiom is a proposition that is assumed to be true.  
+Propositional Logic, also known as sentential logic or statement logic, is a branch of logic that focuses on how to combine and modify entire propositions, statements, or sentences to create more complex ones. It delves into the logical relationships and properties that result from these operations. In propositional logic, the basic statements are considered indivisible units. Therefore, propositional logic does not analyze the logical properties and relationships that depend on the components of statements, such as subjects and predicates.
 
-### Propositional Logic 
-
-Known as sentential logic and statement logic, is the branch of logic that studies ways of joining and/or modifying entire propositions, statements or sentences to form more complicated propositions, statements or sentences, as well as the logical relationships and properties that are derived from these methods of combining or altering statements. In propositional logic, the simplest statements are considered as indivisible units, and hence, propositional logic does not study those logical properties and relations that depend upon parts of statements that are not themselves statements on their own, such as the subject and predicate of a statement. The most thoroughly researched branch of propositional logic is classical truth-functional propositional logic, which studies logical operators and connectives that are used to produce complex statements whose truth-value depends entirely on the truth-values of the simpler statements making them up, and in which it is assumed that every statement is either true or false and not both. However, there are other forms of propositional logic in which other truth-values are considered, or in which there is consideration of connectives that are used to produce statements whose truth-values depend not simply on the truth-values of the parts, but additional things such as their necessity, possibility or relatedness to one another.
+The most extensively studied branch of propositional logic is classical truth-functional propositional logic. This branch explores logical operators and connectives used to create complex statements whose truth-value is entirely determined by the truth-values of the simpler statements that compose them. In this context, it is assumed that every statement is either true or false but not both. However, there are other variations of propositional logic that consider different truth-values or connectives that factor in additional attributes like necessity, possibility, or relatedness among statements.

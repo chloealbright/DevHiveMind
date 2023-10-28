@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[unnamed (54).gif]]
 
 ### Optimize & Solving Technique #2: DIY (Do It Yourself)  

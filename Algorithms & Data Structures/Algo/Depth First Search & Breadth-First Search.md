@@ -8,6 +8,10 @@ tags:
   - search
   - traversal
 author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 ![[unnamed (43).gif]]
 

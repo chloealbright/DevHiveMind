@@ -1,28 +1,31 @@
-Reactive programming is more focused on how individual components or parts of a system handle and react to data streams, 
+---
+tags:
+  - architecturalParadigm
+  - concurrency
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates: "[[Declarative Coding]]"
+---
+## Reactive Programming:
 
-while event-driven architecture deals with the broader architectural pattern of communication and coordination between different parts of a system.  
-  
-### Reactive Programming:  
-  
-1. **Programming Paradigm:**  
- **Reactive Programming:** It is a programming paradigm that deals with asynchronous data streams and the propagation of changes. It is not tied to a specific architectural style but is more about how you write code to handle events and asynchronous data.  
-  
-2. **Data Streams:**  
- **Reactive Programming:** Emphasizes the use of reactive extensions (e.g., RxJava, RxJS) to work with data streams and sequences. It introduces concepts like Observables, Observers, and transformations to handle asynchronous and event-driven scenarios.  
-  
-3. **Focus on Data Flow:**  
-**Reactive Programming:** Focuses on the flow of data and how changes in one part of the system can be efficiently propagated and reacted to in other parts of the system.  
-  
-4. **Example:**  
-**Reactive Programming:** In reactive programming, you might use reactive libraries to handle user interface events, data streaming, or any scenario where changes need to be efficiently propagated through the system.
+Reactive Programming is a programming paradigm that deals with asynchronous data streams and the [[Glossary#^5487d3 | propagation]] of changes. Unlike being tied to a specific architectural style, it primarily focuses on how code handles events and asynchronous data. 
+
+In essence, reactive programming concentrates on how individual components or parts of a system manage and respond to data streams. 
+
+## Data Streams:
+
+In the realm of reactive programming, the emphasis lies in utilizing reactive extensions (such as RxJava and RxJS) for working with data streams and sequences. This involves introducing concepts like Observables, Observers, and transformations to adeptly manage asynchronous and event-driven scenarios.
+
+## Focus on Data Flow:
+
+Reactive programming is primarily centered around the efficient flow of data and how alterations in one part of the system can be effectively propagated and responded to in other parts of the system.
+
+### Use Case:
+
+In practice, reactive programming finds utility in scenarios where you need to handle user interface events, data streaming, or any situation that demands efficient propagation of changes throughout the system.
+
+Notably, reactive programming is known for its heavy reliance on declarative coding, which is becoming a standard approach, as it promotes standardization and prevents individuals from resorting to idiosyncratic practices.
 
 
-
-
-Reactive programming is heavily declarative which is a standard that is being more adopted because it keeps people from doing their own thing and standardized things
-
-
-
-
-
-Concurrency is a dependency for understanding event driven reactive programming

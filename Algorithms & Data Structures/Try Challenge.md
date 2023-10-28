@@ -1,3 +1,11 @@
+---
+tags: 
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Level 1 code out 
 
 The editor starts with a blank text document, with the cursor at initial position 0. 

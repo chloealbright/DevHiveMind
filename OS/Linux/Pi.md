@@ -1,3 +1,12 @@
+---
+tags:
+  - favorite
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Headless Pi  
 
 Pi
@@ -20,4 +29,3 @@ galaxyras23
   
 Galaxyssh18
 
-#favorite 

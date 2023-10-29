@@ -30,7 +30,13 @@
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "74021eebd6335a3d",
+        "type": "tabs",
+        "children": [
           {
             "id": "aeb69a33c024884b",
             "type": "leaf",
@@ -42,14 +48,7 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "74021eebd6335a3d",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "11693a58475305e2",
             "type": "leaf",
@@ -109,9 +108,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fd251005dc7f453d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Template/_Regular  Note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -173,8 +184,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language Overlap/Access Modifiers.md",
+                "file": "_Template/_Regular  Note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language Overlap/Access Modifiers.md",
+                "file": "_Template/_Regular  Note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +244,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language Overlap/Access Modifiers.md"
+                "file": "_Template/_Regular  Note.md"
               }
             }
           },
@@ -327,10 +337,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "17aeb18f21234b50",
+  "active": "fd251005dc7f453d",
   "lastOpenFiles": [
+    "_Template/_Documentation.md",
+    "_Template/_Blog Post.md",
+    "Language Overlap/Abstract Classes.md",
     "Architecture/Object Oriented Programming.md",
     "Language Overlap/Access Modifiers.md",
+    "Language/Java/Protected in Depth.md",
     "Language Overlap/Class Instance.md",
     "Algorithms & Data Structures/High Level Example.md",
     "Algorithms & Data Structures/Linear  Data Structures/_Stack vs Queue.md",
@@ -342,7 +356,6 @@
     "Architecture/Paradigm vs Patterns.md",
     "Language Overlap/Polymorphism.md",
     "Codebase Architecture Decisions/_I_nterface Segregation Principle.md",
-    "Language Overlap/Abstract Classes.md",
     "_Official Documentation/Untitled 2.md",
     "_Official Documentation/Untitled 1.md",
     "_Official Documentation/Untitled.md",
@@ -353,9 +366,6 @@
     "Architecture/FaaS.md",
     "_Official Documentation/Express.js Docs.md",
     "_Official Documentation/Kafka Docs.md",
-    "_Official Documentation/Material UI Docs.md",
-    "_Official Documentation/Node.js Guides.md",
-    "_Official Documentation/Node.js Latest Docs.md",
     "_Pdf/Cheatsheet/PostgreSQL-Cheat-Sheet.pdf",
     "_Pdf/Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
     "_CODE/Express",

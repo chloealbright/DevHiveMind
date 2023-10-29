@@ -18,10 +18,9 @@ UML sign for optional;; O
 UML sign for static member for attributes and methods;; underline or bold and underline
 
 ## Modifiers 
- Access modifiers are keywords in certain languages that help to restrict the scope of a class, constructor, variable, method, or data member.
-***access modifiers are for attributes, classes, methods, and constructors (member):
+ Access modifiers are keywords in certain languages that help to restrict the scope of ***attributes, classes, methods,and constructors (member):
 
-- **no-modifier** -  this default to what is known as "*package-private*" making it visible only within its packages (named groups of related classes). 
+- **no-modifier** - this is `default` to what is known as "*package-private*" making it visible only within its packages (named groups of related classes). 
 
 ### UML Class Signs
 
@@ -35,13 +34,13 @@ UML sign for static member for attributes and methods;; underline or bold and un
 > "astrick sign" function-name
 > 0 function-name
 
--  **public** - code is visible to all classes everywhere. 
+-  **public** - code is accessible from everywhere in the program and from outside classes. 
 ```java
 + public
 ```
 
 ### Private
-- The `private` access modifier serves the essential purpose of restricting access to class members, which includes both variables and methods, to within the same class where they are defined. When a member is declared as `private`, it can only be accessed and modified within the class in which it is defined. This encapsulation effectively hides these members from other classes and objects. 
+- The `private` access modifier serves the essential purpose of restricting access to class members, which includes both variables and methods within the same class where they are defined. When a member is declared as `private`, it can only be accessed and modified within the class in which it is defined. This encapsulation effectively hides these members from other classes and objects. 
 
 - Private members play a crucial role in upholding the principle of encapsulation by concealing the internal implementation details of a class. This not only helps in maintaining data integrity but also prevents direct manipulation of the class's internal state by external code, thereby enhancing the overall robustness and security of the program or system.
 ```java

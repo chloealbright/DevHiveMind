@@ -1,20 +1,5 @@
-# Object and Class Comparison
 
-- Compare and contrast an Object and a Class.
 
-# Java Access Modifiers
-
-- In Java, what are access modifiers?
-  - Access modifiers are keywords in Java that help to restrict the scope of a class, constructor, variable, method, or data member.
-    - `public` - accessible from everywhere in the program and from outside classes
-    - `private` - only accessible from within the class they are declared in
-    - `protected` - only accessible from within the class they are declared in and subclasses
-    - `default` - only accessible within the same package
-
-# Principles of Object-Oriented Programming
-
-- What are the principles of object-oriented programming? What is encapsulation? What is polymorphism?
-  - Object-Oriented Programming is a methodology or paradigm for designing a program using classes or objects.
   
 ## Abstraction
 

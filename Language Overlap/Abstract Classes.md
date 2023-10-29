@@ -1,6 +1,6 @@
 ---
 tags:
-  - OOO
+  - OO
 author:
   - jacgit18
 Status: 

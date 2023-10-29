@@ -78,4 +78,66 @@ Other issue is the permanent nature of such a relation: inheritance is forever: 
 
 in JavaScript a way to create a private  variable is through encapsulation by creating a method that has a variable then you return another function that returns that other variable essentially using the scope to make it private also known as closure but you can use typescript for private variable
 
-[https://www.youtube.com/watch?v=nnwD5Lwwqdo&list=WL&index=14&ab_channel=WebDevSimplified](https://www.youtube.com/watch?v=nnwD5Lwwqdo&list=WL&index=14&ab_channel=WebDevSimplified)
+
+
+
+
+### Encapsulation, Closure, and Currying Example
+
+```javascript
+// Define a function that encapsulates the dynamic programming solution
+const createRobberyCalculator = () => {
+  let cache = {};
+
+  // This function uses dynamic programming to calculate the maximum loot
+  const myrobDP = (nums, i) => {
+    // Check if the result is cached
+    if (i in cache) {
+      return cache[i];
+    } else {
+      // Base case
+      if (i < 0) return 0;
+      // Calculate and cache the result
+      cache[i] = Math.max(myrobDP(nums, i - 2) + nums[i], myrobDP(nums, i - 1));
+      return cache[i];
+    }
+  };
+
+  return myrobDP; // Return the inner function
+};
+```
+
+### Example input data
+
+```javascript
+// Example input data
+const prices = [1, 2, 3, 1];
+```
+
+### Creating an instance of the robbery calculator with encapsulation
+
+```javascript
+// Create an instance of the robbery calculator with encapsulation
+const myrobObj = createRobberyCalculator();
+```
+
+### Using the function with currying
+
+```javascript
+// Using the function with currying
+const newFunction = myrobObj('out'); // First parameter
+console.log(newFunction);
+console.log(newFunction(prices, prices.length - 1)); // Second parameter
+```
+
+### Alternatively, using currying like this
+
+```javascript
+// Alternatively, you can use currying like this
+console.log(myrobObj('out')(prices, prices.length - 1));
+```
+
+
+
+  
+ 

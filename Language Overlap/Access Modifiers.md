@@ -22,6 +22,9 @@ UML sign for static member for attributes and methods;; underline or bold and un
 
 - **no-modifier** - this is `default` to what is known as "*package-private*" making it visible only within its packages (named groups of related classes). 
 
+
+
+
 ### UML Class Signs
 
 ^7de0bf

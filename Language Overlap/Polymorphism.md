@@ -3,7 +3,7 @@ tags:
   - CodebaseDecision
   - MacroCodebaseDecision
   - MicroCodebaseDecision
-  - OOO
+  - OO
 author:
   - jacgit18
 Status: 
@@ -13,6 +13,14 @@ Relates:
 ---
 ## Introduction to Polymorphism
 Polymorphism, derived from "poly" (many) and "morph" (variance of form), in programming refers to the ability of an object to take on different forms. In Java, it allows a developer to use inherited attributes and methods to perform different tasks, enabling the execution of a single action in various ways.
+
+## Polymorphism
+
+  - Means “many forms,” which allows methods with similar signatures to accomplish different tasks.
+  - It consists of either compile time or runtime polymorphism.
+    - Compile time polymorphism involves method overloading when two methods with the same name have different required parameters.
+    - Run time polymorphism is resolved through method overriding, called through the reference variable of a superclass or parent class. Overriding methods have the same signature.
+
 
 ## Shapes and Methods
 Consider a program calculating area and perimeter of shapes. We define methods `area()` and `perimeter()`. Different shapes require distinct calculations, leading to subclasses like circle, square, trapezium, and polygon. This represents polymorphism, where the base class "shapes" takes on various forms.
@@ -146,3 +154,4 @@ function add(a, b) { return a + b; } 
 In languages where you specify overloaded monomorphic methods you can get around this problem by simply compiling multiple versions like [[Dynamic and Static Polymorphism#^4a17f7 | here]]  of the same method name with different argument signatures which are then optimized on their own. This means that you call different optimized methods because using differently typed arguments requires you to use a different overloaded method, so there's no question of which method you're using. 
 
 You might think that you could keep multiple copies of optimized functions in the VM and check types to determine which optimized compiled function to use. In theory, that would work, if type checking before method invocation were free or very inexpensive. In practice, that usually doesn't turn out to be the case, and you'd probably want to balance things against real-world code to determine the best trade-off threshold. 
+

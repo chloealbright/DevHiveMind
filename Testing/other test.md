@@ -22,3 +22,9 @@
     - Sometimes, interviewers may present scenarios resembling real-world use cases.
     - These assess your ability to translate practical problems into code.
     - Especially important for roles that require understanding and solving real-world issues.
+
+# Testing Private Methods
+
+
+  - To test a private method, create an instance of that class and try to print the output of the variable or method that was private.
+    - You could try to call the private method in a class that should have access and asserts that the call failed.

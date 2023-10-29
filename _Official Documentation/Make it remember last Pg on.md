@@ -94,6 +94,8 @@ https://www.digitalocean.com/community/tutorials/how-to-use-generics-in-typescri
 https://js.checkio.org
 
 
+https://github.com/gopinav/Redux-Toolkit-Tutorials/tree/master/react-rtk-demo/src
+
 
 // Array
 // last

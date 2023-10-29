@@ -5,7 +5,6 @@ https://recharts.org/en-US/
 
 https://github.com/visionmedia/superagent
 
-https://github.com/jquense/yup
 
 https://github.com/michaeldzjap/react-signature-pad-wrapper
 
@@ -50,10 +49,16 @@ https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background
 
 
 https://redux.js.org/tutorials/essentials/part-2-app-structure
+
 https://redux-toolkit.js.org/introduction/getting-started
-https://github.com/gopinav/Redux-Toolkit-Tutorials/tree/master/react-rtk-demo/src
+
+
 https://github.com/rt2zz/redux-persist
+
 https://nextjs.org/docs
+
 https://nextjs.org/learn/basics/create-nextjs-app
+
 https://react.i18next.com/
+
 https://github.com/i18next/i18next-browser-languageDetector

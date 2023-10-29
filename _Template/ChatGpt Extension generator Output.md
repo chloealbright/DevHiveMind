@@ -1,3 +1,6 @@
+
+
+Need to sign up for chatgpt API
 ## brainstorm ides for a software development project using chatgpt
 
 this can use meta data pick option to use data

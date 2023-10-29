@@ -30,7 +30,7 @@
 ## <mark style="background: #FFB86CA6;">Dev Med</mark>
 #todo/Med/Dev
 - [ ] Act as a doctor determine potential diagnosis based on blood and urine tests asking questions for each test result 
-- [ ] [[dev idea]]
+- [ ] [[ChatGpt Extension generator Output]]
 - [ ] Finish LinkedIn video
 - [ ] **Problem-Solving Impatience:** Develop the ability to recognize and effectively manage impatience during problem-solving, adapting your approach to overcome challenges.
 - [ ] **Python & Async Debugging in VSCode:** Master advanced debugging techniques within VSCode, particularly tailored for Python and asynchronous code.

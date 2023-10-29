@@ -2,9 +2,8 @@ youll want to run certain scripts that are within projects like npm run test-set
 
 
 
-If you have single quotes instead of double outside you can have double nested inside if you need to use them so always use single then double 
 
-' " ' 
 
-Or `` back ticks
 
+
+String('test "123"')

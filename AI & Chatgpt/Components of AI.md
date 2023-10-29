@@ -1,9 +1,10 @@
 ---
 tags:
   - AI
-author: jacgit18
+author:
+  - jacgit18
 Status: 
-Started: 
+Started: 2023-09-29
 EditDate: 
 Relates:
 ---

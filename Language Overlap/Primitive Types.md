@@ -25,9 +25,14 @@ Long
 ## String 
 adding ascii values to a sum and comparing math and sub tracing and adding at different times 
 
+
+"If you choose to use single quotes (') for string delimiters, it allows you to easily include double quotes (\") within your strings when necessary. It's a good practice to use single quotes as the primary string delimiter and double quotes for nested quotations, like this: ' \" '."
+
+or use Backticks, often referred to as template literals
+
 "test" 
 
-String wrapper is `String("test")` can convert non string to string like an array 
+String wrapper is `String('test "123"')` can convert non string to string like an array 
 
 `new String("test")` is reference to object  
 

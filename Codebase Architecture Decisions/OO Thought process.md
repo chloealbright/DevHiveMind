@@ -2,12 +2,13 @@
 tags:
   - Develop
   - Domain
-  - refine
   - OO
-banner_x: 0.1
-banner_y: 0.2
-banner: 
-cssclasses:
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
 ---
 # Object Oriented Program explained 
 

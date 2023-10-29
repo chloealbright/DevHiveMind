@@ -1,3 +1,13 @@
+---
+tags:
+  - OO
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 2023-10-29
+Relates:
+---
 Abstract classes and abstract methods are related concepts in Java, but they serve different purposes.
 
 Abstract classes:

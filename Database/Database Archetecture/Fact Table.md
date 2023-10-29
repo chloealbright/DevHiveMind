@@ -1,3 +1,10 @@
+
+
+![[2023-06-17 12.34.59 medium.com 7cf69549fdf5.png]]
+
+
+![[2023-06-17 12.33.05 medium.com 1b671e128549.png]]
+
 As a data engineer, the first step in determining what type of fact table to use is to understand the business requirements and the data sources that will be used to populate the fact table. Here are some general guidelines for determining the type of fact table to use: 
 
 Identify the grain: The grain of a fact table refers to the level of detail that will be captured in the table. For example, if the fact table is for sales, the grain could be at the transaction level or at a higher level such as daily or monthly sales. Once the grain is identified, it can help determine the type of fact table that will be used. 

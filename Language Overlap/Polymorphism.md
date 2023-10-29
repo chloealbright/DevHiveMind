@@ -6,22 +6,28 @@ tags:
   - OO
 author:
   - jacgit18
-Status: 
+Status: refinement
 Started: 
 EditDate: 2023-10-29
 Relates:
 ---
-## Introduction to Polymorphism
-Polymorphism, derived from "poly" (many) and "morph" (variance of form), in programming refers to the ability of an object to take on different forms. In Java, it allows a developer to use inherited attributes and methods to perform different tasks, enabling the execution of a single action in various ways.
+## Understanding Polymorphism in Java
 
-## Polymorphism
+**Polymorphism**, derived from "poly" (many) and "morph" (variance of form), is a fundamental concept in programming. In Java, it allows objects to take on different forms, enabling developers to use inherited attributes and methods to perform various tasks. This versatility allows the execution of a single action in multiple ways.
 
-  - Means “many forms,” which allows methods with similar signatures to accomplish different tasks.
-  - It consists of either compile time or runtime polymorphism.
-    - Compile time polymorphism involves method overloading when two methods with the same name have different required parameters.
-    - Run time polymorphism is resolved through method overriding, called through the reference variable of a superclass or parent class. Overriding methods have the same signature.
+### Key Concepts
 
+**1. "Many Forms" Concept:**
+   - Polymorphism means "many forms," enabling methods with similar signatures to accomplish different tasks.
 
+**2. Types of Polymorphism:**
+   - Polymorphism in Java can be categorized into two types:
+   
+   - **Compile-Time Polymorphism:**
+     - This type of polymorphism involves method overloading. It occurs when two methods share the same name but have different required parameters. The compiler determines which method to call based on the parameters provided.
+
+   - **Run-Time Polymorphism:**
+     - Run-time polymorphism is resolved through method overriding. In this case, a method in a subclass with the same name and signature as a method in the superclass replaces the superclass method. Method calls are determined at runtime, based on the reference variable of a superclass or parent class.
 ## Shapes and Methods
 Consider a program calculating area and perimeter of shapes. We define methods `area()` and `perimeter()`. Different shapes require distinct calculations, leading to subclasses like circle, square, trapezium, and polygon. This represents polymorphism, where the base class "shapes" takes on various forms.
 

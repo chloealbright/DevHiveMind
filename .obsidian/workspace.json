@@ -49,19 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language Overlap/Annotation Element Types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5624d3ca48735559",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language Overlap/Running code.md",
+                "file": "Language Overlap/Annotation.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,24 +68,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "792ebc7492d1a699",
         "type": "tabs",
         "children": [
-          {
-            "id": "75e99931a9fb408f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language Overlap/Annotations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "68fa5a24b759c8ed",
             "type": "leaf",
@@ -133,9 +109,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b3683ba525ec8ec0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/Typescript/NPM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c9666dee34c10277",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language Overlap/Annotation 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Object Oriented ",
+                "query": "npm",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -217,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language Overlap/Primitive Types.md",
+                "file": "Language Overlap/Annotation 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language Overlap/Primitive Types.md",
+                "file": "Language Overlap/Annotation 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language Overlap/Primitive Types.md"
+                "file": "Language Overlap/Annotation 1.md"
               }
             }
           },
@@ -350,15 +350,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "68fa5a24b759c8ed",
+  "active": "c9666dee34c10277",
   "lastOpenFiles": [
-    "Language Overlap/Running code.md",
+    "Language Overlap/Annotation.md",
+    "Language Overlap/Annotation 1.md",
     "Language Overlap/Primitive Types.md",
+    "Language Overlap/Annotations.md",
+    "OS/Linux/terminal from Tracflo history.md",
+    "Language Overlap/Running code.md",
+    "Language/Typescript/NPM.md",
     "Language Overlap/Wrappers.md",
     "Language Overlap/Primitive Data Types Across Languages.md",
     "Language Overlap/Primitive Wrappers Across Languages.md",
-    "Language Overlap/Annotations.md",
-    "Language Overlap/Annotation Element Types.md",
     "Language Overlap/Abstract Data Types.md",
     "Language Overlap/Abstract classes vs abstract methods.md",
     "Language Overlap/Abstract Classes.md",
@@ -375,9 +378,6 @@
     "Codebase Architecture Decisions/OO Thought process.md",
     "System Design/Object-Oriented Analysis And Design.md",
     "Database/Data Work.md",
-    "Database/Other Stuff.md",
-    "Companies/Agile to edit/Agile.md",
-    "Language Overlap/Inheritance Composition Encapsulation.md",
     "Testing/Untitled.canvas",
     "_Images/Pasted image 20231029104453.png",
     "_Pdf/Cheatsheet/PostgreSQL-Cheat-Sheet.pdf",

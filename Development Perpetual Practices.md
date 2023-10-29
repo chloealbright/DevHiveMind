@@ -1,6 +1,11 @@
 ---
 tags: 
-author: jacgit18
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
 ---
 
 Create high level examples of quoting concepts to get a better understanding and lock it in  

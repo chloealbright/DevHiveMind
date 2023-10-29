@@ -4,9 +4,6 @@ cssclass: dashboard
 banner: "![[Banner.gif]]"
 banner_y: 0.494
 banner_x: 0.5
----
-
-
 
 ---
 <div class="title" style="color:Black">Notebook Dashboard</div>
@@ -21,6 +18,9 @@ banner_x: 0.5
 	-  File Count: `$=dv.pages().length`
 	-  Personal recipes: `$=dv.pages('"Family/Recipes"').length`
 
+- 🗄️ Recent file updates
+ `$=dv.list(dv.pages('').sort(f=>f.file.mtime.ts,"desc").limit(11).file.link)`
+
 
 # The List
 - 💻 Dev Quest
@@ -31,8 +31,6 @@ banner_x: 0.5
 
 
 
-- 🗄️ Recent file updates
- `$=dv.list(dv.pages('').sort(f=>f.file.mtime.ts,"desc").limit(11).file.link)`
 
 
 🎮 Top to Play

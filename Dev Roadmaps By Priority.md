@@ -1,6 +1,11 @@
 ---
 tags: 
 author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 ![[ace-one-piece-boat-sea-travel-6cc0nm9xct5nthwm.gif]]
 ## [Other Road Maps](https://roadmap.sh/)

@@ -11,8 +11,12 @@
             "id": "a62f8988524ace66",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -77,8 +81,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Home.md"
+              }
             }
           },
           {
@@ -229,6 +236,10 @@
   },
   "active": "a62f8988524ace66",
   "lastOpenFiles": [
+    "Home 1.md",
+    "Home.md",
+    "Development Perpetual Practices.md",
+    "Dev Roadmaps By Priority.md",
     "Database/Database Archetecture/Fact Table.md",
     "Language Overlap/Access Modifiers.md",
     "Language Overlap/Abstract classes vs abstract methods.md",
@@ -252,10 +263,6 @@
     "Language Overlap/Composition and Encapsulation.md",
     "Library/Frontend/React/Close vs Wrapper Components.md",
     "Language Overlap/Class Instance.md",
-    "_Template/_Blog Post.md",
-    "_Template/_Documentation.md",
-    "_Template/_Regular  Note.md",
-    "Language/Java/Protected in Depth.md",
     "_Images/Pasted image 20231029104453.png",
     "_Pdf/Cheatsheet/PostgreSQL-Cheat-Sheet.pdf",
     "_Pdf/Cheatsheet/sql-basics-cheat-sheet-letter.pdf",

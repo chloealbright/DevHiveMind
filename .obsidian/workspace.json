@@ -42,21 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2aa3e004a0878468",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Arrays.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "74021eebd6335a3d",
@@ -109,8 +97,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "17aeb18f21234b50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language Overlap/Access Modifiers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -139,7 +140,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "interface",
+                "query": "Access Modifiers",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -172,7 +173,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -192,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/High Level Example.md",
+                "file": "Architecture/Object Oriented Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/High Level Example.md",
+                "file": "Architecture/Object Oriented Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -232,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/High Level Example.md"
+                "file": "Architecture/Object Oriented Programming.md"
               }
             }
           },
@@ -325,16 +327,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "11693a58475305e2",
+  "active": "aeb69a33c024884b",
   "lastOpenFiles": [
+    "Language Overlap/Access Modifiers.md",
+    "Architecture/Object Oriented Programming.md",
+    "Language Overlap/Class Instance.md",
+    "Algorithms & Data Structures/High Level Example.md",
+    "Algorithms & Data Structures/Linear  Data Structures/_Stack vs Queue.md",
     "Algorithms & Data Structures/Linear  Data Structures/Arrays.md",
     "_Images/Pasted image 20231029104453.png",
-    "Algorithms & Data Structures/High Level Example.md",
     "Codebase Architecture Decisions/OO Thought process.md",
     "Language Overlap/Java v TypeScript.md",
     "System Design/Object-Oriented Analysis And Design.md",
     "Architecture/Paradigm vs Patterns.md",
-    "Architecture/Object Oriented Programming.md",
     "Language Overlap/Polymorphism.md",
     "Codebase Architecture Decisions/_I_nterface Segregation Principle.md",
     "Language Overlap/Abstract Classes.md",
@@ -351,8 +356,6 @@
     "_Official Documentation/Material UI Docs.md",
     "_Official Documentation/Node.js Guides.md",
     "_Official Documentation/Node.js Latest Docs.md",
-    "_Official Documentation/NPM Docs.md",
-    "Language/Typescript/TypeScript Explained.md",
     "_Pdf/Cheatsheet/PostgreSQL-Cheat-Sheet.pdf",
     "_Pdf/Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
     "_CODE/Express",

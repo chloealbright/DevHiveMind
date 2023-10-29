@@ -239,6 +239,9 @@ enqueue(add stuff at beginning ) queue.unshift 
 array convert to string or 2d array
 ```
 
+# High level example of Array/Matrix 
 
-
+-1         +1  
+<mark style="background: #FF5582A6;">-1</mark> <mark style="background: #FFF3A3A6;">0 1 2 3</mark> <mark style="background: #FFB86CA6;">4</mark> 
+<mark style="background: #FF5582A6;">ob</mark> 1 2 3 4 <mark style="background: #FFB86CA6;">un</mark> 
 ![[Pasted image 20231029104453.png]]

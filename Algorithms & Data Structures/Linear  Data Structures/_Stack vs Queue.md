@@ -43,3 +43,22 @@ In print spooling 
 Breadth First search in a Graph 
 
 Handling of interrupts in real-time systems. The interrupts are handled in the same order as they arrive, First come first served.
+
+
+# High level example of Queues and stacks 
+
+Basically a queue is like a line of dirty plates that need to be added to stack of dirty plates to be cleaned and there are a lot of steps to clean that plate so the first Dirty plate is removed from the queue and added to the top of a stack of dirty plates to be cleaned then we clean the plate and pop it off the stack of dirty plates and may get dirty again to be added to the queue of dirty plates 
+
+LIFO The Current added comes OFF 
+
+       ^ STACK(popOFF/pushON)   LAST IN FIRST OUT 
+
+       | STACK 
+
+       | STACK 
+
+       | STACK 
+
+FIFO                        ---------------------------> 
+
+QUEUE(enqueue) > queue > queue > queue > queue > QUEUE(dequeue)

@@ -32,3 +32,111 @@ https://www.softwaretestinghelp.com/login-page-test-cases/
 
 https://www.section.io/engineering-education/how-to-generate-fake-data-in-node-using-faker.js/
 
+
+https://kubernetes.io/docs/home/
+
+https://docs.docker.com/?_gl=1*1oyqks4*_ga*MTY1NjI3MDQxMS4xNjkxODY1OTQ1*_ga_XJWPQMJYHQ*MTY5ODUzODQ5OS4yLjEuMTY5ODUzODUwMC41OS4wLjA.
+
+
+
+https://docs.obsidian.md/Home
+
+
+https://git-scm.com/doc
+
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+
+https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
+
+https://docs.github.com/en/get-started/quickstart/github-flow
+
+https://docs.github.com/en/actions
+
+https://github.com/features/copilot
+
+https://docs.github.com/en/copilot
+
+https://www.freecodecamp.org/news/how-to-use-github-copilot-with-visual-studio-code/
+
+https://www.kali.org/docs/
+
+https://www.kali.org/tools/all-tools/
+
+
+
+https://learning.postman.com/docs/introduction/overview/
+
+https://web.postman.co/bootcamp
+
+https://code.visualstudio.com/
+
+
+https://www.typescriptlang.org/docs/handbook/2/basic-types.html
+
+
+
+
+
+https://code.visualstudio.com/docs/typescript/typescript-debugging
+
+
+https://www.digitalocean.com/community/tutorials/how-to-debug-react-components-using-react-developer-tools
+
+https://jkettmann.com/react-debugging-session-hundreds-of-function-calls
+
+
+
+
+
+
+https://www.digitalocean.com/community/tutorials/how-to-use-generics-in-typescript
+
+https://js.checkio.org
+
+
+
+// Array
+// last
+// makeArr: 2 generics, return, overwrite inference, default value
+// addFullName: extends
+// interfaces
+// props
+// useState
+// jsx generic
+
+const last = <T>(arr: T[]): T => {
+  return arr[arr.length - 1];
+};
+
+const l = last([1, 2, 3]);
+
+const l2 = last<string>(["a", "b", "c"]);
+
+const makeArr = <X, Y>(x: X, y: Y): [X, Y] => {
+  return [x, y];
+};
+
+const v = makeArr(5, 6);
+const v2 = makeArr("a", "b");
+const v3 = makeArr<string | null, number>("a", 5);
+
+const makeFullName = <T extends { firstName: string; lastName: string }>(
+  obj: T
+) => {
+  return {
+    ...obj,
+    fullName: obj.firstName + " " + obj.lastName
+  };
+};
+
+const v4 = makeFullName({ firstName: "bob", lastName: "junior", age: 15 });
+// const v5 = makeFullName({ another: "bob", lastName: "junior", age: 15 });
+
+interface Tab<T> {
+  id: string;
+  position: number;
+  data: T;
+}
+
+type NumberTab = Tab<number>;
+type StringTab = Tab<string>;

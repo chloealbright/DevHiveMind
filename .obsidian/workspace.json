@@ -1,0 +1,341 @@
+{
+  "main": {
+    "id": "0cbb3f0709975816",
+    "type": "split",
+    "children": [
+      {
+        "id": "daae00e018d5e370",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6fa1a3e30a93a92c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Syncthing Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0cb687ed31a3cb15",
+    "type": "split",
+    "children": [
+      {
+        "id": "35a748fce277cec3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c18a64a686e80f59",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6b26857b850e27fd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "sync thing",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9460d416af7fc81b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "fa2d1f5e55d774d0",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "f8dba8fda82ad27e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 319.5
+  },
+  "right": {
+    "id": "eef3a19b1c6d3fd3",
+    "type": "split",
+    "children": [
+      {
+        "id": "e554ac453d1d9575",
+        "type": "tabs",
+        "dimension": 66.00378787878788,
+        "children": [
+          {
+            "id": "c50b7b0a3ec4946f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tools/Syncthing Obsidian.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f284fe95011fdbdb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Tools/Syncthing Obsidian.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "44d477889d1dd1f7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0300aef17e4d5541",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tools/Syncthing Obsidian.md"
+              }
+            }
+          },
+          {
+            "id": "f9dd3247ae0d1430",
+            "type": "leaf",
+            "state": {
+              "type": "Strange New Worlds",
+              "state": {}
+            }
+          },
+          {
+            "id": "e25196040b431f9d",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
+              "state": {}
+            }
+          },
+          {
+            "id": "377f26e58347c30a",
+            "type": "leaf",
+            "state": {
+              "type": "podcast_player_view",
+              "state": {}
+            }
+          },
+          {
+            "id": "1877a5361950cc0e",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "cbfe2bee689e7ccc",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "31d82f5131570772",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "44da7c8ff7939bb7",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-google-keep",
+              "state": {}
+            }
+          },
+          {
+            "id": "ba3d4aace1c4fde4",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-replit",
+              "state": {}
+            }
+          },
+          {
+            "id": "cfc5f9e20f0b28ec",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "f36232373d6de22c",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 13
+      },
+      {
+        "id": "7e98245a429f273f",
+        "type": "tabs",
+        "dimension": 33.996212121212125,
+        "children": [
+          {
+            "id": "cdc9cc484b6cd128",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 347.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:Open format converter": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "copilot:Copilot Chat": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-read-it-later:ReadItLater: Save clipboard": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-projects:Open projects": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "homepage:Open homepage": false,
+      "janitor:Janitor: scan vault": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "6fa1a3e30a93a92c",
+  "lastOpenFiles": [
+    "Tools/Syncthing.md",
+    "Home.md",
+    "_Official Documentation/_Make it remember last Pg on.md",
+    "_Official Documentation/NPM Docs.md",
+    "_Official Documentation/_Untitled.md",
+    "_Official Documentation/Material UI Docs.md",
+    "_Official Documentation/Node.js Guides.md",
+    "_Official Documentation/Kafka Docs.md",
+    "_Official Documentation/Express.js Docs.md",
+    "_Official Documentation/Node.js Latest Docs.md",
+    "Language/Typescript/Generic Types.md",
+    "Codebase Architecture Decisions/CodeProcess/Identify areas where it make sense to use Multi threading,  concurrency, collections, generics, and annotations.md",
+    "Companies/People/Conversation Tactics & Starters.md",
+    "_Pdf/Cheatsheet/PostgreSQL-Cheat-Sheet.pdf",
+    "_Pdf/Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
+    "_CODE/Express V",
+    "_CODE/_Organize V/_Perpetual BAU.md",
+    "_CODE/_Organize V/Tech tips.md",
+    "_CODE/_Organize V/Tech Things to Research.md",
+    "_CODE/_Organize V/Study Session.md",
+    "_CODE/_Organize V/Project idea.md",
+    "_CODE/_Organize V/Programming Levels.md",
+    "_CODE/_Organize V/Production vs Development Dependency.md",
+    "_CODE/_Organize V/Mind map ideas.md",
+    "_CODE/_Organize V/Glossary.md",
+    "_CODE/_Organize V/Games.md",
+    "_CODE/_Organize V/Dev Todo.md",
+    "_CODE/_Organize V/Be Aware.md",
+    "_CODE/_Organize V/Algo left to over to do.md",
+    "_CODE/_Organize V",
+    "_CODE/Distill V",
+    "_CODE/_Capture V",
+    "_CODE/_Capture",
+    "_CODE/_Capture⬇️",
+    "_Official Documentation",
+    "_Images/2Osh.gif",
+    "_CODE",
+    "Testing/Untitled.canvas",
+    "OS/Linux/File system.canvas",
+    "Devops/Docker/Docker InDeph.canvas",
+    "Architecture/_Command and Query Responsibility Segregation.canvas",
+    "Architecture/_Web App Architecture.canvas",
+    "Architecture/Design Pattern 1.webp",
+    "Architecture/Design Pattern 2.webp",
+    "Architecture/Event Driven Architecture.canvas",
+    "Architecture/unnamed (3).gif",
+    "Architecture/Untitled.canvas",
+    "Architecture/Java Logging.canvas",
+    "API/Gateway.canvas",
+    "_Whiteboard/Pasted Image 20230416170915_161.png",
+    "_Images/Interview/Pasted image 20230401105027.png",
+    "_Images/2023-10-24 23.32.58 miro.com e1b9a1a3bae9.png",
+    "_Images/Algo/Heiarchy.png",
+    "_Files/2023-10-24 16.03.28 miro.com 54a50b4177fe.png",
+    "_Files/Algo/unnamed (22).gif",
+    "Methodology/12 Factor App Docker.canvas"
+  ]
+}

@@ -145,3 +145,7 @@ personArray = getFilledArray<{name: string, age: number}>( 
 ); 
 
 coordinateArray = getFilledArray<[number, number]>([3,4], 6);
+
+
+
+

@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "5d1384f01199c88a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language Overlap/Abstract classes vs abstract methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a9f0da0dcd6c1f11",
             "type": "leaf",
             "state": {
@@ -30,8 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dafd2e87e540d37e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language Overlap/Inheritance Composition Encapsulation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c635b18fecdb58b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Official Documentation/Untitled 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "74021eebd6335a3d",
@@ -108,21 +145,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "fd251005dc7f453d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Template/_Regular  Note.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -151,7 +175,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Access Modifiers",
+                "query": "Encapsulation",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -204,7 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Template/_Regular  Note.md",
+                "file": "_Official Documentation/Untitled 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Template/_Regular  Note.md",
+                "file": "_Official Documentation/Untitled 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -244,7 +268,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Template/_Regular  Note.md"
+                "file": "_Official Documentation/Untitled 2.md"
               }
             }
           },
@@ -337,15 +361,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fd251005dc7f453d",
+  "active": "9c635b18fecdb58b",
   "lastOpenFiles": [
-    "_Template/_Documentation.md",
-    "_Template/_Blog Post.md",
-    "Language Overlap/Abstract Classes.md",
+    "_Official Documentation/Untitled.md",
+    "Language Overlap/Inheritance Composition Encapsulation.md",
     "Architecture/Object Oriented Programming.md",
-    "Language Overlap/Access Modifiers.md",
-    "Language/Java/Protected in Depth.md",
+    "Language Overlap/Composition over Inheritance.md",
+    "Language Overlap/Composition and Encapsulation.md",
+    "Language Overlap/Abstract classes vs abstract methods.md",
+    "Library/Frontend/React/Close vs Wrapper Components.md",
     "Language Overlap/Class Instance.md",
+    "Language Overlap/Abstract Classes.md",
+    "Language Overlap/Polymorphism.md",
+    "Language Overlap/Access Modifiers.md",
+    "_Template/_Blog Post.md",
+    "_Template/_Documentation.md",
+    "_Template/_Regular  Note.md",
+    "Language/Java/Protected in Depth.md",
     "Algorithms & Data Structures/High Level Example.md",
     "Algorithms & Data Structures/Linear  Data Structures/_Stack vs Queue.md",
     "Algorithms & Data Structures/Linear  Data Structures/Arrays.md",
@@ -354,18 +386,10 @@
     "Language Overlap/Java v TypeScript.md",
     "System Design/Object-Oriented Analysis And Design.md",
     "Architecture/Paradigm vs Patterns.md",
-    "Language Overlap/Polymorphism.md",
     "Codebase Architecture Decisions/_I_nterface Segregation Principle.md",
     "_Official Documentation/Untitled 2.md",
     "_Official Documentation/Untitled 1.md",
-    "_Official Documentation/Untitled.md",
     "_Official Documentation/_Untitled.md",
-    "_Official Documentation/_Make it remember last Pg on.md",
-    "_Official Documentation/pgAdmin Docs.md",
-    "_Official Documentation/PostgreSQL Docs.md",
-    "Architecture/FaaS.md",
-    "_Official Documentation/Express.js Docs.md",
-    "_Official Documentation/Kafka Docs.md",
     "_Pdf/Cheatsheet/PostgreSQL-Cheat-Sheet.pdf",
     "_Pdf/Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
     "_CODE/Express",

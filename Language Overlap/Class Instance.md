@@ -65,6 +65,11 @@ public class Main {
 7. **Excluding Object Class Methods:**
    - When iterating through methods, filter out those from `Object` class.
 
+
+
+## Wrapper Class
+  - A class that encapsulates primitive data types into objects
+  - Some classes and data structures can only handle objects
 ## Not runnable for reference only
 [Runnable code](https://github.com/jacgit18/ClassAdvancedPractice)
 

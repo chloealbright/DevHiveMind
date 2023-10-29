@@ -10,6 +10,25 @@ Relates:
 ---
 An abstract class is a fundamental concept in object-oriented programming that cannot be instantiated; you cannot create objects directly from it. Its primary purpose is to serve as a blueprint for other classes by defining common attributes and methods shared among its subclasses. In contrast, a concrete class is one that can be instantiated, allowing the creation of objects.
 
+## Abstraction
+  - The function and uses of a class are known
+  - The actual implementation is hidden from the user.
+    - This can be done using an abstract class or an Interface to define the behavior of a class without implementing it.
+  - Abstraction can be achieved by using abstract classes and interfaces.
+  - Deferring the behavior of an object to its child classes
+## Abstract Class vs. Interface
+
+- What is the difference between an abstract class and an interface?
+  - An abstract class permits you to make a functionality that subclasses can implement or override
+  - An interface only permits you to state functionality but not to implement it.
+  - A class can extend only one abstract class, while a class can implement multiple interfaces.
+  - An abstract class is a class that contains the keyword abstract, while an Interface is a class with a method without a body that uses the keyword implement.
+  - Neither creates an object in java.
+
+## Inheritance vs. Abstraction
+
+- What are the differences between inheritance and abstraction?
+  - The key difference between the two principles lies in how abstraction focuses on the privacy of functionality, while inheritance focuses on sharing functionality (and reusability).
 # Structural model
 ![[2023-06-17 12.38.06 medium.com 7a1fbbfaa1b5.png]]
 

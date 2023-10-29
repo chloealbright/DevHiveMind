@@ -108,3 +108,10 @@ person1.introduce(); // Output: Hi, I'm Bob and I'm 35 years old.
 // Attempting to access private properties directly will result in an error
 // console.log(person1._name); // Error: person1._name is not defined
 ```
+
+
+## Encapsulation
+  - All data and methods are stored in an appropriate class
+  - Instance variables (data) are kept private and use accessor methods (getters/setters) to control access to them
+  - The separation and containerization of attributes/methods into a single data object unit.
+  - Allows restricted access to members and methods of a class to only those that need it, through keywords such as private, protected, and public.

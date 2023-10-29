@@ -16,6 +16,16 @@ Quick Reminder: Inheritance extends a class with new fields and methods by creat
 
 Now, as programmers we often write new classes, and sometimes - it’s time to make a choice: should these two classes be related and how? There are some commonly known rules that’ll help you decide, and also some less commonly known rules. I’ll cover both, so stay with me.
 
+## Inheritanceddd
+
+  - Certain classes can inherit the variables/methods from parent classes. Which is also known as a parent-child relationship.
+  - This is usually represented as an is-a relationship in Java and is done using the extends keyword to inherit from classes or the implements keyword for interfaces.
+  - The property of an object that requires all the properties and behavior of its parent object
+    - There are three types of inheritance - single, multilevel, and hierarchical.
+  - Allows re-use of code by allowing child classes to inherit code (members and methods) from parent classes.
+
+
+
 ### Types of Inheritance in JavaScript
 
 Inheritance is a very wide topic in JavaScript, as there are different ways to implement it. For instance, there’s the prototypal, pseudoclassical and functional inheritance. Let’s look briefly at how these inheritance types differ and how they work with polymorphism in JavaScript.

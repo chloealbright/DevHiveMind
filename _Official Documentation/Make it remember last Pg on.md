@@ -89,7 +89,7 @@ https://jkettmann.com/react-debugging-session-hundreds-of-function-calls
 
 
 
-https://www.digitalocean.com/community/tutorials/how-to-use-generics-in-typescript
+
 
 https://js.checkio.org
 

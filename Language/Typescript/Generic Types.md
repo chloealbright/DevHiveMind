@@ -221,3 +221,35 @@ coordinateArray = getFilledArray<[number, number]>([3,4], 6);
      };
      ```
    
+
+In TypeScript, `test<T>` and `test<any>` are used to specify the types of arguments a function can accept. However, there's a significant difference between the two:
+
+1. `test<T>`:
+   - The `<T>` is a type parameter, which makes the function generic.
+   - It allows you to define a function that can work with a specific, but unknown, type `T`.
+   - You can use this type parameter within the function to provide type safety and flexibility.
+
+Example:
+```typescript
+function test<T>(arg: T): T {
+    return arg;
+}
+
+const result = test(42); // Inferred type of 'result' is number
+```
+
+2. `test<any>`:
+   - The use of `any` in TypeScript essentially means that you're opting out of the type system.
+   - It allows the function to accept arguments of any type, providing little to no type safety.
+   - It's generally discouraged because it doesn't take advantage of TypeScript's type-checking capabilities.
+
+Example:
+```typescript
+function testAny(arg: any): any {
+    return arg;
+}
+
+const result = testAny("Hello"); // 'result' has type 'any'
+```
+
+In summary, `test<T>` is a generic function that maintains type safety and flexibility, while `test<any>` is less safe and should be used sparingly, typically only when dealing with data of unknown or dynamic types.

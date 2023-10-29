@@ -149,3 +149,75 @@ coordinateArray = getFilledArray<[number, number]>([3,4], 6);
 
 
 
+
+
+1. **Generic Functions**
+   - In TypeScript, you can create generic functions using `<T>` to accept various data types.
+   - Example:
+     ```typescript
+     const last = <T>(arr: T[]): T => {
+       return arr[arr.length - 1];
+     };
+     ```
+   - Usage:
+     - `const l = last([1, 2, 3]);` (infers `T` as `number`).
+     - `const l2 = last<string>(["a", "b", "c"]);` (explicitly specifies `T` as `string`).
+
+2. **Generic Functions with Multiple Types**
+   - You can create functions with multiple generic types.
+   - Example:
+     ```typescript
+     const makeArr = <X, Y>(x: X, y: Y): [X, Y] => {
+       return [x, y];
+     };
+     ```
+   - Usage examples:
+     - `const v = makeArr(5, 6);`
+     - `const v2 = makeArr("a", "b");`
+     - `const v3 = makeArr<string | null, number>("a", 5);`
+
+3. **Generic Functions with Constraints**
+   - You can constrain generic types with the `extends` keyword.
+   - Example:
+     ```typescript
+     const makeFullName = <T extends { firstName: string; lastName: string }>(obj: T) => {
+       return {
+         ...obj,
+         fullName: obj.firstName + " " + obj.lastName
+       };
+     };
+     ```
+   - Usage:
+     - `const v4 = makeFullName({ firstName: "bob", lastName: "junior", age: 15 });`
+
+4. **Generic Interfaces**
+   - You can create generic interfaces using `<T>` to make them work with various data types.
+   - Example:
+     ```typescript
+     interface Tab<T> {
+       id: string;
+       position: number;
+       data: T;
+     }
+     ```
+5. **Type Aliases for Generic Interfaces**
+   - You can create type aliases to specify the data type for a generic interface.
+   - Examples:
+     ```typescript
+     type NumberTab = Tab<number>;
+     type StringTab = Tab<string>;
+     ```
+   - Usage:
+     ```typescript
+     const numberTab: NumberTab = {
+       id: "tab1",
+       position: 1,
+       data: 42
+     };
+     const stringTab: StringTab = {
+       id: "tab2",
+       position: 2,
+       data: "Hello, World"
+     };
+     ```
+   

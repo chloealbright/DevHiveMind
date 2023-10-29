@@ -18,7 +18,8 @@ UML sign for optional;; O
 UML sign for static member for attributes and methods;; underline or bold and underline
 
 ## Modifiers 
-***access modifiers for attributes, classes, methods, and constructors (member):
+ Access modifiers are keywords in certain languages that help to restrict the scope of a class, constructor, variable, method, or data member.
+***access modifiers are for attributes, classes, methods, and constructors (member):
 
 - **no-modifier** -  this default to what is known as "*package-private*" making it visible only within its packages (named groups of related classes). 
 

@@ -194,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Object Oriented Programming.md",
+                "file": "Language Overlap/Access Modifiers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Object Oriented Programming.md",
+                "file": "Language Overlap/Access Modifiers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Object Oriented Programming.md"
+                "file": "Language Overlap/Access Modifiers.md"
               }
             }
           },
@@ -327,10 +327,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "aeb69a33c024884b",
+  "active": "17aeb18f21234b50",
   "lastOpenFiles": [
-    "Language Overlap/Access Modifiers.md",
     "Architecture/Object Oriented Programming.md",
+    "Language Overlap/Access Modifiers.md",
     "Language Overlap/Class Instance.md",
     "Algorithms & Data Structures/High Level Example.md",
     "Algorithms & Data Structures/Linear  Data Structures/_Stack vs Queue.md",

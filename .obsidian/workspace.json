@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Typescript/TypeScript Explained.md",
+                "file": "_Official Documentation/_Make it remember last Pg on.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -103,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/Typescript/TypeScript Explained.md",
+                "file": "_Official Documentation/_Make it remember last Pg on.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/Typescript/TypeScript Explained.md",
+                "file": "_Official Documentation/_Make it remember last Pg on.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/Typescript/TypeScript Explained.md"
+                "file": "_Official Documentation/_Make it remember last Pg on.md"
               }
             }
           },
@@ -281,17 +280,21 @@
   },
   "active": "e4e4367ec28b521d",
   "lastOpenFiles": [
+    "_Official Documentation/pgAdmin Docs.md",
+    "_Official Documentation/_Make it remember last Pg on.md",
+    "_Official Documentation/PostgreSQL Docs.md",
+    "Architecture/FaaS.md",
+    "_Official Documentation/_Untitled.md",
+    "_Official Documentation/Express.js Docs.md",
+    "_Official Documentation/Kafka Docs.md",
+    "_Official Documentation/Material UI Docs.md",
+    "_Official Documentation/Node.js Guides.md",
+    "_Official Documentation/Node.js Latest Docs.md",
+    "_Official Documentation/NPM Docs.md",
+    "Language/Typescript/TypeScript Explained.md",
     "Home.md",
     "Tools/Syncthing Obsidian.md",
     "Tools/Syncthing.md",
-    "_Official Documentation/_Make it remember last Pg on.md",
-    "_Official Documentation/NPM Docs.md",
-    "_Official Documentation/_Untitled.md",
-    "_Official Documentation/Material UI Docs.md",
-    "_Official Documentation/Node.js Guides.md",
-    "_Official Documentation/Kafka Docs.md",
-    "_Official Documentation/Express.js Docs.md",
-    "_Official Documentation/Node.js Latest Docs.md",
     "Language/Typescript/Generic Types.md",
     "Codebase Architecture Decisions/CodeProcess/Identify areas where it make sense to use Multi threading,  concurrency, collections, generics, and annotations.md",
     "Companies/People/Conversation Tactics & Starters.md",
@@ -306,10 +309,6 @@
     "_CODE/_Organize V/Programming Levels.md",
     "_CODE/_Organize V/Production vs Development Dependency.md",
     "_CODE/_Organize V/Mind map ideas.md",
-    "_CODE/_Organize V/Glossary.md",
-    "_CODE/_Organize V/Games.md",
-    "_CODE/_Organize V/Dev Todo.md",
-    "_CODE/_Organize V/Be Aware.md",
     "_CODE/_Organize V",
     "_CODE/Distill V",
     "_CODE/_Capture V",

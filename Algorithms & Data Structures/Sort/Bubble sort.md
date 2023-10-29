@@ -2,7 +2,9 @@
 tags:
   - "#WontReallyUse"
   - sortAlgo
-author: jacgit18
+  - inPlaceSort
+author:
+  - jacgit18
 Status: 
 Started: 
 EditDate: 

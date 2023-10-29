@@ -1,12 +1,18 @@
 ---
-tags: 
-author: jacgit18
+tags:
+  - inPlaceSort
+author:
+  - jacgit18
 Status: 
 Started: 
 EditDate: 
 Relates:
 ---
 Popular Used a lot more but be careful with it
+
+used more than insertion and selection and bubble sort 
+
+that are in place 
 ![[unnamed (16).gif]]
 
 Quick Sort can be created in different ways just like merge sort is a divide and conquer algorithm. and it is usually the fastest on average but the one downside is that it has some pretty nasty worst-case behaviors.  

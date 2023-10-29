@@ -112,11 +112,9 @@ The annotation has one element, `value()`, which is of type `Class<?>`. This imp
 
 `BankAccount` class is processed by the `AccountWorker` class at runtime, but the exact functionality depends on the implementation of `AccountWorker` and the broader code context.
 
-In summary, annotation types are tailored for creating metadata annotations, while regular interfaces define implementation contracts for classes.
-
 Reflection in this context can be used to extract and process this annotation information at runtime.
 
+For example, you can use reflection to find classes that are annotated with `@ProcessedBy`, and then retrieve the associated `value()` (in this case, `AccountWorker.class`). This allows you to perform various runtime configurations or actions in your application.
 
- For example, you can use reflection to find classes that are annotated with `@ProcessedBy`, and then retrieve the associated `value()` (in this case, `AccountWorker.class`). This allows you to perform actions or make decisions based on these annotations.
 
-making it useful for various runtime configurations or behaviors in your application.
+In summary, annotation types are tailored for creating metadata annotations, while regular interfaces define implementation contracts for classes.

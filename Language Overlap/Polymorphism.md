@@ -3,6 +3,11 @@ tags:
   - CodebaseDecision
   - MacroCodebaseDecision
   - MicroCodebaseDecision
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 ## Introduction to Polymorphism
 Polymorphism, derived from "poly" (many) and "morph" (variance of form), in programming refers to the ability of an object to take on different forms. In Java, it allows a developer to use inherited attributes and methods to perform different tasks, enabling the execution of a single action in various ways.

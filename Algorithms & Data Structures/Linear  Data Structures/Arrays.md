@@ -238,3 +238,7 @@ enqueue(add stuff at beginning ) queue.unshift 
 
 array convert to string or 2d array
 ```
+
+
+
+![[Pasted image 20231029104453.png]]

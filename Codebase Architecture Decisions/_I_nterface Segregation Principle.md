@@ -1,7 +1,17 @@
 ---
 tags:
   - SOLID
+  - revist
+  - review
+  - refine
+author: jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
+![[2023-06-17 12.40.37 medium.com f998423bbe5f.png]]
+
 **The Interface Segregation Principle** states that a client should not implement an [interface](http://javarevisited.blogspot.com/2012/04/10-points-on-interface-in-java-with.html) if it doesn't use all of its functionality. This often occurs when an interface contains multiple features, but the client only requires one of them. Interfaces should be specific, focusing on individual tasks rather than trying to do many different things.
 
 The reasoning behind this principle is to ensure that implementing classes only include the specific interfaces they need, rather than being forced to implement methods they have no use for. Therefore, it's advisable to break down large interfaces into smaller, more specialized ones.

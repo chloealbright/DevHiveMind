@@ -13,9 +13,6 @@
 ![[2023-06-17 12.34.59 medium.com 7cf69549fdf5.png]]
 
 
-## Abstract
-![[2023-06-17 12.38.06 medium.com 7a1fbbfaa1b5.png]]
 
 
-## Interface
-![[2023-06-17 12.40.37 medium.com f998423bbe5f.png]]
+

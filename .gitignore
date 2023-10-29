@@ -3,7 +3,7 @@
 .obsidian/plugins/obsidian-activity-history/
 .obsidian/workspace.*
 .obsidian/workspace-*
-.obsidian/community-plugins.*
+.obsidian/community-plugins.s*
 
 
 # Ignore Smart Connections folder because embeddings file is large and updated frequently

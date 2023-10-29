@@ -1,4 +1,5 @@
-/DevBrain/.git
-/DevBrain/.obsidian/workspace.json
-/DevBrain/.obsidian/workspace-mobile.json
-/DevBrain/.trash
+.git
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.smart-connections
+.trash

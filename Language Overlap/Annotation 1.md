@@ -42,7 +42,7 @@ In this case, `AnotherAnnotation` is itself an annotation, and it's used as the 
   
 For example, if you are defining a custom annotation, the elements within it can have types like `int`, `String`, `Class`, or arrays of these types.  
   
-Here's a simple example:  
+
   
 ```java  
 public @interface MyAnnotation {  

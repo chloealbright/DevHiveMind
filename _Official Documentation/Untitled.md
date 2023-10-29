@@ -61,4 +61,8 @@ https://nextjs.org/learn/basics/create-nextjs-app
 
 https://react.i18next.com/
 
+
+
+
+
 https://github.com/i18next/i18next-browser-languageDetector

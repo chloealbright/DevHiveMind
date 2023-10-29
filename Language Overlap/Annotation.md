@@ -84,7 +84,8 @@ void myMethod();
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface ProcessedBy {
-    Class<?> value();
+    Class<?> value(); 
+    // ? wildcard declaration the type is unknown or unbounded
 }
 
 @ProcessedBy(AccountWorker.class)
@@ -103,9 +104,19 @@ public class BankAccount {
 ```
 
 
+The provided code snippet defines a custom annotation called `ProcessedBy` which is annotated with `@Target(ElementType.TYPE)`, specifying that this annotation can be applied only to types (e.g., classes).
 
-The provided code snippet defines a custom annotation called `ProcessedBy` that indicates that the `BankAccount` class is processed by the `AccountWorker` class at runtime, but the exact functionality depends on the implementation of `AccountWorker` and the broader code context.
+The `@Retention(RetentionPolicy.RUNTIME)` annotation indicates that the `ProcessedBy` annotation information should be retained at runtime, allowing [[introspection and reflection |reflection]] to access it.
 
+The annotation has one element, `value()`, which is of type `Class<?>`. This implies that when you use `@ProcessedBy`, you need to provide a class as its value.
 
+`BankAccount` class is processed by the `AccountWorker` class at runtime, but the exact functionality depends on the implementation of `AccountWorker` and the broader code context.
 
 In summary, annotation types are tailored for creating metadata annotations, while regular interfaces define implementation contracts for classes.
+
+Reflection in this context can be used to extract and process this annotation information at runtime.
+
+
+ For example, you can use reflection to find classes that are annotated with `@ProcessedBy`, and then retrieve the associated `value()` (in this case, `AccountWorker.class`). This allows you to perform actions or make decisions based on these annotations.
+
+making it useful for various runtime configurations or behaviors in your application.

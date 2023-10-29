@@ -1,10 +1,15 @@
 ---
 tags:
   - revist
-  - refine
   - review
   - versatileApplication
   - CombinePart1
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
 ---
 Introspection and reflection are both concepts in computer science and programming that involve examining and manipulating the structure and behavior of a program or its components at runtime. While they share some similarities, they serve different purposes and are used in different contexts.
 

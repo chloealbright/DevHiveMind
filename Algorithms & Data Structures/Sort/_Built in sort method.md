@@ -1,7 +1,8 @@
 ---
 tags:
   - sortAlgo
-author: jacgit18
+author:
+  - jacgit18
 Status: 
 Started: 
 EditDate: 

@@ -260,8 +260,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ab02829dffcc3abf",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "_.smart-connections",
+    "stignore",
+    "stignore (1)",
+    "gitignore (1)",
     "Algorithms & Data Structures/Sort/Bubble sort.md",
     "Algorithms & Data Structures/Sort/Selection sort.md",
     "Home.md",
@@ -287,7 +291,6 @@
     "AI & Chatgpt/Components of AI.md",
     "Home 1.md",
     "Development Perpetual Practices.md",
-    "Dev Roadmaps By Priority.md",
     "Testing/Untitled.canvas",
     "_Images/Pasted image 20231029104453.png",
     "_Pdf/Cheatsheet/PostgreSQL-Cheat-Sheet.pdf",
@@ -297,10 +300,7 @@
     "_CODE/Distill",
     "_CODE/_Capture",
     "_CODE/_Capture",
-    "_CODE/_Capture⬇️",
-    "_Official Documentation",
     "_Images/2Osh.gif",
-    "_CODE",
     "OS/Linux/File system.canvas",
     "Devops/Docker/Docker InDeph.canvas",
     "Architecture/_Command and Query Responsibility Segregation.canvas",

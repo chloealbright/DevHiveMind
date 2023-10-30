@@ -1,9 +1,14 @@
 ---
 tags:
   - revist
-  - refine
   - review
   - CombinePart1
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
 ---
 In Java, a class instance represents an object created from a class blueprint. Here's a brief overview of the topics you mentioned:
 

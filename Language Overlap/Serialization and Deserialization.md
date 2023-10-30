@@ -1,9 +1,14 @@
 ---
 tags:
   - review
-  - refine
   - CombinePart2
   - Serialization
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
 ---
 
 Serialization and deserialization is like taking a snapshot of your code specifically the class ruining and see me it can be used to restore to that point with those specific values that were process at that time of the snapshot using deserialization to load that snapshot but if you don't include the  

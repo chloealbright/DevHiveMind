@@ -1,9 +1,14 @@
 ---
 tags:
   - review
-  - refine
   - CombinePart2
   - Serialization
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
 ---
 Serialization  = encoding is the process of converting a data structure into a format that it can be safely stored or transmitted and the recreated from the stored or transmitted format. It's usually used to refer to applying this process to complex data structures like trees, objects, or graphs, as they don't inherently lend themselves to being transmitted as a simple string of binary data. Converting an in-memory object to JSON or XML is an example of serialization. 
 

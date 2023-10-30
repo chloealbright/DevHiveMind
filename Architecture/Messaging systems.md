@@ -7,8 +7,8 @@ tags:
   - scalability
   - parallelProcesses
   - concurrency
-  - revist
-author: jacgit18
+author:
+  - jacgit18
 Status: Defining Relationships
 Started: 
 EditDate:

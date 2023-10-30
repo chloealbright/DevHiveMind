@@ -3,8 +3,13 @@ tags:
   - scaling
   - revist
   - review
-  - refine
   - systemDesign
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
 ---
 ![[GetImage (19).png]]
 # Horizontal scaling  

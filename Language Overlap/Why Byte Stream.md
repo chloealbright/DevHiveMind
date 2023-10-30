@@ -1,9 +1,14 @@
 ---
 tags:
   - review
-  - refine
   - CombinePart2
   - Serialization
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
 ---
 Converting objects to byte streams, also known as serialization, serves several purposes in Java programming. Here are a few reasons why you might want to convert objects to byte streams:
 

@@ -1,6 +1,5 @@
 ---
 tags:
-  - revist
   - review
   - versatileApplication
   - CombinePart1

@@ -1,9 +1,14 @@
 ---
 tags:
   - review
-  - refine
   - CombinePart2
   - Serialization
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
 ---
 Serialization can be used in this example to save and retrieve objects of classes such as Instructor, Lesson, and InstructorAvailability to a file or transfer them over a network. Here's an updated version of the code snippet that demonstrates serialization:
 

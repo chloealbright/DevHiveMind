@@ -2,7 +2,12 @@
 tags:
   - scaling
   - systemDesign
-  - revist
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
 ---
 Concurrent programming is a paradigm in computer programming that deals with designing and implementing software systems that can handle multiple tasks or processes simultaneously. It involves the execution of multiple units of work [[Glossary#consecutive vs concurrent | concurrently]], allowing them to overlap in time and potentially make progress simultaneously.
 

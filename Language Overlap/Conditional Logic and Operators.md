@@ -5,8 +5,12 @@ tags:
   - READ
   - AlgorithmComponent
   - testCases
-  - refine
-author: jacgit18
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
 ---
 This relates to [[Flow of Control]]
 

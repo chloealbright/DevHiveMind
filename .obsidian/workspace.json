@@ -194,25 +194,9 @@
                 "sortOrder": "frequency"
               }
             }
-          },
-          {
-            "id": "85881063296fda5a",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "ab02829dffcc3abf",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-chat-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 9
       },
       {
         "id": "7e98245a429f273f",

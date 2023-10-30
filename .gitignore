@@ -1,7 +1,7 @@
 #.obsidian/
 .trash/
 .obsidian/plugins/obsidian-activity-history/
-.obsidian/workspace.
+.obsidian/workspace*
 .obsidian/community-plugins.s*
 
 

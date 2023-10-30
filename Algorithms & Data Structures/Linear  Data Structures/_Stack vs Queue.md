@@ -62,3 +62,7 @@ LIFO The Current added comes OFF 
 FIFO                        ---------------------------> 
 
 QUEUE(enqueue) > queue > queue > queue > queue > QUEUE(dequeue)
+
+
+
+the linked list memory is dynamic and array is faster 

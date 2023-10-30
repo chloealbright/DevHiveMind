@@ -1,6 +1,8 @@
 ---
-tags: 
-author: jacgit18
+tags:
+  - Dp
+author:
+  - jacgit18
 Status: 
 Started: 
 EditDate: 
@@ -100,3 +102,9 @@ return result;
 }
 
 ```
+
+
+
+### Memoization
+
+Memoization is akin to caching and can be used with closures. Before returning a function to be called, you create an empty cache object. When you call the function, you store the return value in a variable. When checking if a value is in the cache, return it if it exists; otherwise, update the cache and return the value, which can be a variable, a recursive call, or a function call.

@@ -1,60 +1,53 @@
 ---
-tags: 
-author: jacgit18
-Status: 
+tags:
+  - programming
+author:
+  - jacgit18
+Status: done
 Started: 
 EditDate: 
 Relates:
 ---
-Discrete Math 1 and 2 explained by professor 
+The nature of Discrete Math 1 and 2 courses can vary significantly based on the professor teaching them. In my experience, the first part of the course delved deeply into mathematical concepts but transitioned into a more computer science-focused approach in the latter stages, involving numerous programming assignments, especially in Exam 3.
 
-It genuinely depends on the professor teaching it.  The first half of my course was very intensely mathematical but transformed into more of a CS class in the later stages with a lot of programming assignments.  Exam 3 was particularly very program-heavy. 
+Key takeaways from Discrete Math 2 should encompass knowledge of graphs, trees, divide and conquer algorithms, stacks, queues, and hash tables. It should also include familiarity with advanced algorithms, a deeper understanding of Big O notation, and perhaps discussions on memory management. By the end of Discrete Math 2, you should be as well-versed in these topics as you are in the fundamental concepts learned in Discrete Math 1, such as sorting, logic principles, and the essential mathematical foundations for algorithm development.
 
-The key takeaways from Discrete II should be graphs, trees, divide/conquer algorithms, stacks, queues, and hash tables, some advanced algorithms, advanced big O, and maybe some discussion on memory management. By the end of discrete 2, you should know that just as well as you know the key takeaways from discrete I, such as sorting, logic principles, the underlying/important conceptual underpinnings of mathematics, and how to write basic algorithms/basic algorithmic development.  Discrete I is there to springboard you straight into Discrete II. 
+Consider Discrete Math 1 as a stepping stone for Discrete Math 2. The first course sets the groundwork to propel you into more advanced concepts.
 
-If your professor has worked in the industry like me, then he'll fashion the course similarly to how I did.  Some of the problems I gave you guys were issues that I had to deal with at work (given a set of trades, "find the trades with $1B notional principal that go by a LIBOR floating interest rate and are Forward Rate Agreements."  This is a sorting problem!).  So, he/she will most likely do that if they work/worked in the industry. 
+If your professor has practical industry experience, they might structure the course to reflect real-world challenges. Some of the problems you encounter could mirror issues faced in their own work, such as sorting problems related to financial trades. This practical approach is valuable.
 
-On the other hand, if they're a mathematician who indulges in CS research, then you'll probably get a course that is 70/30 math/CS, which is a nice split too. 
+On the other hand, if your professor is primarily a mathematician with a penchant for computer science research, the course may have a 70/30 split between mathematical and computer science content, which can be quite enriching.
 
-If you're dealing with a mathematician through and through, you'll be looking into a very theoretical course.  In other words, expect some deep mathematical thinking and theory building.  In the work world, this might not always be something you'll think about on the fly, but it will give you an exceptionally solid basis from which you can develop algorithms and write programs. 
+If you find yourself with a professor deeply rooted in mathematics, expect a more theoretical course. While this might not always directly apply in the professional world, it will provide a solid foundation for algorithm development and programming.
 
-Each style has its pros/cons.  I'm personally very mathematically minded, but I work as an SWE so I try to use that experience to inform my teaching. 
-
-Any further questions, feel free to email.  Also, note that there is no particular order you can/should follow.  Jump straight into whatever topic you find interesting and if you need prereqs, you can easily find 'em online.
+Each teaching style has its advantages and disadvantages. I, for instance, have a strong mathematical inclination but work as a software engineer, so I strive to infuse my teaching with practical insights.
 
 
 
+***Additionally, here are the suggested projects for both Discrete 1 and 2:***
 
-List of Suggested Projects Discrete 2 
+**List of Suggested Projects for Discrete 2:**
 
-1. Lecture 1: Ackermann’s Function (Section 5.3, P. 359, Exercise 48-55) 
+1. **Lecture 1:** Explore Ackermann’s Function (Section 5.3, P. 359, Exercise 48-55).
+2. **Lecture 2:** Dive into the QuickSort Algorithm (Section 5.4, P. 371, Exercise 49-52).
+3. **Lecture 9:** Tackle a variation of the Towers of Hanoi Game (Section 8.1, P. 512, Exercise 32).
+4. **Lecture 9:** Solve the Josephus Problem (Section 8.1, P. 512, Exercise 33-37).
+5. **Lecture 11:** Explore Lucas Numbers (Section 8.2, P. 525, Exercise 11).
+6. **Lecture 15:** Code graphs, including nodes and edges, in a programming language (e.g., Python, C++, or Java).
+7. **Lecture 22:** Develop code for Family Trees and Boolean functions that check relationships between family members.
+8. **Lecture 23:** Create code for Binary Search Trees (e.g., in Python, C++, or Java).
+9. **Lecture 28:** Write a recursive algorithm to compute the height of any tree, for example, a binary search tree.
 
-2. Lecture 2: QuickSort Algorithm (Section 5.4, P. 371, Exercise 49-52) 
+**List of Suggested Projects for Discrete 1:**
 
-3. Lecture 9: A variation to the Towers of Hanoi Game (Section 8.1, P. 512, Exercise 32) 
-
-4. Lecture 9: The Josephus Problem (Section 8.1, P. 512, Exercise 33-37) 
-
-5. Lecture 11: Lucas Numbers (Section 8.2, P. 525, Exercise 11) 
-
-6. Lecture 15: Coding Graphs (nodes and edges) in a programming language (e.g. Python, C++, or Java) 
-
-7. Lecture 22: Coding Family Trees, and Boolean functions checking relationships between family members 
-
-8. Lecture 23: Coding Binary Search Trees (e.g. in Python, C++, or Java) 
-
-9. Lecture 28: Coding a recursive algorithm that computes the height of any tree; for example, a binary search tree. 
+1. **Lecture 21:** Time algorithms based on input size.
+2. **Lecture 23:** Experiment with Primality testing using a programming language.
+3. **Lecture 24:** Implement a hashing function and a pseudorandom generator in a programming language.
+4. **Lecture 25:** Develop an implementation of a Caesar cipher.
+5. **Lecture 27:** Create a Tower of Hanoi game.
 
 
 
-List of Suggested Projects Discrete 1 
 
-2. Lecture 21: Timing algorithms by input size. 
 
-3. Lecture 23: Primality testing using a programming language. 
 
-4. Lecture 24: Implement a hashing function and a pseudorandom generator in a programming language. 
-
-5. Lecture 25: Implement a Caesar cipher. 
-
-6. Lecture 27: Implement a Tower of Hanoi game.

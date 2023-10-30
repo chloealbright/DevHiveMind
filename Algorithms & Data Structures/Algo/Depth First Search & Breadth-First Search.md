@@ -15,39 +15,131 @@ Relates:
 ---
 ![[unnamed (43).gif]]
 
-DFS “is an algorithm for traversing or searching tree data structure. One starts at the root and explores as far as possible along each branch before backtracking.” — Wikipedia  
-  
-DFS explores a path all the way to a leaf before backtracking and exploring another path. Let’s take a look at an example with this type of traversal.  
-  
-  
-  
-BFS “is an algorithm for traversing or searching tree data structure. It starts at the tree root and explores the neighbor nodes first, before moving to the next level neighbors.”  
-  
-BFS algorithm traverses the tree level by level and depth by depth.  
-the BF-queue makes recursion more complex then with DFSTACKS but is possible but sticking with Iterative approach is easier to implement  
-  
-  
-Breadth-first traversal traditionally uses a queue, not a stack. The nature of a queue and a stack are pretty much opposite, so trying to use the call stack (which is a stack, hence the name) as the auxiliary storage (a queue) is pretty much doomed to failure, unless you're doing something stupidly ridiculous with the call stack that you shouldn't be.  
-  
-On the same token, the nature of any non-tail recursion you try to implement is essentially adding a stack to the algorithm. This makes it no longer breadth first search on a binary tree, and thus the run-time and whatnot for traditional BFS no longer completely apply. Of course, you can always trivially turn any loop into a recursive call, but that's not any sort of meaningful recursion.  
-  
-However, there are ways, as demonstrated by others, to implement something that follows the semantics of BFS at some cost. If the cost of comparison is expensive but node traversal is cheap, then as @Simon Buchan did, you can simply run an iterative depth-first search, only processing the leaves. This would mean no growing queue stored in the heap, just a local depth variable, and stacks being built up over and over on the call stack as the tree is traversed over and over again. And as @Patrick noted, a binary tree backed by an array is typically stored in breadth-first traversal order anyway, so a breadth-first search on that would be trivial, also without needing an auxiliary queue.  
-  
-  
-BFS considers all neighbors first and therefore not suitable for decision making trees used in games or puzzles.  
-  
-DFS is more suitable for game or puzzle problems. We make a decision, then explore all paths through this decision. And if this decision leads to win situation, we stop.  
-  
-QUEUE -> LinkedList or arrays which you should avoid -> bfs  
-  
-use shift(removes first) = like pop(removes last) = dequeue(built function) better but have to build  
-  
-use unshift(adds to beginning) = like push(adds to end) = enqueue(built function)  
-  
-STACK -> LinkedList or Array depends -> dfs  
-use pop and push  
-  
-the linked list memory is dynamic and array is faster  
-  
-  
-The most important points is, BFS starts visiting nodes from root while DFS starts visiting nodes from leaves. So if our problem is to search something that is more likely to closer to root, we would prefer BFS. And if the target node is close to a leaf, we would prefer DFS.
+**The essence of DFS and BFS lies in the order of operations and base cases, depending on the specific problem.**
+
+**DFS (Depth-First Search):**
+
+DFS is an algorithm designed for traversing or searching tree data structures. It begins at the root node and explores as deeply as possible along each branch before backtracking. In simpler terms, DFS explores a path all the way to a leaf before considering another path.
+
+**BFS (Breadth-First Search):**
+
+BFS, on the other hand, is another algorithm for traversing or searching tree data structures. It starts at the root node and initially explores the neighbor nodes before moving to the next level neighbors. This approach ensures that BFS traverses the tree level by level and depth by depth.
+
+It's important to note that the choice between DFS and BFS depends on the problem at hand. BFS is ideal when searching for something closer to the root, while DFS is more suitable when the target node is closer to a leaf.
+
+The choice of data structures for these algorithms is crucial:
+
+- BFS traditionally employs a queue, as it processes nodes in a first-in-first-out manner.
+- DFS can be implemented with a stack, and whether you choose a linked list or an array depends on your specific requirements. Arrays are faster but less dynamic.
+
+#### Here's a quick reference to the data structures for each algorithm:
+
+**For BFS (Queue ***implemented with Linked List***):**
+- Use `enqueue()` to add elements to the end of the queue implemented by linked list vs if implemented by array you would  `push()`.  
+- Use `dequeue()` to remove elements from the front of the queue. You can build these functions as needed for a linked list-based queue vs the array implementation uses `pop()`
+
+
+**For DFS (Stack):**
+- Use `pop()` (removes the last element) - Standard for stacks.
+- Use `push()` - Typical for stacks.
+
+
+## **Breadth-First Search (BFS) with Queue (Applicable to Trees and Graphs) - O(|V|)**
+
+### Tree
+
+1. Store the `[tree]` in a queue with an initial length of 1.
+2. Initialize a `currentNode` variable.
+3. Create an empty `result` array to store the results.
+4. Iterate while the queue length is greater than 0.
+5. Assign `currentNode` by shifting from the queue, which removes the root node from the queue.
+6. Check the left and right children of the current node and add their references to the queue.
+7. Push 12 to the result array.
+8. Repeat the process by shifting out the left child, which leaves only the right child in the queue. Focus on the current node, which contains the left child. Add its children to the queue and repeat until the queue is empty.
+
+### Graph
+
+1. Create and store the graph in a queue.
+2. Initialize a `current` variable.
+3. Create and store the added graph nodes in a new set.
+4. Loop through the queue while its length is greater than 0.
+5. Update `current` by dequeuing (using `queue.shift()`) the first element from the queue.
+6. Loop through the edges of the graph, checking if they have been visited with the set.
+7. Push and add the edge into the queue and set.
+8. Perform any desired action with `current.id`, such as pushing it to an array.
+
+## **Depth-First Search (DFS) with Stack (Applicable to Trees and Graphs) - O(|V|)**
+
+For DFS, it's not about the queue but more about the order of traversal.
+
+### Tree
+
+**Tree Preorder:**
+
+```javascript
+BASE CASE
+Action
+Left Check = Recursive call with node.left as the parameter
+Right Check = Recursive call with node.right as the parameter
+```
+
+**Tree Inorder:**
+
+```javascript
+BASE CASE
+Left Check = Recursive call with node.left as the parameter
+Action
+Right Check = Recursive call with node.right as the parameter
+```
+
+**Tree Postorder:**
+
+```javascript
+BASE CASE
+if (node == null) return 0; // Alternative cases
+Left Check = Recursive call with node.left as the parameter
+Right Check = Recursive call with node.right as the parameter
+Action Example: Get the height - `return Math.max(left, right) + 1;`
+Alternative action: Push the current node to a value array
+```
+
+### Graph
+
+**Graph DFS (No Pre/In/Post Order):**
+
+It's similar to BFS but uses stacks with `pop()` instead of `shift()`. The order of operations in recursive implementation might mimic pre and post-order traversal, even though these concepts may not directly apply to graphs.
+
+1. Create and store the graph in a stack.
+2. Initialize a `current` variable.
+3. Create and store the added graph nodes in a new set.
+4. Loop through the stack while its length is greater than 0.
+5. Update `current` by popping (using `stack.pop()`) the last element from the stack.
+6. Loop through the edges of the graph, checking if they have been visited with the set.
+7. Push and add the edge into the stack and set.
+8. Perform any desired action with `current.id`, such as pushing it to an array.
+
+```
+ * 
+
+ *                     2 
+
+ *                   /   \ 
+
+ *            0 ~~~ 1    4  ~~~ 5 ~~~ 3 
+
+ *                \   / \    / 
+
+ *                  7     6 
+
+DFS: [ 
+
+  0, 
+
+  1, 7, 4, 
+
+  6, 5, 3, 
+
+  2 
+
+] 
+```

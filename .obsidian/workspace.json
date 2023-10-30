@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d3f491302fce17cd",
+        "id": "90e4729807ab3710",
         "type": "tabs",
         "children": [
           {
-            "id": "27d1789e0569604f",
+            "id": "9ba16d29d4c2da83",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "Algorithms & Data Structures/Sort/Radix Sort + Counting Sort.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Reflection",
+                "query": "Memoization",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Algorithms & Data Structures/Sort/Radix Sort + Counting Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Algorithms & Data Structures/Sort/Radix Sort + Counting Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Algorithms & Data Structures/Sort/Radix Sort + Counting Sort.md"
               }
             }
           },
@@ -244,37 +244,38 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "9ba16d29d4c2da83",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Sort/Selection sort.md",
+    "Algorithms & Data Structures/Algo/Depth First Search & Breadth-First Search.md",
+    "_CODE/Express/Algo left to over to do.md",
+    "Algorithms & Data Structures/Dynamic Programming.md",
+    "Algorithms & Data Structures/Algo/Binary Iterative & Recursive Traversal.md",
+    "Algorithms & Data Structures/Algo/Binary search 101.md",
+    "Algorithms & Data Structures/Algo/Core of DFS and BFS.md",
+    "Algorithms & Data Structures/Algo/Memoization.md",
+    "Algorithms & Data Structures/When to use.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Structure/Type of graphs.md",
+    "Algorithms & Data Structures/Algo/Dijkstra + Bellman-Ford shortest path.md",
+    "Algorithms & Data Structures/Discrete math.md",
+    "Algorithms & Data Structures/Algo/DeMorgans law.md",
+    "Algorithms & Data Structures/Data struct Factory.md",
+    "Algorithms & Data Structures/Common Imperative.md",
+    "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
+    "Algorithms & Data Structures/Code question to write out.md",
+    "Algorithms & Data Structures/Bit-Binary.md",
+    "Algorithms & Data Structures/Big O.md",
+    "Algorithms & Data Structures/Attributes of Data.md",
+    "Algorithms & Data Structures/All Sorts of Sorts.md",
+    "Algorithms & Data Structures/Sort/Quick Sort.md",
+    "Algorithms & Data Structures/Sort/Radix Sort + Counting Sort.md",
+    "Algorithms & Data Structures/Algo/Runtime & Algo Patterns.md",
+    "Algorithms & Data Structures/Algo/Two pointer vs  binary search.md",
+    "Algorithms & Data Structures/Algo/Linear Iterative & Recursive Traversal.md",
     "_.smart-connections",
     "stignore",
     "stignore (1)",
     "gitignore (1)",
-    "Algorithms & Data Structures/Sort/Bubble sort.md",
-    "Algorithms & Data Structures/Sort/Selection sort.md",
-    "Home.md",
-    "Algorithms & Data Structures/Sort/Insertion sort.md",
-    "Algorithms & Data Structures/Sort/Quick Sort.md",
-    "Algorithms & Data Structures/Sort/All Sorts of Sorts.md",
-    "Algorithms & Data Structures/Sort/Bucket Sort.md",
-    "Language Overlap/Abstract Data Types.md",
-    "Language Overlap/Annotation.md",
-    "Language Overlap/introspection and reflection.md",
-    "Language/Typescript/NPM.md",
-    "Language Overlap/Annotation 1.md",
-    "Language Overlap/Primitive Types.md",
-    "Language Overlap/Annotations.md",
-    "OS/Linux/terminal from Tracflo history.md",
-    "Language Overlap/Running code.md",
-    "Language Overlap/Wrappers.md",
-    "Language Overlap/Primitive Data Types Across Languages.md",
-    "Language Overlap/Primitive Wrappers Across Languages.md",
-    "Language Overlap/Abstract classes vs abstract methods.md",
-    "Language Overlap/Abstract Classes.md",
-    "_Template/ChatGpt Extension generator Output.md",
-    "AI & Chatgpt/Components of AI.md",
-    "Home 1.md",
-    "Development Perpetual Practices.md",
     "Testing/Untitled.canvas",
     "_Images/Pasted image 20231029104453.png",
     "_Pdf/Cheatsheet/PostgreSQL-Cheat-Sheet.pdf",
@@ -282,7 +283,6 @@
     "_CODE/Express",
     "_CODE/_Organize",
     "_CODE/Distill",
-    "_CODE/_Capture",
     "_CODE/_Capture",
     "_Images/2Osh.gif",
     "OS/Linux/File system.canvas",

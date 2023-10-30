@@ -6,167 +6,54 @@ Started:
 EditDate: 
 Relates:
 ---
-If input array is sorted then 
+**Optimal Techniques for Different Scenarios:**
 
--   Binary search focus on middle 
-    
--   Two pointers 
-    
+**Binary Search on Sorted Array:**
+- Use binary search by focusing on the middle of the array.
 
-If given a linked list then 
+**Handling Sorted Arrays:**
+- For sorted arrays, consider techniques like binary search.
+- Two-pointer approach can also be effective.
 
--   Two pointers | Fast Slow 
-    
+**Linked Lists:**
+- When dealing with linked lists, the two-pointer and fast-slow methods are handy.
 
-If recursion is banned then 
+**Recursion Restrictions:**
+- If recursion is not allowed, turn to stack-based solutions.
 
--   Stack 
-    
+**Dynamic Programming:**
+- In dynamic programming, use stacks when solving problems related to maximum/minimum subarrays, subsets, or scenarios like matching parentheses questions.
 
-Dynamic programming 
+**Heap Data Structure:**
+- Heaps are useful when you need to find top or least K items.
+- Priority queues, often implemented with heaps, are valuable in Dijkstra’s Shortest Path, fetching the next best or worst element, Huffman coding for lossless data compression, Best First Search, and Minimum Spanning Tree scenarios.
 
--   If asked for maximum/minimum subarray/subset/options then 
-    
--   Use Stacks depending on situation like match parentheses question 
-    
+**Working with Strings:**
+- For common string operations, consider using maps or tries.
 
-Heap 
+**BFS vs. DFS:**
+- BFS is faster for trees with significant depth.
 
--   If asked for top/least K items then 
-    
+**Graph Problems:**
+- DFS is suitable for tasks like topological sorting, maze-solving, finding strongly connected components, generating words in order, checking path existence. It uses less memory but can be slow.
+- BFS excels in shortest path problems, copying garbage collection, serialization, finding the closest node, when the tree is deep, and solutions are rare. It's also preferable if you know a solution is close to the root, although it uses more memory.
 
-Priority queues 
+**Shortest Path Algorithms:**
+- Dijkstra's and Bellman-Ford are essential for solving shortest path problems.
 
--   can be used with certain implementations of Dijkstra’s Shortest Path 
-    
--   When you need to fetch next best or worst element 
-    
--   Huffman coding which is used for lossless data compression 
-    
--   Best First Search  
-    
--   Minimum spanning tree 
-    
+**Backtracking:**
+- If asked for all permutations or subsets, consider backtracking. This method is typically used for problems like Sudoku or chess on grids.
 
-If asked for common strings then 
+**Cyclic Sort:**
+- Cyclic sort is suitable for sorting when given numbers from a range (1 to n). It swaps corresponding values in place but may not fully sort arrays with missing numbers in their range.
 
--   Map 
-    
--   Trie 
-    
+**Merge Intervals:**
+- The merge interval technique is useful for handling scheduling or interval problems, like scheduling classes or meetings, organizing memory data, or task scheduling in operating systems.
 
-Bfs is faster than DfS when it comes to tree with depth  
+**Scenarios for Sorting Algorithms:**
+- Various sorting algorithms are best suited for specific scenarios, like insertion sort for sorting schools by distance, radix or counting sort for eBay listings by bid amount, quick sort for sorting scores on ESPN, merge sort for massive databases, insertion sort for almost sorted Udemy review data, radix or counting sort or quicksort for temperature records, quicksort for large, random user name databases, and bubble sort for teaching sorting.
 
-Graph 
+**General Optimization:**
+- Hash maps are often the key to improving time complexity in various coding scenarios.
+- Hash tables and precomputed information (e.g., sorted data) are excellent for code optimization.
 
--   DFS 
-    
--   BFS 
-    
-
-Dfs good for  
-
--   Topological sorting 
-    
--   Maze 
-    
--   Finding strongly connected components 
-    
--   Generating words in order 
-    
--   If solutions are frequent but located deep in the tree 
-    
--   If the tree is very wide mean spread out  
-    
--   Checking if a path exist 
-    
--   Uses less memory but can get slow  
-    
-
-Bfs 
-
--   Shortest Path 
-    
--   Copying garbage collection 
-    
--   Serialization 
-    
--   Finding  closes node  
-    
--   If the tree is very deep and solutions are rare 
-    
--   If you know a solution is not far from the root of the tree: 
-    
--   Use more memory 
-    
-
-Dijkstra’s & Bellman-Ford 
-
--   Shortest path 
-    
-
-Backtracking 
-
--   If asked for all permutations/subsets then 
-    
--   Typically reserved for Sudoku games or chess something with a grid  like many board games for mobile platforms or websites that have those games 
-    
-
-Cyclic sort 
-
--   When given number from range 1 to n  
-    
--   Store one or more different values in the same pointer 
-    
--   Swap corresponding values 
-    
--   Solve in-place then 
-    
--   Cyclic sort won't always sort completely because in the case were you are sorting an array with missing numbers in its range the logic wont fully work because of missing numbers and it won't be fully sorted because of this 
-    
--   Cycle Sort (opens new window)is sorting algorithm which uses comparison sort (opens new window)that is theoretically optimal in terms of the total number of writes to original array, unlike any other in-place sorting algorithm.  
-    
--   Cycle sort is unstable sorting algorithm. It is based on idea of permutation in which permutations are factored into cycles, which individually rotate and return a sorted output. 
-    
--   This sorting algorithm is best suited for situations where memory write or swap operations are costly. 
-    
-
-Merge Interval 
-
--   The merge interval technique is powerful, addressing many common scheduling or interval problems. This approach can be used as subproblem for many real world scenarios. For example: Scheduling and assigning rooms for classes or meetings. 
-    
--   Organizing data in memory and calculating allocated and free spaces. 
-    
--   Task scheduling in operating systems. 
-    
-
-intervalOneIdx = 0                                                                                     
-
-const [firstIntStart, firstIntEnd] = firstList[intervalOneIdx]   firstIntStart= 0:[row][col],    
-
-firstIntEnd = 1:[row][col]  = [   row = [0, 1]    ]; 
-
-Sort Scenario 
-
--   Sort 10 schools around your house by distance: insertion sort 
-    
--   Ebay sorts listings by the current Bid amount: radix or counting sort 
-    
--   Sort scores on ESPN: Quick sort 
-    
--   Massive database (can't fit all into memory) needs to sort through past year's user data: Merge Sort 
-    
--   Almost sorted Udemy review data needs to update and add 2 new reviews: Insertion Sort 
-    
--   Temperature Records for the past 50 years in Canada: radix or counting Sort or Quicksort if decimal places 
-    
--   Large user name database needs to be sorted. Data is very random: Quicksort 
-    
--   You want to teach sorting: Bubble sort 
-    
-
-If it's a sorted array, use Binary tree to achieve O(log N). Divide and Conquer - Divide a data set into smaller chunks and then repeating a process with a subset of data. Binary search is a great example of this 
-
-Hash Maps are usually the answer to improve Time Complexity 
-
-Hash tables and precomputed information (i.e. sorted) are some of the best ways to optimize your code

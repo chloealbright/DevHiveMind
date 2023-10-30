@@ -27,9 +27,10 @@ Relates:
 	- Helpful for Building Doubly Linked Lists and Cyclical Doubly Linked Lists Generator Functions
 	- Also Useful for Implementing Queues with Linked Lists
 
-## K-way/2-way Merge Patterns
+## K-way/2-way Merge Patterns (Dynamic Programming)
 #todo/High/Dev/CodingChallenge 
 - [ ] Adapt to Different Data Structures and Vary the Number of Structures Used
+	-  Dealing with multiple arrays, rows in two-dimensional arrays, or multiple linked lists, where you find the lowest value and store them in order from least to greatest, similar to a min-heap or merge sort.
 
 ## Knapsack Pattern
 #todo/High/Dev/CodingChallenge 

@@ -55,7 +55,7 @@ Bucket sort is mainly useful when dealing with numbers in different ranges
 
 
 
-### [[Radix Sort + Counting Sort]](More Complex Least likely to be on interview)
+### [[Radix Sort + Counting Sort]](Not likely to be on interview)
 
 Radix Sort + Counting Sort are used for integers in a restricted range
 

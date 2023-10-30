@@ -105,6 +105,25 @@ Public class Main{
 ```
 
 
+In TypeScript, you can cast types using the `as` keyword or angle brackets `<>`. To cast a value to a different type, you might write it like this:
+
+```typescript
+let value: any = "Hello, World!";
+let length: number = value as string; // or <string>value;
+
+// Now, value is cast to a string and assigned to length
+```
+
+
+```typescript
+let value: any = "42";
+let length: number = parseInt(value as string); // or <string>value
+
+// Now, value is cast to a string and then parsed as an integer
+```
+
+This code will correctly cast the string "42" to the number 42.
+
 ##  [[Boxing and Unboxing]]:
 -  Java also supports automatic conversion between primitive types and their corresponding wrapper classes, known as boxing and unboxing.
 - Boxing is the process of converting a primitive value to its corresponding wrapper class (e.g., `int` to `Integer`).

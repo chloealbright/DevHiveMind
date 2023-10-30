@@ -1,7 +1,8 @@
 ---
 tags: 
-author: jacgit18
-Status: init
+author:
+  - jacgit18
+Status: done
 Started: 
 EditDate: 
 Relates:

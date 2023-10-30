@@ -1,10 +1,15 @@
 ---
+tags:
+  - powerpoint
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates: 
 style:
   background: white
   color: yellow
-tags:
-  - powerpoint
-author: jacgit18
 ---
 <html>
 <head>

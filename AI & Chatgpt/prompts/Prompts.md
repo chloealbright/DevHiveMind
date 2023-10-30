@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Act as a senior developer create a partial skeleton of a Java assessment project to complete covering topics like Multi threading, concurrency, serialization, collections, Java system logs, annotations, and streams to complete
 
 

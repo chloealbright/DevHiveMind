@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - chatgpt
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 
 
 Need to sign up for chatgpt API

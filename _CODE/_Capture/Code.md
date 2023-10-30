@@ -1,3 +1,13 @@
+---
+tags:
+  - personalProcesses
+author:
+  - jacgit18
+Status: init
+Started: 2023-10-26
+EditDate: 2023-10-29
+Relates:
+---
 If documentation is very complex or involve write the reason why it was created and what things are optional and not optional and stuff
 
 especially with TD because some might nigh attempt to look if something exist and end up doing duplicate work 

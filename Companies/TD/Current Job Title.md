@@ -30,32 +30,9 @@ In simple terms, a business systems analyst helps companies use technology to ma
 
 
 
-## Cre8tive Work
-
-^221ddf
-
-Worked with a third party Technical training firm  
-  
-  
-Forged a strategic alliance with a prominent software engineering upskilling company to organize and execute an intensive software engineering boot camp, tailored to elevate the capabilities of our internal talent pool.
-
-
-A "third-party technical training firm" would likely be a company that offers technical training services independently from the organization that requires the training. This firm could design and conduct training programs for various clients.  
-  
-A "third-party technical training vendor" would generally refer to a supplier of technical training materials, resources, or platforms that can be used by organizations to deliver training to their employees. This could include e-learning platforms, training content, or even physical training materials.  
-  
-The distinction here is that the "firm" directly provides training services, while the "vendor" supplies tools or resources that aid in delivering training. The choice of term depends on whether you're referring to the service provider or the resource provider in the context of third-party technical training.
-
-
 
 ## in current work
-Supporting process  
-  
-Talk About random issues that you have faced trying to get app running  
-  
-  
-  
-================================  
+
   
 Benefits realization is basically money saved on spending  
   
@@ -88,8 +65,7 @@ When it comes to GitHub TD has to githubs one with more functionality available 
 When it comes to github actions there's a lot of restricted access but Emilio showed me some workflows that showed docker images  
   
   
-  
-==================================  
+
   
 Journey early talent intro TD University then to forward deploy or rotation program  
   

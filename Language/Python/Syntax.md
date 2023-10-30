@@ -1,3 +1,13 @@
+---
+tags:
+  - python
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
+---
 
 
 phrase = "hello world!"  // no semi colon needed 

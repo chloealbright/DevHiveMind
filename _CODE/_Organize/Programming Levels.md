@@ -1,43 +1,41 @@
-============== Level 1 =============== 
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 
-These topics are not going to have much ‘testing’ at the beginning. 
+## Programming v Software Engineering
+### Programming(Micro)
 
-Doing 1 or 2 of these questions at the start of your research can help guide you as to where the shortfalls are and direct your study efforts, but apart from that, there’s not much use in grinding through a question you know nothing about. 
+Programming is like giving instructions to a computer to make it do things. Imagine you have a very obedient robot, and you need to tell it what to do step by step. You use a special language (programming language) to write these instructions, and the robot (computer) follows them precisely. These instructions can be anything from making a game, calculating numbers, or even browsing the internet.  
+  
+### Software Engineering(Macro)
+Software engineering is like building a complex structure, but instead of bricks and mortar, you're creating computer programs (software). It involves a structured and organized approach to designing, creating, and maintaining these programs. Just like architects plan buildings, software engineers plan how a program will work, write the code (the instructions for the computer), test it to make sure it works correctly, and keep it updated and running smoothly.  
+  
 
-Study of level 1 topics will primarily include curating a list of areas that are troublesome and then researching/studying those areas. 
 
-Depending on the topic, you might spend a whole week just doing research before even tackling a question (especially if it’s a big topic). 
+# There are Levels 
 
-For hard topics, attempt 1 question at the very end of the week (after a week of focused research) to give yourself a new baseline. The point here is not to get the question right, but to put what you’ve studied back into context and give yourself the opportunity to study the solutions. Give the question a red hot crack even if you don’t know where to start — get something out. Then, spend a good chunk of time studying the solution — this is how you learn how to do problems! (as opposed to just reading up on the theory). Then add this question to your ‘wrong’ pile and you will retest it again at a later date. 
+## Level 1
+Level 1 topics may not require extensive testing initially. Instead, start by attempting 1 or 2 questions to identify problem areas and guide your study efforts. There's no need to spend excessive time on questions you know nothing about. For level 1 topics, focus on curating a list of troublesome areas and invest time in researching and studying those specific areas. In some cases, you may spend an entire week on research before tackling questions, especially for complex subjects.
 
-============== Level 2 =============== 
+For challenging topics, attempt a question at the end of the week after a week of focused research. The goal isn't to answer it correctly but to place your studies in context. Study the solutions thoroughly to understand problem-solving techniques. Add questions you got wrong to your 'wrong' pile for retesting later.
 
-These topics will have an even balance between research and testing. 
+## Level 2:
+Level 2 topics strike a balance between research and testing. Maintain a structured approach: identify problem areas, research, test, study solutions, evaluate, and retest. Emphasize doing questions to advance to level 3.
 
-Maintain a good flow with these topics: identify problem area, research, test, study solution, evaluate, retest. 
+Challenge yourself to take action – doing questions is key to advancing to level 3.
 
-An emphasis on doing questions is important for level 2 topics. 
+## Level 3
+Level 3 signifies comprehensive knowledge. It's all about practice: test, review solutions, retest questions you got wrong, and refine your expertise.
 
-Really challenge yourself to just ‘do’. This is how these topics will get to level 3! 
 
-============== Level 3 =============== 
 
-For something to be rated a level 3 means you know “almost everything” about it and shouldn’t really need to do much research at all. 
+## Changing Levels:
+Be flexible with your level assessments. If you see improvement, move to a higher level. Conversely, if a topic becomes challenging or your solutions are suboptimal, move it down a level. Trust your judgment and adapt your approach as needed.
 
-At this stage, it’s just practice: Test, solutions, test, solutions… 
-
-(and of course retest the questions you’ve gotten wrong!). 
-
-Changing Levels: 
-
-Don’t be too harsh on yourself — if you feel like you’ve made improvement on a topic, MOVE YOURSELF UP! 
-
-However, after studying in this way, you might realize that you need to move something down a level — don’t be alarmed by this. This is part of the process of uncovering problem areas. You’re probably used to assessing your competence on something by ‘vibe’ — now we have an objective measure, so it’s to be expected we might have gotten something wrong. 
-
-For level 2 topics, if you’re spending more time researching than doing questions, then this is an indication that this topic should perhaps move down to a level 1. 
-
-For level 3 questions, if you find that you’re getting them right however it’s consistently poor time and space complexity and your solutions feel a little ‘hacky’, then perhaps it’s a good idea to move this one down to a level 2 and study some more optimal solutions for these types of problems. 
-
-Trust your judgement here and don’t overthink it! 
-
-Learn concept in English  planning out before writing the code then convert to code
+In summary, for effective learning, assess your proficiency objectively and adjust your study approach accordingly. When learning a concept in English, plan and understand it thoroughly before translating it into code.

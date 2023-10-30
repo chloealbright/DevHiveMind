@@ -1,3 +1,16 @@
+---
+tags:
+  - CodebaseDecision
+  - MicroCodebaseDecision
+  - codeFlow
+  - components
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 2023-10-29
+Relates:
+---
 Returns the expected output and runs as expected basically predictable in behavior when process input and return output  
 
 So it allows us to replace the function with output which is known as referential transparency which makes it easy to debug and test  
@@ -21,3 +34,6 @@ pureIncrement(x) pure because x is,nt mutated 
 needs to return something 
 
 Impure harder to test and debug
+
+
+- **Pure Functional Programming:** Within this, state is not stored, and incoming data is not mutated; you return new data.

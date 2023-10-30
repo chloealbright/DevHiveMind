@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: perpetual
+Started: 
+EditDate: 
+Relates:
+---
 ![[unnamed (6).gif]]
 
 #todo/Low/Dev/SideResearch

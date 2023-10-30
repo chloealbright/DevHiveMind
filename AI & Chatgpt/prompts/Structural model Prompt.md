@@ -1,3 +1,15 @@
+---
+tags:
+  - prompt
+  - AI
+  - ChatGpt
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 create a module functional programming structural model for a driving school website  
   
 Identify util functions in structural model 

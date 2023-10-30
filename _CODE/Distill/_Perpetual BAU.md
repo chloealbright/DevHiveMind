@@ -1,7 +1,12 @@
-## Dev Perpetual Practices
-![Development Perpetual Practices](Development%20Perpetual%20Practices.md)
-
-
+---
+tags: 
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
+---
 
 
 

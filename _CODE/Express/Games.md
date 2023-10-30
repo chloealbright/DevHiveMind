@@ -1,3 +1,13 @@
+---
+tags:
+  - gaming
+author:
+  - jacgit18
+Status: perpetual
+Started: 
+EditDate: 
+Relates:
+---
 ![[Gaming.gif]]
 #todo/Fun/Gaming
 - [x] Ghost of Tsushima ✅ 2023-10-09

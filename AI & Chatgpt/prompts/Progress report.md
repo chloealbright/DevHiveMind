@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Act as a business system analyst create a progress report about how we meet with software developers, software developer leads, and there bosses in order the gather data about the skillsets and technology they are looking for there software developers to upskill in  
   
   

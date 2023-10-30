@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 API stands for Application Programming Interface. It is a software-to-software interface that enables two applications to exchange data with each other. Each time we use an app like Facebook or Instagram, send an instant message or check the weather on our phone, we use nothing but an API. It is like the hidden backbone of our modern world.
 
 Big-Endian – A data representation for a multibyte value that has the most significant byte stored at the lowest memory address. Note that only the bytes are reordered, never the nibbles or bits that comprise them. Every processor stores its data in either big-endian or little-endian format. Sun’s SPARC, Motorola’s 68k, and the PowerPC families are all big-endian. The Java virtual machine is big-endian as well. Similarly, every communications protocol must define the byte order of its multibyte values. TCP/IP uses big-endian representation. 
@@ -11,7 +20,7 @@ Checksum – A numerical check value calculated from a larger set of data. A che
 
 Compiler – A software-development tool that translates high-level language programs into the machine-language instructions that a particular processor can understand and execute. However, the object code that results is not yet ready to be run; at least a linker or link-step must follow.
 
-
+Verbose meaning using or expressed in more words than are needed. 
 
 ## consecutive vs concurrent
 
@@ -83,3 +92,6 @@ This logical stack is essential for managing the state of the program during asy
 
 
 **Propagation** refers to the transmission, spread, or dissemination of something, such as information, signals, or effects, from one point or source to another. It involves the process of carrying or passing on these elements to reach a wider or different area, often involving a sequence of steps or changes as they move from their origin to their destination. Propagation can occur in various contexts, including in the fields of science, technology, communication, and biology. ^5487d3
+
+
+Typed languages - are the languages in which we define the type of data type and it will be known by machine at the compile-time or at runtime. Typed languages can be classified into two categories:  ^acb92b

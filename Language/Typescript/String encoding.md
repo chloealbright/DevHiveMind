@@ -1,3 +1,13 @@
+---
+tags:
+  - dataType
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Node string encoding is all over the place. Let's try to straighten out how it works.
 
 First, some very basics about string encoding. A string is a series of bytes. A byte is 8 bits, each of which can be 0 or 1, so a byte can have 28 or 256 different values. _Encoding_ is the process of squashing the graphics you see on screen, say, 世 - into actual bytes. There are over a million possible Unicode characters - think about all of the different languages and emoji and symbols on the planet.

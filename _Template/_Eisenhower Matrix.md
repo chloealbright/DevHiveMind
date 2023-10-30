@@ -1,6 +1,11 @@
 ---
 tags: 
-author: jacgit18
+author:
+  - jacgit18
+Status: done
+Started: 
+EditDate: 
+Relates:
 ---
 
 ```start-multi-column

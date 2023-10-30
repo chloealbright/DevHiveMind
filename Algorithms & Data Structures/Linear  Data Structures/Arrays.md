@@ -98,7 +98,7 @@ WHEN LOOPing Ask YourSelf IF YOU need to Mess with index 
 ```
 
 
-
+Arrays are a special type of object.
 
 
 Use arrays for pushing(), poping(), and lookingup() data because it is O(1) most of the time and it is ordered  

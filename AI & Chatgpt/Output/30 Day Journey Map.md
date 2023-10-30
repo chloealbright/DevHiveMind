@@ -1,3 +1,16 @@
+---
+tags:
+  - generatorOutput
+  - AI
+  - ChatGpt
+author:
+  - jacgit18
+  - chatgpt
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 As an AI language model, I don't have personal experiences, but I can provide you with a hypothetical user story for a new hire's first month on the job:  
   
 As a new hire at a company, I want to feel welcome and supported during my first month on the job so that I can integrate into the company culture and become a productive member of the team.  

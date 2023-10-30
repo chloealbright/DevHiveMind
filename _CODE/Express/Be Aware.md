@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: perpetual
+Started: 
+EditDate: 
+Relates:
+---
 ![[Learning Approach.png]]
 
 ## Practice and Repetition

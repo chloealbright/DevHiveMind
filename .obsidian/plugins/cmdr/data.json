@@ -9,6 +9,24 @@
       "icon": "archive",
       "name": "Templater: Create new note from template",
       "mode": "any"
+    },
+    {
+      "id": "markdown:add-metadata-property",
+      "icon": "lucide-plus-circle",
+      "name": "Add file property",
+      "mode": "any"
+    },
+    {
+      "id": "markdown:add-metadata-property",
+      "icon": "lucide-plus-circle",
+      "name": "Add file property",
+      "mode": "any"
+    },
+    {
+      "id": "markdown:add-metadata-property",
+      "icon": "lucide-plus-circle",
+      "name": "Add file property Now",
+      "mode": "any"
     }
   ],
   "leftRibbon": [],

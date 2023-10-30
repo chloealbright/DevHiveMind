@@ -1,3 +1,12 @@
+---
+tags:
+  - Blog
+author: 
+Status: done
+Started: 
+EditDate: 
+Relates:
+---
 # {{title}}
 {{date}}
 Status: #Blog 

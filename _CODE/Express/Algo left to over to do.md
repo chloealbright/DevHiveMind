@@ -1,6 +1,12 @@
 ---
-tags: 
-author: jacgit18
+tags:
+  - interview
+author:
+  - jacgit18
+Status: perpetual
+Started: 
+EditDate: 
+Relates:
 ---
 ## Graphs & Graph Generator
 #todo/High/Dev 

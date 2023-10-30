@@ -11,6 +11,14 @@ So for example let's say you have an object call fruit with a name property with
 
 All modern browsers have a mark and sweep algorithm that clears out that data that has no reference essentially
 
+## Memory Management
+
+- **Garbage Collection:** JavaScript, being garbage collected, automatically manages memory. Objects become eligible for garbage collection when nothing references them.
+- **Low-Level Languages:** In low-level languages, manual memory management is required, and you have to delete unreferenced items, which can lead to potential memory issues.
+- **Benefits of Manual Memory Management:** While manual memory management can be challenging, it allows for high efficiency in certain situations.
+
+
+
 
 # Java 
 

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: perpetual
+Started: 
+EditDate: 
+Relates:
+---
 ![[opm-run.gif]]
 
 
@@ -15,9 +24,12 @@
 - [ ] Get certified in Linux  
 - [ ] Looking to automating stock buys
 - [ ] Develop practical fundamental skills around design patterns 
-- [ ] [[Mind map ideas]]
-- [ ] Add to resume [[Job Title#^221ddf]]
-- [ ] Look into searching tasks or subtask in jira  
+- [x] Add to resume [[Current Job Title#^221ddf]] ✅ 2023-10-29
+- [ ] Code base decisions made at low level in the design of classes and functions and decisions being made  
+- [ ] Code base decisions made at a higher level in terms of components and services and overall architecture and put in the pieces together  
+- [ ] And maybe even a higher level with technologies and stuff
+- [ ] Design patterns mindmap
+- [ ] Look into 12 Factor microservice
 - [ ] identify areas of automation were ever you see 
 - [ ] Identify most expensive manual process  
 - [ ] look a little into alt ways to exclude dir
@@ -42,6 +54,7 @@
 - [ ] **Server-Side vs. Single-Page Applications:** Analyze and contrast the advantages and use cases of server-side rendering versus single-page applications, gaining a deep understanding of when to use each approach.
 - [ ] **Whiteboarding Abstraction Skills:** Acquire the art of creating lucid and effective abstractions when whiteboarding technical concepts, a vital skill for excelling in interviews.
 - [ ] create a long list LinkedIn post ideas about popular historical leaders like for example martin Luther king, also events around the year like breast cancer awareness and holidays give ideas for each month in the year on these topic
+- [ ] Look into [[Project idea]]
 
 
 ## Books

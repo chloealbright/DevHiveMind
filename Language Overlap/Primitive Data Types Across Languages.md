@@ -1,3 +1,13 @@
+---
+tags:
+  - dataType
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Here is a list of commonly used primitive types across various programming languages:
 
 1. Integer:

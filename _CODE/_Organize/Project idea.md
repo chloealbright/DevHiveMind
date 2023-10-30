@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[unnamed (9).gif]]
 
 **1. Picture Upload Verification with OAuth:**

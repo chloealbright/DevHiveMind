@@ -1,3 +1,13 @@
+---
+tags:
+  - garbageCollection
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
+---
 
 
 The JVM defines various memory areas to execute a Java program. These are used during runtime and are known as run-time data areas. Some of these areas are created on the JVM start-up and destroyed when the JVM exits while some are created when a thread is created and destroyed when a thread exits.

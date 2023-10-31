@@ -1,35 +1,31 @@
 ---
 tags:
   - inPlaceSort
+  - sortAlgo
 author:
   - jacgit18
-Status: 
+Status: init
 Started: 
 EditDate: 
 Relates:
 ---
-Popular Used a lot more but be careful with it
-
-used more than insertion and selection and bubble sort 
-
-that are in place 
 ![[unnamed (16).gif]]
 
-Quick Sort can be created in different ways just like merge sort is a divide and conquer algorithm. and it is usually the fastest on average but the one downside is that it has some pretty nasty worst-case behaviors.  
-  
-Quicksort has a better rate of average runtime cases and space complexity than merge sort.  
-  
-  
-You see quicksort uses something called a pivoting technique to break the main list into smaller lists and these smaller lists use the pivoting technique until they are sorted.  
-  
-we keep breaking things down like a tree. And this is where we divide and conquer comes from. Until we have all the individual lists sorted and we combine them. Now you might have two questions for me looking at this. One is how do we even pick this pivot point. And that is kind of random.  
-  
-  
-So if you have to guarantee no bad data or you can guarantee that the pivot is going to be good then you should be avoiding quicksort.  
-  
-  
-Quicksort is really useful and between quicksort and merge I would say those are the most used sorting algorithms.  
-  
-You'll notice your two things. One is that quick sorts space complexity really good. not as good as bubble sort or insertion sort or selection sort but it's still better than merge. the worst case is 0(n^2) because of this you really want to make sure that you pick a good pivot for quicksort.  
-  
-You'll get the better space complexity but the worst case could be bad. So in those cases merge sort might be better if your list was presorted for whatever reason. And in that list, if we pick the pivot to be the first item or the last item then our sorting routine would take a very very long time because again the list will not really be split in half and ideally in a quick sort, you're picking the pivot intelligently based on your list.
+
+  - **Quick Sort**: It's a divide and conquer algorithm, just like Merge Sort. It's known for being one of the fastest sorting algorithms on average but has some unfavorable worst-case behaviors.
+
+- **Average Runtime and Space Complexity**: Quick Sort has a better average runtime and space complexity compared to Merge Sort.
+
+- **Pivoting Technique**: Quick Sort employs a pivoting technique to divide the main list into smaller lists. These smaller lists are further divided and sorted using the pivoting technique until the entire list is sorted. This process is a form of divide and conquer.
+
+- **Choosing the Pivot**: In Quick Sort, picking the pivot intelligently based on your list can significantly affect its performance. For example, choosing the first or last item as the pivot can lead to poor performance if the list is not split evenly.
+
+- **Choosing the Pivot Point**: The choice of the pivot point in Quick Sort is somewhat random. If you can't guarantee the quality of the pivot or the data has the potential to be bad, you might want to consider other sorting methods.
+
+- **Usefulness**: Quick Sort and Merge Sort are among the most commonly used sorting algorithms.
+
+- **Space Complexity**: Quick Sort has good space complexity, although not as efficient as Bubble Sort, Insertion Sort, or Selection Sort. It's still better than Merge Sort in this regard.
+
+- **Worst-Case Scenario**: Quick Sort has a worst-case time complexity of O(n^2). To mitigate this, selecting a good pivot point is crucial.
+
+![[quicksort.png]]

@@ -191,10 +191,9 @@ Array.some() method tests whether at least one element in the array passes the t
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from) 
 ```javascript
-Array.sort() .
+Array.sort() 
 
-
-sort (a,b) .sort(compareFunc)  .sort(inlineCompFunc)                                                              
+.sort(a,b) .sort(compareFunc) .sort(inlineCompFunc)
 
  < 0        sort a before b:  a(1) - b(2) = -1 lower value placed first                                                                                                         
 
@@ -215,3 +214,7 @@ Map(uses has()):                                
 
 Set(uses has()):                                                                        
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
+
+
+
+

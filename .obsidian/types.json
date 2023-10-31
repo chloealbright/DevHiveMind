@@ -6,7 +6,6 @@
     "EditDate": "date",
     "Started": "date",
     "author": "multitext",
-    "Relates": "text",
-    "test": "checkbox"
+    "Relates": "text"
   }
 }

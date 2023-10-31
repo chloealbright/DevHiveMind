@@ -27,39 +27,35 @@ If you're concerned about worst-case scenarios, Merge Sort is a safer choice. Bu
 
 Quick Sort is particularly efficient for smaller arrays or datasets and has good cache locality, making it faster in some cases, especially in a virtual memory environment.
 
-
 ### Heap Sort
 alternatively you can use [[Heap Sort]] but it is a little slower than quicksort but you don't have to worry about worst-case and it has a better space complexity than merge sort 
 
+# Wont Really Use
 
-
-
-## Wont Really Use
+## Practice Sorts
 
 ### [[Bubble sort]] & [[Selection sort]]
 
 Practice with bubble and selection sort to understand basics don't use bubble or selection sort in your code or interview
 
 Bubble insertion and selection sort are typically the worst in terms of runtime which is exponential or `O(n^2) `but when it comes to insertion if best case which is small amounts of data then it can become O(n) or Ω(n) which is linear time
-
-
 ### [[Insertion sort]]
 
 use insertion sort for small inputs that are partially sorted to get the LINEAR TIME `O(n)` and it uses little space  
 
-
+## Specific/ Advanced Sorts
 ### [[Bucket Sort]]
 
 Bucket sort is mainly useful when dealing with numbers in different ranges
 
-
-
-
-### [[Radix Sort + Counting Sort]](Not likely to be on interview)
+### [[Radix Sort]](Not likely to be on interview)
 
 Radix Sort + Counting Sort are used for integers in a restricted range
 
-**In summary:
+
+**Don't forget to Keep [[_Sort Implementation Focus]] in mind**
+
+# Summary
 
 - Use Merge Sort when reliability and worst-case performance are important, especially for  dealing with larger arrays or datasets.
 - Choose Quick Sort when space efficiency and speed for smaller datasets are your priorities.

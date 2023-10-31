@@ -24,8 +24,13 @@ Linear can be applied to any linear data structure such as an array, linked list
 Binary search is limited as it can be implemented only on those data structures that have two-way traversal.  
   
 Linear is based on the sequential approach. Binary is based on the divide and conquer approach.  
+
   
 linear is good for small data sets and binary for large data set  
+
+
+a search is considered linear if you iterate through a data structure in a linear manner, meaning you examine each element or node in the structure exactly once. It's not related to the shape or structure of the data itself. If you're iterating through a non-linear data structure in a way that examines each element once, it's still a linear search. If you skip elements or don't examine them all, it could be a different type of search, like a binary search for a sorted data structure.
+
   
 LINEAR O(N)  
 function indexEqualsValueSearch(arr) {  

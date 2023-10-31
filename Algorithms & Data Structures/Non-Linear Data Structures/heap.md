@@ -1,0 +1,1 @@
+The heap data structure is an array object that we can view as a nearly complete binary tree. Each node of the tree corresponds to an element of the array. The tree is completely filled on all levels except possibly the lowest level, which is filled from the left up to a point.  

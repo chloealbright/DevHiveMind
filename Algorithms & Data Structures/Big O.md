@@ -41,7 +41,7 @@ In big O notation, O(1) is used to describe operations that have a fixed or cons
 Big O notation is a way to describe how the efficiency of an algorithm changes with input size. It helps us understand the rate of growth or decline of a function as it approaches a limit. Here's a quick overview of some common notations:
 
 - **O(*Landau*)**: Represents an upper bound or **worst-case** scenario. For instance, O(n) denotes linear time complexity.
-- **Ω(*Omega*)**: Represents a lower bound or **best-case** scenario. Ω(n) means that the algorithm's runtime won't be faster than linear.
+- **Ω(*Omega*)**: Represents a lower bound or **best-case** scenario. Ω(n) means that the algorithm's runtime won't be faster than linear. ^64043d
 - **Θ(*Theta*)**: Denotes an **average-case** scenario between the worst and best cases.
 
 You can find more information on time complexity analysis notations [here](https://cs.stackexchange.com/questions/57/how-does-one-know-which-notation-of-time-complexity-analysis-to-use).

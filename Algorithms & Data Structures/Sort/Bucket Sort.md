@@ -1,23 +1,29 @@
 ---
-tags: 
-author: jacgit18
-Status: 
+tags:
+  - sortAlgo
+author:
+  - jacgit18
+Status: init
 Started: 
 EditDate: 
 Relates:
 ---
 ![[unnamed (14).gif]]
 
-Bucket sort is mainly useful when input is uniformly distributed over a range. For example, consider the following problem.  
-Sort a large set of floating point numbers which are in range from 0.0 to 1.0 and are uniformly distributed across the range. How do we sort the numbers efficiently?  
-A simple way is to apply a comparison based sorting algorithm. The lower bound for Comparison based sorting algorithm (Merge Sort, Heap Sort, Quick-Sort .. etc) is Ω(n Log n), i.e., they cannot do better than nLogn.  
-Can we sort the array in linear time? Counting sort can not be applied here as we use keys as index in counting sort. Here keys are floating point numbers.  
-The idea is to use bucket sort. Following is bucket algorithm.  
-  
-Time Complexity: If we assume that insertion in a bucket takes O(1) time then steps 1 and 2 of the above algorithm clearly take O(n) time. The O(1) is easily possible if we use a linked list to represent a bucket (In the following code, C++ vector is used for simplicity). Step 4 also takes O(n) time as there will be n items in all buckets.  
-The main step to analyze is step 3. This step also takes O(n) time on average if all numbers are uniformly distributed (please refer CLRS book for more details)  
-Following is the implementation of the above algorithm.  
-  
-[https://www.educative.io/edpresso/what-is-bucket-sort](https://www.educative.io/edpresso/what-is-bucket-sort)  
-  
-[https://learnersbucket.com/tutorials/algorithms/bucket-sort-algorithm/](https://learnersbucket.com/tutorials/algorithms/bucket-sort-algorithm/)
+Bucket sort is particularly effective when dealing with uniformly distributed input over a specified range. For example, imagine sorting a large set of floating-point numbers ranging from 0.0 to 1.0, distributed uniformly across this range. 
+
+If we were to employ a comparison-based sorting algorithm, such as Merge Sort, Heap Sort, or Quick Sort, we'd be bound by the lower limit of [[Big O#^64043d | Ω]](n log n), which means they can't perform better than n log n in terms of time complexity.
+
+The challenge with applying counting sort is that it relies on keys as indices, and in this scenario, the keys are floating-point numbers.
+
+To tackle this, we turn to bucket sort. The algorithm can be summarized as follows:
+
+- If we assume inserting elements into a bucket takes` O(1) `time (for example, using a linked list to represent each bucket), then steps 1 and 2 will take `O(n)` time.
+- Step 4 also takes `O(n) `time because there are n items across all buckets.
+- The critical step to analyze is step 3, which takes `O(n)` time on average when the numbers are uniformly distributed.
+
+For more details and implementation, you can refer to the resources linked below:
+
+[What is Bucket Sort](https://www.educative.io/edpresso/what-is-bucket-sort)
+
+[Bucket Sort Algorithm](https://learnersbucket.com/tutorials/algorithms/bucket-sort-algorithm/)

@@ -1,11 +1,17 @@
 ---
 tags:
   - innerWorkings
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 The terms "asynchronous" and "synchronous" refer to different approaches to handling tasks or operations in a program. Let's understand the purpose of asynchronous and synchronous code:
 
 ## Asynchronous Code:
-The purpose of asynchronous code is to enable non-blocking and **[[Glossary#consecutive vs concurrent | concurrent]]** execution of tasks or operations. In asynchronous programming, when a task is initiated, it doesn't block the execution flow of the program. Instead, the program continues executing other tasks or operations while the asynchronous task runs in the background. Asynchronous code is typically used when performing I/O operations, network requests, or any operation that may take a significant amount of time to complete.
+The purpose of asynchronous code is to enable non-blocking and **[[Glossary#^4f0064 | concurrent ]]**  execution of tasks or operations. In asynchronous programming, when a task is initiated, it doesn't block the execution flow of the program. Instead, the program continues executing other tasks or operations while the asynchronous task runs in the background. Asynchronous code is typically used when performing I/O operations, network requests, or any operation that may take a significant amount of time to complete.
 
 The benefits of asynchronous code include:
 

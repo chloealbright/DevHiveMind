@@ -1,25 +1,26 @@
 ---
-tags: 
-author: jacgit18
-Status: 
+tags:
+  - sortAlgo
+author:
+  - jacgit18
+Status: init
 Started: 
 EditDate: 
 Relates:
 ---
-Used a lot more but should try to use for worst-case
-
 ![[unnamed (15).gif]]
 
-Merge sort is a sorting technique based on the divide and conquer technique. With worst-case time complexity being Ο(n log n), it is one of the most respected algorithms.  
-  
-O(n) for space complexity  
-  
-So if you're worried about worst-case scenarios you should use Merge sort.  
-  
-But if you want to sort in memory on your machine and you're worried about space complexity merge sort  
-  
-is going to be really expensive a userspace complexity of all of that.  
-  
-However, if he had huge files that can be sorted in memory so you have external sorting that you need  
-  
-maybe like a process outside of memory it's suitable for external sorting then merge sort is good because we won't care as much about space complexity
+
+- **Merge Sort**: This sorting technique is based on the divide and conquer method and is known for its worst-case time complexity of `Ο(n log n)`, making it highly respected.
+
+- **Space Complexity**: Merge sort has a space complexity of `O(n),` which means it uses additional memory for sorting.
+
+- **Worst-Case Scenarios**: If you're concerned about worst-case scenarios and need a reliable sorting algorithm, Merge sort is a good choice.
+
+- **In-Memory Sorting**: If you need to sort data in memory on your local machine and are worried about space complexity, Merge sort may be less efficient due to its higher space requirements.
+
+- **External Sorting**: For scenarios where you have huge files that can't fit entirely in memory and need an external sorting process, Merge sort becomes suitable because space complexity matters less in such cases.
+
+
+
+![[mergeSort.png]]

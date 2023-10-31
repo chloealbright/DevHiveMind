@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - sortAlgo
 author:
   - jacgit18
 Status: refinement

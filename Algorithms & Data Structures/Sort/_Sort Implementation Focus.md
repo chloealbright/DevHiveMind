@@ -10,7 +10,7 @@ Relates:
 ---
 ![[unnamed (13).gif]]
 
-"In JavaScript, the behavior of the `sort` method may not always align with your expectations. For instance, when sorting letters, it usually works as anticipated. However, when dealing with numbers, a different set of rules comes into play. JavaScript converts numbers to strings during sorting, using the `charCodeAt` method which relies on Unicode values.
+"In JavaScript, the behavior of the built in `sort` method may not always align with your expectations. For instance, when sorting letters, it usually works as anticipated. However, when dealing with numbers, a different set of rules comes into play. JavaScript converts numbers to strings during sorting, using the `charCodeAt` method which relies on Unicode values.
 
 Furthermore, it's important to note that the performance of the `sort` method can vary depending on the web browser you're using. This leads to differences in terms of Big O complexity.
 

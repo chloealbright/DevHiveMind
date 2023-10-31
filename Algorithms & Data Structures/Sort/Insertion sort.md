@@ -2,9 +2,10 @@
 tags:
   - inPlaceSort
   - WontReallyUse
+  - sortAlgo
 author:
   - jacgit18
-Status: 
+Status: done
 Started: 
 EditDate: 
 Relates:

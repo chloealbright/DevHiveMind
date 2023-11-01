@@ -6,14 +6,16 @@ tags:
   - postProcessing
 author:
   - jacgit18
-Status: refinement
+Status: done
 Started: 
 EditDate: 
-Relates:
+Relates: "[[Big O]]"
 ---
 ![[_Images/Algo/GetImage (3).png]]
 
 <iframe src="https://www.hackerearth.com/practice/algorithms/sorting/radix-sort/visualize/" allow="fullscreen" allowfullscreen="" style="height: 100%; width: 100%; aspect-ratio: 4 / 3;"></iframe>
+
+> [!important] On Interview you may be asked a question more so then actually implement also you can mention that you would use one sort or the other with reason why depending if it is relevant to problem your doing. 
 ### Merge Sort:
 
 [[Merge sort]]is a reliable sorting algorithm that falls under the category of  `divide and conquer `sorts. It is known for its consistent and linear time complexity.
@@ -43,10 +45,15 @@ Bubble insertion and selection sort are typically the worst in terms of runtime 
 
 use insertion sort for small inputs that are partially sorted to get the LINEAR TIME `O(n)` and it uses little space  
 
-## Specific/ Advanced Sorts
+## Non-Comparison Sorts
+
 ### [[Bucket Sort]]
 
 Bucket sort is mainly useful when dealing with numbers in different ranges
+
+## [[Counting Sort]]
+
+Counting sort also deals with numbers in different ranges
 
 ### [[Radix Sort]](Not likely to be on interview)
 

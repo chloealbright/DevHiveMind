@@ -1,6 +1,7 @@
 ---
 tags:
   - sortAlgo
+  - non-ComparisonSort
 author:
   - jacgit18
 Status: init
@@ -31,39 +32,33 @@ Here's a implementation of Counting Sort:
 
 ```typescript
 function countingSort(arr: number[]): number[] {
-    // Find the range of input values
-    const minVal: number = Math.min(...arr);
-    const maxVal: number = Math.max(...arr);
+    const max = Math.max(...arr);
+    const min = Math.min(...arr);
 
-    // Create the counting array
-    const countingArray: number[] = new Array(maxVal - minVal + 1).fill(0);
+    // Create a counting array to store the frequency of each value
+    const countArray: number[] = new Array(max - min + 1).fill(0);
 
-    // Count the occurrences of each value
+    // Count the occurrences of each value in the input array
     for (const num of arr) {
-        countingArray[num - minVal]++;
+        countArray[num - min]++;
     }
 
-    // Calculate cumulative counts
-    for (let i = 1; i < countingArray.length; i++) {
-        countingArray[i] += countingArray[i - 1];
-    }
-
-    // Create the output array
-    const sortedArray: number[] = new Array(arr.length);
-
-    // Reconstruct the sorted array
-    for (const num of arr) {
-        sortedArray[countingArray[num - minVal] - 1] = num;
-        countingArray[num - minVal]--;
+    // Build the sorted array from the counting array
+    const sortedArray: number[] = [];
+    for (let i = 0; i < countArray.length; i++) {
+        for (let j = 0; j < countArray[i]; j++) {
+            sortedArray.push(i + min);
+        }
     }
 
     return sortedArray;
 }
 
-// Example usage:
-const arr: number[] = [4, 2, 2, 8, 3, 3, 1];
-const sortedArr: number[] = countingSort(arr);
-console.log(sortedArr);
+// Example usage
+const unsortedArray: number[] = [4, 2, 2, 8, 3, 3, 1];
+const sortedArray = countingSort(unsortedArray);
+console.log(sortedArray); // Output: [1, 2, 2, 3, 3, 4, 8]
 ```
+
 
 Counting Sort has a time complexity of O(n + k), where "n" is the number of elements in the input array, and "k" is the range of input values (max_val - min_val + 1). It is a linear-time sorting algorithm and can be extremely efficient when the range of input values is small. However, it is not suitable for sorting non-integer values or for large ranges of values.

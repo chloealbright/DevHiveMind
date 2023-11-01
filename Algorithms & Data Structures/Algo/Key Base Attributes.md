@@ -132,7 +132,7 @@ Do some type of check when you want to UPDATE High 
 
 Do some type of check when you want to UPDATE LOW 
 
-## Bitwise XOR // Have not done yet 
+
 
 ## Heaps //Data Structure Can be Implemented with array or linked list  
 
@@ -158,26 +158,6 @@ Remove 
 Object pointer reassignment(i.e Node Pointers) 
 ```
 
-
-## Fast & Slow Pointers (Linked List Node pointer Swap) 
-
-Check if head exist return false 
-
-Create/Store linked list HEAD in slowPointer variable 
-
-Create/Store linked list HEAD in fastPointer variable 
-
-iterate while .. 
-
-```javascript
-check if  fastPointer or fastPointer.next exist return false 
-
-check if slowPointer equal fastPointer or slowPointer equal fastPointer.next  return true 
-
-Update slowPointer to slowPointer.next 
-
-Update fastPointer to fastPointer.next.next 
-```
 
 
 

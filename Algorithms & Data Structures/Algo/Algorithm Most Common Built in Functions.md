@@ -201,6 +201,13 @@ Array.sort()
 
 === 0        keep original order of a and b 
 ```
+
+- `< 0`: When the comparison function returns a value less than zero (e.g., a negative number), it indicates that element `a` should be sorted before element `b`. In other words, element `a` will come before element `b` in the sorted array.
+
+- `> 0`: When the comparison function returns a value greater than zero (e.g., a positive number), it means that element `b` should be sorted before element `a`. This results in element `b` appearing before element `a` in the sorted array.
+
+
+
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) 
 
 ## Object iterate using for In loop 

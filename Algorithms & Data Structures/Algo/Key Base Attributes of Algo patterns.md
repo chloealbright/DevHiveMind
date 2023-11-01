@@ -55,9 +55,14 @@ Two pointer and Sliding window can be interchangeable solution but one would jus
 
 - **Definition:** Fast & Slow Pointers help detect cycles in linked lists.
 - **Steps:**
-  1. Check for existence of the head.
-  2. Initialize slow and fast pointers.
-  3. Iterate through the list.
+  1. Check if head exist `fastPointer or fastPointer.next exist return false `
+  2. check if `slowPointer equal fastPointer or slowPointer equal fastPointer.next  return true `
+  3. Initialize slow and fast pointers.
+	  - Create/Store linked list HEAD in slowPointer variable 
+	  - Create/Store linked list HEAD in fastPointer variable 
+  4. Iterate through the list.
+  5. Update `slowPointer `to `slowPointer.next `
+  6. Update `fastPointer` to `fastPointer.next.next `
 - **Use Cases:** Detecting cycles in linked lists.
 
 

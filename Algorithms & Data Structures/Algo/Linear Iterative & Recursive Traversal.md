@@ -4,13 +4,47 @@ tags:
   - traversal
   - search
   - linear
-author: jacgit18
+author:
+  - jacgit18
 Status: 
 Started: 
 EditDate: 
-Relates:
+Relates: "[[Iterating vs Traversing]]"
 ---
 ![[unnamed (59).gif]]
+
+
+## Linear iteration
+
+Linear iteration is a broader concept that refers to the process of sequentially visiting or processing each item in a collection/Data Structure, typically from the first item to the last, in a linear order.  It is not limited to searching for a specific value like a [[Linear search vs Binary search#^d39416 | Linear Search]]; it can involve various operations on each item in the collection, such as printing, modification, or computation.  
+  
+While it's not a common approach, you can implement linear iteration using recursion. Here's an example of how you can do this by creating a recursive function to iterate over an array of elements and process each element one by one:  
+  
+```javascript  
+function linearIterationRecursive(arr, index) {  
+// Base case: When the index is equal to the length of the array, stop the recursion.  
+if (index === arr.length) {  
+return;  
+}  
+  
+// Process the element at the current index  
+console.log(arr[index]);  
+  
+// Recursive call to process the next element  
+linearIterationRecursive(arr, index + 1);  
+}  
+  
+const myArray = [1, 2, 3, 4, 5];  
+linearIterationRecursive(myArray, 0);  
+```  
+  
+In this example, the `linearIterationRecursive` function takes an array `arr` and an `index` as parameters. It processes the element at the current index and then makes a recursive call to process the next element by incrementing the index. The base case checks if the index is equal to the length of the array, and if so, it stops the recursion.  
+  
+It's important to note that while this code demonstrates a recursive approach for linear iteration, it's not the most efficient or common way to achieve linear iteration. Using a "for" loop is a more straightforward and efficient choice for linear iteration in most cases.
+
+
+
+
 with BFS/DFS examples
 
 
@@ -26,36 +60,8 @@ Binary search is used when data is sorted while the data can be unsorted or sort
 
 Binary search is limited as it can be implemented only on those data structures that have two-way traversal. 
 
-BINARY O(log N) 
+
 ```javascript
-var search = function(nums, target) { 
-
-    let lo = 0, hi = nums.length-1; 
-
-    while (lo < hi) { 
-
-        let mid = lo + Math.floor((hi-lo+1)/2); 
-
-        if (target < nums[mid]) { 
-
-            hi = mid - 1 
-
-        } else { 
-
-            lo = mid;  
-
-        } 
-
-    } 
-
-    return nums[lo]==target?lo:-1; 
-
-}; 
-
-
-
-
-Array 
 
 const searchIter = (nums, target) =>{ 
 
@@ -65,7 +71,6 @@ const searchIter = (nums, target) =>{ 
 
     while (lo < hi) { 
 
-// right/lower mid-upper  
 
         let mid = lo + Math.floor((hi - lo + 1) / 2);  
 
@@ -89,7 +94,7 @@ const searchIter = (nums, target) =>{ 
 
 
 
-Array Rec
+
 const searchRec = (nums, target) =>{ 
 
     return findTarget(nums, target, 0, nums.length - 1); 
@@ -122,11 +127,12 @@ const findTarget = (nums, target, start, end) =>{ 
 
 } 
 
-console.log(searchRec([-1,0,3,5,9,12], 9,));  
 
-// output index were 9 is  so 4 
-
-console.log(searchRec([-1,0,3,5,9,12], 2,));
 
 
 ```
+
+
+
+
+

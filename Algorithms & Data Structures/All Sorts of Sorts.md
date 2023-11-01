@@ -90,10 +90,9 @@ Radix Sort + Counting Sort are used for integers in a restricted range
 
 
 ## Sorting Nature
-
-I see what you mean now. You're referring to the nature of the sorting or searching algorithm in terms of its operation, not just the time complexity. In this context, sorting and searching algorithms can indeed be categorized as "linear" or "binary" based on their core operations. Let's clarify:
-
-**Linear Sorting Algorithms:** These are algorithms that involve comparing and moving elements one at a time through the entire input data set to arrange them in the desired order. Examples of linear sorting algorithms include:
+> [!important] This was an observation I made and was curious about sorting algorithms and how they iterate through arrays or different data structures "linear" and "binary" can be used to classify sorting and searching algorithms based on their operation or strategy, with linear algorithms working through the data one element at a time and binary algorithms employing a divide and conquer approach or binary decisions.
+### Linear Sorting Algorithms: 
+These are algorithms that involve comparing and moving elements one at a time through the entire input data set to arrange them in the desired order. Examples of linear sorting algorithms include:
 
 1. **Bubble Sort:** It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process continues until the entire list is sorted.
 
@@ -101,7 +100,8 @@ I see what you mean now. You're referring to the nature of the sorting or search
 
 3. **Selection Sort:** It repeatedly selects the minimum element from the unsorted part and puts it at the beginning.
 
-**Binary Sorting Algorithms:** These algorithms employ a "divide and conquer" strategy, breaking the data into smaller parts and performing operations based on binary decisions. Examples of binary sorting algorithms include:
+### Binary Sorting Algorithms:
+These algorithms employ a "divide and conquer" strategy, breaking the data into smaller parts and performing operations based on binary decisions. Examples of binary sorting algorithms include:
 
 1. **Merge Sort:** It divides the unsorted list into n sub-lists, each containing one element, and then repeatedly merges sub-lists to produce new sorted sub-lists until there is only one sub-list remaining.
 
@@ -110,7 +110,7 @@ I see what you mean now. You're referring to the nature of the sorting or search
 **Binary Search:** While not a sorting algorithm, binary search is a searching algorithm that operates on sorted data by repeatedly dividing the search space in half. It is considered a "binary" operation because it makes binary decisions to narrow down the search space.
 
 
-Certainly, let's categorize the sorting algorithms you mentioned:
+## Non Comparative Sorts nature 
 
 1. **Heap Sort:** Heap Sort is not a "linear" or "binary" sort in the sense of linear vs. binary operations. It is typically categorized based on its time complexity. Heap Sort is a comparison-based sorting algorithm with a time complexity of O(n log n), making it more efficient than quadratic time complexity sorts like Bubble Sort or Insertion Sort.
 
@@ -123,10 +123,5 @@ Certainly, let's categorize the sorting algorithms you mentioned:
 In general these sorting algorithms don't fit into the "linear" or "binary" categories when classifying them based on their core operation. They are better categorized based on their time complexity and approach, whether they are comparison-based or non-comparison-based, and whether they are stable or unstable sorts. 
 
 
-
-This was an observation I made and was curious 
-
-
-"linear" and "binary" can be used to classify sorting and searching algorithms based on their operation or strategy, with linear algorithms working through the data one element at a time and binary algorithms employing a divide and conquer approach or binary decisions.
 
 

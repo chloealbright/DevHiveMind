@@ -7,74 +7,62 @@ Started:
 EditDate: 
 Relates:
 ---
-
-
-An array is a linear data structures data that can be accessed sequentially & can be considered a special object that is a chunk of memory 
+An array is a data structure in programming that represents a collection of elements, where each element can be accessed by an index or a key. It is a fundamental and versatile data structure used in many programming languages, including JavaScript, Python, Java, C++, and more.
 
 Arrays are object literals or key value pairs 
 
+Here are some examples in Java and TypeScript:
+
 ```java
-ArrayList <Object> x = new ArrayList <Object>(); 
-ArrayList [][] = new ArrayList();
-
-// Typescript
-let v: string = new Array(); 
-let a: [][] = new Array<Array<Object>>(); 
+ArrayList<Object> x = new ArrayList<Object>();
+ArrayList[][] = new ArrayList();
 ```
 
-### Use arrays for 
-
-pushing(), poping(), and lookingup() data because it is O(1) most of the time and it is ordered 
-
-### Don't use arrays for 
-
-	inserting() or deleting() because it is O(n) 
-
-also depending on the language the array can be a static meaning  fixed size so you will need to override it and make it dynamic which makes it O(n) or more 
-
-## Array 
-
-length/size is usually hardcoded depending on the language  so it doesn't dynamically increase or decrease in size so in order to resize you have to copy to new memory with a different array size which is inefficient in terms of steps  
-
-Are very fast because of indexing especially when doing binary search and sorting 
-
-ARRAY & STRINGS similar since they have sub-arrays & sub-strings and you can use array brackets to iterate and other string methods 
-
-for string manipulation questions ask if it is an ASCII string or a Unicode string 
-[https://www.rapidtables.com/code/text/unicode-characters.html](https://www.rapidtables.com/code/text/unicode-characters.html)  
-
-JavaScript does not provide the multidimensional array natively. However, you can create a multidimensional array by defining an array of elements, where each element is also another array. For this reason, we can say that a JavaScript multidimensional array is an array of arrays. 
-
-If dealing with a nested array and you don't have to visit all of the indexes you can just use one loop as opposed to nested for loop 
-
-## Tip 
-
-Java Arraylist versus array
-
-Basically it's more dynamic and grows as opposed to an array has a fixed size and it's not dynamic Just use arraylist better
 
 
-Use map over for each method for your array 
-
-If you can't use reverse and limit use .sort 
-
-When dealing with nested array/matrix questions think about work in the outer row loop in terms of adding things also you will probably use a hash table a lot in question with matrix's to keep track of elements visited which is like memoization  
-
-Fixed length you may be dealing with a matrix or array with elements of a fixed length so it may be some form of Merge Interval where values are unsorted or sorted overall 
-
-```javascript
-[...string]. arrayMethod to manipulate and can store in array for array destructing 
+```typescript
+let a: Array<Array<Object>> = new Array<Array<Object>>();
 ```
 
-reassigning array length to a smaller length to shrink array  
+Or you can use a shorter syntax:
 
-```javascript
-var array = [1, 2, 3, 4, 5, 6];    length of 6 array.length = 3 array now [1,2,3] 
+```typescript
+let a: Object[][] = new Array<Object[]>();
 ```
 
-sort by length of array element 
 
-if you have an array of string and you want to check the sub string of words in array you can use string methods or store current word in variable 
+The code you provided declares a variable `a` and initializes it with an empty 2D array. Here's an explanation of the code:
+
+1. `let a`: This declares a variable named `a`.
+
+2. `Object[][]`: This is the type annotation for the variable `a`. It specifies that `a` is of type "2D array of objects." In TypeScript, `Object` is a generic type that can represent any object. The `[][]` notation indicates a 2D array, meaning an array of arrays.
+
+3. `new Array<Object[]>()`: This part initializes the variable `a`. It creates a new empty array of arrays that can hold objects. It's equivalent to using an empty 2D array.
+
+So, after this line of code, `a` is a variable that holds an empty 2D array capable of storing objects. You can add objects to it by pushing arrays into `a` or by assigning specific values to its elements. For example:
+
+```typescript
+a.push([1, 2, 3]); // Push an array with numbers
+a.push(["a", "b", "c"]); // Push an array with strings
+a[0][0] = { key: "value" }; // Assign an object to a specific element
+```
+
+You can work with this 2D array to store and manipulate data, and it can contain elements of any data type as long as they are objects.
+
+### Avoid Arrays For
+- Inserting or deleting data, as these operations are O(n) other data structures are better for this.
+- In some languages, arrays can be static, with a fixed size, resulting in O(n) time complexity if made dynamic.
+
+## Array Sizes
+- Array sizes are often hardcoded and don't dynamically change like in java if you decide to use array of a dynamic array list.
+- Resizing an array involves copying data to new memory, which can be inefficient.
+
+## Performance Benefits
+- Arrays are fast due to indexing, making them efficient for binary searches and sorting.
+
+## String Handling
+- Consider whether strings are ASCII or Unicode, as this distinction can impact certain tasks.
+- if you have an array of string and you want to check the sub string of words in array you can use string methods or store current word in variable 
 
 ```javascript
 const char = substring[right]; 
@@ -97,40 +85,74 @@ WHEN LOOPing Ask YourSelf IF YOU need to Mess with index 
 ```
 
 
-Arrays are a special type of object.
+## Multidimensional Arrays
+- JavaScript doesn't natively provide multidimensional arrays.
+- They can be created by defining an array of elements, where each element is itself another array.
 
+## Efficiency Tips
+- Consider using hash tables for tracking visited elements in matrix-related questions, similar to memoization.
 
-Use arrays for pushing(), poping(), and lookingup() data because it is O(1) most of the time and it is ordered  
-  
-dont use arrays for inserting() or deleting() because it is O(n)  
-  
-also depending on the language the array can be a static meaning fixed size  
-so you will need to override it and make it dynamic which makes it O(n) or more  
-  
-is a linear data structures data that can be accessed sequentially  
-  
-  
-Array size is usually hardcoded so it doesn't dynamically increase or decrease in size so in order to resize you have to copy to new memory with a different array size which is inefficient in terms of steps  
-  
-An array is a chunk of memory
-  
-Inserting into an array is big o of n  
-  
-Are very fast because of indexing especially when doing binary search and sorting  
-  
-JavaScript does not provide the multidimensional array natively. However, you can create a multidimensional array by defining an array of elements, where each element is also another array. For this reason, we can say that a JavaScript multidimensional array is an array of arrays.
+## Specialized Scenarios
+- Fixed-length arrays may be encountered, especially in scenarios like merging intervals.
 
+## Additional Techniques
+- Use the spread operator for manipulating strings and storing the result in an array for array destructuring.
+- You can shrink an array by reassigning its length to a smaller value.
 
+```javascript
+var array = [1, 2, 3, 4, 5, 6]; // length of 6 
+array.length = 3 // array now [1,2,3] 
+```
+## Special Handling with Optional Chaining
+- Optional chaining and null coalescing operators can handle cases where arrays may not exist or their length is unknown.
 
-## Better way to check if array exist and its length 
+In JavaScript, the optional chaining (`?.`) and nullish coalescing (`??`) operators are used to handle cases where properties or values might be `null` or `undefined`. Here's an example that demonstrates the usage of both operators:
 
-Optional chaining and ternary 
+```javascript
+// Example object with nested properties
+const user = {
+  name: 'John',
+  address: {
+    street: '123 Main St',
+    city: 'Cityville',
+    // No state property
+  },
+  preferences: {
+    language: 'en',
+    // No timeZone property
+  },
+};
 
-The optional chaining operator (?.) enables you to read the value of a property located deep within a chain of connected objects without having to check that each reference in the chain is valid. 
+// Using optional chaining and null coalescing operators
 
-The ?. operator is like the . chaining operator, except that instead of causing an error if a reference is nullish (null or undefined), the expression short-circuits with a return value of undefined. When used with function calls, it returns undefined if the given function does not exist. 
+// Access a deeply nested property and provide a default value
+const state = user.address?.state ?? 'Unknown';
+console.log(`State: ${state}`); // Output: State: Unknown (because address.state is not defined)
 
-This results in shorter and simpler expressions when accessing chained properties when the possibility exists that a reference may be missing. It can also be helpful while exploring the content of an object when there's no known guarantee as to which properties are required. 
+// Access a nested property that doesn't exist and provide a default value
+const timeZone = user.preferences?.timeZone ?? 'GMT';
+console.log(`Time Zone: ${timeZone}`); // Output: Time Zone: GMT (because preferences.timeZone is not defined)
+
+// Accessing a defined property
+const language = user.preferences?.language ?? 'Unknown';
+console.log(`Language: ${language}`); // Output: Language: en (because preferences.language is defined)
+
+// Accessing a property with null value
+const nullProperty = user.preferences?.nullProperty ?? 'Default';
+console.log(`Null Property: ${nullProperty}`); // Output: Null Property: Default (because preferences.nullProperty is null)
+```
+
+In this example:
+
+- We use optional chaining to access nested properties in the `user` object without worrying about potential `null` or `undefined` values.
+
+- The null coalescing operator (`??`) is used to provide default values when a property doesn't exist or is `null`.
+
+- When accessing non-existent properties like `address.state` and `preferences.timeZone`, the default values are used.
+
+- When accessing a defined property like `preferences.language`, its value is used.
+
+- When accessing a property with a `null` value like `preferences.nullProperty`, the default value is used.
 
 Optional chaining cannot be used on a non-declared root object, but can be used with an undefined root object. 
 
@@ -161,86 +183,3 @@ Array.isArray(myArrayTwo) && myArrayTwo[0]?.id ? true : false 
 
 Array.isArray(myArrayTwo) && myArrayTwo[0]?.name ? true : false
 ```
-
-
-
-
-Array 
-
-boundary is -1 and 1 after array length 
-
-Do we have to increment the entire length of the array  
-
-If dealing with a nested array and you don't have to visit all of the indexes you can just use one loop as opposed to nested for loop 
-
-min/ max 
-
-  // if sorted Split Array in into left-Low and Right-High after finding middle index  binary search 
-
-
-```javascript
-const length = array.length; 
-
-const middle = Math.floor(length / 2) 
-
-you can create a array of left and right based on middle  
-
-//if array length is odd  
-
-//  left-Low has one more value then Right-High  
-
-const left = array.slice(0, middle)  
-
-const right = array.slice(middle) 
-
-// Right-High has one more value then left-Low  
-
-const left = array.slice(0, 1 + middle ) 
-
-const right = array.slice(middle + 1) 
-
-or  
-
-check if  mid < target val 
-
-and reassign hi to be one less then mid  index (mid - 1) 
-
-else lo equal mid index 
-
-         [-1,0,3,5,9,12], 9) 
-
-search (nums, target)  
-
-       lo = 0, 
-
-       hi = nums.length-1; 
-
-  while (lo < hi)  
-
-      let mid = lo + Math.floor((hi - lo + 1) / 2);  
-
-      if target < nums[mid] 
-
-          hi = mid - 1 // index 
-
-       else  
-
-          lo = mid; // index 
-
-      return nums[lo]==target?lo:-1; 
-
-map(key, value) > Set(rm duplicates) > stack Push, pop at end/top 
-
-queue(rm stuff at beginning ) queue.shift 
-
-enqueue(add stuff at beginning ) queue.unshift 
-
-array convert to string or 2d array
-```
-
-# High level example of Array/Matrix 
-
--1         +1  
-<mark style="background: #FF5582A6;">-1</mark> <mark style="background: #FFF3A3A6;">0 1 2 3</mark> <mark style="background: #FFB86CA6;">4</mark> 
-<mark style="background: #FF5582A6;">ob</mark> 1 2 3 4 <mark style="background: #FFB86CA6;">un</mark> 
-![[Pasted image 20231029104453.png]]

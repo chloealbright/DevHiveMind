@@ -7,9 +7,6 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (26).gif]]
-
-
 **Set Data Structure and its Functions**
 
 The set data structure is designed to store values without any specific order and with no repeated values. In addition to basic operations like adding and removing elements, there are several important set functions that work with two sets simultaneously.

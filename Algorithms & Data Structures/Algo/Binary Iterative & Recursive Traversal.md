@@ -102,39 +102,41 @@ for(let row = 0; row < array.length; row++){  
 }  
 
 
-    
+ function recursiveMatrixTraversal(matrix: number[][], row: number, col: number, action: (value: number) => void) {
+  // Check if the row and column are within valid bounds
+  if (
+    row < 0 ||
+    col < 0 ||
+    row >= matrix.length ||
+    col >= matrix[0].length
+  ) {
+    return;
+  }
 
-// SLIGHT FIX NEEDED  
-function matrixRecursion(arr, currRow = 0, currCol = 0) {  
+  // Perform the action on the current cell
+  action(matrix[row][col]);
 
-let columnBoundary = currCol === arr.length +1;  
+  // Recursively traverse in all four directions: up, down, left, right
+  recursiveMatrixTraversal(matrix, row - 1, col, action); // Up
+  recursiveMatrixTraversal(matrix, row + 1, col, action); // Down
+  recursiveMatrixTraversal(matrix, row, col - 1, action); // Left
+  recursiveMatrixTraversal(matrix, row, col + 1, action); // Right
+}
 
-if (columnBoundary) return 0;  
-let rowBound = currRow >=  arr.length;  
- 
-if (rowBound) return 1;  
+// Example usage:
+const matrix: number[][] = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
 
-//rm undefined since column check shows undefined  
+// Define an action to perform on each cell (e.g., printing the value)
+function printValue(value: number) {
+  console.log(`Visited cell with value: ${value}`);
+}
 
-if(arr[currRow][currCol] !== undefined){  
-
-   console.log(arr[currRow][currCol]);  
-
-}  
-
-   
-// Recursive call to traverse the matrix  
-
-// in the Horizontal direction  
-
-if (matrixRecursion(arr, currRow, currCol + 1) === 1) return 1;  
-
-return matrixRecursion(arr, currRow + 1, 0);  
-
-}  
-
-
-traverseMatrix(arr) // weird behavior with let arr = [ [ 1, 2, 3 ] ]; prints up to 2  
+// Start traversal from a specific cell (e.g., top-left corner)
+recursiveMatrixTraversal(matrix, 0, 0, printValue);
 
 ```
 

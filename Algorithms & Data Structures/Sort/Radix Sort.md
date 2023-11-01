@@ -2,6 +2,8 @@
 tags:
   - sortAlgo
   - non-ComparisonSort
+  - not-linear-by-Nature
+  - not-binary-by-Nature
 author:
   - jacgit18
 Status: init

@@ -1,6 +1,8 @@
 ---
 tags:
   - sortAlgo
+  - binary
+  - comparisonSort
 author:
   - jacgit18
 Status: init

@@ -1,6 +1,9 @@
 ---
 tags:
   - sortAlgo
+  - comparisonSort
+  - not-linear-by-Nature
+  - not-binary-by-Nature
 author:
   - jacgit18
 Status: init
@@ -17,7 +20,7 @@ The heapsort algorithm utilizes the heap data structure. Here's a refined summar
 
 2. **Exchanging Maximum Element**: The maximum element is at the root (A[1]). Move it to its final position by exchanging it with A[n].
 
-3. **Restoring Max-Heap Property**: Discard node n from the heap (decrement A.heap-size). The children of the root remain max-heaps, but the new root might not. To restore the max-heap property, use the "MAX-HEAPIFY" function on A[1..n-1].
+3. **Restoring Max-Heap Property**: Discard node n from nothe heap (decrement A.heap-size). The children of the root remain max-heaps, but the new root might not. To restore the max-heap property, use the "MAX-HEAPIFY" function on A[1..n-1].
 
 4. **Repeat**: Repeat the process for max-heaps of decreasing size from n-1 down to a heap of size 2.
 

@@ -4,114 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "09034ad2380608d6",
+        "id": "552e8dc7bdf35c34",
         "type": "tabs",
         "children": [
           {
-            "id": "c6338ac4938b2377",
+            "id": "84f944cdea3ac1e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Structure/Tree MaxHeight & MinHeight POST ORDER.md",
+                "file": "Algorithms & Data Structures/Sort/Bucket Sort.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b91cdce4d8d3a1e1",
+            "id": "36cb214021d0e054",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Key Base Attributes of Algo patterns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d6d18ef43711689d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Stacks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05c1d19a1e160d6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/edit.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8b01e86a50b5ba71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Queues.md",
+                "file": "Algorithms & Data Structures/Sort/Radix Sort.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "9fb9dcbe5db2980d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b5205eb71c29b96f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Algo/Binary Iterative & Recursive Traversal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d25053dc0932db1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Algo/Key Base Attributes of Algo patterns 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "12660eba41abe18f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/edit 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Stacks.md",
+                "file": "Algorithms & Data Structures/Sort/Bucket Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Stacks.md",
+                "file": "Algorithms & Data Structures/Sort/Bucket Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Stacks.md"
+                "file": "Algorithms & Data Structures/Sort/Bucket Sort.md"
               }
             }
           },
@@ -327,34 +247,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d6d18ef43711689d",
+  "active": "84f944cdea3ac1e2",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Algo/Depth First Search & Breadth-First Search.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Queues.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Stacks.md",
-    "Algorithms & Data Structures/Linear  Data Structures/_Stacks & Queues implementation.md",
-    "Algorithms & Data Structures/Linear  Data Structures/_Stack vs Queue.md",
-    "Algorithms & Data Structures/Algo/Key Base Attributes of Algo patterns 1.md",
-    "Language Overlap/Back Pressure.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/edit.md",
+    "Algorithms & Data Structures/Sort/Counting Sort.md",
+    "Algorithms & Data Structures/Sort/Heap Sort.md",
+    "Algorithms & Data Structures/Sort/Insertion sort.md",
     "Algorithms & Data Structures/Sort/Radix Sort.md",
+    "Algorithms & Data Structures/All Sorts of Sorts.md",
+    "Algorithms & Data Structures/Sort/_Sort Implementation Focus.md",
     "Algorithms & Data Structures/Sort/Selection sort.md",
     "Algorithms & Data Structures/Sort/Quick Sort.md",
     "Algorithms & Data Structures/Sort/Merge sort.md",
-    "Algorithms & Data Structures/Sort/Insertion sort.md",
-    "Algorithms & Data Structures/Sort/Heap Sort.md",
-    "Algorithms & Data Structures/Sort/Counting Sort.md",
     "Algorithms & Data Structures/Sort/Bucket Sort.md",
     "Algorithms & Data Structures/Sort/Bubble sort.md",
-    "Algorithms & Data Structures/Sort/_Sort Implementation Focus.md",
-    "Algorithms & Data Structures/All Sorts of Sorts.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/edit.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Queues.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Stacks.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/edit 1.md",
+    "Algorithms & Data Structures/Algo/Key Base Attributes of Algo patterns 1.md",
+    "Algorithms & Data Structures/Algo/Depth First Search & Breadth-First Search.md",
+    "Algorithms & Data Structures/Linear  Data Structures/_Stacks & Queues implementation.md",
+    "Algorithms & Data Structures/Linear  Data Structures/_Stack vs Queue.md",
+    "Language Overlap/Back Pressure.md",
     "Algorithms & Data Structures/Big O.md",
     "Home.md",
     "_CODE/_Organize/Glossary.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/heap.md",
     "Language Overlap/Concurrent programming.md",
     "Language Overlap/Code Execution Order of Operation.md",
-    "Algorithms & Data Structures/Attributes of Data.md",
     "_Images/quicksort.png",
     "_Images/mergeSort.png",
     "_Images/Algo/unnamed (23).gif",

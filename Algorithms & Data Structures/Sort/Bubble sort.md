@@ -3,6 +3,8 @@ tags:
   - "#WontReallyUse"
   - sortAlgo
   - inPlaceSort
+  - linear
+  - comparisonSort
 author:
   - jacgit18
 Status: done

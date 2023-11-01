@@ -72,7 +72,52 @@ Heaps are used when the highest or lowest order/priority element needs to be rem
 	5) delete(): Deleting a key also takes O(Logn) time. We replace the key to be deleted with minum infinite by calling decreaseKey(). After decreaseKey(), the minus infinite value must reach root, so we call extractMin() to remove the key.
 
 
-```javascript
+
+
+
+
+
+
+Binary Heaps 
+
+Binary heaps are data structures that are similar to trees but have different rules. 
+
+Each node in a binary heap has at most two children, but sibling order does not matter. 
+
+Heaps are as compact as possible, meaning new elements are added first from top to bottom then from left to right. 
+
+Binary heaps can have one of two formats: a Max Binary Heap or a Min Binary Heap. 
+
+All of the child nodes in a Max Binary Heap are smaller than their parent 
+
+All of the child nodes in a Min Binary Heap are greater than their parent 
+
+Implementation 
+
+We can use a class to implement adding and removing from the heap, but we need a way to store the values in order. What kind of data structures do we know in JavaScript that have a specific order? Arrays do! Let’s take a look at the model below: 
+
+There’s a pattern that children and parent nodes follow in our heap array. Where any index of an array is n, 
+
+The index of the left child is 2n + 1 
+
+The index of the right child is 2n + 2 
+
+In order to derive the index of the parent of a child we use (n-1)/2 rounded down. Using this information, we can develop our insertion and removal methods. We’ll start with a Max Binary Heap. 
+
+When inserting and removing in a binary heap, we use a method called bubbling to sort the heap. The insertion method uses two helper functions: swap and bubbleUp. The swap function swaps the elements in our values array at the two indices passed in. Once we push the new value into the array, our bubbleUp function compares the parent of the newly added element, and swaps it if the child is greater than the parent. We reassign our current index to the element’s new index if swapped, and keeps testing parents in a loop until the element fits, or we reach the root of the heap. 
+
+Our method for removal ( called removeMax above) also uses bubbling, but it’s a bit more complicated. We’ll first swap the the first and last element in our values array so that we can pop the max element off of the array and return it. Before we return it, we need to make sure our heap is properly sorted. 
+
+Our bubbleDown method then loops over the heap, checking the children nodes against our new root (the former last element in our array that we swapped). In order to bubble down properly, we first check the left child, and then the right child. If the parent is lesser than only one of the two children, we swap it with that child. However, if the parent is lesser than both of the children, we swap it with the greater value. We also need to ensure that both children exist. This is why we don’t swap until we’ve checked both the left and right child. 
+
+Priority Queues 
+
+Our priority queue isn’t that different from our Max Binary Heap, we’ll just need to change a few things. The biggest change is that our values are no longer numbers but Nodes. Each node has a value and a priority, and we need to change our implementation to consider a node’s priority instead of it’s value. I changed the method names to enqueue and dequeue instead of insert and removeMax . Finally, lower priority numbers usually signify higher priority, so we’ll need to change our Max Binary Heap to a Min Binary Heap. We’ll convert all the > signs to < where we are comparing priorities. 
+
+https://stackoverflow.com/questions/48795979/what-is-the-difference-between-a-priority-queue-and-a-min-max-heap 
+
+https://www.educba.com/priority-queue-vs-heap/
+
 
 
 MIN HEAP 
@@ -119,4 +164,3 @@ current = Math.ceil(current/2) 
         } 
 
 The remove min & max logic is the same since we are removing base off how we created the Heap in the first place
-```

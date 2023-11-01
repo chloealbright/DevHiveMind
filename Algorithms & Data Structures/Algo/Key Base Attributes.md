@@ -1,5 +1,20 @@
 
 
+LINKED_LIST -> TREE -> GRAPH 
+
+Iterate more using while loop and recursion 
+
+Linked list uses node but with head that rep whole list value and next 
+
+Circular Linked list / Circular Doubly Linked list 
+
+Double linked list bidirectional and has tail  
+
+the head and tail of linked list are null think of it like null boundaries  
+
+tree use node class with left and right and value 
+
+graph built with vertex class with id and edges
 
 
 ### Cyclic Sort(you can be looking for missing, duplicate, greater or less then/ or looking for a specific value that is missing) 

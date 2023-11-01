@@ -1,4 +1,7 @@
 When designing microservices, it's generally considered a best practice to minimize dependencies between services, promoting independence and autonomy. However, the level of inter-service communication is a nuanced decision based on your specific use case and requirements. Here are some considerations:  
+
+
+![[1698557200430.jpeg]]
   
 ### Minimizing Dependencies:  
   

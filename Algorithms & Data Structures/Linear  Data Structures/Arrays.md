@@ -7,7 +7,6 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (25).gif]]
 
 
 An array is a linear data structures data that can be accessed sequentially & can be considered a special object that is a chunk of memory 

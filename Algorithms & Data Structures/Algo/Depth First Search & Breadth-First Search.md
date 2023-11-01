@@ -39,7 +39,8 @@ The choice of data structures for these algorithms is crucial:
 - Use `dequeue()` to remove elements from the front of the queue. You can build these functions as needed for a linked list-based queue vs the array implementation uses `pop()`
 
 
-**For DFS (Stack):**
+**For DFS (Stack with array is simpler):**
+> *If you use linked list implemented stack it,s good to use if you anticipate a lot of adding and removing of elements
 - Use `pop()` (removes the last element) - Standard for stacks.
 - Use `push()` - Typical for stacks.
 

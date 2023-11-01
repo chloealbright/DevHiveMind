@@ -1,6 +1,8 @@
 ---
-tags: 
-author: jacgit18
+tags:
+  - non-linear
+author:
+  - jacgit18
 Status: 
 Started: 
 EditDate: 

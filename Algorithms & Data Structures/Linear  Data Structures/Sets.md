@@ -9,49 +9,51 @@ Relates:
 ---
 ![[unnamed (26).gif]]
 
-The set data structure stores values without any particular order and with no repeated values. Besides being able to add and remove elements to a set, there are a few other important set functions that work with two sets at once. 
 
-Sets are a new object type with ES6 (ES2015) that allows the creation of collections with unique values. The values in a set can be either simple primitives like strings or integers as well as more complex object types like object literals or arrays. It also doesn't contain an index 
+**Set Data Structure and its Functions**
+
+The set data structure is designed to store values without any specific order and with no repeated values. In addition to basic operations like adding and removing elements, there are several important set functions that work with two sets simultaneously.
+
+Sets, introduced as a new object type in ES6 (ES2015), enable the creation of collections with unique values. The values in a set can range from simple primitives like strings and integers to more complex object types, such as object literals or arrays. Notably, sets do not rely on indices.
 
 ```Java
-HashSet<String> cars = new HashSet<String>(); 
-
-Set<Integer> set = new HashSet<Integer>(); 
+HashSet<String> cars = new HashSet<String>();
+Set<Integer> set = new HashSet<Integer>();
 ```
 
-A Set represents a generic "set of values". A TreeSet is a set where the elements are sorted (and thus ordered), a HashSet is a set where the elements are not sorted or ordered. 
+A Set represents a generic "set of values." There are different types of sets, such as TreeSet and HashSet, with distinct characteristics. A TreeSet maintains sorted and ordered elements, while a HashSet does not impose any particular order. HashSet is typically faster than TreeSet.
 
-A HashSet is typically a lot faster than a TreeSet. 
+A TreeSet is typically implemented as a red-black tree, resulting in an access time of O(log(n)). In contrast, a HashSet utilizes Object.hashCode() to create an index in an array, with access times ranging from constant-time to the worst-case scenario, where every item has the same hashCode, leading to linear search time (O(n)).
 
-A TreeSet is typically implemented as a red-black tree , whereas a HashSet uses Object.hashCode() to create an index in an array. Access time for a red-black tree is O(log(n)) whereas access time for a HashSet ranges from constant-time to the worst case (every item has the same hashCode) where you can have a linear search time O(n). 
 ```Java
-TreeSet ts = new TreeSet();  
+TreeSet ts = new TreeSet();
 ```
 
-[https://www.geeksforgeeks.org/treeset-in-java-with-examples/](https://www.geeksforgeeks.org/treeset-in-java-with-examples/) 
+Learn more about TreeSet in Java: [TreeSet in Java with Examples](https://www.geeksforgeeks.org/treeset-in-java-with-examples/)
 
-**Union** — This combines all the items from two different sets and returns this as a new set (with no duplicates). 
+**Set Operations**
 
-**Intersection** — Given two sets, this function returns another set that has all items that are part of both sets. 
+- **Union**: Combines items from two sets, creating a new set with no duplicates.
 
-**Difference **— This returns a list of items that are in one set but NOT in a different set. 
+- **Intersection**: Returns a set containing items present in both input sets.
 
-**Subset**— This returns a boolean value that shows if all the elements in one set are included in a different set. 
+- **Difference**: Provides a list of items in one set but not in another.
 
-**SET** used for parsing duplicates can pass arrays, string, and maybe objects for other data structures 
+- **Subset**: Indicates whether all elements of one set are included in another.
 
-# Pros 
+Sets are commonly used for eliminating duplicates and can accommodate arrays, strings, and potentially objects for other data structures.
 
-    Checking membership; value existence. 
+## Pros
 
-     Avoids duplicates and you can also store things in a set instead of adding elements one by one into a set 
+- Efficient for checking membership and value existence.
 
-The complexity of checking if a value contained in the set depends on the underlying data structure used to implemented the set. 
+- Prevents duplicates and offers a more efficient way to store elements in a set compared to adding them individually.
 
-In C++, It uses a binary search tree (probably a red black tree; a type of self balancing binary search tree). So, the complexity would be O(LogN), and O(N) if the tree is unbalanced. 
+- The complexity of checking if a value is contained in the set depends on the underlying data structure. For instance, in C++, a binary search tree is used, resulting in O(log(N)) time complexity.
 
-In Java, HashSet class implements the Set Interface using the hash table data structure. So, the complexity would be same as the hash tables(see above). 
+## Cons
 
-# Cons 
+Sets have intentional limitations and are not suitable for a wide range of use cases.
 
-Sets are intentionally limited. There isn’t much you can do with them. So,  there are terrible at almost everything else.
+
+

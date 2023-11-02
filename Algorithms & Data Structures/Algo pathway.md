@@ -4,11 +4,12 @@ tags:
   - CodebaseDecision
   - CodingProblem
   - potentialMerge
-author: jacgit18
+author:
+  - jacgit18
 Status: 
 Started: 
 EditDate: 
-Relates:
+Relates: "[[Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion]]"
 ---
 ![[unnamed (11).gif]]
 ## Problem Identification

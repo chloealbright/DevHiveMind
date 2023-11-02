@@ -14,7 +14,7 @@ Relates:
 
 Linear search involves going through each element of an array or data structure one by one, starting from the beginning. This method checks each element sequentially to `find the desired value`.
 
-In essence, linear search is a specific application of [[]] linear iteration where the goal is to find a particular value. However, linear iteration can involve various types of processing, not just searching. Linear search is a common use case for linear iteration, but it's not the only use case.
+In essence, linear search is a specific application of [[Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion| linear iteration ]]  where the goal is to find a particular value. However, linear iteration can involve various types of processing, not just searching. Linear search is a common use case for linear iteration, but it's not the only use case.
 
 **Use Cases:**
 - Linear search can be applied to any linear data structure, such as an array or a linked list, and is not limited by data order.
@@ -64,6 +64,7 @@ var search = function (nums, target) {
 
 **Use Cases:**
 - Binary search is ideal when dealing with sorted data, as it efficiently narrows down the search space.
+- Binary search is limited as it can be implemented only on those data structures that have two-way traversal. 
 
 **Differences:**
 - Binary search is based on the "divide and conquer" approach, where it repeatedly divides the search space in half.

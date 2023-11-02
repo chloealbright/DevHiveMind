@@ -4,33 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "34f61871516534b3",
+        "id": "25210566f63088a6",
         "type": "tabs",
         "children": [
           {
-            "id": "65b8e60a33814977",
+            "id": "a73d1791ec539854",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Binary Iterative & Recursive Traversal.md",
+                "file": "Algorithms & Data Structures/Algo/Key Base Attributes of Algo patterns.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "1a383760f4b1c5df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
+          }
+        ]
+      },
+      {
+        "id": "424289a031e5f6e7",
+        "type": "tabs",
+        "children": [
           {
             "id": "a72cdc8bccc39ffc",
             "type": "leaf",
@@ -44,31 +38,24 @@
             }
           },
           {
-            "id": "a73d1791ec539854",
+            "id": "2d6901075ed3d915",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Key Base Attributes of Algo patterns.md",
+                "file": "Algorithms & Data Structures/Algo/Depth First Search & Breadth-First Search.md",
                 "mode": "source",
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "69ba9def353957ab",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "6526abc975bc403f",
+            "id": "cfa648193166fb19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Linear Iterative & Recursive Traversal.md",
+                "file": "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:potentialMerge",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -140,8 +127,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5,
-    "collapsed": true
+    "width": 319.5
   },
   "right": {
     "id": "eef3a19b1c6d3fd3",
@@ -157,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Linear Iterative & Recursive Traversal.md",
+                "file": "Algorithms & Data Structures/Algo/Key Base Attributes of Algo patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Linear Iterative & Recursive Traversal.md",
+                "file": "Algorithms & Data Structures/Algo/Key Base Attributes of Algo patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Linear Iterative & Recursive Traversal.md"
+                "file": "Algorithms & Data Structures/Algo/Key Base Attributes of Algo patterns.md"
               }
             }
           },
@@ -278,7 +264,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 496.5
+    "width": 496.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -308,12 +295,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6526abc975bc403f",
+  "active": "a73d1791ec539854",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
-    "Algorithms & Data Structures/Algo/Linear Iterative & Recursive Traversal.md",
-    "Algorithms & Data Structures/Algo/Iterating vs Traversing.md",
+    "Algorithms & Data Structures/Algo/Key Base Attributes.md",
+    "Algorithms & Data Structures/Algo/Key Base Attributes of Algo patterns.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Structure/Binary Heap.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/heap and binary heap.md",
+    "Algorithms & Data Structures/All Sorts of Sorts.md",
+    "Algorithms & Data Structures/Attributes of Data.md",
+    "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Type Of Linked List.md",
+    "Algorithms & Data Structures/Algo/Depth First Search & Breadth-First Search.md",
+    "Algorithms & Data Structures/AlgoFlow.md",
+    "Architecture/Paradigm vs Patterns.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Stacks.md",
+    "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
     "Algorithms & Data Structures/Algo/Binary Iterative & Recursive Traversal.md",
+    "_Images/Algo/fusion.gif",
+    "Algorithms & Data Structures/Algo pathway.md",
+    "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
+    "Algorithms & Data Structures/Algo/Iterating vs Traversing.md",
     "Algorithms & Data Structures/Algo/Memoization.md",
     "Algorithms & Data Structures/Algo/Dynamic Programming.md",
     "_Images/Algo/unnamed (40).gif",
@@ -321,29 +322,17 @@
     "Algorithms & Data Structures/Algo/caching.md",
     "Algorithms & Data Structures/Algo/Algorithm Pattern vs Simple Solution.md",
     "Algorithms & Data Structures/Big O.md",
-    "Algorithms & Data Structures/Algo/Key Base Attributes of Algo patterns.md",
-    "Algorithms & Data Structures/Algo/Key Base Attributes.md",
     "Algorithms & Data Structures/Algo/Dijkstra + Bellman-Ford shortest path.md",
-    "Algorithms & Data Structures/Algo/Depth First Search & Breadth-First Search.md",
     "Algorithms & Data Structures/Algo/Binary search 101.md",
     "Algorithms & Data Structures/Algo/Data struct Factory.md",
-    "Algorithms & Data Structures/Common Imperative.md",
-    "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Queues.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Stacks.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Sets.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Two Dimensional Array vs Nested Array vs Matrix.md",
     "_Images/Algo/unnamed (26).gif",
-    "Algorithms & Data Structures/Linear  Data Structures/_Stack vs Queue.md",
     "_Images/Algo/Pasted image 20230411081206.png",
-    "Algorithms & Data Structures/Linear  Data Structures/_Stack vs Queue 1.md",
     "_Images/1698557200430.jpeg",
     "_Images/Algo/unnamed (25).gif",
     "_Images/Algo/unnamed (38).gif",
     "_Images/Algo/unnamed (29).gif",
     "_Images/quicksort.png",
     "_Images/mergeSort.png",
-    "_Images/Algo/unnamed (23).gif",
     "_.smart-connections",
     "stignore",
     "stignore (1)",

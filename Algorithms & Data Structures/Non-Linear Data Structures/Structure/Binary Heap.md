@@ -73,6 +73,31 @@ Heaps are used when the highest or lowest order/priority element needs to be rem
 
 
 
+## Heaps //Data Structure Can be Implemented with array or linked list  
+
+Insert 
+
+```javascript
+Push initial node  
+
+On second push check if heap array length greater than 1 Create/Store heap length -1 in current 
+
+Then iterate through current while greater than 1 and heap at index value of floor( of current / 2) greater then heap at current index  
+
+if both true swap current node and heap at index value of floor( of current / 2)  
+
+then update current to the floor( of current / 2) 
+
+Then check loop condition again and repeat 
+```
+
+Remove 
+
+```javascript
+Object pointer reassignment(i.e Node Pointers) 
+```
+
+
 
 
 
@@ -120,6 +145,7 @@ https://www.educba.com/priority-queue-vs-heap/
 
 
 
+
 MIN HEAP 
 this.heap.push(node) 
 
@@ -164,3 +190,4 @@ current = Math.ceil(current/2) 
         } 
 
 The remove min & max logic is the same since we are removing base off how we created the Heap in the first place
+

@@ -1,70 +1,6 @@
 
 
-LINKED_LIST -> TREE -> GRAPH 
 
-Iterate more using while loop and recursion 
-
-Linked list uses node but with head that rep whole list value and next 
-
-Circular Linked list / Circular Doubly Linked list 
-
-Double linked list bidirectional and has tail  
-
-the head and tail of linked list are null think of it like null boundaries  
-
-tree use node class with left and right and value 
-
-graph built with vertex class with id and edges
-
-
-### Cyclic Sort(you can be looking for missing, duplicate, greater or less then/ or looking for a specific value that is missing) 
-
-while (index < ArrayLength) 
-
-currentSubarray = nums[index] 
-
-decrementedSubarray = currentSubarray -1; 
-
-Swap condition which can vary where your checking if  
-
-currentSubarray !== the value of subarray at the index of that initial max range                                                          
-
-currentSubarray !== the value of subarray -1 at the index of that initial max range                                                          
-
-Swap   [ nums[index], nums[decrementedSubarray]]   =    [nums[decrementedSubarray], nums[index]] 
-
-Else Increment Index to ch 
-
-### Merge Intervals 
-
-Take in one matrix or maybe params that can range like another matrix or value to compare  
-
-The matrix is typically pairs of two and might be unsorted or sorted so you might want to sort intervals if not sorted already or sort by rows 
-
-Possible comparison between two matrix were you want to find the min of a pair and compare to min of other pair or other pairs max to create a new range to add to a new matrix 
-
-might be given a matrix with overlapping intervals, and return an array of the non-overlapping basically merging intervals so find min start and max end to push into empty array  
-
-Create/Store multiple indexes if more than one matrix  
-
-Create/Store you can store matrix row currRow = array[row] then access row col by curr[col] which is equivalent to array[row][col] and can reassign values at indexes with other and slice rows      array.splice(index, 2(num of elements to delete), currRow); 
-
-Iterate/Read checking/looping index value is less then matrix length if matrix one matrix length varies shortest one ends loop 
-
-Create/Store and assign each element in the array row to individual variable with array destruct                                                             
-ex: let [eleStart, eleEnd] = matrixOne[index] there might two matrix you do this with so you will have to pairs with a start and end  
-
-check and compare starts to each other or ends or ends to each other ex:        
-
-```javascript
- firstIntStart >= secondIntStart && firstIntStart <= secondIntEnd                
-                         // or                                                         
- secondIntStart >= firstIntStart && secondIntStart <= firstIntEnd 
-```
-
-Update empty array and push the max between pairs and min between pairs typically max between each start and min of the ends but this can vary 
-
-Then some incrementing conditional logic like maybe checking if the first end is less then second end incrementing first matrix index 
 
 ### Subsets/Backtracking 
 you can potentially apply binary search or start at certain part of matrix depending on what is being asked to do also can be a function that takes in matrix and contains a nested function that takes in initially row and col values 
@@ -115,6 +51,11 @@ Mark coordinate as unvisited   matrix[curCol][currRow] = 0; 
  return sumPaths; 
 ```
 
+
+
+
+
+
 ### Modified Binary Search //need explore inner workings more but understand basic just more practice  
 
 Create/Store Low value with value of 0 and High with value of array.length -1  
@@ -146,32 +87,6 @@ and High with value of array.slice (middle + 1)  
 Do some type of check when you want to UPDATE High 
 
 Do some type of check when you want to UPDATE LOW 
-
-
-
-## Heaps //Data Structure Can be Implemented with array or linked list  
-
-Insert 
-
-```javascript
-Push initial node  
-
-On second push check if heap array length greater than 1 Create/Store heap length -1 in current 
-
-Then iterate through current while greater than 1 and heap at index value of floor( of current / 2) greater then heap at current index  
-
-if both true swap current node and heap at index value of floor( of current / 2)  
-
-then update current to the floor( of current / 2) 
-
-Then check loop condition again and repeat 
-```
-
-Remove 
-
-```javascript
-Object pointer reassignment(i.e Node Pointers) 
-```
 
 
 

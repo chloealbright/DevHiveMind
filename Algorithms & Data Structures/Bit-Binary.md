@@ -6,197 +6,124 @@ Started:
 EditDate: 
 Relates:
 ---
-Calculate 
+Here's a refined version of the note with improved formatting and explanations:
 
-let mid = (lo + hi) >>> 1 // the best, but hard to understand. Any explanations? 
+---
 
-"x >> 1" is equivalent of "x // 2" which is "floor division". It's very fast because it just shifts the integer by one bit to the right. 
+**Bitwise Operators**
 
-Example: 
+Bitwise operators work on binary representations of numbers, treating them as sequences of zeros and ones. They perform operations at the binary level but return standard numerical values in JavaScript. The main bitwise operators in JavaScript include:
 
-"8" in binary is: 
+- `&` (AND)
+- `|` (OR)
+- `^` (XOR)
+- `~` (NOT)
+- `<<` (Left SHIFT)
+- `>>` (Right SHIFT)
+- `>>>` (Zero-Fill Right SHIFT)
 
-1000 
+**BigInt Operators**
 
-If I shift it to the right by one bit, it becomes "4" (8 // 2 == 4): 
+Most operators that work with the `Number` data type can also be used with `BigInt` values, including arithmetic and comparison operators. However, the unsigned right shift operator `>>>` is not supported for `BigInt`. Some operators may have slight differences in behavior, such as division with `BigInt`, which rounds towards zero.
 
-0100 
 
-You can see that the number got "floor divided".
+**Binary Conversion (Base 2)**
 
+To convert a decimal number (e.g., 13) to binary (base 2), follow these steps:
 
+1. Start by focusing on powers of 2: 2^0, 2^1, 2^2, and so on. 
 
+2. Let's take the example of converting 13 to binary. Begin with the highest power of 2, which doesn't exceed the number. In this case, 2^3 (8) is the highest power, so we start there.
 
+3. Move to the next lower power of 2, which is 2^2 (4), and continue until you reach 2^0 (1).
 
-Bitwise operators 
+4. For each power of 2, check if it can fit into the remaining number. If it can, mark it with a "1"; otherwise, mark it with a "0."
 
-Bitwise operators treat arguments as 32-bits (zeros & ones) and work on the level of their binary representation. Ex. Decimal number 9 has a binary representation of <mark style="background: #FFF3A3A6;">1001.</mark> Bitwise operators perform their operations on such binary representations, but they return standard JavaScript numerical values. 
+   - 2^3 (8) goes into 13, leaving a remainder of 5. So, the binary digit is "1."
+   - 2^2 (4) goes into 5, leaving a remainder of 1. Another "1."
+   - 2^1 (2) doesn't go into 1, so it's marked as "0."
+   - 2^0 (1) goes into 1, leaving no remainder. Mark it as "1."
 
-Bitwise operators in JavaScript are as follows: 
+5. Combining these binary digits, we get "1101."
 
--   & (AND) 
-    
--   | (OR) 
-    
--   ^ (XOR) 
-    
--   ~ (NOT) 
-    
--   << (Left SHIFT) 
-    
--   >> (Right SHIFT) 
-    
--   >>> (Zero-Fill Right SHIFT) 
+This binary representation corresponds to the decimal number 13. The process involves determining which powers of 2 fit into the number and recording the remainders as binary digits.
 
+The sum of these powers (8 + 4 + 1) is 13, which is consistent with the original decimal value.
 
-BigInt Operators 
+Understanding this process is essential for working with binary representation.
 
-Most operators that can be used with the <mark style="background: #FFF3A3A6;">Number</mark> data type will also work with <mark style="background: #FFF3A3A6;">BigInt</mark> values (e.g. arithmetic, comparison, etc.). However, the unsigned right shift <mark style="background: #FFF3A3A6;">>>></mark> operator is an exception and is not supported. Similarly, some operators may have slight differences in behaviour (for example, division with <mark style="background: #FFF3A3A6;">BigInt</mark> will round towards zero).
 
+https://algodaily.com/lessons/bitwise-operators-and-bit-manipulation-for-interviews  
 
+https://www.purplemath.com/modules/numbbase.htm
 
-From <[https://roadmap.sh/javascript](https://roadmap.sh/javascript)>
 
 
+**Understanding Binary Addition in Base 10**
 
+Binary addition works similarly to decimal addition but operates in base 2. Here's an example to help you understand:
 
+1. We have two decimal numbers, 123 and 39, that we want to add together.
 
-base 2 focus on base 2 instead of 10 
+2. First, we need to convert these numbers into their binary representations:
 
-let say you have 13 and you want it in binary  
+   - 123 in binary is 1111011.
+   - 39 in binary is 100111.
 
-16=(2^4)  is greater than 13 so you skip 2^3 * 2 
+3. To add these binary numbers, start from the right (the least significant bit) and work towards the left (the most significant bit).
 
-now we go to the 4th index like an array so it is      
+4. Add the bits at each position:
 
-2^3 = 8 which goes in once so 8 modulo 13 leaves 5  (2^2 * 2) 
+   - 1 + 1 = 10 in binary (2 in decimal).
+   - 3 in binary is 11.
 
-2^2 = 4 which goes in once so 4 modulo 5 leaves 1 ( 2^1* 2) 
+5. When adding binary numbers, if the result is 2 or greater, carry the extra bit to the next position to the left.
 
-2^1 = 2 which goes in zero times so 2 modulo 1 leaves 1 ( 2^0 =1 * 2) 
+6. Continue adding the carried bit to the next bit:
 
-2^0 = 1 which goes in once so 1 modulo 1 leaves 0  ( 1 * 2) 
+   - 1 (from the carried bit) + 1 = 10 in binary (2 in decimal).
+   - 2 in binary is 10.
 
-so the binary is 1101 
+7. Repeat the process:
 
-8 + 4 = 12 + 2 = 14 is over 13 
+   - 1 (from the carried bit) + 0 = 1 in binary (1 in decimal).
+   - 0 in binary remains 0.
 
-8 + 4 = 12 + 2(skip) + 1 = 13 
+8. Finally, complete the addition:
 
-1         1              0                       1 
+   - 0 (from the carried bit) + 0 = 0.
 
-because   
 
- 2^3(8) goes into 13 and leaves a remainder of 5  binary is 1 
+**Comma Operators**
 
- 2^3(4) goes into 5  and leaves a remainder of 1 binary is 1 
+The comma operator `,` evaluates each of its operands from left to right and returns the value of the last operand. It's useful for creating compound expressions where multiple expressions are evaluated, and the final value is that of the rightmost expression.
 
- 2^1(2) doesn't go into 1 because 2 cant go into 1 so binary is 0 
+Example:
+```javascript
+let x = 1;
+x = (x++, x);
+console.log(x); // Output: 2
+```
 
- 2^0(1) goes into 1 since 1 goes into 1  binary is 1 
+**Arguments Object**
 
-[https://algodaily.com/lessons/bitwise-operators-and-bit-manipulation-for-interviews](https://algodaily.com/lessons/bitwise-operators-and-bit-manipulation-for-interviews)  
+The `arguments` object is an array-like object available within functions that contains the values of the arguments passed to the function. It's especially useful in non-arrow functions to access function arguments.
 
-[https://www.purplemath.com/modules/numbbase.htm](https://www.purplemath.com/modules/numbbase.htm)
+**Rest Parameters**
 
+Rest parameters allow a function to accept an indefinite number of arguments as an array. It's a way to represent variadic functions in JavaScript, simplifying the handling of multiple arguments within a function.
 
+Example:
+```javascript
+function sum(...theArgs) {
+  let total = 0;
+  for (const arg of theArgs) {
+    total += arg;
+  }
+  return total;
+}
+console.log(sum(1, 2, 3)); // Output: 6
+```
 
-
-
-base 10 this occurs behind the scenes with bit shifting  
-
-123 +39 = 162 
-
-123 binary is 1111011 
-
-39 binary is 100111 
-
-1 + 1 = 2 binary of 2 is 10 
-
-3 binary is 11 
-
-<< this carries one position to the left "&" does this xor helps with simulating the addition 
-
-1111111   
-
- 1111011 
-
-+ 100111 
-
----------------- 
-
- 1010010 (162) 
-
-the zero is from 2 which is 10 in binary the one moves to the top of the next position 
-
-that becomes 3 binary is 11 
-
-another 2 so 10 and so and so on 
-
-left shift 1010 is now 0100 
-
-one is shifted out the next zero takes a new position then the next one shift the next position and zero shift the third position then a zero is created in the last position
-
-
-
-
-Comma operators 
-
-The comma operator (,) evaluates each of its operands (from left to right) and returns the value of the last operand. This lets you create a compound expression in which multiple expressions are evaluated, with the compound expression's final value being the value of the rightmost of its member expressions. This is commonly used to provide multiple parameters to a for loop. 
-
-let x = 1; 
-
-x = (x++, x); 
-
-console.log(x); 
-
-// expected output: 2 
-
-x = (2, 3); 
-
-console.log(x); 
-
-// expected output: 3
-
-
-
-Arguments object 
-
-The arguments object is an Array-like object accessible inside functions that contains the values of the arguments passed to that function, available within all non-arrow functions. You can refer to a function's arguments inside that function by using its arguments object. It has entries for each argument the function was called with, with the first entry's index at 0. But, in modern code, rest parameters should be preferred.
-
-
-
-
-
-Rest parameters 
-
-The rest parameter syntax allows a function to accept an indefinite number of arguments as an array, providing a way to represent [variadic functions](https://en.wikipedia.org/wiki/Variadic_function) in JavaScript. 
-
-function sum(...theArgs) { 
-
-  let total = 0; 
-
-  for (const arg of theArgs) { 
-
-    total += arg; 
-
-  } 
-
-  return total; 
-
-} 
-
-console.log(sum(1, 2, 3)); 
-
-// expected output: 6 
-
-console.log(sum(1, 2, 3, 4)); 
-
-// expected output: 10
-
-
-
-
-
-
+Rest parameters make it easier to work with variable numbers of arguments within a function.
 

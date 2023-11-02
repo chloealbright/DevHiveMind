@@ -349,3 +349,9 @@ Bitwise XOR is a fundamental operation in binary arithmetic, offering a versatil
 Top K Elements is a versatile technique that is frequently applied in computer science and data analysis to identify and retrieve the K largest or smallest elements from a collection, allowing for efficient data processing and problem-solving.
 
 
+## Working with Strings:
+- For common string operations, consider using maps or tries.
+
+## General Optimization:
+- Hash maps are often the key to improving time complexity in various coding scenarios.
+- Hash tables and precomputed information (e.g., sorted data) are excellent for code optimization.

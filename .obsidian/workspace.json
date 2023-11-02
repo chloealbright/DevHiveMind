@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "25210566f63088a6",
+        "id": "41bafd55c4d25095",
         "type": "tabs",
         "children": [
           {
-            "id": "2d6901075ed3d915",
+            "id": "986e467c69b539fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Algo pathway.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "82fa69c1b1e8541b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/AlgoFlow.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa4e1b3fd77e9274",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/All Sorts of Sorts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fcf491af8d9e863c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Recursion/The Six Core Patterns of Recursion.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -138,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Recursion/The Six Core Patterns of Recursion.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Recursion/The Six Core Patterns of Recursion.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Recursion/The Six Core Patterns of Recursion.md"
+                "file": "Home.md"
               }
             }
           },
@@ -290,38 +253,38 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fcf491af8d9e863c",
+  "active": "986e467c69b539fd",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Recursion/Recursion Runtime.md",
-    "Algorithms & Data Structures/When to use.md",
-    "Algorithms & Data Structures/Recursion",
-    "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md",
     "Algorithms & Data Structures/Optimize & Solving Technique.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Hash Collision.md",
+    "Algorithms & Data Structures/Spacetime Complexity.md",
+    "Algorithms & Data Structures/When to use.md",
+    "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
+    "Algorithms & Data Structures/Algo/Algorithm Pattern vs Simple Solution.md",
+    "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
     "Algorithms & Data Structures/Discrete math.md",
     "Algorithms & Data Structures/DeMorgans law.md",
     "Algorithms & Data Structures/Common Imperative.md",
-    "Language Overlap/Imperative Coding.md",
     "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
     "Algorithms & Data Structures/Code question to write out.md",
-    "Algorithms & Data Structures/All Sorts of Sorts.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
-    "Algorithms & Data Structures/AlgoFlow.md",
+    "Algorithms & Data Structures/Bit-Binary.md",
+    "Algorithms & Data Structures/Bit-Binary 1.md",
+    "_CODE/Express/Algo left to over to do.md",
+    "Algorithms & Data Structures/Big O.md",
     "Algorithms & Data Structures/Algo pathway.md",
+    "Algorithms & Data Structures/AlgoFlow.md",
+    "Algorithms & Data Structures/Attributes of Data.md",
     "Algorithms & Data Structures/Algo Line of thought.md",
-    "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
-    "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
+    "Algorithms & Data Structures/Recursion/Recursion & Recursion Runtime.md",
+    "Algorithms & Data Structures/Recursion/Recursion Runtime 1.md",
     "Algorithms & Data Structures/Algo/Memoization.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Arrays.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Two Dimensional Array vs Nested Array vs Matrix.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Linked List.md",
-    "Algorithms & Data Structures/Algo/Depth First Search & Breadth-First Search.md",
+    "Algorithms & Data Structures/Recursion/The Six Core Patterns of Recursion.md",
+    "Algorithms & Data Structures/Recursion/The Six Core Patterns of Recursion 1.md",
+    "Algorithms & Data Structures/Recursion",
+    "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Hash Collision.md",
     "_Images/postOrder.gif",
     "_Images/inOrder.gif",
     "_Images/preOrder.gif",
-    "Algorithms & Data Structures/Algo/Key Base Attributes.md",
-    "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
     "_Images/Algo/fusion.gif",
     "_Images/Algo/unnamed (40).gif",
     "_Images/Algo/unnamed (26).gif",

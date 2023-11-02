@@ -72,7 +72,7 @@ Radix Sort + Counting Sort are used for integers in a restricted range
 - Choose Quick Sort when space efficiency and speed for smaller datasets are your priorities.
 - Merge Sort is preferred for linked lists and scenarios where stability is crucial.
 - Quick Sort is preferred for arrays and can be optimized to be as efficient as Merge Sort in certain cases.
-- Both these sorts are usually implement [[Recursion Runtime | Recursively]]
+- Both these sorts are usually implement [[Recursion & Recursion Runtime| Recursively]]
 
 **Sorting Method:**
 

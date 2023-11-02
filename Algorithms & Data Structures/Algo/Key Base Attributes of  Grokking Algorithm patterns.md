@@ -138,7 +138,7 @@ Reversing a linked list is a crucial technique in data structure manipulation an
   2. Find the current and decremented subarrays.
   3. Swap elements as needed. 
 ```javascript
-  [ nums[index], nums[decrementedSubarray]]   
+  [nums[index], nums[decrementedSubarray]]   
   =    
   [nums[decrementedSubarray], nums[index]] 
 ```
@@ -183,11 +183,9 @@ This technique is particularly useful when dealing with arrays containing unique
 Merging Intervals is a valuable technique for solving a wide range of problems involving overlapping or adjacent intervals, helping to simplify and manage interval data efficiently, especially when dealing with multiple matrices or comparisons between pairs of intervals.
 
 
-Certainly, here's the note on "Subsets/Backtracking" updated to follow the template for "Merge Intervals":
-
 ## Subsets/Backtracking
 
-- **Definition:** Subsets/Backtracking is a recursive algorithmic technique used to generate all unique paths in a matrix or solve problems involving exhaustive search or combinations of elements.
+- **Definition:** Subsets/Backtracking is a powerful algorithmic technique used to explore and generate unique paths, combinations, or solutions in a matrix, graph, or data structure. It is commonly applied in solving complex problems that involve exhaustive search or the generation of all possible combinations. This technique can be applied in various ways, including using binary search or starting at a particular part of the matrix based on the specific problem requirements.
 
 - **Complexity:** The time complexity of Subsets/Backtracking can vary depending on the specific problem and implementation, often ranging from O(2^N) to O(N^N).
 
@@ -206,6 +204,44 @@ Certainly, here's the note on "Subsets/Backtracking" updated to follow the templ
   2. Implement conditions for backtracking, which may include checking for out-of-bounds positions, visited nodes, or target conditions.
   3. Mark coordinates or elements as visited as you traverse them.
   4. Continue the exploration until all paths or combinations have been considered.
+#### Function Structure:
+```javascript
+function traverse(currRow, currCol) {
+    // Out of Bounds base case
+    if (currRow < 0 || currCol < 0 || currRow >= maxRowLength(matrix) || currCol >= maxColLength(matrix)) {
+        return 0;
+    }
+    
+    // Already visited base case
+    if (matrix[currCol][currRow] === 1) {
+        return 0;
+    }
+    
+    // Reached Target base case
+    if (currRow === maxRowLength - 1 && currCol === maxColLength - 1) {
+        // Mark coordinate as visited
+        matrix[currCol][currRow] = 1;
+        // Initialize sum of all paths or perform some other action
+        // ...
+        // Recursive Traversal calls
+        sumPaths += traverse(currRow + 1, currCol); // right
+        sumPaths += traverse(currRow - 1, currCol); // left
+        sumPaths += traverse(currRow, currCol + 1); // down
+        sumPaths += traverse(currRow, currCol - 1); // up
+        // Mark coordinate as unvisited
+        matrix[currCol][currRow] = 0;
+        return sumPaths;
+    }
+}
+```
+
+This structure allows you to explore different paths in a matrix or graph, checking right, left, down, and up directions. It keeps track of visited positions and backtracks as needed.
+
+#### Additional Techniques:
+- You can use closure to create a function that takes in a matrix and returns an inner function with parameters for the current row and column values.
+- You can start the traversal from different roots in the matrix depending on your problem requirements.
+- The order of traversal can vary depending on the problem and can be customized to suit your needs.
+
 
 - **Use Cases:** Subsets/Backtracking is commonly used for generating unique paths in a matrix, solving combinatorial problems, and addressing scenarios where exhaustive search is required.
 
@@ -213,38 +249,46 @@ Certainly, here's the note on "Subsets/Backtracking" updated to follow the templ
   - Subsets/Backtracking is a versatile technique used in various applications, including puzzle-solving, pathfinding, and combinatorial optimization.
   - Carefully define the conditions for backtracking to avoid unnecessary exploration and improve efficiency.
 
-Subsets/Backtracking is a powerful algorithmic technique used to explore and generate unique paths, combinations, or solutions in a matrix, graph, or data structure. It is commonly applied in solving complex problems that involve exhaustive search or the generation of all possible combinations.
-
+Subsets/Backtracking is a versatile technique with a wide range of applications, including puzzle-solving, pathfinding, and combinatorial optimization. Carefully defining the conditions for backtracking is crucial to avoid unnecessary exploration and improve efficiency.
 
 ## Modified Binary Search
 
-- **Definition:** Modified Binary Search is an algorithmic technique used to efficiently search for a target element in a sorted array or a similar data structure.
+**Definition:** Modified Binary Search is an algorithmic technique used to efficiently search for a target element in a sorted array or a similar data structure.
 
-- **Complexity:** The time complexity of Modified Binary Search is typically O(log N), making it an efficient search method for large datasets.
+**Complexity:** The time complexity of Modified Binary Search is typically O(log N), making it an efficient search method for large datasets.
 
-- **Key Elements:**
-  - A sorted array or data structure.
-  - A target element to search for.
-  - Low and high indices to define the search range.
-  - Binary search algorithm for efficient target identification.
+**Key Elements:**
+- A sorted array or data structure.
+- A target element to search for.
+- Low and high indices to define the search range.
+- Binary search algorithm for efficient target identification.
 
-- **Potential Problem Goals:**
-  - Quickly find a specific element in a sorted array or data structure.
-  - Identify the location or presence of a target value.
-  - Optimize search operations for ordered datasets.
+**Potential Problem Goals:**
+- Quickly find a specific element in a sorted array or data structure.
+- Identify the location or presence of a target value.
+- Optimize search operations for ordered datasets.
 
-- **Steps:**
-  1. Define the low and high indices to set the initial search range.
-  2. Iterate while the low index is less than the high index.
-  3. Update the low or high index as needed based on the comparison with the target element until the target is found or the search range is exhausted.
+**Steps:**
+1. Create/Store Low with a value of 0 and High with a value of `array.length - 1`.
+2. Iterate while Low < High.
+3. Create/Store mid-point with a value of either:
+   - `Low + floor((High - Low + 1) / 2)` or
+   - `Low + floor((High - Low) / 2)`.
 
-- **Use Cases:** Modified Binary Search is frequently used for searching in sorted arrays, such as finding an element in a list of names or locating a value in a sorted database.
+   In the context of merge sort, you would Create/Store mid with a value of `floor(array.length / 2)`.
+4. Update Low with the value of `array.slice` (values in the range of array start index to middle).
+5. Update High with the value of `array.slice` (with just the middle) or Create/Store Low with the value of `array.slice` (values in the range of array start index to middle + 1), so High would have 1 more value than Low, and High with the value of `array.slice` (middle + 1).
+6. Do some type of check when you want to UPDATE High.
+7. Do some type of check when you want to UPDATE LOW.
 
-- **Hints:**
-  - Modified Binary Search is a powerful technique for quickly locating specific elements in sorted data structures.
-  - Ensure the data is sorted before applying binary search for optimal results.
+**Use Cases:** Modified Binary Search is frequently used for searching in sorted arrays, such as finding an element in a list of names or locating a value in a sorted database.
+
+**Hints:**
+- Modified Binary Search is a powerful technique for quickly locating specific elements in sorted data structures.
+- Ensure the data is sorted before applying binary search for optimal results.
 
 Modified Binary Search is a valuable algorithmic technique employed in various applications to efficiently locate a target element within a sorted array or similar data structure, reducing the search time significantly.
+
 
 ## Bitwise XOR
 

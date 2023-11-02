@@ -23,7 +23,7 @@ Like looping over a <mark style="background: #FFF3A3A6;">console log is conside
 
 Another example is <mark style="background: #FFF3A3A6;">if you are iterating and the variable is increasing in size it's still constant time</mark> because the variable contains a number that's going up not if it was a string instead of a number it would be linear space O(n) 
 
-Strings, arrays, and objects take up linear space O(n) the reason arrays take up linear space it's because it's one of the [[Linear Data Structure]]
+Strings, arrays, and objects take up linear space O(n) the reason arrays take up linear space it's because it's one of the [[Linear Data Structure Runtime Comparison]]
 
 so LinkedList stacks and queues may also be the same in terms of runtime
 

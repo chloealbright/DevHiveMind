@@ -71,6 +71,90 @@ const grid = [
 <mark style="background: #FF5582A6;">ob</mark> 1 2 3 4 <mark style="background: #FFB86CA6;">un</mark> 
 ![[Pasted image 20231029104453.png]]
 
+## Traversal
+
+
+```javascript
+function ArrayIterative (arr){  
+
+  for (let i = 0; i < arr.length; i++) {  
+     console.log( arr[i])  
+}  
+
+}     
+```
+
+```javascript
+function ArrayRecursive(arr, index=0) {  
+
+if (arr.length === index) {  
+return;  
+
+}  
+
+console.log(arr[index])  
+
+ArrayRecursive(arr, ++index)  
+}  
+```
+
+
+
+
+```javascript
+function matrixIter(array) {  
+
+for(let row = 0; row < array.length; row++){  
+
+   for(let col = 0; col < array[row].length; col++) {  
+
+       console.log(array[row][col]);  
+
+          }  
+ }     
+
+}  
+```
+
+```javascript
+ function recursiveMatrixTraversal(matrix: number[][], row: number, col: number, action: (value: number) => void) {
+  // Check if the row and column are within valid bounds
+  if (
+    row < 0 ||
+    col < 0 ||
+    row >= matrix.length ||
+    col >= matrix[0].length
+  ) {
+    return;
+  }
+
+  // Perform the action on the current cell
+  action(matrix[row][col]);
+
+  // Recursively traverse in all four directions: up, down, left, right
+  recursiveMatrixTraversal(matrix, row - 1, col, action); // Up
+  recursiveMatrixTraversal(matrix, row + 1, col, action); // Down
+  recursiveMatrixTraversal(matrix, row, col - 1, action); // Left
+  recursiveMatrixTraversal(matrix, row, col + 1, action); // Right
+}
+
+// Example usage:
+const matrix: number[][] = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+// Define an action to perform on each cell (e.g., printing the value)
+function printValue(value: number) {
+  console.log(`Visited cell with value: ${value}`);
+}
+
+// Start traversal from a specific cell (e.g., top-left corner)
+recursiveMatrixTraversal(matrix, 0, 0, printValue);
+```
+
+
 
 In summary, a two-dimensional array is a specific type of data structure where elements are arranged in rows and columns. A nested array is a more general term for an array that contains other arrays, which can be of various structures. A matrix is a specific type of two-dimensional array often used in mathematical and scientific contexts. Depending on the context and the programming language, these terms can be used interchangeably or with slight variations in meaning.
 

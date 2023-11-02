@@ -45,7 +45,7 @@ The choice of data structures for these algorithms is crucial:
 - Use `push()` - Typical for stacks.
 
 
-## **Breadth-First Search (BFS) with Queue (Applicable to Trees and Graphs) - O(|V|)**
+## **Breadth-First Search with Queue (Applicable to Trees and Graphs) - O(|V|)**
 
 ### Tree
 
@@ -58,6 +58,55 @@ The choice of data structures for these algorithms is crucial:
 7. Push 12 to the result array.
 8. Repeat the process by shifting out the left child, which leaves only the right child in the queue. Focus on the current node, which contains the left child. Add its children to the queue and repeat until the queue is empty.
 
+```javascript
+function breadthFirstSearch(root) {
+  if (!root) return [];
+
+  const result = [];
+  const queue = [root];
+
+  while (queue.length) {
+    const node = queue.shift();
+    result.push(node.value);
+
+    if (node.left) queue.push(node.left);
+    if (node.right) queue.push(node.right);
+  }
+
+  return result;
+}
+```
+
+
+```javascript
+function breadthFirstSearchRecursive(root) {
+  if (!root) return [];
+
+  const result = [];
+  const queue = [root];
+
+  function traverse() {
+    if (queue.length === 0) {
+      return;
+    }
+
+    const node = queue.shift();
+    result.push(node.value);
+
+    if (node.left) queue.push(node.left);
+    if (node.right) queue.push(node.right);
+
+    traverse();
+  }
+
+  traverse();
+
+  return result;
+}
+```
+
+
+
 ### Graph
 
 1. Create and store the graph in a queue.
@@ -69,13 +118,92 @@ The choice of data structures for these algorithms is crucial:
 7. Push and add the edge into the queue and set.
 8. Perform any desired action with `current.id`, such as pushing it to an array.
 
-## **Depth-First Search (DFS) with Stack (Applicable to Trees and Graphs) - O(|V|)**
 
-For DFS, it's not about the queue but more about the order of traversal.
+```javascript
+function breadthFirstSearch(startVertex, graph) {
+  const visited = new Set();
+  const queue = [startVertex];
+  const result = [];
+
+  visited.add(startVertex);
+
+  while (queue.length > 0) {
+    const currentVertex = queue.shift();
+    result.push(currentVertex);
+
+    for (const neighbor of graph[currentVertex]) {
+      if (!visited.has(neighbor)) {
+        visited.add(neighbor);
+        queue.push(neighbor);
+      }
+    }
+  }
+
+  return result;
+}
+
+// Example usage:
+const graph = {
+  A: ['B', 'C'],
+  B: ['A', 'D'],
+  C: ['A', 'E'],
+  D: ['B', 'E'],
+  E: ['C', 'D'],
+};
+
+const bfsResult = breadthFirstSearch('A', graph);
+console.log(bfsResult); // Output: ['A', 'B', 'C', 'D', 'E']
+```
+
+
+```javascript
+function recursiveBFS(startVertex, graph) {
+  const visited = new Set();
+  const queue = [startVertex];
+
+  function visitNeighbors(node) {
+    if (node === null || visited.has(node)) {
+      return;
+    }
+    visited.add(node);
+    console.log(node); // Process the current node
+
+    for (const neighbor of graph[node]) {
+      if (!visited.has(neighbor)) {
+        queue.push(neighbor);
+      }
+    }
+    if (queue.length > 0) {
+      visitNeighbors(queue.shift());
+    }
+  }
+
+  visitNeighbors(startVertex);
+}
+
+// Example usage:
+const graph = {
+  A: ['B', 'C'],
+  B: ['A', 'D'],
+  C: ['A', 'E'],
+  D: ['B', 'E'],
+  E: ['C', 'D'],
+};
+
+console.log("BFS Traversal:");
+recursiveBFS('A', graph);
+```
+
+
+
+## **Depth-First Search with Stack (Applicable to Trees and Graphs) - O(|V|)**
+
+>[!important]
+> For DFS, it's not about the queue that can be Implemented with Array or Linked List but more about the order of traversal.
 
 ### Tree
-
 **Tree Preorder:**
+
 
 ```javascript
 BASE CASE
@@ -83,6 +211,48 @@ Action
 Left Check = Recursive call with node.left as the parameter
 Right Check = Recursive call with node.right as the parameter
 ```
+
+![[preOrder.gif]]
+
+```javascript
+function IterativePreOrder() {
+  let stack = [root];
+  let res = [];
+
+  while (stack.length) {
+    let curr = stack.pop();
+    res.push(curr.key);
+    if (curr.left) stack.push(curr.left);
+    if (curr.right) stack.push(curr.right);
+  }
+
+  return res.reverse();
+}
+
+
+
+function recursivePreOrder(root) {
+  if (!root) {
+    return [];
+  }
+
+  const result = [];
+
+  function traverse(node) {
+    if (node) {
+      result.push(node.key); // Process the current node
+      traverse(node.left);    // Recursively traverse the left subtree
+      traverse(node.right);   // Recursively traverse the right subtree
+    }
+  }
+
+  traverse(root);
+
+  return result;
+}
+```
+
+
 
 **Tree Inorder:**
 
@@ -92,6 +262,48 @@ Left Check = Recursive call with node.left as the parameter
 Action
 Right Check = Recursive call with node.right as the parameter
 ```
+
+![[inOrder.gif]]
+
+
+```javascript
+function IterativeInOrder() {
+  let stack = [root];
+  let res = [];
+
+  while (stack.length) {
+    if (curr.left) stack.push(curr.left);
+    let curr = stack.pop();
+    res.push(curr.key);
+    if (curr.right) stack.push(curr.right);
+  }
+
+  return res.reverse();
+}
+
+
+
+function recursiveInOrder(root) {
+  if (!root) {
+    return [];
+  }
+
+  const result = [];
+
+  function traverse(node) {
+    if (node) {
+      traverse(node.left);    // Recursively traverse the left subtree
+      result.push(node.key);  // Process the current node
+      traverse(node.right);   // Recursively traverse the right subtree
+    }
+  }
+
+  traverse(root);
+
+  return result;
+}
+```
+
 
 **Tree Postorder:**
 
@@ -104,9 +316,52 @@ Action Example: Get the height - `return Math.max(left, right) + 1;`
 Alternative action: Push the current node to a value array
 ```
 
-### Graph
+![[postOrder.gif]]
 
-**Graph DFS (No Pre/In/Post Order):**
+```javascript
+function IterativePostOrder() {
+  let stack = [root];
+  let res = [];
+
+  while (stack.length) {
+    if (curr.left) stack.push(curr.left);
+    if (curr.right) stack.push(curr.right);
+
+    let curr = stack.pop();
+    res.push(curr.key);
+  }
+
+  return res.reverse();
+}
+
+
+
+
+function recursivePostOrder(root) {
+  if (!root) {
+    return [];
+  }
+
+  const result = [];
+
+  function traverse(node) {
+    if (node) {
+      traverse(node.left);    // Recursively traverse the left subtree
+      traverse(node.right);   // Recursively traverse the right subtree
+      result.push(node.key);  // Process the current node
+    }
+  }
+
+  traverse(root);
+
+  return result;
+}
+```
+
+
+### Graph
+>[!important] 
+>In graph DFS, the concept of "in-order" doesn't apply in the same way because there may not be a strict hierarchy or ordering between neighbors.
 
 It's similar to BFS but uses stacks with `pop()` instead of `shift()`. The order of operations in recursive implementation might mimic pre and post-order traversal, even though these concepts may not directly apply to graphs.
 
@@ -118,6 +373,92 @@ It's similar to BFS but uses stacks with `pop()` instead of `shift()`. The order
 6. Loop through the edges of the graph, checking if they have been visited with the set.
 7. Push and add the edge into the stack and set.
 8. Perform any desired action with `current.id`, such as pushing it to an array.
+
+
+```javascript
+function iterativeDFSPreOrder(graph, startNode) {
+  const visited = new Set();
+  const stack = [startNode];
+  const result = [];
+
+  while (stack.length) {
+    const currentNode = stack.pop();
+    if (!visited.has(currentNode)) {
+      result.push(currentNode); // Pre-order processing
+      visited.add(currentNode);
+
+      for (const neighbor of graph[currentNode]) {
+        if (!visited.has(neighbor)) {
+          stack.push(neighbor);
+        }
+      }
+    }
+  }
+
+  return result;
+}
+
+
+function recursiveDFSPreOrder(graph, currentNode, visited = new Set(), result = []) {
+  if (!visited.has(currentNode)) {
+    result.push(currentNode); // Pre-order processing
+    visited.add(currentNode);
+
+    for (const neighbor of graph[currentNode]) {
+      if (!visited.has(neighbor)) {
+        recursiveDFSPreOrder(graph, neighbor, visited, result);
+      }
+    }
+  }
+
+  return result;
+}
+```
+
+
+```javascript
+function iterativeDFSPostOrder(graph, startNode) {
+  const visited = new Set();
+  const stack = [startNode];
+  const result = [];
+
+  while (stack.length) {
+    const currentNode = stack[stack.length - 1];
+
+    if (visited.has(currentNode)) {
+      stack.pop();
+      result.push(currentNode); // Post-order processing
+    } else {
+      visited.add(currentNode);
+
+      for (const neighbor of graph[currentNode]) {
+        if (!visited.has(neighbor)) {
+          stack.push(neighbor);
+        }
+      }
+    }
+  }
+
+  return result;
+}
+
+
+function recursiveDFSPostOrder(graph, currentNode, visited = new Set(), result = []) {
+  if (!visited.has(currentNode)) {
+    visited.add(currentNode);
+
+    for (const neighbor of graph[currentNode]) {
+      if (!visited.has(neighbor)) {
+        recursiveDFSPostOrder(graph, neighbor, visited, result);
+      }
+    }
+
+    result.push(currentNode); // Post-order processing
+  }
+
+  return result;
+}
+```
 
 ```
  * 

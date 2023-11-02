@@ -54,3 +54,70 @@ For iterating through linked lists, consider using the "runner" technique, where
 To determine if a linked list is cyclic, use a faster and slower pointer. If the fast pointer catches up with or passes the slower one, the list is cyclic. If it encounters a null pointer, the list is acyclic.
 
 
+
+```javascript
+function printFoward(node) {  
+
+let current = node;  
+
+while(current!== null){  
+
+ console.log(current.value)  
+
+ current = current.next  // equvivalent to i++ in a loop  
+
+}  
+
+}  
+
+function printFowardRec(node){  
+
+let current = node;  
+
+if(current!== null){  
+
+   console.log(current.value)  
+
+   current = printFowardRec(current.next)    
+ }  
+}  
+```
+
+```javascript
+function reverseListIter(head) {  
+
+if (!head) return null;  
+
+let current = head;  
+
+let previous = null;  
+
+while (current !== null) {  
+
+let next = current.next;  
+
+current.next = previous;   
+previous = current;   
+current = next;   
+
+}  
+
+return previous;  
+
+};  
+
+
+function reverseListRec(head, prev = null) {  
+
+if (!head) return prev;  
+
+let current = head;  
+let next = current.next;   
+
+current.next = prev;       
+prev = current;         
+
+return reverseListRec(next, prev)  
+
+};  
+```

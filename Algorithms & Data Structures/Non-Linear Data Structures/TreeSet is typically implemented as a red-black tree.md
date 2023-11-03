@@ -1,1 +1,0 @@
-TreeSet is typically implemented as a red-black tree

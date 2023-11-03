@@ -1,12 +1,3 @@
----
-tags: 
-author:
-  - jacgit18
-Status: 
-Started: 
-EditDate: 
-Relates:
----
 # Dev-Mind-Map
 
 

@@ -18,20 +18,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "78b3a83e2eeb1440",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "5f483f8976547a38",
         "type": "tabs",
         "children": [
           {
-            "id": "6a444bdd185c8d0c",
+            "id": "2dda65eefe7e7109",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Dictionaries.md",
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Binomial Heap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "104790759bff619f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Fibonacci Heap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ab187da98bcf82f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Heap Queue.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Dictionaries.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Dictionaries.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Dictionaries.md"
+                "file": "README.md"
               }
             }
           },
@@ -271,19 +308,29 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6a444bdd185c8d0c",
+  "active": "78b3a83e2eeb1440",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Dictionaries vs Hash Tables vs Hash Map.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Map.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Priority Queue Implementation.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Tree/TreeSet.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Tree/Tree Types.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Tree MaxHeight & MinHeight POST ORDER.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Binomial Heap.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Binary Heap.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Heap Queue.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/heap.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Fibonacci Heap.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/heap and binary heap.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Dictionaries.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Dictionaries vs Hash Tables vs Hash Map.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Map vs Objects.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Balanced binary tree.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/edit.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/edit 1.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Objects not Data Structure.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Hash Collision.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Dictionaries.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Hashtable.md",
     "_Images/Algo/unnamed (35).gif",
     "Algorithms & Data Structures/Non-Linear Data Structures/hashT.md",
@@ -294,19 +341,9 @@
     "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Graph List & Matrix Type.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Type of graphs.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Tree/Non-binary trees.md",
-    "Testing/Jest Test example.md",
-    "Testing/Type of Testing Techniques.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Graph.md",
-    "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Heap",
     "Algorithms & Data Structures/Non-Linear Data Structures/Tree",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Structure/Graph 1.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Graphs",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Choosing Graph List & Matrix Type.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Structure/Type of graphs 1.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison 1.md",
-    "Architecture/microservices and monolithic architecture.md",
-    "Testing/Data-Driven Testing.md",
     "_Images/Algo/unnamed (20).gif",
     "Algorithms & Data Structures/Recursion",
     "_Images/postOrder.gif",

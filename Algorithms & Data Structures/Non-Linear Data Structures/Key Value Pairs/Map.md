@@ -130,3 +130,17 @@ The **TreeMap** in Java is used to implement the Map interface and NavigableMa
    - **Maps:** In Java, the Map interface is part of the standard library, making it a common choice for implementing key-value data structures. In other languages, you may need to use external libraries or implement your own map-like data structures.
 
 In summary, dictionaries and maps both serve as key-value data structures, but the terminology and specific characteristics can vary between programming languages. Dictionaries are commonly associated with Python and have specific properties, while maps are more generic and are widely used in languages like Java with various implementations available.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

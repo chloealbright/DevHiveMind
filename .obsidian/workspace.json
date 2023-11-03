@@ -4,77 +4,126 @@
     "type": "split",
     "children": [
       {
-        "id": "afb497b3a53bedb4",
+        "id": "34f61871516534b3",
         "type": "tabs",
         "children": [
           {
-            "id": "1b1cf1d95ee3d86a",
+            "id": "a72cdc8bccc39ffc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Map.md",
+                "file": "Algorithms & Data Structures/Algo Line of thought.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "78b3a83e2eeb1440",
+            "id": "b3737851c7fbcba5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Algorithms & Data Structures/Algo pathway.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e71778d9410fe2c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/AlgoFlow.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "83636e3223218c48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/All Sorts of Sorts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "31c45c32d98d1f34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b07f3b48f94e7d20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Common Imperative.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
-        "id": "5f483f8976547a38",
+        "id": "afb497b3a53bedb4",
         "type": "tabs",
         "children": [
           {
-            "id": "2dda65eefe7e7109",
+            "id": "d807abd2b5b5ed0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Binomial Heap.md",
+                "file": "Algorithms & Data Structures/Attributes of Data.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "104790759bff619f",
+            "id": "4732b677fc6f85d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Fibonacci Heap.md",
+                "file": "Algorithms & Data Structures/Optimize & Solving Technique.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5ab187da98bcf82f",
+            "id": "a99130fc65c6730f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Heap Queue.md",
+                "file": "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -156,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md"
               }
             }
           },
@@ -308,39 +357,41 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "78b3a83e2eeb1440",
+  "active": "a99130fc65c6730f",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/AlgoFlow.md",
+    "Algorithms & Data Structures/Discrete math.md",
+    "Algorithms & Data Structures/Optimize & Solving Technique.md",
+    "Algorithms & Data Structures/Spacetime Complexity.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Map.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Priority Queue Implementation.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Tree/TreeSet.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Map 1.md",
+    "_Images/Algo/unnamed (42).gif",
     "Algorithms & Data Structures/Non-Linear Data Structures/Tree/Tree Types.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Tree MaxHeight & MinHeight POST ORDER.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Binomial Heap.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Binary Heap.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Tree/Binary Search Trees.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Tree/Binary Trees.md",
+    "_Images/Algo/unnamed (49).gif",
+    "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
+    "README.md",
+    "Home.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Tree/Tree Types 1.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Tree/Non-binary trees.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Tree/TreeSet.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Tree/Tries.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Heap Queue.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/heap.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Priority Queue Implementation.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Fibonacci Heap.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Binomial Heap.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Tree MaxHeight & MinHeight POST ORDER.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Binary Heap.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/heap.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Heap/heap and binary heap.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Dictionaries.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Dictionaries vs Hash Tables vs Hash Map.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Map vs Objects.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Balanced binary tree.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/edit.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/edit 1.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Objects not Data Structure.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Hash Collision.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Hashtable.md",
     "_Images/Algo/unnamed (35).gif",
-    "Algorithms & Data Structures/Non-Linear Data Structures/hashT.md",
     "Methodology/12 Factor App Docker.canvas",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Hashmap.md",
     "_Images/Algo/unnamed (34).gif",
     "_Images/Algo/unnamed (36).gif",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Graph List & Matrix Type.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Type of graphs.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Tree/Non-binary trees.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Heap",
     "Algorithms & Data Structures/Non-Linear Data Structures/Tree",
     "Algorithms & Data Structures/Non-Linear Data Structures/Graphs",
@@ -350,8 +401,6 @@
     "_Images/inOrder.gif",
     "_Images/preOrder.gif",
     "_Images/Algo/fusion.gif",
-    "_Images/Algo/unnamed (40).gif",
-    "_Images/Algo/unnamed (26).gif",
     "_.smart-connections",
     "stignore",
     "stignore (1)",

@@ -77,10 +77,3 @@ A linear search involves iterating through a data structure in a linear manner, 
 
 
 
-
-
-
-
-
-
-

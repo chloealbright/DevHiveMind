@@ -27,8 +27,30 @@ It is just not called a hash map but still acts as a hashmap 
 
 
 
+# Map
 
-Hashmap versus map
+In computer science, "map" and "object" can have different meanings depending on the context and programming language being used.  
+  
+In general, a map is a data structure that stores a collection of key-value pairs, where each key is unique and used to retrieve the associated value. Maps are used to efficiently retrieve and manipulate data based on keys, and they are often implemented using hash tables or other similar data structures.  
+  
+An object, on the other hand, is a fundamental concept in object-oriented programming (OOP) that represents an instance of a class. Objects are typically used to represent real-world entities or concepts and contain data (in the form of instance variables) and behavior (in the form of methods).  
+  
+In some programming languages, objects can be used to implement maps or key-value pairs, where the object's instance variables represent the values associated with the keys. In this case, the object is acting as a map or dictionary.  
+  
+So, while there can be some overlap between the concepts of maps and objects, they are not necessarily the same thing. The use of these terms depends on the specific programming language and context in which they are being used.
+
+
+
+"Map" is a general term that can refer to any data structure that allows for the mapping of keys to values. Depending on the implementation, a map may or may not be considered a linear data structure.  
+  
+For example, in some programming languages, a "map" data structure is a synonym for a "dictionary" or "hash map," which are implemented using a hash table and are therefore not considered linear data structures.  
+  
+In other cases, a map might be implemented using an ordered data structure, such as a balanced binary search tree, which would make it a non-linear data structure. In this case, the keys would be stored in a specific order to allow for efficient search and traversal.  
+  
+So, whether a map is considered a linear data structure or not depends on the implementation details of the specific map in question.
+
+
+## Hashmap versus map
 
 In Java a map is an interface with its own built-in methods in the back and a hash map is it's just a different implementation of the map with its own specific ways it work and built-in methods
 
@@ -86,3 +108,25 @@ The **TreeMap** in Java is used to implement the Map interface and NavigableMa
 	TreeMap<Integer, String> tree_map= new TreeMap<Integer, String>(); 
 
 [https://www.geeksforgeeks.org/treemap-in-java/](https://www.geeksforgeeks.org/treemap-in-java/)
+
+
+
+## Dictionaries vs  Maps
+
+1. **Terminology**:
+   - **Dictionaries:** The term "dictionary" is commonly used in Python and is sometimes used in other languages like C#. In Python, dictionaries are implemented as a built-in data type and are used to store key-value pairs.
+   - **Maps:** The term "map" is more commonly used in languages like Java and C++. In Java, the `Map` interface is part of the Java Collections Framework, and there are various classes that implement this interface (e.g., `HashMap`, `TreeMap`, `LinkedHashMap`).
+
+2. **Data Structures**:
+   - **Dictionaries:** In Python, dictionaries are typically implemented as hash tables, offering fast and efficient key-value retrieval.
+   - **Maps:** In languages like Java, "Map" is a more generic interface, and it can be implemented using various data structures. For example, `HashMap` uses a hash table, `TreeMap` uses a red-black tree, and `LinkedHashMap` combines a hash table with a linked list.
+
+3. **Key Characteristics**:
+   - **Dictionaries:** In Python dictionaries, keys are usually restricted to be of an immutable data type (e.g., strings, numbers, tuples) and are unique within the dictionary. Dictionaries are unordered in Python versions before 3.7 and ordered from Python 3.7 onwards.
+   - **Maps:** In the context of Java and other languages, maps often allow more flexibility in the types of keys they can use, but they typically require keys to be unique within the map. Some map implementations maintain order, while others do not.
+
+4. **Usage and Availability**:
+   - **Dictionaries:** Python provides built-in support for dictionaries, and they are widely used in Python programs for various purposes.
+   - **Maps:** In Java, the Map interface is part of the standard library, making it a common choice for implementing key-value data structures. In other languages, you may need to use external libraries or implement your own map-like data structures.
+
+In summary, dictionaries and maps both serve as key-value data structures, but the terminology and specific characteristics can vary between programming languages. Dictionaries are commonly associated with Python and have specific properties, while maps are more generic and are widely used in languages like Java with various implementations available.

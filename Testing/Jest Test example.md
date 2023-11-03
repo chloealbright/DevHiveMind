@@ -126,3 +126,100 @@ Testing concurrency and thread safety often requires specialized tools and libra
 These examples demonstrate how to use Jest for different testing scenarios. Jest's flexibility and built-in functions like `test.each` make it a powerful tool for a variety of testing needs. However, some scenarios may require additional libraries or custom approaches.
 
 In summary, not all the mentioned tests are strictly unit tests. Some of these testing types are associated with unit testing, while others are more commonly performed at different testing levels, such as integration, system, or performance testing. The choice of testing level and type depends on the specific goals and requirements of your testing strategy.
+
+
+## More Examples
+
+Assuming you have a coding challenge function like this:  
+  
+```typescript  
+// codingChallenge.ts
+export function sumEvenNumbers(arr: number[]): number {
+  return arr.filter(num => isEven(num)).reduce((acc, curr) => acc + curr, 0);
+}
+
+export function isEven(num: number): boolean {
+  return num % 2 === 0;
+}
+
+```  
+  
+Now, let's create tests for different types of tests:  
+  
+1. **Unit Tests:**  
+  
+```typescript  
+// unit.test.ts  
+import { sumEvenNumbers } from './codingChallenge';  
+  
+test('sumEvenNumbers unit test', () => {  
+const result = sumEvenNumbers([1, 2, 3, 4, 5, 6]);  
+expect(result).toBe(12);  
+});  
+```  
+  
+2. **Integration Tests:**  
+  
+```typescript  
+// integration.test.ts
+import { sumEvenNumbers, isEven } from './codingChallenge';
+
+test('sumEvenNumbers integration test', () => {
+  const numbers = [1, 2, 3, 4, 5, 6];
+  const result = sumEvenNumbers(numbers);
+  
+  // You can also test the helper function isEven in the integration test
+  expect(isEven(2)).toBe(true);
+  
+  expect(result).toBe(12);
+});
+
+```  
+  
+3. **Functional Tests:**  
+  
+```typescript  
+// functional.test.ts  
+import { sumEvenNumbers } from './codingChallenge';  
+  
+test('sumEvenNumbers functional test', () => {  
+const numbers = [1, 2, 3, 4, 5, 6];  
+const result = sumEvenNumbers(numbers);  
+expect(result).toBe(12);  
+});  
+```  
+  Same as unit test since dealing with one function to create a true functional test for this scenario, you would typically set up a test environment that simulates how the `sumEvenNumbers` function is used within a larger context, considering factors like input validation, handling of edge cases, and interactions with other parts of the system.
+  
+4. **Boundary Tests:**  
+  
+```typescript  
+// boundary.test.ts  
+import { sumEvenNumbers } from './codingChallenge';  
+  
+test('sumEvenNumbers boundary test', () => {  
+const result = sumEvenNumbers([]);  
+expect(result).toBe(0);  
+const result2 = sumEvenNumbers([2]);  
+expect(result2).toBe(2);  
+});  
+```  
+  
+5. **Performance Tests:**  
+- Measure execution time using Jest's timer functions.  
+  
+```typescript  
+// performance.test.ts  
+import { sumEvenNumbers } from './codingChallenge';  
+  
+test('sumEvenNumbers performance test', () => {  
+const numbers = new Array(1000000).fill(2); // Array with a million 2's  
+const start = Date.now();  
+const result = sumEvenNumbers(numbers);  
+const end = Date.now();  
+const duration = end - start;  
+expect(result).toBe(2000000);  
+expect(duration).toBeLessThan(100); // Check if execution is fast enough  
+});  
+```  
+  
+These test examples cover different types of tests, from unit and integration tests to functional and boundary tests, and even performance testing. You can adapt these examples to your specific coding challenges to ensure the correctness and robustness of your code.

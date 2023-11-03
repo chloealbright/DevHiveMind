@@ -37,9 +37,9 @@ Binary Search Trees are data structures that maintain their elements in a way th
 # Graph
 ## 1. Storage:
    - **Category:** Access
-   - **Worst-Case Runtime Complexity:** This operation is not typically categorized with traditional runtime complexities, as it's related to the memory required to store the graph's structure. In the case of an [[Graph List & Matrix Type#^897f42| adjacency matrix]], it's `O(V^2)`, and for an [[Graph List & Matrix Type | adjacency list]], it's `O(V + E)`.
+   - **Worst-Case Runtime Complexity:** This operation is not typically categorized with traditional runtime complexities, as it's related to the memory required to store the graph's structure. In the case of an [[Graph List & Matrix Type#^897f42| adjacency matrix]], it's `O(|V|^2)`, and for an [[Graph List & Matrix Type | adjacency list]], it's `O(|V| + |E|)`.
    - **Average Runtime Complexity:** N/A (as it's memory-related)
-   - Access action example: 
+   - Access action for graphs example: 
 	   `node.id` 
 	   `node.edge[1]`
 	   `node.edge[2].id`

@@ -25,13 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Structure/Type of graphs.md",
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Type of graphs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4d1b72cc559bef47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "0c9f247d67922287",
@@ -50,43 +63,19 @@
             }
           },
           {
-            "id": "81d8d7aff1d0fe83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "50be1f1280f4a27a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Structure/Graphs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "312c426a8aaf8525",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Algo/Iterating vs Traversing.md",
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Graph.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -289,7 +278,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 496.5
+    "width": 496.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -319,16 +309,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "4d1b72cc559bef47",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Structure/Graphs.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison 1.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Graph.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Heap",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Tree",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Graph List & Matrix Type.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Structure/Graph 1.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Graphs",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Type of graphs.md",
     "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
-    "Algorithms & Data Structures/Algo/Iterating vs Traversing.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Structure/Type of graphs.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Choosing Graph List & Matrix Type.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Structure/Type of graphs 1.md",
+    "Testing/Jest Test example.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison 1.md",
+    "Architecture/microservices and monolithic architecture.md",
+    "Testing/Data-Driven Testing.md",
     "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
+    "Algorithms & Data Structures/Algo/Iterating vs Traversing.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison 1.md",
     "Algorithms & Data Structures/Algo/Algorithm Pattern vs Simple Solution.md",
     "Algorithms & Data Structures/Algo/Big O.md",
     "Algorithms & Data Structures/Algo/Binary search 101.md",
@@ -338,15 +339,6 @@
     "Algorithms & Data Structures/Algo/Dijkstra + Bellman-Ford shortest path.md",
     "Algorithms & Data Structures/Algo/Dynamic Programming.md",
     "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
-    "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
-    "Algorithms & Data Structures/Algo/Memoization.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Arrays.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Circular Linked Lists.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Doubly linked list.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Linked List.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Queues.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Sets.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Stacks.md",
     "_Images/Algo/unnamed (20).gif",
     "Algorithms & Data Structures/Recursion",
     "_Images/postOrder.gif",
@@ -365,9 +357,6 @@
     "Testing/Untitled.canvas",
     "_Pdf/Cheatsheet/PostgreSQL-Cheat-Sheet.pdf",
     "_Pdf/Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
-    "_CODE/Express",
-    "_CODE/_Organize",
-    "_CODE/Distill",
     "OS/Linux/File system.canvas",
     "Devops/Docker/Docker InDeph.canvas",
     "Architecture/_Command and Query Responsibility Segregation.canvas",

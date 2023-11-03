@@ -27,7 +27,7 @@ Relates:
 - Substrings
 - Unicode values
 - Unique or specific characters
-
+![[numbers.png]]
 ## Numeric Values (with ASCII representation)
 - Natural numbers (positive and zero)
 - Integers (positive, negative)
@@ -59,24 +59,6 @@ Relates:
   const middle = Math.floor(length / 2);
   const left = array.slice(0, middle);
   const right = array.slice(middle);
-  ```
-
-## Search Algorithm Example
-- Binary search
-  ```javascript
-  function search(nums, target) {
-    let lo = 0;
-    let hi = nums.length - 1;
-    while (lo < hi) {
-      let mid = lo + Math.floor((hi - lo + 1) / 2);
-      if (target < nums[mid]) {
-        hi = mid - 1;
-      } else {
-        lo = mid;
-      }
-    }
-    return nums[lo] === target ? lo : -1;
-  }
   ```
 
 ## Starting Point and Endpoints

@@ -4,126 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "34f61871516534b3",
+        "id": "9c303356917259ea",
         "type": "tabs",
         "children": [
           {
-            "id": "a72cdc8bccc39ffc",
+            "id": "046883ecb00153f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Algo Line of thought.md",
+                "file": "Interview/Tactics.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b3737851c7fbcba5",
+            "id": "ceef97307f877ace",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Algo pathway.md",
+                "file": "Interview/Whiteboard Interview.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3e71778d9410fe2c",
+            "id": "eb62147d69baac58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/AlgoFlow.md",
+                "file": "Interview/System designs review.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "83636e3223218c48",
+            "id": "1b8c23eb36e1012b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/All Sorts of Sorts.md",
+                "file": "Interview/Steps to Problem on Interview.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "31c45c32d98d1f34",
+            "id": "0d6d312fd79e6a90",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b07f3b48f94e7d20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Common Imperative.md",
+                "file": "Interview/Q&A/Defense(A&Q).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
-      },
-      {
-        "id": "afb497b3a53bedb4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d807abd2b5b5ed0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Attributes of Data.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4732b677fc6f85d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Optimize & Solving Technique.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a99130fc65c6730f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -152,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:potentialMerge",
+                "query": "Programm",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -205,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
+                "file": "Interview/Q&A/Defense(A&Q).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
+                "file": "Interview/Q&A/Defense(A&Q).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md"
+                "file": "Interview/Q&A/Defense(A&Q).md"
               }
             }
           },
@@ -357,36 +302,37 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a99130fc65c6730f",
+  "active": "0d6d312fd79e6a90",
   "lastOpenFiles": [
-    "OS/Linux/Display a desktop notification.md",
+    "Interview/Q&A/Offense(Q&A).md",
+    "Interview/Q&A/Defense(A&Q).md",
+    "Interview/Programmer vs Software Developer vs Coder vs Software architect.md",
+    "_CODE/_Organize/Programming Levels.md",
+    "Interview/Shady Behavior.md",
+    "Interview/Sounding more senior or experienced.md",
+    "Interview/Spotify system design.md",
+    "Interview/Steps to Problem on Interview.md",
+    "Interview/System designs review.md",
+    "Interview/Whiteboard Interview.md",
+    "Interview/Tactics.md",
+    "Companies/Tech company hiring cycle & Hustle.md",
+    "Interview/Try this problem.md",
     "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
+    "Algorithms & Data Structures/Optimize & Solving Technique.md",
+    "Algorithms & Data Structures/Attributes of Data.md",
+    "_Images/numbers.png",
+    "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
+    "Algorithms & Data Structures/Algo Line of thought.md",
+    "OS/Linux/Display a desktop notification.md",
     "Algorithms & Data Structures/AlgoFlow.md",
     "Algorithms & Data Structures/Discrete math.md",
-    "Algorithms & Data Structures/Optimize & Solving Technique.md",
     "Algorithms & Data Structures/Spacetime Complexity.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Map.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Map 1.md",
     "_Images/Algo/unnamed (42).gif",
     "Algorithms & Data Structures/Non-Linear Data Structures/Tree/Tree Types.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Tree/Binary Search Trees.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Tree/Binary Trees.md",
     "_Images/Algo/unnamed (49).gif",
-    "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
-    "README.md",
-    "Home.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Tree/Tree Types 1.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Tree/Non-binary trees.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Tree/TreeSet.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Tree/Tries.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Heap Queue.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Priority Queue Implementation.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Fibonacci Heap.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Binomial Heap.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Tree MaxHeight & MinHeight POST ORDER.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Binary Heap.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/heap.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs",
     "_Images/Algo/unnamed (35).gif",
     "Methodology/12 Factor App Docker.canvas",
@@ -400,7 +346,6 @@
     "_Images/postOrder.gif",
     "_Images/inOrder.gif",
     "_Images/preOrder.gif",
-    "_Images/Algo/fusion.gif",
     "_.smart-connections",
     "stignore",
     "stignore (1)",

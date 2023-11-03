@@ -2,7 +2,7 @@ Talk slower emphasize words and pause deliberately
   
 Interrupt the interrupter  
   
-Agree and say yeah exactly then continue or acts can I continue  
+Agree and say yeah exactly then continue or ask to continue  
   
   
 Explain bigger picture  

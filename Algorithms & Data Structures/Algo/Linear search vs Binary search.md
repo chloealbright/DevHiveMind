@@ -8,7 +8,7 @@ Relates:
 ---
 ![[unnamed (21).gif]]
 
-## Linear Search:
+## Linear/Sequential Search:
 
 ^d39416
 

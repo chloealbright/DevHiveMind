@@ -12,8 +12,8 @@ Relates:
 
 Worst > Average 
 
-# Tree("CR" U "D") 
-Update not in this process directly but with Create & Update you imagine as a form of update within context of Data Structures  
+# Binary Search Tree("CR" U "D") 
+Update not in this process directly but with Create & Update you imagine as a form o
 
 	Insert(Create/Update) — O(n)/O(log(n)) check if less then or greater then 
 	

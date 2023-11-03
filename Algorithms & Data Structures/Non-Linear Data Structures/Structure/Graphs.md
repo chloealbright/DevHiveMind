@@ -8,7 +8,7 @@ Relates:
 ---
 ![[unnamed (44).gif]]
 
-don't focus on too much for interview
+
 
 
 Graph from discrete math with everything connecting to each other in some way by edges and vertices are also known as nodes  

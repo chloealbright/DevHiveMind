@@ -1726,7 +1726,7 @@
       },
       "active": "9025e75b32d34374"
     },
-    "re3": {
+    "re": {
       "main": {
         "id": "0cbb3f0709975816",
         "type": "split",
@@ -1741,31 +1741,110 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Algorithms & Data Structures/Algo/Key Base Attributes.md",
+                    "file": "Algorithms & Data Structures/Algo Line of thought.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "a73d1791ec539854",
+                "id": "b3737851c7fbcba5",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Algorithms & Data Structures/Algo/Key Base Attributes of Algo patterns.md",
+                    "file": "Algorithms & Data Structures/Algo pathway.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "6526abc975bc403f",
+                "id": "3e71778d9410fe2c",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Algorithms & Data Structures/Algo/Linear Iterative & Recursive Traversal.md",
+                    "file": "Algorithms & Data Structures/AlgoFlow.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "83636e3223218c48",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Algorithms & Data Structures/All Sorts of Sorts.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "31c45c32d98d1f34",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "b07f3b48f94e7d20",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Algorithms & Data Structures/Common Imperative.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          },
+          {
+            "id": "afb497b3a53bedb4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d807abd2b5b5ed0f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Algorithms & Data Structures/Attributes of Data.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "4732b677fc6f85d4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Algorithms & Data Structures/Optimize & Solving Technique.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "a99130fc65c6730f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
                     "mode": "source",
                     "source": false
                   }
@@ -1854,7 +1933,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Algorithms & Data Structures/Algo/Linear Iterative & Recursive Traversal.md",
+                    "file": "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1871,7 +1950,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Algorithms & Data Structures/Algo/Linear Iterative & Recursive Traversal.md",
+                    "file": "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1894,7 +1973,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Algorithms & Data Structures/Algo/Linear Iterative & Recursive Traversal.md"
+                    "file": "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md"
                   }
                 }
               },
@@ -2006,8 +2085,8 @@
           "periodic-notes:Open today": false
         }
       },
-      "active": "c18a64a686e80f59"
+      "active": "a99130fc65c6730f"
     }
   },
-  "active": "re3"
+  "active": "re"
 }

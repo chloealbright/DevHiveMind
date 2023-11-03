@@ -4,22 +4,89 @@
     "type": "split",
     "children": [
       {
-        "id": "41bafd55c4d25095",
+        "id": "afb497b3a53bedb4",
         "type": "tabs",
         "children": [
           {
-            "id": "986e467c69b539fd",
+            "id": "4bd69b04cf3eb76a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7369ebd9202ec0b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Structure/Type of graphs.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ]
+      },
+      {
+        "id": "0c9f247d67922287",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1077356572036f3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81d8d7aff1d0fe83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "50be1f1280f4a27a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Structure/Graphs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "312c426a8aaf8525",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Algo/Iterating vs Traversing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md"
               }
             }
           },
@@ -222,8 +289,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 496.5,
-    "collapsed": true
+    "width": 496.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -253,35 +319,36 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "986e467c69b539fd",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Optimize & Solving Technique.md",
-    "Algorithms & Data Structures/Spacetime Complexity.md",
-    "Algorithms & Data Structures/When to use.md",
-    "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
-    "Algorithms & Data Structures/Algo/Algorithm Pattern vs Simple Solution.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Structure/Graphs.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison 1.md",
+    "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
+    "Algorithms & Data Structures/Algo/Iterating vs Traversing.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Structure/Type of graphs.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
     "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
-    "Algorithms & Data Structures/Discrete math.md",
-    "Algorithms & Data Structures/DeMorgans law.md",
-    "Algorithms & Data Structures/Common Imperative.md",
-    "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
-    "Algorithms & Data Structures/Code question to write out.md",
-    "Algorithms & Data Structures/Bit-Binary.md",
-    "Algorithms & Data Structures/Bit-Binary 1.md",
-    "_CODE/Express/Algo left to over to do.md",
-    "Algorithms & Data Structures/Big O.md",
-    "Algorithms & Data Structures/Algo pathway.md",
-    "Algorithms & Data Structures/AlgoFlow.md",
-    "Algorithms & Data Structures/Attributes of Data.md",
-    "Algorithms & Data Structures/Algo Line of thought.md",
-    "Algorithms & Data Structures/Recursion/Recursion & Recursion Runtime.md",
-    "Algorithms & Data Structures/Recursion/Recursion Runtime 1.md",
+    "Algorithms & Data Structures/Algo/Algorithm Pattern vs Simple Solution.md",
+    "Algorithms & Data Structures/Algo/Big O.md",
+    "Algorithms & Data Structures/Algo/Binary search 101.md",
+    "Algorithms & Data Structures/Algo/Bit-Binary.md",
+    "Algorithms & Data Structures/Algo/Data struct Factory.md",
+    "Algorithms & Data Structures/Algo/Depth First Search & Breadth-First Search.md",
+    "Algorithms & Data Structures/Algo/Dijkstra + Bellman-Ford shortest path.md",
+    "Algorithms & Data Structures/Algo/Dynamic Programming.md",
+    "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
+    "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
     "Algorithms & Data Structures/Algo/Memoization.md",
-    "Algorithms & Data Structures/Recursion/The Six Core Patterns of Recursion.md",
-    "Algorithms & Data Structures/Recursion/The Six Core Patterns of Recursion 1.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Arrays.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Circular Linked Lists.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Doubly linked list.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Linked List.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Queues.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Sets.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Stacks.md",
+    "_Images/Algo/unnamed (20).gif",
     "Algorithms & Data Structures/Recursion",
-    "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Hash Collision.md",
     "_Images/postOrder.gif",
     "_Images/inOrder.gif",
     "_Images/preOrder.gif",
@@ -291,7 +358,6 @@
     "_Images/Algo/Pasted image 20230411081206.png",
     "_Images/1698557200430.jpeg",
     "_Images/Algo/unnamed (25).gif",
-    "_Images/Algo/unnamed (38).gif",
     "_.smart-connections",
     "stignore",
     "stignore (1)",

@@ -21,14 +21,9 @@ EXPONENTIAL O(2^n) -> CUBIC O(n^3) -> FACTORIAL O(n!)
 
 recursive calls -> triple nested loop -> factorial like questions  
 
-## Things that increase runtime in a function  
-Operations (+, -, *, /)  
-Comparisons (<, >, = =)
-Looping (for, while)  
-Outside Function call (function())  
-Recursion Function call  
 
--> List things in pseudocode/whiteboard talk about things in a high level like iterate through data structure or input then reduce it to lower level syntax and list the steps  
+
+
 
 ### Name method and variables accordingly  
 

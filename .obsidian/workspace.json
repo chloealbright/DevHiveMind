@@ -37,26 +37,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Interview/System designs review.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1b8c23eb36e1012b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Clout Chasing/Software Carpentier Journey.md",
+                "file": "Companies/Interview/Steps to Problem on Interview.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
+      },
+      {
+        "id": "c67929895b1039e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d65a730c4b28b72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Algo/Big O.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Programm",
+                "query": "Looping (for, while)  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -118,7 +124,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -138,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clout Chasing/Software Carpentier Journey.md",
+                "file": "Companies/Interview/Steps to Problem on Interview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clout Chasing/Software Carpentier Journey.md",
+                "file": "Companies/Interview/Steps to Problem on Interview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clout Chasing/Software Carpentier Journey.md"
+                "file": "Companies/Interview/Steps to Problem on Interview.md"
               }
             }
           },
@@ -290,14 +297,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1b8c23eb36e1012b",
+  "active": "eb62147d69baac58",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Algo/Big O.md",
+    "Companies/Interview/Steps to Problem on Interview.md",
+    "Companies/Interview/System designs review.md",
+    "Companies/Interview/Whiteboard Interview.md",
+    "Companies/Companies Worked At/Tracflo & Construction Industry.md",
     "Companies/Interview/Pitch.md",
+    "Clout Chasing/Software Carpentier Journey.md",
     "Companies/Companies Worked At",
     "Companies/Interview/Linkedin messege.md",
     "_Images/Interview/unnamed (4).gif",
-    "Companies/Companies Worked At/Tracflo & Construction Industry.md",
-    "Companies/Interview/Steps to Problem on Interview.md",
     "Companies/Interview/Q&A/Defense(A&Q).md",
     "Companies/Interview/Q&A/Offense(Q&A).md",
     "Companies/Interview/Q&A/Offense(Q&A) 1.md",
@@ -308,8 +319,6 @@
     "Companies/Interview/Shady Behavior.md",
     "Companies/Interview/Sounding more senior or experienced.md",
     "Companies/Interview/Spotify system design.md",
-    "Companies/Interview/System designs review.md",
-    "Companies/Interview/Whiteboard Interview.md",
     "Companies/Interview/Tactics.md",
     "Companies/Tech company hiring cycle & Hustle.md",
     "Interview/Try this problem.md",
@@ -319,7 +328,6 @@
     "_Images/numbers.png",
     "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
     "Algorithms & Data Structures/Algo Line of thought.md",
-    "OS/Linux/Display a desktop notification.md",
     "_Images/Algo/unnamed (42).gif",
     "_Images/Algo/unnamed (49).gif",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs",

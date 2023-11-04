@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview/Tactics.md",
+                "file": "Companies/Interview/Tactics.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview/Whiteboard Interview.md",
+                "file": "Companies/Interview/Whiteboard Interview.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview/System designs review.md",
+                "file": "Companies/Interview/System designs review.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,26 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview/Steps to Problem on Interview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0d6d312fd79e6a90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interview/Q&A/Defense(A&Q).md",
+                "file": "Clout Chasing/Software Carpentier Journey.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -150,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview/Q&A/Defense(A&Q).md",
+                "file": "Clout Chasing/Software Carpentier Journey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview/Q&A/Defense(A&Q).md",
+                "file": "Clout Chasing/Software Carpentier Journey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview/Q&A/Defense(A&Q).md"
+                "file": "Clout Chasing/Software Carpentier Journey.md"
               }
             }
           },
@@ -302,19 +290,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0d6d312fd79e6a90",
+  "active": "1b8c23eb36e1012b",
   "lastOpenFiles": [
-    "Interview/Q&A/Offense(Q&A).md",
-    "Interview/Q&A/Defense(A&Q).md",
-    "Interview/Programmer vs Software Developer vs Coder vs Software architect.md",
+    "Companies/Interview/Pitch.md",
+    "Companies/Companies Worked At",
+    "Companies/Interview/Linkedin messege.md",
+    "_Images/Interview/unnamed (4).gif",
+    "Companies/Companies Worked At/Tracflo & Construction Industry.md",
+    "Companies/Interview/Steps to Problem on Interview.md",
+    "Companies/Interview/Q&A/Defense(A&Q).md",
+    "Companies/Interview/Q&A/Offense(Q&A).md",
+    "Companies/Interview/Q&A/Offense(Q&A) 1.md",
+    "Companies/Interview/Q&A/Defense(A&Q) 1.md",
+    "Companies/Interview/Q&A/Defense(A&Q) 2.md",
+    "Companies/Interview/Programmer vs Software Developer vs Coder vs Software architect.md",
     "_CODE/_Organize/Programming Levels.md",
-    "Interview/Shady Behavior.md",
-    "Interview/Sounding more senior or experienced.md",
-    "Interview/Spotify system design.md",
-    "Interview/Steps to Problem on Interview.md",
-    "Interview/System designs review.md",
-    "Interview/Whiteboard Interview.md",
-    "Interview/Tactics.md",
+    "Companies/Interview/Shady Behavior.md",
+    "Companies/Interview/Sounding more senior or experienced.md",
+    "Companies/Interview/Spotify system design.md",
+    "Companies/Interview/System designs review.md",
+    "Companies/Interview/Whiteboard Interview.md",
+    "Companies/Interview/Tactics.md",
     "Companies/Tech company hiring cycle & Hustle.md",
     "Interview/Try this problem.md",
     "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
@@ -324,14 +320,7 @@
     "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
     "Algorithms & Data Structures/Algo Line of thought.md",
     "OS/Linux/Display a desktop notification.md",
-    "Algorithms & Data Structures/AlgoFlow.md",
-    "Algorithms & Data Structures/Discrete math.md",
-    "Algorithms & Data Structures/Spacetime Complexity.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Map.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Map 1.md",
     "_Images/Algo/unnamed (42).gif",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Tree/Tree Types.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Tree/Binary Search Trees.md",
     "_Images/Algo/unnamed (49).gif",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs",
     "_Images/Algo/unnamed (35).gif",
@@ -345,13 +334,11 @@
     "Algorithms & Data Structures/Recursion",
     "_Images/postOrder.gif",
     "_Images/inOrder.gif",
-    "_Images/preOrder.gif",
     "_.smart-connections",
     "stignore",
     "stignore (1)",
     "gitignore (1)",
     "Testing/Untitled.canvas",
-    "_Pdf/Cheatsheet/PostgreSQL-Cheat-Sheet.pdf",
     "OS/Linux/File system.canvas",
     "Devops/Docker/Docker InDeph.canvas",
     "Architecture/_Command and Query Responsibility Segregation.canvas",

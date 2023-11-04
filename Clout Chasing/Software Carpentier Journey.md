@@ -14,4 +14,4 @@ Application Architect: $116,000 per year
 Solution Architect: $128,000 per year  
 Enterprise Architect: $150,000 per year
 
-Proably higher the increase in pay scale upwards from app to enterprise
+Probably higher the increase in pay scale upwards from app to enterprise

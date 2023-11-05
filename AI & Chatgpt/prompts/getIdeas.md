@@ -1,8 +1,11 @@
 ---
-tags: 
+tags:
+  - prompt
+  - AI
+  - ChatGpt
 author:
   - jacgit18
-Status: 
+Status: review
 Started: 
 EditDate: 
 Relates: 

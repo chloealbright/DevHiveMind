@@ -1,8 +1,8 @@
 ---
 tags:
   - prompt
-  - ChatGpt
   - AI
+  - ChatGpt
 author:
   - jacgit18
 Status: 

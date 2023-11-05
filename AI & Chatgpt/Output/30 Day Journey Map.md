@@ -1,7 +1,6 @@
 ---
 tags:
   - generatorOutput
-  - AI
   - ChatGpt
 author:
   - jacgit18

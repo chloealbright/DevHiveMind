@@ -1,8 +1,12 @@
 ---
-tags: 
+tags:
+  - prompt
+  - AI
+  - ChatGpt
+  - todo/Med/Dev
 author:
   - jacgit18
-Status: 
+Status: refinement
 Started: 
 EditDate: 
 Relates:

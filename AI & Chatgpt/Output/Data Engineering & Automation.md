@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - generatorOutput
+  - ChatGpt
 author:
   - jacgit18
 Status: 

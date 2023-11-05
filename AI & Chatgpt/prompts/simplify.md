@@ -1,5 +1,8 @@
 ---
-tags: 
+tags:
+  - prompt
+  - AI
+  - ChatGpt
 author: 
 Status: 
 Started: 

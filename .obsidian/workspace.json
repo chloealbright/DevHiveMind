@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a549196d53fa3a30",
+        "id": "e2620e8b0862bd40",
         "type": "tabs",
         "children": [
           {
-            "id": "49fed4219cf4a64f",
+            "id": "4ef1c0d9b4140587",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3be044427e07190c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -266,14 +253,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3be044427e07190c",
+  "active": "4ef1c0d9b4140587",
   "lastOpenFiles": [
+    "Methodology/12 Factor App Docker.canvas",
+    "README.md",
+    "Home.md",
     "_Template/_Regular  Note.md",
     "_Template/_Eisenhower Matrix.md",
     "_Template/_Blog Post.md",
     "_Template/_Documentation.md",
-    "README.md",
-    "Home.md",
     "Algorithms & Data Structures/Algo/Big O.md",
     "Companies/Interview/Steps to Problem on Interview.md",
     "Companies/Interview/System designs review.md",
@@ -295,13 +283,11 @@
     "Companies/Interview/Sounding more senior or experienced.md",
     "Companies/Interview/Spotify system design.md",
     "Companies/Interview/Tactics.md",
-    "Companies/Tech company hiring cycle & Hustle.md",
     "_Images/numbers.png",
     "_Images/Algo/unnamed (42).gif",
     "_Images/Algo/unnamed (49).gif",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs",
     "_Images/Algo/unnamed (35).gif",
-    "Methodology/12 Factor App Docker.canvas",
     "_Images/Algo/unnamed (34).gif",
     "_Images/Algo/unnamed (36).gif",
     "Algorithms & Data Structures/Non-Linear Data Structures/Heap",

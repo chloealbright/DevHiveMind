@@ -47,3 +47,20 @@ With a well-organized repository, Markdown templates (including custom and found
 Feel free to customize this template further to align with your specific goals for the software development knowledge repository.
 
 
+## Steps to Contribute
+**Follow these steps to contribute to a project:
+
+1. Fork the original repository to your GitHub account.
+2. Clone your fork to your local machine using Git.
+3. Create a new branch to work on your changes.
+4. Make your desired changes, commit them to your branch, and push the branch to your fork on GitHub.
+5. Visit the original repository and click on the "New Pull Request" button.
+6. Select your branch as the source for the pull request and provide a clear explanation of your changes.
+7. The repository owner of the original project will review your pull request and decide whether to merge it into their repository.
+>[!note]
+>If you want auto push your local changes to your forked repo check out this script https://github.com/jacgit18/NoteScriptSyncer
+
+## Mind Maps Created So far
+
+![[12 Factor App Docker.canvas|12 Factor App Docker]]
+

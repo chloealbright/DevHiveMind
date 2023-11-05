@@ -4,59 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9c303356917259ea",
+        "id": "a549196d53fa3a30",
         "type": "tabs",
         "children": [
           {
-            "id": "046883ecb00153f1",
+            "id": "49fed4219cf4a64f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Interview/Tactics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ceef97307f877ace",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Interview/Whiteboard Interview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eb62147d69baac58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Interview/Steps to Problem on Interview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "c67929895b1039e1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1d65a730c4b28b72",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Algo/Big O.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,8 +81,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -145,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Interview/Steps to Problem on Interview.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Interview/Steps to Problem on Interview.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Interview/Steps to Problem on Interview.md"
+                "file": "README.md"
               }
             }
           },
@@ -297,8 +253,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "eb62147d69baac58",
+  "active": "49fed4219cf4a64f",
   "lastOpenFiles": [
+    "Home.md",
     "Algorithms & Data Structures/Algo/Big O.md",
     "Companies/Interview/Steps to Problem on Interview.md",
     "Companies/Interview/System designs review.md",
@@ -327,7 +284,6 @@
     "Algorithms & Data Structures/Attributes of Data.md",
     "_Images/numbers.png",
     "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
-    "Algorithms & Data Structures/Algo Line of thought.md",
     "_Images/Algo/unnamed (42).gif",
     "_Images/Algo/unnamed (49).gif",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs",

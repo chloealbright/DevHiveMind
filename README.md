@@ -9,7 +9,7 @@ This Software Development Knowledge Repository is a centralized and organized co
 
 - **Topics Coverage**: The repository covers a wide range of software development topics, including programming languages, frameworks, design patterns, best practices, and more.
 
-- **Markdown and Obsidian**: We use Markdown for creating and formatting our notes. Obsidian, a knowledge management app, is our primary tool for managing and editing our notes. It allows us to create new notes using customizable Markdown templates, link related notes, and create a network of knowledge.
+- **Markdown and Obsidian**: We use Markdown for creating and formatting our notes. [Obsidian](https://obsidian.md/), a knowledge management app, is our primary tool for managing and editing our notes. It allows us to create new notes using customizable Markdown templates, link related notes, and create a network of knowledge.
 
 - **Mindmaps**: To provide a visual representation of knowledge, we use mindmaps to connect related concepts and topics. Mindmaps can help users navigate through the repository and understand the relationships between different subjects.
 
@@ -21,7 +21,7 @@ The goal is to make this knowledge repository public to benefit the broader soft
 
 I encourage contributions from the community. Here are some best practices for maintaining and growing the repository:
 
-- **Updating Existing Notes**: Contributors can update existing notes to keep them current. Ensure to include a summary of changes and update the "EditDate" property.
+- **Updating Existing Notes**: Contributors can update existing notes to keep them current by adding yourself as a author and update the "EditDate" property.
 
 - **Creating New Notes**: When creating new notes, use Markdown templates to maintain consistency in formatting. Obsidian can help with this using custom templates. You can create your own templates to suit specific note types or add templates that you found effective.
 

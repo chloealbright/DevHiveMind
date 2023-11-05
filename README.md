@@ -60,7 +60,4 @@ Feel free to customize this template further to align with your specific goals f
 >[!note]
 >If you want auto push your local changes to your forked repo check out this script https://github.com/jacgit18/NoteScriptSyncer
 
-## Mind Maps Created So far
-
-![[12 Factor App Docker.canvas|12 Factor App Docker]]
 

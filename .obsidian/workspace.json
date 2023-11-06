@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "Testing/Jest benchmarking.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Testing/Jest benchmarking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Testing/Jest benchmarking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Testing/Jest benchmarking.md"
               }
             }
           },
@@ -246,13 +246,18 @@
   },
   "active": "6febed562d8c2473",
   "lastOpenFiles": [
+    "Testing/Jest Test example.md",
+    "Testing/Jest benchmarking.md",
+    "Testing/Data-Driven Testing.md",
+    "Testing/Code Coverage.md",
+    "Testing/Type of Testing Techniques.md",
+    "Home.md",
     "Joshua_Carpentier_Resume.docx.txt",
     "Joshua_Carpentier_Resume.docx",
     "_Pdf/Build+Your+API+with+Spring.pdf",
     "_Template/Prompt Temp.md",
     "Companies/_Money Talk/Bonus.md",
     "Companies/_Money Talk/Bonus 1.md",
-    "Home.md",
     "AI & Chatgpt/Output/30 Day Journey Map.md",
     "AI & Chatgpt/Output/Data Engineering & Automation.md",
     "AI & Chatgpt/Output/Java L8 Project.md",
@@ -270,10 +275,6 @@
     "AI & Chatgpt/prompts/getParagraph.md",
     "AI & Chatgpt/prompts/getTags.md",
     "AI & Chatgpt/prompts/getTitles.md",
-    "AI & Chatgpt/prompts/Learning.md",
-    "AI & Chatgpt/prompts/New world prompt.md",
-    "AI & Chatgpt/prompts/Progress report.md",
-    "AI & Chatgpt/prompts/Prompts to sort.md",
     "Methodology/12 Factor App Docker.canvas",
     "Companies/Companies Worked At",
     "_Images/Interview/unnamed (4).gif",
@@ -292,7 +293,6 @@
     "_Images/postOrder.gif",
     "_Images/inOrder.gif",
     "_.smart-connections",
-    "stignore",
     "Testing/Untitled.canvas",
     "Cloud/OS/Linux/File system.canvas",
     "Devops/Docker/Docker InDeph.canvas",

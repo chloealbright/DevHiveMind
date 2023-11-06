@@ -67,7 +67,8 @@
     "#todo/high/dev/codingchallenge",
     "#todo/med/dev/codingchallenge",
     "#todo/low/dev/codingchallenge",
-    "#todo/low/dev"
+    "#todo/low/dev",
+    "#todo/med/dev"
   ],
   "_hiddenTags": []
 }

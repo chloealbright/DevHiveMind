@@ -1,51 +1,50 @@
-Jest is primarily a testing framework for JavaScript, and it doesn't have built-in benchmarking functionality. However, if you want to benchmark your JavaScript code using Jest, you can follow these general steps:
 
-1. Set up a Benchmarking Library:
-   You will need a separate benchmarking library to measure the performance of your code. A popular choice is the "benchmark.js" library. You can install it using npm or yarn:
-   
-   ```
-   npm install benchmark
-   ```
-   
-2. Create a Benchmark File:
-   Create a new file, let's call it `myBenchmark.test.js`. In this file, you'll set up your benchmark tests using the benchmark.js library. Here's a basic example:
 
-   ```javascript
-   const Benchmark = require('benchmark');
+1. Install Necessary Dependencies:
+   Make sure you have TypeScript and the benchmarking library installed. You can install them with npm or yarn:
+
+   ```
+   npm install benchmark typescript
+   ```
+
+2. Create a TypeScript Benchmark File:
+   Create a TypeScript file, let's call it `myBenchmark.test.ts`, and write your benchmark code in TypeScript. For example:
+
+   ```typescript
+   import Benchmark from 'benchmark';
 
    const suite = new Benchmark.Suite();
 
-   // Add your benchmark tests
    suite.add('My Test', function() {
-     // Your code to benchmark here
+     // Your TypeScript code to benchmark here
    });
 
    suite
-     .on('cycle', function(event) {
+     .on('cycle', function(event: any) {
        console.log(String(event.target));
      })
-     .on('complete', function() {
+     .on('complete', function(this: any) {
        console.log('Fastest is ' + this.filter('fastest').map('name'));
      })
      .run();
    ```
 
-3. Run the Benchmark:
-   You can run your benchmark tests using the `jest` command. Create a script in your `package.json` file to make it easier to run:
+3. TypeScript Configuration:
+   Make sure you have a `tsconfig.json` file in your project to configure TypeScript. Ensure that your TypeScript code is set up correctly.
+
+4. Run the TypeScript Benchmark:
+   You can run your TypeScript benchmark file using the `ts-node` command. You can add a script in your `package.json` for convenience:
 
    ```json
    "scripts": {
-     "benchmark": "node myBenchmark.test.js"
+     "benchmark": "ts-node myBenchmark.test.ts"
    }
    ```
 
-   Then, you can run your benchmark using:
+   Then, run the TypeScript benchmark using:
 
    ```
    npm run benchmark
    ```
 
-4. Analyze the Results:
-   After running the benchmark, you'll get performance results in your console. You can analyze the output to determine the execution times and other performance metrics of your code.
-
-Remember that Jest is not specifically designed for benchmarking, so using a dedicated benchmarking library like "benchmark.js" or others is recommended for accurate and reliable performance measurements. Additionally, be cautious when benchmarking, as the results can be affected by various factors, including the environment in which the tests are run.
+This setup allows you to write and run benchmark tests in TypeScript. Just make sure that your TypeScript code and TypeScript configuration are correctly set up in your project.

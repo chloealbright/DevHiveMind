@@ -4,59 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "261c37bb649adf71",
+        "id": "381c8ba7d6c8efd6",
         "type": "tabs",
         "children": [
           {
-            "id": "f8bf3fe90acd7947",
+            "id": "6febed562d8c2473",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Employment Best Personal Practices.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fb415390b463a75d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/_Money Talk/Bonus.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e20c36db11e7e873",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI & Chatgpt/Output/30 Day Journey Map.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "7d39e01a477db3d8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e2779e24e672f306",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Tech company hiring cycle & Hustle.md",
+                "file": "_Template/Prompt Temp.md",
                 "mode": "source",
                 "source": false
               }
@@ -144,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/_Money Talk/Bonus.md",
+                "file": "_Template/Prompt Temp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/_Money Talk/Bonus.md",
+                "file": "_Template/Prompt Temp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/_Money Talk/Bonus.md"
+                "file": "_Template/Prompt Temp.md"
               }
             }
           },
@@ -226,6 +183,16 @@
             "state": {
               "type": "todo",
               "state": {}
+            }
+          },
+          {
+            "id": "c391b117442f1168",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ],
@@ -277,39 +244,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fb415390b463a75d",
+  "active": "6febed562d8c2473",
   "lastOpenFiles": [
-    "_Template/Prompt Temp.md",
+    "Companies/_Money Talk/Bonus.md",
     "Companies/_Money Talk/Bonus 1.md",
-    "Cloud/OS/Linux/FS/root.md",
-    "Cloud/OS/Linux/FS/root sign.md",
-    "Cloud/OS/Linux/FS/home.md",
-    "Cloud/OS/Linux/Distros/Distros Explained.md",
-    "Cloud/OS/Linux/vpn.md",
-    "Cloud/OS/Linux/terminal from Tracflo history.md",
-    "Cloud/OS/Linux/kernel.md",
-    "Cloud/OS/Linux/Type of files in Linux.md",
-    "Cloud/OS/Linux/Symbolic link.md",
-    "Cloud/OS/Linux/SSH.md",
-    "Cloud/OS/Linux/Quick note.md",
-    "Cloud/OS/Linux/Pi.md",
-    "Cloud/OS/Linux/Linux pipe v redirect example.md",
-    "Cloud/OS/Linux/Linux file system explained.md",
-    "Cloud/OS/Linux/Linux file permissions.md",
-    "Cloud/OS/Linux/Linux diff.md",
-    "Cloud/OS/Linux/Linux commands and tricks.md",
-    "Cloud/OS/Linux/Linux Tips.md",
-    "Cloud/OS/Linux/Linux SED.md",
-    "Cloud/OS/Linux/Linux Pipe.md",
-    "Cloud/OS/Linux/Linux Overwrite and Append.md",
-    "Cloud/OS/Linux/Linux Learning Plan.md",
-    "Cloud/OS/Linux/Linux Image.md",
-    "Cloud/OS/Linux/Intsall Commands.md",
-    "Cloud/OS/Linux/File system.canvas",
-    "Cloud/OS/Linux/FS",
-    "Cloud/OS/Linux/Distros",
-    "Cloud/OS/Linux",
-    "Cloud/OS",
+    "Home.md",
+    "_Template/Prompt Temp.md",
+    "AI & Chatgpt/Output/30 Day Journey Map.md",
+    "AI & Chatgpt/Output/Data Engineering & Automation.md",
+    "AI & Chatgpt/Output/Java L8 Project.md",
+    "AI & Chatgpt/Output/Building an Upskilling Program for Employees Epic.md",
+    "AI & Chatgpt/prompts/Development/DB Prompts.md",
+    "AI & Chatgpt/prompts/Development/Linux.md",
+    "AI & Chatgpt/prompts/Development/Note Refiner.md",
+    "AI & Chatgpt/prompts/Development/Python DEV.md",
+    "AI & Chatgpt/prompts/Development/Software Tester.md",
+    "AI & Chatgpt/prompts/Articles.md",
+    "AI & Chatgpt/prompts/getEmailNeg.md",
+    "AI & Chatgpt/prompts/getEmailPos.md",
+    "AI & Chatgpt/prompts/getIdeas.md",
+    "AI & Chatgpt/prompts/getOutline.md",
+    "AI & Chatgpt/prompts/getParagraph.md",
+    "AI & Chatgpt/prompts/getTags.md",
+    "AI & Chatgpt/prompts/getTitles.md",
+    "AI & Chatgpt/prompts/Learning.md",
+    "AI & Chatgpt/prompts/New world prompt.md",
+    "AI & Chatgpt/prompts/Progress report.md",
+    "AI & Chatgpt/prompts/Prompts to sort.md",
+    "AI & Chatgpt/prompts/Recommend focus.md",
     "Methodology/12 Factor App Docker.canvas",
     "Companies/Companies Worked At",
     "_Images/Interview/unnamed (4).gif",
@@ -327,13 +289,18 @@
     "Algorithms & Data Structures/Recursion",
     "_Images/postOrder.gif",
     "_Images/inOrder.gif",
+    "_.smart-connections",
+    "stignore",
+    "stignore (1)",
+    "gitignore (1)",
     "Testing/Untitled.canvas",
-    "OS/Linux/File system.canvas",
+    "Cloud/OS/Linux/File system.canvas",
     "Devops/Docker/Docker InDeph.canvas",
     "Architecture/_Command and Query Responsibility Segregation.canvas",
     "Architecture/_Web App Architecture.canvas",
     "Architecture/Event Driven Architecture.canvas",
     "Architecture/Untitled.canvas",
-    "Architecture/Java Logging.canvas"
+    "Architecture/Java Logging.canvas",
+    "API/Gateway.canvas"
   ]
 }

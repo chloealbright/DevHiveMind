@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Template/Prompt Temp.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Template/Prompt Temp.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Template/Prompt Temp.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Template/Prompt Temp.md"
+                "file": "Home.md"
               }
             }
           },
@@ -246,10 +246,13 @@
   },
   "active": "6febed562d8c2473",
   "lastOpenFiles": [
+    "Joshua_Carpentier_Resume.docx.txt",
+    "Joshua_Carpentier_Resume.docx",
+    "_Pdf/Build+Your+API+with+Spring.pdf",
+    "_Template/Prompt Temp.md",
     "Companies/_Money Talk/Bonus.md",
     "Companies/_Money Talk/Bonus 1.md",
     "Home.md",
-    "_Template/Prompt Temp.md",
     "AI & Chatgpt/Output/30 Day Journey Map.md",
     "AI & Chatgpt/Output/Data Engineering & Automation.md",
     "AI & Chatgpt/Output/Java L8 Project.md",
@@ -271,7 +274,6 @@
     "AI & Chatgpt/prompts/New world prompt.md",
     "AI & Chatgpt/prompts/Progress report.md",
     "AI & Chatgpt/prompts/Prompts to sort.md",
-    "AI & Chatgpt/prompts/Recommend focus.md",
     "Methodology/12 Factor App Docker.canvas",
     "Companies/Companies Worked At",
     "_Images/Interview/unnamed (4).gif",
@@ -291,8 +293,6 @@
     "_Images/inOrder.gif",
     "_.smart-connections",
     "stignore",
-    "stignore (1)",
-    "gitignore (1)",
     "Testing/Untitled.canvas",
     "Cloud/OS/Linux/File system.canvas",
     "Devops/Docker/Docker InDeph.canvas",

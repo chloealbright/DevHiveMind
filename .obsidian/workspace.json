@@ -4,53 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "381c8ba7d6c8efd6",
+        "id": "159a9c369c5c6a8b",
         "type": "tabs",
         "children": [
           {
-            "id": "367a99bde92be432",
+            "id": "8c6a587396e867f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language Overlap/Shallow Copy and Deep Copy(clone).md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ]
-      },
-      {
-        "id": "80a29cef3e199322",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "730b08800ad39d64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/All Sorts of Sorts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f424a7198c20ab88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language Overlap/Shallow Copy and Deep Copy(clone).md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language Overlap/Shallow Copy and Deep Copy(clone).md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language Overlap/Shallow Copy and Deep Copy(clone).md"
+                "file": "README.md"
               }
             }
           },
@@ -275,12 +244,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "367a99bde92be432",
+  "active": "8c6a587396e867f4",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md",
     "Algorithms & Data Structures/All Sorts of Sorts.md",
-    "Algorithms & Data Structures/Sort/_Sort Implementation Focus.md",
+    "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md",
     "Language Overlap/Shallow Copy and Deep Copy(clone).md",
+    "Algorithms & Data Structures/Sort/_Sort Implementation Focus.md",
     "Language/Typescript/Advanced Object Types.md",
     "Algorithms & Data Structures/Linear  Data Structures/Arrays.md",
     "README.md",

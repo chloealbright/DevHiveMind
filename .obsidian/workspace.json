@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Event Driven Architecture.md",
+                "file": "System Design/Apache Kafka.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "2a6042868dedfd16",
@@ -79,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "event driven",
+                "query": "ka",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -133,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Event Driven Architecture.md",
+                "file": "Framework/Reactive programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Event Driven Architecture.md",
+                "file": "Framework/Reactive programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Event Driven Architecture.md"
+                "file": "Framework/Reactive programming.md"
               }
             }
           },
@@ -276,8 +275,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3bedee9a9e29b853",
+  "active": "ba4701494699e6e3",
   "lastOpenFiles": [
+    "System Design/Apache Kafka.md",
+    "Framework/JavaScript ecosystem event-driven and reactive programming.md",
+    "Architecture/Event Driven Architecture.md",
+    "Architecture/Domain-driven design.md",
+    "Architecture/Event-driven Architectural Pattern Decisions.md",
+    "Language Overlap/Code Execution Order of Operation.md",
     "Framework/Reactive.md",
     "Framework/Reactive programming.md",
     "Home.md",
@@ -301,12 +306,6 @@
     "_Template/Prompt Temp.md",
     "Companies/_Money Talk/Bonus.md",
     "Companies/_Money Talk/Bonus 1.md",
-    "AI & Chatgpt/Output/30 Day Journey Map.md",
-    "AI & Chatgpt/Output/Data Engineering & Automation.md",
-    "AI & Chatgpt/Output/Java L8 Project.md",
-    "AI & Chatgpt/Output/Building an Upskilling Program for Employees Epic.md",
-    "AI & Chatgpt/prompts/Development/DB Prompts.md",
-    "AI & Chatgpt/prompts/Development/Linux.md",
     "Methodology/12 Factor App Docker.canvas",
     "Companies/Companies Worked At",
     "_Images/Interview/unnamed (4).gif",

@@ -13,7 +13,7 @@ Sorting algorithms do not always need to return `void`. The return type of a sor
 1. **Void**: In many cases, sorting algorithms modify the input data in place, and therefore, they return `void`, meaning they do not return any value but directly change the order of the elements in the input data.  
   
 2. **New Array/Collection**: Some sorting algorithms create a new sorted array or collection and return that sorted data, leaving the original data unchanged. In this case, the return type is typically the same as the type of the elements being sorted. 
->[!note] This is typically better practice but it seems when it comes to sorting. I try and do this instead of modify original value in general outside of sorting
+>[!note] This is typically better practice but it seems when it comes to sorting. I try and do this instead of modify original value in general outside of sorting this relates to this note [[Shallow Copy and Deep Copy(clone)]]
   
 3. **Boolean**: Sorting algorithms can return a boolean value to indicate whether the sorting operation was successful or not.  
   

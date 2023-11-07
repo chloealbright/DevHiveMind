@@ -2,6 +2,7 @@
 ![](_Images/2Osh.gif)
 
 <div style="text-align:center;"><h1>Dev Journey Knowledge Repository </h1></div>
+
 ## Overview
 This Software Development Knowledge Repository is a centralized and organized collection of information on various software development topics. It's designed to be a valuable resource for developers, both experienced and beginners, as well as anyone interested in the field.
 
@@ -46,6 +47,11 @@ With a well-organized repository, Markdown templates (including custom and found
 
 Feel free to customize this template further to align with your specific goals for the software development knowledge repository.
 
+## Disclaimer
+
+In this repository, you'll find an assortment of Markdown files encompassing various subjects, along with my personalized Obsidian setup, complete with plugins and custom configurations. To ensure that your contributions don't inadvertently disrupt these customization's during pull requests, You can alternative: establish your own Obsidian repository where you can maintain your personal notes.
+
+Once you believe your contributions hold value and are ready to be integrated into this main repository, simply fork it and append the specific note. This method allows you to circumvent the inclusion of your individual Obsidian settings and plugins, which may diverge from those in this repository. Employing this approach streamlines the pull request process and expedites the merging procedure and allows you to have your own custom Obsidian setup if wish to.
 
 ## Steps to Contribute
 **Follow these steps to contribute to a project:

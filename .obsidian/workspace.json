@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Framework/Reactive programming.md",
+                "file": "Architecture/ZooKeeper.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,8 +111,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -132,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Framework/Reactive programming.md",
+                "file": "Architecture/ZooKeeper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Framework/Reactive programming.md",
+                "file": "Architecture/ZooKeeper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Framework/Reactive programming.md"
+                "file": "Architecture/ZooKeeper.md"
               }
             }
           },
@@ -277,6 +276,8 @@
   },
   "active": "ba4701494699e6e3",
   "lastOpenFiles": [
+    "Framework/Reactive programming.md",
+    "Architecture/ZooKeeper.md",
     "System Design/Apache Kafka.md",
     "Framework/JavaScript ecosystem event-driven and reactive programming.md",
     "Architecture/Event Driven Architecture.md",
@@ -284,7 +285,6 @@
     "Architecture/Event-driven Architectural Pattern Decisions.md",
     "Language Overlap/Code Execution Order of Operation.md",
     "Framework/Reactive.md",
-    "Framework/Reactive programming.md",
     "Home.md",
     "_CODE/Express/Dev Todo.md",
     "Algorithms & Data Structures/All Sorts of Sorts.md",
@@ -305,7 +305,6 @@
     "_Pdf/Build+Your+API+with+Spring.pdf",
     "_Template/Prompt Temp.md",
     "Companies/_Money Talk/Bonus.md",
-    "Companies/_Money Talk/Bonus 1.md",
     "Methodology/12 Factor App Docker.canvas",
     "Companies/Companies Worked At",
     "_Images/Interview/unnamed (4).gif",

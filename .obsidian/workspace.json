@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "159a9c369c5c6a8b",
+        "id": "136f100bfb639e07",
         "type": "tabs",
         "children": [
           {
-            "id": "8c6a587396e867f4",
+            "id": "9d861655ba46ca60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AI & Chatgpt/prompts/Development/Note Refiner.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "AI & Chatgpt/prompts/Development/Note Refiner.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "AI & Chatgpt/prompts/Development/Note Refiner.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "AI & Chatgpt/prompts/Development/Note Refiner.md"
               }
             }
           },
@@ -244,8 +244,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8c6a587396e867f4",
+  "active": "9d861655ba46ca60",
   "lastOpenFiles": [
+    "_CODE/Express/Dev Todo.md",
+    "Home.md",
     "Algorithms & Data Structures/All Sorts of Sorts.md",
     "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md",
     "Language Overlap/Shallow Copy and Deep Copy(clone).md",
@@ -259,7 +261,6 @@
     "Testing/Data-Driven Testing.md",
     "Testing/Code Coverage.md",
     "Testing/Type of Testing Techniques.md",
-    "Home.md",
     "Joshua_Carpentier_Resume.docx.txt",
     "Joshua_Carpentier_Resume.docx",
     "_Pdf/Build+Your+API+with+Spring.pdf",
@@ -274,7 +275,6 @@
     "AI & Chatgpt/prompts/Development/Linux.md",
     "AI & Chatgpt/prompts/Development/Note Refiner.md",
     "AI & Chatgpt/prompts/Development/Python DEV.md",
-    "AI & Chatgpt/prompts/Development/Software Tester.md",
     "Methodology/12 Factor App Docker.canvas",
     "Companies/Companies Worked At",
     "_Images/Interview/unnamed (4).gif",

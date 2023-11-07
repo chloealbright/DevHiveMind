@@ -55,6 +55,7 @@ Relates:
 - [ ] **Whiteboarding Abstraction Skills:** Acquire the art of creating lucid and effective abstractions when whiteboarding technical concepts, a vital skill for excelling in interviews.
 - [ ] create a long list LinkedIn post ideas about popular historical leaders like for example martin Luther king, also events around the year like breast cancer awareness and holidays give ideas for each month in the year on these topic
 - [ ] Look into [[Project idea]]
+- [ ] Play around with lint more
 
 
 ## Books

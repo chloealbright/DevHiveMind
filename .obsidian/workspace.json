@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/exposing routes.md",
+                "file": "_Pdf/Cheatsheet/Prompt CheatSheat.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/exposing routes.md",
+                "file": "_Pdf/Cheatsheet/Prompt CheatSheat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/exposing routes.md",
+                "file": "_Pdf/Cheatsheet/Prompt CheatSheat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/exposing routes.md"
+                "file": "_Pdf/Cheatsheet/Prompt CheatSheat.md"
               }
             }
           },
@@ -270,36 +270,36 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a6b049dbb8ea080e",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
+    "_Images/Pasted image 20231108135509.jpg",
+    "AI & Chatgpt/prompts/Development/DB Prompts.md",
+    "_Pdf/Cheatsheet/Prompt CheatSheat.md",
+    "AI & Chatgpt/prompts/Development/Linux.md",
+    "AI & Chatgpt/prompts/Development/Note Refiner.md",
+    "AI & Chatgpt/prompts/Development/Python DEV.md",
+    "AI & Chatgpt/prompts/Development/Software Tester.md",
+    "AI & Chatgpt/prompts/Articles.md",
+    "AI & Chatgpt/prompts/getEmailNeg.md",
+    "AI & Chatgpt/prompts/getEmailPos.md",
+    "AI & Chatgpt/prompts/getOutline.md",
+    "AI & Chatgpt/prompts/getParagraph.md",
+    "AI & Chatgpt/prompts/getTags.md",
+    "AI & Chatgpt/prompts/getTitles.md",
+    "AI & Chatgpt/prompts/Learning.md",
+    "AI & Chatgpt/prompts/New world prompt.md",
+    "AI & Chatgpt/prompts/Progress report.md",
+    "AI & Chatgpt/prompts/Prompts to sort.md",
+    "AI & Chatgpt/prompts/Recommend focus.md",
+    "AI & Chatgpt/prompts/Requirements to code.md",
+    "AI & Chatgpt/prompts/rewrite.md",
+    "AI & Chatgpt/prompts/simplify.md",
+    "AI & Chatgpt/prompts/Structural model Prompt.md",
+    "AI & Chatgpt/prompts/summarize.md",
     "Web/exposing routes.md",
-    "Algorithms & Data Structures/Common Imperative.md",
-    "API/The six constraints of REST.md",
-    "API/API.md",
-    "README.md",
-    "_Official Documentation/Node.js Guides.md",
-    "Architecture/microservices and monolithic architecture.md",
-    "Companies/Interview/Resume OG.md",
+    "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "Companies/Interview/Joshua_Carpentier_Resume.pdf",
-    "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md",
-    "Algorithms & Data Structures/Algo/Dynamic Programming.md",
-    "Algorithms & Data Structures/Algo/Data struct Factory.md",
-    "_Official Documentation/Material UI Docs.md",
-    "_Official Documentation/Kafka Docs.md",
-    "Algorithms & Data Structures/Algo/Bit-Binary.md",
-    "Algorithms & Data Structures/Algo/Binary search 101.md",
-    "Algorithms & Data Structures/Algo/Big O.md",
-    "Algorithms & Data Structures/Algo/Algorithm Pattern vs Simple Solution.md",
-    "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
-    "Home.md",
-    "Framework/Reactive programming.md",
-    "Architecture/ZooKeeper.md",
-    "System Design/Apache Kafka.md",
-    "Framework/JavaScript ecosystem event-driven and reactive programming.md",
-    "Architecture/Event Driven Architecture.md",
-    "Architecture/Domain-driven design.md",
     "Joshua_Carpentier_Resume.docx.txt",
     "Joshua_Carpentier_Resume.docx",
     "_Pdf/Build+Your+API+with+Spring.pdf",

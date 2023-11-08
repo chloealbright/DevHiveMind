@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Common Imperative.md",
+                "file": "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Common Imperative.md",
+                "file": "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Common Imperative.md",
+                "file": "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Common Imperative.md"
+                "file": "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md"
               }
             }
           },
@@ -272,6 +272,7 @@
   },
   "active": "a6b049dbb8ea080e",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Common Imperative.md",
     "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
     "API/The six constraints of REST.md",
     "API/API.md",
@@ -299,7 +300,6 @@
     "Architecture/Event Driven Architecture.md",
     "Architecture/Domain-driven design.md",
     "Architecture/Event-driven Architectural Pattern Decisions.md",
-    "Language Overlap/Code Execution Order of Operation.md",
     "Joshua_Carpentier_Resume.docx.txt",
     "Joshua_Carpentier_Resume.docx",
     "_Pdf/Build+Your+API+with+Spring.pdf",

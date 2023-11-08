@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "_CODE/Express/Dev Todo.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "_CODE/Express/Dev Todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "_CODE/Express/Dev Todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "_CODE/Express/Dev Todo.md"
               }
             }
           },
@@ -270,6 +270,10 @@
   },
   "active": "cc6030342acfbf56",
   "lastOpenFiles": [
+    "_CODE/_Organize/Project idea.md",
+    "_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part II  by aruva - empowering ideas  May, 2023  Medium.md",
+    "_CODE/_Capture/GRASP Design Principles.md",
+    "README.md",
     "_Pdf/Courses/Docker/Day 1_Docker.pdf",
     "_Pdf/Cheatsheet/Prompt CheatSheat.md",
     "_Images/Pasted image 20231108135509.jpg",
@@ -294,9 +298,6 @@
     "AI & Chatgpt/prompts/rewrite.md",
     "AI & Chatgpt/prompts/simplify.md",
     "AI & Chatgpt/prompts/Structural model Prompt.md",
-    "AI & Chatgpt/prompts/summarize.md",
-    "Web/exposing routes.md",
-    "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "Companies/Interview/Joshua_Carpentier_Resume.pdf",
     "Joshua_Carpentier_Resume.docx.txt",
@@ -314,7 +315,6 @@
     "_Images/Algo/unnamed (36).gif",
     "Algorithms & Data Structures/Non-Linear Data Structures/Heap",
     "Algorithms & Data Structures/Non-Linear Data Structures/Tree",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Graphs",
     "_Images/Algo/unnamed (20).gif",
     "_Images/postOrder.gif",
     "Testing/Untitled.canvas",

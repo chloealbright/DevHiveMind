@@ -39,6 +39,15 @@ Relates:
 	```
 
 
+Create code flow and decesion making mind map
+
+  
+Pre post action like a read or a sort  
+  
+  
+Or a read to see if a sort is needed
+
+
 ## <mark style="background: #FFB86CA6;">Dev Med</mark>
 #todo/Med/Dev
 - [ ] Act as a doctor determine potential diagnosis based on blood and urine tests asking questions for each test result 
@@ -138,7 +147,6 @@ Relates:
 	- [ ] [Project idea](Project%20idea.md)
 	- [ ] [Tech Things to Research](Tech%20Things%20to%20Research.md)
 - [ ] Math & Logic Puzzles 
-- [ ] [[Try Challenge]]
 - [ ] Sudoku back track 
 	- [https://github.com/dtyutyunik/Sudoku](https://github.com/dtyutyunik/Sudoku)  
 	- [https://github.com/mtajammulzia/sudoku-game](https://github.com/mtajammulzia/sudoku-game)  

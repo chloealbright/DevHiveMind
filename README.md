@@ -12,6 +12,8 @@ This Software Development Knowledge Repository is a centralized and organized co
 
 - **Markdown and Obsidian**: We use Markdown for creating and formatting our notes. [Obsidian](https://obsidian.md/), a knowledge management app, is our primary tool for managing and editing our notes. It allows us to create new notes using customizable Markdown templates, link related notes, and create a network of knowledge.
 
+Markdown is considered a plain text format. It is designed to be human-readable and easy to write, while still allowing for the conversion to structured documents (e.g., HTML, PDF) with the help of rendering engines or parsers. Markdown documents are essentially plain text files with simple formatting conventions, making them a popular choice for writing documentation, README files, and other types of text-based content that need to be easily readable and writable.
+
 - **Mindmaps**: To provide a visual representation of knowledge, we use mindmaps to connect related concepts and topics. Mindmaps can help users navigate through the repository and understand the relationships between different subjects.
 
 ## Making it Public

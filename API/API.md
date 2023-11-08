@@ -117,3 +117,23 @@ What really matters is the level of abstraction an API call provides, and the a
 https://blog.ipspace.net/2019/04/rest-api-is-not-transactional.html
 
 Obviously that won’t stop the vendor marketers from proudly creating slides claiming their product uses declarative API. Make sure to make fun of them whenever you see one – it probably won’t do any more harm than mr. Quixote did to the windmills, but it might feel good (he wasn’t so lucky)
+
+
+
+
+
+
+
+The key distinction between backend functionality and API functionality is in their scope and purpose:  
+  
+1. Backend Functionality:  
+- Refers to the core operations and logic that power an application.  
+- It includes tasks such as data processing, business logic, database management, and overall application functionality.  
+- Backend functionality doesn't necessarily have to be exposed as an API; it can operate behind the scenes to support the application's operations.  
+  
+2. API Functionality:  
+- Specifically involves the functions and endpoints that enable communication and data exchange between different software components, systems, or services.  
+- APIs define a set of rules and protocols for how external systems can interact with and utilize the capabilities of a software system.  
+- APIs serve as a means for different applications to request and exchange data or services, and they often have a more defined and standardized structure compared to general backend functionality.  
+  
+In summary, while backend functionality encompasses all the internal workings of an application, APIs are a subset of that functionality, designed for external communication and integration with other software components or services. APIs provide a well-defined interface for interaction, making it easier for different systems to work together.

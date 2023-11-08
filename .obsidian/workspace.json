@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Interview/Resume OG.md",
+                "file": "Architecture/microservices and monolithic architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Official Documentation/Node.js Guides.md",
-                "mode": "preview",
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6b049dbb8ea080e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "API/API.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -60,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ka",
+                "query": "Monolith",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Interview/Resume OG.md",
+                "file": "API/API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Interview/Resume OG.md",
+                "file": "API/API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Interview/Resume OG.md"
+                "file": "API/API.md"
               }
             }
           },
@@ -257,15 +270,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c6045cbc2a47943f",
+  "active": "a6b049dbb8ea080e",
   "lastOpenFiles": [
+    "README.md",
+    "_Official Documentation/Node.js Guides.md",
+    "Architecture/microservices and monolithic architecture.md",
+    "Companies/Interview/Resume OG.md",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "Companies/Interview/Joshua_Carpentier_Resume.pdf",
-    "Companies/Interview/Resume OG.md",
     "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md",
     "Algorithms & Data Structures/Algo/Dynamic Programming.md",
     "Algorithms & Data Structures/Algo/Data struct Factory.md",
-    "_Official Documentation/Node.js Guides.md",
     "_Official Documentation/Material UI Docs.md",
     "_Official Documentation/Kafka Docs.md",
     "Algorithms & Data Structures/Algo/Bit-Binary.md",
@@ -285,7 +300,6 @@
     "Framework/Reactive.md",
     "_CODE/Express/Dev Todo.md",
     "Algorithms & Data Structures/All Sorts of Sorts.md",
-    "Language Overlap/Shallow Copy and Deep Copy(clone).md",
     "Joshua_Carpentier_Resume.docx.txt",
     "Joshua_Carpentier_Resume.docx",
     "_Pdf/Build+Your+API+with+Spring.pdf",
@@ -303,7 +317,6 @@
     "Algorithms & Data Structures/Non-Linear Data Structures/Tree",
     "Algorithms & Data Structures/Non-Linear Data Structures/Graphs",
     "_Images/Algo/unnamed (20).gif",
-    "Algorithms & Data Structures/Recursion",
     "_Images/postOrder.gif",
     "_Images/inOrder.gif",
     "Testing/Untitled.canvas",

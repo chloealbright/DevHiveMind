@@ -122,6 +122,12 @@ Obviously that won’t stop the vendor marketers from proudly creating slides cl
 
 
 
+Backend applications can include APIs, but they are not limited to just APIs. A backend application is the part of a software system that is responsible for processing data, managing databases, and performing various operations that enable the frontend or client-side of the application to function.
+
+APIs (Application Programming Interfaces) are a means of communication between different software components, and they often play a crucial role in the backend. Backend applications frequently provide APIs to allow interaction with the system. These APIs define the methods and endpoints that can be used to request or manipulate data.
+
+So, while APIs are an essential part of many backend applications, the backend itself can encompass a broader range of components and functionality beyond just APIs, including database management, business logic, authentication, and more.
+
 
 
 The key distinction between backend functionality and API functionality is in their scope and purpose:  

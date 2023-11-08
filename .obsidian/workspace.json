@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/API.md",
+                "file": "Algorithms & Data Structures/Common Imperative.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/API.md",
+                "file": "Algorithms & Data Structures/Common Imperative.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/API.md",
+                "file": "Algorithms & Data Structures/Common Imperative.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/API.md"
+                "file": "Algorithms & Data Structures/Common Imperative.md"
               }
             }
           },
@@ -272,6 +272,9 @@
   },
   "active": "a6b049dbb8ea080e",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
+    "API/The six constraints of REST.md",
+    "API/API.md",
     "README.md",
     "_Official Documentation/Node.js Guides.md",
     "Architecture/microservices and monolithic architecture.md",
@@ -297,9 +300,6 @@
     "Architecture/Domain-driven design.md",
     "Architecture/Event-driven Architectural Pattern Decisions.md",
     "Language Overlap/Code Execution Order of Operation.md",
-    "Framework/Reactive.md",
-    "_CODE/Express/Dev Todo.md",
-    "Algorithms & Data Structures/All Sorts of Sorts.md",
     "Joshua_Carpentier_Resume.docx.txt",
     "Joshua_Carpentier_Resume.docx",
     "_Pdf/Build+Your+API+with+Spring.pdf",

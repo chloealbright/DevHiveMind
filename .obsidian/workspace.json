@@ -11,9 +11,11 @@
             "id": "c6045cbc2a47943f",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Companies/Interview/Joshua_Carpentier_Resume.pdf"
+                "file": "Companies/Interview/Resume OG.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -111,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Interview/Joshua_Carpentier_Resume.pdf",
+                "file": "Companies/Interview/Resume OG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Interview/Joshua_Carpentier_Resume.pdf",
+                "file": "Companies/Interview/Resume OG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Interview/Joshua_Carpentier_Resume.pdf"
+                "file": "Companies/Interview/Resume OG.md"
               }
             }
           },
@@ -257,6 +259,8 @@
   },
   "active": "c6045cbc2a47943f",
   "lastOpenFiles": [
+    "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
+    "Companies/Interview/Joshua_Carpentier_Resume.pdf",
     "Companies/Interview/Resume OG.md",
     "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md",
     "Algorithms & Data Structures/Algo/Dynamic Programming.md",
@@ -282,7 +286,6 @@
     "_CODE/Express/Dev Todo.md",
     "Algorithms & Data Structures/All Sorts of Sorts.md",
     "Language Overlap/Shallow Copy and Deep Copy(clone).md",
-    "Algorithms & Data Structures/Sort/_Sort Implementation Focus.md",
     "Joshua_Carpentier_Resume.docx.txt",
     "Joshua_Carpentier_Resume.docx",
     "_Pdf/Build+Your+API+with+Spring.pdf",
@@ -303,7 +306,6 @@
     "Algorithms & Data Structures/Recursion",
     "_Images/postOrder.gif",
     "_Images/inOrder.gif",
-    "_.smart-connections",
     "Testing/Untitled.canvas",
     "Cloud/OS/Linux/File system.canvas",
     "Devops/Docker/Docker InDeph.canvas",

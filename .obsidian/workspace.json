@@ -11,11 +11,9 @@
             "id": "c6045cbc2a47943f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md",
-                "mode": "source",
-                "source": false
+                "file": "Companies/Interview/Joshua_Carpentier_Resume.pdf"
               }
             }
           },
@@ -113,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md",
+                "file": "Companies/Interview/Joshua_Carpentier_Resume.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md",
+                "file": "Companies/Interview/Joshua_Carpentier_Resume.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md"
+                "file": "Companies/Interview/Joshua_Carpentier_Resume.pdf"
               }
             }
           },
@@ -259,6 +257,8 @@
   },
   "active": "c6045cbc2a47943f",
   "lastOpenFiles": [
+    "Companies/Interview/Resume OG.md",
+    "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md",
     "Algorithms & Data Structures/Algo/Dynamic Programming.md",
     "Algorithms & Data Structures/Algo/Data struct Factory.md",
     "_Official Documentation/Node.js Guides.md",
@@ -281,10 +281,8 @@
     "Framework/Reactive.md",
     "_CODE/Express/Dev Todo.md",
     "Algorithms & Data Structures/All Sorts of Sorts.md",
-    "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md",
     "Language Overlap/Shallow Copy and Deep Copy(clone).md",
     "Algorithms & Data Structures/Sort/_Sort Implementation Focus.md",
-    "Language/Typescript/Advanced Object Types.md",
     "Joshua_Carpentier_Resume.docx.txt",
     "Joshua_Carpentier_Resume.docx",
     "_Pdf/Build+Your+API+with+Spring.pdf",

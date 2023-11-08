@@ -110,9 +110,9 @@ Or a read to see if a sort is needed
 - [ ] Identify things to focus on and start doing and prioritize other things and where they should go in terms of bucket also breath and depth  
 - [ ] How to design an app using: mock-ups, models, and routes
 - [ ] Dealing with package dependencies
-- [ ] add future repo connected block
-- [ ] go over java 9 to 11
-- [ ] [[Dev things to Focus on]]
+
+
+
 
 
 

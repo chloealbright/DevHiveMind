@@ -129,15 +129,6 @@ Or a read to see if a sort is needed
 - [ ]  [https://www.geeksforgeeks.org/convert-a-string-into-a-square-matrix-grid-of-characters/](https://www.geeksforgeeks.org/convert-a-string-into-a-square-matrix-grid-of-characters/)    
 - [ ]  [https://stackoverflow.com/questions/360040/which-is-faster-hash-lookup-or-binary-search](https://stackoverflow.com/questions/360040/which-is-faster-hash-lookup-or-binary-search)
 - [ ] Look into darkbert ai
-- [ ] Logger fix for Data Structures
-	> const log = (pre="", arg="", post="") => {console.log(`${pre} ${arg} ${post} `)} 
-	>  const info = (pre="", arg="", post="") => {console.info(`${pre} ${arg} ${post} `)} 
-	>  const warn = (pre="", arg="", post="") => {console.warn(`${pre} ${arg} ${post} `)} 
-	>  const error = (pre="", arg="", post="") => {console.error(`${pre} ${arg} ${post} `)} 
-	>  const table = (pre="", arg="", post="") => {console.table(`${pre} ${arg} ${post} `)}
-  
-
-
 
 
 ## <mark style="background: #BBFABBA6;">Future Low</mark>

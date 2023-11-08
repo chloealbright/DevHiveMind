@@ -13,18 +13,14 @@ Relates:
 # <mark style="background: #FF5582A6;">Current </mark>
 #todo/High/Dev 
 - [ ] Search engine optimized for developers to find projects to contribute to or find common errors and issues
-- [x] Edit Article on [_vr headset](_vr%20headset.md)
 - [ ] Edit article on [[_Bootcamp]] ^923f61
 - [ ] Edit article on [_note taking](_note%20taking.md) ^776056
 - [ ] [Testing topics to add to notes](Testing%20topics%20to%20add%20to%20notes.md)
 - [ ] Read [Domain-driven design](Domain-driven%20design.md)
-- [x] Read articles  opened in chrome
-- [x] Compress work stuff [Todo work](Todo%20work.md) and figure out how you will manage work todo
 - [ ] Get certified in Java  
 - [ ] Get certified in Linux  
 - [ ] Looking to automating stock buys
 - [ ] Develop practical fundamental skills around design patterns 
-- [x] Add to resume [[Current Job Title#^221ddf]] ✅ 2023-10-29
 - [ ] Code base decisions made at low level in the design of classes and functions and decisions being made  
 - [ ] Code base decisions made at a higher level in terms of components and services and overall architecture and put in the pieces together  
 - [ ] And maybe even a higher level with technologies and stuff

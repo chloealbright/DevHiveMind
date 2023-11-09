@@ -8,41 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c6045cbc2a47943f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/microservices and monolithic architecture.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc6030342acfbf56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_CODE/Express/Dev Todo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a6b049dbb8ea080e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "_Pdf/Courses/Docker/Day 1_Docker.pdf"
+                "file": "Home.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_CODE/Express/Dev Todo.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_CODE/Express/Dev Todo.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_CODE/Express/Dev Todo.md"
+                "file": "Home.md"
               }
             }
           },
@@ -269,7 +246,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "cc6030342acfbf56",
+  "active": "a6b049dbb8ea080e",
   "lastOpenFiles": [
     "_CODE/Express/Dev things to Focus on.md",
     "_CODE/Express/Dev Todo.md",

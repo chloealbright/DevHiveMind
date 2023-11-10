@@ -4,53 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3f0e6bbc98e0969a",
+        "id": "907b8d868664c46a",
         "type": "tabs",
         "children": [
           {
-            "id": "a6b049dbb8ea080e",
+            "id": "7d384bd49dfde77f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/App Layers/Domain.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "bfc9a3104c4bfcb8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3e46338884a75b41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Domain-driven design.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "73a87a94ada71ab3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2618ff73ec69657b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/Domain-specific programming languages.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -138,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Domain-driven design.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Domain-driven design.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Domain-driven design.md"
+                "file": "Home.md"
               }
             }
           },
@@ -231,9 +195,17 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "5c872aaf6d22c52f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       },
       {
         "id": "7e98245a429f273f",
@@ -251,8 +223,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5,
-    "collapsed": true
+    "width": 345.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -282,7 +253,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3e46338884a75b41",
+  "active": "7d384bd49dfde77f",
   "lastOpenFiles": [
     "Language/Domain-specific programming languages.md",
     "Architecture/Domain-driven design.md",

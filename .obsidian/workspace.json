@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/Domain-specific programming languages.md",
+                "file": "Architecture/Domain-driven design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/Domain-specific programming languages.md",
+                "file": "Architecture/Domain-driven design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/Domain-specific programming languages.md"
+                "file": "Architecture/Domain-driven design.md"
               }
             }
           },
@@ -282,8 +282,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2618ff73ec69657b",
+  "active": "3e46338884a75b41",
   "lastOpenFiles": [
+    "Language/Domain-specific programming languages.md",
     "Architecture/Domain-driven design.md",
     "Architecture/App Layers/Domain.md",
     "Home.md",
@@ -311,7 +312,6 @@
     "AI & Chatgpt/prompts/Learning.md",
     "AI & Chatgpt/prompts/New world prompt.md",
     "AI & Chatgpt/prompts/Progress report.md",
-    "AI & Chatgpt/prompts/Prompts to sort.md",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "Companies/Interview/Joshua_Carpentier_Resume.pdf",
     "Joshua_Carpentier_Resume.docx.txt",

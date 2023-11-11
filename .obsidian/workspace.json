@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "907b8d868664c46a",
+        "id": "28df56065cd8adfb",
         "type": "tabs",
         "children": [
           {
-            "id": "7d384bd49dfde77f",
+            "id": "38a5698daf805b1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -253,7 +253,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7d384bd49dfde77f",
+  "active": "38a5698daf805b1c",
   "lastOpenFiles": [
     "Language/Domain-specific programming languages.md",
     "Architecture/Domain-driven design.md",

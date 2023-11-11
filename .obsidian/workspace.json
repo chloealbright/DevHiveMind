@@ -11,9 +11,11 @@
             "id": "b3587c26dee977a8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf"
+                "file": "Home.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf"
+                "file": "Home.md"
               }
             }
           },
@@ -252,6 +254,7 @@
   },
   "active": "b3587c26dee977a8",
   "lastOpenFiles": [
+    "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "Home.md",
     "Language/Domain-specific programming languages.md",
     "Architecture/Domain-driven design.md",
@@ -279,8 +282,6 @@
     "AI & Chatgpt/prompts/getTitles.md",
     "AI & Chatgpt/prompts/Learning.md",
     "AI & Chatgpt/prompts/New world prompt.md",
-    "AI & Chatgpt/prompts/Progress report.md",
-    "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "Companies/Interview/Joshua_Carpentier_Resume.pdf",
     "Joshua_Carpentier_Resume.docx.txt",
     "Joshua_Carpentier_Resume.docx",

@@ -1,15 +1,21 @@
 {
+  "version": "0.5.13",
   "endpoint": "https://api.openai.com",
-  "api_key": "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",
-  "engine": "gpt-3.5-turbo",
+  "models": {},
+  "api_key": "",
+  "encrypt_keys": false,
+  "selectedProvider": "OpenAI Chat (Langchain)",
   "max_tokens": 500,
   "temperature": 0.7,
   "frequency_penalty": 0.5,
   "prompt": "",
   "showStatusBar": true,
   "outputToBlockQuote": false,
+  "freeCursorOnStreaming": false,
+  "allowJavascriptRun": false,
   "promptsPath": "textgenerator/prompts",
   "prefix": "\n\n",
+  "tgSelectionLimiter": "^\\*\\*\\*",
   "stream": false,
   "context": {
     "includeTitle": false,
@@ -59,5 +65,7 @@
     "ImageExtractor": true
   },
   "displayErrorInEditor": true,
-  "models": {}
+  "LLMProviderOptions": {},
+  "LLMProviderOptionsKeysHashed": {},
+  "engine": "gpt-3.5-turbo"
 }

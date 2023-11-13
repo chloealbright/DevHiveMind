@@ -162,14 +162,6 @@
             }
           },
           {
-            "id": "377f26e58347c30a",
-            "type": "leaf",
-            "state": {
-              "type": "podcast_player_view",
-              "state": {}
-            }
-          },
-          {
             "id": "cbfe2bee689e7ccc",
             "type": "leaf",
             "state": {
@@ -216,7 +208,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 5
       },
       {
         "id": "7e98245a429f273f",
@@ -264,7 +256,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a5f5b0ac4bf671b0",
+  "active": "e25196040b431f9d",
   "lastOpenFiles": [
     "Error Log/Testing.md",
     "Error Log/Untitled.md",

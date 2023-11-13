@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "27bbe70a7a57c7c0",
+        "id": "46ebbb0d3709eed2",
         "type": "tabs",
         "children": [
           {
-            "id": "b3587c26dee977a8",
+            "id": "239dffad78d9de37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "_Official Documentation/NPM Docs.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "_Official Documentation/NPM Docs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "_Official Documentation/NPM Docs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "_Official Documentation/NPM Docs.md"
               }
             }
           },
@@ -252,10 +252,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b3587c26dee977a8",
+  "active": "239dffad78d9de37",
   "lastOpenFiles": [
-    "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
+    "_Pdf/Roadmaps/python.pdf",
+    "Dev Roadmaps By Priority.md",
+    "Methodology/12 Factor App Docker.canvas",
+    "Library/Frontend/Redux/Redux Map.canvas",
     "Home.md",
+    "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "Language/Domain-specific programming languages.md",
     "Architecture/Domain-driven design.md",
     "Architecture/App Layers/Domain.md",
@@ -281,12 +285,10 @@
     "AI & Chatgpt/prompts/getTags.md",
     "AI & Chatgpt/prompts/getTitles.md",
     "AI & Chatgpt/prompts/Learning.md",
-    "AI & Chatgpt/prompts/New world prompt.md",
     "Companies/Interview/Joshua_Carpentier_Resume.pdf",
     "Joshua_Carpentier_Resume.docx.txt",
     "Joshua_Carpentier_Resume.docx",
     "_Pdf/Build+Your+API+with+Spring.pdf",
-    "Methodology/12 Factor App Docker.canvas",
     "Companies/Companies Worked At",
     "_Images/Interview/unnamed (4).gif",
     "_Images/numbers.png",
@@ -307,7 +309,6 @@
     "Architecture/_Web App Architecture.canvas",
     "Architecture/Event Driven Architecture.canvas",
     "Architecture/Untitled.canvas",
-    "Architecture/Java Logging.canvas",
-    "API/Gateway.canvas"
+    "Architecture/Java Logging.canvas"
   ]
 }

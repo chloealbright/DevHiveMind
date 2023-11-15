@@ -4,18 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e11ac42fd3f6e48c",
+        "id": "8101f8349169eb9f",
         "type": "tabs",
         "children": [
           {
-            "id": "a5f5b0ac4bf671b0",
+            "id": "fee9df6d8a167ed9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Error Log/Untitled.md",
-                "mode": "source",
-                "source": false
+                "file": "Methodology/12 Factor App Docker.canvas",
+                "viewState": {
+                  "x": -131.5,
+                  "y": -698.6502702702703,
+                  "zoom": -1.1086010164031257
+                }
               }
             }
           }
@@ -101,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Error Log/Untitled.md",
+                "file": "Methodology/12 Factor App Docker.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Error Log/Untitled.md",
+                "file": "Methodology/12 Factor App Docker.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Error Log/Untitled.md"
+                "file": "Methodology/12 Factor App Docker.canvas"
               }
             }
           },
@@ -196,19 +199,23 @@
             }
           },
           {
-            "id": "d5a0a4dcfe0379ea",
+            "id": "725590ae3877606c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "podcast_player_view",
+              "state": {}
+            }
+          },
+          {
+            "id": "ec1caa986d816420",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 9
       },
       {
         "id": "7e98245a429f273f",
@@ -256,11 +263,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e25196040b431f9d",
+  "active": "fee9df6d8a167ed9",
   "lastOpenFiles": [
+    "Home.md",
     "Error Log/Testing.md",
     "Error Log/Untitled.md",
-    "Home.md",
     "_Pdf/Roadmaps/python.pdf",
     "Dev Roadmaps By Priority.md",
     "Methodology/12 Factor App Docker.canvas",

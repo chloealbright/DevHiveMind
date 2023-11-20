@@ -7,4 +7,4 @@ Started:
 EditDate: 
 Relates:
 ---
-create note from template like `Alt +n`
+![[AI vs Machine vs Deep.png]]

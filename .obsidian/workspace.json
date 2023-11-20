@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "AI & Chatgpt/Components of AI.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "AI & Chatgpt/Components of AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "AI & Chatgpt/Components of AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "AI & Chatgpt/Components of AI.md"
               }
             }
           },
@@ -262,11 +262,19 @@
   },
   "active": "2526e8b9542d156e",
   "lastOpenFiles": [
+    "_Images/1_fUhClgI4aRBdFrAFFGx5Kw.gif",
     "_Images/049df48746348cf5cedbfcae3b8f301f.gif",
+    "_Images/2023-06-17 12.33.05 medium.com 1b671e128549.png",
+    "_Images/2023-06-17 12.38.06 medium.com 7a1fbbfaa1b5.png",
+    "_Images/2023-06-20 03.04.40 12factor.net ebc2480ac14d.png",
+    "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png",
+    "_Images/2023-10-24 23.32.58 miro.com e1b9a1a3bae9.png",
+    "_Images/1_AXw-H6_4gYbKlkA8d2u_cA.png",
+    "_Images/2Osh.gif",
+    "README.md",
     "_Images/Brain-Patterns-Illustration.gif",
     "Dev Roadmaps By Priority.md",
     "Architecture/Domain-driven design.md",
-    "README.md",
     "_Images/hive-_original-cut_.gif",
     "AI & Chatgpt/prompts/Talking better.md",
     "AI & Chatgpt/prompts/getEmailPos.md",
@@ -286,7 +294,6 @@
     "_CODE/_Capture/GRASP Design Principles.md",
     "_Pdf/Courses/Docker/Day 1_Docker.pdf",
     "_Pdf/Cheatsheet/Prompt CheatSheat.md",
-    "_Images/Pasted image 20231108135509.jpg",
     "AI & Chatgpt/prompts/Development/DB Prompts.md",
     "AI & Chatgpt/prompts/Development/Linux.md",
     "AI & Chatgpt/prompts/Development/Note Refiner.md",
@@ -301,14 +308,7 @@
     "Joshua_Carpentier_Resume.docx",
     "_Pdf/Build+Your+API+with+Spring.pdf",
     "Companies/Companies Worked At",
-    "_Images/Interview/unnamed (4).gif",
-    "_Images/numbers.png",
-    "_Images/Algo/unnamed (42).gif",
-    "_Images/Algo/unnamed (49).gif",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs",
-    "_Images/Algo/unnamed (35).gif",
-    "_Images/Algo/unnamed (34).gif",
-    "_Images/Algo/unnamed (36).gif",
     "Algorithms & Data Structures/Non-Linear Data Structures/Heap",
     "Testing/Untitled.canvas",
     "Cloud/OS/Linux/File system.canvas",

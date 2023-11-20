@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev Roadmaps By Priority.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev Roadmaps By Priority.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev Roadmaps By Priority.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dev Roadmaps By Priority.md"
+                "file": "README.md"
               }
             }
           },
@@ -212,7 +212,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 8
       },
       {
         "id": "7e98245a429f273f",
@@ -262,8 +262,10 @@
   },
   "active": "2526e8b9542d156e",
   "lastOpenFiles": [
-    "Architecture/Domain-driven design.md",
+    "_Images/049df48746348cf5cedbfcae3b8f301f.gif",
+    "_Images/Brain-Patterns-Illustration.gif",
     "Dev Roadmaps By Priority.md",
+    "Architecture/Domain-driven design.md",
     "README.md",
     "_Images/hive-_original-cut_.gif",
     "AI & Chatgpt/prompts/Talking better.md",
@@ -308,7 +310,6 @@
     "_Images/Algo/unnamed (34).gif",
     "_Images/Algo/unnamed (36).gif",
     "Algorithms & Data Structures/Non-Linear Data Structures/Heap",
-    "_Images/Algo/unnamed (20).gif",
     "Testing/Untitled.canvas",
     "Cloud/OS/Linux/File system.canvas",
     "Devops/Docker/Docker InDeph.canvas",

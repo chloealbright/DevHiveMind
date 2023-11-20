@@ -14,7 +14,7 @@ Relates:
 
 ## Main Long Quest
 #todo/High/Dev 
->Get to the level were you are doing 1 coding question a month while working full time
+>[!note] Get to the level were you are doing 1 coding question a month while working full time
 - [ ] [[Clean Code]]
 	- [ ] Code Reusability
 - [ ] [[Design Patterns.pdf]]

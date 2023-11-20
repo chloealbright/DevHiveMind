@@ -1,5 +1,5 @@
 
-![](_Images/hive-_original-cut_.gif)
+![](_Images/Brain-Patterns-Illustration.gif)
 
 <div style="text-align:center;"><h1>Dev Journey Knowledge Repository </h1></div>
 

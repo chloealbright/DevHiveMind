@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "81e51e4794410c79",
+        "id": "e039ae9bc36fa1a5",
         "type": "tabs",
         "children": [
           {
-            "id": "e3e125c337f46a60",
+            "id": "2526e8b9542d156e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -260,8 +260,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "2526e8b9542d156e",
   "lastOpenFiles": [
+    "AI & Chatgpt/prompts/getEmailPos.md",
+    "Untitled.md",
     "Home.md",
     "Error Log/Testing.md",
     "Error Log/Untitled.md",
@@ -289,11 +291,9 @@
     "AI & Chatgpt/prompts/Development/Software Tester.md",
     "AI & Chatgpt/prompts/Articles.md",
     "AI & Chatgpt/prompts/getEmailNeg.md",
-    "AI & Chatgpt/prompts/getEmailPos.md",
     "AI & Chatgpt/prompts/getOutline.md",
     "AI & Chatgpt/prompts/getParagraph.md",
     "AI & Chatgpt/prompts/getTags.md",
-    "AI & Chatgpt/prompts/getTitles.md",
     "Companies/Interview/Joshua_Carpentier_Resume.pdf",
     "Joshua_Carpentier_Resume.docx.txt",
     "Joshua_Carpentier_Resume.docx",

@@ -85,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 319.5,
+    "collapsed": true
   },
   "right": {
     "id": "eef3a19b1c6d3fd3",
@@ -262,13 +263,14 @@
   },
   "active": "2526e8b9542d156e",
   "lastOpenFiles": [
+    "Dev Roadmaps By Priority.md",
+    "README.md",
     "AI & Chatgpt/prompts/Talking better.md",
     "AI & Chatgpt/prompts/getEmailPos.md",
     "Home.md",
     "Error Log/Testing.md",
     "Error Log/Untitled.md",
     "_Pdf/Roadmaps/python.pdf",
-    "Dev Roadmaps By Priority.md",
     "Methodology/12 Factor App Docker.canvas",
     "Library/Frontend/Redux/Redux Map.canvas",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
@@ -280,7 +282,6 @@
     "_CODE/_Organize/Project idea.md",
     "_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part II  by aruva - empowering ideas  May, 2023  Medium.md",
     "_CODE/_Capture/GRASP Design Principles.md",
-    "README.md",
     "_Pdf/Courses/Docker/Day 1_Docker.pdf",
     "_Pdf/Cheatsheet/Prompt CheatSheat.md",
     "_Images/Pasted image 20231108135509.jpg",

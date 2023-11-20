@@ -4,21 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "8101f8349169eb9f",
+        "id": "81e51e4794410c79",
         "type": "tabs",
         "children": [
           {
-            "id": "fee9df6d8a167ed9",
+            "id": "e3e125c337f46a60",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Methodology/12 Factor App Docker.canvas",
-                "viewState": {
-                  "x": -131.5,
-                  "y": -698.6502702702703,
-                  "zoom": -1.1086010164031257
-                }
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methodology/12 Factor App Docker.canvas",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methodology/12 Factor App Docker.canvas",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methodology/12 Factor App Docker.canvas"
+                "file": "README.md"
               }
             }
           },
@@ -263,7 +260,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fee9df6d8a167ed9",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
     "Home.md",
     "Error Log/Testing.md",

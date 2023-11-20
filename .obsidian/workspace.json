@@ -13,48 +13,12 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Architecture/Untitled.canvas",
+                "file": "Architecture/Domain.canvas",
                 "viewState": {
-                  "x": 928.5,
-                  "y": 190,
-                  "zoom": -2.206038487580261
+                  "x": -160.18924995628788,
+                  "y": 464.5349898106567,
+                  "zoom": -0.4
                 }
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "bfc9a3104c4bfcb8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3e46338884a75b41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Domain-driven design.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "73a87a94ada71ab3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2618ff73ec69657b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/Domain-specific programming languages.md",
-                "mode": "source",
-                "source": false
               }
             }
           }
@@ -140,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Untitled.canvas",
+                "file": "Architecture/Domain.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Untitled.canvas",
+                "file": "Architecture/Domain.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Untitled.canvas"
+                "file": "Architecture/Domain.canvas"
               }
             }
           },
@@ -284,8 +248,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "a6b049dbb8ea080e",
   "lastOpenFiles": [
+    "_Images/5gjkhijtkbz5w4ev3yk8.png",
+    "_Images/mvvc.png",
+    "_Images/4s3gs5x0fn18qezbfgo5.png",
+    "_Images/domain-driven-design-clean-architecture.png",
+    "_Images/0_jBumIz96FvPSI-Pg.jpg",
+    "_Images/_01.png",
+    "Architecture/Untitled.canvas",
+    "Architecture/Domain.canvas",
     "Architecture/_Web App Architecture.canvas",
     "Architecture/Untitled.md",
     "Architecture/_Command and Query Responsibility Segregation.canvas",
@@ -300,11 +272,6 @@
     "_Images/1_fUhClgI4aRBdFrAFFGx5Kw.gif",
     "_Images/049df48746348cf5cedbfcae3b8f301f.gif",
     "_Images/2023-06-17 12.33.05 medium.com 1b671e128549.png",
-    "_Images/2023-06-17 12.38.06 medium.com 7a1fbbfaa1b5.png",
-    "_Images/2023-06-20 03.04.40 12factor.net ebc2480ac14d.png",
-    "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png",
-    "_Images/2023-10-24 23.32.58 miro.com e1b9a1a3bae9.png",
-    "_Images/1_AXw-H6_4gYbKlkA8d2u_cA.png",
     "README.md",
     "Dev Roadmaps By Priority.md",
     "AI & Chatgpt/prompts/Talking better.md",
@@ -338,8 +305,6 @@
     "Testing/Untitled.canvas",
     "Cloud/OS/Linux/File system.canvas",
     "Devops/Docker/Docker InDeph.canvas",
-    "Architecture/Event Driven Architecture.canvas",
-    "Architecture/Untitled.canvas",
-    "Architecture/Java Logging.canvas"
+    "Architecture/Event Driven Architecture.canvas"
   ]
 }

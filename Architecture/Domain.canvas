@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"20c34c3088dc97c9","x":-310,"y":340,"width":633,"height":465,"type":"file","file":"_Images/0_jBumIz96FvPSI-Pg.jpg"},
+		{"id":"4d470de43f43301b","x":480,"y":108,"width":368,"height":368,"type":"file","file":"_Images/domain-driven-design-clean-architecture.png"},
+		{"id":"7182da20f979ec04","x":-780,"y":108,"width":380,"height":368,"type":"file","file":"_Images/_01.png"},
+		{"id":"2ae56e0ccd2ed202","x":-612,"y":-500,"width":1276,"height":580,"type":"file","file":"_Images/4s3gs5x0fn18qezbfgo5.png"},
+		{"id":"97637f721ecc8922","x":-1120,"y":500,"width":775,"height":407,"type":"file","file":"_Images/mvvc.png"},
+		{"id":"c62c88e8d8434a02","x":-310,"y":141,"width":403,"height":151,"type":"text","text":"# Entity, Value Object, Domain Event, and Aggregate are considered the domain model    "},
+		{"id":"363e16e7333b2356","x":264,"y":-920,"width":400,"height":400,"type":"file","file":"_Images/5gjkhijtkbz5w4ev3yk8.png"},
+		{"id":"ccc74bad11ad07a3","x":-314,"y":840,"width":340,"height":196,"type":"text","text":"# App service is basically the view model in MVVC"}
+	],
+	"edges":[]
+}

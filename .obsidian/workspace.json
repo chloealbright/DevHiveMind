@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Dev Roadmaps By Priority.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5,
-    "collapsed": true
+    "width": 319.5
   },
   "right": {
     "id": "eef3a19b1c6d3fd3",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Dev Roadmaps By Priority.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Dev Roadmaps By Priority.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Dev Roadmaps By Priority.md"
               }
             }
           },
@@ -263,8 +262,10 @@
   },
   "active": "2526e8b9542d156e",
   "lastOpenFiles": [
+    "Architecture/Domain-driven design.md",
     "Dev Roadmaps By Priority.md",
     "README.md",
+    "_Images/hive-_original-cut_.gif",
     "AI & Chatgpt/prompts/Talking better.md",
     "AI & Chatgpt/prompts/getEmailPos.md",
     "Home.md",
@@ -275,7 +276,6 @@
     "Library/Frontend/Redux/Redux Map.canvas",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "Language/Domain-specific programming languages.md",
-    "Architecture/Domain-driven design.md",
     "Architecture/App Layers/Domain.md",
     "_CODE/Express/Dev things to Focus on.md",
     "_CODE/Express/Dev Todo.md",
@@ -294,7 +294,6 @@
     "AI & Chatgpt/prompts/getEmailNeg.md",
     "AI & Chatgpt/prompts/getOutline.md",
     "AI & Chatgpt/prompts/getParagraph.md",
-    "AI & Chatgpt/prompts/getTags.md",
     "Companies/Interview/Joshua_Carpentier_Resume.pdf",
     "Joshua_Carpentier_Resume.docx.txt",
     "Joshua_Carpentier_Resume.docx",
@@ -310,7 +309,6 @@
     "_Images/Algo/unnamed (36).gif",
     "Algorithms & Data Structures/Non-Linear Data Structures/Heap",
     "_Images/Algo/unnamed (20).gif",
-    "_Images/postOrder.gif",
     "Testing/Untitled.canvas",
     "Cloud/OS/Linux/File system.canvas",
     "Devops/Docker/Docker InDeph.canvas",

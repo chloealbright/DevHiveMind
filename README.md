@@ -1,6 +1,5 @@
 
-
-![[hive-_original-cut_.gif]]
+![](_Images/hive-_original-cut_.gif)
 
 <div style="text-align:center;"><h1>Dev Journey Knowledge Repository </h1></div>
 

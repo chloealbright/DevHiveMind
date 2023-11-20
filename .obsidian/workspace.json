@@ -4,21 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "3f0e6bbc98e0969a",
+        "id": "a3370d2e26b9ad18",
         "type": "tabs",
         "children": [
           {
-            "id": "a6b049dbb8ea080e",
+            "id": "500453878dc76dc4",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Architecture/Domain.canvas",
-                "viewState": {
-                  "x": 147.5640732612203,
-                  "y": -460.884043624742,
-                  "zoom": -0.9999999999999999
-                }
+                "file": "_Template/Untitled 4.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Domain.canvas",
+                "file": "_Template/Untitled 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Domain.canvas",
+                "file": "_Template/Untitled 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Domain.canvas"
+                "file": "_Template/Untitled 4.md"
               }
             }
           },
@@ -248,8 +245,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a6b049dbb8ea080e",
+  "active": "500453878dc76dc4",
   "lastOpenFiles": [
+    "_Images/Brain-Patterns-Illustration.gif",
+    "Home.md",
     "_Images/Arch/d947748b2854a0f112e386cff0520807.gif",
     "_Images/Arch/GetImage (5).jpeg",
     "_Images/Arch/GetImage (14).png",
@@ -260,7 +259,6 @@
     "_Images/1_AXw-H6_4gYbKlkA8d2u_cA.png",
     "_Images/1_fUhClgI4aRBdFrAFFGx5Kw.gif",
     "_Images/Arch/4s3gs5x0fn18qezbfgo5.png",
-    "_Images/Arch/5gjkhijtkbz5w4ev3yk8.png",
     "_Images/Ban.md",
     "Architecture/Domain.canvas",
     "AI & Chatgpt/AI Layers.md",
@@ -272,7 +270,6 @@
     "Architecture/App Layers/Domain stuff.md",
     "Architecture/Domain-driven design.md",
     "_Template/_Regular  Note.md",
-    "Home.md",
     "README.md",
     "Dev Roadmaps By Priority.md",
     "AI & Chatgpt/prompts/Talking better.md",

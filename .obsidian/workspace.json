@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class inheritance Python vs Java.md",
+                "file": "Language/Bash/script.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "inheritance",
+                "query": "Python",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -94,7 +94,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -114,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Class inheritance Python vs Java.md",
+                "file": "Language/Bash/script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Class inheritance Python vs Java.md",
+                "file": "Language/Bash/script.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Class inheritance Python vs Java.md"
+                "file": "Language/Bash/script.md"
               }
             }
           },
@@ -267,6 +268,9 @@
   },
   "active": "7fca71ef227f4557",
   "lastOpenFiles": [
+    "Language/Python/Python World.md",
+    "AI & Chatgpt/prompts/Development/Python DEV.md",
+    "Architecture/Microservices.md",
     "Class inheritance Python vs Java.md",
     "Language Overlap/Inheritance Composition Encapsulation.md",
     "Reactive Microservices.md",
@@ -303,9 +307,6 @@
     "Algorithms & Data Structures/Hashmap.md",
     "Algorithms & Data Structures/Recursion/The Six Core Patterns of Recursion.md",
     "Algorithms & Data Structures/Optimize & Solving Technique.md",
-    "_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md",
-    "Hardware & Code/CPUs.md",
-    "Companies/Interview/Compressed Interview Template.md",
     "Architecture/Untitled.canvas",
     "Architecture/_Web App Architecture.canvas",
     "Architecture/_Command and Query Responsibility Segregation.canvas",

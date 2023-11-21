@@ -31,6 +31,9 @@ You can define microservices in yaml file
 
 
 
+In the realm of microservices and software development, it's imperative that systems exhibit responsiveness, resilience, elasticity, and embrace a message-driven architecture. This ensures not only efficient handling of tasks but also enhances adaptability to varying workloads. Responsive systems promptly react to user inputs, while resilient ones gracefully recover from failures. Elasticity facilitates scalability, enabling systems to handle fluctuating demands seamlessly. Incorporating a message-driven approach promotes effective communication between components, fostering a robust and interconnected software ecosystem.
+
+
 ##  Strangler Design
 
 The strangler design pattern is a popular design pattern to incrementally transform your monolithic application to microservices by replacing old functionality with a new service. Once the new component is ready, the old component is strangled and a new one is put to use.  

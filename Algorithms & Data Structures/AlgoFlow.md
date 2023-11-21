@@ -34,7 +34,7 @@ Always keep scope in mind. Solving the right problems and understanding their im
 
 ## Storing Data in Data Structures
 
-In data structures, **[[Dictionaries]]** and **[[Hashmap]]** are valuable tools for efficient data storage, particularly when dealing with values that appear multiple times in an array. This is particularly useful to avoid nested for loops, which can lead to inefficient O(n^2) algorithms.
+In data structures, **[[Dictionaries]]** and **[[Map#Hashmap vs. Map | Hash Map]]** are valuable tools for efficient data storage, particularly when dealing with values that appear multiple times in an array. This is particularly useful to avoid nested for loops, which can lead to inefficient O(n^2) algorithms.
 
 - **Bubble Sort**: This algorithm repeatedly moves through the list, comparing adjacent elements and swapping them if they are in the wrong order. Worst case runtime is **O(n^2) 
 

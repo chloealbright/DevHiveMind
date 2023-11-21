@@ -4,35 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "b01b26c9c52fe23e",
+        "id": "0f8523a6efbf45af",
         "type": "tabs",
         "children": [
           {
-            "id": "d159890eb5a1fa00",
+            "id": "575b2676cb60b860",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Algorithm Pattern vs Simple Solution.md",
-                "mode": "source",
-                "source": false
+                "file": "_Images/download.jpeg"
               }
             }
           },
           {
-            "id": "6686cb43a9bf8637",
+            "id": "67d6955c7e10a13b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Algorithms & Data Structures/AlgoFlow.md",
-                "mode": "source",
-                "source": false
+                "file": "Architecture/Domain.canvas",
+                "viewState": {
+                  "x": -811.4864097416188,
+                  "y": 523.3659784682243,
+                  "zoom": -0.6763916841029828
+                }
               }
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "b7dc12b27e04e342",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7cc70189b20f0f9b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "greedy",
+                "query": "Hashmap",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -94,8 +111,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -115,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/AlgoFlow.md",
+                "file": "_Images/Pasted image 20231120192955.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/AlgoFlow.md",
+                "file": "_Images/Pasted image 20231120192955.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/AlgoFlow.md"
+                "file": "_Images/Pasted image 20231120192955.jpg"
               }
             }
           },
@@ -259,8 +275,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6686cb43a9bf8637",
+  "active": "67d6955c7e10a13b",
   "lastOpenFiles": [
+    "_Images/Pasted image 20231120192955.jpg",
+    "Error Log/Untitled.md",
+    "Methodology/12 Factor App Docker.canvas",
+    "_Images/download.jpeg",
+    "Methodology/Staged Deployment.md",
+    "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png",
+    "_Images/2023-06-20 03.04.40 12factor.net ebc2480ac14d.png",
+    "_Images/2023-06-17 12.40.37 medium.com f998423bbe5f.png",
+    "_Images/2023-06-17 12.38.06 medium.com 7a1fbbfaa1b5.png",
+    "_Images/2023-06-17 12.34.59 medium.com 7cf69549fdf5.png",
+    "_Images/2023-06-17 12.33.05 medium.com 1b671e128549.png",
+    "_Images/2023-06-17 12.32.33 medium.com 208fcebdac2c.png",
+    "_Images/2023-06-17 12.23.43 medium.com 7444e17e7519.png",
+    "_Images/049df48746348cf5cedbfcae3b8f301f.gif",
+    "Home.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Map.md",
+    "Algorithms & Data Structures/AlgoFlow.md",
+    "Algorithms & Data Structures/Hashmap.md",
     "Algorithms & Data Structures/Recursion/The Six Core Patterns of Recursion.md",
     "Algorithms & Data Structures/Optimize & Solving Technique.md",
     "_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md",
@@ -271,17 +305,6 @@
     "Algorithms & Data Structures/Algo/Algorithm Pattern vs Simple Solution.md",
     "Companies/Interview/Whiteboard Interview.md",
     "Companies/Interview/Steps to Problem on Interview.md",
-    "Home.md",
-    "_Images/Brain-Patterns-Illustration.gif",
-    "_Images/Arch/d947748b2854a0f112e386cff0520807.gif",
-    "_Images/Arch/GetImage (5).jpeg",
-    "_Images/Arch/GetImage (14).png",
-    "_Images/Arch/GetImage (18).png",
-    "_Images/Arch/GetImage (17).png",
-    "_Images/Arch/GetImage (19).png",
-    "_Images/Arch/Pasted image 20230418082710.jpg",
-    "_Images/1_AXw-H6_4gYbKlkA8d2u_cA.png",
-    "_Images/1_fUhClgI4aRBdFrAFFGx5Kw.gif",
     "_Images/Ban.md",
     "Architecture/Domain.canvas",
     "AI & Chatgpt/AI Layers.md",
@@ -295,16 +318,9 @@
     "_Template/_Regular  Note.md",
     "README.md",
     "Dev Roadmaps By Priority.md",
-    "AI & Chatgpt/prompts/Talking better.md",
-    "AI & Chatgpt/prompts/getEmailPos.md",
-    "Error Log/Testing.md",
-    "Error Log/Untitled.md",
     "_Pdf/Roadmaps/python.pdf",
-    "Methodology/12 Factor App Docker.canvas",
     "Library/Frontend/Redux/Redux Map.canvas",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
-    "Language/Domain-specific programming languages.md",
-    "_CODE/Express/Dev things to Focus on.md",
     "_Pdf/Courses/Docker/Day 1_Docker.pdf",
     "Companies/Interview/Joshua_Carpentier_Resume.pdf",
     "Joshua_Carpentier_Resume.docx.txt",

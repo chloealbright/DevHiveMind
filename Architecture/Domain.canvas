@@ -7,7 +7,8 @@
 		{"id":"c62c88e8d8434a02","type":"text","text":"# Entity, Value Object, Domain Event, and Aggregate are considered the domain model    ","x":-310,"y":141,"width":403,"height":151},
 		{"id":"363e16e7333b2356","type":"file","file":"_Images/Arch/5gjkhijtkbz5w4ev3yk8.png","x":264,"y":-920,"width":400,"height":400},
 		{"id":"ccc74bad11ad07a3","type":"text","text":"# App service is basically the view model in MVVC","x":-314,"y":840,"width":340,"height":196},
-		{"id":"07eb76e7842f03d9","type":"file","file":"_Images/Pasted image 20231120170149.png","x":-1000,"y":102,"width":621,"height":380}
+		{"id":"07eb76e7842f03d9","type":"file","file":"_Images/Pasted image 20231120170149.png","x":-1000,"y":102,"width":621,"height":380},
+		{"id":"e77d4074fc1a6c34","x":-1200,"y":178,"width":400,"height":229,"type":"file","file":"_Images/Pasted image 20231120192955.jpg"}
 	],
 	"edges":[]
 }

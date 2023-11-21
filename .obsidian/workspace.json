@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "a3370d2e26b9ad18",
+        "id": "b01b26c9c52fe23e",
         "type": "tabs",
         "children": [
           {
-            "id": "500453878dc76dc4",
+            "id": "d159890eb5a1fa00",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Template/Untitled 4.md",
+                "file": "Algorithms & Data Structures/Algo/Algorithm Pattern vs Simple Solution.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6686cb43a9bf8637",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/AlgoFlow.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "domain",
+                "query": "greedy",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -81,7 +94,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -101,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Template/Untitled 4.md",
+                "file": "Algorithms & Data Structures/AlgoFlow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Template/Untitled 4.md",
+                "file": "Algorithms & Data Structures/AlgoFlow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Template/Untitled 4.md"
+                "file": "Algorithms & Data Structures/AlgoFlow.md"
               }
             }
           },
@@ -245,10 +259,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "500453878dc76dc4",
+  "active": "6686cb43a9bf8637",
   "lastOpenFiles": [
-    "_Images/Brain-Patterns-Illustration.gif",
+    "Algorithms & Data Structures/Recursion/The Six Core Patterns of Recursion.md",
+    "Algorithms & Data Structures/Optimize & Solving Technique.md",
+    "_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md",
+    "Hardware & Code/CPUs.md",
+    "Companies/Interview/Compressed Interview Template.md",
+    "Companies/Interview/Coding Regimen.md",
+    "Codebase Architecture Decisions/BUD.md",
+    "Algorithms & Data Structures/Algo/Algorithm Pattern vs Simple Solution.md",
+    "Companies/Interview/Whiteboard Interview.md",
+    "Companies/Interview/Steps to Problem on Interview.md",
     "Home.md",
+    "_Images/Brain-Patterns-Illustration.gif",
     "_Images/Arch/d947748b2854a0f112e386cff0520807.gif",
     "_Images/Arch/GetImage (5).jpeg",
     "_Images/Arch/GetImage (14).png",
@@ -258,7 +282,6 @@
     "_Images/Arch/Pasted image 20230418082710.jpg",
     "_Images/1_AXw-H6_4gYbKlkA8d2u_cA.png",
     "_Images/1_fUhClgI4aRBdFrAFFGx5Kw.gif",
-    "_Images/Arch/4s3gs5x0fn18qezbfgo5.png",
     "_Images/Ban.md",
     "Architecture/Domain.canvas",
     "AI & Chatgpt/AI Layers.md",
@@ -282,16 +305,7 @@
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "Language/Domain-specific programming languages.md",
     "_CODE/Express/Dev things to Focus on.md",
-    "_CODE/Express/Dev Todo.md",
-    "_CODE/_Organize/Project idea.md",
-    "_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part II  by aruva - empowering ideas  May, 2023  Medium.md",
-    "_CODE/_Capture/GRASP Design Principles.md",
     "_Pdf/Courses/Docker/Day 1_Docker.pdf",
-    "_Pdf/Cheatsheet/Prompt CheatSheat.md",
-    "AI & Chatgpt/prompts/Development/DB Prompts.md",
-    "AI & Chatgpt/prompts/Development/Linux.md",
-    "AI & Chatgpt/prompts/Development/Note Refiner.md",
-    "AI & Chatgpt/prompts/Development/Python DEV.md",
     "Companies/Interview/Joshua_Carpentier_Resume.pdf",
     "Joshua_Carpentier_Resume.docx.txt",
     "Joshua_Carpentier_Resume.docx",

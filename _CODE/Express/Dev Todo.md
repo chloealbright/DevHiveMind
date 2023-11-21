@@ -66,7 +66,8 @@ Or a read to see if a sort is needed
 ## Books
 #todo/Read/Books  
 - [ ] The Richest Man in Babylon by George Samuel Clason
-- [x] Clean code 
+- [ ] Grokking Algorithms📅 2023-12-21 
+- [ ] Clean Code A Handbook of Agile Software Craftsmanship 📅 2023-12-30 
 - [ ] Design Patterns
 
 ## Medium

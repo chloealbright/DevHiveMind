@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Codebase Architecture Decisions/Naming Conventions.md",
+                "file": "_CODE/Express/Dev Todo.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,8 +111,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -132,7 +131,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Codebase Architecture Decisions/Naming Conventions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +147,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Codebase Architecture Decisions/Naming Conventions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,9 +168,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Codebase Architecture Decisions/Naming Conventions.md"
-              }
+              "state": {}
             }
           },
           {
@@ -225,9 +220,17 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "db7e8c15a146d88c",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-google-keep",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       },
       {
         "id": "7e98245a429f273f",
@@ -245,8 +248,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5,
-    "collapsed": true
+    "width": 345.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -276,10 +278,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7cc70189b20f0f9b",
+  "active": "db7e8c15a146d88c",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/AlgoFlow.md",
+    "_CODE/Express/Dev Todo.md",
+    "_CODE/Express/Be Aware.md",
+    "_CODE/Express/Algo left to over to do.md",
+    "_CODE/Distill/_Perpetual BAU.md",
     "Codebase Architecture Decisions/Naming Conventions.md",
+    "Algorithms & Data Structures/AlgoFlow.md",
     "Architecture/Domain-driven design.md",
     "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png",
     "_CODE/_Capture/Mutex.md",
@@ -313,10 +319,6 @@
     "Codebase Architecture Decisions/BUD.md",
     "Algorithms & Data Structures/Algo/Algorithm Pattern vs Simple Solution.md",
     "Companies/Interview/Whiteboard Interview.md",
-    "Companies/Interview/Steps to Problem on Interview.md",
-    "_Images/Ban.md",
-    "AI & Chatgpt/AI Layers.md",
-    "AI & Chatgpt/Components of AI.md",
     "Architecture/Untitled.canvas",
     "Architecture/_Web App Architecture.canvas",
     "Architecture/_Command and Query Responsibility Segregation.canvas",

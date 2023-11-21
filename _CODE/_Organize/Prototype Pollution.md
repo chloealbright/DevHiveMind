@@ -11,6 +11,7 @@ Relates:
 ---
 Prototype pollution is a security vulnerability in JavaScript that occurs when an attacker manipulates the prototype of an object to introduce or modify properties and methods. This can have unintended consequences, leading to security risks. Here's an explanation of prototype pollution:
 
+unit test are also good for detect pollution
 ### Understanding Prototype Pollution:
 
 1. **Prototypes in JavaScript:**
@@ -311,6 +312,7 @@ Static Application Security Testing (SAST), Dynamic Application Security Testing
 - **Overview:**
   - SAST is a white-box testing methodology that analyzes the application's source code, byte code, or binary code without executing the application.
   - It scans the application for potential security vulnerabilities by examining the code structure, data flow, and control flow.
+  - eslint falls under this
 
 - **Key Features:**
   - Early Detection: SAST is performed during the development phase, allowing for the early identification of vulnerabilities.

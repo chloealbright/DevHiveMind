@@ -23,7 +23,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "_Pdf/Cheatsheet/1699606002219.jpeg"
+                "file": "Open Source/1698853514812.jpeg"
               }
             }
           }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Hashmap",
+                "query": "MVVM",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Pdf/Cheatsheet/1699606002219.jpeg",
+                "file": "Open Source/1698853514812.jpeg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Pdf/Cheatsheet/1699606002219.jpeg",
+                "file": "Open Source/1698853514812.jpeg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Pdf/Cheatsheet/1699606002219.jpeg"
+                "file": "Open Source/1698853514812.jpeg"
               }
             }
           },
@@ -272,9 +272,13 @@
   },
   "active": "67d6955c7e10a13b",
   "lastOpenFiles": [
-    "_Pdf/Cheatsheet/1699606002219 1.jpeg",
-    "_Pdf/Cheatsheet/1699606002219.jpeg",
     "Web/1700239541390.gif",
+    "Open Source/1698853514812.jpeg",
+    "Web/Url.canvas",
+    "_Images/1699289122056.gif",
+    "Architecture/MVVM.md",
+    "_Pdf/Cheatsheet/1699606002219.jpeg",
+    "_Pdf/Cheatsheet/1699606002219 1.jpeg",
     "Architecture/Domain.canvas",
     "_Images/1700239541390 1.gif",
     "_Images/1700239541390.gif",
@@ -285,8 +289,6 @@
     "Methodology/Staged Deployment.md",
     "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png",
     "_Images/2023-06-20 03.04.40 12factor.net ebc2480ac14d.png",
-    "_Images/2023-06-17 12.40.37 medium.com f998423bbe5f.png",
-    "_Images/2023-06-17 12.38.06 medium.com 7a1fbbfaa1b5.png",
     "Home.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Map.md",
     "Algorithms & Data Structures/AlgoFlow.md",
@@ -312,7 +314,6 @@
     "Architecture/Domain-driven design.md",
     "_Template/_Regular  Note.md",
     "README.md",
-    "Dev Roadmaps By Priority.md",
     "_Pdf/Roadmaps/python.pdf",
     "Library/Frontend/Redux/Redux Map.canvas",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
@@ -326,7 +327,6 @@
     "Algorithms & Data Structures/Non-Linear Data Structures/Heap",
     "Testing/Untitled.canvas",
     "Cloud/OS/Linux/File system.canvas",
-    "Devops/Docker/Docker InDeph.canvas",
-    "Architecture/Event Driven Architecture.canvas"
+    "Devops/Docker/Docker InDeph.canvas"
   ]
 }

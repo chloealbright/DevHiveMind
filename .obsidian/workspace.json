@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Algorithms & Data Structures/AlgoFlow.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -41,11 +41,14 @@
             "id": "7cc70189b20f0f9b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "_CODE/Express/Dev Todo.md",
-                "mode": "source",
-                "source": false
+                "file": "Testing/Untitled.canvas",
+                "viewState": {
+                  "x": 52.89780368484821,
+                  "y": -135.25133959956943,
+                  "zoom": -0.021034013120174166
+                }
               }
             }
           }
@@ -131,6 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Testing/Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,6 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Testing/Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Testing/Untitled.canvas"
+              }
             }
           },
           {
@@ -278,14 +285,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "db7e8c15a146d88c",
+  "active": "7cc70189b20f0f9b",
   "lastOpenFiles": [
+    "Testing/other test.md",
     "_CODE/Express/Dev Todo.md",
+    "Algorithms & Data Structures/AlgoFlow.md",
     "_CODE/Express/Be Aware.md",
     "_CODE/Express/Algo left to over to do.md",
     "_CODE/Distill/_Perpetual BAU.md",
     "Codebase Architecture Decisions/Naming Conventions.md",
-    "Algorithms & Data Structures/AlgoFlow.md",
     "Architecture/Domain-driven design.md",
     "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png",
     "_CODE/_Capture/Mutex.md",
@@ -318,7 +326,6 @@
     "Companies/Interview/Coding Regimen.md",
     "Codebase Architecture Decisions/BUD.md",
     "Algorithms & Data Structures/Algo/Algorithm Pattern vs Simple Solution.md",
-    "Companies/Interview/Whiteboard Interview.md",
     "Architecture/Untitled.canvas",
     "Architecture/_Web App Architecture.canvas",
     "Architecture/_Command and Query Responsibility Segregation.canvas",

@@ -77,9 +77,9 @@ function minCoinsBruteForce(coins, amount) {
 ```
 
 **Naïve Algorithm**: 
-An approach that might be optimal but can be further optimized.
+The Naive approach is an improvement over Brute Force, providing a better guess that is often more optimal, but it may still have room for further optimization or some times your best guess can end up being the most optimal choice.
 
-The Naïve algorithm would involve dynamic programming to find the minimum number of coins.
+The Naive algorithm in this scenario involves dynamic programming to find the minimum number of coins.
 
 ```javascript
 function minCoinsNaive(coins, amount) {
@@ -121,6 +121,8 @@ function minCoinsGreedy(coins, amount) {
 
 
 **Optimal Algorithm**: 
-The true optimal solution, often involving sorting.
+Optimal approaches aim for the most efficient solution based on the problem. While certain algorithm patterns may seem optimal, it depends on the specific problem at hand.
 
-The Optimal algorithm would be the same as the Naïve algorithm, as it's the most efficient approach for solving the minimum coin change problem.
+The true optimal solution, often involving sorting. In this scenario the Optimal algorithm would be the same as the Naive algorithm, as it's the most efficient approach for solving the minimum coin change problem.
+
+When tackling coding challenges, especially when implementing advanced patterns, refrain from defaulting to a specific coding pattern in your approach. Take the time to analyze the problem thoroughly, considering various factors, as blindly choosing a pattern may limit your perspective and hinder a comprehensive solution. Like for example assuming every string or array question best approach is either a sliding window or two pointer this is lazy thinking and waste time.

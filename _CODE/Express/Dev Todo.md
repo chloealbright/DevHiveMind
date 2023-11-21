@@ -94,7 +94,7 @@ Or a read to see if a sort is needed
 - [ ] [https://www.youtube.com/watch?v=FdjVoOf9HN4&t=480s](https://www.youtube.com/watch?v=FdjVoOf9HN4&t=480s)  
 - [ ] read [Symbolic link](Symbolic%20link.md)
 - [ ] create a bot  
-	> can you create a LinkedIn bot to assist me to in reposting about Technology and programming
+	> can you create a LinkedIn bot to assist me to in re-posting about Technology and programming
 
 
 

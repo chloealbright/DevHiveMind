@@ -20,6 +20,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "73a87a94ada71ab3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bcac8d5771028a46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/Domain-specific programming languages.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_CODE/_Organize/Prototype Pollution.md",
+                "file": "Language/Domain-specific programming languages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_CODE/_Organize/Prototype Pollution.md",
+                "file": "Language/Domain-specific programming languages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_CODE/_Organize/Prototype Pollution.md"
+                "file": "Language/Domain-specific programming languages.md"
               }
             }
           },
@@ -245,10 +263,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "da415075086544b4",
+  "active": "bcac8d5771028a46",
   "lastOpenFiles": [
-    "_CODE/_Organize/Unsafe functions.md",
     "_CODE/_Organize/Prototype Pollution.md",
+    "_CODE/_Organize/Unsafe functions.md",
     "Home.md",
     "Architecture/Domain-driven design.md",
     "Architecture/App Layers/Domain stuff.md",

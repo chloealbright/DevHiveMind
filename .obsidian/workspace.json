@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/AlgoFlow.md",
+                "file": "Codebase Architecture Decisions/Naming Conventions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/AlgoFlow.md",
+                "file": "Codebase Architecture Decisions/Naming Conventions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/AlgoFlow.md"
+                "file": "Codebase Architecture Decisions/Naming Conventions.md"
               }
             }
           },
@@ -276,14 +276,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "575b2676cb60b860",
+  "active": "7cc70189b20f0f9b",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/AlgoFlow.md",
     "Codebase Architecture Decisions/Naming Conventions.md",
     "Architecture/Domain-driven design.md",
     "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png",
     "_CODE/_Capture/Mutex.md",
     "Architecture/Event Storming.md",
-    "Algorithms & Data Structures/AlgoFlow.md",
     "Home.md",
     "_Images/unnamed (6).gif",
     "_Images/unnamed (4).gif",

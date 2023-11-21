@@ -21,9 +21,11 @@
             "id": "67d6955c7e10a13b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Security/1699170000926.jpeg"
+                "file": "Devops/Continuous Deployment.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -126,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security/1699170000926.jpeg",
+                "file": "Devops/Continuous Deployment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security/1699170000926.jpeg",
+                "file": "Devops/Continuous Deployment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security/1699170000926.jpeg"
+                "file": "Devops/Continuous Deployment.md"
               }
             }
           },
@@ -272,8 +274,8 @@
   },
   "active": "67d6955c7e10a13b",
   "lastOpenFiles": [
-    "Open Source/1698853514812.jpeg",
     "Security/1699170000926.jpeg",
+    "Open Source/1698853514812.jpeg",
     "Web/1700239541390.gif",
     "Web/Url.canvas",
     "_Images/1699289122056.gif",

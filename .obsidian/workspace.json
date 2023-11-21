@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Event Storming.md",
+                "file": "Architecture/Domain-driven design.md",
                 "mode": "source",
                 "source": false
               }
@@ -41,9 +41,11 @@
             "id": "7cc70189b20f0f9b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png"
+                "file": "Codebase Architecture Decisions/Naming Conventions.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -76,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Event storming",
+                "query": "name convent",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -276,6 +278,12 @@
   },
   "active": "575b2676cb60b860",
   "lastOpenFiles": [
+    "Codebase Architecture Decisions/Naming Conventions.md",
+    "Architecture/Domain-driven design.md",
+    "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png",
+    "_CODE/_Capture/Mutex.md",
+    "Architecture/Event Storming.md",
+    "Algorithms & Data Structures/AlgoFlow.md",
     "Home.md",
     "_Images/unnamed (6).gif",
     "_Images/unnamed (4).gif",
@@ -286,9 +294,6 @@
     "_Images/server (1).png",
     "_Images/quicksort.png",
     "_Images/preOrder.gif",
-    "_Images/Platforms.jpg",
-    "Architecture/Event Storming.md",
-    "Architecture/Domain-driven design.md",
     "Testing/Smoke test.md",
     "Devops/Continuous Deployment.md",
     "Web/Url.canvas",
@@ -298,7 +303,6 @@
     "Methodology/12 Factor App Docker.canvas",
     "Methodology/Staged Deployment.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Map.md",
-    "Algorithms & Data Structures/AlgoFlow.md",
     "Algorithms & Data Structures/Hashmap.md",
     "Algorithms & Data Structures/Recursion/The Six Core Patterns of Recursion.md",
     "Algorithms & Data Structures/Optimize & Solving Technique.md",
@@ -315,7 +319,6 @@
     "AI & Chatgpt/Components of AI.md",
     "Architecture/Untitled.canvas",
     "Architecture/_Web App Architecture.canvas",
-    "Architecture/Untitled.md",
     "Architecture/_Command and Query Responsibility Segregation.canvas",
     "_Pdf/Roadmaps/python.pdf",
     "Library/Frontend/Redux/Redux Map.canvas",

@@ -60,3 +60,29 @@ Use Problem Domain Names
 When there is no “programmer-eese” for what you’re doing, use the name from the problem domain. At least the programmer who maintains your code can ask a domain expert what it means. 
 
 Separating solution and problem domain concepts is part of the job of a good programmer and designer. The code that has more to do with problem domain concepts should have names drawn from the problem domain.
+
+
+
+
+
+In domain-driven design, when naming events or creating classes around events, it is advisable to use the past tense. For instance, you might name events like "AppointmentCreated" or "AppointmentConfirmed." Here's an example in TypeScript:
+
+```typescript
+// Event class for appointment creation
+class AppointmentCreated {
+    constructor(public appointmentId: string, public details: string) {}
+}
+
+// Event class for appointment confirmation
+class AppointmentConfirmed {
+    constructor(public appointmentId: string, public confirmationDate: Date) {}
+}
+
+// Example usage
+const newAppointmentEvent = new AppointmentCreated("123", "Meeting with client");
+const confirmedAppointmentEvent = new AppointmentConfirmed("123", new Date());
+
+// Further actions with these events...
+```
+
+Using past tense in event naming helps convey that the event represents something that has already occurred in the domain.

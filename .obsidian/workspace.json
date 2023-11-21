@@ -11,9 +11,11 @@
             "id": "575b2676cb60b860",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_Images/download.jpeg"
+                "file": "Algorithms & Data Structures/AlgoFlow.md",
+                "mode": "preview",
+                "source": false
               }
             }
           },
@@ -23,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Devops/Continuous Deployment.md",
+                "file": "Architecture/Event Storming.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "b7dc12b27e04e342",
@@ -75,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MVVM",
+                "query": "Event storming",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -108,7 +109,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -128,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Devops/Continuous Deployment.md",
+                "file": "Algorithms & Data Structures/AlgoFlow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Devops/Continuous Deployment.md",
+                "file": "Algorithms & Data Structures/AlgoFlow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops/Continuous Deployment.md"
+                "file": "Algorithms & Data Structures/AlgoFlow.md"
               }
             }
           },
@@ -272,26 +274,29 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "67d6955c7e10a13b",
+  "active": "575b2676cb60b860",
   "lastOpenFiles": [
-    "Security/1699170000926.jpeg",
-    "Open Source/1698853514812.jpeg",
-    "Web/1700239541390.gif",
+    "Home.md",
+    "_Images/unnamed (6).gif",
+    "_Images/unnamed (4).gif",
+    "_Images/unnamed (2).gif",
+    "_Images/unnamed (1).gif",
+    "_Images/unnamed.png",
+    "_Images/test.svg",
+    "_Images/server (1).png",
+    "_Images/quicksort.png",
+    "_Images/preOrder.gif",
+    "_Images/Platforms.jpg",
+    "Architecture/Event Storming.md",
+    "Architecture/Domain-driven design.md",
+    "Testing/Smoke test.md",
+    "Devops/Continuous Deployment.md",
     "Web/Url.canvas",
-    "_Images/1699289122056.gif",
     "Architecture/MVVM.md",
-    "_Pdf/Cheatsheet/1699606002219.jpeg",
-    "_Pdf/Cheatsheet/1699606002219 1.jpeg",
     "Architecture/Domain.canvas",
-    "_Images/1700239541390 1.gif",
-    "_Images/1700239541390.gif",
-    "_Images/download.jpeg",
-    "_Images/Pasted image 20231120192955.jpg",
     "Error Log/Untitled.md",
     "Methodology/12 Factor App Docker.canvas",
     "Methodology/Staged Deployment.md",
-    "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png",
-    "Home.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Map.md",
     "Algorithms & Data Structures/AlgoFlow.md",
     "Algorithms & Data Structures/Hashmap.md",
@@ -312,10 +317,6 @@
     "Architecture/_Web App Architecture.canvas",
     "Architecture/Untitled.md",
     "Architecture/_Command and Query Responsibility Segregation.canvas",
-    "Architecture/App Layers/Domain stuff.md",
-    "Architecture/Domain-driven design.md",
-    "_Template/_Regular  Note.md",
-    "README.md",
     "_Pdf/Roadmaps/python.pdf",
     "Library/Frontend/Redux/Redux Map.canvas",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",

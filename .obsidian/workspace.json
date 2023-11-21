@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Domain-driven design.md",
+                "file": "Architecture/App Layers/Domain stuff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Domain-driven design.md",
+                "file": "Architecture/App Layers/Domain stuff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Domain-driven design.md"
+                "file": "Architecture/App Layers/Domain stuff.md"
               }
             }
           },
@@ -282,10 +282,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3e46338884a75b41",
+  "active": "a6b049dbb8ea080e",
   "lastOpenFiles": [
-    "Architecture/App Layers/Domain stuff.md",
     "Architecture/Domain-driven design.md",
+    "Architecture/App Layers/Domain stuff.md",
     "Language/Bash/script.md",
     "Language/Python/Python World.md",
     "AI & Chatgpt/prompts/Development/Python DEV.md",

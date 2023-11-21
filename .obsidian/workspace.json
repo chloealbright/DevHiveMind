@@ -4,51 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "0f8523a6efbf45af",
+        "id": "532e32d00c8409f8",
         "type": "tabs",
         "children": [
           {
-            "id": "575b2676cb60b860",
+            "id": "2e9edd44336a67a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/AlgoFlow.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "67d6955c7e10a13b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Domain-driven design.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "b7dc12b27e04e342",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7cc70189b20f0f9b",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Testing/Untitled.canvas",
-                "viewState": {
-                  "x": 52.89780368484821,
-                  "y": -135.25133959956943,
-                  "zoom": -0.021034013120174166
-                }
               }
             }
           }
@@ -134,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing/Untitled.canvas",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Testing/Untitled.canvas",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Testing/Untitled.canvas"
+                "file": "Home.md"
               }
             }
           },
@@ -285,7 +252,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7cc70189b20f0f9b",
+  "active": "2e9edd44336a67a7",
   "lastOpenFiles": [
     "Testing/other test.md",
     "_CODE/Express/Dev Todo.md",

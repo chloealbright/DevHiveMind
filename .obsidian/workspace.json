@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "532e32d00c8409f8",
+        "id": "9e181a18881239b5",
         "type": "tabs",
         "children": [
           {
-            "id": "2e9edd44336a67a7",
+            "id": "991c5d2409f6b82d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "Language Overlap/Inheritance Composition Encapsulation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7fca71ef227f4557",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Class inheritance Python vs Java.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "name convent",
+                "query": "inheritance",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -101,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Class inheritance Python vs Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Class inheritance Python vs Java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Class inheritance Python vs Java.md"
               }
             }
           },
@@ -252,8 +265,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2e9edd44336a67a7",
+  "active": "7fca71ef227f4557",
   "lastOpenFiles": [
+    "Class inheritance Python vs Java.md",
+    "Language Overlap/Inheritance Composition Encapsulation.md",
+    "Reactive Microservices.md",
+    "Home.md",
     "Testing/other test.md",
     "_CODE/Express/Dev Todo.md",
     "Algorithms & Data Structures/AlgoFlow.md",
@@ -265,7 +282,6 @@
     "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png",
     "_CODE/_Capture/Mutex.md",
     "Architecture/Event Storming.md",
-    "Home.md",
     "_Images/unnamed (6).gif",
     "_Images/unnamed (4).gif",
     "_Images/unnamed (2).gif",
@@ -290,9 +306,6 @@
     "_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md",
     "Hardware & Code/CPUs.md",
     "Companies/Interview/Compressed Interview Template.md",
-    "Companies/Interview/Coding Regimen.md",
-    "Codebase Architecture Decisions/BUD.md",
-    "Algorithms & Data Structures/Algo/Algorithm Pattern vs Simple Solution.md",
     "Architecture/Untitled.canvas",
     "Architecture/_Web App Architecture.canvas",
     "Architecture/_Command and Query Responsibility Segregation.canvas",

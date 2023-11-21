@@ -4,35 +4,58 @@
     "type": "split",
     "children": [
       {
-        "id": "9e181a18881239b5",
+        "id": "3f0e6bbc98e0969a",
         "type": "tabs",
         "children": [
           {
-            "id": "991c5d2409f6b82d",
+            "id": "a6b049dbb8ea080e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language Overlap/Inheritance Composition Encapsulation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7fca71ef227f4557",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/Bash/script.md",
+                "file": "Architecture/App Layers/Domain stuff.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "bfc9a3104c4bfcb8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e46338884a75b41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Domain-driven design.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "73a87a94ada71ab3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2618ff73ec69657b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/Domain-specific programming languages.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Python",
+                "query": "domain",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -115,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/Bash/script.md",
+                "file": "Architecture/Domain-driven design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/Bash/script.md",
+                "file": "Architecture/Domain-driven design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/Bash/script.md"
+                "file": "Architecture/Domain-driven design.md"
               }
             }
           },
@@ -208,17 +231,9 @@
                 "sortOrder": "frequency"
               }
             }
-          },
-          {
-            "id": "db7e8c15a146d88c",
-            "type": "leaf",
-            "state": {
-              "type": "custom-frames-google-keep",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 8
       },
       {
         "id": "7e98245a429f273f",
@@ -236,7 +251,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5
+    "width": 345.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -266,8 +282,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7fca71ef227f4557",
+  "active": "3e46338884a75b41",
   "lastOpenFiles": [
+    "Architecture/App Layers/Domain stuff.md",
+    "Architecture/Domain-driven design.md",
+    "Language/Bash/script.md",
     "Language/Python/Python World.md",
     "AI & Chatgpt/prompts/Development/Python DEV.md",
     "Architecture/Microservices.md",
@@ -282,7 +301,6 @@
     "_CODE/Express/Algo left to over to do.md",
     "_CODE/Distill/_Perpetual BAU.md",
     "Codebase Architecture Decisions/Naming Conventions.md",
-    "Architecture/Domain-driven design.md",
     "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png",
     "_CODE/_Capture/Mutex.md",
     "Architecture/Event Storming.md",
@@ -305,8 +323,6 @@
     "Methodology/Staged Deployment.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Map.md",
     "Algorithms & Data Structures/Hashmap.md",
-    "Algorithms & Data Structures/Recursion/The Six Core Patterns of Recursion.md",
-    "Algorithms & Data Structures/Optimize & Solving Technique.md",
     "Architecture/Untitled.canvas",
     "Architecture/_Web App Architecture.canvas",
     "Architecture/_Command and Query Responsibility Segregation.canvas",

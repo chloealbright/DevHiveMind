@@ -23,7 +23,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Open Source/1698853514812.jpeg"
+                "file": "Security/1699170000926.jpeg"
               }
             }
           }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Open Source/1698853514812.jpeg",
+                "file": "Security/1699170000926.jpeg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Open Source/1698853514812.jpeg",
+                "file": "Security/1699170000926.jpeg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Open Source/1698853514812.jpeg"
+                "file": "Security/1699170000926.jpeg"
               }
             }
           },
@@ -272,8 +272,9 @@
   },
   "active": "67d6955c7e10a13b",
   "lastOpenFiles": [
-    "Web/1700239541390.gif",
     "Open Source/1698853514812.jpeg",
+    "Security/1699170000926.jpeg",
+    "Web/1700239541390.gif",
     "Web/Url.canvas",
     "_Images/1699289122056.gif",
     "Architecture/MVVM.md",
@@ -288,7 +289,6 @@
     "Methodology/12 Factor App Docker.canvas",
     "Methodology/Staged Deployment.md",
     "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png",
-    "_Images/2023-06-20 03.04.40 12factor.net ebc2480ac14d.png",
     "Home.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Map.md",
     "Algorithms & Data Structures/AlgoFlow.md",

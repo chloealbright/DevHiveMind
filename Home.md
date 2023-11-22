@@ -31,9 +31,3 @@ banner_x: 0.5
 
 
 
-
-
-🎮 Top to Play
-	![[Games]]
-
-

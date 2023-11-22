@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "_Pdf/Books/Build Your API with Spring.pdf"
+                "file": "_Pdf/Books/Algorithms/Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf"
               }
             }
           }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Pdf/Books/Build Your API with Spring.pdf",
+                "file": "_Pdf/Books/Algorithms/Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Pdf/Books/Build Your API with Spring.pdf",
+                "file": "_Pdf/Books/Algorithms/Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Pdf/Books/Build Your API with Spring.pdf"
+                "file": "_Pdf/Books/Algorithms/Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf"
               }
             }
           },
@@ -243,19 +243,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "a05b430e4da2ab9a",
   "lastOpenFiles": [
-    "_Pdf/Books/Priority Non Tech Reads/Thinking, Fast and Slow by Daniel Kahneman (z-lib.org).pdf",
-    "_Pdf/Books/Priority Non Tech Reads/The Talent Code Greatness Isn_t Born by Daniel Coyle .pdf",
-    "_Pdf/Books/Priority Non Tech Reads/The Self Taught Programmer.pdf",
-    "_Pdf/Books/Priority Non Tech Reads",
-    "_Pdf/Books/Math/Student’s Solutions Guide to Accompany Discrete Mathematics and Its Applications by Kenneth H Rosen, Jerrold W. Grossman (z-lib.org).pdf",
-    "_Pdf/Books/Math/Roads to Infinity The Mathematics of Truth and Proof 1st Ed.pdf",
-    "_Pdf/Books/Math/Proofs from THE BOOK.pdf",
-    "_Pdf/Books/Math/Math Proofs Demystified.pdf",
-    "_Pdf/Books/Math/Mathematics for Machine Learning.pdf",
-    "_Pdf/Books/Math/Mathematical Reasoning Writing and Proof Version 2.1.pdf",
-    "_Pdf/Books/Math/Mathematical Proofs A Transition to Advanced Mathematics 3rd Edition.pdf",
+    "_Pdf/Books/Algorithms/The Algorithm Design Manual (Texts in Computer Science) by Steven S. Skiena (z-lib.org).pdf",
+    "_Pdf/Books/Algorithms/The Algorithm Design Manual by Steven S Skiena (z-lib.org).pdf",
+    "_Pdf/Books/Algorithms/Data Structures and Algorithms in Java™Sixth Edition.pdf",
+    "_Pdf/Books/Algorithms/Data Structures and Algorithms in C++.pdf",
+    "_Pdf/Books/Algorithms/Cracking the Coding Interview 189 Programming Questions and Solutions.pdf",
+    "_Pdf/Books/Algorithms/Cracking the Coding Interview 150 Programming Questions and Solutions .pdf",
+    "_Pdf/Books/Build Your API with Spring.pdf",
+    "_Pdf/Books/Algorithms/Introduction to Algorithms.pdf",
+    "_Pdf/Books/Algorithms/Grokking the System Design Interview.pdf",
+    "_Pdf/Books/Algorithms/Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf",
+    "_Pdf/Books/Algorithms",
     "Home.md",
     "_CODE/_Organize/Prototype Pollution.md",
     "_CODE/_Organize/Unsafe functions.md",

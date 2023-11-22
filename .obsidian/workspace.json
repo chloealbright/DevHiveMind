@@ -243,8 +243,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a05b430e4da2ab9a",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "_Pdf/Books/Priority/Designing with the Mind in Mind Simple.pdf",
+    "_Pdf/Books/Algorithms/Algorithms, 4th Edition.pdf",
+    "_Pdf/Books/Algorithms/Algorithmic Problem Solving with Python.pdf",
+    "_Pdf/Books/Algorithms/Introduction to Algorithms 1.pdf",
     "_Pdf/Books/Algorithms/The Algorithm Design Manual (Texts in Computer Science) by Steven S. Skiena (z-lib.org).pdf",
     "_Pdf/Books/Algorithms/The Algorithm Design Manual by Steven S Skiena (z-lib.org).pdf",
     "_Pdf/Books/Algorithms/Data Structures and Algorithms in Java™Sixth Edition.pdf",
@@ -252,10 +256,6 @@
     "_Pdf/Books/Algorithms/Cracking the Coding Interview 189 Programming Questions and Solutions.pdf",
     "_Pdf/Books/Algorithms/Cracking the Coding Interview 150 Programming Questions and Solutions .pdf",
     "_Pdf/Books/Build Your API with Spring.pdf",
-    "_Pdf/Books/Algorithms/Introduction to Algorithms.pdf",
-    "_Pdf/Books/Algorithms/Grokking the System Design Interview.pdf",
-    "_Pdf/Books/Algorithms/Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf",
-    "_Pdf/Books/Algorithms",
     "Home.md",
     "_CODE/_Organize/Prototype Pollution.md",
     "_CODE/_Organize/Unsafe functions.md",

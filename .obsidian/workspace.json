@@ -11,9 +11,11 @@
             "id": "a05b430e4da2ab9a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "_Pdf/Books/Algorithms/Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf"
+                "file": "_CODE/Express/Dev Todo.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Pdf/Books/Algorithms/Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf",
+                "file": "_CODE/Express/Dev Todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Pdf/Books/Algorithms/Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf",
+                "file": "_CODE/Express/Dev Todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Pdf/Books/Algorithms/Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf"
+                "file": "_CODE/Express/Dev Todo.md"
               }
             }
           },
@@ -243,19 +245,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "a05b430e4da2ab9a",
   "lastOpenFiles": [
+    "_Pdf/Books/Algorithms/Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf",
+    "_CODE/Express/Dev Todo.md",
+    "_Pdf/Books/Algorithms/Think Data  Structures ALGORITHMS AND INFORMATION RETRIEVAL IN JAVA.pdf",
+    "_Pdf/Cheatsheet/ZTM_nmap_cheatsheet_version_1_01.pdf",
+    "_Pdf/Books/Priority/Principles For Programmers The Condensed Advice From The Worlds Best by Andrei Neagoie [Neagoie, Andrei] (z-lib.org).pdf",
     "_Pdf/Books/Priority/Designing with the Mind in Mind Simple.pdf",
     "_Pdf/Books/Algorithms/Algorithms, 4th Edition.pdf",
     "_Pdf/Books/Algorithms/Algorithmic Problem Solving with Python.pdf",
     "_Pdf/Books/Algorithms/Introduction to Algorithms 1.pdf",
     "_Pdf/Books/Algorithms/The Algorithm Design Manual (Texts in Computer Science) by Steven S. Skiena (z-lib.org).pdf",
     "_Pdf/Books/Algorithms/The Algorithm Design Manual by Steven S Skiena (z-lib.org).pdf",
-    "_Pdf/Books/Algorithms/Data Structures and Algorithms in Java™Sixth Edition.pdf",
-    "_Pdf/Books/Algorithms/Data Structures and Algorithms in C++.pdf",
-    "_Pdf/Books/Algorithms/Cracking the Coding Interview 189 Programming Questions and Solutions.pdf",
-    "_Pdf/Books/Algorithms/Cracking the Coding Interview 150 Programming Questions and Solutions .pdf",
-    "_Pdf/Books/Build Your API with Spring.pdf",
     "Home.md",
     "_CODE/_Organize/Prototype Pollution.md",
     "_CODE/_Organize/Unsafe functions.md",
@@ -269,7 +271,6 @@
     "Language Overlap/Inheritance Composition Encapsulation.md",
     "Reactive Microservices.md",
     "Testing/other test.md",
-    "_CODE/Express/Dev Todo.md",
     "Algorithms & Data Structures/AlgoFlow.md",
     "_CODE/Express/Be Aware.md",
     "_CODE/Express/Algo left to over to do.md",

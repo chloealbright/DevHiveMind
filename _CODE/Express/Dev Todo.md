@@ -19,6 +19,7 @@ Relates:
 - [ ] Read [Domain-driven design](Domain-driven%20design.md)
 - [ ] Get certified in Java  
 - [ ] Get certified in Linux  
+- [ ] Continue reading [[Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf#page=160|Grokking Algorithms - An illustrated guide for programmers and other curious people, page 160]]
 - [ ] Looking to automating stock buys
 - [ ] Develop practical fundamental skills around design patterns 
 - [ ] Code base decisions made at low level in the design of classes and functions and decisions being made  

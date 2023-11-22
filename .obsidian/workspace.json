@@ -13,7 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "_Pdf/Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf"
+                "file": "_Pdf/Books/Build Your API with Spring.pdf"
               }
             }
           }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Pdf/Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
+                "file": "_Pdf/Books/Build Your API with Spring.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Pdf/Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
+                "file": "_Pdf/Books/Build Your API with Spring.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Pdf/Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf"
+                "file": "_Pdf/Books/Build Your API with Spring.pdf"
               }
             }
           },
@@ -243,8 +243,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a05b430e4da2ab9a",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "_Pdf/Books/Priority Non Tech Reads/Thinking, Fast and Slow by Daniel Kahneman (z-lib.org).pdf",
+    "_Pdf/Books/Priority Non Tech Reads/The Talent Code Greatness Isn_t Born by Daniel Coyle .pdf",
+    "_Pdf/Books/Priority Non Tech Reads/The Self Taught Programmer.pdf",
+    "_Pdf/Books/Priority Non Tech Reads",
+    "_Pdf/Books/Math/Student’s Solutions Guide to Accompany Discrete Mathematics and Its Applications by Kenneth H Rosen, Jerrold W. Grossman (z-lib.org).pdf",
+    "_Pdf/Books/Math/Roads to Infinity The Mathematics of Truth and Proof 1st Ed.pdf",
+    "_Pdf/Books/Math/Proofs from THE BOOK.pdf",
+    "_Pdf/Books/Math/Math Proofs Demystified.pdf",
+    "_Pdf/Books/Math/Mathematics for Machine Learning.pdf",
+    "_Pdf/Books/Math/Mathematical Reasoning Writing and Proof Version 2.1.pdf",
+    "_Pdf/Books/Math/Mathematical Proofs A Transition to Advanced Mathematics 3rd Edition.pdf",
     "Home.md",
     "_CODE/_Organize/Prototype Pollution.md",
     "_CODE/_Organize/Unsafe functions.md",
@@ -283,21 +294,10 @@
     "Architecture/Domain.canvas",
     "Error Log/Untitled.md",
     "Methodology/12 Factor App Docker.canvas",
-    "Methodology/Staged Deployment.md",
     "Architecture/Untitled.canvas",
     "Architecture/_Web App Architecture.canvas",
     "Architecture/_Command and Query Responsibility Segregation.canvas",
-    "_Pdf/Roadmaps/python.pdf",
     "Library/Frontend/Redux/Redux Map.canvas",
-    "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
-    "_Pdf/Courses/Docker/Day 1_Docker.pdf",
-    "Companies/Interview/Joshua_Carpentier_Resume.pdf",
-    "Joshua_Carpentier_Resume.docx.txt",
-    "Joshua_Carpentier_Resume.docx",
-    "_Pdf/Books/Build+Your+API+with+Spring.pdf",
-    "Companies/Companies Worked At",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Heap",
     "Testing/Untitled.canvas",
     "Cloud/OS/Linux/File system.canvas",
     "Devops/Docker/Docker InDeph.canvas"

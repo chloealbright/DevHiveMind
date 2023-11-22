@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "388600611f5c98db",
+        "id": "f40f9fca202b4eb4",
         "type": "tabs",
         "children": [
           {
-            "id": "da415075086544b4",
+            "id": "a05b430e4da2ab9a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_CODE/_Organize/Prototype Pollution.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "73a87a94ada71ab3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "bcac8d5771028a46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/Domain-specific programming languages.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -119,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/Domain-specific programming languages.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/Domain-specific programming languages.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/Domain-specific programming languages.md"
+                "file": "Home.md"
               }
             }
           },
@@ -263,7 +245,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bcac8d5771028a46",
+  "active": "a05b430e4da2ab9a",
   "lastOpenFiles": [
     "_CODE/_Organize/Prototype Pollution.md",
     "_CODE/_Organize/Unsafe functions.md",

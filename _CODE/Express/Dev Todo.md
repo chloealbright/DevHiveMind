@@ -18,7 +18,7 @@ Relates:
 - [ ] [Testing topics to add to notes](Testing%20topics%20to%20add%20to%20notes.md)
 - [ ] Read [Domain-driven design](Domain-driven%20design.md)
 - [ ] Get certified in Java  
-- [ ] Get certified in Linux  
+- [ ] Get certified in Linux 
 - [ ] Continue reading [[Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf#page=160|Grokking Algorithms - An illustrated guide for programmers and other curious people, page 160]]
 - [ ] Looking to automating stock buys
 - [ ] Develop practical fundamental skills around design patterns 

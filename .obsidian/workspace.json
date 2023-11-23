@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f40f9fca202b4eb4",
+        "id": "718a798a3924b635",
         "type": "tabs",
         "children": [
           {
-            "id": "a05b430e4da2ab9a",
+            "id": "bc874ac18dd4a911",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_CODE/Express/Dev Todo.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_CODE/Express/Dev Todo.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_CODE/Express/Dev Todo.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_CODE/Express/Dev Todo.md"
+                "file": "Home.md"
               }
             }
           },
@@ -245,21 +245,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a05b430e4da2ab9a",
+  "active": "bc874ac18dd4a911",
   "lastOpenFiles": [
-    "_Pdf/Books/Priority/Gödel, Escher, Bach An Eternal Golden Braid slightly better file .pdf",
-    "_Pdf/Books/Priority/Gödel, Escher, Bach An Eternal Golden Braid .pdf",
-    "_Pdf/Books/Priority/Structure and Interpretation of Computer Programs - 2nd Edition.pdf",
-    "_Pdf/Books/Priority/Structure and Interpretation of Computer Programs.pdf",
-    "_Pdf/Books/Algorithms/101 Creative Problem Solving Techniques The Handbook of New Ideas for Business.pdf",
-    "_Pdf/Books/Algorithms/Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf",
-    "_CODE/Express/Dev Todo.md",
-    "_Pdf/Books/Algorithms/Think Data  Structures ALGORITHMS AND INFORMATION RETRIEVAL IN JAVA.pdf",
-    "_Pdf/Cheatsheet/ZTM_nmap_cheatsheet_version_1_01.pdf",
-    "_Pdf/Books/Priority/Principles For Programmers The Condensed Advice From The Worlds Best by Andrei Neagoie [Neagoie, Andrei] (z-lib.org).pdf",
-    "_Pdf/Books/Priority/Designing with the Mind in Mind Simple.pdf",
-    "_Pdf/Books/Algorithms/Algorithms, 4th Edition.pdf",
+    "Error Log/Language Error.md",
+    "_Template/Language Error Template.md",
     "Home.md",
+    "_Pdf/Books/Java/thinkapjava.pdf",
+    "_Pdf/Books/Java/java-concurrency.pdf",
+    "_Pdf/Books/Java/head-first-java-2nd-edition.pdf",
+    "_Pdf/Books/Java/Thinking_in_Java_4th_edition.pdf",
+    "_Pdf/Books/Java/The Elements of Java Style.pdf",
+    "_Pdf/Books/Java/Java_8_in_Action.pdf",
+    "_Pdf/Books/Java/Starting Out with Java 6th Ed..pdf",
+    "_Pdf/Books/Java/Java_-_How_To_Program_-_Ninth_Edition_(2012).pdf",
+    "_Pdf/Books/Java/Java The Complete Reference 9th Edition.pdf",
+    "_Pdf/Books/Java/Java Lab book.pdf",
+    "_CODE/Express/Dev Todo.md",
     "_CODE/_Organize/Prototype Pollution.md",
     "_CODE/_Organize/Unsafe functions.md",
     "Architecture/Domain-driven design.md",
@@ -294,7 +295,6 @@
     "Web/Url.canvas",
     "Architecture/MVVM.md",
     "Architecture/Domain.canvas",
-    "Error Log/Untitled.md",
     "Methodology/12 Factor App Docker.canvas",
     "Architecture/Untitled.canvas",
     "Architecture/_Web App Architecture.canvas",

@@ -151,4 +151,8 @@ const warrantyDate = person.vehicle? .warranty?.expireDate   
 person.vehicle? .miles() 
 
 person.vehicle? .miles?.() // check if it is a function
+
+
+console.log([1]?.length ? true : false);
+
 ```

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_CODE/Express/Dev Todo.md",
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Hash Table Implementation.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "domain",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_CODE/Express/Dev Todo.md",
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Hash Table Implementation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_CODE/Express/Dev Todo.md",
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Hash Table Implementation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_CODE/Express/Dev Todo.md"
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Hash Table Implementation.md"
               }
             }
           },
@@ -247,6 +247,9 @@
   },
   "active": "2b5d418247298739",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Dictionaries vs Hash Tables vs Hash Map.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Hash Table Implementation.md",
+    "_CODE/Express/Dev Todo.md",
     "_NoteAssets/Pomofocus.md",
     "Home.md",
     "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",
@@ -274,7 +277,6 @@
     "_Pdf/Books/Java/The Elements of Java Style.pdf",
     "_Pdf/Books/Java/Java_8_in_Action.pdf",
     "_Pdf/Books/Java/Starting Out with Java 6th Ed..pdf",
-    "_CODE/Express/Dev Todo.md",
     "_CODE/_Organize/Prototype Pollution.md",
     "_CODE/_Organize/Unsafe functions.md",
     "Architecture/Domain-driven design.md",
@@ -284,8 +286,6 @@
     "AI & Chatgpt/prompts/Development/Python DEV.md",
     "Architecture/Microservices.md",
     "Class inheritance Python vs Java.md",
-    "Language Overlap/Inheritance Composition Encapsulation.md",
-    "Reactive Microservices.md",
     "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png",
     "_Images/unnamed (6).gif",
     "_Images/unnamed (4).gif",

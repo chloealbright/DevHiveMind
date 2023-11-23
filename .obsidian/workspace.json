@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_CODE/_Organize/Untitled 1.md",
+                "file": "_CODE/_Organize/Node Project Structure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a3396e137ec17a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language Overlap/Instantiation.md",
                 "mode": "source",
                 "source": false
               }
@@ -132,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_CODE/_Organize/Untitled 1.md",
+                "file": "_CODE/_Organize/Node Project Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_CODE/_Organize/Untitled 1.md",
+                "file": "_CODE/_Organize/Node Project Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_CODE/_Organize/Untitled 1.md"
+                "file": "_CODE/_Organize/Node Project Structure.md"
               }
             }
           },
@@ -278,11 +290,13 @@
   },
   "active": "08e4bb5fd1b0ac5b",
   "lastOpenFiles": [
+    "Language Overlap/Instantiation.md",
+    "Language Overlap/Asynchronous.md",
     "_CODE/_Organize/Ideas.md",
-    "_CODE/Distill/Development Perpetual Practices.md",
-    "_CODE/_Organize/Untitled 1.md",
-    "Architecture/MVVM.md",
     "_CODE/_Organize/Untitled.md",
+    "_CODE/_Organize/Node Project Structure.md",
+    "_CODE/Distill/Development Perpetual Practices.md",
+    "Architecture/MVVM.md",
     "_CODE/Express/Algo left to over to do.md",
     "_CODE/Distill/_Perpetual BAU.md",
     "Security/ESLint.md",
@@ -308,8 +322,6 @@
     "Devops/Deployment artifacts.md",
     "Mind Maps",
     "_Pdf/Books/Other/Code - The Hidden Language of Computer Hardware and Software.pdf",
-    "Error Log/Language Error.md",
-    "_Template/Language Error Template.md",
     "_Pdf/Books/Java/thinkapjava.pdf",
     "_Pdf/Books/Java/java-concurrency.pdf",
     "_Pdf/Books/Java/head-first-java-2nd-edition.pdf",

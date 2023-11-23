@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_CODE/_Organize/Node Project Structure.md",
+                "file": "Algorithms & Data Structures/AlgoFlow.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language Overlap/Instantiation.md",
+                "file": "Algorithms & Data Structures/Linear  Data Structures/Linked List.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "9abf02b5268dc6e8",
@@ -73,9 +73,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4c110a315e6454ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Linear  Data Structures/Types of Linked List.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -104,7 +116,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MVVM",
+                "query": "interfaces",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -157,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_CODE/_Organize/Node Project Structure.md",
+                "file": "Algorithms & Data Structures/Linear  Data Structures/Linked List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_CODE/_Organize/Node Project Structure.md",
+                "file": "Algorithms & Data Structures/Linear  Data Structures/Linked List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_CODE/_Organize/Node Project Structure.md"
+                "file": "Algorithms & Data Structures/Linear  Data Structures/Linked List.md"
               }
             }
           },
@@ -301,8 +313,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "08e4bb5fd1b0ac5b",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Linear  Data Structures/Type Of Linked List.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Types of Linked List.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Linked List.md",
+    "Codebase Architecture Decisions/_I_nterface Segregation Principle.md",
+    "Language/Typescript/TypeScript Configuration.md",
+    "Language/Typescript/Any.md",
+    "Language Overlap/Instantiation.md",
+    "Algorithms & Data Structures/AlgoFlow.md",
+    "_CODE/_Organize/Node Project Structure.md",
     "Testing/Integration test.md",
     "Testing/Untitled.md",
     "Testing/_Type of Testing.md",
@@ -319,16 +341,6 @@
     "Testing/TDD.md",
     "Testing/Test Cases.md",
     "Testing/Testing Heiarchy.md",
-    "_CODE/_Organize/Node Project Structure.md",
-    "_CODE/Distill/Development Perpetual Practices.md",
-    "Language Overlap/Instantiation.md",
-    "Language Overlap/Asynchronous.md",
-    "_CODE/_Organize/Ideas.md",
-    "_CODE/_Organize/Untitled.md",
-    "Architecture/MVVM.md",
-    "_CODE/Express/Algo left to over to do.md",
-    "_CODE/Distill/_Perpetual BAU.md",
-    "Security/ESLint.md",
     "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/Docker InDeph.canvas",

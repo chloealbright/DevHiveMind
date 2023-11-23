@@ -229,3 +229,59 @@ class D implements B, C {
 ```
 
 In this solution, interfaces are used instead of classes, and the class `D` implements both interfaces `B` and `C`. This way, the compiler doesn't face the ambiguity of conflicting method names, and the class `D` provides its own implementation of the method to resolve the issue.
+
+
+
+
+"interfaces expose operations and not data" is generally true when discussing software design principles, particularly in the context of programming interfaces such as those in object-oriented programming. Let's delve into this concept a bit further:  
+  
+1. **Exposing Operations:**  
+- Interfaces define a contract specifying what operations or behaviors a class or module should provide. They declare a set of methods or functions that an implementing class or module must support. These methods represent the actions or operations that can be performed on or by an object.  
+  
+2. **Hiding Implementation Details:**  
+- By focusing on operations, interfaces abstract away the internal details and state of an object. This encapsulation ensures that the user of the interface is concerned only with what an object can do (its behavior) rather than how it achieves those actions (its implementation). This separation promotes a clear and concise design.  
+  
+3. **Encapsulation:**  
+- The principle of encapsulation involves bundling data and methods that operate on that data into a single unit, typically a class. Interfaces contribute to encapsulation by exposing only the necessary operations, shielding the internal data and implementation details from external entities.  
+  
+4. **Flexibility and Abstraction:**  
+- Designing interfaces around operations enhances flexibility. Implementing classes can provide different ways to achieve the specified operations, as long as they adhere to the contract defined by the interface. This allows for interchangeable components and promotes a high level of abstraction.  
+  
+5. **Reducing Coupling:**  
+- When interfaces expose operations rather than data, it reduces the dependency between different parts of a system. Components that rely on the interface only need to know how to interact with the exposed operations, not the internal structure or representation of the data.  
+  
+6. **Security and Access Control:**  
+- Exposing operations rather than raw data helps in controlling access to sensitive information. By limiting the exposure of data and allowing controlled access through well-defined operations, interfaces contribute to security and privacy considerations.  
+  
+Consider an example in an object-oriented context:  
+  
+```java  
+// Interface defining operations  
+public interface Shape {  
+double calculateArea();  
+double calculatePerimeter();  
+}  
+  
+// Implementing class  
+public class Circle implements Shape {  
+private double radius;  
+  
+public Circle(double radius) {  
+this.radius = radius;  
+}  
+  
+@Override  
+public double calculateArea() {  
+return Math.PI * radius * radius;  
+}  
+  
+@Override  
+public double calculatePerimeter() {  
+return 2 * Math.PI * radius;  
+}  
+}  
+```  
+  
+In this example, the `Shape` interface exposes operations (`calculateArea` and `calculatePerimeter`) that define the behavior expected from any class implementing the interface. The internal data (radius) and the implementation details are hidden from the interface user.  
+  
+By emphasizing operations in interfaces, software design becomes more modular, adaptable, and maintainable, contributing to the principles of abstraction, encapsulation, and reduced coupling.

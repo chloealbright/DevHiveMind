@@ -43,6 +43,8 @@ In data structures, **[[Dictionaries]]** and **[[Map#Hashmap vs. Map | Hash Map]
 - **Merge Sort**: A more efficient O(n log n) sorting algorithm. Worst case runtime **O(n log(n))
 
 ## Algorithmic Approaches
+>[!note] Try 
+>Separate code flow or read from crud from the steps of an algorithm try this out to see how effective is at breaking down a problem
 
 ### Minimum Coin Change Problem
 

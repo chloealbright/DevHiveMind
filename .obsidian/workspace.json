@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev Roadmaps By Priority.md",
+                "file": "_CODE/Express/Dev Todo.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev Roadmaps By Priority.md",
+                "file": "_CODE/Express/Dev Todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev Roadmaps By Priority.md",
+                "file": "_CODE/Express/Dev Todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dev Roadmaps By Priority.md"
+                "file": "_CODE/Express/Dev Todo.md"
               }
             }
           },
@@ -247,22 +247,24 @@
   },
   "active": "2b5d418247298739",
   "lastOpenFiles": [
-    "Clout Chasing/_Bootcamp.md",
-    "Clout Chasing/_note taking.md",
-    "Clout Chasing/Social Post.md",
-    "Clout Chasing/Software Carpentier Journey.md",
+    "_NoteAssets/Pomofocus.md",
+    "Home.md",
+    "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",
+    "Mind Maps/12 Factor App Docker.canvas",
+    "Methodology/Admin functionality God Mode/Backup and Restoration.md",
+    "Methodology/Admin functionality God Mode/Configuration Changes.md",
+    "Methodology/12 Factor App  Microservices Architecture.md",
+    "Mind Maps/Docker InDeph.canvas",
     "API/Gateway.canvas",
     "API/API Archetecture/API Gateway.md",
-    "Mind Maps/12 Factor App Docker.canvas",
-    "Mind Maps/Docker InDeph.canvas",
-    "Methodology/12 Factor App  Microservices Architecture.md",
+    "Clout Chasing/Software Carpentier Journey.md",
+    "Clout Chasing/Social Post.md",
+    "Clout Chasing/_note taking.md",
+    "Clout Chasing/_Bootcamp.md",
+    "Dev Roadmaps By Priority.md",
     "Devops/Deployment artifacts.md",
-    "Methodology/Admin functionality God Mode/Configuration Changes.md",
-    "Methodology/Admin functionality God Mode/Backup and Restoration.md",
-    "Home.md",
     "Mind Maps",
     "_Pdf/Books/Other/Code - The Hidden Language of Computer Hardware and Software.pdf",
-    "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",
     "Error Log/Language Error.md",
     "_Template/Language Error Template.md",
     "_Pdf/Books/Java/thinkapjava.pdf",
@@ -284,8 +286,6 @@
     "Class inheritance Python vs Java.md",
     "Language Overlap/Inheritance Composition Encapsulation.md",
     "Reactive Microservices.md",
-    "Testing/other test.md",
-    "Algorithms & Data Structures/AlgoFlow.md",
     "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png",
     "_Images/unnamed (6).gif",
     "_Images/unnamed (4).gif",

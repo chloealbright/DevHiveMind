@@ -12,12 +12,10 @@ Relates:
 
 # <mark style="background: #FF5582A6;">Current </mark>
 #todo/High/Dev 
-- [ ] Search engine optimized for developers to find projects to contribute to or find common errors and issues
 - [ ] Edit article on [[_Bootcamp]] ^923f61
 - [ ] Edit article on [_note taking](_note%20taking.md) ^776056
 - [ ] [Testing topics to add to notes](Testing%20topics%20to%20add%20to%20notes.md)
 - [ ] Read [Domain-driven design](Domain-driven%20design.md)
-- [ ] Get certified in Java  
 - [ ] Get certified in Linux 
 - [ ] Continue reading [[Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf#page=160|Grokking Algorithms - An illustrated guide for programmers and other curious people, page 160]]
 - [ ] Looking to automating stock buys
@@ -61,6 +59,7 @@ Or a read to see if a sort is needed
 - [ ] **Whiteboarding Abstraction Skills:** Acquire the art of creating lucid and effective abstractions when whiteboarding technical concepts, a vital skill for excelling in interviews.
 - [ ] create a long list LinkedIn post ideas about popular historical leaders like for example martin Luther king, also events around the year like breast cancer awareness and holidays give ideas for each month in the year on these topic
 - [ ] Look into [[Project idea]]
+- [ ] Search engine optimized for developers to find projects to contribute to or find common errors and issues
 - [ ] Play around with lint more
 
 

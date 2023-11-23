@@ -61,8 +61,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "edcc8b525c1c9764",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_CODE/_Organize/Node Project Structure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -288,14 +301,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "08e4bb5fd1b0ac5b",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "_CODE/Distill/Development Perpetual Practices.md",
+    "_CODE/_Organize/Node Project Structure.md",
     "Language Overlap/Instantiation.md",
     "Language Overlap/Asynchronous.md",
     "_CODE/_Organize/Ideas.md",
     "_CODE/_Organize/Untitled.md",
-    "_CODE/_Organize/Node Project Structure.md",
-    "_CODE/Distill/Development Perpetual Practices.md",
     "Architecture/MVVM.md",
     "_CODE/Express/Algo left to over to do.md",
     "_CODE/Distill/_Perpetual BAU.md",

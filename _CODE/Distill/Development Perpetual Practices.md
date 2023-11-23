@@ -27,7 +27,7 @@ Take in user story convert into high level object oriented class Map breakdown d
 Or javascript model
 
 
-
+When you want to learn new languages in the future think about every time you have to prepare for technical interviews to start interviewing for a new job change what language you practice in once you feel like you have good understanding of how to build up solutions to programming challenges
 
 
 ### Coding Challenge

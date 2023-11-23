@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Linked List.md",
+                "file": "Language Overlap/Serialization vs Parsing.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,21 +73,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4c110a315e6454ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Types of Linked List.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,7 +104,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "interfaces",
+                "query": "Serialization",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -149,7 +137,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -169,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Linked List.md",
+                "file": "Language Overlap/Serialization vs Parsing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Linked List.md",
+                "file": "Language Overlap/Serialization vs Parsing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Linked List.md"
+                "file": "Language Overlap/Serialization vs Parsing.md"
               }
             }
           },
@@ -313,19 +302,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "1a3396e137ec17a4",
   "lastOpenFiles": [
+    "Architecture/Clean Code.md",
+    "Architecture/Code Architecture.md",
+    "Testing/Unit testing.md",
+    "Testing/Test Cases.md",
+    "Testing/when would use looping in unit and integration test.md",
     "Algorithms & Data Structures/Linear  Data Structures/Type Of Linked List.md",
+    "Testing/Integration test.md",
     "Algorithms & Data Structures/Linear  Data Structures/Types of Linked List.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Singly Linked List.md",
     "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Linked List.md",
     "Codebase Architecture Decisions/_I_nterface Segregation Principle.md",
     "Language/Typescript/TypeScript Configuration.md",
     "Language/Typescript/Any.md",
     "Language Overlap/Instantiation.md",
     "Algorithms & Data Structures/AlgoFlow.md",
     "_CODE/_Organize/Node Project Structure.md",
-    "Testing/Integration test.md",
     "Testing/Untitled.md",
     "Testing/_Type of Testing.md",
     "Testing/BDD.md",
@@ -336,11 +330,6 @@
     "Testing/Jest benchmarking.md",
     "Testing/Jest Test example.md",
     "Testing/Load VS Stress Testing.md",
-    "Testing/other test.md",
-    "Testing/Regression Testing.md",
-    "Testing/TDD.md",
-    "Testing/Test Cases.md",
-    "Testing/Testing Heiarchy.md",
     "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/Docker InDeph.canvas",

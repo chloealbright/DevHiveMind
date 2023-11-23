@@ -1,13 +1,14 @@
 ---
 tags:
   - linear
-author: jacgit18
-Status: init
+author:
+  - jacgit18
+Status: refinement
 Started: 
 EditDate: 
 Relates:
 ---
-- ## [[Linked List]]
+- ## [[Singly Linked List]]
 
 Linked lists, specifically nodes and the traversal of the list, serve as the foundation for other node-based data structures like trees and graphs. Linked lists differ in how their pointers are used, which can be either pointing to the next node or, in some cases, pointing to both the previous and next nodes, with the possibility of these pointers being null. On the other hand, data structures like binary search trees can have nodes that point to multiple child nodes, either two child nodes or a single child node with its own set of child nodes. Graphs, in a broader sense, can establish connections to numerous other nodes, often using an array to track these relationships.
 >[!important] 
@@ -26,6 +27,33 @@ When it comes to iterating or traversing these data structures, it's often advan
 - ## [[Doubly Linked List]]
 
 - ## [[Circular Linked Lists]]
+
+
+
+4. **Skip List:**  
+- Consists of multiple layers of linked lists, where each layer skips over a fixed number of elements.  
+- Used for efficient searching and insertion operations.  
+  
+5. **Self-adjusting List:**  
+- Reorders its elements based on the access pattern to improve performance.  
+- Example: Move-to-front list, transpose list.  
+  
+6. **Unrolled Linked List:**  
+- Each node contains an array of elements rather than a single element.  
+- Reduces overhead by storing multiple elements in a single node.  
+  
+7. **XOR Linked List:**  
+- Each node stores the XOR combination of addresses of its previous and next nodes.  
+- Requires bitwise XOR operation for traversal.  
+  
+8. **Multi-level Linked List:**  
+- Contains multiple levels of linked lists, often used in hierarchical data structures.  
+  
+9. **Hashed Linked List:**  
+- Combines linked lists with hash table concepts for efficient data retrieval.  
+  
+These are just a few examples, and there may be variations or combinations based on specific requirements in different contexts.
+
 
 
 

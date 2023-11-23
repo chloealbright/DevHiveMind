@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/MVVM.md",
+                "file": "_CODE/_Organize/Untitled 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,8 +112,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -133,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/MVVM.md",
+                "file": "_CODE/_Organize/Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/MVVM.md",
+                "file": "_CODE/_Organize/Untitled 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/MVVM.md"
+                "file": "_CODE/_Organize/Untitled 1.md"
               }
             }
           },
@@ -280,9 +279,11 @@
   "active": "08e4bb5fd1b0ac5b",
   "lastOpenFiles": [
     "_CODE/_Organize/Ideas.md",
+    "_CODE/Distill/Development Perpetual Practices.md",
+    "_CODE/_Organize/Untitled 1.md",
+    "Architecture/MVVM.md",
     "_CODE/_Organize/Untitled.md",
     "_CODE/Express/Algo left to over to do.md",
-    "_CODE/Distill/Development Perpetual Practices.md",
     "_CODE/Distill/_Perpetual BAU.md",
     "Security/ESLint.md",
     "Companies/Agile to edit/Agile.md",
@@ -316,8 +317,6 @@
     "_Pdf/Books/Java/The Elements of Java Style.pdf",
     "_Pdf/Books/Java/Java_8_in_Action.pdf",
     "_Pdf/Books/Java/Starting Out with Java 6th Ed..pdf",
-    "_CODE/_Organize/Prototype Pollution.md",
-    "_CODE/_Organize/Unsafe functions.md",
     "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png",
     "_Images/unnamed (6).gif",
     "_Images/unnamed (4).gif",

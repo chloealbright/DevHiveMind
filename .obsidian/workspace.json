@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "Dev Roadmaps By Priority.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Dev Roadmaps By Priority.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Dev Roadmaps By Priority.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Dev Roadmaps By Priority.md"
               }
             }
           },
@@ -245,12 +245,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "2b5d418247298739",
   "lastOpenFiles": [
+    "Clout Chasing/_Bootcamp.md",
+    "Clout Chasing/_note taking.md",
+    "Clout Chasing/Social Post.md",
+    "Clout Chasing/Software Carpentier Journey.md",
+    "API/Gateway.canvas",
+    "API/API Archetecture/API Gateway.md",
+    "Mind Maps/12 Factor App Docker.canvas",
+    "Mind Maps/Docker InDeph.canvas",
+    "Methodology/12 Factor App  Microservices Architecture.md",
+    "Devops/Deployment artifacts.md",
+    "Methodology/Admin functionality God Mode/Configuration Changes.md",
+    "Methodology/Admin functionality God Mode/Backup and Restoration.md",
+    "Home.md",
     "Mind Maps",
     "_Pdf/Books/Other/Code - The Hidden Language of Computer Hardware and Software.pdf",
     "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",
-    "Home.md",
     "Error Log/Language Error.md",
     "_Template/Language Error Template.md",
     "_Pdf/Books/Java/thinkapjava.pdf",
@@ -260,7 +272,6 @@
     "_Pdf/Books/Java/The Elements of Java Style.pdf",
     "_Pdf/Books/Java/Java_8_in_Action.pdf",
     "_Pdf/Books/Java/Starting Out with Java 6th Ed..pdf",
-    "_Pdf/Books/Java/Java_-_How_To_Program_-_Ninth_Edition_(2012).pdf",
     "_CODE/Express/Dev Todo.md",
     "_CODE/_Organize/Prototype Pollution.md",
     "_CODE/_Organize/Unsafe functions.md",
@@ -275,13 +286,7 @@
     "Reactive Microservices.md",
     "Testing/other test.md",
     "Algorithms & Data Structures/AlgoFlow.md",
-    "_CODE/Express/Be Aware.md",
-    "_CODE/Express/Algo left to over to do.md",
-    "_CODE/Distill/_Perpetual BAU.md",
-    "Codebase Architecture Decisions/Naming Conventions.md",
     "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png",
-    "_CODE/_Capture/Mutex.md",
-    "Architecture/Event Storming.md",
     "_Images/unnamed (6).gif",
     "_Images/unnamed (4).gif",
     "_Images/unnamed (2).gif",
@@ -291,17 +296,12 @@
     "_Images/server (1).png",
     "_Images/quicksort.png",
     "_Images/preOrder.gif",
-    "Testing/Smoke test.md",
-    "Devops/Continuous Deployment.md",
     "Web/Url.canvas",
     "Architecture/Domain.canvas",
-    "Methodology/12 Factor App Docker.canvas",
     "Architecture/Untitled.canvas",
     "Architecture/_Web App Architecture.canvas",
     "Architecture/_Command and Query Responsibility Segregation.canvas",
     "Library/Frontend/Redux/Redux Map.canvas",
-    "Testing/Untitled.canvas",
-    "Cloud/OS/Linux/File system.canvas",
-    "Devops/Docker/Docker InDeph.canvas"
+    "Testing/Untitled.canvas"
   ]
 }

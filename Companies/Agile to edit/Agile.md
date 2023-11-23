@@ -1,3 +1,11 @@
+---
+tags: 
+author: 
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 
 
 
@@ -68,3 +76,6 @@ The roles of Scrum are very similar to Agile. They can consist of the Product Ow
 The scrum tools consist of Jira, VivifyScrum, Targetprocess, Scrumwise, QuickScrum, and more! 
 
 Scrum describes three primary artifacts: the Product Backlog, the Sprint Backlog, and the Product Increment.
+
+
+[https://beny23.github.io/posts/my_take_on_engineering_room_9/](https://beny23.github.io/posts/my_take_on_engineering_room_9/)

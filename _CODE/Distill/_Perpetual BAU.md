@@ -32,17 +32,11 @@ look into Guarded routes
 
 
 
-
-Continue [[Loans#Loan research | Loan Research]]
-Continue to [[Research Current Assets]]
-Continue to look at [[Stock AI Pick 1]] & [[Stock AI Pick 2]]
-
 [[Credit union Research]]
 
 
 [Trust Research](https://www.ssa.gov/news/press/factsheets/WhatAreTheTrust.htm)
 
-[[Platform Research]]
 
 
 Add to money to Roth for a couple months ahead to file taxes early

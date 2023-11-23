@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Hash Table Implementation.md",
+                "file": "_CODE/Express/Algo left to over to do.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "lib",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Hash Table Implementation.md",
+                "file": "_CODE/Express/Algo left to over to do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Hash Table Implementation.md",
+                "file": "_CODE/Express/Algo left to over to do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Hash Table Implementation.md"
+                "file": "_CODE/Express/Algo left to over to do.md"
               }
             }
           },
@@ -245,10 +245,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2b5d418247298739",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Dictionaries vs Hash Tables vs Hash Map.md",
+    "_CODE/Distill/Development Perpetual Practices.md",
+    "_CODE/Distill/_Perpetual BAU.md",
+    "Security/ESLint.md",
+    "Companies/Agile to edit/Agile.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Hash Table Implementation.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Dictionaries vs Hash Tables vs Hash Map.md",
     "_CODE/Express/Dev Todo.md",
     "_NoteAssets/Pomofocus.md",
     "Home.md",
@@ -282,10 +286,6 @@
     "Architecture/Domain-driven design.md",
     "Architecture/App Layers/Domain stuff.md",
     "Language/Bash/script.md",
-    "Language/Python/Python World.md",
-    "AI & Chatgpt/prompts/Development/Python DEV.md",
-    "Architecture/Microservices.md",
-    "Class inheritance Python vs Java.md",
     "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png",
     "_Images/unnamed (6).gif",
     "_Images/unnamed (4).gif",

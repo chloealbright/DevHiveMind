@@ -27,7 +27,7 @@ Take in user story convert into high level object oriented class Map breakdown d
 Or javascript model
 
 
-
+Create lib folder for utility functions that use libraries
 
 
 ### Coding Challenge

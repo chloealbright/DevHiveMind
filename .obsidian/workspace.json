@@ -11,9 +11,11 @@
             "id": "2b5d418247298739",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf"
+                "file": "Home.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf"
+                "file": "Home.md"
               }
             }
           },
@@ -243,8 +245,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2b5d418247298739",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "Mind Maps",
     "_Pdf/Books/Other/Code - The Hidden Language of Computer Hardware and Software.pdf",
     "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",
     "Home.md",
@@ -258,7 +261,6 @@
     "_Pdf/Books/Java/Java_8_in_Action.pdf",
     "_Pdf/Books/Java/Starting Out with Java 6th Ed..pdf",
     "_Pdf/Books/Java/Java_-_How_To_Program_-_Ninth_Edition_(2012).pdf",
-    "_Pdf/Books/Java/Java The Complete Reference 9th Edition.pdf",
     "_CODE/Express/Dev Todo.md",
     "_CODE/_Organize/Prototype Pollution.md",
     "_CODE/_Organize/Unsafe functions.md",

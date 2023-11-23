@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language Overlap/Conditional Logic and Operators.md",
+                "file": "Algorithms & Data Structures/Algo/pivot to another approach.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,8 +125,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -146,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language Overlap/Conditional Logic and Operators.md",
+                "file": "Algorithms & Data Structures/Algo/pivot to another approach.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language Overlap/Conditional Logic and Operators.md",
+                "file": "Algorithms & Data Structures/Algo/pivot to another approach.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language Overlap/Conditional Logic and Operators.md"
+                "file": "Algorithms & Data Structures/Algo/pivot to another approach.md"
               }
             }
           },
@@ -292,6 +291,10 @@
   },
   "active": "08e4bb5fd1b0ac5b",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Algo/Binary search 101.md",
+    "Algorithms & Data Structures/Algo/pivot to another approach.md",
+    "Algorithms & Data Structures/Algo Line of thought.md",
+    "Language Overlap/Conditional Logic and Operators.md",
     "Algorithms & Data Structures/AlgoFlow.md",
     "_CODE/_Organize/GUIDs.md",
     "_CODE/_Organize/Node Project Structure.md",
@@ -314,10 +317,6 @@
     "Language/Typescript/Any.md",
     "Language Overlap/Instantiation.md",
     "Testing/Untitled.md",
-    "Testing/_Type of Testing.md",
-    "Testing/BDD.md",
-    "Testing/Black Box Testing Techniques.md",
-    "Testing/Code Coverage.md",
     "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/Docker InDeph.canvas",

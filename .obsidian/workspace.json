@@ -4,56 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "eae3cd425a4c788f",
+        "id": "2f0d8d9852805bda",
         "type": "tabs",
         "children": [
           {
-            "id": "2b5d418247298739",
+            "id": "ec0cb8b2e88793ef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_CODE/_Organize/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
-      },
-      {
-        "id": "9abf02b5268dc6e8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "65dadf924bb0f80a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_CODE/_Organize/Ideas.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "edcc8b525c1c9764",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Architecture/Domain.canvas",
-                "viewState": {
-                  "x": 162.67509383942215,
-                  "y": 1376.8021593830335,
-                  "zoom": -2.755464300028548
-                }
-              }
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,8 +77,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -136,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Domain.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Domain.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Architecture/Domain.canvas"
-              }
+              "state": {}
             }
           },
           {
@@ -280,13 +237,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "edcc8b525c1c9764",
+  "active": "ec0cb8b2e88793ef",
   "lastOpenFiles": [
+    "Architecture/Domain.canvas",
+    "_CODE/Express/Dev Todo.md",
+    "Architecture/Domain-driven design.md",
+    "_CODE/Express/Testing topics to add to notes.md",
+    "_CODE/_Organize/Data Project Idea.md",
+    "Home.md",
     "Architecture/Clean Code.md",
     "_CODE/Express/Be Aware.md",
-    "Home.md",
-    "Architecture/Domain.canvas",
-    "Architecture/Domain-driven design.md",
     "Architecture/App Layers/Domain stuff.md",
     "Testing/Integration test.md",
     "_CODE/_Organize/Code Defects.md",
@@ -305,10 +265,6 @@
     "Architecture/Code Architecture.md",
     "Testing/Unit testing.md",
     "Testing/Test Cases.md",
-    "Testing/when would use looping in unit and integration test.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Type Of Linked List.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Types of Linked List.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Singly Linked List.md",
     "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/Docker InDeph.canvas",

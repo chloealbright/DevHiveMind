@@ -14,7 +14,7 @@ Relates:
 #todo/High/Dev 
 - [ ] Edit article on [[_Bootcamp]] ^923f61
 - [ ] Edit article on [_note taking](_note%20taking.md) ^776056
-- [ ] [Testing topics to add to notes](Testing%20topics%20to%20add%20to%20notes.md)
+- [ ] [[Data Project Idea]]
 - [ ] Read [Domain-driven design](Domain-driven%20design.md)
 - [ ] Get certified in Linux 
 - [ ] Continue reading [[Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf#page=160|Grokking Algorithms - An illustrated guide for programmers and other curious people, page 160]]

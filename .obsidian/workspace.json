@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "Companies/Companies Worked At/TD/BSA vs BA.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Companies/Companies Worked At/TD/BSA vs BA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Companies/Companies Worked At/TD/BSA vs BA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Companies/Companies Worked At/TD/BSA vs BA.md"
               }
             }
           },
@@ -247,32 +247,33 @@
   },
   "active": "ec0cb8b2e88793ef",
   "lastOpenFiles": [
+    "Companies/Companies Worked At/TD/BSA Notes.md",
+    "Companies/_Tech Jobs/Technical Writer.md",
+    "Companies/_Tech Jobs/Solutions Engineer.md",
+    "Companies/_Tech Jobs/TD Qualifications For Salesforce BSA.md",
+    "Companies/_Tech Jobs/Software Development Engineer in Test.md",
+    "Companies/_Tech Jobs/Site Reliability Engineer.md",
+    "Companies/_Tech Jobs/Side Gig.md",
+    "Companies/_Tech Jobs/Sales Engineer.md",
+    "Companies/_Tech Jobs/QA Engineer.md",
+    "Companies/_Tech Jobs/QA Analyst.md",
+    "Companies/_Tech Jobs/Non Tech Un-Outsourced.md",
+    "Companies/_Tech Jobs/Escalation Engineer.md",
+    "Companies/_Tech Jobs/Developer Experience Engineer.md",
+    "Companies/_Tech Jobs/Dev Metrics.md",
+    "Companies/_Tech Jobs/Crunch.md",
+    "Companies/General Dev Issues When starting at a New company.md",
+    "Companies/Employment Best Personal Practices.md",
+    "Home.md",
     "Architecture/Domain.canvas",
     "_CODE/Express/Dev Todo.md",
     "Architecture/Domain-driven design.md",
     "_CODE/Express/Testing topics to add to notes.md",
     "_CODE/_Organize/Data Project Idea.md",
-    "Home.md",
     "Architecture/Clean Code.md",
     "_CODE/Express/Be Aware.md",
     "Architecture/App Layers/Domain stuff.md",
     "Testing/Integration test.md",
-    "_CODE/_Organize/Code Defects.md",
-    "_CODE/Distill/Development Perpetual Practices.md",
-    "Algorithms & Data Structures/Algo/pivot to another approach.md",
-    "Algorithms & Data Structures/Algo/Binary search 101.md",
-    "Algorithms & Data Structures/Algo Line of thought.md",
-    "Language Overlap/Conditional Logic and Operators.md",
-    "Algorithms & Data Structures/AlgoFlow.md",
-    "_CODE/_Organize/GUIDs.md",
-    "_CODE/_Organize/Node Project Structure.md",
-    "Web/Web Workers.md",
-    "Web/WebSockets.md",
-    "Web/Common Response Status Codes.md",
-    "Language Overlap/Serialization vs Parsing.md",
-    "Architecture/Code Architecture.md",
-    "Testing/Unit testing.md",
-    "Testing/Test Cases.md",
     "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/Docker InDeph.canvas",

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/pivot to another approach.md",
+                "file": "_CODE/Express/Be Aware.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,11 +54,14 @@
             "id": "edcc8b525c1c9764",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Testing/Integration test.md",
-                "mode": "source",
-                "source": false
+                "file": "Architecture/Domain.canvas",
+                "viewState": {
+                  "x": 162.67509383942215,
+                  "y": 1376.8021593830335,
+                  "zoom": -2.755464300028548
+                }
               }
             }
           }
@@ -92,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Chaining",
+                "query": "domain",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -125,7 +128,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -145,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/pivot to another approach.md",
+                "file": "Architecture/Domain.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/pivot to another approach.md",
+                "file": "Architecture/Domain.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/pivot to another approach.md"
+                "file": "Architecture/Domain.canvas"
               }
             }
           },
@@ -289,16 +293,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "08e4bb5fd1b0ac5b",
+  "active": "edcc8b525c1c9764",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Algo/Binary search 101.md",
+    "Architecture/Domain-driven design.md",
+    "Architecture/App Layers/Domain stuff.md",
+    "Testing/Integration test.md",
+    "_CODE/Express/Be Aware.md",
+    "_CODE/_Organize/Code Defects.md",
+    "_CODE/Distill/Development Perpetual Practices.md",
     "Algorithms & Data Structures/Algo/pivot to another approach.md",
+    "Algorithms & Data Structures/Algo/Binary search 101.md",
     "Algorithms & Data Structures/Algo Line of thought.md",
     "Language Overlap/Conditional Logic and Operators.md",
     "Algorithms & Data Structures/AlgoFlow.md",
     "_CODE/_Organize/GUIDs.md",
     "_CODE/_Organize/Node Project Structure.md",
-    "Testing/Integration test.md",
     "Web/Web Workers.md",
     "Web/WebSockets.md",
     "Web/Common Response Status Codes.md",
@@ -312,11 +321,6 @@
     "Algorithms & Data Structures/Linear  Data Structures/Types of Linked List.md",
     "Algorithms & Data Structures/Linear  Data Structures/Singly Linked List.md",
     "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
-    "Codebase Architecture Decisions/_I_nterface Segregation Principle.md",
-    "Language/Typescript/TypeScript Configuration.md",
-    "Language/Typescript/Any.md",
-    "Language Overlap/Instantiation.md",
-    "Testing/Untitled.md",
     "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/Docker InDeph.canvas",

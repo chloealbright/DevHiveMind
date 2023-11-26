@@ -23,7 +23,9 @@
 <mark style="background: #D2B3FFA6;">7.</mark>  [[Query String]]
     
 <mark style="background: #FFB8EBA6;">8.</mark>  Fragment identifier is a string after URI, after the hash, which identifies something specific as a function of the document.  
-    
+
+The URI fragment is the optional part at the end of a URL which starts with a hash ( # ) character. It lets you refer to a specific part of the document you've accessed. For example, if you visit the following link, you'll automatically scroll to the top of the section you're reading right now!
+
 
 Hostname would be the combination of the  Sub-Domain, Domain, and Top Level Domain so example would be [www.youtube.com](http://www.youtube.com/) or mail.gmail.com
 

@@ -20,19 +20,55 @@
             }
           },
           {
+            "id": "2764f3ae1f392a08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Domain model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a9a9133bbe9ccac9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Software Architecture vs System Design.md",
+                "file": "Architecture/Domain Model Testing Focus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e71ab2c1d3aaf8d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Domain-Driven Design Aggregate Root.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd89c78f8fef501a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_CODE/Express/Dev Todo.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "bfc9a3104c4bfcb8",
@@ -49,8 +85,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9de509d1599b4226",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database/Types of Tables in logical database models.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +128,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "domain",
+                "query": "Aggr",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -132,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Software Architecture vs System Design.md",
+                "file": "_CODE/Express/Dev Todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Software Architecture vs System Design.md",
+                "file": "_CODE/Express/Dev Todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +221,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Software Architecture vs System Design.md"
+                "file": "_CODE/Express/Dev Todo.md"
               }
             }
           },
@@ -276,38 +325,38 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a9a9133bbe9ccac9",
+  "active": "cd89c78f8fef501a",
   "lastOpenFiles": [
-    "Architecture/Architect decision.md",
-    "Architecture/Software Architecture vs System Design.md",
-    "Architecture/App Layers/Domain stuff.md",
+    "Architecture/Domain-Driven Design Aggregate Root.md",
+    "Architecture/Domain model.md",
+    "Architecture/Domain Model Testing Focus.md",
+    "Database/Types of Tables in logical database models.md",
+    "Database/Create Tables.md",
+    "Database/Constraints.md",
+    "Database/conf.md",
+    "Database/Cloud Databases.md",
+    "Database/Setup/Postgresql Setup.md",
+    "Database/Relationships/Table Relationships.md",
+    "Database/Relationships/SQL Table Structure.md",
+    "Database/NOSQL/General Info.md",
+    "Database/DB Fundamentals/Data.md",
+    "Database/DB Fundamentals/Data formats.md",
+    "Database/DB Fundamentals/Metadata.md",
+    "Database/DB Fundamentals/Mock Data.md",
+    "Database/DB Fundamentals/Transaction.md",
+    "Database/Database Archetecture/Best Practices for Database Schema Design.md",
+    "Database/Database Archetecture/Database Diagram.md",
+    "Database/Database Archetecture/DBMS Types of Keys.md",
+    "Database/Database Archetecture/Decentralized Data Management.md",
+    "Database/Database Archetecture/Fact Table.md",
+    "Database/Database Archetecture/Making Decesion.md",
+    "Database/Database Archetecture/Schema Design.md",
+    "Database/Database Archetecture/Table Team Work.md",
+    "Database/Database Archetecture/Which normalization to pick.md",
     "Architecture/Domain.canvas",
-    "Devops/Docker/Docker Namespace in Deph.md",
-    "_CODE/_Organize/Data Project Idea.md",
-    "Database/Database Archetecture/Data Architecture.md",
-    "Companies/Companies Worked At/TD/Current Job Title.md",
-    "Language Overlap/Concurrent programming.md",
-    "Language/Java/Common Java libraries.md",
-    "Language/Typescript/Async vs Defer how JavaScript is loaded.md",
-    "Architecture/Arch to think about.md",
     "Architecture/_Command and Query Responsibility Segregation.canvas",
-    "Library/Frontend/React/Project Structure.md",
-    "Architecture/Domain-driven design.md",
-    "Web/URI vs URL vs URN.md",
-    "Web/When should you use.md",
-    "Architecture/Event Driven Architecture.md",
     "Architecture/Event Driven Architecture.canvas",
     "Mind Maps/Event Messaging.canvas",
-    "Home.md",
-    "Companies/Companies Worked At/TD/BSA Notes.md",
-    "Companies/_Tech Jobs/Technical Writer.md",
-    "Companies/_Tech Jobs/Solutions Engineer.md",
-    "Companies/_Tech Jobs/TD Qualifications For Salesforce BSA.md",
-    "Companies/_Tech Jobs/Software Development Engineer in Test.md",
-    "Companies/_Tech Jobs/Site Reliability Engineer.md",
-    "Companies/_Tech Jobs/Side Gig.md",
-    "Companies/_Tech Jobs/Sales Engineer.md",
-    "Companies/_Tech Jobs/QA Engineer.md",
     "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/Docker InDeph.canvas",

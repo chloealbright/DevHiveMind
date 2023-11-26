@@ -12,6 +12,7 @@ Relates:
 
 # <mark style="background: #FF5582A6;">Current </mark>
 #todo/High/Dev 
+- [ ] Refine notes based subject matter you are practicing l
 - [ ] Edit article on [[_Bootcamp]] ^923f61
 - [ ] Edit article on [_note taking](_note%20taking.md) ^776056
 - [ ] [[Data Project Idea]]

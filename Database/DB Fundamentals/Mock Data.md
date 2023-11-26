@@ -1,3 +1,6 @@
+
+A fixture is a  Data base object help test
+
 if using mock data and adding you need to check fixture if previous data exist if it does it needs to be flushed within fixture method  
 
 If db table not changing like roles table don't need to create fixtures for it 

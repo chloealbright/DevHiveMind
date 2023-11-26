@@ -26,6 +26,7 @@ Relates:
 - [ ] And maybe even a higher level with technologies and stuff
 - [ ] Design patterns mindmap
 - [ ] Look into 12 Factor microservice
+- [ ] learn and use precompilers for CSS like Saas
 - [ ] identify areas of automation were ever you see 
 - [ ] Identify most expensive manual process  
 - [ ] look a little into alt ways to exclude dir

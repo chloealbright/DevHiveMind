@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/URI vs URL vs URN.md",
+                "file": "Hardware & Code/CPUs.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/URI vs URL vs URN.md",
+                "file": "Hardware & Code/CPUs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/URI vs URL vs URN.md",
+                "file": "Hardware & Code/CPUs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/URI vs URL vs URN.md"
+                "file": "Hardware & Code/CPUs.md"
               }
             }
           },
@@ -247,6 +247,21 @@
   },
   "active": "a6b049dbb8ea080e",
   "lastOpenFiles": [
+    "Mind Maps/Drafts/Gateway.canvas",
+    "Mind Maps/Redux Map.canvas",
+    "Mind Maps/Drafts/Java Logging.canvas",
+    "Architecture/System Design/1700585118522.gif",
+    "Devops/unnamed (3).gif",
+    "Security/How do JSON Web Tokens work.md",
+    "Open Source/To Look into.md",
+    "_CODE/Express/Dev Todo.md",
+    "Security/1699170000926.jpeg",
+    "Testing/Untitled.md",
+    "Testing/Backend/Data.md",
+    "Database/DB Fundamentals/Mock Data.md",
+    "Testing/Untitled.canvas",
+    "Web/Url.canvas",
+    "Web/URI vs URL vs URN.md",
     "README.md",
     "Home.md",
     "Dev Roadmaps By Priority.md",
@@ -261,7 +276,6 @@
     "Architecture/System Design/Design Guide.md",
     "Architecture/System Design/Content management system (CMS).md",
     "Architecture/System Design/Apache Kafka.md",
-    "Architecture/System Design/1700585118522.gif",
     "_Images/Design Pattern 1.webp",
     "_Images/Design Pattern 2.webp",
     "Mind Maps/_Web App Architecture.canvas",
@@ -274,21 +288,11 @@
     "Architecture/Domain-Driven Design Application Services.md",
     "Architecture/Event Driven Architecture.md",
     "Architecture/Domain model.md",
-    "Architecture/Domain Model Testing Focus.md",
-    "Architecture/Domain-Driven Design Aggregate Root.md",
-    "Database/Types of Tables in logical database models.md",
     "Mind Maps/Drafts/Domain-driven design.canvas",
     "Mind Maps/Drafts",
-    "_CODE/Express/Dev Todo.md",
-    "Database/Create Tables.md",
-    "Database/Constraints.md",
-    "Database/conf.md",
-    "Database/Cloud Databases.md",
     "Mind Maps/Drafts/Event Messaging.canvas",
     "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",
     "Mind Maps/12 Factor App Docker.canvas",
-    "Mind Maps/Docker InDeph.canvas",
-    "API/Gateway.canvas",
     "Mind Maps",
     "_Pdf/Books/Other/Code - The Hidden Language of Computer Hardware and Software.pdf",
     "_Pdf/Books/Java/thinkapjava.pdf",
@@ -298,10 +302,6 @@
     "_Pdf/Books/Java/The Elements of Java Style.pdf",
     "_Images/2023-07-12 17.07.27 www.publicdomainpictures.net ed1a8818a311.png",
     "_Images/unnamed (6).gif",
-    "_Images/unnamed (4).gif",
-    "_Images/unnamed (2).gif",
-    "_Images/unnamed (1).gif",
-    "Web/Url.canvas",
-    "Library/Frontend/Redux/Redux Map.canvas"
+    "_Images/unnamed (4).gif"
   ]
 }

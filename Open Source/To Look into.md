@@ -19,8 +19,5 @@
 [https://github.com/thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist)
 
 
-switch between java versions
-switch between node versions
-Linux file system Structure
 
-learn and use precompilers for CSS like Saas
+

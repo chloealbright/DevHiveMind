@@ -19,7 +19,7 @@ Relates:
 	- [ ] Code Reusability
 - [ ] [[Design Patterns.pdf]]
 - [ ] [[Event Driven Architecture]] 
-	- [ ] [[Domain-driven design]]depends on domain which may vary
+- [ ] [[Domain-driven design]]depends on domain which may vary
 - [ ] [[Reactive programming]]
 - [ ] [[Microservices]]
 - [x] [[12 Factor App Docker.canvas|12 Factor App Docker]]

@@ -15,7 +15,7 @@
 		{"id":"61aaee0de644fb56","type":"text","text":"## Write Database\n\n### Commands write","x":180,"y":2320,"width":250,"height":140},
 		{"id":"728046a98d3fdfb5","type":"text","text":"## Read Database","x":540,"y":2320,"width":250,"height":60},
 		{"id":"1d2d687c399ad26b","type":"text","text":"## Event Store","x":860,"y":2320,"width":250,"height":60},
-		{"id":"50f1407023f83828","type":"text","text":"<center>\n  <h4 style=\"font-size: 50px; -webkit-text-stroke: 1px blue; -webkit-text-fill-color: transparent;\">Event Sourcing </h4>\n</center>\n\n","x":600,"y":2440,"width":460,"height":120,"color":"5"},
+		{"id":"50f1407023f83828","type":"text","text":"<center>\n  <h4 style=\"font-size: 50px; -webkit-text-stroke: 1px blue; -webkit-text-fill-color: transparent;\">Event Sourcing </h4>\n</center>\n\n","x":600,"y":2440,"width":460,"height":220,"color":"5"},
 		{"id":"5009100bd524e6cc","type":"text","text":"Store events\n\nReplay events\n\nmodify entity\n\nStore new event \n\nUpdate read database","x":1167,"y":2382,"width":250,"height":278},
 		{"id":"aecb2c013244fa48","type":"text","text":"## My understanding of execute would be create update and delete to the database  \n  \n## Commands execute data in the domain model, mutate state, raise events, and write out to database","x":-1395,"y":2560,"width":680,"height":200}
 	],

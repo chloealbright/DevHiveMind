@@ -4,16 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "2f0d8d9852805bda",
+        "id": "3f0e6bbc98e0969a",
         "type": "tabs",
         "children": [
           {
-            "id": "ec0cb8b2e88793ef",
+            "id": "a6b049dbb8ea080e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Companies Worked At/TD/BSA vs BA.md",
+                "file": "Architecture/App Layers/Domain stuff.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a9a9133bbe9ccac9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Software Architecture vs System Design.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "bfc9a3104c4bfcb8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e46338884a75b41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Domain-driven design.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Companies Worked At/TD/BSA vs BA.md",
+                "file": "Architecture/Software Architecture vs System Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Companies Worked At/TD/BSA vs BA.md",
+                "file": "Architecture/Software Architecture vs System Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Companies Worked At/TD/BSA vs BA.md"
+                "file": "Architecture/Software Architecture vs System Design.md"
               }
             }
           },
@@ -245,8 +276,29 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ec0cb8b2e88793ef",
+  "active": "a9a9133bbe9ccac9",
   "lastOpenFiles": [
+    "Architecture/Architect decision.md",
+    "Architecture/Software Architecture vs System Design.md",
+    "Architecture/App Layers/Domain stuff.md",
+    "Architecture/Domain.canvas",
+    "Devops/Docker/Docker Namespace in Deph.md",
+    "_CODE/_Organize/Data Project Idea.md",
+    "Database/Database Archetecture/Data Architecture.md",
+    "Companies/Companies Worked At/TD/Current Job Title.md",
+    "Language Overlap/Concurrent programming.md",
+    "Language/Java/Common Java libraries.md",
+    "Language/Typescript/Async vs Defer how JavaScript is loaded.md",
+    "Architecture/Arch to think about.md",
+    "Architecture/_Command and Query Responsibility Segregation.canvas",
+    "Library/Frontend/React/Project Structure.md",
+    "Architecture/Domain-driven design.md",
+    "Web/URI vs URL vs URN.md",
+    "Web/When should you use.md",
+    "Architecture/Event Driven Architecture.md",
+    "Architecture/Event Driven Architecture.canvas",
+    "Mind Maps/Event Messaging.canvas",
+    "Home.md",
     "Companies/Companies Worked At/TD/BSA Notes.md",
     "Companies/_Tech Jobs/Technical Writer.md",
     "Companies/_Tech Jobs/Solutions Engineer.md",
@@ -256,24 +308,6 @@
     "Companies/_Tech Jobs/Side Gig.md",
     "Companies/_Tech Jobs/Sales Engineer.md",
     "Companies/_Tech Jobs/QA Engineer.md",
-    "Companies/_Tech Jobs/QA Analyst.md",
-    "Companies/_Tech Jobs/Non Tech Un-Outsourced.md",
-    "Companies/_Tech Jobs/Escalation Engineer.md",
-    "Companies/_Tech Jobs/Developer Experience Engineer.md",
-    "Companies/_Tech Jobs/Dev Metrics.md",
-    "Companies/_Tech Jobs/Crunch.md",
-    "Companies/General Dev Issues When starting at a New company.md",
-    "Companies/Employment Best Personal Practices.md",
-    "Home.md",
-    "Architecture/Domain.canvas",
-    "_CODE/Express/Dev Todo.md",
-    "Architecture/Domain-driven design.md",
-    "_CODE/Express/Testing topics to add to notes.md",
-    "_CODE/_Organize/Data Project Idea.md",
-    "Architecture/Clean Code.md",
-    "_CODE/Express/Be Aware.md",
-    "Architecture/App Layers/Domain stuff.md",
-    "Testing/Integration test.md",
     "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/Docker InDeph.canvas",
@@ -298,10 +332,7 @@
     "_Images/quicksort.png",
     "_Images/preOrder.gif",
     "Web/Url.canvas",
-    "Architecture/Untitled.canvas",
     "Architecture/_Web App Architecture.canvas",
-    "Architecture/_Command and Query Responsibility Segregation.canvas",
-    "Library/Frontend/Redux/Redux Map.canvas",
-    "Testing/Untitled.canvas"
+    "Library/Frontend/Redux/Redux Map.canvas"
   ]
 }

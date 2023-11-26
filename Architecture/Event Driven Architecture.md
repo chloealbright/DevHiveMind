@@ -13,6 +13,7 @@ Event-Driven Architecture (EDA) is a software design pattern that focuses on the
 
 1. **Event:**
    - An event is a significant occurrence or change in a system that can be captured and processed. Events can represent a wide range of activities, such as user interactions, system alerts, sensor data, or application state changes.
+   - Events are immutable facts that have already occurred. They describe something that has happened in the past and are used to communicate changes in the system.
 
 2. **Event Source:**
    - An event source is an entity or component that generates events. Event sources can include user interfaces, IoT devices, databases, application services, and external systems.

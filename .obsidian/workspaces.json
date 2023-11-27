@@ -2377,71 +2377,109 @@
         "type": "split",
         "children": [
           {
-            "id": "3f0e6bbc98e0969a",
-            "type": "tabs",
+            "id": "91b1f1f60c93a4f8",
+            "type": "split",
             "children": [
               {
-                "id": "a6b049dbb8ea080e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Architecture/App Layers/Domain stuff.md",
-                    "mode": "source",
-                    "source": false
+                "id": "3f0e6bbc98e0969a",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "a6b049dbb8ea080e",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Architecture/App Layers/Domain stuff.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "2764f3ae1f392a08",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Architecture/System Design/Domain model.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "a9a9133bbe9ccac9",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Architecture/System Design/Domain Model Testing Focus.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "534b026f31666ed3",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Architecture/System Design/Domain-Driven Design Aggregate Root.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "e71ab2c1d3aaf8d2",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Architecture/System Design/When to use Domain-Driven Design.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
                   }
-                }
+                ],
+                "currentTab": 4
               },
               {
-                "id": "2764f3ae1f392a08",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Architecture/Domain model.md",
-                    "mode": "source",
-                    "source": false
+                "id": "fcedc42f2c2e7f7c",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "10b638d6a46e3d6c",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Architecture/System Design/Domain-driven design Life Cycle.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "5d82d5674d7205c4",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "Architecture/System Design/Domain-driven design Pivot.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
                   }
-                }
-              },
-              {
-                "id": "a9a9133bbe9ccac9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Architecture/Domain Model Testing Focus.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "534b026f31666ed3",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Architecture/Domain-Driven Design Aggregate Root.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "e71ab2c1d3aaf8d2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Architecture/When to use Domain-Driven Design.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+                ],
+                "currentTab": 1
               }
             ],
-            "currentTab": 4
+            "direction": "horizontal"
           },
           {
             "id": "5402adba7858e81c",
@@ -2457,7 +2495,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Architecture/Domain-driven design.md",
+                        "file": "Architecture/System Design/Domain-driven design.md",
                         "mode": "source",
                         "source": false
                       }
@@ -2503,7 +2541,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Architecture/Domain-Driven Design Application Services.md",
+                        "file": "Architecture/System Design/Domain-Driven Design Application Services.md",
                         "mode": "source",
                         "source": false
                       }
@@ -2515,7 +2553,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Architecture/Domain-Driven Design with Persistent Data.md",
+                        "file": "Architecture/System Design/Domain-Driven Design with Persistent Data.md",
                         "mode": "source",
                         "source": false
                       }
@@ -2527,7 +2565,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Architecture/Domain-Driven Design Event Types.md",
+                        "file": "Architecture/System Design/Domain-Driven Design Event Types.md",
                         "mode": "source",
                         "source": false
                       }
@@ -2539,7 +2577,7 @@
                     "state": {
                       "type": "markdown",
                       "state": {
-                        "file": "Architecture/Domain-Driven Design Repositories, Factories, and domain services.md",
+                        "file": "Architecture/System Design/Domain-Driven Design Repositories, Factories, and domain services.md",
                         "mode": "source",
                         "source": false
                       }
@@ -2631,7 +2669,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Architecture/When to use Domain-Driven Design.md",
+                    "file": "Architecture/System Design/Domain-Driven Design Repositories, Factories, and domain services.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -2648,7 +2686,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Architecture/When to use Domain-Driven Design.md",
+                    "file": "Architecture/System Design/Domain-Driven Design Repositories, Factories, and domain services.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -2671,7 +2709,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Architecture/When to use Domain-Driven Design.md"
+                    "file": "Architecture/System Design/Domain-Driven Design Repositories, Factories, and domain services.md"
                   }
                 }
               },
@@ -2775,7 +2813,7 @@
           "periodic-notes:Open today": false
         }
       },
-      "active": "e71ab2c1d3aaf8d2"
+      "active": "88f0978d9d2f20c8"
     }
   },
   "active": "Domain"

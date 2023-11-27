@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "105b93b0880c2717",
+        "id": "8e3de8f4021bc54c",
         "type": "tabs",
         "children": [
           {
-            "id": "88f0978d9d2f20c8",
+            "id": "3be24fda38431b48",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Architecture/System Design/Design Guide.md",
-                "mode": "source",
-                "source": false
+                "file": "_Pdf/Books/Architecture/Building Microservices Designing Fine Grained Systems.pdf"
               }
             }
           }
@@ -101,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/System Design/Design Guide.md",
+                "file": "_Pdf/Books/Architecture/Building Microservices Designing Fine Grained Systems.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/System Design/Design Guide.md",
+                "file": "_Pdf/Books/Architecture/Building Microservices Designing Fine Grained Systems.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/System Design/Design Guide.md"
+                "file": "_Pdf/Books/Architecture/Building Microservices Designing Fine Grained Systems.pdf"
               }
             }
           },
@@ -245,8 +243,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "88f0978d9d2f20c8",
+  "active": "3be24fda38431b48",
   "lastOpenFiles": [
+    "Architecture/Clean Code.md",
+    "Architecture/Caches.md",
+    "Architecture/Architect decision.md",
+    "Architecture/Arch to think about.md",
+    "Home.md",
     "Architecture/System Design/When to use Domain-Driven Design.md",
     "Architecture/System Design/Domain-Driven Design Aggregate Root.md",
     "Architecture/System Design/Domain Model Testing Focus.md",
@@ -263,7 +266,6 @@
     "Architecture/System Design/Domain model.md",
     "Architecture/App Layers/Domain stuff.md",
     "Architecture/System Design/1700585118522.gif",
-    "Home.md",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Redux Map.canvas",
     "Mind Maps/Drafts/Java Logging.canvas",
@@ -278,13 +280,9 @@
     "Testing/Untitled.canvas",
     "Web/Url.canvas",
     "Web/URI vs URL vs URN.md",
-    "README.md",
-    "Dev Roadmaps By Priority.md",
-    "Devops/wsl v vm.md",
     "_Template/Whiteboard.png",
     "_Images/_Whiteboard/Whiteboard Template.png",
     "_Pdf/Design Patterns.pdf",
-    "Architecture/System Design/Scope 1.md",
     "_Images/Design Pattern 1.webp",
     "_Images/Design Pattern 2.webp",
     "Mind Maps/_Web App Architecture.canvas",

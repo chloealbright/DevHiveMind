@@ -11,9 +11,11 @@
             "id": "fb0ffe3a4f5127d5",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Web/1700239541390.gif"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/1700239541390.gif",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/1700239541390.gif",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/1700239541390.gif"
+                "file": "README.md"
               }
             }
           },
@@ -246,6 +248,8 @@
   "active": "fb0ffe3a4f5127d5",
   "lastOpenFiles": [
     "Home.md",
+    "Web/1693842318273.jpeg",
+    "Web/1695743132634.jpeg",
     "API/Rest API Design.jpeg",
     "Devops/Linux File System.jpeg",
     "Devops/Software Life Cycle.gif",
@@ -264,8 +268,6 @@
     "Web/1700239541390.gif",
     "Web/exposing routes.md",
     "Web/gRPC.md",
-    "Database/1695051917383.jpeg",
-    "Architecture/1693548539488.jpeg",
     "_Pdf/Books/Architecture/Building Microservices Designing Fine Grained Systems.pdf",
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",

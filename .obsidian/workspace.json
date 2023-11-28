@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "91c2e1c29514aace",
+        "id": "bb68982a269199f8",
         "type": "tabs",
         "children": [
           {
-            "id": "80ad1a8a7cc330a1",
+            "id": "fb0ffe3a4f5127d5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "Web/1700239541390.gif"
               }
             }
           }
@@ -101,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Web/1700239541390.gif",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Web/1700239541390.gif",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Web/1700239541390.gif"
               }
             }
           },
@@ -245,10 +243,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "80ad1a8a7cc330a1",
+  "active": "fb0ffe3a4f5127d5",
   "lastOpenFiles": [
     "Home.md",
-    "Open Source/1698853514812.jpeg",
+    "API/Rest API Design.jpeg",
+    "Devops/Linux File System.jpeg",
+    "Devops/Software Life Cycle.gif",
+    "Open Source/To Look into.md",
+    "Devops/Version Control/GitHub Linux setup.md",
+    "Devops/Version Control/Common Git Workflow.md",
+    "Devops/Version Control/Git Flow.jpeg",
+    "Architecture/1689226066481.jpeg",
+    "README.md",
     "_Images/1701104695210.gif",
     "Algorithms & Data Structures/Algo/Data struct Factory.md",
     "Mind Maps/Drafts/Gateway.canvas",
@@ -260,7 +266,6 @@
     "Web/gRPC.md",
     "Database/1695051917383.jpeg",
     "Architecture/1693548539488.jpeg",
-    "Architecture/1689226066481.jpeg",
     "_Pdf/Books/Architecture/Building Microservices Designing Fine Grained Systems.pdf",
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",
@@ -282,14 +287,7 @@
     "Architecture/System Design/Domain-driven design Pivot.md",
     "Architecture/System Design/Domain-driven design Life Cycle.md",
     "Architecture/System Design/Domain model.md",
-    "Architecture/App Layers/Domain stuff.md",
-    "Architecture/System Design/1700585118522.gif",
     "Mind Maps/Redux Map.canvas",
-    "Devops/unnamed (3).gif",
-    "Security/How do JSON Web Tokens work.md",
-    "Open Source/To Look into.md",
-    "_CODE/Express/Dev Todo.md",
-    "Security/1699170000926.jpeg",
     "Testing/Untitled.canvas",
     "Web/Url.canvas",
     "_Pdf/Design Patterns.pdf",

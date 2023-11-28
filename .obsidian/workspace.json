@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9190eac1a7debc6d",
+        "id": "6cf9c32ad69f4ac8",
         "type": "tabs",
         "children": [
           {
-            "id": "3954012a19e0af7d",
+            "id": "5b41a44a6e824ced",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -247,6 +247,9 @@
   },
   "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "Architecture/1699857522487.jpeg",
+    "Architecture/1694706487239.jpeg",
+    "Devops/Version Control/1701189126152.jpeg",
     "Architecture/1693842318273.jpeg",
     "Home.md",
     "Web/1693842318273.jpeg",
@@ -260,13 +263,10 @@
     "Devops/Version Control/Git Flow.jpeg",
     "Architecture/1689226066481.jpeg",
     "README.md",
-    "_Images/1701104695210.gif",
     "Algorithms & Data Structures/Algo/Data struct Factory.md",
     "Mind Maps/Drafts/Gateway.canvas",
-    "_Images/1701102609908.jpeg",
     "Mind Maps/Drafts/Java Logging.canvas",
     "Mind Maps/_Web App Architecture.canvas",
-    "Web/1700239541390.gif",
     "Web/exposing routes.md",
     "Web/gRPC.md",
     "_Pdf/Books/Architecture/Building Microservices Designing Fine Grained Systems.pdf",

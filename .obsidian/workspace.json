@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fc9fbb9c61e45862",
+        "id": "91c2e1c29514aace",
         "type": "tabs",
         "children": [
           {
-            "id": "4dea26d86af186f5",
+            "id": "80ad1a8a7cc330a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Open Source/To Look into.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Open Source/To Look into.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Open Source/To Look into.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Open Source/To Look into.md"
+                "file": "README.md"
               }
             }
           },
@@ -245,10 +245,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4dea26d86af186f5",
+  "active": "80ad1a8a7cc330a1",
   "lastOpenFiles": [
-    "Open Source/1698853514812.jpeg",
     "Home.md",
+    "Open Source/1698853514812.jpeg",
     "_Images/1701104695210.gif",
     "Algorithms & Data Structures/Algo/Data struct Factory.md",
     "Mind Maps/Drafts/Gateway.canvas",
@@ -292,7 +292,6 @@
     "Security/1699170000926.jpeg",
     "Testing/Untitled.canvas",
     "Web/Url.canvas",
-    "_Template/Whiteboard.png",
     "_Pdf/Design Patterns.pdf",
     "Mind Maps/Drafts",
     "Mind Maps/Drafts/Event Messaging.canvas",

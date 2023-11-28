@@ -70,3 +70,7 @@ When you deem your contributions valuable and ready for integration into this ma
 > Feel free to include any relevant tags, properties, or statuses as you see fit. This repository is still in the early stages of development and remains open to structural enhancements in the documentation.
 
 
+## Resources 
+> [!note] Obsidian has a big YouTube community there is a lot of content about it but so little time which is another reason it made sense to create this repo to share knowledge around Obsidian.
+- [Beginner Guide to Obsidian ](https://www.dsebastien.net/the-ultimate-beginners-guide-to-obsidian/)
+- [Obsidian Playlist](https://youtube.com/playlist?list=PL7oLu8NfQd84_gsyqBVSVgUmCCgcvSZMx&si=PLMYW7pLlzDwNQty)

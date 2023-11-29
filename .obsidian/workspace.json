@@ -29,8 +29,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "Methodology/Source code vs Codebase.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Methodology/Source code vs Codebase.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Methodology/Source code vs Codebase.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Methodology/Source code vs Codebase.md"
               }
             }
           },
@@ -263,6 +263,11 @@
   },
   "active": "52b7640ad15da2d7",
   "lastOpenFiles": [
+    "Mind Maps/Redux Map.canvas",
+    "Mind Maps/Docker InDeph.canvas",
+    "Mind Maps/12 Factor App Docker.canvas",
+    "Mind Maps/_Web App Architecture.canvas",
+    "Home.md",
     "_Images/Companies Models/2023-04-01 11.30.42 mailcitytechcuny-my.sharepoint.com f5e57e000696.png",
     "_Images/Work Process.png",
     "_Images/Mind Map/database.png",
@@ -273,7 +278,6 @@
     "_Images/2023-06-17 12.23.43 medium.com 7444e17e7519.png",
     "_Images/2023-06-17 12.32.33 medium.com 208fcebdac2c.png",
     "_Images/2023-06-17 12.33.05 medium.com 1b671e128549.png",
-    "_Images/2023-06-17 12.34.59 medium.com 7cf69549fdf5.png",
     "Hardware & Code/Synchronous  vs Asynchronous vs  Multiprocessing.md",
     "Hardware & Code/hypervisor.md",
     "Hardware & Code/PC.md",
@@ -293,15 +297,12 @@
     "AI & Chatgpt/Output/Building an Upskilling Program for Employees Epic.md",
     "AI & Chatgpt/Output/Data Engineering & Automation.md",
     "AI & Chatgpt/Output/30 Day Journey Map.md",
-    "Home.md",
     "_Images/Devops/Docker",
-    "Mind Maps/Docker InDeph.canvas",
     "_NoteAssets/Pomofocus.md",
     "_NoteAssets/Markdown to use.md",
     "_NoteAssets/HTML Assets.md",
     "_NoteAssets/Caret.md",
     "_NoteAssets/Callouts.md",
-    "Mind Maps/_Web App Architecture.canvas",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Untitled.canvas",
     "Mind Maps/Drafts/Java Logging.canvas",
@@ -309,7 +310,6 @@
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",
-    "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
     "_Images/Mind Map",
     "_Pdf/Books/Architecture/Building Microservices Designing Fine Grained Systems.pdf",
     "_Pdf/Design Patterns.pdf",

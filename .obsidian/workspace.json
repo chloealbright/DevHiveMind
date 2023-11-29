@@ -11,25 +11,9 @@
             "id": "91d3d0e2808c2c7a",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/Network Protocols.gif"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "446d21861821001b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "52b7640ad15da2d7",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Methodology/Source code vs Codebase.md",
+                "file": "_Official Documentation/PostgreSQL Docs.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methodology/Source code vs Codebase.md",
+                "file": "_Official Documentation/PostgreSQL Docs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methodology/Source code vs Codebase.md",
+                "file": "_Official Documentation/PostgreSQL Docs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methodology/Source code vs Codebase.md"
+                "file": "_Official Documentation/PostgreSQL Docs.md"
               }
             }
           },
@@ -261,10 +245,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "52b7640ad15da2d7",
+  "active": "91d3d0e2808c2c7a",
   "lastOpenFiles": [
-    "Web/Untitled.md",
+    "_Official Documentation/NPM Docs.md",
+    "_Official Documentation/Material UI Docs.md",
+    "_Images/Network Protocols.gif",
     "Methodology/Source code vs Codebase.md",
+    "Web/Untitled.md",
     "Mind Maps/Redux Map.canvas",
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/12 Factor App Docker.canvas",
@@ -279,7 +266,6 @@
     "_Images/1_fUhClgI4aRBdFrAFFGx5Kw.gif",
     "_Images/2023-06-17 12.23.43 medium.com 7444e17e7519.png",
     "_Images/2023-06-17 12.32.33 medium.com 208fcebdac2c.png",
-    "_Images/2023-06-17 12.33.05 medium.com 1b671e128549.png",
     "Hardware & Code/Synchronous  vs Asynchronous vs  Multiprocessing.md",
     "Hardware & Code/hypervisor.md",
     "Hardware & Code/PC.md",
@@ -302,8 +288,6 @@
     "_Images/Devops/Docker",
     "_NoteAssets/Pomofocus.md",
     "_NoteAssets/Markdown to use.md",
-    "_NoteAssets/HTML Assets.md",
-    "_NoteAssets/Caret.md",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Untitled.canvas",
     "Mind Maps/Drafts/Java Logging.canvas",

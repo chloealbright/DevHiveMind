@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/URI vs URL vs URN.md",
-                "mode": "preview",
+                "file": "_CODE/Express/Tech Things to Research.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/URI vs URL vs URN.md",
+                "file": "_CODE/Express/Tech Things to Research.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/URI vs URL vs URN.md",
+                "file": "_CODE/Express/Tech Things to Research.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/URI vs URL vs URN.md"
+                "file": "_CODE/Express/Tech Things to Research.md"
               }
             }
           },
@@ -247,6 +247,15 @@
   },
   "active": "37f3ae4896dff5b3",
   "lastOpenFiles": [
+    "Web/Protocols/TCIP.md",
+    "Web/Protocols/SMTP.md",
+    "Web/Protocols/HTTPS.md",
+    "Web/Protocols/FTP.md",
+    "Web/1693842318273.jpeg",
+    "Web/DNS(Domain Name System).md",
+    "Web/exposing routes.md",
+    "Web/JSON.md",
+    "Web/URI vs URL vs URN.md",
     "Web/URI Query Design.md",
     "Home.md",
     "Mind Maps/_Web App Architecture.canvas",
@@ -260,7 +269,6 @@
     "_Images/database.png",
     "_Images/Database Processes.gif",
     "_Images/1694100936831.jpeg",
-    "_Images/1692071519716.gif",
     "Testing/when would use looping in unit and integration test.md",
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/Drafts/Url.canvas",
@@ -281,20 +289,12 @@
     "Devops/Version Control/GitHub Linux setup.md",
     "Devops/Version Control/Common Git Workflow.md",
     "Algorithms & Data Structures/Algo/Data struct Factory.md",
-    "Web/exposing routes.md",
     "Web/gRPC.md",
     "_Pdf/Books/Architecture/Building Microservices Designing Fine Grained Systems.pdf",
     "Architecture/Clean Code.md",
     "Architecture/Caches.md",
     "Architecture/Architect decision.md",
     "Architecture/Arch to think about.md",
-    "Architecture/System Design/When to use Domain-Driven Design.md",
-    "Architecture/System Design/Domain-Driven Design Aggregate Root.md",
-    "Architecture/System Design/Domain Model Testing Focus.md",
-    "Architecture/System Design/Design Guide.md",
-    "Architecture/System Design/Domain-Driven Design Repositories, Factories, and domain services.md",
-    "Architecture/System Design/Domain-Driven Design Event Types.md",
-    "Architecture/System Design/Domain-Driven Design with Persistent Data.md",
     "_Pdf/Design Patterns.pdf",
     "Mind Maps/Drafts",
     "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",

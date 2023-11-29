@@ -33,7 +33,6 @@ Relates:
 - [ ] torrenting on ad hoc  
 - [ ] ad hoc  
 - [ ] Truecrypt  
-- [ ] best ide for html  
 - [ ] driver injection  
 - [ ] code text Art  
 - [ ] registry edit that speeds up keyboard  

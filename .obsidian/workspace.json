@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methodology/Source code vs Codebase.md",
+                "file": "Web/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methodology/Source code vs Codebase.md",
+                "file": "Web/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methodology/Source code vs Codebase.md",
+                "file": "Web/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methodology/Source code vs Codebase.md"
+                "file": "Web/Untitled.md"
               }
             }
           },
@@ -263,6 +263,8 @@
   },
   "active": "52b7640ad15da2d7",
   "lastOpenFiles": [
+    "Methodology/Source code vs Codebase.md",
+    "Web/Untitled.md",
     "Mind Maps/Redux Map.canvas",
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/12 Factor App Docker.canvas",
@@ -302,14 +304,12 @@
     "_NoteAssets/Markdown to use.md",
     "_NoteAssets/HTML Assets.md",
     "_NoteAssets/Caret.md",
-    "_NoteAssets/Callouts.md",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Untitled.canvas",
     "Mind Maps/Drafts/Java Logging.canvas",
     "Mind Maps/Drafts/Event Driven Architecture.canvas",
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Gateway.canvas",
-    "Mind Maps/Drafts/Domain-driven design.canvas",
     "_Images/Mind Map",
     "_Pdf/Books/Architecture/Building Microservices Designing Fine Grained Systems.pdf",
     "_Pdf/Design Patterns.pdf",

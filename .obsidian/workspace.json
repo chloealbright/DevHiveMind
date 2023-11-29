@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clout Chasing/Software Carpentier Journey.md",
+                "file": "Algorithms & Data Structures/Algo Line of thought.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clout Chasing/Software Carpentier Journey.md",
+                "file": "Algorithms & Data Structures/Algo Line of thought.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Clout Chasing/Software Carpentier Journey.md",
+                "file": "Algorithms & Data Structures/Algo Line of thought.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Clout Chasing/Software Carpentier Journey.md"
+                "file": "Algorithms & Data Structures/Algo Line of thought.md"
               }
             }
           },
@@ -247,6 +247,11 @@
   },
   "active": "91d3d0e2808c2c7a",
   "lastOpenFiles": [
+    "Companies/People/Companies & Favours.md",
+    "_Template/Untitled.md",
+    "Error Log/Language Error.md",
+    "Clout Chasing/Writing styles.md",
+    "Companies/Software Carpentier Journey.md",
     "Clout Chasing/Social Post.md",
     "Web/1695743132634.jpeg",
     "Web/1700239541390.gif",
@@ -273,11 +278,6 @@
     "_CODE/Express/Algo left to over to do.md",
     "Web/Protocols/TCIP.md",
     "Web/Protocols/SMTP.md",
-    "Web/Protocols/HTTPS.md",
-    "Web/Protocols/FTP.md",
-    "Web/DNS(Domain Name System).md",
-    "Web/exposing routes.md",
-    "Web/JSON.md",
     "Mind Maps/_Web App Architecture.canvas",
     "_Images/Database Types.gif",
     "_Images/Database Sharding.jpeg",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Algo pathway.md",
+                "file": "_NoteAssets/Callouts.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Algo pathway.md",
+                "file": "_NoteAssets/Callouts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Algo pathway.md",
+                "file": "_NoteAssets/Callouts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Algo pathway.md"
+                "file": "_NoteAssets/Callouts.md"
               }
             }
           },
@@ -247,6 +247,14 @@
   },
   "active": "91d3d0e2808c2c7a",
   "lastOpenFiles": [
+    "_Template/Whiteboard.png",
+    "Companies/General Dev Issues When starting at a New company.md",
+    "Companies/People/Reach out to Mentor.md",
+    "Companies/People/Dealing with People.md",
+    "Companies/People/intentions.md",
+    "Security/Computer system security.md",
+    "Security/Security By OSI Layer.jpeg",
+    "Algorithms & Data Structures/Algo pathway.md",
     "Algorithms & Data Structures/Algo Line of thought.md",
     "Companies/People/Companies & Favours.md",
     "_Template/Untitled.md",
@@ -269,21 +277,13 @@
     "_Official Documentation/NPM Docs.md",
     "_Official Documentation/Node.js Latest Docs.md",
     "_Official Documentation/pgAdmin Docs.md",
-    "_Excalidraw/Scripts/Downloaded/Slideshow.md",
     "_Excalidraw/Scripts/Downloaded/Slideshow.svg",
-    "_Excalidraw/Scripts/Downloaded/Create DrawIO file.md",
     "_Excalidraw/Scripts/Downloaded/Auto Draw for Pen.svg",
-    "_Excalidraw/Scripts/Downloaded/Auto Draw for Pen.md",
-    "_CODE/Express/Tech Things to Research.md",
-    "_CODE/Express/Study Session.md",
-    "_CODE/Express/Algo left to over to do.md",
-    "Web/Protocols/TCIP.md",
     "Mind Maps/_Web App Architecture.canvas",
     "_Images/Database Types.gif",
     "_Images/Database Sharding.jpeg",
     "Devops/Linux File System.jpeg",
     "Devops/Software Life Cycle.gif",
-    "Devops/Version Control/Git Flow.jpeg",
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Untitled.canvas",

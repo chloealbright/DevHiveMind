@@ -9,11 +9,10 @@ Status:
 Started: 
 Relates: "[[Markdown to use]]"
 ---
-
 > [!bug]+
 > > sub text 2 plus make it close and open
 > > > [!warning]
----
+
 
 > [!info]+
 
@@ -54,7 +53,3 @@ Relates: "[[Markdown to use]]"
 >[!quote] 
 >>[!cite] 
 
-## Custom callout
-
-
-;kjl;kj;

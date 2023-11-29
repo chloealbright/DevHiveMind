@@ -2,16 +2,13 @@
 
 Just embarked on a journey to level up my coding skills! 🌐 Created a TypeScript project for tackling and tracking coding challenges. 🚧
 
-🌟 **Key Learnings:**
-1. **TypeScript Mastery:** Sharpening TypeScript skills to perfection.
-2. **Java Skills Boost:** Surprisingly enhanced my Java skills by extension.
-3. **Programming Refresher:** A comprehensive refresher on various programming concepts.
-4. **Test Complexity:** Dealing with the intricacies of creating tests for diverse coding challenges with different return types.
 
 🛠️ **Project Highlights:**
-- 📝 **Challenge Tracker:** Streamlined system for tracking progress.
-- 💡 **Code Quality:** Emphasizing clean, efficient, and type-safe code.
-- 🤖 **Test Suites:** Comprehensive test coverage for diverse scenarios.
+- **Challenge Tracker:** Streamlined system for tracking challenges.
+- **Code Quality:** Emphasizing clean, efficient, and type-safe code.
+- **Programming Refresher:** A comprehensive refresher on various programming concepts.
+- **Test Complexity:** Dealing with the intricacies of creating tests for diverse coding challenges with different return types.
+
 
 🤯 **Why It Makes Sense:**
 - 💪 **Skill Amplification:** Boosted TypeScript and Java proficiency simultaneously.
@@ -20,9 +17,9 @@ Just embarked on a journey to level up my coding skills! 🌐 Created a TypeScri
 
 🙌 **Result:**
 - 🚀 **Accelerated Growth:** Witnessed rapid improvement in coding architecture.
-- 🏆 **Coding Confidence:** Tackled challenges with newfound confidence.
-- 🌐 **Refeltion:** Excited to connect with fellow developers for insights and collaboration.
+- 🌐 **Epiphany:** While going through this process I realized that once I get to my desired proficiency I can alternate to different languages in the future to learn new languages. 
 
-🔗 **Check out the project on GitHub and join the coding adventure!** [Link Here]
+🔗 **Check out the project on GitHub and join the coding adventure!** 
+https://github.com/jacgit18/Dev_Logic_Gym
 
 #TypeScript #Java #CodingChallenge #ProgrammingJourney #TypeSafeCoding #DeveloperLife #GitHubProjects

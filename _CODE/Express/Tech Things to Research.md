@@ -21,7 +21,7 @@ Relates:
 - [ ] separate password for root and user  
 - [ ] look into setting up eclipse default vm arguments for javafx  
 - [ ] difference between float and double  
-- [ ] risc-v  
+
 - [ ] tech law  
 - [ ] Linux dependencies for oracle SQL database  
 - [ ] editing gnome dconf  
@@ -73,7 +73,6 @@ Relates:
 - [ ] server rack desktop case  
 - [ ] compulab airtop 3  
 - [ ] [https://www.youtube.com/results?search_query=backmasking](https://www.youtube.com/results?search_query=backmasking) 
-- [ ] [https://www.youtube.com/results?search_query=netbeans+plugin](https://www.youtube.com/results?search_query=netbeans+plugin)  
 - [ ] [https://www.slant.co/options/130/alternatives/~visual-basic-alternatives](https://www.slant.co/options/130/alternatives/~visual-basic-alternatives)  
 - [ ] [https://blog.idrsolutions.com/2014/12/android-apps-ide-for-java-coder-programmers/](https://blog.idrsolutions.com/2014/12/android-apps-ide-for-java-coder-programmers/)  
 - [ ] [https://www.youtube.com/results?search_query=spoof+mac+address](https://www.youtube.com/results?search_query=spoof+mac+address)  

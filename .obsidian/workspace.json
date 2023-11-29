@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "37f3ae4896dff5b3",
+            "id": "91d3d0e2808c2c7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_CODE/Express/Tech Things to Research.md",
+                "file": "Companies/Interview/Avoid Headaches.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_CODE/Express/Tech Things to Research.md",
+                "file": "Companies/Interview/Avoid Headaches.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_CODE/Express/Tech Things to Research.md",
+                "file": "Companies/Interview/Avoid Headaches.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_CODE/Express/Tech Things to Research.md"
+                "file": "Companies/Interview/Avoid Headaches.md"
               }
             }
           },
@@ -245,8 +245,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "37f3ae4896dff5b3",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "Companies/Interview/Q&A/Offense(Q&A).md",
+    "Companies/Interview/Q&A/Defense(A&Q).md",
+    "_Official Documentation/Obsidian Docs.md",
+    "_Official Documentation/_Make it remember last Pg on.md",
+    "_Official Documentation/_Untitled.md",
+    "_Official Documentation/Yaml.md",
+    "_Official Documentation/Untitled 2.md",
+    "_Official Documentation/Untitled 1.md",
+    "_Official Documentation/NPM Docs.md",
+    "_Official Documentation/Node.js Latest Docs.md",
+    "_Official Documentation/pgAdmin Docs.md",
+    "_Excalidraw/Scripts/Downloaded/Slideshow.md",
+    "_Excalidraw/Scripts/Downloaded/Slideshow.svg",
+    "_Excalidraw/Scripts/Downloaded/Create DrawIO file.md",
+    "_Excalidraw/Scripts/Downloaded/Auto Draw for Pen.svg",
+    "_Excalidraw/Scripts/Downloaded/Auto Draw for Pen.md",
+    "_CODE/Express/Tech Things to Research.md",
+    "_CODE/Express/Study Session.md",
+    "_CODE/Express/Algo left to over to do.md",
     "Web/Protocols/TCIP.md",
     "Web/Protocols/SMTP.md",
     "Web/Protocols/HTTPS.md",
@@ -257,19 +276,14 @@
     "Web/JSON.md",
     "Web/URI vs URL vs URN.md",
     "Web/URI Query Design.md",
-    "Home.md",
     "Mind Maps/_Web App Architecture.canvas",
     "_Images/Database Types.gif",
     "_Images/Database Sharding.jpeg",
     "Devops/Linux File System.jpeg",
-    "Database/Untitled.md",
     "Devops/Software Life Cycle.gif",
     "Devops/Version Control/Git Flow.jpeg",
     "Devops/Version Control/Git Command Process.jpeg",
     "_Images/database.png",
-    "_Images/Database Processes.gif",
-    "_Images/1694100936831.jpeg",
-    "Testing/when would use looping in unit and integration test.md",
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Untitled.canvas",
@@ -279,22 +293,8 @@
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
-    "API/API Archetecture/API Gateway.md",
-    "Testing/Integration test.md",
-    "Testing/test.md",
     "_Images/Mind Map",
-    "README.md",
-    "Cloud/OS/Linux/Pi.md",
-    "Open Source/To Look into.md",
-    "Devops/Version Control/GitHub Linux setup.md",
-    "Devops/Version Control/Common Git Workflow.md",
-    "Algorithms & Data Structures/Algo/Data struct Factory.md",
-    "Web/gRPC.md",
     "_Pdf/Books/Architecture/Building Microservices Designing Fine Grained Systems.pdf",
-    "Architecture/Clean Code.md",
-    "Architecture/Caches.md",
-    "Architecture/Architect decision.md",
-    "Architecture/Arch to think about.md",
     "_Pdf/Design Patterns.pdf",
     "Mind Maps/Drafts",
     "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",

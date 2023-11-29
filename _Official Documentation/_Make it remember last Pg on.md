@@ -34,7 +34,7 @@ https://docs.docker.com/?_gl=1*1oyqks4*_ga*MTY1NjI3MDQxMS4xNjkxODY1OTQ1*_ga_XJWP
 
 
 
-https://docs.obsidian.md/Home
+
 
 
 https://git-scm.com/doc

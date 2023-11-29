@@ -1,4 +1,4 @@
-![[unnamed.gif]]
+![[Redux state flow.gif]]
 
 A state management library  
   

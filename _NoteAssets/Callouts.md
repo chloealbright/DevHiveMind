@@ -3,10 +3,11 @@ tags:
   - favorite
   - Markup
   - markdown
-author: jacgit18
-EditDate: 
+author:
+  - jacgit18
 Status: 
 Started: 
+EditDate: 
 Relates: "[[Markdown to use]]"
 ---
 > [!bug]+

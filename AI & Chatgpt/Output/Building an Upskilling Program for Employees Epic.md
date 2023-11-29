@@ -4,13 +4,11 @@ tags:
   - ChatGpt
 author:
   - chatgpt
-Status: 
+Status: done
 Started: 
 EditDate: 
 Relates:
 ---
-Epic Title: Building an Upskilling Program for Employees
-
 Epic Description:
 As an organization, we recognize the importance of continuous learning and development for our employees. In order to foster a culture of growth and to equip our workforce with the skills needed to thrive in an ever-evolving business landscape, we have decided to embark on a journey to build an upskilling program. This epic encompasses the key objectives, deliverables, and acceptance criteria for the successful implementation of the upskilling program.
 

@@ -2,8 +2,10 @@
 tags:
   - generatorOutput
   - ChatGpt
-author: 
-Status: 
+  - example
+author:
+  - chatgpt
+Status: done
 Started: 
 EditDate: 
 Relates:

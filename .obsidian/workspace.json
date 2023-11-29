@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Untitled.md",
+                "file": "Methodology/Source code vs Codebase.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Aggr",
+                "query": "tag:#GitHubProjects",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Untitled.md",
+                "file": "Methodology/Source code vs Codebase.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Untitled.md",
+                "file": "Methodology/Source code vs Codebase.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Untitled.md"
+                "file": "Methodology/Source code vs Codebase.md"
               }
             }
           },
@@ -263,8 +263,8 @@
   },
   "active": "52b7640ad15da2d7",
   "lastOpenFiles": [
-    "Methodology/Source code vs Codebase.md",
     "Web/Untitled.md",
+    "Methodology/Source code vs Codebase.md",
     "Mind Maps/Redux Map.canvas",
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/12 Factor App Docker.canvas",

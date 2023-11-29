@@ -7,7 +7,7 @@ when it comes to IP address the DNS checks IP address with URL name and domains 
 your computer caches DNS storing website info on your machine if you visit a site that changed IP address you can get a 404 error
 
 
-![[1696261520481.gif]]
+![[Network Protocols.gif]]
 
 
 Edit

@@ -41,4 +41,4 @@ Additionally, [[Priority Queue Implementation | priority queues ]]are introduced
 Storing a binary heap as an array is advantageous due to lower memory usage, simpler memory management, and better locality of reference compared to a linked list implementation.
 
 
-![[1701104695210.gif]]
+![[Queues.gif]]

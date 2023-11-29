@@ -1,1 +1,1 @@
-![[1694533517947.jpeg]]
+![[Cloud Monitoring Services.jpeg]]

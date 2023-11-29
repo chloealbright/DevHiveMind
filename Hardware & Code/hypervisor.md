@@ -3,8 +3,8 @@ A hypervisor, also known as a virtual machine monitor (VMM), is a software or ha
 1. **Virtualization**: Hypervisors enable virtualization, which is the abstraction of physical hardware resources into multiple virtual instances. These instances, or VMs, behave as if they are running on dedicated physical hardware, even though they share the underlying resources.  
   
 2. **Types of Hypervisors**:  
-- **Type 1 Hypervisor (Bare-Metal)**: These hypervisors run directly on the physical hardware without the need for a host operating system. Examples include VMware vSphere/ESXi, Microsoft Hyper-V, and Xen.  
-- **Type 2 Hypervisor (Hosted)**: Type 2 hypervisors run on top of a host operating system. They are often used for development and testing purposes. Examples include Oracle VirtualBox and VMware Workstation.  
+	- **Type 1 Hypervisor (Bare-Metal)**: These hypervisors run directly on the physical hardware without the need for a host operating system. Examples include VMware vSphere/ESXi, Microsoft Hyper-V, and Xen.  
+	- **Type 2 Hypervisor (Hosted)**: Type 2 hypervisors run on top of a host operating system. They are often used for development and testing purposes. Examples include Oracle VirtualBox and VMware Workstation.  
   
 3. **Isolation**: Hypervisors provide strong isolation between VMs. Each VM operates independently and is unaware of the existence of other VMs running on the same physical host. This isolation is essential for security and stability.  
   

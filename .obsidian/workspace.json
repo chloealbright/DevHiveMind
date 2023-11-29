@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Untitled.md",
-                "mode": "source",
+                "file": "Web/URI vs URL vs URN.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Untitled.md",
+                "file": "Web/URI vs URL vs URN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Untitled.md",
+                "file": "Web/URI vs URL vs URN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Untitled.md"
+                "file": "Web/URI vs URL vs URN.md"
               }
             }
           },
@@ -247,20 +247,23 @@
   },
   "active": "37f3ae4896dff5b3",
   "lastOpenFiles": [
+    "Web/URI Query Design.md",
+    "Home.md",
+    "Mind Maps/_Web App Architecture.canvas",
+    "_Images/Database Types.gif",
+    "_Images/Database Sharding.jpeg",
+    "Devops/Linux File System.jpeg",
+    "Database/Untitled.md",
+    "Devops/Software Life Cycle.gif",
+    "Devops/Version Control/Git Flow.jpeg",
+    "Devops/Version Control/Git Command Process.jpeg",
+    "_Images/database.png",
+    "_Images/Database Processes.gif",
+    "_Images/1694100936831.jpeg",
+    "_Images/1692071519716.gif",
     "Testing/when would use looping in unit and integration test.md",
     "Mind Maps/Docker InDeph.canvas",
-    "_Images/database.png",
-    "_Images/database 1.png",
-    "_Images/database 2.png",
-    "_Images/Brain-Patterns-Illustration.gif",
-    "_Images/Journey.gif",
-    "_Images/049df48746348cf5cedbfcae3b8f301f.gif",
-    "_Images/2023-06-17 12.23.43 medium.com 7444e17e7519.png",
-    "_Images/1_fUhClgI4aRBdFrAFFGx5Kw.gif",
-    "_Images/1_AXw-H6_4gYbKlkA8d2u_cA.png",
-    "_Images/_Whiteboard/Whiteboard Template.png",
     "Mind Maps/Drafts/Url.canvas",
-    "Mind Maps/_Web App Architecture.canvas",
     "Mind Maps/Drafts/Untitled.canvas",
     "Mind Maps/Drafts/Java Logging.canvas",
     "Mind Maps/Drafts/Event Driven Architecture.canvas",
@@ -273,7 +276,6 @@
     "Testing/test.md",
     "_Images/Mind Map",
     "README.md",
-    "Home.md",
     "Cloud/OS/Linux/Pi.md",
     "Open Source/To Look into.md",
     "Devops/Version Control/GitHub Linux setup.md",
@@ -293,7 +295,6 @@
     "Architecture/System Design/Domain-Driven Design Repositories, Factories, and domain services.md",
     "Architecture/System Design/Domain-Driven Design Event Types.md",
     "Architecture/System Design/Domain-Driven Design with Persistent Data.md",
-    "Architecture/System Design/Domain-Driven Design Application Services.md",
     "_Pdf/Design Patterns.pdf",
     "Mind Maps/Drafts",
     "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",

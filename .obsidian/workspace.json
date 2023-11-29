@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Algo Line of thought.md",
+                "file": "Algorithms & Data Structures/Algo pathway.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Algo Line of thought.md",
+                "file": "Algorithms & Data Structures/Algo pathway.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Algo Line of thought.md",
+                "file": "Algorithms & Data Structures/Algo pathway.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Algo Line of thought.md"
+                "file": "Algorithms & Data Structures/Algo pathway.md"
               }
             }
           },
@@ -247,6 +247,7 @@
   },
   "active": "91d3d0e2808c2c7a",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Algo Line of thought.md",
     "Companies/People/Companies & Favours.md",
     "_Template/Untitled.md",
     "Error Log/Language Error.md",
@@ -277,7 +278,6 @@
     "_CODE/Express/Study Session.md",
     "_CODE/Express/Algo left to over to do.md",
     "Web/Protocols/TCIP.md",
-    "Web/Protocols/SMTP.md",
     "Mind Maps/_Web App Architecture.canvas",
     "_Images/Database Types.gif",
     "_Images/Database Sharding.jpeg",

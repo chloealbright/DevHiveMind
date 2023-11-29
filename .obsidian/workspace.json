@@ -4,21 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6cf9c32ad69f4ac8",
+        "id": "22e919a8ba958bec",
         "type": "tabs",
         "children": [
           {
-            "id": "5b41a44a6e824ced",
+            "id": "37f3ae4896dff5b3",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Mind Maps/12 Factor App Docker.canvas",
-                "viewState": {
-                  "x": 655.9942791271834,
-                  "y": -90.93200058958305,
-                  "zoom": -0.9999999999999999
-                }
+                "file": "Database/Untitled.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -104,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methodology/Docker Twelve Factors App/VI Processes.md",
+                "file": "Database/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methodology/Docker Twelve Factors App/VI Processes.md",
+                "file": "Database/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methodology/Docker Twelve Factors App/VI Processes.md"
+                "file": "Database/Untitled.md"
               }
             }
           },
@@ -248,34 +245,43 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5b41a44a6e824ced",
+  "active": "37f3ae4896dff5b3",
   "lastOpenFiles": [
+    "Testing/when would use looping in unit and integration test.md",
+    "Mind Maps/Docker InDeph.canvas",
+    "_Images/database.png",
+    "_Images/database 1.png",
+    "_Images/database 2.png",
+    "_Images/Brain-Patterns-Illustration.gif",
+    "_Images/Journey.gif",
+    "_Images/049df48746348cf5cedbfcae3b8f301f.gif",
+    "_Images/2023-06-17 12.23.43 medium.com 7444e17e7519.png",
+    "_Images/1_fUhClgI4aRBdFrAFFGx5Kw.gif",
+    "_Images/1_AXw-H6_4gYbKlkA8d2u_cA.png",
+    "_Images/_Whiteboard/Whiteboard Template.png",
+    "Mind Maps/Drafts/Url.canvas",
+    "Mind Maps/_Web App Architecture.canvas",
+    "Mind Maps/Drafts/Untitled.canvas",
+    "Mind Maps/Drafts/Java Logging.canvas",
+    "Mind Maps/Drafts/Event Driven Architecture.canvas",
+    "Mind Maps/Drafts/Event Messaging.canvas",
+    "Mind Maps/Drafts/Gateway.canvas",
+    "Mind Maps/Drafts/Domain-driven design.canvas",
+    "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
+    "API/API Archetecture/API Gateway.md",
+    "Testing/Integration test.md",
+    "Testing/test.md",
+    "_Images/Mind Map",
     "README.md",
-    "Architecture/1693842318273.jpeg",
-    "Architecture/1695483129321.jpeg",
-    "Architecture/1694706487239.jpeg",
-    "Architecture/1693548539488.jpeg",
-    "Architecture/1689226066481.jpeg",
-    "Devops/Version Control/1701189126152.jpeg",
-    "_Pdf/Cheatsheet/1700677759789.jpeg",
-    "_Pdf/Cheatsheet/1699606002219.jpeg",
     "Home.md",
-    "Database/1701172992505.gif",
     "Cloud/OS/Linux/Pi.md",
-    "Architecture/1699857522487.jpeg",
     "Open Source/To Look into.md",
     "Devops/Version Control/GitHub Linux setup.md",
     "Devops/Version Control/Common Git Workflow.md",
     "Algorithms & Data Structures/Algo/Data struct Factory.md",
-    "Mind Maps/Drafts/Gateway.canvas",
-    "Mind Maps/Drafts/Java Logging.canvas",
-    "Mind Maps/_Web App Architecture.canvas",
     "Web/exposing routes.md",
     "Web/gRPC.md",
     "_Pdf/Books/Architecture/Building Microservices Designing Fine Grained Systems.pdf",
-    "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
-    "Mind Maps/Drafts/Domain-driven design.canvas",
-    "Mind Maps/Drafts/Event Driven Architecture.canvas",
     "Architecture/Clean Code.md",
     "Architecture/Caches.md",
     "Architecture/Architect decision.md",
@@ -288,22 +294,13 @@
     "Architecture/System Design/Domain-Driven Design Event Types.md",
     "Architecture/System Design/Domain-Driven Design with Persistent Data.md",
     "Architecture/System Design/Domain-Driven Design Application Services.md",
-    "Database/Types of Tables in logical database models.md",
-    "Architecture/System Design/Domain-driven design.md",
-    "Architecture/System Design/Domain-driven design Pivot.md",
-    "Architecture/System Design/Domain-driven design Life Cycle.md",
-    "Mind Maps/Redux Map.canvas",
-    "Testing/Untitled.canvas",
-    "Web/Url.canvas",
     "_Pdf/Design Patterns.pdf",
     "Mind Maps/Drafts",
-    "Mind Maps/Drafts/Event Messaging.canvas",
     "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",
     "Mind Maps",
     "_Pdf/Books/Other/Code - The Hidden Language of Computer Hardware and Software.pdf",
     "_Pdf/Books/Java/thinkapjava.pdf",
     "_Pdf/Books/Java/java-concurrency.pdf",
-    "_Pdf/Books/Java/head-first-java-2nd-edition.pdf",
-    "_Pdf/Books/Java/Thinking_in_Java_4th_edition.pdf"
+    "_Pdf/Books/Java/head-first-java-2nd-edition.pdf"
   ]
 }

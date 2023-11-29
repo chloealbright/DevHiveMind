@@ -12,40 +12,65 @@ When crafting an integration test, the process closely resembles that of a unit 
 
 ## Simple Example
 
+Let's say you have a simple function that calculates the total price of items in a shopping cart, and you want to create an integration test for it. Here's the code:
+
 ```typescript
-// Main function with modular helper functions
-function mainFunction(input: number): number {
-    const processedInput = helperFunction1(input);
-    return helperFunction2(processedInput);
+// cart.ts
+
+// Helper function 1
+function calculateSubtotal(price: number, quantity: number): number {
+  return price * quantity;
 }
 
-function helperFunction1(value: number): number {
-    // Perform some processing
-    return value * 2;
+// Helper function 2
+function applyDiscount(subtotal: number, discountPercentage: number): number {
+  const discount = (subtotal * discountPercentage) / 100;
+  return subtotal - discount;
 }
 
-function helperFunction2(value: number): number {
-    // Perform additional processing
-    return value + 3;
+// Main function
+export function calculateTotalPrice(items: { price: number; quantity: number }[], discountPercentage: number): number {
+  const subtotal = items.reduce((acc, item) => acc + calculateSubtotal(item.price, item.quantity), 0);
+  const totalPrice = applyDiscount(subtotal, discountPercentage);
+  return totalPrice;
 }
-
-// Integration test
-function integrationTest() {
-    // Test main function with an edge case
-    const result = mainFunction(5);
-
-    // Assert the expected outcome
-    if (result === 13) {
-        console.log("Integration test passed!");
-    } else {
-        console.error("Integration test failed!");
-    }
-}
-
-// Run the integration test
-integrationTest();
 ```
 
+Now, let's create an integration test for this code using Jest.
+
+```typescript
+// cart.test.ts
+
+import { calculateTotalPrice } from './cart';
+
+describe('calculateTotalPrice', () => {
+  it('calculates the total price with a discount', () => {
+    const items = [
+      { price: 10, quantity: 2 },
+      { price: 5, quantity: 3 },
+    ];
+    const discountPercentage = 10; // 10% discount
+
+    const totalPrice = calculateTotalPrice(items, discountPercentage);
+
+    // The expected total price after a 10% discount would be 4.5 + 13.5 = 18
+    expect(totalPrice).toBe(18);
+  });
+
+  it('calculates the total price without a discount', () => {
+    const items = [
+      { price: 10, quantity: 2 },
+      { price: 5, quantity: 3 },
+    ];
+    const discountPercentage = 0; // No discount
+
+    const totalPrice = calculateTotalPrice(items, discountPercentage);
+
+    // The expected total price without a discount would be 20
+    expect(totalPrice).toBe(20);
+  });
+});
+```
 
 ## Advanced Example 
 

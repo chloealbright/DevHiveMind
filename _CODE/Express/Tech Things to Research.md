@@ -7,7 +7,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (6).gif]]
+![[Researching.gif]]
 
 #todo/Low/Dev/SideResearch
 - [ ] Personal online DATA [https://www.saymine.com](https://www.saymine.com/)  

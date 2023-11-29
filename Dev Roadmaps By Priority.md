@@ -7,7 +7,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[ace-one-piece-boat-sea-travel-6cc0nm9xct5nthwm.gif]]
+![[Journey.gif]]
 ## [Other Road Maps](https://roadmap.sh/)
 
 #### Plan your work and work your plan

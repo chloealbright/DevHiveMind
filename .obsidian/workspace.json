@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI & Chatgpt/AI Layers.md",
+                "file": "_CODE/_Organize/Code Defects.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI & Chatgpt/AI Layers.md",
+                "file": "_CODE/_Organize/Code Defects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI & Chatgpt/AI Layers.md",
+                "file": "_CODE/_Organize/Code Defects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI & Chatgpt/AI Layers.md"
+                "file": "_CODE/_Organize/Code Defects.md"
               }
             }
           },
@@ -247,8 +247,9 @@
   },
   "active": "91d3d0e2808c2c7a",
   "lastOpenFiles": [
-    "AI & Chatgpt/Components of AI.md",
+    "Algorithms & Data Structures/Algo/Data struct Factory.md",
     "AI & Chatgpt/AI Layers.md",
+    "AI & Chatgpt/Components of AI.md",
     "AI & Chatgpt/Output/User Story Flow and Breakdown.md",
     "AI & Chatgpt/Output/Building an Upskilling Program for Employees Epic.md",
     "AI & Chatgpt/Output/Data Engineering & Automation.md",
@@ -284,7 +285,6 @@
     "Algorithms & Data Structures/Algo Line of thought.md",
     "Companies/People/Companies & Favours.md",
     "_Template/Untitled.md",
-    "Error Log/Language Error.md",
     "Mind Maps/_Web App Architecture.canvas",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Untitled.canvas",

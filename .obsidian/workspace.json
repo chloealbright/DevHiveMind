@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Interview/Avoid Headaches.md",
+                "file": "Clout Chasing/Software Carpentier Journey.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Interview/Avoid Headaches.md",
+                "file": "Clout Chasing/Software Carpentier Journey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Interview/Avoid Headaches.md",
+                "file": "Clout Chasing/Software Carpentier Journey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Interview/Avoid Headaches.md"
+                "file": "Clout Chasing/Software Carpentier Journey.md"
               }
             }
           },
@@ -245,11 +245,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "91d3d0e2808c2c7a",
   "lastOpenFiles": [
+    "Clout Chasing/Social Post.md",
+    "Web/1695743132634.jpeg",
+    "Web/1700239541390.gif",
+    "Web/Data Transmission.jpeg",
+    "Companies/Interview/Avoid Headaches.md",
+    "_Official Documentation/Obsidian Docs.md",
     "Companies/Interview/Q&A/Offense(Q&A).md",
     "Companies/Interview/Q&A/Defense(A&Q).md",
-    "_Official Documentation/Obsidian Docs.md",
     "_Official Documentation/_Make it remember last Pg on.md",
     "_Official Documentation/_Untitled.md",
     "_Official Documentation/Yaml.md",
@@ -270,20 +275,15 @@
     "Web/Protocols/SMTP.md",
     "Web/Protocols/HTTPS.md",
     "Web/Protocols/FTP.md",
-    "Web/1693842318273.jpeg",
     "Web/DNS(Domain Name System).md",
     "Web/exposing routes.md",
     "Web/JSON.md",
-    "Web/URI vs URL vs URN.md",
-    "Web/URI Query Design.md",
     "Mind Maps/_Web App Architecture.canvas",
     "_Images/Database Types.gif",
     "_Images/Database Sharding.jpeg",
     "Devops/Linux File System.jpeg",
     "Devops/Software Life Cycle.gif",
     "Devops/Version Control/Git Flow.jpeg",
-    "Devops/Version Control/Git Command Process.jpeg",
-    "_Images/database.png",
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Untitled.canvas",

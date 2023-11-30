@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "22e919a8ba958bec",
+        "id": "89fe4f2c945f43ed",
         "type": "tabs",
         "children": [
           {
-            "id": "91d3d0e2808c2c7a",
+            "id": "589472ca0daab280",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Official Documentation/PostgreSQL Docs.md",
+                "file": "AI & Chatgpt/prompts/Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Official Documentation/PostgreSQL Docs.md",
+                "file": "AI & Chatgpt/prompts/Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Official Documentation/PostgreSQL Docs.md",
+                "file": "AI & Chatgpt/prompts/Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Official Documentation/PostgreSQL Docs.md"
+                "file": "AI & Chatgpt/prompts/Learning.md"
               }
             }
           },
@@ -245,8 +245,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "91d3d0e2808c2c7a",
+  "active": "589472ca0daab280",
   "lastOpenFiles": [
+    "AI & Chatgpt/prompts/New world prompt.md",
+    "AI & Chatgpt/prompts/Progress report.md",
+    "AI & Chatgpt/prompts/Prompts to sort.md",
+    "AI & Chatgpt/prompts/Recommend focus.md",
+    "AI & Chatgpt/prompts/Requirements to code.md",
+    "AI & Chatgpt/prompts/rewrite.md",
+    "AI & Chatgpt/prompts/simplify.md",
+    "AI & Chatgpt/prompts/Structural model Prompt.md",
+    "AI & Chatgpt/prompts/summarize.md",
+    "AI & Chatgpt/prompts/Talking better.md",
+    "Home.md",
     "_Official Documentation/NPM Docs.md",
     "_Official Documentation/Material UI Docs.md",
     "_Images/Network Protocols.gif",
@@ -256,7 +267,6 @@
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/_Web App Architecture.canvas",
-    "Home.md",
     "_Images/Companies Models/2023-04-01 11.30.42 mailcitytechcuny-my.sharepoint.com f5e57e000696.png",
     "_Images/Work Process.png",
     "_Images/Mind Map/database.png",
@@ -277,17 +287,7 @@
     "Database/GUIDs.md",
     "_CODE/_Organize/Glossary.md",
     "_CODE/_Organize/Data Project Idea.md",
-    "Security/Code Defects.md",
-    "Algorithms & Data Structures/Algo/Data struct Factory.md",
-    "AI & Chatgpt/AI Layers.md",
-    "AI & Chatgpt/Components of AI.md",
-    "AI & Chatgpt/Output/User Story Flow and Breakdown.md",
-    "AI & Chatgpt/Output/Building an Upskilling Program for Employees Epic.md",
-    "AI & Chatgpt/Output/Data Engineering & Automation.md",
-    "AI & Chatgpt/Output/30 Day Journey Map.md",
     "_Images/Devops/Docker",
-    "_NoteAssets/Pomofocus.md",
-    "_NoteAssets/Markdown to use.md",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Untitled.canvas",
     "Mind Maps/Drafts/Java Logging.canvas",

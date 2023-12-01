@@ -8,7 +8,7 @@ Started:
 EditDate: 
 Relates: "[[Type Of Linked List]]"
 ---
-![[unnamed (39).gif]]
+![[DoubleLinkedLists.gif]]
 
 Let you go backwards through the list  
   
@@ -18,11 +18,11 @@ Searching through the doubly link list can be more efficient
   
 Doubly linked list can take up more memory
 
-![[GetImage (46).png]]
+![[DoubleLinkedListsStill.png]]
 
 
 ## Circular Doubly Linked Lists 
-![[GetImage (48).png]]
+![[DoubleCircularLinkedLists.png]]
 
 
 

@@ -11,7 +11,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[_Images/Algo/unnamed (2).gif]]
+![[HeapSort.gif]]
 
 
 The heapsort algorithm utilizes the heap data structure. Here's a refined summary of the process:

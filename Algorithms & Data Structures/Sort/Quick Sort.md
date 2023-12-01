@@ -11,7 +11,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (16).gif]]
+![[quickSort.gif]]
 
 
   - **Quick Sort**: It's a divide and conquer algorithm, just like Merge Sort. It's known for being one of the fastest sorting algorithms on average but has some unfavorable worst-case behaviors.

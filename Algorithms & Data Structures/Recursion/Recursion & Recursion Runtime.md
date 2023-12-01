@@ -8,7 +8,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[_Images/Algo/GetImage (2).png]]
+![[BigORecursion.png]]
 # Understanding Recursion
 
 Recursion is a powerful concept in computer science and mathematics. It is defined as a process where an entity is defined in terms of a smaller version of itself. In the realm of programming, any problem that can be tackled recursively can also be solved iteratively with a for loop, and vice versa. 

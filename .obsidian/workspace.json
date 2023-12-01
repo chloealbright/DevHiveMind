@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "89fe4f2c945f43ed",
+        "id": "6ad2e322b49615f0",
         "type": "tabs",
         "children": [
           {
-            "id": "589472ca0daab280",
+            "id": "09d09337202b539c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI & Chatgpt/prompts/Learning.md",
+                "file": "Algorithms & Data Structures/Algo pathway.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI & Chatgpt/prompts/Learning.md",
+                "file": "Algorithms & Data Structures/Algo pathway.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI & Chatgpt/prompts/Learning.md",
+                "file": "Algorithms & Data Structures/Algo pathway.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI & Chatgpt/prompts/Learning.md"
+                "file": "Algorithms & Data Structures/Algo pathway.md"
               }
             }
           },
@@ -196,7 +196,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       },
       {
         "id": "7e98245a429f273f",
@@ -214,8 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5,
-    "collapsed": true
+    "width": 345.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,48 +244,48 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "589472ca0daab280",
+  "active": "09d09337202b539c",
   "lastOpenFiles": [
-    "AI & Chatgpt/prompts/New world prompt.md",
-    "AI & Chatgpt/prompts/Progress report.md",
-    "AI & Chatgpt/prompts/Prompts to sort.md",
-    "AI & Chatgpt/prompts/Recommend focus.md",
-    "AI & Chatgpt/prompts/Requirements to code.md",
-    "AI & Chatgpt/prompts/rewrite.md",
-    "AI & Chatgpt/prompts/simplify.md",
-    "AI & Chatgpt/prompts/Structural model Prompt.md",
-    "AI & Chatgpt/prompts/summarize.md",
-    "AI & Chatgpt/prompts/Talking better.md",
-    "Home.md",
-    "_Official Documentation/NPM Docs.md",
-    "_Official Documentation/Material UI Docs.md",
-    "_Images/Network Protocols.gif",
-    "Methodology/Source code vs Codebase.md",
-    "Web/Untitled.md",
+    "Algorithms & Data Structures/Algo Line of thought.md",
+    "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md",
+    "_Images/Algo/SelectionSort.gif",
+    "Algorithms & Data Structures/Sort/Selection sort.md",
+    "Algorithms & Data Structures/Sort/Radix Sort.md",
+    "Algorithms & Data Structures/Sort/Quick Sort.md",
+    "_Images/Algo/quickSort.gif",
+    "Algorithms & Data Structures/Sort/Merge sort.md",
+    "_Images/Algo/MergeSort.gif",
+    "_Images/Algo/InsertionSort.gif",
+    "Algorithms & Data Structures/Sort/Insertion sort.md",
+    "_Images/Algo/HeapSort.gif",
+    "Algorithms & Data Structures/Sort/Heap Sort.md",
+    "_Images/Algo/CountingSort.gif",
+    "Algorithms & Data Structures/Sort/Counting Sort.md",
+    "_Images/Algo/BucketSort.gif",
+    "Algorithms & Data Structures/Sort/Bucket Sort.md",
+    "_Images/Algo/BuubleSort.gif",
+    "Algorithms & Data Structures/Sort/Bubble sort.md",
+    "Algorithms & Data Structures/Sort/_Sort Implementation Focus.md",
+    "_Images/Algo/Sorts.gif",
+    "Algorithms & Data Structures/Recursion/The Six Core Patterns of Recursion.md",
+    "Algorithms & Data Structures/Recursion/Recursion & Recursion Runtime.md",
+    "_Images/Algo/Recursion.gif",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Choosing Graph List & Matrix Type.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Graph.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Graph List & Matrix Type.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Type of graphs.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Binary Heap.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Binomial Heap.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Fibonacci Heap.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Priority Queue Implementation.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Dictionaries.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Dictionaries vs Hash Tables vs Hash Map.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Hash Collision.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Hash Table Implementation.md",
     "Mind Maps/Redux Map.canvas",
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/_Web App Architecture.canvas",
-    "_Images/Companies Models/2023-04-01 11.30.42 mailcitytechcuny-my.sharepoint.com f5e57e000696.png",
-    "_Images/Work Process.png",
-    "_Images/Mind Map/database.png",
-    "_Images/Mind Map/server (1).png",
-    "_Images/1_AXw-H6_4gYbKlkA8d2u_cA.png",
-    "_Images/049df48746348cf5cedbfcae3b8f301f.gif",
-    "_Images/1_fUhClgI4aRBdFrAFFGx5Kw.gif",
-    "_Images/2023-06-17 12.23.43 medium.com 7444e17e7519.png",
-    "_Images/2023-06-17 12.32.33 medium.com 208fcebdac2c.png",
-    "Hardware & Code/Synchronous  vs Asynchronous vs  Multiprocessing.md",
-    "Hardware & Code/hypervisor.md",
-    "Hardware & Code/PC.md",
-    "Hardware & Code/Batch Processing vs Stream Processing.md",
-    "_CODE/_Organize/Tech tips.md",
-    "Security/Unsafe functions.md",
-    "Security/Prototype Pollution.md",
-    "_CODE/_Organize/Project idea.md",
-    "Database/GUIDs.md",
-    "_CODE/_Organize/Glossary.md",
-    "_CODE/_Organize/Data Project Idea.md",
     "_Images/Devops/Docker",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Untitled.canvas",

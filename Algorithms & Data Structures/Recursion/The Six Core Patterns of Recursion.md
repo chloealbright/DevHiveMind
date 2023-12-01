@@ -7,7 +7,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (55).gif]]
+![[Recursion.gif]]
 
 ## Iteration and Recursion
 

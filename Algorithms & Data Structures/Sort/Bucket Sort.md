@@ -11,7 +11,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (14).gif]]
+![[BucketSort.gif]]
 
 Bucket sort is particularly effective when dealing with uniformly distributed input over a specified range. For example, imagine sorting a large set of floating-point numbers ranging from 0.0 to 1.0, distributed uniformly across this range. 
 

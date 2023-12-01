@@ -7,7 +7,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (30).gif]]
+
 
 A stack is a higher-level data structure built upon lower-level data structures like arrays and linked lists. The choice to implement a stack using an array or a linked list depends on the specific requirements and constraints of your application, and this decision extends to depth-first search (DFS), as the choice can significantly impact performance.
 

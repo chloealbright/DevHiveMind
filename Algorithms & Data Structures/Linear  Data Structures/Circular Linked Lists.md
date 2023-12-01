@@ -9,7 +9,7 @@ Relates: "[[Type Of Linked List]]"
 ---
 
 
-![[GetImage (47).png]]
+![[CircularLinkedLists.png]]
 
 
 

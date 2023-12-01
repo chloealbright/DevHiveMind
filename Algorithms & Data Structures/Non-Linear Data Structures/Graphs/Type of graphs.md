@@ -7,7 +7,7 @@ Started:
 EditDate: 2023-11-02
 Relates: "[[Graph]]"
 ---
-![[unnamed (46).gif]]
+![[Graph.gif]]
 
 ## Graph
 

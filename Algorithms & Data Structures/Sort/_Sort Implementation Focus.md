@@ -8,7 +8,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (13).gif]]
+![[Sorts.gif]]
 
 "In JavaScript, the behavior of the built in `sort` method may not always align with your expectations. For instance, when sorting letters, it usually works as anticipated. However, when dealing with numbers, a different set of rules comes into play. JavaScript converts numbers to strings during sorting, using the `charCodeAt` method which relies on Unicode values.
 

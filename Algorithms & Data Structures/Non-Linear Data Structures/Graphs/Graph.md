@@ -6,7 +6,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (44).gif]]
+![[DirectionalGraph.gif]]
 
 
 1. **Graph Basics:**

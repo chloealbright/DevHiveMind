@@ -69,7 +69,7 @@ const grid = [
 -1         +1  
 <mark style="background: #FF5582A6;">-1</mark> <mark style="background: #FFF3A3A6;">0 1 2 3</mark> <mark style="background: #FFB86CA6;">4</mark> 
 <mark style="background: #FF5582A6;">ob</mark> 1 2 3 4 <mark style="background: #FFB86CA6;">un</mark> 
-![[Pasted image 20231029104453.png]]
+![[2D Array.png]]
 
 ## Traversal
 

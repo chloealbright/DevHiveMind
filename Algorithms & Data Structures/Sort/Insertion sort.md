@@ -12,7 +12,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (19).gif]]
+![[InsertionSort.gif]]
 
 This is an in-place comparison-based sorting algorithm. Here, a sub-list is maintained which is always sorted. For example, the lower part of an array is maintained to be sorted. An element that is to be 'inserted in this sorted sub-list, has to find its appropriate place, and then it has to be inserted there. Hence the name, insertion sort.  
   

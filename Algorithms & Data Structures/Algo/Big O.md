@@ -9,7 +9,7 @@ EditDate:
 Relates:
 ---
 
-![[_Images/Algo/unnamed (4).gif]]
+![[BigO.gif]]
 
 In the realm of algorithm analysis, it's essential to understand the various factors that affect an algorithm's runtime. 
 

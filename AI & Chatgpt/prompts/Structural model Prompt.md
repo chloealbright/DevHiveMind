@@ -5,7 +5,7 @@ tags:
   - ChatGpt
 author:
   - jacgit18
-Status: 
+Status: refinement
 Started: 
 EditDate: 
 Relates:

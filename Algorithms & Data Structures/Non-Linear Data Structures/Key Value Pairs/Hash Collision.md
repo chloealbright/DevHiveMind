@@ -1,12 +1,13 @@
 ---
 tags: 
-author: jacgit18
+author:
+  - jacgit18
 Status: 
 Started: 
 EditDate: 
-Relates:
+Relates: "[[Hash Table Implementation]]"
 ---
-![[unnamed (33).gif]]
+![[HashCollision.gif]]
 
 
 1. **Hash Collisions**:

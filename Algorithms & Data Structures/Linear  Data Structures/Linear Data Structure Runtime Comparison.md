@@ -8,7 +8,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (52).gif]]
+![[RuntimeProcess.gif]]
 
 **Data Structure Operations Worst and Average Time Complexity**
 

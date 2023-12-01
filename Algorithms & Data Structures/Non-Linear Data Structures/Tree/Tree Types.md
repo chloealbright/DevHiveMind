@@ -47,7 +47,7 @@ Binary trees come in different variations, each with its unique properties and a
 The complexity of insertion, deletion, and traversal operations on binary trees is O(logN) for balanced trees but can degrade to O(N) for unbalanced ones. This logarithmic time complexity is related to the number of levels in the tree structure.
 
 # Binary Search Tree (BST)
-![[unnamed (50).gif]]
+![[BST.gif]]
 
 A **binary search tree** extends the concept of a binary tree with a unique property: the binary-search-tree property. This property ensures that the values (or keys) of nodes follow a specific order.
 

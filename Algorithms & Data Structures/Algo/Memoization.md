@@ -7,7 +7,7 @@ Started:
 EditDate: 
 Relates: "[[Dynamic Programming]]"
 ---
-![[unnamed (48).gif]]
+![[Memoization.gif]]
 
 Memoization is a valuable technique in computer science and [[Dynamic programming]]. It involves caching and storing previously computed results of expensive function calls so that you can reuse them in future calls. This can significantly improve the performance of recursive or repetitive algorithms.
 

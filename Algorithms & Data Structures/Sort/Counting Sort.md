@@ -11,7 +11,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (23).gif]]
+![[CountingSort.gif]]
 
 
 Counting Sort is a non-comparative integer sorting algorithm that works efficiently for a range of input values. with the ability to surpass the efficiency of `O(n log n)` sorting algorithms. It is a stable sorting algorithm, which means that it preserves the relative order of equal elements in the sorted output. Counting Sort is particularly useful when you have a limited range of input values, making it more efficient than comparison-based sorting algorithms like Quicksort or Merge Sort for such cases.

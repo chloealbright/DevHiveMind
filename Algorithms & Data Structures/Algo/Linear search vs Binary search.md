@@ -6,7 +6,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (21).gif]]
+![[Linear(Sequential) v Binary search.gif]]
 
 ## Linear/Sequential Search:
 

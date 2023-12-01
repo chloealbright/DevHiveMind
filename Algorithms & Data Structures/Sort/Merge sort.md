@@ -10,7 +10,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (15).gif]]
+![[MergeSort.gif]]
 
 
 - **Merge Sort**: This sorting technique is based on the divide and conquer method and is known for its worst-case time complexity of `Ο(n log n)`, making it highly respected.

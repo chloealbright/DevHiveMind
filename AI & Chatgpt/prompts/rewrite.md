@@ -4,7 +4,7 @@ tags:
   - AI
   - ChatGpt
 author: 
-Status: 
+Status: review
 Started: 
 EditDate: 
 Relates: 

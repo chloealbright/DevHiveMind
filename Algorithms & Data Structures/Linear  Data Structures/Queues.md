@@ -7,7 +7,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (27).gif]]
+![[Standard queue.gif]]
 
 
 Queues are similar to stacks but follow a "first in, first out" (FIFO) order, much like a checkout line. Dynamic queues can grow in size and are particularly useful for background processes and task scheduling. They find extensive use in applications such as cron jobs, memory management, and various background activities.

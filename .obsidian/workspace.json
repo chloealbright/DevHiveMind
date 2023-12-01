@@ -4,71 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6ad2e322b49615f0",
+        "id": "e3687f613a80125a",
         "type": "tabs",
         "children": [
           {
-            "id": "09d09337202b539c",
+            "id": "eacdc46af0398662",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/API/API Archetecture/API designs to cons.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "87f8fbe2fcf4308c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Low Priority Refinement/API/API Gateway.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b60445216db123aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Low Priority Refinement/API/API Archetecture/API Metadata Design.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c6b77cf1365b4703",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Low Priority Refinement/API/What is a REST API.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "3c67255a789531b4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6e21f35cb41e4c09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_CODE/Express/Be Aware.md",
+                "file": "Framework/Backend/Springboot.md",
                 "mode": "source",
                 "source": false
               }
@@ -156,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_CODE/Express/Be Aware.md",
+                "file": "Framework/Backend/Springboot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_CODE/Express/Be Aware.md",
+                "file": "Framework/Backend/Springboot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_CODE/Express/Be Aware.md"
+                "file": "Framework/Backend/Springboot.md"
               }
             }
           },
@@ -300,8 +245,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6e21f35cb41e4c09",
+  "active": "eacdc46af0398662",
   "lastOpenFiles": [
+    "Framework/Backend/Apache vs Tomcat.md",
+    "Framework/Backend/Typescript/Express.js.md",
+    "Home.md",
     "_Images/Learning Approach.png",
     "_Images/Mind Map/Api Gateway.gif",
     "_Images/Pasted image 20231120192955.jpg",
@@ -332,14 +280,11 @@
     "_Low Priority Refinement/API/API Archetecture/API designs to consider.md",
     "_Low Priority Refinement/API/API Archetecture/API designs to cons.md",
     "_CODE/Express/Be Aware.md",
-    "_CODE/Express/Algo left to over to do.md",
     "_Low Priority Refinement",
-    "API/Reddit api example from person I asked.md",
     "_Images/Algo/StepByStep 1.gif",
     "_Images/Algo/StepByStep.gif",
     "_Images/Algo/unnamed (56).gif",
     "_Images/Url Process.gif",
-    "_Images/Algo/unnamed (9).gif",
     "_Cheatsheet/CLI-cheat-sheet.pdf",
     "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
     "_Cheatsheet/docker_cheatsheet.pdf",

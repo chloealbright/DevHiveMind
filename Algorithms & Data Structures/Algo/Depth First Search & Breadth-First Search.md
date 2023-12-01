@@ -13,7 +13,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (43).gif]]
+![[TreeTraversal.gif]]
 
 **The essence of DFS and BFS lies in the order of operations and base cases, depending on the specific problem.**
 

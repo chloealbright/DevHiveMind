@@ -11,7 +11,7 @@ Started:
 EditDate: 
 Relates: "[[Big O]]"
 ---
-![[_Images/Algo/GetImage (3).png]]
+![[sortRuntime.png]]
 
 <iframe src="https://www.hackerearth.com/practice/algorithms/sorting/radix-sort/visualize/" allow="fullscreen" allowfullscreen="" style="height: 100%; width: 100%; aspect-ratio: 4 / 3;"></iframe>
 

@@ -12,7 +12,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (45).gif]]
+![[graph Pathway.gif]]
 
 Certainly, here's a more structured version of your note about the choice between algorithms for solving the shortest path problem:
 

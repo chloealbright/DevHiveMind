@@ -11,7 +11,7 @@ Started:
 EditDate: 
 Relates: "[[Iterating vs Traversing]]"
 ---
-![[unnamed (59).gif]]
+![[many Ways.gif]]
 
 
 ## Linear iteration

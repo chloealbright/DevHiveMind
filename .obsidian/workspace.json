@@ -13,9 +13,61 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Algo pathway.md",
+                "file": "API/API Archetecture/API designs to consider.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "87f8fbe2fcf4308c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "API/API Archetecture/API Gateway.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b60445216db123aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "API/API Archetecture/API Metadata Design.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c6b77cf1365b4703",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "API/API Archetecture/Designing Web APIs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "3c67255a789531b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e21f35cb41e4c09",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "API/Rest API Design.jpeg"
               }
             }
           }
@@ -48,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#GitHubProjects",
+                "query": "bottl",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -101,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Algo pathway.md",
+                "file": "API/Rest API Design.jpeg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Algo pathway.md",
+                "file": "API/Rest API Design.jpeg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Algo pathway.md"
+                "file": "API/Rest API Design.jpeg"
               }
             }
           },
@@ -214,7 +266,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5
+    "width": 345.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,44 +297,53 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "09d09337202b539c",
+  "active": "6e21f35cb41e4c09",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Algo Line of thought.md",
-    "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md",
-    "_Images/Algo/SelectionSort.gif",
-    "Algorithms & Data Structures/Sort/Selection sort.md",
-    "Algorithms & Data Structures/Sort/Radix Sort.md",
-    "Algorithms & Data Structures/Sort/Quick Sort.md",
+    "API/other aspect of api.md",
+    "API/Mastering the Art of API Design - by Alex Xu.md",
+    "API/API.md",
+    "API/API Archetecture/API designs to consider.md",
+    "API/API Archetecture/Designing Web APIs.md",
+    "API/The six constraints of REST.md",
+    "API/Reddit api example from person I asked.md",
+    "API/API Archetecture/API Metadata Design.md",
+    "API/API Archetecture/API Gateway.md",
+    "AI & Chatgpt/AI Layers.md",
+    "Algorithms & Data Structures/Algo pathway.md",
+    "Companies/Interview/Problem-Solving Step by Step Process.md",
+    "_Images/Algo/StepByStep 1.gif",
+    "_Images/Algo/StepByStep.gif",
+    "Codebase Architecture Decisions/BUD.md",
+    "_Images/Algo/unnamed (56).gif",
+    "_Images/Url Process.gif",
+    "_Images/Algo/unnamed (9).gif",
+    "Companies/_Money Talk/Type of money from job.md",
+    "Language/Typescript/Modules history and advance Implementation.md",
+    "_CODE/_Organize/Project idea.md",
+    "_Images/Algo/Bud.gif",
     "_Images/Algo/quickSort.gif",
-    "Algorithms & Data Structures/Sort/Merge sort.md",
-    "_Images/Algo/MergeSort.gif",
-    "_Images/Algo/InsertionSort.gif",
-    "Algorithms & Data Structures/Sort/Insertion sort.md",
-    "_Images/Algo/HeapSort.gif",
-    "Algorithms & Data Structures/Sort/Heap Sort.md",
-    "_Images/Algo/CountingSort.gif",
-    "Algorithms & Data Structures/Sort/Counting Sort.md",
-    "_Images/Algo/BucketSort.gif",
-    "Algorithms & Data Structures/Sort/Bucket Sort.md",
-    "_Images/Algo/BuubleSort.gif",
-    "Algorithms & Data Structures/Sort/Bubble sort.md",
-    "Algorithms & Data Structures/Sort/_Sort Implementation Focus.md",
-    "_Images/Algo/Sorts.gif",
-    "Algorithms & Data Structures/Recursion/The Six Core Patterns of Recursion.md",
-    "Algorithms & Data Structures/Recursion/Recursion & Recursion Runtime.md",
-    "_Images/Algo/Recursion.gif",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Choosing Graph List & Matrix Type.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Graph.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Graph List & Matrix Type.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Graphs/Type of graphs.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Binary Heap.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Binomial Heap.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Fibonacci Heap.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Priority Queue Implementation.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Dictionaries.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Dictionaries vs Hash Tables vs Hash Map.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Hash Collision.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Key Value Pairs/Hash Table Implementation.md",
+    "_Images/Algo/postOrder.gif",
+    "_Images/1_fUhClgI4aRBdFrAFFGx5Kw.gif",
+    "_Images/Algo/GetImage (9).png",
+    "Architecture/System Design/Models.md",
+    "Database/Database Archetecture/Normalization.md",
+    "Algorithms & Data Structures/Algo Line of thought.md",
+    "_CODE/Distill/Development Perpetual Practices.md",
+    "_CODE/Distill/_Perpetual BAU.md",
+    "_CODE/_Organize/Tech tips.md",
+    "_CODE/_Organize/Node Project Structure.md",
+    "_CODE/_Organize/Glossary.md",
+    "_CODE/_Organize/Data Project Idea.md",
+    "_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part III  by aruva - empowering ideas  May, 2023  Medium.md",
+    "_Cheatsheet/CLI-cheat-sheet.pdf",
+    "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
+    "_Cheatsheet/docker_cheatsheet.pdf",
+    "_Cheatsheet/hugo_cheat-sheet.pdf",
+    "_Cheatsheet/git-for-subversion-cheat-sheet.pdf",
+    "_Cheatsheet/SQL Practice Interview Questions .pdf",
+    "_Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
+    "_Cheatsheet/tower_cheat-sheet_windows.pdf",
+    "_Cheatsheet/ZTM_nmap_cheatsheet_version_1_01.pdf",
     "Mind Maps/Redux Map.canvas",
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/12 Factor App Docker.canvas",
@@ -292,15 +354,6 @@
     "Mind Maps/Drafts/Java Logging.canvas",
     "Mind Maps/Drafts/Event Driven Architecture.canvas",
     "Mind Maps/Drafts/Event Messaging.canvas",
-    "Mind Maps/Drafts/Gateway.canvas",
-    "_Images/Mind Map",
-    "_Pdf/Books/Architecture/Building Microservices Designing Fine Grained Systems.pdf",
-    "_Pdf/Design Patterns.pdf",
-    "Mind Maps/Drafts",
-    "_Pdf/Books/Other/Code The Hidden Language of Computer Hardware and Software.pdf",
-    "Mind Maps",
-    "_Pdf/Books/Other/Code - The Hidden Language of Computer Hardware and Software.pdf",
-    "_Pdf/Books/Java/thinkapjava.pdf",
-    "_Pdf/Books/Java/java-concurrency.pdf"
+    "Mind Maps/Drafts/Gateway.canvas"
   ]
 }

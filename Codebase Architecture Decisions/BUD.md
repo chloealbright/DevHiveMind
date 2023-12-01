@@ -3,8 +3,14 @@ tags:
   - CodebaseDecision
   - CleanPrinciples
   - AlgorithmComponent
+author:
+  - jacgit18
+Status: done
+Started: 
+EditDate: 
+Relates:
 ---
-![[unnamed 1.gif]]
+![[Bud.gif]]
 
 ## Bottlenecks 
 

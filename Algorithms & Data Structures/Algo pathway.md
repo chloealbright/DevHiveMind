@@ -11,7 +11,7 @@ Started:
 EditDate: 
 Relates: "[[Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion]]"
 ---
-![[unnamed (11).gif]]
+![[paths.gif]]
 ## Problem Identification
 
 When approaching a problem, it's important to begin by identifying the core issue at hand. Rather than focusing too much on the desired output, consider the attributes and parameters involved, especially when multiple parameters are at play prioritize the parameter that is apart of the main functionality or main problem.

@@ -8,7 +8,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[_Images/Algo/GetImage (4).png]]
+![[nonLinearRuntime.png]]
 
 # Binary Search Tree
 Binary Search Trees are data structures that maintain their elements in a way that allows for efficient searching and manipulation.

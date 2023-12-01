@@ -25,5 +25,5 @@ deep learning is a subset of machine learning which uses AI and machine learning
 Machine learning is used for minimizing errors and maximizing other things like with GPUs and DLSS in Nvidia GPUs
 
 
-![[Screenshot_20230406_165859_LinkedIn.jpg]]
+![[AI based Tools.jpg]]
 

@@ -8,7 +8,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (31).gif]]
+![[Space.gif]]
 ## Space complexity follows big O rules 
 
 Time complexity is more of a priority in comparison to space complexity because in the real world we value CPU processing more than RAM storage because for the cost to run processes is more than ram because the CPU takes on more load than ram that's why you hear the fan ramp up during the gaming which makes time complexity more of the priority 

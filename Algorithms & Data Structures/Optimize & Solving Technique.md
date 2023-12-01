@@ -6,15 +6,13 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (54).gif]]
+### Optimize & Solving Technique #1: DIY (Do It Yourself)  
+like if you comparing strings expand the variables or prams to something bigger to make it easier then scale down to the specific problem  
 
-### Optimize & Solving Technique #2: DIY (Do It Yourself)  
-like if you comparing strings expand the variables or params to something bigger to make it easier then scale down to the specific problem  
-
-### Optimize & Solve Technique #3: Simplify and Generalize  
+### Optimize & Solve Technique #2: Simplify and Generalize  
 With Simplify and Generalize, we implement a multi-step approach. First we simplify or tweak some constraint, such as the data type. Then, we solve this new simplified version of the problem. Finally, once we have an algorithm for the simplified problem, we try to adapt it for the more complex version.  
 
-### Optimize & Solve Technique #4: Base Case and Build  
+### Optimize & Solve Technique #3: Base Case and Build  
 With Base Case and Build, we solve the problem first for a base case (e.g., n = 1) and then try to build up from there. When we get to more complex/interesting cases (often n = 3 or n = 4), we try to build those using the prior solutions.  
 
 Example: Design an algorithm to print all permutations of a string. For simplicity, assume all characters are unique.  

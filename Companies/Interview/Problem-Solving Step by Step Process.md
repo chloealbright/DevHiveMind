@@ -1,4 +1,4 @@
-![[unnamed (56).gif]]
+![[StepByStep.gif]]
 
 Most examples are too small or are special cases. Debug your example. Is there any way it's a special case? Is it big enough? avoid special cases  
 

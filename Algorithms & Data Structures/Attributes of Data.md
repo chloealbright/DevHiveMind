@@ -9,7 +9,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[_Images/Algo/unnamed (3).gif]]
+![[Attributes.gif]]
 
 # What to Think & Ask About
 
@@ -27,8 +27,9 @@ Relates:
 - Substrings
 - Unicode values
 - Unique or specific characters
-![[numbers.png]]
+
 ## Numeric Values (with ASCII representation)
+![[numbers.png]]
 - Natural numbers (positive and zero)
 - Integers (positive, negative)
 - Rational numbers (decimal, fraction)

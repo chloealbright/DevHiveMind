@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/API Archetecture/API designs to consider.md",
+                "file": "_Low Priority Refinement/API/API Archetecture/API designs to cons.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/API Archetecture/API Gateway.md",
+                "file": "_Low Priority Refinement/API/API Gateway.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/API Archetecture/API Metadata Design.md",
+                "file": "_Low Priority Refinement/API/API Archetecture/API Metadata Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,13 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/API Archetecture/Designing Web APIs.md",
+                "file": "_Low Priority Refinement/API/What is a REST API.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "3c67255a789531b4",
@@ -65,9 +66,11 @@
             "id": "6e21f35cb41e4c09",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "API/Rest API Design.jpeg"
+                "file": "_CODE/Express/Be Aware.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -153,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/Rest API Design.jpeg",
+                "file": "_CODE/Express/Be Aware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/Rest API Design.jpeg",
+                "file": "_CODE/Express/Be Aware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/Rest API Design.jpeg"
+                "file": "_CODE/Express/Be Aware.md"
               }
             }
           },
@@ -299,42 +302,44 @@
   },
   "active": "6e21f35cb41e4c09",
   "lastOpenFiles": [
-    "API/other aspect of api.md",
-    "API/Mastering the Art of API Design - by Alex Xu.md",
-    "API/API.md",
-    "API/API Archetecture/API designs to consider.md",
-    "API/API Archetecture/Designing Web APIs.md",
-    "API/The six constraints of REST.md",
+    "_Images/Learning Approach.png",
+    "_Images/Mind Map/Api Gateway.gif",
+    "_Images/Pasted image 20231120192955.jpg",
+    "_Images/Pasted_image_20231003141446-removebg-preview (2).png",
+    "_Low Priority Refinement/API/The six constraints of REST.md",
+    "_Low Priority Refinement/API/What is a REST AP.md",
+    "_Low Priority Refinement/API/Ways to Use a Private API.md",
+    "_Low Priority Refinement/API/The general HTTP authentication framework.md",
+    "_Low Priority Refinement/API/Rest API Design.jpeg",
+    "_Low Priority Refinement/API/Representation Design more to go over.md",
+    "_Low Priority Refinement/API/other aspect of api.md",
+    "_Low Priority Refinement/API/Mastering the Art of API Design - by Alex Xu.md",
+    "_Low Priority Refinement/API/General Recommendations.md",
+    "_Low Priority Refinement/API/Different Types Of Encoding Schemes.md",
+    "_Low Priority Refinement/API/Controlling API Traffic.md",
+    "_Low Priority Refinement/API/Client Concerns.md",
+    "_Low Priority Refinement/API/Authentication vs Authorization.md",
+    "_Low Priority Refinement/API/API Security and User Management.md",
+    "_Low Priority Refinement/API/API Gateway.md",
+    "_Low Priority Refinement/API/API.md",
+    "Mind Maps/Drafts/Gateway.canvas",
+    "_Images/Mind Map/GatewayFunction.jpeg",
+    "_Low Priority Refinement/API/What is a REST API.md",
+    "_Low Priority Refinement/API/API Archetecture/Designing Web APIs.md",
+    "_Low Priority Refinement/API/API Archetecture/Designing Web AP.md",
+    "_Low Priority Refinement/API/API Archetecture/API Metadata Design.md",
+    "_Low Priority Refinement/API/API Archetecture/API Metadata Desig.md",
+    "_Low Priority Refinement/API/API Archetecture/API designs to consider.md",
+    "_Low Priority Refinement/API/API Archetecture/API designs to cons.md",
+    "_CODE/Express/Be Aware.md",
+    "_CODE/Express/Algo left to over to do.md",
+    "_Low Priority Refinement",
     "API/Reddit api example from person I asked.md",
-    "API/API Archetecture/API Metadata Design.md",
-    "API/API Archetecture/API Gateway.md",
-    "AI & Chatgpt/AI Layers.md",
-    "Algorithms & Data Structures/Algo pathway.md",
-    "Companies/Interview/Problem-Solving Step by Step Process.md",
     "_Images/Algo/StepByStep 1.gif",
     "_Images/Algo/StepByStep.gif",
-    "Codebase Architecture Decisions/BUD.md",
     "_Images/Algo/unnamed (56).gif",
     "_Images/Url Process.gif",
     "_Images/Algo/unnamed (9).gif",
-    "Companies/_Money Talk/Type of money from job.md",
-    "Language/Typescript/Modules history and advance Implementation.md",
-    "_CODE/_Organize/Project idea.md",
-    "_Images/Algo/Bud.gif",
-    "_Images/Algo/quickSort.gif",
-    "_Images/Algo/postOrder.gif",
-    "_Images/1_fUhClgI4aRBdFrAFFGx5Kw.gif",
-    "_Images/Algo/GetImage (9).png",
-    "Architecture/System Design/Models.md",
-    "Database/Database Archetecture/Normalization.md",
-    "Algorithms & Data Structures/Algo Line of thought.md",
-    "_CODE/Distill/Development Perpetual Practices.md",
-    "_CODE/Distill/_Perpetual BAU.md",
-    "_CODE/_Organize/Tech tips.md",
-    "_CODE/_Organize/Node Project Structure.md",
-    "_CODE/_Organize/Glossary.md",
-    "_CODE/_Organize/Data Project Idea.md",
-    "_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part III  by aruva - empowering ideas  May, 2023  Medium.md",
     "_Cheatsheet/CLI-cheat-sheet.pdf",
     "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
     "_Cheatsheet/docker_cheatsheet.pdf",
@@ -348,12 +353,10 @@
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/_Web App Architecture.canvas",
-    "_Images/Devops/Docker",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Untitled.canvas",
     "Mind Maps/Drafts/Java Logging.canvas",
     "Mind Maps/Drafts/Event Driven Architecture.canvas",
-    "Mind Maps/Drafts/Event Messaging.canvas",
-    "Mind Maps/Drafts/Gateway.canvas"
+    "Mind Maps/Drafts/Event Messaging.canvas"
   ]
 }

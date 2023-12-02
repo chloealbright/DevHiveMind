@@ -122,3 +122,5 @@ summary of how we scale our system to support millions of users: 
 •Split tiers into individual services 
 
 •Monitor your system and use automation tools
+
+

@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/_Architecture Dashboard.md",
+                "file": "_NoteAssets/Callouts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "293803abf017d1a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Arch to think about.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "44b2196a657ec243",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bottl",
+                "query": "tag:#CodebaseDecision",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -101,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/_Architecture Dashboard.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/_Architecture Dashboard.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/_Architecture Dashboard.md"
+                "file": "Home.md"
               }
             }
           },
@@ -214,8 +239,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5,
-    "collapsed": true
+    "width": 345.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -245,9 +269,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "54b00e6e0515f297",
+  "active": "44b2196a657ec243",
   "lastOpenFiles": [
+    "_NoteAssets/Callouts.md",
     "Home.md",
+    "Architecture/Arch to think about.md",
+    "Architecture/_Architecture Dashboard.md",
+    "Architecture/Clean Code.md",
     "_Low Priority Refinement/Architecture/System Design/When to use Domain-Driven Design.md",
     "_Low Priority Refinement/Architecture/System Design/Domain-driven design.md",
     "_Low Priority Refinement/Architecture/System Design/Domain-driven design Pivot.md",
@@ -283,13 +311,9 @@
     "Companies/Clout Chasing/Social Post.md",
     "Companies/Clout Chasing",
     "Architecture/object-oriented  and functional Programming Design.md",
-    "Architecture/_Architecture Dashboard.md",
     "Architecture/Technology Options/Apache Kafka.md",
     "Architecture/Technology Options",
     "Architecture/System Examples",
-    "Architecture/Scope.md",
-    "Architecture/Scope 1.md",
-    "Architecture/Naming Conventions.md",
     "Mind Maps/Drafts/Gateway.canvas",
     "_Low Priority Refinement",
     "_Cheatsheet/CLI-cheat-sheet.pdf",

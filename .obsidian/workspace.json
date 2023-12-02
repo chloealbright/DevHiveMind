@@ -4,28 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "54c36a7c1434bee2",
+        "id": "b0b904de68511839",
         "type": "tabs",
         "children": [
           {
-            "id": "cd6451df9dd451a9",
+            "id": "23b9e1a62c2984dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Code standards.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "7bf8c121fc554e65",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/Arch/Clean arch.jpg"
               }
             }
           }
@@ -58,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Glos",
+                "query": "bottl",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -95,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 521.5
   },
   "right": {
     "id": "eef3a19b1c6d3fd3",
@@ -111,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Code standards.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Code standards.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Code standards.md"
+                "file": "Home.md"
               }
             }
           },
@@ -206,7 +196,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       },
       {
         "id": "7e98245a429f273f",
@@ -224,8 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5,
-    "collapsed": true
+    "width": 345.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -255,63 +244,63 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "23b9e1a62c2984dc",
   "lastOpenFiles": [
-    "Codebase Architecture Decisions/OO Thought process.md",
-    "Home.md",
-    "README.md",
-    "Architecture/Naming Conventions.md",
-    "Codebase Architecture Decisions/CodeProcess/Identify areas where it make sense to use Multi threading,  concurrency, collections, generics, and annotations.md",
-    "Codebase Architecture Decisions/CodeProcess/features for a driving school.md",
-    "Codebase Architecture Decisions/CodeProcess/create java code for this.md",
-    "Codebase Architecture Decisions/CodeProcess/convert user stories to class diagram.md",
-    "Codebase Architecture Decisions/CodeProcess/convert uml diagram to java code.md",
-    "Codebase Architecture Decisions/CodeProcess/Convert epics to user stories with acceptance criteria.md",
-    "Dev Roadmaps By Priority.md",
-    "_Pdf/Roadmaps/system-design.pdf",
-    "Companies/Clout Chasing/Writing styles.md",
-    "Mind Maps/Drafts/Testing.canvas",
-    "_Images/Api Testing.gif",
-    "Web/1700239541390.gif",
-    "_Low Priority Refinement/API/API Protocol.jpeg",
-    "Web/1695743132634.jpeg",
-    "Devops/Version Control/Git.md",
-    "Devops/Version Control/Git Process Animated.gif",
-    "Devops/Version Control/Git Flow.jpeg",
-    "Devops/Version Control/Git Command Process.jpeg",
-    "Devops/Version Control/GitHub Linux setup.md",
-    "Devops/Version Control/GitHub tip.md",
-    "Devops/Linux File System.jpeg",
-    "Devops/Linux Boot Process.gif",
-    "Database/Sql Exe Order.gif",
-    "Architecture/Code Comments.md",
-    "Architecture/Clean Code.md",
-    "Architecture/Domain Entities.md",
+    "_Low Priority Refinement/Architecture/System Design/When to use Domain-Driven Design.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-driven design.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-driven design Pivot.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-driven design Life Cycle.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design with Persistent Data.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Repositories, Factories, and domain services.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Event Types.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Application Services.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Aggregate Root.md",
     "_Low Priority Refinement/Architecture/System Design/Domain model.md",
-    "Mind Maps/Drafts/Domain-driven design.canvas",
-    "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
-    "Mind Maps/_Web App Architecture.canvas",
-    "Architecture/Architecture VS system design.md",
-    "Architecture/Architect decision.md",
-    "Architecture/_Architecture Dashboard.md",
-    "Architecture/Arch to think about.md",
-    "_Low Priority Refinement/Architecture/Caches.md",
-    "Web/Protocols/IP Address Structure.md",
-    "Architecture/MVVM.md",
-    "Mind Maps/Drafts/Event Driven Architecture.canvas",
-    "Mind Maps/Drafts/Event Messaging.canvas",
-    "Mind Maps/Drafts/Gateway.canvas",
-    "Mind Maps/Drafts/Java Logging.canvas",
-    "Mind Maps/Drafts/Url.canvas",
-    "Mind Maps/12 Factor App Docker.canvas",
+    "_Low Priority Refinement/Architecture/System Design/Domain Model Testing Focus.md",
     "_Low Priority Refinement/Architecture/System Design",
+    "_Low Priority Refinement/Architecture/Caches.md",
+    "_Low Priority Refinement/Architecture/Cache 3.jpeg",
+    "_Low Priority Refinement/Architecture/Cache 2.jpeg",
+    "_Low Priority Refinement/Architecture/Cache 1.jpeg",
     "_Low Priority Refinement/Architecture",
+    "_Low Priority Refinement/API/API Protocol.jpeg",
+    "_Images/Web/IPV6 vs IPV4.jpeg",
+    "_Images/Pasted image 20231202044317.png",
+    "_Images/Event Driven Arch Solution.png",
+    "_Images/Archetecture.jpg",
+    "_Images/Arch/IPv4 Structure.png",
+    "_Images/Arch/IPV6 Structure.png",
+    "Web/Protocols/IP Address Structure.md",
+    "Mind Maps/Drafts/UML/UML Notes Diagram Types Structure & Behavioral.md",
+    "Mind Maps/Drafts/UML/Models.md",
     "Mind Maps/Drafts/UML",
+    "Mind Maps/Drafts/Testing.canvas",
+    "Companies/Clout Chasing/_note taking.md",
+    "Companies/Clout Chasing/_Bootcamp.md",
+    "Companies/Clout Chasing/Writing styles.md",
+    "Companies/Clout Chasing/Social Post.md",
+    "Companies/Clout Chasing",
+    "Architecture/object-oriented  and functional Programming Design.md",
+    "Architecture/_Architecture Dashboard.md",
+    "Architecture/Technology Options/Apache Kafka.md",
     "Architecture/Technology Options",
     "Architecture/System Examples",
-    "_Images/System",
+    "Architecture/Scope.md",
+    "Architecture/Scope 1.md",
+    "Architecture/Naming Conventions.md",
+    "Architecture/Code standards.md",
+    "Mind Maps/Drafts/Gateway.canvas",
     "_Low Priority Refinement",
     "_Cheatsheet/CLI-cheat-sheet.pdf",
-    "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf"
+    "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
+    "_Cheatsheet/docker_cheatsheet.pdf",
+    "Mind Maps/Redux Map.canvas",
+    "Mind Maps/Docker InDeph.canvas",
+    "Mind Maps/12 Factor App Docker.canvas",
+    "Mind Maps/_Web App Architecture.canvas",
+    "Mind Maps/Drafts/Url.canvas",
+    "Mind Maps/Drafts/Untitled.canvas",
+    "Mind Maps/Drafts/Java Logging.canvas",
+    "Mind Maps/Drafts/Event Driven Architecture.canvas"
   ]
 }

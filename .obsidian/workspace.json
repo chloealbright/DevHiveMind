@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Code Comments.md",
+                "file": "Architecture/Naming Conventions.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,40 +30,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "05c0676b275ed715",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "cedf146fdce95c3c",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Mind Maps/Drafts/Domain-driven design.canvas",
-                "viewState": {
-                  "x": -248.28096659088854,
-                  "y": -671.0357110206835,
-                  "zoom": 0.05090922247097063
-                }
-              }
-            }
-          },
-          {
-            "id": "adfb85366384ec04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Low Priority Refinement/Architecture/System Design/Domain model.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -145,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Code Comments.md",
+                "file": "Architecture/Naming Conventions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Code Comments.md",
+                "file": "Architecture/Naming Conventions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Code Comments.md"
+                "file": "Architecture/Naming Conventions.md"
               }
             }
           },
@@ -291,60 +257,61 @@
   },
   "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "Codebase Architecture Decisions/CodeProcess/Identify areas where it make sense to use Multi threading,  concurrency, collections, generics, and annotations.md",
+    "Codebase Architecture Decisions/CodeProcess/features for a driving school.md",
+    "Codebase Architecture Decisions/CodeProcess/create java code for this.md",
+    "Codebase Architecture Decisions/CodeProcess/convert user stories to class diagram.md",
+    "Codebase Architecture Decisions/CodeProcess/convert uml diagram to java code.md",
+    "Codebase Architecture Decisions/CodeProcess/Convert epics to user stories with acceptance criteria.md",
+    "Dev Roadmaps By Priority.md",
+    "_Pdf/Roadmaps/system-design.pdf",
+    "Companies/Clout Chasing/Writing styles.md",
+    "Mind Maps/Drafts/Testing.canvas",
+    "_Images/Api Testing.gif",
+    "Web/1700239541390.gif",
+    "_Low Priority Refinement/API/API Protocol.jpeg",
+    "Web/1695743132634.jpeg",
+    "Devops/Version Control/Git.md",
+    "Devops/Version Control/Git Process Animated.gif",
+    "Devops/Version Control/Git Flow.jpeg",
+    "Devops/Version Control/Git Command Process.jpeg",
+    "Devops/Version Control/GitHub Linux setup.md",
+    "Devops/Version Control/GitHub tip.md",
+    "Devops/Linux File System.jpeg",
+    "Devops/Linux Boot Process.gif",
+    "Database/Sql Exe Order.gif",
+    "Architecture/Code Comments.md",
     "Architecture/Clean Code.md",
     "Architecture/Domain Entities.md",
     "_Low Priority Refinement/Architecture/System Design/Domain model.md",
     "Mind Maps/Drafts/Domain-driven design.canvas",
-    "_Images/Arch/Clean arch Layers.png",
-    "_Images/Pasted image 20231202044317.png",
-    "_Images/Arch/Clean arch.jpg",
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
     "Mind Maps/_Web App Architecture.canvas",
     "Architecture/Architecture VS system design.md",
     "Architecture/Architect decision.md",
-    "Architecture/Architect Styles.jpeg",
     "Architecture/_Architecture Dashboard.md",
     "Architecture/Arch to think about.md",
-    "_Low Priority Refinement/Architecture/Cache 1.jpeg",
     "_Low Priority Refinement/Architecture/Caches.md",
-    "_Low Priority Refinement/Architecture/Cache 3.jpeg",
     "Web/Protocols/IP Address Structure.md",
-    "_Images/Arch/IPv4 Structure.png",
-    "_Images/Arch/IPV6 Structure.png",
-    "_Images/Web/IPV6 vs IPV4.jpeg",
     "Architecture/MVVM.md",
     "Architecture/MVC Pattern.md",
-    "Architecture/Model Patterns.jpeg",
     "Mind Maps/Drafts/UML/Models.md",
     "Mind Maps/Drafts/UML/UML Notes Diagram Types Structure & Behavioral.md",
     "Mind Maps/Drafts/Event Driven Architecture.canvas",
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Drafts/Java Logging.canvas",
-    "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/12 Factor App Docker.canvas",
     "Home.md",
-    "_Low Priority Refinement/Architecture/System Design/When to use Domain-Driven Design.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-driven design.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-driven design Pivot.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-driven design Life Cycle.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design with Persistent Data.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Repositories, Factories, and domain services.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Event Types.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Application Services.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Aggregate Root.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain Model Testing Focus.md",
     "_Low Priority Refinement/Architecture/System Design",
     "_Low Priority Refinement/Architecture",
-    "Architecture/object-oriented  and functional Programming Design.md",
     "Mind Maps/Drafts/UML",
     "Architecture/Technology Options",
     "Architecture/System Examples",
     "_Images/System",
     "_Low Priority Refinement",
     "_Cheatsheet/CLI-cheat-sheet.pdf",
-    "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
-    "_Cheatsheet/docker_cheatsheet.pdf"
+    "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf"
   ]
 }

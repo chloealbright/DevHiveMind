@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b0b904de68511839",
+        "id": "34877fed670e3ebf",
         "type": "tabs",
         "children": [
           {
-            "id": "23b9e1a62c2984dc",
+            "id": "54b00e6e0515f297",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "Architecture/_Architecture Dashboard.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Architecture/_Architecture Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Architecture/_Architecture Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Architecture/_Architecture Dashboard.md"
               }
             }
           },
@@ -214,7 +214,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5
+    "width": 345.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,8 +245,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "23b9e1a62c2984dc",
+  "active": "54b00e6e0515f297",
   "lastOpenFiles": [
+    "Home.md",
     "_Low Priority Refinement/Architecture/System Design/When to use Domain-Driven Design.md",
     "_Low Priority Refinement/Architecture/System Design/Domain-driven design.md",
     "_Low Priority Refinement/Architecture/System Design/Domain-driven design Pivot.md",
@@ -288,7 +290,6 @@
     "Architecture/Scope.md",
     "Architecture/Scope 1.md",
     "Architecture/Naming Conventions.md",
-    "Architecture/Code standards.md",
     "Mind Maps/Drafts/Gateway.canvas",
     "_Low Priority Refinement",
     "_Cheatsheet/CLI-cheat-sheet.pdf",

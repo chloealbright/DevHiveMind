@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e3687f613a80125a",
+        "id": "fcedc42f2c2e7f7c",
         "type": "tabs",
         "children": [
           {
-            "id": "eacdc46af0398662",
+            "id": "5d82d5674d7205c4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Framework/Backend/Springboot.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bottl",
+                "query": "Glos",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -85,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 521.5
+    "width": 319.5
   },
   "right": {
     "id": "eef3a19b1c6d3fd3",
@@ -101,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Framework/Backend/Springboot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Framework/Backend/Springboot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Framework/Backend/Springboot.md"
-              }
+              "state": {}
             }
           },
           {
@@ -196,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       },
       {
         "id": "7e98245a429f273f",
@@ -245,63 +237,63 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "eacdc46af0398662",
+  "active": "5d82d5674d7205c4",
   "lastOpenFiles": [
-    "Framework/Backend/Apache vs Tomcat.md",
-    "Framework/Backend/Typescript/Express.js.md",
-    "Home.md",
-    "_Images/Learning Approach.png",
-    "_Images/Mind Map/Api Gateway.gif",
-    "_Images/Pasted image 20231120192955.jpg",
-    "_Images/Pasted_image_20231003141446-removebg-preview (2).png",
-    "_Low Priority Refinement/API/The six constraints of REST.md",
-    "_Low Priority Refinement/API/What is a REST AP.md",
-    "_Low Priority Refinement/API/Ways to Use a Private API.md",
-    "_Low Priority Refinement/API/The general HTTP authentication framework.md",
-    "_Low Priority Refinement/API/Rest API Design.jpeg",
-    "_Low Priority Refinement/API/Representation Design more to go over.md",
-    "_Low Priority Refinement/API/other aspect of api.md",
-    "_Low Priority Refinement/API/Mastering the Art of API Design - by Alex Xu.md",
-    "_Low Priority Refinement/API/General Recommendations.md",
-    "_Low Priority Refinement/API/Different Types Of Encoding Schemes.md",
-    "_Low Priority Refinement/API/Controlling API Traffic.md",
-    "_Low Priority Refinement/API/Client Concerns.md",
-    "_Low Priority Refinement/API/Authentication vs Authorization.md",
-    "_Low Priority Refinement/API/API Security and User Management.md",
-    "_Low Priority Refinement/API/API Gateway.md",
-    "_Low Priority Refinement/API/API.md",
+    "_Low Priority Refinement/Architecture/System Design/When to use Domain-Driven Design.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-driven design.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-driven design Pivot.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-driven design Life Cycle.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design with Persistent Data.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Repositories, Factories, and domain services.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Event Types.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Application Services.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Aggregate Root.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain model.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain Model Testing Focus.md",
+    "_Low Priority Refinement/Architecture/System Design",
+    "_Low Priority Refinement/Architecture",
+    "_Images/Archetecture.jpg",
+    "Architecture/object-oriented  and functional Programming Design.md",
+    "Architecture/_Architecture Dashboard.md",
+    "Architecture/UML/UML Notes Diagram Types Structure & Behavioral.md",
+    "Architecture/UML/Models.md",
+    "Architecture/UML",
+    "Architecture/Technology Options/Apache Kafka.md",
+    "Architecture/Technology Options",
+    "Architecture/System Examples/Payment System.jpeg",
+    "Architecture/System Examples/NPR System.jpg",
+    "Architecture/System Examples",
+    "Architecture/Scope.md",
+    "Architecture/Scope 1.md",
+    "_Images/System/tempFileForShare_20230420-145418.jpg",
+    "_Images/System/payment.jpeg",
+    "_Images/System/npr_architecture_diagram.jpg",
+    "_Images/System",
+    "Architecture/System Design/object-oriented  and functional Programming Design.md",
+    "Architecture/System Design/When to use Domain-Driven Design.md",
+    "Architecture/System Design/UML Notes Diagram Types Structure & Behavioral.md",
+    "Architecture/System Design/Scope.md",
+    "Architecture/System Design/Scope 1.md",
+    "Architecture/System Design/Payment System.md",
+    "Architecture/System Design/NPR System.md",
+    "Architecture/System Design/Models.md",
+    "Architecture/System Design/1700585118522.gif",
+    "Architecture/System Design/System Design Cheatsheet.gif",
+    "Architecture/System Design/System Design BluePrint.jpg",
+    "_Images/Banner.gif",
+    "Mind Maps/Drafts/Domain-driven design.canvas",
+    "Mind Maps/_Web App Architecture.canvas",
     "Mind Maps/Drafts/Gateway.canvas",
-    "_Images/Mind Map/GatewayFunction.jpeg",
-    "_Low Priority Refinement/API/What is a REST API.md",
-    "_Low Priority Refinement/API/API Archetecture/Designing Web APIs.md",
-    "_Low Priority Refinement/API/API Archetecture/Designing Web AP.md",
-    "_Low Priority Refinement/API/API Archetecture/API Metadata Design.md",
-    "_Low Priority Refinement/API/API Archetecture/API Metadata Desig.md",
-    "_Low Priority Refinement/API/API Archetecture/API designs to consider.md",
-    "_Low Priority Refinement/API/API Archetecture/API designs to cons.md",
-    "_CODE/Express/Be Aware.md",
     "_Low Priority Refinement",
-    "_Images/Algo/StepByStep 1.gif",
-    "_Images/Algo/StepByStep.gif",
-    "_Images/Algo/unnamed (56).gif",
-    "_Images/Url Process.gif",
     "_Cheatsheet/CLI-cheat-sheet.pdf",
     "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
     "_Cheatsheet/docker_cheatsheet.pdf",
-    "_Cheatsheet/hugo_cheat-sheet.pdf",
-    "_Cheatsheet/git-for-subversion-cheat-sheet.pdf",
-    "_Cheatsheet/SQL Practice Interview Questions .pdf",
-    "_Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
-    "_Cheatsheet/tower_cheat-sheet_windows.pdf",
-    "_Cheatsheet/ZTM_nmap_cheatsheet_version_1_01.pdf",
     "Mind Maps/Redux Map.canvas",
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/12 Factor App Docker.canvas",
-    "Mind Maps/_Web App Architecture.canvas",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Untitled.canvas",
     "Mind Maps/Drafts/Java Logging.canvas",
-    "Mind Maps/Drafts/Event Driven Architecture.canvas",
-    "Mind Maps/Drafts/Event Messaging.canvas"
+    "Mind Maps/Drafts/Event Driven Architecture.canvas"
   ]
 }

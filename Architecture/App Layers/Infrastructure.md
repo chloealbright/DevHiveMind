@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: init
+Started: 
+EditDate: 
+Relates:
+---
 In the context of a web application, the Infrastructure layer refers to the underlying technology and components that provide the foundation for the application to run and function properly. It serves as the backbone of the entire web application architecture, supporting higher-level components and ensuring that the application is accessible, scalable, reliable, and secure. The Infrastructure layer typically includes the following key elements:
 
 1. **Servers and Hosting Environment**: This includes physical or virtual servers, cloud infrastructure (e.g., AWS, Azure, Google Cloud), or serverless computing platforms where the web application is hosted. The choice of hosting environment impacts factors like scalability, availability, and cost.

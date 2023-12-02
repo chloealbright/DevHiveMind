@@ -19,6 +19,8 @@ Relates:
 
 - **Checksum**: A numerical value calculated from data, often used for data integrity during transmission over networks.
 
+- **CMS**:  A content management system is computer software used to manage the creation and modification of digital content. A CMS is typically used for enterprise content management and web content management.
+
 - **Compiler**: Translates high-level language programs into machine instructions, but additional steps like linking are needed for executable code.
 
 - **Concurrent**: Concurrent refers to things happening or existing at the same time. In computing and programming, concurrency specifically relates to the concept of multiple tasks making progress at overlapping time intervals. It doesn't necessarily mean that these tasks are executed simultaneously, but rather they can be interleaved or partially overlapping in their execution.

@@ -6,8 +6,12 @@ banner_y: 0.494
 banner_x: 0.5
 
 ---
-<div class="title" style="color:Black">Notebook Dashboard</div>
+<div class="title" style="color:Black">Hive Mind Dashboard</div>
 
+
+<button onclick="window.location.href='obsidian://open?vault=DevBrain&page=%5B%5B_Architecture%20Dashboard%5D%5D'">Architecture Dashboard</button>
+
+[[_Architecture Dashboard]]
 
 # Vault Info
 
@@ -27,10 +31,5 @@ banner_x: 0.5
 	- [ ] [[Dev Roadmaps By Priority#Main Long Quest | Main Quest]]
 	- [ ] [[Dev Roadmaps By Priority#New Path | New Path of Exploration]]
 	- [ ] [[Dev Roadmaps By Priority#Side Quest Revist |  Side Quest]]
-
-> [!bug]
-> > ![[_Architecture Dashboard]]
-
-
 
 

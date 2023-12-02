@@ -38,7 +38,7 @@
               "type": "markdown",
               "state": {
                 "file": "Home.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -271,10 +271,10 @@
   },
   "active": "44b2196a657ec243",
   "lastOpenFiles": [
-    "_NoteAssets/Callouts.md",
-    "Home.md",
-    "Architecture/Arch to think about.md",
     "Architecture/_Architecture Dashboard.md",
+    "Home.md",
+    "_NoteAssets/Callouts.md",
+    "Architecture/Arch to think about.md",
     "Architecture/Clean Code.md",
     "_Low Priority Refinement/Architecture/System Design/When to use Domain-Driven Design.md",
     "_Low Priority Refinement/Architecture/System Design/Domain-driven design.md",

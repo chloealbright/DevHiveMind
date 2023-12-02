@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Naming Conventions.md",
+                "file": "Architecture/Code standards.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Naming Conventions.md",
+                "file": "Architecture/Code standards.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Naming Conventions.md",
+                "file": "Architecture/Code standards.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Naming Conventions.md"
+                "file": "Architecture/Code standards.md"
               }
             }
           },
@@ -257,6 +257,10 @@
   },
   "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "Codebase Architecture Decisions/OO Thought process.md",
+    "Home.md",
+    "README.md",
+    "Architecture/Naming Conventions.md",
     "Codebase Architecture Decisions/CodeProcess/Identify areas where it make sense to use Multi threading,  concurrency, collections, generics, and annotations.md",
     "Codebase Architecture Decisions/CodeProcess/features for a driving school.md",
     "Codebase Architecture Decisions/CodeProcess/create java code for this.md",
@@ -294,16 +298,12 @@
     "_Low Priority Refinement/Architecture/Caches.md",
     "Web/Protocols/IP Address Structure.md",
     "Architecture/MVVM.md",
-    "Architecture/MVC Pattern.md",
-    "Mind Maps/Drafts/UML/Models.md",
-    "Mind Maps/Drafts/UML/UML Notes Diagram Types Structure & Behavioral.md",
     "Mind Maps/Drafts/Event Driven Architecture.canvas",
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Drafts/Java Logging.canvas",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/12 Factor App Docker.canvas",
-    "Home.md",
     "_Low Priority Refinement/Architecture/System Design",
     "_Low Priority Refinement/Architecture",
     "Mind Maps/Drafts/UML",

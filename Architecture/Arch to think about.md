@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
+---
 For databases ask if the data is structured(SQL very organize) or unstructured(use NoSQl media, audio geo, weather) and how much amount of data will you be storing if the data is unstructured and you need to store massive amounts of data then you know you'll need a NOSql 
 
 When it Comes to vertical and horizontal scaling  

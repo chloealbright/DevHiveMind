@@ -22,11 +22,6 @@ banner_x: 0.5
  `$=dv.list(dv.pages('').sort(f=>f.file.mtime.ts,"desc").limit(11).file.link)`
 
 
-# The List
-- 💻 Dev Quest
-	- [ ] [[Dev Roadmaps By Priority#Main Long Quest | Main Quest]]
-	- [ ] [[Dev Roadmaps By Priority#New Path | New Path of Exploration]]
-	- [ ] [[Dev Roadmaps By Priority#Side Quest Revist |  Side Quest]]
 
 
 

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Architecture and system design are two related but distinct concepts in the field of software engineering and computer science.
 
 Architecture refers to the high-level conceptual structure of a system. It defines the overall organization and composition of a system, including its components, their relationships, and their interactions. Architecture focuses on the big picture and provides a blueprint for the system's development. It involves making important decisions about the system's goals, constraints, and trade-offs. Architecture typically involves designing the system's major components, their interfaces, and their interactions.

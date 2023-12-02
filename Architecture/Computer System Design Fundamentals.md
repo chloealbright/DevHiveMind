@@ -12,4 +12,4 @@ A distributed system is defined as “An interconnected set of nodes that are li
 [[Load Balancers]]
 [[Apache Kafka]]
 [[Microservices]]
-[[Network]]
+[[IP Address Structure]]

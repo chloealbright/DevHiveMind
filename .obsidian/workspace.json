@@ -4,18 +4,66 @@
     "type": "split",
     "children": [
       {
-        "id": "fcedc42f2c2e7f7c",
+        "id": "54c36a7c1434bee2",
         "type": "tabs",
         "children": [
           {
-            "id": "5d82d5674d7205c4",
+            "id": "cd6451df9dd451a9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Code Comments.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7bf8c121fc554e65",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_Images/Arch/Clean arch.jpg"
+              }
             }
           }
         ]
+      },
+      {
+        "id": "05c0676b275ed715",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cedf146fdce95c3c",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Mind Maps/Drafts/Domain-driven design.canvas",
+                "viewState": {
+                  "x": -248.28096659088854,
+                  "y": -671.0357110206835,
+                  "zoom": 0.05090922247097063
+                }
+              }
+            }
+          },
+          {
+            "id": "adfb85366384ec04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Low Priority Refinement/Architecture/System Design/Domain model.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,6 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Architecture/Code Comments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Architecture/Code Comments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +184,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Architecture/Code Comments.md"
+              }
             }
           },
           {
@@ -237,8 +289,42 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5d82d5674d7205c4",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "Architecture/Clean Code.md",
+    "Architecture/Domain Entities.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain model.md",
+    "Mind Maps/Drafts/Domain-driven design.canvas",
+    "_Images/Arch/Clean arch Layers.png",
+    "_Images/Pasted image 20231202044317.png",
+    "_Images/Arch/Clean arch.jpg",
+    "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
+    "Mind Maps/_Web App Architecture.canvas",
+    "Architecture/Architecture VS system design.md",
+    "Architecture/Architect decision.md",
+    "Architecture/Architect Styles.jpeg",
+    "Architecture/_Architecture Dashboard.md",
+    "Architecture/Arch to think about.md",
+    "_Low Priority Refinement/Architecture/Cache 1.jpeg",
+    "_Low Priority Refinement/Architecture/Caches.md",
+    "_Low Priority Refinement/Architecture/Cache 3.jpeg",
+    "Web/Protocols/IP Address Structure.md",
+    "_Images/Arch/IPv4 Structure.png",
+    "_Images/Arch/IPV6 Structure.png",
+    "_Images/Web/IPV6 vs IPV4.jpeg",
+    "Architecture/MVVM.md",
+    "Architecture/MVC Pattern.md",
+    "Architecture/Model Patterns.jpeg",
+    "Mind Maps/Drafts/UML/Models.md",
+    "Mind Maps/Drafts/UML/UML Notes Diagram Types Structure & Behavioral.md",
+    "Mind Maps/Drafts/Event Driven Architecture.canvas",
+    "Mind Maps/Drafts/Event Messaging.canvas",
+    "Mind Maps/Drafts/Gateway.canvas",
+    "Mind Maps/Drafts/Java Logging.canvas",
+    "Mind Maps/Drafts/Testing.canvas",
+    "Mind Maps/Drafts/Url.canvas",
+    "Mind Maps/12 Factor App Docker.canvas",
+    "Home.md",
     "_Low Priority Refinement/Architecture/System Design/When to use Domain-Driven Design.md",
     "_Low Priority Refinement/Architecture/System Design/Domain-driven design.md",
     "_Low Priority Refinement/Architecture/System Design/Domain-driven design Pivot.md",
@@ -248,52 +334,17 @@
     "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Event Types.md",
     "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Application Services.md",
     "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Aggregate Root.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain model.md",
     "_Low Priority Refinement/Architecture/System Design/Domain Model Testing Focus.md",
     "_Low Priority Refinement/Architecture/System Design",
     "_Low Priority Refinement/Architecture",
-    "_Images/Archetecture.jpg",
     "Architecture/object-oriented  and functional Programming Design.md",
-    "Architecture/_Architecture Dashboard.md",
-    "Architecture/UML/UML Notes Diagram Types Structure & Behavioral.md",
-    "Architecture/UML/Models.md",
-    "Architecture/UML",
-    "Architecture/Technology Options/Apache Kafka.md",
+    "Mind Maps/Drafts/UML",
     "Architecture/Technology Options",
-    "Architecture/System Examples/Payment System.jpeg",
-    "Architecture/System Examples/NPR System.jpg",
     "Architecture/System Examples",
-    "Architecture/Scope.md",
-    "Architecture/Scope 1.md",
-    "_Images/System/tempFileForShare_20230420-145418.jpg",
-    "_Images/System/payment.jpeg",
-    "_Images/System/npr_architecture_diagram.jpg",
     "_Images/System",
-    "Architecture/System Design/object-oriented  and functional Programming Design.md",
-    "Architecture/System Design/When to use Domain-Driven Design.md",
-    "Architecture/System Design/UML Notes Diagram Types Structure & Behavioral.md",
-    "Architecture/System Design/Scope.md",
-    "Architecture/System Design/Scope 1.md",
-    "Architecture/System Design/Payment System.md",
-    "Architecture/System Design/NPR System.md",
-    "Architecture/System Design/Models.md",
-    "Architecture/System Design/1700585118522.gif",
-    "Architecture/System Design/System Design Cheatsheet.gif",
-    "Architecture/System Design/System Design BluePrint.jpg",
-    "_Images/Banner.gif",
-    "Mind Maps/Drafts/Domain-driven design.canvas",
-    "Mind Maps/_Web App Architecture.canvas",
-    "Mind Maps/Drafts/Gateway.canvas",
     "_Low Priority Refinement",
     "_Cheatsheet/CLI-cheat-sheet.pdf",
     "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
-    "_Cheatsheet/docker_cheatsheet.pdf",
-    "Mind Maps/Redux Map.canvas",
-    "Mind Maps/Docker InDeph.canvas",
-    "Mind Maps/12 Factor App Docker.canvas",
-    "Mind Maps/Drafts/Url.canvas",
-    "Mind Maps/Drafts/Untitled.canvas",
-    "Mind Maps/Drafts/Java Logging.canvas",
-    "Mind Maps/Drafts/Event Driven Architecture.canvas"
+    "_Cheatsheet/docker_cheatsheet.pdf"
   ]
 }

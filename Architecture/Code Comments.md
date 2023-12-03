@@ -1,4 +1,4 @@
-![[d947748b2854a0f112e386cff0520807.gif]]
+![[Eye in the Detail.gif]]
 
 Comments are basically another form of documentation that has to be maintained so you have to do it smarter and make you a code speak for itself in terms of the convention 
 

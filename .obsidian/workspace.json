@@ -4,47 +4,172 @@
     "type": "split",
     "children": [
       {
-        "id": "34877fed670e3ebf",
-        "type": "tabs",
+        "id": "91b1f1f60c93a4f8",
+        "type": "split",
         "children": [
           {
-            "id": "54b00e6e0515f297",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_NoteAssets/Callouts.md",
-                "mode": "source",
-                "source": false
+            "id": "3f0e6bbc98e0969a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a6b049dbb8ea080e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Architecture/App Layers/Domain stuff.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "2764f3ae1f392a08",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "a9a9133bbe9ccac9",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "534b026f31666ed3",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "e71ab2c1d3aaf8d2",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
               }
-            }
+            ]
           },
           {
-            "id": "293803abf017d1a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Arch to think about.md",
-                "mode": "source",
-                "source": false
+            "id": "fcedc42f2c2e7f7c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "10b638d6a46e3d6c",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "5d82d5674d7205c4",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
               }
-            }
-          },
-          {
-            "id": "44b2196a657ec243",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
+            ],
+            "currentTab": 1
           }
         ],
-        "currentTab": 2
+        "direction": "horizontal"
+      },
+      {
+        "id": "5402adba7858e81c",
+        "type": "split",
+        "children": [
+          {
+            "id": "bfc9a3104c4bfcb8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3e46338884a75b41",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "9de509d1599b4226",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Database/Types of Tables in logical database models.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "7f31b086b55526e4",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "Mind Maps/Drafts/Domain-driven design.canvas",
+                    "viewState": {
+                      "x": -517.5,
+                      "y": 68.07768637532132,
+                      "zoom": -1.9490907775290294
+                    }
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "105b93b0880c2717",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a1b472fee61813ad",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "4b04fcfb0f8e3382",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "219d5abd45b39d01",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "88f0978d9d2f20c8",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -73,7 +198,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#CodebaseDecision",
+                "query": "Aggr",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,7 +235,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 521.5
+    "width": 319.5
   },
   "right": {
     "id": "eef3a19b1c6d3fd3",
@@ -126,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Database/Types of Tables in logical database models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Database/Types of Tables in logical database models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Database/Types of Tables in logical database models.md"
               }
             }
           },
@@ -221,7 +346,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       },
       {
         "id": "7e98245a429f273f",
@@ -239,7 +364,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5
+    "width": 345.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -269,10 +395,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "44b2196a657ec243",
+  "active": "9de509d1599b4226",
   "lastOpenFiles": [
-    "Architecture/_Architecture Dashboard.md",
+    "Architecture/App Layers/Domain stuff.md",
+    "Database/Types of Tables in logical database models.md",
     "Home.md",
+    "Architecture/_Architecture Dashboard.md",
     "_NoteAssets/Callouts.md",
     "Architecture/Arch to think about.md",
     "Architecture/Clean Code.md",
@@ -310,8 +438,6 @@
     "Companies/Clout Chasing/Writing styles.md",
     "Companies/Clout Chasing/Social Post.md",
     "Companies/Clout Chasing",
-    "Architecture/object-oriented  and functional Programming Design.md",
-    "Architecture/Technology Options/Apache Kafka.md",
     "Architecture/Technology Options",
     "Architecture/System Examples",
     "Mind Maps/Drafts/Gateway.canvas",

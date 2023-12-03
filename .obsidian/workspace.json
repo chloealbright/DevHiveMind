@@ -4,91 +4,176 @@
     "type": "split",
     "children": [
       {
-        "id": "7488c434fb65106c",
-        "type": "tabs",
+        "id": "c7f2a99ea68e7310",
+        "type": "split",
         "children": [
           {
-            "id": "06081e0fa647c059",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "_Cheatsheet/Git version control workflow.pdf"
+            "id": "261c37bb649adf71",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8d33d5f4743b25a7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/Thread pools.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "6953d505fe3fd530",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/Process vs Thread.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "0ba94de74e623bcc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/Java async code.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "8ec5cfe49a4aab74",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/CPUs.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ],
+            "currentTab": 1
           },
           {
-            "id": "2da46be55ce5c1f4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "_Pdf/Books/Architecture/Patterns of Enterprise Application Architecture - Martin Fowler.pdf"
+            "id": "2a00f3fae0589d5b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "aad670827846659e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/Parallel stream uses multi threading.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
-          },
-          {
-            "id": "974517109ca3bb7e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Mind Maps/UML Monitor Project.png"
-              }
-            }
-          },
-          {
-            "id": "4d2649bb17932f81",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/Interview/Job Offer.jpg"
-              }
-            }
-          },
-          {
-            "id": "1d7a43ce68388902",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/Interview/Negotiate.gif"
-              }
-            }
-          },
-          {
-            "id": "40a0267b8395f80e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/Circle Implements Shape Interface.png"
-              }
-            }
-          },
-          {
-            "id": "a6725f1cdab476a4",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/Cloud/AWS Service Arch Example.png"
-              }
-            }
-          },
-          {
-            "id": "1e44d1058d313d25",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/Cloud/AWS Services.png"
-              }
-            }
+            ]
           }
         ],
-        "currentTab": 1
+        "direction": "horizontal"
+      },
+      {
+        "id": "b6382fdcbc41d80c",
+        "type": "split",
+        "children": [
+          {
+            "id": "4489583bc9ed3770",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3a8858e4ba262cbe",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/Synchronous  vs Asynchronous vs  Multiprocessing.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "98b289268835f6e6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/Content switching.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "4c45842568f93df8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Database/DB Fundamentals/Transaction.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "1de4ad0286dabae1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/Concurrent programming.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "3e9272574e9f952c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/ConcurrentExample.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 4
+          },
+          {
+            "id": "c713eecd3ed69ddb",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7c48d47bdb2701c3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/Single threading vs Multithreading.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -117,7 +202,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Monolithic",
+                "query": "Concurrent",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -154,7 +239,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 567.5
+    "width": 319.5
   },
   "right": {
     "id": "eef3a19b1c6d3fd3",
@@ -170,7 +255,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Pdf/Books/Architecture/Patterns of Enterprise Application Architecture - Martin Fowler.pdf",
+                "file": "Language Overlap/Process vs Thread.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +272,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Pdf/Books/Architecture/Patterns of Enterprise Application Architecture - Martin Fowler.pdf",
+                "file": "Language Overlap/Process vs Thread.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +295,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Pdf/Books/Architecture/Patterns of Enterprise Application Architecture - Martin Fowler.pdf"
+                "file": "Language Overlap/Process vs Thread.md"
               }
             }
           },
@@ -253,27 +338,9 @@
               "type": "todo",
               "state": {}
             }
-          },
-          {
-            "id": "4529c868aa6509c0",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
-            }
-          },
-          {
-            "id": "1cec437af5b973b4",
-            "type": "leaf",
-            "state": {
-              "type": "custom-frames-google-keep",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 8
       },
       {
         "id": "7e98245a429f273f",
@@ -291,7 +358,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 496.5,
+    "width": 345.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -324,17 +391,27 @@
   },
   "active": "c18a64a686e80f59",
   "lastOpenFiles": [
-    "_Pdf/Books/Architecture/Refactoring to Patterns (Joshua Kerievsky) (z-lib.org).pdf",
-    "_Pdf/Books/Architecture/Refactoring Improving the Design of Existing Code by Martin Fowler (z-lib.org).pdf",
+    "Language Overlap/Byte stream.md",
+    "Language Overlap/stack frame.md",
+    "Language Overlap/Synchronous  vs Asynchronous vs  Multiprocessing.md",
+    "Architecture/Software vs Firmware.md",
+    "Devops/hypervisor.md",
+    "Language Overlap/Process vs Thread.md",
+    "Architecture/Computer Process.md",
+    "Architecture/Batch Processing vs Stream Processing.md",
+    "Architecture/Code standards.md",
+    "Language Overlap/CPUs.md",
+    "Language Overlap/Single threading vs Multithreading.md",
+    "_Pdf/Books/Testing/More-Agile-Testing-Janet-Gregory-Lisa-Crispin-2014.pdf",
+    "_Pdf/Books/Testing/SSG_ENU_98-379_SoftTestFund.pdf",
+    "_Pdf/Books/Testing/Test-Driven Development with Python Obey the Testing Goat Using Django, Selenium, and JavaScript by Harry J. W. Percival (z-lib.org).pdf",
+    "_Pdf/Books/Architecture/The Elements of Knowledge Organization.pdf",
+    "_Pdf/Books/Architecture/Systemantics How Systems Work and Especially How They Fail (John Gall) (z-lib.org).pdf",
+    "_Pdf/Books/Architecture/System Design Interview An Insider’s Guide by Alex Yu (z-lib.org).pdf",
+    "_Pdf/Books/Architecture/System Analysis and Design Methods 7th.pdf",
+    "_Pdf/Books/Architecture/Software Architecture The Hard Parts Modern Trade-Off Analyses for Distributed Architectures (Neal Ford, Mark Richards, Pramod Sadalage etc.) (z-lib.org).pdf",
     "_Pdf/Books/Architecture/Patterns of Enterprise Application Architecture - Martin Fowler.pdf",
-    "_Pdf/Books/Architecture/head_first_design_patterns.pdf",
-    "_Pdf/Books/Architecture/Essentials of Systems Analysis and Design 5th Edition.pdf",
-    "_Pdf/Books/Architecture/Domain-Driven Design Tackling Complexity in the Heart of Software.pdf",
-    "_Pdf/Books/Architecture/Django Design Patterns and Best Practices by Arun Ravindran (z-lib.org).pdf",
-    "_Pdf/Books/Architecture/Designing Data-Intensive Applications The Big Ideas Behind Reliable, Scalable, and Maintainable Systems by Martin Kleppmann (z-lib.org).pdf",
-    "_Pdf/Books/Architecture/Design Patterns Elements of Reusable Object Oriented Software .pdf",
-    "_Pdf/Books/Architecture/Design Patterns Explained A New Perspective on Object-Oriented Design (Alan Shalloway) (z-lib.org).pdf",
-    "_Pdf/Books/Architecture/Concepts, techniques, and models of computer programming by Peter Van Roy, Seif Haridi (z-lib.org).pdf",
+    "_Pdf/Books/Architecture/Refactoring to Patterns (Joshua Kerievsky) (z-lib.org).pdf",
     "Home.md",
     "Open Source/To Look into.md",
     "_Template/Whiteboard.png",
@@ -355,21 +432,11 @@
     "Security/OAuth 2.0.md",
     "Security/Prototype Pollution.md",
     "Security/Unsafe functions.md",
-    "Hardware & Code/stack frame.md",
-    "Hardware & Code/Software vs Firmware.md",
-    "Hardware & Code/Single threading vs Multithreading.md",
-    "Hardware & Code/hypervisor.md",
-    "Hardware & Code/CPUs.md",
-    "Hardware & Code/Computer Process.md",
-    "Hardware & Code/Batch Processing vs Stream Processing.md",
     "Framework/Reactive programming.md",
     "Framework/Reactive.md",
     "Framework/JavaScript ecosystem event-driven and reactive programming.md",
     "Framework/Consumers and Producers.md",
     "Framework/Backend/Express.js.md",
-    "Error Log/Language Error.md",
-    "Devops/Test Automation.md",
-    "Devops/Terraform.md",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Testing.canvas",

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
+---
 Developers often use the terms “library” and “framework” interchangeably. But there is a difference. 
 
 Both frameworks and libraries are code written by someone else that is used to help solve common problems. 

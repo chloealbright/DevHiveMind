@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 As a senior developer, I would recommend prioritizing the learning plan for these skills in the following order:
 
 Clean Code: Clean Code is essential for writing maintainable, readable, and scale-able code. It includes principles, practices, and techniques that help developers write code that is easy to understand, modify, and extend. Therefore, it should be the first skill to focus on.

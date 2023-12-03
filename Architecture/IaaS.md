@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
+---
 As a cloud model, IaaS uses virtualization to deliver cloud infrastructure including servers, network, storage, and operating systems (OS). IaaS is often considered the most flexible cloud computing model as it gives users complete control over all infrastructure aspects. This is made possible mostly with the use of dashboards and APIs.  
 
 Contrary to the other two models, IaaS users are required to manage many infrastructure aspects—applications, data, runtimes, middleware, and OS—while the provider manages servers, storage, networking, as well as visualization layers.  

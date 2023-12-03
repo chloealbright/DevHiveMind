@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Stateless processes, often referred to as stateless computing or stateless applications, are software systems or components that do not retain or rely on stored information, or "state," between interactions or transactions. In other words, each request or task is independent and self-contained, without any knowledge of past interactions. Essentially no data is stored in the local variables and should not maintain any client-specific state between requests.
 
 Key characteristics of stateless processes include:

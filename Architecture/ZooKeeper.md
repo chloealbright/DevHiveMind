@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ZooKeeper is a distributed coordination service that is often used in distributed systems to manage configuration, maintain synchronization, and provide a high level of availability. In the context of Apache Kafka, ZooKeeper plays a crucial role in managing the Kafka cluster.
 
 The relationship between ZooKeeper and Kafka brokers is as follows:

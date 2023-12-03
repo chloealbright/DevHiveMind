@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 System design has many scopes and focuses  
   
 Like you can be planning out the design for your technology requirements like how will your devs be interfacing with the code base should you use containerization and implement docker so people could just run docker images so they'll be less issues with running the code in their environment things like that versus other things  

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Deciding what should go into production versus being a development dependency in your project involves considerations related to efficiency, security, and best practices. Here's how you should think about what to put where:  
   
 **Production Dependencies**:  

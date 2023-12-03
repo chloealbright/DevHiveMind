@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 It is safe to say that SaaS has been the most popular cloud computing model so far. PaaS delivers applications over the internet and this is the main driver behind its success. The end-user does not need to download the app, instead, they can run the software directly on their browser which makes SaaS highly scalable and, of course, easy to use and manage.  
 
 ### SaaS characteristics 

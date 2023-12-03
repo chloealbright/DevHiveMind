@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 -   A file is an unstructured collection of records. Typically file systems support two basic formats. These are as follows: 
     
 

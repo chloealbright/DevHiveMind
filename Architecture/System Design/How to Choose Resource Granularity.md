@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
+---
 Resource granularity gives you access to EC2-Instances, which you can use to identify the specific resource incurring costs. Using Cost Explorer's time selection, filtering, and grouping capabilities, you are now able to hone-in on the cost and usage of your workloads. 
 
 An Amazon EC2 instance is a virtual server in Amazon's Elastic Compute Cloud (EC2) for running applications on the Amazon Web Services (AWS) infrastructure. 

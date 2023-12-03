@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Being the middle child of autonomy and control, [PaaS is a cloud computing model](https://www.artifakt.com/paas-advantages-disadvantages-and-cost/) that provides developers with a platform to develop, deploy, and run applications. Its main goal is rapid development and that’s the reason why it aims to eliminate the costs and complexity that come with configuring, deploying, and managing the required infrastructure.  
 
 ### PaaS characteristics 

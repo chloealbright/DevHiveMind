@@ -18,24 +18,14 @@
             }
           },
           {
-            "id": "5cafa7893d7f49c9",
+            "id": "2da46be55ce5c1f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Tech company hiring cycle & Hustle.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "2da46be55ce5c1f4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "_Pdf/Books/Architecture/Refactoring Improving the Design of Existing Code by Martin Fowler (z-lib.org).pdf"
               }
             }
           },
@@ -98,45 +88,9 @@
                 "file": "_Images/Cloud/AWS Services.png"
               }
             }
-          },
-          {
-            "id": "429484536e2acbe3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Devops/Version Control/Git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b3b62b330dc22ee5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Devops/Version Control/GitHub Linux setup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a65ea7864197982e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Devops/Version Control/GitHub tip.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -218,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Pdf/Books/Architecture/Refactoring Improving the Design of Existing Code by Martin Fowler (z-lib.org).pdf",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Pdf/Books/Architecture/Refactoring Improving the Design of Existing Code by Martin Fowler (z-lib.org).pdf",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +212,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Pdf/Books/Architecture/Refactoring Improving the Design of Existing Code by Martin Fowler (z-lib.org).pdf"
+                "file": "Home.md"
               }
             }
           },

@@ -4,66 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "a98f667a0b8f9fdf",
-        "type": "split",
-        "children": [
-          {
-            "id": "eb1e2dab5f4ba95e",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "4ff3068ed6a120e4",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "_Cheatsheet/Git/Git Cheatsheet.jpg"
-                  }
-                }
-              },
-              {
-                "id": "706d6876fff54b37",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "_Cheatsheet/Git/git commands.jpeg"
-                  }
-                }
-              },
-              {
-                "id": "7747339dcc92ba3f",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "_Cheatsheet/Git/git-for-subversion-cheat-sheet.pdf"
-                  }
-                }
-              }
-            ],
-            "currentTab": 2
-          },
-          {
-            "id": "fa320be05093e965",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "815a36ebe031fac4",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "_Cheatsheet/Git/Git Process Animated.gif"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
-      },
-      {
         "id": "7488c434fb65106c",
         "type": "tabs",
         "children": [
@@ -71,9 +11,19 @@
             "id": "06081e0fa647c059",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "_Cheatsheet/Git version control workflow.pdf"
+              }
+            }
+          },
+          {
+            "id": "5cafa7893d7f49c9",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Devops/Version Control/Common Git Workflow.md",
+                "file": "Cloud/Benefits of cloud.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,16 +38,6 @@
                 "file": "Devops/Version Control/Git.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "4de9a6d338aad766",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_Cheatsheet/Git/Git Flow.jpeg"
               }
             }
           },
@@ -126,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -208,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Cheatsheet/Git/Git Flow.jpeg",
+                "file": "Cloud/Benefits of cloud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Cheatsheet/Git/Git Flow.jpeg",
+                "file": "Cloud/Benefits of cloud.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Cheatsheet/Git/Git Flow.jpeg"
+                "file": "Cloud/Benefits of cloud.md"
               }
             }
           },
@@ -360,22 +300,33 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "5cafa7893d7f49c9",
   "lastOpenFiles": [
-    "_Cheatsheet/Git/git-for-subversion-cheat-sheet.pdf",
-    "_Cheatsheet/Git/git commands.jpeg",
+    "Cloud/Cloud Monitoring Services.jpeg",
+    "Cloud/monitoring infrastructure in cloud services..md",
+    "_Cheatsheet/Git version control workflow.pdf",
+    "_Cheatsheet/website_optimization-cheat-sheet.pdf",
+    "_Cheatsheet/Vscode-keyboard-shortcut.pdf",
+    "_Cheatsheet/VS_Code_Cheat_Sheet.pdf",
+    "_Cheatsheet/vs-code_cheat-sheet_windows.pdf",
+    "_Cheatsheet/Vim.pdf",
+    "_Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
+    "_Cheatsheet/SQL Practice Interview Questions .pdf",
+    "_Cheatsheet/Prompt.jpg",
+    "_Cheatsheet/PostgreSQL-Cheat-Sheet.pdf",
+    "_Cheatsheet/Git Process Animated.gif",
+    "_Cheatsheet/hugo_cheat-sheet.pdf",
+    "_Cheatsheet/Git Flow.jpeg",
+    "_Cheatsheet/Git Cheatsheet.jpeg",
+    "_Cheatsheet/Excel Shortcut.jpg",
+    "_Cheatsheet/Excel Formulas Cheat Sheet.jpg",
     "_Cheatsheet/Git/Git Cheatsheet.jpg",
-    "_Cheatsheet/Git/Git Flow.jpeg",
-    "Devops/Version Control/GitHub Linux setup.md",
     "Devops/Version Control/GitHub tip.md",
-    "_Cheatsheet/Git/Git Process Animated.gif",
-    "_Cheatsheet/Git/Git Cheat.md",
+    "Devops/Version Control/GitHub Linux setup.md",
     "Devops/Version Control/Git.md",
     "Devops/Version Control/Common Git Workflow.md",
+    "_Cheatsheet/Git/Git Cheat.md",
     "Devops/Version Control/Benefits of  version control.md",
-    "_Cheatsheet/SQL Practice Interview Questions .pdf",
-    "_Cheatsheet/Git",
-    "_Cheatsheet/tower_cheat-sheet_windows.pdf",
     "Home.md",
     "Cloud/Azure/Microsoft Azure Services.md",
     "Cloud/AWS/AWS Cloud Services.md",
@@ -402,20 +353,9 @@
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
     "Architecture/StackOverflow Arch.md",
     "Architecture/object-oriented  and functional Programming Design.md",
-    "Architecture/Naming Conventions.md",
     "Architecture/Model Patterns.jpeg",
-    "_Images/Arch/Microservices.jpeg",
-    "Architecture/System Design/Data Transmission.jpeg",
-    "Web/1700239541390.gif",
-    "_Images/Database/GetImage (42).png",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/_Web App Architecture.canvas",
-    "Mind Maps/Drafts/Java Logging.canvas",
-    "_Low Priority Refinement/Architecture/System Design",
-    "_Low Priority Refinement/Architecture",
-    "Mind Maps/Drafts/UML",
-    "Companies/Clout Chasing",
-    "Architecture/Technology Options",
-    "Architecture/System Examples"
+    "Mind Maps/Drafts/Java Logging.canvas"
   ]
 }

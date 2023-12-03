@@ -1,1 +1,0 @@
-![[Cloud Monitoring Services.jpeg]]

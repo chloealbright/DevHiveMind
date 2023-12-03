@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0083185aa9b8b99f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/Event Driven Arch.jpg"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "70d6762702a27219",
@@ -42,22 +31,11 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "_Images/Arch/Monolithic vs Microservies.png"
-              }
-            }
-          },
-          {
-            "id": "b712be0b160b1ff4",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/Event Driven Arch Solution.png"
+                "file": "_Images/Mind Map/Http Request Method.gif"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Images/Event Driven Arch.jpg",
+                "file": "Architecture/Event Driven Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Images/Event Driven Arch.jpg",
+                "file": "Architecture/Event Driven Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Images/Event Driven Arch.jpg"
+                "file": "Architecture/Event Driven Architecture.md"
               }
             }
           },
@@ -291,27 +269,32 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0083185aa9b8b99f",
+  "active": "54e2a3b1b0fddec3",
   "lastOpenFiles": [
-    "_Images/Event Driven Arch Solution.png",
-    "Architecture/Event Driven Architecture.md",
-    "Mind Maps/Drafts/Event Driven Architecture.canvas",
-    "Mind Maps/Drafts/Domain-driven design.canvas",
+    "_Images/Mind Map/Api Testing.gif",
+    "_Images/Mind Map/Kafka Uses.jpeg",
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
+    "Mind Maps/Drafts/Domain-driven design.canvas",
+    "Mind Maps/Drafts/Event Driven Architecture.canvas",
+    "Mind Maps/Drafts/Event Messaging.canvas",
+    "Mind Maps/Drafts/Gateway.canvas",
+    "Mind Maps/Drafts/Java Logging.canvas",
+    "Mind Maps/Drafts/Testing.canvas",
+    "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/_Web App Architecture.canvas",
-    "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/Docker InDeph.canvas",
-    "Mind Maps/Redux Map.canvas",
-    "_Images/BSA Req Life Cycle.png",
-    "_Images/Database Types.gif",
-    "_Images/Database Sharding.jpeg",
-    "_Images/Database Processes.gif",
-    "_Images/Api Testing.gif",
-    "_Images/Archetecture.jpg",
-    "_Images/Arch/Web Services vs. Web Apps.jpg",
-    "_Images/Arch/System Scaling.png",
-    "_Images/Arch/StackOverflow.jpg",
-    "_Images/Arch/Monolithic vs Microservies.png",
+    "Architecture/MVC Pattern.md",
+    "Architecture/MVVM.md",
+    "_Images/Mind Map/Http Request Method.gif",
+    "_Images/Mind Map/Message Systems.gif",
+    "_Images/Mind Map/Kafka Performance.jpeg",
+    "_Images/Mind Map/Pasted image 20231202044317.png",
+    "_Images/Pasted image 20230723124916.jpg",
+    "_Images/Mind Map/mvvc.png",
+    "_Images/Mind Map/Pasted image 20231120170149.png",
+    "_Images/Mind Map/Pasted image 20231120192955.jpg",
+    "_Images/1700239541390.gif",
+    "Architecture/Event Driven Architecture.md",
     "Architecture/Technology Options/Database.md",
     "_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part I  by aruva - empowering ideas  May, 2023  Medium.md",
     "Architecture/Microservices.md",
@@ -334,20 +317,15 @@
     "Language Overlap/Flow of Control.md",
     "Algorithms & Data Structures/AlgoFlow.md",
     "Codebase Architecture Decisions/Fault tolerance.md",
-    "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
-    "Language Overlap/Byte stream.md",
     "_Low Priority Refinement/Architecture/System Design",
     "_Low Priority Refinement/Architecture",
     "Mind Maps/Drafts/UML",
-    "Mind Maps/Drafts/Testing.canvas",
     "Companies/Clout Chasing",
     "Architecture/Technology Options",
     "Architecture/System Examples",
-    "Mind Maps/Drafts/Gateway.canvas",
     "_Low Priority Refinement",
     "_Cheatsheet/CLI-cheat-sheet.pdf",
     "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
-    "_Cheatsheet/docker_cheatsheet.pdf",
-    "Mind Maps/Drafts/Url.canvas"
+    "_Cheatsheet/docker_cheatsheet.pdf"
   ]
 }

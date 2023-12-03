@@ -1,10 +1,10 @@
 {
   "collapse-filter": false,
-  "search": "coupling",
+  "search": "2023-06-20 03.04.40 12factor.net ebc2480ac14d",
   "showTags": false,
   "showAttachments": true,
   "hideUnresolved": true,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": true,
   "colorGroups": [],
   "collapse-display": true,

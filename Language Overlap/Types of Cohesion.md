@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates: "[[Coupling vs Cohesion]]"
+---
 ## Best to Worst 
 
 ### Functional Cohesion 

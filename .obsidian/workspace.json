@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language Overlap/Coupling vs Cohesion.md",
+                "file": "Language Overlap/Flow of Control.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "28e69a089b961ed9",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_Images/2023-06-17 12.23.43 medium.com 7444e17e7519.png"
               }
             }
           },
@@ -23,88 +33,82 @@
             "id": "2f7472652986a7da",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "_Images/2023-06-20 03.04.40 12factor.net ebc2480ac14d.png"
+              }
             }
           },
           {
             "id": "fb9457ebeec51c0f",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "174c4a18f3e1655f",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Database Archetecture/Data Architecture.md",
+                "file": "Methodology/Twelve Factor App/Twelve Factor App Concurrency.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fd04f494a63821d4",
+            "id": "628b8ae7f3aca71f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Microservices best practices.md",
+                "file": "Language Overlap/Access Modifiers.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e3f4530c125acfd7",
+            "id": "d19f5bd4fb9b4ad3",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_Images/Circle Implements Shape Interface.png"
+                "file": "Language Overlap/Abstract Classes.md",
+                "mode": "source",
+                "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "ad3c5815554c57b4",
-        "type": "split",
-        "children": [
-          {
-            "id": "392e5e5a6eba2689",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "660740519cc82069",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Language Overlap/Types of Cohesion.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
           },
           {
-            "id": "72fdcf450abde546",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "dea7dc1d5bf1f9a6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Language Overlap/Types of coupling.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "00c7485c7bf5ff72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database/Database Archetecture/Fact Table.md",
+                "mode": "source",
+                "source": false
               }
-            ]
+            }
+          },
+          {
+            "id": "472e7f2040ebac27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language Overlap/Inheritance Composition Encapsulation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -186,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language Overlap/Types of coupling.md",
+                "file": "Methodology/Twelve Factor App/Twelve Factor App Concurrency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language Overlap/Types of coupling.md",
+                "file": "Methodology/Twelve Factor App/Twelve Factor App Concurrency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +230,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language Overlap/Types of coupling.md"
+                "file": "Methodology/Twelve Factor App/Twelve Factor App Concurrency.md"
               }
             }
           },
@@ -330,47 +334,46 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dea7dc1d5bf1f9a6",
+  "active": "174c4a18f3e1655f",
   "lastOpenFiles": [
+    "_Images/2023-06-20 03.04.40 12factor.net ebc2480ac14d.png",
+    "Language Overlap/Access Modifiers.md",
+    "Language Overlap/Abstract Classes.md",
+    "Database/Database Archetecture/Fact Table.md",
+    "Language Overlap/Inheritance Composition Encapsulation.md",
+    "Architecture/Microservices best practices.md",
+    "_Images/Companies Models/BSA Req Life Cycle.png",
+    "_Images/Arch/Circle Implements Shape Interface.png",
+    "_Images/LangOverlap/Flow of control.gif",
+    "Database/Database Archetecture/Data Architecture.md",
+    "_Images/2023-06-17 12.23.43 medium.com 7444e17e7519.png",
+    "Language Overlap/Flow of Control.md",
     "Language Overlap/Coupling vs Cohesion.md",
+    "_Images/2023-06-17 12.32.33 medium.com 208fcebdac2c.png",
+    "_Images/2023-06-17 12.34.59 medium.com 7cf69549fdf5.png",
+    "_Images/2023-06-17 12.38.06 medium.com 7a1fbbfaa1b5.png",
+    "_Images/Archetecture.jpg",
+    "_Images/Banner.gif",
+    "Companies/Agile to edit/Requirements life cycle.md",
+    "Codebase Architecture Decisions/_I_nterface Segregation Principle.md",
     "Language Overlap/Types of coupling.md",
     "Language Overlap/Types of Cohesion.md",
-    "Database/Database Archetecture/Data Architecture.md",
-    "Architecture/Microservices best practices.md",
-    "_Images/Circle Implements Shape Interface.png",
-    "_Images/LangOverlap/coupling.jpg",
     "Home.md",
     "Architecture/Design Patterns.md",
-    "_Images/Arch/Design Pattern 2.webp",
-    "_Images/Journey.gif",
     "Language Overlap/Batch Processing vs Stream Processing.md",
     "Language Overlap/Synchronous  vs Asynchronous vs  Multiprocessing.md",
-    "_Images/LangOverlap/aysnc func generating task.png",
-    "_Images/Learning Approach.png",
     "Language Overlap/CPUs.md",
     "Language/Static Method Reference.md",
     "Language/Programming paradigms.md",
     "Language/Domain-specific programming languages.md",
     "_CODE/Express/Be Aware.md",
     "Mind Maps/Drafts/Gateway.canvas",
-    "_Images/Arch/Monolithic to microservice progression.jpg",
     "Architecture/Microservices.md",
-    "_Images/Researching.gif",
-    "_Images/Mind Map/Network Protocols Applied.jpeg",
-    "Language Overlap/Python v Java.gif",
     "Mind Maps/Drafts/File system.canvas",
     "Devops/OS/Linux/Commands.md",
     "Devops/OS/Linux/Cerebro Program.md",
     "_CODE/Express/Dev Todo.md",
-    "_CODE/Express/Tech Things to Research.md",
-    "Dev Roadmaps By Priority.md",
-    "Architecture/Clean Code.md",
-    "Language Overlap/Java vs. Python Speed.md",
     "Untitled.canvas",
-    "Database/Database Archetecture/Decentralized Data Management.md",
-    "Architecture/Computer Process.md",
-    "Architecture/Codebase Level Scaling & Optimization.md",
-    "Architecture/Code standards.md",
     "_Pdf/Books/Testing/More-Agile-Testing-Janet-Gregory-Lisa-Crispin-2014.pdf",
     "_Pdf/Books/Testing/SSG_ENU_98-379_SoftTestFund.pdf",
     "_Pdf/Books/Testing/Test-Driven Development with Python Obey the Testing Goat Using Django, Selenium, and JavaScript by Harry J. W. Percival (z-lib.org).pdf",

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 
 ### Coupling(Glasses vs surgery) vs Cohesion(master none /  master of specifics things)
 

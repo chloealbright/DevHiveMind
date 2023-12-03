@@ -1,6 +1,6 @@
-![[unnamed (1).png]]
+![[Job Cycle.png]]
 
-![[Pasted image 20230401105027.png]]
+![[Tech Layoffs.png]]
 
 Ask if roll is direct hire or contract  
 

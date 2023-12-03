@@ -1,4 +1,4 @@
-![[GetImage (7).jpeg]]
+![[DB UML relationship types.jpeg]]
 
 primary can't be changed or repeated in the entity diagram 
 

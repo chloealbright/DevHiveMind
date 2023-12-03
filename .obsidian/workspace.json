@@ -41,7 +41,8 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 2
           },
           {
             "id": "fa320be05093e965",
@@ -53,7 +54,7 @@
                 "state": {
                   "type": "image",
                   "state": {
-                    "file": "Devops/Version Control/Git Process Animated.gif"
+                    "file": "_Cheatsheet/Git/Git Process Animated.gif"
                   }
                 }
               }
@@ -96,7 +97,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Devops/Version Control/Git Flow.jpeg"
+                "file": "_Cheatsheet/Git/Git Flow.jpeg"
               }
             }
           },
@@ -207,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Devops/Version Control/Git Flow.jpeg",
+                "file": "_Cheatsheet/Git/Git Flow.jpeg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Devops/Version Control/Git Flow.jpeg",
+                "file": "_Cheatsheet/Git/Git Flow.jpeg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops/Version Control/Git Flow.jpeg"
+                "file": "_Cheatsheet/Git/Git Flow.jpeg"
               }
             }
           },
@@ -359,19 +360,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4de9a6d338aad766",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
-    "_Cheatsheet/Git/Git Cheatsheet.jpg",
-    "_Cheatsheet/Git/Git Cheat.md",
+    "_Cheatsheet/Git/git-for-subversion-cheat-sheet.pdf",
     "_Cheatsheet/Git/git commands.jpeg",
-    "Devops/Version Control/Git Process Animated.gif",
-    "Devops/Version Control/Git Flow.jpeg",
-    "Devops/Version Control/Git.md",
-    "Devops/Version Control/GitHub tip.md",
+    "_Cheatsheet/Git/Git Cheatsheet.jpg",
+    "_Cheatsheet/Git/Git Flow.jpeg",
     "Devops/Version Control/GitHub Linux setup.md",
+    "Devops/Version Control/GitHub tip.md",
+    "_Cheatsheet/Git/Git Process Animated.gif",
+    "_Cheatsheet/Git/Git Cheat.md",
+    "Devops/Version Control/Git.md",
     "Devops/Version Control/Common Git Workflow.md",
     "Devops/Version Control/Benefits of  version control.md",
-    "_Cheatsheet/Git/git-for-subversion-cheat-sheet.pdf",
     "_Cheatsheet/SQL Practice Interview Questions .pdf",
     "_Cheatsheet/Git",
     "_Cheatsheet/tower_cheat-sheet_windows.pdf",

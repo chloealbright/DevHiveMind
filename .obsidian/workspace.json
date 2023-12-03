@@ -11,11 +11,9 @@
             "id": "54e2a3b1b0fddec3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Architecture/Event Driven Architecture.md",
-                "mode": "source",
-                "source": false
+                "file": "Architecture/System Design/Data Transmission.jpeg"
               }
             }
           }
@@ -29,9 +27,11 @@
             "id": "1cdc3b97620e58d6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_Images/Mind Map/Http Request Method.gif"
+                "file": "Architecture/Event Driven Architecture.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -269,8 +269,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "54e2a3b1b0fddec3",
+  "active": "1cdc3b97620e58d6",
   "lastOpenFiles": [
+    "Architecture/Concurrency Vs Horizontal scaling.md",
+    "Architecture/Codebase Level Scaling & Optimization.md",
+    "Architecture/Code standards.md",
+    "_Images/Mind Map/Http Request Method.gif",
+    "Architecture/System Design/Data Transmission.jpeg",
+    "Architecture/Web Architecture.md",
+    "Architecture/Event Driven Architecture.md",
     "_Images/Mind Map/Api Testing.gif",
     "_Images/Mind Map/Kafka Uses.jpeg",
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
@@ -285,22 +292,15 @@
     "Mind Maps/Docker InDeph.canvas",
     "Architecture/MVC Pattern.md",
     "Architecture/MVVM.md",
-    "_Images/Mind Map/Http Request Method.gif",
     "_Images/Mind Map/Message Systems.gif",
     "_Images/Mind Map/Kafka Performance.jpeg",
     "_Images/Mind Map/Pasted image 20231202044317.png",
     "_Images/Pasted image 20230723124916.jpg",
     "_Images/Mind Map/mvvc.png",
     "_Images/Mind Map/Pasted image 20231120170149.png",
-    "_Images/Mind Map/Pasted image 20231120192955.jpg",
-    "_Images/1700239541390.gif",
-    "Architecture/Event Driven Architecture.md",
     "Architecture/Technology Options/Database.md",
     "_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part I  by aruva - empowering ideas  May, 2023  Medium.md",
     "Architecture/Microservices.md",
-    "Architecture/Concurrency Vs Horizontal scaling.md",
-    "Architecture/Codebase Level Scaling & Optimization.md",
-    "Architecture/Code standards.md",
     "Architecture/_Architecture Dashboard.md",
     "Architecture/Technology Options/Content Delivery Network.md",
     "Architecture/Clean Code.md",
@@ -316,7 +316,6 @@
     "Language Overlap/Conditional Logic and Operators.md",
     "Language Overlap/Flow of Control.md",
     "Algorithms & Data Structures/AlgoFlow.md",
-    "Codebase Architecture Decisions/Fault tolerance.md",
     "_Low Priority Refinement/Architecture/System Design",
     "_Low Priority Refinement/Architecture",
     "Mind Maps/Drafts/UML",

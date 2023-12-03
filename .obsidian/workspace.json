@@ -21,11 +21,9 @@
             "id": "2da46be55ce5c1f4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": false
+                "file": "_Pdf/Books/Architecture/Patterns of Enterprise Application Architecture - Martin Fowler.pdf"
               }
             }
           },
@@ -172,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "_Pdf/Books/Architecture/Patterns of Enterprise Application Architecture - Martin Fowler.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "_Pdf/Books/Architecture/Patterns of Enterprise Application Architecture - Martin Fowler.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "_Pdf/Books/Architecture/Patterns of Enterprise Application Architecture - Martin Fowler.pdf"
               }
             }
           },
@@ -326,17 +324,18 @@
   },
   "active": "c18a64a686e80f59",
   "lastOpenFiles": [
-    "_Pdf/Books/Financial/updated_etf_cheat_sheet.pdf",
-    "_Pdf/Books/Financial/Beyond Candlesticks New Japanese Charting Techniques Revealed (Wiley Finance) by Steve Nison (z-lib.org).pdf",
-    "_Pdf/Books/Financial/Security Analysis Sixth Edition, by Benjamin Graham, David Dodd.pdf",
-    "_Pdf/Books/Financial/How to Make Money in Stocks A Winning System in Good Times or Bad, 2nd Edition by William J. ONeil (z-lib.org).pdf",
-    "_Pdf/Books/Financial/The Richest Man in Babylon by George S. Clason [Clason, George S.] (z-lib.org).pdf",
-    "_Pdf/Books/Financial/Secrets of the Millionaire Mind Mastering the Inner Game of Wealth by T. Harv Eker (z-lib.org).pdf",
-    "_Pdf/Books/Financial/Trade the Trader Know Your Competition and Find Your Edge for Profitable Trading by Quint Tatro (z-lib.org).pdf",
-    "_Pdf/Books/Financial/Stop Acting Rich ...And Start Living Like A Real Millionaire by Thomas J. Stanley (z-lib.org).pdf",
-    "_Pdf/Books/Financial/The Total Money Makeover Classic Edition A Proven Plan for Financial Fitness by Ramsey, Dave [Ramsey, Dave] (z-lib.org).pdf",
-    "_Pdf/Books/Financial/One Good Trade Inside the Highly Competitive World of Proprietary Trading (Wiley Trading) by Mike Bellafiore (z-lib.org).pdf",
-    "_Pdf/Books/Financial/Common Stocks and Uncommon Profits and Other Writings by Philip A. Fisher, Kenneth L. Fisher (z-lib.org).pdf",
+    "_Pdf/Books/Architecture/Refactoring to Patterns (Joshua Kerievsky) (z-lib.org).pdf",
+    "_Pdf/Books/Architecture/Refactoring Improving the Design of Existing Code by Martin Fowler (z-lib.org).pdf",
+    "_Pdf/Books/Architecture/Patterns of Enterprise Application Architecture - Martin Fowler.pdf",
+    "_Pdf/Books/Architecture/head_first_design_patterns.pdf",
+    "_Pdf/Books/Architecture/Essentials of Systems Analysis and Design 5th Edition.pdf",
+    "_Pdf/Books/Architecture/Domain-Driven Design Tackling Complexity in the Heart of Software.pdf",
+    "_Pdf/Books/Architecture/Django Design Patterns and Best Practices by Arun Ravindran (z-lib.org).pdf",
+    "_Pdf/Books/Architecture/Designing Data-Intensive Applications The Big Ideas Behind Reliable, Scalable, and Maintainable Systems by Martin Kleppmann (z-lib.org).pdf",
+    "_Pdf/Books/Architecture/Design Patterns Elements of Reusable Object Oriented Software .pdf",
+    "_Pdf/Books/Architecture/Design Patterns Explained A New Perspective on Object-Oriented Design (Alan Shalloway) (z-lib.org).pdf",
+    "_Pdf/Books/Architecture/Concepts, techniques, and models of computer programming by Peter Van Roy, Seif Haridi (z-lib.org).pdf",
+    "Home.md",
     "Open Source/To Look into.md",
     "_Template/Whiteboard.png",
     "_Images/_Whiteboard/Whiteboard Template.png",
@@ -371,7 +370,6 @@
     "Error Log/Language Error.md",
     "Devops/Test Automation.md",
     "Devops/Terraform.md",
-    "Devops/Stages.md",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Testing.canvas",

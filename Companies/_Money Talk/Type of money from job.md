@@ -1,4 +1,4 @@
-![[unnamed (9).jpg]]
+![[Job Offer.jpg]]
 
 bonus program would be accepting a job but negotiating with them tell them you will accept this pay you might no like but If I perform within this time you will bump up my pay to this number  
   

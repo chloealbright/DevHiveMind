@@ -119,27 +119,27 @@ XXL or XL greater then 5 to 6 sprints and should be considered to be broken i
 
 Story has multiple items (words such as "and" or "or" appear  
 
-	- All of these conditions necessary right now? 
+- All of these conditions necessary right now? 
 
 Too many workflow steps for user  
 
-	- Are all these steps necessary right now? 
+- Are all these steps necessary right now? 
 
 Happy path Vs alternative paths  
 
-	- Are all the alternative flows necessary right now? 
+- Are all the alternative flows necessary right now? 
 
 Operations based story 
 
-	- Are all the operations necessary right now? 
+- Are all the operations necessary right now? 
 
 Acceptance Criteria  
 
-	- Different stories to handle different scenarios  -All test scenarios necessary right now? 
+- Different stories to handle different scenarios  -All test scenarios necessary right now? 
 
 Variations in Data/Interfaces/Platforms  
 
-	- Are all these options necessary right now? 
+- Are all these options necessary right now? 
 
 Use cases are scenarios where you represent multiple parties that have to be involved or maybe involved  
 

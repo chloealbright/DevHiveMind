@@ -4,7 +4,7 @@ You can work with AWS through <mark style="background: #FFF3A3A6;">CloudShell</
 
 **Amazon Config is a service used to assess, audit, and evaluate the configurations of AWS resources. Amazon Config provides detailed histories of resource configs and helps Enterprise stay true to the compliance provided in their internal guidelines.
 
-![[GetImage (23).png]]
+![[AWS Services.png]]
 
 # LINK to other parts
 
@@ -16,7 +16,7 @@ The Second way is PAAS(Platform as a service) were AWS increases what it manage
 
 Then there is  SAAS(Software as a service) where AWS handles everything
 
-![[GetImage (24).png]]
+![[AWS Service Arch Example.png]]
 
-![[GetImage (25).png]]
+![[AWS Service Arch Example Two.png]]
 

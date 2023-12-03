@@ -10,7 +10,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[2023-06-17 12.40.37 medium.com f998423bbe5f.png]]
+![[Circle Implements Shape Interface.png]]
 
 **The Interface Segregation Principle** states that a client should not implement an [interface](http://javarevisited.blogspot.com/2012/04/10-points-on-interface-in-java-with.html) if it doesn't use all of its functionality. This often occurs when an interface contains multiple features, but the client only requires one of them. Interfaces should be specific, focusing on individual tasks rather than trying to do many different things.
 

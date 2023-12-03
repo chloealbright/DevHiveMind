@@ -1,1 +1,10 @@
-![[_Images/Hardware and Code/GetImage (6).jpeg]]
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
+![[Computer Process.jpeg]]

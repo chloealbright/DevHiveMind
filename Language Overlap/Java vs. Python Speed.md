@@ -1,1 +1,0 @@
-![[Python v Java.gif]]

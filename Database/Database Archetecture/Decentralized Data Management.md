@@ -1,4 +1,4 @@
-![[1_AXw-H6_4gYbKlkA8d2u_cA.png]]
+![[Decentralized Data.png]]
 As per Decentralized Data Management principle, each Microservice should manage its own data, without relying on other Microservice, to ensure scalability and reliability. For example, each Microservice could have its own database that it uses to store data.
 
 Sharing Database with other Microservices violate this principle and should be avoided as it will make it difficult to troubleshoot and can result in data inconsistency.

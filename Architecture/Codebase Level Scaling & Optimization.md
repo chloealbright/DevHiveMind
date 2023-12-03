@@ -5,6 +5,13 @@ tags:
   - CodebaseDecision
   - MacroCodebaseDecision
   - MicroCodebaseDecision
+author:
+  - jacgit18
+  - chatgpt
+Status: refinement
+Started: 
+EditDate: 
+Relates:
 ---
 When it comes to optimizing your codebase at the component or process level, there are several strategies you can employ. This approach allows you to enhance the performance of a specific element within your codebase without necessitating a major architectural overhaul. Here are some key techniques:
 

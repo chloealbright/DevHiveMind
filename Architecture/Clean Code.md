@@ -90,6 +90,9 @@ By modularizing your code in this way, you not only improve the organization and
 
 
 ## Comments rules
+![[Eye in the Detail.gif]]
+Comments are essentially a type of documentation that requires smart maintenance. Your code should speak for itself through well-chosen conventions. Utilize descriptive verbs in method and function names. Exclude commented-out code in production applications. Steer clear of todo's. Employ concise, one-line comments for crucial legal or explanatory information, such as regular expressions. Comment when there's an issue with a specific line of code.
+
 - Always try to explain yourself in code.
 - Don't be redundant.
 - Don't add obvious noise.
@@ -99,17 +102,7 @@ By modularizing your code in this way, you not only improve the organization and
 - Use as clarification of code.
 - Use as warning of consequences.
 
-Comments are basically another form of documentation that has to be maintained so you have to do it smarter and make it like your a code speak for itself in terms of the convention 
 
-Use verbs in your method and function names making them descriptive 
-
-Remove commented-out code for production application 
-
-Avoid todo,s 
-
-Make short one-line comments to label important legal stuff and stuff that really need an explanation like a regular expression  
-
-And comment if there is an issue with a line of code
 ## Source code structure
 - Separate concepts vertically.
 - Related code should appear vertically dense.

@@ -13,19 +13,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Clean Code.md",
+                "file": "Architecture/Technology Options/Caches.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "a1af2ad96e0cedae",
+        "type": "tabs",
+        "children": [
           {
             "id": "54e2a3b1b0fddec3",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_Images/Arch/Eye in the Detail.gif"
+                "file": "Architecture/Technology Options/Content Delivery Network.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -111,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Clean Code.md",
+                "file": "Architecture/Technology Options/Caches.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Clean Code.md",
+                "file": "Architecture/Technology Options/Caches.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Clean Code.md"
+                "file": "Architecture/Technology Options/Caches.md"
               }
             }
           },
@@ -265,13 +273,20 @@
   },
   "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "Architecture/System Design/Elements Of A Distributed Systems.md",
+    "Architecture/Clean Code.md",
+    "Architecture/Technology Options/Content Delivery Network.md",
+    "Architecture/Concurrency Vs Horizontal scaling.md",
+    "Architecture/Codebase Level Scaling & Optimization.md",
     "Architecture/Code standards.md",
+    "Architecture/Technology Options/Caches.md",
+    "Architecture/Architecture VS system design.md",
+    "Architecture/Architect Styles.jpeg",
+    "Architecture/Architect decision.md",
     "Architecture/Code Comments.md",
     "_Images/Arch/Eye in the Detail.gif",
-    "Architecture/Clean Code.md",
     "Architecture/Arch to think about.md",
     "Architecture/_Architecture Dashboard.md",
-    "Architecture/Codebase Level Scaling & Optimization.md",
     "Algorithms & Data Structures/Algo Line of thought.md",
     "_Low Priority Refinement/Architecture/System Design/When to use Domain-Driven Design.md",
     "Algorithms & Data Structures/Attributes of Data.md",
@@ -286,12 +301,7 @@
     "Language Overlap/Back Pressure.md",
     "Architecture/Paradigm vs Patterns.md",
     "Codebase Architecture Decisions/OO Thought process.md",
-    "Language/Typescript/Advanced Object Types.md",
-    "Home.md",
-    "Language Overlap/Abstract Classes.md",
     "Mind Maps/Drafts/Domain-driven design.canvas",
-    "Database/Types of Tables in logical database models.md",
-    "Architecture/App Layers/Domain stuff.md",
     "_Low Priority Refinement/Architecture/System Design",
     "_Low Priority Refinement/Architecture/Cache 3.jpeg",
     "_Low Priority Refinement/Architecture/Cache 2.jpeg",
@@ -302,7 +312,6 @@
     "_Images/Pasted image 20231202044317.png",
     "_Images/Event Driven Arch Solution.png",
     "_Images/Archetecture.jpg",
-    "_Images/Arch/IPv4 Structure.png",
     "Mind Maps/Drafts/UML",
     "Mind Maps/Drafts/Testing.canvas",
     "Companies/Clout Chasing",

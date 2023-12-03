@@ -2,6 +2,12 @@
 tags:
   - scaling
   - systemDesign
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 ## Concurrency  
 

@@ -4,84 +4,128 @@
     "type": "split",
     "children": [
       {
-        "id": "a1af2ad96e0cedae",
+        "id": "a98f667a0b8f9fdf",
+        "type": "split",
+        "children": [
+          {
+            "id": "eb1e2dab5f4ba95e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4ff3068ed6a120e4",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "_Cheatsheet/Git/Git Cheatsheet.jpg"
+                  }
+                }
+              },
+              {
+                "id": "706d6876fff54b37",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "_Cheatsheet/Git/git commands.jpeg"
+                  }
+                }
+              },
+              {
+                "id": "7747339dcc92ba3f",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "_Cheatsheet/Git/git-for-subversion-cheat-sheet.pdf"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "fa320be05093e965",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "815a36ebe031fac4",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "Devops/Version Control/Git Process Animated.gif"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      },
+      {
+        "id": "7488c434fb65106c",
         "type": "tabs",
         "children": [
           {
-            "id": "54e2a3b1b0fddec3",
+            "id": "06081e0fa647c059",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/FaaS.md",
+                "file": "Devops/Version Control/Common Git Workflow.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9c0215318f86b232",
+            "id": "429484536e2acbe3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Software Development Life Cycle.md",
+                "file": "Devops/Version Control/Git.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8be5ac931e042409",
+            "id": "4de9a6d338aad766",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "image",
               "state": {
-                "file": "Mind Maps/Drafts/File system.canvas",
-                "viewState": {
-                  "x": -1040,
-                  "y": -260,
-                  "zoom": -1.900199393009559
-                }
+                "file": "Devops/Version Control/Git Flow.jpeg"
+              }
+            }
+          },
+          {
+            "id": "b3b62b330dc22ee5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Devops/Version Control/GitHub Linux setup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a65ea7864197982e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Devops/Version Control/GitHub tip.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
         "currentTab": 2
-      },
-      {
-        "id": "5d104801c90ff9fa",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "17d3bddd0f8d0161",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Software Architecture vs System Design.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67b6aa45735b6c21",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Mind Maps/Drafts/Gateway.canvas",
-                "viewState": {
-                  "x": -508.5,
-                  "y": -413,
-                  "zoom": -1.3972891377053807
-                }
-              }
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mind Maps/Drafts/File system.canvas",
+                "file": "Devops/Version Control/Git Flow.jpeg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mind Maps/Drafts/File system.canvas",
+                "file": "Devops/Version Control/Git Flow.jpeg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mind Maps/Drafts/File system.canvas"
+                "file": "Devops/Version Control/Git Flow.jpeg"
               }
             }
           },
@@ -315,8 +359,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "4de9a6d338aad766",
   "lastOpenFiles": [
+    "_Cheatsheet/Git/Git Cheatsheet.jpg",
+    "_Cheatsheet/Git/Git Cheat.md",
+    "_Cheatsheet/Git/git commands.jpeg",
+    "Devops/Version Control/Git Process Animated.gif",
+    "Devops/Version Control/Git Flow.jpeg",
+    "Devops/Version Control/Git.md",
+    "Devops/Version Control/GitHub tip.md",
+    "Devops/Version Control/GitHub Linux setup.md",
+    "Devops/Version Control/Common Git Workflow.md",
+    "Devops/Version Control/Benefits of  version control.md",
+    "_Cheatsheet/Git/git-for-subversion-cheat-sheet.pdf",
+    "_Cheatsheet/SQL Practice Interview Questions .pdf",
+    "_Cheatsheet/Git",
+    "_Cheatsheet/tower_cheat-sheet_windows.pdf",
+    "Home.md",
     "Cloud/Azure/Microsoft Azure Services.md",
     "Cloud/AWS/AWS Cloud Services.md",
     "Architecture/ZooKeeper.md",
@@ -343,23 +402,11 @@
     "Architecture/StackOverflow Arch.md",
     "Architecture/object-oriented  and functional Programming Design.md",
     "Architecture/Naming Conventions.md",
-    "Architecture/MVVM.md",
-    "Architecture/microservices and monolithic architecture.md",
-    "Architecture/Microservices best practices.md",
-    "Architecture/Architecture VS system design.md",
-    "Architecture/Scope.md",
-    "Architecture/Scope 1.md",
-    "Architecture/SaaS.md",
-    "Architecture/Run.md",
     "Architecture/Model Patterns.jpeg",
     "_Images/Arch/Microservices.jpeg",
     "Architecture/System Design/Data Transmission.jpeg",
     "Web/1700239541390.gif",
     "_Images/Database/GetImage (42).png",
-    "_Images/Database/GetImage (41).png",
-    "_Images/Database/GetImage (40).png",
-    "_Images/Database/GetImage (37).png",
-    "_Images/Database/GetImage (35).png",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/_Web App Architecture.canvas",
     "Mind Maps/Drafts/Java Logging.canvas",
@@ -368,10 +415,6 @@
     "Mind Maps/Drafts/UML",
     "Companies/Clout Chasing",
     "Architecture/Technology Options",
-    "Architecture/System Examples",
-    "_Low Priority Refinement",
-    "_Cheatsheet/CLI-cheat-sheet.pdf",
-    "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
-    "_Cheatsheet/docker_cheatsheet.pdf"
+    "Architecture/System Examples"
   ]
 }

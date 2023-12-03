@@ -11,13 +11,100 @@
             "id": "c068a68ca9ed878c",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language Overlap/Coupling vs Cohesion.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2f7472652986a7da",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "fb9457ebeec51c0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database/Database Archetecture/Data Architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd04f494a63821d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Microservices best practices.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e3f4530c125acfd7",
+            "type": "leaf",
+            "state": {
               "type": "image",
               "state": {
-                "file": "_Images/coupling.jpg"
+                "file": "_Images/Circle Implements Shape Interface.png"
               }
             }
           }
         ]
+      },
+      {
+        "id": "ad3c5815554c57b4",
+        "type": "split",
+        "children": [
+          {
+            "id": "392e5e5a6eba2689",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "660740519cc82069",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/Types of Cohesion.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "72fdcf450abde546",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "dea7dc1d5bf1f9a6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/Types of coupling.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -99,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Images/coupling.jpg",
+                "file": "Language Overlap/Types of coupling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Images/coupling.jpg",
+                "file": "Language Overlap/Types of coupling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Images/coupling.jpg"
+                "file": "Language Overlap/Types of coupling.md"
               }
             }
           },
@@ -243,8 +330,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c068a68ca9ed878c",
+  "active": "dea7dc1d5bf1f9a6",
   "lastOpenFiles": [
+    "Language Overlap/Coupling vs Cohesion.md",
+    "Language Overlap/Types of coupling.md",
+    "Language Overlap/Types of Cohesion.md",
+    "Database/Database Archetecture/Data Architecture.md",
+    "Architecture/Microservices best practices.md",
+    "_Images/Circle Implements Shape Interface.png",
+    "_Images/LangOverlap/coupling.jpg",
+    "Home.md",
     "Architecture/Design Patterns.md",
     "_Images/Arch/Design Pattern 2.webp",
     "_Images/Journey.gif",
@@ -263,11 +358,9 @@
     "_Images/Researching.gif",
     "_Images/Mind Map/Network Protocols Applied.jpeg",
     "Language Overlap/Python v Java.gif",
-    "_Images/Things Todo.gif",
     "Mind Maps/Drafts/File system.canvas",
     "Devops/OS/Linux/Commands.md",
     "Devops/OS/Linux/Cerebro Program.md",
-    "_Images/Mind Map/moving_cli.png",
     "_CODE/Express/Dev Todo.md",
     "_CODE/Express/Tech Things to Research.md",
     "Dev Roadmaps By Priority.md",
@@ -278,11 +371,6 @@
     "Architecture/Computer Process.md",
     "Architecture/Codebase Level Scaling & Optimization.md",
     "Architecture/Code standards.md",
-    "Architecture/Chaos Engineering.md",
-    "Architecture/Architect decision.md",
-    "Architecture/Technology Options/Caches.md",
-    "Architecture/Technology Options/Content Delivery Network.md",
-    "Architecture/Technology Options/Database.md",
     "_Pdf/Books/Testing/More-Agile-Testing-Janet-Gregory-Lisa-Crispin-2014.pdf",
     "_Pdf/Books/Testing/SSG_ENU_98-379_SoftTestFund.pdf",
     "_Pdf/Books/Testing/Test-Driven Development with Python Obey the Testing Goat Using Django, Selenium, and JavaScript by Harry J. W. Percival (z-lib.org).pdf",

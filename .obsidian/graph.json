@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "Learning Approach",
+  "search": "coupling",
   "showTags": false,
   "showAttachments": true,
   "hideUnresolved": true,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.14679871131133349,
+  "scale": 1.1147527140204385,
   "close": false
 }

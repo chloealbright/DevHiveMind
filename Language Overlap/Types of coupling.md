@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates: "[[Coupling vs Cohesion]]"
+---
 ## Best to Worst 
 
 Data coupling: When one function passes data to another function that may be used for calculation. Although this is quite common, the passed data must have the same interpretation across the two functions. 

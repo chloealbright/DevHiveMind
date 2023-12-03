@@ -25,7 +25,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "_Images/_Whiteboard/quicksort.png"
+                "file": "_Images/Web/IPv4 Structure.png"
               }
             }
           }
@@ -47,8 +47,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1cdc3b97620e58d6",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_Images/Arch/Monolithic vs Microservies.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Images/_Whiteboard/quicksort.png",
+                "file": "_Images/Arch/Monolithic vs Microservies.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Images/_Whiteboard/quicksort.png",
+                "file": "_Images/Arch/Monolithic vs Microservies.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Images/_Whiteboard/quicksort.png"
+                "file": "_Images/Arch/Monolithic vs Microservies.png"
               }
             }
           },
@@ -282,18 +293,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8961a0e6c5dd0ebe",
+  "active": "1cdc3b97620e58d6",
   "lastOpenFiles": [
-    "_Images/_Whiteboard/mergeSort.png",
-    "_Images/Arch/Monolithic vs Microservies.png",
-    "_Images/Arch/System Scaling.png",
     "_Images/Arch/Web Services vs. Web Apps.jpg",
+    "_Images/Arch/System Scaling.png",
     "_Images/Arch/StackOverflow.jpg",
-    "_Images/Arch/IPv4 Structure.png",
+    "_Images/Arch/Monolithic vs Microservies.png",
     "_Images/Arch/Eye in the Detail.gif",
+    "_Images/Mind Map/Clean arch.jpg",
+    "_Images/Mind Map/Clean arch Layers.png",
+    "_Images/Web/IPv4 Structure.png",
+    "_Images/_Whiteboard/quicksort.png",
+    "_Images/_Whiteboard/mergeSort.png",
     "_Images/Mind Map/InDepth Domain Flow.png",
-    "_Images/Mind Map/domain-driven-design-clean-architecture.png",
-    "_Images/Mind Map/Domain Layers.png",
     "Architecture/Event Driven Architecture.md",
     "Architecture/Concurrency Vs Horizontal scaling.md",
     "Architecture/Codebase Level Scaling & Optimization.md",
@@ -305,7 +317,6 @@
     "Architecture/System Design/Elements Of A Distributed Systems.md",
     "Architecture/Technology Options/Caches.md",
     "Architecture/Architecture VS system design.md",
-    "Architecture/Architect Styles.jpeg",
     "Architecture/Architect decision.md",
     "Architecture/Code Comments.md",
     "Architecture/Arch to think about.md",

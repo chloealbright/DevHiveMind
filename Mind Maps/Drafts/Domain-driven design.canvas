@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"20c34c3088dc97c9","type":"file","file":"_Images/Arch/Clean arch.jpg","x":-310,"y":340,"width":633,"height":465},
+		{"id":"20c34c3088dc97c9","type":"file","file":"_Images/Mind Map/Clean arch.jpg","x":-310,"y":340,"width":633,"height":465},
 		{"id":"4d470de43f43301b","type":"file","file":"_Images/Mind Map/domain-driven-design-clean-architecture.png","x":480,"y":108,"width":368,"height":368},
 		{"id":"2ae56e0ccd2ed202","type":"file","file":"_Images/Mind Map/InDepth Domain Flow.png","x":-612,"y":-500,"width":1276,"height":580},
 		{"id":"97637f721ecc8922","type":"file","file":"_Images/mvvc.png","x":-1120,"y":500,"width":775,"height":407},

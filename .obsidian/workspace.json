@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Technology Options/Caches.md",
+                "file": "Architecture/Technology Options/Database.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "8961a0e6c5dd0ebe",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_Images/_Whiteboard/quicksort.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "a1af2ad96e0cedae",
@@ -31,7 +42,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Technology Options/Content Delivery Network.md",
+                "file": "Architecture/Event Driven Architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Technology Options/Caches.md",
+                "file": "_Images/_Whiteboard/quicksort.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Technology Options/Caches.md",
+                "file": "_Images/_Whiteboard/quicksort.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Technology Options/Caches.md"
+                "file": "_Images/_Whiteboard/quicksort.png"
               }
             }
           },
@@ -271,22 +282,33 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "8961a0e6c5dd0ebe",
   "lastOpenFiles": [
-    "Architecture/System Design/Elements Of A Distributed Systems.md",
-    "Architecture/Clean Code.md",
-    "Architecture/Technology Options/Content Delivery Network.md",
+    "_Images/_Whiteboard/mergeSort.png",
+    "_Images/Arch/Monolithic vs Microservies.png",
+    "_Images/Arch/System Scaling.png",
+    "_Images/Arch/Web Services vs. Web Apps.jpg",
+    "_Images/Arch/StackOverflow.jpg",
+    "_Images/Arch/IPv4 Structure.png",
+    "_Images/Arch/Eye in the Detail.gif",
+    "_Images/Mind Map/InDepth Domain Flow.png",
+    "_Images/Mind Map/domain-driven-design-clean-architecture.png",
+    "_Images/Mind Map/Domain Layers.png",
+    "Architecture/Event Driven Architecture.md",
     "Architecture/Concurrency Vs Horizontal scaling.md",
     "Architecture/Codebase Level Scaling & Optimization.md",
     "Architecture/Code standards.md",
+    "Architecture/_Architecture Dashboard.md",
+    "Architecture/Technology Options/Content Delivery Network.md",
+    "Architecture/Technology Options/Database.md",
+    "Architecture/Clean Code.md",
+    "Architecture/System Design/Elements Of A Distributed Systems.md",
     "Architecture/Technology Options/Caches.md",
     "Architecture/Architecture VS system design.md",
     "Architecture/Architect Styles.jpeg",
     "Architecture/Architect decision.md",
     "Architecture/Code Comments.md",
-    "_Images/Arch/Eye in the Detail.gif",
     "Architecture/Arch to think about.md",
-    "Architecture/_Architecture Dashboard.md",
     "Algorithms & Data Structures/Algo Line of thought.md",
     "_Low Priority Refinement/Architecture/System Design/When to use Domain-Driven Design.md",
     "Algorithms & Data Structures/Attributes of Data.md",
@@ -298,20 +320,9 @@
     "Language Overlap/Byte stream.md",
     "Language Overlap/Process vs Thread.md",
     "Algorithms & Data Structures/Algo/Depth First Search & Breadth-First Search.md",
-    "Language Overlap/Back Pressure.md",
-    "Architecture/Paradigm vs Patterns.md",
-    "Codebase Architecture Decisions/OO Thought process.md",
     "Mind Maps/Drafts/Domain-driven design.canvas",
     "_Low Priority Refinement/Architecture/System Design",
-    "_Low Priority Refinement/Architecture/Cache 3.jpeg",
-    "_Low Priority Refinement/Architecture/Cache 2.jpeg",
-    "_Low Priority Refinement/Architecture/Cache 1.jpeg",
     "_Low Priority Refinement/Architecture",
-    "_Low Priority Refinement/API/API Protocol.jpeg",
-    "_Images/Web/IPV6 vs IPV4.jpeg",
-    "_Images/Pasted image 20231202044317.png",
-    "_Images/Event Driven Arch Solution.png",
-    "_Images/Archetecture.jpg",
     "Mind Maps/Drafts/UML",
     "Mind Maps/Drafts/Testing.canvas",
     "Companies/Clout Chasing",

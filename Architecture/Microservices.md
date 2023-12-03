@@ -1,4 +1,4 @@
-![[GetImage (14).png]]
+![[Monolithic vs Microservies.png]]
 
 ![[55555.jpg]]
 Moving from Monolithic to microservice architecture stages.

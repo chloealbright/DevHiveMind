@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
+---
 ## Database and Search Server, third party Api 
 
 -   A database is a structured system to put your data under a pre-specified format and constraints. Some of the requirements when a database is needed are as follows: 

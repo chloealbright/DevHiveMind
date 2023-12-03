@@ -22,7 +22,7 @@ api is a contract or language between a source system and target system both sy
 
 web app server formats data from network transfers sending data 
 
-![[Web+Services+vs.+Web+Apps.jpg]]
+![[Web Services vs. Web Apps.jpg]]
 
 
 A web server accepts and fulfills requests from clients for static content (i.e., HTML pages, files, images, and videos) from a website. Web servers handle HTTP requests and responses only. 

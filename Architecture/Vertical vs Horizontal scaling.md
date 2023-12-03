@@ -11,7 +11,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[GetImage (19).png]]
+![[System Scaling.png]]
 # Horizontal scaling  
 
 Horizontal scaling (aka scaling out) refers to adding additional nodes or machines to your infrastructure to cope with new demands. If you are hosting an application on a server and find that it no longer has the capacity or capabilities to handle traffic, adding a server may be your solution. 

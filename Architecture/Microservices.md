@@ -1,6 +1,6 @@
 ![[Monolithic vs Microservies.png]]
 
-![[55555.jpg]]
+![[Monolithic to microservice progression.jpg]]
 Moving from Monolithic to microservice architecture stages.
 
 

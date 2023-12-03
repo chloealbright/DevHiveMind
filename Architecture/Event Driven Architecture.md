@@ -7,7 +7,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[Pasted image 20231003141446.jpg]]
+![[Event Driven Arch.jpg]]
 
 Event-Driven Architecture (EDA) is a software design pattern that focuses on the generation, detection, consumption,  and response to events and event-driven messages within a system. In EDA, the flow of data and the triggering of actions are driven by events, which are occurrences or changes in the system or external environment. This architectural approach is widely used in modern software systems to create scalable, decoupled, and responsive applications that has an effective communication and coordination among different components of a system. Here are some key concepts and components of Event-Driven Architecture:
 

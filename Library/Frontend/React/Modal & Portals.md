@@ -1,4 +1,4 @@
-![[exploring-portals-portal-working.png]]
+![[React Portal Modal.png]]
 A modal is one of the built in windows in a web site like when you go to a newspaper and they ask you to signup 
 
 React Portals allows you the functionality to break out of the root DOM tree so you can render to a different DOM node that isn't root  

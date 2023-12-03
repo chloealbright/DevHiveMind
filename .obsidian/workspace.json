@@ -35,7 +35,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Database/Pasted image 20230723124916.jpg"
+                "file": "_Template/Whiteboard.png"
               }
             }
           },
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Pasted image 20230723124916.jpg",
+                "file": "_Template/Whiteboard.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Pasted image 20230723124916.jpg",
+                "file": "_Template/Whiteboard.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Pasted image 20230723124916.jpg"
+                "file": "_Template/Whiteboard.png"
               }
             }
           },
@@ -372,43 +372,43 @@
   },
   "active": "2da46be55ce5c1f4",
   "lastOpenFiles": [
-    "Database/Database Processes.gif",
-    "Database/Database Sharding.jpeg",
-    "Database/Database Types.gif",
-    "Database/Data Structures That Power Your Databases.md",
-    "Database/Create Tables.md",
-    "Database/Constraints.md",
-    "Database/conf.md",
-    "Database/Setup/Postgresql Setup.md",
-    "Database/Database Archetecture/Database Diagram.md",
-    "_Images/Database/DB UML relationship types.jpeg",
-    "Database/Database Archetecture/Data Architecture.md",
-    "Database/Database Archetecture/Best Practices for Database Schema Design.md",
-    "Companies/Work Process.png",
-    "_Images/Interview/Tech Layoffs.png",
-    "Companies/Tech company hiring cycle & Hustle.md",
-    "_Images/Interview/Job Cycle.png",
-    "Companies/Software Carpentier Journey.md",
-    "Companies/General Dev Issues When starting at a New company.md",
-    "Companies/Employment Best Personal Practices.md",
-    "Companies/People/References.md",
-    "Companies/People/Reach out to Mentor.md",
-    "Companies/People/People to know & TD Questions.md",
-    "Companies/People/intentions.md",
-    "Companies/People/Dealing with People.md",
-    "Companies/People/Conversation Tactics & Starters.md",
-    "Companies/People/Companies & Favours.md",
-    "Companies/Interview/Tactics.md",
-    "Algorithms & Data Structures/Whiteboard Interview.md",
-    "Companies/Interview/Sounding more senior or experienced.md",
-    "Architecture/System Design/System designs review.md",
-    "Algorithms & Data Structures/Steps to Problem on Interview.md",
-    "Companies/Interview/Resume OG.md",
+    "_Images/_Whiteboard/Whiteboard Template.png",
+    "_Template/Whiteboard.png",
+    "_Images/Languages/Untitled picture.png",
+    "_Images/Languages/W1.png",
+    "_Images/Languages/W1c.png",
+    "_Images/LangOverlap/1648273719106.587737061.gif",
+    "_Images/LangOverlap/gc-process.gif",
+    "_Images/LangOverlap/GetImage (1).gif",
+    "_Images/LangOverlap/GetImage (15).png",
+    "_Images/LangOverlap/GetImage (16).png",
+    "_Images/LangOverlap/goodbye-im-out.gif",
+    "Security/Computer system security.md",
+    "Security/Code Defects.md",
+    "Security/ESLint.md",
+    "Security/How do JSON Web Tokens work.md",
+    "Security/JWT authentication- Best practices.md",
+    "Security/OAuth 2.0.md",
+    "Security/Prototype Pollution.md",
+    "Security/Unsafe functions.md",
+    "Hardware & Code/stack frame.md",
+    "Hardware & Code/Software vs Firmware.md",
+    "Hardware & Code/Single threading vs Multithreading.md",
+    "Hardware & Code/hypervisor.md",
+    "Hardware & Code/CPUs.md",
+    "Hardware & Code/Computer Process.md",
+    "Hardware & Code/Batch Processing vs Stream Processing.md",
+    "Framework/Reactive programming.md",
+    "Framework/Reactive.md",
+    "Framework/JavaScript ecosystem event-driven and reactive programming.md",
+    "Framework/Consumers and Producers.md",
+    "Framework/Backend/Express.js.md",
+    "Error Log/Language Error.md",
+    "Devops/Test Automation.md",
+    "Devops/Terraform.md",
+    "Devops/Stages.md",
+    "Devops/GitHub Actions.md",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
-    "Mind Maps/UML Monitor Project.png",
-    "_Images/Interview/Job Offer.jpg",
-    "_Images/Interview/Negotiate.gif",
-    "_Images/Circle Implements Shape Interface.png",
     "_Cheatsheet/Git version control workflow.pdf",
     "_Cheatsheet/website_optimization-cheat-sheet.pdf",
     "_Cheatsheet/Vscode-keyboard-shortcut.pdf",

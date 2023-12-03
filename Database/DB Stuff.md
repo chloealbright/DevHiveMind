@@ -5,4 +5,4 @@
 https://blog.bytebytego.com/
 
 
-![[Pasted image 20230723124916.jpg]]
+![[Types of DB.jpg]]

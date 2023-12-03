@@ -25,6 +25,3 @@ Look into
         -   Faster Mean Time To Detection (MTTD) 
             
         -   Increase understanding of system failure modes
-
-#todo/tosort
-- [ ] figure out were to put

@@ -33,9 +33,9 @@
             "id": "2da46be55ce5c1f4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "_Template/Whiteboard.png"
+                "file": "_Pdf/Books/Architecture/Refactoring Improving the Design of Existing Code by Martin Fowler (z-lib.org).pdf"
               }
             }
           },
@@ -202,7 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 567.5
   },
   "right": {
     "id": "eef3a19b1c6d3fd3",
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Template/Whiteboard.png",
+                "file": "_Pdf/Books/Architecture/Refactoring Improving the Design of Existing Code by Martin Fowler (z-lib.org).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Template/Whiteboard.png",
+                "file": "_Pdf/Books/Architecture/Refactoring Improving the Design of Existing Code by Martin Fowler (z-lib.org).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Template/Whiteboard.png"
+                "file": "_Pdf/Books/Architecture/Refactoring Improving the Design of Existing Code by Martin Fowler (z-lib.org).pdf"
               }
             }
           },
@@ -372,8 +372,20 @@
   },
   "active": "2da46be55ce5c1f4",
   "lastOpenFiles": [
-    "_Images/_Whiteboard/Whiteboard Template.png",
+    "_Pdf/Books/Architecture/Refactoring to Patterns (Joshua Kerievsky) (z-lib.org).pdf",
+    "_Pdf/Books/Architecture/Refactoring Improving the Design of Existing Code by Martin Fowler (z-lib.org).pdf",
+    "_Pdf/Books/Architecture/Patterns of Enterprise Application Architecture - Martin Fowler.pdf",
+    "_Pdf/Books/Architecture/head_first_design_patterns.pdf",
+    "_Pdf/Books/Architecture/Essentials of Systems Analysis and Design 5th Edition.pdf",
+    "_Pdf/Books/Architecture/Domain-Driven Design Tackling Complexity in the Heart of Software.pdf",
+    "_Pdf/Books/Architecture/Django Design Patterns and Best Practices by Arun Ravindran (z-lib.org).pdf",
+    "_Pdf/Books/Architecture/Designing Data-Intensive Applications The Big Ideas Behind Reliable, Scalable, and Maintainable Systems by Martin Kleppmann (z-lib.org).pdf",
+    "_Pdf/Books/Architecture/Design Patterns Explained A New Perspective on Object-Oriented Design (Alan Shalloway) (z-lib.org).pdf",
+    "_Pdf/Books/Architecture/Design Patterns Elements of Reusable Object Oriented Software .pdf",
+    "_Pdf/Books/Architecture/Concepts, techniques, and models of computer programming by Peter Van Roy, Seif Haridi (z-lib.org).pdf",
+    "Open Source/To Look into.md",
     "_Template/Whiteboard.png",
+    "_Images/_Whiteboard/Whiteboard Template.png",
     "_Images/Languages/Untitled picture.png",
     "_Images/Languages/W1.png",
     "_Images/Languages/W1c.png",
@@ -382,7 +394,6 @@
     "_Images/LangOverlap/GetImage (1).gif",
     "_Images/LangOverlap/GetImage (15).png",
     "_Images/LangOverlap/GetImage (16).png",
-    "_Images/LangOverlap/goodbye-im-out.gif",
     "Security/Computer system security.md",
     "Security/Code Defects.md",
     "Security/ESLint.md",
@@ -407,17 +418,6 @@
     "Devops/Test Automation.md",
     "Devops/Terraform.md",
     "Devops/Stages.md",
-    "Devops/GitHub Actions.md",
-    "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
-    "_Cheatsheet/Git version control workflow.pdf",
-    "_Cheatsheet/website_optimization-cheat-sheet.pdf",
-    "_Cheatsheet/Vscode-keyboard-shortcut.pdf",
-    "_Cheatsheet/VS_Code_Cheat_Sheet.pdf",
-    "_Cheatsheet/vs-code_cheat-sheet_windows.pdf",
-    "_Cheatsheet/Vim.pdf",
-    "_Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
-    "_Cheatsheet/SQL Practice Interview Questions .pdf",
-    "_Cheatsheet/PostgreSQL-Cheat-Sheet.pdf",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Testing.canvas",

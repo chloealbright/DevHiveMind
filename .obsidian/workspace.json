@@ -11,11 +11,9 @@
             "id": "de42f5b0caee3abf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": false
+                "file": "_Images/Algo/AlgoFlow.png"
               }
             }
           }
@@ -101,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "_Images/Algo/AlgoFlow.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "_Images/Algo/AlgoFlow.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "_Images/Algo/AlgoFlow.png"
               }
             }
           },
@@ -247,6 +245,8 @@
   },
   "active": "de42f5b0caee3abf",
   "lastOpenFiles": [
+    "_Images/Algo/2D Array.png",
+    "_Images/_Main/Archetecture.jpg",
     "Home.md",
     "AI & Chatgpt/prompts/Structural model Prompt.md",
     "AI & Chatgpt/Output/features for a driving school.md",
@@ -276,7 +276,6 @@
     "Architecture/POt Struc.md",
     "Architecture/Principles/DRY.md",
     "Architecture/Code standards.md",
-    "Architecture/Principles/GRASP Design Principles.md",
     "Architecture/Principles",
     "_Images/_Main/Things Todo.gif",
     "_Images/_Main/Learning Approach.png",
@@ -285,7 +284,6 @@
     "_Images/Companies Models/BSA Req Life Cycle.png",
     "_Images/Arch/Circle Implements Shape Interface.png",
     "_Images/LangOverlap/Flow of control.gif",
-    "_Images/LangOverlap/Inheritance Class Diagram.png",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Drafts/File system.canvas",
     "Untitled.canvas",

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 WordPress is open source so that means a lot of Open source developers can look at the code create tests and assess its weak points to hack it that's why you don't want to have your product on it long term it serves as a good starting point 
 
 But long-term it's a big security risk so from the new app to the old app there is also an increase in security because we have control of more things 

@@ -21,9 +21,11 @@
             "id": "929b94e1f97d20a0",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_Images/Companies Models/2023-04-01 11.30.42 mailcitytechcuny-my.sharepoint.com f5e57e000696.png"
+                "file": "Companies/Tech company hiring cycle & Hustle.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -110,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Images/Companies Models/2023-04-01 11.30.42 mailcitytechcuny-my.sharepoint.com f5e57e000696.png",
+                "file": "Companies/Tech company hiring cycle & Hustle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Images/Companies Models/2023-04-01 11.30.42 mailcitytechcuny-my.sharepoint.com f5e57e000696.png",
+                "file": "Companies/Tech company hiring cycle & Hustle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Images/Companies Models/2023-04-01 11.30.42 mailcitytechcuny-my.sharepoint.com f5e57e000696.png"
+                "file": "Companies/Tech company hiring cycle & Hustle.md"
               }
             }
           },
@@ -256,6 +258,16 @@
   },
   "active": "929b94e1f97d20a0",
   "lastOpenFiles": [
+    "Companies/Software Carpentier Journey.md",
+    "Companies/General Dev Issues When starting at a New company.md",
+    "Companies/Employment Best Personal Practices.md",
+    "Companies/People/People to know & TD Questions.md",
+    "Companies/People/References.md",
+    "Companies/People/intentions.md",
+    "Companies/People/Dealing with People.md",
+    "Companies/People/Conversation Tactics & Starters.md",
+    "Companies/People/Companies & Favours.md",
+    "_Images/Companies Models/2023-04-01 11.30.42 mailcitytechcuny-my.sharepoint.com f5e57e000696.png",
     "Cloud/Benefits of cloud.md",
     "_Images/Cloud/Service Types overlap.png",
     "_Images/Cloud/Service Types.jpg",
@@ -276,21 +288,12 @@
     "AI & Chatgpt/Output/features for a driving school.md",
     "Companies/Work Process.png",
     "Companies/Tech company hiring cycle & Hustle.md",
-    "Companies/Software Carpentier Journey.md",
-    "Companies/General Dev Issues When starting at a New company.md",
-    "Companies/Employment Best Personal Practices.md",
     "AI & Chatgpt/Output/create java code for this.md",
     "Architecture/SAGA.md",
     "Architecture/Circuit breaker pattern relationship with fault tolerance.md",
     "Architecture/Functions rules.md",
-    "Architecture/monadic functions.md",
-    "Architecture/flag arguments.md",
-    "Architecture/Fault tolerance.md",
-    "Architecture/Enums Decision.md",
-    "Language Overlap/OO Thought process.md",
     "_Images/LangOverlap/Class Diagram.png",
     "_Images/Method/Concurrency workload.png",
-    "Architecture/StackOverflow.jpg",
     "Architecture/Principles",
     "_Images/_Main",
     "_Images/Method",

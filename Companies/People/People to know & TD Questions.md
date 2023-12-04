@@ -1,10 +1,6 @@
 Introduce yourself with your role and department 
 
 
-Think about people's temperament before suggesting  games in meeting 
-
-
-
 Brent Foster VP of software engineering and a practice owner 
 
 

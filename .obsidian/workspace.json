@@ -25,7 +25,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "_Images/2023-06-17 12.23.43 medium.com 7444e17e7519.png"
+                "file": "_Images/LangOverlap/Class Diagram.png"
               }
             }
           },
@@ -48,60 +48,12 @@
             }
           },
           {
-            "id": "174c4a18f3e1655f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Methodology/Twelve Factor App/Twelve Factor App Concurrency.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "628b8ae7f3aca71f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language Overlap/Access Modifiers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d19f5bd4fb9b4ad3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language Overlap/Abstract Classes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "00c7485c7bf5ff72",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Database/Database Archetecture/Fact Table.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "472e7f2040ebac27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language Overlap/Inheritance Composition Encapsulation.md",
                 "mode": "source",
                 "source": false
               }
@@ -190,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methodology/Twelve Factor App/Twelve Factor App Concurrency.md",
+                "file": "Database/Database Archetecture/Fact Table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methodology/Twelve Factor App/Twelve Factor App Concurrency.md",
+                "file": "Database/Database Archetecture/Fact Table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methodology/Twelve Factor App/Twelve Factor App Concurrency.md"
+                "file": "Database/Database Archetecture/Fact Table.md"
               }
             }
           },
@@ -336,23 +288,24 @@
   },
   "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "Language Overlap/Inheritance Composition Encapsulation.md",
+    "Language Overlap/Abstract Classes.md",
+    "Language Overlap/Access Modifiers.md",
+    "Methodology/Twelve Factor App/Twelve Factor App Concurrency.md",
     "_Images/Method",
     "_Images/Method/Concurrency workload.png",
-    "Language Overlap/Access Modifiers.md",
-    "Language Overlap/Abstract Classes.md",
     "Database/Database Archetecture/Fact Table.md",
-    "Language Overlap/Inheritance Composition Encapsulation.md",
     "Architecture/Microservices best practices.md",
     "_Images/Companies Models/BSA Req Life Cycle.png",
     "_Images/Arch/Circle Implements Shape Interface.png",
     "_Images/LangOverlap/Flow of control.gif",
     "Database/Database Archetecture/Data Architecture.md",
-    "_Images/2023-06-17 12.23.43 medium.com 7444e17e7519.png",
+    "_Images/LangOverlap/Class Diagram.png",
     "Language Overlap/Flow of Control.md",
     "Language Overlap/Coupling vs Cohesion.md",
-    "_Images/2023-06-17 12.32.33 medium.com 208fcebdac2c.png",
-    "_Images/2023-06-17 12.34.59 medium.com 7cf69549fdf5.png",
-    "_Images/2023-06-17 12.38.06 medium.com 7a1fbbfaa1b5.png",
+    "_Images/LangOverlap/Inheritance Class Diagram.png",
+    "_Images/Database/Aggregation and Composition.png",
+    "_Images/LangOverlap/Abstract class Diagram.png",
     "_Images/Archetecture.jpg",
     "_Images/Banner.gif",
     "Companies/Agile to edit/Requirements life cycle.md",
@@ -384,7 +337,6 @@
     "_Pdf/Books/Architecture/System Analysis and Design Methods 7th.pdf",
     "_Pdf/Books/Architecture/Software Architecture The Hard Parts Modern Trade-Off Analyses for Distributed Architectures (Neal Ford, Mark Richards, Pramod Sadalage etc.) (z-lib.org).pdf",
     "_Pdf/Books/Architecture/Patterns of Enterprise Application Architecture - Martin Fowler.pdf",
-    "_Pdf/Books/Architecture/Refactoring to Patterns (Joshua Kerievsky) (z-lib.org).pdf",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Event Messaging.canvas",

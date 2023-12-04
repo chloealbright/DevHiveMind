@@ -1,9 +1,9 @@
 
 
-![[2023-06-17 12.34.59 medium.com 7cf69549fdf5.png]]
+![[Aggregation and Composition.png]]
 
 
-![[2023-06-17 12.33.05 medium.com 1b671e128549.png]]
+![[Association Relationship.png]]
 
 As a data engineer, the first step in determining what type of fact table to use is to understand the business requirements and the data sources that will be used to populate the fact table. Here are some general guidelines for determining the type of fact table to use: 
 

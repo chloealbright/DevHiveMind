@@ -32,7 +32,7 @@ UML sign for static member for attributes and methods;; underline or bold and un
 ## Class Diagram 
 #todo/Med/Dev 
 - [ ] *This can repurposed for function diagram which would increase number of tables also do this in obsidian you can also have big boxes to represent folders/modules
-![[2023-06-17 12.23.43 medium.com 7444e17e7519.png]]
+![[Class Diagram.png]]
 ### UML Class Signs
 
 ^7de0bf

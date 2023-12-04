@@ -9,7 +9,7 @@ Started:
 EditDate: 2023-10-29
 Relates:
 ---
-![[2023-06-17 12.32.33 medium.com 208fcebdac2c.png]]
+![[Inheritance Class Diagram.png]]
 
 
 With inheritance you just access what another class can do

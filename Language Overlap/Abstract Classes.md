@@ -30,7 +30,7 @@ An abstract class is a fundamental concept in object-oriented programming that c
 - What are the differences between inheritance and abstraction?
   - The key difference between the two principles lies in how abstraction focuses on the privacy of functionality, while inheritance focuses on sharing functionality (and reusability).
 # Structural model
-![[2023-06-17 12.38.06 medium.com 7a1fbbfaa1b5.png]]
+![[Abstract class Diagram.png]]
 
 
 Abstract classes typically feature the abstract keyword in their declaration and should contain at least one abstract method, i.e., a method without a body. They can also have multiple concrete methods. The inheriting classes are obliged to implement the abstract methods, ensuring a consistent structure across subclasses.

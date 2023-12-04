@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
+---
 ![[Job Cycle.png]]
 
 ![[Tech Layoffs.png]]

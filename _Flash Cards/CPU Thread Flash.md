@@ -1,7 +1,8 @@
 ---
 tags: 
-author: jacgit18
-Status: 
+author:
+  - jacgit18
+Status: refinement
 Started: 
 EditDate: 
 Relates:

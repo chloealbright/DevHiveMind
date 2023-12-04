@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev Roadmaps By Priority.md",
+                "file": "_CODE/_Capture/GRASP Design Principles.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,6 +61,24 @@
           }
         ],
         "currentTab": 4
+      },
+      {
+        "id": "008065ee61454ce3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0115851c750da7ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Clean Code.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +107,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Concurrent",
+                "query": "code smell",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -122,7 +140,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -142,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev Roadmaps By Priority.md",
+                "file": "Architecture/Clean Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev Roadmaps By Priority.md",
+                "file": "Architecture/Clean Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dev Roadmaps By Priority.md"
+                "file": "Architecture/Clean Code.md"
               }
             }
           },
@@ -286,8 +305,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "00c7485c7bf5ff72",
+  "active": "0115851c750da7ab",
   "lastOpenFiles": [
+    "_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part I  by aruva - empowering ideas  May, 2023  Medium.md",
+    "_CODE/_Capture/GRASP Design Principles.md",
+    "_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part II  by aruva - empowering ideas  May, 2023  Medium.md",
+    "_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part III  by aruva - empowering ideas  May, 2023  Medium.md",
+    "_CODE/_Capture/Obsidian Understanding its Core Design Principles  by TfTHacker  Obsidian Observer  Medium.md",
+    "_CODE/_Capture/My Obsidian Setup — My Notes and My Theme settings  by Nuno Campos  Obsidian Observer  Apr, 2023  Medium.md",
+    "_CODE/_Capture/Mutex.md",
+    "_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md",
+    "_CODE/_Capture/Grokking System Design Interview Key Performance Metrics Every Engineer Should Know.  by Arslan Ahmad  Geek Culture  Apr, 2023  Medium.md",
+    "_CODE/_Capture/Distributed tracking and monitoring.md",
+    "_CODE/_Capture/Designing Class to be Serializable.md",
+    "_CODE/_Capture/Design Patterns A Guide to JavaScript Development Principles for Clean and Scalable Code  by Anto Semeraro  Jun, 2023  JavaScript in Plain English.md",
+    "_CODE/_Capture/Code.md",
+    "_Flash Cards/CPU Thread Flash.md",
+    "Dev Roadmaps By Priority.md",
     "Home.md",
     "README.md",
     "_Images/_Main/Things Todo.gif",
@@ -311,23 +345,8 @@
     "_Images/LangOverlap/Inheritance Class Diagram.png",
     "_Images/Database/Aggregation and Composition.png",
     "_Images/LangOverlap/Abstract class Diagram.png",
-    "Companies/Agile to edit/Requirements life cycle.md",
-    "Codebase Architecture Decisions/_I_nterface Segregation Principle.md",
-    "Language Overlap/Types of coupling.md",
-    "Language Overlap/Types of Cohesion.md",
-    "Architecture/Design Patterns.md",
-    "Language Overlap/Batch Processing vs Stream Processing.md",
-    "Language Overlap/Synchronous  vs Asynchronous vs  Multiprocessing.md",
-    "Language Overlap/CPUs.md",
-    "Language/Static Method Reference.md",
-    "Language/Programming paradigms.md",
-    "Language/Domain-specific programming languages.md",
-    "_CODE/Express/Be Aware.md",
     "Mind Maps/Drafts/Gateway.canvas",
-    "Architecture/Microservices.md",
     "Mind Maps/Drafts/File system.canvas",
-    "Devops/OS/Linux/Commands.md",
-    "Devops/OS/Linux/Cerebro Program.md",
     "Untitled.canvas",
     "_Pdf/Books/Testing/More-Agile-Testing-Janet-Gregory-Lisa-Crispin-2014.pdf",
     "_Pdf/Books/Testing/SSG_ENU_98-379_SoftTestFund.pdf",

@@ -8,38 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c068a68ca9ed878c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI & Chatgpt/Output/create java code for this.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fb9457ebeec51c0f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "008065ee61454ce3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0115851c750da7ab",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Clean Code.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI & Chatgpt/Output/create java code for this.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI & Chatgpt/Output/create java code for this.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI & Chatgpt/Output/create java code for this.md"
+                "file": "README.md"
               }
             }
           },
@@ -271,8 +245,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "fb9457ebeec51c0f",
   "lastOpenFiles": [
+    "Home.md",
     "AI & Chatgpt/prompts/Structural model Prompt.md",
     "AI & Chatgpt/Output/features for a driving school.md",
     "Companies/Work Process.png",
@@ -303,7 +278,6 @@
     "Architecture/Code standards.md",
     "Architecture/Principles/GRASP Design Principles.md",
     "Architecture/Principles",
-    "Language/Typescript/Custom Type.md",
     "_Images/_Main/Things Todo.gif",
     "_Images/_Main/Learning Approach.png",
     "_Images/_Main",

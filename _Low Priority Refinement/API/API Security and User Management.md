@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 -   Identification - Who is making an API request? 
     
 -   Authentication - Are they really who they say they are? 

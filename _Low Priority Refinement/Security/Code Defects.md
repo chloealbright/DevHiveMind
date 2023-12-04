@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: done
+Started: 
+EditDate: 
+Relates:
+---
 In software development, a program's behavior is often defined by its current state. A state represents the condition or situation of the system at a specific point in time. Defects can arise when there are inconsistencies or errors in how the code handles different states or transitions between them.
 
 For example, if a program has different states for user authentication (logged in, logged out), errors may occur if the transition between these states is not handled properly. This could lead to security vulnerabilities or unexpected behavior. Similarly, in complex applications, managing the state of various components or modules is crucial, and defects may occur if state transitions are not well-defined or if there are unintended side effects.

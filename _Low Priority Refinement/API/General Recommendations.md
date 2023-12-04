@@ -1,3 +1,11 @@
+---
+tags: 
+author: 
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 -   API Data Protection Recommendations 
     
     -   Use SSL when the API includes sensitive data, or if the authentication mechanism does not include an encryption component. HTTP Basic authentication and OAuth with bearer tokens, for instance, allow an eavesdropper to intercept the security credentials unless SSL is used. 

@@ -1,3 +1,11 @@
+---
+tags: 
+author: 
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 How to expire a single JWT token 
 
 How do you invalidate a single token? A no-effort solution is to change the server secret key, which invalidates all tokens. However, this is not ideal for users, who may have their tokens expired for no reason. 

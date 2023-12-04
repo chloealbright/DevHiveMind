@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Rate limiting is a control mechanism employed by API owners to prevent the system from being overtaxed by API data traffic and to tie API usage to specific business outcomes. There are various subcategories of rate limits, and in fact the whole topic is specifically tied to the general area of traffic management. We will cover all the options later in Chapter 8. 
 
 Before getting to the technical details, however, it is important to discuss how business-level rate limits, which we call quotas, affect the design of the API. 

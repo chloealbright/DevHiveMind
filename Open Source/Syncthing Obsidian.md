@@ -1,3 +1,13 @@
+---
+tags: 
+author:
+  - jacgit18
+  - chatgpt
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 When using Syncthing to sync your Obsidian notes across devices, there are a few things you can avoid syncing to minimize the chances of sync conflicts:
 
 1. **Cache and temporary files**: Obsidian creates temporary files and caches data to improve performance. Exclude the cache and temporary directories from syncing to avoid conflicts caused by these files. In Obsidian's settings, you can specify the location of the cache and vault folders, and you can exclude the cache folder from syncing.

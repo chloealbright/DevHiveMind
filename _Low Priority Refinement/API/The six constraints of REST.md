@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[six-paths-of-pain-naruto-w2mrtj5sk0ccusoz.gif]]
 How REST relates to HTTP 
 

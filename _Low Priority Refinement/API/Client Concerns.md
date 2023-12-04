@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Rule: New URIs should be used to introduce new concepts 
 
 Rule: Schemas should be used to manage representational form versions 

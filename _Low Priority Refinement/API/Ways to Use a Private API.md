@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Private APIs can be applied in a variety of ways: 
 
 Private APIs can be used to create apps to release to the public. This model is often used by large brands with the resources to develop apps and who want to control what their public apps do. After all, who knows your brand, your content, and your service offering better than you do? 

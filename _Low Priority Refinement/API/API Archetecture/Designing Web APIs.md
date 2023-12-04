@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
+---
 [[Event Driven Architecture]] 
 Event-Driven APIs & WebHooks
 

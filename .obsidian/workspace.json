@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools/ESLint.md",
+                "file": "Open Source/Syncthing Obsidian.md",
                 "mode": "preview",
                 "source": false
               }
@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security/ESLint.md",
+                "file": "Open Source/Syncthing Obsidian.md",
                 "mode": "source",
                 "source": false
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security/ESLint.md",
+                "file": "Open Source/Syncthing Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security/ESLint.md",
+                "file": "Open Source/Syncthing Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security/ESLint.md"
+                "file": "Open Source/Syncthing Obsidian.md"
               }
             }
           },
@@ -277,42 +277,42 @@
   },
   "active": "671cca99d963da08",
   "lastOpenFiles": [
-    "Tools/ESLint.md",
-    "Security/ESLint.md",
-    "Tools/Text Editors & IDE/Inteli J.md",
-    "Tools/Text Editors & IDE/Vscode things to add.md",
-    "Home.md",
+    "Open Source/Syncthing.md",
+    "Open Source/To Look into.md",
+    "Open Source/Syncthing Obsidian.md",
+    "_Low Priority Refinement/API/API Archetecture/API designs to consider.md",
+    "_Low Priority Refinement/API/API Archetecture/API designs to cons.md",
+    "_Low Priority Refinement/API/API Archetecture/API Metadata Desig.md",
+    "_Low Priority Refinement/API/API Archetecture/API Metadata Design.md",
+    "_Low Priority Refinement/API/API Archetecture/Designing Web AP.md",
+    "_Low Priority Refinement/API/API Archetecture/Designing Web APIs.md",
+    "_Low Priority Refinement/API/API.md",
+    "_Low Priority Refinement/API/API Gateway.md",
+    "_Low Priority Refinement/API/API Protocol.jpeg",
+    "_Low Priority Refinement/API/API Security and User Management.md",
+    "_Low Priority Refinement/API/Authentication vs Authorization.md",
+    "_Low Priority Refinement/API/Client Concerns.md",
+    "_Low Priority Refinement/API/Controlling API Traffic.md",
+    "_Low Priority Refinement/API/Different Types Of Encoding Schemes.md",
+    "_Low Priority Refinement/API/General Recommendations.md",
+    "_Low Priority Refinement/API/Mastering the Art of API Design - by Alex Xu.md",
+    "_Low Priority Refinement/API/other aspect of api.md",
+    "_Low Priority Refinement/API/Representation Design more to go over.md",
+    "_Low Priority Refinement/API/Rest API Design.jpeg",
+    "_Low Priority Refinement/API/The general HTTP authentication framework.md",
+    "_Low Priority Refinement/API/The six constraints of REST.md",
+    "_Low Priority Refinement/API/Ways to Use a Private API.md",
+    "_Low Priority Refinement/API/What is a REST AP.md",
+    "_Low Priority Refinement/API/What is a REST API.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain model.md",
+    "_Low Priority Refinement/Security/Security By OSI Layer.jpeg",
     "_Images/Algo/2D Array.png",
-    "Companies/Tech company hiring cycle & Hustle.md",
-    "Companies/Software Carpentier Journey.md",
-    "Companies/General Dev Issues When starting at a New company.md",
-    "Companies/Employment Best Personal Practices.md",
-    "Companies/People/People to know & TD Questions.md",
-    "Companies/People/References.md",
-    "Companies/People/intentions.md",
-    "Companies/People/Dealing with People.md",
-    "Companies/People/Conversation Tactics & Starters.md",
-    "Companies/People/Companies & Favours.md",
     "_Images/Companies Models/2023-04-01 11.30.42 mailcitytechcuny-my.sharepoint.com f5e57e000696.png",
-    "Cloud/Benefits of cloud.md",
     "_Images/Cloud/Service Types overlap.png",
     "_Images/Cloud/Service Types.jpg",
     "_Images/Algo/AlgoFlow.png",
-    "Architecture/FaaS.md",
-    "Architecture/IaaS.md",
-    "Architecture/Design Patterns.md",
-    "Architecture/Dependency injection model.md",
-    "Architecture/Principles/BUD.md",
-    "Architecture/Boxing and Unboxing.md",
     "Architecture/Architect Styles.jpeg",
-    "Architecture/Arch to think about.md",
-    "Architecture/Apache Kafka.md",
     "_Images/_Main/Archetecture.jpg",
-    "AI & Chatgpt/prompts/Structural model Prompt.md",
-    "AI & Chatgpt/Output/features for a driving school.md",
-    "Companies/Work Process.png",
-    "_Images/LangOverlap/Class Diagram.png",
-    "_Images/Method/Concurrency workload.png",
     "Architecture/Principles",
     "_Images/_Main",
     "_Images/Method",

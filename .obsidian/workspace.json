@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_CODE/_Capture/GRASP Design Principles.md",
+                "file": "Architecture/Principles/DRY.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,8 +140,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -161,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Clean Code.md",
+                "file": "Architecture/Principles/DRY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Clean Code.md",
+                "file": "Architecture/Principles/DRY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Clean Code.md"
+                "file": "Architecture/Principles/DRY.md"
               }
             }
           },
@@ -305,10 +304,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0115851c750da7ab",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "Architecture/BUD.md",
+    "Architecture/Principles/DRY.md",
+    "Codebase Architecture Decisions/Boxing and Unboxing.md",
+    "Architecture/Code standards.md",
+    "Architecture/Principles/GRASP Design Principles.md",
+    "Architecture/Principles",
+    "Language/Typescript/Custom Type.md",
+    "Architecture/Clean Code.md",
     "_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part I  by aruva - empowering ideas  May, 2023  Medium.md",
-    "_CODE/_Capture/GRASP Design Principles.md",
     "_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part II  by aruva - empowering ideas  May, 2023  Medium.md",
     "_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part III  by aruva - empowering ideas  May, 2023  Medium.md",
     "_CODE/_Capture/Obsidian Understanding its Core Design Principles  by TfTHacker  Obsidian Observer  Medium.md",
@@ -330,18 +336,12 @@
     "_Images/_Main",
     "Language Overlap/Inheritance Composition Encapsulation.md",
     "Language Overlap/Abstract Classes.md",
-    "Language Overlap/Access Modifiers.md",
-    "Methodology/Twelve Factor App/Twelve Factor App Concurrency.md",
     "_Images/Method",
     "_Images/Method/Concurrency workload.png",
-    "Architecture/Microservices best practices.md",
     "_Images/Companies Models/BSA Req Life Cycle.png",
     "_Images/Arch/Circle Implements Shape Interface.png",
     "_Images/LangOverlap/Flow of control.gif",
-    "Database/Database Archetecture/Data Architecture.md",
     "_Images/LangOverlap/Class Diagram.png",
-    "Language Overlap/Flow of Control.md",
-    "Language Overlap/Coupling vs Cohesion.md",
     "_Images/LangOverlap/Inheritance Class Diagram.png",
     "_Images/Database/Aggregation and Composition.png",
     "_Images/LangOverlap/Abstract class Diagram.png",
@@ -355,7 +355,6 @@
     "_Pdf/Books/Architecture/Systemantics How Systems Work and Especially How They Fail (John Gall) (z-lib.org).pdf",
     "_Pdf/Books/Architecture/System Design Interview An Insider’s Guide by Alex Yu (z-lib.org).pdf",
     "_Pdf/Books/Architecture/System Analysis and Design Methods 7th.pdf",
-    "_Pdf/Books/Architecture/Software Architecture The Hard Parts Modern Trade-Off Analyses for Distributed Architectures (Neal Ford, Mark Richards, Pramod Sadalage etc.) (z-lib.org).pdf",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Event Messaging.canvas",

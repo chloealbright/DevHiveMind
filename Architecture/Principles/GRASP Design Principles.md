@@ -1,7 +1,12 @@
 ---
 tags:
   - pattern
-author: jacgit18
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 General Responsibility Assignment Software Patterns (GRASP) is another set of design principles.
 
@@ -99,29 +104,3 @@ The Liskov substitution principle, where the child classes should always work wh
 
 The open/closed principle that we can add, but we try not to change code that works already is yet another.
 
-# Code Smell
-
-Code Smells are a great term for when reading code, the code may be valid, it may work, but there is something about it that just doesn’t smell right.
-
-It’s often a clue, a warning sign of a deeper problem, that there is a part in the code indicates violation of fundamental design principles and negatively impact design quality.
-
-And here are just a few examples of what we mean by a code smell.
-
-## Long Method
-
-One would be the idea of a long method. We open up a method to read it, it has got many lines. This is the kind of thing that really needs to be split up into much smaller methods.
-
-## Identifiers
-
-Working with very short or very long identifiers. Aside from using letters like ‘i’ for indexes and iteration, we shouldn’t be expecting to see variables called A and B and C in real code.
-
-
-## The God Object
-
-This is where you have one master object that tries to do everything in the program, or at least one object that seems to be doing very different responsibilities that have nothing to do with each other.
-
-It’s a clue that this needs to be revisited and broken apart into the right kind of objects.
-
-## Feature Envy
-
-And then there’s feature envy. If a class seems to do very little except it uses all the methods of one other class, it’s another sign that you need to rethink the roles of one or the other.

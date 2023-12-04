@@ -33,7 +33,7 @@ Get rid of unnecessary work like a condition or a loop especially if it doesn't 
 
 
 
-## Duplicated Work or DRY Don't Repeat Yourself
+## Duplicated Work or [[DRY]] Don't Repeat Yourself
 
 
 

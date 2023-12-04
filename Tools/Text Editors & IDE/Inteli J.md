@@ -1,3 +1,11 @@
+---
+tags: 
+author: 
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 [https://www.jetbrains.com/help/idea/creating-and-managing-projects.html#directory-based](https://www.jetbrains.com/help/idea/creating-and-managing-projects.html#directory-based)  
   
   

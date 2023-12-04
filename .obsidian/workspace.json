@@ -11,9 +11,11 @@
             "id": "de42f5b0caee3abf",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_Images/Algo/2D Array.png"
+                "file": "Tools/ESLint.md",
+                "mode": "preview",
+                "source": false
               }
             }
           },
@@ -29,8 +31,25 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "71c6b8e3b6a19966",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "671cca99d963da08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Security/ESLint.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Tech company hiring cycle & Hustle.md",
+                "file": "Security/ESLint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Tech company hiring cycle & Hustle.md",
+                "file": "Security/ESLint.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Tech company hiring cycle & Hustle.md"
+                "file": "Security/ESLint.md"
               }
             }
           },
@@ -256,8 +275,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "929b94e1f97d20a0",
+  "active": "671cca99d963da08",
   "lastOpenFiles": [
+    "Tools/ESLint.md",
+    "Security/ESLint.md",
+    "Tools/Text Editors & IDE/Inteli J.md",
+    "Tools/Text Editors & IDE/Vscode things to add.md",
+    "Home.md",
+    "_Images/Algo/2D Array.png",
+    "Companies/Tech company hiring cycle & Hustle.md",
     "Companies/Software Carpentier Journey.md",
     "Companies/General Dev Issues When starting at a New company.md",
     "Companies/Employment Best Personal Practices.md",
@@ -271,7 +297,6 @@
     "Cloud/Benefits of cloud.md",
     "_Images/Cloud/Service Types overlap.png",
     "_Images/Cloud/Service Types.jpg",
-    "_Images/Algo/2D Array.png",
     "_Images/Algo/AlgoFlow.png",
     "Architecture/FaaS.md",
     "Architecture/IaaS.md",
@@ -283,15 +308,9 @@
     "Architecture/Arch to think about.md",
     "Architecture/Apache Kafka.md",
     "_Images/_Main/Archetecture.jpg",
-    "Home.md",
     "AI & Chatgpt/prompts/Structural model Prompt.md",
     "AI & Chatgpt/Output/features for a driving school.md",
     "Companies/Work Process.png",
-    "Companies/Tech company hiring cycle & Hustle.md",
-    "AI & Chatgpt/Output/create java code for this.md",
-    "Architecture/SAGA.md",
-    "Architecture/Circuit breaker pattern relationship with fault tolerance.md",
-    "Architecture/Functions rules.md",
     "_Images/LangOverlap/Class Diagram.png",
     "_Images/Method/Concurrency workload.png",
     "Architecture/Principles",

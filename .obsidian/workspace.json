@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language Overlap/Flow of Control.md",
+                "file": "AI & Chatgpt/prompts/Structural model Prompt.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language Overlap/Flow of Control.md",
+                "file": "AI & Chatgpt/prompts/Structural model Prompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language Overlap/Flow of Control.md",
+                "file": "AI & Chatgpt/prompts/Structural model Prompt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language Overlap/Flow of Control.md"
+                "file": "AI & Chatgpt/prompts/Structural model Prompt.md"
               }
             }
           },
@@ -273,35 +273,37 @@
   },
   "active": "c068a68ca9ed878c",
   "lastOpenFiles": [
+    "Codebase Architecture Decisions/CodeProcess/features for a driving school.md",
+    "Companies/Work Process.png",
+    "Companies/Tech company hiring cycle & Hustle.md",
+    "Companies/Software Carpentier Journey.md",
+    "Companies/General Dev Issues When starting at a New company.md",
+    "Companies/Employment Best Personal Practices.md",
+    "Codebase Architecture Decisions/CodeProcess/create java code for this.md",
+    "Architecture/SAGA.md",
+    "Architecture/Circuit breaker pattern relationship with fault tolerance.md",
+    "Architecture/Boxing and Unboxing.md",
+    "Architecture/Functions rules.md",
+    "Architecture/monadic functions.md",
+    "Architecture/flag arguments.md",
+    "Architecture/Dependency injection model.md",
+    "Architecture/Fault tolerance.md",
+    "Architecture/Enums Decision.md",
+    "Language Overlap/OO Thought process.md",
+    "Architecture/When to Cast.md",
+    "Architecture/Identify areas where it make sense to use Multi threading,  concurrency, collections, generics, and annotations.md",
+    "Language Overlap/Flow of Control.md",
     "_Images/LangOverlap/Class Diagram.png",
     "_Images/Method/Concurrency workload.png",
-    "Codebase Architecture Decisions/Functions rules.md",
-    "Codebase Architecture Decisions/monadic functions.md",
     "Architecture/StackOverflow.jpg",
     "Architecture/BUD.md",
     "Architecture/POt Struc.md",
     "Architecture/Principles/DRY.md",
-    "Codebase Architecture Decisions/Boxing and Unboxing.md",
     "Architecture/Code standards.md",
     "Architecture/Principles/GRASP Design Principles.md",
     "Architecture/Principles",
     "Language/Typescript/Custom Type.md",
     "Architecture/Clean Code.md",
-    "_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part I  by aruva - empowering ideas  May, 2023  Medium.md",
-    "_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part II  by aruva - empowering ideas  May, 2023  Medium.md",
-    "_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part III  by aruva - empowering ideas  May, 2023  Medium.md",
-    "_CODE/_Capture/Obsidian Understanding its Core Design Principles  by TfTHacker  Obsidian Observer  Medium.md",
-    "_CODE/_Capture/My Obsidian Setup — My Notes and My Theme settings  by Nuno Campos  Obsidian Observer  Apr, 2023  Medium.md",
-    "_CODE/_Capture/Mutex.md",
-    "_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md",
-    "_CODE/_Capture/Grokking System Design Interview Key Performance Metrics Every Engineer Should Know.  by Arslan Ahmad  Geek Culture  Apr, 2023  Medium.md",
-    "_CODE/_Capture/Distributed tracking and monitoring.md",
-    "_CODE/_Capture/Designing Class to be Serializable.md",
-    "_CODE/_Capture/Design Patterns A Guide to JavaScript Development Principles for Clean and Scalable Code  by Anto Semeraro  Jun, 2023  JavaScript in Plain English.md",
-    "_CODE/_Capture/Code.md",
-    "_Flash Cards/CPU Thread Flash.md",
-    "Dev Roadmaps By Priority.md",
-    "Home.md",
     "_Images/_Main/Things Todo.gif",
     "_Images/_Main/Learning Approach.png",
     "_Images/_Main",
@@ -310,7 +312,6 @@
     "_Images/Arch/Circle Implements Shape Interface.png",
     "_Images/LangOverlap/Flow of control.gif",
     "_Images/LangOverlap/Inheritance Class Diagram.png",
-    "_Images/Database/Aggregation and Composition.png",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Drafts/File system.canvas",
     "Untitled.canvas",

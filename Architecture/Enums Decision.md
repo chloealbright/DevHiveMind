@@ -1,3 +1,15 @@
+---
+tags:
+  - CodebaseDecision
+  - MacroCodebaseDecision
+  - MicroCodebaseDecision
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Enums are commonly used in various scenarios and system design decisions where a fixed set of constants or options need to be represented. Here are some examples:
 
 1. Representing Categories or Types: Enums can be used to represent different categories or types within a system. For instance, in an e-commerce application, you might have enums for product categories like "Electronics," "Clothing," or "Home & Kitchen."

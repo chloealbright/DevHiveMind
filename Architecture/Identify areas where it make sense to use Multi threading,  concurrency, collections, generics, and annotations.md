@@ -1,3 +1,15 @@
+---
+tags:
+  - CodebaseDecision
+  - MicroCodebaseDecision
+  - MacroCodebaseDecision
+author:
+  - jacgit18
+Status: done
+Started: 
+EditDate: 
+Relates:
+---
 In the driving school system, here are some areas where it makes sense to utilize multi-threading, concurrency, collections, generics, and annotations:
 
 1. Multi-threading and Concurrency:

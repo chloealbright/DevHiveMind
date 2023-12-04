@@ -17,7 +17,7 @@ Key characteristics of stateless processes include:
 
 3. Simplicity: Stateless systems are often simpler to design and maintain because they don't need to manage and synchronize shared state data.
 
-4. [[Fault Tolerance]]: Stateless processes are more resilient to failures since they don't rely on specific instances or data stores. If one instance fails, another can seamlessly take over.
+4. [[Fault tolerance]]: Stateless processes are more resilient to failures since they don't rely on specific instances or data stores. If one instance fails, another can seamlessly take over.
 
 5. Load Balancing: Load balancing is easier to implement, as requests can be distributed evenly to any available instance without concern for session affinity.
 

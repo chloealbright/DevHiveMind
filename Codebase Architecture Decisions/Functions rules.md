@@ -9,8 +9,7 @@ tags:
 - Prefer fewer arguments.
 - Have no side effects.
 - Don't use [[flag arguments]]. Split method into several independent methods that can be called from the client without the flag.  flag would be some boolean value you use as a arg in a function and use it within your conditional logic 
--  
-So, another way to know that a function is doing more than “one thing” is if you can extract another function from it with a name that is not merely a restatement of its implementation.
+- So, another way to know that a function is doing more than “one thing” is if you can extract another function from it with a name that is not merely a restatement of its implementation.
 
 
 It’s hard to make a small switch statement. Even a switch statement with only two cases is larger than I’d like a single block or function to be. It’s also hard to make a switch statement that does one thing. By their nature, switch statements always do  N  things. Unfortunately we can’t always avoid switch statements, but we  can  make sure that each switch statement is buried in a low-level class and is never repeated. We do this, of course, with polymorphism.

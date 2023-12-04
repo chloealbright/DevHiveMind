@@ -7,10 +7,12 @@ author:
   - jacgit18
 Status: done
 Started: 
-EditDate: 
+EditDate: 2023-12-03
 Relates:
 ---
 ![[Bud.gif]]
+
+"Bud" is more of a metaphorical term used informally to describe a small, suboptimal part of code that could be improved. While it captures the idea of identifying and addressing small issues in the codebase, it's not a formalized or widely adopted principle like [[DRY]], KISS, and[[SOLID Design Principles | SOLID]] in software engineering.
 
 ## Bottlenecks 
 
@@ -33,8 +35,45 @@ Get rid of unnecessary work like a condition or a loop especially if it doesn't 
 
 
 
-## Duplicated Work or [[DRY]] Don't Repeat Yourself
+## Duplicated Work
 
+Duplicate work in programming refers to having redundant or repeated code, where similar logic is implemented more than once. This can lead to maintenance challenges, increased likelihood of bugs, and decreased code readability. Using TypeScript, let's consider a simple example:
+
+Suppose you have a program that calculates the area of different shapes, and you've implemented a function for calculating the area of a rectangle and a square separately. Here's an example with duplicate work:
+
+```typescript
+function calculateRectangleArea(length: number, width: number): number {
+    return length * width;
+}
+
+function calculateSquareArea(side: number): number {
+    return side * side;
+}
+
+// Somewhere else in the code...
+const rectangleArea = calculateRectangleArea(5, 8);
+const squareArea = calculateSquareArea(4);
+```
+
+In this example, both `calculateRectangleArea` and `calculateSquareArea` contain similar logic for calculating the area of a shape. To eliminate duplicate work, you could create a more generic function:
+
+```typescript
+function calculateArea(sideOrLength: number, width?: number): number {
+    if (width !== undefined) {
+        // Rectangle
+        return sideOrLength * width;
+    } else {
+        // Square
+        return sideOrLength * sideOrLength;
+    }
+}
+
+// Usage
+const rectangleArea = calculateArea(5, 8);
+const squareArea = calculateArea(4);
+```
+
+Now, the `calculateArea` function handles both rectangles and squares, reducing duplicate work and making the code more maintainable. This way, if you need to update the area calculation logic, you only have to do it in one place.
 
 
 

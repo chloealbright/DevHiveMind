@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Database Archetecture/Fact Table.md",
+                "file": "Dev Roadmaps By Priority.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Database Archetecture/Fact Table.md",
+                "file": "Dev Roadmaps By Priority.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Database Archetecture/Fact Table.md",
+                "file": "Dev Roadmaps By Priority.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Database Archetecture/Fact Table.md"
+                "file": "Dev Roadmaps By Priority.md"
               }
             }
           },
@@ -286,15 +286,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "00c7485c7bf5ff72",
   "lastOpenFiles": [
+    "Home.md",
+    "README.md",
+    "_Images/_Main/Things Todo.gif",
+    "_Images/_Main/Learning Approach.png",
+    "Database/Database Archetecture/Fact Table.md",
+    "_Images/_Main",
     "Language Overlap/Inheritance Composition Encapsulation.md",
     "Language Overlap/Abstract Classes.md",
     "Language Overlap/Access Modifiers.md",
     "Methodology/Twelve Factor App/Twelve Factor App Concurrency.md",
     "_Images/Method",
     "_Images/Method/Concurrency workload.png",
-    "Database/Database Archetecture/Fact Table.md",
     "Architecture/Microservices best practices.md",
     "_Images/Companies Models/BSA Req Life Cycle.png",
     "_Images/Arch/Circle Implements Shape Interface.png",
@@ -306,13 +311,10 @@
     "_Images/LangOverlap/Inheritance Class Diagram.png",
     "_Images/Database/Aggregation and Composition.png",
     "_Images/LangOverlap/Abstract class Diagram.png",
-    "_Images/Archetecture.jpg",
-    "_Images/Banner.gif",
     "Companies/Agile to edit/Requirements life cycle.md",
     "Codebase Architecture Decisions/_I_nterface Segregation Principle.md",
     "Language Overlap/Types of coupling.md",
     "Language Overlap/Types of Cohesion.md",
-    "Home.md",
     "Architecture/Design Patterns.md",
     "Language Overlap/Batch Processing vs Stream Processing.md",
     "Language Overlap/Synchronous  vs Asynchronous vs  Multiprocessing.md",
@@ -326,7 +328,6 @@
     "Mind Maps/Drafts/File system.canvas",
     "Devops/OS/Linux/Commands.md",
     "Devops/OS/Linux/Cerebro Program.md",
-    "_CODE/Express/Dev Todo.md",
     "Untitled.canvas",
     "_Pdf/Books/Testing/More-Agile-Testing-Janet-Gregory-Lisa-Crispin-2014.pdf",
     "_Pdf/Books/Testing/SSG_ENU_98-379_SoftTestFund.pdf",
@@ -336,7 +337,6 @@
     "_Pdf/Books/Architecture/System Design Interview An Insider’s Guide by Alex Yu (z-lib.org).pdf",
     "_Pdf/Books/Architecture/System Analysis and Design Methods 7th.pdf",
     "_Pdf/Books/Architecture/Software Architecture The Hard Parts Modern Trade-Off Analyses for Distributed Architectures (Neal Ford, Mark Richards, Pramod Sadalage etc.) (z-lib.org).pdf",
-    "_Pdf/Books/Architecture/Patterns of Enterprise Application Architecture - Martin Fowler.pdf",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Event Messaging.canvas",

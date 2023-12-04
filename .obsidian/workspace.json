@@ -13,11 +13,22 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "_Images/Algo/AlgoFlow.png"
+                "file": "_Images/Algo/2D Array.png"
+              }
+            }
+          },
+          {
+            "id": "929b94e1f97d20a0",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_Images/Companies Models/2023-04-01 11.30.42 mailcitytechcuny-my.sharepoint.com f5e57e000696.png"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Images/Algo/AlgoFlow.png",
+                "file": "_Images/Companies Models/2023-04-01 11.30.42 mailcitytechcuny-my.sharepoint.com f5e57e000696.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Images/Algo/AlgoFlow.png",
+                "file": "_Images/Companies Models/2023-04-01 11.30.42 mailcitytechcuny-my.sharepoint.com f5e57e000696.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Images/Algo/AlgoFlow.png"
+                "file": "_Images/Companies Models/2023-04-01 11.30.42 mailcitytechcuny-my.sharepoint.com f5e57e000696.png"
               }
             }
           },
@@ -243,9 +254,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "de42f5b0caee3abf",
+  "active": "929b94e1f97d20a0",
   "lastOpenFiles": [
+    "Cloud/Benefits of cloud.md",
+    "_Images/Cloud/Service Types overlap.png",
+    "_Images/Cloud/Service Types.jpg",
     "_Images/Algo/2D Array.png",
+    "_Images/Algo/AlgoFlow.png",
+    "Architecture/FaaS.md",
+    "Architecture/IaaS.md",
+    "Architecture/Design Patterns.md",
+    "Architecture/Dependency injection model.md",
+    "Architecture/Principles/BUD.md",
+    "Architecture/Boxing and Unboxing.md",
+    "Architecture/Architect Styles.jpeg",
+    "Architecture/Arch to think about.md",
+    "Architecture/Apache Kafka.md",
     "_Images/_Main/Archetecture.jpg",
     "Home.md",
     "AI & Chatgpt/prompts/Structural model Prompt.md",
@@ -258,32 +282,18 @@
     "AI & Chatgpt/Output/create java code for this.md",
     "Architecture/SAGA.md",
     "Architecture/Circuit breaker pattern relationship with fault tolerance.md",
-    "Architecture/Boxing and Unboxing.md",
     "Architecture/Functions rules.md",
     "Architecture/monadic functions.md",
     "Architecture/flag arguments.md",
-    "Architecture/Dependency injection model.md",
     "Architecture/Fault tolerance.md",
     "Architecture/Enums Decision.md",
     "Language Overlap/OO Thought process.md",
-    "Architecture/When to Cast.md",
-    "Architecture/Identify areas where it make sense to use Multi threading,  concurrency, collections, generics, and annotations.md",
-    "Language Overlap/Flow of Control.md",
     "_Images/LangOverlap/Class Diagram.png",
     "_Images/Method/Concurrency workload.png",
     "Architecture/StackOverflow.jpg",
-    "Architecture/BUD.md",
-    "Architecture/POt Struc.md",
-    "Architecture/Principles/DRY.md",
-    "Architecture/Code standards.md",
     "Architecture/Principles",
-    "_Images/_Main/Things Todo.gif",
-    "_Images/_Main/Learning Approach.png",
     "_Images/_Main",
     "_Images/Method",
-    "_Images/Companies Models/BSA Req Life Cycle.png",
-    "_Images/Arch/Circle Implements Shape Interface.png",
-    "_Images/LangOverlap/Flow of control.gif",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Drafts/File system.canvas",
     "Untitled.canvas",

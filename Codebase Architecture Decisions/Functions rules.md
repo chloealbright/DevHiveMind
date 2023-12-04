@@ -2,6 +2,12 @@
 tags:
   - MacroCodebaseDecision
   - CleanPrinciples
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
 ---
 - Small.
 - Do one thing.

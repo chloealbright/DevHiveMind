@@ -4,7 +4,7 @@ notes can also be converted into different diagram models
 
 ![[Modeling.png]]
 
-
+![[Process Flow UML.jpeg]]
 
 ![[Swimlane.png]]
 
@@ -73,4 +73,4 @@ change names of states like set destination or radius to past tense like destina
 
 Like process flow but more so for business function and mechanism
 
-![[2023-04-01 11.30.42 mailcitytechcuny-my.sharepoint.com f5e57e000696.png]]
+![[BSA Position.png]]

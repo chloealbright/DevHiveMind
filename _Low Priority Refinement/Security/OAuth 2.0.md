@@ -7,9 +7,9 @@ Started:
 EditDate: 
 Relates:
 ---
-![[_Images/LangOverlap/GetImage (3).jpeg]]
+![[Workflow auth.jpeg]]
 
-![[GetImage (15).png]]
+![[Auth Grant Flow.png]]
 
 
 This is the version 2 of the OAuth protocol. It can be referred to as a authorization framework as well. Version 2 simplifies the previous version of the protocol and facilitates interoperability between different applications. Even Google and popular social websites like Facebook and Twitter also uses OAuth2 protocol for authentications and authorizations. 

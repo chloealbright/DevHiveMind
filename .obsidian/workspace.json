@@ -11,9 +11,11 @@
             "id": "929b94e1f97d20a0",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_Images/Languages/Collections in Java.png"
+                "file": "Mind Maps/Drafts/UML/Models.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -29,9 +31,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Execution Order.md",
+                "file": "_Low Priority Refinement/Security/OAuth 2.0.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "6adfe5af25c38e7b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_Images/LangOverlap/GetImage (16).png"
               }
             }
           },
@@ -39,13 +51,12 @@
             "id": "2edea2094adb3166",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/Database/Data jobs Description.png"
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -127,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Execution Order.md",
+                "file": "_Images/LangOverlap/GetImage (16).png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Execution Order.md",
+                "file": "_Images/LangOverlap/GetImage (16).png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Execution Order.md"
+                "file": "_Images/LangOverlap/GetImage (16).png"
               }
             }
           },
@@ -271,47 +282,51 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "87ce08e8f0a9f512",
+  "active": "6adfe5af25c38e7b",
   "lastOpenFiles": [
-    "_Images/Languages/Collections in Java.png",
-    "_Images/Languages/GetImage (1).png",
-    "_Images/Languages/caveman-spongebob-patrick-star.gif",
-    "_Images/Languages/2023-04-22 10.45.24 gradlehero.com e816d2896834.png",
-    "_Images/Languages/2023-04-22 10.45.05 gradlehero.com 179c4eb64d61.png",
-    "_Images/Languages/2023-04-21 23.53.18 gradlehero.com 4a83d22070e4.png",
-    "_Images/Languages/2023-04-21 23.52.37 gradlehero.com 355fc58c9cd0.png",
-    "_Images/LangOverlap/Visual Garbage Collection.gif",
-    "_Images/LangOverlap/unnamed 4.gif",
-    "_Images/LangOverlap/unnamed (12).gif",
-    "_Images/LangOverlap/Camel Case.png",
-    "Database/Execution Order.md",
-    "_Flash Cards/CPU Thread Flash.md",
-    "_CODE/Express/Tech Things to Research.md",
-    "_CODE/Express/Study Session.md",
-    "_CODE/Express/Dev Todo.md",
-    "_CODE/Express/Be Aware.md",
-    "_CODE/Express/Algo left to over to do.md",
-    "_CODE/Distill/Development Perpetual Practices.md",
-    "_CODE/Distill/_Perpetual BAU.md",
-    "_CODE/_Organize/Tech tips.md",
-    "_CODE/_Organize/Project idea.md",
-    "_CODE/_Organize/Node Project Structure.md",
-    "_CODE/_Organize/Glossary.md",
-    "_CODE/_Organize/Data Project Idea.md",
-    "_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md",
-    "_CODE/_Capture/Distributed tracking and monitoring.md",
-    "_CODE/_Capture/Designing Class to be Serializable.md",
-    "_CODE/_Capture/Design Patterns and Pattern Languages.md",
-    "_CODE/_Capture/Design Patterns A Guide to JavaScript Development Principles for Clean and Scalable Code  by Anto Semeraro  Jun, 2023  JavaScript in Plain English.md",
-    "_CODE/_Capture/Code.md",
+    "_Images/LangOverlap/Flow of control.gif",
+    "_Images/Companies Models/BSA Req Life Cycle.png",
+    "_Images/Companies Models/BSA Position.png",
+    "_Images/Companies Models/Use case Relationship.png",
+    "_Images/Companies Models/System interface.jpeg",
+    "_Images/Companies Models/Swimlane.png",
+    "_Images/Companies Models/State Transition Diagrams.png",
+    "_Images/Companies Models/State Diagrams.png",
+    "_Images/Companies Models/Process Flow UML.jpeg",
+    "Mind Maps/Drafts/UML/Models.md",
+    "_Images/Database/Data jobs Description.png",
+    "Companies/Agile to edit/Agile.md",
+    "Companies/Agile to edit/Enabler user story example.md",
+    "Companies/Agile to edit/Requirement Governance.md",
+    "Companies/Agile to edit/Requirements life cycle.md",
+    "Companies/Agile to edit/User Stories.md",
+    "Companies/Agile to edit/user story to uml to code.md",
+    "Companies/Clout Chasing/_Bootcamp.md",
+    "Companies/Clout Chasing/_note taking.md",
+    "Companies/Clout Chasing/Social Post.md",
+    "Companies/Clout Chasing/Writing styles.md",
+    "Companies/Companies Worked At/TD/BSA Notes.md",
+    "Companies/Companies Worked At/TD/BSA vs BA.md",
+    "Companies/Companies Worked At/TD/Building Risk.md",
+    "Companies/Companies Worked At/TD/Cre8tive Plan Steps.md",
+    "Companies/Companies Worked At/TD/CSA.md",
+    "Companies/Companies Worked At/TD/Current Job Title.md",
+    "Companies/Companies Worked At/TD/Documenting.md",
+    "Companies/Companies Worked At/TD/Elicitation.md",
+    "Companies/Companies Worked At/TD/Making small talk.md",
+    "Companies/Companies Worked At/TD/Moscow prioritization.md",
+    "Companies/Companies Worked At/TD/Meeting Q&A.md",
+    "Companies/Companies Worked At/TD/name.md",
+    "Companies/Companies Worked At/TD/Types of BSA questions.md",
+    "Companies/Companies Worked At/TD/Validating.md",
+    "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
+    "Companies/Work Process.png",
+    "_Images/Security",
     "_Cheatsheet/website_optimization-cheat-sheet.pdf",
     "_Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
     "_Cheatsheet/SQL Practice Interview Questions .pdf",
     "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
     "_Cheatsheet/CLI-cheat-sheet.pdf",
-    "Database/Triggers in SQL.md",
-    "Language Overlap/Garbage collection.md",
-    "Database/Other Stuff.md",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Java Logging.canvas",
@@ -321,13 +336,9 @@
     "Mind Maps/Drafts/Event Driven Architecture.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
-    "Mind Maps/Drafts/UML/Models.md",
-    "Database/NOSQL/General Info.md",
     "Architecture/Principles",
     "_Images/_Main",
     "_Images/Methodology",
-    "Untitled.canvas",
-    "_Pdf/Books/Testing/More-Agile-Testing-Janet-Gregory-Lisa-Crispin-2014.pdf",
-    "_Pdf/Books/Testing/SSG_ENU_98-379_SoftTestFund.pdf"
+    "Untitled.canvas"
   ]
 }

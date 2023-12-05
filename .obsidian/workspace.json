@@ -11,9 +11,11 @@
             "id": "1ca71b0a1b40d20a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_Images/_Whiteboard/lc202.png"
+                "file": "Algorithms & Data Structures/Algo/Algorithms & Visual Abstraction.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Images/_Whiteboard/lc202.png",
+                "file": "Algorithms & Data Structures/Algo/Algorithms & Visual Abstraction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Images/_Whiteboard/lc202.png",
+                "file": "Algorithms & Data Structures/Algo/Algorithms & Visual Abstraction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Images/_Whiteboard/lc202.png"
+                "file": "Algorithms & Data Structures/Algo/Algorithms & Visual Abstraction.md"
               }
             }
           },
@@ -245,6 +247,17 @@
   },
   "active": "1ca71b0a1b40d20a",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
+    "Algorithms & Data Structures/Algo/Algorithms & Visual Abstraction.md",
+    "Algorithms & Data Structures/Algo/Algorithm Pattern vs Simple Solution.md",
+    "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
+    "Algorithms & Data Structures/Algo/Algorithm Approach Pivot.md",
+    "Architecture/Run.md",
+    "Architecture/IaaS.md",
+    "Architecture/FaaS.md",
+    "Library/Backend/ZooKeeper.md",
+    "Library/Backend/Apache Kafka.md",
+    "Home.md",
     "_Images/_Whiteboard/lc121.png",
     "_Images/_Whiteboard/lc101.png",
     "_Images/_Whiteboard/lc57Alt.png",
@@ -255,7 +268,6 @@
     "_Images/_Whiteboard/lc3nw.png",
     "_Images/_Whiteboard/lc2.png",
     "_Images/_Whiteboard/GraphGen.png",
-    "_Images/_Whiteboard/graph.png",
     "Dev Roadmaps By Priority.md",
     "Methodology/Staged Deployment.md",
     "Language/Php/PHP Explained.md",
@@ -271,16 +283,6 @@
     "Database/Database Archetecture/Normalization.md",
     "Language Overlap/Abstract Data Types.md",
     "_Low Priority Refinement/Security/How do JSON Web Tokens work.md",
-    "Companies/Agile to edit/Agile.md",
-    "Companies/Agile to edit/Enabler user story example.md",
-    "Companies/Agile to edit/Requirement Governance.md",
-    "Companies/Agile to edit/Requirements life cycle.md",
-    "Companies/Agile to edit/User Stories.md",
-    "Companies/Agile to edit/user story to uml to code.md",
-    "Companies/Clout Chasing/_Bootcamp.md",
-    "Companies/Clout Chasing/_note taking.md",
-    "Companies/Clout Chasing/Social Post.md",
-    "Companies/Clout Chasing/Writing styles.md",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "_Images/Security",
     "_Cheatsheet/website_optimization-cheat-sheet.pdf",

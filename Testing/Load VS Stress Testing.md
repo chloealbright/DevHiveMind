@@ -1,4 +1,4 @@
-![[af5aff755c939ce0e4a1d3fc8e5348af.gif]]
+![[Load VS Stress Testing.gif]]
 
 
 Load tests help you understand how a system behaves under an expected load.

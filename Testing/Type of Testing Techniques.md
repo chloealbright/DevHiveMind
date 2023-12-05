@@ -1,4 +1,4 @@
-![[_Images/Testing/unnamed (10).gif]]
+![[Black and white box.gif]]
 ### **What is Software/Application testing?**
 
 Software testing is a process to detect hidden errors, or functional inconsistencies in a software’s code by running the software through various tests. After the successful completion of testing rounds, a detailed report is prepared by the tester, which assists developers in making sure that the software runs error free, and fix all the identified issues, such as – 
@@ -10,7 +10,7 @@ Software testing is a process to detect hidden errors, or functional inconsisten
 
 Though there are various types of software testing, the widely used testing measures are considered to be Black Box Testing, White Box Testing, and Grey Box Testing. These testing measures differ majorly in their approach, yet are collectively effective in helping developers keep their code clean and functional.
 
-![[Pasted image 20230331085533.png]]
+![[Testing type.png]]
 
 #### **BLACK BOX TESTING**
 
@@ -50,7 +50,7 @@ The basic methodology of any Black Box Testing is as follows:
 5.  Marking of the ‘Failed’ steps and sending them for fixing to the development team.
 6.  Retesting of the test cases.
 
-![[Pasted image 20230331085612.png]]
+![[Blackbox testing.png]]
 
 **WHITE BOX TESTING**
 
@@ -84,7 +84,7 @@ The tester should be able to detect and identify security issues within an appli
 
 The following basic step involves testing the application’s code to review its proper flow and structure. One way to do this is by writing additional code so the application’s code can be tested. This method requires a deep technical understanding of the code, and is performed by the developer. The other method involves Manual Testing, trial and error method, and the use  of various tools for the execution of the testing procedure, such as MobSF, BurpSuite, Dex2Jar, and many more.
 
-![[Pasted image 20230331085650.png]]
+![[Whitebox Testing.png]]
 
 #### **GREY BOX TESTING**
 
@@ -111,7 +111,7 @@ Since Grey box testing does not require a tester to design the test cases, these
 3.  Identifying likely inputs and outputs for the, and from the, sub-functions.
 4.  Executing sub-function test cases, and verifying the outcomes.
 
-![[Pasted image 20230331085454.png]]
+![[Grey box testing.png]]
 
 This distinction between each type of testing comes down to  the degree of access we have into the software. In black-box testing, we're just given the software as-is and need to test it. 
 

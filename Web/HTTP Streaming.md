@@ -1,4 +1,4 @@
-![[1653415813055.1055974296.png]]
+![[HTTP Streaming.png]]
 
 With the HTTP request–response APIs, clients send an HTTP request and the server returns an HTTP response of a finite length (Figure 2-6). Now, it’s possible to make the length of this response indefinite. With HTTP Streaming, the server can continue to push new data in a single long-lived connection opened by a client. 
 

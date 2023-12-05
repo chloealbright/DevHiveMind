@@ -1,4 +1,4 @@
-![[Pasted image 20230418083113.png]]
+![[Request Structure.png]]
 
 ## fetch (defaults to GET) 
 

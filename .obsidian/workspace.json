@@ -13,7 +13,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "_Images/Web/unnamed (5).png"
+                "file": "_Images/Testing/Whitebox Testing.png"
               }
             }
           },
@@ -41,13 +41,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/HTTP Streaming.md",
+                "file": "Web/Protocols/TCIP.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "770602bfe3e1de93",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_Images/Testing/Load VS Stress Testing.gif"
+              }
+            }
+          },
+          {
+            "id": "1e60ecbd3ab04dec",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_Images/Web/Request Structure.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/HTTP Streaming.md",
+                "file": "_Images/Testing/Whitebox Testing.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/HTTP Streaming.md",
+                "file": "_Images/Testing/Whitebox Testing.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/HTTP Streaming.md"
+                "file": "_Images/Testing/Whitebox Testing.png"
               }
             }
           },
@@ -273,44 +294,44 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "671cca99d963da08",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
-    "Web/Hypermedia.md",
-    "Web/Idempotent.md",
-    "Web/JSON.md",
-    "Web/Json Structure.md",
-    "Web/Local storage vs cookies storage vs session storage.md",
-    "Web/Media Type Design.md",
-    "Web/Other Methods.md",
-    "Web/Payload.md",
-    "Web/Proxy server.md",
-    "Web/Query String.md",
-    "Web/REDUCING HTTP REQUESTS.md",
-    "Web/RESTful Routing.md",
-    "Web/SEO.md",
-    "Web/Signature.md",
-    "Web/State of the Art.md",
-    "Web/Structuring URL.md",
-    "Web/Update.md",
-    "Web/URI Query Design.md",
-    "Web/URI vs URL vs URN.md",
-    "Web/Web protocol explained.md",
-    "Web/Web Socket chat client.md",
-    "Web/Web Token.md",
-    "Web/Web Token Intro.md",
-    "Web/Web Workers.md",
-    "Web/WebHooks v WebSockets v HTTP Streaming.md",
-    "Web/Webhooks vs Polling.md",
+    "_Images/Testing/Blackbox testing.png",
+    "_Images/Testing/Testing type.png",
+    "_Images/Testing/Grey box testing.png",
+    "_Images/Testing/Testing Priority.jpeg",
+    "Testing/Load VS Stress Testing.md",
+    "Testing/Jest Test example.md",
+    "Testing/Jest benchmarking.md",
+    "Testing/Duck typing.md",
+    "Testing/Integration test.md",
+    "Testing/Data-Driven Testing.md",
+    "Testing/Code Coverage.md",
+    "Testing/Black Box Testing Techniques.md",
+    "Testing/BDD.md",
+    "Testing/_Type of Testing.md",
+    "_Images/Web/DNS resolve.png",
+    "_Images/Testing/Load VS Stress Testing.gif",
+    "_Images/Testing/Black and white box.gif",
+    "_Images/Testing/Regression test.gif",
+    "_Images/Web/OSI Layer.jpg",
+    "Web/Protocols/TCIP.md",
+    "Web/Application & Web Server.md",
+    "Web/Common Response Status Codes.md",
+    "Web/CORS(Cross-Origin Resource Sharing).md",
+    "Web/Create.md",
+    "Web/Delete.md",
+    "Web/DNS(Domain Name System).md",
+    "Web/exposing routes.md",
+    "Web/gRPC.md",
+    "Web/How to Use DELETE for Asynchronous Deletion.md",
+    "Web/How to Use POST for Asynchronous Tasks.md",
+    "Web/HTTP Request.md",
+    "Web/HTTP Request Structure.md",
+    "_Images/Web/Request Structure.png",
+    "Web/HTTP Response.md",
+    "Web/HTTP Rules.md",
     "_Low Priority Refinement/Security/Web Session Security.jpeg",
-    "_Images/Web/unnamed (5).png",
-    "_Images/Web/1653415813055.1055974296.png",
-    "_Images/Web/Status Codes.jpg",
-    "_Images/Web/1638003981098.643218386.png",
-    "_Low Priority Refinement/Security/Web Session Security Animated.gif",
-    "_Low Priority Refinement/API/API Protocol.jpeg",
-    "_Low Priority Refinement/API/Rest API Design.jpeg",
-    "_Low Priority Refinement/Security/Security By OSI Layer.jpeg",
-    "_Images/Algo/2D Array.png",
     "Architecture/Principles",
     "_Images/_Main",
     "_Images/Method",

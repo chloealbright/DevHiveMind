@@ -1,4 +1,4 @@
-![[unnamed (5).png]]
+![[DNS resolve.png]]
 
 -   DNS recursive resolver -   between website and load balancer  
     

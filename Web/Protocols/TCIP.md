@@ -1,4 +1,4 @@
-![[Pasted image 20230418081723.jpg]]
+![[OSI Layer.jpg]]
 
 A suite of protocols for communication between computers, specifying standards for transmitting data over networks and used as the basis for standard Internet protocols that follow along the OSI model. 
 

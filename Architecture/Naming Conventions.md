@@ -7,7 +7,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (4).png]]
+![[Camel Case.png]]
 Be cognizant of naming convention  
 
 like for a method that check truth value name it with the word "IS" at the beginning and a proper name like "isFunctionName"   

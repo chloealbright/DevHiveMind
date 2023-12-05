@@ -7,7 +7,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[unnamed (9).gif]]
+
 
 **1. Picture Upload Verification with OAuth:**
    - Implement a security feature in messaging apps to prompt users for verification when uploading pictures, ensuring secure and authenticated uploads.

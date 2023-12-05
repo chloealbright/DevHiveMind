@@ -1,4 +1,4 @@
-![[Collections-in-Java1.png]]
+![[Collections in Java.png]]
 ### Background
 
 The standard objects for grouping Java objects were done using the Array, Vector, and Hashtable classes. These could not be easily extended and did not have a standard member interface. In Java 1.2, the Collections Framework was introduced to address the need for reusable collection data structures.

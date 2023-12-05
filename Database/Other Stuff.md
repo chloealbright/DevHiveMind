@@ -191,11 +191,3 @@ We’ll now look at the various factors that could determine whether a column ge
         
     -   GRANT, REVOKE
 
-
-
-
-
-![[GetImage (13).jpeg]]
-
-
-![[GetImage (12).jpeg]]

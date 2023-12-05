@@ -31,8 +31,8 @@ Data can sometimes be collected without a purpose, or the data can sit somewhere
 
 Data scientists, product managers, and data analysts play the role of bridging the gap by documenting the data, championing the data architecture, leveraging the data catalog, supporting data governance, and ultimately enabling the business to discover and realize the potential value of the data fully. 
 
-![[_Images/Database/GetImage.png]]
+![[Data jobs Pay.png]]
 
 Data Scientist drives a lot of decision being made  
 
-![[Data jobs Pay.png]]![[_Images/Database/GetImage (2).png]]
+![[Data jobs Description.png]]![[_Images/Database/GetImage (2).png]]

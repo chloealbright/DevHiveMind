@@ -13,22 +13,11 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "_Images/LangOverlap/GetImage (1).gif"
-              }
-            }
-          },
-          {
-            "id": "bae3bea04e154f2b",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Database/Database Processes.gif"
+                "file": "_Images/Languages/Collections in Java.png"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "71c6b8e3b6a19966",
@@ -40,9 +29,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Other Stuff.md",
+                "file": "Database/Execution Order.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "2edea2094adb3166",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_Images/Database/Data jobs Description.png"
               }
             }
           }
@@ -128,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Database Processes.gif",
+                "file": "Database/Execution Order.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Database Processes.gif",
+                "file": "Database/Execution Order.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Database Processes.gif"
+                "file": "Database/Execution Order.md"
               }
             }
           },
@@ -272,8 +271,47 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bae3bea04e154f2b",
+  "active": "87ce08e8f0a9f512",
   "lastOpenFiles": [
+    "_Images/Languages/Collections in Java.png",
+    "_Images/Languages/GetImage (1).png",
+    "_Images/Languages/caveman-spongebob-patrick-star.gif",
+    "_Images/Languages/2023-04-22 10.45.24 gradlehero.com e816d2896834.png",
+    "_Images/Languages/2023-04-22 10.45.05 gradlehero.com 179c4eb64d61.png",
+    "_Images/Languages/2023-04-21 23.53.18 gradlehero.com 4a83d22070e4.png",
+    "_Images/Languages/2023-04-21 23.52.37 gradlehero.com 355fc58c9cd0.png",
+    "_Images/LangOverlap/Visual Garbage Collection.gif",
+    "_Images/LangOverlap/unnamed 4.gif",
+    "_Images/LangOverlap/unnamed (12).gif",
+    "_Images/LangOverlap/Camel Case.png",
+    "Database/Execution Order.md",
+    "_Flash Cards/CPU Thread Flash.md",
+    "_CODE/Express/Tech Things to Research.md",
+    "_CODE/Express/Study Session.md",
+    "_CODE/Express/Dev Todo.md",
+    "_CODE/Express/Be Aware.md",
+    "_CODE/Express/Algo left to over to do.md",
+    "_CODE/Distill/Development Perpetual Practices.md",
+    "_CODE/Distill/_Perpetual BAU.md",
+    "_CODE/_Organize/Tech tips.md",
+    "_CODE/_Organize/Project idea.md",
+    "_CODE/_Organize/Node Project Structure.md",
+    "_CODE/_Organize/Glossary.md",
+    "_CODE/_Organize/Data Project Idea.md",
+    "_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md",
+    "_CODE/_Capture/Distributed tracking and monitoring.md",
+    "_CODE/_Capture/Designing Class to be Serializable.md",
+    "_CODE/_Capture/Design Patterns and Pattern Languages.md",
+    "_CODE/_Capture/Design Patterns A Guide to JavaScript Development Principles for Clean and Scalable Code  by Anto Semeraro  Jun, 2023  JavaScript in Plain English.md",
+    "_CODE/_Capture/Code.md",
+    "_Cheatsheet/website_optimization-cheat-sheet.pdf",
+    "_Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
+    "_Cheatsheet/SQL Practice Interview Questions .pdf",
+    "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
+    "_Cheatsheet/CLI-cheat-sheet.pdf",
+    "Database/Triggers in SQL.md",
+    "Language Overlap/Garbage collection.md",
+    "Database/Other Stuff.md",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Java Logging.canvas",
@@ -283,52 +321,13 @@
     "Mind Maps/Drafts/Event Driven Architecture.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
-    "Database/Other Stuff.md",
-    "_Images/Companies Models/State Transition Diagrams.png",
     "Mind Maps/Drafts/UML/Models.md",
     "Database/NOSQL/General Info.md",
-    "_Images/LangOverlap/GetImage (16).png",
-    "_Images/Languages/GetImage (1).png",
-    "Language/_Build Tool/Build Tools.md",
-    "_Images/Database/Data jobs Pay.png",
-    "_Images/LangOverlap/GetImage (1).gif",
-    "_Images/LangOverlap/gc-process.gif",
-    "_Images/LangOverlap/Shallow and Deep Copy.gif",
-    "Language Overlap/Shallow Copy and Deep Copy(clone).md",
-    "_Images/LangOverlap/coupling.jpg",
-    "_Images/Interview/Steps.gif",
-    "Algorithms & Data Structures/Steps to Problem on Interview.md",
-    "_Images/Interview/system design.gif",
-    "Architecture/System Design/Spotify system design.md",
-    "Companies/Tech company hiring cycle & Hustle.md",
-    "Algorithms & Data Structures/Whiteboard Interview.md",
-    "Language/Markup/HTML/Inner Html.md",
-    "Language/Markup/XML.md",
-    "Language/Markup/DOM.md",
-    "Language/Markup/HTML/Forms.md",
-    "Language/Markup/HTML/DOM Selectors.md",
-    "Language/Markup/HTML/Box model layout.md",
-    "Web/Protocols/TCIP.md",
-    "Testing/Load VS Stress Testing.md",
-    "Testing/Jest Test example.md",
-    "Testing/Jest benchmarking.md",
-    "Testing/Duck typing.md",
-    "Testing/Integration test.md",
-    "Testing/Data-Driven Testing.md",
-    "Testing/Code Coverage.md",
-    "Testing/Black Box Testing Techniques.md",
-    "Testing/BDD.md",
     "Architecture/Principles",
     "_Images/_Main",
     "_Images/Methodology",
     "Untitled.canvas",
     "_Pdf/Books/Testing/More-Agile-Testing-Janet-Gregory-Lisa-Crispin-2014.pdf",
-    "_Pdf/Books/Testing/SSG_ENU_98-379_SoftTestFund.pdf",
-    "_Pdf/Books/Testing/Test-Driven Development with Python Obey the Testing Goat Using Django, Selenium, and JavaScript by Harry J. W. Percival (z-lib.org).pdf",
-    "_Pdf/Books/Architecture/The Elements of Knowledge Organization.pdf",
-    "_Pdf/Books/Architecture/Systemantics How Systems Work and Especially How They Fail (John Gall) (z-lib.org).pdf",
-    "_Pdf/Books/Architecture/System Design Interview An Insider’s Guide by Alex Yu (z-lib.org).pdf",
-    "_Pdf/Books/Architecture/System Analysis and Design Methods 7th.pdf",
-    "Mind Maps/12 Factor App Docker.canvas"
+    "_Pdf/Books/Testing/SSG_ENU_98-379_SoftTestFund.pdf"
   ]
 }

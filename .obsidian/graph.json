@@ -1,10 +1,10 @@
 {
   "collapse-filter": false,
-  "search": "",
-  "showTags": false,
+  "search": "275f42cb-ab8f-49a5-b0e0-37ac32fe68fb_2216x2288",
+  "showTags": true,
   "showAttachments": true,
   "hideUnresolved": true,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [],
   "collapse-display": true,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7431684760136257,
+  "scale": 0.6757621765136719,
   "close": false
 }

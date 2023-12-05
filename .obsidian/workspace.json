@@ -11,9 +11,19 @@
             "id": "929b94e1f97d20a0",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "_Images/Database/f9776cd1-c7ac-46b0-a58f-798b5b4d8069_1600x1018.png"
+              }
+            }
+          },
+          {
+            "id": "1ca71b0a1b40d20a",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Mind Maps/Drafts/UML/Models.md",
+                "file": "Language Overlap/Call Stack & heaps.md",
                 "mode": "source",
                 "source": false
               }
@@ -41,17 +51,15 @@
             "id": "6adfe5af25c38e7b",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/LangOverlap/GetImage (16).png"
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
-            "id": "2edea2094adb3166",
+            "id": "57130032d16497ca",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -138,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Images/LangOverlap/GetImage (16).png",
+                "file": "_Images/Database/f9776cd1-c7ac-46b0-a58f-798b5b4d8069_1600x1018.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Images/LangOverlap/GetImage (16).png",
+                "file": "_Images/Database/f9776cd1-c7ac-46b0-a58f-798b5b4d8069_1600x1018.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Images/LangOverlap/GetImage (16).png"
+                "file": "_Images/Database/f9776cd1-c7ac-46b0-a58f-798b5b4d8069_1600x1018.png"
               }
             }
           },
@@ -282,19 +290,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6adfe5af25c38e7b",
+  "active": "929b94e1f97d20a0",
   "lastOpenFiles": [
-    "_Images/LangOverlap/Flow of control.gif",
-    "_Images/Companies Models/BSA Req Life Cycle.png",
-    "_Images/Companies Models/BSA Position.png",
-    "_Images/Companies Models/Use case Relationship.png",
-    "_Images/Companies Models/System interface.jpeg",
-    "_Images/Companies Models/Swimlane.png",
-    "_Images/Companies Models/State Transition Diagrams.png",
-    "_Images/Companies Models/State Diagrams.png",
-    "_Images/Companies Models/Process Flow UML.jpeg",
+    "_Images/Database/GetImage (27).png",
+    "_Images/Database/GetImage (28).png",
+    "_Images/Database/GetImage (29).png",
+    "_Images/Database/GetImage (30).png",
+    "_Images/Database/GetImage (31).png",
+    "_Images/Database/GetImage (32).png",
+    "_Images/Database/GetImage (33).png",
+    "_Images/Database/GetImage (34).png",
+    "_Images/Database/GetImage (35).png",
+    "_Images/Database/GetImage (36).png",
+    "_Images/Database/GetImage (37).png",
+    "Language Overlap/Call Stack & heaps.md",
+    "Language Overlap/Abstract Data Types.md",
+    "_Low Priority Refinement/Security/How do JSON Web Tokens work.md",
     "Mind Maps/Drafts/UML/Models.md",
-    "_Images/Database/Data jobs Description.png",
     "Companies/Agile to edit/Agile.md",
     "Companies/Agile to edit/Enabler user story example.md",
     "Companies/Agile to edit/Requirement Governance.md",
@@ -316,11 +328,7 @@
     "Companies/Companies Worked At/TD/Making small talk.md",
     "Companies/Companies Worked At/TD/Moscow prioritization.md",
     "Companies/Companies Worked At/TD/Meeting Q&A.md",
-    "Companies/Companies Worked At/TD/name.md",
-    "Companies/Companies Worked At/TD/Types of BSA questions.md",
-    "Companies/Companies Worked At/TD/Validating.md",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
-    "Companies/Work Process.png",
     "_Images/Security",
     "_Cheatsheet/website_optimization-cheat-sheet.pdf",
     "_Cheatsheet/sql-basics-cheat-sheet-letter.pdf",

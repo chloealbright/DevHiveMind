@@ -7,7 +7,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[GetImage (16).png]]
+![[JSON Web Tokens.png]]
 
 
 In authentication, when the user successfully logs in using their credentials, a JSON Web Token will be returned. Since tokens are credentials, great care must be taken to prevent security issues. In general, you should not keep tokens longer than required. 

@@ -1,4 +1,4 @@
-![[unnamed 4.gif]]
+![[Call Stack.gif]]
 A stack has elements like primitive values which are numbers strings boolean nulls undefined and symbols and tends to be fast but has limited space  
   
 While a heap is much slower and consists of all types of objects like object literals arrays functions dates and all other objects also has a lot of space  

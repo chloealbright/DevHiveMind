@@ -14,7 +14,7 @@ Joining the table with itself accomplishes a different or smaller dataset with 
 
 https://joins.spathon.com
 
-![[2023-04-18 20.06.25 mailcitytechcuny-my.sharepoint.com 6bc1d07b0ad6.png]]
+![[Self-joining.png]]
 
 In the following example, we will use the table EMPLOYEE twice and in order to do this we will use the alias of the table. To get the list of employees and their supervisor the following SQL statement has used: 
 

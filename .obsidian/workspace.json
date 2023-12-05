@@ -13,7 +13,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "_Images/Database/f9776cd1-c7ac-46b0-a58f-798b5b4d8069_1600x1018.png"
+                "file": "_Images/Languages/streamline.png"
               }
             }
           },
@@ -51,8 +51,12 @@
             "id": "6adfe5af25c38e7b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Mind Maps/Drafts/UML/Models.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -146,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Images/Database/f9776cd1-c7ac-46b0-a58f-798b5b4d8069_1600x1018.png",
+                "file": "Mind Maps/Drafts/UML/Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Images/Database/f9776cd1-c7ac-46b0-a58f-798b5b4d8069_1600x1018.png",
+                "file": "Mind Maps/Drafts/UML/Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Images/Database/f9776cd1-c7ac-46b0-a58f-798b5b4d8069_1600x1018.png"
+                "file": "Mind Maps/Drafts/UML/Models.md"
               }
             }
           },
@@ -290,19 +294,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "929b94e1f97d20a0",
+  "active": "6adfe5af25c38e7b",
   "lastOpenFiles": [
+    "Mind Maps/Drafts/UML/UML Notes Diagram Types Structure & Behavioral.md",
+    "Mind Maps/Drafts/UML/UML Monitor Project.png",
+    "README.md",
+    "_Images/Languages/streamline.png",
+    "_Images/Languages/STimeline.png",
+    "_Images/Database/3NF.png",
+    "Architecture/Database Selection Process.webp",
+    "Database/Self-joining relationships.md",
+    "Database/Database Archetecture/Normalization.md",
+    "_Images/Database/Self-joining.png",
+    "_Images/Database/Database requirement.png",
     "_Images/Database/GetImage (27).png",
     "_Images/Database/GetImage (28).png",
     "_Images/Database/GetImage (29).png",
-    "_Images/Database/GetImage (30).png",
-    "_Images/Database/GetImage (31).png",
-    "_Images/Database/GetImage (32).png",
-    "_Images/Database/GetImage (33).png",
-    "_Images/Database/GetImage (34).png",
-    "_Images/Database/GetImage (35).png",
-    "_Images/Database/GetImage (36).png",
-    "_Images/Database/GetImage (37).png",
     "Language Overlap/Call Stack & heaps.md",
     "Language Overlap/Abstract Data Types.md",
     "_Low Priority Refinement/Security/How do JSON Web Tokens work.md",
@@ -325,9 +332,6 @@
     "Companies/Companies Worked At/TD/Current Job Title.md",
     "Companies/Companies Worked At/TD/Documenting.md",
     "Companies/Companies Worked At/TD/Elicitation.md",
-    "Companies/Companies Worked At/TD/Making small talk.md",
-    "Companies/Companies Worked At/TD/Moscow prioritization.md",
-    "Companies/Companies Worked At/TD/Meeting Q&A.md",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "_Images/Security",
     "_Cheatsheet/website_optimization-cheat-sheet.pdf",

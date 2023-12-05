@@ -65,7 +65,7 @@ Cons: May still result in duplicate data and require more storage space, and may
 Trade-offs: Choosing a higher level of normalization may result in slower performance and more complex queries.
 
 
-![[2023-04-18 19.47.01 mailcitytechcuny-my.sharepoint.com 0cb43f67d981.png]]
+![[3NF.png]]
 
 ![[GetImage (34).png]]
 

@@ -1,5 +1,5 @@
 
-![[2023-04-19 13.57.13 mailcitytechcuny-my.sharepoint.com 3b2c4132605c.png]]
+![[URL Structure.png]]
 
 
 <mark style="background: #FFF3A3A6;">URL 1 to 7 </mark>A Uniform Resource Locator is a unique identifier used to locate a resource on the Internet. 

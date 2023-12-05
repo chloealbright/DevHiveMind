@@ -1,4 +1,4 @@
-![[1625424802777.573159556.jpg]]
+![[Status Codes.jpg]]
 
 ## Status code are stored in the body of responses  
 

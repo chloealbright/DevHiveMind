@@ -1,4 +1,4 @@
-![[Pasted image 20230418083541.png]]
+![[URI.png]]
 
 Each URI path segment, separated by forward slashes (/), represents a design opportunity.  
 

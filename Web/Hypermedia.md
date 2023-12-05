@@ -1,4 +1,4 @@
-![[1653523040559.931551779.png]]
+![[Hypertext vs Hypermedia.png]]
 
 What is Hypermedia? 
 

@@ -1,4 +1,4 @@
-![[unnamed (57).gif]]
+![[Whiteboarding.gif]]
 Best Practices and Q&A
 
 Prep  

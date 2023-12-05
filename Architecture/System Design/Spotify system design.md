@@ -1,4 +1,4 @@
-![[unnamed (7).gif]]
+![[system design.gif]]
 
 Don't make assumptions when you have one tell the interviewer can I assume this.. to convey an assumption and get an idea of things 
 

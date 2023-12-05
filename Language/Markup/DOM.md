@@ -1,1 +1,0 @@
-![[_Images/Languages/Markup/GetImage.jpeg]]

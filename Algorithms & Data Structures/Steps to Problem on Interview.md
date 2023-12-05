@@ -1,4 +1,4 @@
-![[unnamed (53).gif]]
+![[Steps.gif]]
 
 // Q&A(Listen/ask) repeat question asked
 

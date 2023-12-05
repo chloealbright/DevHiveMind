@@ -16,19 +16,34 @@
                 "file": "_Images/LangOverlap/GetImage (1).gif"
               }
             }
+          },
+          {
+            "id": "bae3bea04e154f2b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Database/Database Processes.gif"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "71c6b8e3b6a19966",
         "type": "tabs",
         "children": [
           {
-            "id": "1e60ecbd3ab04dec",
+            "id": "87ce08e8f0a9f512",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Database/Other Stuff.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -113,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Images/LangOverlap/GetImage (1).gif",
+                "file": "Database/Database Processes.gif",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Images/LangOverlap/GetImage (1).gif",
+                "file": "Database/Database Processes.gif",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Images/LangOverlap/GetImage (1).gif"
+                "file": "Database/Database Processes.gif"
               }
             }
           },
@@ -257,8 +272,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "929b94e1f97d20a0",
+  "active": "bae3bea04e154f2b",
   "lastOpenFiles": [
+    "Mind Maps/Drafts/Url.canvas",
+    "Mind Maps/Drafts/Testing.canvas",
+    "Mind Maps/Drafts/Java Logging.canvas",
+    "Mind Maps/Drafts/Gateway.canvas",
+    "Mind Maps/Drafts/File system.canvas",
+    "Mind Maps/Drafts/Event Messaging.canvas",
+    "Mind Maps/Drafts/Event Driven Architecture.canvas",
+    "Mind Maps/Drafts/Domain-driven design.canvas",
+    "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
+    "Database/Other Stuff.md",
+    "_Images/Companies Models/State Transition Diagrams.png",
+    "Mind Maps/Drafts/UML/Models.md",
+    "Database/NOSQL/General Info.md",
+    "_Images/LangOverlap/GetImage (16).png",
+    "_Images/Languages/GetImage (1).png",
+    "Language/_Build Tool/Build Tools.md",
+    "_Images/Database/Data jobs Pay.png",
+    "_Images/LangOverlap/GetImage (1).gif",
     "_Images/LangOverlap/gc-process.gif",
     "_Images/LangOverlap/Shallow and Deep Copy.gif",
     "Language Overlap/Shallow Copy and Deep Copy(clone).md",
@@ -269,10 +302,6 @@
     "Architecture/System Design/Spotify system design.md",
     "Companies/Tech company hiring cycle & Hustle.md",
     "Algorithms & Data Structures/Whiteboard Interview.md",
-    "_Images/Algo/Whiteboarding.gif",
-    "_Images/Interview/Follow up.gif",
-    "_Images/Interview/High level.gif",
-    "Language/Markup/HTML/Dom.jpeg",
     "Language/Markup/HTML/Inner Html.md",
     "Language/Markup/XML.md",
     "Language/Markup/DOM.md",
@@ -280,8 +309,6 @@
     "Language/Markup/HTML/DOM Selectors.md",
     "Language/Markup/HTML/Box model layout.md",
     "Web/Protocols/TCIP.md",
-    "_Images/Languages/Markup/Box model layout.png",
-    "_Images/Testing/Load VS Stress Testing.gif",
     "Testing/Load VS Stress Testing.md",
     "Testing/Jest Test example.md",
     "Testing/Jest benchmarking.md",
@@ -291,15 +318,9 @@
     "Testing/Code Coverage.md",
     "Testing/Black Box Testing Techniques.md",
     "Testing/BDD.md",
-    "Testing/_Type of Testing.md",
-    "Web/Application & Web Server.md",
-    "Web/Common Response Status Codes.md",
-    "Web/CORS(Cross-Origin Resource Sharing).md",
     "Architecture/Principles",
     "_Images/_Main",
     "_Images/Methodology",
-    "Mind Maps/Drafts/Gateway.canvas",
-    "Mind Maps/Drafts/File system.canvas",
     "Untitled.canvas",
     "_Pdf/Books/Testing/More-Agile-Testing-Janet-Gregory-Lisa-Crispin-2014.pdf",
     "_Pdf/Books/Testing/SSG_ENU_98-379_SoftTestFund.pdf",
@@ -308,12 +329,6 @@
     "_Pdf/Books/Architecture/Systemantics How Systems Work and Especially How They Fail (John Gall) (z-lib.org).pdf",
     "_Pdf/Books/Architecture/System Design Interview An Insider’s Guide by Alex Yu (z-lib.org).pdf",
     "_Pdf/Books/Architecture/System Analysis and Design Methods 7th.pdf",
-    "Mind Maps/Drafts/Url.canvas",
-    "Mind Maps/Drafts/Testing.canvas",
-    "Mind Maps/Drafts/Event Messaging.canvas",
-    "Mind Maps/Drafts/Event Driven Architecture.canvas",
-    "Mind Maps/Drafts/Domain-driven design.canvas",
-    "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
     "Mind Maps/12 Factor App Docker.canvas"
   ]
 }

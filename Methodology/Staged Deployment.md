@@ -34,3 +34,5 @@ Staged deployment, also known as phased deployment or environment progression, i
 - Scalability and Performance Testing: Staged deployment facilitates load testing and performance evaluation in dedicated environments, helping identify bottlenecks, optimize resources, and ensure the application can handle real-world traffic and usage patterns.
 
 It's important to note that the specific stages and environments involved in a staged deployment may vary depending on the project's requirements and organization's practices. The key aspect is to progress through the environments in a controlled manner, ensuring that the code changes are thoroughly tested and validated before reaching the production environment.
+
+find /home/jac/Music/DevReps/src -type f -iname "*.jpg" -o -iname "*.png" -exec cp {} /home/jac/Videos/test \;

@@ -13,7 +13,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "_Images/Languages/h7509mqq3egedothd2g8.jpeg"
+                "file": "_Images/_Whiteboard/lc202.png"
               }
             }
           }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Images/Languages/h7509mqq3egedothd2g8.jpeg",
+                "file": "_Images/_Whiteboard/lc202.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Images/Languages/h7509mqq3egedothd2g8.jpeg",
+                "file": "_Images/_Whiteboard/lc202.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Images/Languages/h7509mqq3egedothd2g8.jpeg"
+                "file": "_Images/_Whiteboard/lc202.png"
               }
             }
           },
@@ -243,19 +243,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "1ca71b0a1b40d20a",
   "lastOpenFiles": [
-    "_Images/Languages/j2.png",
-    "_Images/Languages/j3.png",
-    "_Images/Languages/javaWorking.gif",
-    "_Images/Languages/maven-vs-gradle-build-run (1).gif",
-    "_Images/Languages/Pasted image 20230418075531.png",
-    "_Images/Languages/Pasted image 20230422142413.png",
-    "_Images/Languages/Pasted image 20230422143527.png",
-    "_Images/Languages/Pasted image 20230422143549.png",
-    "_Images/Languages/Pasted Image 20230423093148_795.png",
-    "_Images/Languages/R1.png",
-    "_Images/Languages/RAB.png",
+    "_Images/_Whiteboard/lc121.png",
+    "_Images/_Whiteboard/lc101.png",
+    "_Images/_Whiteboard/lc57Alt.png",
+    "_Images/_Whiteboard/lc57.png",
+    "_Images/_Whiteboard/lc56.png",
+    "_Images/_Whiteboard/lc49.png",
+    "_Images/_Whiteboard/lc5.png",
+    "_Images/_Whiteboard/lc3nw.png",
+    "_Images/_Whiteboard/lc2.png",
+    "_Images/_Whiteboard/GraphGen.png",
+    "_Images/_Whiteboard/graph.png",
+    "Dev Roadmaps By Priority.md",
+    "Methodology/Staged Deployment.md",
     "Language/Php/PHP Explained.md",
     "Architecture/Stateless processes.md",
     "Architecture/Software vs Firmware.md",
@@ -279,8 +281,6 @@
     "Companies/Clout Chasing/_note taking.md",
     "Companies/Clout Chasing/Social Post.md",
     "Companies/Clout Chasing/Writing styles.md",
-    "Companies/Companies Worked At/TD/BSA Notes.md",
-    "Companies/Companies Worked At/TD/BSA vs BA.md",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "_Images/Security",
     "_Cheatsheet/website_optimization-cheat-sheet.pdf",

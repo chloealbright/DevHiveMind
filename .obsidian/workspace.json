@@ -30,45 +30,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "71c6b8e3b6a19966",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "87ce08e8f0a9f512",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Low Priority Refinement/Security/OAuth 2.0.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6adfe5af25c38e7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mind Maps/Drafts/UML/Models.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "57130032d16497ca",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mind Maps/Drafts/UML/Models.md",
+                "file": "_Images/Languages/streamline.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mind Maps/Drafts/UML/Models.md",
+                "file": "_Images/Languages/streamline.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mind Maps/Drafts/UML/Models.md"
+                "file": "_Images/Languages/streamline.png"
               }
             }
           },
@@ -294,8 +255,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6adfe5af25c38e7b",
+  "active": "929b94e1f97d20a0",
   "lastOpenFiles": [
+    "Mind Maps/Drafts/UML/Models.md",
     "Mind Maps/Drafts/UML/UML Notes Diagram Types Structure & Behavioral.md",
     "Mind Maps/Drafts/UML/UML Monitor Project.png",
     "README.md",
@@ -313,7 +275,6 @@
     "Language Overlap/Call Stack & heaps.md",
     "Language Overlap/Abstract Data Types.md",
     "_Low Priority Refinement/Security/How do JSON Web Tokens work.md",
-    "Mind Maps/Drafts/UML/Models.md",
     "Companies/Agile to edit/Agile.md",
     "Companies/Agile to edit/Enabler user story example.md",
     "Companies/Agile to edit/Requirement Governance.md",

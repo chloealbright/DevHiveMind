@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "929b94e1f97d20a0",
+            "id": "1ca71b0a1b40d20a",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "_Images/Languages/streamline.png"
-              }
-            }
-          },
-          {
-            "id": "1ca71b0a1b40d20a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language Overlap/Call Stack & heaps.md",
-                "mode": "source",
-                "source": false
+                "file": "_Images/Languages/h7509mqq3egedothd2g8.jpeg"
               }
             }
           }
@@ -111,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Images/Languages/streamline.png",
+                "file": "_Images/Languages/h7509mqq3egedothd2g8.jpeg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Images/Languages/streamline.png",
+                "file": "_Images/Languages/h7509mqq3egedothd2g8.jpeg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Images/Languages/streamline.png"
+                "file": "_Images/Languages/h7509mqq3egedothd2g8.jpeg"
               }
             }
           },
@@ -255,24 +243,30 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "929b94e1f97d20a0",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "_Images/Languages/j2.png",
+    "_Images/Languages/j3.png",
+    "_Images/Languages/javaWorking.gif",
+    "_Images/Languages/maven-vs-gradle-build-run (1).gif",
+    "_Images/Languages/Pasted image 20230418075531.png",
+    "_Images/Languages/Pasted image 20230422142413.png",
+    "_Images/Languages/Pasted image 20230422143527.png",
+    "_Images/Languages/Pasted image 20230422143549.png",
+    "_Images/Languages/Pasted Image 20230423093148_795.png",
+    "_Images/Languages/R1.png",
+    "_Images/Languages/RAB.png",
+    "Language/Php/PHP Explained.md",
+    "Architecture/Stateless processes.md",
+    "Architecture/Software vs Firmware.md",
+    "Architecture/Software Development Life Cycle.md",
+    "Architecture/Software Architecture vs System Design.md",
+    "Language Overlap/Call Stack & heaps.md",
     "Mind Maps/Drafts/UML/Models.md",
     "Mind Maps/Drafts/UML/UML Notes Diagram Types Structure & Behavioral.md",
-    "Mind Maps/Drafts/UML/UML Monitor Project.png",
     "README.md",
-    "_Images/Languages/streamline.png",
-    "_Images/Languages/STimeline.png",
-    "_Images/Database/3NF.png",
-    "Architecture/Database Selection Process.webp",
     "Database/Self-joining relationships.md",
     "Database/Database Archetecture/Normalization.md",
-    "_Images/Database/Self-joining.png",
-    "_Images/Database/Database requirement.png",
-    "_Images/Database/GetImage (27).png",
-    "_Images/Database/GetImage (28).png",
-    "_Images/Database/GetImage (29).png",
-    "Language Overlap/Call Stack & heaps.md",
     "Language Overlap/Abstract Data Types.md",
     "_Low Priority Refinement/Security/How do JSON Web Tokens work.md",
     "Companies/Agile to edit/Agile.md",
@@ -287,12 +281,6 @@
     "Companies/Clout Chasing/Writing styles.md",
     "Companies/Companies Worked At/TD/BSA Notes.md",
     "Companies/Companies Worked At/TD/BSA vs BA.md",
-    "Companies/Companies Worked At/TD/Building Risk.md",
-    "Companies/Companies Worked At/TD/Cre8tive Plan Steps.md",
-    "Companies/Companies Worked At/TD/CSA.md",
-    "Companies/Companies Worked At/TD/Current Job Title.md",
-    "Companies/Companies Worked At/TD/Documenting.md",
-    "Companies/Companies Worked At/TD/Elicitation.md",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "_Images/Security",
     "_Cheatsheet/website_optimization-cheat-sheet.pdf",

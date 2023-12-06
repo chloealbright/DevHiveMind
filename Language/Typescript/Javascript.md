@@ -21,7 +21,7 @@ So because JavaScript is garbage collected that is memory is managed automatical
 
 # Execution Context
 
-![[Global Exe Context.png]]![[Pasted image 20230418075540.png]]
+![[Global Exe Context.png]]![[javascript Scope inDeph.png]]
 
 The Execution Context contains 
 
@@ -44,7 +44,7 @@ The Global Execution Context 
 The location of “this” depends on where your code is running. In the browser, for example, it points to windows objects. Nodejs, for example, will point to a different global object.
 
 
-![[GetImage (20).png]]
+![[Functions behind scenes.png]]
 
 call(), apply() and bind() 
 

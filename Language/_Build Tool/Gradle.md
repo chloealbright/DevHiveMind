@@ -36,7 +36,7 @@ Gradle’s founder, Hans Dockter, took inspiration from Maven but had a vision f
 
 	incremental build and other performance enhancements: makes building applications much faster, especially when making minor code changes that don’t require a full rebuild (see Gradle vs. Maven performance comparison below).
 
-![[GTimeline.png]]
+![[Gradle Timeline.png]]
 
 Gradle also runs inside the JVM. Out-of-the-box it supports building Java, Groovy, Scala, and even C++ applications. 3rd party plugins can be used for other languages like Kotlin.
 

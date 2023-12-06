@@ -1,4 +1,4 @@
-![[_Images/Languages/GetImage (1).png]]
+![[Maven v Gradle.png]]
 
 Both ***Maven*** and ***Gradle*** fall into the category of build tools. They’re designed to automate the work involved to take your application’s source code and transform it into an ***artifact*** to be published. 
 
@@ -69,11 +69,11 @@ Where the Gradle build task is shown below, the package phase was used i
 
 ### Small Java project 
 10 subprojects each with 50 main classes and 50 test classes. 1,000 class total. 
-![[2023-04-21 23.52.37 gradlehero.com 355fc58c9cd0.png]]
+![[Small build performance.png]]
 
 ### Medium Java project
 100 subprojects each with 100 main classes and 100 test classes. 20,000 class total. 
-![[2023-04-21 23.53.18 gradlehero.com 4a83d22070e4.png]]
+![[Medium build performance.png]]
 From <[https://tomgregory.com/maven-vs-gradle-comparison/](https://tomgregory.com/maven-vs-gradle-comparison/)>  
 
 Both Maven and Gradle require a build file to configure a project. 
@@ -96,13 +96,13 @@ Once everything is setup, to run a Maven build you pass a phase to the Maven c
 
 Maven creates build artifacts within a target directory, whereas Gradle uses a build directory.
 
-![[Untitled picture.png]]
+![[Build Workflow.png]]
 
 The console output for Maven shows all info level log statements and test output. Gradle has a dynamic console, which shows only the task it’s currently working on with a final success/failure message.
 
 Which console is better is subjective, but some may find Gradle’s console easier to read as it’s more concise. If detailed output is needed, you can enable it via the command line options.
 
-![[maven-vs-gradle-build-run (1).gif]]
+![[Maven-vs-gradle-build-run.gif]]
 
 For ongoing support with Maven it’s not obvious where to go. You cannot raise issues on the GitHub repository and the Slack channel is only for contributors.
 
@@ -194,6 +194,6 @@ If you know you want to migrate to Gradle, but need to convince your team, here 
 
 ## Side-by-side feature comparison
 
-![[2023-04-22 10.45.05 gradlehero.com 179c4eb64d61.png]]
+![[Maven & Gradle Comparison.png]]
 
-![[2023-04-22 10.45.24 gradlehero.com e816d2896834.png]]
+![[Maven and Gradle Technical.png]]

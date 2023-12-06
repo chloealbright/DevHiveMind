@@ -21,7 +21,7 @@ Maven was created in 2002 as a direct response to the frustrations of building J
 
 	store dependencies externally: dependencies move out of version control and into a remote repository known as Maven Central. This makes updating dependency versions simpler.
 
-![[STimeline.png]]
+![[Maven Timeline.png]]
 
 Maven runs within the Java Virtual Machine (JVM) and it’s core functionality builds Java applications only. Using 3rd party plugins like the kotlin-maven-plugin you can build Kotlin projects, the scala-maven-plugin for Scala projects, and other language plugins exist too.
 

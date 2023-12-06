@@ -7,6 +7,8 @@ Started: 2023-12-05
 EditDate: 
 Relates:
 ---
+## Greedy Algorithm Relationship to Top k elements
+
 The relationship between greedy algorithms and the "Top k elements" pattern lies in the fact that both involve selecting a subset of elements based on some criteria. While not all problems related to selecting top k elements can be solved greedily, some scenarios do align with the greedy algorithmic paradigm.  
   
 In the "Top k elements" pattern, the goal is often to identify or retrieve the k elements with the highest or lowest values from a collection. This pattern is commonly encountered in data analysis, ranking, and optimization problems.  

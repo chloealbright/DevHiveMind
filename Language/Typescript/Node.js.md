@@ -44,7 +44,7 @@ The Event Loop is one of the most important aspects to understand about Node.js.
 
 ## Inside the engine of Javascript
 
-![[h7509mqq3egedothd2g8.jpeg]]
+![[Javascript Engine.jpeg]]
 
 When you write a program, a syntax parser reads your code and then the compiler translates it into computer instructions(a lower-level language). 
 

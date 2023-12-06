@@ -1,4 +1,4 @@
-![[javaWorking.gif]]
+![[java-script Inner Working.gif]]
 
 Javascript is a programming language that was used to make websites more interactive but now is used for more things ever since the v8 engine from google chrome was created which allowed people to use javascript for mobile, desktop, and server development.
 

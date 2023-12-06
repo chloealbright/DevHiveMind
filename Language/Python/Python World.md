@@ -35,7 +35,7 @@ PIP is a package manager for Python, which means it allows you to install and ma
 venv is a module used to create and manage virtual environments is called venv . venv will usually install the most recent version of Python that you have available. If you have multiple versions of Python on your system, you can select a specific Python version by running python3 or whichever version you want.
 
 
-![[_Images/Languages/GetImage (4).jpeg]]
+![[Python Data Structures.jpeg]]
 ## Data Science Topics  
 
 Data Handling  

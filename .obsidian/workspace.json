@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Java/Java Class Loading Overview.md",
+                "file": "Language/Java/Streams.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75fa0dffb228789c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/Typescript/Javascript.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -138,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/Java/Java Class Loading Overview.md",
+                "file": "Language/Typescript/Javascript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/Java/Java Class Loading Overview.md",
+                "file": "Language/Typescript/Javascript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/Java/Java Class Loading Overview.md"
+                "file": "Language/Typescript/Javascript.md"
               }
             }
           },
@@ -282,34 +294,36 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "21630a82615465a6",
+  "active": "75fa0dffb228789c",
   "lastOpenFiles": [
-    "Language/Java/Java Dependencies.md",
-    "Mind Maps/Java Behind the Scenes.md",
-    "Language/Java/Important components of JVM.md",
-    "Language/Java/Groovy.md",
-    "Language/Java/Generics In Java.md",
-    "Language/Java/Ecosystem.md",
-    "Language/Java/Eco System to Setup.md",
-    "Language/Java/DotEnv Java.md",
-    "Language/Java/Common Java libraries.md",
-    "Language/Java/common java classes implemented by java classes.md",
-    "Language/Java/Collections Framework.md",
-    "Language/Java/Artifacts.md",
-    "Language/Java/Application Deployment & Data Structures Notes.md",
-    "Language/Java/apache vs tomcat.md",
-    "Language/Java/Apache Tomcat.md",
-    "Language/Flutter/Setup.md",
-    "Language/Dot Net/NET Core Setup.md",
-    "Language/C++/Explained.md",
-    "Language/C/Explained.md",
-    "Language/Bash/script.md",
-    "Language/Bash/cron job.md",
-    "Language/Bash/Bash To organize.md",
-    "Language/Bash/Automation.md",
-    "Language/_Build Tool/Maven.md",
-    "Language/_Build Tool/Make.md",
-    "Language/_Build Tool/Javascript Build.md",
+    "Language/Java/Streams.md",
+    "Language/Python/Python World.md",
+    "Language/Typescript/TypeScript Interfaces vs Types.md",
+    "Language/Typescript/Typescript Flow.md",
+    "Language/Domain-specific programming languages.md",
+    "Language/Typescript/Use of closure & composition.md",
+    "Language/Typescript/Union Types.md",
+    "Language/Typescript/TypeScript Explained.md",
+    "Language/Typescript/TypeScript Configuration.md",
+    "Language/Typescript/Type Shapes.md",
+    "Language/Typescript/Type Narrowing.md",
+    "Language/Typescript/Type Inferences.md",
+    "Language/Typescript/Type Annotations.md",
+    "Language/Typescript/this keyword.md",
+    "Language/Typescript/String encoding.md",
+    "Language/Typescript/Return Types.md",
+    "Language/Typescript/Prototypes.md",
+    "Language/Typescript/proto.md",
+    "Language/Typescript/polyfill.md",
+    "Language/Typescript/Pipe Functions.md",
+    "Language/Typescript/Params.md",
+    "Language/Typescript/Object Literals  vs Enhanced Object Literals.md",
+    "Language/Typescript/NPM.md",
+    "Language/Typescript/Node.js.md",
+    "Language/Typescript/Modules history and advance Implementation.md",
+    "Language/Typescript/Node setup.md",
+    "_Images/Languages/unnamed (8) 1.gif",
+    "Language/Markup/HTML/Dom.jpeg",
     "_Images/Database/Types of Joins.png",
     "Algorithms & Data Structures/Algo/Database & Data Structrues.jpg",
     "Database/Types of DB.jpg",
@@ -318,8 +332,6 @@
     "Database/Database Types.gif",
     "Database/Database Sharding.jpeg",
     "Database/Database Processes.gif",
-    "_Images/_Whiteboard/lc121.png",
-    "_Images/_Whiteboard/lc101.png",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "_Images/Security",
     "_Cheatsheet/website_optimization-cheat-sheet.pdf",

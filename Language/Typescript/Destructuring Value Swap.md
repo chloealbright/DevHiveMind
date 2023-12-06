@@ -1,7 +1,12 @@
 ---
 tags:
   - javascript
-author: jacgit18
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 ```javascript
 // Initialize two arrays

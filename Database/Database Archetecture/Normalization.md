@@ -87,7 +87,7 @@ Cons: May require more complex queries and result in slower performance. 
 
 Trade-offs: Choosing a higher level of normalization may result in slower performance and more complex queries.
 
-![[GetImage (8).jpeg]]
+![[3.5NF.jpeg]]
 
 ## 4NF (Fourth Normal Form) Rules 
 
@@ -100,19 +100,19 @@ Cons: May require more complex queries and result in slower performance. 
 Trade-offs: Choosing a higher level of normalization may result in slower performance and more complex queries, and may require additional maintenance to ensure that the data remains consistent.
 
 
-![[GetImage (37).png]]
+![[4NF.png]]
 
 Don’t want this it is better if separated  
 
 also to be considered multi value you need at <mark style="background: #FFF3A3A6;">least 3 columns</mark> the reason why is because with two columns you can fix the issue  in this example A1 is multivalued but we fixed by making independent rows the <mark style="background: #FFF3A3A6;">2nd rule to be multi value is column A have multiple relationships like how A1 maps to B1 and B2</mark>
 
-![[GetImage (38).png]]
+![[4NF part 1.png]]
 
 The last requirement to be considered multi valued after meeting 3 coulmn minimum is no <mark style="background: #FFF3A3A6;">relationship between b and c in this example</mark>
 
-![[GetImage (39).png]]
+![[4NF part 2.png]]
 
-![[GetImage (40).png]]
+![[4NF part 3.png]]
 
 ## 5NF (Fifth Normal Form) Rules 
 
@@ -144,11 +144,11 @@ Choosing a higher level of normalization can help to improve data integrity but 
 
 In summary, 5NF is a powerful tool for ensuring the consistency and quality of data. However, it can be complex to implement, and may have trade-offs in terms of query performance and storage requirements. Therefore, it is important to carefully consider the specific needs of the application and work with stakeholders to find the right balance between normalization, performance, and maintenance.
 
-![[GetImage (9).jpeg]]
+![[5NF part 1.jpeg]]
 
-![[GetImage (10).jpeg]]
+![[5NF part 2.jpeg]]
 
-![[GetImage (11).jpeg]]
+![[5NF part 3.jpeg]]
 
 <mark style="background: #FFB8EBA6;">Ford could have different supplier or you might be sold a different product the way things are separated on this table </mark>
 

@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ce2c7754a314ad2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language Overlap/Primitive Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/Java/Streams.md",
+                "file": "Language Overlap/Primitive Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/Java/Streams.md",
+                "file": "Language Overlap/Primitive Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/Java/Streams.md"
+                "file": "Language Overlap/Primitive Types.md"
               }
             }
           },
@@ -245,10 +258,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "21630a82615465a6",
+  "active": "ce2c7754a314ad2b",
   "lastOpenFiles": [
-    "Language/Typescript/Javascript.md",
+    "_Images/Languages/caveman-spongebob-patrick-star.gif",
     "Language/Java/Streams.md",
+    "Language/Typescript/Javascript.md",
     "Language/_Build Tool/Maven.md",
     "Language/_Build Tool/Gradle.md",
     "Language/_Build Tool/Build Tools.md",
@@ -273,7 +287,6 @@
     "Language/Typescript/polyfill.md",
     "Language/Typescript/Pipe Functions.md",
     "Language/Typescript/Params.md",
-    "Language/Typescript/Object Literals  vs Enhanced Object Literals.md",
     "_Images/Languages/unnamed (8) 1.gif",
     "Language/Markup/HTML/Dom.jpeg",
     "_Images/Database/Types of Joins.png",

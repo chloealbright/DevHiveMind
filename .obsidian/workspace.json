@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Algorithms & Visual Abstraction.md",
+                "file": "Algorithms & Data Structures/Algo/Greedy algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Algorithms & Visual Abstraction.md",
+                "file": "Algorithms & Data Structures/Algo/Greedy algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Algorithms & Visual Abstraction.md",
+                "file": "Algorithms & Data Structures/Algo/Greedy algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Algorithms & Visual Abstraction.md"
+                "file": "Algorithms & Data Structures/Algo/Greedy algorithms.md"
               }
             }
           },
@@ -247,8 +247,9 @@
   },
   "active": "1ca71b0a1b40d20a",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
     "Algorithms & Data Structures/Algo/Algorithms & Visual Abstraction.md",
+    "Algorithms & Data Structures/Algo/Greedy algorithms.md",
+    "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
     "Algorithms & Data Structures/Algo/Algorithm Pattern vs Simple Solution.md",
     "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
     "Algorithms & Data Structures/Algo/Algorithm Approach Pivot.md",
@@ -282,7 +283,6 @@
     "Database/Self-joining relationships.md",
     "Database/Database Archetecture/Normalization.md",
     "Language Overlap/Abstract Data Types.md",
-    "_Low Priority Refinement/Security/How do JSON Web Tokens work.md",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "_Images/Security",
     "_Cheatsheet/website_optimization-cheat-sheet.pdf",

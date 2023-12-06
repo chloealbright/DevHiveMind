@@ -4,5 +4,3 @@
 
 https://blog.bytebytego.com/
 
-
-![[Types of DB.jpg]]

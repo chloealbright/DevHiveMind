@@ -61,14 +61,49 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Create Tables.md",
+                "file": "Database/Data Structures That Power Your Databases.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db40021d8d37f62b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database/DB Data Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a165f8a273e78e9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database/Functional Dependencies.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af9f53e1f0def050",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database/Self-joining relationships.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Create Tables.md",
+                "file": "Database/Database Archetecture/Database Diagram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Create Tables.md",
+                "file": "Database/Database Archetecture/Database Diagram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +225,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Create Tables.md"
+                "file": "Database/Database Archetecture/Database Diagram.md"
               }
             }
           },
@@ -294,44 +329,44 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "eb14b6e7a6aec6b4",
+  "active": "0f721d251ec50d40",
   "lastOpenFiles": [
+    "Database/Self-joining relationships.md",
+    "Database/Types of Tables in logical database models.md",
+    "Database/Types of DB.jpg",
+    "Database/Triggers in SQL.md",
+    "Database/Sql Exe Order.gif",
+    "Database/Other Stuff.md",
+    "Database/NoSQL vs SQL.md",
+    "Database/normalized or denormalized.md",
+    "Database/MYSQL Setup.md",
+    "Database/Multi Model DB.md",
+    "Database/Keys.md",
+    "Database/Hadoop.md",
+    "Database/H2.md",
+    "Database/GUIDs.md",
+    "Database/Functional Dependencies.md",
+    "Database/Execution Order.jpg",
+    "Database/DBMS.md",
+    "Database/DB Stuff.md",
+    "Database/DB Data Types.md",
+    "Database/Database Types.gif",
+    "Database/Database Sharding.jpeg",
+    "Database/Database Processes.gif",
+    "Database/Data Work.md",
+    "Database/data visualization normalization or denormalization.md",
+    "Database/Data Structures That Power Your Databases.md",
+    "Database/Create Tables.md",
     "Database/Constraints.md",
     "Database/conf.md",
     "Database/Cloud Databases.md",
     "Database/Setup/Postgresql Setup.md",
     "Database/Relationships/Table Relationships.md",
     "Database/Relationships/SQL Table Structure.md",
-    "Database/Relationships/Relationship Reading.md",
-    "Database/NOSQL/MongoDB.md",
-    "Database/NOSQL/General Info.md",
-    "Database/NOSQL/DynamoDB vs MongoDB.md",
-    "Database/DB Fundamentals/Transaction.md",
-    "Database/DB Fundamentals/Mock Data.md",
-    "Database/DB Fundamentals/Metadata.md",
-    "Database/DB Fundamentals/Explained.md",
-    "Database/DB Fundamentals/Data formats.md",
-    "Database/DB Fundamentals/Data.md",
-    "Database/Database Archetecture/Which normalization to pick.md",
-    "Database/Database Archetecture/Table Team Work.md",
-    "Database/Database Archetecture/Star.md",
-    "Database/Database Archetecture/Snowflake.md",
-    "Database/Database Archetecture/Schema Design.md",
-    "Database/Database Archetecture/Normalization.md",
-    "Database/Database Archetecture/Making Decesion.md",
-    "Database/Database Archetecture/Fact Table.md",
-    "Database/Database Archetecture/Decentralized Data Management.md",
-    "Database/Database Archetecture/Database Diagram.md",
     "_Images/_Whiteboard/lc121.png",
     "_Images/_Whiteboard/lc101.png",
     "_Images/_Whiteboard/lc57Alt.png",
     "_Images/_Whiteboard/lc57.png",
-    "_Images/_Whiteboard/lc56.png",
-    "_Images/_Whiteboard/lc49.png",
-    "_Images/_Whiteboard/lc5.png",
-    "_Images/_Whiteboard/lc3nw.png",
-    "_Images/_Whiteboard/lc2.png",
-    "_Images/_Whiteboard/GraphGen.png",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "_Images/Security",
     "_Cheatsheet/website_optimization-cheat-sheet.pdf",

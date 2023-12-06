@@ -29,9 +29,9 @@ Hardware: Once you compile Java native code, it runs on a specific hardware plat
 
 
 # Embedded files
-7408385454fd531a404c9570e35ad3efa8b5cb9b: [[Pasted Image 20230423092320_550.png]]
-764fb47c2ec2a5c9334d7004f1202cf081186758: [[Pasted Image 20230423093148_795.png]]
-0a2c57d2f8e676f48ec854a373f99a61db0519fc: [[Pasted Image 20230423093203_807.png]]
+7408385454fd531a404c9570e35ad3efa8b5cb9b: [[Runtime Steps.png]]
+764fb47c2ec2a5c9334d7004f1202cf081186758: [[JDK.png]]
+0a2c57d2f8e676f48ec854a373f99a61db0519fc: [[Class Loader.png]]
 
 %%
 # Drawing

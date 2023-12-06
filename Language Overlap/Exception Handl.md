@@ -19,10 +19,10 @@ There are two types of exceptions:Â  Checked and Unchecked.
 -   Checked exceptions that can be handled at compile time. The catch or specify requirement applies. This means the exception can be handled or propagated up the class stack. To be propagated, the keyword throw is used. All exceptions are checked exceptions except subclasses of Runtime Exception or Error. FileNotFoundException is an example of a checked exception.  
     For example:
 
-![[j1.png]]
+![[Exception.png]]
 
 -   Results in
-![[j2.png]]
+![[Exception Result.png]]
 
 -   Unchecked exceptions are not anticipated. They do not follow the catch or specify requirements. They have automatically propagated up the call stack until an appropriate exception handler is found; otherwise, the runtime terminates. RuntimeException or Error are unchecked exceptions. NullPointerException is an example of an unchecked exception.
 
@@ -41,7 +41,7 @@ The keyword throw is used to propagate an exception to the appropriate handler.Â
 
 For example, rather than this method handling any exceptions, it throws the catchall Exception. If the developer wanted to throw specifically FileNotFoundException, it would change Exception to FileNotFoundException.
 
-![[j3.png]]
+![[Exceptions throwing.png]]
 
 ### Types of Errors:
 Besides error constructors, JavaScript also has other core Error constructors.

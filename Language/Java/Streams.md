@@ -24,20 +24,20 @@ Text streams
 
 general interaction is the same for both stream types
 
-![[Pasted image 20230422142413.png]]
+![[Read & Write Streams.png]]
 
-![[s1.png]]
+![[Stream Classes.png]]
 
-![[s2.png]]
+![[Reader Classes.png]]
 
-![[R1.png]]
+![[Reading one Byte.png]]
 
-![[W1.png]]
+![[Writing Byte.png]]
 
 
-![[R1c.png]]
+![[Reading one Character.png]]
 
-![[W1c.png]]
+![[Writing one Character.png]]
 
 ![[RAB.png]]
 
@@ -53,19 +53,19 @@ There are several types of stream operations in Java, including:
 
 ![[clean.png]]
 
-![[Pasted image 20230422143527.png]]
+![[Chain stream.png]]
 
-![[Pasted image 20230422143549.png]]
+![[Accessing files.png]]
 
-![[SmartSelect_20230224_011200_Pluralsight.jpg]]
+![[Buff Streams.jpg]]
 
-![[SmartSelect_20230224_011256_Pluralsight.jpg]]
+![[Buff Streams code.jpg]]
 
-![[tempFileForShare_20230225-131101.jpg]]
+![[Buff Streams line Break.jpg]]
 
-![[tempFileForShare_20230225-131329.jpg]]
+![[Writing line Break.jpg]]
 
-![[tempFileForShare_20230225-131437.jpg]]
+![[Reading line.jpg]]
 
 ![[tempFileForShare_20230224-010340.jpg]]
 

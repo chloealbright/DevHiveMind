@@ -21,7 +21,7 @@ So because JavaScript is garbage collected that is memory is managed automatical
 
 # Execution Context
 
-![[Pasted image 20230418075531.png]]![[Pasted image 20230418075540.png]]
+![[Global Exe Context.png]]![[Pasted image 20230418075540.png]]
 
 The Execution Context contains 
 

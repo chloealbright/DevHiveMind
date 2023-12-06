@@ -26,7 +26,7 @@ Cons: May result in duplicate data and require more storage space. 
 
 Trade-offs: Choosing a higher level of normalization may improve data integrity and reduce data inconsistencies but may also impact performance due to additional joins required.
 
-![[GetImage (30).png]]
+![[1NF.png]]
 
 ## 2NF (Second Normal Form) Rules 
 
@@ -41,11 +41,11 @@ Cons: May still result in duplicate data and require more storage space. 
 
 Trade-offs: Choosing a higher level of normalization may result in slower performance and more complex queries.
 
-![[GetImage (31).png]]
+![[2NF.png]]
 
-![[GetImage (32).png]]
+![[Dependencies.png]]
 
-![[GetImage (33).png]]
+![[Column Relatioships.png]]
 
 Or create teacher table
 
@@ -67,12 +67,12 @@ Trade-offs: Choosing a higher level of normalization may result in slower perfor
 
 ![[3NF.png]]
 
-![[GetImage (34).png]]
+![[Trans dependencies.png]]
 
 
-![[GetImage (35).png]]
+![[Employee relationship.png]]
 
-![[GetImage (36).png]]
+![[Exam relationship.png]]
 
 
 ## BCNF (Boyce-Codd Normal Form) 

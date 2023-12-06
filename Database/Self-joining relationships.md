@@ -23,4 +23,4 @@ SELECT a.emp_id AS "Emp_ID",a.emp_name AS "Employee Name", b.emp_id AS "
 ```
 
 
-![[GetImage (42).png]]
+![[Types of Joins.png]]

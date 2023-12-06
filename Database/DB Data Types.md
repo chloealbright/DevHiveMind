@@ -1,4 +1,4 @@
-![[_Images/Database/GetImage (5).png]]
+![[Structured vs Unstructured DB.png]]
 
 Talk about database like the data being organized so you might need a SQL database  
   

@@ -88,7 +88,7 @@ Which schema is right for you? 
 
 The answer depends on your specific needs and requirements. If you’re looking for a simple, efficient cloud data warehouse solution, a star schema might be the best option. But if you need more flexibility to accommodate changing data requirements, a snowflake schema may be a better choice.
 
-![[GetImage (26).png]]
+![[Star vs Snow.png]]
 
 
 Yes, it is possible to have multiple fact tables in a schema. A fact table in a data warehouse contains the measures or metrics that are being analyzed, such as sales, revenue, or customer interactions. Each fact table represents a different aspect of the data being analyzed. 

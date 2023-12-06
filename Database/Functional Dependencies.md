@@ -1,6 +1,6 @@
 Now that we know a different kind of keys in DBMS, let’s see how to identify them when given a table from a database. For this, we use the concept of functional dependencies.
 
-![[GetImage (43).png]]
+![[Functional Dependencies.png]]
 
 A ***functional dependency (FD)*** is a constraint between two sets of attributes. This constraint is for any two tuples t1 and t2 in r if t1[X] = t2[X], then they have t1[Y] = t2[Y]. This means the value of the X component of a tuple uniquely determines the value of component Y.  
 

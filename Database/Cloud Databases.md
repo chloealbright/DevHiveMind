@@ -6,10 +6,10 @@ also gives you access to other Aws data services like
 
 Amazon CloudTrail is **a service that enables governance, compliance, operational auditing, and risk auditing of your Amazon Web Services account**. With CloudTrail, you can log, continuously monitor, and retain account activity related to actions across your Amazon Web Services infrastructure.
 
-![[GetImage (56).png]]
+![[Aws DB services.png]]
 
-![[GetImage (57).png]]
+![[Purpose built DB.png]]
 
-![[GetImage (58).png]]
+![[DB premises.png]]
 
-![[GetImage (59).png]]
+![[Benefits of Managed DB.png]]

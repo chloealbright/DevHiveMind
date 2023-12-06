@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0f721d251ec50d40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database/Database Archetecture/Database Diagram.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1d182538490497ce",
             "type": "leaf",
             "state": {
@@ -30,67 +18,13 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ba0fefb5b1085feb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database/Database Archetecture/Schema Design.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2bec3aabced016bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database/Cloud Databases.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eb14b6e7a6aec6b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database/Data Structures That Power Your Databases.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db40021d8d37f62b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database/DB Data Types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a165f8a273e78e9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database/Functional Dependencies.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
+          }
+        ]
+      },
+      {
+        "id": "464a8bd5900dd4cb",
+        "type": "tabs",
+        "children": [
           {
             "id": "af9f53e1f0def050",
             "type": "leaf",
@@ -185,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Database Archetecture/Database Diagram.md",
+                "file": "Database/Database Archetecture/Normalization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Database Archetecture/Database Diagram.md",
+                "file": "Database/Database Archetecture/Normalization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Database Archetecture/Database Diagram.md"
+                "file": "Database/Database Archetecture/Normalization.md"
               }
             }
           },
@@ -329,9 +263,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0f721d251ec50d40",
+  "active": "1d182538490497ce",
   "lastOpenFiles": [
     "Database/Self-joining relationships.md",
+    "_Images/Database/Types of Joins.png",
+    "Database/Database Archetecture/Normalization.md",
+    "Database/Functional Dependencies.md",
+    "Database/DB Data Types.md",
+    "Database/conf.md",
+    "Database/Constraints.md",
+    "Database/Create Tables.md",
+    "Database/Data Structures That Power Your Databases.md",
+    "Algorithms & Data Structures/Algo/Database & Data Structrues.jpg",
+    "Database/Cloud Databases.md",
+    "Database/Database Archetecture/Schema Design.md",
+    "Database/Database Archetecture/Database Diagram.md",
     "Database/Types of Tables in logical database models.md",
     "Database/Types of DB.jpg",
     "Database/Triggers in SQL.md",
@@ -345,28 +291,15 @@
     "Database/Hadoop.md",
     "Database/H2.md",
     "Database/GUIDs.md",
-    "Database/Functional Dependencies.md",
     "Database/Execution Order.jpg",
     "Database/DBMS.md",
     "Database/DB Stuff.md",
-    "Database/DB Data Types.md",
     "Database/Database Types.gif",
     "Database/Database Sharding.jpeg",
     "Database/Database Processes.gif",
     "Database/Data Work.md",
-    "Database/data visualization normalization or denormalization.md",
-    "Database/Data Structures That Power Your Databases.md",
-    "Database/Create Tables.md",
-    "Database/Constraints.md",
-    "Database/conf.md",
-    "Database/Cloud Databases.md",
-    "Database/Setup/Postgresql Setup.md",
-    "Database/Relationships/Table Relationships.md",
-    "Database/Relationships/SQL Table Structure.md",
     "_Images/_Whiteboard/lc121.png",
     "_Images/_Whiteboard/lc101.png",
-    "_Images/_Whiteboard/lc57Alt.png",
-    "_Images/_Whiteboard/lc57.png",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "_Images/Security",
     "_Cheatsheet/website_optimization-cheat-sheet.pdf",

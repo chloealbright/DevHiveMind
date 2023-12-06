@@ -4,22 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "c79f0866e8b2db65",
+        "id": "fde238bf455cc7e0",
         "type": "tabs",
         "children": [
           {
-            "id": "1ca71b0a1b40d20a",
+            "id": "0f721d251ec50d40",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Greedy algorithms.md",
+                "file": "Database/Database Archetecture/Database Diagram.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d182538490497ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database/Database Archetecture/Normalization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba0fefb5b1085feb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database/Database Archetecture/Schema Design.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2bec3aabced016bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database/Cloud Databases.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eb14b6e7a6aec6b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database/Create Tables.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -101,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Greedy algorithms.md",
+                "file": "Database/Create Tables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Greedy algorithms.md",
+                "file": "Database/Create Tables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Greedy algorithms.md"
+                "file": "Database/Create Tables.md"
               }
             }
           },
@@ -245,20 +294,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1ca71b0a1b40d20a",
+  "active": "eb14b6e7a6aec6b4",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Algo/Algorithms & Visual Abstraction.md",
-    "Algorithms & Data Structures/Algo/Greedy algorithms.md",
-    "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
-    "Algorithms & Data Structures/Algo/Algorithm Pattern vs Simple Solution.md",
-    "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
-    "Algorithms & Data Structures/Algo/Algorithm Approach Pivot.md",
-    "Architecture/Run.md",
-    "Architecture/IaaS.md",
-    "Architecture/FaaS.md",
-    "Library/Backend/ZooKeeper.md",
-    "Library/Backend/Apache Kafka.md",
-    "Home.md",
+    "Database/Constraints.md",
+    "Database/conf.md",
+    "Database/Cloud Databases.md",
+    "Database/Setup/Postgresql Setup.md",
+    "Database/Relationships/Table Relationships.md",
+    "Database/Relationships/SQL Table Structure.md",
+    "Database/Relationships/Relationship Reading.md",
+    "Database/NOSQL/MongoDB.md",
+    "Database/NOSQL/General Info.md",
+    "Database/NOSQL/DynamoDB vs MongoDB.md",
+    "Database/DB Fundamentals/Transaction.md",
+    "Database/DB Fundamentals/Mock Data.md",
+    "Database/DB Fundamentals/Metadata.md",
+    "Database/DB Fundamentals/Explained.md",
+    "Database/DB Fundamentals/Data formats.md",
+    "Database/DB Fundamentals/Data.md",
+    "Database/Database Archetecture/Which normalization to pick.md",
+    "Database/Database Archetecture/Table Team Work.md",
+    "Database/Database Archetecture/Star.md",
+    "Database/Database Archetecture/Snowflake.md",
+    "Database/Database Archetecture/Schema Design.md",
+    "Database/Database Archetecture/Normalization.md",
+    "Database/Database Archetecture/Making Decesion.md",
+    "Database/Database Archetecture/Fact Table.md",
+    "Database/Database Archetecture/Decentralized Data Management.md",
+    "Database/Database Archetecture/Database Diagram.md",
     "_Images/_Whiteboard/lc121.png",
     "_Images/_Whiteboard/lc101.png",
     "_Images/_Whiteboard/lc57Alt.png",
@@ -269,20 +332,6 @@
     "_Images/_Whiteboard/lc3nw.png",
     "_Images/_Whiteboard/lc2.png",
     "_Images/_Whiteboard/GraphGen.png",
-    "Dev Roadmaps By Priority.md",
-    "Methodology/Staged Deployment.md",
-    "Language/Php/PHP Explained.md",
-    "Architecture/Stateless processes.md",
-    "Architecture/Software vs Firmware.md",
-    "Architecture/Software Development Life Cycle.md",
-    "Architecture/Software Architecture vs System Design.md",
-    "Language Overlap/Call Stack & heaps.md",
-    "Mind Maps/Drafts/UML/Models.md",
-    "Mind Maps/Drafts/UML/UML Notes Diagram Types Structure & Behavioral.md",
-    "README.md",
-    "Database/Self-joining relationships.md",
-    "Database/Database Archetecture/Normalization.md",
-    "Language Overlap/Abstract Data Types.md",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "_Images/Security",
     "_Cheatsheet/website_optimization-cheat-sheet.pdf",

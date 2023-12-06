@@ -10,7 +10,7 @@ The thing that executes a program's code
 Utilizes process resources
 
 Each parent thread Can have up to 4 Child thread  running concurrently 
-![[SmartSelect_20230528_214857_Pluralsight.jpg]]
+![[Concurrencey.jpg]]
 
 
 Multithreading is used to run things in Parallel or Parallel Processing
@@ -39,21 +39,22 @@ writer.write("Total: " + total);
 
 ```
 
-![[SmartSelect_20230528_215953_Pluralsight.jpg]]
+![[Adder classes.jpg]]
 
 ## single thread usage
-![[SmartSelect_20230528_220051_Pluralsight.jpg]]
+![[Using Adder classes.jpg]]
 
-![[SmartSelect_20230528_220232_Pluralsight.jpg]]
+![[Process on single thread.jpg]]
 
-![[SmartSelect_20230528_220334_Pluralsight.jpg]]
+**Main thread waits for other threads
+![[Processing on multi thread.jpg]]
 
 ## Thread foundation type 
 
 Runnable interface
 - Represents a task to be run on a thread  
 - only member is the run method
-![[SmartSelect_20230528_221020_Pluralsight.jpg]]
+![[Adder with thread.jpg]]
 
 
 Thread class
@@ -61,11 +62,8 @@ Thread class
 - Can interact with and effect thread state  
 - Begin execution with start method
 
-![[tempFileForShare_20230528-224532.jpg]]
+![[Running Adder on thread.jpg]]
 
-![[tempFileForShare_20230528-224757.jpg]]
-
-![[tempFileForShare_20230528-224859.jpg]]
 ```Java 
 
 String[] inFiles = ("./file1.txt"
@@ -82,7 +80,7 @@ thread.join(); // Blocks waiting for thread completion
 ```
 
 
-![[SmartSelect_20230528_225140_Pluralsight.jpg]]
+![[Running Adder on thread Blocks.jpg]]
 
 ## Thread pool type  
   
@@ -103,7 +101,7 @@ Executors class
 
 
 
-![[SmartSelect_20230529_133524_Pluralsight.jpg]]
+![[Thread pool.jpg]]
 
 ## Threading relationship Types 
 

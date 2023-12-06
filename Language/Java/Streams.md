@@ -67,12 +67,12 @@ There are several types of stream operations in Java, including:
 
 ![[Reading line.jpg]]
 
-![[tempFileForShare_20230224-010340.jpg]]
+![[Chaining Streams.jpg]]
 
-![[tempFileForShare_20230225-131753.jpg]]
+![[Path.jpg]]
 
-![[tempFileForShare_20230225-132221.jpg]]
+![[Read all.jpg]]
 
-![[tempFileForShare_20230225-132100.jpg]]
+![[Buff Reader.jpg]]
 
-![[tempFileForShare_20230225-131636.jpg]]
+![[nio package.jpg]]

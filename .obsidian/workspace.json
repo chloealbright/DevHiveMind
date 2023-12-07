@@ -4,33 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "fde238bf455cc7e0",
+        "id": "41b06440c35ae89c",
         "type": "tabs",
         "children": [
           {
-            "id": "21630a82615465a6",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/Languages/Concurrencey.jpg"
-              }
-            }
-          },
-          {
-            "id": "baa7425e19053798",
+            "id": "42b625fa7d9110b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_CODE/Express/Dev Todo.md",
+                "file": "Language/Typescript/ECMAScript.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_CODE/Express/Dev Todo.md",
+                "file": "Language/Typescript/ECMAScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_CODE/Express/Dev Todo.md",
+                "file": "Language/Typescript/ECMAScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_CODE/Express/Dev Todo.md"
+                "file": "Language/Typescript/ECMAScript.md"
               }
             }
           },
@@ -256,8 +245,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "baa7425e19053798",
+  "active": "42b625fa7d9110b8",
   "lastOpenFiles": [
+    "Language/Typescript/Any.md",
+    "Language/Typescript/ECMAScript.md",
+    "Home.md",
+    "Library/Frontend/Redux/useSelector Hooks.md",
+    "Companies/Interview/CV.md",
+    "Architecture/User Interface thoughts.md",
+    "_Low Priority Refinement/Security/OAuth 2.0.md",
+    "_Low Priority Refinement/Security/OAuth Two.jpeg",
+    "_CODE/Express/Dev Todo.md",
     "Database/DB Data Types.md",
     "Database/NOSQL/General Info.md",
     "Architecture/System Design/Instagram design.md",
@@ -279,7 +277,6 @@
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/_Web App Architecture.canvas",
     "_Images/Mind Map/Traffic Poliicies.gif",
-    "Home.md",
     "_Pdf/FROM SQL to Pandas 50.pdf",
     "_Images/Languages/SmartSelect_20230529_133349_Pluralsight.jpg",
     "Language Overlap/Process vs Thread.md",
@@ -287,7 +284,6 @@
     "_Images/Languages/Running Adder on thread Blocks.jpg",
     "_Images/Languages/Concurrencey.jpg",
     "_Images/Languages/Adder classes.jpg",
-    "_Images/Languages/tempFileForShare_20230528-224859.jpg",
     "Language/Java/Streams.md",
     "Language Overlap/Exception Handl.md",
     "Language Overlap/Primitive Types.md",
@@ -298,13 +294,6 @@
     "Language/Python/Python World.md",
     "Language/Typescript/TypeScript Interfaces vs Types.md",
     "Language/Typescript/Typescript Flow.md",
-    "Language/Domain-specific programming languages.md",
-    "Language/Typescript/Use of closure & composition.md",
-    "Language/Typescript/Union Types.md",
-    "Language/Typescript/TypeScript Explained.md",
-    "Language/Typescript/TypeScript Configuration.md",
-    "Language/Typescript/Type Shapes.md",
-    "Language/Typescript/Type Narrowing.md",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "_Images/Security",
     "_Cheatsheet/website_optimization-cheat-sheet.pdf",

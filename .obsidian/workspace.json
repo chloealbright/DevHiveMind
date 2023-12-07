@@ -21,42 +21,16 @@
             "id": "baa7425e19053798",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/Languages/Adder classes.jpg"
-              }
-            }
-          },
-          {
-            "id": "79d76768e435be68",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "Language Overlap/Process vs Thread.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
-      },
-      {
-        "id": "a2ecc6760e7012ac",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "841cf5ef76decca6",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/Languages/Thread pool.jpg"
-              }
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -138,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language Overlap/Process vs Thread.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language Overlap/Process vs Thread.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language Overlap/Process vs Thread.md"
+                "file": "Home.md"
               }
             }
           },
@@ -282,7 +256,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "79d76768e435be68",
+  "active": "baa7425e19053798",
   "lastOpenFiles": [
     "_Images/Languages/SmartSelect_20230529_133349_Pluralsight.jpg",
     "Language Overlap/Process vs Thread.md",

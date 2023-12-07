@@ -23,8 +23,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "_CODE/Express/Dev Todo.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -59,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "code smell",
+                "query": "unstr",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "_CODE/Express/Dev Todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "_CODE/Express/Dev Todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "_CODE/Express/Dev Todo.md"
               }
             }
           },
@@ -258,6 +258,29 @@
   },
   "active": "baa7425e19053798",
   "lastOpenFiles": [
+    "Database/DB Data Types.md",
+    "Database/NOSQL/General Info.md",
+    "Architecture/System Design/Instagram design.md",
+    "Database/Other Stuff.md",
+    "Architecture/System Design/System Design NoSQL Databases and When to Use Them..md",
+    "Architecture/System Design/System designs review.md",
+    "Architecture/Clean Code.md",
+    "_Low Priority Refinement/Security/Security By OSI Layer.jpeg",
+    "_Low Priority Refinement/Security/JWT.jpeg",
+    "_Low Priority Refinement/Security/Web Session Security.jpeg",
+    "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
+    "Mind Maps/Drafts/Domain-driven design.canvas",
+    "Mind Maps/Drafts/Event Driven Architecture.canvas",
+    "Mind Maps/Drafts/Event Messaging.canvas",
+    "Mind Maps/Drafts/File system.canvas",
+    "Mind Maps/Drafts/Gateway.canvas",
+    "Mind Maps/Drafts/Java Logging.canvas",
+    "Mind Maps/Drafts/Testing.canvas",
+    "Mind Maps/Drafts/Url.canvas",
+    "Mind Maps/_Web App Architecture.canvas",
+    "_Images/Mind Map/Traffic Poliicies.gif",
+    "Home.md",
+    "_Pdf/FROM SQL to Pandas 50.pdf",
     "_Images/Languages/SmartSelect_20230529_133349_Pluralsight.jpg",
     "Language Overlap/Process vs Thread.md",
     "_Images/Languages/Thread pool.jpg",
@@ -265,11 +288,7 @@
     "_Images/Languages/Concurrencey.jpg",
     "_Images/Languages/Adder classes.jpg",
     "_Images/Languages/tempFileForShare_20230528-224859.jpg",
-    "_Images/Languages/tempFileForShare_20230528-224757.jpg",
     "Language/Java/Streams.md",
-    "_Images/Languages/Writing one Character.png",
-    "_Images/Languages/Writing Byte.png",
-    "_Images/Languages/Read all.jpg",
     "Language Overlap/Exception Handl.md",
     "Language Overlap/Primitive Types.md",
     "Language/Typescript/Javascript.md",
@@ -286,13 +305,6 @@
     "Language/Typescript/TypeScript Configuration.md",
     "Language/Typescript/Type Shapes.md",
     "Language/Typescript/Type Narrowing.md",
-    "Language/Typescript/Type Inferences.md",
-    "Language/Typescript/Type Annotations.md",
-    "Language/Typescript/this keyword.md",
-    "Language/Typescript/String encoding.md",
-    "Language/Typescript/Return Types.md",
-    "Language/Typescript/Prototypes.md",
-    "Language/Typescript/proto.md",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "_Images/Security",
     "_Cheatsheet/website_optimization-cheat-sheet.pdf",
@@ -300,18 +312,7 @@
     "_Cheatsheet/SQL Practice Interview Questions .pdf",
     "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
     "_Cheatsheet/CLI-cheat-sheet.pdf",
-    "Mind Maps/Drafts/Url.canvas",
-    "Mind Maps/Drafts/Testing.canvas",
-    "Mind Maps/Drafts/Java Logging.canvas",
-    "Mind Maps/Drafts/Gateway.canvas",
-    "Mind Maps/Drafts/File system.canvas",
-    "Mind Maps/Drafts/Event Messaging.canvas",
-    "Mind Maps/Drafts/Event Driven Architecture.canvas",
-    "Mind Maps/Drafts/Domain-driven design.canvas",
-    "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
     "Architecture/Principles",
-    "_Images/_Main",
-    "_Images/Methodology",
-    "Untitled.canvas"
+    "_Images/_Main"
   ]
 }

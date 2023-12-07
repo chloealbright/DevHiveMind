@@ -1,5 +1,7 @@
 ![[Structured vs Unstructured DB.png]]
 
+Information is refined structured data
+
 Talk about database like the data being organized so you might need a SQL database  
   
 or  

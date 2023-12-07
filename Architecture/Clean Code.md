@@ -93,6 +93,18 @@ By modularizing your code in this way, you not only improve the organization and
 ![[Eye in the Detail.gif]]
 Comments are essentially a type of documentation that requires smart maintenance. Your code should speak for itself through well-chosen conventions. Utilize descriptive verbs in method and function names. Exclude commented-out code in production applications. Steer clear of todo's. Employ concise, one-line comments for crucial legal or explanatory information, such as regular expressions. Comment when there's an issue with a specific line of code.
 
+Comments should explain _Why_
+
+When we're writing code, there are times when we need to pass on more information, like _Why_ a decision was made, _Why_ a piece of code was needed, or some additional context that's relevant to it. These are are the kinds of things that should be commented.
+
+Maybe there's some obscure use-case that needs to be considered when editing a particular chunk of code that isn't immediately obvious. This should be commented clearly so when the next developer returns to this piece of code next week, next month, or even next year, they'll take that information into consideration as well and not re-introduce some bug, or break some other piece of functionality.
+
+Perhaps something out of the "normal" had to be done in a particular area of the code because of how some third party dependency works. Rather than expecting the rest of the team to run into the same issue and have to solve it themselves, a comment explaining the situation would save them time later (potentially hours or even days).
+
+Understanding _Why_ something was done the way it was provides tremendous insight, especially when there were multiple paths to choose from, or if there was indirect context that influenced the decision. In my personal opinion, commenting that _Why_ is not just a "nice to have" in your code, it's vital. It's vital for maintainability, for knowledge sharing, and most importantly for setting other members of the team up for success.
+
+Knowing when the _Why_ should be included can be tough sometimes. Most people, myself included, forget that we have knowledge and understanding of things that others don't. We move through our lives assuming or expecting others to either know that stuff, or to easily figure it out...even if it took _us_ months of collecting different pieces of information to gain that knowledge. So when you're writing that next piece of code, really step back and think to yourself, what information are you assuming the next developer will have in order to understand it? Then, write that stuff down in a comment.
+
 - Always try to explain yourself in code.
 - Don't be redundant.
 - Don't add obvious noise.

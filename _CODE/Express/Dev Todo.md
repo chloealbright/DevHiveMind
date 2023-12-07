@@ -20,6 +20,7 @@ Relates:
 - [ ] Get certified in Linux 
 - [ ] Continue reading [[Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf#page=160|Grokking Algorithms - An illustrated guide for programmers and other curious people, page 160]]
 - [ ] Looking to automating stock buys
+- [ ] Look if you can convert Algorithm Patterns solutions into declarative solutions still using the pattern
 - [ ] Develop practical fundamental skills around design patterns 
 - [ ] Code base decisions made at low level in the design of classes and functions and decisions being made  
 - [ ] Code base decisions made at a higher level in terms of components and services and overall architecture and put in the pieces together  

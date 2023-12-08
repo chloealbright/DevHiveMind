@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language Overlap/Abstract Classes.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language Overlap/Abstract Classes.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language Overlap/Abstract Classes.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language Overlap/Abstract Classes.md"
+                "file": "Home.md"
               }
             }
           },
@@ -247,9 +247,9 @@
   },
   "active": "128c22242937928e",
   "lastOpenFiles": [
+    "Language Overlap/Abstract Classes.md",
     "_Images/Recording 20231208101133.webm",
     "_Images/Recording 20231208101032.webm",
-    "Language Overlap/Abstract Classes.md",
     "Home.md",
     "Untitled.md",
     "Web/When and How to Use Custom HTTP Headers.md",
@@ -301,7 +301,6 @@
     "_Cheatsheet/website_optimization-cheat-sheet.pdf",
     "_Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
     "_Cheatsheet/SQL Practice Interview Questions .pdf",
-    "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
-    "_Cheatsheet/CLI-cheat-sheet.pdf"
+    "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf"
   ]
 }

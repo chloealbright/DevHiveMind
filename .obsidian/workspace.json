@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "_CODE/_Organize/Talking More Articulate.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "_CODE/_Organize/Talking More Articulate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "_CODE/_Organize/Talking More Articulate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "_CODE/_Organize/Talking More Articulate.md"
               }
             }
           },
@@ -236,19 +236,21 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "homepage:Open homepage": false,
       "janitor:Janitor: scan vault": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "fc99e552b16606d6",
   "lastOpenFiles": [
+    "AI & Chatgpt/prompts/Talking better.md",
+    "_CODE/_Organize/Talking More Articulate.md",
+    "_Template/Whiteboard.png",
     "Home.md",
-    "_CODE/_Organize/Commonplace.md",
     "Database/ACID.gif",
     "_Cheatsheet/Python Junior Cheathseets.pdf",
     "Language/Typescript/Any.md",
@@ -285,7 +287,6 @@
     "Language Overlap/Process vs Thread.md",
     "_Images/Languages/Thread pool.jpg",
     "_Images/Languages/Running Adder on thread Blocks.jpg",
-    "_Images/Languages/Concurrencey.jpg",
     "Language/Java/Streams.md",
     "Language Overlap/Exception Handl.md",
     "Language Overlap/Primitive Types.md",
@@ -294,7 +295,6 @@
     "Language/_Build Tool/Gradle.md",
     "Language/_Build Tool/Build Tools.md",
     "Language/Python/Python World.md",
-    "Language/Typescript/TypeScript Interfaces vs Types.md",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "_Images/Security",
     "_Cheatsheet/website_optimization-cheat-sheet.pdf",

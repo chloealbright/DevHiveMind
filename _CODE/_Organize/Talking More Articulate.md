@@ -1,5 +1,5 @@
 
-
+Try and identify High volume word you use then identify the context you use those words find articulate precise alternative words with chatgpt 
 ## Vocabulary Additions
 
 - Untethered (not anchored)

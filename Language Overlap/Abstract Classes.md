@@ -8,8 +8,6 @@ Started: 2023-10-29
 EditDate: 2023-10-29
 Relates:
 ---
-An abstract class is a fundamental concept in object-oriented programming that cannot be instantiated; you cannot create objects directly from it. Its primary purpose is to serve as a blueprint for other classes by defining common attributes and methods shared among its subclasses. In contrast, a concrete class is one that can be instantiated, allowing the creation of objects.
-
 ## Abstraction
   - The function and uses of a class are known
   - The actual implementation is hidden from the user.

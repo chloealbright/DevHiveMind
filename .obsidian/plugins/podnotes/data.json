@@ -2,7 +2,15 @@
   "savedFeeds": {},
   "podNotes": {},
   "defaultPlaybackRate": 1,
-  "playedEpisodes": {},
+  "playedEpisodes": {
+    "Grokking Algorithms - An illustrated guide for programmers and other curious people": {
+      "title": "Grokking Algorithms - An illustrated guide for programmers and other curious people",
+      "podcastName": "local file",
+      "time": 0,
+      "duration": 0,
+      "finished": true
+    }
+  },
   "favorites": {
     "icon": "lucide-star",
     "name": "Favorites",
@@ -20,6 +28,15 @@
   "playlists": {},
   "skipBackwardLength": 15,
   "skipForwardLength": 15,
+  "currentEpisode": {
+    "title": "Grokking Algorithms - An illustrated guide for programmers and other curious people",
+    "description": "",
+    "content": "",
+    "podcastName": "local file",
+    "url": "![[Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf]]",
+    "streamUrl": "blob:http://localhost/6d1b4f6c-7ced-4866-86ab-4f7c96d552ce",
+    "episodeDate": "2023-11-22T17:16:15.840Z"
+  },
   "timestamp": {
     "template": "- {{time}} "
   },
@@ -30,12 +47,36 @@
   "download": {
     "path": ""
   },
-  "downloadedEpisodes": {},
+  "downloadedEpisodes": {
+    "local file": [
+      {
+        "title": "Grokking Algorithms - An illustrated guide for programmers and other curious people",
+        "description": "",
+        "content": "",
+        "podcastName": "local file",
+        "url": "![[Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf]]",
+        "streamUrl": "blob:http://localhost/79dcbcc7-781c-4733-ac39-f665bd5496aa",
+        "episodeDate": "2023-11-22T17:16:15.840Z",
+        "filePath": "_Pdf/Books/Algorithms/Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf",
+        "size": 26021262
+      }
+    ]
+  },
   "localFiles": {
     "icon": "folder",
     "name": "Local Files",
     "shouldEpisodeRemoveAfterPlay": false,
     "shouldRepeat": false,
-    "episodes": []
+    "episodes": [
+      {
+        "title": "Grokking Algorithms - An illustrated guide for programmers and other curious people",
+        "description": "",
+        "content": "",
+        "podcastName": "local file",
+        "url": "![[Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf]]",
+        "streamUrl": "blob:http://localhost/79dcbcc7-781c-4733-ac39-f665bd5496aa",
+        "episodeDate": "2023-11-22T17:16:15.840Z"
+      }
+    ]
   }
 }

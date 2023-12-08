@@ -11,8 +11,12 @@
             "id": "128c22242937928e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Language Overlap/Abstract Classes.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -97,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Language Overlap/Abstract Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Language Overlap/Abstract Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Language Overlap/Abstract Classes.md"
+              }
             }
           },
           {
@@ -233,17 +241,21 @@
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "periodic-notes:Open today": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "128c22242937928e",
   "lastOpenFiles": [
+    "_Images/Recording 20231208101133.webm",
+    "_Images/Recording 20231208101032.webm",
+    "Language Overlap/Abstract Classes.md",
+    "Home.md",
+    "Untitled.md",
     "Web/When and How to Use Custom HTTP Headers.md",
     "Web/WebSockets.md",
     "Web/When should you use.md",
     "Web/When to Use Custom HTTP Methods.md",
-    "Home.md",
     "Dev Roadmaps By Priority.md",
     "Architecture/SOLID Design Principles.md",
     "_CODE/Code Organization Experiment.md",
@@ -265,9 +277,6 @@
     "_Cheatsheet/Python Junior Cheathseets.pdf",
     "Language/Typescript/Any.md",
     "Language/Typescript/ECMAScript.md",
-    "Library/Frontend/Redux/useSelector Hooks.md",
-    "Companies/Interview/CV.md",
-    "Architecture/User Interface thoughts.md",
     "_Low Priority Refinement/Security/OAuth Two.jpeg",
     "_Low Priority Refinement/Security/Security By OSI Layer.jpeg",
     "_Low Priority Refinement/Security/JWT.jpeg",
@@ -293,7 +302,6 @@
     "_Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
     "_Cheatsheet/SQL Practice Interview Questions .pdf",
     "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
-    "_Cheatsheet/CLI-cheat-sheet.pdf",
-    "Architecture/Principles"
+    "_Cheatsheet/CLI-cheat-sheet.pdf"
   ]
 }

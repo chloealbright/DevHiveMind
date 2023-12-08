@@ -5,6 +5,12 @@ tags:
   - ClassStructure
   - MacroCodebaseDecision
   - SOLID
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 [[_S_ingle Responsibility Principle]]
 [[_O_pen Closed Design Principle]]

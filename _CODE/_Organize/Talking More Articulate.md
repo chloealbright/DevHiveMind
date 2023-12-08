@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 
 Try and identify High volume word you use then identify the context you use those words find articulate precise alternative words with chatgpt using these [[Talking better | Prompts]] and emphasize the pronunciation of the word 
 

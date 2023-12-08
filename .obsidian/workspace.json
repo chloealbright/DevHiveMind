@@ -11,9 +11,11 @@
             "id": "6b3620e7d724b0cb",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Database/ACID.gif"
+                "file": "_CODE/_Organize/Commonplace.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/ACID.gif",
+                "file": "_CODE/_Organize/Commonplace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/ACID.gif",
+                "file": "_CODE/_Organize/Commonplace.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/ACID.gif"
+                "file": "_CODE/_Organize/Commonplace.md"
               }
             }
           },
@@ -243,9 +245,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "6b3620e7d724b0cb",
   "lastOpenFiles": [
     "Home.md",
+    "_CODE/_Organize/Commonplace.md",
     "Database/ACID.gif",
     "_Cheatsheet/Python Junior Cheathseets.pdf",
     "Language/Typescript/Any.md",

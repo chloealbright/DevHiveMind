@@ -2,6 +2,8 @@
 ![[URL Structure.png]]
 
 
+
+
 <mark style="background: #FFF3A3A6;">URL 1 to 7 </mark>A Uniform Resource Locator is a unique identifier used to locate a resource on the Internet. 
 
 <mark style="background: #ABF7F7A6;">URN 3 to 8</mark> A Uniform Resource Name is an Internet resource with a name that, unlike a URL, has persistent significance - that is, the owner of the URN can expect that someone else (or a program) will always be able to find the resource 
@@ -22,7 +24,7 @@
     
 <mark style="background: #D2B3FFA6;">7.</mark>  [[Query String]]
     
-<mark style="background: #FFB8EBA6;">8.</mark>  Fragment identifier is a string after URI, after the hash, which identifies something specific as a function of the document.  
+<mark style="background: #FFB8EBA6;">8.</mark>  Fragment identifier is a string after URI, after the hashtag, which identifies something specific as a function of the document.  
 
 The URI fragment is the optional part at the end of a URL which starts with a hash ( # ) character. It lets you refer to a specific part of the document you've accessed. For example, if you visit the following link, you'll automatically scroll to the top of the section you're reading right now!
 

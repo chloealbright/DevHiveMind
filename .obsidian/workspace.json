@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
+                "file": "Web/URI vs URL vs URN.md",
                 "mode": "source",
                 "source": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
+                "file": "Web/URI vs URL vs URN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
+                "file": "Web/URI vs URL vs URN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md"
+                "file": "Web/URI vs URL vs URN.md"
               }
             }
           },
@@ -284,6 +284,11 @@
   },
   "active": "f9789b66673396a3",
   "lastOpenFiles": [
+    "Web/URI Query Design.md",
+    "README.md",
+    "Home.md",
+    "Dev Roadmaps By Priority.md",
+    "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
     "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
     "Algorithms & Data Structures/Algo/Database & Data Structrues.jpg",
     "Algorithms & Data Structures/Algo/Data struct Factory.md",
@@ -295,9 +300,6 @@
     "Methodology/12 Factor App  Microservices Architecture.md",
     "Methodology/Docker Twelve Factors App/II Dependencies.md",
     "Untitled.md",
-    "README.md",
-    "Home.md",
-    "Dev Roadmaps By Priority.md",
     "Algorithms & Data Structures/Algo/Dynamic Programming.md",
     "Algorithms & Data Structures/Algo/Untitled.md",
     "Algorithms & Data Structures/Algo/Untitled Diagram.svg",
@@ -311,8 +313,6 @@
     "Algorithms & Data Structures/Knapsack Pattern.md",
     "Algorithms & Data Structures/Attributes of Data.md",
     "Algorithms & Data Structures/Bitwise XOR.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Priority Queue Implementation.md",
-    "Algorithms & Data Structures/k way merge vs 2-way Merge.md",
     "Architecture/Design Patterns.pdf",
     "_Images/Recording 20231208101133.webm",
     "_Images/Recording 20231208101032.webm",

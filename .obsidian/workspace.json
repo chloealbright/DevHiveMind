@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "8044322d1fb590cc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "76625e69b5c24600",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Algo/Dynamic Programming.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "376d5021d0461eee",
         "type": "tabs",
         "children": [
@@ -67,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Dynamic Programming.md",
+                "file": "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
                 "mode": "source",
                 "source": false
               }
@@ -156,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Dynamic Programming.md",
+                "file": "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Dynamic Programming.md",
+                "file": "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Dynamic Programming.md"
+                "file": "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md"
               }
             }
           },
@@ -302,6 +284,23 @@
   },
   "active": "f9789b66673396a3",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
+    "Algorithms & Data Structures/Algo/Database & Data Structrues.jpg",
+    "Algorithms & Data Structures/Algo/Data struct Factory.md",
+    "Algorithms & Data Structures/Algo/Bit-Binary.md",
+    "Algorithms & Data Structures/Algo/Big O.md",
+    "Methodology/Source code vs Codebase.md",
+    "Methodology/Deployment Strategies.md",
+    "Mind Maps/Drafts/Untitled Diagram.svg",
+    "Methodology/12 Factor App  Microservices Architecture.md",
+    "Methodology/Docker Twelve Factors App/II Dependencies.md",
+    "Untitled.md",
+    "README.md",
+    "Home.md",
+    "Dev Roadmaps By Priority.md",
+    "Algorithms & Data Structures/Algo/Dynamic Programming.md",
+    "Algorithms & Data Structures/Algo/Untitled.md",
+    "Algorithms & Data Structures/Algo/Untitled Diagram.svg",
     "Algorithms & Data Structures/Algo/Memoization.md",
     "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
     "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
@@ -310,25 +309,10 @@
     "Algorithms & Data Structures/Sort/_Sort Implementation Focus.md",
     "Algorithms & Data Structures/All Sorts of Sorts.md",
     "Algorithms & Data Structures/Knapsack Pattern.md",
-    "Algorithms & Data Structures/Algo/Dynamic Programming.md",
     "Algorithms & Data Structures/Attributes of Data.md",
     "Algorithms & Data Structures/Bitwise XOR.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Priority Queue Implementation.md",
     "Algorithms & Data Structures/k way merge vs 2-way Merge.md",
-    "Algorithms & Data Structures/Algo/Bit-Binary.md",
-    "Algorithms & Data Structures/AlgoFlow.md",
-    "Algorithms & Data Structures/Algo pathway.md",
-    "Algorithms & Data Structures/Algo Line of thought.md",
-    "Algorithms & Data Structures/Algo/Database & Data Structrues.jpg",
-    "Algorithms & Data Structures/Algo/Depth First Search & Breadth-First Search.md",
-    "Algorithms & Data Structures/Algo/Dijkstra + Bellman-Ford shortest path.md",
-    "Algorithms & Data Structures/Algo/Greedy algorithms.md",
-    "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
-    "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
-    "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
-    "Algorithms & Data Structures/Common Imperative.md",
-    "Algorithms & Data Structures/DeMorgans law.md",
-    "Algorithms & Data Structures/Discrete math.md",
     "Architecture/Design Patterns.pdf",
     "_Images/Recording 20231208101133.webm",
     "_Images/Recording 20231208101032.webm",
@@ -351,8 +335,6 @@
     "Mind Maps/_Web App Architecture.canvas",
     "_Images/Mind Map/Traffic Poliicies.gif",
     "_Pdf/FROM SQL to Pandas 50.pdf",
-    "_Images/Languages/SmartSelect_20230529_133349_Pluralsight.jpg",
-    "_Images/Languages/Thread pool.jpg",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "_Images/Security",
     "_Cheatsheet/website_optimization-cheat-sheet.pdf",

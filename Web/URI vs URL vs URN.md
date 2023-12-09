@@ -1,7 +1,7 @@
 
 ![[URL Structure.png]]
 
-
+![[URL Anatomy.jpeg]]
 
 
 <mark style="background: #FFF3A3A6;">URL 1 to 7 </mark>A Uniform Resource Locator is a unique identifier used to locate a resource on the Internet. 
@@ -10,14 +10,15 @@
 
 <mark style="background: #BBFABBA6;">URI 1 to 8</mark> A Uniform Resource Identifier is a unique sequence of characters that identifies a logical or physical resource used by web technologies. URIs may be used to identify anything, including real-world objects, such as people and places, concepts, or information resources such as web pages and books 
 
-<mark style="background: #FF5582A6;">1.</mark>  Scheme common ones are HTTP or[[ HTTPS]].    method the how 
-    
-<mark style="background: #FFB86CA6;">2.</mark>  Sub-domain common one is www or other like www1, or mail for Gmail not used a lot. 
-    
-<mark style="background: #FFF3A3A6;">3.</mark>  Domain is a string that acts as a Identifier  
-    
-<mark style="background: #BBFABBA6;">4.</mark>  Top Level Domain is the most generic domain in the Internet's hierarchical DNS domain name system. 
-    
+ # 1. Scheme/Protocol common ones are HTTP or[[ HTTPS]].   
+
+ ### 2. Sub-domain common one is `www` or other like `www1`, `blog`, or mail for Gmail not used a lot. 
+
+ ### 3. Domain is a string that acts as a Identifier  
+ 
+ 4. Top Level Domain is the most generic domain in the Internet's hierarchical DNS domain name system `.com`, `.org` and many  more
+
+   
 <mark style="background: #ABF7F7A6;">5.</mark> Port numbers are sometimes seen URLs. By default, HTTP uses port 80 and HTTPS uses port 443, but a URL like [http://www.example.com:8080/path/](http://www.example.com:8080/path/) specifies that the web browser connects instead to port 8080 of the HTTP server. Also web browsers tend to hide the port number from users. 
     
 <mark style="background: #ADCCFFA6;">6.</mark>  Path or endpoints are defined when making different CRUD request.  

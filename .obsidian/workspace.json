@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_CODE/_Organize/Talking More Articulate.md",
+                "file": "_CODE/Express/Algo left to over to do.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_CODE/_Organize/Talking More Articulate.md",
+                "file": "_CODE/Express/Algo left to over to do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_CODE/_Organize/Talking More Articulate.md",
+                "file": "_CODE/Express/Algo left to over to do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_CODE/_Organize/Talking More Articulate.md"
+                "file": "_CODE/Express/Algo left to over to do.md"
               }
             }
           },
@@ -247,38 +247,38 @@
   },
   "active": "aef26fd1a3ddaf4e",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
+    "Algorithms & Data Structures/Attributes of Data.md",
+    "Algorithms & Data Structures/All Sorts of Sorts.md",
+    "Algorithms & Data Structures/AlgoFlow.md",
+    "Algorithms & Data Structures/Algo pathway.md",
+    "Algorithms & Data Structures/Algo Line of thought.md",
+    "Algorithms & Data Structures/Algo/Database & Data Structrues.jpg",
+    "Algorithms & Data Structures/Algo/Depth First Search & Breadth-First Search.md",
+    "Algorithms & Data Structures/Algo/Dijkstra + Bellman-Ford shortest path.md",
+    "Algorithms & Data Structures/Algo/Dynamic Programming.md",
+    "Algorithms & Data Structures/Algo/Greedy algorithms.md",
+    "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
+    "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
+    "Algorithms & Data Structures/Algo/Memoization.md",
+    "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
+    "Algorithms & Data Structures/Coding Regimen.md",
+    "Algorithms & Data Structures/Common Imperative.md",
+    "Algorithms & Data Structures/DeMorgans law.md",
+    "Algorithms & Data Structures/Discrete math.md",
+    "Algorithms & Data Structures/Optimize & Solving Technique.md",
+    "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
+    "Algorithms & Data Structures/Spacetime Complexity.md",
+    "Algorithms & Data Structures/Steps to Problem on Interview.md",
+    "Algorithms & Data Structures/Whiteboard Interview.md",
+    "_CODE/_Organize/Talking More Articulate.md",
     "_NoteAssets/Markdown to use.md",
     "Architecture/Design Patterns.pdf",
-    "DevBrain/_Whiteboard/Drawing 2023-12-08 10.44.04.excalidraw.md",
-    "Home.md",
-    "Language Overlap/Abstract Classes.md",
     "_Images/Recording 20231208101133.webm",
     "_Images/Recording 20231208101032.webm",
-    "Untitled.md",
-    "Web/When and How to Use Custom HTTP Headers.md",
-    "Web/WebSockets.md",
-    "Web/When should you use.md",
-    "Web/When to Use Custom HTTP Methods.md",
-    "Dev Roadmaps By Priority.md",
-    "Architecture/SOLID Design Principles.md",
-    "_CODE/Code Organization Experiment.md",
-    "_CODE/_Capture/Grokking System Design Interview Key Performance Metrics Every Engineer Should Know.  by Arslan Ahmad  Geek Culture  Apr, 2023  Medium.md",
-    "_CODE/_Capture/Distributed tracking and monitoring.md",
-    "_CODE/_Capture/Designing Class to be Serializable.md",
-    "_CODE/_Capture/Design Patterns and Pattern Languages.md",
-    "_CODE/_Capture/My Obsidian Setup — My Notes and My Theme settings  by Nuno Campos  Obsidian Observer  Apr, 2023  Medium.md",
-    "_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part I  by aruva - empowering ideas  May, 2023  Medium.md",
-    "_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part III  by aruva - empowering ideas  May, 2023  Medium.md",
-    "_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part II  by aruva - empowering ideas  May, 2023  Medium.md",
-    "_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md",
-    "Language/Java/Mutex.md",
-    "_CODE/_Capture/Design Patterns A Guide to JavaScript Development Principles for Clean and Scalable Code  by Anto Semeraro  Jun, 2023  JavaScript in Plain English.md",
-    "_CODE/_Organize/Talking More Articulate.md",
-    "AI & Chatgpt/prompts/Talking better.md",
     "_Template/Whiteboard.png",
     "Database/ACID.gif",
     "_Cheatsheet/Python Junior Cheathseets.pdf",
-    "Language/Typescript/Any.md",
     "_Low Priority Refinement/Security/OAuth Two.jpeg",
     "_Low Priority Refinement/Security/Security By OSI Layer.jpeg",
     "_Low Priority Refinement/Security/JWT.jpeg",
@@ -297,7 +297,6 @@
     "_Pdf/FROM SQL to Pandas 50.pdf",
     "_Images/Languages/SmartSelect_20230529_133349_Pluralsight.jpg",
     "_Images/Languages/Thread pool.jpg",
-    "_Images/Languages/Running Adder on thread Blocks.jpg",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "_Images/Security",
     "_Cheatsheet/website_optimization-cheat-sheet.pdf",

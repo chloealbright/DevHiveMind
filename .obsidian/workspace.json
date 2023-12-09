@@ -67,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Memoization.md",
+                "file": "Algorithms & Data Structures/Algo/Dynamic Programming.md",
                 "mode": "source",
                 "source": false
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Memoization.md",
+                "file": "Algorithms & Data Structures/Algo/Dynamic Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Memoization.md",
+                "file": "Algorithms & Data Structures/Algo/Dynamic Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Memoization.md"
+                "file": "Algorithms & Data Structures/Algo/Dynamic Programming.md"
               }
             }
           },
@@ -300,10 +300,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "f9789b66673396a3",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
     "Algorithms & Data Structures/Algo/Memoization.md",
+    "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
     "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
     "Algorithms & Data Structures/Coding Regimen.md",
     "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md",

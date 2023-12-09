@@ -114,7 +114,7 @@ These algorithms employ a "divide and conquer" strategy, breaking the data into 
 **Binary Search:** While not a sorting algorithm, binary search is a searching algorithm that operates on sorted data by repeatedly dividing the search space in half. It is considered a "binary" operation because it makes binary decisions to narrow down the search space.
 
 
-## Non Comparative Sorts nature 
+## Non Comparative Sorts Nature 
 
 1. **Heap Sort:** Heap Sort is not a "linear" or "binary" sort in the sense of linear vs. binary operations. It is typically categorized based on its time complexity. Heap Sort is a comparison-based sorting algorithm with a time complexity of O(n log n), making it more efficient than quadratic time complexity sorts like Bubble Sort or Insertion Sort.
 

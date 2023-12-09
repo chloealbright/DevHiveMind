@@ -67,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Knapsack Pattern.md",
+                "file": "Algorithms & Data Structures/Algo/Memoization.md",
                 "mode": "source",
                 "source": false
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Knapsack Pattern.md",
+                "file": "Algorithms & Data Structures/Algo/Memoization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Knapsack Pattern.md",
+                "file": "Algorithms & Data Structures/Algo/Memoization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Knapsack Pattern.md"
+                "file": "Algorithms & Data Structures/Algo/Memoization.md"
               }
             }
           },
@@ -300,17 +300,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f9789b66673396a3",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Algo/Dynamic Programming.md",
+    "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
+    "Algorithms & Data Structures/Algo/Memoization.md",
+    "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
+    "Algorithms & Data Structures/Coding Regimen.md",
+    "Algorithms & Data Structures/Sort/Sorting Best Practices Examination.md",
+    "Algorithms & Data Structures/Sort/_Sort Implementation Focus.md",
+    "Algorithms & Data Structures/All Sorts of Sorts.md",
     "Algorithms & Data Structures/Knapsack Pattern.md",
+    "Algorithms & Data Structures/Algo/Dynamic Programming.md",
     "Algorithms & Data Structures/Attributes of Data.md",
     "Algorithms & Data Structures/Bitwise XOR.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Priority Queue Implementation.md",
     "Algorithms & Data Structures/k way merge vs 2-way Merge.md",
     "Algorithms & Data Structures/Algo/Bit-Binary.md",
-    "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
-    "Algorithms & Data Structures/All Sorts of Sorts.md",
     "Algorithms & Data Structures/AlgoFlow.md",
     "Algorithms & Data Structures/Algo pathway.md",
     "Algorithms & Data Structures/Algo Line of thought.md",
@@ -320,15 +325,10 @@
     "Algorithms & Data Structures/Algo/Greedy algorithms.md",
     "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
     "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
-    "Algorithms & Data Structures/Algo/Memoization.md",
     "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
-    "Algorithms & Data Structures/Coding Regimen.md",
     "Algorithms & Data Structures/Common Imperative.md",
     "Algorithms & Data Structures/DeMorgans law.md",
     "Algorithms & Data Structures/Discrete math.md",
-    "Algorithms & Data Structures/Optimize & Solving Technique.md",
-    "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
-    "Algorithms & Data Structures/Spacetime Complexity.md",
     "Architecture/Design Patterns.pdf",
     "_Images/Recording 20231208101133.webm",
     "_Images/Recording 20231208101032.webm",

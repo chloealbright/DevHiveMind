@@ -17,7 +17,7 @@ In summary, 2-way merge deals with two sorted lists, while k-way merge handles k
 
 
 ## K-way/2-way Merge Patterns (Dynamic Programming)
-#todo/High/Dev/CodingChallenge 
+
 - [ ] Adapt to Different Data Structures and Vary the Number of Structures Used
 	-  Dealing with multiple arrays, rows in two-dimensional arrays, or multiple linked lists, where you find the lowest value and store them in order from least to greatest, similar to a min-heap or merge sort.
 

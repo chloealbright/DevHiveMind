@@ -10,6 +10,8 @@ Relates:
 ---
 A priority queue and a heap are closely related concepts, but they serve different purposes and have different implementations.
 
+The easiest implementation is with Heaps
+
 A **priority queue** some times refereed to as a **heap queue** is an abstract data type that provides two main operations: inserting an element with an associated priority and removing the element with the highest priority. The priority queue itself doesn't dictate how these operations are implemented. They can be implemented using various data structures, including arrays, linked lists, and different types of heaps (such as min-heaps and max-heaps).
 
 A **heap**, on the other hand, is a specific data structure that maintains the heap property. In a min-heap, for example, each parent node has a smaller value than its children, ensuring that the smallest element is always at the root. In a max-heap, it's the opposite: each parent node has a larger value than its children, ensuring that the largest element is at the root.

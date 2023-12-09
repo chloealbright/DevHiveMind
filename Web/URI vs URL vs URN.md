@@ -7,21 +7,21 @@
 
 <mark style="background: #BBFABBA6;">URI 1 to 8</mark> A Uniform Resource Identifier is a unique sequence of characters that identifies a logical or physical resource used by web technologies. URIs may be used to identify anything, including real-world objects, such as people and places, concepts, or information resources such as web pages and books 
 
- # 1. Scheme/Protocol common ones are HTTP or[[ HTTPS]].   
+ ## 1. Scheme/Protocol common ones are HTTP or[[ HTTPS]].   
 
- ### 2. Sub-domain common one is `www` or other like `www1`, `blog`, or mail for Gmail not used a lot. 
+ ## 2. Sub-domain common one is `www` or other like `www1`, `blog`, or mail for Gmail not used a lot. 
 
- ### 3. Domain is a string that acts as a Identifier  
+ ## 3. Domain is a string that acts as a Identifier  
 
- 4. Top Level Domain is the most generic domain in the Internet's hierarchical DNS domain name system `com`, `org`, and many  more
+ ## 4. Top Level Domain is the most generic domain in the Internet's hierarchical DNS domain name system `com`, `org`, and many  more
 
- 5. Port numbers are sometimes seen URLs. By default, HTTP uses port 80 and HTTPS uses port 443, but a URL like [http://www.example.com:8080/path/](http://www.example.com:8080/path/) specifies that the web browser connects instead to port 8080 of the HTTP server. Also web browsers tend to hide the port number from users. 
-    
-<mark style="background: #ADCCFFA6;">6.</mark>  Path or endpoints are defined when making different CRUD request.  
-    
-<mark style="background: #D2B3FFA6;">7.</mark>  [[Query String]] which takes in parameters
-    
-<mark style="background: #FFB8EBA6;">8.</mark>  Fragment identifier is a string after URI, after the hashtag, which identifies something specific as a function of the document.  
+ ## 5. Port numbers are sometimes seen URLs. By default, HTTP uses port 80 and HTTPS uses port 443, but a URL like [http://www.example.com:8080/path/](http://www.example.com:8080/path/) specifies that the web browser connects instead to port 8080 of the HTTP server. Also web browsers tend to hide the port number from users. 
+
+ ## 6. Path or endpoints are defined when making different CRUD request.  
+   
+ ## 7. [[Query String]] which takes in parameters
+
+ ## 8. Fragment identifier is a string after URI, after the hashtag, which identifies something specific as a function of the document.  
 
 The URI fragment is the optional part at the end of a URL which starts with a hash ( # ) character. It lets you refer to a specific part of the document you've accessed. For example, if you visit the following link, you'll automatically scroll to the top of the section you're reading right now!
 

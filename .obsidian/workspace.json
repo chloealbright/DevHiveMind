@@ -6,6 +6,7 @@
       {
         "id": "376d5021d0461eee",
         "type": "tabs",
+        "dimension": 67.48344370860927,
         "children": [
           {
             "id": "aef26fd1a3ddaf4e",
@@ -37,7 +38,7 @@
             "state": {
               "type": "diagram-edit",
               "state": {
-                "file": "Mind Maps/Drafts/Untitled Diagram.svg"
+                "file": "Mind Maps/Drafts/Requirement life cycle.svg"
               }
             }
           }
@@ -47,6 +48,7 @@
       {
         "id": "536b117e2d54f2b9",
         "type": "tabs",
+        "dimension": 32.51655629139073,
         "children": [
           {
             "id": "fea6b7fa615a8c1d",
@@ -142,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mind Maps/Drafts/Untitled Diagram.svg",
+                "file": "Companies/Agile to edit/Requirements life cycle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mind Maps/Drafts/Untitled Diagram.svg",
+                "file": "Companies/Agile to edit/Requirements life cycle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mind Maps/Drafts/Untitled Diagram.svg"
+                "file": "Companies/Agile to edit/Requirements life cycle.md"
               }
             }
           },
@@ -286,13 +288,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f9789b66673396a3",
+  "active": "fea6b7fa615a8c1d",
   "lastOpenFiles": [
+    "Mind Maps/Drafts/Requirement life cycle.svg",
     "Companies/Agile to edit/Requirements life cycle.md",
+    "_Images/Companies Models/BSA Req Life Cycle.png",
     "Companies/Agile to edit/Requirement Governance.md",
     "Algorithms & Data Structures/k way merge vs 2-way Merge.md",
     "Algorithms & Data Structures/Bitwise XOR.md",
-    "Mind Maps/Drafts/Untitled Diagram.svg",
     "Companies/Agile to edit/Enabler user story example.md",
     "Web/URI vs URL vs URN.md",
     "_Images/Web/URL Structure.png",
@@ -318,7 +321,6 @@
     "Algorithms & Data Structures/Algo/Memoization.md",
     "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
     "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
-    "Algorithms & Data Structures/Coding Regimen.md",
     "Architecture/Design Patterns.pdf",
     "_Images/Recording 20231208101133.webm",
     "_Images/Recording 20231208101032.webm",
@@ -327,7 +329,6 @@
     "_Cheatsheet/Python Junior Cheathseets.pdf",
     "_Low Priority Refinement/Security/OAuth Two.jpeg",
     "_Low Priority Refinement/Security/Security By OSI Layer.jpeg",
-    "_Low Priority Refinement/Security/JWT.jpeg",
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",
     "Mind Maps/Drafts/Event Driven Architecture.canvas",

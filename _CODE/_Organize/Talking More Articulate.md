@@ -28,6 +28,13 @@ Try and identify High volume word you use then identify the context you use thos
 | vague  | nebulous      |
 
 
+
+| ![Image 1](image1.jpg)| ![Image 2](image2.jpg)|
+|:----------------------:|:----------------------:|
+|  Caption for Image 1   |  Caption for Image 2   |
+|                        |                        |
+
+
 ## Figurative Speech & Creative Language
 **Alliteration, Metaphors, & Idioms**
 

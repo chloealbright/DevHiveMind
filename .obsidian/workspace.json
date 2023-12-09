@@ -11,8 +11,12 @@
             "id": "aef26fd1a3ddaf4e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_CODE/_Organize/Talking More Articulate.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -97,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_CODE/_Organize/Talking More Articulate.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_CODE/_Organize/Talking More Articulate.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevBrain/_Whiteboard/Drawing 2023-12-08 10.44.04.excalidraw.md"
+                "file": "_CODE/_Organize/Talking More Articulate.md"
               }
             }
           },
@@ -239,8 +245,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "aef26fd1a3ddaf4e",
   "lastOpenFiles": [
+    "_NoteAssets/Markdown to use.md",
+    "Architecture/Design Patterns.pdf",
+    "DevBrain/_Whiteboard/Drawing 2023-12-08 10.44.04.excalidraw.md",
     "Home.md",
     "Language Overlap/Abstract Classes.md",
     "_Images/Recording 20231208101133.webm",
@@ -270,7 +279,6 @@
     "Database/ACID.gif",
     "_Cheatsheet/Python Junior Cheathseets.pdf",
     "Language/Typescript/Any.md",
-    "Language/Typescript/ECMAScript.md",
     "_Low Priority Refinement/Security/OAuth Two.jpeg",
     "_Low Priority Refinement/Security/Security By OSI Layer.jpeg",
     "_Low Priority Refinement/Security/JWT.jpeg",
@@ -294,7 +302,6 @@
     "_Images/Security",
     "_Cheatsheet/website_optimization-cheat-sheet.pdf",
     "_Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
-    "_Cheatsheet/SQL Practice Interview Questions .pdf",
-    "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf"
+    "_Cheatsheet/SQL Practice Interview Questions .pdf"
   ]
 }

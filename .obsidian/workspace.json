@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "ac52fd90ebf1fe3d",
+        "id": "376d5021d0461eee",
         "type": "tabs",
         "children": [
           {
-            "id": "128c22242937928e",
+            "id": "aef26fd1a3ddaf4e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -101,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "DevBrain/_Whiteboard/Drawing 2023-12-08 10.44.04.excalidraw.md"
               }
             }
           },
@@ -245,12 +239,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "128c22242937928e",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "Home.md",
     "Language Overlap/Abstract Classes.md",
     "_Images/Recording 20231208101133.webm",
     "_Images/Recording 20231208101032.webm",
-    "Home.md",
     "Untitled.md",
     "Web/When and How to Use Custom HTTP Headers.md",
     "Web/WebSockets.md",

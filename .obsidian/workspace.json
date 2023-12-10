@@ -8,41 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aef26fd1a3ddaf4e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Bitwise XOR.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "55dfabb402e0fe7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Priority Queue Implementation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fea6b7fa615a8c1d",
             "type": "leaf",
             "state": {
-              "type": "diagram",
+              "type": "markdown",
               "state": {
-                "file": "Mind Maps/Drafts/UML/Requirement life cycle.svg"
+                "file": "Algorithms & Data Structures/Algo/Dynamic programming Patterns.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Priority Queue Implementation.md",
+                "file": "Algorithms & Data Structures/Algo/Dynamic programming Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Priority Queue Implementation.md",
+                "file": "Algorithms & Data Structures/Algo/Dynamic programming Patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Heap/Priority Queue Implementation.md"
+                "file": "Algorithms & Data Structures/Algo/Dynamic programming Patterns.md"
               }
             }
           },
@@ -268,8 +245,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "55dfabb402e0fe7b",
+  "active": "fea6b7fa615a8c1d",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Algo/Dynamic Programming.md",
+    "Algorithms & Data Structures/Algo/Dynamic programming Patterns.md",
+    "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
+    "Algorithms & Data Structures/Algo/Algorithm Approach Pivot.md",
+    "_CODE/_Organize/Talking More Articulate Template.md",
+    "Home.md",
     "Mind Maps/Drafts/UML/Requirement life cycle.svg",
     "Companies/Agile to edit/Requirements life cycle.md",
     "_Images/Companies Models/BSA Req Life Cycle.png",
@@ -282,7 +265,6 @@
     "_Images/URL Anatomy.jpeg",
     "Web/URI Query Design.md",
     "README.md",
-    "Home.md",
     "Dev Roadmaps By Priority.md",
     "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
     "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
@@ -295,12 +277,8 @@
     "Methodology/12 Factor App  Microservices Architecture.md",
     "Methodology/Docker Twelve Factors App/II Dependencies.md",
     "Untitled.md",
-    "Algorithms & Data Structures/Algo/Dynamic Programming.md",
-    "Algorithms & Data Structures/Algo/Untitled.md",
     "Algorithms & Data Structures/Algo/Untitled Diagram.svg",
     "Algorithms & Data Structures/Algo/Memoization.md",
-    "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
-    "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
     "Architecture/Design Patterns.pdf",
     "_Images/Recording 20231208101133.webm",
     "_Images/Recording 20231208101032.webm",

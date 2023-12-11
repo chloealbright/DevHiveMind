@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ## **Application Architecture:**
 Involves designing individual applications with a focus on specific technical details, including components, modules, and interfaces. Salary: $116,000 per year.
 

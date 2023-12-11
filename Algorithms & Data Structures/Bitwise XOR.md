@@ -3,7 +3,7 @@ tags:
   - interview
 author:
   - jacgit18
-Status: 
+Status: refinement
 Started: 
 EditDate: 
 Relates: "[[Bit-Binary]]"
@@ -29,6 +29,71 @@ In summary, the Bitwise XOR Pattern is a technique that uses the Bitwise XOR ope
 
 
 
+This code defines a JavaScript function named `singleNumber` that takes an array of numbers (`nums`) as its parameter and returns a single number. The purpose of the function is to find the number that appears only once in the array, while all other numbers appear twice.
+
+Let's break down the code:
+
+```javascript
+function singleNumber(nums: number[]): number {
+  // Initialize the result variable to 0
+  let result = 0;
+
+  // Iterate through each number in the array
+  for (const num of nums) {
+    // Use bitwise XOR (^) to toggle the bits of the result with each number
+    result ^= num;
+  }
+
+  // The final value of 'result' is the number that appears only once
+  return result;
+}
+```
+
+Explanation:
+
+1. `let result = 0;`: Initializes a variable `result` to 0. This variable will be used to store the XOR (exclusive OR) of all the numbers in the array.
+
+2. `for (const num of nums) { result ^= num; }`: Iterates through each number in the `nums` array and performs a bitwise XOR operation between the current value of `result` and the current number (`num`). The XOR operation has the property that XOR-ing a number with itself results in 0. Therefore, when a number appears twice, it cancels out in the XOR operation, leaving only the number that appears once.
+
+3. `return result;`: Returns the final value of `result`, which is the number that appears only once in the array.
+
+This algorithm takes advantage of the XOR operation's properties to efficiently find the unique number in the array without using extra space or sorting. It works because XOR-ing the same number twice results in 0, and XOR-ing 0 with a number leaves the number unchanged. So, the final `result` will be the number that appears only once in the array.
+
+
+
+
+The `^` operator in many programming languages, including JavaScript, is the bitwise XOR (exclusive OR) operator. It performs a bitwise XOR operation on the corresponding bits of two operands. Here's how it works:
+
+Let's consider two binary numbers, A and B:
+
+```
+A: 1010
+B: 1100
+```
+
+The bitwise XOR operation compares each pair of corresponding bits. If the bits are different, the result is 1; otherwise, it's 0.
+
+```
+A ^ B: 0110
+```
+
+In the result, a 1 indicates that the bits at that position in A and B are different, and a 0 indicates that they are the same.
+
+Now, in the context of the code you provided:
+
+```javascript
+result ^= num;
+```
+
+This line of code is shorthand for:
+
+```javascript
+result = result ^ num;
+```
+
+It means that the current value of `result` is being bitwise XOR-ed with the value of `num`, and the result is then stored back in the variable `result`. This operation is often used for its property that XOR-ing a value with itself (or with 0) results in 0. Therefore, when you XOR the same value multiple times, it effectively cancels out, and you are left with the XOR of the unique values.
+
+In the specific case of the `singleNumber` function, the XOR operation is used in a loop to XOR all the numbers in the array. Since the XOR of a number with itself is 0, and XOR-ing 0 with any number leaves the number unchanged, this process effectively cancels out all the numbers that appear twice, leaving only the number that appears once.
 
 
 ## Linked List Coding Problems

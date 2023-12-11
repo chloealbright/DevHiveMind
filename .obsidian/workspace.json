@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d97e7dfb0d4517f6",
+        "id": "56dacf0e4ad66a56",
         "type": "tabs",
         "children": [
           {
-            "id": "d6f6502e882dd272",
+            "id": "9e1254cb218bfe16",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_CODE/Code Note Organization Experiment.md",
+                "file": "Algorithms & Data Structures/Bitwise XOR.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "unstr",
+                "query": "bitw",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -81,7 +81,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_CODE/Code Note Organization Experiment.md",
+                "file": "Algorithms & Data Structures/Bitwise XOR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_CODE/Code Note Organization Experiment.md",
+                "file": "Algorithms & Data Structures/Bitwise XOR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_CODE/Code Note Organization Experiment.md"
+                "file": "Algorithms & Data Structures/Bitwise XOR.md"
               }
             }
           },
@@ -245,7 +246,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d6f6502e882dd272",
+  "active": "9e1254cb218bfe16",
   "lastOpenFiles": [
     "Home.md",
     "Algorithms & Data Structures/Algo/Dynamic Programming.md",

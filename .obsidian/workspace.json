@@ -4,16 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "56dacf0e4ad66a56",
+        "id": "b6b2b466f9d8845b",
         "type": "tabs",
         "children": [
           {
-            "id": "9e1254cb218bfe16",
+            "id": "684ce5e8fcd54752",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Bitwise XOR.md",
+                "file": "Companies/_Money Talk/Bonuses.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65e84eef20da492e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/_Money Talk/Non competes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "f42da78aaae7558d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "046661deac6f9eb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/_Money Talk/Negotiation.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +112,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -102,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Bitwise XOR.md",
+                "file": "Companies/_Money Talk/Non competes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Bitwise XOR.md",
+                "file": "Companies/_Money Talk/Non competes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Bitwise XOR.md"
+                "file": "Companies/_Money Talk/Non competes.md"
               }
             }
           },
@@ -246,9 +276,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9e1254cb218bfe16",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "Companies/_Money Talk/Negotiation.md",
+    "Companies/_Money Talk/Negotiation 1.md",
+    "_Images/Interview/Negotiate.gif",
+    "Companies/_Money Talk/Decide between Salary and Equity.md",
+    "Companies/_Money Talk/Bonuses.md",
+    "Companies/_Money Talk/Bonus 1.md",
+    "Cloud/Cloud Monitoring Services.jpeg",
+    "Cloud/Benefits of cloud.md",
+    "Cloud/AWS/AWS Cloud Services.md",
     "Home.md",
+    "Devops/DevOps Roadmap.gif",
     "Algorithms & Data Structures/Algo/Dynamic Programming.md",
     "Algorithms & Data Structures/Algo/Dynamic programming Patterns.md",
     "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
@@ -271,23 +311,12 @@
     "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
     "Algorithms & Data Structures/Algo/Database & Data Structrues.jpg",
     "Algorithms & Data Structures/Algo/Data struct Factory.md",
-    "Algorithms & Data Structures/Algo/Bit-Binary.md",
-    "Algorithms & Data Structures/Algo/Big O.md",
-    "Methodology/Source code vs Codebase.md",
-    "Methodology/Deployment Strategies.md",
-    "Methodology/12 Factor App  Microservices Architecture.md",
-    "Methodology/Docker Twelve Factors App/II Dependencies.md",
-    "Untitled.md",
     "Algorithms & Data Structures/Algo/Untitled Diagram.svg",
-    "Algorithms & Data Structures/Algo/Memoization.md",
     "Architecture/Design Patterns.pdf",
     "_Images/Recording 20231208101133.webm",
     "_Images/Recording 20231208101032.webm",
     "_Template/Whiteboard.png",
-    "Database/ACID.gif",
     "_Cheatsheet/Python Junior Cheathseets.pdf",
-    "_Low Priority Refinement/Security/OAuth Two.jpeg",
-    "_Low Priority Refinement/Security/Security By OSI Layer.jpeg",
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",
     "Mind Maps/Drafts/Event Driven Architecture.canvas",

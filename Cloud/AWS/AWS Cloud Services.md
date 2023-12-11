@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 A website/App needs five things a Network, Security, Storage, Database, & Compute you can hire specialist & invest in technologies but Cloud makes all this cheaper & more efficient. The core services AWS provide are <mark style="background: #FFF3A3A6;">EC2</mark> for compute then for Databases there is <mark style="background: #FFF3A3A6;">RDS</mark> & <mark style="background: #FFF3A3A6;">DynamoBD</mark> then you storage service <mark style="background: #FFF3A3A6;">S3</mark> which can think of it being similar to a CDN. Then there is <mark style="background: #FFF3A3A6;">VPC</mark>  for networking & <mark style="background: #FFF3A3A6;">IAM</mark> for security. When it comes to these core services you are only billed for what  you use.  
 
 You can work with AWS through <mark style="background: #FFF3A3A6;">CloudShell</mark>, Programmatic with <mark style="background: #FFF3A3A6;">CLI</mark>,  & <mark style="background: #FFF3A3A6;">SDK</mark>  

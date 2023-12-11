@@ -1,17 +1,30 @@
-Having options when it comes to compensation packages is never a bad thing, but it can be confusing to choose between them. Here are some points to consider as your evaluate your alternatives.  
-  
-Can you survive on the lower-salary offer?  
-It can be exhilarating—not to mention a great learning experience—to join an early startup, but you’ll typically see much lower salaries paired with higher equity stakes, as the smaller the company, the lower the chances they’ve raised (or made) tons of cash. Take a look at your own expenses to determine the minimum salary you’d be able to accept, particularly if you’re living in an expensive tech hub like San Francisco, where living expenses can eat up a huge chunk of your income.  
-  
-What’s your four-year plan?  
-If your equity is on a typical four-year vesting schedule, you won’t have the option to purchase any shares before year one, and the remainder will take an additional three years to vest. If you know you have a big move ahead, you’re planning on going back to school, or otherwise don’t expect to be with the company for long, be sure to factor that into your considerations.  
-  
-How strongly do you believe in the company?  
-Hopefully you’re excited about the prospects of any new company you’re joining, but trading off between salary and equity is a time to think critically about how optimistic you are about the company’s future, as well as its exit prospects, which will ultimately determine what your equity will be worth. Of course, this isn’t easy, and there are professionals (like veture capitalists) who get paid to do this and still get it wrong a lot of the time, but it’s an important factor to consider if you’re leaning towards a job with a lower salary but a company you’re more excited about  
-  
-Do the alternatives make financial sense?  
-If a company has offered you two different packages, one with more equity and the other with a higher salary, it’s worth running some quick calculations to figure out if the two numbers are reasonably equal. Wealthfront has a helpful blog post about how to do this—the numbers will never be foolproof, but it’s a good idea to generate some ballpark figures to make a more informed comparison.  
-  
-You can potentially buy shares of a company when you work at them for the current price up until 4 years or something before they publicly traded so if Spotify is 100 you can buy at that same price for that next couple of years even if the price changes  
-  
-Focus on getting more money on the base pay instead of bonus or equity especially if it's like a startup
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
+Navigating compensation packages can be overwhelming, but considering key factors will help you make an informed decision:
+
+1. **Survivability on Lower Salary:**
+   Evaluate if the lower salary aligns with your living expenses, especially in high-cost areas like San Francisco. Understand the trade-off between lower immediate income and potential higher equity stakes in early startups.
+
+2. **Four-Year Plan:**
+   If equity follows a four-year vesting schedule, consider how it aligns with your future plans. Factor in major life changes, like moving or going back to school, as these can impact your ability to benefit from the full vesting period.
+
+3. **Belief in the Company:**
+   Assess your optimism about the company's future and exit prospects. While predicting these outcomes is challenging, considering them is vital, especially when contemplating a job with lower salary but higher excitement about the company.
+
+4. **Financial Sense of Alternatives:**
+   If presented with two packages—one emphasizing equity and the other a higher salary—run calculations to approximate their comparative value. While not foolproof, this provides a ballpark figure for a more informed decision.
+
+5. **Stock Purchase Opportunities:**
+   Explore the potential to purchase company shares at a fixed price during your tenure. Understand the timeframe and conditions for acquiring shares, as this can influence your overall compensation strategy.
+
+6. **Base Pay Focus:**
+   Prioritize negotiating a higher base pay, particularly in startups, rather than relying heavily on bonuses or equity. This ensures a more stable income and mitigates risks associated with fluctuating bonuses or uncertain equity returns.
+
+In weighing these factors, you can make a well-rounded decision that aligns with your financial goals and career aspirations.

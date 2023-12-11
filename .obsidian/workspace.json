@@ -4,9 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "f1a6745060a3b04e",
+        "id": "dfa8a6b96899bd68",
         "type": "split",
         "children": [
+          {
+            "id": "9814300ab29c5d23",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "65e84eef20da492e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Companies/_Tech Jobs/Dev Metrics.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
           {
             "id": "b6b2b466f9d8845b",
             "type": "tabs",
@@ -17,25 +35,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Companies/_Money Talk/Bonuses.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "a9b760d59d9d9efa",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9d2a541c8d7b1543",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Companies/_Money Talk/Negotiation.md",
+                    "file": "Companies/_Tech Jobs/Crunch.md",
                     "mode": "source",
                     "source": false
                   }
@@ -51,12 +51,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "65e84eef20da492e",
+            "id": "fdc2411fd2e7f54c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/_Money Talk/Stock options.md",
+                "file": "Companies/_Tech Jobs/Escalation Engineer.md",
                 "mode": "source",
                 "source": false
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/_Money Talk/Stock options.md",
+                "file": "Companies/_Tech Jobs/Escalation Engineer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/_Money Talk/Stock options.md",
+                "file": "Companies/_Tech Jobs/Escalation Engineer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/_Money Talk/Stock options.md"
+                "file": "Companies/_Tech Jobs/Escalation Engineer.md"
               }
             }
           },
@@ -290,11 +290,20 @@
   },
   "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "Companies/_Tech Roles",
+    "Companies/_Tech Roles/DX - Developer Experience Engineer.md",
+    "Companies/_Tech Jobs/Dev Metrics.md",
     "Companies/_Money Talk/Signing with company.md",
-    "Companies/_Money Talk/Shares vs Options.md",
-    "Companies/_Money Talk/Signing bonus.md",
+    "Companies/_Tech Jobs/Crunch.md",
     "Companies/_Money Talk/Bonuses.md",
+    "Companies/_Money Talk/Type of Pay.md",
+    "Companies/_Money Talk/Type of money from job.md",
+    "Companies/_Money Talk/Total Compensation Package Includes.md",
     "Companies/_Money Talk/Negotiation.md",
+    "Companies/_Money Talk/Shares vs Options.md",
+    "Companies/_Money Talk/The Financial Package.md",
+    "Companies/_Money Talk/Stock options.md",
+    "Companies/_Money Talk/Signing bonus.md",
     "Companies/_Money Talk/Decide between Salary and Equity.md",
     "Companies/_Money Talk/Non competes.md",
     "Companies/_Money Talk/Negotiation 1.md",
@@ -311,18 +320,9 @@
     "Algorithms & Data Structures/Algo/Algorithm Approach Pivot.md",
     "_CODE/_Organize/Talking More Articulate Template.md",
     "Mind Maps/Drafts/UML/Requirement life cycle.svg",
-    "Companies/Agile to edit/Requirements life cycle.md",
     "_Images/Companies Models/BSA Req Life Cycle.png",
-    "Companies/Agile to edit/Requirement Governance.md",
-    "Algorithms & Data Structures/k way merge vs 2-way Merge.md",
-    "Algorithms & Data Structures/Bitwise XOR.md",
-    "Companies/Agile to edit/Enabler user story example.md",
-    "Web/URI vs URL vs URN.md",
     "_Images/Web/URL Structure.png",
     "_Images/URL Anatomy.jpeg",
-    "Web/URI Query Design.md",
-    "README.md",
-    "Dev Roadmaps By Priority.md",
     "Algorithms & Data Structures/Algo/Database & Data Structrues.jpg",
     "Algorithms & Data Structures/Algo/Untitled Diagram.svg",
     "Architecture/Design Patterns.pdf",

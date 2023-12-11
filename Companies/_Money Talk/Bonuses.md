@@ -8,9 +8,9 @@ Started:
 EditDate: 
 Relates:
 ---
+![[Job Offer.jpg]]
+
 When asking about bonuses politely ask about the possibility of bonuses. Subsequently, express that while the base pay is not within your expected range, you believe a well-structured bonus could be impactful. 
-
-
 
 ## Potential Factors 
 Bonuses are typically paid semi-annually and are influenced by several factors:
@@ -45,6 +45,7 @@ In addition to cash bonuses, some companies offer non-monetary perks that can ad
 - **Shuttle Service:** This service can save money on transportation costs and make commuting more convenient, particularly in areas with limited public transportation options.
 
 - **Free Education Resources & Certifications:** Access to educational resources and certifications can enhance your skills and market value, which is a valuable long-term benefit.
+- Learning and development(L&D) budget
 
 ## Best Practices
 
@@ -67,3 +68,33 @@ In addition to cash bonuses, some companies offer non-monetary perks that can ad
    Share a link to a relevant source on retention bonuses to provide additional context and understanding.
 
 Remember, balance and clarity are key in negotiations. Ensure your communication is concise, professional, and aligns with your overall career objectives.
+
+
+## Performance 
+When engaging with a client or assessing your own performance, consider various factors:
+
+1. **End-of-year Performance Improvement:** Highlight achievements, surpassed targets, and contributions to the company's success.
+
+2. **Goal Attainment and Innovation:** Showcase reaching and exceeding set goals and introducing innovative ideas that benefit the company.
+
+3. **Recognition on Special Occasions:** Acknowledge holidays and birthdays, fostering a positive work environment.
+
+4. **Severance Pay:** Understand and discuss severance pay details, ensuring clarity in case of unforeseen circumstances.
+
+5. **Signing Bonus Considerations:** For renowned companies like Google or other FANG companies, signing bonuses can reach $50,000; outside these, it typically ranges from $10,000 to $20,000.
+
+6. **Total Compensation Breakdown:** Breakdown of total compensation percentages, including:
+    - Annual Bonus (29% of respondents receive): $12,000/yr across 4 years or less
+    - RSUs (28% of respondents receive): $46,500/yr with vesting over 4 years
+    - Sign-on Bonus (22% of respondents receive): $20,000
+    - Stock Options (13% of respondents receive): $15,000/yr
+
+7. **PTO Plans:** Explore Paid Time Off policies, combining vacation, sick time, personal time, and holidays. Refer to [The Balance Careers](https://www.thebalancecareers.com/paid-time-off-policy-pto-1918232).
+
+8. **Compensatory Time Off (Comp Time):** Understand comp time policies, offering time off instead of overtime wages. Check [Investopedia](https://www.investopedia.com/ask/answers/difference-between-premoney-and-postmoney/) for more insights.
+
+9. **Startup Valuation Methods:** Familiarize yourself with startup valuation methods at [UpCounsel](https://www.upcounsel.com/startup-valuation-methods).
+
+10. **Organization Information:** Explore and understand companies through [Crunchbase](https://www.crunchbase.com/discover/organization.companies).
+
+These factors contribute to a comprehensive evaluation of performance, benefits, and compensation.

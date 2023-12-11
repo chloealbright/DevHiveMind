@@ -4,47 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "b6b2b466f9d8845b",
-        "type": "tabs",
+        "id": "f1a6745060a3b04e",
+        "type": "split",
         "children": [
           {
-            "id": "684ce5e8fcd54752",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/_Money Talk/Bonuses.md",
-                "mode": "source",
-                "source": false
+            "id": "b6b2b466f9d8845b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "684ce5e8fcd54752",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Companies/_Money Talk/Bonuses.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ]
           },
           {
-            "id": "65e84eef20da492e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/_Money Talk/Non competes.md",
-                "mode": "source",
-                "source": false
+            "id": "a9b760d59d9d9efa",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9d2a541c8d7b1543",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Companies/_Money Talk/Negotiation.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ]
           }
         ],
-        "currentTab": 1
+        "direction": "horizontal"
       },
       {
         "id": "f42da78aaae7558d",
         "type": "tabs",
         "children": [
           {
-            "id": "046661deac6f9eb0",
+            "id": "65e84eef20da492e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/_Money Talk/Negotiation.md",
+                "file": "Companies/_Money Talk/Stock options.md",
                 "mode": "source",
                 "source": false
               }
@@ -132,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/_Money Talk/Non competes.md",
+                "file": "Companies/_Money Talk/Stock options.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/_Money Talk/Non competes.md",
+                "file": "Companies/_Money Talk/Stock options.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/_Money Talk/Non competes.md"
+                "file": "Companies/_Money Talk/Stock options.md"
               }
             }
           },
@@ -278,11 +290,15 @@
   },
   "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "Companies/_Money Talk/Signing with company.md",
+    "Companies/_Money Talk/Shares vs Options.md",
+    "Companies/_Money Talk/Signing bonus.md",
+    "Companies/_Money Talk/Bonuses.md",
     "Companies/_Money Talk/Negotiation.md",
+    "Companies/_Money Talk/Decide between Salary and Equity.md",
+    "Companies/_Money Talk/Non competes.md",
     "Companies/_Money Talk/Negotiation 1.md",
     "_Images/Interview/Negotiate.gif",
-    "Companies/_Money Talk/Decide between Salary and Equity.md",
-    "Companies/_Money Talk/Bonuses.md",
     "Companies/_Money Talk/Bonus 1.md",
     "Cloud/Cloud Monitoring Services.jpeg",
     "Cloud/Benefits of cloud.md",
@@ -307,10 +323,7 @@
     "Web/URI Query Design.md",
     "README.md",
     "Dev Roadmaps By Priority.md",
-    "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
-    "Algorithms & Data Structures/Algo/Key Base Attributes of  Grokking Algorithm patterns.md",
     "Algorithms & Data Structures/Algo/Database & Data Structrues.jpg",
-    "Algorithms & Data Structures/Algo/Data struct Factory.md",
     "Algorithms & Data Structures/Algo/Untitled Diagram.svg",
     "Architecture/Design Patterns.pdf",
     "_Images/Recording 20231208101133.webm",

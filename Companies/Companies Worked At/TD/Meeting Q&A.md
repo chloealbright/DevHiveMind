@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates: "[[Elicitation]]"
+---
 Types of questions
 
 All question start with a interrogative pronoun which is a pronoun used to ask a question example being  

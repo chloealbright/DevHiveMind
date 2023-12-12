@@ -13,43 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Agile to edit/Requirements life cycle.md",
+                "file": "Companies/Companies Worked At/TD/Agile.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "11bb57dea2052976",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Companies Worked At/TD/Requirement Governance.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ab3775b6cd9c4abe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Agile to edit/Requirements life cycle.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
+          }
+        ]
+      },
+      {
+        "id": "1e3f22fb311566dd",
+        "type": "tabs",
+        "children": [
           {
             "id": "2ad67240178eaf25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Agile to edit/User Stories.md",
+                "file": "Companies/Companies Worked At/TD/User Stories.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Agile to edit/Requirements life cycle.md",
+                "file": "Companies/Companies Worked At/TD/Agile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Agile to edit/Requirements life cycle.md",
+                "file": "Companies/Companies Worked At/TD/Agile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Agile to edit/Requirements life cycle.md"
+                "file": "Companies/Companies Worked At/TD/Agile.md"
               }
             }
           },
@@ -283,11 +265,14 @@
   },
   "active": "9ae2c6840dc573d7",
   "lastOpenFiles": [
+    "_Official Documentation/Kafka Docs.md",
+    "Companies/Companies Worked At/TD/Agile.md",
+    "Companies/Companies Worked At/TD/User Stories.md",
+    "Companies/Companies Worked At/TD/Requirements life cycle.md",
+    "Companies/Agile to edit/Agile 1.md",
     "Companies/Companies Worked At/TD/Requirement Governance.md",
-    "Companies/Agile to edit/Agile.md",
     "Mind Maps/Drafts/UML/Models.md",
     "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
-    "Companies/Agile to edit/User Stories.md",
     "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with classes .drawio",
@@ -306,7 +291,6 @@
     "Companies/Interview/Experience Script.md",
     "Companies/Interview/CV.md",
     "Companies/Companies Worked At/TD/CSA.md",
-    "Companies/Agile to edit/Requirements life cycle.md",
     "Companies/UML & User Stories Flow/Class Diagram Example.md",
     "Companies/UML & User Stories Flow/Process of gathering requirements.md",
     "Companies/UML & User Stories Flow/User Story Flow and Breakdown Example.md",
@@ -321,7 +305,6 @@
     "Companies/Agile to edit/create java code for this.md",
     "Companies/Agile to edit/Building an Upskilling Program for Employees Epic.md",
     "Companies/Agile to edit/convert uml diagram to java code.md",
-    "Companies/Companies Worked At/TD/BSA Notes.md",
     "_Images/Database/4 Type of Joins.gif",
     "Database/ACID.gif",
     "Database/Database Processes.gif",

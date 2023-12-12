@@ -9,24 +9,13 @@
    - Business as usual (BAU) operations.
    - Alternative actions, potential risks, and hurdles.
 
-#### **Potential Responsibilities:**
-   - Assist testing teams in translating requirements into test conditions.
-   - Contribute to project management activities, scoping, estimating, and risk identification.
-   - Participate in quality management reviews, collaborating with vendors on business case development.
 
-#### **Certifications for BSA:**
-   - PMI, PBA, CBAP.
 
 ### **Functional and Non-Functional Requirements:**
    - Functional requirements describe how the system must work.
    - Non-functional requirements specify how the system should perform.
 
-### **Key Responsibilities of a BSA:**
-   - User support, case resolution, system enhancement identification.
-   - Leverage Salesforce.com for evolving business requirements.
-   - Develop project deliverables, solution design, and system configuration.
-   - Collaborate with teams for issue resolution, upgrades, and releases.
-   - Shadow stakeholders to understand processes.
+
 
 ### **Understanding Stakeholder Needs:**
 **Needs of Stake Holders drives user wants
@@ -55,3 +44,6 @@
    - **Assumptions:** Identify, document, confirm accuracy, and manage risks associated with unproven factors.
    - **Constraints:** Recognize impositions or restrictions on the project, including business, technical, and external constraints.
    - **Triple Constraint:** Consider the interplay of budget, time, and scope in project management.
+
+
+

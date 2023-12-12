@@ -132,8 +132,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "de142a7401360ec0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "66f9c40847a5cc73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Tech Roles/Business Systems Analyst.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,8 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5,
-    "collapsed": true
+    "width": 366.5
   },
   "right": {
     "id": "eef3a19b1c6d3fd3",
@@ -216,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Companies Worked At/TD/User Stories.md",
+                "file": "Companies/Companies Worked At/TD/BSA Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +257,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Companies Worked At/TD/User Stories.md",
+                "file": "Companies/Companies Worked At/TD/BSA Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -256,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Companies Worked At/TD/User Stories.md"
+                "file": "Companies/Companies Worked At/TD/BSA Notes.md"
               }
             }
           },
@@ -360,12 +384,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c6a131c53de16a9a",
+  "active": "ecb6c9460947036e",
   "lastOpenFiles": [
-    "Companies/Companies Worked At/TD/PI Planning.md",
-    "Companies/Companies Worked At/TD/User Stories.md",
-    "Companies/Companies Worked At/TD/Elicitation.md",
+    "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
+    "Companies/Tech Roles/Business Systems Analyst.md",
     "Companies/Companies Worked At/TD/BSA Notes.md",
+    "Companies/Companies Worked At/TD/User Stories.md",
+    "Companies/Companies Worked At/TD/PI Planning.md",
+    "Companies/Companies Worked At/TD/Elicitation.md",
     "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
     "Companies/Companies Worked At/Tracflo & Construction Industry.md",
     "Companies/Companies Worked At/TD/Validating.md",
@@ -382,12 +408,10 @@
     "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
     "Companies/Companies Worked At/TD/Agile.md",
     "Companies/Companies Worked At/TD/Acceptance criteria.md",
-    "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
     "Companies/UML & User Stories Flow/User Story Flow and Breakdown Example.md",
     "Companies/UML & User Stories Flow/Process of gathering requirements.md",
     "_Official Documentation/Kafka Docs.md",
     "Companies/Agile to edit/Agile 1.md",
-    "Mind Maps/Drafts/UML/Models.md",
     "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
     "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",

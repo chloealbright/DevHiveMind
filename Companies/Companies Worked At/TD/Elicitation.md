@@ -1,3 +1,39 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
+## **Conducting Effective Conversations for Requirements Gathering:**
+
+As a Business Systems Analyst (BSA), engaging in purposeful conversations is critical. Ensure a structured approach by adhering to the following sequence:
+
+1. **Ask Questions in this Order:**
+   - **What(broadest question of them all):** Identify different scenarios and dependencies.
+   - **Why:** Uncover the root causes at various scopes, using creative and indirect queries.
+	   - Other way of asking why  
+		   - Can you tell me what's leading you to this request  
+		   - Do you have any perspective on where... 
+		   - Is there any reason this wouldn't have...   
+	   - Instead of asking why directly which can offend or make people feel type away you can be creative as the top example shows  
+	   - Then you can actually ask why for the question you want to ask so you basically kind of want to build up to the why while still asking why in the above examples 
+   - **Which:** Pinpoint specific points or compare options.
+   - **How:** Identify the necessary steps.
+   - **When:** Determine the timeline.
+   - **Where:** Identify the location.
+
+   Start with open-ended questions, transitioning to closed-ended ones for specific information and decisive responses.
+   
+   Pose both contextual and non-contextual questions to extract additional information. For instance, you can introduce queries with phrases like "so, off-topic," allowing for a broader exploration of relevant details.
+   
+1. **Privacy Considerations:**
+   - Safeguard private information, especially when formulating plans.
+   - Be aware of the organizational culture and people's temperament.
+   - Assess how the work may impact stakeholders, identifying supporters and non-supporters.
+
 ## **Setting up Meetings for Strategic Conversations:**
 
 Before scheduling a meeting, clearly define the problem statement and the meeting's purpose. Attach an agenda to the email, including thought-provoking questions to guide discussions.

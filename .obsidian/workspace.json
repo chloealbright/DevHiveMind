@@ -56,18 +56,6 @@
             }
           },
           {
-            "id": "2fcce04d5fc869df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Companies Worked At/TD/Elicitation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4e3c56d837950adc",
             "type": "leaf",
             "state": {
@@ -134,18 +122,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "548b07d774c93c86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Companies Worked At/TD/PI Planning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c6a131c53de16a9a",
             "type": "leaf",
             "state": {
@@ -156,21 +132,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9f49f626c34f1903",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Companies Worked At/TD/Elicitation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -253,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Elicitation.md",
+                "file": "Companies/Companies Worked At/TD/User Stories.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,7 +233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Elicitation.md",
+                "file": "Companies/Companies Worked At/TD/User Stories.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -293,7 +256,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Elicitation.md"
+                "file": "Companies/Companies Worked At/TD/User Stories.md"
               }
             }
           },
@@ -397,12 +360,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9f49f626c34f1903",
+  "active": "c6a131c53de16a9a",
   "lastOpenFiles": [
-    "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
-    "Companies/Companies Worked At/TD/BSA Notes.md",
-    "Companies/Companies Worked At/TD/User Stories.md",
     "Companies/Companies Worked At/TD/PI Planning.md",
+    "Companies/Companies Worked At/TD/User Stories.md",
+    "Companies/Companies Worked At/TD/Elicitation.md",
+    "Companies/Companies Worked At/TD/BSA Notes.md",
+    "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
     "Companies/Companies Worked At/Tracflo & Construction Industry.md",
     "Companies/Companies Worked At/TD/Validating.md",
     "Companies/Companies Worked At/TD/Types of BSA questions.md",
@@ -410,7 +374,6 @@
     "Companies/People/name.md",
     "Companies/Companies Worked At/TD/Moscow prioritization.md",
     "Companies/Companies Worked At/TD/Meeting Q&A.md",
-    "Companies/Companies Worked At/TD/Elicitation.md",
     "Companies/Companies Worked At/TD/Documenting.md",
     "Companies/Companies Worked At/TD/Current Job Title.md",
     "Companies/Companies Worked At/TD/CSA.md",

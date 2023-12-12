@@ -20,23 +20,15 @@
             }
           },
           {
-            "id": "532e997e7fcbf7c1",
+            "id": "b1d0b5dd287e3359",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Companies Worked At/TD/User Stories 1.md",
+                "file": "Companies/Companies Worked At/TD/User Stories.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "ecb6c9460947036e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ],
@@ -52,19 +44,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Companies Worked At/TD/User Stories.md",
+                "file": "Companies/Companies Worked At/TD/PI Planing.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a76bc9aef9d5c61e",
+            "id": "532e997e7fcbf7c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/UML & User Stories Flow/User Story Flow and Breakdown Example.md",
+                "file": "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ecb6c9460947036e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
                 "mode": "source",
                 "source": false
               }
@@ -152,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Companies Worked At/TD/User Stories 1.md",
+                "file": "Companies/Companies Worked At/TD/User Stories.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Companies Worked At/TD/User Stories 1.md",
+                "file": "Companies/Companies Worked At/TD/User Stories.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Companies Worked At/TD/User Stories 1.md"
+                "file": "Companies/Companies Worked At/TD/User Stories.md"
               }
             }
           },
@@ -296,15 +300,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "532e997e7fcbf7c1",
+  "active": "b1d0b5dd287e3359",
   "lastOpenFiles": [
+    "Companies/Companies Worked At/TD/PI Planing.md",
+    "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
     "Companies/Companies Worked At/TD/User Stories.md",
-    "Companies/Companies Worked At/TD/User Stories 1.md",
     "Companies/Companies Worked At/TD/Agile.md",
     "Companies/UML & User Stories Flow/User Story Flow and Breakdown Example.md",
+    "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
     "Companies/UML & User Stories Flow/Process of gathering requirements.md",
     "_Official Documentation/Kafka Docs.md",
-    "Companies/Companies Worked At/TD/Requirements life cycle.md",
     "Companies/Agile to edit/Agile 1.md",
     "Companies/Companies Worked At/TD/Requirement Governance.md",
     "Mind Maps/Drafts/UML/Models.md",
@@ -337,7 +342,6 @@
     "Companies/Non-calendar fiscal year.md",
     "Companies/Agile to edit/Enabler user story example.md",
     "Companies/Agile to edit/create java code for this.md",
-    "Companies/Agile to edit/Building an Upskilling Program for Employees Epic.md",
     "_Images/Database/4 Type of Joins.gif",
     "Database/ACID.gif",
     "Database/Database Processes.gif",

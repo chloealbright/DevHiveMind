@@ -40,25 +40,35 @@ I want to...
 ***Need about 46 story points of work for each PI***
 **Only do 6 story points of work near PI planning**
 *Move backlog to Epic for Next PI*
+TD Bank follows a non-standard fiscal year shown below
 
-## Pi planning 1
-### January February March  
-takes time out of sprint 1 of the first quarter in March to prepare for next PI
-
-
-## Pi planning 2  
-### April May June  
-takes time out of sprint 1 of the second quarter in June  to prepare for next PI
-
-
-## Pi planning 3
-### July August September  
-takes time out of sprint 1 of the third quarter in September  to prepare for next PI
-
-
-## Pi planning 4  
+## Pi planning Q1
 ### October November December   
-takes time out of sprint 1 of the fourth quarter in December to prepare for next years first PI
+
+takes time out of sprint 1 of the first quarter in December to prepare for next PI
+
+
+## Pi planning Q2  
+### January February March  
+
+takes time out of sprint 1 of the second quarter in March to prepare for next PI
+
+
+## Pi planning Q3
+### April May June  
+
+takes time out of sprint 1 of the third quarter in June to prepare for next PI
+
+
+## Pi planning Q4 
+### July August September  
+
+takes time out of sprint 1 of the fourth quarter in September to prepare for next years first PI
+
+>[!note] 
+ Regular fiscal year Q1 starts in January and follows 3 month increment until end of year or Q4 which starts October
+
+
 
 # Business Requirements 
 business requirements refer to the high-level needs/wants and objectives of the organization or stakeholders that drive the development of a product or service.

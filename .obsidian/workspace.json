@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Agile to edit/User Stories.md",
+                "file": "Companies/Companies Worked At/TD/Non-calendar fiscal year.md",
                 "mode": "source",
                 "source": false
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Agile to edit/User Stories.md",
+                "file": "Companies/Companies Worked At/TD/Non-calendar fiscal year.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Agile to edit/User Stories.md",
+                "file": "Companies/Companies Worked At/TD/Non-calendar fiscal year.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Agile to edit/User Stories.md"
+                "file": "Companies/Companies Worked At/TD/Non-calendar fiscal year.md"
               }
             }
           },
@@ -315,6 +315,10 @@
   },
   "active": "2ad67240178eaf25",
   "lastOpenFiles": [
+    "Companies/Companies Worked At/TD/CSA.md",
+    "Companies/Companies Worked At/TD/Non-calendar fiscal year.md",
+    "Companies/Companies Worked At/TD/BSA Notes.md",
+    "Companies/Agile to edit/User Stories.md",
     "Companies/Agile to edit/UML Notes Diagram Types Structure & Behavioral.md",
     "Companies/Agile to edit/Requirements life cycle.md",
     "Companies/Agile to edit/Requirement Governance.md",
@@ -345,10 +349,6 @@
     "Companies/Companies Worked At/TD/BSA vs BA.md",
     "Companies/Companies Worked At/TD/Current Job Title.md",
     "Companies/Companies Worked At/TD/Cre8tive Plan Steps.md",
-    "Companies/Companies Worked At/TD/Building Risk.md",
-    "Companies/Companies Worked At/TD/BSA Notes.md",
-    "Companies/Clout Chasing/Bootcamp.md",
-    "Companies/Clout Chasing/note taking.md",
     "Companies/Tech Roles/Untitled",
     "Companies/Work Process.png",
     "Companies/Tech Roles",

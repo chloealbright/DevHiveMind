@@ -1,17 +1,6 @@
 
 
 
-## Tracflo Buisness Requirements Thoughts 
-
-A mid-size project consisting of 1500-2800 square feet will typically take 6-9 months. A large renovation or new construction project consisting of 3,000-5,000 square feet with high-end details can take 9-12 months. Projects over 5,000 square feet are typically highly specialized and can easily exceed 12 months. 
-
-So a construction project May include bulk purchases of equipment and materials each month depending on the needs 
-
-Or maybe even weeks 
-
-Thus tickets that have materials and equipment that need to be purchased will probably be like 4 tickets a month maybe even more 
-
-Need to calculate tickets created each month
 
 
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
+                "file": "Companies/Companies Worked At/Tracflo & Construction Industry.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Validating.md",
+                "file": "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Validating.md",
+                "file": "Companies/Companies Worked At/Tracflo & Construction Industry.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "agile",
+                "query": "tracflo",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Validating.md",
+                "file": "Companies/Companies Worked At/Tracflo & Construction Industry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Validating.md",
+                "file": "Companies/Companies Worked At/Tracflo & Construction Industry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Validating.md"
+                "file": "Companies/Companies Worked At/Tracflo & Construction Industry.md"
               }
             }
           },
@@ -312,8 +312,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "172bf4c193722f9b",
   "lastOpenFiles": [
+    "Companies/Companies Worked At/Tracflo/Business Requirements Thought Experiment.md",
+    "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
+    "Companies/Companies Worked At/Tracflo",
+    "Companies/Companies Worked At/Tracflo & Construction Industry.md",
+    "Architecture/Code standards.md",
+    "Language/Markup/HTML/Forms.md",
+    "Architecture/MVC Pattern.md",
+    "Devops/OS/Linux/terminal from Tracflo history.md",
+    "Testing/QA.md",
+    "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
+    "Companies/Companies Worked At/TD/Validating.md",
     "Companies/Companies Worked At/TD/User Stories.md",
     "Companies/Companies Worked At/TD/Type of Question.md",
     "Companies/Companies Worked At/TD/Requirement Governance.md",
@@ -323,27 +334,17 @@
     "Companies/Companies Worked At/TD/Current State Assessment.md",
     "Companies/Companies Worked At/TD/Business Systems Analyst.md",
     "Companies/Companies Worked At/TD/Building Risk.md",
-    "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
     "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
     "Companies/Companies Worked At/TD/Agile.md",
     "Companies/Companies Worked At/TD/Acceptance criteria.md",
-    "Companies/Companies Worked At/TD/Validating.md",
-    "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
     "Companies/Companies Worked At/TD/Types of BSA questions.md",
     "Mind Maps/Drafts/UML/Requirement life cycle.svg",
-    "Companies/Companies Worked At/Tracflo & Construction Industry.md",
     "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
     "Mind Maps/Drafts/UML/UML Monitor Project.png",
     "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with No-classes.drawio",
     "Companies/Companies Worked At/TD/Documenting.md",
     "Companies/Companies Worked At/TD/Current Job Title.md",
-    "Companies/Companies Worked At/TD/BSA Notes.md",
-    "Companies/People/name.md",
-    "Companies/Companies Worked At/TD/Cre8tive Plan Steps.md",
-    "Companies/UML & User Stories Flow/User Story Flow and Breakdown Example.md",
-    "Companies/UML & User Stories Flow/Process of gathering requirements.md",
-    "_Official Documentation/Kafka Docs.md",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with classes .drawio",
     "Mind Maps/Drafts/UML/to edit/Swimlane Activity Diagram.html",
@@ -358,7 +359,6 @@
     "Database/Database Processes.gif",
     "Database/Database Sharding.jpeg",
     "Database/Database Types.gif",
-    "Companies/Tech Roles/Untitled",
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",
     "Mind Maps/Drafts/Event Driven Architecture.canvas",

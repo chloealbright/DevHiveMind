@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4e3c56d837950adc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Companies Worked At/TD/Meeting Q&A.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1cb2e43b32b362e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Companies Worked At/TD/Moscow prioritization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "172bf4c193722f9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Types of BSA questions.md",
+                "file": "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,21 +42,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "dd6a1a487e7d5801",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Companies Worked At/TD/Meeting Q&A.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "0acfd481991edccb",
@@ -104,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
+                "file": "Companies/Companies Worked At/TD/User Stories.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,14 +77,16 @@
             "id": "e847a581ed2bf01a",
             "type": "leaf",
             "state": {
-              "type": "diagram",
+              "type": "markdown",
               "state": {
-                "file": "Mind Maps/Drafts/UML/Requirement life cycle.svg"
+                "file": "Companies/Companies Worked At/TD/Validating.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -203,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
+                "file": "Companies/Companies Worked At/TD/Validating.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
+                "file": "Companies/Companies Worked At/TD/Validating.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Business Requirements Life cycle.md"
+                "file": "Companies/Companies Worked At/TD/Validating.md"
               }
             }
           },
@@ -347,34 +312,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "de142a7401360ec0",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
-    "Companies/Companies Worked At/TD/Meeting Q&A.md",
+    "Companies/Companies Worked At/TD/User Stories.md",
+    "Companies/Companies Worked At/TD/Type of Question.md",
+    "Companies/Companies Worked At/TD/Requirement Governance.md",
+    "Companies/Companies Worked At/TD/PI Planning.md",
+    "Companies/Companies Worked At/TD/Moscow prioritization.md",
     "Companies/Companies Worked At/TD/Elicitation.md",
+    "Companies/Companies Worked At/TD/Current State Assessment.md",
+    "Companies/Companies Worked At/TD/Business Systems Analyst.md",
+    "Companies/Companies Worked At/TD/Building Risk.md",
     "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
-    "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
+    "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
+    "Companies/Companies Worked At/TD/Agile.md",
+    "Companies/Companies Worked At/TD/Acceptance criteria.md",
+    "Companies/Companies Worked At/TD/Validating.md",
+    "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
+    "Companies/Companies Worked At/TD/Types of BSA questions.md",
     "Mind Maps/Drafts/UML/Requirement life cycle.svg",
+    "Companies/Companies Worked At/Tracflo & Construction Industry.md",
+    "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
     "Mind Maps/Drafts/UML/UML Monitor Project.png",
     "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with No-classes.drawio",
     "Companies/Companies Worked At/TD/Documenting.md",
-    "Companies/Companies Worked At/TD/Business Systems Analyst.md",
     "Companies/Companies Worked At/TD/Current Job Title.md",
-    "Companies/Companies Worked At/TD/Building Risk.md",
-    "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
-    "Companies/Companies Worked At/TD/Agile.md",
-    "Companies/Companies Worked At/TD/Acceptance criteria.md",
-    "Companies/Companies Worked At/TD/Current State Assessment.md",
     "Companies/Companies Worked At/TD/BSA Notes.md",
-    "Companies/Companies Worked At/TD/User Stories.md",
-    "Companies/Companies Worked At/TD/PI Planning.md",
-    "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
-    "Companies/Companies Worked At/Tracflo & Construction Industry.md",
-    "Companies/Companies Worked At/TD/Validating.md",
-    "Companies/Companies Worked At/TD/Types of BSA questions.md",
-    "Companies/Companies Worked At/TD/Requirement Governance.md",
     "Companies/People/name.md",
-    "Companies/Companies Worked At/TD/Moscow prioritization.md",
     "Companies/Companies Worked At/TD/Cre8tive Plan Steps.md",
     "Companies/UML & User Stories Flow/User Story Flow and Breakdown Example.md",
     "Companies/UML & User Stories Flow/Process of gathering requirements.md",

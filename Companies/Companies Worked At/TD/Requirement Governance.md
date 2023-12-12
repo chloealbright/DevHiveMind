@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - bsa
 author:
   - jacgit18
 Status: 

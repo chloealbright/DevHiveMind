@@ -1,17 +1,27 @@
-Confirm regularly that solutions and needs remain effectively tied
+---
+tags:
+  - bsa
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates: "[[Business Requirements Life cycle]]"
+---
+Ensure ongoing alignment between solutions and needs by incorporating regular checks and communication strategies:
 
-Talking to certain people helps
+1. **Regular Confirmation:**
+   - Consistently verify the continued relevance and effectiveness of solutions in relation to identified needs.
 
-Walkthrough requirements with stakeholders regularly
+2. **Engage with Key Individuals:**
+   - Initiate conversations with specific stakeholders to gain insights, feedback, and updates regarding evolving requirements.
 
-Doing peer reviews too of those requirements also doing deep inspections towards the end which tends to be less frequent in comparison to peer reviews
+3. **Stakeholder Walkthroughs:**
+   - Regularly conduct comprehensive walkthroughs of requirements with relevant stakeholders to ensure shared understanding and alignment.
 
-The reason why inspection can be helpful because you may have more and new information that you didn't have initially when performing the peer reviews
+4. **Peer Reviews:**
+   - Implement peer reviews of requirements, fostering collaborative evaluation and refinement among team members.
 
-## Resolving requirement conflicts
+5. **Deep Inspections:**
+   - Perform thorough inspections toward project completion, recognizing that these may be less frequent than peer reviews. This step is crucial for capturing new information that emerges throughout the process.
 
-	You can do multivoting, weighted ranking voting, or used the Delphi technique
-
-This technique may involve you coming up with a survey built with experts expertise and you ruined the results to come up with a decision
-
-During the review of the results you can have experts also review the results

@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - agile
+  - bsa
 author:
   - jacgit18
 Status: init

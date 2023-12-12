@@ -116,3 +116,36 @@ The Definition of Done is a team-generated checklist encompassing seven key acti
    - Confirmation that there are no open defects associated with the user story.
 
 Upon the satisfactory completion of these checklist items, the user story is deemed done. Subsequently, deployment to the target environment is initiated, marking the culmination of the development cycle. This structured approach to the Definition of Done ensures a comprehensive and consistent standard for the completion and deployment of user stories.
+
+
+
+
+
+
+**Epics In-Depth:**
+
+- **OKR(Objective Key Results) Transformation:**
+  - OKRs set the high-level strategic direction and are translated into features, each having a thematic focus, business requirements translate these strategies into specific features, and user stories provide the detailed tasks for development teams to execute. Each level plays a crucial role in the alignment and execution of organizational goals.
+
+- **Acceptance Criteria:**
+  - Epics are characterized by acceptance criteria, setting the parameters for success.
+
+- **Flexible Sprint Duration:**
+  - Epics can span a minimum of one sprint or two weeks, up to the entirety of six sprints within a quarter. This flexible structure allows for adaptability in planning.
+
+- **Quarterly Planning Cycle:**
+  - A quarter comprises six sprints or 12 weeks, culminating in Program Increment (PI) planning for the subsequent quarter.
+
+- **Combining Epics:**
+  - Epics can be combined or rolled over into subsequent sprints, offering flexibility in development sequencing.
+
+- **Closure Dependency:**
+  - Stories must be closed for epics to be closed, establishing a structured progression.
+
+- **Product Group-Level Epics:**
+  - Epics might be initiated at the product group level, ensuring a strategic alignment with broader organizational goals.
+
+- **Continuous Improvement Epic:**
+  - A dedicated continuous improvement epic allows for the creation of stories focused on enhancing existing elements.
+
+This comprehensive framework ensures a structured and adaptable approach to feature and epic development, promoting collaboration and strategic alignment across the organization.

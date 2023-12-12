@@ -44,19 +44,13 @@ So that [desired outcome or benefit]
 
 # Features In-Depth   
 
-Features are high-level changes that the organization wants for their customers that should be less than a year  
+Features represent overarching changes aimed at enhancing customer experience and typically have a timeframe of less than a year. This hierarchical breakdown involves dividing them into 3-month Epics, further decomposed into small user stories aligned with 2-week sprints for team-based development. The progression from feature to epic to story to UML to code defines the iterative development process.
 
-They break down to 3 month Epics and which break down to small user stories to fit in 2 week sprints of work for pods to work on they describe functionality defined by the product group  
+- **Understanding Themes:**
+  - Epics align with themes, requiring a comprehensive grasp of overarching concepts, such as a bank and finance system. Completed epics, serving as a culmination of stories, are then transformed into features aligned with predefined themes.
 
-Feature goes to epic which goes to story which goes to uml which goes to code
-
-
-> Epics follow a theme so you need better understanding of the themes ie bank and finance system 
-Completed Epics which is a list of completed stories get converted into features that aligned with themes  
-Definition of success 
-Is there anyone doing what your trying to do  
-Aligning definitions 
-Possibly redefining definitions  
+- **Definition of Success:**
+  - Success is gauged by evaluating if anyone else is pursuing a similar objective. Definitions are aligned and potentially refined to ensure clarity and unified understanding.
 
 # Epics In-Depth 
 

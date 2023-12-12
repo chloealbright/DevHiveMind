@@ -37,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Current Job Title.md",
+                "file": "Companies/Companies Worked At/TD/User Stories.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "1e3f22fb311566dd",
@@ -193,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Companies Worked At/TD/PI Planing.md",
+                "file": "Companies/Companies Worked At/TD/Acceptance criteria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Companies Worked At/TD/PI Planing.md",
+                "file": "Companies/Companies Worked At/TD/Acceptance criteria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Companies Worked At/TD/PI Planing.md"
+                "file": "Companies/Companies Worked At/TD/Acceptance criteria.md"
               }
             }
           },
@@ -337,13 +337,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5c3101180fafa41d",
+  "active": "4be761118ccfebae",
   "lastOpenFiles": [
-    "Companies/Companies Worked At/TD/Current Job Title.md",
     "Companies/Companies Worked At/TD/User Stories.md",
-    "Companies/Companies Worked At/TD/Agile.md",
     "Companies/Companies Worked At/TD/Acceptance criteria.md",
+    "Companies/Companies Worked At/TD/Current Job Title.md",
     "Companies/Companies Worked At/TD/PI Planing.md",
+    "Companies/Companies Worked At/TD/Agile.md",
     "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
     "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
     "Companies/UML & User Stories Flow/User Story Flow and Breakdown Example.md",

@@ -13,7 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Companies/Agile to edit/Agile.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b11a31e622f5edca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Agile to edit/Building an Upskilling Program for Employees Epic.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b60f026643e2d09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Agile to edit/Convert epics to user stories with acceptance criteria.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f731c21f2465fe32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Agile to edit/convert uml diagram to java code.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "f89f3b6db0ed7ee9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11bb57dea2052976",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Agile to edit/convert user stories to class diagram.md",
                 "mode": "preview",
                 "source": false
               }
@@ -101,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Companies/Agile to edit/convert user stories to class diagram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Companies/Agile to edit/convert user stories to class diagram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Companies/Agile to edit/convert user stories to class diagram.md"
               }
             }
           },
@@ -245,18 +300,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9ae2c6840dc573d7",
+  "active": "11bb57dea2052976",
   "lastOpenFiles": [
+    "Companies/Agile to edit/convert uml diagram to java code.md",
+    "Companies/Agile to edit/Convert epics to user stories with acceptance criteria.md",
+    "Companies/Agile to edit/Agile.md",
+    "Companies/Agile to edit/Building an Upskilling Program for Employees Epic.md",
+    "Home.md",
     "_Template/Untitled 5.md",
     "_Images/Web/URL Anatomy.jpeg",
     "Companies/Agile to edit/features for a driving school.md",
     "Companies/Agile to edit/create java code for this.md",
     "Companies/Agile to edit/convert user stories to class diagram.md",
-    "Companies/Agile to edit/convert uml diagram to java code.md",
     "Companies/Agile to edit/User Story Flow and Breakdown.md",
     "Companies/Agile to edit/UML Notes Diagram Types Structure & Behavioral.md",
-    "Companies/Agile to edit/Convert epics to user stories with acceptance criteria.md",
-    "Companies/Agile to edit/Building an Upskilling Program for Employees Epic.md",
     "Architecture/Node Project Structure.md",
     "Companies/Software Carpentier Journey.md",
     "Companies/Agile to edit/user story to uml to code.md",
@@ -274,8 +331,6 @@
     "Companies/Agile to edit/User Stories.md",
     "Companies/Agile to edit/Requirements life cycle.md",
     "Companies/Agile to edit/Requirement Governance.md",
-    "Companies/Agile to edit/Enabler user story example.md",
-    "Companies/Crunch.md",
     "Companies/Tech Roles",
     "_Images/Interview/Negotiate.gif",
     "Cloud/Cloud Monitoring Services.jpeg",

@@ -4,6 +4,13 @@ tags:
   - dataTables
   - Domain
   - models
+author:
+  - jacgit18
+  - chatgpt
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 In database design, logical models help define the structure and organization of data without getting into the specifics of how data is physically stored or accessed. Here are some types of tables commonly used in logical database models:  
 

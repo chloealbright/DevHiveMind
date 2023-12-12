@@ -72,5 +72,4 @@ change names of states like set destination or radius to past tense like destina
 [https://dzone.com/articles/how-to-model-business-rules](https://dzone.com/articles/how-to-model-business-rules)  
 
 
-
-![[Park Alert Activity Diagram.svg]]
+![[Activity Diagram.drawio (1).svg]]

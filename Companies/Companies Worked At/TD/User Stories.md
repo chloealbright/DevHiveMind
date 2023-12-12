@@ -35,15 +35,14 @@ I want to [specific action or feature]
 So that [desired outcome or benefit]
 
 
-
 # **Themes In-Depth**
 
 - Themes are large, overarching objectives or focus areas that help align the development efforts with strategic business goals.
 - A theme is a collection of related user stories and features that contribute to achieving a specific business objective or solving a particular problem.
-- Themes provide a way to group and prioritize work based on the strategic goals of the organization. They are often used in the higher-level planning of the product roadmap.
+- Themes provide a way to group and prioritize [[Business Requirements Life cycle | Business requirements]] based on the strategic goals of the organization. They are often used in the higher-level planning of the product roadmap.
 
 
-# Features  
+# Features In-Depth   
 
 Features are high-level changes that the organization wants for their customers that should be less than a year  
 
@@ -59,7 +58,7 @@ Is there anyone doing what your trying to do  
 Aligning definitions 
 Possibly redefining definitions  
 
-# Epics in Depth
+# Epics In-Depth 
 
 OKR are converted into epics and have a theme
 
@@ -136,31 +135,6 @@ As a user, I want to be able to set reminders to take my medications or suppleme
 Story consist of Acceptance criteria which is a checklist of key things to provide a better understanding of boundaries and behavior of the story And test scenarios where you can validate the story has been delivered correctly  
 
 
-## Attributes of Requirements/User-story
-**Stories and requirements are a little similar in terms of attributes but different 
-also requirement which are specification on implementation are defined at user story level **
-
-Requirements/userstory definition should be a high level description not to detailed in general because it can change
-
-User stories needs to be from customers standpoint
-
-*can also come up in discovery*
-
-- Cohesive - Relates to a single topic, such as a business process, interface, event. All related requirements should relate to and support the same purpose
-
-- Complete - All needed aspects are documented, and the requirement is self-contained
-
-- Consistent - Doesn't contradict other requirements and is uniquely specified. Level of detail is similar to other like requirements
-
-- Correct - Reflects business needs as specified by the use/subject matter expert
-
-- Modifiable - Can be changed. Requirements must be organized and logical to be modifiable
-
-- Unambiguous - specific so everyone can understand 
-
-- Feasible - realistic 
-
-- Testable - Specified in such a way that a requirement can be tested to see that is was correctly implemented
 
 # Acceptance criteria 
 

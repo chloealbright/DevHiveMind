@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Agile to edit/Agile.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5ecba4b096f0d004",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mind Maps/Drafts/UML/Models.md",
+                "file": "Companies/Agile to edit/Requirements life cycle.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Agile to edit/Requirement Governance.md",
+                "file": "Companies/Companies Worked At/TD/Requirement Governance.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,39 +54,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8f70ecff5c233f14",
-            "type": "leaf",
-            "state": {
-              "type": "diagram-edit",
-              "state": {
-                "file": "Mind Maps/Drafts/UML/Layer to package diagram.drawio"
-              }
-            }
-          },
-          {
-            "id": "3b5285f75adf9e79",
-            "type": "leaf",
-            "state": {
-              "type": "diagram",
-              "state": {
-                "file": "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg"
-              }
-            }
-          },
-          {
-            "id": "4424155821b24b82",
-            "type": "leaf",
-            "state": {
-              "type": "diagram-edit",
-              "state": {
-                "file": "Mind Maps/Drafts/UML/Untitled Diagram.svg"
-              }
-            }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mind Maps/Drafts/UML/Untitled Diagram.svg",
+                "file": "Companies/Agile to edit/Requirements life cycle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mind Maps/Drafts/UML/Untitled Diagram.svg",
+                "file": "Companies/Agile to edit/Requirements life cycle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mind Maps/Drafts/UML/Untitled Diagram.svg"
+                "file": "Companies/Agile to edit/Requirements life cycle.md"
               }
             }
           },
@@ -324,16 +281,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4424155821b24b82",
+  "active": "9ae2c6840dc573d7",
   "lastOpenFiles": [
-    "Mind Maps/Drafts/UML/Layer to package diagram.drawio",
-    "Mind Maps/Drafts/UML/Models.md",
-    "Mind Maps/Drafts/UML/Untitled Diagram.svg",
-    "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
-    "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg",
+    "Companies/Companies Worked At/TD/Requirement Governance.md",
     "Companies/Agile to edit/Agile.md",
-    "Mind Maps/Drafts/UML/Requirement life cycle.svg",
+    "Mind Maps/Drafts/UML/Models.md",
+    "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
     "Companies/Agile to edit/User Stories.md",
+    "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg",
+    "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
+    "Mind Maps/Drafts/UML/to edit/Package Diagram with classes .drawio",
+    "Mind Maps/Drafts/UML/to edit/Package Diagram with No-classes.drawio",
+    "Mind Maps/Drafts/UML/to edit/Swimlane Activity Diagram.html",
+    "Mind Maps/Drafts/UML/to edit/UML Package Diagram.html",
+    "Mind Maps/Drafts/UML/to edit",
+    "Mind Maps/Drafts/UML/component 1",
+    "Mind Maps/Drafts/UML/component",
+    "Mind Maps/Drafts/UML/Untitled Diagram.svg",
+    "Mind Maps/Drafts/UML/Requirement life cycle.svg",
     "Mind Maps/Drafts/UML/UML Monitor Project.png",
     "Companies/Interview/Programmer vs Software Developer vs Coder vs Software architect.md",
     "Database/NoSQL vs SQL.md",
@@ -342,7 +307,6 @@
     "Companies/Interview/CV.md",
     "Companies/Companies Worked At/TD/CSA.md",
     "Companies/Agile to edit/Requirements life cycle.md",
-    "Companies/Agile to edit/Requirement Governance.md",
     "Companies/UML & User Stories Flow/Class Diagram Example.md",
     "Companies/UML & User Stories Flow/Process of gathering requirements.md",
     "Companies/UML & User Stories Flow/User Story Flow and Breakdown Example.md",
@@ -364,11 +328,6 @@
     "Database/Database Sharding.jpeg",
     "Database/Database Types.gif",
     "Companies/Tech Roles/Untitled",
-    "Companies/Tech Roles",
-    "Architecture/Design Patterns.pdf",
-    "_Images/Recording 20231208101133.webm",
-    "_Images/Recording 20231208101032.webm",
-    "_Cheatsheet/Python Junior Cheathseets.pdf",
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",
     "Mind Maps/Drafts/Event Driven Architecture.canvas",
@@ -378,8 +337,6 @@
     "Mind Maps/Drafts/Java Logging.canvas",
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Url.canvas",
-    "Mind Maps/_Web App Architecture.canvas",
-    "_Pdf/FROM SQL to Pandas 50.pdf",
-    "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf"
+    "Mind Maps/_Web App Architecture.canvas"
   ]
 }

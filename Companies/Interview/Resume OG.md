@@ -1,6 +1,7 @@
 
-Joshua Carpentier
-[Linkedin](https://www.linkedin.com/in/joshua-carpentier/) •   [Github](https://github.com/jacgit18)  •  joshuaxcarpentier@gmail.com  •  347-219-7865
+<center>Joshua Carpentier</center>
+
+ [Linkedin](https://www.linkedin.com/in/joshua-carpentier/) •   [Github](https://github.com/jacgit18)  •  joshuaxcarpentier@gmail.com  •  347-219-7865
 
 
 

@@ -38,6 +38,7 @@
 - What is something you wish you knew before working here?  
 - How would you see yourself growing at this company in the next few years?  
 - What was your best moment so far at the company?  
+
 **After the Interview:**
 
 - If you don't solve a problem during the interview, send a thank-you email with additional questions and a proposed solution.

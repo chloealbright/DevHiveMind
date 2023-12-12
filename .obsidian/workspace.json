@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Culture/Shady Behavior.md",
-                "mode": "source",
+                "file": "Companies/Interview/Resume OG.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "786ff434b1833852",
@@ -44,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Culture/Crunch.md",
+                "file": "Companies/Culture/Avoid Headaches.md",
                 "mode": "source",
                 "source": false
               }
@@ -132,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Culture/Crunch.md",
+                "file": "Companies/Interview/Resume OG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Culture/Crunch.md",
+                "file": "Companies/Interview/Resume OG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Culture/Crunch.md"
+                "file": "Companies/Interview/Resume OG.md"
               }
             }
           },
@@ -276,21 +275,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d5def62c700ed494",
+  "active": "5af4dffc3e19bd19",
   "lastOpenFiles": [
-    "Companies/Culture/Shady Behavior.md",
+    "Companies/Interview/Offense(Q&A).md",
+    "Companies/Interview/Defense(A&Q).md",
+    "Companies/Interview/Compressed Interview Template.md",
+    "_CODE/Top Todo/High level problem solving.md",
+    "Companies/Culture/Avoid Headaches.md",
+    "Companies/Interview/Interest Q&A.md",
+    "Companies/Culture/Crunch.md",
+    "_CODE/Top Todo/Getting the Chain Started.md",
+    "_CODE/Top Todo/Shady Behavior.md",
+    "Companies/Companies Worked At/Tracflo/Tracflo & Construction Industry.md",
     "Companies/Culture/Types of Programmers To Avoid.md",
     "Companies/Interview/Sounding more senior or experienced.md",
     "_CODE/Top Todo/job application clipboard.md",
     "_CODE/Top Todo/Experience Script.md",
     "_CODE/Top Todo/CV.md",
     "_CODE/Top Todo",
-    "Companies/Interview/Compressed Interview Template.md",
-    "Companies/Interview/Avoid Headaches.md",
     "Algorithms & Data Structures/Programmer vs Software Developer vs Coder vs Software architect.md",
     "Companies/Interview/Powerful Resume Words.md",
     "Companies/Interview/Pitch.md",
-    "Companies/Culture/Crunch.md",
     "Companies/Tech Roles/UI-UX  Design.md",
     "Companies/Tech Roles/Technical Writer.md",
     "Companies/Tech Roles/Solutions Engineer.md",
@@ -299,12 +304,6 @@
     "Companies/Tech Roles/QA Engineer.md",
     "Companies/Tech Roles/QA Analyst.md",
     "Companies/Tech Roles/Escalation Engineer.md",
-    "Companies/Tech Roles/DX - Developer Experience Engineer.md",
-    "Companies/Companies Worked At/Tracflo/Tracflo & Construction Industry.md",
-    "Companies/Companies Worked At/Tracflo/Construction Industry and Data Dynamics.md",
-    "Companies/Companies Worked At/Tracflo/Business Requirements Thought Experiment.md",
-    "Companies/Companies Worked At/TD/Validating.md",
-    "Companies/Companies Worked At/TD/User Stories.md",
     "Companies/Companies Worked At/Tracflo",
     "Mind Maps/Drafts/UML/Requirement life cycle.svg",
     "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",

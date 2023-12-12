@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 2023-12-12
+EditDate: 
+Relates: "[[Attributes of Requirements & User Stories]]"
+---
 
 ![[Requirement life cycle.svg]]
 

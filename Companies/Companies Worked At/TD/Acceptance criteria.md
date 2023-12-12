@@ -3,9 +3,9 @@ tags:
 author:
   - jacgit18
 Status: init
-Started: 
+Started: 2023-12-12
 EditDate: 
-Relates:
+Relates: "[[User Stories]]"
 ---
 Crafting acceptance criteria is an iterative process that unfolds at the story's inception, matures in the middle, and gains additional insights towards completion. It is a crucial aspect written from the product perspective, defining scope and standing as one of the benchmarks for the definition of done.
 
@@ -118,33 +118,3 @@ The Definition of Done is a team-generated checklist encompassing seven key acti
 Upon the satisfactory completion of these checklist items, the user story is deemed done. Subsequently, deployment to the target environment is initiated, marking the culmination of the development cycle. This structured approach to the Definition of Done ensures a comprehensive and consistent standard for the completion and deployment of user stories.
 
 
-
-## TD Bank Fiscal Year and Sprint Planning
-
-**TD Bank follows a non-standard fiscal year structure:**
-
-Q1 runs from October to December.Then Q2 runs from January to March TD starts PI planning in March, disrupting the transition into the first Sprint of the next quarter so in between each quarter transition the sprint 1 starts maybe 1 week later. Q3 runs from April to June Q4 July to September
-
-
-
-### Sprint Planning and Story Point Allocation
-
-- **46 Story Points per PI:** Aim for approximately 46 story points of work for each Program Increment (PI).
-
-- **6 Story Points Near PI Planning:** Allocate only 6 story points of work in the vicinity of PI planning.
-
-- **Backlog to Epic for Next PI:** Move the remaining backlog to an Epic for the next Program Increment.
-
-## Sprint Shirt Size Guidelines
-
-When determining the sprint size for a story, adhere to the following guidelines:
-
-- **XS (Extra Small):** Estimated completion in less than 1 sprint or 2 weeks. Assess whether the task is better suited as a story rather than an epic.
-
-- **S (Small):** Expected completion in 1 to 2 sprints, approximately a month.
-
-- **M (Medium):** Completion expected in 2 to 4 sprints or 1 to 2 months.
-
-- **L (Large):** Targeted completion in 4 to 5 sprints or 2 to 3 months.
-
-- **XL or XXL (Extra Large):** Estimated completion in more than 5 to 6 sprints; consider breaking it into 2 separate epics.

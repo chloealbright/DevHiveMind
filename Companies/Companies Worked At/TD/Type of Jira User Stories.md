@@ -5,7 +5,7 @@ author:
 Status: init
 Started: 
 EditDate: 
-Relates:
+Relates: "[[User Stories]]"
 ---
 In Jira, user stories are a common way of expressing product features or functionalities from an end user's perspective. They help agile teams prioritize and deliver value incrementally. In Jira, user stories are typically created and managed within the context of an Agile board, which is associated with a specific project. Here are some common types of user stories in Jira:
 

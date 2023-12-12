@@ -7,43 +7,47 @@ Started:
 EditDate: 
 Relates:
 ---
-## TD Bank follows a non-standard fiscal year shown below
+## TD Bank Fiscal Year and Sprint Planning
 
-> **Note:** The regular fiscal year starts in January and follows a 3-month increment until the end of the year or Q4, which begins in October.
-***Need about 46 story points of work for each PI***
-**Only do 6 story points of work near PI planning at the end of each Quarter**
+> **Note:** The regular fiscal year adheres to a January start, progressing in 3-month increments until the end of the year or the initiation of Q4, which commences in October.
 
-## PI planning Q1
-### October November December   
+### **Sprint Planning and Story Point Allocation:**
 
-takes time out of sprint 1 of the first quarter in December to prepare for next PI
+- **46 Story Points per PI:** Aim for approximately 46 story points of work for each Program Increment (PI).
 
+- **6 Story Points Near PI Planning:** Restrict work to only 6 story points in the vicinity of PI planning, scheduled at the end of each quarter.
 
-## PI planning Q2  
-### January February March  
+**Impact on Sprint Timing:**
 
-takes time out of sprint 1 of the second quarter in March to prepare for next PI
+- **Sprint Start Delay:** Due to PI planning, Sprint 1 begins 1 week later, with the initial week of the first month of the quarter allocated to PI planning.
 
+## PI Planning Schedule
 
-## PI planning Q3
-### April May June  
+### Q1
+- October
+- November
+- December
 
-takes time out of sprint 1 of the third quarter in June to prepare for next PI
+### Q2
+- January
+- February
+- March
 
+### Q3
+- April
+- May
+- June
 
-## PI planning Q4 
-### July August September  
+### Q4
+- July
+- August
+- September
 
-takes time out of sprint 1 of the fourth quarter in September to prepare for next years first PI
-
->[!note] 
- Regular fiscal year Q1 starts in January and follows 3 month increment until end of year or Q4 which starts October
-
-
+These quarterly PI planning sessions ensure alignment with TD Bank's non-standard fiscal year structure, facilitating strategic planning and seamless transitions between quarters.
 
 ## Sprint Shirt Size Guidelines
 
-When determining the sprint size for a story, consider the following guidelines:
+When determining the sprint size for a story, adhere to the following guidelines:
 
 - **XS (Extra Small):** Estimated completion in less than 1 sprint or 2 weeks. Assess whether the task is better suited as a story rather than an epic.
 
@@ -54,6 +58,3 @@ When determining the sprint size for a story, consider the following guidelines:
 - **L (Large):** Targeted completion in 4 to 5 sprints or 2 to 3 months.
 
 - **XL or XXL (Extra Large):** Estimated completion in more than 5 to 6 sprints; consider breaking it into 2 separate epics.
-
-
-

@@ -1,3 +1,13 @@
+---
+tags: 
+author:
+  - jacgit18
+  - chatgpt
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 When it comes to deploying a codebase, there are several deployment strategies or approaches to consider. The choice of deployment strategy depends on the application's architecture, development practices, team requirements, and infrastructure capabilities. Here are some common types of deployment for a codebase:
 
 1. Continuous Deployment: Continuous Deployment is an approach where changes to the codebase are automatically deployed to the production environment as soon as they pass through the automated build, test, and deployment pipeline. This approach aims to deliver new features and bug fixes quickly and frequently.

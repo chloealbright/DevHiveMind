@@ -2,6 +2,12 @@
 tags:
   - Framework
   - paradigm
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 React and Redux, while not typically classified as event-driven and reactive programming frameworks, do have some elements that can be related to these concepts:  
   

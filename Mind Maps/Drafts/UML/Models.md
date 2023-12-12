@@ -71,6 +71,5 @@ change names of states like set destination or radius to past tense like destina
 
 [https://dzone.com/articles/how-to-model-business-rules](https://dzone.com/articles/how-to-model-business-rules)  
 
-Like process flow but more so for business function and mechanism
 
-![[BSA Position.png]]
+

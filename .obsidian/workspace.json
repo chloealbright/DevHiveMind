@@ -4,102 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "9814300ab29c5d23",
+        "id": "c99c92d5f6fd371d",
         "type": "tabs",
         "children": [
           {
-            "id": "65e84eef20da492e",
+            "id": "d3aaaa614e19dbbf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Agile to edit/Agile.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a6c8f2b43de5c70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Tech Roles/BSA.md",
+                "file": "Mind Maps/Drafts/UML/Models.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "f42da78aaae7558d",
+        "id": "ab8b8235f7d27675",
         "type": "tabs",
         "children": [
           {
-            "id": "684ce5e8fcd54752",
+            "id": "fadd6fe09d613b7f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Companies/Agile to edit/Enabler user story example.md",
-                "mode": "source",
-                "source": false
+                "file": "Mind Maps/Drafts/UML/UML Monitor Project.png"
               }
             }
           },
           {
-            "id": "d560bdd234c2d5ef",
+            "id": "8ee4d272c01b5223",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Agile to edit/Requirement Governance.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bd0d3d6cff3b09bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Agile to edit/Requirements life cycle.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "71be23aa3e92f437",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Agile to edit/User Stories.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac69983648b35120",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Writing styles.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,9 +60,11 @@
             "id": "c18a64a686e80f59",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
+              "type": "markdown",
               "state": {
-                "sortOrder": "alphabetical"
+                "file": "Home.md",
+                "mode": "preview",
+                "source": false
               }
             }
           },
@@ -128,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bitw",
+                "query": "file:",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -160,8 +106,19 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "336e343a71fa6379",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -181,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Writing styles.md",
+                "file": "Mind Maps/Drafts/UML/Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Writing styles.md",
+                "file": "Mind Maps/Drafts/UML/Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Writing styles.md"
+                "file": "Mind Maps/Drafts/UML/Models.md"
               }
             }
           },
@@ -325,46 +282,46 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ac69983648b35120",
+  "active": "d3aaaa614e19dbbf",
   "lastOpenFiles": [
-    "Companies/Software Carpentier Journey.md",
-    "Companies/Agile to edit/user story to uml to code.md",
-    "Companies/Tech Roles/BSA.md",
-    "Companies/Companies Worked At/TD/BSA vs BA.md",
-    "Companies/Companies Worked At/TD/Current Job Title.md",
-    "Companies/Companies Worked At/TD/Cre8tive Plan Steps.md",
-    "Companies/Companies Worked At/TD/Building Risk.md",
-    "Companies/Companies Worked At/TD/BSA Notes.md",
-    "Companies/Clout Chasing/Bootcamp.md",
-    "Companies/Clout Chasing/note taking.md",
-    "Companies/Tech Roles/Untitled",
-    "Companies/Companies Worked At/TD/CSA.md",
-    "Companies/Work Process.png",
-    "Companies/Agile to edit/User Stories.md",
-    "Companies/Agile to edit/Requirements life cycle.md",
-    "Companies/Agile to edit/Requirement Governance.md",
-    "Companies/Agile to edit/Enabler user story example.md",
-    "Companies/Crunch.md",
-    "Companies/Agile to edit/Agile.md",
-    "Companies/Writing styles.md",
-    "Companies/Social Post.md",
-    "Companies/Software Development Engineer in Test.md",
-    "Companies/_Tech Jobs/Non Tech Un-Outsourced.md",
-    "Companies/Tech Roles/Escalation Engineer.md",
-    "Companies/Dev Metrics.md",
-    "Companies/Tech Roles/Technical Writer.md",
-    "Companies/_Tech Jobs/Side Gig.md",
-    "Companies/Tech Roles/UI-UX  Design.md",
-    "Companies/Tech Roles",
-    "_Images/Interview/Negotiate.gif",
-    "Cloud/Cloud Monitoring Services.jpeg",
-    "Devops/DevOps Roadmap.gif",
+    "Mind Maps/Drafts/UML/Untitled Diagram.svg",
+    "Mind Maps/Drafts/UML/Models.md",
+    "Mind Maps/Drafts/UML/UML Monitor Project.png",
+    "_Images/Companies Models/BSA Position.png",
     "Mind Maps/Drafts/UML/Requirement life cycle.svg",
-    "_Images/Companies Models/BSA Req Life Cycle.png",
-    "_Images/Web/URL Structure.png",
-    "_Images/URL Anatomy.jpeg",
-    "Algorithms & Data Structures/Algo/Database & Data Structrues.jpg",
-    "Algorithms & Data Structures/Algo/Untitled Diagram.svg",
+    "Untitled Diagram.svg",
+    "Untitled.md",
+    "Home.md",
+    "_Template/_Eisenhower Matrix.md",
+    "Companies/Agile to edit/UML Notes Diagram Types Structure & Behavioral.md",
+    "Methodology/Admin functionality God Mode/Database Migrations.md",
+    "Methodology/Admin functionality God Mode/Configuration Changes.md",
+    "Methodology/Admin functionality God Mode/Cache Clearing.md",
+    "Methodology/Admin functionality God Mode/Backup and Restoration.md",
+    "Methodology/Docker Twelve Factors App/II Dependencies.md",
+    "Methodology/Twelve Factor App/Twelve Factor App Dependencies.md",
+    "Methodology/Twelve Factor App/Twelve Factor App Logs.md",
+    "Methodology/Twelve Factor App/Twelve Factor App Processes.md",
+    "Methodology/12 Factor App  Microservices Architecture.md",
+    "Methodology/Deployment Strategies.md",
+    "Methodology/Source code vs Codebase.md",
+    "Methodology/Staged Deployment.md",
+    "Language/Markup/CSS/General.md",
+    "Language/Typescript/ECMAScript.md",
+    "Language/Typescript/Modules history and advance Implementation.md",
+    "Language/Typescript/Use of closure & composition.md",
+    "Language/Programming paradigms.md",
+    "Framework/Reactive programming.md",
+    "Framework/Reactive.md",
+    "Framework/Consumers and Producers.md",
+    "_Template/Whiteboard.png",
+    "_Images/_Whiteboard/lc424Pointer.png",
+    "_Images/_Whiteboard/maxIHeapInsertFunc.png",
+    "_Images/_Whiteboard/TreeGen.png",
+    "_Images/Web/URL Anatomy.jpeg",
+    "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
+    "Companies/Tech Roles/Untitled",
+    "Companies/Tech Roles",
     "Architecture/Design Patterns.pdf",
     "_Images/Recording 20231208101133.webm",
     "_Images/Recording 20231208101032.webm",
@@ -380,7 +337,6 @@
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/_Web App Architecture.canvas",
     "_Pdf/FROM SQL to Pandas 50.pdf",
-    "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
     "_Images/Security",
     "_Cheatsheet/website_optimization-cheat-sheet.pdf"
   ]

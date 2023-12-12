@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 "Source code" and "codebase" are related terms in software development, but they refer to slightly different concepts.
 
 ## Source Code

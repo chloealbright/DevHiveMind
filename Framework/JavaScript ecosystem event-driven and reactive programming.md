@@ -5,10 +5,12 @@ tags:
   - systemDesign
   - architecturalParadigm
   - concurrency
-author: jacgit18
+author:
+  - jacgit18
 Status: Defining Relationships
 Started: 
-EditDate:
+EditDate: 
+Relates:
 ---
 **Exploring Key Technologies in the JavaScript Ecosystem for Event-Driven and Reactive Programming with Apache Kafka**
 

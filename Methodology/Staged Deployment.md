@@ -2,6 +2,13 @@
 tags:
   - deployment
   - phases
+author:
+  - jacgit18
+  - chatgpt
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 Staged deployment, also known as phased deployment or environment progression, is an approach where the codebase is deployed in multiple stages or environments sequentially before reaching the production environment. Each stage represents a distinct environment with a specific purpose and level of validation. Staged deployment allows for thorough testing, validation, and gradual roll-out of code changes. Here are the typical stages involved in a staged deployment:
 

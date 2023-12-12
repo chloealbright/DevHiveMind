@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - pay
 author:
   - jacgit18
 Status: 

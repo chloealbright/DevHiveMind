@@ -1,11 +1,17 @@
+>[!important] Scrum master is there to address blockers and help move things like reaching out to stakeholders on your behave if they aren't helping you out  with what you need. 
+
+The flow from themes to epics to features to user stories can vary depending on the specific project management or development framework being used. However, there are commonly accepted practices in many agile methodologies.
+
+In the Scrum framework, for example, the typical flow is from:
+
+1. **Themes:** High-level business objectives or goals.
+2. **Epics:** These are large, high-level entities that represent big, overarching initiatives or goals. Epics are usually too broad to be completed in a single iteration or sprint.
+3. **Features:** Epics are decomposed into features, which are more manageable and focused units of work. Features are still relatively high-level and may take several sprints to complete.
+4. **User Stories:** Features, in turn, are broken down into user stories. User stories are more granular, detailed, and focused on a specific functionality or requirement and written from the user's perspective. They are the smallest units of work that can be completed within a single sprint.
 
 
-TDSA - TD SAFe agile
-Theme >  feature > Epic > stories
 
-You will be  creating user stories and adding stories to product backlog which is backlog pool before sprint backlog  
 
->[!important] Oli is there to address blockers and help move things like hitting up PL
 
 close issue clone if it is crossing into new sprint also comment
   

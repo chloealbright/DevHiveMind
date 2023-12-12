@@ -13,6 +13,8 @@ Agile is a mindset employing various frameworks like Scrum, an iterative and inc
 > - Committed
 > - Uncommitted
 > - Unplanned
+> 
+> User Stories are added to product backlog which is backlog pool before sprint backlog which is for active work Committed Work. Unplanned worked can be pulled from Product Backlog or added on the fly to current sprint and active work can be canceled or De-prioritized and become uncommitted work    
 
 **Documentation Evolution:**
 Documentations are planned across different mediums, refining through successive iterations. An example is starting with Excel and PowerPoint, eventually reaching the final form in Confluence/Jira.

@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - bsa
+  - agile
 author:
   - jacgit18
 Status: 

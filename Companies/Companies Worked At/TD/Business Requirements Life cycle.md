@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - bsa
 author:
   - jacgit18
 Status: 
@@ -19,7 +20,48 @@ Each theme may encompass multiple business requirements that collectively contri
 
 The identification and prioritization of themes are crucial in guiding the development team to work on the most valuable and impactful features or improvements.
 
+## **Translating Business Needs to Technical Requirements:**
 
+### **Identify and Consider:**
+   - Organization position and its impact on structure.
+   - Priority of needs and wants.
+   - Applicability of requirements, justifying their value, complexity, cost, and legal aspects.
+   - External constraints, geopolitical factors, regulations, and legal considerations.
+   - Business as usual (BAU) operations.
+   - Alternative actions, potential risks, and hurdles.
+
+### **Functional and Non-Functional Requirements:**
+   - Functional requirements describe how the system must work.
+   - Non-functional requirements specify how the system should perform.
+
+
+### **Understanding Stakeholder Needs:**
+**Needs of Stake Holders drives user wants
+>[!note]
+> Determine stakeholders' incentives, influences, and motivations, and subsequently, categorize and prioritize them. When assessing these factors, consider that smaller issues may require fewer needs to define. Conversely, in scenarios involving the rebuilding of functionality, as seen with Tracflo, or the creation of something entirely new, the number of needs and scope may significantly expand.
+#### Needs + Wants + Data = Business Requirements:
+   - Business needs arise from factors like customer complaints, market changes, and process inefficiencies.
+   - Stakeholder incentives, influences, and motivations should be identified, categorized, and prioritized.
+   - Consider the scope, organizational culture, and established information when determining user wants.
+   - Assess data relevance, quality, volume, availability, and accessibility.
+
+### Data Considerations
+
+- **Data Relevance:** Assess the pertinence of the data to the project objectives.
+- **Data Quality:** Evaluate the accuracy and reliability of the available data.
+- **Data Volume:** Determine the quantity of data required for the project.
+- **Data Availability:** Ensure that necessary data is accessible when needed.
+- **Data Accessibility (Format):** Consider the format in which the data is stored or presented.
+
+**Additional Considerations:**
+- **Data Types:** Distinguish between database (db) data and documentation.
+- **Time Period:** Clarify the timeframe for data availability, especially with sensitive information subject to regulatory compliance.
+- **Applicability:** Evaluate the relevance of the data and the specific information it contains.
+
+### **Assumptions and Constraints:**
+   - **Assumptions:** Identify, document, confirm accuracy, and manage risks associated with unproven factors.
+   - **Constraints:** Recognize impositions or restrictions on the project, including business, technical, and external constraints.
+   - **Triple Constraint:** Consider the interplay of budget, time, and scope in project management.
 
 ## Requirement Life Cycle 
 
@@ -38,5 +80,12 @@ Determining who makes decisions and identifying the primary customer or focus of
 
 Additionally, recognizing that a conversation can serve as another form of traceability, fostering communication and understanding across stakeholders. This ensures a comprehensive approach to decision-making and project progression.
 
+
+
+
+
+We operate within a practice, specifically in the enablement team, focusing on people-oriented tasks. Despite the usual placement of BSAs on technical teams, our team composition involves software engineers at level 10, with the software architect positioned at the product family level, where each product family typically has only one architect.
+
+The structure includes approximately 2 to 4 software engineers per pod, one BSA, and one QA per software engineer. Currently, the role is designated as a "social engineer" rather than a traditional software engineer.
 
 

@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - bsa
 author:
   - jacgit18
 Status: init
@@ -24,7 +25,13 @@ In essence, a business systems analyst plays a crucial role in helping companies
 - Assist testing teams in translating requirements into comprehensive test conditions.
 - Contribute to project management activities, including scoping, estimating, and risk identification.
 - Participate in quality management reviews, collaborating with vendors on business case development.
+#### Benefits Realization
 
+- **Financial Impact:** Emphasize benefits realization as savings in expenditures.
+- **Upskilling Initiatives:** Define the roles and responsibilities from an upskilling perspective.
+- **Stakeholder Engagement:** Detail the stakeholders involved in benefits realization.
+- **Expenditure Considerations:** Distinguish between capital and operational expenditure.
+- **Meeting Strategy:** Plan meetings around benefits realization, particularly for upskilling efforts.
 #### **Certifications for BSA:**
 - PMI, PBA, CBAP.
 

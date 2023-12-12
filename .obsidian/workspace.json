@@ -102,9 +102,14 @@
             "id": "891de2022f58e3d9",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "canvas",
               "state": {
-                "file": "_Images/Testing/Whitebox Testing.png"
+                "file": "Mind Maps/Drafts/Domain-driven design.canvas",
+                "viewState": {
+                  "x": -517.5,
+                  "y": 469,
+                  "zoom": -1.99238428830278
+                }
               }
             }
           }
@@ -203,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Images/Testing/Whitebox Testing.png",
+                "file": "Mind Maps/Drafts/Domain-driven design.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Images/Testing/Whitebox Testing.png",
+                "file": "Mind Maps/Drafts/Domain-driven design.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Images/Testing/Whitebox Testing.png"
+                "file": "Mind Maps/Drafts/Domain-driven design.canvas"
               }
             }
           },
@@ -347,8 +352,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "336e343a71fa6379",
+  "active": "891de2022f58e3d9",
   "lastOpenFiles": [
+    "Mind Maps/Drafts/Event Messaging.canvas",
+    "Mind Maps/Drafts/File system.canvas",
+    "Mind Maps/Drafts/Testing.canvas",
+    "Mind Maps/Drafts/Url.canvas",
+    "Mind Maps/_Web App Architecture.canvas",
+    "Mind Maps/12 Factor App Docker.canvas",
+    "Mind Maps/Docker InDeph.canvas",
+    "Mind Maps/Java Behind the Scenes.md",
+    "Mind Maps/Redux Map.canvas",
+    "_Images/Testing/Whitebox Testing.png",
     "_Images/Testing/Testing type.png",
     "_Images/Testing/Testing Priority.jpeg",
     "_Images/Testing/Regression test.gif",
@@ -358,23 +373,13 @@
     "_Images/Testing/Black and white box.gif",
     "_Images/Security/Workflow auth.jpeg",
     "_Images/Security/Auth Grant Flow.png",
-    "Infographics/Url Process.gif",
-    "_Images/Mind Map/White Background.png",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with classes .drawio",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
     "Mind Maps/Drafts/UML/Models.md",
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",
-    "Mind Maps/Drafts/Event Messaging.canvas",
-    "Mind Maps/Drafts/File system.canvas",
     "Mind Maps/Drafts/Gateway.canvas",
-    "Mind Maps/Drafts/Java Logging.canvas",
     "Companies/Interview/Avoid Headaches.md",
-    "Mind Maps/Drafts/Testing.canvas",
-    "Mind Maps/_Web App Architecture.canvas",
-    "Mind Maps/Drafts/Url.canvas",
-    "Mind Maps/12 Factor App Docker.canvas",
-    "Mind Maps/Java Behind the Scenes.md",
     "Devops/Deployment Patterns.md",
     "Infographics/DevOps",
     "Architecture/Microservices best practices.md",

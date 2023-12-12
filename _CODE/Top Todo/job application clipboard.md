@@ -1,10 +1,12 @@
 Hi Andrea, 
 
-My name is Joshua Carpentier, and I'm a Full Stack Developer contacting you about your Junior Software Engineer role and was interested in your company. 
+My name is Joshua Carpentier, and I'm a Full Stack Developer contacting you about your Software Engineer role and was interested in your company. 
 
 I would love to discuss the team's goals for this role and understand how my skill set applies to the role. In addition, I would love to walk you through my motivation/intention for this particular role. My availability is listed here: 
 
-https://calendly.com/joshuaxcarpentier/30min 
+Here is my availability https://calendly.com/joshuaxcarpentier/30min 
+
+https://calendly.com/joshuaxcarpentier/30min
 
 https://linktr.ee/joshuacarpentier 
 
@@ -42,7 +44,7 @@ https://www.linkedin.com/in/joshua-carpentier/ 
 
 New York City College of Technology 
 
-Here is my availability https://calendly.com/joshuaxcarpentier/30min 
+
 
 251 E 29th St, Brooklyn, NY, 11226, USA 
 

@@ -11,7 +11,7 @@ Relates:
   
 
   
-## Programming vs. Software Engineering
+## Programming vs Software Engineering
 
 ### Programming (Micro)
 

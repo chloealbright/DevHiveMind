@@ -1,8 +1,11 @@
-TD Ameritrade – Software Engineer 
 
-* What problem you were trying to solve * What technologies you used * What trade-offs you made in the implementation * What (if anything) you’d like to improve 
 
 TD Ameritrade - Business Systems Analyst 
+
+
+
+
+
 
 TracFlo  
 

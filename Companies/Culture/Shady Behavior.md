@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ### Evasiveness about why the role exists 
 
 The interview seems to be going well. You have a well-constructed chair, a drink, and the sun isn’t shining directly into your eyes through a slatted blind behind the interviewer’s head. Technical questions go well, there’s no coding test just a general theoretical discussion on the merits of different approaches to problem solving and the pragmatism of development methodologies. 

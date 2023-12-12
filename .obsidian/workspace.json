@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Tech Roles/Site Reliability Engineer.md",
+                "file": "Companies/Culture/Shady Behavior.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,6 +26,25 @@
               "type": "markdown",
               "state": {
                 "file": "Companies/Companies Worked At/Tracflo/Tracflo & Construction Industry.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "786ff434b1833852",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d5def62c700ed494",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Culture/Crunch.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Tech Roles/Site Reliability Engineer.md",
+                "file": "Companies/Culture/Crunch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Tech Roles/Site Reliability Engineer.md",
+                "file": "Companies/Culture/Crunch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Tech Roles/Site Reliability Engineer.md"
+                "file": "Companies/Culture/Crunch.md"
               }
             }
           },
@@ -257,34 +276,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5af4dffc3e19bd19",
+  "active": "d5def62c700ed494",
   "lastOpenFiles": [
+    "Companies/Culture/Shady Behavior.md",
+    "Companies/Culture/Types of Programmers To Avoid.md",
+    "Companies/Interview/Sounding more senior or experienced.md",
+    "_CODE/Top Todo/job application clipboard.md",
+    "_CODE/Top Todo/Experience Script.md",
+    "_CODE/Top Todo/CV.md",
+    "_CODE/Top Todo",
+    "Companies/Interview/Compressed Interview Template.md",
+    "Companies/Interview/Avoid Headaches.md",
+    "Algorithms & Data Structures/Programmer vs Software Developer vs Coder vs Software architect.md",
+    "Companies/Interview/Powerful Resume Words.md",
+    "Companies/Interview/Pitch.md",
+    "Companies/Culture/Crunch.md",
+    "Companies/Tech Roles/UI-UX  Design.md",
+    "Companies/Tech Roles/Technical Writer.md",
+    "Companies/Tech Roles/Solutions Engineer.md",
+    "Companies/Tech Roles/Site Reliability Engineer.md",
     "Companies/Tech Roles/Sales Engineer.md",
     "Companies/Tech Roles/QA Engineer.md",
     "Companies/Tech Roles/QA Analyst.md",
     "Companies/Tech Roles/Escalation Engineer.md",
     "Companies/Tech Roles/DX - Developer Experience Engineer.md",
-    "Companies/Culture/Crunch.md",
-    "Companies/Culture/Types of Programmers To Avoid.md",
     "Companies/Companies Worked At/Tracflo/Tracflo & Construction Industry.md",
     "Companies/Companies Worked At/Tracflo/Construction Industry and Data Dynamics.md",
     "Companies/Companies Worked At/Tracflo/Business Requirements Thought Experiment.md",
     "Companies/Companies Worked At/TD/Validating.md",
     "Companies/Companies Worked At/TD/User Stories.md",
-    "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
-    "Companies/Companies Worked At/TD/Type of Question.md",
-    "Companies/Companies Worked At/TD/Requirement Governance.md",
-    "Companies/Companies Worked At/TD/PI Planning.md",
-    "Companies/Companies Worked At/TD/Moscow prioritization.md",
-    "Companies/Companies Worked At/TD/Elicitation.md",
-    "Companies/Companies Worked At/TD/Current State Assessment.md",
-    "Companies/Companies Worked At/TD/Business Systems Analyst.md",
-    "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
-    "Companies/Companies Worked At/TD/Building Risk.md",
-    "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
-    "Companies/Companies Worked At/TD/Agile.md",
-    "Companies/Companies Worked At/TD/Acceptance criteria.md",
-    "Companies/Clout Chasing/Bootcamp.md",
     "Companies/Companies Worked At/Tracflo",
     "Mind Maps/Drafts/UML/Requirement life cycle.svg",
     "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
@@ -299,7 +319,6 @@
     "Mind Maps/Drafts/UML/component 1",
     "Mind Maps/Drafts/UML/component",
     "Mind Maps/Drafts/UML/Untitled Diagram.svg",
-    "Companies/UML & User Stories Flow",
     "_Images/Database/4 Type of Joins.gif",
     "Database/ACID.gif",
     "Database/Database Processes.gif",

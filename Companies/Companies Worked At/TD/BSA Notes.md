@@ -1,15 +1,7 @@
 Have conversations to gather info from different info sources while also mapping out and planning future conversions in meetings that you will schedule and maybe host you should be aware of the sequence of conversation/meetings and dependencies, also add context make point and create/ask estimation for timelines   
 
-<mark style="background: #FFB86CA6;">PI planning then sprint planning follows after </mark>
-
-Measured above average on managing requirements in terms of proficiency The 73rd percentile
-
-Meeting room in Outlook: MR-USA-NYC-1V-2
-
-Blank stories for capacity 😭
 
 
-Stories can act as dependencies, risk, and inputs for other stories/epics
 
 **Ask Questions in this order 
 

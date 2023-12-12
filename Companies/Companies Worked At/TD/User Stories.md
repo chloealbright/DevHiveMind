@@ -81,7 +81,7 @@ So that `[desired outcome or benefit]`
 I want to `[specific action or feature] ` 
 So that `[desired outcome or benefit]`
 
-Stories include acceptance criteria and test scenarios to define boundaries and validate correct delivery.
+Stories include acceptance criteria and test scenarios to define boundaries and validate correct delivery. They can also act as dependencies, risk, and inputs for other stories/epics
 
 ## Breaking Down a Story
 

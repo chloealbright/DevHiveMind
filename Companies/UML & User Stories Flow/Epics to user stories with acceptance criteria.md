@@ -1,5 +1,12 @@
-Sure! Here are user stories based on the EPCIS features for a driving school, along with acceptance criteria for each user story:
-
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates: "[[Features for a driving school]]"
+---
 1. As a driving school administrator, I want to ensure that professional instructors are available for students.
 
    Acceptance Criteria:

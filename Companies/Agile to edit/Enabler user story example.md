@@ -1,3 +1,0 @@
-Personal Upskilling. 
-
-scenarios when customer value is not directly created. Best definition is when your writing a User Story that is not delivering on your Target Persona's functional requirements. And only enabling you on that journey. Another ex is coding vs systems upgrades.. The latter is an enabler, while code is functional. Also requirements gathering is functional.. within same context of value creating User Stories.

@@ -20,43 +20,19 @@
             }
           },
           {
-            "id": "b11a31e622f5edca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Agile to edit/Building an Upskilling Program for Employees Epic.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0b60f026643e2d09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Agile to edit/Convert epics to user stories with acceptance criteria.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f731c21f2465fe32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Agile to edit/convert uml diagram to java code.md",
+                "file": "Companies/UML & User Stories Flow/Features for a driving school.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "f89f3b6db0ed7ee9",
@@ -68,8 +44,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Agile to edit/convert user stories to class diagram.md",
-                "mode": "preview",
+                "file": "Companies/UML & User Stories Flow/Class Diagram Example.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -80,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Non-calendar fiscal year.md",
+                "file": "Companies/UML & User Stories Flow/Features for a driving school.md",
                 "mode": "source",
                 "source": false
               }
@@ -169,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Non-calendar fiscal year.md",
+                "file": "Companies/UML & User Stories Flow/Features for a driving school.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Non-calendar fiscal year.md",
+                "file": "Companies/UML & User Stories Flow/Features for a driving school.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Non-calendar fiscal year.md"
+                "file": "Companies/UML & User Stories Flow/Features for a driving school.md"
               }
             }
           },
@@ -313,22 +289,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2ad67240178eaf25",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "Companies/Agile to edit/Requirement Governance.md",
+    "Companies/UML & User Stories Flow/Epics to user stories with acceptance criteria.md",
+    "Companies/UML & User Stories Flow/Class Diagram Example.md",
+    "Companies/UML & User Stories Flow",
+    "Companies/UML & User Stories Flow/Features for a driving school.md",
+    "Companies/Non-calendar fiscal year.md",
+    "Companies/Agile to edit/Enabler user story example.md",
+    "Companies/Agile to edit/create java code for this.md",
+    "Companies/Agile to edit/Building an Upskilling Program for Employees Epic.md",
+    "Companies/Agile to edit/convert uml diagram to java code.md",
     "Companies/Companies Worked At/TD/CSA.md",
-    "Companies/Companies Worked At/TD/Non-calendar fiscal year.md",
     "Companies/Companies Worked At/TD/BSA Notes.md",
     "Companies/Agile to edit/User Stories.md",
     "Companies/Agile to edit/UML Notes Diagram Types Structure & Behavioral.md",
     "Companies/Agile to edit/Requirements life cycle.md",
-    "Companies/Agile to edit/Requirement Governance.md",
-    "Companies/Agile to edit/features for a driving school.md",
-    "Companies/Agile to edit/Enabler user story example.md",
-    "Companies/Agile to edit/create java code for this.md",
-    "Companies/Agile to edit/convert user stories to class diagram.md",
-    "Companies/Agile to edit/convert uml diagram to java code.md",
-    "Companies/Agile to edit/Convert epics to user stories with acceptance criteria.md",
-    "Companies/Agile to edit/Building an Upskilling Program for Employees Epic.md",
     "Companies/Agile to edit/Agile.md",
     "Database/Self-joining relationships.md",
     "_Images/Database/4 Type of Joins.gif",
@@ -348,7 +325,6 @@
     "Companies/Tech Roles/BSA.md",
     "Companies/Companies Worked At/TD/BSA vs BA.md",
     "Companies/Companies Worked At/TD/Current Job Title.md",
-    "Companies/Companies Worked At/TD/Cre8tive Plan Steps.md",
     "Companies/Tech Roles/Untitled",
     "Companies/Work Process.png",
     "Companies/Tech Roles",
@@ -369,7 +345,6 @@
     "Mind Maps/_Web App Architecture.canvas",
     "_Pdf/FROM SQL to Pandas 50.pdf",
     "Companies/Interview/Joshua_Carpentier_Resume.docx.pdf",
-    "_Images/Security",
-    "_Cheatsheet/website_optimization-cheat-sheet.pdf"
+    "_Images/Security"
   ]
 }

@@ -15,8 +15,6 @@
 
   
 ## Example Governance for Traditional Approach  
-  
-  
 All requirements must be verified and validated before review  
   
 Requirements go through formal review process with team  
@@ -33,8 +31,6 @@ Changes are analyzed before approved or denied by business owner
   
   
 ## Example Governance for Adaptive Approach  
-  
-  
 Any requirement is defined and put into the backlog  
   
 Team and product owner agree on prioritization based on value  
@@ -44,8 +40,6 @@ Highest priority requirements are implemented
 Feedback on delivery are captured as new requirements in backlog  
   
 Bi-weekly review of backlog and corresponding backlog
-
-
 
 
 ## Maintaining  Requirements

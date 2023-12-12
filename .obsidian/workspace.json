@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0b60f026643e2d09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/UML & User Stories Flow/Features for a driving school.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "f89f3b6db0ed7ee9",
@@ -44,7 +31,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/UML & User Stories Flow/Class Diagram Example.md",
+                "file": "Companies/Agile to edit/Requirement Governance.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab3775b6cd9c4abe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Agile to edit/Requirements life cycle.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/UML & User Stories Flow/Features for a driving school.md",
+                "file": "Companies/Agile to edit/User Stories.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/UML & User Stories Flow/Features for a driving school.md",
+                "file": "Companies/Agile to edit/Requirements life cycle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/UML & User Stories Flow/Features for a driving school.md",
+                "file": "Companies/Agile to edit/Requirements life cycle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/UML & User Stories Flow/Features for a driving school.md"
+                "file": "Companies/Agile to edit/Requirements life cycle.md"
               }
             }
           },
@@ -289,13 +288,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "ab3775b6cd9c4abe",
   "lastOpenFiles": [
     "Companies/Agile to edit/Requirement Governance.md",
-    "Companies/UML & User Stories Flow/Epics to user stories with acceptance criteria.md",
     "Companies/UML & User Stories Flow/Class Diagram Example.md",
-    "Companies/UML & User Stories Flow",
+    "Companies/Agile to edit/User Stories.md",
+    "Companies/UML & User Stories Flow/Process of gathering requirements.md",
+    "Companies/Agile to edit/Requirements life cycle.md",
+    "Companies/UML & User Stories Flow/User Story Flow and Breakdown Example.md",
+    "Companies/Agile to edit/user story to uml to code.md",
+    "_CODE/Express/Dev Todo.md",
     "Companies/UML & User Stories Flow/Features for a driving school.md",
+    "Companies/Agile to edit/UML Notes Diagram Types Structure & Behavioral.md",
+    "Companies/UML & User Stories Flow/Epics to user stories with acceptance criteria.md",
+    "Companies/UML & User Stories Flow",
     "Companies/Non-calendar fiscal year.md",
     "Companies/Agile to edit/Enabler user story example.md",
     "Companies/Agile to edit/create java code for this.md",
@@ -303,9 +309,6 @@
     "Companies/Agile to edit/convert uml diagram to java code.md",
     "Companies/Companies Worked At/TD/CSA.md",
     "Companies/Companies Worked At/TD/BSA Notes.md",
-    "Companies/Agile to edit/User Stories.md",
-    "Companies/Agile to edit/UML Notes Diagram Types Structure & Behavioral.md",
-    "Companies/Agile to edit/Requirements life cycle.md",
     "Companies/Agile to edit/Agile.md",
     "Database/Self-joining relationships.md",
     "_Images/Database/4 Type of Joins.gif",
@@ -318,13 +321,10 @@
     "Home.md",
     "_Template/Untitled 5.md",
     "_Images/Web/URL Anatomy.jpeg",
-    "Companies/Agile to edit/User Story Flow and Breakdown.md",
     "Architecture/Node Project Structure.md",
     "Companies/Software Carpentier Journey.md",
-    "Companies/Agile to edit/user story to uml to code.md",
     "Companies/Tech Roles/BSA.md",
     "Companies/Companies Worked At/TD/BSA vs BA.md",
-    "Companies/Companies Worked At/TD/Current Job Title.md",
     "Companies/Tech Roles/Untitled",
     "Companies/Work Process.png",
     "Companies/Tech Roles",

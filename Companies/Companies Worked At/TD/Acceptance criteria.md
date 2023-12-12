@@ -119,33 +119,38 @@ Upon the satisfactory completion of these checklist items, the user story is dee
 
 
 
+## TD Bank Fiscal Year and Sprint Planning
 
+**TD Bank follows a non-standard fiscal year structure:**
 
+- **Q1 (January - March):** Typically starts January but TD starts in October of previous year and PI planning for that quarter occurs around that time also.
 
-**Epics In-Depth:**
+- **Q2 (April - June):** PI planning in March, disrupting Sprint 1 for the next quarter.
 
-- **OKR(Objective Key Results) Transformation:**
-  - OKRs set the high-level strategic direction and are translated into features, each having a thematic focus, business requirements translate these strategies into specific features, and user stories provide the detailed tasks for development teams to execute. Each level plays a crucial role in the alignment and execution of organizational goals.
+- **Q3 (July - September):** PI planning in June, impacting Sprint 1 for the upcoming quarter.
 
-- **Acceptance Criteria:**
-  - Epics are characterized by acceptance criteria, setting the parameters for success.
+- **Q4 (October - December):** PI planning takes place in September, utilizing time from Sprint 1 for the first quarter of the following year.
 
-- **Flexible Sprint Duration:**
-  - Epics can span a minimum of one sprint or two weeks, up to the entirety of six sprints within a quarter. This flexible structure allows for adaptability in planning.
+> **Note:** The regular fiscal year starts in January and follows a 3-month increment until the end of the year or Q4, which begins in October.
 
-- **Quarterly Planning Cycle:**
-  - A quarter comprises six sprints or 12 weeks, culminating in Program Increment (PI) planning for the subsequent quarter.
+### Sprint Planning and Story Point Allocation
 
-- **Combining Epics:**
-  - Epics can be combined or rolled over into subsequent sprints, offering flexibility in development sequencing.
+- **46 Story Points per PI:** Aim for approximately 46 story points of work for each Program Increment (PI).
 
-- **Closure Dependency:**
-  - Stories must be closed for epics to be closed, establishing a structured progression.
+- **6 Story Points Near PI Planning:** Allocate only 6 story points of work in the vicinity of PI planning.
 
-- **Product Group-Level Epics:**
-  - Epics might be initiated at the product group level, ensuring a strategic alignment with broader organizational goals.
+- **Backlog to Epic for Next PI:** Move the remaining backlog to an Epic for the next Program Increment.
 
-- **Continuous Improvement Epic:**
-  - A dedicated continuous improvement epic allows for the creation of stories focused on enhancing existing elements.
+## Sprint Shirt Size Guidelines
 
-This comprehensive framework ensures a structured and adaptable approach to feature and epic development, promoting collaboration and strategic alignment across the organization.
+When determining the sprint size for a story, adhere to the following guidelines:
+
+- **XS (Extra Small):** Estimated completion in less than 1 sprint or 2 weeks. Assess whether the task is better suited as a story rather than an epic.
+
+- **S (Small):** Expected completion in 1 to 2 sprints, approximately a month.
+
+- **M (Medium):** Completion expected in 2 to 4 sprints or 1 to 2 months.
+
+- **L (Large):** Targeted completion in 4 to 5 sprints or 2 to 3 months.
+
+- **XL or XXL (Extra Large):** Estimated completion in more than 5 to 6 sprints; consider breaking it into 2 separate epics.

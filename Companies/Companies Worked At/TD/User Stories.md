@@ -16,25 +16,6 @@ The flow from themes to epics to features to user stories can vary depending on 
 3. **Features:** Epics are decomposed into features, which are more manageable and focused units of work. Features are still relatively high-level and may take several sprints to complete.
 4. **User Stories:** Features, in turn, are broken down into user stories. User stories are more granular, detailed, and focused on a specific functionality or requirement and written from the user's perspective. They are the smallest units of work that can be completed within a single sprint.
 
-## **User Stories Intricacies:**
-
-User stories may engage various stakeholders, leading to diverse or misaligned acceptance criteria.
-
-User stories are also be written across multiple personas, exemplified by Persona like this:
-
-*As Persona A:*
-I want to [specific action or feature]  
-So that [desired outcome or benefit]
-
-*As Persona B:*
-I want to [specific action or feature]  
-So that [desired outcome or benefit]
-
-*As Persona C:*
-I want to [specific action or feature]  
-So that [desired outcome or benefit]
-
-
 # **Themes In-Depth**
 
 - Themes are large, overarching objectives or focus areas that help align the development efforts with strategic business goals.
@@ -54,80 +35,77 @@ Features represent overarching changes aimed at enhancing customer experience an
 
 # Epics In-Depth 
 
-OKR are converted into epics and have a theme
+- **OKR(Objective Key Results) Transformation:**
+  - OKRs set the high-level strategic direction and are translated into features, each having a thematic focus, business requirements translate these strategies into specific features, and user stories provide the detailed tasks for development teams to execute. Each level plays a crucial role in the alignment and execution of organizational goals.
 
-Epic has acceptance criteria
+- **Acceptance Criteria:**
+  - Epics are characterized by acceptance criteria, setting the parameters for success.
 
-Features are detailed and programmable
+- **Flexible Sprint Duration:**
+  - Epics can span a minimum of one sprint or two weeks, up to the entirety of six sprints within a quarter. This flexible structure allows for adaptability in planning.
 
-Epics can be 1 sprint at minimum or 2 weeks or can span across all 6 sprint within a Quarter 
+- **Quarterly Planning Cycle:**
+  - A quarter comprises six sprints or 12 weeks, culminating in Program Increment (PI) planning for the subsequent quarter.
 
-so 1 quarter has 6 sprints or 12 weeks then PI plaining for next Quater with 6 sprints
+- **Combining Epics:**
+  - Epics can be combined or rolled over into subsequent sprints, offering flexibility in development sequencing.
 
-you can combine epics, have it roll over into another sprint 
+- **Closure Dependency:**
+  - Stories must be closed for epics to be closed, establishing a structured progression.
 
-stories need to be closed in order to close epics 
+- **Product Group-Level Epics:**
+  - Epics might be initiated at the product group level, ensuring a strategic alignment with broader organizational goals.
 
-and epics might be created at the product group level
+- **Continuous Improvement Epic:**
+  - A dedicated continuous improvement epic allows for the creation of stories focused on enhancing existing elements.
 
-Martha Shipra and Wendy have epics in general anybody can have one but they Just specifically have one
-
->[!note] There will be a continuous improvement epic that you may be creating a story for improving something that exists 
-
-# Shirt/sprint size 
-
-XS less then 1 sprint or 2 weeks should considered weather this is a story then an epic 
-
-S 1 to 2 sprints about a month  
-
-M 2 to 4 sprints or 1 to 2 months 
-
-L 4 to 5 sprints or 2 to 3 months  
-
-XXL or XL greater then 5 to 6 sprints and should be considered to be broken into 2 epics 
-
-# Split a Story 
-
-Story has multiple items (words such as "and" or "or" appear  
-
-- All of these conditions necessary right now? 
-
-Too many workflow steps for user  
-
-- Are all these steps necessary right now? 
-
-Happy path Vs alternative paths  
-
-- Are all the alternative flows necessary right now? 
-
-Operations based story 
-
-- Are all the operations necessary right now? 
-
-Acceptance Criteria  
-
-- Different stories to handle different scenarios  -All test scenarios necessary right now? 
-
-Variations in Data/Interfaces/Platforms  
-
-- Are all these options necessary right now? 
-
-Use cases are scenarios where you represent multiple parties that have to be involved or maybe involved  
-
-	You have two types of relationship extend where maybe additional behaviors added   And include which is The baseline relationship  
-	
-	Stories focus on the who, what, and why while use cases are more detailed include process flows for users with in depth guidance  
-
-[https://www.techtarget.com/searchsoftwarequality/answer/What-is-the-difference-between-a-user-story-and-use-case-in-software-testing](https://www.techtarget.com/searchsoftwarequality/answer/What-is-the-difference-between-a-user-story-and-use-case-in-software-testing) 
-
-Purpose of stories create a persona in an arbitrary situation where that persona is hitting multiple touch points within the story with a product of some sort example   
-
-As persona Joe I need / want this feature so I can.. business benefit and effect   
-
-As a user, I want to be able to set reminders to take my medications or supplements so that I don't forget to take them. 
-
-Story consist of Acceptance criteria which is a checklist of key things to provide a better understanding of boundaries and behavior of the story And test scenarios where you can validate the story has been delivered correctly  
+This comprehensive framework ensures a structured and adaptable approach to feature and epic development, promoting collaboration and strategic alignment across the organization.
 
 
+# **User Stories Intricacies**
+Stories aim to create a persona navigating various touch points with a product.
+
+User stories may engage various stakeholders, leading to diverse or misaligned acceptance criteria.
+
+User stories are also be written across multiple personas, exemplified by Persona like this:
+
+*As Persona A:*
+I want to `[specific action or feature]`  
+So that `[desired outcome or benefit]`
+
+*As Persona B:*
+I want to `[specific action or feature] ` 
+So that `[desired outcome or benefit]`
+
+*As Persona C:*
+I want to `[specific action or feature] ` 
+So that `[desired outcome or benefit]`
+
+Stories include acceptance criteria and test scenarios to define boundaries and validate correct delivery.
+
+## Breaking Down a Story
+
+When splitting a story, assess the necessity of various elements:
+
+- **Conditions:** Evaluate if all conditions are required immediately.
+
+- **Workflow Steps:** Determine if there are too many steps for the user at this moment.
+
+- **Paths:** Consider if both the happy and alternative paths are essential currently.
+
+- **Operations:** Question the necessity of all operations in the story.
+
+- **Acceptance Criteria:** Check if all test scenarios are necessary at this point.
+
+- **Data/Interfaces/Platforms:** Assess the immediate necessity of all variations.
 
    
+## Understanding Use Cases vs. Stories
+
+Differentiate between use cases and stories:
+
+- **Use Cases:** Detailed scenarios involving multiple parties, focusing on extending relationships or including baseline relationships. Evaluate the necessity of additional behaviors.
+
+- **Stories:** Concentrate on who, what, and why, providing high-level guidance. Assess the immediate need for all elements.
+
+For more details, refer to this [source](https://www.techtarget.com/searchsoftwarequality/answer/What-is-the-difference-between-a-user-story-and-use-case-in-software-testing).

@@ -110,3 +110,6 @@ Differentiate between use cases and stories:
 - **Stories:** Concentrate on who, what, and why, providing high-level guidance. Assess the immediate need for all elements.
 
 For more details, refer to this [source](https://www.techtarget.com/searchsoftwarequality/answer/What-is-the-difference-between-a-user-story-and-use-case-in-software-testing).
+
+
+

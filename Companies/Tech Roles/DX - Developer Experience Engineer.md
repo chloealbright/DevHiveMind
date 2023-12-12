@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 A Developer Experience Engineer (DXE) is a professional who is responsible for improving the experience of developers who use a company's software development tools, platforms, and services. The goal of a DXE is to ensure that developers can work efficiently, productively, and with high satisfaction when using these tools and services.
 
 DXEs work closely with development teams to understand their needs and pain points, and they design and implement solutions to address these issues. They focus on improving developer workflows, automating repetitive tasks, and providing clear and concise documentation and support.

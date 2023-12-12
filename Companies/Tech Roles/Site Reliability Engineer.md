@@ -1,3 +1,10 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started:
+---
 A Site Reliability Engineer (SRE) is a professional who is responsible for designing, implementing, and maintaining reliable and scalable systems and services in a company's infrastructure. The goal of an SRE is to ensure that the systems and services are available, reliable, and performant for the end-users.
 
 SREs typically have a background in software engineering, system administration, or operations. They work closely with development teams to ensure that the applications and systems they build are scalable and reliable, and that they can be deployed and operated efficiently in production environments.

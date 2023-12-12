@@ -7,7 +7,7 @@ author:
 Status: init
 Started: 2023-12-12
 EditDate: 
-Relates:
+Relates: "[[Construction Industry and Data Dynamics]]"
 ---
 ## Tracflo Hypothetical Business Requirements Thoughts Experiment
 

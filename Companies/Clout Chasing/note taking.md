@@ -1,6 +1,12 @@
 ---
 tags:
   - Writing
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
 ---
 ## Next article the process simplification
 

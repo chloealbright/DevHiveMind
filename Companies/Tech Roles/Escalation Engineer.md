@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 An Escalation Engineer is a technical expert who is responsible for handling and resolving complex customer issues that have been escalated from lower levels of support. They are typically part of a company's customer support or technical support team and have extensive knowledge and expertise in the product or service they support.
 
 Escalation engineers are responsible for analyzing, troubleshooting, and resolving complex issues that cannot be resolved by lower level support staff. They work closely with other departments, such as product development, quality assurance, and technical operations, to identify and resolve issues that may require changes to the product or service.

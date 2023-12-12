@@ -39,7 +39,7 @@ I want to...
 # Pi Planing 
 ***Need about 46 story points of work for each PI***
 **Only do 6 story points of work near PI planning**
-*Move backlog to Epic in Next PI*
+*Move backlog to Epic for Next PI*
 
 ## Pi planning 1
 ### January February March  

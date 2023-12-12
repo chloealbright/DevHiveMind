@@ -24,3 +24,5 @@ SELECT a.emp_id AS "Emp_ID",a.emp_name AS "Employee Name", b.emp_id AS "
 
 
 ![[Types of Joins.png]]
+
+![[4 Type of Joins.gif]]

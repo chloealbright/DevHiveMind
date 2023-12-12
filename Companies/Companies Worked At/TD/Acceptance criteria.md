@@ -123,15 +123,9 @@ Upon the satisfactory completion of these checklist items, the user story is dee
 
 **TD Bank follows a non-standard fiscal year structure:**
 
-- **Q1 (January - March):** Typically starts January but TD starts in October of previous year and PI planning for that quarter occurs around that time also.
+Q1 runs from October to December.Then Q2 runs from January to March TD starts PI planning in March, disrupting the transition into the first Sprint of the next quarter so in between each quarter transition the sprint 1 starts maybe 1 week later. Q3 runs from April to June Q4 July to September
 
-- **Q2 (April - June):** PI planning in March, disrupting Sprint 1 for the next quarter.
 
-- **Q3 (July - September):** PI planning in June, impacting Sprint 1 for the upcoming quarter.
-
-- **Q4 (October - December):** PI planning takes place in September, utilizing time from Sprint 1 for the first quarter of the following year.
-
-> **Note:** The regular fiscal year starts in January and follows a 3-month increment until the end of the year or Q4, which begins in October.
 
 ### Sprint Planning and Story Point Allocation
 

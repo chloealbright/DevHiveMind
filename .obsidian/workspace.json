@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Companies Worked At/TD/User Stories.md",
+                "file": "Companies/Companies Worked At/TD/PI Planing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d95b5e2a6d7f440c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Companies Worked At/TD/Current Job Title.md",
                 "mode": "source",
                 "source": false
               }
@@ -181,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Acceptance criteria.md",
+                "file": "Companies/Companies Worked At/TD/PI Planing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Acceptance criteria.md",
+                "file": "Companies/Companies Worked At/TD/PI Planing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Acceptance criteria.md"
+                "file": "Companies/Companies Worked At/TD/PI Planing.md"
               }
             }
           },
@@ -325,14 +337,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4be761118ccfebae",
+  "active": "5c3101180fafa41d",
   "lastOpenFiles": [
+    "Companies/Companies Worked At/TD/Current Job Title.md",
     "Companies/Companies Worked At/TD/User Stories.md",
-    "Companies/Companies Worked At/TD/Acceptance criteria.md",
-    "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
     "Companies/Companies Worked At/TD/Agile.md",
-    "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
+    "Companies/Companies Worked At/TD/Acceptance criteria.md",
     "Companies/Companies Worked At/TD/PI Planing.md",
+    "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
+    "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
     "Companies/UML & User Stories Flow/User Story Flow and Breakdown Example.md",
     "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
     "Companies/UML & User Stories Flow/Process of gathering requirements.md",
@@ -366,7 +379,6 @@
     "Companies/Agile to edit/UML Notes Diagram Types Structure & Behavioral.md",
     "Companies/UML & User Stories Flow/Epics to user stories with acceptance criteria.md",
     "Companies/UML & User Stories Flow",
-    "Companies/Non-calendar fiscal year.md",
     "_Images/Database/4 Type of Joins.gif",
     "Database/ACID.gif",
     "Database/Database Processes.gif",

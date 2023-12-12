@@ -163,7 +163,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
+                "file": "Companies/Companies Worked At/TD/Elicitation.md",
                 "mode": "source",
                 "source": false
               }
@@ -236,7 +236,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 366.5,
+    "collapsed": true
   },
   "right": {
     "id": "eef3a19b1c6d3fd3",
@@ -252,7 +253,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
+                "file": "Companies/Companies Worked At/TD/Elicitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -269,7 +270,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
+                "file": "Companies/Companies Worked At/TD/Elicitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -292,7 +293,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Type of Jira User Stories.md"
+                "file": "Companies/Companies Worked At/TD/Elicitation.md"
               }
             }
           },
@@ -398,8 +399,8 @@
   },
   "active": "9f49f626c34f1903",
   "lastOpenFiles": [
-    "Companies/Companies Worked At/TD/BSA Notes.md",
     "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
+    "Companies/Companies Worked At/TD/BSA Notes.md",
     "Companies/Companies Worked At/TD/User Stories.md",
     "Companies/Companies Worked At/TD/PI Planning.md",
     "Companies/Companies Worked At/Tracflo & Construction Industry.md",

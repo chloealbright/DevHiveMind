@@ -7,26 +7,15 @@ Started:
 EditDate: 
 Relates:
 ---
-**Agile Frameworks and Practices:**
+
+## Jira Ticket Management
 - **Spike:** A research proof of concept in Jira.
-- **Regular Agile:** Follows the hierarchy: Epic > Feature > Stories. User stories are detailed and succinct, following a well-defined template.
-- **TDSA - TD SAFe Agile:** Hierarchy is Theme > Feature > Epic > Stories. User stories are created and added to the product backlog before the sprint backlog.
+>[!note] 
+>Clone and close stories if work continues into next sprint and just in general just quicker to create new stories; if no work has been done, move them forward to next sprint.
 
-> **[!important] Oli is there to address blockers and help move things like hitting up PL. Close issue clone if it is crossing into a new sprint also comment.
 
-**Knowledge Management:**
-- Knowledge management is conducted in Confluence.
 
-**Planning:**
-- PR planning for platforms (not practices). TD has adopted and done it for the practice or practice construct.
 
-**Stakeholder Considerations:**
-- If you have multiple stakeholders in a story, they may have different or misaligned acceptance criteria.
-- Clone and close when work is done for stories; otherwise, if no work is done, move over.
-
-**User Stories and Personas:**
-- User stories can have multiple personas.
-- Examples of personas are presented, followed by the statement, "I want to..."
 
 # **Pi Planning:**
 - Approximately 46 story points of work needed for each PI.

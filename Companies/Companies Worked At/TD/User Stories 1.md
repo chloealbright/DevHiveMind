@@ -9,33 +9,24 @@ In the Scrum framework, for example, the typical flow is from:
 3. **Features:** Epics are decomposed into features, which are more manageable and focused units of work. Features are still relatively high-level and may take several sprints to complete.
 4. **User Stories:** Features, in turn, are broken down into user stories. User stories are more granular, detailed, and focused on a specific functionality or requirement and written from the user's perspective. They are the smallest units of work that can be completed within a single sprint.
 
+## **User Stories Intricacies:**
 
+User stories may engage various stakeholders, leading to diverse or misaligned acceptance criteria.
 
+User stories are also be written across multiple personas, exemplified by Persona like this:
 
+*As Persona A:*
+I want to [specific action or feature]  
+So that [desired outcome or benefit]
 
-close issue clone if it is crossing into new sprint also comment
-  
-Knowledge management is confluence
+*As Persona B:*
+I want to [specific action or feature]  
+So that [desired outcome or benefit]
 
-There's PR planning for platforms not practices but to TD has adopted and done it for the practice or practice construct  
+*As Persona C:*
+I want to [specific action or feature]  
+So that [desired outcome or benefit]
 
-If you have multiple stakeholders in a story they may have different or misaligned acceptance criteria
-
-Clone and close when work is done for stories otherwise if no work done move over
-
-
-  
-User stories can have multiple personas so you can have multiple  
-  
-  
-As persona A  
-  
-As persona b  
-  
-As persona c  
-  
-  
-I want to...
 
 # Pi Planing 
 ***Need about 46 story points of work for each PI***

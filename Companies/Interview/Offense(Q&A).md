@@ -1,13 +1,42 @@
+---
+tags:
+  - questions
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[attack.gif]]
 
 **Before the Interview:**
-
 - Create a resume cheat sheet and inform the interviewer about it to facilitate a dialogue.
 - Ask to record the interview for future reference.
 - Don’t let “What are the next steps in the hiring process?” be your only question!  
 
+**Embracing the power of a reverse interview ask about things like:**
+*Manager Dynamics:*
+- What aspects do they appreciate or find challenging about their current manager?
+- Could you shed light on the strengths and weaknesses of my potential future manager?
+
+*Team Dynamics:*
+- Who was the most recent team member to receive a promotion, and what qualities contributed to their advancement?
+- Equally important, who departed from the team, and what motivated their decision to leave?
+- ***Reflecting on the last person to hold this job, what would you like to see continued and/or done differently? 
+ 
+ *Managerial Support:*
+- How supportive is the manager in terms of fostering professional growth and addressing challenges within the team?
+
+his proactive approach provides invaluable insights into the managerial landscape, offering a nuanced understanding of team dynamics, managerial styles, and the overall work culture. Moreover, it exemplified the wisdom of "under promise, over deliver" – a strategic mantra that aligns with managing expectations and exceeding them.
+
+Additionally, recognizing the importance of authenticity, especially in sensitive matters, such as reporting workplace issues, was emphasized. Acknowledging one's identity, such as sexual orientation, in navigating HR processes and fostering open communication emerged as a pragmatic piece of advice.
+
+In essence, the reverse interview not only illuminated the path towards a well-informed decision but also underscored the significance of strategic questioning and authentic communication in the professional realm.
+
 **During the Interview:**
->[!note] Food for Thought 
+>[!todo] 
+>**Food for Thought **
 >Ask questions about things you already know or obvious to you to see what advice someone gives you and what their intentions are
 
 - Ask questions about the company and industry, not just the role.
@@ -23,7 +52,6 @@
 - How They handle failures And how they measure performance
 - Is there any question you wish you asked early in your career that kind of nag at you 
 - Is this a new position? Or are you looking to refill?  
-	> Reflecting on the last person to hold this job, what would you like to see continued and/or done differently?  
 - When you were last interviewing, what were some of your other options, and what made you choose this company?  
 - Do you have an engineer or two that shaped your experience in a positive way? (Basically asking about their most successful mentor, or a co-worker that had a positive change in their work habits.) 
 - What would be your expectations for me in the first month, six months, and year?  
@@ -40,16 +68,13 @@
 - What was your best moment so far at the company?  
 
 **After the Interview:**
-
 - If you don't solve a problem during the interview, send a thank-you email with additional questions and a proposed solution.
 
 **General Considerations:**
-
 - Adapt questions to suit the specific industry or company you are interviewing for.
 
 
 **Joke interview Question :**
-
 - Which came first what came first the chicken or the egg?  
 - What is the weirdest thing you have seen in someone else’s home?  
 - What is something that you just recently realized that you are embarrassed you didn’t realize earlier?  
@@ -58,10 +83,33 @@
 - You’re a mad scientist, what scientific experiment would you run if money and ethics weren’t an issue?  
 - etc...
 
+## Other Questions Example
 
+Why did you move to Amsterdam? What made you move away from HQ? (Both my future manager and the most senior engineer moved)  
+  
+Why do you think Uber moved something so key like Payments to a small site? I was very skeptical of any sensible company moving strategic work away from the HQ, so I circled around this question throughout my "reverse interviews".  
+  
+What are the last three projects you've shipped? Then I asked more about one that sounded the most interesting, to get a sense of the work - this was especially helpful when talking with the engineer.  
+  
+What is the project you're most proud of working on at Uber? Why?  
+  
+What is the biggest struggle you have/had at Uber? Why?  
+  
+What are you most excited about for the next six months?  
+  
+What did your typical workweek look like the past month?  
+  
+Tell me about the team. How would you describe the team dynamics? Again, I got very good - and blunt - feedback from the senior engineer.  
+  
+Assuming I joined, what advice would you give to be successful?  
+  
+What are things that you have seen new joiners struggle with?  
+  
+Has anyone left the team? If so, what was the reason?  
+  
 
 **Further Resources:**
-
+- [Original Article](https://blog.pragmaticengineer.com/pragmatic-engineer-test/)
 - [Angel.co Blog - 30 Questions to Ask Before Joining a Startup](https://angel.co/blog/30-questions-to-ask-before-joining-a-startup)
 - [Angel.co Blog - Liquidation Preference: Your Equity Could Be Worth Millions or Nothing](https://angel.co/blog/liquidation-preference-your-equity-could-be-worth-millions-or-nothing)
 

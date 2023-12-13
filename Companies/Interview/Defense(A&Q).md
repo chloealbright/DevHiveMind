@@ -1,3 +1,13 @@
+---
+tags:
+  - questions
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[Defense.gif]]
 
 ## Technical Questions to Answer

@@ -1,3 +1,13 @@
+---
+tags:
+  - career
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[DataBuisness.png]]
 ## Describe Data in a Meaningful Way 
 

@@ -14,7 +14,7 @@ Relates:
 #todo/High/Dev 
 - [ ] ***Refine notes based subject matter you are practicing like domain driven design not currently using it so low priority revisit and refine when actually using it ***
 - [ ] Edit article on [[Bootcamp]] ^923f61
-- [ ] Edit article on [note taking](note%20taking.md) ^776056
+- [ ] Edit article on [Note taking](Note%20taking.md) ^776056
 - [ ] [[Data Project Idea]]
 - [ ] Read [Domain-driven design](Domain-driven%20design.md)
 - [ ] Get certified in Linux 

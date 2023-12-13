@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - career
 author:
   - jacgit18
 Status: 

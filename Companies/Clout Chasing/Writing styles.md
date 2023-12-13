@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - chatgpt
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 There are numerous writing styles, each with its own characteristics and purposes. Some common styles include:  
   
 1. **Narrative**: Tells a story or recounts events.  

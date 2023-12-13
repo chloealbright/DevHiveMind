@@ -13,66 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Interview/Offense(Q&A).md",
+                "file": "Companies/Dev Metrics.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "e31315cce40b99c9",
+        "type": "tabs",
+        "children": [
           {
             "id": "f43bfa674e4985e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Companies/Interview/Avoid Headaches.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e25dc1c497de43ad",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Mind Maps/Drafts/Testing.canvas",
-                "viewState": {
-                  "x": 59.5,
-                  "y": 250,
-                  "zoom": -0.6476032200003855
-                }
-              }
-            }
-          },
-          {
-            "id": "f65d435d4c126afe",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Mind Maps/Drafts/Url.canvas",
-                "viewState": {
-                  "x": 300,
-                  "y": 260.5,
-                  "zoom": -0.9434929037833095
-                }
-              }
-            }
-          },
-          {
-            "id": "2b31c836d6a41ba8",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Mind Maps/Drafts/Gateway.canvas",
-                "viewState": {
-                  "x": -508.5,
-                  "y": -413,
-                  "zoom": -1.4405826484791313
-                }
+                "file": "Companies/Work Process.png"
               }
             }
           },
@@ -80,36 +39,11 @@
             "id": "cf9b1ba2e5e88ee9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Mind Maps/Drafts/Event Messaging.canvas",
-                "viewState": {
-                  "x": 878.5,
-                  "y": 189.5,
-                  "zoom": -1.919800988215901
-                }
-              }
-            }
-          }
-        ],
-        "currentTab": 5
-      },
-      {
-        "id": "b6e2ad655dc10f96",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "891de2022f58e3d9",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Mind Maps/Drafts/Domain-driven design.canvas",
-                "viewState": {
-                  "x": -517.5,
-                  "y": 469,
-                  "zoom": -1.99238428830278
-                }
+                "file": "_NoteAssets/Callouts.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -208,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mind Maps/Drafts/Domain-driven design.canvas",
+                "file": "Companies/Dev Metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mind Maps/Drafts/Domain-driven design.canvas",
+                "file": "Companies/Dev Metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mind Maps/Drafts/Domain-driven design.canvas"
+                "file": "Companies/Dev Metrics.md"
               }
             }
           },
@@ -352,11 +286,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "891de2022f58e3d9",
+  "active": "d3aaaa614e19dbbf",
   "lastOpenFiles": [
+    "Companies/Companies Worked At/General Dev Issues.md",
+    "Companies/Clout Chasing/Writing styles.md",
+    "Companies/Clout Chasing/Draft/Note taking.md",
+    "Companies/Clout Chasing/Social Post.md",
+    "Companies/Clout Chasing/Draft/Bootcamp.md",
+    "Companies/Clout Chasing/Draft",
+    "Companies/Tech company hiring cycle & Hustle.md",
+    "Companies/Sounding more senior or experienced.md",
+    "Companies/Software Development Engineer in Test.md",
+    "Companies/Software Carpentier Journey.md",
+    "Companies/Data Work.md",
+    "Companies/Employment Best Personal Practices.md",
+    "Companies/Dev Metrics.md",
+    "Companies/Culture/Crunch.md",
+    "Companies/Culture/Types of Programmers To Avoid.md",
+    "Companies/Money Talk/Bonuses.md",
+    "Companies/Interview/Defense(A&Q).md",
+    "Companies/Interview/Offense(Q&A).md",
+    "Companies/Work Process.png",
+    "Companies/Interview/Avoid Headaches.md",
+    "_NoteAssets/Callouts.md",
+    "_NoteAssets/Caret.md",
     "Mind Maps/Drafts/Event Messaging.canvas",
-    "Mind Maps/Drafts/File system.canvas",
     "Mind Maps/Drafts/Testing.canvas",
+    "Mind Maps/Drafts/Domain-driven design.canvas",
+    "Mind Maps/Drafts/File system.canvas",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/_Web App Architecture.canvas",
     "Mind Maps/12 Factor App Docker.canvas",
@@ -372,43 +329,20 @@
     "_Images/Testing/Blackbox testing.png",
     "_Images/Testing/Black and white box.gif",
     "_Images/Security/Workflow auth.jpeg",
-    "_Images/Security/Auth Grant Flow.png",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with classes .drawio",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
     "Mind Maps/Drafts/UML/Models.md",
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
-    "Mind Maps/Drafts/Domain-driven design.canvas",
-    "Mind Maps/Drafts/Gateway.canvas",
-    "Companies/Interview/Avoid Headaches.md",
     "Devops/Deployment Patterns.md",
     "Infographics/DevOps",
     "Architecture/Microservices best practices.md",
     "Architecture/microservices and monolithic architecture.md",
     "Architecture/Microservices.md",
     "Infographics/API",
-    "_Low Priority Refinement/Security/Code Defects.md",
     "Infographics/Security",
-    "_Low Priority Refinement/Security/Computer system security.md",
-    "_Template/UMLDiagram.excalidraw.md",
     "Architecture/Design Patterns.pdf",
-    "Architecture/_Architecture Dashboard.md",
     "Infographics/Architecture",
     "Infographics/Cloud",
-    "Companies/Interview/Offense(Q&A).md",
-    "Database/Database Archetecture/Table Team Work.md",
-    "Database/Database Archetecture/Which normalization to pick.md",
-    "Database/Database Archetecture/Star.md",
-    "Database/Database Archetecture/Snowflake.md",
-    "Database/Database Archetecture/Schema Design.md",
-    "Database/Database Archetecture/Normalization.md",
-    "Database/Database Archetecture/Making Decesion.md",
-    "Database/Database Archetecture/Fact Table.md",
-    "Database/Database Archetecture/Decentralized Data Management.md",
-    "Database/Database Archetecture/DBMS Types of Keys.md",
-    "Database/Database Archetecture/Database Diagram.md",
-    "Database/Database Archetecture/Data Architecture.md",
-    "Database/Database Archetecture/Best Practices for Database Schema Design.md",
-    "Infographics/Databases",
-    "Infographics"
+    "Infographics/Databases"
   ]
 }

@@ -2,9 +2,13 @@
 tags: 
 author:
   - jacgit18
-Status: 
+Status: done
 Started: 
 EditDate: 
 Relates:
 ---
-So as a user of technology I would say generally I'm not really a social media person but I do use it to stay in contact with family and sometimes end up scrolling but not that much I would say youtube is probably my crutch I have created quite a few playlists and save some for later and even found a subscription-manager to reduce my feed to limit how many videos I watch and I also have separate accounts to separate things even more so that I have an account strictly for software development related channels. What I'm getting at is I believe there needs to be ethics in Ux and in tech in general because it is basically an experiment like before I started using a subscription-manager to reduce my feed to watch fewer videos youtube had a feature in the past where you could add your subscription to individual folders to reduce your feed but for some reason, they got rid of it which probably brought more views to there site. As a user of these different content platforms, I am very aware of what I choose to consume and make it a priority not just to watch anything but there are still days where you get caught in that trap and I recognize things like the general psychology of completing a list or playlist in my case so I think there need to be more ethical and I agree with the article.
+As a technology user, I generally avoid heavy use of social media, but I do utilize it to stay connected with family. My primary engagement, however, is on YouTube, where I've created playlists and implemented a subscription manager to control my video feed and limit my consumption. I've even dedicated a separate account solely for software development-related content.
+
+My experience with YouTube highlights the need for ethical considerations in UX and technology overall. Platforms often experiment with features that can significantly impact user behavior. For instance, YouTube once had a feature allowing users to organize subscriptions into folders, reducing the feed's content. However, this feature was later removed, potentially to increase site engagement.
+
+While I'm conscious of my content choices and prioritize meaningful consumption, I recognize the psychological aspects at play, such as the satisfaction of completing a playlist. This awareness emphasizes the importance of incorporating ethical practices into technology design, aligning with the sentiments expressed in the article.

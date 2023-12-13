@@ -11,9 +11,11 @@
             "id": "f43bfa674e4985e6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Infographics/Message Systems.gif"
+                "file": "Companies/Interview/Coffee Chat Interviewing.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -36,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file:",
+                "query": "Informational",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -100,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infographics/Message Systems.gif",
+                "file": "Companies/Interview/Coffee Chat Interviewing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infographics/Message Systems.gif",
+                "file": "Companies/Interview/Coffee Chat Interviewing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infographics/Message Systems.gif"
+                "file": "Companies/Interview/Coffee Chat Interviewing.md"
               }
             }
           },
@@ -246,6 +248,16 @@
   },
   "active": "f43bfa674e4985e6",
   "lastOpenFiles": [
+    "Companies/Interview/Offense(Q&A).md",
+    "Companies/Interview/Coffee Chat Interviewing.md",
+    "Companies/Interview/Defense(A&Q).md",
+    "Architecture/User Interface thoughts.md",
+    "Companies/Tech company hiring cycle & Hustle.md",
+    "Language/Typescript/TypeScript Explained.md",
+    "Algorithms & Data Structures/Discrete math.md",
+    "Language/Typescript/Debounce vs Throttle event listening performance.md",
+    "Companies/Companies Worked At/TD/Building Risk.md",
+    "Infographics/Message Systems.gif",
     "Infographics/Testing/Ways to Test.gif",
     "Infographics/Language",
     "Infographics/Testing",
@@ -254,7 +266,6 @@
     "Infographics/System Design BluePrint.jpg",
     "Infographics/Language/Python v Java.gif",
     "Infographics/Web/Network Protocols Applied.jpeg",
-    "Infographics/Message Systems.gif",
     "Infographics/Kafka Uses.jpeg",
     "Infographics/Web/Http Request Method.gif",
     "Infographics/API/GatewayFunction.jpeg",
@@ -266,7 +277,6 @@
     "Companies/Clout Chasing/Social Post.md",
     "Companies/Clout Chasing/Draft/Bootcamp.md",
     "Companies/Clout Chasing/Draft",
-    "Companies/Tech company hiring cycle & Hustle.md",
     "Companies/Sounding more senior or experienced.md",
     "Companies/Software Development Engineer in Test.md",
     "Companies/Software Carpentier Journey.md",
@@ -276,11 +286,8 @@
     "Companies/Culture/Crunch.md",
     "Companies/Culture/Types of Programmers To Avoid.md",
     "Companies/Money Talk/Bonuses.md",
-    "Companies/Interview/Defense(A&Q).md",
-    "Companies/Interview/Offense(Q&A).md",
     "Companies/Interview/Avoid Headaches.md",
     "_NoteAssets/Callouts.md",
-    "_NoteAssets/Caret.md",
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",
@@ -289,15 +296,11 @@
     "Mind Maps/_Web App Architecture.canvas",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/Docker InDeph.canvas",
-    "Mind Maps/Java Behind the Scenes.md",
     "Mind Maps/Redux Map.canvas",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with classes .drawio",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
-    "Mind Maps/Drafts/UML/Models.md",
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
-    "Devops/Deployment Patterns.md",
     "Infographics/DevOps",
-    "Architecture/Microservices best practices.md",
     "Infographics/API",
     "Infographics/Security",
     "Architecture/Design Patterns.pdf"

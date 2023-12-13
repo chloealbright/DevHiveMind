@@ -48,8 +48,7 @@ Exit interviews can be bait for ammo for the company if they want to come after 
 
 Roles - reach out to a company telling them that you know you aren't ready but how can you improve  
 
-# Site reliability Engineer  
-will this role be proactive or more reactive just in terms of responsibilities reactive being helping someone or something proactive being improving something for better reliability  
+
  
 # Red flag  
 	
@@ -62,6 +61,11 @@ will this role be proactive or more reactive just in terms of responsibilities r
 	Try to change teams within a year or less to grow more and understand the company  
 	Make Sure responsibilities align with job description  
 
+A good sign to avoid these problems is to let's say for example you're applying for a startup try looking into that funding
+
+Watch out for companies who give you assignments to try before hiring you because they sometimes our actual projects that weren't done and they are trying to get free work out of you instead of hiring you  
+  
+Limit interview to 5 hours or less than multiple days or between 5 to 10 hours because you might end up interviewing for multiple businesses and you want to avoid being used to do free work for a company
 # Performance 
 
 	Ask what would the performance review cycle look like  

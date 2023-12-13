@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "c99c92d5f6fd371d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d3aaaa614e19dbbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Dev Metrics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "e31315cce40b99c9",
         "type": "tabs",
         "children": [
@@ -31,19 +13,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Companies/Work Process.png"
-              }
-            }
-          },
-          {
-            "id": "cf9b1ba2e5e88ee9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_NoteAssets/Callouts.md",
-                "mode": "source",
-                "source": false
+                "file": "Infographics/Message Systems.gif"
               }
             }
           }
@@ -60,18 +30,6 @@
         "id": "35a748fce277cec3",
         "type": "tabs",
         "children": [
-          {
-            "id": "c18a64a686e80f59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
           {
             "id": "6b26857b850e27fd",
             "type": "leaf",
@@ -122,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -142,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Dev Metrics.md",
+                "file": "Infographics/Message Systems.gif",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Dev Metrics.md",
+                "file": "Infographics/Message Systems.gif",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Dev Metrics.md"
+                "file": "Infographics/Message Systems.gif"
               }
             }
           },
@@ -286,8 +244,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "336e343a71fa6379",
+  "active": "f43bfa674e4985e6",
   "lastOpenFiles": [
+    "Infographics/Testing/Ways to Test.gif",
+    "Infographics/Language",
+    "Infographics/Testing",
+    "Infographics/Web/Url Process.gif",
+    "Infographics/Web/Traffic Poliicies.gif",
+    "Infographics/System Design BluePrint.jpg",
+    "Infographics/Language/Python v Java.gif",
+    "Infographics/Web/Network Protocols Applied.jpeg",
+    "Infographics/Message Systems.gif",
+    "Infographics/Kafka Uses.jpeg",
+    "Infographics/Web/Http Request Method.gif",
+    "Infographics/API/GatewayFunction.jpeg",
+    "Infographics/Web",
+    "Home.md",
     "Companies/Companies Worked At/General Dev Issues.md",
     "Companies/Clout Chasing/Writing styles.md",
     "Companies/Clout Chasing/Draft/Note taking.md",
@@ -306,7 +278,6 @@
     "Companies/Money Talk/Bonuses.md",
     "Companies/Interview/Defense(A&Q).md",
     "Companies/Interview/Offense(Q&A).md",
-    "Companies/Work Process.png",
     "Companies/Interview/Avoid Headaches.md",
     "_NoteAssets/Callouts.md",
     "_NoteAssets/Caret.md",
@@ -320,15 +291,6 @@
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/Java Behind the Scenes.md",
     "Mind Maps/Redux Map.canvas",
-    "_Images/Testing/Whitebox Testing.png",
-    "_Images/Testing/Testing type.png",
-    "_Images/Testing/Testing Priority.jpeg",
-    "_Images/Testing/Regression test.gif",
-    "_Images/Testing/Load VS Stress Testing.gif",
-    "_Images/Testing/Grey box testing.png",
-    "_Images/Testing/Blackbox testing.png",
-    "_Images/Testing/Black and white box.gif",
-    "_Images/Security/Workflow auth.jpeg",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with classes .drawio",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
     "Mind Maps/Drafts/UML/Models.md",
@@ -336,13 +298,8 @@
     "Devops/Deployment Patterns.md",
     "Infographics/DevOps",
     "Architecture/Microservices best practices.md",
-    "Architecture/microservices and monolithic architecture.md",
-    "Architecture/Microservices.md",
     "Infographics/API",
     "Infographics/Security",
-    "Architecture/Design Patterns.pdf",
-    "Infographics/Architecture",
-    "Infographics/Cloud",
-    "Infographics/Databases"
+    "Architecture/Design Patterns.pdf"
   ]
 }

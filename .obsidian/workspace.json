@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Interview/Coffee Chat Interviewing.md",
+                "file": "Companies/Companies Worked At/General Dev Issues.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Interview/Coffee Chat Interviewing.md",
+                "file": "Companies/Companies Worked At/General Dev Issues.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Interview/Coffee Chat Interviewing.md",
+                "file": "Companies/Companies Worked At/General Dev Issues.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Interview/Coffee Chat Interviewing.md"
+                "file": "Companies/Companies Worked At/General Dev Issues.md"
               }
             }
           },
@@ -248,8 +248,10 @@
   },
   "active": "f43bfa674e4985e6",
   "lastOpenFiles": [
-    "Companies/Interview/Offense(Q&A).md",
+    "Companies/Interview/Interview Process.md",
+    "Companies/Interview/Follow Up response template.md",
     "Companies/Interview/Coffee Chat Interviewing.md",
+    "Companies/Interview/Offense(Q&A).md",
     "Companies/Interview/Defense(A&Q).md",
     "Architecture/User Interface thoughts.md",
     "Companies/Tech company hiring cycle & Hustle.md",
@@ -286,8 +288,6 @@
     "Companies/Culture/Crunch.md",
     "Companies/Culture/Types of Programmers To Avoid.md",
     "Companies/Money Talk/Bonuses.md",
-    "Companies/Interview/Avoid Headaches.md",
-    "_NoteAssets/Callouts.md",
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",

@@ -8,18 +8,43 @@
         "type": "tabs",
         "children": [
           {
+            "id": "0af230a5896bc971",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_CODE/Top Todo/job application clipboard.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f43bfa674e4985e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Interview/Conversation Tactics & Starters.md",
+                "file": "_CODE/Top Todo/CV.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce090174c8ec7de7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Interview/Shady Behavior.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "8c9ae2a25e36695c",
@@ -31,13 +56,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Companies Worked At/TD/Business Systems Analyst.md",
+                "file": "_CODE/Top Todo/Experience Script.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d449242250aa75f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_CODE/Top Todo/Getting the Chain Started.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa3f3dffd5daa411",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_CODE/Top Todo/High level problem solving.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Interview/Conversation Tactics & Starters.md",
+                "file": "_CODE/Top Todo/Getting the Chain Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Interview/Conversation Tactics & Starters.md",
+                "file": "_CODE/Top Todo/Getting the Chain Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Interview/Conversation Tactics & Starters.md"
+                "file": "_CODE/Top Todo/Getting the Chain Started.md"
               }
             }
           },
@@ -264,34 +314,36 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f43bfa674e4985e6",
+  "active": "d449242250aa75f0",
   "lastOpenFiles": [
-    "Companies/People/Tactics.md",
-    "Companies/Interview/Conversation Tactics & Starters.md",
-    "Companies/People/Reach out to Mentor.md",
-    "Companies/People/Introductory talk.md",
-    "Companies/People/name.md",
+    "Companies/Interview/Shady Behavior.md",
+    "_CODE/Top Todo/Getting the Chain Started.md",
+    "_CODE/Top Todo/job application clipboard.md",
+    "_CODE/Top Todo/High level problem solving.md",
+    "_CODE/Top Todo/Experience Script.md",
     "Companies/Companies Worked At/TD/Business Systems Analyst.md",
-    "Companies/People/intentions.md",
+    "_CODE/Top Todo/CV.md",
+    "Companies/Employment Best Personal Practices.md",
+    "Infographics/Work Process.png",
+    "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
+    "_Low Priority Refinement/Companies/Sounding more senior or experienced.md",
+    "_Low Priority Refinement/Companies/Software Development Engineer in Test.md",
+    "Companies/Software Carpentier Journey.md",
+    "_Low Priority Refinement/Companies/Dev Metrics.md",
+    "Companies/Data Work.md",
+    "_Low Priority Refinement/Companies/People/People to know & TD Questions.md",
+    "_Low Priority Refinement/Companies",
+    "_Low Priority Refinement/Companies/People/intentions.md",
+    "Companies/Interview/Conversation Tactics & Starters.md",
+    "_Low Priority Refinement/Companies/People/Introductory talk.md",
+    "_Low Priority Refinement/Companies/People/Reach out to Mentor.md",
+    "Companies/People/Tactics.md",
+    "Companies/People/name.md",
     "Companies/People/Making small talk.md",
     "Companies/People/Dealing with People.md",
     "Companies/Interview/Offense(Q&A).md",
     "Companies/People/Companies & Favours.md",
     "Companies/Interview/Interview Process.md",
-    "Companies/Interview/Follow Up response template.md",
-    "Companies/Interview/Defense(A&Q).md",
-    "Companies/Interview/Coffee Chat Interviewing.md",
-    "Companies/Culture/Types of Programmers To Avoid.md",
-    "Companies/Culture/Crunch.md",
-    "Companies/Companies Worked At/TD/Current State Assessment.md",
-    "Companies/Companies Worked At/TD/Elicitation.md",
-    "Companies/Companies Worked At/TD/Moscow prioritization.md",
-    "Companies/Companies Worked At/TD/Non-calendar fiscal year.md",
-    "Companies/Companies Worked At/TD/PI Planning.md",
-    "Companies/Companies Worked At/TD/Requirement Governance.md",
-    "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
-    "Companies/Companies Worked At/TD/Type of Question.md",
-    "Companies/Companies Worked At/TD/Validating.md",
     "Infographics/Message Systems.gif",
     "Infographics/Testing/Ways to Test.gif",
     "Infographics/Language",
@@ -303,7 +355,6 @@
     "Infographics/Web/Network Protocols Applied.jpeg",
     "Infographics/Kafka Uses.jpeg",
     "Infographics/Web/Http Request Method.gif",
-    "Infographics/API/GatewayFunction.jpeg",
     "Infographics/Web",
     "Companies/Clout Chasing/Draft",
     "Mind Maps/Drafts/Event Messaging.canvas",
@@ -320,7 +371,6 @@
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
     "Infographics/DevOps",
     "Infographics/API",
-    "Infographics/Security",
-    "Architecture/Design Patterns.pdf"
+    "Infographics/Security"
   ]
 }

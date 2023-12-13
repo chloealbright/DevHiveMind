@@ -1,1 +1,0 @@
-Ask questions about things you already know or obvious to you to see what advice someone gives you and what their intentions are

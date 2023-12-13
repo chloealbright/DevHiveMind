@@ -31,9 +31,4 @@ Relates:
 
 When engaging in conversations, you can also consider saying, "It's interesting, I've been contemplating using or implementing the very thing you mentioned," to spark discussion. Furthermore, you might dig deeper by asking, "What recommendations would you offer for someone looking to excel in [Industry/Field]?" to encourage more insightful conversations.
 
-## Cold call
-- Cold call the company to ask him about the schedule interview that is not actually there to get an interview
-
-## Looking busy
-- Elongate statistics so if you're talking about doing something for a year instead of saying 1 year say over 12 months
 

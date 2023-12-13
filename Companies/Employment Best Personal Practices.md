@@ -12,8 +12,6 @@ When terminated from a job, be sure to request a formal letter explaining the re
 
 
 
-
-
 When beginning a new role, there are several important steps to consider:
 
 1. **Employment Type:** Start by inquiring whether the position is a direct hire or a contract role. This information will affect your job security and benefits.

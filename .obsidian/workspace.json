@@ -4,21 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "e31315cce40b99c9",
-        "type": "tabs",
+        "id": "bea740c1ae71998e",
+        "type": "split",
         "children": [
           {
-            "id": "0af230a5896bc971",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_CODE/Top Todo/job application clipboard.md",
-                "mode": "source",
-                "source": false
+            "id": "e31315cce40b99c9",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0af230a5896bc971",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "_CODE/Top Todo/job application clipboard.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ]
           },
+          {
+            "id": "f15b51e1015225e9",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "aa3f3dffd5daa411",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "_CODE/Top Todo/High level problem solving.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      },
+      {
+        "id": "8c9ae2a25e36695c",
+        "type": "tabs",
+        "children": [
           {
             "id": "f43bfa674e4985e6",
             "type": "leaf",
@@ -31,25 +62,6 @@
               }
             }
           },
-          {
-            "id": "ce090174c8ec7de7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Interview/Shady Behavior.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "8c9ae2a25e36695c",
-        "type": "tabs",
-        "children": [
           {
             "id": "8370ea42462f9cdf",
             "type": "leaf",
@@ -73,21 +85,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "aa3f3dffd5daa411",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_CODE/Top Todo/High level problem solving.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -154,7 +153,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 366.5,
+    "collapsed": true
   },
   "right": {
     "id": "eef3a19b1c6d3fd3",
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_CODE/Top Todo/Getting the Chain Started.md",
+                "file": "_CODE/Top Todo/High level problem solving.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_CODE/Top Todo/Getting the Chain Started.md",
+                "file": "_CODE/Top Todo/High level problem solving.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_CODE/Top Todo/Getting the Chain Started.md"
+                "file": "_CODE/Top Todo/High level problem solving.md"
               }
             }
           },
@@ -314,11 +314,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d449242250aa75f0",
+  "active": "aa3f3dffd5daa411",
   "lastOpenFiles": [
+    "_CODE/Top Todo/job application clipboard.md",
     "Companies/Interview/Shady Behavior.md",
     "_CODE/Top Todo/Getting the Chain Started.md",
-    "_CODE/Top Todo/job application clipboard.md",
     "_CODE/Top Todo/High level problem solving.md",
     "_CODE/Top Todo/Experience Script.md",
     "Companies/Companies Worked At/TD/Business Systems Analyst.md",

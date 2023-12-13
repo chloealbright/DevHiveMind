@@ -24,14 +24,31 @@ I got into because I for multiple reason the first was dealing with my mom origi
 
 ### Path 1
 
-I feel like software development is like a puzzle where I have completed certain sections of the puzzle while there are other sections to be started and other sections that are partially complete but if you missing pieces and the overall puzzle is a good percentage completed but the image is only something like 480p and I feel like I'm probably like at 1080p trying to upscale all the way to 8K and beyond while filling in the rest of the puzzles pieces  
+  
+Software development process is like being given a box of blank white puzzle pieces and a partially built puzzle & your expected to put the pieces together without knowing how the pieces fit while the pieces are randomly changing almost like your walking through labyrinth that is actively changing & you have to figure out how the pieces/modules(input-output) connect or correspond to each other  
 
-So, software development to me is like this big puzzle. Got some sections nailed, others started, and a few are halfway there. Imagine the puzzle's mostly done, but it's kinda fuzzy, like a 480p image. I'm cruising at 1080p, trying to crank it up to 8K, and all the while, I'm hustling to fill in the rest of those puzzle pieces.
+  
+While make sure you have the overall picture still in mind, but as your putting pieces together you realize there is more to the picture and your missing pieces and the picture constantly changing and may be different then you thought so as all of this is happening your basically you trying to bring order to chaos can almost be considered natural order.
+
+
+
+
+I feel like software development is like doing puzzle where you have completed some sections and when step back it turns there id many more parts to complete its kind of like your looking at a picture and looks like 1080p but it turns out you were looking to close and in actuality it is 480p and there are more pieces to put together to get the full 4k image.  
+
+
+
+  
+Software development is a bit like tackling a puzzle. You conquer some sections, but when you step back, surprise—it's a maze with many more parts waiting to be completed. It's like peeping at a picture that seemed 1080p up close, only to realize it's more of a 480p situation. There's this ongoing quest to put together more pieces and reveal the full 4K image. It's a journey of discovery, piece by piece.
+
+
 
 --- 
 
 ### Path 2
   
+Martial arts because there are both forms of high-level problem-solving one just involves you getting hit in the head and losing a couple of brain cells but you put yourself in a chaotic situation where you need to face and analyze a problem that dynamically changes as you try and break it down in small pieces and solve.
+
+
 and I always compare martial arts to programming  
   
 
@@ -49,3 +66,8 @@ Identifying all of the key information then restructuring that problem into a so
   
 But after working in software development for these last couple years  
 I, ve learned that I don,t consider myself a software engineer I consider myself more of a software carpenter because I know that one of the highest titles is like software architect and I consider myself a builder of software
+
+
+The reason why I chose software development since the time that you put in doesn't necessarily equal the success you can make especially when you get good at it and it can be done from anywhere essentially besides that I like the challenge because initially I was going to networking but the class I took left a bad taste in my mouth so I transition to programming because it seemed like something where I wouldn't get bored at.  
+  
+and it seems now there might be a trend depending on the company where you can work at home which is a plus meaning you have more time to do other stuff while doing that

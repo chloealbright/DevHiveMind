@@ -40,3 +40,12 @@ so I decide on programming it was challenging almost like a video game and
 I also like because it reminds of mma because when it comes down to it is high level problem solving but without to worry of getting punched in the face  
   
 and with mma there is alot of variables it almost like its own program were you have two programs with there own built in functions
+
+
+### Path 3
+As a software engineer you are taking something in the physical world like a specific problem in a industry and observing it and it's inner workings  
+Identifying all of the key information then restructuring that problem into a solution in the digital space to eliminating a lot of the initial constraints and issues of that initial problem in the physical world  
+  
+  
+But after working in software development for these last couple years  
+I, ve learned that I don,t consider myself a software engineer I consider myself more of a software carpenter because I know that one of the highest titles is like software architect and I consider myself a builder of software

@@ -47,3 +47,11 @@ In essence, a business systems analyst plays a crucial role in helping companies
 - 50% Data Analyst
 - 50% Project Management
 - Maybe some percentage Business Management
+
+### Reaching Out & Asking for stuff 
+
+Ask for a small favor from someone and thank them by name to leave a good impression on them that lasts and they can't remember but all they remember is something good about you since you think them this builds re-pour especially if you will be working with them a lot or maintaining a business relationship.
+
+Requesting a review rather than explicitly asking for content generation motivates them to actively engage with the work. By positioning yourself as the content generator and seeking their input, it encourages them to assess the quality and relevance of what has been created. This approach creates a constructive environment where they are prompted to consider improvements or adjustments, fostering collaboration.
+
+Additionally, it provides the flexibility to decline work based on the person making the request or the scope of the task. If the request comes from a project lead (PL), you can express having other commitments and inquire about priorities. This allows you to manage your workload effectively and seek guidance on what tasks should take precedence. In situations where the workload is substantial, it also provides the option to politely decline or delegate tasks based on a shared understanding of priorities.

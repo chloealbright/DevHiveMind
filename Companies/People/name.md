@@ -1,1 +1,0 @@
-Ask for a small favor from someone and thank them by name to leave a good impression on them that lasts and they can't remember but all they remember is something good about you since you think them

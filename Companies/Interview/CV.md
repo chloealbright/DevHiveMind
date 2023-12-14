@@ -1,11 +1,12 @@
 Dear [Employer], 
 
-After researching [Company] and its commitment to [Company Value or Goal], I am eager to apply for the Full-Stack Engineer position. As a Full-Stack Engineer with experience in developing and maintaining web applications and support software engineer at different levels as BSA, I am confident that I would be a strong fit for this role because I love to strategize like I don't really consider myself a engineer I feel like more of a Software Carpenter the way see Software development is like your building a physical architecture but in the digital space. Like for example building data models & defining & mapping out the functionality almost like building a blueprint of your software
-that is why I eventually want to go from software  software architect,
+After researching [Company] and its commitment to [Company Value or Goal], I am eager to apply for the Full-Stack Engineer position. As a Full-Stack Engineer with experience in developing and maintaining web applications along  supporting other  software engineers as BSA, I am confident that I would be a strong fit for this role because I love to process of strategizing  like I don't really consider myself a engineer I feel like more of a Software Carpenter the way see Software development is like your building a physical architecture but in the digital space. Like for example building data models & defining & mapping out the functionality almost like building a blueprint of your software that is why I eventually want to go from software  software architect.
 
 
+I'm enthusiastic about applying for the Full-Stack Engineer position. With a background in developing and maintaining web applications and supporting fellow software engineers as a BSA, I'm confident in my suitability for this role. My approach to software development is akin to that of a Software Carpenter—I view it as crafting a digital architecture, constructing data models, defining functionalities, and essentially creating a blueprint for software. This perspective fuels my aspiration to evolve into a software architect.
 
-I always try to improve and make adjustments and sometimes change my approach until I reach my goal. That is why I feel like I am the best choice for this position because I’m highly motivated, skilled, and I follow the mantra “become better than you were yesterday.”  
+
+I follow the mantra “become better than you were yesterday.”  
 
 ## Entry with Stats
 

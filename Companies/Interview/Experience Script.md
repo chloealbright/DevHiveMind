@@ -13,7 +13,7 @@ Relates:
 
 **Refine
 
-At TD in New York, I spearheaded the adoption of SAFe workflow, boosting organization-wide usage by 12%. In agile ceremonies, I collaborated with Product Owners, Scrum Masters, and Stakeholders, enhancing team productivity. Managing Jira for backlog refinement led to a 20% efficiency gain and a clear roadmap.
+At TD I supported the transition to SAFe(Scaled agile framework) workflow, for both technical and non-technical teams. In agile ceremonies, I collaborated with Product Owners, Scrum Masters, and Stakeholders. Managing Jira tickets and doing backlog refinement for PI planing.
 
 Utilizing PowerBI, I crafted logical data models for skill matrices, analyzing key metrics like velocity and cycle time. By conducting needs assessments and collaborating with stakeholders, I aligned upskilling initiatives with organizational goals, optimizing resource allocation.
 

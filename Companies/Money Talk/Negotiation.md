@@ -8,6 +8,7 @@ Started:
 EditDate: 
 Relates:
 ---
+![[Money Talk.gif]]
 Negotiating your salary effectively requires a strategic approach. Consider the following steps:
 
 1. **Take a Negotiation Class:**

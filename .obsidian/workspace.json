@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Interview/High level problem solving pitch.md",
+                "file": "Companies/Money Talk/Negotiation.md",
                 "mode": "source",
                 "source": false
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Interview/Experience Script.md",
+                "file": "Companies/Money Talk/Negotiation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Interview/Experience Script.md",
+                "file": "Companies/Money Talk/Negotiation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Interview/Experience Script.md"
+                "file": "Companies/Money Talk/Negotiation.md"
               }
             }
           },
@@ -297,13 +297,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8370ea42462f9cdf",
+  "active": "336e343a71fa6379",
   "lastOpenFiles": [
+    "_Images/Companies Models/Money Talk.gif",
+    "Companies/Money Talk/Decide between Salary and Equity.md",
+    "Companies/Companies Worked At/And the Next One/Personally Developed Company Feature Statistics.md",
+    "Companies/Companies Worked At/And the Next One../Personally Developed Company Feature Statistics.md",
     "Companies/Interview/High level problem solving pitch.md",
+    "Companies/Companies Worked At/And the Next One..",
+    "Companies/Companies Worked At/And the Next One",
+    "Companies/Interview/Experience Script.md",
     "_Images/Unthered.gif",
     "Companies/Interview/CV.md",
     "Algorithms & Data Structures/Interview Prep tips.md",
-    "Companies/Interview/Experience Script.md",
     "Companies/Interview/Follow Up response template.md",
     "Companies/Interview/Conversation Tactics & Starters.md",
     "Companies/Interview/Coffee Chat Interviewing.md",
@@ -323,9 +329,6 @@
     "Algorithms & Data Structures/Steps to Problem on Interview.md",
     "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
     "Algorithms & Data Structures/Algo/Depth First Search & Breadth-First Search.md",
-    "Algorithms & Data Structures/Algo/Dijkstra + Bellman-Ford shortest path.md",
-    "Algorithms & Data Structures/Algo/Dynamic programming Patterns.md",
-    "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
     "Infographics/Work Process.png",
     "_Low Priority Refinement/Companies",
     "Infographics/Message Systems.gif",
@@ -351,8 +354,6 @@
     "Mind Maps/Redux Map.canvas",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with classes .drawio",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
-    "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
-    "Infographics/DevOps",
-    "Infographics/API"
+    "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas"
   ]
 }

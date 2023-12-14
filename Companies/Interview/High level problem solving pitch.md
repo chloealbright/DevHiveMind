@@ -40,6 +40,10 @@ Software development is a bit like tackling a puzzle. You conquer some sections,
 
 
 
+ I view software development as high-level problem solving and consider it similar to martial arts because both are disciplines that require discipline. You have to be almost all those things and willing to learn more. And I believe I carry these attributes because I always try to be better by lapping my past self in a race full of obstacles and problems to be solved. 
+
+
+
 --- 
 
 ### Path 2

@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - career
 author:
   - jacgit18
 Status: 
@@ -11,14 +12,13 @@ Relates:
 
 ## TD Bank - Business Systems Analyst 
 
-**Refine
-
 At TD I supported the transition to SAFe(Scaled agile framework) workflow, for both technical and non-technical teams. In agile ceremonies, I collaborated with Product Owners, Scrum Masters, and Stakeholders. Managing Jira tickets and doing backlog refinement for PI planing.
 
-Worked on Data Visualization projects were I created logical data models along  using PowerBI, for skill matrices, analyzing key metrics like velocity and cycle time. By conducting needs assessments and collaborating with stakeholders, I aligned upskilling initiatives with organizational goals, optimizing resource allocation.
+Worked on Data Visualization projects were I created logical data models along creating PowerBI reports for skill matrices that utilize data being pulled in from resume with python script, Also created reports with data collected from upskillings session, along with software developers code commits  
 
-Collaborating with a third-party upskilling firm, I facilitated an internal program, upskilling 200+ software engineers across 10 cohorts in Advanced Java, Spring Boot, Docker, Event-Driven Architecture, and Reactive Programming. This comprehensive effort spanned 5 months, fostering skill development from associates to senior developers. Lessons learned include strategic planning, efficient collaboration, and successful program execution.
+By conducting needs assessments and collaborating with stakeholders, I aligned upskilling initiatives with organizational goals, optimizing resource allocation.
 
+Collaborating with a third-party upskilling firm conducting needs assessments with different population insuring that the upskilling aligned with TD Bank leadership. Besides we upskilled 200+ software engineers across 10 cohorts in Advanced Java, Spring Boot, Docker, Event-Driven Architecture, and Reactive Programming all within a 5 month spanned.
 
 ## TracFlo  
 

@@ -36,21 +36,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8370ea42462f9cdf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Interview/Experience Script.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -133,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Interview/Experience Script.md",
+                "file": "Companies/Interview/CV.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Interview/Experience Script.md",
+                "file": "Companies/Interview/CV.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Interview/Experience Script.md"
+                "file": "Companies/Interview/CV.md"
               }
             }
           },
@@ -277,10 +264,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8370ea42462f9cdf",
+  "active": "7aee5ccb60029003",
   "lastOpenFiles": [
-    "Companies/Interview/CV.md",
     "Companies/Interview/Experience Script.md",
+    "Companies/Interview/CV.md",
     "Companies/Interview/Follow Up response template.md",
     "Companies/Interview/High level problem solving pitch.md",
     "Companies/Money Talk/Negotiation.md",

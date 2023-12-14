@@ -63,12 +63,12 @@
             }
           },
           {
-            "id": "d449242250aa75f0",
+            "id": "0e34b1009da36ffa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_CODE/Top Todo/Getting the Chain Started.md",
+                "file": "Companies/Interview/Conversation Tactics & Starters.md",
                 "mode": "source",
                 "source": false
               }
@@ -304,8 +304,11 @@
   },
   "active": "04ee0213d36f2be7",
   "lastOpenFiles": [
-    "_CODE/Top Todo/Getting the Chain Started.md",
+    "Companies/Interview/Conversation Tactics & Starters.md",
+    "Companies/Interview/Follow Up response template.md",
     "Algorithms & Data Structures/Interview Prep tips.md",
+    "_CODE/Top Todo/Experience Script.md",
+    "_CODE/Top Todo/Getting the Chain Started.md",
     "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
     "Algorithms & Data Structures/Coding Regimen.md",
     "Algorithms & Data Structures/Bitwise XOR.md",
@@ -322,15 +325,12 @@
     "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
     "_CODE/Top Todo/CV.md",
     "_CODE/Top Todo/High level problem solving pitch.md",
-    "_CODE/Top Todo/Experience Script.md",
     "Home.md",
     "_CODE/Top Todo/job application clipboard.md",
     "Companies/Interview/Shady Behavior.md",
     "Companies/Companies Worked At/TD/Business Systems Analyst.md",
     "Companies/Employment Best Personal Practices.md",
     "Infographics/Work Process.png",
-    "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
-    "_Low Priority Refinement/Companies/Sounding more senior or experienced.md",
     "_Low Priority Refinement/Companies",
     "Infographics/Message Systems.gif",
     "Infographics/Testing/Ways to Test.gif",

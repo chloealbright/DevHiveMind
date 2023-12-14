@@ -15,7 +15,7 @@ Ask the interviewer what they're doing if there bull shiting enthusiastically 
 Be honest about what you don't know and know on the interview but attempt problem first and say you haven't seen a problem like this ... to continue the conversation
 
 
-Be a master of mind not a victim of thought  
+
 
 
 

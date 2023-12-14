@@ -8,6 +8,12 @@ Started:
 EditDate: 
 Relates:
 ---
+
+![[Follow up.gif]]
+
+
+Speaking is like driving in traffic sometimes you get into a wreck or get in an argument or you get cut off by someone so slow down and process the information.  
+
 1. Introduction:
 	- "Hello [Name], I trust this message finds you in great spirits. I recently came across your impressive background at [Company] and wanted to reach out."
 

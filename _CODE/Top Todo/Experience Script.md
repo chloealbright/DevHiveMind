@@ -27,37 +27,14 @@ Collaborating with a third-party upskilling firm, I facilitated an internal prog
 I worked at TracFlo as a full stack developer  which is a fintech company inside of the construction industry whose main goal is to eliminate change orders in construction projects by digitizing a lot of the documentation & process between all the parties in a construction project.  So I worked on multiple features on their new app. Like one of the initial things I worked on was the Data migration process between the old WordPress App & the new App. where I created different migration files using Knex.js(query builder) library for different data tables defined in the old app while redefining table relationships because they wanted to change some business logic. Besides that I worked on
 several endpoints using Typescript interfaces & types on an Express server & React on the Frontend using a combination of Redux, React hooks, & props & other libraries like MUI. I also worked on features like CreateTickets, & sub features like  Get all, Create, & Edit - equipment & materials. I defined Field definitions for user & labor. Created integration tests for endpoints using Mock Data. 
 
-  
+### Tracflo Statistics 
 
-
-
-
-
-
-
-not being worried about bothering others in the short term 
-
-But I need to transition to asking myself more questions reducing stress to be more mentally clear which helps  
-
-getting more curious and as I'm going through a code base just riding out more questions that I have so I can be more concise about what I'm trying to understand and ask 
-
-You know when to sweat and know when to ask for help easily burn out your brain on one thing when there are many other things you might have to do and also time constraints if other devs' work are dependent on your work 
-
-     
-
-STATS 
-
-=============================== 
-
-Created endpoint 
-
---------------------------------------- 
-
-Create Ticket 
+Create Ticket Endepoint
 
 No stats for old app 
 
 Nothing to compare to 
+
 
 Get all Ticket 
 
@@ -67,7 +44,7 @@ Old app 576.12 ms 
 
   
 
-Get letter by id (ask matt  about)  
+GetLetterByID
 
 if it is used anywhere probably doesn't exist yet since letter is collection of change Order & change order is a collection of tickets so change order isn't ready yet thus letters definitely not setup  
 
@@ -95,9 +72,6 @@ Edit materials & equipment didn't connect but did endpoint 
 
 Probably same for equipment since similiar 
 
-------------------------------------------- 
-
-  
 ## Under the wing Independent contract project 
 
 So I worked on a project for the department of a small business called Under the wing which is an online mentorship platform where I worked on the frontend  on a team, 3 Devs doing things like  defining scope of the project, deliverables, & defining data model . While practicing agile development. I worked with react, bootstrap & other libraries creating reusable components, while maintaining sprint cycles, and creating documentation with markdown  

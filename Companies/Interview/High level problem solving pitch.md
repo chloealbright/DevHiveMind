@@ -38,7 +38,7 @@ I feel like software development is like doing puzzle where you have completed s
   
 Software development is a bit like tackling a puzzle. You conquer some sections, but when you step back, surprise—it's a maze with many more parts waiting to be completed. It's like peeping at a picture that seemed 1080p up close, only to realize it's more of a 480p situation. There's this ongoing quest to put together more pieces and reveal the full 4K image. It's a journey of discovery, piece by piece.
 
-
+maze pathways
 
  I view software development as high-level problem solving and consider it similar to martial arts because both are disciplines that require discipline. You have to be almost all those things and willing to learn more. And I believe I carry these attributes because I always try to be better by lapping my past self in a race full of obstacles and problems to be solved. 
 

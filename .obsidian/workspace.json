@@ -4,49 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "bea740c1ae71998e",
-        "type": "split",
+        "id": "f15b51e1015225e9",
+        "type": "tabs",
         "children": [
           {
-            "id": "e31315cce40b99c9",
-            "type": "tabs",
-            "dimension": 55.092592592592595,
-            "children": [
-              {
-                "id": "0af230a5896bc971",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "_CODE/Top Todo/job application clipboard.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "aa3f3dffd5daa411",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_CODE/Top Todo/High level problem solving pitch.md",
+                "mode": "source",
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "f15b51e1015225e9",
-            "type": "tabs",
-            "dimension": 44.907407407407405,
-            "children": [
-              {
-                "id": "aa3f3dffd5daa411",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "_CODE/Top Todo/High level problem solving pitch.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       },
       {
         "id": "8c9ae2a25e36695c",
@@ -87,21 +60,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8912064caba1c3ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_CODE/Top Todo/High level problem solving pitch.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_CODE/Top Todo/High level problem solving pitch.md",
+                "file": "_CODE/Top Todo/Experience Script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_CODE/Top Todo/High level problem solving pitch.md",
+                "file": "_CODE/Top Todo/Experience Script.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_CODE/Top Todo/High level problem solving pitch.md"
+                "file": "_CODE/Top Todo/Experience Script.md"
               }
             }
           },
@@ -329,15 +290,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8912064caba1c3ba",
+  "active": "8370ea42462f9cdf",
   "lastOpenFiles": [
-    "_CODE/Top Todo/job application clipboard.md",
-    "_CODE/Top Todo/High level problem solving pitch.md",
-    "Companies/Interview/Shady Behavior.md",
     "_CODE/Top Todo/Getting the Chain Started.md",
+    "_CODE/Top Todo/High level problem solving pitch.md",
     "_CODE/Top Todo/Experience Script.md",
-    "Companies/Companies Worked At/TD/Business Systems Analyst.md",
     "_CODE/Top Todo/CV.md",
+    "_CODE/Top Todo/job application clipboard.md",
+    "Home.md",
+    "Companies/Interview/Shady Behavior.md",
+    "Companies/Companies Worked At/TD/Business Systems Analyst.md",
     "Companies/Employment Best Personal Practices.md",
     "Infographics/Work Process.png",
     "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
@@ -358,7 +320,6 @@
     "Companies/People/Dealing with People.md",
     "Companies/Interview/Offense(Q&A).md",
     "Companies/People/Companies & Favours.md",
-    "Companies/Interview/Interview Process.md",
     "Infographics/Message Systems.gif",
     "Infographics/Testing/Ways to Test.gif",
     "Infographics/Language",

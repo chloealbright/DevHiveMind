@@ -9,10 +9,8 @@ I graduated from city tech in 2020 with a bachelor's in computer information sys
 
 ## Path 1
   
-Initially, I was thinking about doing general IT or networking but I realized for IT that a lot of the work involved was basic issues that if people were more observant they could figure out…. which is pretty funny because you run into similar issues but at a higher level in software development usually when people dont read documentation. As for the Networking I took a terrible entry level class which was the only class I remember falling asleep in but I,m still a little interested in it & plan to learn Kali Linux.
+Initially, I was thinking about doing general IT or networking but I realized for IT that a lot of the work involved troubleshooting basic issues that if people were more observant they could figure out…. which is pretty funny because you run into similar issues but at a higher level like if somebody doesn't read the documentation. As for the Networking I took a terrible entry level class which was the only class I remember falling asleep in, but I,m still a little interested in it  especially when it comes to the hacking side of things  & anonymity like I want be like Mr Robot a little bit and learn Kali Linux.
 
-
-I got into because I for multiple reason the first was dealing with my mom originally I was thinking about doing general IT but dealing her asking for help drove insane especially ... so I thought about networking because I was interested in networking anonymity especially during when limewire was a thing but the intro class i took was bad  
 
 
 

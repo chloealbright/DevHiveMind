@@ -1,8 +1,23 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 
 
 TD Ameritrade - Business Systems Analyst 
 
+**Refine
 
+At TD in New York, I spearheaded the adoption of SAFe workflow, boosting organization-wide usage by 12%. In agile ceremonies, I collaborated with Product Owners, Scrum Masters, and Stakeholders, enhancing team productivity. Managing Jira for backlog refinement led to a 20% efficiency gain and a clear roadmap.
+
+Utilizing PowerBI, I crafted logical data models for skill matrices, analyzing key metrics like velocity and cycle time. By conducting needs assessments and collaborating with stakeholders, I aligned upskilling initiatives with organizational goals, optimizing resource allocation.
+
+Collaborating with a third-party upskilling firm, I facilitated an internal program, upskilling 200+ software engineers across 10 cohorts in Advanced Java, Spring Boot, Docker, Event-Driven Architecture, and Reactive Programming. This comprehensive effort spanned 5 months, fostering skill development from associates to senior developers. Lessons learned include strategic planning, efficient collaboration, and successful program execution.
 
 
 
@@ -96,15 +111,12 @@ Probably same for equipment since similiar 
 ------------------------------------------- 
 
   
-
-================================ 
-
- Under the wing Independent contract project 
+## Under the wing Independent contract project 
 
 So I worked on a project for the department of a small business called Under the wing which is an online mentorship platform where I worked on the frontend  on a team, 3 Devs doing things like  defining scope of the project, deliverables, & defining data model . While practicing agile development. I worked with react, bootstrap & other libraries creating reusable components, while maintaining sprint cycles, and creating documentation with markdown  
 
  Dealing with dependency issues with npm and docker 
 
-Park alert 
+## Park alert 
 
 My most favorite project is park alert which is a is a mobile application that helps find parking spots. the inspiration for it was based on the citizen app meets uber. This project pushed me to really think & plan things out by creating many different UML diagrams mapping out the system design & it different parts. I also created a mock app using Dart, Flutter, & a map API. Creating all the diagrams help me develop my whiteboard and debugging code on a whiteboard. But overall I learned what it means to be a software developer because I had to learn a lot in that time period in terms of technology and understanding GitHub while also using Linux as my development environment and examining different projects to draw inspiration in terms of design.

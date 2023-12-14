@@ -1,9 +1,15 @@
 Dear Company Recruitment, 
 
-After researching your company and its commitment to [Company Value or Goal], I am eager to apply for the Full-Stack Engineer position. As a Full-Stack Engineer with experience in developing and maintaining web applications along  supporting other  software engineers as BSA, I am confident that I would be a strong fit for this role because I love to process of strategizing like I don't really consider myself a engineer I feel like more of a Software Carpenter the way see Software development is like your building a physical architecture but in the digital space. Like for example building data models & defining & mapping out the functionality almost like building a blueprint of your software that is why I eventually want to go from software  software architect.
+After researching your company and its commitment to [Company Value or Goal], I am eager to apply for the Full-Stack Engineer position. As a Full-Stack Engineer with experience in developing and maintaining web applications along  supporting other  software engineers as BSA, I am confident that I would be a strong fit for this role because I love to process of strategizing and designing and building data models along with mapping out the functionality of a application almost like how a architect would build a building based on a blueprint they created that on of the reason why I consider myself a software carpenter who will become a software architect. 
 
 
-I'm enthusiastic about applying for the Full-Stack Engineer position. With a background in developing and maintaining web applications and supporting fellow software engineers as a BSA, I'm confident in my suitability for this role. My approach to software development is akin to that of a Software Carpenter—I view it as crafting a digital architecture, constructing data models, defining functionalities, and essentially creating a blueprint for software. This perspective fuels my aspiration to evolve into a software architect.
+
+After researching your company and its commitment to [Company Value or Goal], I am eager to apply for the Full-Stack Engineer position. With a background in developing and maintaining web applications, as well as supporting fellow software engineers in a Business Systems Analyst (BSA) capacity, I am confident in my ability to excel in this role.
+
+I love to process of strategizing and designing and building data models along with mapping out the functionality of a application almost like how a architect would build a building based on a blueprint they created, that is one of the reason why I consider myself a software carpenter who will become a software architect. 
+
+
+I am passionate about the process of strategizing, designing, and constructing data models, coupled with mapping out the functionality of an application. This parallels the way an architect builds a structure based on a meticulously crafted blueprint. This is a key factor in why I identify as a software carpenter, aspiring to evolve into a seasoned software architect.
 
 
 I follow the mantra “become better than you were yesterday.”  

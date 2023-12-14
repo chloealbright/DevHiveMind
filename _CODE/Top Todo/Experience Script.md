@@ -22,30 +22,18 @@ Collaborating with a third-party upskilling firm, I facilitated an internal prog
 
 
 
-TracFlo  
+## TracFlo  
 
 I worked at TracFlo as a full stack developer  which is a fintech company inside of the construction industry whose main goal is to eliminate change orders in construction projects by digitizing a lot of the documentation & process between all the parties in a construction project.  So I worked on multiple features on their new app. Like one of the initial things I worked on was the Data migration process between the old WordPress App & the new App. where I created different migration files using Knex.js(query builder) library for different data tables defined in the old app while redefining table relationships because they wanted to change some business logic. Besides that I worked on
 several endpoints using Typescript interfaces & types on an Express server & React on the Frontend using a combination of Redux, React hooks, & props & other libraries like MUI. I also worked on features like CreateTickets, & sub features like  Get all, Create, & Edit - equipment & materials. I defined Field definitions for user & labor. Created integration tests for endpoints using Mock Data. 
 
   
 
-## Lessons
 
-Working on Get letter by  id endpoint  
 
-Learning about all the changes that can happen on a codebase all at once which was overwhelming like typescript interfaces, new utils being added that need to be utilized & refactoring code. Learning to ask more question read code more efficiently. 
 
-identifying & visualizing codebase structure on whiteboard since no initial test.    
 
-Observing where things can go wrong  like between integration test  & endpoint, Sql fixtures, or different Layers like Controller, data, model, routes, & service layer  
 
-Reading errors on a large codebase & debugging in different parts of the codebase 
-
-Learning to ask for help if you try to take on things by yourself it can be detrimental leading to burnout. there is balance to this stuff between doing things on your own to learn vs getting things done and being prepared to work on the next thing. 
-
-Not asking for help goes against the philosophy of software development which writing reusable efficient modular code or essentially just being efficient weather you are coding or the process outside of coding and around it and in life. 
-
-but  also reusing your brain and thinking more efficiently and not focusing too much on one problem when there are many problems 
 
 not being worried about bothering others in the short term 
 

@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "63a02f7de6e0ff5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "8c9ae2a25e36695c",
@@ -157,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_CODE/Top Todo/Experience Script.md",
+                "file": "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_CODE/Top Todo/Experience Script.md",
+                "file": "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_CODE/Top Todo/Experience Script.md"
+                "file": "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md"
               }
             }
           },
@@ -301,12 +313,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8370ea42462f9cdf",
+  "active": "63a02f7de6e0ff5a",
   "lastOpenFiles": [
+    "_CODE/Top Todo/Experience Script.md",
+    "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
     "Algorithms & Data Structures/Interview Prep tips.md",
     "Companies/Interview/Conversation Tactics & Starters.md",
     "Companies/Interview/Follow Up response template.md",
-    "_CODE/Top Todo/Experience Script.md",
     "_CODE/Top Todo/Getting the Chain Started.md",
     "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
     "Algorithms & Data Structures/Coding Regimen.md",
@@ -328,7 +341,6 @@
     "_CODE/Top Todo/job application clipboard.md",
     "Companies/Interview/Shady Behavior.md",
     "Companies/Companies Worked At/TD/Business Systems Analyst.md",
-    "Companies/Employment Best Personal Practices.md",
     "Infographics/Work Process.png",
     "_Low Priority Refinement/Companies",
     "Infographics/Message Systems.gif",

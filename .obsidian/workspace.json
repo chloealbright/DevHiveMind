@@ -74,8 +74,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Interview Prep tips.md",
+                "file": "_CODE/Top Todo/Experience Script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Interview Prep tips.md",
+                "file": "_CODE/Top Todo/Experience Script.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Interview Prep tips.md"
+                "file": "_CODE/Top Todo/Experience Script.md"
               }
             }
           },
@@ -302,11 +301,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "04ee0213d36f2be7",
+  "active": "8370ea42462f9cdf",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Interview Prep tips.md",
     "Companies/Interview/Conversation Tactics & Starters.md",
     "Companies/Interview/Follow Up response template.md",
-    "Algorithms & Data Structures/Interview Prep tips.md",
     "_CODE/Top Todo/Experience Script.md",
     "_CODE/Top Todo/Getting the Chain Started.md",
     "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",

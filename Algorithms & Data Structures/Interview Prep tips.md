@@ -19,7 +19,7 @@ Be honest about what you don't know and know on the interview but attempt proble
 
 
 
-Make jokes during interview with code naming conventions  
+
 
 
 

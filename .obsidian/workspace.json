@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
+                "file": "Companies/Interview/Follow Up response template.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,7 +68,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_CODE/Top Todo/Experience Script.md",
+                "file": "Companies/Interview/Experience Script.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
+                "file": "Companies/Interview/Follow Up response template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
+                "file": "Companies/Interview/Follow Up response template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md"
+                "file": "Companies/Interview/Follow Up response template.md"
               }
             }
           },
@@ -313,13 +314,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "63a02f7de6e0ff5a",
+  "active": "336e343a71fa6379",
   "lastOpenFiles": [
-    "_CODE/Top Todo/Experience Script.md",
-    "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
-    "Algorithms & Data Structures/Interview Prep tips.md",
+    "_Images/Unthered.gif",
     "Companies/Interview/Conversation Tactics & Starters.md",
     "Companies/Interview/Follow Up response template.md",
+    "Companies/Interview/Coffee Chat Interviewing.md",
+    "Companies/Companies Worked At/Next Company/Personally Developed Company Feature Statistics.md",
+    "Companies/Interview/Experience Script.md",
+    "Companies/Companies Worked At/Tracflo/Personally Developed Tracflo Feature Statistics.md",
+    "Companies/Companies Worked At/Next Company",
+    "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
+    "Algorithms & Data Structures/Interview Prep tips.md",
     "_CODE/Top Todo/Getting the Chain Started.md",
     "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
     "Algorithms & Data Structures/Coding Regimen.md",
@@ -337,10 +343,6 @@
     "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
     "_CODE/Top Todo/CV.md",
     "_CODE/Top Todo/High level problem solving pitch.md",
-    "Home.md",
-    "_CODE/Top Todo/job application clipboard.md",
-    "Companies/Interview/Shady Behavior.md",
-    "Companies/Companies Worked At/TD/Business Systems Analyst.md",
     "Infographics/Work Process.png",
     "_Low Priority Refinement/Companies",
     "Infographics/Message Systems.gif",
@@ -369,7 +371,6 @@
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
     "Infographics/DevOps",
-    "Infographics/API",
-    "Infographics/Security"
+    "Infographics/API"
   ]
 }

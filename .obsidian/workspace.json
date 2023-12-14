@@ -18,26 +18,25 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f43bfa674e4985e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Money Talk/Negotiation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "8c9ae2a25e36695c",
         "type": "tabs",
         "children": [
+          {
+            "id": "7aee5ccb60029003",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Interview/CV.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
           {
             "id": "8370ea42462f9cdf",
             "type": "leaf",
@@ -49,28 +48,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0e34b1009da36ffa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Interview/Follow Up response template.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9641135485a35f27",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -299,19 +279,19 @@
   },
   "active": "8370ea42462f9cdf",
   "lastOpenFiles": [
+    "Companies/Interview/CV.md",
+    "Companies/Interview/Experience Script.md",
+    "Companies/Interview/Follow Up response template.md",
+    "Companies/Interview/High level problem solving pitch.md",
     "Companies/Money Talk/Negotiation.md",
     "_Images/Companies Models/Money Talk.gif",
     "Companies/Money Talk/Decide between Salary and Equity.md",
     "Companies/Companies Worked At/And the Next One/Personally Developed Company Feature Statistics.md",
     "Companies/Companies Worked At/And the Next One../Personally Developed Company Feature Statistics.md",
-    "Companies/Interview/High level problem solving pitch.md",
     "Companies/Companies Worked At/And the Next One..",
     "Companies/Companies Worked At/And the Next One",
-    "Companies/Interview/Experience Script.md",
     "_Images/Unthered.gif",
-    "Companies/Interview/CV.md",
     "Algorithms & Data Structures/Interview Prep tips.md",
-    "Companies/Interview/Follow Up response template.md",
     "Companies/Interview/Conversation Tactics & Starters.md",
     "Companies/Interview/Coffee Chat Interviewing.md",
     "Companies/Interview/Untitled.md",

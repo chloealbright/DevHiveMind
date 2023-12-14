@@ -15,7 +15,7 @@ Relates:
 
 At TD I supported the transition to SAFe(Scaled agile framework) workflow, for both technical and non-technical teams. In agile ceremonies, I collaborated with Product Owners, Scrum Masters, and Stakeholders. Managing Jira tickets and doing backlog refinement for PI planing.
 
-Utilizing PowerBI, I crafted logical data models for skill matrices, analyzing key metrics like velocity and cycle time. By conducting needs assessments and collaborating with stakeholders, I aligned upskilling initiatives with organizational goals, optimizing resource allocation.
+Worked on Data Visualization projects were I created logical data models along  using PowerBI, for skill matrices, analyzing key metrics like velocity and cycle time. By conducting needs assessments and collaborating with stakeholders, I aligned upskilling initiatives with organizational goals, optimizing resource allocation.
 
 Collaborating with a third-party upskilling firm, I facilitated an internal program, upskilling 200+ software engineers across 10 cohorts in Advanced Java, Spring Boot, Docker, Event-Driven Architecture, and Reactive Programming. This comprehensive effort spanned 5 months, fostering skill development from associates to senior developers. Lessons learned include strategic planning, efficient collaboration, and successful program execution.
 
@@ -35,7 +35,7 @@ I collaborated on a project for the Department of a small business, named Under 
 In terms of technology, I leveraged React, Bootstrap, and various other libraries to craft reusable components. Throughout the development process, I diligently adhered to sprint cycles, ensuring timely and iterative progress. Additionally, I contributed to comprehensive project documentation using Markdown.
 
 
-## Park alert 
+## Park Alert 
 
 My favorite project, Park Alert, is a mobile application designed to assist users in finding parking spots. The concept draws inspiration from the Citizen app combined with the convenience of Uber. This endeavor challenged me to engage in thoughtful planning and strategic thinking. I created numerous UML diagrams to map out the system design and its various components.
 

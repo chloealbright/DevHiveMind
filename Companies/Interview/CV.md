@@ -1,25 +1,17 @@
 Dear Company Recruitment, 
 
-After researching your company and its commitment to [Company Value or Goal], I am eager to apply for the Full-Stack Engineer position. As a Full-Stack Engineer with experience in developing and maintaining web applications along  supporting other  software engineers as BSA, I am confident that I would be a strong fit for this role because I love to process of strategizing and designing and building data models along with mapping out the functionality of a application almost like how a architect would build a building based on a blueprint they created that on of the reason why I consider myself a software carpenter who will become a software architect. 
+After researching your company and its commitment to [Company Value or Goal], I am eager to apply for the Full-Stack Engineer position. With a background in developing and maintaining web applications, as well as supporting fellow software engineers in a Business Systems Analyst (BSA) capacity, I am confident in my ability to excel in this role. I am passionate about the process of strategizing, designing, and constructing data models, coupled with mapping out the functionality of an application. This parallels the way an architect builds a structure based on a meticulously crafted blueprint. This is a key factor in why I identify as a software carpenter, who will become a software architect because I follow this mantra “become better than you were yesterday.”  
+
+
+As a software developer, I know that there are many levels of software development, and I know I’m the best candidate for the role because of my mindset. Which has helped me conquer many obstacles and continue to find the different missing pieces of the puzzle we call software development. I learned a long time ago that everything is hard, but once I get familiar with the problem and become obsessed and immersed. I can confront the unknown and continue to plot forward and tackle the problem. 
 
 
 
-After researching your company and its commitment to [Company Value or Goal], I am eager to apply for the Full-Stack Engineer position. With a background in developing and maintaining web applications, as well as supporting fellow software engineers in a Business Systems Analyst (BSA) capacity, I am confident in my ability to excel in this role.
-
-I love to process of strategizing and designing and building data models along with mapping out the functionality of a application almost like how a architect would build a building based on a blueprint they created, that is one of the reason why I consider myself a software carpenter who will become a software architect. 
-
-
-I am passionate about the process of strategizing, designing, and constructing data models, coupled with mapping out the functionality of an application. This parallels the way an architect builds a structure based on a meticulously crafted blueprint. This is a key factor in why I identify as a software carpenter, aspiring to evolve into a seasoned software architect.
-
-
-I follow the mantra “become better than you were yesterday.”  
 
 ## Entry with Stats
 
 I recently worked on the product launch of a new application for TracFlo, using a PERN stack within a Linux environment. Over the course of 16 weeks, I built 13+ features that allowed 50+ general contractors and subcontracting companies to manage projects with up to 35+ active users, each with varying roles and permissions. I also worked on a feature that enabled users to create, edit, and get all equipment and materials within a ticket, which averaged 135+ tickets created per company project. 
 
-## Entry 1
-As a software developer, I know that there are many levels of software development, and I know I’m the best candidate for the role because of my mindset. Which has helped me conquer many obstacles and continue to find the different missing pieces of the puzzle we call software development. I learned a long time ago that everything is hard, but once I get familiar with the problem and become obsessed and immersed. I can confront the unknown and continue to plot forward and tackle the problem. 
 
 ## Entry 2
 As a software developer, I know that there are many levels of software development, and I know there can be many unknown about development because there are many things to learn including teamwork. I have learned many things, like how the development process can be like a relay race where the work that you put in to a particular feature can be a dependency for another teammates work & the overall codebase future contribution. I also learned where I want to be in the next couple of years which is as a software architect, which is funny because I don’t see myself as a software developer I see myself as more of a Software Carpenter who builds & plans out software. I know I’m the best candidate for this role because of my mindset. I have conquered many obstacles and continue to find the missing pieces of the puzzle in a puzzle box full of blank white pieces, not knowing the bigger picture. I learned a long time ago that everything is hard, but once I get familiar with the problem and become obsessed and immersed. I can confront the unknown and continue to plot forward and tackle the problem. I view software development as high-level problem solving and consider it similar to martial arts because both are disciplines that require discipline. You have to be almost all those things and willing to learn more. And I believe I carry these attributes because I always try to be better by lapping my past self in a race full of obstacles and problems to be solved. 

@@ -1,14 +1,11 @@
 Dear [Employer], 
 
-
-I am writing to apply for the Full-Stack Engineer position at [Company]. As a Full-Stack Engineer with experience in developing and maintaining web and mobile applications, I am confident that I would be a strong fit for this role. 
-
-
-As a software engineer, I have learned to love the planning aspect of things, like creating data models & defining & mapping out the functionality almost like building a blueprint of your software. That is one of the reasons why considered myself more of a software carpenter with the aspiration of becoming a software architect.
+After researching [Company] and its commitment to [Company Value or Goal], I am eager to apply for the Full-Stack Engineer position. As a Full-Stack Engineer with experience in developing and maintaining web applications and support software engineer at different levels as BSA, I am confident that I would be a strong fit for this role because I love to strategize like I don't really consider myself a engineer I feel like more of a Software Carpenter the way see Software development is like your building a physical architecture but in the digital space. Like for example building data models & defining & mapping out the functionality almost like building a blueprint of your software
+that is why I eventually want to go from software  software architect,
 
 
 
-As a developer and avid gamer, I know that there are many levels to software development. Whenever I face new challenges like in a video game, the first thing I do is hit restart and try again until I beat that final boss. I always try to improve and make adjustments and sometimes change my approach until I reach my goal. That is why I feel like I am the best choice for this position because I’m highly motivated, skilled, and I follow the mantra “become better than you were yesterday.”  
+I always try to improve and make adjustments and sometimes change my approach until I reach my goal. That is why I feel like I am the best choice for this position because I’m highly motivated, skilled, and I follow the mantra “become better than you were yesterday.”  
 
 ## Entry with Stats
 

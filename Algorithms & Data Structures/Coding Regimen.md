@@ -1,14 +1,5 @@
 ![[Regimen.gif]]
 
-Identify problem area and what level your on 
-
-Study problem area (google/youtube/books/peer discussion etc.) 
-
-In general, you can revisit grokking pattern question even if you didn't code it out just focus on coding out problems in general to breakdown and understand and whiteboard for those that are too difficult but code more than whiteboarding solutions 
-
-Test (questions from LeetCode etc.) 
-
-Study solutions of tested questions (important!!!) 
 
 Re-evaluate and reflect (identify successes and problem areas) 
 

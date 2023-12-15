@@ -30,27 +30,76 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "17163902730107cc",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "ba27d6634ebd4da2",
+            "id": "1458c9d314dba046",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Interview/CV.md",
+                "file": "Algorithms & Data Structures/Whiteboard Interview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "99d47e02083426d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "8b19c01ed6ac4042",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ee11925637176dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Steps to Problem on Interview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d95d099560cd76f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "107175cb09f0bc90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Optimize & Solving Technique.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,8 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5,
-    "collapsed": true
+    "width": 366.5
   },
   "right": {
     "id": "eef3a19b1c6d3fd3",
@@ -134,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Interview/High level problem solving pitch.md",
+                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Interview/High level problem solving pitch.md",
+                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Interview/High level problem solving pitch.md"
+                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md"
               }
             }
           },
@@ -278,12 +326,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e8181cc2cd989948",
+  "active": "99d47e02083426d9",
   "lastOpenFiles": [
-    "Companies/Interview/CV.md",
-    "Home.md",
+    "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
+    "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
+    "Algorithms & Data Structures/Algo/Big O.md",
+    "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
+    "Algorithms & Data Structures/Optimize & Solving Technique.md",
+    "Algorithms & Data Structures/Steps to Problem on Interview.md",
+    "Algorithms & Data Structures/Attributes of Data.md",
+    "Algorithms & Data Structures/AlgoFlow.md",
+    "Algorithms & Data Structures/Algo pathway.md",
+    "Algorithms & Data Structures/Programmer vs Software Developer vs Coder vs Software architect.md",
+    "Algorithms & Data Structures/Spacetime Complexity.md",
+    "Algorithms & Data Structures/Whiteboard Interview.md",
     "Companies/Interview/Experience Script.md",
     "Companies/Interview/High level problem solving pitch.md",
+    "Companies/Interview/CV.md",
+    "Home.md",
     "_CODE/Top Todo/Getting the Chain Started.md",
     "_CODE/Top Todo/Experience Script.md",
     "_Images/Unthered.gif",
@@ -299,19 +359,8 @@
     "_CODE/Top Todo/High level problem solving pitch.md",
     "_CODE/Top Todo/CV.md",
     "_CODE/Top Todo/job application clipboard.md",
-    "Companies/Interview/Shady Behavior.md",
-    "Companies/Companies Worked At/TD/Business Systems Analyst.md",
-    "Companies/Employment Best Personal Practices.md",
     "Infographics/Work Process.png",
-    "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
-    "_Low Priority Refinement/Companies/Sounding more senior or experienced.md",
-    "_Low Priority Refinement/Companies/Software Development Engineer in Test.md",
-    "Companies/Software Carpentier Journey.md",
-    "_Low Priority Refinement/Companies/Dev Metrics.md",
-    "Companies/Data Work.md",
-    "_Low Priority Refinement/Companies/People/People to know & TD Questions.md",
     "_Low Priority Refinement/Companies",
-    "_Low Priority Refinement/Companies/People/intentions.md",
     "Infographics/Message Systems.gif",
     "Infographics/Testing/Ways to Test.gif",
     "Infographics/Language",

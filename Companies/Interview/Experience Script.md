@@ -3,13 +3,11 @@ tags:
   - career
 author:
   - jacgit18
-Status: 
+Status: perpetual
 Started: 
 EditDate: 
 Relates:
 ---
-
-
 ## TD Bank - Business Systems Analyst 
 
 At TD I supported the transition to SAFe(Scaled agile framework) workflow, for both technical and non-technical teams. In agile ceremonies, I collaborated with Product Owners, Scrum Masters, and Stakeholders. Managing Jira tickets and doing backlog refinement for PI planing.
@@ -40,3 +38,6 @@ In terms of technology, I leveraged React, Bootstrap, and various other librarie
 My favorite project, Park Alert, is a mobile application designed to assist users in finding parking spots. The concept draws inspiration from the Citizen app combined with the convenience of Uber. This endeavor challenged me to engage in thoughtful planning and strategic thinking. I created numerous UML diagrams to map out the system design and its various components.
 
 During the development process, I constructed a mock application utilizing Dart, Flutter, and a map API. The extensive use of diagrams not only enhanced my understanding of the project but also sharpened my skills in whiteboard discussions and code debugging. This project served as a valuable learning experience, requiring me to delve into various technologies, grasp GitHub intricacies, work within a Linux development environment, and draw inspiration from diverse projects to refine my design approach.
+
+
+

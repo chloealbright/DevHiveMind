@@ -19,4 +19,7 @@ My collaboration with Cre8tive Dev Software at TD Bank further showcased the imp
 I am eager to bring my skills and experience to [Company] and contribute to its success. Thank you for considering my application. I look forward to discussing in more detail how I can contribute to your team.
 
 Sincerely,
-[Your Name]
+Joshua Carpentier
+
+
+

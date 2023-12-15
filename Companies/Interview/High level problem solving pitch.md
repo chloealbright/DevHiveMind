@@ -1,5 +1,7 @@
 
-Ok cool so It all started in 1980 where I oh no I,m just kidding I have so much experience that I had experience before I existed
+Okay cool alright so It all started in 1980, that's how much experience I have 
+
+where I oh no I,m just kidding I have so much experience that I had experience before I existed
 
 But name is Joshua Carpentier I,m a BSA, Software engineer, software Carpentier future software architect  
   

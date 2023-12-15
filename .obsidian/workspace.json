@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "8f763e1096b1663c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ba27d6634ebd4da2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Interview/CV.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "04a7bc87d64f809f",
         "type": "tabs",
         "children": [
@@ -44,6 +26,25 @@
               "type": "markdown",
               "state": {
                 "file": "Companies/Interview/High level problem solving pitch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "17163902730107cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ba27d6634ebd4da2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Interview/CV.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Interview/CV.md",
+                "file": "Companies/Interview/High level problem solving pitch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Interview/CV.md",
+                "file": "Companies/Interview/High level problem solving pitch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Interview/CV.md"
+                "file": "Companies/Interview/High level problem solving pitch.md"
               }
             }
           },
@@ -277,12 +278,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ba27d6634ebd4da2",
+  "active": "e8181cc2cd989948",
   "lastOpenFiles": [
+    "Companies/Interview/CV.md",
     "Home.md",
     "Companies/Interview/Experience Script.md",
     "Companies/Interview/High level problem solving pitch.md",
-    "Companies/Interview/CV.md",
     "_CODE/Top Todo/Getting the Chain Started.md",
     "_CODE/Top Todo/Experience Script.md",
     "_Images/Unthered.gif",

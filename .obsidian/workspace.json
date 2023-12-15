@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Steps to Problem on Interview.md",
+                "file": "Algorithms & Data Structures/Coding Interview Tips.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Steps to Problem on Interview.md",
+                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Steps to Problem on Interview.md",
+                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Steps to Problem on Interview.md"
+                "file": "Algorithms & Data Structures/Problem-solving Regimen.md"
               }
             }
           },
@@ -289,12 +289,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2ee11925637176dc",
+  "active": "71ca332a2edff233",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Problem-solving Regimen.md",
-    "Algorithms & Data Structures/Steps to Problem on Interview.md",
-    "Algorithms & Data Structures/Optimize & Solving Technique.md",
+    "_Images/StepByStep.gif",
     "Algorithms & Data Structures/Coding Interview Tips.md",
+    "Algorithms & Data Structures/Steps to Problem on Interview.md",
+    "_Images/Steps.gif",
+    "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "Algorithms & Data Structures/Optimize & Solving Technique.md",
     "Algorithms & Data Structures/Spacetime Complexity.md",
     "Algorithms & Data Structures/Programmer vs Software Developer vs Coder vs Software architect.md",
     "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
@@ -331,8 +333,6 @@
     "Infographics/Web/Url Process.gif",
     "Infographics/Web/Traffic Poliicies.gif",
     "Infographics/System Design BluePrint.jpg",
-    "Infographics/Language/Python v Java.gif",
-    "Infographics/Web/Network Protocols Applied.jpeg",
     "Infographics/Web",
     "Companies/Clout Chasing/Draft",
     "Mind Maps/Drafts/Event Messaging.canvas",

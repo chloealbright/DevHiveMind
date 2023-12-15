@@ -9,7 +9,7 @@ Relates:
 ---
 ![[Regimen.gif]]
 ## Prep  
-*Master algorithms to be able to solve within 5 to 15 minute  
+*Master algorithms to be able to solve within 5 to 20 minutes  
 >[!note] 
 >Look on Glassdoor, and then checking Reddit and Quora you can also check their employees on LinkedIn and see if you have any mutual connections you can try to connect to find out about the type of interview question
 

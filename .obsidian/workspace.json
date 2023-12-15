@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f15b51e1015225e9",
+        "id": "0611fbd9ce2a6661",
         "type": "tabs",
         "children": [
           {
-            "id": "aa3f3dffd5daa411",
+            "id": "7b67aa9318e65cb4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,11 +22,11 @@
         ]
       },
       {
-        "id": "8c9ae2a25e36695c",
+        "id": "48878a118da43277",
         "type": "tabs",
         "children": [
           {
-            "id": "7aee5ccb60029003",
+            "id": "24a40e1e9ced1243",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -104,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 366.5,
+    "collapsed": true
   },
   "right": {
     "id": "eef3a19b1c6d3fd3",
@@ -120,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Interview/CV.md",
+                "file": "Companies/Interview/High level problem solving pitch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Interview/CV.md",
+                "file": "Companies/Interview/High level problem solving pitch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Interview/CV.md"
+                "file": "Companies/Interview/High level problem solving pitch.md"
               }
             }
           },
@@ -264,10 +265,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7aee5ccb60029003",
+  "active": "7b67aa9318e65cb4",
   "lastOpenFiles": [
-    "Companies/Interview/High level problem solving pitch.md",
+    "Home.md",
     "Companies/Interview/CV.md",
+    "Companies/Interview/High level problem solving pitch.md",
     "Companies/Interview/Experience Script.md",
     "Companies/Interview/Follow Up response template.md",
     "Companies/Money Talk/Negotiation.md",
@@ -296,7 +298,6 @@
     "Algorithms & Data Structures/Algo pathway.md",
     "Algorithms & Data Structures/Steps to Problem on Interview.md",
     "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
-    "Algorithms & Data Structures/Algo/Depth First Search & Breadth-First Search.md",
     "Infographics/Work Process.png",
     "_Low Priority Refinement/Companies",
     "Infographics/Message Systems.gif",

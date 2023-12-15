@@ -1,18 +1,11 @@
 ![[Whiteboarding.gif]]
-Best Practices and Q&A
 
-Prep  
-	Look on Glassdoor, and then checking Reddit and Quora you can also check their employees on LinkedIn and see if you have any mutual connections you can try to connect to find out about the type of interview question  
-
-	Master algorithms to be able to solve within 5 to 15 minute  
-## Start ##  
-## Code Q&A & Planning 
 
 ### ❌ Avoid  
-	Don't interrupting your interviewer when they are talking. Usually, if they speak, they are trying to give you hints or steer you in the right direction.  
-	
+Don't interrupting your interviewer when they are talking. Usually, if they speak, they are trying to give you hints or steer you in the right direction.  
+
 ### 🤌 Tactics  
-	Be thoughtful with your questions, don't ask too many especially since you have limited time, and make sure your questions aren't too dumb.  
+Be thoughtful with your questions, don't ask too many especially since you have limited time, and make sure your questions aren't too dumb.  
 
 Ask the interviewer to restate the question or repeat the question back at the interviewer this gives you time to think  
 
@@ -33,12 +26,12 @@ Ask the interviewer what they're doing if there bull shiting enthusiastically
 
 Be honest about what you don't know and know on the interview but attempt problem first and say you haven't seen a problem like this ... to continue the conversation  
 
-## Approach Process ##  
+## Approach Process  
 Talk a little about the Brute force(BASIC NO TEST CASE or SIMPLE) approach  
 
-Then transition into talking about the Naïve approach(which is the building blocks for an optimal solution) or go straight into talking about or coding a Greedy/Optimal approach while whiteboard things out a little and listing things down.  
+Then transition into talking about the Naïve approach or go straight into talking about Optimal approach while whiteboard things out a little and writing things down.  
 
-You don't need to code everything if you can mention there might be a cleaner or better way to make it more readable or optimal by refactoring certain parts you could just describe that 
+You don't need to code everything if you can mention there might be a cleaner or better way to make it more readable or optimal by refactoring certain parts you could just talk about that. 
 
 ## Coding Process  
 Ask questions to clarify everything because questions are made to be vague so try asking things to understand what variables are needed Clarify all this and to come to an agreement on what the question is asking and what the goal is to solve the problem:  
@@ -65,7 +58,7 @@ Ask if it is ok to code after doing these steps and talk through your steps like
 	Ask to run code after reading silently and tell them I don't see any bugs can I run my code
 	  
 ## Algo tip  
-Modularize your code from the very beginning. Break up your code into beautiful small pieces that are readable and practice good naming convention, also always write a conditional statement to check what the input is I want to do if it's not the input you expect  
+
 Scan through your code for mistakes as if it was your first time seeing code written by someone else.  
 
 Think about error checks and how you can break this code. Never make assumptions about the input. Assume people are trying to break your code and that Darth Vader is using your function. How will you safeguard it? Always check for false inputs that you don’t want. Here is a trick: Comment in the code, the checks that you want to do… write the function, then tell the interviewer that you would write tests now to make your function fail (but you won't need to actually write the tests).  

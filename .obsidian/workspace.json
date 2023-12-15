@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Whiteboard Interview.md",
+                "file": "Algorithms & Data Structures/Coding Interview Do and Donts.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
+                "file": "Algorithms & Data Structures/Coding Interview Do and Donts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
+                "file": "Algorithms & Data Structures/Coding Interview Do and Donts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md"
+                "file": "Algorithms & Data Structures/Coding Interview Do and Donts.md"
               }
             }
           },
@@ -314,11 +314,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "71ca332a2edff233",
+  "active": "1458c9d314dba046",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Whiteboard Interview.md",
-    "Algorithms & Data Structures/Coding Regimen.md",
     "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "Algorithms & Data Structures/Coding Interview Do and Donts.md",
+    "Algorithms & Data Structures/Coding Regimen.md",
     "Algorithms & Data Structures/Steps to Problem on Interview.md",
     "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
     "Algorithms & Data Structures/Optimize & Solving Technique.md",

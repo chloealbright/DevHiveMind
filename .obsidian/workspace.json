@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Interview/High level problem solving pitch.md",
+                "file": "Companies/Interview/CV.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Interview/High level problem solving pitch.md",
+                "file": "Companies/Interview/CV.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Interview/High level problem solving pitch.md"
+                "file": "Companies/Interview/CV.md"
               }
             }
           },
@@ -265,11 +265,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2acb8d3b3500cd8f",
+  "active": "aa3f3dffd5daa411",
   "lastOpenFiles": [
+    "Companies/Interview/High level problem solving pitch.md",
     "Companies/Interview/CV.md",
     "Companies/Interview/Experience Script.md",
-    "Companies/Interview/High level problem solving pitch.md",
     "_CODE/Top Todo/Getting the Chain Started.md",
     "_CODE/Top Todo/Experience Script.md",
     "_Images/Unthered.gif",

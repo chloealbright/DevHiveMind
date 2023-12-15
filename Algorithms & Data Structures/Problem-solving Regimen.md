@@ -13,6 +13,7 @@ Relates:
 1. **Focus on One Problem:**  
 - Identify problem area.
 - Pick one problem something simple like an array question or something.
+- Read problems and break them down to understand don't solve practice doing until you feel comfortable then revisit and solve 
   
 2. **Bruteforce Solution:**  
 - Come up with a Bruteforce solution to gain insight into the problem's dynamics.  
@@ -24,7 +25,8 @@ Relates:
 - Lastly consider runtime complexity and data structures brainstorming thinking about their application in terms of access, searching, insertion, and deletion.  
 
   
-4. **Optimal Solution & Grokking Algorithm Patterns:**  
+4. **Optimal Solution & Grokking Algorithm Patterns:** 
+> ***Consider Pair Programming here or in earlier approach
 - Develop a Optimal approach
 - Consider experiment with looping iteratively and recursively.  
 - Delve into advanced algorithm patterns for solution. 

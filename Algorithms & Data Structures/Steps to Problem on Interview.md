@@ -1,5 +1,11 @@
 ![[Steps.gif]]
 
+
+
+![[StepByStep.gif]]
+
+
+
 // Q&A(Listen/ask) repeat question asked
 
 Talk Big O EXCELLENT -> WORST TIME 

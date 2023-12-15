@@ -30,14 +30,7 @@
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "8b19c01ed6ac4042",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "2ee11925637176dc",
             "type": "leaf",
@@ -49,31 +42,14 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d95d099560cd76f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "107175cb09f0bc90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Optimize & Solving Technique.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "8b19c01ed6ac4042",
+        "type": "tabs",
+        "children": [
           {
             "id": "71ca332a2edff233",
             "type": "leaf",
@@ -85,21 +61,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "dd5f6ba6217326e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Naming Conventions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,7 +124,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -181,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
+                "file": "Algorithms & Data Structures/Steps to Problem on Interview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
+                "file": "Algorithms & Data Structures/Steps to Problem on Interview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-Solving Step by Step Process.md"
+                "file": "Algorithms & Data Structures/Steps to Problem on Interview.md"
               }
             }
           },
@@ -325,18 +289,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d95d099560cd76f0",
+  "active": "2ee11925637176dc",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Steps to Problem on Interview.md",
-    "Algorithms & Data Structures/Coding Interview Tips.md",
     "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "Algorithms & Data Structures/Steps to Problem on Interview.md",
+    "Algorithms & Data Structures/Optimize & Solving Technique.md",
+    "Algorithms & Data Structures/Coding Interview Tips.md",
+    "Algorithms & Data Structures/Spacetime Complexity.md",
+    "Algorithms & Data Structures/Programmer vs Software Developer vs Coder vs Software architect.md",
+    "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
     "Architecture/Naming Conventions.md",
+    "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
     "Companies/Interview/Defense(A&Q).md",
     "Companies/Interview/Experience Script.md",
     "Companies/Interview/Company Take-Home Project.md",
     "Algorithms & Data Structures/Coding Regimen.md",
-    "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
-    "Algorithms & Data Structures/Optimize & Solving Technique.md",
     "Algorithms & Data Structures/AlgoFlow.md",
     "Companies/Interview/High level problem solving pitch.md",
     "Algorithms & Data Structures/Algo/Big O.md",
@@ -345,8 +312,6 @@
     "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
     "Algorithms & Data Structures/Attributes of Data.md",
     "Algorithms & Data Structures/Algo pathway.md",
-    "Algorithms & Data Structures/Programmer vs Software Developer vs Coder vs Software architect.md",
-    "Algorithms & Data Structures/Spacetime Complexity.md",
     "Companies/Interview/CV.md",
     "Home.md",
     "_CODE/Top Todo/Getting the Chain Started.md",
@@ -354,7 +319,6 @@
     "_Images/Unthered.gif",
     "_Images/Companies Models/Money Talk.gif",
     "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
-    "Companies/Companies Worked At/Tracflo/Personally Developed Tracflo Feature Statistics.md",
     "Companies/Companies Worked At/Next Company",
     "Companies/Companies Worked At/And the Next One",
     "Companies/Companies Worked At/And the Next One..",
@@ -381,7 +345,6 @@
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/Redux Map.canvas",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with classes .drawio",
-    "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas"
   ]
 }

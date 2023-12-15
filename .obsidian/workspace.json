@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
+                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
                 "mode": "source",
                 "source": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
+                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
+                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md"
+                "file": "Algorithms & Data Structures/Problem-solving Regimen.md"
               }
             }
           },
@@ -303,13 +303,13 @@
   },
   "active": "2d3af73f7f90a5f3",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
     "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
     "Algorithms & Data Structures/AlgoFlow.md",
     "Algorithms & Data Structures/Attributes of Data.md",
     "Algorithms & Data Structures/Algo pathway.md",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
     "Algorithms & Data Structures/Coding Interview Tips.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
     "Algorithms & Data Structures/Discrete math.md",
     "Language Overlap/Declarative Coding.md",
     "Algorithms & Data Structures/Algo/Bitwise XOR.md",

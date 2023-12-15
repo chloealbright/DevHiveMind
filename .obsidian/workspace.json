@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fe92383212c79071",
+        "id": "8f763e1096b1663c",
         "type": "tabs",
         "children": [
           {
-            "id": "2acb8d3b3500cd8f",
+            "id": "ba27d6634ebd4da2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Interview/High level problem solving pitch.md",
-                "mode": "source",
+                "file": "Companies/Interview/CV.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -22,16 +22,28 @@
         ]
       },
       {
-        "id": "f15b51e1015225e9",
+        "id": "04a7bc87d64f809f",
         "type": "tabs",
         "children": [
           {
-            "id": "aa3f3dffd5daa411",
+            "id": "1906b7a62f4f6815",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Interview/CV.md",
+                "file": "Companies/Interview/Experience Script.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8181cc2cd989948",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Interview/High level problem solving pitch.md",
                 "mode": "source",
                 "source": false
               }
@@ -265,11 +277,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "aa3f3dffd5daa411",
+  "active": "ba27d6634ebd4da2",
   "lastOpenFiles": [
+    "Home.md",
+    "Companies/Interview/Experience Script.md",
     "Companies/Interview/High level problem solving pitch.md",
     "Companies/Interview/CV.md",
-    "Companies/Interview/Experience Script.md",
     "_CODE/Top Todo/Getting the Chain Started.md",
     "_CODE/Top Todo/Experience Script.md",
     "_Images/Unthered.gif",
@@ -285,7 +298,6 @@
     "_CODE/Top Todo/High level problem solving pitch.md",
     "_CODE/Top Todo/CV.md",
     "_CODE/Top Todo/job application clipboard.md",
-    "Home.md",
     "Companies/Interview/Shady Behavior.md",
     "Companies/Companies Worked At/TD/Business Systems Analyst.md",
     "Companies/Employment Best Personal Practices.md",

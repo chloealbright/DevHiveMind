@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Interview/High level problem solving pitch.md",
+                "file": "Algorithms & Data Structures/inter/Compressed Interview Template.md",
                 "mode": "source",
                 "source": false
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Interview/High level problem solving pitch.md",
+                "file": "Algorithms & Data Structures/inter/Compressed Interview Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Interview/High level problem solving pitch.md",
+                "file": "Algorithms & Data Structures/inter/Compressed Interview Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Interview/High level problem solving pitch.md"
+                "file": "Algorithms & Data Structures/inter/Compressed Interview Template.md"
               }
             }
           },
@@ -302,6 +302,7 @@
   },
   "active": "e8181cc2cd989948",
   "lastOpenFiles": [
+    "Companies/Interview/High level problem solving pitch.md",
     "Algorithms & Data Structures/Problem-solving Regimen.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
     "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
@@ -330,7 +331,6 @@
     "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
     "Architecture/Naming Conventions.md",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
-    "Companies/Interview/Defense(A&Q).md",
     "_Images/Unthered.gif",
     "_Images/Companies Models/Money Talk.gif",
     "Companies/Companies Worked At/Next Company",

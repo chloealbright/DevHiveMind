@@ -22,12 +22,10 @@ Initially, I was thinking about doing general IT or networking but I realized fo
 ### Path 1
 
   
-Software development process is like being given a box of blank white puzzle pieces and a partially built puzzle & your expected to put the pieces together without knowing how the pieces fit while the pieces are randomly changing almost like your walking through maze that is constantly changing & you have to figure out how the pieces/modules(input-output) connect or correspond to each other  
-
-  
-While make sure you have the overall picture still in mind, but as your putting pieces together you realize there is more to the picture and your missing pieces and the picture constantly changing and may be different then you thought so as all of this is happening your basically you trying to bring order to chaos can almost be considered natural order.
+Software development process is like being given partially built puzzle with a box of blank white puzzle pieces and your expected to put the pieces together without knowing how the final picture looks like because your creating picture that doesn't exist and the process of creating that picture can be very chaotic and it is your job to bring order and structure to bring all those pieces together to create a master piece.
 
 
+Building software is like getting a half-finished puzzle with blank white puzzle pieces. You're basically creating a picture that doesn't exist, and the whole process can be a bit chaotic and you have to Bring some order to the chaos, fitting those pieces together to make something awesome.
 
 
 

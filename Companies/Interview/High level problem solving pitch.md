@@ -17,6 +17,15 @@ Developing software is a bit like getting a puzzle with half-finished and blank 
 
 ### Path 2
 
+One of the reason I like software engineer is because it very variable and seems very nebulous I like compare to martial arts because it can be very variable as well especially when you thi
+
+
+
+
+similar to martial arts because both are disciplines that require discipline. You have to be almost all those things and willing to learn more.
+
+One of the reasons 
+
 
   
 Martial arts because there are both forms of high-level problem-solving one just involves you getting hit in the head and losing a couple of brain cells but you put yourself in a chaotic situation where you need to face and analyze a problem that dynamically changes as you try and break it down in small pieces and solve.
@@ -30,8 +39,3 @@ so I decide on programming it was challenging almost like a video game and
 I also like because it reminds of mma because when it comes down to it is high level problem solving but without to worry of getting punched in the face  
   
 and with mma there is alot of variables it almost like its own program were you have two programs with there own built in functions
-
-
-I view software development as high-level problem solving and consider it similar to martial arts because both are disciplines that require discipline. You have to be almost all those things and willing to learn more. And I believe I carry these attributes because I always try to be better by lapping my past self in a race full of obstacles and problems to be solved. 
-
-

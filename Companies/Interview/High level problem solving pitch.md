@@ -1,6 +1,6 @@
 ## Intro 
 
-Alright so it all started in 1980, I have a lot of experience from my past life.
+Alright so it all started in 1980, I have a lot of experience from multiple past life.
 
 
 just kidding but let get back on task so my name is Joshua Carpentier I,m a BSA, and consider myself a Software Carpenter as oppose to engineer. I want to become a software architect.  

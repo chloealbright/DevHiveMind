@@ -25,24 +25,4 @@ Go through your algorithm in detail and get a feel for the structure of the code
 
 If you don't understand exactly what you're about to write, you'll struggle to code it. It will take you longer to finish the code, and you're more likely to make major errors.  
 
-### Implement  
-Your goal is to write beautiful code. Modularization your code from the beginning and refactor to clean up anything that isn't beautiful.  
 
-use conditions to check for things look for errors  
-
-write comments  
-
-use good naming  
-
-you can name function after condition checks  
-
-## Test  
-1.Conceptual test. Walk through your code like you would for a detailed code review. Does the code do what you think it should do?  
-
-2.Unusual or non-standard code.  
-
-3.Hot spots, like arithmetic and null nodes.  
-
-4.Small test cases. It's much faster than a bigtest case and just as effective.  
-
-5.Special cases and edge cases.And when you find bugs, fix them carefully! try variables with null

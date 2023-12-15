@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Coding Interview Do and Donts.md",
+                "file": "Algorithms & Data Structures/Coding Interview Tips.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
+                "file": "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
+                "file": "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +221,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md"
+                "file": "Algorithms & Data Structures/Problem-Solving Step by Step Process.md"
               }
             }
           },
@@ -325,16 +325,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "71ca332a2edff233",
+  "active": "d95d099560cd76f0",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Coding Interview Do and Donts.md",
+    "Algorithms & Data Structures/Steps to Problem on Interview.md",
+    "Algorithms & Data Structures/Coding Interview Tips.md",
     "Algorithms & Data Structures/Problem-solving Regimen.md",
     "Architecture/Naming Conventions.md",
     "Companies/Interview/Defense(A&Q).md",
     "Companies/Interview/Experience Script.md",
     "Companies/Interview/Company Take-Home Project.md",
     "Algorithms & Data Structures/Coding Regimen.md",
-    "Algorithms & Data Structures/Steps to Problem on Interview.md",
     "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
     "Algorithms & Data Structures/Optimize & Solving Technique.md",
     "Algorithms & Data Structures/AlgoFlow.md",

@@ -1,3 +1,4 @@
+/* 
 
 TRUE <<mark style="background: #FFF3A3A6;">READ</mark>> FALSE 
 
@@ -6,7 +7,6 @@ Pure Boolean check with UPDATES or no UPDATES needed in terms of what the questi
 <mark style="background: #BBFABBA6;">CREATE < </mark><mark style="background: #ADCCFFA6;">UPDATE</mark><mark style="background: #FF5582A6;"> > DELETE </mark>
 
 Typically involves READ/UPDATE functionality  which can be also considered as CREATE/DELETE when it comes to UPDATE process and depending on the question and your approach can include CREATE and/or DELETE  
-
 
 <mark style="background: #FFF3A3A6;">A ***heuristic*** technique, or a heuristic, is any approach to problem solving or self-discovery that employs a practical method that is not guaranteed to be optimal, perfect, or rational, but is nevertheless sufficient for reaching an immediate, short-term goal or approximation. </mark>
 
@@ -65,15 +65,14 @@ Start broad with ***WHAT*** wide open ended questions then when you trying to 
 
 ## <mark style="background: #CACFD9A6;">***What*** are initial things … </mark>
 
-<mark style="background: #BBFABBA6;">to be ***added*** into something or things to be ***Created/Store/Insert***,  </mark>
+<mark style="background: #BBFABBA6;">to be ***added*** into something or things to be ***Created/Store***,  </mark>
 
-<mark style="background: #FFF3A3A6;">Read/Select(***Access***) or ***Search*** which is like access but with a filter that includes iteration to find something specific </mark>
+<mark style="background: #FFF3A3A6;">Read(***Access***) or ***Search*** which is like access but with a filter that includes iteration to find something specific </mark>
 
 <mark style="background: #ABF7F7A6;">***Update*** on iteration  </mark>
 
 <mark style="background: #FF5582A6;">***Delete*** </mark>
 
-  
 Identify base control flow in question 
 
 | 
@@ -271,33 +270,3 @@ If your interviewer is happy with the solution, the interview usually ends here.
 The answer is usually a divide-and-conquer approach — perform distributed processing of the data and only read certain chunks of the input from disk into memory, write the output back to disk and combine them later.  
 
 Thank the interviewer.  
-
-
-
-const runTimeStart = (arg) => console.time(arg) 
-
-const runTimeEnd = (arg) => console.timeEnd(arg) 
-
-const some = (thing) =>{ 
-
-  // TestCases keep in scope 
-
-  const testCaseOne = thing === ""; 
-
-  log(testCaseOne) 
-
-    if(testCaseOne){ 
-
-       log("empty") 
-
-      } 
-
-  return thing 
-
-  } 
-
-runTimeStart("Runtime") 
-
-console.log("Edge case one", some("")) // Expected I/O:  
-
-runTimeEnd("Runtime")

@@ -250,32 +250,3 @@ The answer is usually a divide-and-conquer approach — perform distributed 
 
 Thank the interviewer.  
 
-*/ 
-
-const runTimeStart = (arg) => console.time(arg) 
-
-const runTimeEnd = (arg) => console.timeEnd(arg) 
-
-const some = (thing) =>{ 
-
-  // TestCases keep in scope 
-
-  const testCaseOne = thing === ""; 
-
-  log(testCaseOne) 
-
-    if(testCaseOne){ 
-
-       log("empty") 
-
-      } 
-
-  return thing 
-
-  } 
-
-runTimeStart("Runtime") 
-
-console.log("Edge case one", some("")) // Expected I/O:  
-
-runTimeEnd("Runtime")

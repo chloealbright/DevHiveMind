@@ -50,7 +50,7 @@ In data structures, **[[Dictionaries]]** and **[[Map#Hashmap vs. Map | Hash Map]
 
 Given a list of coin denominations and a target amount, find the minimum number of coins needed to make that amount using the available denominations.
 
-**Brute Force Algorithm**:  
+#### **Brute Force Algorithm**:  
 The most straightforward approach.
 
 A Brute Force approach would involve trying all possible combinations of coins to make the amount and finding the minimum combination.
@@ -78,7 +78,7 @@ function minCoinsBruteForce(coins, amount) {
 }
 ```
 
-**Naïve Algorithm**: 
+#### **Naïve Algorithm**: 
 The Naive approach is an improvement over Brute Force, providing a better guess that is often more optimal, but it may still have room for further optimization or some times your best guess can end up being the most optimal choice.
 
 The Naive algorithm in this scenario involves dynamic programming to find the minimum number of coins.
@@ -100,7 +100,7 @@ function minCoinsNaive(coins, amount) {
 }
 ```
 
-**Greedy Algorithm**: 
+#### **Greedy Algorithm**: 
 Greedy algorithms are simple, intuitive algorithms that make locally optimal choices at each stage of problem-solving. They are quick and easy to code but may not always produce an overall optimal solution. The simplicity of greedy algorithms makes them suitable for straightforward problems, but they can fall short in complex scenarios.  *Algorithm efficiency OCD*
 
 The Greedy algorithm would involve selecting the largest denomination coin that is less than or equal to the remaining amount, subtracting it from the remaining amount, and repeating this process until the remaining amount becomes zero.
@@ -122,7 +122,7 @@ function minCoinsGreedy(coins, amount) {
 ```
 
 
-**Optimal Algorithm**: 
+#### **Optimal Algorithm**: 
 Optimal approaches aim for the most efficient solution based on the problem. While certain algorithm patterns may seem optimal, it depends on the specific problem at hand.
 
 The true optimal solution, often involving sorting. In this scenario the Optimal algorithm would be the same as the Naive algorithm, as it's the most efficient approach for solving the minimum coin change problem.

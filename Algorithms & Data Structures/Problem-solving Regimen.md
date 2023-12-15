@@ -18,7 +18,7 @@ Relates:
 - Pick one problem something simple like an array question or something.
 - Read problems and break them down to understand don't solve practice doing until you feel comfortable then revisit and solve 
   
-2. **Bruteforce Solution:**  
+2. **[[]] Solution:**  
 - Come up with a Bruteforce solution to gain insight into the problem's dynamics.  
   
 3. **Naive Solution:**  

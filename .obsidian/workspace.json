@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "8b19c01ed6ac4042",
@@ -97,9 +96,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5131fdee06556431",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/AlgoFlow.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -182,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
+                "file": "Companies/Interview/Experience Script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
+                "file": "Companies/Interview/Experience Script.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +233,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md"
+                "file": "Companies/Interview/Experience Script.md"
               }
             }
           },
@@ -326,21 +337,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "99d47e02083426d9",
+  "active": "1906b7a62f4f6815",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/AlgoFlow.md",
+    "Algorithms & Data Structures/Optimize & Solving Technique.md",
+    "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
+    "Algorithms & Data Structures/Steps to Problem on Interview.md",
+    "Companies/Interview/Experience Script.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
     "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
     "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
     "Algorithms & Data Structures/Algo/Big O.md",
-    "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
-    "Algorithms & Data Structures/Optimize & Solving Technique.md",
-    "Algorithms & Data Structures/Steps to Problem on Interview.md",
     "Algorithms & Data Structures/Attributes of Data.md",
-    "Algorithms & Data Structures/AlgoFlow.md",
     "Algorithms & Data Structures/Algo pathway.md",
     "Algorithms & Data Structures/Programmer vs Software Developer vs Coder vs Software architect.md",
     "Algorithms & Data Structures/Spacetime Complexity.md",
     "Algorithms & Data Structures/Whiteboard Interview.md",
-    "Companies/Interview/Experience Script.md",
     "Companies/Interview/High level problem solving pitch.md",
     "Companies/Interview/CV.md",
     "Home.md",
@@ -358,7 +370,6 @@
     "Companies/Companies Worked At/And the Next One..",
     "_CODE/Top Todo/High level problem solving pitch.md",
     "_CODE/Top Todo/CV.md",
-    "_CODE/Top Todo/job application clipboard.md",
     "Infographics/Work Process.png",
     "_Low Priority Refinement/Companies",
     "Infographics/Message Systems.gif",

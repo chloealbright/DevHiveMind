@@ -41,3 +41,24 @@ During the development process, I constructed a mock application utilizing Dart,
 
 
 
+
+## Problem-solving regimen:
+  
+1. **Focus on One Problem:**  
+- Pick one problem start off with something simple like an array or something.
+  
+2. **Bruteforce Solution:**  
+- Come up with a Bruteforce solution to gain insight into the problem's dynamics.  
+  
+3. **Naive Solution:**  
+- Develop a naive solution, distinct from the Bruteforce approach.  
+- Space out attempts, allowing time for fresh perspectives.
+- The Naive solution can be done Imperatively or Declarative consider doing both ways to see if you can do it.
+- Also consider experiment with looping iteratively and recursively.  
+- Lastly consider runtime complexity and data structures brainstorming thinking ab their application in terms of access, searching, insertion, and deletion.  
+
+  
+5. **Algorithm Patterns:**  
+- Delve into algorithm patterns, assessing their optimality or naivety.  
+- Identify multiple patterns suitable for the problem.  
+- Determine the most optimal pattern based on problem characteristics.

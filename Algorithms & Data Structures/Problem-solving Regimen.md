@@ -35,6 +35,6 @@ Relates:
 - Delve into advanced algorithm patterns for solution. 
 - Think about what patterns can be used for the problem which can be solved with many different patterns depending on the problem itself.
 - Keep in mind that one pattern may be more Optimal then the other.
-- Also think about Sorting algorithms, create helper functions for code modularity also naming convention. 
+- Also think about [[All Sorts of Sorts | Sorting]] algorithms, create helper functions for code modularity also naming convention. 
 
 

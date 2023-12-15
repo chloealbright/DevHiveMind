@@ -24,7 +24,7 @@ When delving into documentation about a framework, library, language, technology
 
 ![[paradigms.png]]
 
-### Code Example
+### High Level Example
 
 Consider this example: adding a function that iterates through an array, processes its elements, and returns the sum. This approach is compared to simply using `array.reduce` to add the elements, which involves fewer steps and is more abstract.
 

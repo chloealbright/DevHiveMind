@@ -56,7 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
+                "file": "Algorithms & Data Structures/Attributes of Data.md",
                 "mode": "source",
                 "source": false
               }
@@ -291,21 +291,21 @@
   },
   "active": "2d3af73f7f90a5f3",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "Language Overlap/Declarative Coding.md",
     "Algorithms & Data Structures/AlgoFlow.md",
-    "Algorithms & Data Structures/All Sorts of Sorts.md",
     "Algorithms & Data Structures/Attributes of Data.md",
-    "Algorithms & Data Structures/Bitwise XOR.md",
+    "Algorithms & Data Structures/Algo/Bitwise XOR.md",
+    "Algorithms & Data Structures/Algo/Knapsack Pattern.md",
+    "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "Algorithms & Data Structures/All Sorts of Sorts.md",
     "Algorithms & Data Structures/Coding Interview Tips.md",
     "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
     "Algorithms & Data Structures/Common Imperative.md",
     "Algorithms & Data Structures/DeMorgans law.md",
     "Algorithms & Data Structures/Discrete math.md",
-    "Algorithms & Data Structures/k way merge vs 2-way Merge.md",
-    "Algorithms & Data Structures/Knapsack Pattern.md",
+    "Algorithms & Data Structures/Algo/k way merge vs 2-way Merge.md",
     "Algorithms & Data Structures/Programmer vs Software Developer vs Coder vs Software architect.md",
     "Algorithms & Data Structures/Spacetime Complexity.md",
-    "Language Overlap/Declarative Coding.md",
     "Language Overlap/Imperative Coding.md",
     "Companies/Interview/Company Take-Home Project.md",
     "Algorithms & Data Structures/Interview Prep tips.md",

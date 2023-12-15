@@ -1,3 +1,5 @@
+## Intro 
+
 Alright so it all started in 1980, yeah I have a lot of experience even before I was born. 
 
 just kidding but let get back on task so my name is Joshua Carpentier I,m a BSA, and consider myself a Software Carpenter as oppose to engineer. I want to become a software architect.  
@@ -7,13 +9,9 @@ So I graduated from city tech in 2020 with a bachelor's in computer information 
 
 
 
-## Path 1
+## Path to Engineering
   
 Initially, I was thinking about doing general IT or networking but I realized for IT that a lot of the work involved troubleshooting basic issues that if people were more observant they could figure out…. which is pretty funny because you run into similar issues but at a higher level like if somebody doesn't read the documentation. As for the Networking I took a terrible entry level class which was the only class I remember falling asleep in, but I,m still a little interested in it  especially when it comes to the hacking side of things  & anonymity like I want be like Mr Robot a little bit and learn Kali Linux.
-
-
-
-
 
 
 
@@ -29,18 +27,6 @@ Software development process is like being given a box of blank white puzzle pie
 While make sure you have the overall picture still in mind, but as your putting pieces together you realize there is more to the picture and your missing pieces and the picture constantly changing and may be different then you thought so as all of this is happening your basically you trying to bring order to chaos can almost be considered natural order.
 
 
-
-
-I feel like software development is like doing puzzle where you have completed some sections and when step back it turns there id many more parts to complete its kind of like your looking at a picture and looks like 1080p but it turns out you were looking to close and in actuality it is 480p and there are more pieces to put together to get the full 4k image.  
-
-
-
-  
-Software development is a bit like tackling a puzzle. You conquer some sections, but when you step back, surprise—it's a maze with many more parts waiting to be completed. It's like peeping at a picture that seemed 1080p up close, only to realize it's more of a 480p situation. There's this ongoing quest to put together more pieces and reveal the full 4K image. It's a journey of discovery, piece by piece.
-
-maze pathways
-
- I view software development as high-level problem solving and consider it similar to martial arts because both are disciplines that require discipline. You have to be almost all those things and willing to learn more. And I believe I carry these attributes because I always try to be better by lapping my past self in a race full of obstacles and problems to be solved. 
 
 
 
@@ -59,6 +45,9 @@ so I decide on programming it was challenging almost like a video game and
 I also like because it reminds of mma because when it comes down to it is high level problem solving but without to worry of getting punched in the face  
   
 and with mma there is alot of variables it almost like its own program were you have two programs with there own built in functions
+
+
+ I view software development as high-level problem solving and consider it similar to martial arts because both are disciplines that require discipline. You have to be almost all those things and willing to learn more. And I believe I carry these attributes because I always try to be better by lapping my past self in a race full of obstacles and problems to be solved. 
 
 
 ### Path 3

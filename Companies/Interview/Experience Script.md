@@ -54,11 +54,16 @@ During the development process, I constructed a mock application utilizing Dart,
 - Develop a naive solution, distinct from the Bruteforce approach.  
 - Space out attempts, allowing time for fresh perspectives.
 - The Naive solution can be done Imperatively or Declarative consider doing both ways to see if you can do it.
-- Also consider experiment with looping iteratively and recursively.  
-- Lastly consider runtime complexity and data structures brainstorming thinking ab their application in terms of access, searching, insertion, and deletion.  
+- Lastly consider runtime complexity and data structures brainstorming thinking about their application in terms of access, searching, insertion, and deletion.  
 
   
-5. **Algorithm Patterns:**  
-- Delve into algorithm patterns, assessing their optimality or naivety.  
+4. **Optimal Solution & Algorithm Patterns:**  
+- Develop a Optimal approach
+- Consider experiment with looping iteratively and recursively.  
+- Delve into advanced algorithm patterns for solution. 
+- Think about what patterns can be used for the problem which can be multiple.
+- Depending on the problem which can have multiple algorithm patterns that can be used to solve the problem but between those patterns one maybe more optimal then the other depending on the problem
+- Also think about Sorting algorithms, creating helper functions for modularity 
+
 - Identify multiple patterns suitable for the problem.  
 - Determine the most optimal pattern based on problem characteristics.

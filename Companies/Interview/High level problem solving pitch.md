@@ -1,11 +1,9 @@
+Alright so it all started in 1980, yeah I have a lot of experience even before I was born. 
 
-Okay cool alright so It all started in 1980, that's how much experience I have 
+just kidding but let get back on task so my name is Joshua Carpentier I,m a BSA, and consider myself a Software Carpenter as oppose to engineer. I want to become a software architect.  
 
-where I oh no I,m just kidding I have so much experience that I had experience before I existed
-
-But name is Joshua Carpentier I,m a BSA, Software engineer, software Carpentier future software architect  
   
-I graduated from city tech in 2020 with a bachelor's in computer information systems. I also completed a coding Bootcamp in 2021
+So I graduated from city tech in 2020 with a bachelor's in computer information systems. I also completed the Cuny Tech prep Bootcamp in 2021
 
 
 
@@ -25,7 +23,7 @@ Initially, I was thinking about doing general IT or networking but I realized fo
 ### Path 1
 
   
-Software development process is like being given a box of blank white puzzle pieces and a partially built puzzle & your expected to put the pieces together without knowing how the pieces fit while the pieces are randomly changing almost like your walking through labyrinth that is actively changing & you have to figure out how the pieces/modules(input-output) connect or correspond to each other  
+Software development process is like being given a box of blank white puzzle pieces and a partially built puzzle & your expected to put the pieces together without knowing how the pieces fit while the pieces are randomly changing almost like your walking through maze that is constantly changing & you have to figure out how the pieces/modules(input-output) connect or correspond to each other  
 
   
 While make sure you have the overall picture still in mind, but as your putting pieces together you realize there is more to the picture and your missing pieces and the picture constantly changing and may be different then you thought so as all of this is happening your basically you trying to bring order to chaos can almost be considered natural order.

@@ -17,6 +17,12 @@ Developing software is a bit like getting a puzzle with half-finished and blank 
 
 ### Path 2
 
-One of the reason I like software engineer is because it very variable and seems very nebulous I like compare to martial arts because it can be very variable as well especially when you think about all the way a fight can go along with all the micro decisions being made on the fly. the only difference between engineering and martial arts is one just involves you getting hit in the head and losing a couple of brain cells but you put yourself in a chaotic situation where you need to face and analyze a problem that dynamically changes as you try and break it down in small pieces and solve the problem in front of you.
+One of the reason I like software engineer is because it very variable and seems very nebulous I like compare to martial arts because it can be very variable as well especially when you think about all the way a fight can go. you are essential putting yourself in front chaotic situation where you need to face and analyze a problem that is dynamically evolving as you try and break it down in small pieces and solve it. the only difference between engineering and martial arts is one just involves you getting hit in the head and losing a couple of brain cells which is funny because you definitely can have those moments where you want to bang your head against that wall when you cant figure something out.
+
+
+
+
+
+
 
 

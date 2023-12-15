@@ -57,11 +57,10 @@ Ask if it is ok to code after doing these steps and talk through your steps like
 	Also ask if certain parts of your code are sufficient enough  
 	Ask to run code after reading silently and tell them I don't see any bugs can I run my code
 	  
+	  
+
 ## Algo tip  
 
-Scan through your code for mistakes as if it was your first time seeing code written by someone else.  
-
-Think about error checks and how you can break this code. Never make assumptions about the input. Assume people are trying to break your code and that Darth Vader is using your function. How will you safeguard it? Always check for false inputs that you don’t want. Here is a trick: Comment in the code, the checks that you want to do… write the function, then tell the interviewer that you would write tests now to make your function fail (but you won't need to actually write the tests).  
 
 Test your code: Check for no params, 0, undefined, null, massive arrays, async code, etc… Ask the interviewer if we can make assumptions about the code. Can you make the answer return an error? Poke holes into your solution. Are you repeating yourself?  
 
@@ -83,7 +82,6 @@ When dealing with nested array/matrix questions think about work in the outer ro
 
 Can't iterate over an object with a regular for loop so either use the for loop that iterates through objects or store object in an array so you can loop with the regular for loop or while loop  
 
-Closure methods naming convention the outer function should include something like a gate in the name and the inner function should be something with the name of the door  
 
 Also depending on the problem, you may have to loop so talk about using a loop or recursion comparing the two and talking big O  
 
@@ -102,35 +100,9 @@ Explain trade-offs and how the code/approach can be improved if given more time.
 
 Ask questions. More importantly, ask good and engaging questions that are tailored to the company! Pick some questions from your list.  
 
-## Other  
+## Situations  
 If an interview will give you a harder question after you answer a question that's good they trying to see how high level are you  
 
 If you go to another interview and they give you something unexpected to talk about tell them you didn't expect it and ask for another time to try so you can recenter if the interview is behavioral  
 
-## Hacker rank (supports vim)  
 
-you can look at the documentation for the hacker rank challenge  
-ask the recruiter if you can lookup official documentation  
-
-You can use a second computer since hacker rank checks window focus if you wanna look at other stuff  
-
-Be aware of the time on hacker rank also sometimes they disable intelligence disable the ability to go back to a question  
-
-Maybe hide timer  
-
-Startups might read comments  
-
-
-## Take-Home Project and Code Review  
-You are given an assignment to complete ahead of the onsite interview  
-You should be provided clear instructions and minimum specs  
-You may be provided a starter code  
-You are given between 2-7 days to complete (manage expectation)  
-If your submission is approved, you will be called in for a code review with an engineer  
-Prepare to give the engineer a walk-through of your app and discuss:  
-Design decisions  
-Tradeoffs you made and why  
-Bugs that you or the interviewer found  
-Plan for continuing  
-Considerations for improving security, performance, usability, etc...  
-You may be asked to code a new feature or project during the interview

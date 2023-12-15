@@ -85,6 +85,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dd5f6ba6217326e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Naming Conventions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 3
@@ -106,7 +118,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Informational",
+                "query": "name",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -149,8 +161,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Coding Interview Do and Donts.md",
+                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Coding Interview Do and Donts.md",
+                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +221,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Coding Interview Do and Donts.md"
+                "file": "Algorithms & Data Structures/Problem-solving Regimen.md"
               }
             }
           },
@@ -314,10 +325,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1458c9d314dba046",
+  "active": "71ca332a2edff233",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Problem-solving Regimen.md",
     "Algorithms & Data Structures/Coding Interview Do and Donts.md",
+    "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "Architecture/Naming Conventions.md",
+    "Companies/Interview/Defense(A&Q).md",
+    "Companies/Interview/Experience Script.md",
+    "Companies/Interview/Company Take-Home Project.md",
     "Algorithms & Data Structures/Coding Regimen.md",
     "Algorithms & Data Structures/Steps to Problem on Interview.md",
     "Algorithms & Data Structures/Problem-Solving Step by Step Process.md",
@@ -328,7 +343,6 @@
     "Algorithms & Data Structures/Algo/Linear search vs Binary search.md",
     "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
     "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
-    "Companies/Interview/Experience Script.md",
     "Algorithms & Data Structures/Attributes of Data.md",
     "Algorithms & Data Structures/Algo pathway.md",
     "Algorithms & Data Structures/Programmer vs Software Developer vs Coder vs Software architect.md",
@@ -341,11 +355,8 @@
     "_Images/Companies Models/Money Talk.gif",
     "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
     "Companies/Companies Worked At/Tracflo/Personally Developed Tracflo Feature Statistics.md",
-    "Companies/Companies Worked At/Next Company/Personally Developed Company Feature Statistics.md",
     "Companies/Companies Worked At/Next Company",
-    "Companies/Companies Worked At/And the Next One/Personally Developed Company Feature Statistics.md",
     "Companies/Companies Worked At/And the Next One",
-    "Companies/Companies Worked At/And the Next One../Personally Developed Company Feature Statistics.md",
     "Companies/Companies Worked At/And the Next One..",
     "Infographics/Work Process.png",
     "_Low Priority Refinement/Companies",

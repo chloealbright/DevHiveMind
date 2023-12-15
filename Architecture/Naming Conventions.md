@@ -35,6 +35,8 @@ thisShouldBeCamelCase
 
  beyond names, however. I also look at whether an object or method is doing more than one thing. If it’s an object, it probably needs to be broken into two or more objects. If it’s a method, I will always use the Extract Method refactoring on it,
 
+Closure methods naming convention the outer function should include something like a gate in the name and the inner function should be something with the name of the door  
+
 
  
 He says that beautiful code  makes the language look like it was made for the problem! So it’s   our  responsibility to make the language look simple! Language bigots everywhere, beware! It is not the language that makes programs appear simple. It is the programmer that make the language appear simple!

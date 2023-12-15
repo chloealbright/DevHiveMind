@@ -18,17 +18,17 @@ Relates:
 - Pick one problem something simple like an array question or something.
 - Read problems and break them down to understand don't solve practice doing until you feel comfortable then revisit and solve 
   
-2. **[[]] Solution:**  
+2. **[[AlgoFlow#**Brute Force Algorithm** | Bruteforce]] Solution:**  
 - Come up with a Bruteforce solution to gain insight into the problem's dynamics.  
   
-3. **Naive Solution:**  
+3. **[[AlgoFlow#**Naïve Algorithm** | Naive]] Solution:**  
 - Develop a naive solution, distinct from the Bruteforce approach.  
 - Space out attempts, allowing time for fresh perspectives.
 - The Naive solution can be done Imperatively or Declarative consider doing both ways to see if you can do it.
 - Lastly consider runtime complexity and data structures brainstorming thinking about their application in terms of access, searching, insertion, and deletion.  
 
   
-4. **Optimal Solution & Grokking Algorithm Patterns:** 
+4. **[[AlgoFlow#**Optimal Algorithm** | Optimal]] Solution & Grokking Algorithm Patterns:** 
 > ***Consider Pair Programming here or in earlier approach
 - Develop a Optimal approach
 - Consider experiment with looping iteratively and recursively.  

@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
+                "file": "Algorithms & Data Structures/AlgoFlow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
+                "file": "Algorithms & Data Structures/AlgoFlow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md"
+                "file": "Algorithms & Data Structures/AlgoFlow.md"
               }
             }
           },
@@ -289,8 +289,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "71ca332a2edff233",
+  "active": "2d3af73f7f90a5f3",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Problem-solving Regimen.md",
     "Algorithms & Data Structures/AlgoFlow.md",
     "Algorithms & Data Structures/All Sorts of Sorts.md",
     "Algorithms & Data Structures/Attributes of Data.md",
@@ -302,7 +303,6 @@
     "Algorithms & Data Structures/Discrete math.md",
     "Algorithms & Data Structures/k way merge vs 2-way Merge.md",
     "Algorithms & Data Structures/Knapsack Pattern.md",
-    "Algorithms & Data Structures/Problem-solving Regimen.md",
     "Algorithms & Data Structures/Programmer vs Software Developer vs Coder vs Software architect.md",
     "Algorithms & Data Structures/Spacetime Complexity.md",
     "Language Overlap/Declarative Coding.md",

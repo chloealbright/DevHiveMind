@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 # Background 
 
 Let’s think back on the DevOps pipeline.  One of the eight stages of the DevOps pipeline is Build.  One of the DevOps practices is Continuous Integration (CI).  Before CI can be achieved, Enterprises must first understand how to automate the software build. 

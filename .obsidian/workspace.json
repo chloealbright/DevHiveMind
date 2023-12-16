@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "457487d824d61841",
+        "id": "f1162259e55bc5fa",
         "type": "tabs",
         "children": [
           {
-            "id": "49fe4fc70b8bb10c",
+            "id": "50e2248f8e7ccb18",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Design Patterns.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Design Patterns.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Design Patterns.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Design Patterns.md"
+                "file": "Home.md"
               }
             }
           },
@@ -246,8 +246,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "49fe4fc70b8bb10c",
+  "active": "336e343a71fa6379",
   "lastOpenFiles": [
+    "Devops/Docker/Docker Entrypoint and CMD.md",
+    "Devops/Docker/Docker Compose and Dockerfile.md",
+    "Devops/Docker/Docker and kubernetes.md",
+    "Devops/Build/Overview of Build Automation.md",
+    "Cloud/AWS/AWS Cloud Services.md",
+    "Architecture/Design Patterns.md",
     "Architecture/Design Patterns.pdf",
     "API/API Gateway.md",
     "API",
@@ -270,17 +276,12 @@
     "Architecture/Clean Code Approach Reflection.md",
     "Architecture/Clean Code.md",
     "Companies/Interview/Coffee Chat Interviewing.md",
-    "_CODE/Express/Dev Todo.md",
+    "_Low Priority Refinement/_CODE/Express/Dev Todo.md",
     "Infographics/Process and Thread.jpeg",
     "Infographics/System Design Cheatsheet.gif",
     "Infographics/Work Process.png",
     "Companies/Interview/Experience Script.md",
-    "Companies/Interview/CV.md",
-    "Companies/Employment Best Personal Practices.md",
-    "Algorithms & Data Structures/Problem-solving Regimen.md",
     "_Pdf/Joshua_Carpentier_Resume.pdf",
-    "Algorithms & Data Structures/Algorithms/Key Base Attributes of  Grokking Algorithm patterns.md",
-    "Algorithms & Data Structures/Algorithms/Iterating vs Traversing.md",
     "_Images/factory.gif",
     "_Template/Whiteboard.png",
     "_Images/StepByStep.gif",
@@ -293,7 +294,6 @@
     "Companies/Companies Worked At/And the Next One..",
     "_Low Priority Refinement/Companies",
     "Infographics/Message Systems.gif",
-    "Infographics/Language",
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",

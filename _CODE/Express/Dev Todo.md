@@ -76,7 +76,7 @@ Or a read to see if a sort is needed
 
 ## Medium
 #todo/Read/Interview
-- [ ] [[Grokking System Design Interview Key Performance Metrics Every Engineer Should Know.  by Arslan Ahmad  Geek Culture  Apr, 2023  Medium]]
+- [ ] [[_CODE/_Capture/12 Key Metrics for Measuring Service Performance]]
 - [x] [[Top 10 Microservices Design Principles and Best Practices for Experienced Developers  by Soma  Javarevisited  Medium]]
 - [ ] [[Obsidian Understanding its Core Design Principles  by TfTHacker  Obsidian Observer  Medium]]
 - [ ] [[My Obsidian Setup — My Notes and My Theme settings  by Nuno Campos  Obsidian Observer  Apr, 2023  Medium]]

@@ -1,23 +1,7 @@
-
-Key performance metrics you should know before your next system design interview.
-
-![](https://miro.medium.com/v2/resize:fit:700/1*sPQqy28jjc8tS7ZZunS1Gg.png)
-
-[System Design Fundamentals](https://www.designgurus.io/course/grokking-system-design-fundamentals)
-
-As you prepare for your next system design interview, it’s essential to understand the performance metrics that are often discussed while designing and optimizing software systems. These metrics play a crucial role in determining the efficiency and effectiveness of any system.
-
-As a system architect, you are responsible for designing and managing software systems. In order to accomplish this, every system architect must have a thorough understanding of the various software services being designed, their interactions with each other, and the performance requirements for each service and the system as a whole.
-
-## 12 Key Metrics for Measuring Service Performance
-
-Here are the 12 important metrics useful for measuring service performance:
-
-## **1\. Time to First Byte (TTFB)**
+## 1. Time to First Byte (TTFB)**
 
 TTFB measures the time taken from the moment a client sends a request to a server until the client receives the first byte of data from the server. It is an indicator of server responsiveness and network latency. Example: A website’s TTFB is 200 milliseconds, indicating a fast initial response from the server.
 
-> Check [**Grokking the System Design Interview**](https://www.designgurus.io/course/grokking-the-system-design-interview) for a list of common system design interview questions and basic concepts.
 
 ## **2\. Latency**
 
@@ -63,14 +47,36 @@ Cache hit ratio is the percentage of cache accesses that result in a cache hit, 
 
 SLA compliance is the percentage of time that a system meets its predefined performance and availability objectives. A higher SLA compliance rate indicates better system performance and customer satisfaction. Example: A cloud service provider maintains 99.95% SLA compliance, meaning it meets its performance targets 99.95% of the time.
 
-## Conclusion
 
-As a system architect, your responsibility is to design and manage software systems that meet specific performance requirements. Understanding the 12 performance metrics, outlined in this blog post, will enable you to make informed decisions while designing, optimizing, and troubleshooting systems. Moreover, being able to discuss these metrics confidently during an interview will demonstrate your expertise and set you apart from other candidates.
 
-So, before you head into your next [system design interview](https://www.designgurus.io/course/grokking-the-system-design-interview), make sure to review these 12 essential performance metrics and be prepared to showcase your knowledge of how they influence the design and performance of software systems.
 
-Good luck!
 
-➡ Learn more about these questions in “[**Grokking the System Design Interview**](https://www.designgurus.io/course/grokking-the-system-design-interview)**”** and **“**[**Grokking the Advanced System Design Interview**](https://www.designgurus.io/course/grokking-the-advanced-system-design-interview).”
 
-➡ Check [**Grokking System Design Fundamentals**](https://www.designgurus.io/course/grokking-system-design-fundamentals) for a list of common system design concepts.
+
+
+
+
+
+
+
+
+
+Velocity: This is a popular metric used to measure a team's ability to complete work in a given time period. TechBeacon defines it as how many units of software the team typically completes in an iteration [1]. This metric can be used to assess an individual's productivity and how much they are contributing to the team's velocity.  
+  
+Cycle time: This metric measures the time it takes to complete a single work item, from the start of development to the deployment of the finished product. This metric can be used to assess an individual's ability to deliver quality work in a timely manner [2].  
+  
+Lead time: This metric measures the time it takes from when a work item is requested to when it is completed and deployed. It can be used to measure an individual's ability to prioritize tasks and work efficiently [2].  
+  
+Quality and comprehensiveness of testing: The quality and comprehensiveness of testing can greatly affect the quality of the final product. Metrics such as the number of bugs found and fixed, the code coverage of unit tests, and the frequency of test failures can be used to assess an individual's ability to write and execute effective tests [2].  
+  
+Learning progress: It is important for software engineers to continually learn and improve their skills. Metrics such as the number of training courses completed, the number of new programming languages or technologies learned, and the number of contributions to open source projects can be used to assess an individual's learning progress and dedication to self-improvement [3].  
+  
+It is important to note that while these metrics can provide valuable insights, they should not be used as the sole means of evaluating an individual's skills and learning. Other factors such as teamwork, communication, and problem-solving abilities should also be considered.  
+  
+[https://www.gitclear.com/popular_software_engineering_metrics_and_how_they_are_gamed](https://www.gitclear.com/popular_software_engineering_metrics_and_how_they_are_gamed)  
+  
+[https://keyua.org/blog/software-development-kpis-and-metrics/](https://keyua.org/blog/software-development-kpis-and-metrics/)  
+  
+[https://www.stackshare.io/posts/software-engineering-metrics-kpis-your-starter-guide](https://www.stackshare.io/posts/software-engineering-metrics-kpis-your-starter-guide)  
+  
+[https://www.gitclear.com/diff_delta_factors](https://www.gitclear.com/diff_delta_factors)

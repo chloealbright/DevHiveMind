@@ -1,56 +1,71 @@
 ---
 tags:
   - CodebaseDecision
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
-Imperative meaning the  how to achieve something sequentially step by step low level easier to trace what is going on. 
+Imperative programming is a paradigm that focuses on defining how to achieve a task step by step, emphasizing a sequential and low-level approach. This method of programming is often divided into various approaches:
 
-This is divided into things like Procedural, Object-oriented, and  Parallel approaches. 
+1. **Procedural Approach:**
+   - Involves breaking down a task into a series of steps or procedures.
+   - Steps can be reused in different parts of a program, but complexity may increase with advanced problems.
 
--   Procedural step by step can be re-used in different parts of program but can get messy and robust with more advanced complex problems I.E Leetcode question with a lot of conditions. 
-    
+2. **Object-Oriented Approach:**
+   - Organizes code around objects, encapsulating data and behavior.
+   - Provides a more structured and organized way of handling complex systems.
 
--   Object-oriented more organized and structured  
-    
+3. **Parallel Programming:**
+   - Not directly supported in JavaScript but can be achieved using web workers.
+   - Web workers enable parallel execution in the background, enhancing performance for certain tasks.
 
--   Parallel programming no supported in JavaScript with the help of web workers [https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) 
-    
+Imperative programming is known for its simplicity, scalability, and ease of understanding, making it suitable for various applications. However, it can become messy, especially with complex problems.
 
-Imperative is simple scale-able and easy to get into but can get messy also is proably used behind the scenes when defining built in declarative code that is used in languages 
+Several programming languages lean towards the Imperative paradigm, including:
+1. **JavaScript:** Used for dynamic web applications, both client-side and server-side with Node.js.
+2. **PHP:** Widely employed for creating dynamic web pages and applications on the server side.
+3. **Ruby:** A high-level, dynamic language used for web development and automation.
+4. **Swift:** Developed by Apple for building iOS, macOS, watchOS, and tvOS applications.
+5. **Go:** A modern language by Google known for scalability and concurrency.
+6. **Rust:** Combines low-level control with high-level abstractions, focusing on safety and speed.
+7. **Fortran:** Designed for numerical and scientific computing, used in high-performance computing.
+8. **Ada:** Suited for safety-critical and real-time systems, featuring strong typing.
+9. **Visual Basic:** Used for building Windows applications, macros, and scripts.
+10. **Objective-C:** Initially for iOS and macOS development, largely replaced by Swift.
 
-
-Languages can also lean more towards Imperative code like 
-
-1.  JavaScript: A popular client-side language used for creating dynamic and interactive web applications, as well as server-side with Node.js.
-    
-2.  PHP: A server-side language widely used for creating dynamic web pages, e-commerce sites, and web applications.
-    
-3.  Ruby: A high-level, dynamic, and object-oriented language that is often used for web development, automation, and data analysis.
-    
-4.  Swift: A programming language developed by Apple for building iOS, macOS, watchOS, and tvOS applications.
-    
-5.  Go: A modern and efficient language developed by Google for building scalable and concurrent systems.
-    
-6.  Rust: A systems programming language that combines low-level control with high-level abstractions, with a focus on safety, speed, and concurrency.
-    
-7.  Fortran: A high-level language designed for numerical and scientific computing, still widely used in high-performance computing and simulation.
-    
-8.  Ada: A language designed for safety-critical and real-time systems, with strong typing and modular design.
-    
-9.  Visual Basic: A language and development environment for building Windows applications, macros, and scripts.
-    
-10.  Objective-C: A language for developing iOS and macOS applications, popularized by Apple and now largely replaced by Swift.
-
+These languages often employ imperative code behind the scenes, even when providing declarative features.
 
 ## Rest Operator
 *The rest parameter syntax allows a function to accept an indefinite number of arguments as an array, providing a way to represent variadic functions in JavaScript and is imperative in nature*
 
-```javascript
-function sum(...b) { 
 
-return b  
+In JavaScript, variadic functions are functions that can accept a variable number of arguments. Unlike traditional functions with a fixed number of parameters, variadic functions use the `arguments` object or the rest parameter syntax (`...`) to handle varying numbers of arguments.
 
-} 
+1. **Using `arguments` object:**
+   ```javascript
+   function sum() {
+       let result = 0;
+       for (let i = 0; i < arguments.length; i++) {
+           result += arguments[i];
+       }
+       return result;
+   }
 
-console.log(sum(1, 2, 3)); // return whole array 
-```
+   console.log(sum(1, 2, 3)); // Outputs: 6
+   ```
 
+2. **Using rest parameters:**
+   ```javascript
+   function sum(...numbers) {
+       return numbers.reduce((acc, num) => acc + num, 0);
+   }
+
+   console.log(sum(1, 2, 3)); // Outputs: 6
+   ```
+
+The rest parameter syntax (`...`) allows you to represent an indefinite number of arguments as an array. It's a more modern and convenient way to work with variable arguments.
+
+Keep in mind that using rest parameters is generally preferred over the `arguments` object due to its simplicity and compatibility with modern JavaScript features.

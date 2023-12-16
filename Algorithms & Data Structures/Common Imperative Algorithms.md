@@ -144,25 +144,9 @@ function reverseIterative(str){ 
 ```
 
 ```Javascript
-// remove duplicates 
-
 let theNum = [1, 2, 3, 1]; 
 
-// Example 2: 
-
-// Input: nums = [1,2,3,4] 
-
-// Output: false 
-
-// Example 3: 
-
-// Input: nums = [1,1,1,3,3,4,3,2,4,2] 
-
-// Output: true 
-
-// 0(1) 
-
-const containsDuplicate = (nums) => { 
+const RemoveDuplicates = (nums) => { 
 
     const unique = new Set(nums); 
 

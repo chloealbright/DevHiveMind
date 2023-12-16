@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
+                "file": "Algorithms & Data Structures/Algo/Data struct Factory.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/AlgoFlow.md",
+                "file": "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/AlgoFlow.md",
+                "file": "Algorithms & Data Structures/Algo/Data struct Factory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/AlgoFlow.md",
+                "file": "Algorithms & Data Structures/Algo/Data struct Factory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/AlgoFlow.md"
+                "file": "Algorithms & Data Structures/Algo/Data struct Factory.md"
               }
             }
           },
@@ -289,12 +289,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6edc2365d3924f82",
+  "active": "4635985944c69ca8",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
+    "Algorithms & Data Structures/AlgoFlow.md",
     "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
     "Algorithms & Data Structures/Recursion/Recursion & Recursion Runtime.md",
     "Algorithms & Data Structures/Common Imperative Algorithms.md",
-    "Algorithms & Data Structures/Problem-solving Regimen.md",
     "Language Overlap/Imperative Coding.md",
     "Algorithms & Data Structures/Common Declarative Algorithms.md",
     "Language Overlap/Declarative Coding.md",
@@ -307,7 +309,6 @@
     "Companies/Interview/Interview Preparation Questions.md",
     "_Template/Whiteboard.png",
     "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
-    "Algorithms & Data Structures/AlgoFlow.md",
     "Algorithms & Data Structures/Attributes of Data.md",
     "Algorithms & Data Structures/Algo pathway.md",
     "Algorithms & Data Structures/Coding Interview Tips.md",
@@ -317,7 +318,6 @@
     "Algorithms & Data Structures/All Sorts of Sorts.md",
     "Algorithms & Data Structures/DeMorgans law.md",
     "Algorithms & Data Structures/Algo/k way merge vs 2-way Merge.md",
-    "Algorithms & Data Structures/Programmer vs Software Developer vs Coder vs Software architect.md",
     "_Images/StepByStep.gif",
     "_Images/Steps.gif",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",

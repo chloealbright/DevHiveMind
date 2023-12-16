@@ -13,7 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
+                "file": "Companies/Interview/High level problem solving pitch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "33a9196b80620810",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0444d62c43727ca1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Interview/Experience Script.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
+                "file": "Companies/Interview/Experience Script.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
+                "file": "Companies/Interview/Experience Script.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md"
+                "file": "Companies/Interview/Experience Script.md"
               }
             }
           },
@@ -246,16 +264,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4635985944c69ca8",
+  "active": "0444d62c43727ca1",
   "lastOpenFiles": [
+    "Companies/Interview/High level problem solving pitch.md",
+    "Algorithms & Data Structures/Problem-solving Regimen.md",
     "Home.md",
     "_Template/inter/Interview Template with TimeTable 1 1.md",
     "_Template/inter/Interview Template with TimeTable.md",
     "_Template/inter/Compressed Interview Template.md",
     "Companies/Interview/Interview Preparation Questions.md",
     "_Template/Whiteboard.png",
-    "Companies/Interview/High level problem solving pitch.md",
-    "Algorithms & Data Structures/Problem-solving Regimen.md",
     "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
     "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
     "Algorithms & Data Structures/AlgoFlow.md",

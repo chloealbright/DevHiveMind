@@ -72,7 +72,6 @@ const searchIter = (nums, target) => {
     }
     return nums[lo] == target ? lo : -1;
 };
-
 ```
 
 
@@ -96,7 +95,6 @@ const findTarget = (nums, target, start, end) => {
         return findTarget(nums, target, mid + 1, end); // Adjust the start index to mid + 1
     }
 };
-
 ```
 
 

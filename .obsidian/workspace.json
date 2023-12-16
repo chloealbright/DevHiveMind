@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Data struct Factory.md",
+                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,21 +48,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6edc2365d3924f82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -145,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Data struct Factory.md",
+                "file": "Algorithms & Data Structures/Common Imperative Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Data struct Factory.md",
+                "file": "Algorithms & Data Structures/Common Imperative Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Data struct Factory.md"
+                "file": "Algorithms & Data Structures/Common Imperative Algorithms.md"
               }
             }
           },
@@ -289,10 +277,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4635985944c69ca8",
+  "active": "1c9a18d52c077329",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Problem-solving Regimen.md",
     "Algorithms & Data Structures/Algo/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
+    "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "Algorithms & Data Structures/Algo/Data struct Factory.md",
+    "_Images/factory.gif",
     "Algorithms & Data Structures/AlgoFlow.md",
     "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
     "Algorithms & Data Structures/Recursion/Recursion & Recursion Runtime.md",
@@ -316,8 +306,6 @@
     "Algorithms & Data Structures/Algo/Bitwise XOR.md",
     "Algorithms & Data Structures/Algo/Knapsack Pattern.md",
     "Algorithms & Data Structures/All Sorts of Sorts.md",
-    "Algorithms & Data Structures/DeMorgans law.md",
-    "Algorithms & Data Structures/Algo/k way merge vs 2-way Merge.md",
     "_Images/StepByStep.gif",
     "_Images/Steps.gif",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
@@ -333,7 +321,6 @@
     "Infographics/Language",
     "Infographics/Testing",
     "Infographics/Web/Url Process.gif",
-    "Infographics/Web/Traffic Poliicies.gif",
     "Infographics/Web",
     "Companies/Clout Chasing/Draft",
     "Mind Maps/Drafts/Event Messaging.canvas",

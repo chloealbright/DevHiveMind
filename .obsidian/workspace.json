@@ -61,9 +61,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4b45129fe0ddc819",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Companies Worked At/Contribution Metrics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -125,7 +137,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -145,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Interview/Coffee Chat Interviewing.md",
+                "file": "Companies/Companies Worked At/Contribution Metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Interview/Coffee Chat Interviewing.md",
+                "file": "Companies/Companies Worked At/Contribution Metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Interview/Coffee Chat Interviewing.md"
+                "file": "Companies/Companies Worked At/Contribution Metrics.md"
               }
             }
           },
@@ -289,8 +302,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "eb6f53790bef9dae",
+  "active": "4b45129fe0ddc819",
   "lastOpenFiles": [
+    "Companies/Companies Worked At/General Dev Issues.md",
+    "Companies/Companies Worked At/Contribution Metrics.md",
+    "Companies/Interview/Coffee Chat Interviewing.md",
     "Algorithms & Data Structures/Problem-solving Regimen.md",
     "_Pdf/Joshua_Carpentier_Resume.pdf",
     "Algorithms & Data Structures/Algorithms/Key Base Attributes of  Grokking Algorithm patterns.md",
@@ -315,8 +331,6 @@
     "Algorithms & Data Structures/Algorithms/Approach Pivot.md",
     "Algorithms & Data Structures/Algorithms/Bitwise XOR.md",
     "Algorithms & Data Structures/Algorithms/Bit-Binary.md",
-    "Algorithms & Data Structures/Algorithms/Binary search 101.md",
-    "Algorithms & Data Structures/Algorithms/Algorithm Pattern vs Simple Solution.md",
     "_Images/factory.gif",
     "_Template/Whiteboard.png",
     "_Images/StepByStep.gif",

@@ -11,8 +11,12 @@
             "id": "49fe4fc70b8bb10c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "API/API Gateway.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -77,7 +81,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -97,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "API/API Gateway.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "API/API Gateway.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "API/API Gateway.md"
+              }
             }
           },
           {
@@ -237,8 +246,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "49fe4fc70b8bb10c",
+  "active": "336e343a71fa6379",
   "lastOpenFiles": [
+    "API",
+    "_Low Priority Refinement/API/API.md",
+    "Databases/Normalization & Denormalization Trade-offs.md",
+    "_Low Priority Refinement/Database/MYSQL Setup.md",
+    "Security/Unsafe functions.md",
+    "Databases",
+    "Security",
+    "_Low Priority Refinement/Security/Prototype Pollution.md",
+    "_Low Priority Refinement/Security/ESLint.md",
+    "_Low Priority Refinement/Security/Computer system security.md",
+    "_Low Priority Refinement/Security/Code Defects.md",
     "_Low Priority Refinement/Companies/12 Key Metrics for Measuring Service Performance.md",
     "Companies/Companies Worked At/Contribution Metrics.md",
     "_CODE/_Capture/12 Key Metrics for Measuring Service Performance.md",
@@ -260,15 +280,6 @@
     "Algorithms & Data Structures/Algorithms/Key Base Attributes of  Grokking Algorithm patterns.md",
     "Algorithms & Data Structures/Algorithms/Iterating vs Traversing.md",
     "Algorithms & Data Structures/Algorithms/k way merge vs 2-way Merge.md",
-    "Algorithms & Data Structures/Algorithms/Algorithms & Visual Abstraction.md",
-    "Algorithms & Data Structures/Sorts/Sorting Best Practices Examination.md",
-    "Algorithms & Data Structures/All Sorts of Sorts.md",
-    "Algorithms & Data Structures/Algorithms/Dynamic programming Patterns.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Doubly linked list.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Arrays.md",
-    "Algorithms & Data Structures/Algorithms/Depth First Search & Breadth-First Search.md",
-    "Algorithms & Data Structures/Algorithms/Dijkstra + Bellman-Ford shortest path.md",
     "_Images/factory.gif",
     "_Template/Whiteboard.png",
     "_Images/StepByStep.gif",
@@ -283,8 +294,6 @@
     "Infographics/Message Systems.gif",
     "Infographics/Language",
     "Infographics/Testing",
-    "Infographics/Web",
-    "Companies/Clout Chasing/Draft",
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",

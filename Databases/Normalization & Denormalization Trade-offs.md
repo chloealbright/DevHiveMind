@@ -1,15 +1,14 @@
 ---
-tags: 
-author: jacgit18
+tags:
+  - databases
+  - dataTables
+author:
+  - jacgit18
 Status: 
 Started: 
 EditDate: 
 Relates:
 ---
-Yes, there are trade-offs and considerations when deciding whether to use a normalized or denormalized database schema, and there are situations where one approach may be more appropriate than the other. Each has its advantages and disadvantages, and the choice depends on the specific needs of your application.  
-  
-Here are some considerations where normalized databases may be more suitable:  
-  
 1. **Data Integrity**: Normalized databases often provide better data integrity by reducing redundancy and ensuring that data is consistent and accurate. This is important in applications where data accuracy is critical.  
   
 2. **Updates and Maintenance**: Normalized databases can make updates and maintenance easier since changes to data need to be made in fewer places. This can be beneficial in situations where data consistency is a top priority.  

@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Interview/High level problem solving pitch.md",
+                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "16e2c00af88db9b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Common Declaritive Algorithms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fb33fa90b7ad6b89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Common Imperative Algorithms.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "33a9196b80620810",
@@ -31,13 +56,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Interview/Experience Script.md",
+                "file": "Language Overlap/Declarative Coding.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45aa9d4accd3dd35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language Overlap/Imperative Coding.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Interview/High level problem solving pitch.md",
+                "file": "Language Overlap/Imperative Coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Interview/High level problem solving pitch.md",
+                "file": "Language Overlap/Imperative Coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Interview/High level problem solving pitch.md"
+                "file": "Language Overlap/Imperative Coding.md"
               }
             }
           },
@@ -264,11 +302,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4635985944c69ca8",
+  "active": "45aa9d4accd3dd35",
   "lastOpenFiles": [
+    "Language Overlap/Declarative Coding.md",
+    "Language Overlap/Imperative Coding.md",
+    "Algorithms & Data Structures/Common Imperative Algorithms.md",
+    "Algorithms & Data Structures/Common Declaritive Algorithms.md",
     "Companies/Interview/Experience Script.md",
-    "Companies/Interview/High level problem solving pitch.md",
     "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "Companies/Interview/High level problem solving pitch.md",
     "Home.md",
     "_Template/inter/Interview Template with TimeTable 1 1.md",
     "_Template/inter/Interview Template with TimeTable.md",
@@ -282,17 +324,13 @@
     "Algorithms & Data Structures/Algo pathway.md",
     "Algorithms & Data Structures/Coding Interview Tips.md",
     "Algorithms & Data Structures/Discrete math.md",
-    "Language Overlap/Declarative Coding.md",
     "Algorithms & Data Structures/Algo/Bitwise XOR.md",
     "Algorithms & Data Structures/Algo/Knapsack Pattern.md",
     "Algorithms & Data Structures/All Sorts of Sorts.md",
-    "Algorithms & Data Structures/Common Declaritive Algorithm Functions.md",
-    "Algorithms & Data Structures/Common Imperative.md",
     "Algorithms & Data Structures/DeMorgans law.md",
     "Algorithms & Data Structures/Algo/k way merge vs 2-way Merge.md",
     "Algorithms & Data Structures/Programmer vs Software Developer vs Coder vs Software architect.md",
     "Algorithms & Data Structures/Spacetime Complexity.md",
-    "Language Overlap/Imperative Coding.md",
     "_Images/StepByStep.gif",
     "_Images/Steps.gif",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",

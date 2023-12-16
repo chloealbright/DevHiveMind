@@ -15,7 +15,7 @@ Recursion is a powerful concept in computer science and mathematics. It is defin
 
 ## Recursive Methods and Time Complexity
 
-Recursive methods offer readability but may lead to large stacks, potentially causing stack overflow errors. However, you can optimize recursive methods to have a time complexity of O(n) by using dynamic programming techniques like [[memoization]]. Recursive approaches are particularly useful in certain scenarios, such as when searching for solutions, working with trees, converting data into tree structures, sorting, and dynamic programming.
+Recursive methods offer readability but may lead to large stacks, potentially causing stack overflow errors. However, you can optimize recursive methods to have a time complexity of O(n) by using dynamic programming techniques like [[Memoization]]. Recursive approaches are particularly useful in certain scenarios, such as when searching for solutions, working with trees, converting data into tree structures, sorting, and dynamic programming.
 
 ## Different Ways to Implement Recursion
 

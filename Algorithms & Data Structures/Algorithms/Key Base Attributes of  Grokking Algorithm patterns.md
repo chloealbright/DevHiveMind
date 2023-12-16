@@ -14,7 +14,7 @@ Relates:
 - **Key Elements:**
   - Input array or string.
   - WindowStart and WindowEnd.
-	  -  You may check if it is greater than diff between WindowEnd to WindowStart  + 1 
+	  - You may check if it is greater than diff between WindowEnd to WindowStart  + 1 
   - Window size conditions to increments and decrements or both.
   - Iteration by array length.
   - Target sum  
@@ -118,7 +118,6 @@ Fast & Slow Pointers are a powerful technique that offers a straightforward way 
 Reversing a linked list is a crucial technique in data structure manipulation and is frequently used to enhance algorithm efficiency or address specific challenges requiring reversed element order within the list.
 
 
-
 ## Cyclic Sort
 
 ^b310e2
@@ -151,6 +150,53 @@ Reversing a linked list is a crucial technique in data structure manipulation an
   - Typically used when the elements are within a specific range and there are no duplicates.
 
 This technique is particularly useful when dealing with arrays containing unique elements within a known range and aims to sort the array in a cyclic manner without additional space overhead.
+
+
+
+## K-Way Merge
+
+- **Definition:** K-Way Merge is a technique used to merge K sorted arrays or lists into a single sorted collection. This approach extends the concept of merging pairs of arrays (as in traditional merge sort) to handle K arrays efficiently.
+
+- **Complexity:** The time complexity of K-Way Merge is typically O(N log K), where N is the total number of elements across all arrays. The efficiency arises from the use of priority queues or heap data structures.
+
+- **Key Elements:**
+  - K sorted arrays or lists.
+  - A data structure to efficiently track the smallest elements during the merging process, often implemented using a priority queue or a min-heap.
+
+- **Potential Problem Goals:**
+  - Merge K sorted arrays into a single sorted array.
+  - Efficiently process and merge data from K different sources.
+
+- **Steps:**
+  1. Initialize a priority queue or a min-heap to track the smallest elements from each array.
+  2. Populate the priority queue with the first element from each of the K arrays.
+  3. Extract the smallest element from the priority queue and add it to the result.
+  4. Replace the extracted element with the next element from its respective array in the priority queue.
+  5. Repeat steps 3-4 until all elements are merged.
+
+- **Use Cases:** K-Way Merge is commonly used in scenarios where data is distributed across multiple sources or when dealing with K sorted arrays, such as merging results from parallel computations.
+
+- **Hints:**
+  - Choose the appropriate data structure (priority queue or min-heap) based on the language and problem requirements.
+  - Keep track of the array index associated with each element in the priority queue to efficiently fetch the next element from that array during the merging process.
+
+K-Way Merge is a powerful technique for efficiently merging K sorted arrays, providing an effective solution for scenarios involving distributed data or parallel processing. The priority queue or min-heap is a key component in maintaining efficiency during the merging process.
+
+
+### k way merge vs 2-way Merge
+
+The main difference between k-way merge and 2-way merge is the number of sorted lists being merged. 
+
+In 2-way merge, two sorted lists are merged into a single sorted list. It's a basic merging operation often used in algorithms like Merge Sort.
+
+On the other hand, k-way merge involves merging k sorted lists into a single sorted list. This generalizes the concept to handle more than two input lists. Algorithms like external sorting or certain types of database query processing may employ k-way merging when dealing with a larger number of sorted datasets.
+
+#### More use cases
+Dealing with multiple arrays, rows in two-dimensional arrays, or multiple linked lists, where you find the lowest value and store them in order from least to greatest, similar to a min-heap or merge sort.
+
+In summary, 2-way merge deals with two sorted lists, while k-way merge handles k sorted lists.
+
+
 
 ## Merge Intervals
 

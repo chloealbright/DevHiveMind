@@ -32,7 +32,7 @@ Relates:
 	- Lastly consider runtime complexity and data structures brainstorming thinking about their application in terms of access, searching, insertion, and deletion both [[Linear Data Structure Runtime Comparison | Linear]] and [[Non-Linear Data Structure Runtime Comparison | Non-Linear]]
 
   
-4. [[AlgoFlow#**Optimal Algorithm** | Optimal]] **Solution & Grokking Algorithm Patterns**:
+4. [[AlgoFlow#**Optimal Algorithm** | Optimal]] **Solution & [[Key Base Attributes of  Grokking Algorithm patterns | Grokking Algorithm]] Patterns**:
 	- Develop a Optimal approach
 	- Consider experiment with looping [[Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion | iteratively]] and [[Recursion & Recursion Runtime | recursively]].  
 	- Delve into advanced algorithm patterns for solution. 

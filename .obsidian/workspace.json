@@ -56,26 +56,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Interview/Coffee Chat Interviewing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b45129fe0ddc819",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Companies Worked At/Contribution Metrics.md",
+                "file": "Architecture/Clean Code Approach Reflection.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Coffe",
+                "query": "modular",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -158,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Companies Worked At/Contribution Metrics.md",
+                "file": "Architecture/Clean Code Approach Reflection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Companies Worked At/Contribution Metrics.md",
+                "file": "Architecture/Clean Code Approach Reflection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Companies Worked At/Contribution Metrics.md"
+                "file": "Architecture/Clean Code Approach Reflection.md"
               }
             }
           },
@@ -302,11 +290,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4b45129fe0ddc819",
+  "active": "eb6f53790bef9dae",
   "lastOpenFiles": [
-    "Companies/Companies Worked At/General Dev Issues.md",
-    "Companies/Companies Worked At/Contribution Metrics.md",
+    "Architecture/Boxing and Unboxing.md",
+    "Architecture/Clean Code Approach Reflection.md",
+    "Architecture/Clean Code.md",
     "Companies/Interview/Coffee Chat Interviewing.md",
+    "_CODE/Express/Dev Todo.md",
+    "Infographics/Process and Thread.jpeg",
+    "Infographics/System Design Cheatsheet.gif",
+    "Infographics/Work Process.png",
+    "Companies/Companies Worked At/Contribution Metrics.md",
+    "Companies/Interview/Experience Script.md",
+    "Companies/Interview/CV.md",
+    "Companies/Employment Best Personal Practices.md",
+    "Companies/Companies Worked At/General Dev Issues.md",
     "Algorithms & Data Structures/Problem-solving Regimen.md",
     "_Pdf/Joshua_Carpentier_Resume.pdf",
     "Algorithms & Data Structures/Algorithms/Key Base Attributes of  Grokking Algorithm patterns.md",
@@ -324,13 +322,6 @@
     "Algorithms & Data Structures/Algorithms/Dynamic Programming.md",
     "Algorithms & Data Structures/Algorithms/Greedy algorithms.md",
     "Algorithms & Data Structures/Algorithms/Knapsack Pattern.md",
-    "Algorithms & Data Structures/Algorithms/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
-    "Algorithms & Data Structures/Algorithms/Linear search vs Binary search.md",
-    "Algorithms & Data Structures/Algorithms/Memoization.md",
-    "Algorithms & Data Structures/Algorithms/Big O.md",
-    "Algorithms & Data Structures/Algorithms/Approach Pivot.md",
-    "Algorithms & Data Structures/Algorithms/Bitwise XOR.md",
-    "Algorithms & Data Structures/Algorithms/Bit-Binary.md",
     "_Images/factory.gif",
     "_Template/Whiteboard.png",
     "_Images/StepByStep.gif",
@@ -341,13 +332,10 @@
     "Companies/Companies Worked At/Next Company",
     "Companies/Companies Worked At/And the Next One",
     "Companies/Companies Worked At/And the Next One..",
-    "Infographics/Work Process.png",
     "_Low Priority Refinement/Companies",
     "Infographics/Message Systems.gif",
-    "Infographics/Testing/Ways to Test.gif",
     "Infographics/Language",
     "Infographics/Testing",
-    "Infographics/Web/Url Process.gif",
     "Infographics/Web",
     "Companies/Clout Chasing/Draft",
     "Mind Maps/Drafts/Event Messaging.canvas",

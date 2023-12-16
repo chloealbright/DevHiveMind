@@ -1,8 +1,11 @@
 ---
-tags: 
+tags:
+  - career
+  - data
 author:
   - jacgit18
-Status: init
+  - chatgpt
+Status: done
 Started: 
 EditDate: 
 Relates:
@@ -37,10 +40,10 @@ When describing the features you created in a codebase on your resume, you want 
 	- **Collaboration Tools:** Specify tools used for collaboration (e.g., Git, Jira).  
 	- **Team Size:** Indicate the size of the development team.  
 	  
-1. **Performance Improvements:**  
-- **Optimizations:** Describe any performance optimizations you implemented.  
-- **Scalability:** If applicable, mention improvements in system scalability.  
-  
+8. **Performance Improvements:**  
+	- **Optimizations:** Describe any performance optimizations you implemented.  
+	- **Scalability:** If applicable, mention improvements in system scalability.  
+	  
 When describing your achievements on your resume:  
   
 - **Quantify Impact:** Use specific numbers to quantify your impact, such as "Implemented X features, resulting in a Y% increase in system efficiency."  
@@ -52,3 +55,6 @@ When describing your achievements on your resume:
 - **Tailor to Job Descriptions:** Customize your resume based on the specific job descriptions to which you are applying, emphasizing relevant skills and achievements.  
   
 Remember to balance specificity with brevity and focus on the most significant contributions to make your resume compelling to potential employers.
+
+
+If I'm working on a feature that didn't exist previously, as opposed to something that was refactored by you, I wouldn't solely emphasize performance improvements. Instead, my focus would extend to various metrics pertinent to the newly introduced feature, ensuring a holistic evaluation that goes beyond just performance considerations.

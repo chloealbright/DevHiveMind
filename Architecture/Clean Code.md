@@ -15,6 +15,8 @@ Clean code is clear, understandable, and maintainable. When you write clean code
 
 Clean code principles lead to highly modular source code easier to read and test. If you think of these practices as part of a house, clean code is the foundation. Implementing clean code principles is a foundational skill that pays off especially well when refactoring code or testing code under test. 
 
+
+
 ## General rules
 - Follow standard conventions.
 - Keep it simple stupid. Simpler is always better. Reduce complexity as much as possible.

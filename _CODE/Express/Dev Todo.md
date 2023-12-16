@@ -26,6 +26,7 @@ Relates:
 - [ ] Code base decisions made at a higher level in terms of components and services and overall architecture and put in the pieces together  
 - [ ] And maybe even a higher level with technologies and stuff
 - [ ] Design patterns mindmap
+- [ ] look into which info-graphics can be recreated and integrated in to note vault 
 - [ ] Look into 12 Factor microservice
 - [ ] learn and use precompilers for CSS like Saas
 - [ ] identify areas of automation were ever you see 

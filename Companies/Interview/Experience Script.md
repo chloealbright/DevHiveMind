@@ -8,6 +8,15 @@ Started:
 EditDate: 
 Relates:
 ---
+## The Next Job
+
+
+## And the Next One 
+
+
+## And the Next One... 
+
+
 ## TD Bank - Business Systems Analyst 
 
 At TD I supported the transition to SAFe(Scaled agile framework) workflow, for both technical and non-technical teams. In agile ceremonies, I collaborated with Product Owners, Scrum Masters, and Stakeholders. Managing Jira tickets and doing backlog refinement for PI planing.

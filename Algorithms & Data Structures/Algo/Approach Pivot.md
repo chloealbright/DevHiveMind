@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - CodebaseDecision
 author:
   - jacgit18
 Status: init

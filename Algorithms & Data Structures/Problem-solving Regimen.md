@@ -16,7 +16,8 @@ Relates:
 1. **Focus on One Problem**: 
 	- Identify problem area.
 	- Pick one problem something simple like an array question or something.
-	- Read problems and break them down to understand don't solve practice doing until you feel comfortable then revisit and solve 
+	- Read problems and break them down to understand don't solve practice. doing until you feel comfortable then revisit and solve. 
+	- Keep in mind when to change [[Approach Pivot | Approach]]
 	- ***Consider Pair Programming when you get to Optimal approach level or Naive approach or once you fill that you have enough repetition***
   
 2. [[AlgoFlow#**Brute Force Algorithm** | Bruteforce]] **Solution**:  
@@ -39,4 +40,6 @@ Relates:
 	- Keep in mind that one pattern may be more Optimal then the other.
 	- Create helper functions for code modularity also implement naming convention. 
 
-
+## Problem Solving Template Tablet Version
+**Use Microsoft whiteboard and draw on to top of image
+![[Whiteboard.png]]

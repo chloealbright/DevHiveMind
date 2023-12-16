@@ -8,36 +8,50 @@ Relates:
 ---
 ### [[Declarative Coding]] Example
 
-**Array Map Method:**
-Watch out not to confuse it with the map data structure.
+**Array Map Method:** is apart of array wrapper class don't confuse it with map data structure.
 
 ```javascript
-// Convert num to string
-let num = 24;
-var str = num.toString(); // '24' now you can use string method
+const LengthCheck = (inputArray) => {
+  return Boolean(
+    inputArray?.length &&
+    inputArray
+      .trim()
+      .split(" ")
+      .pop()
+      .trim()
+      .length
+  );
+};
+
+// Example usage
+let myArray = "  some text   ";
+console.log(altLengthCheck(myArray)); // Outputs: true
 ```
 
-```javascript
-// Alt length check
-let myArray = [];
-console.log(myArray?.length ? true : false);
-
-// rm white-space at start and end > split by space into array > pop end of and get its length 
-.trim().split("").pop().length;                                                
-```
 
 ```javascript
-// Deep Clone
 const deepClone = (obj) => {
   if (typeof obj !== "object" || obj === null) return obj;
-  const newObj = Array.isArray(obj) ? [] : {};
-  for (let key in obj) {
-    const value = obj[key];
-    newObj[key] = deepClone(value);
-  }
-  return newObj;
+
+  return Array.isArray(obj)
+    ? obj.map(deepClone)
+    : Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, deepClone(value)]));
 };
 ```
+
+
+```javascript
+const removeDuplicates = (nums) => {
+  return Array.from(new Set(nums));
+};
+
+let theNum = [1, 2, 3, 1];
+let uniqueNums = removeDuplicates(theNum);
+console.log(uniqueNums);
+```
+
+
+
 
 ```javascript
 // Odd Even Check

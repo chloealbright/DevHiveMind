@@ -8,76 +8,55 @@ Relates:
 ---
 ### [[Imperative Coding]] Example
 
-```Javascript
-// Permutations 
+```javascript
+function LengthCheck(inputArray) {
+  let result = false;
 
-let findPermutations = (string) => { 
+  if (inputArray && inputArray.length) {
+    const trimmedArray = inputArray.trim().split(" ");
+    const lastElement = trimmedArray.pop();
+    const lastElementLength = lastElement.trim().length;
 
-  if (!string || typeof string !== "string"){ 
+    result = Boolean(lastElementLength);
+  }
 
-    return "Please enter a string" 
-
-  } else if (string.length < 2 ){ 
-
-    return string 
-
-  } 
-
-  let permutationsArray = [] 
-
-  for (let i = 0; i < string.length; i++){ 
-
-    let char = string[i] 
-
-    if (string.indexOf(char) != i) 
-
-    continue 
-
-    let remainingChars = string.slice(0, i) + string.slice(i + 1, string.length) 
-
-    for (let permutation of findPermutations(remainingChars)){ 
-
-      permutationsArray.push(char + permutation) } 
-
-  } 
-
-  return permutationsArray 
-
+  return result;
 }
 
+// Example usage
+let myArray = "  some text   ";
+console.log(checkAltLength(myArray)); // Outputs: true
+```
+
+
+```javascript
+const deepClone = (obj) => {
+  if (typeof obj !== "object" || obj === null) return obj;
+  const newObj = Array.isArray(obj) ? [] : {};
+  for (let key in obj) {
+    const value = obj[key];
+    newObj[key] = deepClone(value);
+  }
+  return newObj;
+};
 ```
 
 
 ```Javascript
-// Reverse/ Dequeue Array 
+const removeDuplicates = (nums) => { 
+    const unique = new Set(nums); 
 
-const dequeue = (arr) => { 
-
-  const length = arr.length; 
-
-  let result = []; 
-
-  let space = '  '; 
-
-  let indexStartOfWord; 
-
-  for (let i = 0; i < length; i++) { 
-
-    result.push(arr.pop()); 
-
-  } 
-
-  return result; 
-
+    if(unique.size === nums.length) return false; // only false if no duplicates exist 
+    
+    return true; 
 } 
 
-['hello', 'world', 'have'] 
-
-['have', 'world', 'hello']
-
-
-
+let theNum = [1, 2, 3, 1]; 
+console.log(containsDuplicate(theNum))
 ```
+
+
+
 
 ```Javascript
 // reverse string 
@@ -141,21 +120,4 @@ function reverseIterative(str){ 
   return backwards.join(''); 
 
 }
-```
-
-```Javascript
-let theNum = [1, 2, 3, 1]; 
-
-const RemoveDuplicates = (nums) => { 
-
-    const unique = new Set(nums); 
-
-    if(unique.size === nums.length) return false; // only false if no duplicates exist 
-
-    return true; 
-
-} 
-
-console.log(containsDuplicate(theNum))
-
 ```

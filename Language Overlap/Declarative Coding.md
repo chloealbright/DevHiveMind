@@ -1,6 +1,12 @@
 ---
 tags:
   - CodebaseDecision
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 
 Declarative meaning "what should be done at a high level with focus on the logic and concepts and the end result in mind ex: "a table for two" no steps included  

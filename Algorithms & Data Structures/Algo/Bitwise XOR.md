@@ -8,8 +8,6 @@ Started:
 EditDate: 
 Relates: "[[Bit-Binary]]"
 ---
-
-
 The Bitwise XOR (exclusive OR) operation is a bitwise operation that compares corresponding bits of two binary numbers. It returns a new binary number where each bit is the result of XOR'ing the corresponding bits of the input numbers. Here's the relationship between the Bitwise XOR Pattern and bit binary:
 
 1. **Bitwise XOR Operation**: When you perform a Bitwise XOR operation on two binary numbers, it compares each pair of bits from the same position in both numbers. If the bits are the same (both 0 or both 1), the result is 0. If the bits are different (one is 0 and the other is 1), the result is 1. 

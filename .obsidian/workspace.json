@@ -26,24 +26,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0444d62c43727ca1",
+            "id": "1c9a18d52c077329",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Common Declarative Algorithms.md",
+                "file": "Algorithms & Data Structures/Algo/Algorithms & Visual Abstraction.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1c9a18d52c077329",
+            "id": "0444d62c43727ca1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Algo/Approach Pivot.md",
+                "file": "Algorithms & Data Structures/Algo/Greedy algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
+                "file": "Algorithms & Data Structures/Algo/Greedy algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
+                "file": "Algorithms & Data Structures/Algo/Greedy algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md"
+                "file": "Algorithms & Data Structures/Algo/Greedy algorithms.md"
               }
             }
           },
@@ -277,8 +277,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4635985944c69ca8",
+  "active": "336e343a71fa6379",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Algo/Dynamic programming Patterns.md",
+    "Algorithms & Data Structures/Algo/Dynamic Programming.md",
+    "Algorithms & Data Structures/Algo/Dijkstra + Bellman-Ford shortest path.md",
+    "Algorithms & Data Structures/Algo/Depth First Search & Breadth-First Search.md",
+    "Algorithms & Data Structures/Algo/Bitwise XOR.md",
+    "Algorithms & Data Structures/Algo/Bit-Binary.md",
+    "Algorithms & Data Structures/Algo/Binary search 101.md",
+    "Algorithms & Data Structures/Algo/Big O.md",
+    "Algorithms & Data Structures/Algo/Algorithm Pattern vs Simple Solution.md",
+    "Algorithms & Data Structures/Algo/Algorithm Most Common Built in Functions.md",
+    "Algorithms & Data Structures/Common Declarative Algorithms.md",
+    "Algorithms & Data Structures/Algo/Algorithms & Visual Abstraction.md",
     "Algorithms & Data Structures/Algo/Approach Pivot.md",
     "Algorithms & Data Structures/Problem-solving Regimen.md",
     "Algorithms & Data Structures/Common Imperative Algorithms.md",
@@ -289,24 +301,12 @@
     "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
     "Algorithms & Data Structures/Recursion/Recursion & Recursion Runtime.md",
     "Language Overlap/Imperative Coding.md",
-    "Algorithms & Data Structures/Common Declarative Algorithms.md",
     "Language Overlap/Declarative Coding.md",
     "Companies/Interview/Experience Script.md",
     "Companies/Interview/High level problem solving pitch.md",
     "Home.md",
     "_Template/inter/Interview Template with TimeTable 1 1.md",
-    "_Template/inter/Interview Template with TimeTable.md",
-    "_Template/inter/Compressed Interview Template.md",
-    "Companies/Interview/Interview Preparation Questions.md",
     "_Template/Whiteboard.png",
-    "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
-    "Algorithms & Data Structures/Attributes of Data.md",
-    "Algorithms & Data Structures/Algo pathway.md",
-    "Algorithms & Data Structures/Coding Interview Tips.md",
-    "Algorithms & Data Structures/Discrete math.md",
-    "Algorithms & Data Structures/Algo/Bitwise XOR.md",
-    "Algorithms & Data Structures/Algo/Knapsack Pattern.md",
-    "Algorithms & Data Structures/All Sorts of Sorts.md",
     "_Images/StepByStep.gif",
     "_Images/Steps.gif",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",

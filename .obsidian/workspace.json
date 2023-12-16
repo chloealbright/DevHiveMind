@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Interview/Experience Script.md",
+                "file": "Companies/Interview/High level problem solving pitch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Interview/Experience Script.md",
+                "file": "Companies/Interview/High level problem solving pitch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Interview/Experience Script.md"
+                "file": "Companies/Interview/High level problem solving pitch.md"
               }
             }
           },
@@ -264,8 +264,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0444d62c43727ca1",
+  "active": "4635985944c69ca8",
   "lastOpenFiles": [
+    "Companies/Interview/Experience Script.md",
     "Companies/Interview/High level problem solving pitch.md",
     "Algorithms & Data Structures/Problem-solving Regimen.md",
     "Home.md",
@@ -292,7 +293,6 @@
     "Algorithms & Data Structures/Programmer vs Software Developer vs Coder vs Software architect.md",
     "Algorithms & Data Structures/Spacetime Complexity.md",
     "Language Overlap/Imperative Coding.md",
-    "Companies/Interview/Company Take-Home Project.md",
     "_Images/StepByStep.gif",
     "_Images/Steps.gif",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",

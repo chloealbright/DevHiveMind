@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "16e2c00af88db9b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Common Declaritive Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "33a9196b80620810",
@@ -44,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language Overlap/Declarative Coding.md",
+                "file": "Algorithms & Data Structures/Common Declarative Algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,9 +48,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6edc2365d3924f82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/AlgoFlow.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -146,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Common Imperative Algorithms.md",
+                "file": "Algorithms & Data Structures/AlgoFlow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Common Imperative Algorithms.md",
+                "file": "Algorithms & Data Structures/AlgoFlow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Common Imperative Algorithms.md"
+                "file": "Algorithms & Data Structures/AlgoFlow.md"
               }
             }
           },
@@ -290,14 +289,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1c9a18d52c077329",
+  "active": "6edc2365d3924f82",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Common Declaritive Algorithms.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
+    "Algorithms & Data Structures/Recursion/Recursion & Recursion Runtime.md",
     "Algorithms & Data Structures/Common Imperative Algorithms.md",
-    "Language Overlap/Declarative Coding.md",
-    "Language Overlap/Imperative Coding.md",
-    "Companies/Interview/Experience Script.md",
     "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "Language Overlap/Imperative Coding.md",
+    "Algorithms & Data Structures/Common Declarative Algorithms.md",
+    "Language Overlap/Declarative Coding.md",
+    "Companies/Interview/Experience Script.md",
     "Companies/Interview/High level problem solving pitch.md",
     "Home.md",
     "_Template/inter/Interview Template with TimeTable 1 1.md",
@@ -306,7 +307,6 @@
     "Companies/Interview/Interview Preparation Questions.md",
     "_Template/Whiteboard.png",
     "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
     "Algorithms & Data Structures/AlgoFlow.md",
     "Algorithms & Data Structures/Attributes of Data.md",
     "Algorithms & Data Structures/Algo pathway.md",
@@ -318,7 +318,6 @@
     "Algorithms & Data Structures/DeMorgans law.md",
     "Algorithms & Data Structures/Algo/k way merge vs 2-way Merge.md",
     "Algorithms & Data Structures/Programmer vs Software Developer vs Coder vs Software architect.md",
-    "Algorithms & Data Structures/Spacetime Complexity.md",
     "_Images/StepByStep.gif",
     "_Images/Steps.gif",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",

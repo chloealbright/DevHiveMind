@@ -56,68 +56,92 @@ console.log(containsDuplicate(theNum))
 ```
 
 
-
-
-```Javascript
-// reverse string 
-
-function reverseNoClosureJustRec (str) { 
-
-  if (str === "") { 
-
-      return ""; 
-
-  } else { 
-
-      return reverseNoClosureJustRec(str.substr(1)) + str.charAt(0); 
-
-  } 
-
-} 
-
-    // We are using closure here so that we don't add the above variables to the global scope. 
-
-function reverseRecursiveWay(str) { 
-
-    let arrayStr = str.split(""); 
-
-    let reversedArray = []; 
-
-    function addToArray(array) { 
-
-      if(array.length > 0) { 
-
-        reversedArray.push(array.pop()); 
-
-        addToArray(array); 
-
-      } 
-
-      return; 
-
-    } 
-
-    addToArray(arrayStr); 
-
-    return reversedArray.join(""); 
-
-  } 
-
-function reverseIterative(str){ 
-
-  if(!str || typeof str != 'string' || str.length < 2 ) return str; 
-
-  let backwards = []; 
-
-  let totalItems = str.length - 1; 
-
-  for(let i = totalItems; i >= 0; i--){ 
-
-    backwards.push(str[i]);// this is the same result as str.split() 
-
-  } 
-
-  return backwards.join(''); 
-
+```javascript
+// Odd Even Check
+let result;
+if (number % 2 === 0) {
+  result = Math.sqrt(num);
+} else {
+  result = parseFloat(Math.cbrt(num).toFixed(3));
 }
 ```
+
+
+```javascript
+// Count Characters
+const charCounter = (characterString) => {
+  let maxRepeat = 0;
+  let minRepeat = Infinity;
+  let letterFreq = {}, uniqueChars = 0;
+
+  for (let currChar of characterString) {
+    if (!letterFreq[currChar]) {
+      uniqueChars++;
+      letterFreq[currChar] = 1;
+    } else {
+      letterFreq[currChar]++;
+    }
+    maxRepeat = Math.max(maxRepeat, letterFreq[currChar]);
+    minRepeat = Math.min(minRepeat, letterFreq[currChar]);
+  }
+
+  return ['Letter Count: ', letterFreq, `UniqCharacter: ${uniqueChars}, MinRepeatCharacters: ${minRepeat}, MaxRepeatCharacters: ${maxRepeat}`];
+
+// Letter Count:  { c: 2, b: 3, a: 3, e: 1, d: 1 }                                                              
+
+// UniqCharacter: 5, 
+// MinRepeatCharacters: 1  
+// MaxRepeatCharacters: 3 
+```
+
+
+```javascript
+// Generate Array
+function generateAlphabetArray() {
+  let alphabetArray = [];
+  for (let i = 0; i < 26; i++) {
+    alphabetArray[i] = 0;
+  }
+  return alphabetArray;
+}
+
+function generateBoardArray(Row, Col, val) {
+  let boardArray = [];
+  for (let i = 0; i < Row; i++) {
+    boardArray[i] = [];
+    for (let j = 0; j < Col; j++) {
+      boardArray[i][j] = val;
+    }
+  }
+  return boardArray;
+}
+
+function handleGivenArray(arr) {
+  let newArray = [];
+  for (let i = 0; i < arr.length; i++) {
+    newArray[i] = arr[i];
+  }
+  return newArray;
+}
+
+// Example usage
+let AlphaBet = generateAlphabetArray();
+
+const Row = 9, Col = 9, val = 0;
+let boardNestedArray = generateBoardArray(Row, Col, val);
+
+let arr = [
+  [0, 1, 1, 1, 1, 1, 1, 1, 1],
+  [1, 1, 1, 1, 1, 1, 1, 1, 1],
+  [2, 1, 1, 1, 1, 1, 1, 1, 1],
+  [3, 1, 1, 1, 1, 1, 1, 1, 1],
+  [4, 1, 1, 1, 1, 1, 1, 1, 1],
+  [5, 1, 1, 1, 1, 1, 1, 1, 1],
+  [6, 1, 1, 1, 1, 1, 1, 1, 1],
+  [7, 1, 1, 1, 1, 1, 1, 1, 1],
+  [8, 1, 1, 1, 1, 1, 1, 1, 1]
+];
+
+let newArray = handleGivenArray([1, 2, 3, 4, 6, 7, 3, undefined]);
+```
+

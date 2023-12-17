@@ -4,89 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f1162259e55bc5fa",
+        "id": "6840e39ec9ff0263",
         "type": "tabs",
         "children": [
           {
-            "id": "7283f1811dcceb42",
+            "id": "114ae4dd55b4dd71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Project idea.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "25f67e1c1aff3bd6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Which normalization to pick.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1de9d83c42d9d1e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Normalization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7daa1443f23dbfae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Normalization & Denormalization Trade-offs.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ]
-      },
-      {
-        "id": "7491e6867d5c267b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "88cceefec65313c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Low Priority Refinement/Companies/Talking More Articulate Template.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "20566c24ddf35b3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Low Priority Refinement/Companies/People/People to know & TD Questions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Project idea.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Project idea.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Project idea.md"
+                "file": "Home.md"
               }
             }
           },
@@ -313,7 +246,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "336e343a71fa6379",
+  "active": "114ae4dd55b4dd71",
   "lastOpenFiles": [
     "_Low Priority Refinement/Companies/Talking More Articulate Template.md",
     "_Low Priority Refinement/_CODE/_Organize/Glossary.md",

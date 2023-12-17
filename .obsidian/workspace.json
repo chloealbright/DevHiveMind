@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "50e2248f8e7ccb18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Low Priority Refinement/_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part I  by aruva - empowering ideas  May, 2023  Medium.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e2a6f8367df41c41",
             "type": "leaf",
             "state": {
@@ -33,12 +21,34 @@
             "id": "497d0a9562d04df4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
+      },
+      {
+        "id": "1dee00018d1b3cd7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85fe20cf3f4647df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#CodebaseDecision",
+                "query": "Data Structures",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -100,7 +110,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -120,6 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,6 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +170,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md"
+              }
             }
           },
           {
@@ -260,8 +275,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "497d0a9562d04df4",
+  "active": "85fe20cf3f4647df",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
+    "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
+    "Algorithms & Data Structures/AlgoFlow.md",
+    "Language/Java/Application Deployment & Data Structures Notes.md",
+    "Home.md",
     "_Low Priority Refinement/_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part I  by aruva - empowering ideas  May, 2023  Medium.md",
     "_Low Priority Refinement/_CODE/_Capture/Obsidian Understanding its Core Design Principles  by TfTHacker  Obsidian Observer  Medium.md",
     "_Low Priority Refinement/_CODE/_Capture/My Obsidian Setup — My Notes and My Theme settings  by Nuno Campos  Obsidian Observer  Apr, 2023  Medium.md",
@@ -275,7 +295,6 @@
     "_NoteAssets/Markdown to use.md",
     "_NoteAssets/HTML Assets.md",
     "_NoteAssets/Callouts.md",
-    "Home.md",
     "Devops/Docker/Docker Entrypoint and CMD.md",
     "Devops/Docker/Docker Compose and Dockerfile.md",
     "Devops/Docker/Docker and kubernetes.md",
@@ -287,12 +306,8 @@
     "API",
     "_Low Priority Refinement/API/API.md",
     "Databases/Normalization & Denormalization Trade-offs.md",
-    "_Low Priority Refinement/Database/MYSQL Setup.md",
-    "Security/Unsafe functions.md",
     "Databases",
     "Security",
-    "_Low Priority Refinement/Security/Prototype Pollution.md",
-    "_Low Priority Refinement/Security/ESLint.md",
     "Infographics/Process and Thread.jpeg",
     "Infographics/System Design Cheatsheet.gif",
     "Infographics/Work Process.png",

@@ -10,25 +10,43 @@ Relates:
 ---
 ![[nonLinearRuntime.png]]
 
+### HashMap & HashTable
+
+**Insertion (CREATE/UPDATE) :
+- Hash-table: Worst: O(n), Average: O(1) for add()
+- HashMap: Worst: O(n), Average: O(1) for set()
+
+**Access(Read):**
+- Hash-table: Access may not be straightforward.
+- HashMap: Worst: O(n), Average: O(1) for get()
+
+**Search:**
+- Hash-table: Worst: O(n), Average: O(1) for search() or iterating through objects
+- HashMap: Worst: O(n), Average: O(1) for get() or iterating through objects
+
+**Delete(Delete/Update):**
+- Hash-table: Worst: O(n), Average: O(1) for remove()
+- HashMap: Worst: O(n), Average: O(1) for delete()
+
 # Binary Search Tree
 Binary Search Trees are data structures that maintain their elements in a way that allows for efficient searching and manipulation.
 
-- **Insert(Create/Update):** 
+**Insert(Create/Update):** 
   - **Worst-Case:** O(n)
   - **Average:** O(log(n))
   - **Explanation:** The time complexity for insertion in a BST can be O(n) in the worst case when the tree becomes unbalanced, but on average, it is O(log(n)) when the tree remains balanced. Insertion involves checking whether the new element is less than or greater than the current node and appropriately updating the tree.
 
-- **Access(Read):**
+**Access(Read):**
   - **Worst-Case:** O(n)
   - **Average:** O(log(n))
   - **Explanation:** Accessing a specific element in a BST, such as `root.left.right.left.value`, has a time complexity of O(n) in the worst case, but it is O(log(n)) on average in a balanced tree.
 
-- **Search:**
+**Search:**
   - **Worst-Case:** O(n)
   - **Average:** O(log(n))
   - **Explanation:** Searching in a BST can be O(n) in the worst case when the tree is unbalanced. However, on average, when the tree is balanced, it is O(log(n) due to the binary search property.
 
-- **Delete(Delete/Update):**
+**Delete(Delete/Update):**
   - **Worst-Case:** O(n)
   - **Average:** O(log(n))
   - **Explanation:** Deletion in a BST can be O(n) in the worst case when the tree is unbalanced, but it is O(log(n)) on average when the tree remains balanced. Deletion involves reassigning nodes or deleting leaf nodes and reassigning to null.

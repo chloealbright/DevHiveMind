@@ -4,46 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6840e39ec9ff0263",
+        "id": "4f067c782ee599e1",
         "type": "tabs",
         "children": [
           {
-            "id": "114ae4dd55b4dd71",
+            "id": "db62c5b58e6f2476",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Devops/Test Automation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c09595e26b094c79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "dacccd8acaf23338",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f071d32022a46db7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Devops/OS/wsl v vm.md",
+                "file": "Algorithms & Data Structures/Algorithms/Algorithm Most Common Built in Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -132,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Devops/Test Automation.md",
+                "file": "Algorithms & Data Structures/Algorithms/Algorithm Most Common Built in Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Devops/Test Automation.md",
+                "file": "Algorithms & Data Structures/Algorithms/Algorithm Most Common Built in Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops/Test Automation.md"
+                "file": "Algorithms & Data Structures/Algorithms/Algorithm Most Common Built in Functions.md"
               }
             }
           },
@@ -276,34 +246,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "114ae4dd55b4dd71",
+  "active": "db62c5b58e6f2476",
   "lastOpenFiles": [
-    "Devops/Terraform.md",
-    "Devops/Stages.md",
-    "Devops/hypervisor.md",
-    "Devops/GitHub Actions.md",
-    "Devops/Deployment Patterns.md",
-    "Devops/Deployment artifacts.md",
-    "Devops/Continuous Integration.md",
-    "Devops/Continuous Deployment.md",
-    "Devops/Version Control/GitHub tip.md",
-    "Devops/Version Control/GitHub Linux setup.md",
-    "Devops/Version Control/Git.md",
-    "Devops/Version Control/Common Git Workflow.md",
-    "_Low Priority Refinement/Companies/People/People to know & TD Questions.md",
-    "Devops/OS/wsl v vm.md",
+    "Language/_Build Tool/Gradle.md",
+    "Devops/OS/Linux/FS/home.md",
+    "Language/_Build Tool/Build Tools.md",
+    "Language/_Build Tool/Build.md",
+    "Language/_Build Tool/Ant.md",
+    "Devops/OS/Linux/vpn.md",
     "Devops/OS/dualboot.md",
-    "Devops/Docker/Shim.md",
-    "Devops/Docker/Open Container Initiative.md",
-    "Devops/Docker/Dockerd and Containerd.md",
-    "Devops/Docker/Docker volumes.md",
-    "Devops/Docker/Docker Tidbits.md",
-    "Devops/Docker/Docker networks.md",
-    "Devops/Docker/Docker Namespace in Deph.md",
-    "Devops/Docker/Docker Images containers Volumes.md",
-    "Devops/Docker/Docker Entrypoint and CMD.md",
-    "Devops/Docker/Docker Compose and Dockerfile.md",
-    "Devops/Docker/Docker and kubernetes.md",
+    "Devops/OS/wsl v vm.md",
+    "Devops/OS/Linux/Type of files in Linux.md",
+    "Devops/OS/Linux/Symbolic link.md",
+    "Devops/OS/Linux/SSH.md",
+    "Devops/OS/Linux/Quick note.md",
+    "Devops/OS/Linux/Linux Tips.md",
+    "Devops/OS/Linux/Linux SED.md",
+    "Devops/OS/Linux/Linux pipe v redirect example.md",
+    "Devops/OS/Linux/Linux Pipe.md",
+    "Devops/OS/Linux/Linux Overwrite and Append.md",
+    "Devops/OS/Linux/Linux Learning Plan.md",
+    "Devops/OS/Linux/Linux Image.md",
+    "Devops/OS/Linux/Linux file system explained.md",
+    "Devops/OS/Linux/Linux file permissions.md",
+    "Devops/OS/Linux/Linux diff.md",
+    "Devops/OS/Linux/Linux commands and tricks.md",
+    "Devops/OS/Linux/kernel.md",
+    "Devops/OS/Linux/Intsall Commands.md",
+    "Devops/OS/Linux/Desktop Icons.md",
     "_Template/test.svg",
     "_Template/Whiteboard.png",
     "Infographics/Piliars Of OOP.jpeg",

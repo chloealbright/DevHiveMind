@@ -21,10 +21,7 @@ Documentation 
 -   Database schemas are useful long after you've created them and will be viewed by many other people. So good documentation is essential. Document your database schema design with explicit instructions and write comment lines for scripts, triggers, and other commands.  
     
 
-Normalization 
 
--   Normalization ensures independent entities and relationships are not grouped in the same table, reducing redundancy and improving integrity. Use normalization as necessary to optimize database performance. Both over-normalization and under-normalization can lead to problems.  
-    
 
 Expertise 
 

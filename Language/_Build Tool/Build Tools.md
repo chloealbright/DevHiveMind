@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[Maven v Gradle.png]]
 
 Both ***Maven*** and ***Gradle*** fall into the category of build tools. They’re designed to automate the work involved to take your application’s source code and transform it into an ***artifact*** to be published. 

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Express is a back-end  [[Language/Typescript/Node.js]]
 
 -   Routing to determine how an application responds to a client request coming in at a particular endpoint, which is considered a URI (or path) and a specific HTTP request method (GET, POST, and so on).

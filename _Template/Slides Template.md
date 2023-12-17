@@ -1,6 +1,7 @@
 ---
 tags:
   - powerpoint
+  - Template
 author:
   - jacgit18
 Status: refinement

@@ -2,7 +2,6 @@
 tags:
   - favorite
   - Markup
-  - markdown
 author:
   - jacgit18
 Status: 

@@ -1,6 +1,7 @@
 ---
 tags:
   - Blog
+  - Template
 author: 
 Status: done
 Started: 

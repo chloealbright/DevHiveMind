@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: Organize
+Started: 
+EditDate: 
+Relates:
+---
 sudo apt-get install openssh-server 
 
 sudo update-alternatives --config java 
@@ -32,5 +41,3 @@ sudo nano /etc/hosts 
   282  mkcert -install 
 
 mkcert -install
-
-#toOrganize

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Flash Cards/CPU Thread Flash.md",
+                "file": "_Low Priority Refinement/Companies/People/People to know & TD Questions.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,20 +31,19 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "dacccd8acaf23338",
         "type": "tabs",
         "children": [
           {
-            "id": "80843e2c7826cd0f",
+            "id": "f071d32022a46db7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/Code Note Organization Experiment.md",
+                "file": "Architecture/Software vs Firmware.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#personalProcesses  ",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -133,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Architecture/Software vs Firmware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Architecture/Software vs Firmware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Architecture/Software vs Firmware.md"
               }
             }
           },
@@ -277,34 +276,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c09595e26b094c79",
+  "active": "336e343a71fa6379",
   "lastOpenFiles": [
-    "_Low Priority Refinement/_CODE/Code Note Organization Experiment.md",
-    "README.md",
-    "Home.md",
-    "_Low Priority Refinement/_CODE/Express/Study Session.md",
-    "_NoteAssets/Caret.md",
-    "_NoteAssets/Callouts.md",
-    "_NoteAssets/HTML Assets.md",
-    "_Official Documentation/pgAdmin Docs.md",
-    "_Official Documentation/PostgreSQL Docs.md",
-    "_Official Documentation/Untitled 2.md",
-    "_Official Documentation/Untitled 1.md",
-    "_Official Documentation/NPM Docs.md",
-    "_Template/_Blog Post.md",
-    "_Template/Slides Template.md",
-    "Language/Bash/Bash To organize.md",
-    "Language Overlap/CPUs.md",
-    "_Flash Cards/CPU Thread Flash.md",
-    "_Low Priority Refinement/Companies/Talking More Articulate Template.md",
+    "Architecture/SOLID Design Principles.md",
+    "Architecture/Stateless processes.md",
+    "Architecture/System Arch.md",
+    "Architecture/User Interface thoughts.md",
+    "Architecture/Web Architecture.md",
+    "Architecture/Vertical vs Horizontal scaling.md",
+    "Architecture/Web Server vs Application Server vs API.md",
+    "Architecture/When and How to Use Controllers to Operate on Resources.md",
+    "Architecture/When to Cast.md",
+    "Architecture/Scope 1.md",
+    "Architecture/Scope.md",
     "_Low Priority Refinement/_CODE/_Organize/Glossary.md",
-    "_Low Priority Refinement/Data Project Idea.md",
-    "_Low Priority Refinement/_CODE/_Capture/_Perpetual BAU.md",
-    "_Low Priority Refinement/_CODE/Express/Dev Todo.md",
-    "_Low Priority Refinement/Companies/People/People to know & TD Questions.md",
-    "_Low Priority Refinement/_CODE/_Capture/Companies & Favours.md",
-    "_Low Priority Refinement/Project idea.md",
+    "_Flash Cards/CPU Thread Flash.md",
     "_Low Priority Refinement/_CODE/Express/Be Aware.md",
+    "_Low Priority Refinement/Companies/People/People to know & TD Questions.md",
+    "_Low Priority Refinement/_CODE/Express/Tech Things to Research.md",
+    "_Low Priority Refinement/_CODE/Express/Dev Todo.md",
+    "_Low Priority Refinement/Companies/People/Introductory talk.md",
+    "_Low Priority Refinement/_CODE/Express/Study Session.md",
+    "Architecture/System Design/Elements Of A Distributed Systems.md",
+    "Architecture/Technology Options/File System Storage.md",
+    "Architecture/Technology Options/Load Balancers.md",
+    "Architecture/Technology Options/Database.md",
+    "Architecture/Technology Options/Caches.md",
+    "Language Overlap/introspection and reflection.md",
+    "Architecture/Functions rules.md",
     "Infographics/Piliars Of OOP.jpeg",
     "_Template/Whiteboard.png",
     "Architecture/Design Patterns.pdf",

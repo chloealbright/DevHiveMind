@@ -27,6 +27,7 @@ Relates:
 - [ ] And maybe even a higher level with technologies and stuff
 - [ ] Design patterns mindmap
 - [ ] look into which info-graphics can be recreated and integrated in to note vault 
+- [ ] Use dataView to sort inputs by status  
 - [ ] Look into 12 Factor microservice
 - [ ] learn and use precompilers for CSS like Saas
 - [ ] identify areas of automation were ever you see 

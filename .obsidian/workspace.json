@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md",
+                "file": "_Low Priority Refinement/_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part I  by aruva - empowering ideas  May, 2023  Medium.md",
                 "mode": "source",
                 "source": false
               }
@@ -28,8 +28,17 @@
                 "file": "_Template/Whiteboard.png"
               }
             }
+          },
+          {
+            "id": "497d0a9562d04df4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Metrics",
+                "query": "tag:#CodebaseDecision",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -91,8 +100,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -112,7 +120,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +136,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,9 +157,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_Low Priority Refinement/_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md"
-              }
+              "state": {}
             }
           },
           {
@@ -256,8 +260,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "50e2248f8e7ccb18",
+  "active": "497d0a9562d04df4",
   "lastOpenFiles": [
+    "_Low Priority Refinement/_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part I  by aruva - empowering ideas  May, 2023  Medium.md",
+    "_Low Priority Refinement/_CODE/_Capture/Obsidian Understanding its Core Design Principles  by TfTHacker  Obsidian Observer  Medium.md",
+    "_Low Priority Refinement/_CODE/_Capture/My Obsidian Setup — My Notes and My Theme settings  by Nuno Campos  Obsidian Observer  Apr, 2023  Medium.md",
+    "_Low Priority Refinement/_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md",
     "_Low Priority Refinement/_CODE/_Capture/Distributed tracking and monitoring.md",
     "_Low Priority Refinement/_CODE/_Capture/Designing Class to be Serializable.md",
     "_Low Priority Refinement/_CODE/_Capture/Design Patterns and Pattern Languages.md",
@@ -285,10 +293,6 @@
     "Security",
     "_Low Priority Refinement/Security/Prototype Pollution.md",
     "_Low Priority Refinement/Security/ESLint.md",
-    "_Low Priority Refinement/Security/Computer system security.md",
-    "_Low Priority Refinement/Security/Code Defects.md",
-    "_Low Priority Refinement/Companies/12 Key Metrics for Measuring Service Performance.md",
-    "Companies/Companies Worked At/Contribution Metrics.md",
     "Infographics/Process and Thread.jpeg",
     "Infographics/System Design Cheatsheet.gif",
     "Infographics/Work Process.png",

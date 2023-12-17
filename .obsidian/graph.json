@@ -1,8 +1,8 @@
 {
   "collapse-filter": false,
-  "search": "Regimen.gif",
+  "search": "tag:#CodebaseDecision  ",
   "showTags": true,
-  "showAttachments": true,
+  "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": true,

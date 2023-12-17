@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 three rules for organizing data in a database. These are called normalization rules, and they help us to reduce redundancy and improve the integrity of our data. These first three rules, called first, second, and third normal form, are considered to be the standard level of optimization for a business database. Applying these rules is an important step in designing any database. These rules are sets of formal criteria, and they build on top of each other, step by step. We move through the forms as we optimize our database to third normal form. The definitions of these forms are pretty academic, and they're interesting to look up if you're curious about the mathematics behind how databases work. When a normalization rule has been applied to a database, we can say that the database is in that normal form. There are many normal forms beyond third normal form, but we won't cover them here because they get a little bit exotic for a basic database like ours. 
 
  Normalization helps us prevent problems in working with our data, and the process should be revisited whenever there's a change to the schema or the structure of a database. 

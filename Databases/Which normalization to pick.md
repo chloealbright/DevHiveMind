@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 When designing a database schema, it is generally a good idea to aim for a normalization level that is appropriate for the needs of the application.  
 
 It's important to note that aiming for a higher level of normalization may not always be necessary or practical for every application. It depends on the specific needs of the application and the trade-offs between performance, storage efficiency, and maintainability. In some cases, denormalization (i.e. intentionally introducing redundancies) may be appropriate to optimize for certain queries or use cases. 

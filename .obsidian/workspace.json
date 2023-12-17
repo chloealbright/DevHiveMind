@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Capture/_Perpetual BAU.md",
+                "file": "_Low Priority Refinement/Database/DB Stuff.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,55 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Repositories, Factories, and domain services.md",
+                "file": "Databases/Which normalization to pick.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1de9d83c42d9d1e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Normalization.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7daa1443f23dbfae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Normalization & Denormalization Trade-offs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "7491e6867d5c267b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88cceefec65313c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Low Priority Refinement/_CODE/_Organize/Talking More Articulate Template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Repositories, Factories, and domain services.md",
+                "file": "_Low Priority Refinement/Database/DB Stuff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Repositories, Factories, and domain services.md",
+                "file": "_Low Priority Refinement/Database/DB Stuff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Repositories, Factories, and domain services.md"
+                "file": "_Low Priority Refinement/Database/DB Stuff.md"
               }
             }
           },
@@ -259,34 +300,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "25f67e1c1aff3bd6",
+  "active": "7283f1811dcceb42",
   "lastOpenFiles": [
-    "_Low Priority Refinement/Architecture/System Design/Domain-driven design Pivot.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-driven design Life Cycle.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Event Types.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Application Services.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Aggregate Root.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-driven design.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain Model Testing Focus.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain model.md",
-    "_Low Priority Refinement/API/What is a REST API.md",
-    "_Low Priority Refinement/API/What is a REST AP.md",
-    "_Low Priority Refinement/API/Ways to Use a Private API.md",
-    "_Low Priority Refinement/API/The six constraints of REST.md",
-    "_Low Priority Refinement/API/The general HTTP authentication framework.md",
-    "_Low Priority Refinement/API/Representation Design more to go over.md",
-    "_Low Priority Refinement/API/other aspect of api.md",
-    "_Low Priority Refinement/API/Mastering the Art of API Design - by Alex Xu.md",
-    "_Low Priority Refinement/API/General Recommendations.md",
-    "_Low Priority Refinement/API/Different Types Of Encoding Schemes.md",
-    "_Low Priority Refinement/API/Controlling API Traffic.md",
-    "_Low Priority Refinement/API/Client Concerns.md",
-    "_Low Priority Refinement/API/Authentication vs Authorization.md",
-    "_Low Priority Refinement/API/API Security and User Management.md",
-    "_Low Priority Refinement/API/API.md",
-    "_Low Priority Refinement/API/API Archetecture/API designs to cons.md",
-    "_Low Priority Refinement/API/API Archetecture/API designs to consider.md",
-    "_Low Priority Refinement/API/API Archetecture/API Metadata Desig.md",
+    "_Low Priority Refinement/_CODE/_Organize/Talking More Articulate Template.md",
+    "_Low Priority Refinement/_CODE/_Capture/_Perpetual BAU.md",
+    "_Low Priority Refinement/Database/DB Stuff.md",
+    "_Low Priority Refinement/Security/Prototype Pollution.md",
+    "_Low Priority Refinement/Security/OAuth 2.0.md",
+    "_Low Priority Refinement/Security/JWT authentication- Best practices.md",
+    "_Low Priority Refinement/Security/How do JSON Web Tokens work.md",
+    "_Low Priority Refinement/Security/ESLint.md",
+    "_Low Priority Refinement/Security/Computer system security.md",
+    "_Low Priority Refinement/Security/Code Defects.md",
+    "_Low Priority Refinement/Database/DBMS.md",
+    "_Low Priority Refinement/Database/Functional Dependencies.md",
+    "_Low Priority Refinement/Database/GUIDs.md",
+    "_Low Priority Refinement/Database/Hadoop.md",
+    "_Low Priority Refinement/Database/Keys.md",
+    "_Low Priority Refinement/Database/Multi Model DB.md",
+    "_Low Priority Refinement/Database/MYSQL Setup.md",
+    "_Low Priority Refinement/Database/NoSQL vs SQL.md",
+    "_Low Priority Refinement/Database/Other Stuff.md",
+    "_Low Priority Refinement/Database/Self-joining relationships.md",
+    "_Low Priority Refinement/Database/Types of Tables in logical database models.md",
+    "_Low Priority Refinement/Database/Triggers in SQL.md",
+    "_Low Priority Refinement/Database/DB Data Types.md",
+    "_Low Priority Refinement/Database/Relationships/Table Relationships.md",
+    "_Low Priority Refinement/Database/Relationships/SQL Table Structure.md",
+    "_Low Priority Refinement/Database/Relationships/Relationship Reading.md",
     "Infographics/Piliars Of OOP.jpeg",
     "_Template/Whiteboard.png",
     "Architecture/Design Patterns.pdf",

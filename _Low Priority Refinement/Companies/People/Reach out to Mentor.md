@@ -1,3 +1,11 @@
+---
+tags: 
+author: 
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 **_Hi Molly,_**
 
 _I work in the education field, but someday (someday!) I hope to be a “[real writer](https://www.themuse.com/advice/how-anyone-and-we-mean-anyone-can-become-a-freelance-writer),” whatever that means. Through a family friend, I received the email address of a famous (to me at least) writer that I would like to contact for advice. I’ve never emailed someone I admire from afar, let alone someone I respect as much as this author. I would ideally love for her to be my writing [mentor](https://www.themuse.com/advice/how-to-find-qualities-good-mentor), but I am sure that is a huge long shot, so I would be happy with just getting a response from her. Any tips for crafting the perfect email?_ 

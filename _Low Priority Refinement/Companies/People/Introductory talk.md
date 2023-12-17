@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Reading well the job description, keeping it visible during the interview, and highlighting your skills using the words used in the requirements.  
   
 Research the company briefly and get an understanding of the main products.  

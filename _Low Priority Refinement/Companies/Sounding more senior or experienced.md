@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Talk slower emphasize words and pause deliberately  
   
 Interrupt the interrupter  

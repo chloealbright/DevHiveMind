@@ -1,3 +1,11 @@
+---
+tags: 
+author: 
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 In very simple words, this role is a combination of an intermediate between a pure developer role and a pure tester role. SDETs are skilled professionals in both – Quality Engineering as well as Software Development.  
   
 The term SDET was first invented by Microsoft, which was then followed and used by most big Product names like Google, Amazon, Adobe, Expedia, etc. The role’s major expectations were to replace manual repetitive tasks with some automation to increase efficiency as well as reliability for the applications under test.  

@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Capture/Designing Class to be Serializable.md",
+                "file": "_Low Priority Refinement/_CODE/_Organize/Tech tips.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "91707f1d92b88db2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Open Source/To Look into.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "76949c46d7ea0d80",
@@ -120,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Capture/Designing Class to be Serializable.md",
+                "file": "Open Source/To Look into.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Capture/Designing Class to be Serializable.md",
+                "file": "Open Source/To Look into.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Capture/Designing Class to be Serializable.md"
+                "file": "Open Source/To Look into.md"
               }
             }
           },
@@ -264,8 +277,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e2a6f8367df41c41",
+  "active": "91707f1d92b88db2",
   "lastOpenFiles": [
+    "Open Source/Syncthing Obsidian.md",
+    "Open Source/Syncthing.md",
+    "_Low Priority Refinement/_CODE/_Organize/Tech tips.md",
+    "_Low Priority Refinement/_CODE/_Organize/Talking More Articulate Template.md",
+    "_Low Priority Refinement/_CODE/_Capture/_Perpetual BAU.md",
+    "_Low Priority Refinement/_CODE/Distill/How to Become a Good Backend Engineer (Fundamentals).md",
+    "_Low Priority Refinement/_CODE/Distill/Development Perpetual Practices.md",
+    "Language/Programming paradigms.md",
+    "Language/Static Method Reference.md",
+    "Language/Domain-specific programming languages.md",
+    "Language/Java/Designing Class to be Serializable.md",
     "Architecture/Pattern Languages.md",
     "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Event Types.md",
     "Architecture/Codebase Separate vs Combined Repositories.md",
@@ -283,19 +307,8 @@
     "Web/Proxy.md",
     "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Aggregate Root.md",
     "_Low Priority Refinement/Database/Relationships/Relationship Reading.md",
-    "Web/Proxy server.md",
-    "Architecture/Design Patterns Diagrams.md",
     "Architecture/Design Patterns.pdf",
-    "Architecture/Design Patterns.md",
     "_Images/Database/relational model.png",
-    "_Low Priority Refinement/Database/Relationships/Table Relationships.md",
-    "_Low Priority Refinement/Database/Relationships/SQL Table Structure.md",
-    "Architecture/Distributed tracking and monitoring.md",
-    "Home.md",
-    "_Low Priority Refinement/_CODE/_Capture/Obsidian Understanding its Core Design Principles  by TfTHacker  Obsidian Observer  Medium.md",
-    "_Low Priority Refinement/_CODE/_Capture/My Obsidian Setup — My Notes and My Theme settings  by Nuno Campos  Obsidian Observer  Apr, 2023  Medium.md",
-    "_Low Priority Refinement/_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md",
-    "_Low Priority Refinement/_CODE/_Capture/Designing Class to be Serializable.md",
     "API",
     "Databases",
     "Security",

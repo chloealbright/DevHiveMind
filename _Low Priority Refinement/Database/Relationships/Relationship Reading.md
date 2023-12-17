@@ -17,3 +17,11 @@ A Job would have many Job Skill records.
 A Job Skill record would belong to one Job and one Skill.  
   
 A Job Match record would belong to one Job and one Resume.
+
+
+
+Relational databases use a schema to define tables and the relationships between them. They are based on the relational model, emphasizing data consistency and integrity.
+
+A simple relational model representation
+
+

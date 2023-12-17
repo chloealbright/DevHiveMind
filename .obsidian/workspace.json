@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Capture/_Perpetual BAU.md",
+                "file": "_Low Priority Refinement/Project idea.md",
                 "mode": "source",
                 "source": false
               }
@@ -67,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Organize/Talking More Articulate Template.md",
+                "file": "_Low Priority Refinement/Companies/Talking More Articulate Template.md",
                 "mode": "source",
                 "source": false
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Capture/_Perpetual BAU.md",
+                "file": "_Low Priority Refinement/Project idea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Capture/_Perpetual BAU.md",
+                "file": "_Low Priority Refinement/Project idea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Capture/_Perpetual BAU.md"
+                "file": "_Low Priority Refinement/Project idea.md"
               }
             }
           },
@@ -313,16 +313,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7283f1811dcceb42",
+  "active": "336e343a71fa6379",
   "lastOpenFiles": [
-    "_Low Priority Refinement/_CODE/Express/Dev Todo.md",
+    "_Low Priority Refinement/Companies/Talking More Articulate Template.md",
+    "_Low Priority Refinement/_CODE/_Organize/Glossary.md",
+    "_Low Priority Refinement/Data Project Idea.md",
     "_Low Priority Refinement/_CODE/_Capture/_Perpetual BAU.md",
-    "_Low Priority Refinement/_CODE/_Organize/Talking More Articulate Template.md",
+    "_Low Priority Refinement/_CODE/Express/Dev Todo.md",
     "_Low Priority Refinement/Companies/People/People to know & TD Questions.md",
     "_Low Priority Refinement/_CODE/_Capture/Companies & Favours.md",
-    "_Low Priority Refinement/_CODE/_Organize/Project idea.md",
-    "_Low Priority Refinement/_CODE/_Organize/Glossary.md",
-    "_Low Priority Refinement/_CODE/_Organize/Data Project Idea.md",
+    "_Low Priority Refinement/Project idea.md",
     "_Low Priority Refinement/_CODE/Express/Be Aware.md",
     "_Low Priority Refinement/_CODE/Code Note Organization Experiment.md",
     "_Low Priority Refinement/Companies/Development Perpetual Practices.md",

@@ -4,30 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "4f067c782ee599e1",
+        "id": "6840e39ec9ff0263",
         "type": "tabs",
         "children": [
           {
-            "id": "db62c5b58e6f2476",
+            "id": "e6c493deea4ead5c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Algorithms/Algorithm Most Common Built in Functions.md",
+                "file": "_Low Priority Refinement/Database/Database Archetecture/Best Practices for Database Schema Design.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "28123fc0382531b3",
+            "id": "c09595e26b094c79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/API/API.md",
+                "file": "Devops/OS/Linux/Cerebro Program.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "bc7f31a83edeaeb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/_Build Tool/Gradle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "731c49a85f1f15ed",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Infographics/DevOps/Linux File System.jpeg"
               }
             }
           }
@@ -115,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/API/API.md",
+                "file": "Devops/OS/Linux/Cerebro Program.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/API/API.md",
+                "file": "Devops/OS/Linux/Cerebro Program.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/API/API.md"
+                "file": "Devops/OS/Linux/Cerebro Program.md"
               }
             }
           },
@@ -259,11 +281,33 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "28123fc0382531b3",
+  "active": "c09595e26b094c79",
   "lastOpenFiles": [
+    "Devops/OS/Linux/FS/root sign.md",
+    "Devops/OS/Linux/FS/root.md",
+    "Devops/OS/Linux/Cerebro Program.md",
+    "Infographics/DevOps/Linux File System.jpeg",
+    "Infographics/DevOps/Linux Boot Process.gif",
+    "Devops/OS/Linux/FS/home.md",
+    "Devops/OS/Linux/Distros/Distros Explained.md",
+    "Devops/Test Automation.md",
+    "Devops/Terraform.md",
+    "Devops/Stages.md",
+    "Devops/hypervisor.md",
+    "Devops/GitHub Actions.md",
+    "Devops/Deployment Patterns.md",
+    "Devops/Continuous Integration.md",
+    "Devops/Continuous Deployment.md",
+    "Infographics/Cloud/Cloud Monitoring Services.jpeg",
+    "Infographics/Load Balance Algo.jpeg",
+    "Infographics/Architecture/Architect Styles.jpeg",
+    "Infographics/Architecture/Database Selection Process.webp",
+    "Infographics/Architecture/Domain Flow.jpeg",
+    "Infographics/Architecture/Model Patterns.jpeg",
+    "Infographics/Architecture/StackOverflow.jpg",
+    "_Low Priority Refinement/API/API.md",
     "Algorithms & Data Structures/Algorithms/Algorithm Most Common Built in Functions.md",
     "Language/_Build Tool/Gradle.md",
-    "Devops/OS/Linux/FS/home.md",
     "Language/_Build Tool/Build Tools.md",
     "Language/_Build Tool/Build.md",
     "Language/_Build Tool/Ant.md",
@@ -274,34 +318,12 @@
     "Devops/OS/Linux/Symbolic link.md",
     "Devops/OS/Linux/SSH.md",
     "Devops/OS/Linux/Quick note.md",
-    "Devops/OS/Linux/Linux Tips.md",
-    "Devops/OS/Linux/Linux SED.md",
-    "Devops/OS/Linux/Linux pipe v redirect example.md",
-    "Devops/OS/Linux/Linux Pipe.md",
-    "Devops/OS/Linux/Linux Overwrite and Append.md",
-    "Devops/OS/Linux/Linux Learning Plan.md",
-    "Devops/OS/Linux/Linux Image.md",
-    "Devops/OS/Linux/Linux file system explained.md",
-    "Devops/OS/Linux/Linux file permissions.md",
-    "Devops/OS/Linux/Linux diff.md",
-    "Devops/OS/Linux/Linux commands and tricks.md",
-    "Devops/OS/Linux/kernel.md",
-    "Devops/OS/Linux/Intsall Commands.md",
     "_Template/test.svg",
-    "_Template/Whiteboard.png",
-    "Infographics/Piliars Of OOP.jpeg",
     "Architecture/Design Patterns.pdf",
-    "_Images/Database/relational model.png",
     "API",
     "Databases",
     "Security",
-    "Infographics/Process and Thread.jpeg",
-    "Infographics/System Design Cheatsheet.gif",
-    "Infographics/Work Process.png",
     "_Pdf/Joshua_Carpentier_Resume.pdf",
-    "_Images/factory.gif",
-    "_Images/StepByStep.gif",
-    "_Images/Steps.gif",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
     "Companies/Companies Worked At/Next Company",
     "Companies/Companies Worked At/And the Next One",

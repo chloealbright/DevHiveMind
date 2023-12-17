@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 - Each user has its own /home folder.
 - Storage of your personal files and documents.
 - Each user can only access their own /home folder unless they use admin permissions.

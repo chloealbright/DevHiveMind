@@ -1,3 +1,13 @@
+---
+tags: 
+author:
+  - jacgit18
+  - chatgpt
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Distributed tracking and monitoring are critical components of managing and maintaining large-scale distributed systems. These practices involve the collection, analysis, and visualization of data related to the performance, health, and behavior of the distributed components in a system. By effectively tracking and monitoring distributed systems, organizations can gain valuable insights, detect issues, and ensure the overall reliability and availability of the system.
 
 Distributed tracking typically involves the following key aspects:

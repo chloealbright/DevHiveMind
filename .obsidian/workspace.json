@@ -11,9 +11,11 @@
             "id": "e2a6f8367df41c41",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "_Template/Whiteboard.png"
+                "file": "_Low Priority Refinement/_CODE/_Capture/Designing Class to be Serializable.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -54,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#CodebaseDecision",
+                "query": "generic",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -118,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Template/Whiteboard.png",
+                "file": "_Low Priority Refinement/_CODE/_Capture/Designing Class to be Serializable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Template/Whiteboard.png",
+                "file": "_Low Priority Refinement/_CODE/_Capture/Designing Class to be Serializable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Template/Whiteboard.png"
+                "file": "_Low Priority Refinement/_CODE/_Capture/Designing Class to be Serializable.md"
               }
             }
           },
@@ -264,11 +266,22 @@
   },
   "active": "e2a6f8367df41c41",
   "lastOpenFiles": [
-    "Web/Proxy.md",
+    "Architecture/Pattern Languages.md",
     "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Event Types.md",
+    "Architecture/Codebase Separate vs Combined Repositories.md",
+    "Architecture/Code standards.md",
+    "Architecture/Clean Code.md",
+    "Architecture/Architect decision.md",
+    "Language/Typescript/Generic Types.md",
+    "Infographics/Piliars Of OOP.jpeg",
+    "Language/Java/Java details.md",
+    "Language Overlap/Java v TypeScript.md",
+    "Architecture/Identify areas where it make sense to use Multi threading,  concurrency, collections, generics, and annotations.md",
     "_Low Priority Refinement/Architecture/System Design/Leverage  Domain-Driven Designs to Learn Codebase.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design with Persistent Data.md",
+    "_Template/Whiteboard.png",
+    "Web/Proxy.md",
     "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Aggregate Root.md",
-    "_Low Priority Refinement/_CODE/_Capture/Design Patterns and Pattern Languages.md",
     "_Low Priority Refinement/Database/Relationships/Relationship Reading.md",
     "Web/Proxy server.md",
     "Architecture/Design Patterns Diagrams.md",
@@ -277,22 +290,12 @@
     "_Images/Database/relational model.png",
     "_Low Priority Refinement/Database/Relationships/Table Relationships.md",
     "_Low Priority Refinement/Database/Relationships/SQL Table Structure.md",
-    "_Template/Whiteboard.png",
     "Architecture/Distributed tracking and monitoring.md",
     "Home.md",
     "_Low Priority Refinement/_CODE/_Capture/Obsidian Understanding its Core Design Principles  by TfTHacker  Obsidian Observer  Medium.md",
     "_Low Priority Refinement/_CODE/_Capture/My Obsidian Setup — My Notes and My Theme settings  by Nuno Campos  Obsidian Observer  Apr, 2023  Medium.md",
     "_Low Priority Refinement/_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md",
     "_Low Priority Refinement/_CODE/_Capture/Designing Class to be Serializable.md",
-    "Algorithms & Data Structures/Problem-solving Regimen.md",
-    "_NoteAssets/Markdown to use.md",
-    "_NoteAssets/HTML Assets.md",
-    "_NoteAssets/Callouts.md",
-    "Devops/Docker/Docker Entrypoint and CMD.md",
-    "Devops/Docker/Docker Compose and Dockerfile.md",
-    "Devops/Docker/Docker and kubernetes.md",
-    "Devops/Build/Overview of Build Automation.md",
-    "Cloud/AWS/AWS Cloud Services.md",
     "API",
     "Databases",
     "Security",
@@ -305,7 +308,6 @@
     "_Images/Steps.gif",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
     "_Images/Unthered.gif",
-    "_Images/Companies Models/Money Talk.gif",
     "Companies/Companies Worked At/Next Company",
     "Companies/Companies Worked At/And the Next One",
     "Companies/Companies Worked At/And the Next One..",

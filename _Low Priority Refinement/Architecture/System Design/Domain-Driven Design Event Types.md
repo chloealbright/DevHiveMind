@@ -22,3 +22,5 @@ There are typically two main types of events in DDD:
     
 
 In summary, events in Domain-Driven Design serve as a means of capturing and communicating changes in the system, promoting a more flexible and decoupled architecture. They play a crucial role in modeling the behavior and evolution of a system within its business context.
+
+

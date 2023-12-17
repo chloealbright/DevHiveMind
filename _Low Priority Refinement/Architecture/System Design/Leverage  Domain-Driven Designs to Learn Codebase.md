@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - Domain
 author:
   - jacgit18
 Status: init

@@ -253,3 +253,14 @@ const result = testAny("Hello"); // 'result' has type 'any'
 ```
 
 In summary, `test<T>` is a generic function that maintains type safety and flexibility, while `test<any>` is less safe and should be used sparingly, typically only when dealing with data of unknown or dynamic types.
+
+
+In programming, when you encounter `<T>` or similar placeholders like `<ABC>`, you can replace them with any identifier, and the code will function equivalently. This practice is for convenience and readability in generic programming.  
+  
+- `<T>` is a generic term representing any type.  
+- `<E>` is commonly used to denote the element type in data structures.  
+- `<N>` often refers to the number type, typically used in mathematical or numerical contexts.  
+- `<V>` stands for value, suitable for representing a general value in the context.  
+- `<K>` is commonly used to denote a key, often seen in the context of key-value pairs.  
+  
+This naming convention enhances code clarity by providing meaningful hints about the intended role or purpose of the generic type within the code.

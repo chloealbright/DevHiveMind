@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 “pages/” vs. “ui/” 
 
 The split between src/pages/ and src/ui/ is also purposeful and by design. While ui/ is meant to be a collection of reusable React code(i.e. components, hooks, and contexts ), pages/ specifically (a) maps components to routes and (b) composes ui/ and lib/ code together. Generally speaking, code should never depend upon (i.e. import) code from pages/ except for (a) src/App.js setting up the top-level routes and (b) parent pages on sub-pages (i.e. component for route http://example.org/invoices imports component page handing route http://example.org/invoices/:id.). 

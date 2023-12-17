@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ### Before separating props and state, let's also identify where they overlap. 
 ```
 Both props and state are plain JS objects 

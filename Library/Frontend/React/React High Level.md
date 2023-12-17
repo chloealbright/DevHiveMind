@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[React Icon.gif]]
 
 -   React was created because of the need to manipulate the [DOM](onenote:Markup%20Language.one#DOM&section-id={da439dc5-1ba5-4ca1-a3ec-ea25cd45339b}&page-id={fc0baa67-e76e-42ee-a04a-daffc5d782d4}&end) more efficiently so it created a virtual DOM to do this which made things more secure especially in terms of data when handling it. 

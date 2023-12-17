@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 JavaFX is an open source library of classes used in next generation client application platform for desktop, mobile and embedded systems built on Java. It is a collaborative effort by many individuals and companies with the goal of producing a modern, efficient, and fully featured toolkit for developing rich client applications.
 
 FXML is an XML-based user interface markup language created by Oracle Corporation for defining the user interface of a JavaFX application. FXML presents an alternative to designing user interfaces using procedural code, and allows for abstracting program design from program logic.

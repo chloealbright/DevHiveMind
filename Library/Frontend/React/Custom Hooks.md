@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 A custom hook is basically a JavaScript function whose name starts with use 
 
 A custom hook can also use other hooks if needed 

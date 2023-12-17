@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Mounting life cycle methods are called when an instance of a component is being created and inserted into DOM 
 
 The Life Cycle method are executed in a specific order the first being the constructor which is called whenever a component is created and is used to initialize state and binding event handlers to class instance or state  

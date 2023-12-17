@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ## what are Props? 
 
 Props are a way to pass data from parent component to child component. Props are passed to components via HTML attributes. Props are immutable meaning can't be reassigned. 

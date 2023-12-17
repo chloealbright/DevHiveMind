@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 
 if you update react on a project this can cause other library to stop working because maybe the library isn't maintained any more so you can look on npm for alt library 
 

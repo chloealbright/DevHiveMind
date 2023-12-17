@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 The main responsibility of a Component is to translate raw data into rich HTML. With that in mind, the props and the state together constitute the raw data that the HTML output derives from. 
 
 You could say props + state is the input data for the render() function of a Component, so we need to zoom in and see what each data type represents and where does it come from Because we also use [Cosmos](https://reactcosmos.org/)  library where props can contain an initial state, getting this straight is crucial. 

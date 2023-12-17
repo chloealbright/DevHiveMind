@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Each component in React has a lifecycle that you can monitor and manipulate during its three main phases. mounting, updating, and unmounting. 
 
 ```javascript

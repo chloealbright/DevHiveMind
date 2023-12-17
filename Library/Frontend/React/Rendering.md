@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 When running react App the code from the component gets translated into elements that will get mounted on the DOM. This process has two phase which are the render phase & commit phase  
 
 ## Initial Render Process 

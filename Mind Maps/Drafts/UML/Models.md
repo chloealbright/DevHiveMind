@@ -1,5 +1,14 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 
-notes can also be converted into different diagram models
+
 
 
 ![[Modeling.png]]

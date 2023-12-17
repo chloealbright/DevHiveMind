@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part I  by aruva - empowering ideas  May, 2023  Medium.md",
+                "file": "Web/Proxy.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "4ed0d0557393fcbe",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Architecture/Design Patterns.pdf"
               }
             }
           }
@@ -31,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Capture/Design Patterns A Guide to JavaScript Development Principles for Clean and Scalable Code  by Anto Semeraro  Jun, 2023  JavaScript in Plain English.md",
+                "file": "_Low Priority Refinement/_CODE/_Capture/Design Patterns.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -133,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part I  by aruva - empowering ideas  May, 2023  Medium.md",
+                "file": "Web/Proxy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part I  by aruva - empowering ideas  May, 2023  Medium.md",
+                "file": "Web/Proxy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part I  by aruva - empowering ideas  May, 2023  Medium.md"
+                "file": "Web/Proxy.md"
               }
             }
           },
@@ -279,12 +288,16 @@
   },
   "active": "e2a6f8367df41c41",
   "lastOpenFiles": [
+    "_Low Priority Refinement/_CODE/_Capture/Design Patterns.md",
+    "Architecture/Design Patterns.pdf",
+    "Architecture/Design Patterns.md",
+    "Web/Proxy.md",
+    "Web/Proxy server.md",
     "_Low Priority Refinement/Database/Relationships/Relationship Reading.md",
-    "_Low Priority Refinement/_CODE/_Capture/Software Design Fundamentals in 2023 Essential Concepts for Modern Software Developers — Part I  by aruva - empowering ideas  May, 2023  Medium.md",
+    "_Images/Database/relational model.png",
     "_Low Priority Refinement/Database/Relationships/Table Relationships.md",
     "_Low Priority Refinement/Database/Relationships/SQL Table Structure.md",
     "_Template/Whiteboard.png",
-    "_Low Priority Refinement/_CODE/_Capture/Design Patterns A Guide to JavaScript Development Principles for Clean and Scalable Code  by Anto Semeraro  Jun, 2023  JavaScript in Plain English.md",
     "_Low Priority Refinement/_CODE/_Capture/Design Patterns and Pattern Languages.md",
     "Architecture/Distributed tracking and monitoring.md",
     "Home.md",
@@ -301,13 +314,9 @@
     "Devops/Docker/Docker and kubernetes.md",
     "Devops/Build/Overview of Build Automation.md",
     "Cloud/AWS/AWS Cloud Services.md",
-    "Architecture/Design Patterns.md",
-    "Architecture/Design Patterns.pdf",
     "API/API Gateway.md",
     "API",
     "_Low Priority Refinement/API/API.md",
-    "Databases/Normalization & Denormalization Trade-offs.md",
-    "_Low Priority Refinement/Database/MYSQL Setup.md",
     "Databases",
     "Security",
     "Infographics/Process and Thread.jpeg",
@@ -324,7 +333,6 @@
     "Companies/Companies Worked At/And the Next One",
     "Companies/Companies Worked At/And the Next One..",
     "_Low Priority Refinement/Companies",
-    "Infographics/Message Systems.gif",
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",

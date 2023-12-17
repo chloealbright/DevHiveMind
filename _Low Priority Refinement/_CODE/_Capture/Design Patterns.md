@@ -1,35 +1,12 @@
-
-
-## Discover the power of design patterns in javascript, and learn how to leverage them for clean, maintainable, and scalable code that stands the test of time.
-
-
-## Introduction — JavaScript Design Patterns
-
-![](https://miro.medium.com/v2/resize:fit:700/1*Ko5QZBiLD9Xv9phL-OkaNw.jpeg)
-
-
-
-## The Essence of Design Patterns
-
-Hello folks! Over my years as a senior software engineer, I’ve realized that crafting clean and scalable code doesn’t solely depend on what we’re crafting, but the structure of our code also plays an important role, and that’s precisely what design patterns help with.
-
 ## Design Patterns — What Are They?
 
 Design patterns are tested solutions to common issues in software development as they act as templates to guide us in structuring our code. With design patterns it’s easier to create code that’s more readable, flexible and maintainable, providing also a common language for developers to communicate more effectively.
 
-## The Power of JavaScript Design Patterns
-
-JavaScript with its versatility supports many programming styles and, although this is a significant advantage, it can also make the language seem overwhelming, but design patterns offer a method to keep our code organized and efficient.
-
-In the upcoming sections we will delve deeper into JavaScript design patterns, exploring creational, structural and behavioral patterns, providing practical examples for each type and discussing their advantages and potential risks.
-
-## Exploring the Types of Design Patterns in JavaScript
-
-![](https://miro.medium.com/v2/resize:fit:700/1*rEhgMuKBPtG-giBqKJqV2A.jpeg)
-
-
 
 ## Creational Design Patterns: Constructing Objects
+
+These patterns deal with the process of object creation. They abstract the instantiation process, making it more flexible, reusable, and maintainable. Examples of creational designs include Singleton, Factory Method, Abstract Factory, Builder, and Prototype.
+
 
 In JavaScript, objects are a core feature and they are often used to represent entities or things with similar characteristics, and we use creational design patterns to organize the creation of these objects.
 
@@ -104,6 +81,10 @@ return this.car;
 ```
 
 ## Structural Design Patterns: Shaping Our Code
+
+Structural patterns are concerned with the composition of classes and objects. They help assemble individual components into a larger structure, making it easiemanaging relationships and dependencies between objects. Struct easierural patterns include Adapter, Bridge, Composite, Decorator, Facade, Flyweight, and Proxy.
+
+
 
 Structural patterns are about organizing different classes and objects to form larger structures and when one part of a system changes it ensures that the entire system doesn’t need to change along with it.
 
@@ -207,6 +188,11 @@ this.network.connect();
 ```
 
 ## Behavioral Design Patterns: Managing Object Collaboration
+
+Behavioural patterns define how objects communicate and interact with each other. They help streamline complex communication flows and improve the flexibility and reusability of code by encapsulating behaviour. Examples of behavioural patterns include Observer, Iterator, Strategy, Command, Chain of Responsibility, State, Template Method, Mediator, and Memento.
+
+
+
 
 Behavioral design patterns are concerned with communication between objects, how objects operate and carry out their responsibilities most of the times increasing flexibility in carrying out communication between objects.
 

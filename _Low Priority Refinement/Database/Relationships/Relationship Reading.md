@@ -25,3 +25,40 @@ Relational databases use a schema to define tables and the relationships between
 A simple relational model representation
 
 
+![[relational model.png]]
+
+
+
+relational database representation
+
+and simple query examples
+
+```sql
+-- INSERT
+INSERT INTO customers (first_name, last_name, email)
+VALUES ('John', 'Doe', 'john.doe@example.com');
+
+-- UPDATE
+UPDATE customers
+SET email = 'john.doe_updated@example.com'
+WHERE id = 1;
+
+-- DELETE
+DELETE FROM customers
+WHERE id = 1;>)](<-- SELECT
+SELECT * FROM customers;
+
+-- INSERT
+INSERT INTO customers (first_name, last_name, email)
+VALUES ('John', 'Doe', 'john.doe@example.com');
+
+-- UPDATE
+UPDATE customers
+SET email = 'john.doe_updated@example.com'
+WHERE id = 1;
+
+-- DELETE
+DELETE FROM customers
+WHERE id = 1;>)
+```
+

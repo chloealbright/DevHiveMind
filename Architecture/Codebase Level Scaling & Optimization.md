@@ -8,7 +8,7 @@ tags:
 author:
   - jacgit18
   - chatgpt
-Status: refinement
+Status: Refinement
 Started: 
 EditDate: 
 Relates:

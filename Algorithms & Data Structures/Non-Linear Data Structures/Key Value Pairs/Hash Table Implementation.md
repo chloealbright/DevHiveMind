@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Implementing a hash table with an array and a linked list involves different strategies for handling collisions.  
   
 **Array-based Hash Table:**  

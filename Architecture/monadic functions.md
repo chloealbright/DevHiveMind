@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 In functional programming, a monadic function is a function that operates on values wrapped inside a monadic type. Monads are a programming construct that allows for encapsulating values with additional context or behavior.
 
 A monadic function typically takes a value from a monadic type, performs computations or transformations on it, and returns a new value wrapped inside the same monadic type. This chaining of computations is facilitated by the monadic structure, which provides the necessary methods and operators to compose and sequence these computations.

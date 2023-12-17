@@ -3,7 +3,7 @@ tags:
   - bsa
 author:
   - jacgit18
-Status: init
+Status: Capture
 Started: 
 EditDate: 
 Relates:

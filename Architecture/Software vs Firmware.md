@@ -3,7 +3,9 @@ tags:
 author:
   - jacgit18
 Status: 
-Started:
+Started: 
+EditDate: 
+Relates:
 ---
 Software is designed to be updated frequently and usually can be removed or edited in a system without much consequence – other than perhaps loss of important data. ...  
 

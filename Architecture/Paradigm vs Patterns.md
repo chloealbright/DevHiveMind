@@ -2,8 +2,9 @@
 tags:
   - architecturalPatterns
   - architecturalParadigm
-author: jacgit18
-Status: init
+author:
+  - jacgit18
+Status: Capture
 Started: 
 EditDate: 
 Relates: "[[Event Driven Architecture]]"

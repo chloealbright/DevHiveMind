@@ -6,7 +6,7 @@ tags:
   - pattern
 author:
   - jacgit18
-Status: refinement
+Status: Refinement
 Started: 
 EditDate: 
 Relates:

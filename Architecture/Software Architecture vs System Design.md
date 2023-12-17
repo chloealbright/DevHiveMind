@@ -2,7 +2,7 @@
 tags: 
 author:
   - jacgit18
-Status: refinement
+Status: Refinement
 Started: 2023-11-26
 EditDate: 
 Relates:

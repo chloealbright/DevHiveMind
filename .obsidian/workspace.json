@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Software vs Firmware.md",
+                "file": "Companies/Interview/Offense(Q&A).md",
                 "mode": "source",
                 "source": false
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Software vs Firmware.md",
+                "file": "Companies/Interview/Offense(Q&A).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Software vs Firmware.md",
+                "file": "Companies/Interview/Offense(Q&A).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Software vs Firmware.md"
+                "file": "Companies/Interview/Offense(Q&A).md"
               }
             }
           },
@@ -278,32 +278,32 @@
   },
   "active": "336e343a71fa6379",
   "lastOpenFiles": [
-    "Architecture/SOLID Design Principles.md",
-    "Architecture/Stateless processes.md",
-    "Architecture/System Arch.md",
-    "Architecture/User Interface thoughts.md",
-    "Architecture/Web Architecture.md",
-    "Architecture/Vertical vs Horizontal scaling.md",
-    "Architecture/Web Server vs Application Server vs API.md",
-    "Architecture/When and How to Use Controllers to Operate on Resources.md",
-    "Architecture/When to Cast.md",
-    "Architecture/Scope 1.md",
-    "Architecture/Scope.md",
-    "_Low Priority Refinement/_CODE/_Organize/Glossary.md",
-    "_Flash Cards/CPU Thread Flash.md",
-    "_Low Priority Refinement/_CODE/Express/Be Aware.md",
-    "_Low Priority Refinement/Companies/People/People to know & TD Questions.md",
-    "_Low Priority Refinement/_CODE/Express/Tech Things to Research.md",
-    "_Low Priority Refinement/_CODE/Express/Dev Todo.md",
-    "_Low Priority Refinement/Companies/People/Introductory talk.md",
-    "_Low Priority Refinement/_CODE/Express/Study Session.md",
-    "Architecture/System Design/Elements Of A Distributed Systems.md",
-    "Architecture/Technology Options/File System Storage.md",
-    "Architecture/Technology Options/Load Balancers.md",
-    "Architecture/Technology Options/Database.md",
-    "Architecture/Technology Options/Caches.md",
-    "Language Overlap/introspection and reflection.md",
-    "Architecture/Functions rules.md",
+    "Companies/Interview/Interview Process.md",
+    "Companies/Interview/Follow Up response template.md",
+    "Companies/Interview/Experience Script.md",
+    "Companies/Interview/Defense(A&Q).md",
+    "Companies/Interview/CV.md",
+    "Companies/Interview/Company Take-Home Project.md",
+    "Companies/Interview/Coffee Chat Interviewing.md",
+    "Companies/Culture/Types of Programmers To Avoid.md",
+    "Companies/Culture/Crunch.md",
+    "Companies/Companies Worked At/General Dev Issues.md",
+    "Companies/Companies Worked At/Contribution Metrics.md",
+    "Companies/Companies Worked At/12 Key Metrics for Measuring Service Performance.md",
+    "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
+    "Companies/Companies Worked At/Tracflo/Tracflo & Construction Industry.md",
+    "Companies/Companies Worked At/Tracflo/Personally Developed Tracflo Feature Statistics.md",
+    "Companies/Companies Worked At/Tracflo/Construction Industry and Data Dynamics.md",
+    "Companies/Companies Worked At/Tracflo/Business Requirements Thought Experiment.md",
+    "Companies/Companies Worked At/TD/Validating.md",
+    "Companies/Companies Worked At/TD/User Stories.md",
+    "Companies/Companies Worked At/TD/Type of Question.md",
+    "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
+    "Companies/Companies Worked At/TD/Requirement Governance.md",
+    "Companies/Companies Worked At/TD/PI Planning.md",
+    "Companies/Companies Worked At/TD/Non-calendar fiscal year.md",
+    "Companies/Companies Worked At/TD/Moscow prioritization.md",
+    "Companies/Companies Worked At/TD/Elicitation.md",
     "Infographics/Piliars Of OOP.jpeg",
     "_Template/Whiteboard.png",
     "Architecture/Design Patterns.pdf",

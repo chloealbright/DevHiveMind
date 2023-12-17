@@ -14,13 +14,6 @@ Brent Foster VP of software engineering and a practice owner 
 
 Erin Mcaughin practice lead of enablement team and who you report to  
 
-	So talked to her about sick days & PTO, it is easy to reach her on teams 
-	
-	You can also ask about getting certification paid for 
-	
-	Personal banking department is where TD think or swim may reside 
-	
-	You will be given mini projects to assess your skill set when trying to join a team that is technical 
 
 Timothy Ubbens Practice lead of Full stack  
 

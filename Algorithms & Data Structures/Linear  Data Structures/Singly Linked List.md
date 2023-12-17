@@ -3,7 +3,7 @@ tags:
   - linear
 author:
   - jacgit18
-Status: init
+Status: Capture
 Started: 
 EditDate: 
 Relates: "[[Type Of Linked List]]"

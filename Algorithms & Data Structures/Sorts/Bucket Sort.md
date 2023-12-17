@@ -6,7 +6,7 @@ tags:
   - not-binary-by-Nature
 author:
   - jacgit18
-Status: init
+Status: Capture
 Started: 
 EditDate: 
 Relates:

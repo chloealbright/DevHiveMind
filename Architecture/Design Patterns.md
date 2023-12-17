@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ## Design Patterns — What Are They?
 
 Design patterns are tested solutions to common issues in software development as they act as templates to guide us in structuring our code. With design patterns it’s easier to create code that’s more readable, flexible and maintainable, providing also a common language for developers to communicate more effectively.

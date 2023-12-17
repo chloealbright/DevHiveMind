@@ -2,7 +2,7 @@
 tags: 
 author:
   - chatgpt
-Status: init
+Status: Capture
 Started: 2023-11-23
 EditDate: 
 Relates:

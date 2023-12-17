@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Devops/OS/Linux/terminal from Tracflo history.md",
+                "file": "Web/Proxy.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Devops/OS/Linux/terminal from Tracflo history.md",
+                "file": "Web/Proxy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Devops/OS/Linux/terminal from Tracflo history.md",
+                "file": "Web/Proxy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops/OS/Linux/terminal from Tracflo history.md"
+                "file": "Web/Proxy.md"
               }
             }
           },
@@ -267,8 +267,8 @@
   "active": "e2a6f8367df41c41",
   "lastOpenFiles": [
     "Devops/OS/Linux/vpn.md",
-    "Devops/OS/Linux/Type of files in Linux.md",
     "Devops/OS/Linux/terminal from Tracflo history.md",
+    "Devops/OS/Linux/Type of files in Linux.md",
     "_Low Priority Refinement/_CODE/_Organize/Tech tips.md",
     "Web/DNS(Domain Name System).md",
     "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Event Types.md",

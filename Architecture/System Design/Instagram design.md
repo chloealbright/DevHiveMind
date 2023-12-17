@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
+---
 
 Step 1 Understand the problem and establish design scope: 3 - 10 minutes
 

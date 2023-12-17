@@ -1,6 +1,12 @@
 ---
 tags:
   - SOLID
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 A super class can be replaced by any of it’s inheriting sub classes at any parts of the system without any change in the code.
 

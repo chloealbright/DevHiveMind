@@ -1,7 +1,7 @@
 ---
 tags: 
 author: 
-Status: 
+Status: Capture
 Started: 
 EditDate: 
 Relates:

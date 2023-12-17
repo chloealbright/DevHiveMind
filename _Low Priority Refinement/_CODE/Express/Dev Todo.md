@@ -111,6 +111,18 @@ multi thread, stream, thread
   
 topics learned
 
+
+## Organize Gpt Prompt better
+- [ ] Ask chatgpt to summarize a book  
+- [ ] use chat GPT to create junction table ideas
+- [ ] Please proofread for spelling, grammar, and readability. also add more to this introduction while SEO optimizing.
+
+
+
+
+
+
+
 # Pull Into Current
 
 ## <mark style="background: #FF5582A6;">Future Long-term Spread BAU</mark>

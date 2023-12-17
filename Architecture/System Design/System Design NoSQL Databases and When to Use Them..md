@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: Distilling
+Started: 
+EditDate: 
+Relates:
+---
 
 
 ![](https://miro.medium.com/v2/resize:fit:630/0*M-fNRUpknwVUDuq2.png)

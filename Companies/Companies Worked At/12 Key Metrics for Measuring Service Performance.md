@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: refinement
+Started: 
+EditDate: 
+Relates:
+---
 ## 1. Time to First Byte (TTFB)**
 
 TTFB measures the time taken from the moment a client sends a request to a server until the client receives the first byte of data from the server. It is an indicator of server responsiveness and network latency. Example: A website’s TTFB is 200 milliseconds, indicating a fast initial response from the server.

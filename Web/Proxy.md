@@ -1,6 +1,14 @@
 
 In computer networking, a proxy server is a server application that acts as an intermediary between a client requesting a resource and the server providing that resource.  
 
+
+- **Forward Proxy** serves clients and forwards their requests to external servers.
+- **Reverse Proxy** serves as an intermediary for clients and forwards requests to backend servers.
+- **Proxy** is a general term encompassing both forward and reverse proxy servers.
+
+The distinction lies in the direction of the proxying: whether it is forwarding client requests to external servers (forward proxy) or forwarding external requests to backend servers (reverse proxy).
+
+
 ## 1\. Proxies
 
 Proxies are intermediary servers that stand between clients and other servers. They play a critical role in enhancing performance, security, and reliability in various network scenarios.
@@ -55,9 +63,7 @@ server.listen(PORT, () => {
 ```
 
 
-
-
-Yes, the line `proxy.web(req, res, { target: req.url, changeOrigin: true });` is a key part of creating a forward proxy in the example. Let me explain the significance:
+`proxy.web(req, res, { target: req.url, changeOrigin: true });` is a key part of creating a forward proxy in the example. Let me explain the significance:
 
 - `proxy.web(req, res, { target: req.url, changeOrigin: true });`: This line utilizes the `http-proxy` library to forward the incoming HTTP request to the target specified in `req.url`. Here, `req.url` contains the target URL that the client is trying to access. The `changeOrigin: true` option modifies the `Host` header in the request to match the target, which can be crucial when forwarding requests to servers that rely on the `Host` header for proper functioning.
 
@@ -71,6 +77,33 @@ A forward proxy is typically used to provide anonymity, content filtering, or ca
 ## 1.2 Reverse Proxy
 
 A reverse proxy is a server that handles client requests on behalf of other servers. Reverse proxies can provide load balancing, SSL termination, and content caching, among other benefits.
+
+
+```typescript
+import * as http from 'http';
+import * as httpProxy from 'http-proxy';
+
+const proxy = httpProxy.createProxyServer({});
+
+const server = http.createServer((req, res) => {
+  console.log(`Handling request for: ${req.url}`);
+
+  // Proxy the request to the target server
+  proxy.web(req, res, { target: 'http://localhost:3001' });
+});
+
+const PORT = 3000;
+
+server.listen(PORT, () => {
+  console.log(`Reverse Proxy Server listening on port ${PORT}`);
+});
+```
+
+In this example:
+
+- `proxy.web(req, res, { target: 'http://localhost:3001' });`: This line utilizes the `http-proxy` library to forward the incoming HTTP request to the target server specified in the `target` option. In this case, the target server is set to `http://localhost:3001`. Requests to the reverse proxy are forwarded to the specified target server.
+
+This example sets up a basic reverse proxy that listens on port 3000. Incoming requests are then forwarded to the target server at `http://localhost:3001`. Adjust the target URL or add more features based on your specific requirements. Reverse proxies are commonly used for load balancing, SSL termination, or serving multiple services under a single domain.
 
 ![](https://miro.medium.com/v2/resize:fit:700/1*oeUPfO992X54Q15f39Nsig.png)
 

@@ -1,3 +1,11 @@
+---
+tags: 
+author: 
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 In this three-part series, we talk about API design: 
 
 1.  Why is the “API First” principle important for an organization?

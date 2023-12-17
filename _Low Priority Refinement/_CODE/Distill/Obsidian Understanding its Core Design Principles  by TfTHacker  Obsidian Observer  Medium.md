@@ -1,3 +1,11 @@
+---
+tags: 
+author: 
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 
 
 [Obsidian](https://obsidian.md/) has become one of the most popular tools in the exciting and growing category of note-taking tools called “Tools for Thought.”

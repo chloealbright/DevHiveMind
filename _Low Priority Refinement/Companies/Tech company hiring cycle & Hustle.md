@@ -33,6 +33,7 @@ Netflix won't be given algorithms questions for front end
 
 Exit interviews can be bait for ammo for the company if they want to come after you for something  
 
+Maybe Email recruiters a email with the title subject "sharing my experience on Glassdoor" to get a response back
 
 # Startup question to ask  
 

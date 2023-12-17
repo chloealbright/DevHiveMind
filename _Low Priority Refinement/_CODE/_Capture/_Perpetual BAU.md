@@ -8,50 +8,13 @@ EditDate:
 Relates:
 ---
 
-
-
-
-
-## Consistent Todo
-
-Use Uber along side having own car
-
-Don't let license expire you have to go through a lot of loops
-
-## Reguler Long term Career Todo
-
-Attend one networking event each month or meet with some one at td
-
-Ask should I practice with individual screen and use individual screens for interview
-
-Get actual suit measurements
-
-Networking: Gain a solid understanding of networking concepts, such as HTTP, TCP/IP, DNS, and load balancing, to build robust and performant systems.
-
-look into Guarded routes
-
-
-
-[[Credit union Research]]
-
-
-[Trust Research](https://www.ssa.gov/news/press/factsheets/WhatAreTheTrust.htm)
-
-
-
-Add to money to Roth for a couple months ahead to file taxes early
-
 ## Organize Gpt Prompt better
-- [ ] Share chat GPT prompts
 - [ ] Ask chatgpt to summarize a book  
 - [ ] use chat GPT to create junction table ideas
-- [ ] Use chat GPT to create coding YouTube channel
-- [ ] Use chat GPT to create lists
-- [ ] add to prompt after paragraph in chapt 4 or bing
 - [ ] Please proofread for spelling, grammar, and readability. also add more to this introduction while SEO optimizing.
 
 
-Email recruiters a email with the title subject "sharing my experience on Glassdoor" to get a response back
+
 
 
 [https://support.google.com/docs/answer/4492226?hl=en#zippy=,add-punctuation,select-text,format-your-document](https://support.google.com/docs/answer/4492226?hl=en&authuser=0#zippy=,add-punctuation,select-text,format-your-document)  

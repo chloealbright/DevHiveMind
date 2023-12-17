@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 download flutter copy it to directory you want  
 
 go to control panel environmental variables edit path to add a new location paste the path bin directory for flutter then press ok and open terminal and use flutter command then just install android studio and avd manager and plugins  

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Given that, among other reasons, The 12-Factor App [recommended a strict separation of config from code](https://12factor.net/config). This practice quickly took hold throughout the developer community commonly through the use of _.env_ (dotenv) files. These are plain text files that store a list of key/value pairs, defining the environment variables required for an application to work, as in the example below.
 
 

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 When crafting a Java class for serialization, meticulous attention to system design is crucial. Here's a refined breakdown:
 
 1. **Identify Serializable Data:**

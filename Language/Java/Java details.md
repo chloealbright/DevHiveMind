@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 JVM is a part of Java Run Environment (JRE). It cannot be separately downloaded and installed. To install JVM, you need to install JRE.
 
 Java EE(Enterprise edition) is basically a add-on of libraries or API to support enterprise code development or services and isn't in development anymore but has been token over by eclipse and it's called Jakarta EE

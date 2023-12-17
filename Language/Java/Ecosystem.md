@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
  technologies/tools used in Java server-side development
 
 Jackson JSON/XML

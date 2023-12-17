@@ -1,3 +1,6 @@
+---
+tags:
+---
 ![[streamline.png]]
 
 stream is an ordered sequence of data

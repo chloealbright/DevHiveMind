@@ -3,7 +3,7 @@ tags:
 author:
   - jacgit18
   - chatgpt
-Status: init
+Status: Capture
 Started: 2023-11-20
 EditDate: 
 Relates:

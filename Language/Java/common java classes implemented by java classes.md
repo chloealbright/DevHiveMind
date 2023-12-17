@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 In a Java codebase, there are several common Java classes that are often implemented or utilized by other classes. These classes provide specific functionalities or features that are commonly required in many applications. Here are some examples:
 
 1. Serializable: The Serializable interface allows classes to be serialized, meaning they can be converted into a stream of bytes for storage or transmission. Implementing Serializable allows objects of that class to be easily saved to files, sent over networks, or stored in databases.

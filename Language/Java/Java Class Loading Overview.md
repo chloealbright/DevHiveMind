@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 By default, Java uses a class-loading mechanism to load classes at runtime. When a Java program is executed, the class-loading process is responsible for locating and loading the necessary class files into memory.
 
 Here's an overview of the default class-loading process in Java:

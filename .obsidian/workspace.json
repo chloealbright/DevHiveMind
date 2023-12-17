@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Bash/Automation.md",
+                "file": "Language/Java/Streams.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/Bash/Automation.md",
+                "file": "Language/Java/Streams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/Bash/Automation.md",
+                "file": "Language/Java/Streams.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/Bash/Automation.md"
+                "file": "Language/Java/Streams.md"
               }
             }
           },
@@ -261,34 +261,34 @@
   },
   "active": "bc7f31a83edeaeb5",
   "lastOpenFiles": [
-    "Language/_Build Tool/Maven.md",
-    "Language/_Build Tool/Make.md",
-    "Language/_Build Tool/Javascript Build.md",
-    "Language/_Build Tool/Gradle.md",
-    "Language/_Build Tool/Build Tools.md",
-    "Language/_Build Tool/Build.md",
-    "Language/_Build Tool/Ant.md",
+    "Language/Java/Static methods.md",
+    "Language/Java/static Keyword.md",
+    "Language/Java/Run-Time Data Areas.md",
+    "Language/Java/Protected in Depth.md",
+    "Language/Java/Nested Classes.md",
+    "Language/Java/Mutex.md",
+    "Language/Java/Module vs Library vs Package.md",
+    "Language/Java/Maven repository.md",
+    "Language/Java/Memory Management.md",
+    "Language/Java/Kotlin.md",
+    "Language/Java/JPA.md",
+    "Language/Java/jdeserialize.md",
+    "Language/Java/Java tips and Java Questions.md",
+    "Language/Java/Java Properties.md",
+    "Language/Java/Java details.md",
+    "Language/Java/Java Dependencies.md",
+    "Language/Java/Java Class Loading Overview.md",
+    "Language/Java/Important components of JVM.md",
+    "Language/Java/Java certifications.md",
+    "Language/Java/Groovy.md",
+    "Language/Java/Ecosystem.md",
+    "Language Overlap/Generics In Java.md",
+    "Language/Java/Eco System to Setup.md",
+    "Language/Java/DotEnv Java.md",
+    "Language/Java/Designing Class to be Serializable.md",
+    "Language/Java/Common Java libraries.md",
     "Infographics/DevOps/DevOps Roadmap.gif",
-    "Framework/Reactive programming.md",
-    "Framework/Reactive.md",
-    "Framework/JavaScript ecosystem event-driven and reactive programming.md",
-    "Framework/Consumers and Producers.md",
-    "Framework/Frontend/Next.js.md",
-    "Framework/Backend/Springboot.md",
-    "Framework/Backend/Express.js.md",
-    "Framework/Backend/Apache vs Tomcat.md",
-    "Error Log/Language Error.md",
-    "Devops/OS/Linux/Type of files in Linux.md",
-    "Devops/OS/Linux/vpn.md",
-    "Devops/OS/Linux/Symbolic link.md",
-    "Devops/OS/Linux/SSH.md",
-    "Devops/OS/Linux/Linux SED.md",
-    "Devops/OS/Linux/Linux pipe v redirect example.md",
-    "Devops/OS/Linux/Linux Pipe.md",
     "Infographics/DevOps/Linux File System.jpeg",
-    "Devops/OS/Linux/Quick note.md",
-    "Devops/OS/Linux/Linux Tips.md",
-    "Devops/OS/Linux/Linux Overwrite and Append.md",
     "Infographics/DevOps/Linux Boot Process.gif",
     "Infographics/Cloud/Cloud Monitoring Services.jpeg",
     "Infographics/Load Balance Algo.jpeg",

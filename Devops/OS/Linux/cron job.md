@@ -4,7 +4,12 @@ tags:
   - cron
   - scripting
   - automation
-author: jacgit18
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 ```bash
 * * * * *  /home/jac/Sync/DevMindMap/sync.sh

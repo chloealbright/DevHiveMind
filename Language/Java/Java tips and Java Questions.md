@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 in the future try  rewriting  code for  problems
 
 Java is open source while something like C++ is not and cost money to use

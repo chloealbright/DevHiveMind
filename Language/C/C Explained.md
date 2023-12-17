@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 C is more performant compared to other languages because it is closer to the lower level language which are very perform-ant but can be harder to read unlike python and other high level languages 
 
 C if a functional language without classes but still has object used to create Operating system

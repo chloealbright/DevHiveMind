@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Bash is a shell scripting language that is widely used in Linux and Unix environments and is ideal for system-level tasks and command-line utilities. Some of the key areas where Bash can be used for automation and system administration include:  
   
 Command-line automation: Bash is ideal for automating command-line tasks, such as running scripts, managing files, and manipulating text.  

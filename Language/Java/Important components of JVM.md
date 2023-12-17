@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 1) Class Loader 
 
 The class loader is a subsystem used for loading class files. It performs three major functions viz. Loading, Linking, and Initialization. 

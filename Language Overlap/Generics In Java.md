@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Used to reduce multiple duplicates of classes that may be the same but of different data types like String, Integer, or Double
 
 //lets you use any type

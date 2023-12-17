@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 DTO stands for Data Transfer Object, and it is a design pattern commonly used in Java applications. The purpose of a DTO is to transfer data between different layers or components of an application, typically between the data access layer and the presentation layer.
 
 A DTO is a simple Java class that contains fields to hold data and getters and setters to access and modify that data. It is usually used to encapsulate a specific set of data that needs to be passed around or exchanged between different parts of the application.

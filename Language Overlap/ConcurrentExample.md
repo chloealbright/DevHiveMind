@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Certainly! Here's an example in Java that demonstrates multiple threads with independent execution streams working on shared state using preemptive scheduling and synchronization:
 
 ```java

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 A compiled language is converted into machine code so that the processor can execute it. 
 
 An interpreted language is a language in which the implementations execute instructions directly without earlier compiling a program into machine language. 

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Content switching, also known as **context switching**, is a mechanism employed by CPU cores to efficiently switch between different execution contexts or tasks. It allows a CPU core to handle multiple tasks concurrently, giving the appearance of parallel execution.
 
 When a CPU core performs a content switch, it saves the current state of the executing task, including the values of registers, program counters, and other relevant information, into a data structure known as a context or a context block. This context block contains all the necessary information to resume the task at a later point.
@@ -21,7 +30,7 @@ Content switching is an essential mechanism in modern multitasking operating sys
 
 
 ## Flash
-#contextSwitch
+#contextSwitchFlash
 What's a context switch;;context switch allows programmers to store the current state of a thread. 
 
 

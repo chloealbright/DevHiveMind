@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ## Background
 
 Have you ever accessed one of your applications and seen weird errors like IOException or IllegalNullPointer?  In Java, an [Exception](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Exception.html) aka “exceptional event” is an event that occurs during the execution of a program and can disrupt its normal flow. Don’t confuse errors with exceptions.  Exceptions are events from which we can recover, errors are serious problems that cannot be recovered from but require code changes. The JDK covers most general cases, but Java does allow developers to create their exceptions. This is frowned upon but sometimes necessary, depending on the scenario.

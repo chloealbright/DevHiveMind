@@ -1,6 +1,12 @@
 ---
 tags:
   - MacroCodebaseDecision
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 Generics and type casting are two different mechanisms used in Java for dealing with type information. but their primary purposes are different. 
 

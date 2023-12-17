@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[Call Stack.gif]]
 A stack has elements like primitive values which are numbers strings boolean nulls undefined and symbols and tends to be fast but has limited space  
   

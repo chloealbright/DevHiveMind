@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 CSS reads top to bottom meaning everything on the top will override things on the bottom  
 
 Override order 

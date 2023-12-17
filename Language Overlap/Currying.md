@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Currying in JavaScript 
 
 Currying is an advanced technique of working with functions. It’s used not only in JavaScript, but in other languages as well. 

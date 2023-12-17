@@ -1,6 +1,12 @@
 ---
 tags:
   - ClassStructure
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 
 The choice between encapsulation and composition depends on the specific design goals and requirements of your software. Encapsulation is a fundamental principle of object-oriented programming that involves bundling the data (attributes) and methods (functions) that operate on the data into a single unit, known as a class.

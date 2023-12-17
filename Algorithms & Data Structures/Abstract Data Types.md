@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[Abstract Data.gif]]
 
 Abstract Data Types are entities that are definitions of data and operations but do not have implementation details.  

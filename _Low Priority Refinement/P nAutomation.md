@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Python is a powerful programming language with an extensive set of libraries and modules that make it ideal for automation tasks. Some of the key areas where Python can be used for automation and system administration include:  
   
 Configuration management: Python can be used to automate the configuration of servers, applications, and network devices. For example, you can use Python and libraries like Ansible, SaltStack, or Puppet to automate the deployment and configuration of applications on multiple servers.  

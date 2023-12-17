@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
  Bits is short for binary digit and is a fundamental base unit of info that alternate from 0 to 1 also known as binary numbers  
   
 Bits = 1 or 0 > 10 is 2 bits at max it can be 8 bits > 10100011  

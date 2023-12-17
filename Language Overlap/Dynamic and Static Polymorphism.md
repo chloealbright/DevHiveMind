@@ -3,6 +3,12 @@ tags:
   - MicroCodebaseDecision
   - MacroCodebaseDecision
   - CodebaseDecision
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 Dynamic polymorphism and static polymorphism are two forms of polymorphism in programming, and they differ in the timing of binding between the method call and the method implementation.
 

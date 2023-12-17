@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 PHP uses its own engine called Zend Engine which is a compiler and runtime environment for the PHP scripting language and consists of the Zend Virtual Machine, which is composed of the Zend Compiler and the Zend Executor, that compiles and executes the PHP code. 
 
 Node uses V8 engine 

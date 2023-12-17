@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 
 1.  SQL (Structured Query Language): used for database management
 2.  MATLAB: used for numerical analysis and scientific computing

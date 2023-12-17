@@ -1,6 +1,12 @@
 ---
 tags:
   - ClassStructure
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 ### Composition Example:
 

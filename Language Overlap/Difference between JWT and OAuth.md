@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Firstly, we have to differentiate JWT and OAuth. 
 
 Basically, JWT is a token format. 

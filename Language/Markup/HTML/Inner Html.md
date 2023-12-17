@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Don't use it is very slow because it has to re-parse all DOM nodes/ full HTML documents especially if iterating but it is also is insecure 
 
 [https://www.youtube.com/watch?v=ILcu32Nkq_I&list=WL&index=4&ab_channel=DaveGray](https://www.youtube.com/watch?v=ILcu32Nkq_I&list=WL&index=4&ab_channel=DaveGray) 

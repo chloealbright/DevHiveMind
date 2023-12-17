@@ -3,7 +3,7 @@ tags:
   - OO
 author:
   - jacgit18
-Status: refinement
+Status: Refinement
 Started: 
 EditDate: 2023-10-29
 Relates:

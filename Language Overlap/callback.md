@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
   
 when passing callbacks in the context of using third-party library that require you passing a call back function something in the library can change like maybe it takes another parameter that you didn't put in initially or maybe it doesn't use the call back anymore whatever the case is when using callbacks it can create a black box affect why you don't know what's going on in a particular library when you are passing in that call back  
   

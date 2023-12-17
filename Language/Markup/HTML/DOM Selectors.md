@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 getElementsByTagName - Find elements by tag name  
   
 getElementsByClassName - Find elements by class name  

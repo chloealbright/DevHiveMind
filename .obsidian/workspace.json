@@ -20,19 +20,31 @@
             }
           },
           {
-            "id": "bc7f31a83edeaeb5",
+            "id": "e9f0a3e454d5ea41",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Java/Streams.md",
+                "file": "Language/Typescript/Advanced Object Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "63fd3e181701456e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language Overlap/Frameworks design patterns.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -51,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Automation",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -115,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/Java/Streams.md",
+                "file": "Language Overlap/Frameworks design patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/Java/Streams.md",
+                "file": "Language Overlap/Frameworks design patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/Java/Streams.md"
+                "file": "Language Overlap/Frameworks design patterns.md"
               }
             }
           },
@@ -259,34 +271,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bc7f31a83edeaeb5",
+  "active": "63fd3e181701456e",
   "lastOpenFiles": [
-    "Language/Java/Static methods.md",
-    "Language/Java/static Keyword.md",
-    "Language/Java/Run-Time Data Areas.md",
-    "Language/Java/Protected in Depth.md",
-    "Language/Java/Nested Classes.md",
-    "Language/Java/Mutex.md",
-    "Language/Java/Module vs Library vs Package.md",
-    "Language/Java/Maven repository.md",
-    "Language/Java/Memory Management.md",
-    "Language/Java/Kotlin.md",
-    "Language/Java/JPA.md",
-    "Language/Java/jdeserialize.md",
-    "Language/Java/Java tips and Java Questions.md",
-    "Language/Java/Java Properties.md",
-    "Language/Java/Java details.md",
-    "Language/Java/Java Dependencies.md",
-    "Language/Java/Java Class Loading Overview.md",
-    "Language/Java/Important components of JVM.md",
-    "Language/Java/Java certifications.md",
-    "Language/Java/Groovy.md",
-    "Language/Java/Ecosystem.md",
-    "Language Overlap/Generics In Java.md",
-    "Language/Java/Eco System to Setup.md",
-    "Language/Java/DotEnv Java.md",
-    "Language/Java/Designing Class to be Serializable.md",
-    "Language/Java/Common Java libraries.md",
+    "Language Overlap/Flow of Control.md",
+    "Language Overlap/Extends.md",
+    "Language Overlap/Exception handling.md",
+    "Language Overlap/Exception Handl.md",
+    "Language Overlap/Enum & Annotations.md",
+    "Language Overlap/Dynamic and Static Polymorphism.md",
+    "Language Overlap/DTO.md",
+    "Language Overlap/Difference between JWT and OAuth.md",
+    "Language Overlap/Declarative Coding.md",
+    "Language Overlap/Currying.md",
+    "Language Overlap/CPUs.md",
+    "Language Overlap/Coupling vs Cohesion.md",
+    "Language Overlap/Content switching.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Best Practices for Database Schema Design.md",
+    "Language/Typescript/Advanced Object Types.md",
+    "Language Overlap/Conditional Logic and Operators.md",
+    "Language Overlap/ConcurrentExample.md",
+    "Language Overlap/Concurrent programming.md",
+    "Language Overlap/Composition over Inheritance.md",
+    "Language Overlap/Composition and Encapsulation.md",
+    "Language Overlap/Compiled programming languages.md",
+    "Language Overlap/Code Execution Order of Operation.md",
+    "Language Overlap/Class Instance.md",
+    "Language Overlap/Class inheritance Python vs Java.md",
+    "Language Overlap/Casting vs Generics.md",
+    "Language Overlap/callback.md",
+    "Language/Markup/HTML/Dom.jpeg",
     "Infographics/DevOps/DevOps Roadmap.gif",
     "Infographics/DevOps/Linux File System.jpeg",
     "Infographics/DevOps/Linux Boot Process.gif",
@@ -296,7 +309,6 @@
     "Infographics/Architecture/Database Selection Process.webp",
     "Infographics/Architecture/Domain Flow.jpeg",
     "Infographics/Architecture/Model Patterns.jpeg",
-    "Infographics/Architecture/StackOverflow.jpg",
     "Architecture/Design Patterns.pdf",
     "API",
     "Databases",

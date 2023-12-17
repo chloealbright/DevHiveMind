@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "_NoteAssets/Markdown to use.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "_NoteAssets/Markdown to use.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "_NoteAssets/Markdown to use.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "_NoteAssets/Markdown to use.md"
               }
             }
           },
@@ -246,8 +246,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "336e343a71fa6379",
+  "active": "50e2248f8e7ccb18",
   "lastOpenFiles": [
+    "_NoteAssets/HTML Assets.md",
+    "_NoteAssets/Callouts.md",
+    "Home.md",
     "Devops/Docker/Docker Entrypoint and CMD.md",
     "Devops/Docker/Docker Compose and Dockerfile.md",
     "Devops/Docker/Docker and kubernetes.md",
@@ -271,16 +274,13 @@
     "Companies/Companies Worked At/Contribution Metrics.md",
     "_CODE/_Capture/12 Key Metrics for Measuring Service Performance.md",
     "Companies/Companies Worked At/General Dev Issues.md",
-    "Home.md",
     "Architecture/Boxing and Unboxing.md",
     "Architecture/Clean Code Approach Reflection.md",
     "Architecture/Clean Code.md",
     "Companies/Interview/Coffee Chat Interviewing.md",
-    "_Low Priority Refinement/_CODE/Express/Dev Todo.md",
     "Infographics/Process and Thread.jpeg",
     "Infographics/System Design Cheatsheet.gif",
     "Infographics/Work Process.png",
-    "Companies/Interview/Experience Script.md",
     "_Pdf/Joshua_Carpentier_Resume.pdf",
     "_Images/factory.gif",
     "_Template/Whiteboard.png",

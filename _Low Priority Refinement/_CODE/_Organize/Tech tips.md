@@ -27,10 +27,3 @@ New router every 5 years at max
   
 Got in 2015 updates stop after 2 years  
   
-tor  
------  
-Don't log into accounts on tor  
-  
-cant install tails on raspberry pi  
-  
-Use tails Linux distro for anonymity

@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Organize/Tech tips.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "91707f1d92b88db2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Low Priority Refinement/_CODE/_Organize/Glossary.md",
+                "file": "Devops/OS/Linux/terminal from Tracflo history.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "76949c46d7ea0d80",
@@ -44,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Event Types.md",
+                "file": "Web/DNS(Domain Name System).md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "generic",
+                "query": "DNS",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -133,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Organize/Glossary.md",
+                "file": "Devops/OS/Linux/terminal from Tracflo history.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Organize/Glossary.md",
+                "file": "Devops/OS/Linux/terminal from Tracflo history.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/_CODE/_Organize/Glossary.md"
+                "file": "Devops/OS/Linux/terminal from Tracflo history.md"
               }
             }
           },
@@ -277,13 +264,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "91707f1d92b88db2",
+  "active": "e2a6f8367df41c41",
   "lastOpenFiles": [
+    "Devops/OS/Linux/vpn.md",
+    "Devops/OS/Linux/Type of files in Linux.md",
+    "Devops/OS/Linux/terminal from Tracflo history.md",
+    "_Low Priority Refinement/_CODE/_Organize/Tech tips.md",
+    "Web/DNS(Domain Name System).md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Event Types.md",
+    "_Low Priority Refinement/_CODE/_Organize/Glossary.md",
     "_Low Priority Refinement/_CODE/_Organize/Data Project Idea.md",
     "Open Source/Syncthing Obsidian.md",
     "Open Source/To Look into.md",
     "Open Source/Syncthing.md",
-    "_Low Priority Refinement/_CODE/_Organize/Tech tips.md",
     "_Low Priority Refinement/_CODE/_Organize/Talking More Articulate Template.md",
     "_Low Priority Refinement/_CODE/_Capture/_Perpetual BAU.md",
     "_Low Priority Refinement/_CODE/Distill/How to Become a Good Backend Engineer (Fundamentals).md",
@@ -293,7 +286,6 @@
     "Language/Domain-specific programming languages.md",
     "Language/Java/Designing Class to be Serializable.md",
     "Architecture/Pattern Languages.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Event Types.md",
     "Architecture/Codebase Separate vs Combined Repositories.md",
     "Architecture/Code standards.md",
     "Architecture/Clean Code.md",
@@ -301,12 +293,7 @@
     "Language/Typescript/Generic Types.md",
     "Infographics/Piliars Of OOP.jpeg",
     "Language/Java/Java details.md",
-    "Language Overlap/Java v TypeScript.md",
-    "Architecture/Identify areas where it make sense to use Multi threading,  concurrency, collections, generics, and annotations.md",
-    "_Low Priority Refinement/Architecture/System Design/Leverage  Domain-Driven Designs to Learn Codebase.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design with Persistent Data.md",
     "_Template/Whiteboard.png",
-    "Web/Proxy.md",
     "Architecture/Design Patterns.pdf",
     "_Images/Database/relational model.png",
     "API",

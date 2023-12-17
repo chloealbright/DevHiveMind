@@ -7,6 +7,19 @@ Started:
 EditDate: 
 Relates:
 ---
+API's are deployed to servers. A server can provide all sorts of functionality that is not an API. For instance, you could have a server that backs up your database every 24 hours.
+
+
+
+APIs are used to implement a protocol allowing the transfer of data across two or more applications
+
+A server is historically the hardware on which an application runs generally meant for things like accessing your database, interacting (through APIs) with other server-based applications, and other back-end related tasks.
+
+You’re referring to a server as an application (which is fine, btw)
+
+An API is an Application Programming Interface, allowing (generally) a server side app to communicate with other server and front end apps.
+
+Note, however, APIs aren’t limited to just server side apps. An API can be a communication protocol between any two applications.
 #### **Infermedica API Note:**
 
 ```javascript

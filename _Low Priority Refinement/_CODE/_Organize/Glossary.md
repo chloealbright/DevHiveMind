@@ -43,6 +43,16 @@ Relates:
 - **Verbose**: Using more words than necessary to express something.
 
 
+- **Convertor:** A utility class responsible for converting data between plain, often raw, format and structured business objects. It plays a role in transforming information from a general form to one that aligns with the needs of specific applications or systems.
+
+- **Serializer:** A utility class focused on converting business objects into a format suitable for storage or transmission, commonly transforming them into a serialized form like JSON or XML. This process is crucial for data persistence or communication between different software components.
+
+- **Deserializer:** A utility class that performs the reverse operation of a serializer. It converts serialized data, often in formats like JSON or XML, back into structured business objects. Deserialization is essential for reconstructing information after storage or transmission.
+
+In summary, these terms collectively refer to tools used in software development to manage the conversion of data between raw formats and structured objects, facilitating tasks like storage, communication, and data manipulation. Abstraction is suggested to simplify discussions, especially when communicating with non-programmers, by using these terms without delving into technical details.
+
+
+
 
 ## Logical Call Stack
 In the context of asynchronous programming, a logical call stack refers to a conceptual representation of the execution context of a program. Unlike a physical stack(which represents the actual function calls in memory) tied to a specific thread in synchronous programming, a logical stack in asynchronous programming is not bound to a single thread.
@@ -51,15 +61,6 @@ The logical stack is a way to visualize the flow of execution in asynchronous co
 
 This logical stack is essential for managing the state of the program during asynchronous operations, and it contributes to the efficiency of asynchronous programming by enabling concurrent execution of tasks without the need for multiple threads. It's a crucial concept in understanding how asynchronous code can be organized and executed in a non-blocking manner.
 
-## Techs Term: 
-
-Convertor/Serializer/Deserializer: 
-
-These terms are generically used to describe utility classes that are responsible for converting from/to plain data to/from business objects. They are mostly part of some open source conversion libraries. 
-
-Abstraction reduces the tech-jargon density of the discussion, thus making it bearable to the rest of the team 
-
-In such a case, you can refer to them by their real names, too. However, doing so could add more complexity to team communication when a non-programmer audience is involved.
 
 
 ### Types of concurrency:

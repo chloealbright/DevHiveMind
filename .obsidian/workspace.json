@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Open Source/To Look into.md",
+                "file": "_Low Priority Refinement/_CODE/_Organize/Glossary.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Open Source/To Look into.md",
+                "file": "_Low Priority Refinement/_CODE/_Organize/Glossary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Open Source/To Look into.md",
+                "file": "_Low Priority Refinement/_CODE/_Organize/Glossary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Open Source/To Look into.md"
+                "file": "_Low Priority Refinement/_CODE/_Organize/Glossary.md"
               }
             }
           },
@@ -279,7 +279,9 @@
   },
   "active": "91707f1d92b88db2",
   "lastOpenFiles": [
+    "_Low Priority Refinement/_CODE/_Organize/Data Project Idea.md",
     "Open Source/Syncthing Obsidian.md",
+    "Open Source/To Look into.md",
     "Open Source/Syncthing.md",
     "_Low Priority Refinement/_CODE/_Organize/Tech tips.md",
     "_Low Priority Refinement/_CODE/_Organize/Talking More Articulate Template.md",
@@ -305,8 +307,6 @@
     "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design with Persistent Data.md",
     "_Template/Whiteboard.png",
     "Web/Proxy.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Aggregate Root.md",
-    "_Low Priority Refinement/Database/Relationships/Relationship Reading.md",
     "Architecture/Design Patterns.pdf",
     "_Images/Database/relational model.png",
     "API",

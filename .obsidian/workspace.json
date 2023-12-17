@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Companies/People/People to know & TD Questions.md",
+                "file": "Devops/Test Automation.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Interview/Offense(Q&A).md",
+                "file": "Devops/OS/wsl v vm.md",
                 "mode": "source",
                 "source": false
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Interview/Offense(Q&A).md",
+                "file": "Devops/Test Automation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Interview/Offense(Q&A).md",
+                "file": "Devops/Test Automation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Interview/Offense(Q&A).md"
+                "file": "Devops/Test Automation.md"
               }
             }
           },
@@ -276,36 +276,37 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "336e343a71fa6379",
+  "active": "114ae4dd55b4dd71",
   "lastOpenFiles": [
-    "Companies/Interview/Interview Process.md",
-    "Companies/Interview/Follow Up response template.md",
-    "Companies/Interview/Experience Script.md",
-    "Companies/Interview/Defense(A&Q).md",
-    "Companies/Interview/CV.md",
-    "Companies/Interview/Company Take-Home Project.md",
-    "Companies/Interview/Coffee Chat Interviewing.md",
-    "Companies/Culture/Types of Programmers To Avoid.md",
-    "Companies/Culture/Crunch.md",
-    "Companies/Companies Worked At/General Dev Issues.md",
-    "Companies/Companies Worked At/Contribution Metrics.md",
-    "Companies/Companies Worked At/12 Key Metrics for Measuring Service Performance.md",
-    "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
-    "Companies/Companies Worked At/Tracflo/Tracflo & Construction Industry.md",
-    "Companies/Companies Worked At/Tracflo/Personally Developed Tracflo Feature Statistics.md",
-    "Companies/Companies Worked At/Tracflo/Construction Industry and Data Dynamics.md",
-    "Companies/Companies Worked At/Tracflo/Business Requirements Thought Experiment.md",
-    "Companies/Companies Worked At/TD/Validating.md",
-    "Companies/Companies Worked At/TD/User Stories.md",
-    "Companies/Companies Worked At/TD/Type of Question.md",
-    "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
-    "Companies/Companies Worked At/TD/Requirement Governance.md",
-    "Companies/Companies Worked At/TD/PI Planning.md",
-    "Companies/Companies Worked At/TD/Non-calendar fiscal year.md",
-    "Companies/Companies Worked At/TD/Moscow prioritization.md",
-    "Companies/Companies Worked At/TD/Elicitation.md",
-    "Infographics/Piliars Of OOP.jpeg",
+    "Devops/Terraform.md",
+    "Devops/Stages.md",
+    "Devops/hypervisor.md",
+    "Devops/GitHub Actions.md",
+    "Devops/Deployment Patterns.md",
+    "Devops/Deployment artifacts.md",
+    "Devops/Continuous Integration.md",
+    "Devops/Continuous Deployment.md",
+    "Devops/Version Control/GitHub tip.md",
+    "Devops/Version Control/GitHub Linux setup.md",
+    "Devops/Version Control/Git.md",
+    "Devops/Version Control/Common Git Workflow.md",
+    "_Low Priority Refinement/Companies/People/People to know & TD Questions.md",
+    "Devops/OS/wsl v vm.md",
+    "Devops/OS/dualboot.md",
+    "Devops/Docker/Shim.md",
+    "Devops/Docker/Open Container Initiative.md",
+    "Devops/Docker/Dockerd and Containerd.md",
+    "Devops/Docker/Docker volumes.md",
+    "Devops/Docker/Docker Tidbits.md",
+    "Devops/Docker/Docker networks.md",
+    "Devops/Docker/Docker Namespace in Deph.md",
+    "Devops/Docker/Docker Images containers Volumes.md",
+    "Devops/Docker/Docker Entrypoint and CMD.md",
+    "Devops/Docker/Docker Compose and Dockerfile.md",
+    "Devops/Docker/Docker and kubernetes.md",
+    "_Template/test.svg",
     "_Template/Whiteboard.png",
+    "Infographics/Piliars Of OOP.jpeg",
     "Architecture/Design Patterns.pdf",
     "_Images/Database/relational model.png",
     "API",
@@ -319,7 +320,6 @@
     "_Images/StepByStep.gif",
     "_Images/Steps.gif",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
-    "_Images/Unthered.gif",
     "Companies/Companies Worked At/Next Company",
     "Companies/Companies Worked At/And the Next One",
     "Companies/Companies Worked At/And the Next One..",

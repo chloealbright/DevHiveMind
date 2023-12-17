@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Docker Compose and Dockerfile are two important components in the Docker ecosystem that work together to build and manage containerized applications. Here's an explanation of their relationship:  
   
 1. Dockerfile: A Dockerfile is a text file that contains a set of instructions for building a Docker image. It specifies the base image, defines the application's dependencies, configures environment variables, and describes how to set up the container's filesystem. The Dockerfile is used as input by the Docker build command to create the Docker image. It acts as a blueprint for building a containerized application.  

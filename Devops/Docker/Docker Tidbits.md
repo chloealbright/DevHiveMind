@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Containerizing microservices ensures isolation.
 
 Having two "Copy" aids with dependencies through layered caching in Docker.

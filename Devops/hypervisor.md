@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 A hypervisor, also known as a virtual machine monitor (VMM), is a software or hardware component that enables the creation and management of virtual machines (VMs) on a physical computer or server. The primary purpose of a hypervisor is to allow multiple operating systems to run simultaneously on the same hardware, each within its isolated virtual environment. Here are some key points about hypervisors:  
   
 1. **Virtualization**: Hypervisors enable virtualization, which is the abstraction of physical hardware resources into multiple virtual instances. These instances, or VMs, behave as if they are running on dedicated physical hardware, even though they share the underlying resources.  

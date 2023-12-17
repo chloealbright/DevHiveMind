@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 if you Windows 10 after Linux disconnect Linux drive then reconnect the drive after installation and do an update grub
 
 $ sudo apt-add-repository ppa:rodsmith/refind

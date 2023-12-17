@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[Deployment Patterns.jpeg]]
 
 Deployment patterns are automated methods of introducing new application features to your users. Your ability to cut downtime depends on the deployment style you use. Some patterns also let you roll out extra functionality. By doing this, you can test new features with a small group of users before making them available to everyone.  We have different options for deployment patterns:  

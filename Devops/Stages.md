@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[Development Stages to Production.png]]
 
 Tries to remove roadblocks in terms of the different processes in software development from the idea stage to the implementation to the testing to the building to the deployment and observation of the system 

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 when forking avoid adding collaborators to keep pull request permissions otherwise any collaborator on the project can make a request and merge without master repo approval
 
 pull request is for code review & is not exclusively a git feature it is a github feature

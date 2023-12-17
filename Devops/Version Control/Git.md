@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 [https://www.nobledesktop.com/learn/git/git-branches](https://www.nobledesktop.com/learn/git/git-branches)  
 [https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html](https://docs.gitlab.com/ee/user/project/merge_requests/squash_and_merge.html)  
   

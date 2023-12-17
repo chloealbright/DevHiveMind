@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Use Entrypoint instead of CMD in Docker because it is immutable
 
 Ctrl p q to exit container but keep it running

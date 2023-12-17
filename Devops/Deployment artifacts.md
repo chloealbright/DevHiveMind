@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 In terms of deployment, the admin code and processes may or may not be bundled within the same versioned artifact (such as a container image or a deployable package) as the main application code. Depending on the level of separation required and the deployment strategy, you might choose to package admin code separately or include it in the same artifact.
 
 

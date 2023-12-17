@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 In the context of Docker, a "shim" refers to a small, intermediary component that facilitates communication between the Docker daemon and a container's individual processes. The purpose of a shim is to ensure proper interaction between Docker's higher-level management and orchestration functionalities and the lower-level container runtime.
 
 When you run a Docker container, the Docker daemon is responsible for managing the container's lifecycle, resource allocation, networking, and more. However, the actual execution of the container's processes happens within a lower-level container runtime, such as `runc` (the default runtime used by Docker) or other runtimes like `containerd`.

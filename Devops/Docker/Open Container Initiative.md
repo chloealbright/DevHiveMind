@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 OCI stands for "Open Container Initiative," which is an open-source project focused on establishing industry standards for container formats and runtime. The goal of the OCI is to ensure that containers are vendor-neutral, interoperable, and can be easily created, distributed, and run across different container runtimes and platforms.
 
 The OCI was launched in 2015 by a group of technology companies, including Docker, CoreOS, Google, Microsoft, and others. The initiative gained significant industry support and resulted in the development of two main specifications:

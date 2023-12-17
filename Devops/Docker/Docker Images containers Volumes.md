@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[Docker.png]]
 
 Use Docker prune to start from scratch when dealing with a bad image

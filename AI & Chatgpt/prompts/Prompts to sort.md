@@ -6,7 +6,7 @@ tags:
   - todo/Med/Dev
 author:
   - jacgit18
-Status: refinement
+Status: Refinement
 Started: 
 EditDate: 
 Relates:

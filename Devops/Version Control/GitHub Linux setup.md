@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 git config --global user.name "jacgit18" 
 
 git config --global user.email [joshuaxcarpentier@gmail.com](mailto:joshuaxcarpentier@gmail.com) 

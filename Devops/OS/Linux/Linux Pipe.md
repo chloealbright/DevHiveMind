@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 The pipe command (`|`) in Linux is a versatile tool for connecting and chaining multiple commands together. It allows you to take the output of one command and use it as the input for another command. Here are some common use case scenarios for the pipe command:
 
 1. **Text Filtering with `grep`**:

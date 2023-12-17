@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 command to run a maven wrapper on a specific port
 
 ./mvnw spring-boot:run -Dspring-boot.run.arguments=--server.port=8090

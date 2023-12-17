@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Both of these commands are used to append a line of text to the `/etc/hosts` file in Linux, but they achieve this in different ways. Here's the difference between the two commands:
 
 1. `sudo "echo 8.8.8.8 google" >> /etc/hosts`:

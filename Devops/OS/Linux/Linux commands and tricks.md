@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 - **Erasing Content in a File:**
   - To erase the content of a file named "Going":
     ```

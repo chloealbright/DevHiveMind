@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 To create an image of a Linux distribution, you can follow these general steps:  
   
 1. Set up a Virtual Machine (VM) or physical system: You'll need a system to install and configure the Linux distribution. You can either use a virtualization platform like VirtualBox or VMware, or a physical machine if you prefer.  

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ***Webpack*** is an open-source JavaScript module mainly designed for JavaScript. It can transform front-end assets such as HTML, CSS, and images if corresponding loaders are included. Webpack takes the dependencies and general dependency graph allowing web developers to use a modular approach for their web application development process. It also provides built-in development server called a webpack dev server that can be used as an HTTP server for serving files while developing.
 
 ***Gulp***: is the best alternative for webpack. It is an open-source JavaScript toolkit, used for streaming build systems in front-end web development. It is a task runner which is built on nom and node.js. Mainly used for automation to save time and repeat certain tasks involved in web development like cache busting, linting, concatenation, minification, unit testing, optimization, etc. It uses code over configuration approach to define the tasks and relies on its small, single-purpose plugins and o carry them out. It allows users to write their own plugins to define their own tasks.

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Your notes cover various aspects of file systems, permissions, and commands. Here's a refined version:
 
 - **File Types:**

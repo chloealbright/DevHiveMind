@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 The `diff` command in Linux and Unix-like operating systems is used to compare two text files line by line and display the differences between them. It's a powerful tool for finding changes, additions, and deletions in files. Here are some real-world examples of how the `diff` command can be useful: ^8b715b
 
 1. **Comparing Two Versions of a Configuration File**:

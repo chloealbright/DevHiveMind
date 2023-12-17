@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Week 1: 
 
 -   Get familiar with basic Linux commands and file system navigation. 

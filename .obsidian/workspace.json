@@ -20,36 +20,14 @@
             }
           },
           {
-            "id": "c09595e26b094c79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Devops/OS/Linux/Cerebro Program.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bc7f31a83edeaeb5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/_Build Tool/Gradle.md",
+                "file": "Language/Bash/Automation.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "731c49a85f1f15ed",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Infographics/DevOps/Linux File System.jpeg"
               }
             }
           }
@@ -137,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Devops/OS/Linux/Cerebro Program.md",
+                "file": "Language/Bash/Automation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Devops/OS/Linux/Cerebro Program.md",
+                "file": "Language/Bash/Automation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Devops/OS/Linux/Cerebro Program.md"
+                "file": "Language/Bash/Automation.md"
               }
             }
           },
@@ -281,23 +259,37 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c09595e26b094c79",
+  "active": "bc7f31a83edeaeb5",
   "lastOpenFiles": [
-    "Devops/OS/Linux/FS/root sign.md",
-    "Devops/OS/Linux/FS/root.md",
-    "Devops/OS/Linux/Cerebro Program.md",
+    "Language/_Build Tool/Maven.md",
+    "Language/_Build Tool/Make.md",
+    "Language/_Build Tool/Javascript Build.md",
+    "Language/_Build Tool/Gradle.md",
+    "Language/_Build Tool/Build Tools.md",
+    "Language/_Build Tool/Build.md",
+    "Language/_Build Tool/Ant.md",
+    "Infographics/DevOps/DevOps Roadmap.gif",
+    "Framework/Reactive programming.md",
+    "Framework/Reactive.md",
+    "Framework/JavaScript ecosystem event-driven and reactive programming.md",
+    "Framework/Consumers and Producers.md",
+    "Framework/Frontend/Next.js.md",
+    "Framework/Backend/Springboot.md",
+    "Framework/Backend/Express.js.md",
+    "Framework/Backend/Apache vs Tomcat.md",
+    "Error Log/Language Error.md",
+    "Devops/OS/Linux/Type of files in Linux.md",
+    "Devops/OS/Linux/vpn.md",
+    "Devops/OS/Linux/Symbolic link.md",
+    "Devops/OS/Linux/SSH.md",
+    "Devops/OS/Linux/Linux SED.md",
+    "Devops/OS/Linux/Linux pipe v redirect example.md",
+    "Devops/OS/Linux/Linux Pipe.md",
     "Infographics/DevOps/Linux File System.jpeg",
+    "Devops/OS/Linux/Quick note.md",
+    "Devops/OS/Linux/Linux Tips.md",
+    "Devops/OS/Linux/Linux Overwrite and Append.md",
     "Infographics/DevOps/Linux Boot Process.gif",
-    "Devops/OS/Linux/FS/home.md",
-    "Devops/OS/Linux/Distros/Distros Explained.md",
-    "Devops/Test Automation.md",
-    "Devops/Terraform.md",
-    "Devops/Stages.md",
-    "Devops/hypervisor.md",
-    "Devops/GitHub Actions.md",
-    "Devops/Deployment Patterns.md",
-    "Devops/Continuous Integration.md",
-    "Devops/Continuous Deployment.md",
     "Infographics/Cloud/Cloud Monitoring Services.jpeg",
     "Infographics/Load Balance Algo.jpeg",
     "Infographics/Architecture/Architect Styles.jpeg",
@@ -305,20 +297,6 @@
     "Infographics/Architecture/Domain Flow.jpeg",
     "Infographics/Architecture/Model Patterns.jpeg",
     "Infographics/Architecture/StackOverflow.jpg",
-    "_Low Priority Refinement/API/API.md",
-    "Algorithms & Data Structures/Algorithms/Algorithm Most Common Built in Functions.md",
-    "Language/_Build Tool/Gradle.md",
-    "Language/_Build Tool/Build Tools.md",
-    "Language/_Build Tool/Build.md",
-    "Language/_Build Tool/Ant.md",
-    "Devops/OS/Linux/vpn.md",
-    "Devops/OS/dualboot.md",
-    "Devops/OS/wsl v vm.md",
-    "Devops/OS/Linux/Type of files in Linux.md",
-    "Devops/OS/Linux/Symbolic link.md",
-    "Devops/OS/Linux/SSH.md",
-    "Devops/OS/Linux/Quick note.md",
-    "_Template/test.svg",
     "Architecture/Design Patterns.pdf",
     "API",
     "Databases",

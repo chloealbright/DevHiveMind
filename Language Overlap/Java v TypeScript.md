@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Java:
 
 Syntax: Java uses a C-style syntax with curly braces for defining code blocks. It is a statically typed language, so variables are declared with their type at the beginning of the code, and their type cannot be changed during runtime.

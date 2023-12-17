@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Synchronization is a concept in concurrent programming that ensures proper coordination and communication between multiple threads or processes. It enables safe access and manipulation of shared resources to avoid race conditions, data corruption, and inconsistent behavior.
 
 In concurrent systems, when multiple threads or processes access shared resources simultaneously, problems can arise due to their interleaved execution. Synchronization mechanisms provide a way to control and manage the access to shared resources, allowing only one thread or process to access the resource at a time or ensuring that certain operations are performed atomically.

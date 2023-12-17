@@ -2,7 +2,7 @@
 tags: 
 author:
   - jacgit18
-Status: refinement
+Status: Refinement
 Started: 
 EditDate: 
 Relates: "[[Coupling vs Cohesion]]"

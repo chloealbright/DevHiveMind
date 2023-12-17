@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 a method call or initialize a variable add it to the stack then pause and give control of the stack to the next line of code to be added to call stack which is the stack frame. the next thing added is the  param  if there is one then the next values in the actual method including other variables and other lines that may update the variable adding things to the stack and give control to the next stack frame until everything is done and we are at the return and everything is popped off the stack  
 
 the stack frame is basically a method call 

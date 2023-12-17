@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[Shallow and Deep Copy.gif]]
 https://medium.com/@manjuladube/understanding-deep-and-shallow-copy-in-javascript-13438bad941c  
 

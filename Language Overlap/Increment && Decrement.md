@@ -2,6 +2,12 @@
 tags:
   - looping
   - codeFlow
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 Pre Increment = (++x) 1 to 10  slightly better the increment operator increments and returns the value after incrementing. 
 

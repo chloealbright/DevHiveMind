@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 IIFE(Immediately invoked function expression) create a function that automatically is called
 
 ```javascript

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Synchronous programming refers to the traditional way of executing code where each operation blocks the execution until it completes. In simple terms, the program waits for each task to finish before moving on to the next task. Synchronous programming is sequential and predictable.
 
 ```java

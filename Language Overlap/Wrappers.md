@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 const str = 'This is a string'; 
 
 str.toUpperCase(); // THIS IS A STRING 

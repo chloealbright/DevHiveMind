@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[goodbye-im-out.gif]]
 Making memory free is the process of garbage collection 
 

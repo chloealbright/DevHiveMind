@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
   
 
 Thread pools are a concept in concurrent programming that involves managing a group or pool of threads to efficiently execute tasks. Instead of creating and destroying threads for each individual task, a thread pool maintains a set of worker threads that are ready to perform tasks as needed.

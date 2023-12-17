@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ## Syntax Error 
 
 Typically associated when you forget a bracket or put the wrong sign 

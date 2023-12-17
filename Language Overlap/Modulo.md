@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 division includes a dividend / divisor = quotient  
 
 for long division the divisor * quotient = dividend  

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Each process in the application should be isolated, stateless, and independent of other processes. This enables horizontal scalability and fault tolerance. If one process becomes unhealthy or unresponsive, it can be terminated and replaced without affecting the overall application.
 
 Process isolation, in the context of the 12-factor app, refers to the practice of keeping each application process independent and self-contained. Each process should not rely on shared states or resources with other processes, promoting a stateless design. This approach enhances scalability, fault tolerance, and ease of deployment and maintenance.

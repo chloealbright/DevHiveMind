@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 "Single-threaded" means that we open a single connection and measure the speeds from that. "Multi-threaded" means that we're using multiple connections - usually anywhere from 3 to 8 - at the same time, and measure the total speed across them all. 
 
 Registers are used by the CPU when it's currently running a particular thread. When the OS decides to switch from one thread to another, the OS saves the current values of all the register into a private memory area specific to the first thread.

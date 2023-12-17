@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Timeout is a delayed call & interval is a continuous call until set time elapses  
 
 The global setTimeout() method sets a timer which executes a function or specified piece of code once the timer expires. 

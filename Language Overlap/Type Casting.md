@@ -1,6 +1,12 @@
 ---
 tags:
   - MicroCodebaseDecision
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 ## Widening Casting or Implicit(Js) conversion/Coercion
 

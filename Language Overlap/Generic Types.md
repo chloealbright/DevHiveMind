@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 TypeScript’s generics are ways to create collections of types (and typed functions, and more) that share certain formal similarities. These collections are parametrized by one or more type variables. Now that that’s cleared up, let’s move on to the review! 
 
 Hmm, maybe we should discuss this in a bit more detail. Actually, we have already seen an example of a generic type being used. Remember the array type syntax Array<T>? This is generic because we can substitute any type (either pre-defined or custom) in the place of T. For example Array<string> is an array of strings. 

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 There are several alternative services and repositories to Maven Central that you can use for managing and hosting your Java project dependencies. Some popular ones include:  
   
 1. **JFrog Artifactory**: Artifactory is a widely used artifact repository manager that supports Maven along with other package managers. It offers a free community edition and a more feature-rich enterprise version.  

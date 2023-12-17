@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language Overlap/Frameworks design patterns.md",
+                "file": "Library/Backend/Typescript  Library.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language Overlap/Frameworks design patterns.md",
+                "file": "Library/Backend/Typescript  Library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language Overlap/Frameworks design patterns.md",
+                "file": "Library/Backend/Typescript  Library.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language Overlap/Frameworks design patterns.md"
+                "file": "Library/Backend/Typescript  Library.md"
               }
             }
           },
@@ -273,32 +273,32 @@
   },
   "active": "63fd3e181701456e",
   "lastOpenFiles": [
-    "Language Overlap/Flow of Control.md",
-    "Language Overlap/Extends.md",
-    "Language Overlap/Exception handling.md",
-    "Language Overlap/Exception Handl.md",
-    "Language Overlap/Enum & Annotations.md",
-    "Language Overlap/Dynamic and Static Polymorphism.md",
-    "Language Overlap/DTO.md",
-    "Language Overlap/Difference between JWT and OAuth.md",
-    "Language Overlap/Declarative Coding.md",
-    "Language Overlap/Currying.md",
-    "Language Overlap/CPUs.md",
-    "Language Overlap/Coupling vs Cohesion.md",
-    "Language Overlap/Content switching.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Best Practices for Database Schema Design.md",
-    "Language/Typescript/Advanced Object Types.md",
-    "Language Overlap/Conditional Logic and Operators.md",
-    "Language Overlap/ConcurrentExample.md",
-    "Language Overlap/Concurrent programming.md",
-    "Language Overlap/Composition over Inheritance.md",
-    "Language Overlap/Composition and Encapsulation.md",
-    "Language Overlap/Compiled programming languages.md",
-    "Language Overlap/Code Execution Order of Operation.md",
-    "Language Overlap/Class Instance.md",
-    "Language Overlap/Class inheritance Python vs Java.md",
-    "Language Overlap/Casting vs Generics.md",
-    "Language Overlap/callback.md",
+    "Library/Backend/Eureka service.md",
+    "Library/Backend/Apache Kafka.md",
+    "Language Overlap/Wrappers.md",
+    "Language Overlap/Why Byte Stream.md",
+    "Language Overlap/Types of coupling.md",
+    "Language Overlap/Types of Cohesion.md",
+    "Language Overlap/Type of Languages.md",
+    "Language Overlap/Type Casting.md",
+    "Language Overlap/Synchronous  vs Asynchronous vs  Multiprocessing.md",
+    "Language Overlap/Synchronous.md",
+    "Error Log/Type of errors.md",
+    "Language Overlap/Thread pools.md",
+    "Language Overlap/Synchronization.md",
+    "Language Overlap/stack frame.md",
+    "Language Overlap/Single threading vs Multithreading.md",
+    "Language Overlap/Shallow Copy and Deep Copy(clone).md",
+    "Language Overlap/setTimeout() vs setInterval().md",
+    "Language Overlap/Serialization vs Parsing.md",
+    "Language Overlap/Serialization and Deserialization.md",
+    "Language Overlap/serial.md",
+    "Language Overlap/Pure Functions vs Impure Functions.md",
+    "Language Overlap/Promise Vs Async Await.md",
+    "Library/repository manager.md",
+    "Language Overlap/promise.md",
+    "Language Overlap/Process vs Thread.md",
+    "Language Overlap/Process Isolation.md",
     "Language/Markup/HTML/Dom.jpeg",
     "Infographics/DevOps/DevOps Roadmap.gif",
     "Infographics/DevOps/Linux File System.jpeg",

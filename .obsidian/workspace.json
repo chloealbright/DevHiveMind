@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_NoteAssets/Markdown to use.md",
+                "file": "_Low Priority Refinement/_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "e2a6f8367df41c41",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_Template/Whiteboard.png"
               }
             }
           }
@@ -102,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_NoteAssets/Markdown to use.md",
+                "file": "_Low Priority Refinement/_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_NoteAssets/Markdown to use.md",
+                "file": "_Low Priority Refinement/_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_NoteAssets/Markdown to use.md"
+                "file": "_Low Priority Refinement/_CODE/_Capture/How to Become a Good Backend Engineer (Fundamentals).md"
               }
             }
           },
@@ -248,6 +258,13 @@
   },
   "active": "50e2248f8e7ccb18",
   "lastOpenFiles": [
+    "_Low Priority Refinement/_CODE/_Capture/Distributed tracking and monitoring.md",
+    "_Low Priority Refinement/_CODE/_Capture/Designing Class to be Serializable.md",
+    "_Low Priority Refinement/_CODE/_Capture/Design Patterns and Pattern Languages.md",
+    "_Low Priority Refinement/_CODE/_Capture/Design Patterns A Guide to JavaScript Development Principles for Clean and Scalable Code  by Anto Semeraro  Jun, 2023  JavaScript in Plain English.md",
+    "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "_Template/Whiteboard.png",
+    "_NoteAssets/Markdown to use.md",
     "_NoteAssets/HTML Assets.md",
     "_NoteAssets/Callouts.md",
     "Home.md",
@@ -272,18 +289,11 @@
     "_Low Priority Refinement/Security/Code Defects.md",
     "_Low Priority Refinement/Companies/12 Key Metrics for Measuring Service Performance.md",
     "Companies/Companies Worked At/Contribution Metrics.md",
-    "_CODE/_Capture/12 Key Metrics for Measuring Service Performance.md",
-    "Companies/Companies Worked At/General Dev Issues.md",
-    "Architecture/Boxing and Unboxing.md",
-    "Architecture/Clean Code Approach Reflection.md",
-    "Architecture/Clean Code.md",
-    "Companies/Interview/Coffee Chat Interviewing.md",
     "Infographics/Process and Thread.jpeg",
     "Infographics/System Design Cheatsheet.gif",
     "Infographics/Work Process.png",
     "_Pdf/Joshua_Carpentier_Resume.pdf",
     "_Images/factory.gif",
-    "_Template/Whiteboard.png",
     "_Images/StepByStep.gif",
     "_Images/Steps.gif",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",

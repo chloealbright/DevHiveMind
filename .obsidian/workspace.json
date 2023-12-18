@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Typescript/Advanced Object Types.md",
+                "file": "Language/Typescript/Use of closure & composition.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,7 +141,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Automation",
+                "query": "Closure",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -205,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Protocols/FTP.md",
+                "file": "Language/Typescript/Use of closure & composition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Protocols/FTP.md",
+                "file": "Language/Typescript/Use of closure & composition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Protocols/FTP.md"
+                "file": "Language/Typescript/Use of closure & composition.md"
               }
             }
           },
@@ -349,8 +349,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "432bd249a011b533",
+  "active": "e9f0a3e454d5ea41",
   "lastOpenFiles": [
+    "Language/Typescript/Javascript.md",
+    "Language/Typescript/Iterators and generators.md",
+    "Language/Typescript/Imports & exports.md",
+    "Language/Typescript/Hoisting.md",
+    "Language/Typescript/ECMAScript.md",
+    "Language/Typescript/Async vs Defer how JavaScript is loaded.md",
+    "Language/Typescript/Closure is used for data encapsulation and uses more memory.md",
+    "Language/Typescript/Arrays in Typescript.md",
+    "Language/Typescript/Advanced Object Types.md",
+    "Language/Typescript/Any.md",
+    "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
+    "Web/Protocols/FTP.md",
+    "Home.md",
     "Testing/_Type of Testing.md",
     "Testing/Frontend/Selium.md",
     "Security/Unsafe functions.md",
@@ -358,29 +371,16 @@
     "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg",
     "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
     "Mind Maps/Drafts/UML/Models.md",
-    "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Java Behind the Scenes.md",
     "Mind Maps/Language Categories.md",
     "Methodology/Admin functionality God Mode/Backup and Restoration.md",
     "Library/Frontend/React/Unmounted Phase Method.md",
-    "Language/Typescript/Advanced Object Types.md",
     "_Low Priority Refinement/Database/Database Archetecture/Best Practices for Database Schema Design.md",
     "Library/Frontend/Redux/Redux toolkit/Redux toolkit with react & data fetching.md",
     "Library/Frontend/Redux/Redux toolkit/Redux toolkit store.md",
     "Library/Frontend/Redux/Redux toolkit/Redux toolkit is deals with boiler plate code.md",
     "Library/Frontend/Redux/Redux toolkit/Redux toolkit extra reducer.md",
-    "Library/Frontend/Redux/Redux toolkit/Redux Toolkit createSlice.md",
-    "Library/Frontend/Redux/Redux toolkit/Redux toolkit configuere store.md",
-    "Library/Frontend/Redux/Redux toolkit/Redux toolkit Async Thunk.md",
-    "Library/Frontend/Redux/Redux toolkit/Immer for regular redux.md",
-    "Library/Repository manager.md",
-    "Library/Frontend/JavaFX.md",
-    "Library/Frontend/Redux/useSelector Hooks.md",
-    "Library/Frontend/Redux/Multiple reducers/iceCreamReducer.md",
-    "Library/Frontend/Redux/Multiple reducers/iceCreamMapToProp.md",
-    "Library/Frontend/Redux/Multiple reducers/createStore.md",
-    "Library/Frontend/Redux/Multiple reducers/combineReducers.md",
     "Mind Maps/Redux Map.canvas",
     "_Images/Database/relational model.png",
     "Infographics/Piliars Of OOP.jpeg",

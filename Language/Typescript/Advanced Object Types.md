@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 One of the challenges of writing TypeScript is knowing how to apply types in every situation we’ll encounter within our code. Take a look at this example:
 
 class Robot {

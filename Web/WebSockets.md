@@ -1,7 +1,16 @@
-WebSocket is a protocol used to establish a two-way streaming communication channel over a single Transport Control Protocol (TCP) connection. Although the protocol is generally used between a web client (e.g., a browser) and a server, it’s sometimes used for server-to-server communication, as well. 
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
+WebSocket is a communication protocol facilitating two-way streaming over a single TCP connection, commonly between web clients and servers but also employed for server-to-server interactions. Major browsers support WebSocket, making it prevalent in real-time applications.
 
-The WebSocket protocol is supported by major browsers and often used by real-time applications. Slack uses WebSockets to send all kinds of events happening in a workspace to Slack’s clients, including new messages, emoji reactions added to items, and channel creations. Slack also provides a WebSocket-based Real Time Messaging API to developers so that they can receive events from Slack in real time and send messages as users. Similarly, Trello uses WebSockets to push changes made by other people down from servers to browsers listening on the appropriate channels, and Blockchain uses its WebSocket API to send real-time notifications about new transactions and blocks. 
+Examples include Slack utilizing WebSockets to relay diverse workspace events, and Trello employing them to transmit server changes to listening browsers. Blockchain leverages its WebSocket API for real-time notifications on transactions and blocks.
 
-WebSockets can enable full-duplex communication (server and client can communicate with each other simultaneously) at a low overhead. Additionally, they are designed to work over port 80 or 443, enabling them to work well with firewalls that might block other ports. This is an especially important consideration when it comes to enterprise developers. For example, some enterprise developers using Slack APIs prefer to use the WebSocket API over WebHooks because they are able to receive events from the Slack API securely without having to open up an HTTP WebHook endpoint to the internet where Slack can post messages. 
+WebSockets offer low-overhead full-duplex communication, crucial for real-time interactions, and can function over ports 80 or 443, bypassing firewall restrictions. Enterprise developers, concerned with security, may prefer WebSocket APIs over WebHooks, avoiding the need to expose an HTTP endpoint.
 
-WebSockets are great for fast, live streaming data and long-lived connections. However, be wary if you plan to make these available on mobile devices or in regions where connectivity can be spotty. Clients are supposed to keep the connection alive. If the connection dies, the client needs to reinitiate it. There are also issues related to scalability. Developers using Slack’s WebSocket API must establish a connection for each team that uses their app (Figure 2-5). This means that if an app is installed on 10,000 Slack workspaces, the developer would be responsible for maintaining 10,000 connections between Slack servers and the app’s server.
+While advantageous for live streaming and prolonged connections, caution is warranted for mobile or unreliable connectivity scenarios. Clients must maintain connections, and scalability issues arise; developers managing multiple connections, as seen with Slack's WebSocket API, face challenges, especially in maintaining numerous connections for widespread app installations.

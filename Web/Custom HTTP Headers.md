@@ -1,3 +1,7 @@
+
+### When and How to Use Custom HTTP Headers
+
+
 It is not uncommon to find HTTP servers using custom headers. Some well-known custom headers include X-Powered-By, X-Cache, X-Pingback, X-Forwarded-For, and X-HTTP-Method-Override. HTTP does not prohibit such extension headers, but depending on what clients and servers use custom headers for, custom headers may impede interoperability. This recipe discusses when and how to use custom HTTP headers. 
 
 Use custom headers for informational purposes. Implement clients and servers such that they do not fail when they do not find expected custom headers. 

@@ -1,7 +1,7 @@
 
 [[Web Token Intro ]]
 
-[[When should you use ]]
+[[When to Use#When to Use JWT (JSON Web Tokens)]]
 
 [[Json Structure]] 
 

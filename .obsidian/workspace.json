@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Custom HTTP Headers  Custom HTTP Methods.md",
+                "file": "Web/State of the Art.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Custom HTTP Headers  Custom HTTP Methods.md",
+                "file": "Web/State of the Art.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Custom HTTP Headers  Custom HTTP Methods.md",
+                "file": "Web/State of the Art.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Custom HTTP Headers  Custom HTTP Methods.md"
+                "file": "Web/State of the Art.md"
               }
             }
           },
@@ -277,10 +277,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9d21abcf1c4300ff",
+  "active": "336e343a71fa6379",
   "lastOpenFiles": [
-    "Web/When to Use.md",
     "Web/Custom HTTP Headers  Custom HTTP Methods.md",
+    "Web/When to Use.md",
     "Web/How to Use POST for Asynchronous Tasks.md",
     "Web/How to Use DELETE for Asynchronous Deletion.md",
     "Web/Query String.md",

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Typescript/Use of closure & composition.md",
+                "file": "Language/Typescript/Advanced Object Types.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,11 +57,14 @@
             "id": "1014a9e002268384",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Mind Maps/Drafts/UML/Models.md",
-                "mode": "source",
-                "source": false
+                "file": "Mind Maps/Redux Map.canvas",
+                "viewState": {
+                  "x": 1600,
+                  "y": 4560,
+                  "zoom": -3.7959861079784067
+                }
               }
             }
           },
@@ -72,16 +75,6 @@
               "type": "diagram",
               "state": {
                 "file": "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg"
-              }
-            }
-          },
-          {
-            "id": "9e732a9f4ee3479e",
-            "type": "leaf",
-            "state": {
-              "type": "diagram",
-              "state": {
-                "file": "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg"
               }
             }
           },
@@ -122,7 +115,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -141,7 +134,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Closure",
+                "query": "Automation",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -205,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/Typescript/Use of closure & composition.md",
+                "file": "Mind Maps/Redux Map.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/Typescript/Use of closure & composition.md",
+                "file": "Mind Maps/Redux Map.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/Typescript/Use of closure & composition.md"
+                "file": "Mind Maps/Redux Map.canvas"
               }
             }
           },
@@ -349,8 +342,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e9f0a3e454d5ea41",
+  "active": "1014a9e002268384",
   "lastOpenFiles": [
+    "Mind Maps/Drafts/UML/Models.md",
+    "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
+    "Web/Protocols/FTP.md",
+    "Mind Maps/Redux Map.canvas",
+    "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg",
+    "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
+    "Home.md",
     "Language/Typescript/Javascript.md",
     "Language/Typescript/Iterators and generators.md",
     "Language/Typescript/Imports & exports.md",
@@ -361,16 +361,10 @@
     "Language/Typescript/Arrays in Typescript.md",
     "Language/Typescript/Advanced Object Types.md",
     "Language/Typescript/Any.md",
-    "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
-    "Web/Protocols/FTP.md",
-    "Home.md",
     "Testing/_Type of Testing.md",
     "Testing/Frontend/Selium.md",
     "Security/Unsafe functions.md",
     "Open Source/Syncthing.md",
-    "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg",
-    "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
-    "Mind Maps/Drafts/UML/Models.md",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Java Behind the Scenes.md",
     "Mind Maps/Language Categories.md",
@@ -380,8 +374,6 @@
     "Library/Frontend/Redux/Redux toolkit/Redux toolkit with react & data fetching.md",
     "Library/Frontend/Redux/Redux toolkit/Redux toolkit store.md",
     "Library/Frontend/Redux/Redux toolkit/Redux toolkit is deals with boiler plate code.md",
-    "Library/Frontend/Redux/Redux toolkit/Redux toolkit extra reducer.md",
-    "Mind Maps/Redux Map.canvas",
     "_Images/Database/relational model.png",
     "Infographics/Piliars Of OOP.jpeg",
     "Infographics/Load Balance Algo.jpeg",

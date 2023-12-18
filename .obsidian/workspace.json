@@ -62,8 +62,8 @@
                 "file": "Mind Maps/Redux Map.canvas",
                 "viewState": {
                   "x": 1600,
-                  "y": 4560,
-                  "zoom": -3.7959861079784067
+                  "y": 269.5840766360093,
+                  "zoom": -1.7959861079784067
                 }
               }
             }
@@ -113,7 +113,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -196,7 +196,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing/System Integration Testing.md",
+                "file": "Mind Maps/Redux Map.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Testing/System Integration Testing.md",
+                "file": "Mind Maps/Redux Map.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +236,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Testing/System Integration Testing.md"
+                "file": "Mind Maps/Redux Map.canvas"
               }
             }
           },
@@ -340,8 +340,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "02523683853590a2",
+  "active": "1014a9e002268384",
   "lastOpenFiles": [
+    "Language/Typescript/Advanced Object Types.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Best Practices for Database Schema Design.md",
+    "Testing/System Integration Testing.md",
     "Testing/_Type of Testing.md",
     "Testing/when would use looping in unit and integration test.md",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
@@ -361,7 +364,6 @@
     "Language/Typescript/Async vs Defer how JavaScript is loaded.md",
     "Language/Typescript/Closure is used for data encapsulation and uses more memory.md",
     "Language/Typescript/Arrays in Typescript.md",
-    "Language/Typescript/Advanced Object Types.md",
     "Language/Typescript/Any.md",
     "Testing/Frontend/Selium.md",
     "Security/Unsafe functions.md",
@@ -371,10 +373,8 @@
     "Mind Maps/Language Categories.md",
     "Methodology/Admin functionality God Mode/Backup and Restoration.md",
     "Library/Frontend/React/Unmounted Phase Method.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Best Practices for Database Schema Design.md",
     "Library/Frontend/Redux/Redux toolkit/Redux toolkit with react & data fetching.md",
     "Library/Frontend/Redux/Redux toolkit/Redux toolkit store.md",
-    "Library/Frontend/Redux/Redux toolkit/Redux toolkit is deals with boiler plate code.md",
     "_Images/Database/relational model.png",
     "Infographics/Piliars Of OOP.jpeg",
     "Infographics/Load Balance Algo.jpeg",

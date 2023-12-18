@@ -19,7 +19,7 @@ class Robot {
 
 }
 
-[https://stackoverflow.com/questions/37233735/interfaces-vs-types-in-typescript](https://stackoverflow.com/questions/37233735/interfaces-vs-types-in-typescript)
+
 
 
 Here, we’ve created a class named Robot. How could we apply the type Robot? Also, some robots may have more functionality than others, or have variable property names. How might we apply types in these situations? 

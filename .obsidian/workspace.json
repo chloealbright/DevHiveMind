@@ -106,9 +106,11 @@
             "id": "432bd249a011b533",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "_Pdf/Joshua_Carpentier_Resume.pdf"
+                "file": "Web/Protocols/FTP.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -196,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Pdf/Joshua_Carpentier_Resume.pdf",
+                "file": "Web/Protocols/FTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Pdf/Joshua_Carpentier_Resume.pdf",
+                "file": "Web/Protocols/FTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Pdf/Joshua_Carpentier_Resume.pdf"
+                "file": "Web/Protocols/FTP.md"
               }
             }
           },
@@ -342,8 +344,9 @@
   },
   "active": "432bd249a011b533",
   "lastOpenFiles": [
-    "Mind Maps/Redux Map.canvas",
+    "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
     "_Pdf/Joshua_Carpentier_Resume.pdf",
+    "Mind Maps/Redux Map.canvas",
     "Mind Maps/Drafts/UML/Models.md",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
     "Web/Protocols/FTP.md",
@@ -385,7 +388,6 @@
     "Infographics/System Design Cheatsheet.gif",
     "Infographics/Work Process.png",
     "_Images/factory.gif",
-    "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
     "Companies/Companies Worked At/Next Company",
     "Companies/Companies Worked At/And the Next One",
     "Companies/Companies Worked At/And the Next One..",

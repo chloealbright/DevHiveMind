@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/RESTful Routing.md",
+                "file": "Web/Custom HTTP Headers  Custom HTTP Methods.md",
                 "mode": "source",
                 "source": false
               }
@@ -36,8 +36,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8e50199c81865f41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/When to Use.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/RESTful Routing.md",
+                "file": "Web/Custom HTTP Headers  Custom HTTP Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/RESTful Routing.md",
+                "file": "Web/Custom HTTP Headers  Custom HTTP Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/RESTful Routing.md"
+                "file": "Web/Custom HTTP Headers  Custom HTTP Methods.md"
               }
             }
           },
@@ -266,19 +279,26 @@
   },
   "active": "9d21abcf1c4300ff",
   "lastOpenFiles": [
-    "Web/REDUCING HTTP REQUESTS.md",
+    "Web/When to Use.md",
+    "Web/Custom HTTP Headers  Custom HTTP Methods.md",
+    "Web/How to Use POST for Asynchronous Tasks.md",
+    "Web/How to Use DELETE for Asynchronous Deletion.md",
+    "Web/Query String.md",
+    "Web/Web Socket chat client.md",
+    "Web/Json Structure.md",
+    "Web/JSON.md",
+    "Web/Other Methods.md",
+    "Web/Media Type Design.md",
     "Web/RESTful Routing.md",
+    "Web/REDUCING HTTP REQUESTS.md",
     "Web/SEO.md",
     "Web/WebSockets.md",
-    "Web/When to Use.md",
-    "Web/Web Socket chat client.md",
     "Web/Web protocol explained.md",
     "Web/Web Token.md",
     "Web/Web Token Intro.md",
     "Web/Web Workers.md",
     "Web/WebHooks v WebSockets v HTTP Streaming.md",
     "Web/Webhooks vs Polling.md",
-    "Web/Custom HTTP Headers.md",
     "Web/When should you use.md",
     "Dev Roadmaps By Priority.md",
     "Home.md",
@@ -288,16 +308,9 @@
     "Open Source/Syncthing.md",
     "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
     "Mind Maps/Redux Map.canvas",
-    "Language/Typescript/Advanced Object Types.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Best Practices for Database Schema Design.md",
-    "Testing/_Type of Testing.md",
-    "Testing/when would use looping in unit and integration test.md",
-    "Web/Protocols/FTP.md",
     "_Pdf/Joshua_Carpentier_Resume.pdf",
-    "Mind Maps/Drafts/UML/Models.md",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
     "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg",
-    "Language/Typescript/Javascript.md",
     "Mind Maps/Drafts/Gateway.canvas",
     "_Images/Database/relational model.png",
     "Infographics/Piliars Of OOP.jpeg",

@@ -61,3 +61,15 @@ Content-Type: application/xml;charset=UTF-8 
 </address>  
 
 In this case, the client uses X-HTTP-Method-Override with a value of PUT to override the behavior of the method used for the request, which is POST. The rationale for this extension was to tunnel the method PUT over POST so that any firewalls configured to block PUT will permit the request.
+
+
+
+### When to Use Custom HTTP Methods
+
+Avoid nonstandard custom HTTP methods for compatibility with off-the-shelf software. Design a controller resource for abstract operations and utilize the standard HTTP method POST.
+
+- **WebDAV Methods**: WebDAV defines methods like PROPFIND, PROPPATCH, MOVE, LOCK, UNLOCK for distributed authoring and versioning.
+
+- **Other Examples**: PATCH for partial updates, MERGE for resource merging.
+
+- **Considerations**: Nonstandard methods are treated similarly to POST by proxies, caches, and HTTP libraries. Server-provided idempotency and safety guarantees are essential. Use custom methods only when interoperability is not a concern.

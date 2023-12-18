@@ -10,20 +10,17 @@ Relates:
 ### When to Use JWT (JSON Web Tokens)
 
 #### Authentication
-After a successful login, an ID token (JWT) is returned, adhering to OpenID Connect specifications.
+After a successful login, an ID token (JWT) is returned, following OpenID Connect specifications.
 
 #### Authorization
-JWTs are commonly used for secure authorization. Subsequent requests include the JWT, granting access to permitted routes, services, and resources. JWTs are especially popular in Single Sign-On due to their efficiency and cross-domain compatibility.
+JWTs are commonly employed for secure authorization, with subsequent requests including the JWT to grant access to permitted routes, services, and resources. They are especially favored in Single Sign-On for their efficiency and cross-domain compatibility.
 
 #### Information Exchange
-Securely transmit information between parties using signed JWTs. The use of public/private key pairs ensures the authenticity of senders, and the signature verifies content integrity.
+Securely transmit information between parties using signed JWTs. Public/private key pairs ensure sender authenticity, and the signature verifies content integrity.
 
-### When to Use Custom HTTP Methods
+**JSON Web Token Structure: xxxxx.yyyyy.zzzzz**
 
-Avoid nonstandard custom HTTP methods to ensure compatibility with off-the-shelf software. Instead, design a controller resource for abstract operations and use the standard HTTP method POST.
+- **Header.Payload.Signature**
 
-- **WebDAV Methods**: WebDAV defines methods like PROPFIND, PROPPATCH, MOVE, LOCK, UNLOCK for distributed authoring and versioning.
+    - The header typically includes the token type (JWT) and the signing algorithm (e.g., HMAC SHA256 or RSA). For example: `{ "alg": "HS256", "typ": "JWT" }`—this JSON is Base64Url encoded to form the first part of the JWT.
 
-- **Other Examples**: PATCH for partial updates, MERGE for resource merging.
-
-- **Considerations**: Nonstandard methods are treated similarly to POST by proxies, caches, and HTTP libraries. Idempotency and safety guarantees must be explicitly provided by the server. Use custom methods only when interoperability is not a concern.

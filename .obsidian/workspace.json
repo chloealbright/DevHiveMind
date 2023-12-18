@@ -113,9 +113,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "16b70b7687412d5d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "_Pdf/Joshua_Carpentier_Resume.pdf"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -198,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mind Maps/Redux Map.canvas",
+                "file": "_Pdf/Joshua_Carpentier_Resume.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mind Maps/Redux Map.canvas",
+                "file": "_Pdf/Joshua_Carpentier_Resume.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mind Maps/Redux Map.canvas"
+                "file": "_Pdf/Joshua_Carpentier_Resume.pdf"
               }
             }
           },
@@ -342,12 +352,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1014a9e002268384",
+  "active": "336e343a71fa6379",
   "lastOpenFiles": [
+    "Mind Maps/Redux Map.canvas",
     "Mind Maps/Drafts/UML/Models.md",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
     "Web/Protocols/FTP.md",
-    "Mind Maps/Redux Map.canvas",
     "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg",
     "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
     "Home.md",

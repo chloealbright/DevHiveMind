@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/State of the Art.md",
+                "file": "Open Source/WordPress.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/State of the Art.md",
+                "file": "Open Source/WordPress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/State of the Art.md",
+                "file": "Open Source/WordPress.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/State of the Art.md"
+                "file": "Open Source/WordPress.md"
               }
             }
           },
@@ -277,8 +277,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "336e343a71fa6379",
+  "active": "9d21abcf1c4300ff",
   "lastOpenFiles": [
+    "Open Source/To Look into.md",
+    "Open Source/WordPress.md",
+    "Web/Application & Web Server.md",
+    "Web/HTTP Request.md",
+    "Web/State of the Art.md",
     "Web/Custom HTTP Headers  Custom HTTP Methods.md",
     "Web/When to Use.md",
     "Web/How to Use POST for Asynchronous Tasks.md",
@@ -300,12 +305,7 @@
     "Web/WebHooks v WebSockets v HTTP Streaming.md",
     "Web/Webhooks vs Polling.md",
     "Web/When should you use.md",
-    "Dev Roadmaps By Priority.md",
-    "Home.md",
-    "README.md",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
-    "Testing/System Integration Testing.md",
-    "Open Source/Syncthing.md",
     "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
     "Mind Maps/Redux Map.canvas",
     "_Pdf/Joshua_Carpentier_Resume.pdf",

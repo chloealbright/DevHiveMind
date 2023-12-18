@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Take some time to think about the kind of app you're building, and decide what tools would be best to help solve the problems you're working on.
 
 

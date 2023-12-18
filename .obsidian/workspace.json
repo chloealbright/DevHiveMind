@@ -37,26 +37,92 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Library/Frontend/React/Unmounted Phase Method.md",
+                "file": "Methodology/Admin functionality God Mode/Backup and Restoration.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "97dea0402ddd4fc5",
+            "id": "6e9d38457edbd686",
+            "type": "leaf",
+            "state": {
+              "type": "diagram-edit",
+              "state": {
+                "file": "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio"
+              }
+            }
+          },
+          {
+            "id": "1014a9e002268384",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security/Unsafe functions.md",
+                "file": "Mind Maps/Drafts/UML/Models.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce1b61a584b3f71f",
+            "type": "leaf",
+            "state": {
+              "type": "diagram",
+              "state": {
+                "file": "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg"
+              }
+            }
+          },
+          {
+            "id": "9e732a9f4ee3479e",
+            "type": "leaf",
+            "state": {
+              "type": "diagram",
+              "state": {
+                "file": "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg"
+              }
+            }
+          },
+          {
+            "id": "37719627274b92cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Open Source/Syncthing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "02523683853590a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Testing/_Type of Testing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "432bd249a011b533",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/Protocols/FTP.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -139,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Security/Unsafe functions.md",
+                "file": "Web/Protocols/FTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Security/Unsafe functions.md",
+                "file": "Web/Protocols/FTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Security/Unsafe functions.md"
+                "file": "Web/Protocols/FTP.md"
               }
             }
           },
@@ -283,55 +349,56 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "97dea0402ddd4fc5",
+  "active": "432bd249a011b533",
   "lastOpenFiles": [
-    "Open Source/To Look into.md",
-    "Open Source/WordPress.md",
-    "Open Source/Syncthing Obsidian.md",
+    "Testing/_Type of Testing.md",
+    "Testing/Frontend/Selium.md",
+    "Security/Unsafe functions.md",
     "Open Source/Syncthing.md",
-    "Mind Maps/Language Categories.md",
-    "Mind Maps/Drafts/UML/to edit/Package Diagram with classes .drawio",
-    "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
-    "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
-    "Mind Maps/Drafts/UML/UML Monitor Project.png",
-    "Mind Maps/Drafts/UML/Requirement life cycle.svg",
-    "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
     "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg",
+    "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
     "Mind Maps/Drafts/UML/Models.md",
-    "Methodology/Staged Deployment.md",
-    "Methodology/Source code vs Codebase.md",
-    "Methodology/Deployment Strategies.md",
-    "Methodology/12 Factor App  Microservices Architecture.md",
-    "Methodology/Twelve Factor App/Twelve Factor App Backing services.md",
-    "Methodology/Docker Twelve Factors App/II Dependencies.md",
-    "Methodology/Docker Twelve Factors App/I Codebase.md",
-    "Methodology/Admin functionality God Mode/User Management.md",
-    "Methodology/Admin functionality God Mode/Task Scheduling.md",
-    "Methodology/Admin functionality God Mode/Resource Scaling.md",
-    "Methodology/Admin functionality God Mode/Monitoring and Logging Configuration.md",
-    "Methodology/Admin functionality God Mode/Database Migrations.md",
-    "Methodology/Admin functionality God Mode/Data Seeding.md",
-    "Methodology/Admin functionality God Mode/Configuration Changes.md",
-    "Methodology/Admin functionality God Mode/Cache Clearing.md",
+    "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
+    "Mind Maps/Drafts/Gateway.canvas",
+    "Mind Maps/Java Behind the Scenes.md",
+    "Mind Maps/Language Categories.md",
     "Methodology/Admin functionality God Mode/Backup and Restoration.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Best Practices for Database Schema Design.md",
-    "Language/Typescript/Advanced Object Types.md",
     "Library/Frontend/React/Unmounted Phase Method.md",
-    "Library/Frontend/React/Types of Component.md",
-    "Language/Markup/HTML/Dom.jpeg",
-    "Infographics/DevOps/DevOps Roadmap.gif",
-    "Infographics/DevOps/Linux File System.jpeg",
-    "Infographics/DevOps/Linux Boot Process.gif",
-    "Infographics/Cloud/Cloud Monitoring Services.jpeg",
+    "Language/Typescript/Advanced Object Types.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Best Practices for Database Schema Design.md",
+    "Library/Frontend/Redux/Redux toolkit/Redux toolkit with react & data fetching.md",
+    "Library/Frontend/Redux/Redux toolkit/Redux toolkit store.md",
+    "Library/Frontend/Redux/Redux toolkit/Redux toolkit is deals with boiler plate code.md",
+    "Library/Frontend/Redux/Redux toolkit/Redux toolkit extra reducer.md",
+    "Library/Frontend/Redux/Redux toolkit/Redux Toolkit createSlice.md",
+    "Library/Frontend/Redux/Redux toolkit/Redux toolkit configuere store.md",
+    "Library/Frontend/Redux/Redux toolkit/Redux toolkit Async Thunk.md",
+    "Library/Frontend/Redux/Redux toolkit/Immer for regular redux.md",
+    "Library/Repository manager.md",
+    "Library/Frontend/JavaFX.md",
+    "Library/Frontend/Redux/useSelector Hooks.md",
+    "Library/Frontend/Redux/Multiple reducers/iceCreamReducer.md",
+    "Library/Frontend/Redux/Multiple reducers/iceCreamMapToProp.md",
+    "Library/Frontend/Redux/Multiple reducers/createStore.md",
+    "Library/Frontend/Redux/Multiple reducers/combineReducers.md",
+    "Mind Maps/Redux Map.canvas",
+    "_Images/Database/relational model.png",
+    "Infographics/Piliars Of OOP.jpeg",
     "Infographics/Load Balance Algo.jpeg",
+    "_Template/Whiteboard.png",
     "Architecture/Design Patterns.pdf",
     "API",
     "Databases",
     "Security",
+    "Infographics/Process and Thread.jpeg",
+    "Infographics/System Design Cheatsheet.gif",
+    "Infographics/Work Process.png",
     "_Pdf/Joshua_Carpentier_Resume.pdf",
+    "_Images/factory.gif",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
     "Companies/Companies Worked At/Next Company",
     "Companies/Companies Worked At/And the Next One",
+    "Companies/Companies Worked At/And the Next One..",
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",
@@ -339,7 +406,6 @@
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/_Web App Architecture.canvas",
     "Mind Maps/12 Factor App Docker.canvas",
-    "Mind Maps/Docker InDeph.canvas",
-    "Mind Maps/Redux Map.canvas"
+    "Mind Maps/Docker InDeph.canvas"
   ]
 }

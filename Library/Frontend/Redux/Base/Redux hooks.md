@@ -1,6 +1,15 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ```javascript
 
-// doesn't vary when workink with redux toolkit more of react-redux sharing state with react
+// doesn't vary when working with redux toolkit more of react-redux sharing state with react
 
   
 

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Use effect allows you to use side effects in functional components  
 
 It is a close replacement for these life cycle methods <mark style="background: #FFF3A3A6;">componentDidMount</mark>, <mark style="background: #FFF3A3A6;">componentDidUpdate</mark>, & <mark style="background: #FFF3A3A6;">componentWillUnmount</mark>  

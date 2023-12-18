@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Used for optimization  
 
 useMemo is similar to use callBack and cache something like a function and takes in a array or dependencies as it second param  

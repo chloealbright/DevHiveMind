@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Use context  is used when you have nested components and you need to pass down props to a component deep inside another component which can be shitty in terms of performance  
 
 

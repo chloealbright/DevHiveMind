@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 
 Like action, action objects, and creators and all the switch statement within reducer and you need to import other libraries like immer & redux-thunk
 

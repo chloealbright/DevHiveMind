@@ -1,8 +1,21 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 There are 5 methods 3 are rarely used but are called in this order of execution  
 
 
 ```javascript
-getDerivedStateFromProps(props, state)  > shouldComponentUpdate(nextProp, nextState)  > render() > getSnapshotBeforeUpdate(prevProp, prevState) > componentDidUpdate(prevProp, prevState, snapshot)  
+getDerivedStateFromProps(props, state)  > 
+shouldComponentUpdate(nextProp, nextState)  > 
+render() > 
+getSnapshotBeforeUpdate(prevProp, prevState) > 
+componentDidUpdate(prevProp, prevState, snapshot)  
 ```
 
 shouldComponentUpdate  this method receives updated prop and state  and dictates if component should re-render or not by default all components  will re-render depending on their props and change in state this method can change that default behavior by returning false you can compare the current state and prop with the next state and prop values and return true or false to let react know if it should re-render  

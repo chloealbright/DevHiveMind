@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ```javascript
 
 // mapStateToProps & mapDispatchToProps has second param called ownProps which is rarely used but is used with conditional rendering

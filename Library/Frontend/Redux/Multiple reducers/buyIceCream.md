@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ```javascript
 export const BUY_ICECREAM = 'BUY_ICECREAM'
 

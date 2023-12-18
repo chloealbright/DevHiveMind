@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 As react app scales you need to decide which components need to re-render on state change this were memo comes in were something only re renders if props or state change 
 
 A new component re-renders when it's parent component re-renders and when dealing with function being passed as props values we need to be aware of reference equality  

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ## When cake is ordered
 
 using cake reducer cake count is decremented by one and the ice cream reducer responds to the same action since they both have cake_ordered action in there reducer so ice cream is decremented

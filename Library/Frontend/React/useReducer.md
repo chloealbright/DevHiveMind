@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Use reducer is a hook that is used for state management that is an al 
 
 The diff between the two is usetate is built using uesReducer  

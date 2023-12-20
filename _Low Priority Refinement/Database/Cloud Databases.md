@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Cloud Database are basically db in the cloud that falls under PAAS for storage or SAAS for storage and other cloud Data analytical tools 
 
 the benifits are performance at scale, secure and highley available and fully managed

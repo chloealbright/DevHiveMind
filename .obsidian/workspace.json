@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Database/Keys.md",
+                "file": "_Low Priority Refinement/Database/DB Fundamentals/Explained.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mind Maps/12 Factor App Docker.canvas",
+                "file": "_Low Priority Refinement/Database/DB Fundamentals/Explained.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mind Maps/12 Factor App Docker.canvas",
+                "file": "_Low Priority Refinement/Database/DB Fundamentals/Explained.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mind Maps/12 Factor App Docker.canvas"
+                "file": "_Low Priority Refinement/Database/DB Fundamentals/Explained.md"
               }
             }
           },
@@ -286,35 +286,37 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "336e343a71fa6379",
+  "active": "3c5fe61abfd9edb2",
   "lastOpenFiles": [
+    "_Low Priority Refinement/Database/DB Fundamentals/Metadata.md",
+    "_Low Priority Refinement/Database/DB Fundamentals/Mock Data.md",
+    "_Low Priority Refinement/Database/DB Fundamentals/Transaction.md",
+    "_Low Priority Refinement/Database/NOSQL/DynamoDB vs MongoDB.md",
+    "_Low Priority Refinement/Database/NOSQL/General Info.md",
+    "_Low Priority Refinement/Database/NOSQL/MongoDB.md",
+    "_Low Priority Refinement/Database/Relationships/Relationship Reading.md",
+    "_Low Priority Refinement/Database/Relationships/SQL Table Structure.md",
+    "_Low Priority Refinement/Database/Relationships/Table Relationships.md",
+    "_Low Priority Refinement/Database/Setup/Postgresql Setup.md",
+    "_Low Priority Refinement/Database/Cloud Databases.md",
+    "_Low Priority Refinement/Database/conf.md",
+    "_Low Priority Refinement/Database/Constraints.md",
+    "_Low Priority Refinement/Database/Create Tables.md",
+    "_Low Priority Refinement/Database/DB Data Types.md",
+    "_Low Priority Refinement/Database/DBMS.md",
+    "Databases/data visualization normalization or denormalization.md",
+    "_Low Priority Refinement/Database/Functional Dependencies.md",
+    "_Low Priority Refinement/Database/GUIDs.md",
+    "_Template/DB Stuff.md",
+    "_Low Priority Refinement/Database/H2.md",
+    "_Low Priority Refinement/Database/Hadoop.md",
+    "_Low Priority Refinement/Database/Keys.md",
+    "_Low Priority Refinement/Database/Multi Model DB.md",
+    "_Low Priority Refinement/Database/MYSQL Setup.md",
+    "_Low Priority Refinement/Database/NoSQL vs SQL.md",
+    "Mind Maps/12 Factor App Docker.canvas",
     "Infographics/Authentication in REST.gif",
     "Mind Maps/_Web App Architecture.canvas",
-    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Admin processes.md",
-    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Backing services.md",
-    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Build, release, run.md",
-    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Codebase.md",
-    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Concurrency.md",
-    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Config.md",
-    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Dependencies.md",
-    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Dev prod parity.md",
-    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Disposability.md",
-    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Logs.md",
-    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Port binding.md",
-    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Processes.md",
-    "Architecture/Methodology/12 Factor App  Microservices Architecture.md",
-    "Architecture/Methodology/Deployment Strategies.md",
-    "Architecture/Methodology/Source code vs Codebase.md",
-    "Architecture/Methodology/Staged Deployment.md",
-    "Architecture/Methodology/Admin functionality God Mode/User Management.md",
-    "Architecture/Methodology/Admin functionality God Mode/Task Scheduling.md",
-    "Architecture/Methodology/Admin functionality God Mode/Resource Scaling.md",
-    "Architecture/Methodology/Admin functionality God Mode/Monitoring and Logging Configuration.md",
-    "Architecture/Methodology/Admin functionality God Mode/Database Migrations.md",
-    "Architecture/Methodology/Admin functionality God Mode/Data Seeding.md",
-    "Architecture/Methodology/Admin functionality God Mode/Configuration Changes.md",
-    "Architecture/Methodology/Admin functionality God Mode/Cache Clearing.md",
-    "Architecture/Methodology/Admin functionality God Mode/Backup and Restoration.md",
     "Mind Maps/Redux Map.canvas",
     "Mind Maps/UML/Layer to Package Diagram.svg",
     "Mind Maps/UML/Package Diagram with classes.svg",
@@ -331,7 +333,6 @@
     "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg",
     "Mind Maps/Drafts/Gateway.canvas",
     "_Images/Database/relational model.png",
-    "Infographics/Piliars Of OOP.jpeg",
     "Architecture/Design Patterns.pdf",
     "API",
     "Databases",
@@ -342,7 +343,6 @@
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",
     "Mind Maps/Drafts/File system.canvas",
-    "Mind Maps/Drafts/Url.canvas",
-    "Mind Maps/12 Factor App Docker.canvas"
+    "Mind Maps/Drafts/Url.canvas"
   ]
 }

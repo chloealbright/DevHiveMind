@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 MYSQL is  basically an open source version of SQL 
 
 package name plus class name avoid name collision   

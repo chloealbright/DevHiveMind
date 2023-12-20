@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Selecting transcript lines in this section will navigate to timestamp in the video 
 
 How does DynamoDB compare with MongoDB? Well let's talk about Mongo first. Mongo was founded in 2007 by engineers and executives from Google and other tech companies. And it's managed by a company called MongoDB, Inc. It is a great document database, and your project could be better suited for Dynamo or Mongo, so it's good to know the difference between the two so you can make the right choice. Number one, DynamoDB works best as a key/value store. It stores data in rows of dynamic columns. Mongo stores data in documents inside of collections. A document can be up to 16 megabytes in size, where a row in DynamoDB caps out at about 400k. So that's important to know. DynamoDB has limited scalar types. Numbers, strings, Booleans. Anything more complicated needs to be saved as a string and then converted in your code. Mongo supports date, timestamp and more advanced fields. You may or may not need this, and this may or may not be important to you, but that's a decision you'll have to make. Where DynamoDB excels is pricing. DynamoDB is priced on throughput, meaning read and write units. And we'll talk in a future video about how that's calculated. But DynamoDB offers 25 gigabytes of storage up front, and it's a fully managed service. Now, MongoDB has MongoDB Atlas, which is their version of a fully managed service, and you're going to pay a monthly service plan, except if you go with the free version which gives you 500 megabytes, but there's no uptime SLA, so it's really not for production. You'll need to go to the MongoDB Atlas website to learn more about this service, because it's beyond the scope of this course. When I think DynamoDB Fits is when you're planning on using this database as a key/value store, you only want to pay for the throughput that you're using, you want to have quick auto scaling at the click of a button, and you want to have maximum integration with AWS. Now, if you're familiar with MongoDB and you want to learn the terminology differences, where in MongoDB stores documents in a collection, DynamoDB stores items in a table. And those items are represented as columns. Those column values are called attributes, where in a MongoDB document they would be called fields.

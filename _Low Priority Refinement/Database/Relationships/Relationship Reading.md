@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 The relationships between these entities would be:  
   
 A Skill Category would have many Skills.  

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Database Management Systems (DBMS) are software systems used to store, retrieve, and run queries on data. A DBMS serves as an interface between an end-user and a database, allowing users to create, read, update, and delete data in the database.  
 
 A database management system is a software system which facilitates the organization of housed data into a particular database architecture, be it relational (Relational Database Management System, or RDBMS), document store, key-value store, column-oriented, graph, or other. Popular DBMSs include MongoDB, Cassandra, Redis, MySQL, Microsoft SQL Server,  PostgreSQL, SQLite, and Oracle, among many, many, many others.

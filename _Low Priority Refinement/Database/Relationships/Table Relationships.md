@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Database relationships are associations between tables that are created using join statements to retrieve data. 
 
 In the Database Configuration application, you can define Structured Query Language (SQL) statements for joins, and create relationships between parent and child objects. You can use a join to link data from multiple objects. The parent is the existing object and the child is the object that you are create. 

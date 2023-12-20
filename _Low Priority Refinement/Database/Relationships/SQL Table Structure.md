@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 You typically have a some uuid that is assigned as primary keys but the table doesn’t necessary need a primary key depending on your table design 
 
 The id can also be incrementing and be a primary key 

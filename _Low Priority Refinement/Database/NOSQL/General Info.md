@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Non-Relational databases is used for unstructured data 
 
 NoSQL is an umbrella term, one which encompasses a number of different technologies. These different technologies aren't even necessarily related in any way beyond the single defining characteristic of NoSQL: they are not relational in nature. This lack of relational structure results in unstructured or semi-structured data in storage; there may be structure, but it is loose in nature, lax in enforcement. 

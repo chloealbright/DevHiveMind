@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Now that we know a different kind of keys in DBMS, let’s see how to identify them when given a table from a database. For this, we use the concept of functional dependencies.
 
 ![[Functional Dependencies.png]]

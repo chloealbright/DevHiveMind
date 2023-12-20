@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Primary key is ID can also be SSN but might except null valve so maybe not 
 
 Super Key is like a super set It is unique lets say you have a Employee table  

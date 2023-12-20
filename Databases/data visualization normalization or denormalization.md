@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 The normalization or denormalization of database tables can have a significant effect on the visualization of data in Power BI. Here's how each approach can impact your data visualization:  
   
 **Normalization:**  

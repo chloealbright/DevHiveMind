@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 3 Rules of Prototypal Inheritance 
 
 no circular reference allowed (person.__proto__ cant be gutiarist) 

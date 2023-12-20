@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
  TypeScript can understand how our code will execute at runtime so that it can infer more specific types while we write code. This is called type narrowing.
 
 When compiling TypeScript code to JavaScript, the compiler will throw any errors related to variable types. This process of compilation involves giving the TypeScript compiler the information it needs to perform type checks. Therefore, when we give our variables specific types, these types are reinforced by the compiler/TypeScript.

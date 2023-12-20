@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 
 Just use es5 imports  & exports for now unless you're using react where you can use es6 without any problems look at modules notes for more info
 

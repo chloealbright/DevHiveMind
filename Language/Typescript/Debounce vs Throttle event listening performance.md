@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Tackling performance often crops up in JavaScript applications. 
 
 Throttling and debouncing give us control over the rate at which a function is called. They are need to know techniques for any web developer. They are especially useful when we are dealing with event handler assignments. There are scenarios where we may invoke functions when it isn’t necessary. Consider a callback that we want to execute on window resize. Does it make sense to fire the callback as we resize? Most likely not. We want to wait til the user has finished interaction and then fire the callback. 

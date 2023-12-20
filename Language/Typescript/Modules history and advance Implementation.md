@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[JavaScript Modules.gif]]
 In HTML when you create a script tag to import your JavaScript file you don't want to do that a lot because it makes it that the JavaScript is available to the window object in the browser which is bad for security probably because you have it on the global namespace  
   

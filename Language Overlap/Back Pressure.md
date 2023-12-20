@@ -3,8 +3,9 @@ tags:
   - asynchronous
   - synchronous
   - architecturalParadigm
-author: jacgit18
-Status: done
+author:
+  - jacgit18
+Status: Done
 Started: 
 EditDate: 
 Relates:

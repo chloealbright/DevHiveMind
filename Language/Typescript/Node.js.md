@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Node js is a runtime environment for running javascript on your system instead of browser to build apps on different platforms. node js is based on v8 engine that runs on google chrome 
 
 

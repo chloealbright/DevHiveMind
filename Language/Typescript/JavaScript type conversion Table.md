@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 |Value|String conversion|Number conversion|Boolean conversion|
 |---|---|---|---|
 |20|'20'|20|true|

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 sudo systemctl start syncthing@jac  
   
 sudo systemctl enable syncthing@jac  

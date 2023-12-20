@@ -11,15 +11,55 @@
             "id": "e54032f0b8c24a5d",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Mind Maps/Redux Map.canvas",
+                "viewState": {
+                  "x": 1600,
+                  "y": 4560,
+                  "zoom": -3.7959861079784067
+                }
+              }
+            }
+          },
+          {
+            "id": "331b8a820b40f498",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Methodology/Admin functionality God Mode/Task Scheduling.md",
+                "file": "Language/Typescript/Custom Type.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "74bc6379c370eba2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/Typescript/Custom Typ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59abc3b5685c10da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/Typescript/Type Narrowing.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -38,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Closure",
+                "query": "Literals",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -102,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methodology/Admin functionality God Mode/Task Scheduling.md",
+                "file": "Language/Typescript/Type Narrowing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methodology/Admin functionality God Mode/Task Scheduling.md",
+                "file": "Language/Typescript/Type Narrowing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methodology/Admin functionality God Mode/Task Scheduling.md"
+                "file": "Language/Typescript/Type Narrowing.md"
               }
             }
           },
@@ -246,34 +286,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e54032f0b8c24a5d",
+  "active": "336e343a71fa6379",
   "lastOpenFiles": [
-    "Methodology/Admin functionality God Mode/User Management.md",
-    "Methodology/Docker Twelve Factors App/I Codebase.md",
-    "Methodology/Docker Twelve Factors App/II Dependencies.md",
-    "Testing/Pre Acceptance Testing.md",
-    "Testing/System Integration Testing.md",
-    "Methodology/Docker Twelve Factors App/III Config.md",
-    "Methodology/Docker Twelve Factors App/IV Backing services.md",
-    "Methodology/Docker Twelve Factors App/IX-9 Disposability.md",
-    "Methodology/Docker Twelve Factors App/V Build, release, run.md",
-    "Methodology/Docker Twelve Factors App/VI Processes.md",
-    "Methodology/Docker Twelve Factors App/VII Port binding.md",
-    "Methodology/Docker Twelve Factors App/VIII Concurrency.md",
-    "Methodology/Docker Twelve Factors App/X-10 Dev prod parity.md",
-    "Methodology/Docker Twelve Factors App/XI Logs.md",
-    "Methodology/Docker Twelve Factors App/XII Admin processes.md",
-    "Methodology/Twelve Factor App/Twelve Factor App Admin processes.md",
-    "Methodology/Twelve Factor App/Twelve Factor App Backing services.md",
-    "Methodology/Twelve Factor App/Twelve Factor App Build, release, run.md",
-    "Methodology/Twelve Factor App/Twelve Factor App Codebase.md",
-    "Methodology/Twelve Factor App/Twelve Factor App Concurrency.md",
-    "Methodology/Twelve Factor App/Twelve Factor App Config.md",
-    "Methodology/Twelve Factor App/Twelve Factor App Dependencies.md",
-    "Methodology/Twelve Factor App/Twelve Factor App Dev prod parity.md",
-    "Methodology/Twelve Factor App/Twelve Factor App Disposability.md",
-    "Methodology/Twelve Factor App/Twelve Factor App Logs.md",
-    "Methodology/Twelve Factor App/Twelve Factor App Port binding.md",
+    "Language/Typescript/Type Annotations.md",
+    "Language/Typescript/Type Narrowing.md",
+    "Language/Typescript/Type Inferences.md",
+    "Language/Typescript/this keyword.md",
+    "Language/Typescript/String encoding.md",
+    "Language/Typescript/Return Types.md",
+    "Language/Typescript/Prototypes.md",
+    "Language/Typescript/proto.md",
+    "Language/Typescript/polyfill.md",
+    "Language/Typescript/Pipe Functions.md",
+    "Language/Typescript/Params.md",
+    "Language/Typescript/Object Literals  vs Enhanced Object Literals.md",
+    "Language/Typescript/NPM.md",
+    "Language/Typescript/Node.js.md",
+    "Language/Typescript/Modules history and advance Implementation.md",
+    "Language/Typescript/JavaScript type conversion Table.md",
+    "Language/Typescript/JavaScript Object Setter & Getter.md",
+    "Language/Typescript/Javascript.md",
+    "Language/Typescript/Iterators and generators.md",
+    "Language/Typescript/Imports & exports.md",
+    "Language/Typescript/Hoisting.md",
+    "Language/Typescript/ECMAScript.md",
+    "Language/Typescript/Destructuring Value Swap.md",
+    "Language/Typescript/Debounce vs Throttle event listening performance.md",
+    "Language/Typescript/Custom Typ.md",
+    "Language/Typescript/Custom Type.md",
+    "Mind Maps/Redux Map.canvas",
     "Mind Maps/UML/Layer to Package Diagram.svg",
     "Mind Maps/UML/Package Diagram with classes.svg",
     "Mind Maps/UML/Package Diagram with No-classes.svg",
@@ -284,7 +325,6 @@
     "Mind Maps/Drafts/UML/to edit/Package Diagram with classes.drawio",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
     "Mind Maps/Docker InDeph.canvas",
-    "Mind Maps/Redux Map.canvas",
     "Infographics/Web/Proxy.gif",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
     "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg",

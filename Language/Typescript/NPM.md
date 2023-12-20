@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 **(@) Prefix on NPM Packages**
 
 The "(@)" prefix on NPM packages is a feature known as "scoped packages." Scoped packages allow NPM packages to be namespaced, providing a way to organize and differentiate packages. Every user and organization on NPM has their own scope, and they are the sole entities permitted to add packages within it.

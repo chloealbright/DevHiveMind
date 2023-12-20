@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Objects in JavaScript have an internal property known as prototype. It is simply a reference to another object and contains common attributes/properties across all instances of the object. An object’s prototype attribute specifies the object from which it inherits properties.  
 
 The Prototype pattern’s main concern is to ensure that objects being created are not new instances each time. This means if we create an object MathAdd with a method add, we should just reuse add when we created multiple instances of MathAdd since the implementation doesn't change. This is a performance benefit as well.

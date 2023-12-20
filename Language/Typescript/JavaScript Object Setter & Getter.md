@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Essentially read and write in a sense but with variables instead of DB 
 
 get has no params and just returns something 

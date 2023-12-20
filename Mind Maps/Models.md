@@ -93,3 +93,8 @@ change names of states like set destination or radius to past tense like destina
 
 
 ![[Package Diagram with No-classes.svg]]
+
+
+![[Class Cases Robust P1.svg]]
+
+![[Class Cases Robust P2.svg]]

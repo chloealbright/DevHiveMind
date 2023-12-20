@@ -20,17 +20,14 @@
             }
           },
           {
-            "id": "76354ce6e9882a0b",
+            "id": "a44c19d528432863",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Mind Maps/12 Factor App Docker.canvas",
-                "viewState": {
-                  "x": -131.5,
-                  "y": -458,
-                  "zoom": -1.7879551060593508
-                }
+                "file": "Mind Maps/Models.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -117,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mind Maps/12 Factor App Docker.canvas",
+                "file": "Mind Maps/Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mind Maps/12 Factor App Docker.canvas",
+                "file": "Mind Maps/Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mind Maps/12 Factor App Docker.canvas"
+                "file": "Mind Maps/Models.md"
               }
             }
           },
@@ -261,9 +258,12 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "76354ce6e9882a0b",
+  "active": "a44c19d528432863",
   "lastOpenFiles": [
+    "Mind Maps/UML/Class Cases Robust P1.svg",
     "Mind Maps/Models.md",
+    "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "Mind Maps/UML/Class Cases Robust P2.svg",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/_Web App Architecture.canvas",
     "Mind Maps/UML/UML Monitor Project.png",
@@ -275,9 +275,7 @@
     "Infographics/Piliars Of OOP.jpeg",
     "Infographics/Load Balance Algo.jpeg",
     "Infographics/Kafka Uses.jpeg",
-    "Infographics/Authentication in REST.gif",
     "Architecture/Event Driven Architecture.md",
-    "Algorithms & Data Structures/Problem-solving Regimen.md",
     "Algorithms & Data Structures/Attributes of Data.md",
     "Algorithms & Data Structures/All Sorts of Sorts.md",
     "Algorithms & Data Structures/AlgoFlow.md",
@@ -300,8 +298,6 @@
     "_Low Priority Refinement/Database/Database Archetecture/Best Practices for Database Schema Design.md",
     "Web/Protocols/FTP.md",
     "Testing/_Type of Testing.md",
-    "Language/Typescript/Use of closure & composition.md",
-    "Mind Maps/UML/Package Diagram with classes.svg",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with No-classes.drawio",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with classes.drawio",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",

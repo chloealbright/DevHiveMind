@@ -11,9 +11,11 @@
             "id": "cd28b06205828485",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Architecture/Design Patterns Layers.pdf"
+                "file": "AI & Chatgpt/prompts/Talking better.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -46,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Concurrent",
+                "query": "line:(stanley)",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,7 +81,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -99,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Design Patterns Layers.pdf",
+                "file": "AI & Chatgpt/prompts/Talking better.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Design Patterns Layers.pdf",
+                "file": "AI & Chatgpt/prompts/Talking better.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Design Patterns Layers.pdf"
+                "file": "AI & Chatgpt/prompts/Talking better.md"
               }
             }
           },
@@ -243,8 +246,31 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "6b26857b850e27fd",
   "lastOpenFiles": [
+    "AI & Chatgpt/prompts/summarize.md",
+    "AI & Chatgpt/prompts/Structural model Prompt.md",
+    "AI & Chatgpt/prompts/simplify.md",
+    "AI & Chatgpt/prompts/rewrite.md",
+    "AI & Chatgpt/prompts/Requirements to code.md",
+    "AI & Chatgpt/prompts/Recommend focus.md",
+    "AI & Chatgpt/prompts/Prompts to sort.md",
+    "AI & Chatgpt/prompts/Progress report.md",
+    "AI & Chatgpt/prompts/New world prompt.md",
+    "AI & Chatgpt/prompts/Learning.md",
+    "AI & Chatgpt/prompts/getTitles.md",
+    "AI & Chatgpt/prompts/getTags.md",
+    "AI & Chatgpt/prompts/getParagraph.md",
+    "AI & Chatgpt/prompts/getOutline.md",
+    "AI & Chatgpt/prompts/getIdeas.md",
+    "AI & Chatgpt/prompts/getEmailPos.md",
+    "AI & Chatgpt/prompts/getEmailNeg.md",
+    "AI & Chatgpt/prompts/Articles.md",
+    "AI & Chatgpt/prompts/Development/Software Tester.md",
+    "AI & Chatgpt/prompts/Development/Python DEV.md",
+    "AI & Chatgpt/prompts/Development/Note Refiner.md",
+    "AI & Chatgpt/prompts/Development/Linux.md",
+    "AI & Chatgpt/prompts/Development/DB Prompts.md",
     "Home.md",
     "Architecture/Design Patterns Layers.pdf",
     "Mind Maps/UML/Lucidchart App Map.svg",
@@ -262,28 +288,6 @@
     "Mind Maps/UML/Layer to Package Diagram.svg",
     "Mind Maps/Redux Map.canvas",
     "Infographics/Piliars Of OOP.jpeg",
-    "Architecture/Event Driven Architecture.md",
-    "Algorithms & Data Structures/Attributes of Data.md",
-    "Algorithms & Data Structures/All Sorts of Sorts.md",
-    "Algorithms & Data Structures/AlgoFlow.md",
-    "Algorithms & Data Structures/Algo pathway.md",
-    "Algorithms & Data Structures/Algo Line of thought.md",
-    "Algorithms & Data Structures/Abstract Data Types.md",
-    "Algorithms & Data Structures/Algorithms/Algorithm Most Common Built in Functions.md",
-    "Architecture/Functions rules.md",
-    "Architecture/Identify areas where it make sense to use Multi threading,  concurrency, collections, generics, and annotations.md",
-    "Architecture/Design Patterns Diagrams.md",
-    "Architecture/Circuit breaker pattern relationship with fault tolerance.md",
-    "Architecture/Boxing and Unboxing.md",
-    "Architecture/Arch to think about.md",
-    "_Official Documentation/NPM Docs.md",
-    "_Official Documentation/Kafka Docs.md",
-    "Language Overlap/Byte stream.md",
-    "Architecture/Codebase Level Scaling & Optimization.md",
-    "Architecture/Code standards.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Best Practices for Database Schema Design.md",
-    "Web/Protocols/FTP.md",
-    "Testing/_Type of Testing.md",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with No-classes.drawio",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with classes.drawio",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",

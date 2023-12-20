@@ -10,8 +10,7 @@ Started:
 EditDate: 
 Relates:
 ---
-Act as a  
-Tech Writer  
+
   
 Act as a tech writer. You will act as a creative and  
 engaging technical writer and create  
@@ -30,8 +29,6 @@ the file. 3.Double click to open the app"
 
 
 
-Act as a  
-Social Media Influencer  
   
 I want you to act as a social media influencer.  
 You will create content for various  

@@ -10,8 +10,7 @@ Started:
 EditDate: 
 Relates:
 ---
-Act as a Software Quality  
-Assurance Tester  
+
   
 I want you to act as a software quality assurance  
 tester for a new software application.  

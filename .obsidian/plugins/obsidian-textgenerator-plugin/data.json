@@ -48,6 +48,10 @@
     "text-extractor-tool": false,
     "stop-stream": true
   },
+  "advancedOptions": {
+    "generateTitleInstructEnabled": false,
+    "generateTitleInstruct": "Generate a title for the current document (do not use * \" \\ / < > : | ? .):\n{{substring content 0 255}}"
+  },
   "autoSuggestOptions": {
     "isEnabled": false,
     "delay": 300,

@@ -13,13 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Official Documentation/Kafka Docs.md",
+                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
                 "mode": "preview",
                 "source": false
               }
             }
+          },
+          {
+            "id": "76354ce6e9882a0b",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Mind Maps/12 Factor App Docker.canvas",
+                "viewState": {
+                  "x": -131.5,
+                  "y": -458,
+                  "zoom": -1.7879551060593508
+                }
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Official Documentation/Kafka Docs.md",
+                "file": "Mind Maps/12 Factor App Docker.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Official Documentation/Kafka Docs.md",
+                "file": "Mind Maps/12 Factor App Docker.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Official Documentation/Kafka Docs.md"
+                "file": "Mind Maps/12 Factor App Docker.canvas"
               }
             }
           },
@@ -236,17 +252,47 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "homepage:Open homepage": false,
       "janitor:Janitor: scan vault": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "4c45842568f93df8",
+  "active": "76354ce6e9882a0b",
   "lastOpenFiles": [
+    "Mind Maps/Models.md",
+    "Mind Maps/12 Factor App Docker.canvas",
+    "Mind Maps/_Web App Architecture.canvas",
+    "Mind Maps/UML/UML Monitor Project.png",
+    "Mind Maps/UML/Requirement life cycle.svg",
+    "Mind Maps/UML/Park Alert Activity Diagram.svg",
+    "Mind Maps/UML/Package Diagram with No-classes.svg",
+    "Mind Maps/UML/Layer to Package Diagram.svg",
+    "Mind Maps/Redux Map.canvas",
+    "Infographics/Piliars Of OOP.jpeg",
+    "Infographics/Load Balance Algo.jpeg",
+    "Infographics/Kafka Uses.jpeg",
+    "Infographics/Authentication in REST.gif",
+    "Architecture/Event Driven Architecture.md",
+    "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "Algorithms & Data Structures/Attributes of Data.md",
+    "Algorithms & Data Structures/All Sorts of Sorts.md",
+    "Algorithms & Data Structures/AlgoFlow.md",
+    "Algorithms & Data Structures/Algo pathway.md",
+    "Algorithms & Data Structures/Algo Line of thought.md",
+    "Algorithms & Data Structures/Abstract Data Types.md",
+    "Algorithms & Data Structures/Algorithms/Algorithm Most Common Built in Functions.md",
+    "Architecture/Functions rules.md",
+    "Architecture/Identify areas where it make sense to use Multi threading,  concurrency, collections, generics, and annotations.md",
+    "Architecture/Design Patterns Diagrams.md",
+    "Architecture/Circuit breaker pattern relationship with fault tolerance.md",
+    "Architecture/Boxing and Unboxing.md",
+    "Architecture/Arch to think about.md",
+    "_Official Documentation/NPM Docs.md",
+    "_Official Documentation/Kafka Docs.md",
     "Home.md",
     "Language Overlap/Byte stream.md",
     "Architecture/Codebase Level Scaling & Optimization.md",
@@ -255,43 +301,13 @@
     "Web/Protocols/FTP.md",
     "Testing/_Type of Testing.md",
     "Language/Typescript/Use of closure & composition.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Data Architecture.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Database Diagram.md",
-    "_Low Priority Refinement/Database/Database Archetecture/DBMS Types of Keys.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Decentralized Data Management.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Fact Table.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Making Decesion.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Schema Design.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Snowflake.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Star.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Table Team Work.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/Data.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/Data formats.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/database Explained.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/Metadata.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/Mock Data.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/Transaction.md",
-    "_Low Priority Refinement/Database/NOSQL/DynamoDB vs MongoDB.md",
-    "_Low Priority Refinement/Database/NOSQL/General Info.md",
-    "Mind Maps/12 Factor App Docker.canvas",
-    "Infographics/Authentication in REST.gif",
-    "Mind Maps/_Web App Architecture.canvas",
-    "Mind Maps/Redux Map.canvas",
-    "Mind Maps/UML/Layer to Package Diagram.svg",
     "Mind Maps/UML/Package Diagram with classes.svg",
-    "Mind Maps/UML/Package Diagram with No-classes.svg",
-    "Mind Maps/UML/Park Alert Activity Diagram.svg",
-    "Mind Maps/UML/Requirement life cycle.svg",
-    "Mind Maps/UML/UML Monitor Project.png",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with No-classes.drawio",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with classes.drawio",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
     "Mind Maps/Docker InDeph.canvas",
-    "Infographics/Web/Proxy.gif",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
-    "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg",
     "Mind Maps/Drafts/Gateway.canvas",
-    "_Images/Database/relational model.png",
     "Architecture/Design Patterns.pdf",
     "API",
     "Databases",

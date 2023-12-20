@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 As a component of a URI, the query contributes to the unique identification of a resource. Consider the following example: 
 
 http://api.college.restapi.org/students/morgan/send-sms   

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 RESTful Routing (CREATE READ UPDATE DELETE - GET, POST, PUT, DELETE) 
 
 -   RESTful – REpresentational State Transfer Ex: Redux 

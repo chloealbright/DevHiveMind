@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 By repurposing the web application’s controller paradigm, many of today’s frameworks provide support for using URI templates to route inbound client requests to handler-style methods or functions. In recognition of the fact that developers don’t want to code web page templates to format their REST API’s data, most of the frameworks offer built-in XML and JSON-based serialization and deserialization of the server’s objects to and from an HTTP message’s body. 
 
 API template 

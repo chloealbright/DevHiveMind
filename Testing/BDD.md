@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Behavior Driven Development (BDD) is an extension of Test Driven Development (TDD). In BDD, we are writing scenarios from the end user’s perspective. 
 
 BDD has two sides: 

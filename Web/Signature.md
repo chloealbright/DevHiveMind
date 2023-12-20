@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 -   To create the signature part you have to take the encoded header, the encoded payload, a secret, the algorithm specified in the header, and sign that. 
     
 

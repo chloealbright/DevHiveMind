@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[URI.png]]
 
 Each URI path segment, separated by forward slashes (/), represents a design opportunity.  

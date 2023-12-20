@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 A code coverage tool is a software development tool that measures the extent to which your source code is tested by your test suite. It helps you understand how thoroughly your tests exercise your codebase. Code coverage tools generate reports that show which parts of your code have been executed by your tests and which parts have not.  
   
 There are several key metrics that code coverage tools typically measure:  

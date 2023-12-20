@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Database/NoSQL vs SQL.md",
+                "file": "_Low Priority Refinement/Database/Keys.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Database/NoSQL vs SQL.md",
+                "file": "_Low Priority Refinement/Database/Keys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Database/NoSQL vs SQL.md",
+                "file": "_Low Priority Refinement/Database/Keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Database/NoSQL vs SQL.md"
+                "file": "_Low Priority Refinement/Database/Keys.md"
               }
             }
           },
@@ -286,8 +286,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "336e343a71fa6379",
+  "active": "3c5fe61abfd9edb2",
   "lastOpenFiles": [
+    "_Low Priority Refinement/Database/Multi Model DB.md",
+    "_Low Priority Refinement/Database/MYSQL Setup.md",
+    "_Low Priority Refinement/Database/NoSQL vs SQL.md",
     "_Low Priority Refinement/Database/Other Stuff.md",
     "_Low Priority Refinement/Database/Self-joining relationships.md",
     "_Low Priority Refinement/Database/Triggers in SQL.md",
@@ -311,9 +314,6 @@
     "_Low Priority Refinement/Security/Code Defects.md",
     "_Low Priority Refinement/Companies/Software Development Engineer in Test.md",
     "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
-    "_Low Priority Refinement/Companies/Talking More Articulate Template.md",
-    "_Low Priority Refinement/Companies/Sounding more senior or experienced.md",
-    "_Low Priority Refinement/Companies/Obsidian Understanding its Core Design Principles  by TfTHacker  Obsidian Observer  Medium.md",
     "Mind Maps/Redux Map.canvas",
     "Mind Maps/UML/Layer to Package Diagram.svg",
     "Mind Maps/UML/Package Diagram with classes.svg",

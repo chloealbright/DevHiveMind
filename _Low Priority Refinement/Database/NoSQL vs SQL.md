@@ -1,5 +1,11 @@
 ---
-tags:
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
 ---
 Quries can be similiar between NOSQL and SQL but deffiently differ to
 

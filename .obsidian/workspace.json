@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI & Chatgpt/Stanley Druckenmiller Company Fundamentals.md",
+                "file": "AI & Chatgpt/prompts/Fin/Stanley Druckenmiller Company Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI & Chatgpt/Stanley Druckenmiller Company Fundamentals.md",
+                "file": "AI & Chatgpt/prompts/Fin/Stanley Druckenmiller Company Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI & Chatgpt/Stanley Druckenmiller Company Fundamentals.md",
+                "file": "AI & Chatgpt/prompts/Fin/Stanley Druckenmiller Company Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI & Chatgpt/Stanley Druckenmiller Company Fundamentals.md"
+                "file": "AI & Chatgpt/prompts/Fin/Stanley Druckenmiller Company Fundamentals.md"
               }
             }
           },
@@ -245,10 +245,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "cd28b06205828485",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "AI & Chatgpt/prompts/Fin",
     "AI & Chatgpt/Components of AI.md",
-    "AI & Chatgpt/Stanley Druckenmiller Company Fundamentals.md",
+    "AI & Chatgpt/prompts/Fin/Stanley Druckenmiller Company Fundamentals.md",
     "AI & Chatgpt/AI Layers.md",
     "AI & Chatgpt/prompts/Talking better.md",
     "AI & Chatgpt/prompts/summarize.md",
@@ -272,7 +273,6 @@
     "AI & Chatgpt/prompts/Development/Software Tester.md",
     "AI & Chatgpt/prompts/Development/Python DEV.md",
     "AI & Chatgpt/prompts/Development/Note Refiner.md",
-    "AI & Chatgpt/prompts/Development/Linux.md",
     "Architecture/Design Patterns Layers.pdf",
     "Mind Maps/UML/Lucidchart App Map.svg",
     "Mind Maps/UML/Class Cases Robust P3.svg",

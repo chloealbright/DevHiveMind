@@ -1,8 +1,17 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 In software engineering, a test case is a specification of the inputs, execution conditions, testing procedure, and expected results that define a single test to be executed to achieve a particular software testing objective, such as to exercise a particular program path or to verify compliance with a specific …   
 
 ### In general, you should think about the following types of test cases:  
 
-
+think about what you should expect for a test and if they expect is needed
 #### The normal case:  
 
 Does it generate the correct output for typical inputs? Remember to think about potential issues here.  

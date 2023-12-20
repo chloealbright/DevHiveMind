@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Php/PHP Explained.md",
+                "file": "Testing/QA.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/Php/PHP Explained.md",
+                "file": "Testing/QA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/Php/PHP Explained.md",
+                "file": "Testing/QA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/Php/PHP Explained.md"
+                "file": "Testing/QA.md"
               }
             }
           },
@@ -248,6 +248,25 @@
   },
   "active": "8b837ed9ad7143d4",
   "lastOpenFiles": [
+    "Testing/Regression Testing.md",
+    "Testing/Testing Heiarchy.md",
+    "Testing/Test Cases.md",
+    "Testing/TDD.md",
+    "Testing/System Integration Testing.md",
+    "Testing/Smoke test.md",
+    "Testing/Type of Testing Techniques.md",
+    "Testing/Unit testing.md",
+    "Testing/_Type of Testing.md",
+    "Language Overlap/Tools/Inteli J.md",
+    "Language Overlap/Tools/Vscode things to add.md",
+    "Language Overlap/Tools/Testing Tools.md",
+    "Library/Frontend/React/useMemo.md",
+    "Library/Frontend/React/useEffect.md",
+    "Library/Frontend/React/Updating Lifecycle methods.md",
+    "Library/Frontend/React/Unmounted Phase Method.md",
+    "Library/Frontend/React/Types of Component.md",
+    "Library/Frontend/React/Rendering.md",
+    "Language/Php/PHP Explained.md",
     "Language/Typescript/Custom Typ.md",
     "Home.md",
     "Language/Typescript/Custom Type.md",
@@ -255,29 +274,10 @@
     "Language Overlap/Inheritance Composition Encapsulation.md",
     "Language/Typescript/Closure is used for data encapsulation and uses more memory.md",
     "_Low Priority Refinement/Database/Functional Dependencies.md",
-    "Language/Typescript/Async vs Defer how JavaScript is loaded.md",
-    "Language/Typescript/Async vs Defer how JavaScript is loaded.md",
-    "Language/Typescript/Arrays in Typescript.md",
-    "Language Overlap/Declarative Coding.md",
-    "Language Overlap/Imperative Coding.md",
-    "Language/Typescript/Advanced Object Types.md",
-    "Web/Proxy.md",
     "Infographics/Web/Proxy.gif",
-    "Web/WebSockets.md",
-    "Web/When to Use.md",
-    "Web/Protocols/FTP.md",
-    "Testing/_Type of Testing.md",
-    "Open Source/Syncthing.md",
     "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
-    "Mind Maps/Drafts/UML/Models.md",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
-    "Methodology/Admin functionality God Mode/Backup and Restoration.md",
-    "Language/Typescript/Use of closure & composition.md",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
-    "Web/Custom HTTP Headers  Custom HTTP Methods.md",
-    "Language/Typescript/Javascript.md",
-    "Language/Typescript/Iterators and generators.md",
-    "Language/Typescript/Imports & exports.md",
     "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Redux Map.canvas",

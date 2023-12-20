@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 A smoke test is a type of software testing that is designed to quickly assess the basic functionality of a software application or system. The primary purpose of a smoke test is to verify that the most critical and fundamental features of the software are working as expected and that the application can start and run without major issues. It's often performed at the early stages of development or after significant changes to ensure that the system is not "broken."  
   
 Key characteristics of a smoke test include:  

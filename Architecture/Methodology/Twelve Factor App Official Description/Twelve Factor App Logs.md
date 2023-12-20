@@ -1,13 +1,13 @@
 ---
-tags: 
+tags:
+  - methodology
 author:
   - jacgit18
-Status: 
+Status: Done
 Started: 
 EditDate: 
 Relates:
 ---
-## Official Description
 ### Treat logs as event streams
 
 _Logs_ provide visibility into the behavior of a running app. In server-based environments they are commonly written to a file on disk (a “logfile”); but this is only an output format.

@@ -1,13 +1,13 @@
 ---
-tags: 
+tags:
+  - methodology
 author:
   - jacgit18
-Status: 
+Status: Done
 Started: 
 EditDate: 
 Relates:
 ---
-## Official Description
 ### Strictly separate build and run stages
 
 A [codebase](https://12factor.net/codebase) is transformed into a (non-development) deploy through three stages:

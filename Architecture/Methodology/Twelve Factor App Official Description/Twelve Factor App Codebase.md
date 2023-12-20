@@ -1,13 +1,13 @@
 ---
-tags: 
+tags:
+  - methodology
 author:
   - jacgit18
-Status: 
+Status: Done
 Started: 
 EditDate: 
 Relates:
 ---
-## Official Description
 **One codebase tracked in revision control, many deploys**
 
 Twelve-factor app is good for cloud and microservices type of applications

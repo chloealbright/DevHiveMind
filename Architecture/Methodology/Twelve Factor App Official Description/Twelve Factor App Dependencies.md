@@ -1,13 +1,13 @@
 ---
-tags: 
+tags:
+  - methodology
 author:
   - jacgit18
-Status: 
+Status: Done
 Started: 
 EditDate: 
 Relates:
 ---
-## Official Description
 ### Explicitly declare and isolate dependencies
 
 Most programming languages offer a packaging system for distributing support libraries, such as [CPAN](http://www.cpan.org/) for Perl or [Rubygems](http://rubygems.org/) for Ruby or NPM for JavaScript. Libraries installed through a packaging system can be installed system-wide (known as “site packages”) or scoped into the directory containing the app (known as “vendoring” or “bundling”).

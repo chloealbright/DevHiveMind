@@ -2,11 +2,14 @@
 tags: 
 author:
   - jacgit18
-Status: 
+Status: Capture
 Started: 
 EditDate: 
 Relates:
 ---
+
+**Methodology**: a system of methods used in a particular area of study or activity.
+
 "Source code" and "codebase" are related terms in software development, but they refer to slightly different concepts.
 
 ## Source Code

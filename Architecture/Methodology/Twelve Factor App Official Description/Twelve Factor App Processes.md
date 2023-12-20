@@ -1,13 +1,13 @@
 ---
-tags: 
+tags:
+  - methodology
 author:
   - jacgit18
-Status: 
+Status: Done
 Started: 
 EditDate: 
 Relates:
 ---
-## Official Description
 ### Execute the app as one or more stateless processes
 
 The app is executed in the execution environment as one or more _processes_.

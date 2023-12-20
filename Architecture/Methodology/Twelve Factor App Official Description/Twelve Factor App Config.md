@@ -1,13 +1,13 @@
 ---
-tags: 
+tags:
+  - methodology
 author:
   - jacgit18
-Status: 
+Status: Done
 Started: 
 EditDate: 
 Relates:
 ---
-## Official Description
 ### Store config in the environment
 
 An app’s _config_ is everything that is likely to vary between [deploys](https://12factor.net/codebase) (staging, production, developer environments, etc). This includes:

@@ -1,13 +1,13 @@
 ---
-tags: 
+tags:
+  - methodology
 author:
   - jacgit18
-Status: 
+Status: Done
 Started: 
 EditDate: 
 Relates:
 ---
-## Official Description
 ### Maximize robustness with fast startup and graceful shutdown
 
 **The twelve-factor app’s [processes](https://12factor.net/processes) are _disposable_, meaning they can be started or stopped at a moment’s notice.** This facilitates fast elastic scaling, rapid deployment of [code](https://12factor.net/codebase) or [config](https://12factor.net/config) changes, and robustness of production deploys.

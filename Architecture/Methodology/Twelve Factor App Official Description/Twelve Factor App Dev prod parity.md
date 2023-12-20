@@ -1,13 +1,13 @@
 ---
-tags: 
+tags:
+  - methodology
 author:
   - jacgit18
-Status: 
+Status: Done
 Started: 
 EditDate: 
 Relates:
 ---
-## Official Description
 ### Keep development, staging, and production as similar as possible
 
 Historically, there have been substantial gaps between development (a developer making live edits to a local [deploy](https://12factor.net/codebase) of the app) and production (a running deploy of the app accessed by end users). These gaps manifest in three areas:

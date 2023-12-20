@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Database/Keys.md",
+                "file": "Mind Maps/12 Factor App Docker.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Database/Keys.md",
+                "file": "Mind Maps/12 Factor App Docker.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Database/Keys.md"
+                "file": "Mind Maps/12 Factor App Docker.canvas"
               }
             }
           },
@@ -286,34 +286,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3c5fe61abfd9edb2",
+  "active": "336e343a71fa6379",
   "lastOpenFiles": [
-    "_Low Priority Refinement/Database/Multi Model DB.md",
-    "_Low Priority Refinement/Database/MYSQL Setup.md",
-    "_Low Priority Refinement/Database/NoSQL vs SQL.md",
-    "_Low Priority Refinement/Database/Other Stuff.md",
-    "_Low Priority Refinement/Database/Self-joining relationships.md",
-    "_Low Priority Refinement/Database/Triggers in SQL.md",
-    "_Low Priority Refinement/Database/Types of Tables in logical database models.md",
-    "_Low Priority Refinement/Tech Things to Research.md",
-    "_Low Priority Refinement/Study Session.md",
-    "_Low Priority Refinement/Python Learning Plan.md",
-    "_Low Priority Refinement/Project idea.md",
-    "_Low Priority Refinement/P nAutomation.md",
-    "_Low Priority Refinement/Linux Learning Plan.md",
-    "_Low Priority Refinement/L Automation.md",
-    "_Low Priority Refinement/Glossary.md",
-    "_Low Priority Refinement/Data Project Idea.md",
-    "_Low Priority Refinement/Be Aware.md",
-    "_Low Priority Refinement/Security/Prototype Pollution.md",
-    "_Low Priority Refinement/Security/OAuth 2.0.md",
-    "_Low Priority Refinement/Security/JWT authentication- Best practices.md",
-    "_Low Priority Refinement/Security/How do JSON Web Tokens work.md",
-    "_Low Priority Refinement/Security/ESLint.md",
-    "_Low Priority Refinement/Security/Computer system security.md",
-    "_Low Priority Refinement/Security/Code Defects.md",
-    "_Low Priority Refinement/Companies/Software Development Engineer in Test.md",
-    "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
+    "Mind Maps/_Web App Architecture.canvas",
+    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Admin processes.md",
+    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Backing services.md",
+    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Build, release, run.md",
+    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Codebase.md",
+    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Concurrency.md",
+    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Config.md",
+    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Dependencies.md",
+    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Dev prod parity.md",
+    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Disposability.md",
+    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Logs.md",
+    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Port binding.md",
+    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Processes.md",
+    "Architecture/Methodology/12 Factor App  Microservices Architecture.md",
+    "Architecture/Methodology/Deployment Strategies.md",
+    "Architecture/Methodology/Source code vs Codebase.md",
+    "Architecture/Methodology/Staged Deployment.md",
+    "Architecture/Methodology/Admin functionality God Mode/User Management.md",
+    "Architecture/Methodology/Admin functionality God Mode/Task Scheduling.md",
+    "Architecture/Methodology/Admin functionality God Mode/Resource Scaling.md",
+    "Architecture/Methodology/Admin functionality God Mode/Monitoring and Logging Configuration.md",
+    "Architecture/Methodology/Admin functionality God Mode/Database Migrations.md",
+    "Architecture/Methodology/Admin functionality God Mode/Data Seeding.md",
+    "Architecture/Methodology/Admin functionality God Mode/Configuration Changes.md",
+    "Architecture/Methodology/Admin functionality God Mode/Cache Clearing.md",
+    "Architecture/Methodology/Admin functionality God Mode/Backup and Restoration.md",
     "Mind Maps/Redux Map.canvas",
     "Mind Maps/UML/Layer to Package Diagram.svg",
     "Mind Maps/UML/Package Diagram with classes.svg",
@@ -342,7 +342,6 @@
     "Mind Maps/Drafts/Domain-driven design.canvas",
     "Mind Maps/Drafts/File system.canvas",
     "Mind Maps/Drafts/Url.canvas",
-    "Mind Maps/_Web App Architecture.canvas",
     "Mind Maps/12 Factor App Docker.canvas"
   ]
 }

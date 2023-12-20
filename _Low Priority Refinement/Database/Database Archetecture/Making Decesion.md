@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 The decision to use a snowflake or star schema for a supply and demand skills matrix would depend on the complexity of the data and the specific requirements of the system. Here are some factors to consider: 
 
 Data Volume: If the data volume is large, a snowflake schema might be a better choice, as it can handle more complex relationships between the tables. 

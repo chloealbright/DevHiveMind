@@ -4,62 +4,172 @@
     "type": "split",
     "children": [
       {
-        "id": "374164c6544b2d6f",
-        "type": "tabs",
+        "id": "c7f2a99ea68e7310",
+        "type": "split",
         "children": [
           {
-            "id": "e54032f0b8c24a5d",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Mind Maps/Redux Map.canvas",
-                "viewState": {
-                  "x": 1600,
-                  "y": 4560,
-                  "zoom": -3.7959861079784067
+            "id": "261c37bb649adf71",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8d33d5f4743b25a7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/Thread pools.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "6953d505fe3fd530",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/Process vs Thread.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "0ba94de74e623bcc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/Java async code.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "8ec5cfe49a4aab74",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/CPUs.md",
+                    "mode": "source",
+                    "source": false
+                  }
                 }
               }
-            }
+            ],
+            "currentTab": 1
           },
           {
-            "id": "331b8a820b40f498",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/Typescript/Custom Type.md",
-                "mode": "source",
-                "source": false
+            "id": "2a00f3fae0589d5b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "aad670827846659e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/Parallel stream uses multi threading.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
-          },
-          {
-            "id": "74bc6379c370eba2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Language/Typescript/Custom Typ.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3c5fe61abfd9edb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Low Priority Refinement/Database/DB Fundamentals/Explained.md",
-                "mode": "source",
-                "source": false
-              }
-            }
+            ]
           }
         ],
-        "currentTab": 3
+        "direction": "horizontal"
+      },
+      {
+        "id": "b6382fdcbc41d80c",
+        "type": "split",
+        "children": [
+          {
+            "id": "4489583bc9ed3770",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3a8858e4ba262cbe",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/Synchronous  vs Asynchronous vs  Multiprocessing.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "98b289268835f6e6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/Content switching.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "4c45842568f93df8",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1de4ad0286dabae1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/Concurrent programming.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "3e9272574e9f952c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/ConcurrentExample.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 4
+          },
+          {
+            "id": "c713eecd3ed69ddb",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7c48d47bdb2701c3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/Single threading vs Multithreading.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -73,12 +183,22 @@
         "type": "tabs",
         "children": [
           {
+            "id": "c18a64a686e80f59",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
             "id": "6b26857b850e27fd",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "closure",
+                "query": "Concurrent",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -110,23 +230,12 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "336e343a71fa6379",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 376.5
+    "width": 319.5
   },
   "right": {
     "id": "eef3a19b1c6d3fd3",
@@ -142,7 +251,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Database/DB Fundamentals/Explained.md",
+                "file": "Language Overlap/Thread pools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +268,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Database/DB Fundamentals/Explained.md",
+                "file": "Language Overlap/Thread pools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +291,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Database/DB Fundamentals/Explained.md"
+                "file": "Language Overlap/Thread pools.md"
               }
             }
           },
@@ -224,16 +333,6 @@
             "state": {
               "type": "todo",
               "state": {}
-            }
-          },
-          {
-            "id": "0f94332c76fff6e0",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
             }
           }
         ],
@@ -277,43 +376,43 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "homepage:Open homepage": false,
       "janitor:Janitor: scan vault": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "3c5fe61abfd9edb2",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "Language Overlap/Byte stream.md",
+    "Architecture/Codebase Level Scaling & Optimization.md",
+    "Architecture/Code standards.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Best Practices for Database Schema Design.md",
+    "Web/Protocols/FTP.md",
+    "Testing/_Type of Testing.md",
+    "Language/Typescript/Use of closure & composition.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Data Architecture.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Database Diagram.md",
+    "_Low Priority Refinement/Database/Database Archetecture/DBMS Types of Keys.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Decentralized Data Management.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Fact Table.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Making Decesion.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Schema Design.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Snowflake.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Star.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Table Team Work.md",
+    "_Low Priority Refinement/Database/DB Fundamentals/Data.md",
+    "_Low Priority Refinement/Database/DB Fundamentals/Data formats.md",
+    "_Low Priority Refinement/Database/DB Fundamentals/database Explained.md",
     "_Low Priority Refinement/Database/DB Fundamentals/Metadata.md",
     "_Low Priority Refinement/Database/DB Fundamentals/Mock Data.md",
     "_Low Priority Refinement/Database/DB Fundamentals/Transaction.md",
     "_Low Priority Refinement/Database/NOSQL/DynamoDB vs MongoDB.md",
     "_Low Priority Refinement/Database/NOSQL/General Info.md",
     "_Low Priority Refinement/Database/NOSQL/MongoDB.md",
-    "_Low Priority Refinement/Database/Relationships/Relationship Reading.md",
-    "_Low Priority Refinement/Database/Relationships/SQL Table Structure.md",
-    "_Low Priority Refinement/Database/Relationships/Table Relationships.md",
-    "_Low Priority Refinement/Database/Setup/Postgresql Setup.md",
-    "_Low Priority Refinement/Database/Cloud Databases.md",
-    "_Low Priority Refinement/Database/conf.md",
-    "_Low Priority Refinement/Database/Constraints.md",
-    "_Low Priority Refinement/Database/Create Tables.md",
-    "_Low Priority Refinement/Database/DB Data Types.md",
-    "_Low Priority Refinement/Database/DBMS.md",
-    "Databases/data visualization normalization or denormalization.md",
-    "_Low Priority Refinement/Database/Functional Dependencies.md",
-    "_Low Priority Refinement/Database/GUIDs.md",
-    "_Template/DB Stuff.md",
-    "_Low Priority Refinement/Database/H2.md",
-    "_Low Priority Refinement/Database/Hadoop.md",
-    "_Low Priority Refinement/Database/Keys.md",
-    "_Low Priority Refinement/Database/Multi Model DB.md",
-    "_Low Priority Refinement/Database/MYSQL Setup.md",
-    "_Low Priority Refinement/Database/NoSQL vs SQL.md",
     "Mind Maps/12 Factor App Docker.canvas",
     "Infographics/Authentication in REST.gif",
     "Mind Maps/_Web App Architecture.canvas",

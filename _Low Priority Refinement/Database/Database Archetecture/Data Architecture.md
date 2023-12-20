@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 data architecture is often an integration process of the components or systems that likely already exist. 
 
 -   The building design is almost always for a new building being built from scratch. A building architect, therefore, could plan and design entirely based on the new requirements and new materials. A data architect does not have this luxury. They can seldom start from scratch, but need to understand the existing platforms and databases while designing for the future. 

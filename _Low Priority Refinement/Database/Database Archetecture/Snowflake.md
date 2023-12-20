@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 dimension tables are normalized.   
 
 use less space to store dimension tables but are more complex.  

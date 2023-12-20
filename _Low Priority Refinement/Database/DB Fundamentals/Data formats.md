@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Speed up data process  
 
 you can write data to disk in CSV format but there are probably better formats  

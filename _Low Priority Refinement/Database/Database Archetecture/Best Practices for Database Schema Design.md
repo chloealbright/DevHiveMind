@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Naming Conventions 
 
 -   Define and use appropriate naming conventions to make your database schema designs more effective. While you may decide on a particular style or adhere to an ISO standard, the most important thing is to be consistent in your name fields. 

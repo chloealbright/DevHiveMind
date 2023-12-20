@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 dimension tables are not normalized. 
 
 will only join the fact table with the dimension tables, leading to simpler, faster SQL queries. 

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 In computer programming, a schema (pronounced SKEE-mah) is the organization or structure for a database , while in AI a schema is a formal expression of an inference rule.
 
 

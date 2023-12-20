@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI & Chatgpt/prompts/Talking better.md",
+                "file": "AI & Chatgpt/Stanley Druckenmiller Company Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,8 +81,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -102,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI & Chatgpt/prompts/Talking better.md",
+                "file": "AI & Chatgpt/Stanley Druckenmiller Company Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI & Chatgpt/prompts/Talking better.md",
+                "file": "AI & Chatgpt/Stanley Druckenmiller Company Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI & Chatgpt/prompts/Talking better.md"
+                "file": "AI & Chatgpt/Stanley Druckenmiller Company Fundamentals.md"
               }
             }
           },
@@ -246,8 +245,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6b26857b850e27fd",
+  "active": "cd28b06205828485",
   "lastOpenFiles": [
+    "AI & Chatgpt/Components of AI.md",
+    "AI & Chatgpt/Stanley Druckenmiller Company Fundamentals.md",
+    "AI & Chatgpt/AI Layers.md",
+    "AI & Chatgpt/prompts/Talking better.md",
     "AI & Chatgpt/prompts/summarize.md",
     "AI & Chatgpt/prompts/Structural model Prompt.md",
     "AI & Chatgpt/prompts/simplify.md",
@@ -270,14 +273,10 @@
     "AI & Chatgpt/prompts/Development/Python DEV.md",
     "AI & Chatgpt/prompts/Development/Note Refiner.md",
     "AI & Chatgpt/prompts/Development/Linux.md",
-    "AI & Chatgpt/prompts/Development/DB Prompts.md",
-    "Home.md",
     "Architecture/Design Patterns Layers.pdf",
     "Mind Maps/UML/Lucidchart App Map.svg",
     "Mind Maps/UML/Class Cases Robust P3.svg",
     "Mind Maps/UML/Class Cases Robust P1.svg",
-    "Mind Maps/Models.md",
-    "Algorithms & Data Structures/Problem-solving Regimen.md",
     "Mind Maps/UML/Class Cases Robust P2.svg",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/_Web App Architecture.canvas",

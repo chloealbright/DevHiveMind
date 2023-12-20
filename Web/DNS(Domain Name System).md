@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[DNS resolve.png]]
 
 -   DNS recursive resolver -   between website and load balancer  

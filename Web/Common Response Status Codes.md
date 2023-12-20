@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[Status Codes.jpg]]
 
 ## Status code are stored in the body of responses  

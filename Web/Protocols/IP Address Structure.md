@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[IPv4 Structure.png]]![[IPV6 Structure.png]]
 
 ![[IPV6 vs IPV4.jpeg]]

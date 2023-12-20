@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[Request Structure.png]]
 
 ## fetch (defaults to GET) 

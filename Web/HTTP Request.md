@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 -   Process of going to website  Request is made from application layer and might hit transport and session layer and sent to DNS 
     
 -   When a request happens we connect to a DNS (domain name server)  recursive resolver. The resolver then queries a DNS root nameserver. 

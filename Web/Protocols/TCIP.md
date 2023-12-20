@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[OSI Layer.jpg]]
 
 A suite of protocols for communication between computers, specifying standards for transmitting data over networks and used as the basis for standard Internet protocols that follow along the OSI model. 

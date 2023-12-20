@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Rule: GET and POST must not be used to tunnel other request methods 
 
 Rule: HEAD should be used to retrieve response headers 

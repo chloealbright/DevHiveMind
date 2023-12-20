@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Methodology/Twelve Factor App/Twelve Factor App Logs.md",
+                "file": "Methodology/Admin functionality God Mode/Task Scheduling.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methodology/Twelve Factor App/Twelve Factor App Logs.md",
+                "file": "Methodology/Admin functionality God Mode/Task Scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Methodology/Twelve Factor App/Twelve Factor App Logs.md",
+                "file": "Methodology/Admin functionality God Mode/Task Scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Methodology/Twelve Factor App/Twelve Factor App Logs.md"
+                "file": "Methodology/Admin functionality God Mode/Task Scheduling.md"
               }
             }
           },
@@ -248,43 +248,43 @@
   },
   "active": "e54032f0b8c24a5d",
   "lastOpenFiles": [
+    "Methodology/Admin functionality God Mode/User Management.md",
+    "Methodology/Docker Twelve Factors App/I Codebase.md",
+    "Methodology/Docker Twelve Factors App/II Dependencies.md",
+    "Testing/Pre Acceptance Testing.md",
+    "Testing/System Integration Testing.md",
+    "Methodology/Docker Twelve Factors App/III Config.md",
+    "Methodology/Docker Twelve Factors App/IV Backing services.md",
+    "Methodology/Docker Twelve Factors App/IX-9 Disposability.md",
+    "Methodology/Docker Twelve Factors App/V Build, release, run.md",
+    "Methodology/Docker Twelve Factors App/VI Processes.md",
+    "Methodology/Docker Twelve Factors App/VII Port binding.md",
+    "Methodology/Docker Twelve Factors App/VIII Concurrency.md",
+    "Methodology/Docker Twelve Factors App/X-10 Dev prod parity.md",
+    "Methodology/Docker Twelve Factors App/XI Logs.md",
+    "Methodology/Docker Twelve Factors App/XII Admin processes.md",
+    "Methodology/Twelve Factor App/Twelve Factor App Admin processes.md",
+    "Methodology/Twelve Factor App/Twelve Factor App Backing services.md",
+    "Methodology/Twelve Factor App/Twelve Factor App Build, release, run.md",
+    "Methodology/Twelve Factor App/Twelve Factor App Codebase.md",
+    "Methodology/Twelve Factor App/Twelve Factor App Concurrency.md",
+    "Methodology/Twelve Factor App/Twelve Factor App Config.md",
+    "Methodology/Twelve Factor App/Twelve Factor App Dependencies.md",
+    "Methodology/Twelve Factor App/Twelve Factor App Dev prod parity.md",
+    "Methodology/Twelve Factor App/Twelve Factor App Disposability.md",
+    "Methodology/Twelve Factor App/Twelve Factor App Logs.md",
     "Methodology/Twelve Factor App/Twelve Factor App Port binding.md",
-    "Methodology/Twelve Factor App/Twelve Factor App Processes.md",
-    "Methodology/12 Factor App  Microservices Architecture.md",
-    "Methodology/Deployment Strategies.md",
-    "Methodology/Source code vs Codebase.md",
-    "Methodology/Staged Deployment.md",
     "Mind Maps/UML/Layer to Package Diagram.svg",
-    "Mind Maps/Models.md",
     "Mind Maps/UML/Package Diagram with classes.svg",
     "Mind Maps/UML/Package Diagram with No-classes.svg",
     "Mind Maps/UML/Park Alert Activity Diagram.svg",
     "Mind Maps/UML/Requirement life cycle.svg",
     "Mind Maps/UML/UML Monitor Project.png",
-    "Testing/Black Box Testing Techniques.md",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with No-classes.drawio",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with classes.drawio",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
     "Mind Maps/Docker InDeph.canvas",
-    "Mind Maps/Java Behind the Scenes.md",
-    "Mind Maps/Language Categories.md",
     "Mind Maps/Redux Map.canvas",
-    "Open Source/WordPress.md",
-    "Open Source/Syncthing Obsidian.md",
-    "Language Overlap/Tools/Syncthing.md",
-    "Security/Unsafe functions.md",
-    "Testing/_Type of Testing.md",
-    "Testing/Acceptance Testing.md",
-    "Testing/BDD.md",
-    "Testing/Code Coverage.md",
-    "Testing/Data-Driven Testing.md",
-    "Testing/Duck typing.md",
-    "Testing/Integration test.md",
-    "Testing/Jest benchmarking.md",
-    "Testing/Load VS Stress Testing.md",
-    "Testing/Performance Testing.md",
-    "Testing/Pre Acceptance Testing.md",
-    "Testing/Regression Testing.md",
     "Infographics/Web/Proxy.gif",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
     "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg",

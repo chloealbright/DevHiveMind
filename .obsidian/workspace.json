@@ -4,35 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4489583bc9ed3770",
+        "id": "6070c8e134d4bd68",
         "type": "tabs",
         "children": [
           {
-            "id": "4c45842568f93df8",
+            "id": "cd28b06205828485",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a44c19d528432863",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mind Maps/Models.md",
-                "mode": "source",
-                "source": false
+                "file": "Architecture/Design Patterns Layers.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mind Maps/Models.md",
+                "file": "Architecture/Design Patterns Layers.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mind Maps/Models.md",
+                "file": "Architecture/Design Patterns Layers.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mind Maps/Models.md"
+                "file": "Architecture/Design Patterns Layers.pdf"
               }
             }
           },
@@ -252,14 +237,18 @@
       "homepage:Open homepage": false,
       "janitor:Janitor: scan vault": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "periodic-notes:Open today": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "a44c19d528432863",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "Home.md",
+    "Architecture/Design Patterns Layers.pdf",
+    "Mind Maps/UML/Lucidchart App Map.svg",
+    "Mind Maps/UML/Class Cases Robust P3.svg",
     "Mind Maps/UML/Class Cases Robust P1.svg",
     "Mind Maps/Models.md",
     "Algorithms & Data Structures/Problem-solving Regimen.md",
@@ -273,8 +262,6 @@
     "Mind Maps/UML/Layer to Package Diagram.svg",
     "Mind Maps/Redux Map.canvas",
     "Infographics/Piliars Of OOP.jpeg",
-    "Infographics/Load Balance Algo.jpeg",
-    "Infographics/Kafka Uses.jpeg",
     "Architecture/Event Driven Architecture.md",
     "Algorithms & Data Structures/Attributes of Data.md",
     "Algorithms & Data Structures/All Sorts of Sorts.md",
@@ -291,7 +278,6 @@
     "Architecture/Arch to think about.md",
     "_Official Documentation/NPM Docs.md",
     "_Official Documentation/Kafka Docs.md",
-    "Home.md",
     "Language Overlap/Byte stream.md",
     "Architecture/Codebase Level Scaling & Optimization.md",
     "Architecture/Code standards.md",
@@ -309,7 +295,6 @@
     "Databases",
     "Security",
     "_Pdf/Joshua_Carpentier_Resume.pdf",
-    "Companies/Companies Worked At/Next Company",
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",

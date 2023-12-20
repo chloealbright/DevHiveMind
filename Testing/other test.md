@@ -3,11 +3,7 @@
     - These test cases examine how your code handles invalid or unexpected inputs.
     - They help demonstrate your error-handling skills and your code's ability to gracefully handle exceptions.
 
-2. Performance Test Cases:
-    
-    - In some interviews, performance might be a critical factor.
-    - Performance test cases check how your code behaves under certain constraints (e.g., time or space complexity).
-    - Relevant for positions where optimizing algorithms is crucial.
+
 
 3. Stress Test Cases:
     

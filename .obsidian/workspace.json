@@ -4,6 +4,24 @@
     "type": "split",
     "children": [
       {
+        "id": "8a5f3d346d76739c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f95e1ece6089a17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Testing/Performance Testing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "22a53d02a38c01c4",
         "type": "tabs",
         "children": [
@@ -13,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Testing/QA.md",
+                "file": "Testing/Regression Testing.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing/QA.md",
+                "file": "Testing/Regression Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Testing/QA.md",
+                "file": "Testing/Regression Testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Testing/QA.md"
+                "file": "Testing/Regression Testing.md"
               }
             }
           },
@@ -248,32 +266,32 @@
   },
   "active": "8b837ed9ad7143d4",
   "lastOpenFiles": [
+    "Testing/Pre Acceptance Testing.md",
+    "Testing/Performance Testing.md",
+    "Testing/Duck typing.md",
+    "Testing/Data-Driven Testing.md",
+    "Testing/Code Coverage.md",
+    "Testing/Black Box Testing Techniques.md",
+    "Testing/Frontend/Selium.md",
+    "Testing/_Type of Testing.md",
+    "Testing/Load VS Stress Testing.md",
+    "Testing/Jest benchmarking.md",
+    "Testing/other test.md",
     "Testing/Regression Testing.md",
-    "Testing/Testing Heiarchy.md",
-    "Testing/Test Cases.md",
-    "Testing/TDD.md",
-    "Testing/System Integration Testing.md",
     "Testing/Smoke test.md",
+    "Testing/System Integration Testing.md",
+    "Testing/TDD.md",
+    "Testing/Test Cases.md",
+    "Testing/Acceptance Testing.md",
+    "Testing/QA.md",
+    "Testing/Testing Heiarchy.md",
     "Testing/Type of Testing Techniques.md",
     "Testing/Unit testing.md",
-    "Testing/_Type of Testing.md",
     "Language Overlap/Tools/Inteli J.md",
     "Language Overlap/Tools/Vscode things to add.md",
     "Language Overlap/Tools/Testing Tools.md",
     "Library/Frontend/React/useMemo.md",
     "Library/Frontend/React/useEffect.md",
-    "Library/Frontend/React/Updating Lifecycle methods.md",
-    "Library/Frontend/React/Unmounted Phase Method.md",
-    "Library/Frontend/React/Types of Component.md",
-    "Library/Frontend/React/Rendering.md",
-    "Language/Php/PHP Explained.md",
-    "Language/Typescript/Custom Typ.md",
-    "Home.md",
-    "Language/Typescript/Custom Type.md",
-    "Language/Typescript/Debounce vs Throttle event listening performance.md",
-    "Language Overlap/Inheritance Composition Encapsulation.md",
-    "Language/Typescript/Closure is used for data encapsulation and uses more memory.md",
-    "_Low Priority Refinement/Database/Functional Dependencies.md",
     "Infographics/Web/Proxy.gif",
     "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",

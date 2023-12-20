@@ -66,6 +66,17 @@ In JavaScript, variadic functions are functions that can accept a variable numbe
    console.log(sum(1, 2, 3)); // Outputs: 6
    ```
 
+```typescript
+function smush(firstString, ...otherStrings: string[]) {
+  let output = firstString;
+  for (let i = 0; i < otherStrings.length; i++) {
+    output = output.concat(otherStrings[i]);
+  }
+  return output;
+}
+```
+
+
 The rest parameter syntax (`...`) allows you to represent an indefinite number of arguments as an array. It's a more modern and convenient way to work with variable arguments.
 
 Keep in mind that using rest parameters is generally preferred over the `arguments` object due to its simplicity and compatibility with modern JavaScript features.

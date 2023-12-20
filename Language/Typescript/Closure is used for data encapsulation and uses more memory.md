@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 The ability to treat functions as values, combined with the fact that local bindings are re-created every time a function is called, brings up an interesting question. What happens to local bindings when the function call that created them is no longer active? 
 
 The following code shows an example of this. It defines a function, wrapValue, that creates a local binding. It then returns a function that accesses and returns this local binding. 
@@ -56,7 +65,9 @@ In the example, multiplier is called and creates an environment in which its fac
 function jane() {  
   const name = 'jane';  
   const mid = 'A';  
-  const final = 'B+';  return {  
+  const final = 'B+';  
+  
+  return {  
     midtermScore: () => mid,  
     finaltermScore: () => final,  
   }  

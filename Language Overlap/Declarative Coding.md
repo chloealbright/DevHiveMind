@@ -44,7 +44,7 @@ Other Declarative Languages
 ```javascript
 const numbers = [1, 2, 3]; 
 
-console.log(...numbers); return whole array 
+console.log(...numbers); // return whole array 
 
 let numbersOne = {prop1: 1, prop2: "val2"} 
 

@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 
 In computer networking, a proxy server is a server application that acts as an intermediary between a client requesting a resource and the server providing that resource.  
 
@@ -37,7 +46,14 @@ server.listen(PORT, () => {
 This example uses the `http-proxy` library to create a simple HTTP proxy server. Requests to the proxy server are forwarded to `http://example.com`. You can modify the target URL or add more advanced features based on your specific use case.
 
 
+![[Proxy.gif]]
 ## 1.1 Forward Proxy
+
+Client champion: Acts as your personal gatekeeper, filtering your internet access and protecting your identity. Think of it like a VPN for your everyday browsing.  
+  
+Security shield: Hides your IP address, deflects malicious attacks, and controls content access, keeping your browsing safe and secure.  
+  
+Performance booster: Caches frequently accessed content, reducing load times and giving you a smoother web experience.
 
 A forward proxy is a server that acts on behalf of clients to make requests to other servers. Forward proxies can be used for various purposes, such as providing anonymity, enforcing security policies, and caching content.
 
@@ -75,6 +91,15 @@ A forward proxy is typically used to provide anonymity, content filtering, or ca
 
 
 ## 1.2 Reverse Proxy
+
+
+  
+Server guardian: Stands guard before your precious backend servers, shielding them from the harsh realities of the internet.  
+  
+Load balancer: Distributes traffic across multiple servers, ensuring smooth performance even under heavy load.  
+  
+Security fortress: Encrypts communication, filters out malicious requests, and acts as a single point of entry for better security control.
+
 
 A reverse proxy is a server that handles client requests on behalf of other servers. Reverse proxies can provide load balancing, SSL termination, and content caching, among other benefits.
 

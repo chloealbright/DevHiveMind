@@ -4,16 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "6b78e84b9c806afd",
+        "id": "1a6f76fc1eb9733c",
         "type": "tabs",
         "children": [
           {
-            "id": "f4ad314461dcbe31",
+            "id": "30fd358c9b28bc42",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Excalidraw/Scripts/Downloaded/Auto Draw for Pen.md",
+                "file": "Language/Typescript/Custom Type.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "60274f218226835a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/Typescript/Debounce vs Throttle event listening performance.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "47070b173da98169",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb2a67e187289e8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Language/Typescript/Custom Typ.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Automation",
+                "query": "Closure",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -102,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Excalidraw/Scripts/Downloaded/Auto Draw for Pen.md",
+                "file": "Language/Typescript/Custom Typ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Excalidraw/Scripts/Downloaded/Auto Draw for Pen.md",
+                "file": "Language/Typescript/Custom Typ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Excalidraw/Scripts/Downloaded/Auto Draw for Pen.md"
+                "file": "Language/Typescript/Custom Typ.md"
               }
             }
           },
@@ -246,41 +276,41 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f4ad314461dcbe31",
+  "active": "bb2a67e187289e8f",
   "lastOpenFiles": [
-    "Home.md",
-    "Open Source/To Look into.md",
-    "Open Source/WordPress.md",
-    "Web/Application & Web Server.md",
-    "Web/HTTP Request.md",
-    "Web/State of the Art.md",
-    "Web/Custom HTTP Headers  Custom HTTP Methods.md",
-    "Web/When to Use.md",
-    "Web/How to Use POST for Asynchronous Tasks.md",
-    "Web/How to Use DELETE for Asynchronous Deletion.md",
-    "Web/Query String.md",
-    "Web/Web Socket chat client.md",
-    "Web/Json Structure.md",
-    "Web/JSON.md",
-    "Web/Other Methods.md",
-    "Web/Media Type Design.md",
-    "Web/RESTful Routing.md",
-    "Web/REDUCING HTTP REQUESTS.md",
-    "Web/SEO.md",
+    "Language/Typescript/Custom Type.md",
+    "Language/Typescript/Custom Typ.md",
+    "Language/Typescript/Debounce vs Throttle event listening performance.md",
+    "Language Overlap/Inheritance Composition Encapsulation.md",
+    "Language/Typescript/Closure is used for data encapsulation and uses more memory.md",
+    "_Low Priority Refinement/Database/Functional Dependencies.md",
+    "Language/Typescript/Async vs Defer how JavaScript is loaded.md",
+    "Language/Typescript/Async vs Defer how JavaScript is loaded.md",
+    "Language/Typescript/Arrays in Typescript.md",
+    "Language Overlap/Declarative Coding.md",
+    "Language Overlap/Imperative Coding.md",
+    "Language/Typescript/Advanced Object Types.md",
+    "Web/Proxy.md",
+    "Infographics/Web/Proxy.gif",
     "Web/WebSockets.md",
-    "Web/Web protocol explained.md",
-    "Web/Web Token.md",
-    "Web/Web Token Intro.md",
-    "Web/Web Workers.md",
-    "Web/WebHooks v WebSockets v HTTP Streaming.md",
-    "Web/Webhooks vs Polling.md",
-    "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
+    "Web/When to Use.md",
+    "Web/Protocols/FTP.md",
+    "Testing/_Type of Testing.md",
+    "Open Source/Syncthing.md",
     "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
-    "Mind Maps/Redux Map.canvas",
-    "_Pdf/Joshua_Carpentier_Resume.pdf",
+    "Mind Maps/Drafts/UML/Models.md",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
+    "Methodology/Admin functionality God Mode/Backup and Restoration.md",
+    "Language/Typescript/Use of closure & composition.md",
+    "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
+    "Web/Custom HTTP Headers  Custom HTTP Methods.md",
+    "Language/Typescript/Javascript.md",
+    "Language/Typescript/Iterators and generators.md",
+    "Language/Typescript/Imports & exports.md",
+    "Language/Typescript/Hoisting.md",
     "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg",
     "Mind Maps/Drafts/Gateway.canvas",
+    "Mind Maps/Redux Map.canvas",
     "_Images/Database/relational model.png",
     "Infographics/Piliars Of OOP.jpeg",
     "Infographics/Load Balance Algo.jpeg",
@@ -292,7 +322,7 @@
     "Infographics/Process and Thread.jpeg",
     "Infographics/System Design Cheatsheet.gif",
     "Infographics/Work Process.png",
-    "_Images/factory.gif",
+    "_Pdf/Joshua_Carpentier_Resume.pdf",
     "Companies/Companies Worked At/Next Company",
     "Companies/Companies Worked At/And the Next One",
     "Companies/Companies Worked At/And the Next One..",

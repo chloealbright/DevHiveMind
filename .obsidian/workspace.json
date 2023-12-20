@@ -4,80 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f7c60e46e5cfc005",
-        "type": "split",
-        "children": [
-          {
-            "id": "8a5f3d346d76739c",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1f95e1ece6089a17",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Testing/Black Box Testing Techniques.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "9d168390833bb44a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Testing/Test Cases.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "87fb73d980888219",
-                "type": "leaf",
-                "state": {
-                  "type": "diagram-edit",
-                  "state": {
-                    "file": "Mind Maps/Drafts/UML/to edit/Package Diagram with No-classes.drawio"
-                  }
-                }
-              }
-            ],
-            "currentTab": 2
-          },
-          {
-            "id": "29574e365f630357",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "dafd59b94c2719a1",
-                "type": "leaf",
-                "state": {
-                  "type": "diagram",
-                  "state": {
-                    "file": "Mind Maps/Drafts/UML/Layer to Package Diagram.svg"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
-      },
-      {
-        "id": "22a53d02a38c01c4",
+        "id": "374164c6544b2d6f",
         "type": "tabs",
         "children": [
           {
-            "id": "d82f77d99a2a5263",
+            "id": "e54032f0b8c24a5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mind Maps/Drafts/UML/Models.md",
+                "file": "Methodology/Twelve Factor App/Twelve Factor App Logs.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mind Maps/Drafts/UML/Models.md",
+                "file": "Methodology/Twelve Factor App/Twelve Factor App Logs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mind Maps/Drafts/UML/Models.md",
+                "file": "Methodology/Twelve Factor App/Twelve Factor App Logs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mind Maps/Drafts/UML/Models.md"
+                "file": "Methodology/Twelve Factor App/Twelve Factor App Logs.md"
               }
             }
           },
@@ -310,14 +246,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d82f77d99a2a5263",
+  "active": "e54032f0b8c24a5d",
   "lastOpenFiles": [
+    "Methodology/Twelve Factor App/Twelve Factor App Port binding.md",
+    "Methodology/Twelve Factor App/Twelve Factor App Processes.md",
+    "Methodology/12 Factor App  Microservices Architecture.md",
+    "Methodology/Deployment Strategies.md",
+    "Methodology/Source code vs Codebase.md",
+    "Methodology/Staged Deployment.md",
+    "Mind Maps/UML/Layer to Package Diagram.svg",
+    "Mind Maps/Models.md",
+    "Mind Maps/UML/Package Diagram with classes.svg",
+    "Mind Maps/UML/Package Diagram with No-classes.svg",
+    "Mind Maps/UML/Park Alert Activity Diagram.svg",
+    "Mind Maps/UML/Requirement life cycle.svg",
+    "Mind Maps/UML/UML Monitor Project.png",
+    "Testing/Black Box Testing Techniques.md",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with No-classes.drawio",
     "Mind Maps/Drafts/UML/to edit/Package Diagram with classes.drawio",
-    "Mind Maps/Drafts/UML/Models.md",
-    "Mind Maps/Drafts/UML/Package Diagram with classes.svg",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
-    "Mind Maps/Drafts/UML/Layer to Package Diagram.svg",
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/Java Behind the Scenes.md",
     "Mind Maps/Language Categories.md",
@@ -329,7 +276,6 @@
     "Testing/_Type of Testing.md",
     "Testing/Acceptance Testing.md",
     "Testing/BDD.md",
-    "Testing/Black Box Testing Techniques.md",
     "Testing/Code Coverage.md",
     "Testing/Data-Driven Testing.md",
     "Testing/Duck typing.md",
@@ -339,25 +285,16 @@
     "Testing/Performance Testing.md",
     "Testing/Pre Acceptance Testing.md",
     "Testing/Regression Testing.md",
-    "Testing/Selium.md",
-    "Testing/Smoke test.md",
-    "Testing/System Integration Testing.md",
-    "Testing/Test Cases.md",
-    "Testing/Test-driven development.md",
     "Infographics/Web/Proxy.gif",
-    "Mind Maps/Drafts/UML/Park Alert Activity Diagram.svg",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
     "Mind Maps/Drafts/UML/Activity Diagram.drawio (1).svg",
     "Mind Maps/Drafts/Gateway.canvas",
     "_Images/Database/relational model.png",
     "Infographics/Piliars Of OOP.jpeg",
-    "Infographics/Load Balance Algo.jpeg",
-    "_Template/Whiteboard.png",
     "Architecture/Design Patterns.pdf",
     "API",
     "Databases",
     "Security",
-    "Infographics/Process and Thread.jpeg",
     "_Pdf/Joshua_Carpentier_Resume.pdf",
     "Companies/Companies Worked At/Next Company",
     "Mind Maps/Drafts/Event Messaging.canvas",

@@ -47,13 +47,13 @@
             }
           },
           {
-            "id": "59abc3b5685c10da",
+            "id": "3c5fe61abfd9edb2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Language/Typescript/Type Narrowing.md",
-                "mode": "preview",
+                "file": "_Low Priority Refinement/Database/NoSQL vs SQL.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -78,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Literals",
+                "query": "closure",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Language/Typescript/Type Narrowing.md",
+                "file": "_Low Priority Refinement/Database/NoSQL vs SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Language/Typescript/Type Narrowing.md",
+                "file": "_Low Priority Refinement/Database/NoSQL vs SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Language/Typescript/Type Narrowing.md"
+                "file": "_Low Priority Refinement/Database/NoSQL vs SQL.md"
               }
             }
           },
@@ -288,32 +288,32 @@
   },
   "active": "336e343a71fa6379",
   "lastOpenFiles": [
-    "Language/Typescript/Type Annotations.md",
-    "Language/Typescript/Type Narrowing.md",
-    "Language/Typescript/Type Inferences.md",
-    "Language/Typescript/this keyword.md",
-    "Language/Typescript/String encoding.md",
-    "Language/Typescript/Return Types.md",
-    "Language/Typescript/Prototypes.md",
-    "Language/Typescript/proto.md",
-    "Language/Typescript/polyfill.md",
-    "Language/Typescript/Pipe Functions.md",
-    "Language/Typescript/Params.md",
-    "Language/Typescript/Object Literals  vs Enhanced Object Literals.md",
-    "Language/Typescript/NPM.md",
-    "Language/Typescript/Node.js.md",
-    "Language/Typescript/Modules history and advance Implementation.md",
-    "Language/Typescript/JavaScript type conversion Table.md",
-    "Language/Typescript/JavaScript Object Setter & Getter.md",
-    "Language/Typescript/Javascript.md",
-    "Language/Typescript/Iterators and generators.md",
-    "Language/Typescript/Imports & exports.md",
-    "Language/Typescript/Hoisting.md",
-    "Language/Typescript/ECMAScript.md",
-    "Language/Typescript/Destructuring Value Swap.md",
-    "Language/Typescript/Debounce vs Throttle event listening performance.md",
-    "Language/Typescript/Custom Typ.md",
-    "Language/Typescript/Custom Type.md",
+    "_Low Priority Refinement/Database/Other Stuff.md",
+    "_Low Priority Refinement/Database/Self-joining relationships.md",
+    "_Low Priority Refinement/Database/Triggers in SQL.md",
+    "_Low Priority Refinement/Database/Types of Tables in logical database models.md",
+    "_Low Priority Refinement/Tech Things to Research.md",
+    "_Low Priority Refinement/Study Session.md",
+    "_Low Priority Refinement/Python Learning Plan.md",
+    "_Low Priority Refinement/Project idea.md",
+    "_Low Priority Refinement/P nAutomation.md",
+    "_Low Priority Refinement/Linux Learning Plan.md",
+    "_Low Priority Refinement/L Automation.md",
+    "_Low Priority Refinement/Glossary.md",
+    "_Low Priority Refinement/Data Project Idea.md",
+    "_Low Priority Refinement/Be Aware.md",
+    "_Low Priority Refinement/Security/Prototype Pollution.md",
+    "_Low Priority Refinement/Security/OAuth 2.0.md",
+    "_Low Priority Refinement/Security/JWT authentication- Best practices.md",
+    "_Low Priority Refinement/Security/How do JSON Web Tokens work.md",
+    "_Low Priority Refinement/Security/ESLint.md",
+    "_Low Priority Refinement/Security/Computer system security.md",
+    "_Low Priority Refinement/Security/Code Defects.md",
+    "_Low Priority Refinement/Companies/Software Development Engineer in Test.md",
+    "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
+    "_Low Priority Refinement/Companies/Talking More Articulate Template.md",
+    "_Low Priority Refinement/Companies/Sounding more senior or experienced.md",
+    "_Low Priority Refinement/Companies/Obsidian Understanding its Core Design Principles  by TfTHacker  Obsidian Observer  Medium.md",
     "Mind Maps/Redux Map.canvas",
     "Mind Maps/UML/Layer to Package Diagram.svg",
     "Mind Maps/UML/Package Diagram with classes.svg",

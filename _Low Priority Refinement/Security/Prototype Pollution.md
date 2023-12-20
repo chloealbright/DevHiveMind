@@ -5,7 +5,7 @@ tags:
 author:
   - jacgit18
   - chatgpt
-Status: refinement
+Status: Refinement
 Started: 2023-11-21
 EditDate: 
 Relates:

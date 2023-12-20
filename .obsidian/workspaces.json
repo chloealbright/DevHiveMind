@@ -1759,11 +1759,29 @@
         "type": "split",
         "children": [
           {
-            "id": "1a6f76fc1eb9733c",
+            "id": "374164c6544b2d6f",
             "type": "tabs",
             "children": [
               {
-                "id": "30fd358c9b28bc42",
+                "id": "59abc3b5685c10da",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language/Typescript/Use of closure & composition.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "bf76f711f557e936",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9396b3fd127b857a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -1773,15 +1791,9 @@
                     "source": false
                   }
                 }
-              }
-            ]
-          },
-          {
-            "id": "47070b173da98169",
-            "type": "tabs",
-            "children": [
+              },
               {
-                "id": "bb2a67e187289e8f",
+                "id": "2a74b6bafe8f6ed8",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -1811,7 +1823,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "Closure",
+                    "query": "closure",
                     "matchingCase": true,
                     "explainSearch": false,
                     "collapseAll": true,
@@ -1854,11 +1866,13 @@
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
-        "width": 366.5
+        "width": 376.5,
+        "collapsed": true
       },
       "right": {
         "id": "eef3a19b1c6d3fd3",
@@ -1874,7 +1888,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Language/Typescript/Closure is used for data encapsulation and uses more memory.md",
+                    "file": "Language/Typescript/Use of closure & composition.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1891,7 +1905,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Language/Typescript/Closure is used for data encapsulation and uses more memory.md",
+                    "file": "Language/Typescript/Use of closure & composition.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1914,7 +1928,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Language/Typescript/Closure is used for data encapsulation and uses more memory.md"
+                    "file": "Language/Typescript/Use of closure & composition.md"
                   }
                 }
               },
@@ -2018,8 +2032,8 @@
           "periodic-notes:Open today": false
         }
       },
-      "active": "30fd358c9b28bc42"
+      "active": "336e343a71fa6379"
     }
   },
-  "active": "Closure"
+  "active": "Close"
 }

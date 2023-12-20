@@ -1,3 +1,6 @@
+---
+tags:
+---
 Quries can be similiar between NOSQL and SQL but deffiently differ to
 
 

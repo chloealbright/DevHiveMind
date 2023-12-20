@@ -3,7 +3,7 @@ tags:
   - tool
 author:
   - jacgit18
-Status: refinement
+Status: Refinement
 Started: 2023-11-23
 EditDate: 2023-12-04
 Relates:

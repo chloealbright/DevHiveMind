@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 SQL is a declarative language  
 
 Relational databases RDB used a lot for banking, content management systems like WordPress, etc .. 

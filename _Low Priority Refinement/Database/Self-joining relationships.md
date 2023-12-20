@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 A self-join is when a table is joined to itself, typically to compare or relate the data within the same table. For example, in an employee database, a self-join could be used to find pairs of employees who have the same manager. In this case, the table would be joined to itself based on the manager ID column. 
 
 A self-join is a join in which a table is joined with itself (which is also called Unary relationships), especially when the table has a FOREIGN KEY which references its own PRIMARY KEY. To join a table itself means that each row of the table is combined with itself and with every other row of the table. 

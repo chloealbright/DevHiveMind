@@ -1,3 +1,12 @@
+---
+tags: 
+author:
+  - jacgit18
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 
 Pipe (|) is used to separate each type, so for example number | string | boolean is the type of a value that can be a number, a string, or a boolean 
 

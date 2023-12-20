@@ -74,3 +74,6 @@ function jane() {
 }jane().midtermScore(); // A  
 jane().finaltermScore(); // B+
 ```
+
+
+

@@ -7,6 +7,9 @@ Started:
 EditDate: 
 Relates:
 ---
+If JavaScript libraries are proving costly, replace them with smaller alternatives. Lighthouse in ChromeDevTools now recommends smaller libraries that improve bundle size.
+
+
 There are several alternative services and repositories to Maven Central that you can use for managing and hosting your Java project dependencies. Some popular ones include:  
   
 1. **JFrog Artifactory**: Artifactory is a widely used artifact repository manager that supports Maven along with other package managers. It offers a free community edition and a more feature-rich enterprise version.  

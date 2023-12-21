@@ -9,7 +9,7 @@ Relates:
 ---
 Find out if there is a way to stay on the last pg you were on 
 
-
+https://www.typescriptlang.org/docs/
 
 https://www.freecodecamp.org/news/how-to-use-github-copilot-with-visual-studio-code/
 
@@ -82,18 +82,7 @@ https://egghead.io/lessons/javascript-getting-started-with-redux-dev-tools
 
 
 
-https://react-redux.js.org/introduction/getting-started
 
-https://reactjs.org/docs/thinking-in-react.html#step-4-identify-where-your-state-should-live
-
-
-https://reactjs.org/docs/accessibility.html
-
-https://reactjs.org/docs/react-api.html
-
-https://reactjs.org/docs/hooks-intro.html
-
-https://reactjs.org/docs/testing.html
 
 https://notistack.com/
 
@@ -113,7 +102,7 @@ https://github.com/rt2zz/redux-persist
 
 https://nextjs.org/docs
 
-https://nextjs.org/learn/basics/create-nextjs-app
+
 
 https://react.i18next.com/
 

@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6070c8e134d4bd68",
+        "id": "47070b173da98169",
         "type": "tabs",
         "children": [
           {
-            "id": "cd28b06205828485",
+            "id": "bb2a67e187289e8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI & Chatgpt/prompts/Fin/Stanley Druckenmiller Company Fundamentals.md",
-                "mode": "source",
+                "file": "Companies/Software Carpentier Journey.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -33,22 +33,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c18a64a686e80f59",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
             "id": "6b26857b850e27fd",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(stanley)",
+                "query": "Closure",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -80,12 +70,23 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "336e343a71fa6379",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 366.5
   },
   "right": {
     "id": "eef3a19b1c6d3fd3",
@@ -101,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI & Chatgpt/prompts/Fin/Stanley Druckenmiller Company Fundamentals.md",
+                "file": "Companies/Software Carpentier Journey.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI & Chatgpt/prompts/Fin/Stanley Druckenmiller Company Fundamentals.md",
+                "file": "Companies/Software Carpentier Journey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI & Chatgpt/prompts/Fin/Stanley Druckenmiller Company Fundamentals.md"
+                "file": "Companies/Software Carpentier Journey.md"
               }
             }
           },
@@ -186,7 +187,7 @@
             }
           },
           {
-            "id": "f54b7c83340b564d",
+            "id": "0f94332c76fff6e0",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -238,70 +239,70 @@
       "workspaces:Manage workspace layouts": false,
       "homepage:Open homepage": false,
       "janitor:Janitor: scan vault": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "bb2a67e187289e8f",
   "lastOpenFiles": [
-    "AI & Chatgpt/prompts/Fin",
-    "AI & Chatgpt/Components of AI.md",
-    "AI & Chatgpt/prompts/Fin/Stanley Druckenmiller Company Fundamentals.md",
-    "AI & Chatgpt/AI Layers.md",
-    "AI & Chatgpt/prompts/Talking better.md",
-    "AI & Chatgpt/prompts/summarize.md",
-    "AI & Chatgpt/prompts/Structural model Prompt.md",
-    "AI & Chatgpt/prompts/simplify.md",
-    "AI & Chatgpt/prompts/rewrite.md",
-    "AI & Chatgpt/prompts/Requirements to code.md",
-    "AI & Chatgpt/prompts/Recommend focus.md",
-    "AI & Chatgpt/prompts/Prompts to sort.md",
-    "AI & Chatgpt/prompts/Progress report.md",
-    "AI & Chatgpt/prompts/New world prompt.md",
-    "AI & Chatgpt/prompts/Learning.md",
-    "AI & Chatgpt/prompts/getTitles.md",
-    "AI & Chatgpt/prompts/getTags.md",
-    "AI & Chatgpt/prompts/getParagraph.md",
-    "AI & Chatgpt/prompts/getOutline.md",
-    "AI & Chatgpt/prompts/getIdeas.md",
-    "AI & Chatgpt/prompts/getEmailPos.md",
-    "AI & Chatgpt/prompts/getEmailNeg.md",
-    "AI & Chatgpt/prompts/Articles.md",
-    "AI & Chatgpt/prompts/Development/Software Tester.md",
-    "AI & Chatgpt/prompts/Development/Python DEV.md",
-    "AI & Chatgpt/prompts/Development/Note Refiner.md",
-    "Architecture/Design Patterns Layers.pdf",
-    "Mind Maps/UML/Lucidchart App Map.svg",
-    "Mind Maps/UML/Class Cases Robust P3.svg",
-    "Mind Maps/UML/Class Cases Robust P1.svg",
-    "Mind Maps/UML/Class Cases Robust P2.svg",
+    "Companies/Employment Best Personal Practices.md",
+    "Companies/UML & User Stories Flow/User Story Flow and Breakdown Example.md",
+    "Companies/UML & User Stories Flow/Process of gathering requirements.md",
+    "Companies/UML & User Stories Flow/Features for a driving school.md",
+    "Companies/UML & User Stories Flow/Epics to user stories with acceptance criteria.md",
+    "Companies/UML & User Stories Flow/Class Diagram Example.md",
+    "Companies/Data Work.md",
+    "Companies/Software Carpentier Journey.md",
+    "Mind Maps/Untitled Diagram.svg",
+    "Mind Maps/Models.md",
     "Mind Maps/12 Factor App Docker.canvas",
-    "Mind Maps/_Web App Architecture.canvas",
+    "Mind Maps/Redux Map.canvas",
+    "Mind Maps/UML/Class Cases Robust P1.svg",
+    "AI & Chatgpt/prompts/Fin/Stanley Druckenmiller Company Fundamentals.md",
+    "Language/Typescript/Custom Typ.md",
+    "_Template/DB Stuff.md",
+    "_Low Priority Refinement/Database/DB Fundamentals/database Explained.md",
+    "Web/Difference between JWT and OAuth.md",
+    "Testing/Testing Private Methods.md",
+    "Testing/Test-driven development.md",
+    "Testing/Selium.md",
+    "Testing/Performance Testing.md",
+    "Testing/Acceptance Testing.md",
     "Mind Maps/UML/UML Monitor Project.png",
     "Mind Maps/UML/Requirement life cycle.svg",
     "Mind Maps/UML/Park Alert Activity Diagram.svg",
+    "Mind Maps/UML/Package Diagram with classes.svg",
     "Mind Maps/UML/Package Diagram with No-classes.svg",
+    "Mind Maps/UML/Lucidchart App Map.svg",
     "Mind Maps/UML/Layer to Package Diagram.svg",
-    "Mind Maps/Redux Map.canvas",
-    "Infographics/Piliars Of OOP.jpeg",
-    "Mind Maps/Drafts/UML/to edit/Package Diagram with No-classes.drawio",
-    "Mind Maps/Drafts/UML/to edit/Package Diagram with classes.drawio",
+    "Mind Maps/UML/Class Cases Robust P3.svg",
+    "Mind Maps/UML",
+    "Language Overlap/Tools/Vscode things to add.md",
+    "Language Overlap/Tools/Testing Tools.md",
+    "Language Overlap/Tools/Syncthing.md",
+    "Language Overlap/Tools/Inteli J.md",
+    "Language Overlap/Tools",
+    "Databases/data visualization normalization or denormalization.md",
+    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Processes.md",
+    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Port binding.md",
+    "Architecture/Methodology/Twelve Factor App Official Description",
+    "Architecture/Methodology/Docker Twelve Factors App",
+    "Architecture/Methodology/Admin functionality God Mode",
+    "Architecture/Methodology",
+    "Architecture/Design Patterns Layers.pdf",
+    "AI & Chatgpt/prompts/Fin",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
-    "Mind Maps/Docker InDeph.canvas",
     "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
     "Mind Maps/Drafts/Gateway.canvas",
-    "Architecture/Design Patterns.pdf",
-    "API",
-    "Databases",
-    "Security",
-    "_Pdf/Joshua_Carpentier_Resume.pdf",
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",
     "Mind Maps/Drafts/File system.canvas",
-    "Mind Maps/Drafts/Url.canvas"
+    "Mind Maps/Drafts/Url.canvas",
+    "Mind Maps/_Web App Architecture.canvas",
+    "Mind Maps/Docker InDeph.canvas"
   ]
 }

@@ -18,14 +18,32 @@
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "8fcb9cf61c92d5f1",
+        "type": "tabs",
+        "children": [
           {
             "id": "9bd9121dedd352b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Library/Repository manager.md",
+                "file": "_Official Documentation/Untitled 2 2 1 1 1 1 2 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7266b0ba0c00acf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Official Documentation/Kali.md",
                 "mode": "source",
                 "source": false
               }
@@ -260,17 +278,17 @@
   },
   "active": "899915f54d24b626",
   "lastOpenFiles": [
-    "Library/Repository manager.md",
+    "_Official Documentation/TypeScript.md",
+    "_Official Documentation/Untitled 2 2 1 1 1 1 2 1.md",
     "_Official Documentation/_Make it remember last Pg on.md",
+    "_Official Documentation/VScode.md",
+    "_Official Documentation/Kali.md",
+    "Library/Repository manager.md",
     "_Cheatsheet/PostgreSQL-Cheat-Sheet.pdf",
     "_Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
     "Home.md",
-    "_Official Documentation/Untitled 2 2 1 1 1 1 2 1.md",
-    "_Official Documentation/Untitled 2 2 1 1 1 1 2.md",
     "_Official Documentation/GitHub Copilot Documentation.md",
     "_Official Documentation/_Untitled.md",
-    "_Official Documentation/Untitled 2 2 1 1 1 1 1.md",
-    "_Official Documentation/Untitled 2 2 1 1 1 1.md",
     "_Official Documentation/GitHub Action.md",
     "_Official Documentation/pgAdmin Docs.md",
     "_Official Documentation/GitHub Flow.md",

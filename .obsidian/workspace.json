@@ -4,54 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "83dc69680e7e212b",
+        "id": "e8f40e1ffe525420",
         "type": "tabs",
         "children": [
           {
-            "id": "aa84fcbe64dcbb6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Official Documentation/Kubernetes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f309dd1b8435393a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Official Documentation/GitHub Flow.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6ed45859f1c5d445",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Official Documentation/Untitled 2 2 1 1 1 1 2 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "30998e47e0b7f0e8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e145372ce8999e56",
+            "id": "899915f54d24b626",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -289,13 +246,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e145372ce8999e56",
+  "active": "899915f54d24b626",
   "lastOpenFiles": [
+    "_Cheatsheet/PostgreSQL-Cheat-Sheet.pdf",
+    "_Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
+    "_Official Documentation/_Make it remember last Pg on.md",
+    "Home.md",
     "_Official Documentation/Untitled 2 2 1 1 1 1 2 1.md",
     "_Official Documentation/Untitled 2 2 1 1 1 1 2.md",
     "_Official Documentation/GitHub Copilot Documentation.md",
     "_Official Documentation/_Untitled.md",
-    "_Official Documentation/_Make it remember last Pg on.md",
     "_Official Documentation/Untitled 2 2 1 1 1 1 1.md",
     "_Official Documentation/Untitled 2 2 1 1 1 1.md",
     "_Official Documentation/GitHub Action.md",
@@ -307,7 +267,6 @@
     "_Official Documentation/Kubernetes.md",
     "Databases/SQL Tool.md",
     "_Official Documentation/Node.js Latest Docs.md",
-    "Home.md",
     "Companies/Employment Best Personal Practices.md",
     "Companies/UML & User Stories Flow/User Story Flow and Breakdown Example.md",
     "Companies/UML & User Stories Flow/Process of gathering requirements.md",
@@ -317,7 +276,6 @@
     "Companies/Data Work.md",
     "Companies/Software Carpentier Journey.md",
     "Mind Maps/Untitled Diagram.svg",
-    "Mind Maps/Models.md",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/Redux Map.canvas",
     "Mind Maps/UML/Class Cases Robust P1.svg",
@@ -338,7 +296,6 @@
     "Architecture/Design Patterns Layers.pdf",
     "AI & Chatgpt/prompts/Fin",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
-    "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Testing.canvas",

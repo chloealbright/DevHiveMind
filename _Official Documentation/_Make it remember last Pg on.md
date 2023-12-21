@@ -17,13 +17,15 @@ https://www.kali.org/docs/
 
 https://www.kali.org/tools/all-tools/
 
-
+https://code.visualstudio.com/docs
 
 https://learning.postman.com/docs/introduction/overview/
 
 https://web.postman.co/bootcamp
 
-https://code.visualstudio.com/
+
+
+
 
 
 https://www.typescriptlang.org/docs/handbook/2/basic-types.html
@@ -32,7 +34,7 @@ https://www.typescriptlang.org/docs/handbook/2/basic-types.html
 
 
 
-https://code.visualstudio.com/docs/typescript/typescript-debugging
+
 
 
 https://www.digitalocean.com/community/tutorials/how-to-debug-react-components-using-react-developer-tools

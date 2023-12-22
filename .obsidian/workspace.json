@@ -4,66 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c5ce76af5dda04f7",
+        "id": "b52f0764efc550b9",
         "type": "tabs",
         "children": [
           {
-            "id": "09b4f41d619e41ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Abstract Data Types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d62529bfc4bbdd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/AlgoFlow.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eec4593682685e9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Coding Interview Tips.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "f37a7c1fb3d94013",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2ed43bfa0e681735",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Algo pathway.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3126339bc3edb8b5",
+            "id": "df8d91992bb794fd",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -292,8 +237,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3126339bc3edb8b5",
+  "active": "df8d91992bb794fd",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Coding Interview Tips.md",
+    "Algorithms & Data Structures/AlgoFlow.md",
+    "Algorithms & Data Structures/Abstract Data Types.md",
     "Algorithms & Data Structures/Attributes of Data.md",
     "Algorithms & Data Structures/Algo pathway.md",
     "Algorithms & Data Structures/Attributes.gif.md",
@@ -324,9 +272,6 @@
     "Infographics/API/API Protocol.jpeg",
     "Infographics/API/Api Gateway.gif",
     "Architecture/Design Patterns.md",
-    "Companies/Money Talk/Bonuses.md",
-    "_Low Priority Refinement/Companies/People/Reach out to Mentor.md",
-    "Companies/Interview/Recruiter First Conversation.md",
     "Algorithms & Data Structures/Patterns",
     "Infographics/Redis persist data.gif",
     "Mind Maps/Untitled Diagram.svg",

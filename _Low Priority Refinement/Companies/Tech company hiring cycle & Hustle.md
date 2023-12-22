@@ -7,14 +7,11 @@ Started:
 EditDate: 
 Relates:
 ---
-![[Job Cycle.png]]
-
 ![[Tech Layoffs.png]]
 
-Ask if roll is direct hire or contract  
-No performance reviews for contractors  
+![[Job Cycle.png]]
 
-Define expectations  
+
 
 Ask about current performance and are you on track towards your annual performance review  
 
@@ -22,7 +19,7 @@ reach to people from different people in different industry
 
 strategies how you would keep connected with people in your network  
 
-look into a recommendation from from Tracflo  
+
 
 profile stats on StackOverflow are good to use for job application  
 
@@ -30,7 +27,7 @@ Applying at smaller companies like startups, with revenues between $5 million to
 
 Always apply you don't have to respond as long as you have the email she could respond in the future just to make sure you have connections to other companies to apply for even while you're working  
 
-Netflix won't be given algorithms questions for front end  
+
 
 Exit interviews can be bait for ammo for the company if they want to come after you for something  
 
@@ -254,3 +251,6 @@ Never tell a company that you got accepted or declined from a other company duri
 Never lie about other numbers they might ask for proof  
 
 When you can't get to the number dial back to a slightly lower number
+
+
+

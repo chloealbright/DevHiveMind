@@ -4,59 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "c5ce76af5dda04f7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f95845a418639564",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Low Priority Refinement/Companies/Development Perpetual Practices.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1d1470dfb2ec166",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Study Session.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d92553f1450f019b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Design Patterns Diagrams.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "673414f6b1947187",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Infographics/API/Rest API Design.jpeg"
-              }
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
         "id": "705569a1ae51d176",
         "type": "tabs",
         "children": [
@@ -73,6 +20,37 @@
             }
           }
         ]
+      },
+      {
+        "id": "d489810ecf82f30e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "875fbbfae2f012b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Low Priority Refinement/Dev Todo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d9df23dd2e8ad0d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Low Priority Refinement/Companies/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infographics/API/Rest API Design.jpeg",
+                "file": "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infographics/API/Rest API Design.jpeg",
+                "file": "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infographics/API/Rest API Design.jpeg"
+                "file": "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md"
               }
             }
           },
@@ -298,27 +276,30 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "673414f6b1947187",
+  "active": "92c9c209099719ce",
   "lastOpenFiles": [
+    "_Low Priority Refinement/Companies/Untitled.md",
+    "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
+    "_Low Priority Refinement/Dev Todo.md",
+    "_Low Priority Refinement/Talking More Articulate Template.md",
+    "Companies/Interview/Maintain Relationship.md",
+    "_Low Priority Refinement/Companies/Development Perpetual Practices.md",
+    "_Low Priority Refinement/Study Session.md",
+    "Language Overlap/Automation.md",
+    "Architecture/Design Patterns Diagrams.md",
+    "Infographics/API/Rest API Design.jpeg",
     "Infographics/API/API Architectural Styles.gif",
     "Infographics/API/GatewayFunction.jpeg",
     "Infographics/API/Api Testing.gif",
     "Infographics/API/API Protocol.jpeg",
     "Infographics/API/Api Gateway.gif",
-    "Architecture/Design Patterns Diagrams.md",
     "Architecture/Design Patterns.md",
-    "Algorithms & Data Structures/Study Session.md",
-    "Language Overlap/Automation.md",
-    "_Low Priority Refinement/Companies/Development Perpetual Practices.md",
-    "Companies/Interview/Maintain Relationship.md",
     "Companies/Money Talk/Negotiation.md",
     "Companies/Money Talk/Bonuses.md",
-    "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
     "_Low Priority Refinement/Companies/People/Reach out to Mentor.md",
     "Companies/Interview/Recruiter First Conversation.md",
     "_Low Priority Refinement/Companies/People/People to know & TD Questions.md",
     "AI & Chatgpt/prompts/Sounding more senior or experienced.md",
-    "_Low Priority Refinement/Talking More Articulate Template.md",
     "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md",
     "Testing/Software Development Engineer in Test.md",
     "_Low Priority Refinement/My Obsidian Setup — My Notes and My Theme settings  by Nuno Campos  Obsidian Observer  Apr, 2023  Medium.md",
@@ -329,7 +310,6 @@
     "Algorithms & Data Structures/Algo pathway.md",
     "Algorithms & Data Structures/Attributes of Data.md",
     "Algorithms & Data Structures/Algorithms/Algorithm Most Common Built in Functions.md",
-    "Algorithms & Data Structures/Algorithms/Algorithm Pattern vs Simple Solution.md",
     "Algorithms & Data Structures/Patterns",
     "Infographics/Redis persist data.gif",
     "Mind Maps/Untitled Diagram.svg",
@@ -337,8 +317,6 @@
     "Mind Maps/Redux Map.canvas",
     "Mind Maps/UML/Class Cases Robust P1.svg",
     "Mind Maps/UML/UML Monitor Project.png",
-    "Mind Maps/UML/Requirement life cycle.svg",
-    "Mind Maps/UML/Park Alert Activity Diagram.svg",
     "Mind Maps/UML",
     "Language Overlap/Tools",
     "Architecture/Methodology/Twelve Factor App Official Description",

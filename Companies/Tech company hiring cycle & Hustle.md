@@ -10,10 +10,7 @@ Relates:
 ![[Tech Layoffs.png]]
 
 ![[Job Cycle.png]]
-
-
 ## **Job Search and Interview Strategies:**
-
 1. **Understanding Job Role:**
    - When applying, inquire if the role is direct hire or contract, ensuring clarity about the nature of the position.
    - Note that contractors might not undergo performance reviews, so define expectations for feedback and growth.
@@ -29,7 +26,6 @@ Relates:
 
 
 ## **Startup Considerations:**
-
 1. **Research and Questions:**
    - Before joining a startup, research thoroughly and ask for specific numbers.
    - Speak with former employees to gain insights.
@@ -52,7 +48,6 @@ Relates:
    - Provide a timeline for other offers and interviews to manage expectations.
 
 ## **LinkedIn and Networking:**
-
 1. **LinkedIn Interaction:**
    - Connect with recruiters on LinkedIn, and inquire about conversion rates for contract roles.
    - Approach recruiters directly and consider going for direct hires instead of third-party firms.
@@ -74,7 +69,20 @@ Relates:
    - Use phrases like "we are close" to indicate progress in negotiations without being overly pushy.
 
 
+## Contract Work
+1. **Contract Roles and Conversion Rate:**
+   - Inquire about the conversion rate for contract roles to gain insights into potential long-term opportunities.
+   - Always seek clarity on the percentage of contractors who transition to full-time positions within the company.
 
+2. **Interaction with Recruiters:**
+   - Request the recruiter's name and contact information to establish a direct line of communication.
+   - Prepare for interviews by obtaining the hiring manager's email and engaging in direct discussions with them.
 
+3. **Navigating Recruiter Relationships:**
+   - Apply directly to the company after obtaining necessary information from the recruiter.
+   - Be mindful of the recruiter's role in the hiring process, as they receive a cut of your salary, and decide on further interactions based on your career interests.
 
+4. **Preference for Direct Hire:**
+   - Prioritize applying directly to the hiring company rather than through a third-party recruiter.
+   - Consider going for direct hires to streamline communication and potentially negotiate terms more effectively.
 

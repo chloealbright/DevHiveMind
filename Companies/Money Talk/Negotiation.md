@@ -91,6 +91,26 @@ In Massachusetts, non-compete agreements are enforceable under certain condition
 Nonetheless, the primary intent behind non-compete agreements is to restrict employees from engaging in activities that would directly compete with their current employer's business, particularly when moving to a competitor. These agreements are not typically intended for broader restrictions unrelated to competition.
 
 
+# Performance 
+
+**Navigating Performance Reviews and Salary Negotiation:**
+
+1. **Performance Review Cycle:**
+   - During interviews, inquire about the company's performance review cycle to understand the feedback and evaluation process.
+
+2. **Role Changes and Performance Reviews:**
+   - Be cautious of role changes, ensuring that performance reviews align with your familiarity and experience in the new role.
+
+3. **Salary Increment Strategies:**
+   - If a 3% raise isn't achievable after a year, aim for a 5% or 4% raise after two years, considering your contributions and market standards.
+
+4. **Potential Red Flags for Job Security:**
+   - Be aware that being put on a performance improvement plan might be a precursor to termination, especially in unfamiliar roles.
+
+5. **Negotiation Approach:**
+   - During salary negotiations, propose adjustments based on performance. For instance, suggest a lower starting salary with a commitment to revisit and potentially increase it after a successful 90-day performance period.
+
+
 
 
 4. **Vague Discussions on Other Opportunities:**

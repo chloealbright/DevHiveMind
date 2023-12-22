@@ -10,6 +10,7 @@
           {
             "id": "705569a1ae51d176",
             "type": "tabs",
+            "dimension": 67.4074074074074,
             "children": [
               {
                 "id": "92c9c209099719ce",
@@ -34,12 +35,49 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "8cfd1e4120acfa74",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Companies/Employment Best Personal Practices.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "8ed5dcf23c3bca2e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Companies/Contribution Metrics.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "4fdd6a07ed3a99a6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Companies/Culture/Navigating Work Dynamics.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
             ]
           },
           {
             "id": "3a90b8e025a8a50e",
             "type": "tabs",
+            "dimension": 32.592592592592595,
             "children": [
               {
                 "id": "de7e177bd89706d2",
@@ -327,18 +365,18 @@
   },
   "active": "92c9c209099719ce",
   "lastOpenFiles": [
-    "Companies/Company Stability.md",
-    "_Low Priority Refinement/Companies/Untitled.md",
-    "_Low Priority Refinement/Dev Todo.md",
-    "Companies/Tech company hiring cycle & Hustle.md",
     "Companies/Employment Best Personal Practices.md",
-    "Companies/Data Work.md",
     "Companies/Contribution Metrics.md",
-    "Companies/12 Key Metrics for Measuring Service Performance.md",
+    "_Low Priority Refinement/Companies/Untitled.md",
+    "Companies/Culture/Navigating Work Dynamics.md",
     "Companies/Culture/Types of Programmers To Avoid.md",
-    "Companies/Culture/Crunch.md",
-    "Companies/General Dev Issues.md",
+    "Companies/Tech company hiring cycle & Hustle.md",
     "Companies/Money Talk/Negotiation.md",
+    "Companies/Company Stability.md",
+    "_Low Priority Refinement/Dev Todo.md",
+    "Companies/Data Work.md",
+    "Companies/12 Key Metrics for Measuring Service Performance.md",
+    "Companies/General Dev Issues.md",
     "_Low Priority Refinement/Talking More Articulate Template.md",
     "Companies/Interview/Maintain Relationship.md",
     "_Low Priority Refinement/Companies/Development Perpetual Practices.md",

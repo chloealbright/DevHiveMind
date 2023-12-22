@@ -45,6 +45,7 @@ In addition to cash bonuses, some companies offer non-monetary perks that can ad
 - **Shuttle Service:** This service can save money on transportation costs and make commuting more convenient, particularly in areas with limited public transportation options.
 
 - **Free Education Resources & Certifications:** Access to educational resources and certifications can enhance your skills and market value, which is a valuable long-term benefit.
+- **IRA Courses:** When approaching HR about IRA courses, express your interest in professional development. Inquire about available courses, emphasizing your commitment to continuous learning and how it aligns with your career goals. This demonstrates proactive engagement in your professional growth.
 - Learning and development(L&D) budget
 
 ## Best Practices

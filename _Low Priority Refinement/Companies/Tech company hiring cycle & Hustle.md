@@ -12,6 +12,7 @@ Relates:
 ![[Tech Layoffs.png]]
 
 Ask if roll is direct hire or contract  
+No performance reviews for contractors  
 
 Define expectations  
 

@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d1d1470dfb2ec166",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Low Priority Refinement/Study Session.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "705569a1ae51d176",
@@ -31,7 +44,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Companies/intentions.md",
+                "file": "Companies/Maintain Relationship.md",
                 "mode": "source",
                 "source": false
               }
@@ -131,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Companies/intentions.md",
+                "file": "Companies/Maintain Relationship.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Companies/intentions.md",
+                "file": "Companies/Maintain Relationship.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Companies/intentions.md"
+                "file": "Companies/Maintain Relationship.md"
               }
             }
           },
@@ -275,13 +288,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ecd6262f59819853",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
-    "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
-    "_Low Priority Refinement/Companies/Development Perpetual Practices.md",
-    "_Low Priority Refinement/Companies/intentions.md",
-    "_Low Priority Refinement/Companies/People/Reach out to Mentor.md",
+    "_Low Priority Refinement/Study Session.md",
     "Companies/Money Talk/Negotiation.md",
+    "Companies/Money Talk/Bonuses.md",
+    "Companies/Maintain Relationship.md",
+    "_Low Priority Refinement/Companies/Development Perpetual Practices.md",
+    "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
+    "_Low Priority Refinement/Companies/People/Reach out to Mentor.md",
     "Companies/Interview/Recruiter First Conversation.md",
     "_Low Priority Refinement/Companies/People/People to know & TD Questions.md",
     "AI & Chatgpt/prompts/Sounding more senior or experienced.md",
@@ -301,8 +316,6 @@
     "Algorithms & Data Structures/Algorithms/Dynamic programming Patterns.md",
     "Algorithms & Data Structures/Algorithms/Dynamic Programming.md",
     "Algorithms & Data Structures/Patterns/Key Base Attributes of  Grokking Algorithm patterns.md",
-    "Algorithms & Data Structures/Algorithms/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
-    "Algorithms & Data Structures/Algorithms/Linear search vs Binary search.md",
     "Algorithms & Data Structures/Patterns",
     "Infographics/Redis persist data.gif",
     "Mind Maps/Untitled Diagram.svg",

@@ -1,65 +1,68 @@
-/* 
+<div style="background-color: orange; padding: 10px; border: 1px solid #ccc; color: black;"> 
 
-TRUE <<mark style="background: #FFF3A3A6;">READ</mark>> FALSE 
-
+<center style="font-weight: bold; ">
+TRUE &lt;<mark style="background: #FFF3A3A6;">READ</mark>&gt; FALSE
+</center>
+ 
+<p>
 Pure Boolean check with UPDATES or no UPDATES needed in terms of what the question is asking but UPDATES can be included depending on the approach you come up with or if the question requires it. Also READ is doing some type of access so be aware of that when creating conditional logic because you optimize your READ  
+</p> 
 
-<mark style="background: #BBFABBA6;">CREATE < </mark><mark style="background: #ADCCFFA6;">UPDATE</mark><mark style="background: #FF5582A6;"> > DELETE </mark>
 
+<center style="font-weight: bold; ">
+<mark style="background: #BBFABBA6;">CREATE &lt;</mark><mark style="background: #ABF7F7A6;">UPDATE</mark><mark style="background: #FF5582A6;">&gt; DELETE</mark>
+</center>
+ 
+<p>
 Typically involves READ/UPDATE functionality  which can be also considered as CREATE/DELETE when it comes to UPDATE process and depending on the question and your approach can include CREATE and/or DELETE  
+</p> 
 
-<mark style="background: #FFF3A3A6;">A ***heuristic*** technique, or a heuristic, is any approach to problem solving or self-discovery that employs a practical method that is not guaranteed to be optimal, perfect, or rational, but is nevertheless sufficient for reaching an immediate, short-term goal or approximation. </mark>
-
-***<mark style="background: #BBFABBA6;">Prioritize VISUAL THINKING OVERALL and Talk through you thought have conversation while taking notes </mark>***
-
-	Talk about code Modularity instead of implementing focus on just creating a working solution and you can refactor or talk about refactoring after     
-
-	When thinking about Modularity think about which section of the code can be reused for other things  
-
-## Gen Options available  
-
--   Don't interrupting your interviewer when they are talking. Usually, if they speak, they are trying to give you hints or steer you in the right direction. 
-    
-
--   Be thoughtful with your questions, don't ask too many especially since you have limited time. 
-    
-
--   Ask the interviewer to restate the question or repeat the question back at the interviewer this gives you time to think  
-    
--   If interviewer tells you to move on you can tell them wait I want to spend a little more time to think about things especially if you know or on something  
-    
-
--   You can ask to look at documentation like regex or general documentation for syntax since some methods take more parameters than you think 
-    
-
--   Never make assumptions about the input. Ask for help when unsure but try to communicate the steps in your process or the specific issue 
-    
-
--  *** If an interview will give you a harder question after you answer a question that's good they trying to see how high level are you ***
+</div>
 
 
-| 
-***V  Identify CRUD in the problem getting a better understanding of what is being asked before thinking about I/O 5 min or less: ***
+<div style="background-color: grey; padding: 10px; border: 1px solid #ccc; color: black;"> 
 
-***Similar step to system design but after breaking down problem establish design scope ***
+<mark style="background: #FFB8EBA6;">Prioritize VISUAL THINKING OVERALL and Talk through you thought have conversation while taking notes </mark>
+ 
+<p>
+Talk about code Modularity instead of implementing focus on just creating a working solution and you can refactor or talk about refactoring after     
+</p> 
+
+<p>
+When thinking about Modularity think about which section of the code can be reused for other things  
+</p> 
+
+
+</div>
+
+
+
+
+<mark style="background: #BBFABBA6;">
+⬇  Identify CRUD in the problem getting a better understanding of what is being asked before thinking about I/O 5 min or less: </mark>
+
+***Similar step to system design but after breaking down problem establish design scope***
 
 ## Focus on these interrogative pronouns  
 
 <mark style="background: #FFF3A3A6;">### Try and compress </mark>
 
-What(broadest question of them all) refer to things - identify the different scenarios/edge-Cases and dependencies   
+##### What(broadest question of them all) refer to things - identify the different scenarios/edge-Cases and dependencies   
 
-	Use<mark style="background: #FFF3A3A6;"> what if questions </mark>for edge cases and using the edge case to figure out what the question is asking you can reparse it saying<mark style="background: #FFF3A3A6;"> can I assume this or that … </mark>
+Use<mark style="background: #FFF3A3A6;"> what if questions </mark>for edge cases and using the edge case to figure out what the question is asking you can reparse it saying<mark style="background: #FFF3A3A6;"> can I assume this or that … </mark>
 
 The focus of these question should be on the edge case  
 
-Why - identify the root overall or at specific scopes 
 
+##### Why - identify the root overall or at specific scopes 
 Can be asked in different ways <mark style="background: #FFF3A3A6;">"Is there any reason this wouldn't have... "  </mark>
 
-How - identify the steps  
 
-	This is used after you collect information as define steps you will order them appropriately 
+
+##### How - identify the steps  
+This is used after you collect information as define steps you will order them appropriately 
+
+
 
 Start broad with ***WHAT*** wide open ended questions then when you trying to determine something specific start closing your scope and ask more specific close ended ***WHAT*** questions 
 
@@ -76,8 +79,7 @@ Start broad with ***WHAT*** wide open ended questions then when you trying to 
 Identify base control flow in question 
 
 | 
-
-<mark style="background: #BBFABBA6;">V Identify I/O Type examining common properties and variations focusing more on Input 5 min or less </mark>
+<mark style="background: #BBFABBA6;">***V Identify I/O Type examining common properties and variations focusing more on Input 5 min or less*** </mark>
 
 
 ## Properties of problem param: 
@@ -113,8 +115,7 @@ if array of strings think built in string/array functions else array of characte
 Advanced Objects/Array Data Structures like Linked List, Tree, Graph, Heap, Sets, etc …. 
 
 | 
-
-<mark style="background: #BBFABBA6;">V IDENTIFY EDGE and TEST CASES with Control Flow(Break, Continue, SwitchCase) in mind in 10 min or less: </mark>
+<mark style="background: #BBFABBA6;">***V IDENTIFY EDGE and TEST CASES with Control Flow(Break, Continue, SwitchCase) in mind in 10 min or less: ***</mark>
 
 Test cases In-compass unit test based on a function and what its overall defined logic  is returning 
 
@@ -165,29 +166,27 @@ Alt EdgeCase and similarities: 
 
 --------------------------------------------- 
 
-new customer -> 15% off 
+- new customer -> 15% off 
+- repeat customer -> 10% off 
+- coupon customer -> 30% off 
 
-repeat customer -> 10% off 
+***num of test case = num of rules = 2^num of conditions = 2^3 = 8 rules 
 
-coupon customer -> 30% off 
-
-num of test case = num of rules = 2^num of conditions = 2^3 = 8 rules 
-
-***n = not likely p = probably ***
+*N = not likely*
+**P = probably**
 
 ***Identify commonalities between test case ***
 
 ***Follow Discrete math De-Morgan's Law ***
 
-new cus       <mark style="background: #BBFABBA6;">T T T T F F F F </mark>
-
-repeat cus   <mark style="background: #BBFABBA6;">T T F F T T F F </mark>
-
-coupon cus <mark style="background: #BBFABBA6;">T F T F T F T F </mark>
-
-<mark style="background: #ABF7F7A6;">result           N N P P P N N </mark>
 
 
+|             Truth  Table                                                                                |            
+|-------------|---------|---------|---------|---------|------------|------------|------------|------------|
+| new cus     |   T     |   T     |   T     |   T     |    F       |    F       |    F       |    F       |     
+| repeat cus  |   T     |   T     |   F     |   F     |    T       |    T       |    F       |    F       |    
+| coupon cus  |   T     |   F     |   T     |   F     |    T       |    F       |    T       |    F       |         
+| result      |   N     |   N     |   P     |   P     |    P       |    P       |    N       |    N       |    
 
 
 
@@ -217,7 +216,7 @@ You don't need to code everything if you can mention there might be a cleaner or
 
 
 
-Talk about the overall [runtime] and [[Spacetime Complexity | Spacetime]] complexity of your code at different steps or at end [[Interview Template with TimeTable 1 1]]
+Talk about the overall [runtime] and [[Spacetime Complexity | Spacetime]] complexity of your code at different steps or at end 
 
 O(1) + O(n) = O(n) worst runtime takes president when adding up runtime 
 
@@ -270,3 +269,4 @@ If your interviewer is happy with the solution, the interview usually ends here.
 The answer is usually a divide-and-conquer approach — perform distributed processing of the data and only read certain chunks of the input from disk into memory, write the output back to disk and combine them later.  
 
 Thank the interviewer.  
+

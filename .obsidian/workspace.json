@@ -4,124 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "131dc8195e9c1661",
-        "type": "split",
-        "children": [
-          {
-            "id": "705569a1ae51d176",
-            "type": "tabs",
-            "dimension": 67.4074074074074,
-            "children": [
-              {
-                "id": "01c662f9cda03ce9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Companies/Money Talk/Negotiation.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "8cfd1e4120acfa74",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Companies/Employment Best Personal Practices.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "8ed5dcf23c3bca2e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Companies/Contribution Metrics.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "4fdd6a07ed3a99a6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Companies/Culture/Navigating Work Dynamics.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "3a90b8e025a8a50e",
-            "type": "tabs",
-            "dimension": 32.592592592592595,
-            "children": [
-              {
-                "id": "de7e177bd89706d2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Companies/Company Stability.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
-      },
-      {
-        "id": "d489810ecf82f30e",
+        "id": "8a285b1a1dfba757",
         "type": "tabs",
         "children": [
           {
-            "id": "d9df23dd2e8ad0d0",
+            "id": "01bd27a9fd1f9bd9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Low Priority Refinement/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ab1592677854c1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Employment Best Personal Practices.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "92c9c209099719ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Tech company hiring cycle & Hustle.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -206,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_Low Priority Refinement/Untitled.md"
-              }
+              "state": {}
             }
           },
           {
@@ -350,17 +237,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "01bd27a9fd1f9bd9",
   "lastOpenFiles": [
-    "_Low Priority Refinement/Dev Todo.md",
     "Companies/Employment Best Personal Practices.md",
     "Companies/Tech company hiring cycle & Hustle.md",
-    "_Low Priority Refinement/Untitled.md",
-    "Companies/Money Talk/Negotiation.md",
     "Companies/Contribution Metrics.md",
     "Companies/Culture/Navigating Work Dynamics.md",
+    "Companies/Interview/Company Stability.md",
+    "Companies/Money Talk/Negotiation.md",
+    "_Low Priority Refinement/Untitled.md",
+    "_Low Priority Refinement/Dev Todo.md",
     "Companies/Culture/Types of Programmers To Avoid.md",
-    "Companies/Company Stability.md",
     "Companies/Data Work.md",
     "Companies/12 Key Metrics for Measuring Service Performance.md",
     "Companies/General Dev Issues.md",

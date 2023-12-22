@@ -5,7 +5,7 @@ author:
 Status: Capture
 Started: 
 EditDate: 
-Relates:
+Relates: "[[Negotiation]]"
 ---
 **Considering Company Stability and Compensation Bands:**
 

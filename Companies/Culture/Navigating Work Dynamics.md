@@ -6,7 +6,7 @@ author:
 Status: 
 Started: 
 EditDate: 
-Relates:
+Relates: "[[Negotiation]]"
 ---
 1. **Understanding Toil:**
    - Toil encompasses manual, repetitive, and automatable tasks tied to running a production service.

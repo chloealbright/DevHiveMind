@@ -64,3 +64,6 @@ It's essential to consider the broader scope of a problem and its impact on the 
 - Precision is useful for specific elements within a scope.
 - A more generalized approach allows you to experience the bigger picture.
 - Alternating between precision and a broader approach is key; no single tool works for every situation.
+
+
+

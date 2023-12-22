@@ -4,17 +4,72 @@
     "type": "split",
     "children": [
       {
-        "id": "04a7ec28a4175d50",
+        "id": "261c37bb649adf71",
         "type": "tabs",
         "children": [
           {
-            "id": "87102a6eb88805ac",
+            "id": "35e69f4c42dc2e78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "Algorithms & Data Structures/AlgoFlow.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f8bf3fe90acd7947",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Coding Interview Tips.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c55a38091fa4f26e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Abstract Data Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "057a7721e506871b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "599849ecd5dcc177",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Algo pathway.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "88e9c1122a8f7350",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Attributes of Data.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -33,12 +88,22 @@
         "type": "tabs",
         "children": [
           {
+            "id": "c18a64a686e80f59",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
             "id": "6b26857b850e27fd",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "closure",
+                "query": "serial",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -70,23 +135,12 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "336e343a71fa6379",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 376.5
+    "width": 319.5
   },
   "right": {
     "id": "eef3a19b1c6d3fd3",
@@ -102,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Algorithms & Data Structures/Abstract Data Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Algorithms & Data Structures/Abstract Data Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Algorithms & Data Structures/Abstract Data Types.md"
               }
             }
           },
@@ -184,16 +238,6 @@
             "state": {
               "type": "todo",
               "state": {}
-            }
-          },
-          {
-            "id": "0f94332c76fff6e0",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
             }
           }
         ],
@@ -237,45 +281,44 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "homepage:Open homepage": false,
       "janitor:Janitor: scan vault": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "336e343a71fa6379",
+  "active": "c55a38091fa4f26e",
   "lastOpenFiles": [
-    "Infographics/Redis persist data.gif",
-    "Algorithms & Data Structures/Spacetime Complexity.md",
-    "Home.md",
-    "_Cheatsheet/PostgreSQL-Cheat-Sheet.pdf",
-    "_Official Documentation/Kali.md",
-    "_Official Documentation/Postman.md",
-    "_Official Documentation/_Make it remember last Pg on.md",
-    "_Official Documentation/TypeScript.md",
-    "_Official Documentation/VScode.md",
-    "Library/Repository manager.md",
-    "_Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
-    "_Official Documentation/GitHub Copilot Documentation.md",
-    "_Official Documentation/_Untitled.md",
-    "_Official Documentation/GitHub Action.md",
-    "_Official Documentation/pgAdmin Docs.md",
-    "_Official Documentation/GitHub Flow.md",
-    "_Official Documentation/GitHub.md",
-    "_Official Documentation/Git.md",
-    "_Official Documentation/Docker.md",
+    "Algorithms & Data Structures/Algo pathway.md",
+    "Algorithms & Data Structures/Abstract Data Types.md",
+    "Algorithms & Data Structures/Algo Line of thought.md",
+    "Algorithms & Data Structures/AlgoFlow.md",
+    "Algorithms & Data Structures/All Sorts of Sorts.md",
+    "Algorithms & Data Structures/Attributes of Data.md",
+    "Algorithms & Data Structures/Coding Interview Tips.md",
+    "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "Algorithms & Data Structures/Discrete math.md",
+    "Algorithms & Data Structures/DeMorgans law.md",
+    "Algorithms & Data Structures/Common Imperative Algorithms.md",
+    "Algorithms & Data Structures/Common Declarative Algorithms.md",
+    "_Low Priority Refinement/Automation.md",
+    "_Low Priority Refinement/L Automation.md",
+    "Language Overlap/Byte stream.md",
+    "Language Overlap/Thread pools.md",
+    "Language/Typescript/Use of closure & composition.md",
     "_Official Documentation/Kubernetes.md",
+    "_Official Documentation/GitHub Flow.md",
     "Databases/SQL Tool.md",
-    "_Official Documentation/Node.js Latest Docs.md",
-    "Companies/Employment Best Personal Practices.md",
-    "Companies/UML & User Stories Flow/User Story Flow and Breakdown Example.md",
-    "Companies/UML & User Stories Flow/Process of gathering requirements.md",
-    "Companies/UML & User Stories Flow/Features for a driving school.md",
-    "Companies/UML & User Stories Flow/Epics to user stories with acceptance criteria.md",
-    "Companies/UML & User Stories Flow/Class Diagram Example.md",
+    "_Official Documentation/_Make it remember last Pg on.md",
+    "_Official Documentation/VScode.md",
+    "_Official Documentation/TypeScript.md",
+    "_Official Documentation/Postman.md",
+    "_Official Documentation/Kali.md",
+    "Infographics/Redis persist data.gif",
+    "_Official Documentation/Untitled 2 2 1 1 1 1 2 1.md",
     "Mind Maps/Untitled Diagram.svg",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/Redux Map.canvas",
@@ -287,7 +330,6 @@
     "Mind Maps/UML/Package Diagram with No-classes.svg",
     "Mind Maps/UML/Lucidchart App Map.svg",
     "Mind Maps/UML/Layer to Package Diagram.svg",
-    "Mind Maps/UML/Class Cases Robust P3.svg",
     "Mind Maps/UML",
     "Language Overlap/Tools",
     "Architecture/Methodology/Twelve Factor App Official Description",
@@ -296,6 +338,8 @@
     "Architecture/Methodology",
     "Architecture/Design Patterns Layers.pdf",
     "AI & Chatgpt/prompts/Fin",
+    "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
+    "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Testing.canvas",

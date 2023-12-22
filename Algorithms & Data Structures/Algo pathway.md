@@ -16,7 +16,17 @@ Relates: "[[Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary 
 
 When approaching a problem, it's important to begin by identifying the core issue at hand. Rather than focusing too much on the desired output, consider the attributes and parameters involved, especially when multiple parameters are at play prioritize the parameter that is apart of the main functionality or main problem.
 
-### Handling Numeric Values
+### Keeping Scope in Mind
+
+It's essential to consider the broader scope of a problem and its impact on the larger context. While precision is valuable for specific tasks, a more generalized approach can provide a broader perspective.
+
+- Precision is useful for specific elements within a scope.
+- A more generalized approach allows you to experience the bigger picture.
+- Alternating between precision and a broader approach is key; no single tool works for every situation.
+
+
+
+## Handling Numeric Values
 ![[numbers.png]]
 **Numeric values can also be represented with ASCII values
 - For an array of numbers or numbers, consider attributes like:
@@ -25,7 +35,7 @@ When approaching a problem, it's important to begin by identifying the core issu
   - Min/Max values, zero, and decimal aspects.
   - Evaluate range, order, and decimal floor/ceiling.
 
-### Handling String Values
+## Handling String Values
 - For strings or arrays of strings, think about the following attributes:
 	- Check for emptiness, spaces, and length (odd/even).
 	- Examine substrings, Unicode values, and special characters.
@@ -58,11 +68,20 @@ When approaching a problem, it's important to begin by identifying the core issu
 - Reducing iteration by breaking down large ranges
 - Decrementing arrays from the end index to the start (array.Length to 0)
 
+## Fixed Length Data
+
+Dealing with data of fixed length, whether it's a matrix or an array, may require approaches like Merge Interval. This can apply to numbers or when handling ASCII values for letters.
+
+- Focus your conditional logic on the fixed length, which is critical for solving these problems.
+
+- Consider how these boundary cases may overlap or relate to each other.
 
 
+## Data Structures Brain Storming
+- When examining an algorithm, identify the data structures, types, and constructs that can be used.
 
 
-
+# Pre & Post Processing
 ## Sorted Data
 
 When data is sorted, focus on binary search, particularly by targeting the middle element.
@@ -75,21 +94,26 @@ In cases of partial sorting, especially with elements within a specified range, 
 
 For unsorted data, the choice of algorithm depends on the problem. If preserving order is not a priority, sorting followed by binary search can be effective. Otherwise, consider patterns that might include a linear search.
 
-When working with nested objects like JSON, you often encounter a structure that resembles a tree, involving repetitive tasks such as traversing file directories. In such cases, using recursion can be a powerful technique to efficiently navigate and process these nested structures. Additionally, when you delve deeper into handling repetitive subproblems within these nested structures, you may consider employing memoization techniques to optimize performance and avoid redundant calculations.
 
-## Fixed Length Data
+## Sort Algorithm Boundary Cases
+- Potential scenarios where sorting algorithms may fail:
+  - Empty input
+  - Input with only one element
+  - Very long input
+  - Garbage inside the collection to be sorted
+  - Null input
+  - Duplicate elements
+  - Collection with all elements equal
+  - Odd/even length input
 
-Dealing with data of fixed length, whether it's a matrix or an array, may require approaches like Merge Interval. This can apply to numbers or when handling ASCII values for letters.
 
-- Focus your conditional logic on the fixed length, which is critical for solving these problems.
+## Nested Objects and Recursion
+When working with nested objects like JSON, you often encounter a structure that resembles a tree, involving repetitive tasks such as traversing file directories. In such cases, using recursion can be a powerful technique to efficiently navigate and process these nested structures. Additionally, when you delve deeper into handling repetitive sub problems within these nested structures, you may consider employing memoization techniques to optimize performance and avoid redundant calculations.
 
-## Keeping Scope in Mind
 
-It's essential to consider the broader scope of a problem and its impact on the larger context. While precision is valuable for specific tasks, a more generalized approach can provide a broader perspective.
 
-- Precision is useful for specific elements within a scope.
-- A more generalized approach allows you to experience the bigger picture.
-- Alternating between precision and a broader approach is key; no single tool works for every situation.
+## Apply Steps to Other Data Structures
 
+- Extend these steps and considerations to other data structures, utilizing built-in functionalities where applicable.
 
 

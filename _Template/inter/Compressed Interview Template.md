@@ -20,31 +20,28 @@ Typically involves READ/UPDATE functionality  which can be also considered as C
 </div>
 
 
-<div style="background-color: gre; padding: 10px; border: 1px solid #ccc; color: black;"> 
+<div style="background-color: grey; padding: 10px; border: 1px solid #ccc; color: black;"> 
 
-<center style="font-weight: bold; ">
-TRUE &lt;<mark style="background: #FFF3A3A6;">READ</mark>&gt; FALSE
-</center>
+<mark style="background: #FFB8EBA6;">Prioritize VISUAL THINKING OVERALL and Talk through you thought have conversation while taking notes </mark>
  
 <p>
-Pure Boolean check with UPDATES or no UPDATES needed in terms of what the question is asking but UPDATES can be included depending on the approach you come up with or if the question requires it. Also READ is doing some type of access so be aware of that when creating conditional logic because you optimize your READ  
+Talk about code Modularity instead of implementing focus on just creating a working solution and you can refactor or talk about refactoring after     
+</p> 
+
+<p>
+When thinking about Modularity think about which section of the code can be reused for other things  
 </p> 
 
 
 </div>
 
 
-<mark style="background: #FFB8EBA6;">***Prioritize VISUAL THINKING OVERALL and Talk through you thought have conversation while taking notes ***</mark>
-
-	Talk about code Modularity instead of implementing focus on just creating a working solution and you can refactor or talk about refactoring after     
-
-	When thinking about Modularity think about which section of the code can be reused for other things  
 
 
-| 
-<mark style="background: #BBFABBA6;">***V  Identify CRUD in the problem getting a better understanding of what is being asked before thinking about I/O 5 min or less: ***</mark>
+<mark style="background: #BBFABBA6;">
+⬇  Identify CRUD in the problem getting a better understanding of what is being asked before thinking about I/O 5 min or less: </mark>
 
-***Similar step to system design but after breaking down problem establish design scope ***
+***Similar step to system design but after breaking down problem establish design scope***
 
 ## Focus on these interrogative pronouns  
 
@@ -192,6 +189,12 @@ coupon cus <mark style="background: #BBFABBA6;">T F T F T F T F </mark>
 <mark style="background: #ABF7F7A6;">result           N N P P P N N </mark>
 
 
+|             |         |         |         |         |            |            |            |            |            
+|-------------|---------|---------|---------|---------|------------|------------|------------|------------|
+| new cus     |   T     |   T     |   T     |   T     |    F       |    F       |    F       |    F       |     
+| repeat cus  |   T     |   T     |   F     |   F     |    T       |    T       |    F       |    F       |    
+| coupon cus  |   T     |   F     |   T     |   F     |    T       |    F       |    T       |    F       |         
+| result      |   N     |   N     |   P     |   P     |    P       |    N       |    N       |    N       |    
 
 
 

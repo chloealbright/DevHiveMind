@@ -217,7 +217,7 @@ You don't need to code everything if you can mention there might be a cleaner or
 
 
 
-Talk about the overall [runtime] and [[Spacetime Complexity | Spacetime]] complexity of your code at different steps or at end 
+Talk about the overall [runtime] and [[Spacetime Complexity | Spacetime]] complexity of your code at different steps or at end [[Interview Template with TimeTable 1 1]]
 
 O(1) + O(n) = O(n) worst runtime takes president when adding up runtime 
 

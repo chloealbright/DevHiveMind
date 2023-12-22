@@ -8,24 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "83682e6e80675013",
+            "id": "1e5a2bfed770e6c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Template/DB Stuff.md",
+                "file": "_Template/inter/Compressed Interview Template.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "1e5a2bfed770e6c7",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/Database/Database requirement.png"
               }
             }
           },
@@ -121,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Template/DB Stuff.md",
+                "file": "_Template/inter/Compressed Interview Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Template/DB Stuff.md",
+                "file": "_Template/inter/Compressed Interview Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Template/DB Stuff.md"
+                "file": "_Template/inter/Compressed Interview Template.md"
               }
             }
           },
@@ -265,8 +255,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "83682e6e80675013",
+  "active": "1e5a2bfed770e6c7",
   "lastOpenFiles": [
+    "Home.md",
     "_Images/Database/Database requirement.png",
     "Infographics/Architecture/Database Selection Process.webp",
     "_Images/Database/1NF.png",
@@ -278,7 +269,6 @@
     "Infographics/Databases/Database Sharding.jpeg",
     "Infographics/Databases/Database Types.gif",
     "Infographics/Databases/Execution Order.jpg",
-    "Infographics/Databases/Sql Exe Order.gif",
     "_Template/DB Stuff.md",
     "_Template/Language Error Template.md",
     "_Template/Prompt Temp.md",

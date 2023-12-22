@@ -1,12 +1,37 @@
+<div style="background-color: orange; padding: 10px; border: 1px solid #ccc; color: black;"> 
 
-
-TRUE <<mark style="background: #FFF3A3A6;">READ</mark>> FALSE 
-
+<center style="font-weight: bold; ">
+TRUE &lt;<mark style="background: #FFF3A3A6;">READ</mark>&gt; FALSE
+</center>
+ 
+<p>
 Pure Boolean check with UPDATES or no UPDATES needed in terms of what the question is asking but UPDATES can be included depending on the approach you come up with or if the question requires it. Also READ is doing some type of access so be aware of that when creating conditional logic because you optimize your READ  
+</p> 
 
-<mark style="background: #BBFABBA6;">CREATE < </mark><mark style="background: #ADCCFFA6;">UPDATE</mark><mark style="background: #FF5582A6;"> > DELETE </mark>
 
+<center style="font-weight: bold; ">
+<mark style="background: #BBFABBA6;">CREATE &lt;</mark><mark style="background: #ABF7F7A6;">UPDATE</mark><mark style="background: #FF5582A6;">&gt; DELETE</mark>
+</center>
+ 
+<p>
 Typically involves READ/UPDATE functionality  which can be also considered as CREATE/DELETE when it comes to UPDATE process and depending on the question and your approach can include CREATE and/or DELETE  
+</p> 
+
+</div>
+
+
+<div style="background-color: gre; padding: 10px; border: 1px solid #ccc; color: black;"> 
+
+<center style="font-weight: bold; ">
+TRUE &lt;<mark style="background: #FFF3A3A6;">READ</mark>&gt; FALSE
+</center>
+ 
+<p>
+Pure Boolean check with UPDATES or no UPDATES needed in terms of what the question is asking but UPDATES can be included depending on the approach you come up with or if the question requires it. Also READ is doing some type of access so be aware of that when creating conditional logic because you optimize your READ  
+</p> 
+
+
+</div>
 
 
 <mark style="background: #FFB8EBA6;">***Prioritize VISUAL THINKING OVERALL and Talk through you thought have conversation while taking notes ***</mark>

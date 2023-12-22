@@ -1,7 +1,7 @@
 ---
 tags: 
 author: 
-Status: Capture
+Status: Distilling
 Started: 
 EditDate: 
 Relates:

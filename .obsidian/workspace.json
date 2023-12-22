@@ -4,6 +4,49 @@
     "type": "split",
     "children": [
       {
+        "id": "69ffbccaebfc6741",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fcbf2934b9bffa1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Low Priority Refinement/Companies/Development Perpetual Practices.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "584a6f2655d050ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI & Chatgpt/prompts/Sounding more senior or experienced.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f95845a418639564",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
         "id": "c5ce76af5dda04f7",
         "type": "tabs",
         "children": [
@@ -13,58 +56,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Abstract Data Types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eec4593682685e9b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Coding Interview Tips.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3d62529bfc4bbdd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/AlgoFlow.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e31c0dd934581fb",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "f37a7c1fb3d94013",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3126339bc3edb8b5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Attributes of Data.md",
+                "file": "AI & Chatgpt/prompts/Structural model Prompt.md",
                 "mode": "source",
                 "source": false
               }
@@ -152,6 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,6 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +183,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md"
+              }
             }
           },
           {
@@ -292,34 +288,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5e31c0dd934581fb",
+  "active": "f95845a418639564",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/AlgoFlow.md",
-    "Algorithms & Data Structures/Coding Interview Tips.md",
-    "Algorithms & Data Structures/Collections Framework.md",
-    "Algorithms & Data Structures/Common Declarative Algorithms.md",
-    "Algorithms & Data Structures/Common Imperative Algorithms.md",
-    "Algorithms & Data Structures/DeMorgans law.md",
-    "Algorithms & Data Structures/Discrete math.md",
-    "Algorithms & Data Structures/Programmer vs Software Developer vs Coder vs Software architect.md",
-    "Algorithms & Data Structures/Problem-solving Regimen.md",
-    "Algorithms & Data Structures/Attributes of Data.md",
+    "_Low Priority Refinement/Talking More Articulate Template.md",
+    "_Low Priority Refinement/Companies/Development Perpetual Practices.md",
+    "AI & Chatgpt/prompts/Sounding more senior or experienced.md",
+    "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md",
+    "Testing/Software Development Engineer in Test.md",
+    "_Low Priority Refinement/My Obsidian Setup — My Notes and My Theme settings  by Nuno Campos  Obsidian Observer  Apr, 2023  Medium.md",
+    "_Low Priority Refinement/Obsidian Understanding its Core Design Principles  by TfTHacker  Obsidian Observer  Medium.md",
+    "AI & Chatgpt/prompts/Structural model Prompt.md",
     "Algorithms & Data Structures/Abstract Data Types.md",
-    "Home.md",
+    "Algorithms & Data Structures/AlgoFlow.md",
     "Algorithms & Data Structures/Algo pathway.md",
-    "Algorithms & Data Structures/Algo Line of thought.md",
-    "Algorithms & Data Structures/All Sorts of Sorts.md",
-    "_Low Priority Refinement/Automation.md",
-    "_Low Priority Refinement/L Automation.md",
-    "Language Overlap/Byte stream.md",
-    "Language Overlap/Thread pools.md",
-    "Language/Typescript/Use of closure & composition.md",
-    "_Official Documentation/Kubernetes.md",
-    "_Official Documentation/GitHub Flow.md",
-    "Databases/SQL Tool.md",
-    "_Official Documentation/_Make it remember last Pg on.md",
-    "_Official Documentation/VScode.md",
-    "_Official Documentation/TypeScript.md",
+    "Algorithms & Data Structures/Attributes of Data.md",
+    "Algorithms & Data Structures/Algorithms/Algorithm Most Common Built in Functions.md",
+    "Algorithms & Data Structures/Algorithms/Algorithm Pattern vs Simple Solution.md",
+    "Algorithms & Data Structures/Algorithms/Algorithms & Visual Abstraction.md",
+    "Algorithms & Data Structures/Algorithms/Dynamic programming Patterns.md",
+    "Algorithms & Data Structures/Algorithms/Dynamic Programming.md",
+    "Algorithms & Data Structures/Patterns/Key Base Attributes of  Grokking Algorithm patterns.md",
+    "Algorithms & Data Structures/Algorithms/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
+    "Algorithms & Data Structures/Algorithms/Linear search vs Binary search.md",
+    "Algorithms & Data Structures/Algorithms/Memoization.md",
+    "Algorithms & Data Structures/Patterns/Knapsack Pattern.md",
+    "Algorithms & Data Structures/Patterns/Depth First Search & Breadth-First Search.md",
+    "Algorithms & Data Structures/Patterns",
+    "Algorithms & Data Structures/Coding Interview Tips.md",
+    "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "Algorithms & Data Structures/Collections Framework.md",
     "Infographics/Redis persist data.gif",
     "Mind Maps/Untitled Diagram.svg",
     "Mind Maps/12 Factor App Docker.canvas",
@@ -341,7 +338,6 @@
     "Architecture/Design Patterns Layers.pdf",
     "AI & Chatgpt/prompts/Fin",
     "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
-    "_Pdf/Joshua_Carpentier_Resume.docx.pdf",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Testing.canvas",

@@ -25,19 +25,24 @@ When approaching a problem, it's important to begin by identifying the core issu
   - Rational numbers (decimal and fraction)
   - Min/Max values
   - Also Pay attention to the number range and order
+  - Zero
 
 
-### Processing String Arrays
-
-- For arrays of strings, think about the following:
-  - Utilizing built-in string and array functions
-  - For arrays of characters, explore algorithm patterns
-  - Consider characteristics such as string length, character range, and empty spaces
-  - Be cautious with assumptions about ASCII values avoid defaulting to ASCII values.
-  
-- Explore factors like string length(odd/even), character range, and the presence of empty spaces.
-- Evaluate whether you need to traverse every element, which ties back to understanding the problem.
-- Also, think about loop direction (from start or end) and handling duplicates (consider using sets for efficient storage).
+### Handling String Values
+- For strings or arrays of strings, think about the following attributes:
+	- is a string empty
+	- are there blank spaces
+	- string length (odd or even)
+	- Substrings like letters in the string
+	- Unicode values
+	- Unique or specific characters
+	- Utilizing built-in string and array functions
+	- For arrays of characters, explore algorithm pattern
+	- Consider characteristics such as string length, character range, and empty spaces
+	- Be cautious with assumptions about ASCII values avoid defaulting to ASCII values.
+	- Explore factors like string length(odd/even), character range, and the presence of empty spaces.
+	- Evaluate whether you need to traverse every element, which ties back to understanding the problem.
+	- Also, think about loop direction (from start or end) and handling duplicates (consider using sets for efficient storage).
 
 ## Sorted Data
 

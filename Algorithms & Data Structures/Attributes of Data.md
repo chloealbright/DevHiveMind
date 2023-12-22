@@ -20,21 +20,12 @@ Relates:
 - Understand the potential weaknesses in these data structures.
 - Develop an execution plan to address these weaknesses.
 
-## String Considerations
-- Empty strings
-- Blank spaces
-- Length (odd or even)
-- Substrings
-- Unicode values
-- Unique or specific characters
-
 
 
 ## Special String Cases
 - Fixed-length alphabet (26 characters)
 - Unicode strings with special characters
 - Handling a specific set of characters
-- Odd/even length strings
 - Null as an argument
 - Non-null terminated C programming language specific
 

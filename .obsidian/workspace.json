@@ -8,11 +8,35 @@
         "type": "tabs",
         "children": [
           {
+            "id": "83682e6e80675013",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Template/DB Stuff.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1e5a2bfed770e6c7",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_Images/Database/Database requirement.png"
+              }
+            }
+          },
+          {
             "id": "df8d91992bb794fd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "Infographics/Architecture/Database Selection Process.webp"
+              }
             }
           }
         ]
@@ -97,6 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_Template/DB Stuff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_Template/DB Stuff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +160,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_Template/DB Stuff.md"
+              }
             }
           },
           {
@@ -237,15 +265,37 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "df8d91992bb794fd",
+  "active": "83682e6e80675013",
   "lastOpenFiles": [
+    "_Images/Database/Database requirement.png",
+    "Infographics/Architecture/Database Selection Process.webp",
+    "_Images/Database/1NF.png",
+    "Testing/Type of Testing Techniques.md",
+    "Infographics/Architecture/StackOverflow.jpg",
+    "Infographics/Databases/ACID.gif",
+    "Infographics/Databases/Database & Data Structrues.jpg",
+    "Infographics/Databases/Database Processes.gif",
+    "Infographics/Databases/Database Sharding.jpeg",
+    "Infographics/Databases/Database Types.gif",
+    "Infographics/Databases/Execution Order.jpg",
+    "Infographics/Databases/Sql Exe Order.gif",
+    "_Template/DB Stuff.md",
+    "_Template/Language Error Template.md",
+    "_Template/Prompt Temp.md",
+    "_Template/Slides Template.md",
+    "_Template/UMLDiagram.excalidraw.md",
+    "_Template/Untitled 2.md",
+    "_Template/Untitled 1 1.md",
+    "_Template/Untitled 1.md",
+    "_Template/Untitled 4.md",
+    "_Template/Untitled 3.md",
+    "_Template/Untitled.md",
     "Algorithms & Data Structures/Coding Interview Tips.md",
     "Algorithms & Data Structures/AlgoFlow.md",
     "Algorithms & Data Structures/Abstract Data Types.md",
     "Algorithms & Data Structures/Attributes of Data.md",
     "Algorithms & Data Structures/Algo pathway.md",
     "Algorithms & Data Structures/Attributes.gif.md",
-    "_Images/Algo/Attributes.gif",
     "AI & Chatgpt/prompts/Sounding more senior or experienced.md",
     "Companies/Employment Best Personal Practices.md",
     "Companies/Tech company hiring cycle & Hustle.md",
@@ -253,31 +303,9 @@
     "Companies/Culture/Navigating Work Dynamics.md",
     "Companies/Interview/Company Stability.md",
     "Companies/Money Talk/Negotiation.md",
-    "_Low Priority Refinement/Untitled.md",
-    "_Low Priority Refinement/Dev Todo.md",
-    "Companies/Culture/Types of Programmers To Avoid.md",
-    "Companies/Data Work.md",
-    "Companies/12 Key Metrics for Measuring Service Performance.md",
-    "Companies/General Dev Issues.md",
-    "_Low Priority Refinement/Talking More Articulate Template.md",
-    "Companies/Interview/Maintain Relationship.md",
-    "_Low Priority Refinement/Companies/Development Perpetual Practices.md",
-    "_Low Priority Refinement/Study Session.md",
-    "Language Overlap/Automation.md",
-    "Architecture/Design Patterns Diagrams.md",
-    "Infographics/API/Rest API Design.jpeg",
-    "Infographics/API/API Architectural Styles.gif",
-    "Infographics/API/GatewayFunction.jpeg",
-    "Infographics/API/Api Testing.gif",
-    "Infographics/API/API Protocol.jpeg",
-    "Infographics/API/Api Gateway.gif",
-    "Architecture/Design Patterns.md",
     "Algorithms & Data Structures/Patterns",
-    "Infographics/Redis persist data.gif",
-    "Mind Maps/Untitled Diagram.svg",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/Redux Map.canvas",
-    "Mind Maps/UML/Class Cases Robust P1.svg",
     "Mind Maps/UML",
     "Language Overlap/Tools",
     "Architecture/Methodology/Twelve Factor App Official Description",

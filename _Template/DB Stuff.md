@@ -31,3 +31,21 @@ Border: disabled
 <img src="https://i.imgur.com/vGJ8bhw.png" alt="Image 2" width="300" height="200">
 
 --- end-multi-column
+
+
+
+
+```start-multi-column
+ID: ID_un
+Number of Columns: 2
+Largest Column: standard
+Border: disabled 
+```
+
+![[Database requirement.png]]
+
+--- column-end ---
+
+![[Database Selection Process.webp]]
+
+--- end-multi-column

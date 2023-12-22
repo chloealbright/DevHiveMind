@@ -13,50 +13,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Companies/People/intentions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e91879bca9022874",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Money Talk/Negotiation.md",
+                "file": "_Low Priority Refinement/Companies/Development Perpetual Practices.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "705569a1ae51d176",
         "type": "tabs",
         "children": [
           {
-            "id": "ff483b1bc8275dcc",
+            "id": "ecd6262f59819853",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Companies/People/Introductory talk.md",
+                "file": "_Low Priority Refinement/Companies/intentions.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ecd6262f59819853",
+            "id": "92c9c209099719ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Companies/People/Reach out to Mentor.md",
+                "file": "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
                 "mode": "source",
                 "source": false
               }
@@ -144,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Companies/People/Introductory talk.md",
+                "file": "_Low Priority Refinement/Companies/intentions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Companies/People/Introductory talk.md",
+                "file": "_Low Priority Refinement/Companies/intentions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Companies/People/Introductory talk.md"
+                "file": "_Low Priority Refinement/Companies/intentions.md"
               }
             }
           },
@@ -288,15 +275,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ff483b1bc8275dcc",
+  "active": "ecd6262f59819853",
   "lastOpenFiles": [
-    "Companies/Money Talk/Negotiation.md",
-    "_Low Priority Refinement/Companies/People/intentions.md",
-    "_Low Priority Refinement/Companies/People/Introductory talk.md",
-    "_Low Priority Refinement/Companies/People/Reach out to Mentor.md",
-    "_Low Priority Refinement/Companies/People/People to know & TD Questions.md",
     "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
     "_Low Priority Refinement/Companies/Development Perpetual Practices.md",
+    "_Low Priority Refinement/Companies/intentions.md",
+    "_Low Priority Refinement/Companies/People/Reach out to Mentor.md",
+    "Companies/Money Talk/Negotiation.md",
+    "Companies/Interview/Recruiter First Conversation.md",
+    "_Low Priority Refinement/Companies/People/People to know & TD Questions.md",
     "AI & Chatgpt/prompts/Sounding more senior or experienced.md",
     "_Low Priority Refinement/Talking More Articulate Template.md",
     "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md",

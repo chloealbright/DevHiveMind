@@ -49,6 +49,37 @@ Negotiating your salary effectively requires a strategic approach. Consider the 
 
 Remember, negotiating is an art that involves preparation, clear communication, and strategic thinking.
 
+## Recruiters Salary Talk
+
+**Inquiry About Salary Range for Software Developer Position**
+
+When discussing salary expectations with recruiters, it's crucial to emphasize your focus on professional growth and learning rather than solely on compensation. Here's a guide to structure your communication:
+
+1. **Introduction:**
+   - Express your interest in the position and highlight your enthusiasm for contributing to the team.
+
+2. **Salary Secondary:**
+   - Clearly state that while salary is not your top priority, you value opportunities for learning and skill development.
+
+3. **Budget Inquiry:**
+   - Politely ask if there's a budget range designated for the role, seeking insights into how it aligns with market standards.
+
+4. **Background Overview:**
+   - Briefly share your educational background, including recent graduation and completion of a coding bootcamp.
+
+5. **Project Experience:**
+   - Highlight practical experience gained through consultancy work, mentioning technologies used, and spotlighting a specific project, like "Park Alert."
+
+6. **Skill Set Mention:**
+   - Showcase your proficiency in technologies such as React, Bootstrap, Node.js, PostgreSQL, and Jest.
+
+7. **Development Journey:**
+   - Share your perspective on software development as a continuous learning process, drawing parallels to martial arts and the need for discipline and strategic planning.
+
+8. **Closing:**
+   - Express excitement about the potential opportunity and gratitude for their time.
+
+Remember, the goal is to convey your eagerness for the role while subtly seeking information about the salary range. Avoid mentioning entry level Say that you're looking for a role... With these attributes. 
 
 ## Side Note Non-compete agreements
 Non-compete agreements are often used specifically for competitor companies to prevent employees from joining or starting a competing business after leaving their current employer. These agreements aim to protect a company's trade secrets, confidential information, and competitive advantage.
@@ -56,3 +87,5 @@ Non-compete agreements are often used specifically for competitor companies to p
 In Massachusetts, non-compete agreements are enforceable under certain conditions. Massachusetts has specific laws governing the use of non-competes, including requirements for duration, geographic scope, and consideration provided to employees. It's essential to be aware of and comply with the specific regulations in the jurisdiction, as they can vary from state to state.
 
 Nonetheless, the primary intent behind non-compete agreements is to restrict employees from engaging in activities that would directly compete with their current employer's business, particularly when moving to a competitor. These agreements are not typically intended for broader restrictions unrelated to competition.
+
+

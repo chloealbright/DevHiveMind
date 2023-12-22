@@ -29,7 +29,7 @@ I don't know the requirements for this role since we are early in the process bu
   
   
   
-Software engineer software Carpenter  
+
   
   
 But I am interested to learn from your side how much do you have budgeted for this role and how close is it to market value

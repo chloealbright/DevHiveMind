@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e91879bca9022874",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Money Talk/Negotiation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "705569a1ae51d176",
@@ -277,10 +290,11 @@
   },
   "active": "ff483b1bc8275dcc",
   "lastOpenFiles": [
-    "_Low Priority Refinement/Companies/People/Reach out to Mentor.md",
-    "_Low Priority Refinement/Companies/People/People to know & TD Questions.md",
+    "Companies/Money Talk/Negotiation.md",
     "_Low Priority Refinement/Companies/People/intentions.md",
     "_Low Priority Refinement/Companies/People/Introductory talk.md",
+    "_Low Priority Refinement/Companies/People/Reach out to Mentor.md",
+    "_Low Priority Refinement/Companies/People/People to know & TD Questions.md",
     "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
     "_Low Priority Refinement/Companies/Development Perpetual Practices.md",
     "AI & Chatgpt/prompts/Sounding more senior or experienced.md",
@@ -302,7 +316,6 @@
     "Algorithms & Data Structures/Patterns/Key Base Attributes of  Grokking Algorithm patterns.md",
     "Algorithms & Data Structures/Algorithms/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
     "Algorithms & Data Structures/Algorithms/Linear search vs Binary search.md",
-    "Algorithms & Data Structures/Algorithms/Memoization.md",
     "Algorithms & Data Structures/Patterns",
     "Infographics/Redis persist data.gif",
     "Mind Maps/Untitled Diagram.svg",

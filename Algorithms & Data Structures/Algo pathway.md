@@ -16,14 +16,16 @@ Relates: "[[Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary 
 
 When approaching a problem, it's important to begin by identifying the core issue at hand. Rather than focusing too much on the desired output, consider the attributes and parameters involved, especially when multiple parameters are at play prioritize the parameter that is apart of the main functionality or main problem.
 
-### Handling Numeric Arrays
-
-- For an array of numbers, consider attributes like:
+### Handling Numeric Values
+![[numbers.png]]
+**Numeric values can also be represented with ASCII values
+- For an array of numbers or numbers, consider attributes like:
   - Natural numbers (positive and zero)
   - Integers (including natural and negative numbers)
   - Rational numbers (decimal and fraction)
   - Min/Max values
   - Also Pay attention to the number range and order
+
 
 ### Processing String Arrays
 

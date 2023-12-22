@@ -28,12 +28,7 @@ Relates:
 - Unicode values
 - Unique or specific characters
 
-## Numeric Values (with ASCII representation)
-![[numbers.png]]
-- Natural numbers (positive and zero)
-- Integers (positive, negative)
-- Rational numbers (decimal, fraction)
-- Minimum/maximum values
+
 
 ## Special String Cases
 - Fixed-length alphabet (26 characters)

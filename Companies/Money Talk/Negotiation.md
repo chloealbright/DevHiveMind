@@ -57,6 +57,8 @@ When discussing salary expectations with recruiters, it's crucial to emphasize y
 
 1. **Introduction:**
    - Express your interest in the position and highlight your enthusiasm for contributing to the team.
+   - Be mindful of timelines and communicate your commitment to not wasting time.
+   - Prioritize tasks, like if you have a side job, when negotiating and suggest a more suitable time for discussions.
 
 2. **Salary Secondary:**
    - Clearly state that while salary is not your top priority, you value opportunities for learning and skill development.
@@ -87,5 +89,6 @@ Non-compete agreements are often used specifically for competitor companies to p
 In Massachusetts, non-compete agreements are enforceable under certain conditions. Massachusetts has specific laws governing the use of non-competes, including requirements for duration, geographic scope, and consideration provided to employees. It's essential to be aware of and comply with the specific regulations in the jurisdiction, as they can vary from state to state.
 
 Nonetheless, the primary intent behind non-compete agreements is to restrict employees from engaging in activities that would directly compete with their current employer's business, particularly when moving to a competitor. These agreements are not typically intended for broader restrictions unrelated to competition.
+
 
 

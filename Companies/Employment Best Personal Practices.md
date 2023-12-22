@@ -18,23 +18,27 @@ When beginning a new role, there are several important steps to consider:
 
 2. **Expectations:** Clearly define your job expectations, responsibilities, and deliverables with your employer to ensure alignment.
 
-3. **Performance and Reviews:** Ask about your current performance and whether you are on track for your annual performance review. This helps you gauge your progress and areas for improvement.
+3. **Managing Requests:**
+   - Express uncertainty if a task seems beyond your expertise, suggesting another expert.
+   - Provide constructive feedback or propose an alternative if you find a proposal compelling but need adjustments.
 
-4. **Networking:** Establish a strong network by reaching out to professionals from various industries. Networking is crucial for career growth and opportunities.
+4. **Performance and Reviews:** Ask about your current performance and whether you are on track for your annual performance review. This helps you gauge your progress and areas for improvement.
 
-5. **Maintaining Connections:** Develop strategies to stay connected with your network. Regular communication and engagement with your connections are essential.
+5. **Networking:** Establish a strong network by reaching out to professionals from various industries. Networking is crucial for career growth and opportunities.
 
-6. **Recommendations:** Consider seeking recommendations from individuals like Tracflo, as positive recommendations can boost your job prospects.
+6. **Maintaining Connections:** Develop strategies to stay connected with your network. Regular communication and engagement with your connections are essential.
 
-7. **Online Presence:** Ensure your profile statistics on platforms like StackOverflow are well-maintained, as they can enhance your job applications.
+7. **Recommendations:** Consider seeking recommendations from individuals like Tracflo, as positive recommendations can boost your job prospects.
 
-8. **Job Applications:** When applying for positions, consider targeting smaller companies or startups, as they may be more receptive to interviews. Apply throughout the week, but Mondays can be particularly effective.
+8. **Online Presence:** Ensure your profile statistics on platforms like StackOverflow are well-maintained, as they can enhance your job applications.
 
-9. **Continuous Application:** Keep applying for jobs even if you are currently employed. This ensures a pipeline of opportunities and connections.
+9. **Job Applications:** When applying for positions, consider targeting smaller companies or startups, as they may be more receptive to interviews. Apply throughout the week, but Mondays can be particularly effective.
 
-10. **Technical Interviews:** Note that Netflix typically doesn't give algorithm questions for front-end roles.
+10. **Continuous Application:** Keep applying for jobs even if you are currently employed. This ensures a pipeline of opportunities and connections.
 
-11. **Exit Interviews:** Be cautious during exit interviews, as information shared can be used against you.
+11. **Technical Interviews:** Note that Netflix typically doesn't give algorithm questions for front-end roles.
+
+12. **Exit Interviews:** Be cautious during exit interviews, as information shared can be used against you.
 
 Additionally, when considering roles, ask questions about the company, role expectations, and stability. Pay attention to red flags, such as vague answers or invasive questions about side hustles and previous salary.
 

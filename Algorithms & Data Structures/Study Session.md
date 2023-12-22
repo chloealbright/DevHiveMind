@@ -3,7 +3,7 @@ tags:
   - personalProcesses
 author:
   - jacgit18
-Status: perpetual
+Status: Perpetual
 Started: 
 EditDate: 
 Relates:

@@ -48,5 +48,3 @@ Track reference notes in Obsidian Which are notes that are essentially Notes wri
   
 Then do some type of mind, map or literature? Note around that reference. To lock in the idea
 
-### Structural Architecture 
-![[Structural model Prompt]]

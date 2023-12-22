@@ -4,59 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "69ffbccaebfc6741",
+        "id": "c5ce76af5dda04f7",
         "type": "tabs",
         "children": [
-          {
-            "id": "fcbf2934b9bffa1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Low Priority Refinement/Companies/Development Perpetual Practices.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "584a6f2655d050ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI & Chatgpt/prompts/Sounding more senior or experienced.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "f95845a418639564",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
+                "file": "_Low Priority Refinement/Companies/People/intentions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
-        "id": "c5ce76af5dda04f7",
+        "id": "705569a1ae51d176",
         "type": "tabs",
         "children": [
           {
-            "id": "09b4f41d619e41ba",
+            "id": "ff483b1bc8275dcc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI & Chatgpt/prompts/Structural model Prompt.md",
+                "file": "_Low Priority Refinement/Companies/People/Introductory talk.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ecd6262f59819853",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Low Priority Refinement/Companies/People/Reach out to Mentor.md",
                 "mode": "source",
                 "source": false
               }
@@ -144,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
+                "file": "_Low Priority Refinement/Companies/People/Introductory talk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
+                "file": "_Low Priority Refinement/Companies/People/Introductory talk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md"
+                "file": "_Low Priority Refinement/Companies/People/Introductory talk.md"
               }
             }
           },
@@ -288,11 +275,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f95845a418639564",
+  "active": "ff483b1bc8275dcc",
   "lastOpenFiles": [
-    "_Low Priority Refinement/Talking More Articulate Template.md",
+    "_Low Priority Refinement/Companies/People/Reach out to Mentor.md",
+    "_Low Priority Refinement/Companies/People/People to know & TD Questions.md",
+    "_Low Priority Refinement/Companies/People/intentions.md",
+    "_Low Priority Refinement/Companies/People/Introductory talk.md",
+    "_Low Priority Refinement/Companies/Tech company hiring cycle & Hustle.md",
     "_Low Priority Refinement/Companies/Development Perpetual Practices.md",
     "AI & Chatgpt/prompts/Sounding more senior or experienced.md",
+    "_Low Priority Refinement/Talking More Articulate Template.md",
     "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md",
     "Testing/Software Development Engineer in Test.md",
     "_Low Priority Refinement/My Obsidian Setup — My Notes and My Theme settings  by Nuno Campos  Obsidian Observer  Apr, 2023  Medium.md",
@@ -311,12 +303,7 @@
     "Algorithms & Data Structures/Algorithms/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
     "Algorithms & Data Structures/Algorithms/Linear search vs Binary search.md",
     "Algorithms & Data Structures/Algorithms/Memoization.md",
-    "Algorithms & Data Structures/Patterns/Knapsack Pattern.md",
-    "Algorithms & Data Structures/Patterns/Depth First Search & Breadth-First Search.md",
     "Algorithms & Data Structures/Patterns",
-    "Algorithms & Data Structures/Coding Interview Tips.md",
-    "Algorithms & Data Structures/Problem-solving Regimen.md",
-    "Algorithms & Data Structures/Collections Framework.md",
     "Infographics/Redis persist data.gif",
     "Mind Maps/Untitled Diagram.svg",
     "Mind Maps/12 Factor App Docker.canvas",

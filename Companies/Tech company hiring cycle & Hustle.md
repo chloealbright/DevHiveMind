@@ -42,7 +42,7 @@ Relates:
    - Refrain from disclosing previous salary if uncomfortable, emphasizing the importance of current market standards.
 
 3. **Performance and Role Growth:**
-   - Change teams within a year for personal growth.
+   - Change teams within a year or two for personal growth.
    - Ensure job responsibilities align with the job description.
    - Consider looking into a startup's funding status as an indicator of stability.
 

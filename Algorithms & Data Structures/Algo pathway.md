@@ -21,28 +21,47 @@ When approaching a problem, it's important to begin by identifying the core issu
 **Numeric values can also be represented with ASCII values
 - For an array of numbers or numbers, consider attributes like:
   - Natural numbers (positive and zero)
-  - Integers (including natural and negative numbers)
-  - Rational numbers (decimal and fraction)
-  - Min/Max values
-  - Also Pay attention to the number range and order
-  - Zero
-
+  - Natural, integer, and rational numbers.
+  - Min/Max values, zero, and decimal aspects.
+  - Evaluate range, order, and decimal floor/ceiling.
 
 ### Handling String Values
 - For strings or arrays of strings, think about the following attributes:
-	- is a string empty
-	- are there blank spaces
-	- string length (odd or even)
-	- Substrings like letters in the string
-	- Unicode values
-	- Unique or specific characters
-	- Utilizing built-in string and array functions
-	- For arrays of characters, explore algorithm pattern
-	- Consider characteristics such as string length, character range, and empty spaces
+	- Check for emptiness, spaces, and length (odd/even).
+	- Examine substrings, Unicode values, and special characters.
+	- Consider unique characters, fixed-length strings, and letter casing.
+	- Account for null as an argument.
+	- Use built-in functions cautiously; explore algorithm patterns.
+	- For arrays of characters, analyze length, range, empty spaces, and duplicates.
+	- Mind loop direction and duplicates; use sets for efficiency.
+	- Don't forget the alphabet (26 characters)
 	- Be cautious with assumptions about ASCII values avoid defaulting to ASCII values.
-	- Explore factors like string length(odd/even), character range, and the presence of empty spaces.
-	- Evaluate whether you need to traverse every element, which ties back to understanding the problem.
-	- Also, think about loop direction (from start or end) and handling duplicates (consider using sets for efficient storage).
+
+## Array Operations
+- Boundary analysis: -1 and 1 after the array length
+- Incrementing the entire length of the array
+- Handling nested arrays with a single loop
+- Min/max considerations
+- Splitting an array using binary search
+  ```javascript
+  const length = array.length;
+  const middle = Math.floor(length / 2);
+  const left = array.slice(0, middle);
+  const right = array.slice(middle);
+  ```
+
+## Starting Point and End point
+- Do a Boundary Analysis Analyze the current value in relation to the values before and after.
+- Evaluate whether you need to traverse every element, which ties back to understanding the problem.
+- Considerations for values contained in a specific range
+- Length or calculation value
+- Reducing iteration by breaking down large ranges
+- Decrementing arrays from the end index to the start (array.Length to 0)
+
+
+
+
+
 
 ## Sorted Data
 

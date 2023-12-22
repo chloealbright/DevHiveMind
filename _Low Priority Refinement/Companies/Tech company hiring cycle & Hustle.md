@@ -13,83 +13,9 @@ Relates:
 
 
 
-Ask about current performance and are you on track towards your annual performance review  
-
-reach to people from different people in different industry  
-
-strategies how you would keep connected with people in your network  
 
 
 
-profile stats on StackOverflow are good to use for job application  
-
-Applying at smaller companies like startups, with revenues between $5 million to $50 million, increases your chances of being invited to an interview Mondays are the best days to apply  
-
-Always apply you don't have to respond as long as you have the email she could respond in the future just to make sure you have connections to other companies to apply for even while you're working  
-
-
-
-Exit interviews can be bait for ammo for the company if they want to come after you for something  
-
-Maybe Email recruiters a email with the title subject "sharing my experience on Glassdoor" to get a response back
-
-# Startup question to ask  
-
-	Do your research on companies before joining  
-	
-	Ask for numbers  
-	
-	Talk with people who left  
-	
-	Do you have clear business metrics that you are track and do engineers have access to this info  
-	
-	Ask to talk to lead investors  
-
-Roles - reach out to a company telling them that you know you aren't ready but how can you improve  
-
-
- 
-# Red flag  
-	
-	If you talk to your manager and ask them what can you do to do to get a higher position and they give you a BS answer that's a red flag s*** definitely think about working with someone else or doing something else in the company  
-	
-	A company asked you about side hustles or things to do outside don't tell them anything but also that's a red flag that they're going to give you overtime  
-	
-	If asked about previous salary tell them you don't feel comfortable giving your previous salary and I don't understand why the number matters because you gave me test to evaluate my skill set based on your own criteria not the last company criteria also I know like within like certain States that's not allowed so I don't want to break the law or put you in a position where you're breaking the law  
-	
-	Try to change teams within a year or less to grow more and understand the company  
-	Make Sure responsibilities align with job description  
-
-A good sign to avoid these problems is to let's say for example you're applying for a startup try looking into that funding
-
-Watch out for companies who give you assignments to try before hiring you because they sometimes our actual projects that weren't done and they are trying to get free work out of you instead of hiring you  
-  
-Limit interview to 5 hours or less than multiple days or between 5 to 10 hours because you might end up interviewing for multiple businesses and you want to avoid being used to do free work for a company
-# Performance 
-
-	Ask what would the performance review cycle look like  
-	
-	Watch out for change in roles in a company because they may give you a performance review knowing that you're not use to the new role and the responsibilities  
-	
-	If you can't get a 3% raise after a year and you like 2 years in aim for a 5% or 4% raise  
-	
-	In order to fire you  
-	
-	They might put you on a performance improvement plan without you no way in order to put you down the path of getting fired since you not experience the new roll essentially  
-	
-	When negotiating I'm going back and forth with numbers when they go lower ask them how about you do this number then after 90 days if my performance is good you bump it up to this price  
-
-# Company Stability  
-
-All else being equal, of course stability is a good thing. No one wants to be fired or laid off. However, all else isn't actually equal. The more stable companies are also often growing more slowly. How much emphasis you should put on company stability really depends on you and your values. For some candidates, stability should not be a large factor. Can you fairly quickly find a new job? If so, it might be better to take the rapidly growing company, even if it's unstable? If you have work visa restrictions or just aren't confident in your ability to find something new, stability might be more important.  
-
-Ask about compensation band for the position. Comp bands are a simple framework for structuring total compensation on your team, and are simple to set up: For every role and level, establish a standard range of compensation (base, bonus, equity). Use comp bands to create offers, determine merit adjustments, and calibrate promotion  
-
-Because the company has a range they're trying to stay under to operate  
-
-If you're in New York you should be in the 90 to 200k range since in a major city for total compensation  
-
-if going to go to new-company you can potentially get a 10 to 15% more  
 
 
 # Technical Debt & Hiring Manager  
@@ -122,27 +48,15 @@ Unit testing
 
 Avoid using "a" in resume  
 
+
+
 creating technical resume statistic  
+
+example
 
 15 min 10 user = 40 user per hour * 24 * 365 = 350.4  
 
-[https://zety.com/blog/resume-statistics](https://zety.com/blog/resume-statistics)  
 
-# ToDo  
-Ask for conversion rate for a contract roles and always get a percentage  
-
-Always try to get company name from recruiters tell them that you need their name prepare properly for the interview or hiring managers email and talk to them directly  
-
-Then apply to the company and ghost recruiter because they getting a cut out of your salary  
-
-Always try to go direct higher as opposed to the recruiter firm who are third-party  
-
-[https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes)  
-[https://linktr.ee/joshuacarpentier](https://linktr.ee/joshuacarpentier)  
-[https://coolconversion.com/math/percent-difference-calculator/What-is-the-percent-difference-between_90000_and_95000_](https://coolconversion.com/math/percent-difference-calculator/What-is-the-percent-difference-between_90000_and_95000_)?  
-
-# Being remembered  
-	schedule one on ones with a boss or reach out once a month or every two weeks 
 
 # LinkedIn  
 don't ask a detailed question upfront  
@@ -177,15 +91,6 @@ search by:
 "position - company name" LinkedIn  
 
 "recruiter - impossible foods" LinkedIn  
-
-# Networking & at job  
-schedule one on ones with a boss or reach out once a month or every two weeks  
-
-
-# Conversation intro  
-Haitian American college major stuff software stuff interest about there company  
-
-Use language of job description  
 
 
 # Saying no  

@@ -13,18 +13,6 @@
             "dimension": 67.4074074074074,
             "children": [
               {
-                "id": "92c9c209099719ce",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Companies/Tech company hiring cycle & Hustle.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "01c662f9cda03ce9",
                 "type": "leaf",
                 "state": {
@@ -101,24 +89,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "875fbbfae2f012b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Low Priority Refinement/Dev Todo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d9df23dd2e8ad0d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Companies/Untitled.md",
+                "file": "_Low Priority Refinement/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -135,9 +111,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "92c9c209099719ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Tech company hiring cycle & Hustle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Tech company hiring cycle & Hustle.md",
+                "file": "_Low Priority Refinement/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Tech company hiring cycle & Hustle.md",
+                "file": "_Low Priority Refinement/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -259,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Tech company hiring cycle & Hustle.md"
+                "file": "_Low Priority Refinement/Untitled.md"
               }
             }
           },
@@ -363,17 +350,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "92c9c209099719ce",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "_Low Priority Refinement/Dev Todo.md",
     "Companies/Employment Best Personal Practices.md",
+    "Companies/Tech company hiring cycle & Hustle.md",
+    "_Low Priority Refinement/Untitled.md",
+    "Companies/Money Talk/Negotiation.md",
     "Companies/Contribution Metrics.md",
-    "_Low Priority Refinement/Companies/Untitled.md",
     "Companies/Culture/Navigating Work Dynamics.md",
     "Companies/Culture/Types of Programmers To Avoid.md",
-    "Companies/Tech company hiring cycle & Hustle.md",
-    "Companies/Money Talk/Negotiation.md",
     "Companies/Company Stability.md",
-    "_Low Priority Refinement/Dev Todo.md",
     "Companies/Data Work.md",
     "Companies/12 Key Metrics for Measuring Service Performance.md",
     "Companies/General Dev Issues.md",

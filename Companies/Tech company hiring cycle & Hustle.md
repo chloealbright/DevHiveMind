@@ -48,25 +48,25 @@ Relates:
    - Provide a timeline for other offers and interviews to manage expectations.
 
 ## **LinkedIn and Networking:**
-1. **LinkedIn Interaction:**
-   - Connect with recruiters on LinkedIn, and inquire about conversion rates for contract roles.
-   - Approach recruiters directly and consider going for direct hires instead of third-party firms.
+1. **Initial Connection Approach:**
+   - Avoid detailed questions upfront; instead, focus on building rapport.
+   - Study recruiters' profiles before connecting and personalize your message with compliments or commonalities.
 
-2. **Networking and Being Remembered:**
-   - Schedule regular one-on-one meetings or reach out every few weeks to maintain connections.
-   - Keep initial LinkedIn messages brief and show genuine interest in the other person's achievements.
-   - Join groups on LinkedIn to message members without direct connections.
+2. **Follow-Up on Job Posts:**
+   - Thank recruiters for connections after viewing job posts.
+   - Express your suitability for roles but acknowledge the competitive pool, then ask a thoughtful question about their candidate evaluation process.
 
-3. **Resume and Job Search:**
-   - Add keywords from the job description to your resume and profile.
-   - Update your LinkedIn profile weekly to signal active job seekers.
-   - Find common interests with people at target companies for potential referrals.
+3. **Engage Through Common Interests:**
+   - Research connections for shared interests.
+   - Ask about or offer something related to their interests to initiate meaningful conversations.
 
-4. **Negotiation Strategies:**
-   - Negotiate with flexibility and reinforce interest in working for the company.
-   - Avoid disclosing acceptance or rejection from other companies during negotiations.
-   - Leverage numbers strategically, providing a range and being transparent when finalizing details.
-   - Use phrases like "we are close" to indicate progress in negotiations without being overly pushy.
+4. **Group Messaging on LinkedIn:**
+   - Utilize group memberships to message individuals without connecting.
+   - Join relevant groups and engage with multiple members.
+
+5. **Strategic Company Connections:**
+   - Connect with employees at target companies for potential referrals.
+   - Prioritize targeted networking over a broad approach.
 
 
 ## Contract Work

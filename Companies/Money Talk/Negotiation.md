@@ -156,3 +156,13 @@ Nonetheless, the primary intent behind non-compete agreements is to restrict emp
     - In cases of difficulty reaching a number, consider dialing back slightly without compromising your value.
 
 **Note:** These strategies aim to guide effective negotiations, decision-making, and communication during the job-seeking process.
+
+
+
+
+4. **Negotiation Strategies:**
+   - Negotiate with flexibility and reinforce interest in working for the company.
+   - Avoid disclosing acceptance or rejection from other companies during negotiations.
+   - Leverage numbers strategically, providing a range and being transparent when finalizing details.
+   - Use phrases like "we are close" to indicate progress in negotiations without being overly pushy.
+

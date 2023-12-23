@@ -30,8 +30,14 @@ Typically involves READ/UPDATE functionality  which can be also considered as C
 
 <div style="background-color: grey; padding: 10px; border: 1px solid #ccc; color: black;"> 
 
+<p>
+<mark style="background: #FFF3A3A6;">A heuristic technique, or a heuristic, is any approach to problem solving or self-discovery that employs a practical method that is not guaranteed to be optimal, perfect, or rational, but is nevertheless sufficient for reaching an immediate, short-term goal or approximation. </mark>
+</p> 
+
+<p>
 <mark style="background: #BBFABBA6; font-weight: bold;">Prioritize VISUAL THINKING OVERALL and Talk through you thought have conversation while taking notes </mark>
- 
+</p> 
+
 <p>
 Talk about code Modularity instead of implementing focus on just creating a working solution and you can refactor or talk about refactoring after     
 </p> 
@@ -39,14 +45,26 @@ Talk about code Modularity instead of implementing focus on just creating a work
 <p>
 When thinking about Modularity think about which section of the code can be reused for other things  
 </p> 
-
-
 </div>
+
+> [!important]
+> Gen Options available
+> 
+>- Don't interrupting your interviewer when they are talking. Usually, if they speak, they are trying to give you hints or steer you in the right direction. 
+>- Be thoughtful with your questions, don't ask too many especially since you have limited time.
+>- Ask the interviewer to restate the question or repeat the question back at the interviewer this gives you time to think  
+>- If interviewer tells you to move on you can tell them wait I want to spend a little more time to think about things especially if you know or on something  
+>- You can ask to look at documentation like regex or general documentation for syntax since some methods take more parameters than you think 
+>- Never make assumptions about the input. Ask for help when unsure but try to communicate the steps in your process or the specific issue 
+>- If an interview will give you a harder question after you answer a question that's good they trying to see how high level are you
+
+
+
 
 #### <mark style="background: #BBFABBA6;">
 ⬇  Identify CRUD in the problem getting a better understanding of what is being asked before thinking about I/O 5 min or less: </mark>
 
-***Similar step to system design but after breaking down problem establish design scope***
+***Similar step in system design but after breaking down problem establish design scope***
 
 ## Focus on these interrogative pronouns  
 

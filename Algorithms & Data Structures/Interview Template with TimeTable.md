@@ -9,7 +9,7 @@ Relates:
 ---
 
 
-<mark style="background: #FFF3A3A6;">A ***heuristic*** technique, or a heuristic, is any approach to problem solving or self-discovery that employs a practical method that is not guaranteed to be optimal, perfect, or rational, but is nevertheless sufficient for reaching an immediate, short-term goal or approximation. </mark>
+
 
 ***<mark style="background: #BBFABBA6;">Prioritize VISUAL THINKING OVERALL and Talk through you thought have conversation while taking notes </mark>***
 

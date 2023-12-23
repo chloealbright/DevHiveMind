@@ -1,11 +1,12 @@
-
-TRUE <<mark style="background: #FFF3A3A6;">READ</mark>> FALSE 
-
-Pure Boolean check with UPDATES or no UPDATES needed in terms of what the question is asking but UPDATES can be included depending on the approach you come up with or if the question requires it. Also READ is doing some type of access so be aware of that when creating conditional logic because you optimize your READ  
-
-<mark style="background: #BBFABBA6;">CREATE < </mark><mark style="background: #ADCCFFA6;">UPDATE</mark><mark style="background: #FF5582A6;"> > DELETE </mark>
-
-Typically involves READ/UPDATE functionality  which can be also considered as CREATE/DELETE when it comes to UPDATE process and depending on the question and your approach can include CREATE and/or DELETE  
+---
+tags: 
+author:
+  - jacgit18
+Status: Refinement
+Started: 
+EditDate: 
+Relates:
+---
 
 
 <mark style="background: #FFF3A3A6;">A ***heuristic*** technique, or a heuristic, is any approach to problem solving or self-discovery that employs a practical method that is not guaranteed to be optimal, perfect, or rational, but is nevertheless sufficient for reaching an immediate, short-term goal or approximation. </mark>

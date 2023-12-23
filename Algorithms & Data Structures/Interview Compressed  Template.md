@@ -238,33 +238,22 @@ You don't need to code everything if you can mention there might be a cleaner or
 O(1) + O(n) = O(n) worst runtime takes president when adding up runtime 
 
 
-| Complexity  |    Constant     |     Logarithmic    |     Linear    |    Linearithmic     |   Quadratic         |    Exponential        |    Cubic        |       Factorial     |
-|-------------|-----------------|--------------------|---------------|---------------------|---------------------|-----------------------|-----------------|---------------------|
-| Notation    |   O(1)          |    O(log n)        |   O(n)        |   O(n log (n))     |    O(n^2)      |    O(2^n)       |           |    F       |    
-
-
-
-
-| Notation        | Complexity            |
-| --------------- | --------------------- |
-| O(1)            | Constant              |
-| O(log n)        | Logarithmic           |
-| O(n)            | Linear                |
-| O(n log(n))     | Linearithmic          |
-| O(n^2)          | Quadratic             |
-| O(2^n)          | Exponential           |
-| O(n^3)          | Cubic                 |
-| O(n!)           | Factorial             |
-
-
 
 > Excellent                                                         Worst
 
-O(1)         O(log n)                O(n)         O(n log(n))         O(n^2)    O(2^n)     O(n^3)    O(n!)  
 
-CONST > LOGARITHMIC > LINEAR > LINEARITITHMIC > QUAD > EXPON  > CUBE       > FACT 
 
-              binaySearch          sort/search    nested   recur           trip  
+| *Complexity*     | Constant | Logarithmic | Linear | Linearithmic | Quadratic | Exponential | Cubic  | Fact      |
+| -------------- | -------- | ----------- | ------ | ------------ | --------- | ----------- | ------ | --------- |
+| ***Notation***       | O(1)     | O(log n)    | O(n)   | O(n log (n)) | O(n^2)    | O(2^n)      | O(n^3) | O(n!)     |
+|                |          | binaySearch |        | sort/search  |           |             |        |           |
+| **Excellent**      |          |             |        |              |           |             |        | **Worst**     |
+
+
+
+
+
+              binaySearch              nested   recur           trip  
 
                   DivNConquer                       loop                     loop 
 

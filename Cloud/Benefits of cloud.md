@@ -6,9 +6,21 @@ Started:
 EditDate: 
 Relates:
 ---
-![[Service Types.jpg]]
-![[Service Types overlap.png]]
 
+
+
+```start-multi-column
+ID: ID_u
+Number of Columns: 2
+Largest Column: standard
+Border: disabled 
+```
+
+![Image 1](../_Images/Cloud/Service%20Types.jpg =300x20)
+
+--- column-end ---
+![[Service Types overlap.png]]
+--- end-multi-column
 
 
 It is **Elastic** adapting to changes in workload usually dynamically & for short term like maybe dealing with an increase in web traffic  

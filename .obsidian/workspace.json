@@ -13,7 +13,39 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Study Session.md",
+                "file": "Cloud/Benefits of cloud.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d9ed93e11f8c7c4c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_Images/Cloud/Service Types.jpg"
+              }
+            }
+          },
+          {
+            "id": "f8726f466a899ef6",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_Images/Database/Database requirement.png"
+              }
+            }
+          },
+          {
+            "id": "3b700c56c2ebbd50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Template/DB Stuff.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Study Session.md",
+                "file": "Cloud/Benefits of cloud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Study Session.md",
+                "file": "Cloud/Benefits of cloud.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Study Session.md"
+                "file": "Cloud/Benefits of cloud.md"
               }
             }
           },
@@ -247,13 +279,28 @@
   },
   "active": "98d4450972760e2d",
   "lastOpenFiles": [
-    "_Low Priority Refinement/Tech Things to Research.md",
+    "_Images/Cloud/Service Types.jpg",
+    "Cloud/Benefits of cloud.md",
+    "_Template/DB Stuff.md",
+    "_Images/Database/Database requirement.png",
+    "_Images/Database/Data jobs Skillsets.png",
+    "_Images/Database/Data jobs Pay.png",
+    "_Images/Database/Column Relatioships.png",
+    "_Images/Database/Data jobs Description.png",
+    "_Images/Database/Benefits of Managed DB.png",
+    "_Images/Database/Aws DB services.png",
+    "_Images/Database/Aggregation and Composition.png",
     "_Low Priority Refinement/Talking More Articulate Template.md",
+    "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md",
+    "_Low Priority Refinement/Glossary.md",
+    "_Low Priority Refinement/Dev Todo.md",
+    "_Low Priority Refinement/Data Project Idea.md",
+    "_Low Priority Refinement/Study Session.md",
+    "_Low Priority Refinement/Tech Things to Research.md",
     "_Low Priority Refinement/Be Aware.md",
     "Algorithms & Data Structures/Algorithms/Algorithms & Visual Abstraction.md",
     "Infographics/Architecture/Cache 3.jpeg",
     "Infographics/Architecture/Cache 2.jpeg",
-    "Infographics/Architecture/Cache 1.jpeg",
     "Algorithms & Data Structures/Coding Interview Tips.md",
     "Algorithms & Data Structures/Algo pathway.md",
     "Language/Typescript/Syntactic Sugar.md",
@@ -269,23 +316,8 @@
     "Algorithms & Data Structures/Spacetime Complexity.md",
     "Algorithms & Data Structures/Abstract Data Types.md",
     "_Low Priority Refinement/Obsidian Understanding its Core Design Principles  by TfTHacker  Obsidian Observer  Medium.md",
-    "_Low Priority Refinement/My Obsidian Setup — My Notes and My Theme settings  by Nuno Campos  Obsidian Observer  Apr, 2023  Medium.md",
-    "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md",
-    "Testing/Software Development Engineer in Test.md",
-    "Language Overlap/Automation.md",
-    "Infographics/API/API Architectural Styles.gif",
-    "Companies/Tech company hiring cycle & Hustle.md",
-    "Companies/Interview/Recruiter First Conversation.md",
-    "Companies/Interview/Maintain Relationship.md",
-    "Companies/Interview/Company Stability.md",
     "Algorithms & Data Structures/Patterns",
-    "Infographics/Redis persist data.gif",
-    "Mind Maps/Untitled Diagram.svg",
     "Mind Maps/12 Factor App Docker.canvas",
-    "Mind Maps/UML/Class Cases Robust P1.svg",
-    "Mind Maps/UML/UML Monitor Project.png",
-    "Mind Maps/UML/Requirement life cycle.svg",
-    "Mind Maps/UML/Park Alert Activity Diagram.svg",
     "Mind Maps/UML",
     "Language Overlap/Tools",
     "Architecture/Methodology/Twelve Factor App Official Description",

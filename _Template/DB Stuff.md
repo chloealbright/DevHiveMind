@@ -15,6 +15,13 @@ https://blog.bytebytego.com/
 
 
 
+| ![Image 1](../_Images/Database/Database%20requirement.png)| <img src="https://i.imgur.com/vGJ8bhw.png" alt="Image 2" width="300" height="200"> |
+|:------------------------------------------------------------:|:------------------------------------------------------------:|
+|                      Priority                      |                      Picking DB                       |
+
+
+
+
 ```start-multi-column
 ID: ID_unjj
 Number of Columns: 2

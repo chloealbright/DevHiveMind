@@ -8,7 +8,7 @@ EditDate:
 Relates:
 ---
 ```javascript
-reateStore = redux.createStore
+createStore = redux.createStore
 
 applymiddleware = redux.applymiddleware
 

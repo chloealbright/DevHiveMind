@@ -246,17 +246,9 @@ O(1) + O(n) = O(n) worst runtime takes president when adding up runtime 
 | *Complexity*     | Constant | Logarithmic | Linear | Linearithmic | Quadratic | Exponential | Cubic  | Fact      |
 | -------------- | -------- | ----------- | ------ | ------------ | --------- | ----------- | ------ | --------- |
 | ***Notation***       | O(1)     | O(log n)    | O(n)   | O(n log (n)) | O(n^2)    | O(2^n)      | O(n^3) | O(n!)     |
-|                |          | binaySearch |        | sort/search  |           |             |        |           |
-| **Excellent**      |          |             |        |              |           |             |        | **Worst**     |
-
-
-
-
-
-              binaySearch              nested   recur           trip  
-
-                  DivNConquer                       loop                     loop 
-
+|                |          | binaySearch |        | sort/search  | nestedLoop| recur       |tripLoop|           |
+|                |          | DivNConquer |        |              |           |             |        |           |
+ 
 ***In System design you would propose high-level design within 10 to 15 min then talk more depth about the system for 10 to 25 minutes or so and wrap up in 3 to 5 minutes  ***
 
 
@@ -267,21 +259,18 @@ When optimizing identify BUD and think about BIG O Processes like Access, Search
 
 And the data Structures associated with them  basically doing a Data Structure Brainstorm also think about past problems that may be similar  
 
--    If stuck, think about related problems you have seen before and how they were solved. 
-    
+- If stuck, think about related problems you have seen before and how they were solved. 
 
--   If you have to explain a lot of stuff and steps about your code you should probably change your approach. Also If you can't think of naïve approach do a BruteForce or If you have a naïve maybe talk through a BruteForce initially. 
-    
+- If you have to explain a lot of stuff and steps about your code you should probably change your approach. Also If you can't think of naïve approach do a BruteForce or If you have a naïve maybe talk through a BruteForce initially. 
 
--   Solve a simpler version of the problem. Remove or simplify one of the requirements of the problem. Once you have a solution, see if you can adapt that approach for the original question. 
-    
 
--   Solve problem "incorrectly" and then think about why the algorithm fails. Can you fix those issues?   
-    
+- Solve a simpler version of the problem. Remove or simplify one of the requirements of the problem. Once you have a solution, see if you can adapt that approach for the original question. 
 
--   Look for any unused info.  
-    
+- Solve problem "incorrectly" and then think about why the algorithm fails. Can you fix those issues?   
 
--   Start with an inefficient solution. Even if it feels stupidly inefficient, it’s often helpful to start with something that’ll return the right answer. From there, you just have to optimize your solution. Explain to your interviewer that this is only your first idea, and that you suspect there are faster solutions.  
+- Look for any unused info.  
+
+
+- Start with an inefficient solution. Even if it feels stupidly inefficient, it’s often helpful to start with something that’ll return the right answer. From there, you just have to optimize your solution. Explain to your interviewer that this is only your first idea, and that you suspect there are faster solutions.  
 
 

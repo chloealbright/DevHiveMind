@@ -3,8 +3,9 @@ tags:
   - systemDesign
   - parallelProcesses
   - concurrency
-author: jacgit18
-Status: done
+author:
+  - jacgit18
+Status: Done
 Started: 
 EditDate: 
 Relates: "[[Messaging systems]]"

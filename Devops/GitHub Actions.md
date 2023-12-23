@@ -7,35 +7,18 @@ Started:
 EditDate: 
 Relates:
 ---
-GitHub Actions work on a basis of workflows. A workflow is a series of jobs that are run when a certain triggering event happens. The jobs that are run then themselves contain instructions for what GitHub Actions should do. 
+GitHub Actions operate on the foundation of workflows, which are sequences of jobs triggered by specific events. These jobs contain explicit instructions for GitHub Actions to execute. Typically, a workflow unfolds as follows:
 
-A typical execution of a workflow looks like this: 
+1. A triggering event occurs, such as a push to the main branch.
+2. The associated workflow is executed.
+3. Cleanup processes are undertaken.
 
-	Triggering event happens (for example, there is a push to the main branch). 
-	
-	The workflow with that trigger is executed. 
-	
-	Cleanup
+For effective Continuous Integration (CI) in a repository, several basic requirements must be met:
 
+- The existence of a repository.
+- Specification of CI tasks, either within the repository or defined in the CI system.
+- Awareness of the repository and its content by the CI.
+- Accessible permissions for the CI to interact with the repository.
+- Necessary credentials for the CI to perform designated actions, such as deploying to a production environment.
 
-
-
-Basic needs 
-
-In general, to have CI operate on a repository, we need a few things: 
-
-	A repository (obviously) 
-	
-	Some definition of what the CI needs to do: This can be in the form of a specific file inside the repository or it can be defined in the CI system 
-	
-	The CI needs to be aware that the repository (and the file within it) exist 
-	
-	The CI needs to be able to access the repository 
-	
-	The CI needs permissions to perform the actions it is supposed to be able to do: For example, if  
-	
-	the CI needs to be able to deploy to a production environment, it needs credentials for that environment. 
-
-That's the traditional model at least, we'll see in a minute how GitHub Actions short-circuit some of these steps or rather make it such that you don't have to worry about them! 
-
-GitHub Actions have a great advantage over self-hosted solutions: the repository is hosted with the CI provider. In other words, Github provides both the repository and the CI platform. This means that if we've enabled actions for a repository, GitHub is already aware of the fact that we have workflows defined and what those definitions look like.
+GitHub Actions present a notable advantage over self-hosted solutions because both the repository and the CI platform are hosted by GitHub. This integration streamlines the process, as GitHub is already cognizant of defined workflows and their configurations when Actions are enabled for a repository.

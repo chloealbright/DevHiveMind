@@ -7,10 +7,6 @@ Started:
 EditDate: 
 Relates:
 ---
-
-
-
-
 #### Overview of Build Automation 
 
 ### Background 
@@ -32,10 +28,10 @@ An Enterprise’s goal with build automation is to recreate the entire productio
 There are several benefits Enterprises can gain by utilizing build automation.  These include: 
 
 -   Increased productivity so developers can focus on delivering more value. 
-    
+
 -   Improvements in quality because issues are found and resolved faster. 
-    
+
 -   Maintains a historical record for investigating issues. 
-    
+  
 
 The aforementioned benefits lead to the ultimate benefits of saving time and money.

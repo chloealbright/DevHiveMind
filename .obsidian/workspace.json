@@ -4,54 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "c51428faeee54585",
+        "id": "444e67639859e493",
         "type": "tabs",
         "children": [
           {
-            "id": "98d4450972760e2d",
+            "id": "d31232f38317d442",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud/Benefits of cloud.md",
+                "file": "Devops/Docker/Docker and kubernetes.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d9ed93e11f8c7c4c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/Cloud/Service Types.jpg"
-              }
-            }
-          },
-          {
-            "id": "f8726f466a899ef6",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/Database/Database requirement.png"
-              }
-            }
-          },
-          {
-            "id": "3b700c56c2ebbd50",
+            "id": "a8759f4eafb4ea48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Template/DB Stuff.md",
+                "file": "Devops/Docker/Docker Compose and Dockerfile.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8398fede3436c6ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Framework/Consumers and Producers.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -133,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud/Benefits of cloud.md",
+                "file": "Framework/Consumers and Producers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cloud/Benefits of cloud.md",
+                "file": "Framework/Consumers and Producers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cloud/Benefits of cloud.md"
+                "file": "Framework/Consumers and Producers.md"
               }
             }
           },
@@ -277,12 +270,38 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "98d4450972760e2d",
+  "active": "8398fede3436c6ba",
   "lastOpenFiles": [
-    "_Images/Cloud/Service Types.jpg",
-    "Cloud/Benefits of cloud.md",
-    "_Template/DB Stuff.md",
+    "Framework/Frontend/Next.js.md",
+    "Framework/Backend/Springboot.md",
+    "Framework/Backend/Express.js.md",
+    "Framework/Backend/Apache vs Tomcat.md",
+    "Devops/Docker/Shim.md",
+    "Devops/Docker/Open Container Initiative.md",
+    "Devops/Docker/Dockerd and Containerd.md",
+    "Devops/Docker/Docker volumes.md",
+    "Devops/Docker/Docker Tidbits.md",
+    "Devops/Docker/Docker networks.md",
+    "Devops/Docker/Docker Namespace in Deph.md",
+    "Devops/Docker/Docker Images containers Volumes.md",
+    "Devops/Docker/Docker Entrypoint and CMD.md",
+    "Devops/Docker/Docker Compose and Dockerfile.md",
+    "Devops/Docker/Docker and kubernetes.md",
+    "_Low Priority Refinement/Devops",
+    "Devops/Build/Overview of Build Automation.md",
+    "Devops/Continuous Deployment.md",
+    "Devops/Continuous Integration.md",
+    "Devops/Deployment artifacts.md",
+    "Devops/Deployment Patterns.md",
+    "Devops/GitHub Actions.md",
+    "Devops/Hypervisors.md",
+    "Devops/Stages.md",
+    "Devops/Terraform.md",
+    "Devops/Test Automation.md",
+    "Databases/Which normalization to pick.md",
     "_Images/Database/Database requirement.png",
+    "_Images/Cloud/Service Types overlap.png",
+    "_Images/Cloud/Service Types.jpg",
     "_Images/Database/Data jobs Skillsets.png",
     "_Images/Database/Data jobs Pay.png",
     "_Images/Database/Column Relatioships.png",
@@ -290,32 +309,7 @@
     "_Images/Database/Benefits of Managed DB.png",
     "_Images/Database/Aws DB services.png",
     "_Images/Database/Aggregation and Composition.png",
-    "_Low Priority Refinement/Talking More Articulate Template.md",
-    "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md",
-    "_Low Priority Refinement/Glossary.md",
-    "_Low Priority Refinement/Dev Todo.md",
-    "_Low Priority Refinement/Data Project Idea.md",
-    "_Low Priority Refinement/Study Session.md",
-    "_Low Priority Refinement/Tech Things to Research.md",
-    "_Low Priority Refinement/Be Aware.md",
-    "Algorithms & Data Structures/Algorithms/Algorithms & Visual Abstraction.md",
-    "Infographics/Architecture/Cache 3.jpeg",
-    "Infographics/Architecture/Cache 2.jpeg",
-    "Algorithms & Data Structures/Coding Interview Tips.md",
-    "Algorithms & Data Structures/Algo pathway.md",
-    "Language/Typescript/Syntactic Sugar.md",
-    "Language/Typescript/Debounce vs Throttle event listening performance.md",
-    "Language/Typescript/Javascript.md",
-    "Algorithms & Data Structures/AlgoFlow.md",
     "Mind Maps/Redux Map.canvas",
-    "Library/Frontend/Redux/Base/Redux High level.md",
-    "Algorithms & Data Structures/Interview Template with Time Table.md",
-    "Algorithms & Data Structures/Interview Template with Time Table.md",
-    "Algorithms & Data Structures/Interview Compressed  Template 1.md",
-    "Home.md",
-    "Algorithms & Data Structures/Spacetime Complexity.md",
-    "Algorithms & Data Structures/Abstract Data Types.md",
-    "_Low Priority Refinement/Obsidian Understanding its Core Design Principles  by TfTHacker  Obsidian Observer  Medium.md",
     "Algorithms & Data Structures/Patterns",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/UML",
@@ -326,7 +320,6 @@
     "Architecture/Methodology",
     "Architecture/Design Patterns Layers.pdf",
     "AI & Chatgpt/prompts/Fin",
-    "Mind Maps/Drafts/UML/to edit/Layer to package diagram.drawio",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Testing.canvas",

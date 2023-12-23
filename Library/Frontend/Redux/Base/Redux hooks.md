@@ -8,6 +8,7 @@ EditDate:
 Relates:
 ---
 ```javascript
+// Alternate approach with Hooks
 
 // doesn't vary when working with redux toolkit more of react-redux sharing state with react
 

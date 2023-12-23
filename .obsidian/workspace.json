@@ -4,21 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "c6bd305bd3f738f2",
+        "id": "c51428faeee54585",
         "type": "tabs",
         "children": [
           {
-            "id": "d8bc6c1dcd774252",
+            "id": "98d4450972760e2d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Mind Maps/Redux Map.canvas",
-                "viewState": {
-                  "x": 1408.4280862967012,
-                  "y": -976.8550253660601,
-                  "zoom": -0.3959861079784066
-                }
+                "file": "_Low Priority Refinement/Study Session.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -51,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "serial",
+                "query": "abstraction",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5,
-    "collapsed": true
+    "width": 319.5
   },
   "right": {
     "id": "eef3a19b1c6d3fd3",
@@ -105,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mind Maps/Redux Map.canvas",
+                "file": "_Low Priority Refinement/Study Session.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mind Maps/Redux Map.canvas",
+                "file": "_Low Priority Refinement/Study Session.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mind Maps/Redux Map.canvas"
+                "file": "_Low Priority Refinement/Study Session.md"
               }
             }
           },
@@ -190,7 +186,7 @@
             }
           },
           {
-            "id": "2abe48da7efa3735",
+            "id": "e6c5516733d7d2c5",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -249,18 +245,29 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d8bc6c1dcd774252",
+  "active": "98d4450972760e2d",
   "lastOpenFiles": [
-    "Library/Frontend/Redux/Base/Redux High level.md",
+    "_Low Priority Refinement/Tech Things to Research.md",
+    "_Low Priority Refinement/Talking More Articulate Template.md",
+    "_Low Priority Refinement/Be Aware.md",
+    "Algorithms & Data Structures/Algorithms/Algorithms & Visual Abstraction.md",
+    "Infographics/Architecture/Cache 3.jpeg",
+    "Infographics/Architecture/Cache 2.jpeg",
+    "Infographics/Architecture/Cache 1.jpeg",
+    "Algorithms & Data Structures/Coding Interview Tips.md",
+    "Algorithms & Data Structures/Algo pathway.md",
+    "Language/Typescript/Syntactic Sugar.md",
+    "Language/Typescript/Debounce vs Throttle event listening performance.md",
+    "Language/Typescript/Javascript.md",
+    "Algorithms & Data Structures/AlgoFlow.md",
     "Mind Maps/Redux Map.canvas",
+    "Library/Frontend/Redux/Base/Redux High level.md",
     "Algorithms & Data Structures/Interview Template with Time Table.md",
     "Algorithms & Data Structures/Interview Template with Time Table.md",
     "Algorithms & Data Structures/Interview Compressed  Template 1.md",
     "Home.md",
-    "Algorithms & Data Structures/Coding Interview Tips.md",
     "Algorithms & Data Structures/Spacetime Complexity.md",
     "Algorithms & Data Structures/Abstract Data Types.md",
-    "_Low Priority Refinement/Talking More Articulate Template.md",
     "_Low Priority Refinement/Obsidian Understanding its Core Design Principles  by TfTHacker  Obsidian Observer  Medium.md",
     "_Low Priority Refinement/My Obsidian Setup — My Notes and My Theme settings  by Nuno Campos  Obsidian Observer  Apr, 2023  Medium.md",
     "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md",
@@ -271,14 +278,6 @@
     "Companies/Interview/Recruiter First Conversation.md",
     "Companies/Interview/Maintain Relationship.md",
     "Companies/Interview/Company Stability.md",
-    "Companies/General Dev Issues.md",
-    "Companies/Culture/Navigating Work Dynamics.md",
-    "Companies/Contribution Metrics.md",
-    "Companies/12 Key Metrics for Measuring Service Performance.md",
-    "Algorithms & Data Structures/Patterns/Knapsack Pattern.md",
-    "Algorithms & Data Structures/Patterns/Key Base Attributes of  Grokking Algorithm patterns.md",
-    "Algorithms & Data Structures/Patterns/Depth First Search & Breadth-First Search.md",
-    "Algorithms & Data Structures/Patterns/Binary search 101.md",
     "Algorithms & Data Structures/Patterns",
     "Infographics/Redis persist data.gif",
     "Mind Maps/Untitled Diagram.svg",
@@ -287,9 +286,6 @@
     "Mind Maps/UML/UML Monitor Project.png",
     "Mind Maps/UML/Requirement life cycle.svg",
     "Mind Maps/UML/Park Alert Activity Diagram.svg",
-    "Mind Maps/UML/Package Diagram with classes.svg",
-    "Mind Maps/UML/Package Diagram with No-classes.svg",
-    "Mind Maps/UML/Lucidchart App Map.svg",
     "Mind Maps/UML",
     "Language Overlap/Tools",
     "Architecture/Methodology/Twelve Factor App Official Description",

@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Model Patterns.md",
+                "file": "_Low Priority Refinement/Talking More Articulate Template.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Model Patterns.md",
+                "file": "_Low Priority Refinement/Talking More Articulate Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Model Patterns.md",
+                "file": "_Low Priority Refinement/Talking More Articulate Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Model Patterns.md"
+                "file": "_Low Priority Refinement/Talking More Articulate Template.md"
               }
             }
           },
@@ -258,8 +258,10 @@
   },
   "active": "02915ce71b1d8d5e",
   "lastOpenFiles": [
-    "Architecture/Clean Code Approach Reflection.md",
+    "_Low Priority Refinement/Data Project Idea.md",
+    "_Low Priority Refinement/Be Aware.md",
     "Architecture/Model Patterns.md",
+    "Architecture/Clean Code Approach Reflection.md",
     "Architecture/Chaos Engineering.md",
     "Infographics/Architecture/Model Patterns.gif",
     "Infographics/Databases/ACID.gif",
@@ -293,8 +295,6 @@
     "Framework/Reactive programming.md",
     "_Low Priority Refinement/Language",
     "Framework/Reactive.md",
-    "Framework/JavaScript ecosystem event-driven and reactive programming.md",
-    "Framework/Consumers and Producers.md",
     "_Low Priority Refinement/Devops",
     "Mind Maps/Redux Map.canvas",
     "Algorithms & Data Structures/Patterns",

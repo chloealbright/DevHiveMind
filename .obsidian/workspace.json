@@ -11,26 +11,15 @@
             "id": "7bad3fc3343e7d53",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Infographics/Architecture/Model Patterns.gif"
-              }
-            }
-          },
-          {
-            "id": "02915ce71b1d8d5e",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Talking More Articulate Template.md",
+                "file": "Web/Proxy.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Talking More Articulate Template.md",
+                "file": "Web/Proxy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Talking More Articulate Template.md",
+                "file": "Web/Proxy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Talking More Articulate Template.md"
+                "file": "Web/Proxy.md"
               }
             }
           },
@@ -256,8 +245,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "02915ce71b1d8d5e",
+  "active": "7bad3fc3343e7d53",
   "lastOpenFiles": [
+    "Home.md",
     "_Low Priority Refinement/Data Project Idea.md",
     "_Low Priority Refinement/Be Aware.md",
     "Architecture/Model Patterns.md",
@@ -273,7 +263,6 @@
     "Infographics/Databases/Execution Order.jpg",
     "Infographics/Databases/Sql Exe Order.gif",
     "Infographics/Databases/Types of DB.jpg",
-    "Home.md",
     "Open Source/Syncthing Obsidian.md",
     "Library/Backend/ZooKeeper.md",
     "Library/Backend/Eureka service.md",

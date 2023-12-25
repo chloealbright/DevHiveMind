@@ -78,21 +78,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3f3b04ac32c26c36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Application & Web Server.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "0bed0f4266ab77fd",
@@ -217,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Application & Web Server.md",
+                "file": "_Low Priority Refinement/Database/Relationships/Table Relationships.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Application & Web Server.md",
+                "file": "_Low Priority Refinement/Database/Relationships/Table Relationships.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Application & Web Server.md"
+                "file": "_Low Priority Refinement/Database/Relationships/Table Relationships.md"
               }
             }
           },
@@ -361,10 +349,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3f3b04ac32c26c36",
+  "active": "6172f2a104b7fe31",
   "lastOpenFiles": [
-    "Web/Common Response Status Codes.md",
     "Web/Application & Web Server.md",
+    "Web/Common Response Status Codes.md",
     "Architecture/Servers.md",
     "Architecture/Circuit breaker pattern relationship with fault tolerance.md",
     "Architecture/Boxing and Unboxing.md",

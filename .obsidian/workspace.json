@@ -66,9 +66,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6172f2a104b7fe31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Low Priority Refinement/Database/Relationships/Table Relationships.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f3b04ac32c26c36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Low Priority Refinement/Database/DBMS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       },
       {
         "id": "0bed0f4266ab77fd",
@@ -173,8 +197,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
+                "file": "_Low Priority Refinement/Database/DBMS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
+                "file": "_Low Priority Refinement/Database/DBMS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md"
+                "file": "_Low Priority Refinement/Database/DBMS.md"
               }
             }
           },
@@ -338,14 +361,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6693af7d125374ec",
+  "active": "3f3b04ac32c26c36",
   "lastOpenFiles": [
+    "_Low Priority Refinement/Database/Relationships/Table Relationships.md",
+    "Architecture/MVC Pattern.md",
+    "_Low Priority Refinement/Database/Relationships/SQL Table Structure.md",
+    "_Low Priority Refinement/Database/Relationships/Relationship Reading.md",
+    "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
     "Library/Frontend/Redux/Base/Async api in redux with promise instead of async await.md",
     "Language/Typescript/Async vs Defer how JavaScript is loaded.md",
     "_NoteAssets/Markdown to use.md",
     "Language Overlap/Synchronous  vs Asynchronous vs  Multiprocessing.md",
-    "Architecture/MVC Pattern.md",
-    "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
     "Companies/Companies Worked At/Tracflo/Tracflo & Construction Industry.md",
     "Companies/Companies Worked At/Tracflo/Personally Developed Tracflo Feature Statistics.md",
     "Companies/Companies Worked At/Tracflo/Construction Industry and Data Dynamics.md",
@@ -365,9 +391,6 @@
     "Architecture/Design Patterns.md",
     "Dev Roadmaps By Priority.md",
     "Home.md",
-    "_Low Priority Refinement/Data Project Idea.md",
-    "_Low Priority Refinement/Be Aware.md",
-    "Architecture/Clean Code Approach Reflection.md",
     "Infographics/Databases/ACID.gif",
     "Infographics/Architecture/Model Patterns.jpeg",
     "Infographics/Databases/Database & Data Structrues.jpg",

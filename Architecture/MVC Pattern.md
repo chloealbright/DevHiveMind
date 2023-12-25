@@ -154,24 +154,6 @@ route: '/:company_id/project/:project_id/letter/:id',  // arbritary val 
 When strin matches route can be reasigned values but they are essential unassigned vairiable names to be references but not connected to anything
 
 
-### Be aware of Database table relationshapes when coding buisness logic 
-
-
-**// only subs have crew in the context of a company  
-
-but crew can be  but admin in other companies  
-
-include anything not null-able in fixture  
-
-certain companies dont have equipement or materals  
-
-jjc has equip 
-
-create runtime link from data struc to each data struc section 
-
-need level of detail from project team to formulate business logic 
-
-if you res send and dont add return after it will continue and run other lines of code in your function**
 
 
 

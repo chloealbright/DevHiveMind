@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Database/DBMS.md",
+                "file": "Architecture/Servers.md",
                 "mode": "source",
                 "source": false
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Database/DBMS.md",
+                "file": "Architecture/Servers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Database/DBMS.md",
+                "file": "Architecture/Servers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Database/DBMS.md"
+                "file": "Architecture/Servers.md"
               }
             }
           },
@@ -363,6 +363,10 @@
   },
   "active": "3f3b04ac32c26c36",
   "lastOpenFiles": [
+    "Architecture/Circuit breaker pattern relationship with fault tolerance.md",
+    "Architecture/Servers.md",
+    "Architecture/Boxing and Unboxing.md",
+    "_Low Priority Refinement/Database/DBMS.md",
     "_Low Priority Refinement/Database/Relationships/Table Relationships.md",
     "Architecture/MVC Pattern.md",
     "_Low Priority Refinement/Database/Relationships/SQL Table Structure.md",
@@ -387,10 +391,6 @@
     "Architecture/Project Structure.md",
     "Architecture/POt Struc.md",
     "Architecture/Design Patterns Layers.pdf",
-    "Architecture/Design Patterns Diagrams.md",
-    "Architecture/Design Patterns.md",
-    "Dev Roadmaps By Priority.md",
-    "Home.md",
     "Infographics/Databases/ACID.gif",
     "Infographics/Architecture/Model Patterns.jpeg",
     "Infographics/Databases/Database & Data Structrues.jpg",

@@ -13,13 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Companies/Companies Worked At/Tracflo/Business Requirements Thought Experiment.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ab6edb157b3d2fe4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Companies Worked At/Tracflo/Construction Industry and Data Dynamics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bb9faddeca50818d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Companies Worked At/Tracflo/Personally Developed Tracflo Feature Statistics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "348660aec63173b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Companies Worked At/Tracflo/Tracflo & Construction Industry.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6693af7d125374ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "0bed0f4266ab77fd",
@@ -60,21 +109,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "262bd5896f228931",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/General Dev Issues.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -300,14 +337,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b8bd2b87ba65fad2",
+  "active": "6693af7d125374ec",
   "lastOpenFiles": [
+    "Companies/Companies Worked At/Tracflo/Tracflo & Construction Industry.md",
+    "Companies/Companies Worked At/Tracflo/Personally Developed Tracflo Feature Statistics.md",
+    "Companies/Companies Worked At/Tracflo/Construction Industry and Data Dynamics.md",
+    "Companies/Companies Worked At/Tracflo/Business Requirements Thought Experiment.md",
+    "Companies/Companies Worked At/TD/TD Bank Lesson.md",
+    "Architecture/MVC Pattern.md",
+    "Architecture/Model Patterns.md",
+    "Architecture/MVVM.md",
+    "Architecture/Patterns & Infashstructure learning plan.md",
     "Companies/General Dev Issues.md",
     "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
-    "Architecture/Patterns & Infashstructure learning plan.md",
-    "Architecture/Model Patterns.md",
-    "Architecture/MVC Pattern.md",
-    "Architecture/MVVM.md",
     "Infographics/Architecture/Model Patterns.gif",
     "Architecture/Software Architecture vs System Design.md",
     "Architecture/Software Architectural Patterns.md",
@@ -334,11 +376,6 @@
     "Open Source/Syncthing Obsidian.md",
     "Library/Backend/ZooKeeper.md",
     "Library/Backend/Eureka service.md",
-    "Library/Backend/Apache Kafka.md",
-    "Library/Repository manager.md",
-    "Language/Static Method Reference.md",
-    "Language/Programming paradigms.md",
-    "Language/Domain-specific programming languages.md",
     "_Low Priority Refinement/Language",
     "_Low Priority Refinement/Devops",
     "Mind Maps/Redux Map.canvas",

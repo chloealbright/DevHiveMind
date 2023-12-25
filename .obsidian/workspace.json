@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "262bd5896f228931",
+            "id": "b8bd2b87ba65fad2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Patterns & Infashstructure learning plan.md",
+                "file": "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,14 +26,55 @@
         "type": "tabs",
         "children": [
           {
+            "id": "f74eb38be0b01113",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Model Patterns.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4aa54327334074ec",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/MVC Pattern.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "51a24c8d512d01d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/MVVM.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "262bd5896f228931",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/General Dev Issues.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -115,6 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,6 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +195,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md"
+              }
             }
           },
           {
@@ -255,17 +300,28 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4aa54327334074ec",
+  "active": "b8bd2b87ba65fad2",
   "lastOpenFiles": [
+    "Companies/General Dev Issues.md",
+    "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
     "Architecture/Patterns & Infashstructure learning plan.md",
+    "Architecture/Model Patterns.md",
+    "Architecture/MVC Pattern.md",
+    "Architecture/MVVM.md",
+    "Infographics/Architecture/Model Patterns.gif",
+    "Architecture/Software Architecture vs System Design.md",
+    "Architecture/Software Architectural Patterns.md",
+    "Architecture/Project Structure.md",
+    "Architecture/POt Struc.md",
+    "Architecture/Design Patterns Layers.pdf",
+    "Architecture/Design Patterns Diagrams.md",
+    "Architecture/Design Patterns.md",
     "Dev Roadmaps By Priority.md",
     "Home.md",
     "_Low Priority Refinement/Data Project Idea.md",
     "_Low Priority Refinement/Be Aware.md",
-    "Architecture/Model Patterns.md",
     "Architecture/Clean Code Approach Reflection.md",
     "Architecture/Chaos Engineering.md",
-    "Infographics/Architecture/Model Patterns.gif",
     "Infographics/Databases/ACID.gif",
     "Infographics/Architecture/Model Patterns.jpeg",
     "Infographics/Databases/Database & Data Structrues.jpg",
@@ -283,16 +339,6 @@
     "Language/Static Method Reference.md",
     "Language/Programming paradigms.md",
     "Language/Domain-specific programming languages.md",
-    "_Low Priority Refinement/Language/Flutter/Setup.md",
-    "_Low Priority Refinement/Language/C++/C++ Explained.md",
-    "_Low Priority Refinement/Language/C/C Explained.md",
-    "Language/_Build Tool/Maven.md",
-    "Language/_Build Tool/Make.md",
-    "Language/_Build Tool/Javascript Build.md",
-    "Language/_Build Tool/Gradle.md",
-    "Language/_Build Tool/Build Tools.md",
-    "Language/_Build Tool/Build.md",
-    "Language/_Build Tool/Ant.md",
     "_Low Priority Refinement/Language",
     "_Low Priority Refinement/Devops",
     "Mind Maps/Redux Map.canvas",
@@ -304,7 +350,6 @@
     "Architecture/Methodology/Docker Twelve Factors App",
     "Architecture/Methodology/Admin functionality God Mode",
     "Architecture/Methodology",
-    "Architecture/Design Patterns Layers.pdf",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Testing.canvas",

@@ -15,7 +15,7 @@ Asynchronous - the relationship between two or more events/objects that do inter
 
 Asynchronous makes a request and leaves a callback function to handle the result and trigger some type of event that can be handled 
 
-
+In web development, it's commonly associated with actions requiring waiting for responses from other machines. Concurrency plays a significant role, though Node operates as a single thread, leveraging Express.js to manage multiple requests in the background. While browsers exhibit some concurrency, control is limited unless employing tools like web workers. The dynamics shift when designing scripts, data processing, or low-level code, where concurrency becomes a fundamental approach.
 
 
 What's the difference between synchronous and asynchronous programming?

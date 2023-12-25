@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Servers.md",
+                "file": "Web/Application & Web Server.md",
                 "mode": "source",
                 "source": false
               }
@@ -217,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Servers.md",
+                "file": "Web/Application & Web Server.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Servers.md",
+                "file": "Web/Application & Web Server.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -257,7 +257,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Servers.md"
+                "file": "Web/Application & Web Server.md"
               }
             }
           },
@@ -363,8 +363,10 @@
   },
   "active": "3f3b04ac32c26c36",
   "lastOpenFiles": [
-    "Architecture/Circuit breaker pattern relationship with fault tolerance.md",
+    "Web/Common Response Status Codes.md",
+    "Web/Application & Web Server.md",
     "Architecture/Servers.md",
+    "Architecture/Circuit breaker pattern relationship with fault tolerance.md",
     "Architecture/Boxing and Unboxing.md",
     "_Low Priority Refinement/Database/DBMS.md",
     "_Low Priority Refinement/Database/Relationships/Table Relationships.md",
@@ -388,8 +390,6 @@
     "Infographics/Architecture/Model Patterns.gif",
     "Architecture/Software Architecture vs System Design.md",
     "Architecture/Software Architectural Patterns.md",
-    "Architecture/Project Structure.md",
-    "Architecture/POt Struc.md",
     "Architecture/Design Patterns Layers.pdf",
     "Infographics/Databases/ACID.gif",
     "Infographics/Architecture/Model Patterns.jpeg",

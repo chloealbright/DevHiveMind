@@ -8,31 +8,10 @@ EditDate:
 Relates:
 ---
 
-Tracflo code
 
-async is a larger concept within computer science, there’s a lot of literature about it
-
-
-in web development, it’s typically for actions where you need to wait for a response from another machine
-
-New
+In computer science, async is a broad concept with abundant literature. In web development, it's commonly associated with actions requiring waiting for responses from other machines. Concurrency plays a significant role, though Node operates as a single thread, leveraging Express.js to manage multiple requests in the background. While browsers exhibit some concurrency, control is limited unless employing tools like web workers. The dynamics shift when designing scripts, data processing, or low-level code, where concurrency becomes a fundamental approach.
 
 
-there are definitely other scenarios, concurrency is a big one. however, node is single thread, with expressjs handling multiple requests on multiple threads in the background
-
-
-however, from the perspective of a single thread, there isnt much concurrency
-
-
-there is some concurrency in browsers, but not much that we have control over, unless you’re using web workers or something
-
-
-its totally different if you design scripts / data processing, or extremely low level code where concurrency is the way you do things
-
-
-
-
-psql postgres -U postgres -c "DROP DATABASE tracflo_test" ; psql postgres -U postgres -c "CREATE DATABASE tracflo_test" && export FOR_TESTING=y && npx knex migrate:latest ^2c8352
 
 
 // import uuid regex .test(testCompanyId) generate uuid in test file 

@@ -41,7 +41,7 @@ And all open tabs
 
 
 <mark style="background: #FFF3A3A6;">embed content use with code snippets move code to code snip folder and embed also you can link git hub repo to code snip and embed that way maybe</mark>
-![[MVC Pattern#^2c8352]]
+
 
 ^^ lets you pick anything 
 

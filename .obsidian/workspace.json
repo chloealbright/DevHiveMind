@@ -4,19 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "db74ad8e3ee07413",
+        "id": "a47267724d48ba87",
         "type": "tabs",
         "children": [
           {
-            "id": "7bad3fc3343e7d53",
+            "id": "262bd5896f228931",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Proxy.md",
+                "file": "Architecture/Patterns & Infashstructure learning plan.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "0bed0f4266ab77fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4aa54327334074ec",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -101,7 +115,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Proxy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +131,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Proxy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +152,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Web/Proxy.md"
-              }
+              "state": {}
             }
           },
           {
@@ -245,8 +255,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7bad3fc3343e7d53",
+  "active": "4aa54327334074ec",
   "lastOpenFiles": [
+    "Architecture/Patterns & Infashstructure learning plan.md",
+    "Dev Roadmaps By Priority.md",
     "Home.md",
     "_Low Priority Refinement/Data Project Idea.md",
     "_Low Priority Refinement/Be Aware.md",
@@ -281,9 +293,7 @@
     "Language/_Build Tool/Build Tools.md",
     "Language/_Build Tool/Build.md",
     "Language/_Build Tool/Ant.md",
-    "Framework/Reactive programming.md",
     "_Low Priority Refinement/Language",
-    "Framework/Reactive.md",
     "_Low Priority Refinement/Devops",
     "Mind Maps/Redux Map.canvas",
     "Algorithms & Data Structures/Patterns",

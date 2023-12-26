@@ -11,9 +11,11 @@
             "id": "d1ef5fe19d38dd40",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Infographics/Databases/Types of DB.jpg"
+                "file": "Companies/Clout Chasing/Draft/Algorithmic Thinking.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infographics/Databases/Types of DB.jpg",
+                "file": "Companies/Clout Chasing/Draft/Algorithmic Thinking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infographics/Databases/Types of DB.jpg",
+                "file": "Companies/Clout Chasing/Draft/Algorithmic Thinking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infographics/Databases/Types of DB.jpg"
+                "file": "Companies/Clout Chasing/Draft/Algorithmic Thinking.md"
               }
             }
           },
@@ -232,8 +234,11 @@
   },
   "active": "d1ef5fe19d38dd40",
   "lastOpenFiles": [
-    "Infographics/Databases/Type of db use Case.gif",
+    "Companies/Clout Chasing/Draft/Bootcamp.md",
+    "Companies/Clout Chasing/Draft/Algorithmic Thinking.md",
+    "Companies/Clout Chasing/Draft/Note taking.md",
     "Infographics/Databases/Types of DB.jpg",
+    "Infographics/Databases/Type of db use Case.gif",
     "Infographics/Databases/Database Types.gif",
     "Infographics/Databases/Database Sharding.jpeg",
     "Infographics/Databases/Database Processes.gif",
@@ -257,7 +262,6 @@
     "Web/Web protocol explained.md",
     "Infographics/OSI Layer.gif",
     "Infographics/API/Rest API Design.jpeg",
-    "Infographics/API/GatewayFunction.jpeg",
     "Home.md",
     "Web/Application & Web Server.md",
     "Web/Common Response Status Codes.md",
@@ -267,8 +271,6 @@
     "_Low Priority Refinement/Database/DBMS.md",
     "_Low Priority Refinement/Database/Relationships/Table Relationships.md",
     "Architecture/MVC Pattern.md",
-    "_Low Priority Refinement/Database/Relationships/SQL Table Structure.md",
-    "_Low Priority Refinement/Database/Relationships/Relationship Reading.md",
     "Architecture/Design Patterns Layers.pdf",
     "_Low Priority Refinement/Language",
     "_Low Priority Refinement/Devops",

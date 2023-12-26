@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Clout Chasing/Draft/Algorithmic Thinking.md",
+                "file": "Algorithms & Data Structures/Interview Template with Time Table.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Clout Chasing/Draft/Algorithmic Thinking.md",
+                "file": "Algorithms & Data Structures/Interview Template with Time Table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Clout Chasing/Draft/Algorithmic Thinking.md",
+                "file": "Algorithms & Data Structures/Interview Template with Time Table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Clout Chasing/Draft/Algorithmic Thinking.md"
+                "file": "Algorithms & Data Structures/Interview Template with Time Table.md"
               }
             }
           },
@@ -234,8 +234,9 @@
   },
   "active": "d1ef5fe19d38dd40",
   "lastOpenFiles": [
-    "Companies/Clout Chasing/Draft/Bootcamp.md",
+    "Algorithms & Data Structures/Coding Interview Tips.md",
     "Companies/Clout Chasing/Draft/Algorithmic Thinking.md",
+    "Companies/Clout Chasing/Draft/Bootcamp.md",
     "Companies/Clout Chasing/Draft/Note taking.md",
     "Infographics/Databases/Types of DB.jpg",
     "Infographics/Databases/Type of db use Case.gif",
@@ -270,7 +271,6 @@
     "Architecture/Boxing and Unboxing.md",
     "_Low Priority Refinement/Database/DBMS.md",
     "_Low Priority Refinement/Database/Relationships/Table Relationships.md",
-    "Architecture/MVC Pattern.md",
     "Architecture/Design Patterns Layers.pdf",
     "_Low Priority Refinement/Language",
     "_Low Priority Refinement/Devops",

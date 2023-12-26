@@ -35,16 +35,4 @@ The DNS server also operates on the application layer 
 
 
 
-
-we go from  
-
-        App(Client) -> presentation -> Session -> Transport -> Network -> Data -> Phys 
-
-                                                                                                                                 /  \ 
-
-                                                                         | send Request & receives Response  | 
-
-                                                                                                                                  \ / 
-       App(DNS) <- presentation <- Session <- Transport <- Network <- Data <- Phys 
-
-appending different info that will be passed through the physical the next physical on the other side until it reaches their own application layer
+![[OSI Layer.gif]]

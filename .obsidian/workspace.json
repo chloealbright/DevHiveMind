@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "736252c13fdbe83b",
+        "id": "790d5487b9daada2",
         "type": "tabs",
         "children": [
           {
-            "id": "2d0a81979bd2a3e8",
+            "id": "d1ef5fe19d38dd40",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
+                "file": "Infographics/Databases/Types of DB.jpg"
               }
             }
           }
@@ -48,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "async",
+                "query": "layer",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -101,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Infographics/Databases/Types of DB.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Infographics/Databases/Types of DB.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Infographics/Databases/Types of DB.jpg"
               }
             }
           },
@@ -232,8 +230,34 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "2d0a81979bd2a3e8",
+  "active": "d1ef5fe19d38dd40",
   "lastOpenFiles": [
+    "Infographics/Databases/Type of db use Case.gif",
+    "Infographics/Databases/Types of DB.jpg",
+    "Infographics/Databases/Database Types.gif",
+    "Infographics/Databases/Database Sharding.jpeg",
+    "Infographics/Databases/Database Processes.gif",
+    "Infographics/Databases/Database & Data Structrues.jpg",
+    "Infographics/Databases/ACID.gif",
+    "API/API Gateway.md",
+    "Infographics/API/Api Performance.gif",
+    "Web/Protocols/TCIP.md",
+    "Web/Pagination.pdf",
+    "_Low Priority Refinement/API/The six constraints of REST.md",
+    "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
+    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Backing services.md",
+    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Port binding.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Type Of Linked List.md",
+    "Testing/Type of Testing Techniques.md",
+    "Language Overlap/Types of coupling.md",
+    "_Low Priority Refinement/Database/Types of Tables in logical database models.md",
+    "Companies/UML & User Stories Flow/User Story Flow and Breakdown Example.md",
+    "Architecture/Vertical vs Horizontal scaling.md",
+    "Architecture/Web Architecture.md",
+    "Web/Web protocol explained.md",
+    "Infographics/OSI Layer.gif",
+    "Infographics/API/Rest API Design.jpeg",
+    "Infographics/API/GatewayFunction.jpeg",
     "Home.md",
     "Web/Application & Web Server.md",
     "Web/Common Response Status Codes.md",
@@ -245,32 +269,7 @@
     "Architecture/MVC Pattern.md",
     "_Low Priority Refinement/Database/Relationships/SQL Table Structure.md",
     "_Low Priority Refinement/Database/Relationships/Relationship Reading.md",
-    "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
-    "Library/Frontend/Redux/Base/Async api in redux with promise instead of async await.md",
-    "Language/Typescript/Async vs Defer how JavaScript is loaded.md",
-    "_NoteAssets/Markdown to use.md",
-    "Language Overlap/Synchronous  vs Asynchronous vs  Multiprocessing.md",
-    "Companies/Companies Worked At/Tracflo/Tracflo & Construction Industry.md",
-    "Companies/Companies Worked At/Tracflo/Personally Developed Tracflo Feature Statistics.md",
-    "Companies/Companies Worked At/Tracflo/Construction Industry and Data Dynamics.md",
-    "Companies/Companies Worked At/Tracflo/Business Requirements Thought Experiment.md",
-    "Companies/Companies Worked At/TD/TD Bank Lesson.md",
-    "Architecture/Model Patterns.md",
-    "Architecture/MVVM.md",
-    "Architecture/Patterns & Infashstructure learning plan.md",
-    "Companies/General Dev Issues.md",
-    "Infographics/Architecture/Model Patterns.gif",
-    "Architecture/Software Architecture vs System Design.md",
     "Architecture/Design Patterns Layers.pdf",
-    "Infographics/Databases/ACID.gif",
-    "Infographics/Architecture/Model Patterns.jpeg",
-    "Infographics/Databases/Database & Data Structrues.jpg",
-    "Infographics/Databases/Database Processes.gif",
-    "Infographics/Databases/Database Sharding.jpeg",
-    "Infographics/Databases/Database Types.gif",
-    "Infographics/Databases/Execution Order.jpg",
-    "Infographics/Databases/Sql Exe Order.gif",
-    "Infographics/Databases/Types of DB.jpg",
     "_Low Priority Refinement/Language",
     "_Low Priority Refinement/Devops",
     "Mind Maps/Redux Map.canvas",
@@ -281,7 +280,6 @@
     "Architecture/Methodology/Twelve Factor App Official Description",
     "Architecture/Methodology/Docker Twelve Factors App",
     "Architecture/Methodology/Admin functionality God Mode",
-    "Architecture/Methodology",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Testing.canvas",

@@ -11,11 +11,9 @@
             "id": "d1ef5fe19d38dd40",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Algorithms & Data Structures/Interview Template with Time Table.md",
-                "mode": "source",
-                "source": false
+                "file": "Infographics/Kafka Uses.gif"
               }
             }
           }
@@ -101,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Interview Template with Time Table.md",
+                "file": "Infographics/Kafka Uses.gif",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Interview Template with Time Table.md",
+                "file": "Infographics/Kafka Uses.gif",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Interview Template with Time Table.md"
+                "file": "Infographics/Kafka Uses.gif"
               }
             }
           },
@@ -232,8 +230,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "d1ef5fe19d38dd40",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Interview Template with Time Table.md",
+    "Infographics/Kafka Uses.gif",
+    "Infographics/Kafka Uses.jpeg",
     "Algorithms & Data Structures/Coding Interview Tips.md",
     "Companies/Clout Chasing/Draft/Algorithmic Thinking.md",
     "Companies/Clout Chasing/Draft/Bootcamp.md",
@@ -261,16 +262,12 @@
     "Architecture/Vertical vs Horizontal scaling.md",
     "Architecture/Web Architecture.md",
     "Web/Web protocol explained.md",
-    "Infographics/OSI Layer.gif",
-    "Infographics/API/Rest API Design.jpeg",
     "Home.md",
     "Web/Application & Web Server.md",
     "Web/Common Response Status Codes.md",
     "Architecture/Servers.md",
     "Architecture/Circuit breaker pattern relationship with fault tolerance.md",
     "Architecture/Boxing and Unboxing.md",
-    "_Low Priority Refinement/Database/DBMS.md",
-    "_Low Priority Refinement/Database/Relationships/Table Relationships.md",
     "Architecture/Design Patterns Layers.pdf",
     "_Low Priority Refinement/Language",
     "_Low Priority Refinement/Devops",

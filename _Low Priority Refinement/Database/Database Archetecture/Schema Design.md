@@ -16,7 +16,7 @@ A database schema is like a skeletal structure representing a logical view of a 
 
 
 
-
+Database schema ends up influencing how you build out features in terms of the order of features you build
 
 
 

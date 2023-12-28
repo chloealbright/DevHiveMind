@@ -11,9 +11,11 @@
             "id": "d1ef5fe19d38dd40",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Infographics/Kafka Uses.gif"
+                "file": "_Low Priority Refinement/Database/Database Archetecture/Schema Design.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infographics/Kafka Uses.gif",
+                "file": "_Low Priority Refinement/Database/Database Archetecture/Schema Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infographics/Kafka Uses.gif",
+                "file": "_Low Priority Refinement/Database/Database Archetecture/Schema Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infographics/Kafka Uses.gif"
+                "file": "_Low Priority Refinement/Database/Database Archetecture/Schema Design.md"
               }
             }
           },
@@ -230,10 +232,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "d1ef5fe19d38dd40",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Interview Template with Time Table.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Database Diagram.md",
     "Infographics/Kafka Uses.gif",
+    "Algorithms & Data Structures/Interview Template with Time Table.md",
     "Infographics/Kafka Uses.jpeg",
     "Algorithms & Data Structures/Coding Interview Tips.md",
     "Companies/Clout Chasing/Draft/Algorithmic Thinking.md",

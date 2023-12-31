@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "090e301462416ed8",
+        "id": "08d00a0721d1b6bc",
         "type": "tabs",
         "children": [
           {
-            "id": "d455a9fd8bffa95d",
+            "id": "55bbba70c2e113c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Password Hashing.md",
+                "file": "Architecture/Web Server/Route Authentication.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Password Hashing.md",
+                "file": "Architecture/Web Server/Route Authentication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Password Hashing.md",
+                "file": "Architecture/Web Server/Route Authentication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Password Hashing.md"
+                "file": "Architecture/Web Server/Route Authentication.md"
               }
             }
           },
@@ -247,12 +247,31 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d455a9fd8bffa95d",
+  "active": "55bbba70c2e113c5",
   "lastOpenFiles": [
+    "Architecture/Web Server/Server Routes Order.md",
+    "Architecture/Web Server/Route Authentication.md",
+    "Architecture/Web Server/Servers.md",
+    "Architecture/Web Server",
+    "Architecture/Codebase Level Scaling & Optimization.md",
+    "Architecture/Circuit breaker pattern relationship with fault tolerance.md",
+    "Infographics/API/Api Gateway.gif",
+    "Infographics/logging metrics.gif",
+    "Infographics/API/Api Performance.gif",
+    "Infographics/API/API Protocol.jpeg",
+    "Infographics/API/Api Testing.gif",
+    "Infographics/API/GatewayFunction.jpeg",
+    "Infographics/API/Rest API Design.jpeg",
+    "Infographics/Architecture/StackOverflow.jpg",
+    "Infographics/Architecture/Model Patterns.gif",
+    "Infographics/Architecture/Domain Flow.jpeg",
+    "Web/WebSockets.md",
+    "Architecture/Code standards.md",
+    "Architecture/Boxing and Unboxing.md",
+    "Home.md",
     "Databases/SQL Tool.md",
     "Databases/Password Hashing.md",
     "Databases/Normalization.md",
-    "Home.md",
     "Web/URI vs URL vs URN.md",
     "Web/URI Query Design.md",
     "Web/Web protocol explained.md",
@@ -261,31 +280,13 @@
     "API/API Call.md",
     "_Low Priority Refinement/Database/Database Archetecture/Schema Design.md",
     "_Low Priority Refinement/Database/Database Archetecture/Database Diagram.md",
-    "Infographics/Kafka Uses.gif",
     "Algorithms & Data Structures/Interview Template with Time Table.md",
-    "Infographics/Kafka Uses.jpeg",
     "Algorithms & Data Structures/Coding Interview Tips.md",
     "Companies/Clout Chasing/Draft/Algorithmic Thinking.md",
     "Companies/Clout Chasing/Draft/Bootcamp.md",
     "Companies/Clout Chasing/Draft/Note taking.md",
-    "Infographics/Databases/Types of DB.jpg",
-    "Infographics/Databases/Type of db use Case.gif",
-    "Infographics/Databases/Database Types.gif",
-    "Infographics/Databases/Database Sharding.jpeg",
-    "Infographics/Databases/Database Processes.gif",
-    "Infographics/Databases/Database & Data Structrues.jpg",
-    "Infographics/Databases/ACID.gif",
-    "Infographics/API/Api Performance.gif",
     "Web/Protocols/TCIP.md",
     "Web/Pagination.pdf",
-    "_Low Priority Refinement/API/The six constraints of REST.md",
-    "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
-    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Backing services.md",
-    "Architecture/Methodology/Twelve Factor App Official Description/Twelve Factor App Port binding.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Type Of Linked List.md",
-    "Testing/Type of Testing Techniques.md",
-    "Language Overlap/Types of coupling.md",
-    "_Low Priority Refinement/Database/Types of Tables in logical database models.md",
     "Architecture/Design Patterns Layers.pdf",
     "_Low Priority Refinement/Language",
     "_Low Priority Refinement/Devops",
@@ -296,7 +297,6 @@
     "Language Overlap/Tools",
     "Architecture/Methodology/Twelve Factor App Official Description",
     "Architecture/Methodology/Docker Twelve Factors App",
-    "Architecture/Methodology/Admin functionality God Mode",
     "Mind Maps/Drafts/Gateway.canvas",
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Testing.canvas",

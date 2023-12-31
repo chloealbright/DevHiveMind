@@ -13,7 +13,7 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Mind Maps/Untitled.canvas",
+                "file": "Mind Maps/App Schema.canvas",
                 "viewState": {
                   "x": 280,
                   "y": -10,
@@ -28,7 +28,7 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Mind Maps/Untitled.canvas",
+                "file": "Mind Maps/App Schema.canvas",
                 "viewState": {
                   "x": 280,
                   "y": -10,
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mind Maps/Untitled.canvas",
+                "file": "Mind Maps/App Schema.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mind Maps/Untitled.canvas",
+                "file": "Mind Maps/App Schema.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mind Maps/Untitled.canvas"
+                "file": "Mind Maps/App Schema.canvas"
               }
             }
           },
@@ -266,10 +266,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "4592bf5136d95422",
   "lastOpenFiles": [
     "Databases/Untitled.md",
-    "Mind Maps/Untitled.canvas",
+    "Mind Maps/App Schema.canvas",
     "Mind Maps/Redux Map.canvas",
     "Databases/SQL Tool.md",
     "Mind Maps/Docker InDeph.canvas",

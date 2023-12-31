@@ -1,6 +1,7 @@
 {
 	"nodes":[
-		{"id":"39c0e1b5ef235970","type":"file","file":"Databases/Untitled.md","x":-800,"y":-480,"width":2100,"height":680}
+		{"id":"39c0e1b5ef235970","type":"file","file":"Databases/Untitled.md","x":-800,"y":-480,"width":1200,"height":680},
+		{"id":"a625f7d1940ad948","x":726,"y":-311,"width":1114,"height":371,"type":"text","text":"\n| Table | Column Name | MySQL Type | PG Type | FK | FK table name | Primary | Length | Allow Null | Default |\n| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |\n| **companies** |  |  |  |  |  |  |  |  |  |\n|  | company_id | UUID | UUID | 0 |  | 1 |  | N | AUTO |\n|  | address | LONGTEXT | TEXT | 0 |  | 0 |  | Y | None |\n|  | is_archive | BOOLEAN | BOOLEAN | 0 |  | 0 |  | Y | FALSE |\n|  | file_id | UUID | UUID | 1 | file | 0 |  | N | None |\n|  | name | VARCHAR | TEXT | 0 |  | 0 | 150 | N | None |\n|  | phone | VARCHAR | TEXT | 0 |  | 0 | 20 | Y | None |\n|  | type | ENUM | ENUM | 0 |  | 0 |  | N | None |\n|  | created_by | UUID | UUID | 1 | user? | 0 |  | N | None |\n|  | date_created | DATETIME | TIMESTAMP | 0 |  | 0 |  | N | 0000-00-00 00:00:00 |\n|  |  |  |  |  |  |  |  |  |  |\n\n"}
 	],
 	"edges":[]
 }

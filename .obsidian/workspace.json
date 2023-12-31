@@ -26,14 +26,23 @@
             "id": "4592bf5136d95422",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Mind Maps/App Schema.canvas",
-                "viewState": {
-                  "x": 280,
-                  "y": -10,
-                  "zoom": -0.6097658917217289
-                }
+                "file": "Databases/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dfcb965a80ea11d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Untitled.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -120,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mind Maps/App Schema.canvas",
+                "file": "Databases/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mind Maps/App Schema.canvas",
+                "file": "Databases/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mind Maps/App Schema.canvas"
+                "file": "Databases/Untitled.md"
               }
             }
           },
@@ -268,8 +277,8 @@
   },
   "active": "4592bf5136d95422",
   "lastOpenFiles": [
-    "Databases/Untitled.md",
     "Mind Maps/App Schema.canvas",
+    "Databases/Untitled.md",
     "Mind Maps/Redux Map.canvas",
     "Databases/SQL Tool.md",
     "Mind Maps/Docker InDeph.canvas",

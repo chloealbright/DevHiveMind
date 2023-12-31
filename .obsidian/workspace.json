@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Web Server/Route Authentication.md",
+                "file": "Databases/Knex.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Web Server/Route Authentication.md",
+                "file": "Databases/Knex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Web Server/Route Authentication.md",
+                "file": "Databases/Knex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Web Server/Route Authentication.md"
+                "file": "Databases/Knex.md"
               }
             }
           },
@@ -249,8 +249,11 @@
   },
   "active": "55bbba70c2e113c5",
   "lastOpenFiles": [
-    "Architecture/Web Server/Server Routes Order.md",
+    "Databases/Normalization.md",
+    "Databases/Knex.md",
+    "Databases/SQL Tool.md",
     "Architecture/Web Server/Route Authentication.md",
+    "Architecture/Web Server/Server Routes Order.md",
     "Architecture/Web Server/Servers.md",
     "Architecture/Web Server",
     "Architecture/Codebase Level Scaling & Optimization.md",
@@ -269,9 +272,7 @@
     "Architecture/Code standards.md",
     "Architecture/Boxing and Unboxing.md",
     "Home.md",
-    "Databases/SQL Tool.md",
     "Databases/Password Hashing.md",
-    "Databases/Normalization.md",
     "Web/URI vs URL vs URN.md",
     "Web/URI Query Design.md",
     "Web/Web protocol explained.md",
@@ -285,7 +286,6 @@
     "Companies/Clout Chasing/Draft/Algorithmic Thinking.md",
     "Companies/Clout Chasing/Draft/Bootcamp.md",
     "Companies/Clout Chasing/Draft/Note taking.md",
-    "Web/Protocols/TCIP.md",
     "Web/Pagination.pdf",
     "Architecture/Design Patterns Layers.pdf",
     "_Low Priority Refinement/Language",

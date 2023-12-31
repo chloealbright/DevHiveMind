@@ -26,11 +26,14 @@
             "id": "4592bf5136d95422",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Databases/Untitled.md",
-                "mode": "source",
-                "source": false
+                "file": "Mind Maps/App Schema.canvas",
+                "viewState": {
+                  "x": 520,
+                  "y": -140,
+                  "zoom": -0.899272508916714
+                }
               }
             }
           },
@@ -129,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Untitled.md",
+                "file": "Mind Maps/App Schema.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Untitled.md",
+                "file": "Mind Maps/App Schema.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Untitled.md"
+                "file": "Mind Maps/App Schema.canvas"
               }
             }
           },
@@ -277,8 +280,8 @@
   },
   "active": "4592bf5136d95422",
   "lastOpenFiles": [
-    "Mind Maps/App Schema.canvas",
     "Databases/Untitled.md",
+    "Mind Maps/App Schema.canvas",
     "Mind Maps/Redux Map.canvas",
     "Databases/SQL Tool.md",
     "Mind Maps/Docker InDeph.canvas",

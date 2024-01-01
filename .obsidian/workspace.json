@@ -4,50 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "08d00a0721d1b6bc",
+        "id": "a25150278a02f803",
         "type": "tabs",
         "children": [
           {
-            "id": "55bbba70c2e113c5",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Mind Maps/App Schema.canvas",
-                "viewState": {
-                  "x": 280,
-                  "y": -10,
-                  "zoom": -0.6097658917217289
-                }
-              }
-            }
-          },
-          {
-            "id": "4592bf5136d95422",
+            "id": "ab5abb4243b5dd5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dfcb965a80ea11d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Untitled.md",
+                "file": "Architecture/Web Server/Reverse proxy vs. API gateway vs. load balancer.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Untitled.md",
+                "file": "Architecture/Web Server/Reverse proxy vs. API gateway vs. load balancer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Untitled.md",
+                "file": "Architecture/Web Server/Reverse proxy vs. API gateway vs. load balancer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Untitled.md"
+                "file": "Architecture/Web Server/Reverse proxy vs. API gateway vs. load balancer.md"
               }
             }
           },
@@ -275,8 +247,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4592bf5136d95422",
+  "active": "ab5abb4243b5dd5f",
   "lastOpenFiles": [
+    "_Images/Proxy v Gateway v Balancer .jpeg",
+    "Architecture/Web Server/Server Routes Order.md",
+    "Architecture/Web Server/Reverse proxy vs. API gateway vs. load balancer.md",
+    "Architecture/Web Server/Route Authentication.md",
+    "Home.md",
     "Mind Maps/App Schema.canvas",
     "Databases/Untitled.md",
     "Mind Maps/Redux Map.canvas",
@@ -284,8 +261,6 @@
     "Mind Maps/Docker InDeph.canvas",
     "Databases/Knex.md",
     "Databases/Normalization.md",
-    "Architecture/Web Server/Route Authentication.md",
-    "Architecture/Web Server/Server Routes Order.md",
     "Architecture/Web Server/Servers.md",
     "Architecture/Web Server",
     "Architecture/Codebase Level Scaling & Optimization.md",
@@ -303,7 +278,6 @@
     "Web/WebSockets.md",
     "Architecture/Code standards.md",
     "Architecture/Boxing and Unboxing.md",
-    "Home.md",
     "Databases/Password Hashing.md",
     "Web/URI vs URL vs URN.md",
     "Web/URI Query Design.md",
@@ -315,7 +289,6 @@
     "_Low Priority Refinement/Database/Database Archetecture/Database Diagram.md",
     "Algorithms & Data Structures/Interview Template with Time Table.md",
     "Algorithms & Data Structures/Coding Interview Tips.md",
-    "Companies/Clout Chasing/Draft/Algorithmic Thinking.md",
     "Web/Pagination.pdf",
     "Architecture/Design Patterns Layers.pdf",
     "_Low Priority Refinement/Language",

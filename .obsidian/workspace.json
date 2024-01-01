@@ -11,11 +11,9 @@
             "id": "0c66c77ea242b200",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "API/API pass-through.md",
-                "mode": "source",
-                "source": false
+                "file": "_Pdf/Courses/Springboot/Crash Course Lesson 1.pdf"
               }
             }
           }
@@ -115,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/API pass-through.md",
+                "file": "_Pdf/Courses/Springboot/Crash Course Lesson 1.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/API pass-through.md",
+                "file": "_Pdf/Courses/Springboot/Crash Course Lesson 1.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/API pass-through.md"
+                "file": "_Pdf/Courses/Springboot/Crash Course Lesson 1.pdf"
               }
             }
           },
@@ -261,10 +259,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "0c66c77ea242b200",
   "lastOpenFiles": [
-    "Architecture/Clean Code.md",
     "API/API pass-through.md",
+    "Architecture/Clean Code.md",
     "Architecture/Boxing and Unboxing.md",
     "Architecture/Web Server Architecture/Reverse proxy vs. API gateway vs. load balancer.md",
     "Architecture/Web Server Architecture/Servers.md",

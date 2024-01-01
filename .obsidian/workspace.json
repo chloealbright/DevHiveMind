@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Web Server Architecture/Servers.md",
+                "file": "Architecture/API pass-through.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Web Server Architecture/Servers.md",
+                "file": "Architecture/API pass-through.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Web Server Architecture/Servers.md",
+                "file": "Architecture/API pass-through.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Web Server Architecture/Servers.md"
+                "file": "Architecture/API pass-through.md"
               }
             }
           },
@@ -261,14 +261,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "0c66c77ea242b200",
   "lastOpenFiles": [
+    "Architecture/Clean Code.md",
+    "Architecture/API pass-through.md",
+    "Architecture/Boxing and Unboxing.md",
     "Architecture/Web Server Architecture/Reverse proxy vs. API gateway vs. load balancer.md",
+    "Architecture/Web Server Architecture/Servers.md",
     "Architecture/Web Server Architecture/Route Authentication.md",
     "Architecture/Web Server Architecture/Server Routes Order.md",
     "Architecture/Web Server Architecture/Best Practices for User Account Routes.md",
     "Architecture/Web Server Architecture/Login vs Register vs Password Rest.md",
-    "Architecture/Web Server Architecture/Servers.md",
     "Databases/Troubleshooting Queries.md",
     "Databases/Data Visualization Normalization or Denormalization.md",
     "Databases/App Schema.md",
@@ -294,15 +297,12 @@
     "Infographics/Architecture/Model Patterns.gif",
     "Web/WebSockets.md",
     "Architecture/Code standards.md",
-    "Architecture/Boxing and Unboxing.md",
     "Databases/Password Hashing.md",
     "Web/URI vs URL vs URN.md",
     "Web/URI Query Design.md",
     "Web/Web protocol explained.md",
     "API/API Gateway.md",
     "API/Type of APIs.md",
-    "API/API Call.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Schema Design.md",
     "Web/Pagination.pdf",
     "Architecture/Design Patterns Layers.pdf",
     "_Low Priority Refinement/Language",

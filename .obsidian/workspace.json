@@ -11,9 +11,11 @@
             "id": "0c66c77ea242b200",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "_Pdf/Courses/Springboot/Crash Course Lesson 1.pdf"
+                "file": "API/API pass-through.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -113,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Pdf/Courses/Springboot/Crash Course Lesson 1.pdf",
+                "file": "API/API pass-through.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Pdf/Courses/Springboot/Crash Course Lesson 1.pdf",
+                "file": "API/API pass-through.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Pdf/Courses/Springboot/Crash Course Lesson 1.pdf"
+                "file": "API/API pass-through.md"
               }
             }
           },
@@ -261,6 +263,7 @@
   },
   "active": "0c66c77ea242b200",
   "lastOpenFiles": [
+    "Home.md",
     "API/API pass-through.md",
     "Architecture/Clean Code.md",
     "Architecture/Boxing and Unboxing.md",
@@ -273,7 +276,6 @@
     "Databases/Troubleshooting Queries.md",
     "Databases/Data Visualization Normalization or Denormalization.md",
     "Databases/App Schema.md",
-    "Home.md",
     "_Images/Proxy v Gateway v Balancer .jpeg",
     "Mind Maps/App Schema.canvas",
     "Mind Maps/Redux Map.canvas",

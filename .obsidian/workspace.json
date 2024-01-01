@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API/API pass-through.md",
+                "file": "Architecture/Network Infrastructure to use.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API/API pass-through.md",
+                "file": "Architecture/Network Infrastructure to use.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API/API pass-through.md",
+                "file": "Architecture/Network Infrastructure to use.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API/API pass-through.md"
+                "file": "Architecture/Network Infrastructure to use.md"
               }
             }
           },
@@ -263,8 +263,11 @@
   },
   "active": "0c66c77ea242b200",
   "lastOpenFiles": [
-    "Home.md",
+    "Architecture/Circuit breaker pattern relationship with fault tolerance.md",
+    "Architecture/Network Infrastructure to use.md",
+    "Architecture/Architect decision.md",
     "API/API pass-through.md",
+    "Home.md",
     "Architecture/Clean Code.md",
     "Architecture/Boxing and Unboxing.md",
     "Architecture/Web Server Architecture/Reverse proxy vs. API gateway vs. load balancer.md",
@@ -285,7 +288,6 @@
     "Databases/Normalization.md",
     "Architecture/Web Server Architecture",
     "Architecture/Codebase Level Scaling & Optimization.md",
-    "Architecture/Circuit breaker pattern relationship with fault tolerance.md",
     "Infographics/API/Api Gateway.gif",
     "Infographics/logging metrics.gif",
     "Infographics/API/Api Performance.gif",
@@ -301,8 +303,6 @@
     "Web/URI vs URL vs URN.md",
     "Web/URI Query Design.md",
     "Web/Web protocol explained.md",
-    "API/API Gateway.md",
-    "API/Type of APIs.md",
     "Web/Pagination.pdf",
     "Architecture/Design Patterns Layers.pdf",
     "_Low Priority Refinement/Language",

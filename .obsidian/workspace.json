@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "7c3e30deb5c1f212",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0c66c77ea242b200",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Network Infrastructure to use.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "6fee309576070704",
         "type": "tabs",
         "children": [
@@ -29,8 +11,12 @@
             "id": "6543ce0a993ec9bc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "API/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -115,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Network Infrastructure to use.md",
+                "file": "API/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Network Infrastructure to use.md",
+                "file": "API/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Network Infrastructure to use.md"
+                "file": "API/Untitled.md"
               }
             }
           },
@@ -261,13 +247,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0c66c77ea242b200",
+  "active": "6543ce0a993ec9bc",
   "lastOpenFiles": [
+    "API/API Gateway.md",
+    "API/Untitled.md",
+    "API/API Call.md",
+    "Home.md",
     "Architecture/Circuit breaker pattern relationship with fault tolerance.md",
     "Architecture/Network Infrastructure to use.md",
     "Architecture/Architect decision.md",
     "API/API pass-through.md",
-    "Home.md",
     "Architecture/Clean Code.md",
     "Architecture/Boxing and Unboxing.md",
     "Architecture/Web Server Architecture/Reverse proxy vs. API gateway vs. load balancer.md",
@@ -300,9 +289,6 @@
     "Web/WebSockets.md",
     "Architecture/Code standards.md",
     "Databases/Password Hashing.md",
-    "Web/URI vs URL vs URN.md",
-    "Web/URI Query Design.md",
-    "Web/Web protocol explained.md",
     "Web/Pagination.pdf",
     "Architecture/Design Patterns Layers.pdf",
     "_Low Priority Refinement/Language",

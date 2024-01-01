@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - routes
 author:
   - jacgit18
 Status: Capture

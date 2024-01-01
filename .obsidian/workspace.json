@@ -20,6 +20,20 @@
             }
           }
         ]
+      },
+      {
+        "id": "6fee309576070704",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6543ce0a993ec9bc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -247,18 +261,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0c66c77ea242b200",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
-    "Architecture/Web Server Architecture/Login vs Register route.md",
-    "Architecture/Web Server Architecture/Server Routes Order.md",
+    "Architecture/Web Server Architecture/Reverse proxy vs. API gateway vs. load balancer.md",
     "Architecture/Web Server Architecture/Route Authentication.md",
+    "Architecture/Web Server Architecture/Server Routes Order.md",
+    "Architecture/Web Server Architecture/Best Practices for User Account Routes.md",
+    "Architecture/Web Server Architecture/Login vs Register vs Password Rest.md",
     "Architecture/Web Server Architecture/Servers.md",
     "Databases/Troubleshooting Queries.md",
     "Databases/Data Visualization Normalization or Denormalization.md",
     "Databases/App Schema.md",
     "Home.md",
     "_Images/Proxy v Gateway v Balancer .jpeg",
-    "Architecture/Web Server Architecture/Reverse proxy vs. API gateway vs. load balancer.md",
     "Mind Maps/App Schema.canvas",
     "Mind Maps/Redux Map.canvas",
     "Databases/SQL Tool.md",
@@ -288,7 +303,6 @@
     "API/Type of APIs.md",
     "API/API Call.md",
     "_Low Priority Refinement/Database/Database Archetecture/Schema Design.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Database Diagram.md",
     "Web/Pagination.pdf",
     "Architecture/Design Patterns Layers.pdf",
     "_Low Priority Refinement/Language",

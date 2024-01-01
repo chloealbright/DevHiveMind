@@ -5,7 +5,7 @@ author:
 Status: Capture
 Started: 
 EditDate: 
-Relates:
+Relates: "[[Proxy]]"
 ---
 **Backend Servers:**  
 - A backend server refers to the server-side of an application, responsible for processing requests, handling business logic, and interacting with databases.  

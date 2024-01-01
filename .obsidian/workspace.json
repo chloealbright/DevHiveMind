@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a25150278a02f803",
+        "id": "7c3e30deb5c1f212",
         "type": "tabs",
         "children": [
           {
-            "id": "ab5abb4243b5dd5f",
+            "id": "0c66c77ea242b200",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Web Server/Reverse proxy vs. API gateway vs. load balancer.md",
+                "file": "Architecture/Web Server Architecture/Servers.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Web Server/Reverse proxy vs. API gateway vs. load balancer.md",
+                "file": "Architecture/Web Server Architecture/Servers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Web Server/Reverse proxy vs. API gateway vs. load balancer.md",
+                "file": "Architecture/Web Server Architecture/Servers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Web Server/Reverse proxy vs. API gateway vs. load balancer.md"
+                "file": "Architecture/Web Server Architecture/Servers.md"
               }
             }
           },
@@ -247,22 +247,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ab5abb4243b5dd5f",
+  "active": "0c66c77ea242b200",
   "lastOpenFiles": [
-    "_Images/Proxy v Gateway v Balancer .jpeg",
-    "Architecture/Web Server/Server Routes Order.md",
-    "Architecture/Web Server/Reverse proxy vs. API gateway vs. load balancer.md",
-    "Architecture/Web Server/Route Authentication.md",
+    "Architecture/Web Server Architecture/Login vs Register route.md",
+    "Architecture/Web Server Architecture/Server Routes Order.md",
+    "Architecture/Web Server Architecture/Route Authentication.md",
+    "Architecture/Web Server Architecture/Servers.md",
+    "Databases/Troubleshooting Queries.md",
+    "Databases/Data Visualization Normalization or Denormalization.md",
+    "Databases/App Schema.md",
     "Home.md",
+    "_Images/Proxy v Gateway v Balancer .jpeg",
+    "Architecture/Web Server Architecture/Reverse proxy vs. API gateway vs. load balancer.md",
     "Mind Maps/App Schema.canvas",
-    "Databases/Untitled.md",
     "Mind Maps/Redux Map.canvas",
     "Databases/SQL Tool.md",
     "Mind Maps/Docker InDeph.canvas",
     "Databases/Knex.md",
     "Databases/Normalization.md",
-    "Architecture/Web Server/Servers.md",
-    "Architecture/Web Server",
+    "Architecture/Web Server Architecture",
     "Architecture/Codebase Level Scaling & Optimization.md",
     "Architecture/Circuit breaker pattern relationship with fault tolerance.md",
     "Infographics/API/Api Gateway.gif",
@@ -274,7 +277,6 @@
     "Infographics/API/Rest API Design.jpeg",
     "Infographics/Architecture/StackOverflow.jpg",
     "Infographics/Architecture/Model Patterns.gif",
-    "Infographics/Architecture/Domain Flow.jpeg",
     "Web/WebSockets.md",
     "Architecture/Code standards.md",
     "Architecture/Boxing and Unboxing.md",
@@ -287,8 +289,6 @@
     "API/API Call.md",
     "_Low Priority Refinement/Database/Database Archetecture/Schema Design.md",
     "_Low Priority Refinement/Database/Database Archetecture/Database Diagram.md",
-    "Algorithms & Data Structures/Interview Template with Time Table.md",
-    "Algorithms & Data Structures/Coding Interview Tips.md",
     "Web/Pagination.pdf",
     "Architecture/Design Patterns Layers.pdf",
     "_Low Priority Refinement/Language",

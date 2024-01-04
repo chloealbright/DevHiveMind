@@ -1,13 +1,13 @@
 {
 	"nodes":[
 		{"type":"group","id":"7162f07e504bae30","x":-1840,"y":-4640,"width":6800,"height":5600,"label":"Untitled group","background":"_Images/download.jpeg"},
-		{"type":"file","file":"_Images/Devops/Docker/Control Groups.jpg","id":"66a2dab6a344362e","x":-1541,"y":-1600,"width":1351,"height":752},
+		{"type":"file","file":"_Images/Devops/Docker/Kernal OS.jpg","id":"66a2dab6a344362e","x":-1541,"y":-1600,"width":1615,"height":752},
 		{"type":"file","file":"_Images/Devops/Docker/Control Groups.jpg","id":"60286d0f5b166efd","x":-1147,"y":-2864,"width":1653,"height":920},
 		{"type":"text","text":"<center>\n  <h4 style=\"font-size: 120px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\">Docker Indeph Mindmap </h4>\n</center>\n\n","id":"a1d096fb7012e7ce","x":585,"y":-4000,"width":2079,"height":320,"color":"4"},
 		{"type":"text","text":"# Control Group","id":"4f7d13e72d21b55b","x":-320,"y":-1680,"width":250,"height":80},
 		{"type":"file","file":"_Images/Devops/Docker/Just container namespace.jpg","id":"b52223772390de71","x":206,"y":-1600,"width":1300,"height":752},
 		{"type":"text","text":"## You can almost think of  containers or images as a micro version of a operating system in this example Linux with additional images","id":"65ee6bdb09afbf4e","x":206,"y":-1417,"width":394,"height":193},
-		{"type":"file","file":"_Images/Pasted image 20230819154734.png","id":"461a1b35d92eaf8e","x":1506,"y":-520,"width":983,"height":737},
+		{"type":"file","file":"_Images/Devops/Docker/Docker.png","id":"461a1b35d92eaf8e","x":1506,"y":-520,"width":983,"height":737},
 		{"type":"text","text":"<center>\n  <h2 style=\"font-size: 50px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\"> Image </h4>\n</center>\n","id":"6890356529f4b793","x":1841,"y":-640,"width":313,"height":120,"color":"#00e7eb"},
 		{"type":"text","text":"## Each namespace allocates resource like file system, process tree, user and  from the operating system in this case Linux to build containers which are instance of a base image.\n ","id":"352e7ae888c777a5","x":907,"y":-1760,"width":599,"height":176,"color":"5"},
 		{"type":"file","file":"_Images/Mind Map/DB Alt.png","id":"b2f9f1141538274d","x":1591,"y":-1730,"width":67,"height":67},

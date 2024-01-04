@@ -15,51 +15,14 @@
               "state": {
                 "file": "Mind Maps/Docker InDeph.canvas",
                 "viewState": {
-                  "x": 1261.1402719369453,
-                  "y": -115.69305114881286,
-                  "zoom": -2.4000000000000004
+                  "x": 1952.5442383063255,
+                  "y": -523.6237646571947,
+                  "zoom": -3.2
                 }
               }
             }
           }
         ]
-      },
-      {
-        "id": "a260fd0f0c81f3d0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3f59ecdcb8171321",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/Devops/Docker/image & Containers.jpg"
-              }
-            }
-          },
-          {
-            "id": "55aef58f9864765a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/Devops/Docker/Docker.png"
-              }
-            }
-          },
-          {
-            "id": "ff3a2586528974c9",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "_Images/Devops/Docker/Indeph nameSpace.jpg"
-              }
-            }
-          }
-        ],
-        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -141,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Images/Devops/Docker/Indeph nameSpace.jpg",
+                "file": "Mind Maps/Docker InDeph.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Images/Devops/Docker/Indeph nameSpace.jpg",
+                "file": "Mind Maps/Docker InDeph.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Images/Devops/Docker/Indeph nameSpace.jpg"
+                "file": "Mind Maps/Docker InDeph.canvas"
               }
             }
           },
@@ -287,19 +250,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ff3a2586528974c9",
+  "active": "f47b5a00b587cf19",
   "lastOpenFiles": [
-    "_Images/Devops/Docker/image Contents.jpg",
-    "_Images/Devops/Docker/image & Containers.jpg",
-    "_Images/Devops/Docker/DockerFlow.jpg",
     "_Images/Devops/Docker/Docker.png",
-    "_Images/Devops/Docker/Control Groups.jpg",
-    "Mind Maps/Docker InDeph.canvas",
-    "_Images/Devops/Docker/Kernal OS.jpg",
-    "_Images/Devops/Docker/Namespace docker.jpg",
+    "_Images/Devops/Docker/image & Containers.jpg",
     "_Images/Devops/Docker/Platforms.jpg",
-    "_Images/Devops/Development Stages to Production.png",
-    "_Images/Devops/Deployment Patterns.jpeg",
+    "_Images/Devops/Docker/Namespace docker.jpg",
+    "_Images/Devops/Docker/Kernal OS.jpg",
+    "Mind Maps/Docker InDeph.canvas",
+    "_Images/Devops/Docker/Just container namespace.jpg",
+    "_Images/Devops/Docker/Indeph nameSpace.jpg",
+    "_Images/Devops/Docker/image Contents.jpg",
+    "_Images/Devops/Docker/DockerFlow.jpg",
+    "_Images/Devops/Docker/Control Groups.jpg",
     "Home.md",
     "API/API Gateway.md",
     "API/Api request by layer.md",
@@ -319,7 +282,6 @@
     "Databases/Troubleshooting Queries.md",
     "Databases/Data Visualization Normalization or Denormalization.md",
     "Databases/App Schema.md",
-    "_Images/Proxy v Gateway v Balancer .jpeg",
     "Mind Maps/App Schema.canvas",
     "Mind Maps/Redux Map.canvas",
     "Databases/SQL Tool.md",

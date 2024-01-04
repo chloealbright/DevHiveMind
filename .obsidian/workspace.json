@@ -4,22 +4,62 @@
     "type": "split",
     "children": [
       {
-        "id": "b693d5cdf191d162",
+        "id": "7c04b17ac1a1226c",
         "type": "tabs",
         "children": [
           {
-            "id": "78475aab58232a62",
+            "id": "f47b5a00b587cf19",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": false
+                "file": "Mind Maps/Docker InDeph.canvas",
+                "viewState": {
+                  "x": 1261.1402719369453,
+                  "y": -115.69305114881286,
+                  "zoom": -2.4000000000000004
+                }
               }
             }
           }
         ]
+      },
+      {
+        "id": "a260fd0f0c81f3d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f59ecdcb8171321",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_Images/Devops/Docker/image & Containers.jpg"
+              }
+            }
+          },
+          {
+            "id": "55aef58f9864765a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_Images/Devops/Docker/Docker.png"
+              }
+            }
+          },
+          {
+            "id": "ff3a2586528974c9",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_Images/Devops/Docker/Indeph nameSpace.jpg"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -101,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "_Images/Devops/Docker/Indeph nameSpace.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "_Images/Devops/Docker/Indeph nameSpace.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "_Images/Devops/Docker/Indeph nameSpace.jpg"
               }
             }
           },
@@ -247,12 +287,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "78475aab58232a62",
+  "active": "ff3a2586528974c9",
   "lastOpenFiles": [
+    "_Images/Devops/Docker/image Contents.jpg",
+    "_Images/Devops/Docker/image & Containers.jpg",
+    "_Images/Devops/Docker/DockerFlow.jpg",
+    "_Images/Devops/Docker/Docker.png",
+    "_Images/Devops/Docker/Control Groups.jpg",
+    "Mind Maps/Docker InDeph.canvas",
+    "_Images/Devops/Docker/Kernal OS.jpg",
+    "_Images/Devops/Docker/Namespace docker.jpg",
+    "_Images/Devops/Docker/Platforms.jpg",
+    "_Images/Devops/Development Stages to Production.png",
+    "_Images/Devops/Deployment Patterns.jpeg",
+    "Home.md",
     "API/API Gateway.md",
     "API/Api request by layer.md",
     "API/API Call.md",
-    "Home.md",
     "Architecture/Circuit breaker pattern relationship with fault tolerance.md",
     "Architecture/Network Infrastructure to use.md",
     "Architecture/Architect decision.md",
@@ -272,23 +323,12 @@
     "Mind Maps/App Schema.canvas",
     "Mind Maps/Redux Map.canvas",
     "Databases/SQL Tool.md",
-    "Mind Maps/Docker InDeph.canvas",
     "Databases/Knex.md",
     "Databases/Normalization.md",
     "Architecture/Web Server Architecture",
     "Architecture/Codebase Level Scaling & Optimization.md",
-    "Infographics/API/Api Gateway.gif",
-    "Infographics/logging metrics.gif",
-    "Infographics/API/Api Performance.gif",
-    "Infographics/API/API Protocol.jpeg",
-    "Infographics/API/Api Testing.gif",
-    "Infographics/API/GatewayFunction.jpeg",
-    "Infographics/API/Rest API Design.jpeg",
-    "Infographics/Architecture/StackOverflow.jpg",
-    "Infographics/Architecture/Model Patterns.gif",
     "Web/WebSockets.md",
     "Architecture/Code standards.md",
-    "Databases/Password Hashing.md",
     "Web/Pagination.pdf",
     "Architecture/Design Patterns Layers.pdf",
     "_Low Priority Refinement/Language",

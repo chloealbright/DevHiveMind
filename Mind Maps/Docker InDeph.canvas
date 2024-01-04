@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"type":"group","id":"7162f07e504bae30","x":-1840,"y":-4640,"width":6800,"height":5600,"label":"Untitled group","background":"_Images/download.jpeg"},
-		{"type":"file","file":"_Images/Pasted image 20230819154714.jpg","id":"66a2dab6a344362e","x":-1541,"y":-1600,"width":1615,"height":752},
+		{"type":"file","file":"_Images/Devops/Docker/Control Groups.jpg","id":"66a2dab6a344362e","x":-1541,"y":-1600,"width":1351,"height":752},
 		{"type":"file","file":"_Images/Devops/Docker/Control Groups.jpg","id":"60286d0f5b166efd","x":-1147,"y":-2864,"width":1653,"height":920},
 		{"type":"text","text":"<center>\n  <h4 style=\"font-size: 120px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\">Docker Indeph Mindmap </h4>\n</center>\n\n","id":"a1d096fb7012e7ce","x":585,"y":-4000,"width":2079,"height":320,"color":"4"},
 		{"type":"text","text":"# Control Group","id":"4f7d13e72d21b55b","x":-320,"y":-1680,"width":250,"height":80},

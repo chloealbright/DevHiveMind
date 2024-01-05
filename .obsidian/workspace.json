@@ -11,9 +11,29 @@
             "id": "dc87604c62b993b4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Infographics/DevOps/Linux File System.gif"
+                "file": "Companies/Interview/Offense(Q&A).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "44b922f17b1d8c70",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d7fb34cbace8074b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Interview/Defense(A&Q).md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -99,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infographics/DevOps/Linux File System.gif",
+                "file": "Companies/Interview/Offense(Q&A).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infographics/DevOps/Linux File System.gif",
+                "file": "Companies/Interview/Offense(Q&A).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infographics/DevOps/Linux File System.gif"
+                "file": "Companies/Interview/Offense(Q&A).md"
               }
             }
           },
@@ -247,6 +267,16 @@
   },
   "active": "dc87604c62b993b4",
   "lastOpenFiles": [
+    "Companies/Interview/Defense(A&Q).md",
+    "Companies/Interview/Offense(Q&A).md",
+    "Companies/Interview/Recruiter First Conversation.md",
+    "Companies/Interview/Interview Process.md",
+    "Companies/Interview/Follow Up response template.md",
+    "Companies/Interview/Company Take-Home Project.md",
+    "Companies/Interview/Company Stability.md",
+    "Companies/Interview/Coffee Chat Interviewing.md",
+    "Companies/Employment Best Personal Practices.md",
+    "Home.md",
     "Infographics/DevOps/Linux Boot Process.gif",
     "Infographics/DevOps/DevOps Roadmap.gif",
     "Infographics/DevOps/Linux File System.gif",
@@ -257,7 +287,6 @@
     "Infographics/Web/Url Process.gif",
     "Infographics/Authentication in REST.gif",
     "Infographics/Kafka Performance.jpeg",
-    "Infographics/Kafka Uses.gif",
     "Companies/Companies Worked At/TD/User Stories.md",
     "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
     "Companies/Companies Worked At/TD/Acceptance criteria.md",
@@ -274,16 +303,7 @@
     "Companies/Companies Worked At/TD/Type of Question.md",
     "Companies/Companies Worked At/TD/Validating.md",
     "Companies/Companies Worked At/TD/TD Bank Lesson.md",
-    "Companies/Companies Worked At/Tracflo/Business Requirements Thought Experiment.md",
-    "Home.md",
     "Mind Maps/Docker InDeph.canvas",
-    "API/API Gateway.md",
-    "API/Api request by layer.md",
-    "API/API Call.md",
-    "Architecture/Circuit breaker pattern relationship with fault tolerance.md",
-    "Architecture/Network Infrastructure to use.md",
-    "Architecture/Architect decision.md",
-    "API/API pass-through.md",
     "Mind Maps/App Schema.canvas",
     "Mind Maps/Redux Map.canvas",
     "Architecture/Web Server Architecture",

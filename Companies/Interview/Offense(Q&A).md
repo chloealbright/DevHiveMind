@@ -10,7 +10,7 @@ Relates:
 ---
 ![[attack.gif]]
 
-**Before the Interview:**
+**Before the Interview(Optional):**
 - Create a resume cheat sheet and inform the interviewer about it to facilitate a dialogue.
 - Ask to record the interview for future reference.
 - Don’t let “What are the next steps in the hiring process?” be your only question!  

@@ -11,8 +11,10 @@
             "id": "00bcf55442ebb881",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "Infographics/Security/Web Session Security Animated.gif"
+              }
             }
           }
         ]
@@ -97,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Infographics/Security/Web Session Security Animated.gif",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Infographics/Security/Web Session Security Animated.gif",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Infographics/Security/Web Session Security Animated.gif"
+              }
             }
           },
           {
@@ -241,6 +247,18 @@
   },
   "active": "00bcf55442ebb881",
   "lastOpenFiles": [
+    "Infographics/Security/Web Session Security.jpeg",
+    "Infographics/Security/Security By OSI Layer.jpeg",
+    "Infographics/Security/OAuth Two.jpeg",
+    "Infographics/Security/JWT.jpeg",
+    "Infographics/DevOps/Software Life Cycle.gif",
+    "Infographics/DevOps/Linux File System.gif",
+    "Infographics/DevOps/Linux Boot Process.gif",
+    "Infographics/DevOps/DevOps Roadmap.gif",
+    "Infographics/Databases/Types of DB.jpg",
+    "Infographics/Databases/Type of db use Case.gif",
+    "Infographics/Databases/Database & Data Structrues.jpg",
+    "Home.md",
     "Algorithms & Data Structures/Problem-solving Regimen.md",
     "Algorithms & Data Structures/Algo pathway.md",
     "Algorithms & Data Structures/Interview Template with Time Table.md",
@@ -265,18 +283,6 @@
     "Algorithms & Data Structures/Algorithms/Algorithm Most Common Built in Functions.md",
     "_Low Priority Refinement/Database/DB Fundamentals/Data.md",
     "_Low Priority Refinement/Database/Database Archetecture/Data Architecture.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/Data formats.md",
-    "_Low Priority Refinement/Data Project Idea.md",
-    "Infographics/DevOps/Linux Boot Process.gif",
-    "Infographics/DevOps/DevOps Roadmap.gif",
-    "Infographics/DevOps/Linux File System.gif",
-    "Infographics/DevOps/Linux File System.jpeg",
-    "Infographics/DevOps/Software Life Cycle.gif",
-    "Infographics/Web/Proxy.gif",
-    "Infographics/Web/Traffic Poliicies.gif",
-    "Infographics/Web/Url Process.gif",
-    "Infographics/Authentication in REST.gif",
-    "Infographics/Kafka Performance.jpeg",
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/App Schema.canvas",
     "Mind Maps/Redux Map.canvas",

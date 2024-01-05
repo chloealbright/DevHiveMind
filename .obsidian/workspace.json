@@ -43,14 +43,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Abstract Data Types.md",
+                "file": "Algorithms & Data Structures/Algo pathway.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a3c7f6e5a72ab9a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Algo pathway.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -112,8 +124,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -133,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Abstract Data Types.md",
+                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Abstract Data Types.md",
+                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Abstract Data Types.md"
+                "file": "Algorithms & Data Structures/Problem-solving Regimen.md"
               }
             }
           },
@@ -279,34 +290,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9ee2210b94638c05",
+  "active": "dc87604c62b993b4",
   "lastOpenFiles": [
     "Algorithms & Data Structures/Algo pathway.md",
-    "Algorithms & Data Structures/AlgoFlow.md",
-    "Algorithms & Data Structures/Algorithms/Algorithms & Visual Abstraction.md",
-    "Companies/Interview/Defense(A&Q).md",
     "Algorithms & Data Structures/Problem-solving Regimen.md",
-    "Algorithms & Data Structures/Attributes of Data.md",
-    "Algorithms & Data Structures/Programmer vs Software Developer vs Coder vs Software architect.md",
-    "Algorithms & Data Structures/Coding Interview Tips.md",
     "Algorithms & Data Structures/Interview Template with Time Table.md",
-    "_Low Priority Refinement/Architecture/System Design/When to use Domain-Driven Design.md",
-    "_Low Priority Refinement/Architecture/System Design/Leverage  Domain-Driven Designs to Learn Codebase.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Repositories, Factories, and domain services.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-driven design Life Cycle.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Event Types.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Application Services.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Aggregate Root.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain-driven design.md",
-    "_Low Priority Refinement/Architecture/System Design/Domain model.md",
-    "Architecture/System Design/Instagram design.md",
-    "Architecture/System Design/How to Choose Resource Granularity.md",
-    "Architecture/System Design/Elements Of A Distributed Systems.md",
-    "Architecture/System Design/Spotify system design.md",
-    "Architecture/System Design/System Design NoSQL Databases and When to Use Them..md",
-    "Companies/Interview/Recruiter First Conversation.md",
-    "Companies/Interview/Offense(Q&A).md",
-    "Companies/Interview/Interview Process.md",
+    "Algorithms & Data Structures/Common Imperative Algorithms.md",
+    "Algorithms & Data Structures/Common Declarative Algorithms.md",
+    "Algorithms & Data Structures/Collections Framework.md",
+    "Algorithms & Data Structures/Coding Interview Tips.md",
+    "Algorithms & Data Structures/All Sorts of Sorts.md",
+    "Algorithms & Data Structures/AlgoFlow.md",
+    "Algorithms & Data Structures/Algo Line of thought.md",
+    "Algorithms & Data Structures/Abstract Data Types.md",
+    "Algorithms & Data Structures/Patterns/Knapsack Pattern.md",
+    "Algorithms & Data Structures/Patterns/Key Base Attributes of  Grokking Algorithm patterns.md",
+    "Algorithms & Data Structures/Patterns/Depth First Search & Breadth-First Search.md",
+    "Algorithms & Data Structures/Patterns/Binary search 101.md",
+    "Algorithms & Data Structures/Algorithms/Linear search vs Binary search.md",
+    "Algorithms & Data Structures/Algorithms/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
+    "Algorithms & Data Structures/Algorithms/Iterating vs Traversing.md",
+    "Algorithms & Data Structures/Algorithms/Algorithm Pattern vs Simple Solution.md",
+    "Algorithms & Data Structures/Algorithms/Algorithms & Visual Abstraction.md",
+    "Algorithms & Data Structures/Algorithms/Approach Pivot.md",
+    "Algorithms & Data Structures/Algorithms/Algorithm Most Common Built in Functions.md",
+    "_Low Priority Refinement/Database/DB Fundamentals/Data.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Data Architecture.md",
+    "_Low Priority Refinement/Database/DB Fundamentals/Data formats.md",
+    "_Low Priority Refinement/Data Project Idea.md",
     "Infographics/DevOps/Linux Boot Process.gif",
     "Infographics/DevOps/DevOps Roadmap.gif",
     "Infographics/DevOps/Linux File System.gif",

@@ -24,7 +24,7 @@ Ask questions to clarify
 
 
 
-Use cases 
+Use cases/stories 
 
 user should be able to upload pictures or videos 
 
@@ -41,6 +41,7 @@ ask about scope 
 priority or return in organized order from a pool of post from your friends 
 
 user post cap based on how many people your following 
+
 
 Entity(ask about ERD) 
 
@@ -89,6 +90,8 @@ say you dont know about t his but my idea is ..... 
 
 -> we also a couple of master DB and slaveDB  
 
+
+
 TIME 
 
 60 sec * 60 min = 3600 sec per hour 
@@ -98,6 +101,8 @@ TIME 
 86,400 
 
 86,400 * 30 days 2,500,000 sec per month 
+
+
 
 num place 
 
@@ -111,6 +116,8 @@ num place 
 
 150,000,000,000,000 trillion 
 
+
+
 1 kilobyte (KB) 1,024 bytes 
 
 1024 kilobytes = 1 megabyte (MB) 1,048,576 bytes 
@@ -120,6 +127,8 @@ num place 
 1024 gigabytes = 1 terabyte (TB) 1,099,511,627,776 bytes 
 
 1024 terabytes = 1 petabyte (PB) 1,125,899,906,842,624 byte 
+
+
 
 traffic estimate 
 
@@ -133,9 +142,11 @@ many request and writes per second 
 
 10mill / 86,400 sec = 115 write a sec 
 
+
+
 this goes into memory  
 
-cache popular people use for highlights 
+cache popular people use for instagram highlights 
 
 300 mill req * 500 bytes= 150 gb 
 
@@ -143,17 +154,23 @@ cache popular people use for highlights 
 
 30gb * 3(replication) 
 
+
+
 bandwith 
 
 300 mill * 1.5mb = 450,000gb 
 
- 450,000gb / 86,400 sec = 5.2gb per sec 
+450,000gb / 86,400 sec = 5.2gb per sec 
+
+
 
 storage 
 
 10mill writes * 1.5mb = 15tb per day 
 
 15tb * 365 days * 10 years = 55ptb 
+
+
 
 Summary 
 

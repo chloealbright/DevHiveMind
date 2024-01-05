@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Interview/Offense(Q&A).md",
+                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
                 "mode": "source",
                 "source": false
               }
@@ -36,8 +36,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9ee2210b94638c05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Abstract Data Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Themes",
+                "query": "data",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -99,7 +112,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -119,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Interview/Offense(Q&A).md",
+                "file": "Algorithms & Data Structures/Abstract Data Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Interview/Offense(Q&A).md",
+                "file": "Algorithms & Data Structures/Abstract Data Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Interview/Offense(Q&A).md"
+                "file": "Algorithms & Data Structures/Abstract Data Types.md"
               }
             }
           },
@@ -265,18 +279,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dc87604c62b993b4",
+  "active": "9ee2210b94638c05",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Algo pathway.md",
+    "Algorithms & Data Structures/AlgoFlow.md",
+    "Algorithms & Data Structures/Algorithms/Algorithms & Visual Abstraction.md",
     "Companies/Interview/Defense(A&Q).md",
-    "Companies/Interview/Offense(Q&A).md",
+    "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "Algorithms & Data Structures/Attributes of Data.md",
+    "Algorithms & Data Structures/Programmer vs Software Developer vs Coder vs Software architect.md",
+    "Algorithms & Data Structures/Coding Interview Tips.md",
+    "Algorithms & Data Structures/Interview Template with Time Table.md",
+    "_Low Priority Refinement/Architecture/System Design/When to use Domain-Driven Design.md",
+    "_Low Priority Refinement/Architecture/System Design/Leverage  Domain-Driven Designs to Learn Codebase.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Repositories, Factories, and domain services.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-driven design Life Cycle.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Event Types.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Application Services.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-Driven Design Aggregate Root.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain-driven design.md",
+    "_Low Priority Refinement/Architecture/System Design/Domain model.md",
+    "Architecture/System Design/Instagram design.md",
+    "Architecture/System Design/How to Choose Resource Granularity.md",
+    "Architecture/System Design/Elements Of A Distributed Systems.md",
+    "Architecture/System Design/Spotify system design.md",
+    "Architecture/System Design/System Design NoSQL Databases and When to Use Them..md",
     "Companies/Interview/Recruiter First Conversation.md",
+    "Companies/Interview/Offense(Q&A).md",
     "Companies/Interview/Interview Process.md",
-    "Companies/Interview/Follow Up response template.md",
-    "Companies/Interview/Company Take-Home Project.md",
-    "Companies/Interview/Company Stability.md",
-    "Companies/Interview/Coffee Chat Interviewing.md",
-    "Companies/Employment Best Personal Practices.md",
-    "Home.md",
     "Infographics/DevOps/Linux Boot Process.gif",
     "Infographics/DevOps/DevOps Roadmap.gif",
     "Infographics/DevOps/Linux File System.gif",
@@ -287,22 +317,6 @@
     "Infographics/Web/Url Process.gif",
     "Infographics/Authentication in REST.gif",
     "Infographics/Kafka Performance.jpeg",
-    "Companies/Companies Worked At/TD/User Stories.md",
-    "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
-    "Companies/Companies Worked At/TD/Acceptance criteria.md",
-    "Companies/Companies Worked At/TD/Agile.md",
-    "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
-    "Companies/Companies Worked At/TD/Business Systems Analyst.md",
-    "Companies/Companies Worked At/TD/Current State Assessment.md",
-    "Companies/Companies Worked At/TD/Elicitation.md",
-    "Companies/Companies Worked At/TD/Moscow prioritization.md",
-    "Companies/Companies Worked At/TD/Non-calendar fiscal year.md",
-    "Companies/Companies Worked At/TD/PI Planning.md",
-    "Companies/Companies Worked At/TD/Requirement Governance.md",
-    "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
-    "Companies/Companies Worked At/TD/Type of Question.md",
-    "Companies/Companies Worked At/TD/Validating.md",
-    "Companies/Companies Worked At/TD/TD Bank Lesson.md",
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/App Schema.canvas",
     "Mind Maps/Redux Map.canvas",

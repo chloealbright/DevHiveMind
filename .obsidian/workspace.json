@@ -4,21 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7c04b17ac1a1226c",
+        "id": "c8a217d405584999",
         "type": "tabs",
         "children": [
           {
-            "id": "f47b5a00b587cf19",
+            "id": "dc87604c62b993b4",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "image",
               "state": {
-                "file": "Mind Maps/Docker InDeph.canvas",
-                "viewState": {
-                  "x": 1952.5442383063255,
-                  "y": -523.6237646571947,
-                  "zoom": -3.2
-                }
+                "file": "Infographics/DevOps/Linux File System.gif"
               }
             }
           }
@@ -51,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "layer",
+                "query": "Themes",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -104,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mind Maps/Docker InDeph.canvas",
+                "file": "Infographics/DevOps/Linux File System.gif",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mind Maps/Docker InDeph.canvas",
+                "file": "Infographics/DevOps/Linux File System.gif",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mind Maps/Docker InDeph.canvas"
+                "file": "Infographics/DevOps/Linux File System.gif"
               }
             }
           },
@@ -250,20 +245,38 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f47b5a00b587cf19",
+  "active": "dc87604c62b993b4",
   "lastOpenFiles": [
-    "_Images/Devops/Docker/Docker.png",
-    "_Images/Devops/Docker/image & Containers.jpg",
-    "_Images/Devops/Docker/Platforms.jpg",
-    "_Images/Devops/Docker/Namespace docker.jpg",
-    "_Images/Devops/Docker/Kernal OS.jpg",
-    "Mind Maps/Docker InDeph.canvas",
-    "_Images/Devops/Docker/Just container namespace.jpg",
-    "_Images/Devops/Docker/Indeph nameSpace.jpg",
-    "_Images/Devops/Docker/image Contents.jpg",
-    "_Images/Devops/Docker/DockerFlow.jpg",
-    "_Images/Devops/Docker/Control Groups.jpg",
+    "Infographics/DevOps/Linux Boot Process.gif",
+    "Infographics/DevOps/DevOps Roadmap.gif",
+    "Infographics/DevOps/Linux File System.gif",
+    "Infographics/DevOps/Linux File System.jpeg",
+    "Infographics/DevOps/Software Life Cycle.gif",
+    "Infographics/Web/Proxy.gif",
+    "Infographics/Web/Traffic Poliicies.gif",
+    "Infographics/Web/Url Process.gif",
+    "Infographics/Authentication in REST.gif",
+    "Infographics/Kafka Performance.jpeg",
+    "Infographics/Kafka Uses.gif",
+    "Companies/Companies Worked At/TD/User Stories.md",
+    "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
+    "Companies/Companies Worked At/TD/Acceptance criteria.md",
+    "Companies/Companies Worked At/TD/Agile.md",
+    "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
+    "Companies/Companies Worked At/TD/Business Systems Analyst.md",
+    "Companies/Companies Worked At/TD/Current State Assessment.md",
+    "Companies/Companies Worked At/TD/Elicitation.md",
+    "Companies/Companies Worked At/TD/Moscow prioritization.md",
+    "Companies/Companies Worked At/TD/Non-calendar fiscal year.md",
+    "Companies/Companies Worked At/TD/PI Planning.md",
+    "Companies/Companies Worked At/TD/Requirement Governance.md",
+    "Companies/Companies Worked At/TD/Type of Jira User Stories.md",
+    "Companies/Companies Worked At/TD/Type of Question.md",
+    "Companies/Companies Worked At/TD/Validating.md",
+    "Companies/Companies Worked At/TD/TD Bank Lesson.md",
+    "Companies/Companies Worked At/Tracflo/Business Requirements Thought Experiment.md",
     "Home.md",
+    "Mind Maps/Docker InDeph.canvas",
     "API/API Gateway.md",
     "API/Api request by layer.md",
     "API/API Call.md",
@@ -271,26 +284,9 @@
     "Architecture/Network Infrastructure to use.md",
     "Architecture/Architect decision.md",
     "API/API pass-through.md",
-    "Architecture/Clean Code.md",
-    "Architecture/Boxing and Unboxing.md",
-    "Architecture/Web Server Architecture/Reverse proxy vs. API gateway vs. load balancer.md",
-    "Architecture/Web Server Architecture/Servers.md",
-    "Architecture/Web Server Architecture/Route Authentication.md",
-    "Architecture/Web Server Architecture/Server Routes Order.md",
-    "Architecture/Web Server Architecture/Best Practices for User Account Routes.md",
-    "Architecture/Web Server Architecture/Login vs Register vs Password Rest.md",
-    "Databases/Troubleshooting Queries.md",
-    "Databases/Data Visualization Normalization or Denormalization.md",
-    "Databases/App Schema.md",
     "Mind Maps/App Schema.canvas",
     "Mind Maps/Redux Map.canvas",
-    "Databases/SQL Tool.md",
-    "Databases/Knex.md",
-    "Databases/Normalization.md",
     "Architecture/Web Server Architecture",
-    "Architecture/Codebase Level Scaling & Optimization.md",
-    "Web/WebSockets.md",
-    "Architecture/Code standards.md",
     "Web/Pagination.pdf",
     "Architecture/Design Patterns Layers.pdf",
     "_Low Priority Refinement/Language",

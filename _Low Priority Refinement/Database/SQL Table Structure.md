@@ -61,24 +61,3 @@ column.notNullable() Adds a not null on the current column being created. 
 
 Tables by defualt are sorted by pirimary key but using index changes that and indexing speeds up querys 
 
-[http://itdoc.hitachi.co.jp/manuals/3020/3020645230e/W4520261.HTM#:~:text=A%20cluster%20key%20is%20a,cluster%20key%20column(s](http://itdoc.hitachi.co.jp/manuals/3020/3020645230e/W4520261.HTM#:~:text=A%20cluster%20key%20is%20a,cluster%20key%20column(s)).  
-
-Which takes in a array of columns and a column you want to sort by  
-
-table.index(['name', 'last_name'], 'idx_name_last_name') 
-
-table.boolean(name) 
-
-Adds a boolean column. 
-
-table.integer(name, length) 
-
-Adds an integer column. On PostgreSQL you cannot adjust the length, you need to use other option such as bigInteger, etc 
-
-time related columns  
-
-http://knexjs.org/guide/schema-builder.html#date 
-
-table.text(name, [textType]) 
-
-Adds a text column, with optional textType for MySql text datatype preference. textType may be mediumtext or longtext, otherwise defaults to text.

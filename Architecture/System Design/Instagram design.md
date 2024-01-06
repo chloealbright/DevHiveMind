@@ -134,13 +134,7 @@ storage = writes per day * size of write * time to store data
 
 # Alt way of writing edit merge
 
-Summary  
-hund(3) > thous(6)>mill(9)>bill(12)>trill(15)  
-86,400 seconds in a day  
-  
-read traffic = daily active user * avg read a day/GET(come up with a num)  
-  
-write traffic = daily active user * avg writes per/POST user a day(come up with a num)  
+
   
 memory = read req per day * AVG Req Size * .2(20%)  
   

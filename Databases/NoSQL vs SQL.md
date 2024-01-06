@@ -66,7 +66,7 @@ Here's a breakdown of what each term in BASE signifies:
 NoSQL databases are high-performance, scalable, and flexible, which makes them great for mobile, web, and gaming applications.
 
 - **Scalability**: As opposed to scaling up by adding expensive and robust servers, NoSQL databases typically scale out by using distributed clusters of hardware. As a fully managed service, some cloud providers handle these operations behind the scenes.
-- **Flexibility**: NoSQL databases usually have flexible schemas that enable faster and more iterative development. NoSQL databases have a flexible data model that makes them ideal for semistructured and unstructured data.
+- **Flexibility**: NoSQL databases usually have flexible schemas that enable faster and more iterative development. NoSQL databases have a flexible data model that makes them ideal for semi-structured and unstructured data.
 - **High-performance**: Compared to relational databases, NoSQL databases are optimized for specific data models and access patterns; this results in higher performance.
 
 ### **Conclusion:**

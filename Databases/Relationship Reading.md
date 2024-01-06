@@ -31,16 +31,14 @@ A Job Match record would belong to one Job and one Resume.
 
 Relational databases use a schema to define tables and the relationships between them. They are based on the relational model, emphasizing data consistency and integrity.
 
-A simple relational model representation
+## Simple Relational Model Representation
 
 
 ![[relational model.png]]
 
 
 
-relational database representation
-
-and simple query examples
+## Relational Database Query Examples
 
 ```sql
 -- INSERT

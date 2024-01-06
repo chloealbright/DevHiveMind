@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database Table Relationships.md",
+                "file": "Databases/Database Table Relationship Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5bfce42e395be913",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Relationship Reading.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "215cdcda6a1ecf85",
@@ -38,19 +51,31 @@
             }
           },
           {
-            "id": "33b86be1c65961be",
+            "id": "1fac25659d31ad36",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/DBMS Keys.md",
+                "file": "Databases/Functional Dependencies.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7437fee43f8ddc8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/NoSQL vs SQL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -132,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database Table Relationships.md",
+                "file": "Databases/Relationship Reading.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database Table Relationships.md",
+                "file": "Databases/Relationship Reading.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database Table Relationships.md"
+                "file": "Databases/Relationship Reading.md"
               }
             }
           },
@@ -278,12 +303,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "09b225a55a9ff653",
+  "active": "5bfce42e395be913",
   "lastOpenFiles": [
-    "Databases/DBMS Keys.md",
-    "Databases/Database Table Relationships.md",
+    "Databases/Password Hashing.md",
     "Databases/NoSQL vs SQL.md",
+    "Databases/Normalization & Denormalization.md",
+    "Databases/Knex.md",
     "Databases/Functional Dependencies.md",
+    "Databases/Database Table Relationship Types.md",
+    "Databases/DBMS Keys.md",
     "Databases/Frontend Database.md",
     "Databases/App Schema.md",
     "Home.md",
@@ -296,16 +324,13 @@
     "_Low Priority Refinement/Database/Other Stuff.md",
     "Databases/Types of Tables in logical database models.md",
     "Databases/Table Relationships.md",
-    "Databases/Normalization & Denormalization.md",
     "Databases/Data Visualization Normalization or Denormalization.md",
     "Databases/Normalization & Denormalization Trade-offs.md",
-    "Databases/Knex.md",
     "Databases/Building a Coherent Data Architecture  A Top-Down Approach.md",
     "Databases/Data Architecture.md",
     "Algorithms & Data Structures/Sorts/Examination of Best Practices for Sorting.md",
     "Architecture/Clean Code.md",
     "Architecture/Technology Options/Database.md",
-    "Architecture/Web Server Architecture/Best Practices for User Account Routes.md",
     "_Images/Interview/system design.gif",
     "Infographics/System Design Cheatsheet.gif",
     "Infographics/System Design BluePrint.jpg",

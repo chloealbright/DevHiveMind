@@ -4,16 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "96450118d6a0a366",
+        "id": "e4a46397e60ca348",
         "type": "tabs",
         "children": [
           {
-            "id": "c6aee15a989e7fca",
+            "id": "837cfd9cbe45d076",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Database/DBMS Keys.md",
+                "file": "_Low Priority Refinement/Database/SQL Table Structure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "efe6a33511ad8a74",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a00da10aece098c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Relationship Reading.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "referential",
+                "query": "data",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -101,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Database/DBMS Keys.md",
+                "file": "_Low Priority Refinement/Database/SQL Table Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Database/DBMS Keys.md",
+                "file": "_Low Priority Refinement/Database/SQL Table Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Database/DBMS Keys.md"
+                "file": "_Low Priority Refinement/Database/SQL Table Structure.md"
               }
             }
           },
@@ -247,34 +265,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c6aee15a989e7fca",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
-    "_Low Priority Refinement/Database/DBMS.md",
-    "Databases/Database Table Relationships.md",
-    "AI & Chatgpt/prompts/Development/Note Refiner.md",
-    "_Low Priority Refinement/Database/DBMS Keys.md",
-    "Language Overlap/Pure Functions vs Impure Functions.md",
-    "_Low Priority Refinement/Database/Constraints.md",
-    "_Low Priority Refinement/Database/Functional Dependencies.md",
-    "_Low Priority Refinement/Database/Database Archetecture/DBMS Types of Keys.md",
-    "_Low Priority Refinement/Database/Relationships/SQL Table Structure.md",
-    "Databases/Table Relationships.md",
+    "_Low Priority Refinement/Database/DB Data Types.md",
+    "_Low Priority Refinement/Database/Create Tables.md",
+    "Databases/DBMS Keys.md",
     "Databases/Relationship Reading.md",
-    "_Low Priority Refinement/Database/NOSQL/MongoDB.md",
-    "_Low Priority Refinement/Database/NOSQL/General Info.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/Transaction.md",
-    "_Low Priority Refinement/Database/NOSQL/DynamoDB vs MongoDB.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/database Explained.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/Data formats.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/Data.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Table Team Work.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Star.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Snowflake.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Schema Design.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Making Decesion.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Fact Table.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Decentralized Data Management.md",
+    "Databases/Frontend Database.md",
+    "_Low Priority Refinement/Database/GUIDs.md",
+    "_Low Priority Refinement/Database/Multi Model DB.md",
+    "_Low Priority Refinement/Database/Setup/MYSQL Setup.md",
+    "_Low Priority Refinement/Database/Other Stuff.md",
+    "Databases/Types of Tables in logical database models.md",
+    "Databases/Functional Dependencies.md",
+    "Databases/Table Relationships.md",
+    "Databases/Normalization & Denormalization.md",
+    "Databases/Data Visualization Normalization or Denormalization.md",
+    "Databases/Normalization & Denormalization Trade-offs.md",
+    "Databases/Knex.md",
+    "Databases/Database Table Relationships.md",
+    "Databases/Building a Coherent Data Architecture  A Top-Down Approach.md",
     "Databases/Data Architecture.md",
+    "Algorithms & Data Structures/Sorts/Examination of Best Practices for Sorting.md",
+    "Architecture/Clean Code.md",
+    "Architecture/Technology Options/Database.md",
+    "Architecture/Web Server Architecture/Best Practices for User Account Routes.md",
+    "Databases/App Schema.md",
+    "Databases/Best Practices for Database Schema Design.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Decentralized Data Management.md",
     "_Images/Interview/system design.gif",
     "Infographics/System Design Cheatsheet.gif",
     "Infographics/System Design BluePrint.jpg",

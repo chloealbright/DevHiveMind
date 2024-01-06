@@ -16,6 +16,24 @@ Think about where would this type of problem solution be applied to in real worl
 
 
 
+
+## Database Schema Naming
+>[!important]
+>Database schemas are useful long after you've created them and will be viewed by many other people. So good documentation is essential. Document your database schema design with explicit instructions and write comment lines for scripts, triggers, and other commands.  
+
+- Define and use appropriate naming conventions to make your database schema designs more effective. While you may decide on a particular style or adhere to an ISO standard, the most important thing is to be consistent in your name fields. 
+
+- Try not to use reserved words in table names, column names, fields, etc. that will likely deliver a syntax error. 
+
+- Don’t use hyphens, quotes, spaces, or special characters. They will either require additional work or not be valid. 
+
+- Use singular nouns, not plural nouns, for table names (for example, use StudentName instead of StudentNames). A table represents a collection, so there’s no need to make the title plural.  
+
+- Omit unnecessary verbiage for table names (for example, use Department instead of DepartmentList or TableDepartments) 
+
+
+## case
+
 Pascal Casing - capitalizes each word:  
   
 ThisShouldBePascalCase  

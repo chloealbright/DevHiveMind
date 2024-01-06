@@ -22,7 +22,6 @@ In database design, logical models help define the structure and organization of
 3. **System Tables**: These tables are used by the RDBMS to store metadata and system-related information. Users typically do not interact with these tables directly.
 
 4. **Entity Tables**: These tables represent core entities within the database, such as customers, products, employees, or orders. They store attributes and information related to these entities.  
-
   
 5. **Attribute Tables**: Attribute tables contain detailed information about specific attributes of entities. For example, if you have a "Product" entity, you might have separate attribute tables for product categories, prices, and descriptions.  
   

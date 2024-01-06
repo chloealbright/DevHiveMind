@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - practices
 author:
   - jacgit18
   - chatgpt

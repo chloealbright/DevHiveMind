@@ -1,6 +1,7 @@
 ---
 tags:
   - routes
+  - practices
 author:
   - jacgit18
 Status: Capture

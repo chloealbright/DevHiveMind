@@ -2,14 +2,18 @@
 tags: 
 author:
   - jacgit18
-Status: 
+Status: Done
 Started: 
 EditDate: 
 Relates:
 ---
-A database key in the DBMS context refers to either a singular attribute or a combination of attributes that serves the crucial role of uniquely identifying a tuple (row/record) within a relation (table). Beyond mere identification, keys play a pivotal role in establishing relationships across various tables and columns within a relational database.
+In the realm of Database Management Systems (DBMS), a database key holds a critical role, representing either a singular attribute or a combination of attributes. Its primary function is to uniquely identify a tuple (row/record) within a relation (table). However, the significance of keys extends beyond mere identification, playing a pivotal role in establishing relationships across various tables and columns within a relational database.
 
-Each distinct element within a key, known as key values, contributes to the uniqueness of a tuple. By utilizing keys, a robust structure is established, allowing for the correlation of data between different components of the database. This fundamental concept underpins the relational integrity and inter-connectivity within a relational database system.
+### Understanding Database Management Systems (DBMS)
+
+DBMS stands as the cornerstone for managing data, providing a platform to store, retrieve, and query information. It serves as the intermediary interface between end-users and databases, enabling users to seamlessly create, read, update, and delete data within the database.
+
+A DBMS accommodates diverse data architectures, including relational databases (RDBMS), document stores, key-value stores, column-oriented databases, graph databases, and more. Well-known DBMSs encompass MongoDB, Cassandra, Redis, MySQL, Microsoft SQL Server, PostgreSQL, SQLite, Oracle, and numerous others.
 
 #### Primary Key
 A primary key, such as `ID` or `SSN`, uniquely identifies each record in a table. 

@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/NoSQL vs SQL.md",
+                "file": "Databases/Knex vs Sequelize.md",
                 "mode": "source",
                 "source": false
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/NoSQL vs SQL.md",
+                "file": "Databases/Knex vs Sequelize.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/NoSQL vs SQL.md",
+                "file": "Databases/Knex vs Sequelize.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/NoSQL vs SQL.md"
+                "file": "Databases/Knex vs Sequelize.md"
               }
             }
           },
@@ -316,11 +316,13 @@
   },
   "active": "7437fee43f8ddc8e",
   "lastOpenFiles": [
+    "Databases/Knex.md",
+    "Databases/Knex vs Sequelize.md",
     "Mind Maps/Untitled Kanban.md",
+    "Databases/NoSQL vs SQL.md",
     "_Low Priority Refinement/Dev Todo.md",
     "Databases/Which normalization to pick.md",
     "Databases/Types of Tables in logical database models.md",
-    "Databases/NoSQL vs SQL.md",
     "Database Relationship With Endpoints & Interfaces.md",
     "Databases/Table Relationships.md",
     "Databases/Record Life Cycle.md",
@@ -352,7 +354,6 @@
     "Databases/Relationship Reading.md",
     "Databases/Password Hashing.md",
     "Databases/Normalization & Denormalization.md",
-    "Databases/Knex.md",
     "Databases/Functional Dependencies.md",
     "Databases/DBMS Keys.md",
     "Databases/Frontend Database.md",
@@ -360,7 +361,6 @@
     "_Low Priority Refinement/Database/DB Data Types.md",
     "_Low Priority Refinement/Database/Create Tables.md",
     "_Low Priority Refinement/Database/GUIDs.md",
-    "_Low Priority Refinement/Database/Multi Model DB.md",
     "Mind Maps/Docker InDeph.canvas",
     "Architecture/Web Server Architecture",
     "Web/Pagination.pdf",

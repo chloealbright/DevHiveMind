@@ -48,7 +48,7 @@ Session management, user preferences, and product recommendations.
 
 Amazon DynamoDB, Azure Cosmos DB, Riak.
 
-## ◆ In-memory key-value databases
+## In-memory key-value databases
 
 The data is primarily stored in memory, unlike disk-based databases. By eliminating disk access, these databases enable minimal response times. Because all data is stored in main memory, in-memory databases risk losing data upon a process or server failure. In-memory databases can persist data on disks by storing each operation in a log or by taking snapshots.
 
@@ -56,44 +56,17 @@ The data is primarily stored in memory, unlike disk-based databases. By eliminat
 
 Redis, Memcached, Amazon Elasticache.
 
+- **Document Databases:** Document databases, exemplified by MongoDB and CouchDB, share a structure akin to key-value databases. However, in this context, keys and values are encapsulated within documents formatted in markup languages like JSON, XML, or YAML. This approach proves invaluable for agile development and diverse data types, making it well-suited for applications such as user profiles, product catalogs, and content management where flexible data storage is paramount.
 
-
-- **Document Databases:** Useful for flexible data storage, especially in scenarios requiring agile development and a variety of data types (e.g., MongoDB, CouchDB).
-
-Document databases are structured similarly to key-value databases except that keys and values are stored in documents written in a markup language like JSON, XML, or YAML.
-
-## Use cases
-
-User profiles, product catalogs, and content management.
-
-## Examples
-
-MongoDB, Amazon DocumentDB, CouchDB.
-
-
-- **Wide-Column Stores:** Ideal for scenarios with known queries and large data volumes, offering fast querying of specific data parts (e.g., Cassandra, HBase).
-
-
-Wide column databases are based on tables but without a strict column format. Rows do not need a value in every column, and segments of rows and columns containing different data formats can be combined.
-
-## Use cases
-
-Telemetry, analytics data, messaging, and time-series data.
-
-## Examples
-
-Cassandra, Accumulo, Azure Table Storage, HBase.
-
+- **Wide-Column Stores:** Wide-column databases, such as Cassandra and HBase, depart from strict column formats, allowing flexibility in data representation. Rows aren't obligated to have values in every column, enabling amalgamation of diverse data formats within rows and columns. This architecture proves beneficial for scenarios involving telemetry, analytics, messaging, and time-series data with known queries and substantial data volumes, ensuring swift retrieval of specific data segments.
 
 - **Graph Databases:** Designed for illustrating multidimensional relationships, suitable for social networks, fraud detection, and recommendation engines (e.g., Neo4j, JanusGraph, Amazon Neptune, Cosmos DB through Azure Gremlin).
 
 
 
-Unique databases
+## Unique Use Case Databases
 
-
-
-## ◆ Time series databases
+### Time series databases
 
 These databases store data in time-ordered streams. Data is not sorted by value or id but by the time of collection, ingestion, or other timestamps included in the metadata.
 
@@ -106,9 +79,7 @@ Industrial telemetry, DevOps, and Internet of Things (IOT) applications.
 Graphite, Prometheus, Amazon Timestream.
 
 
-
-
-## ◆ **Ledger databases**
+### Ledger databases
 
 Ledger databases are based on logs that record events related to data values. These databases store data changes that are used to verify the integrity of data.
 

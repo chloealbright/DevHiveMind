@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Choosing Database.md",
+                "file": "Databases/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Choosing Database.md",
+                "file": "Databases/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Choosing Database.md"
+                "file": "Databases/Untitled.md"
               }
             }
           },
@@ -265,10 +265,10 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "d61c20658519b075",
+  "active": "b88b25226062d555",
   "lastOpenFiles": [
-    "_Low Priority Refinement/Database/DB Fundamentals/Transaction.md",
     "Databases/Choosing Database.md",
+    "_Low Priority Refinement/Database/DB Fundamentals/Transaction.md",
     "Databases/Database Table Relationship Types.md",
     "Databases/Types of Tables in logical database models.md",
     "Databases/System Design NoSQL Databases and When to Use Them..md",

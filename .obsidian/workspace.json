@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e4a46397e60ca348",
+        "id": "215cdcda6a1ecf85",
         "type": "tabs",
         "children": [
           {
-            "id": "837cfd9cbe45d076",
+            "id": "d61c20658519b075",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Database/SQL Table Structure.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "efe6a33511ad8a74",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5a00da10aece098c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Relationship Reading.md",
+                "file": "Databases/Functional Dependencies.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Database/SQL Table Structure.md",
+                "file": "Databases/Functional Dependencies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Database/SQL Table Structure.md",
+                "file": "Databases/Functional Dependencies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Database/SQL Table Structure.md"
+                "file": "Databases/Functional Dependencies.md"
               }
             }
           },
@@ -267,11 +249,14 @@
   },
   "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "Databases/Frontend Database.md",
+    "Databases/DBMS Keys.md",
+    "Databases/Database Table Relationships.md",
+    "Databases/App Schema.md",
+    "Home.md",
     "_Low Priority Refinement/Database/DB Data Types.md",
     "_Low Priority Refinement/Database/Create Tables.md",
-    "Databases/DBMS Keys.md",
     "Databases/Relationship Reading.md",
-    "Databases/Frontend Database.md",
     "_Low Priority Refinement/Database/GUIDs.md",
     "_Low Priority Refinement/Database/Multi Model DB.md",
     "_Low Priority Refinement/Database/Setup/MYSQL Setup.md",
@@ -283,16 +268,13 @@
     "Databases/Data Visualization Normalization or Denormalization.md",
     "Databases/Normalization & Denormalization Trade-offs.md",
     "Databases/Knex.md",
-    "Databases/Database Table Relationships.md",
     "Databases/Building a Coherent Data Architecture  A Top-Down Approach.md",
     "Databases/Data Architecture.md",
     "Algorithms & Data Structures/Sorts/Examination of Best Practices for Sorting.md",
     "Architecture/Clean Code.md",
     "Architecture/Technology Options/Database.md",
     "Architecture/Web Server Architecture/Best Practices for User Account Routes.md",
-    "Databases/App Schema.md",
     "Databases/Best Practices for Database Schema Design.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Decentralized Data Management.md",
     "_Images/Interview/system design.gif",
     "Infographics/System Design Cheatsheet.gif",
     "Infographics/System Design BluePrint.jpg",

@@ -1,7 +1,7 @@
 ---
 tags:
+  - project
   - todo/High/Dev
-  - projecti
 author:
   - jacgit18
 Status: Express

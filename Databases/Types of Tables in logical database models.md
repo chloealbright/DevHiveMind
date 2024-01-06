@@ -53,7 +53,7 @@ In database design, logical models help define the structure and organization of
   
 7. **Partitioned Tables**: Large tables can be divided into partitions to improve query performance and manage data more efficiently. Each partition can be stored separately and has its own set of data.  
   
-8. **Materialized Views**: Materialized views are precomputed result sets of queries, stored as tables. They are used to improve query performance by caching the results of complex queries.  
+8. **Materialized Views**: Materialized views are pre-computed result sets of queries, stored as tables. They are used to improve query performance by caching the results of complex queries.  
   
 9. **Virtual Tables (Views)**: These are not physical tables but virtual representations of data from one or more underlying tables. Views are used to simplify complex queries and control access to data.  
   

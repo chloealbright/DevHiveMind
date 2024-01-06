@@ -56,7 +56,7 @@ However, there are some trade-offs with denormalized databases, including the ri
 
 The normalization or denormalization of database tables can have a significant effect on the visualization of data in Power BI. Here's how each approach can impact your data visualization:  
   
-**Normalization:**  
+#### **Normalization:**  
   
 1. **Clarity:** Normalized tables can maintain data integrity and reduce redundancy, making your data more logically organized. This can lead to clearer and more structured data models in Power BI.  
   
@@ -64,7 +64,7 @@ The normalization or denormalization of database tables can have a significant e
   
 3. **Complexity:** Normalized data models may involve multiple related tables and require more complex relationships and `DAX` calculations in Power BI. This can increase the complexity of report development.  
   
-**Denormalization:**  
+#### **Denormalization:**  
   
 1. **Performance:** Denormalized tables can improve query performance in Power BI, especially for complex reports with many joins. Flattening the data can make it easier and faster to create visualizations.  
   
@@ -77,8 +77,12 @@ In practice, many Power BI projects find a middle ground. They maintain normaliz
 Ultimately, the choice between normalization and denormalization should align with your specific reporting requirements, data volume, and performance considerations. Power BI provides tools and features to handle both normalized and denormalized data, allowing you to design your data model according to your needs.
 
 ### Continuous Evaluation
-
 Normalization is an ongoing process, requiring periodic reassessment whenever there are changes to the schema or database structure. This ensures that the database remains optimized and aligned with evolving business requirements.
+
+When designing a database schema, it is generally a good idea to aim for a normalization level that is appropriate for the needs of the application.  
+
+It's important to note that aiming for a higher level of normalization may not always be necessary or practical for every application. It depends on the specific needs of the application and the trade-offs between performance, storage efficiency, and maintainability. In some cases, denormalization (i.e. intentionally introducing redundancies) may be appropriate to optimize for certain queries or use cases. 
+
 
 For further details on database normalization, you can explore additional resources at [Guru99](https://www.guru99.com/database-normalization.html).
 

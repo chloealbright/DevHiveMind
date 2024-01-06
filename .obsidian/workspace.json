@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Database/Database Archetecture/Database Diagram.md",
+                "file": "Databases/Database Table Relationships.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5091afa80888f3dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_Low Priority Refinement/Database/DBMS Keys.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41bd97f4ea9939e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI & Chatgpt/prompts/Development/Note Refiner.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cache ",
+                "query": "note",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -81,7 +106,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -101,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Database/Database Archetecture/Database Diagram.md",
+                "file": "_Low Priority Refinement/Database/DBMS Keys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Database/Database Archetecture/Database Diagram.md",
+                "file": "_Low Priority Refinement/Database/DBMS Keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Database/Database Archetecture/Database Diagram.md"
+                "file": "_Low Priority Refinement/Database/DBMS Keys.md"
               }
             }
           },
@@ -247,28 +273,36 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b6f62abe94256334",
+  "active": "5091afa80888f3dc",
   "lastOpenFiles": [
+    "Databases/Database Table Relationships.md",
+    "_Low Priority Refinement/Database/Database Archetecture/DBMS Types of Keys.md",
+    "_Low Priority Refinement/Database/DBMS Keys.md",
+    "AI & Chatgpt/prompts/Development/Note Refiner.md",
+    "_Low Priority Refinement/Database/Relationships/SQL Table Structure.md",
+    "Databases/Table Relationships.md",
+    "Databases/Relationship Reading.md",
+    "_Low Priority Refinement/Database/NOSQL/MongoDB.md",
+    "_Low Priority Refinement/Database/NOSQL/General Info.md",
+    "_Low Priority Refinement/Database/DB Fundamentals/Transaction.md",
+    "_Low Priority Refinement/Database/NOSQL/DynamoDB vs MongoDB.md",
+    "_Low Priority Refinement/Database/DB Fundamentals/database Explained.md",
+    "_Low Priority Refinement/Database/DB Fundamentals/Data formats.md",
+    "_Low Priority Refinement/Database/DB Fundamentals/Data.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Table Team Work.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Star.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Snowflake.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Schema Design.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Making Decesion.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Fact Table.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Decentralized Data Management.md",
     "Databases/Data Architecture.md",
     "Databases/Best Practices for Database Schema Design.md",
     "Architecture/System Design/System Design Thought Process Flow.md",
     "Algorithms & Data Structures/Interview Template with Time Table.md",
     "Databases/System Design NoSQL Databases and When to Use Them..md",
-    "Databases/NoSQL vs SQL.md",
-    "Architecture/System Design/Spotify system design.md",
     "_Images/Interview/system design.gif",
-    "Architecture/Methodology/Admin functionality God Mode/Database Migrations.md",
-    "_Low Priority Refinement/Database/DB Data Types.md",
-    "Architecture/Technology Options/Caches.md",
-    "Architecture/System Design/System designs review.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Database Diagram.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/database Explained.md",
-    "Architecture/System Design/System Design Interview Process.md",
     "Infographics/System Design Cheatsheet.gif",
-    "Home.md",
-    "Algorithms & Data Structures/Collections Framework.md",
-    "Algorithms & Data Structures/Common Declarative Algorithms.md",
-    "Algorithms & Data Structures/Problem-solving Regimen.md",
     "Infographics/System Design BluePrint.jpg",
     "Infographics/Redis persist data.gif",
     "Infographics/Process and Thread.jpeg",
@@ -277,14 +311,6 @@
     "Infographics/logging metrics.gif",
     "Infographics/Message Systems.gif",
     "Infographics/Load Balance Algo.jpeg",
-    "Algorithms & Data Structures/Algo pathway.md",
-    "Algorithms & Data Structures/Common Imperative Algorithms.md",
-    "Algorithms & Data Structures/Coding Interview Tips.md",
-    "Algorithms & Data Structures/All Sorts of Sorts.md",
-    "Algorithms & Data Structures/AlgoFlow.md",
-    "Algorithms & Data Structures/Algo Line of thought.md",
-    "Algorithms & Data Structures/Abstract Data Types.md",
-    "Algorithms & Data Structures/Patterns/Knapsack Pattern.md",
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/App Schema.canvas",
     "Mind Maps/Redux Map.canvas",

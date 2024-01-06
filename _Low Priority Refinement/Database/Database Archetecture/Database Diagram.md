@@ -9,15 +9,30 @@ Relates:
 ---
 ![[DB UML relationship types.jpeg]]
 
+
+
+Primary Key:
+A Primary Key is a single field selected by the designer to uniquely identify a record in a table (or relation) and cannot be null (empty or unassigned) als. The primary key serves as a unique identifier for each record, ensuring data integrity.
+
 primary can't be changed or repeated in the entity diagram 
 
-Primary Key: Is a single field chosen by the designer to uniquely identify a record in a table (relation), cannot be null (empty/unassigned). 
+Foreign Key:
+A Foreign Key is a reference to the Primary Key from one table that is used in another table to establish a connection or relationship between them. It facilitates the linkage between tables and is typically used to maintain referential integrity.
 
-Foreign Key: Is the Primary Key from one table cross-referenced on another table. 
+Secondary (or Alternative) Key:
+A Secondary Key, also known as an Alternative Key, is any field in a table that is not chosen as the Primary Key or Foreign Key. While it may not uniquely identify records, it provides an alternative means of organizing and accessing data.
 
-Secondary (or Alternative) Key: Is any field in the table that isn't selected to be any of the two types above. 
+One-to-Many Relationship:
+In a one-to-many relationship, one record from one table is connected to one or more records in another table. This relationship is depicted by a line with one endpoint representing the "one" side and a symbol like a crow's foot indicating the "many" side. For instance, a Customers table may be linked to a Dishes table, where each customer can have a favorite dish. The Foreign Key, in this case, is placed on the "many" side, representing the connection from many customers to one dish.
 
-Let's take a look at the one-to-many relationship. This is the most common type of relationship that databases use. It connects one piece of data, one row of a table to one or more other pieces of data. This relationship is represented by a line that looks like this. One endpoint for the one side of the relationship to a little symbol called a crow's foot, representing many endpoints. Let's consider our Customers table and our Dishes table here for a moment. We want to represent our customer's favorite dish in the Customers table. For each customer, we would write the name of the dish in the FavoriteDish column. But this is a lot of work, and if we ever change the name of a dish, maybe if we notice a spelling error in our Dishes table, we'd need to be conscientious and update the name in our Customers table as well. In a small database, this may not be a huge problem, but in a large database, this kind of hands-on maintenance and administration would quickly become a time-consuming problem to solve, and a major issue for the consistency and integrity of our data. Instead, we'll use the primary key for the dish to represent data in the customer table. Using the key has a few advantages, the key never changes and is guaranteed to be unique. It also has the benefit of taking up much less space than a full-text name, which helps keep the database smaller as more entries are added. We use a one-to-many relationship here because one dish may be the favorite of many customers. And so this looks like many-to-one. Many customers to one dish. In the one-to-many relationship, the foreign key will be on the many side. The dish ID is a foreign key in the FavoriteDish column of the Customers table, so this relationship is one dish to many customers, and so it's a one-to-many. Regardless of the direction that the relationship appears on paper or in a diagram, it's still a one-to-many. There's not really a separate thing called a many-to-one relationship. It's just a matter of how you look at it. Now, our favorite dish column has a piece of information that represents a whole row in the Dishes table, and we don't have to worry about changes there causing problems we'll need to fix or update to maintain the integrity of our data. We can also use this relationship to model other connections between items. To keep track of reservations, we'd have an entry for each reservation in a dedicated table. And in the Customer column, we'd put the key for the Customers entry in the Customers table. Each reservation will have one customer, but one customer might have many reservations, at least we hope they will. Using a one-to-many relationship doesn't require the many end to have a lot of instances. There could just be two different values on the many side, or even one. The point is that this relationship allows one record to be associated with many records.
+Advantages of Using Primary Keys in Relationships:
+Using the Primary Key of a related table in another table has several advantages. The primary key remains constant and unique, providing stability and consistency in the relationship. Additionally, it takes up less storage space compared to storing the full-text information, contributing to the efficiency of the database, especially as more entries are added.
+
+Many-to-One Relationship:
+While the term "many-to-one" is often used colloquially, in reality, it is still a one-to-many relationship. Whether viewed from the "one" side or the "many" side, the underlying structure of the relationship remains the same. For example, when modeling a connection between a Customers table and a Reservations table, a one-to-many relationship exists, as one customer can have many reservations.
+
+Flexibility in One-to-Many Relationships:
+One-to-many relationships provide flexibility by allowing one record to be associated with many records in another table. This flexibility is useful for modeling various connections, such as tracking reservations, where each reservation is linked to a customer using a Foreign Key. This approach simplifies data maintenance and ensures the integrity of the database.
 
 ![[Relationship Example.png]]
 

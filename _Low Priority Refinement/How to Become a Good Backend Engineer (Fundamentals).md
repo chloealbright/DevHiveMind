@@ -35,18 +35,6 @@ Additionally, web servers can set any where in the stack. For example, a CDN is 
 
 Examples of off-the-shelf web servers are Apache Tomcat, Apache httpd, and [NGINX](https://medium.com/@hnasr/the-architecture-of-nginx-2b32fc0b7877). The latter can act as both a web server and a proxy. You may build your own web server in any language by listening on a TCP port and understand how to speak the HTTP protocol, you can of course use an HTTP library that does most of the work for you.
 
-## Database Engineering
-
-Database engineering is a vast field of study. At its core the idea of a database is simple; Allow multiple users to store and retreive data consistently and in a durable fashion. That is why understanding the four properties of [ACID](https://database.husseinnasser.com/): atomicity, consistency, isolation, and durability is fundamental to database engineering.
-
-One must understand that nothing is written on stone and following these properties isn’t a must. For example, relational databases are fully ACID and require a schema while MongoDB was built as a document based database, with basic atomicity (document level) and no schema. Redis built a fanstatic high performance cache by sacrificing durability by default.
-
-No database system is complete without indexes and at their core B+Trees is the data structure of choice. How data is organized in tables, documents or graphs all end up as file system pages at the end of the day. Understanding how to get most of your disk I/O read is the core of database engineering.
-
-If you are interested in database engineering, there are many areas you can specialize in. You can pick one database and know everything about it. You can build a better indexing techniques (LSM is a good example). You can build a new database system specialized in a specific workload.
-
-I have been working with databases for 20 years and to this day I learn something new all the time. This field is vast.
-
 ## Proxies
 
 Proxies are becoming increasingly popular in the engineering world, especially with the introduction of micro-services. The main purpose of a proxy is it receives requests from a client and forward the requests to backend servers. The proxy hides the network layer identity of the original client from the destination server.

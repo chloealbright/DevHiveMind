@@ -2,7 +2,7 @@
 tags: 
 author:
   - jacgit18
-Status: 
+Status: Refinement
 Started: 
 EditDate: 
 Relates:
@@ -23,8 +23,14 @@ The CAP Theorem, standing for Consistency, Availability, and Partition Tolerance
 
 The CAP Theorem helps in making informed decisions when selecting a database system, considering the trade-offs between these three factors. Relational databases, while providing consistency, often lack partition tolerance and high availability, as they can experience downtime during updates.
 
+
+
+![[DB Popularity.png]]
+
 NoSQL databases, being a diverse category, offer various trade-offs based on the specific type chosen. For instance:
 - **AP Systems (Partition Tolerance + Availability):** Examples include CouchDB, Cassandra, and DynamoDB. These systems prioritize partition tolerance and availability, accepting eventual consistency as data replicates across machines.
+
+- **CA Systems (Consistency + Availability):** Examples include traditional relational databases like MySQL, PostgreSQL, and Oracle Database.Suited for scenarios where maintaining data consistency is critical, and a high level of availability is also required.Commonly used in applications such as financial systems, where precise, real-time data accuracy is non-negotiable.
 
 - **CP Systems (Partition Tolerance + Consistency):** Examples include MongoDB, Hbase, and Redis. These systems focus on partition tolerance and consistency, ensuring accuracy at the expense of immediate availability.
 

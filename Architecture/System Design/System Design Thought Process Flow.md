@@ -29,7 +29,7 @@ Delve into the design by following the flow from Database to Server/Services (Ar
 - **Database:**
   - Create an Entity Relationship Diagram (ERD) to define relationships.
   - Consider SQL for structured data and NoSQL for unstructured data.
-  - More things to think about when deciding between [[NoSQLvs SQL]]
+  - More things to think about when deciding between [[Choosing Database]]
 
 - **Architecture:**
   - Identify major components: servers, databases, cache, load balancer, messaging queues, monitoring/logging, and microservices.

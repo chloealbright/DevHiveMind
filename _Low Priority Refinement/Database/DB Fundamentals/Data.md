@@ -92,3 +92,8 @@ The three most common are Character, Numeric, & Date/time 
 Zip code should be text in table and not integer because it adds a zero at beginning automatically 
 
 [https://adamtheautomator.com/sql-server-data-types/](https://adamtheautomator.com/sql-server-data-types/)
+
+
+
+
+

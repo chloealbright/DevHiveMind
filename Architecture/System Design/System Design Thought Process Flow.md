@@ -1,19 +1,14 @@
 ---
-tags:
-  - interview
+tags: 
 author:
   - jacgit18
-Status: Capture
+Status: Refinement
 Started: 
 EditDate: 
 Relates:
 ---
 ### **Step 1: Understand the Problem and Establish Design Scope (3 - 10 minutes)**
-- Ask question to get clarification on scope and priorities.
-- Break down the problem into distinct use cases / user stories.
-- Understand the interactions between different components of the system based on these use cases.
-- Clarify any ambiguities in the problem statement.
-- Identify key requirements and constraints, such as expected traffic, data volume, latency, and scalability.
+During this step, it's crucial to seek clarification on the project's scope and priorities. Break down the problem into specific use cases or user stories, outlining the interactions between system components. Identify key requirements and constraints, such as expected traffic, data volume, latency, and scalability.
 
 #### Use Cases/Stories Example:
 1. User uploads pictures or videos.
@@ -23,25 +18,33 @@ Relates:
 5. User can block or unfollow other users.
 
 ### **Step 2: Design Deep Dive (15 - 25 minutes)**
-**Follow this Flow - Database > Server/services (Architecture) > Client Side**
-- Focus on data come up with a Entity Relationship Diagram (ERD) defining relationships.
-- Talk about high-level components mentioning stuff about Scalability, maybe Fault Tolerance, and Security.
-- List the major components that the system will need. These might include servers, databases, cache, load balancer, messaging queues, Monitoring and Logging, maybe microservices etc, whatever your familiar with talk about it.
-- Talk about the trade-offs between performance, scalability, and cost.
-- Talk about potential database type you might use like talk about consider SQL for structured data or NoSQL for unstructured data. 
-- maybe talk about when you utilize an API whatever comes to mind.
-- Discuss stateless vs statefull application service with microservices, servers, cache servers etc..
+Delve into the design by following the flow from Database to Server/Services (Architecture) to Client Side.
 
-#### Things to mention 
-- You can distribute traffic across server pool for different types of traffic.
-- Local cache for improved response time for example you can store Likes in a social media app.  
-- Talk about number of master DB to slave DB. 
-- CDN network for content distribution.
+- **Database:**
+  - Create an Entity Relationship Diagram (ERD) to define relationships.
+  - Consider SQL for structured data and NoSQL for unstructured data.
+
+- **Architecture:**
+  - Identify major components: servers, databases, cache, load balancer, messaging queues, monitoring/logging, and microservices.
+  - Discuss trade-offs between performance, scalability, and cost.
+  - Consider the use of APIs for certain functionalities.
+  - Discuss stateless vs stateful application 
+  - Maybe talk microservices etc..
+
+- **Scalability and Performance:**
+  - Distribute traffic across server pools for different types of traffic.
+  - Implement local cache for improved response time.
+  - Discuss the number of master and slave databases.
+  - Utilize CDN for content distribution.
+
+#### Things to mention:
+- **Traffic Distribution:** Distribute traffic across server pools.
+- **Local Cache:** Use local cache for improved response times.
+- **Database Scaling:** Discuss the ratio of master to slave databases.
+- **CDN:** Implement a CDN network for content distribution.
 
 ### **Step 3: Wrap (3 - 5 minutes)**
-- Summarize of key design decisions mentioning whatever else you want mention or alternative decisions.  
-- Ask about any outstanding concerns.
-
+Summarize key design decisions, highlighting any alternative considerations. Invite questions and address outstanding concerns.
 
 # Talking Stats  
 ### Data Size:
@@ -52,6 +55,7 @@ Relates:
 | 1 Gigabyte    | 1,024 Megabytes = 1,073,741,824 Bytes    |
 | 1 Terabyte    | 1,024 Gigabytes = 1,099,511,627,776 Bytes|
 | 1 Petabyte    | 1,024 Terabytes = 1,125,899,906,842,624 Bytes|
+
 ### Time:
 | Calculation                            | Result                       |
 |----------------------------------------|------------------------------|
@@ -67,7 +71,6 @@ Relates:
 - 150,000,000,000,000 trillion
 
 ## Traffic Estimate Example:
-
 
 ### Network Traffic Estimate Example:
 - Active users Posting: 10 million `POST Request`
@@ -94,6 +97,7 @@ Relates:
 - Memory: Read requests per day * average request size * 20%
 - Bandwidth: Requests per day * average request size
 - Storage: Writes per day * size of write * time to store data
+
 
 ![[System Design Cheatsheet.gif]]
 

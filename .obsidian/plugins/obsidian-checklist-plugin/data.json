@@ -37,7 +37,6 @@
     "#todo/read/books",
     "#todo/read/chapgpt",
     "#todo/read/systemd",
-    "#todo/read/interview",
     "#todo/med/future",
     "#todo/read/db",
     "#todo/watch",
@@ -67,7 +66,9 @@
     "#todo/med/dev/codingchallenge",
     "#todo/low/dev/codingchallenge",
     "#todo/low/dev",
-    "#todo/med/dev"
+    "#todo/med/dev",
+    "#todo/high/dev",
+    "#todo/read/interview"
   ],
   "_hiddenTags": []
 }

@@ -85,17 +85,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5e9990998cd6137b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,6 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Databases/NoSQL vs SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,6 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Databases/NoSQL vs SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +207,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Databases/NoSQL vs SQL.md"
+              }
             }
           },
           {
@@ -319,8 +314,10 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "5e9990998cd6137b",
+  "active": "7437fee43f8ddc8e",
   "lastOpenFiles": [
+    "Mind Maps/Untitled Kanban.md",
+    "_Low Priority Refinement/Dev Todo.md",
     "Databases/Which normalization to pick.md",
     "Databases/Types of Tables in logical database models.md",
     "Databases/NoSQL vs SQL.md",
@@ -364,8 +361,6 @@
     "_Low Priority Refinement/Database/Create Tables.md",
     "_Low Priority Refinement/Database/GUIDs.md",
     "_Low Priority Refinement/Database/Multi Model DB.md",
-    "_Low Priority Refinement/Database/Setup/MYSQL Setup.md",
-    "_Low Priority Refinement/Database/Other Stuff.md",
     "Mind Maps/Docker InDeph.canvas",
     "Architecture/Web Server Architecture",
     "Web/Pagination.pdf",

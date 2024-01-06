@@ -71,7 +71,6 @@ When you want to learn new languages in the future think about every time you ha
 
 ## <mark style="background: #FFB86CA6;">Dev Med</mark>
 #todo/Med/Dev
-- [ ] Act as a doctor determine potential diagnosis based on blood and urine tests asking questions for each test result 
 - [ ] [[ChatGpt Extension generator Output]]
 - [ ] Finish LinkedIn video
 - [ ] **Problem-Solving Impatience:** Develop the ability to recognize and effectively manage impatience during problem-solving, adapting your approach to overcome challenges.
@@ -86,7 +85,7 @@ When you want to learn new languages in the future think about every time you ha
 - [ ] create a long list LinkedIn post ideas about popular historical leaders like for example martin Luther king, also events around the year like breast cancer awareness and holidays give ideas for each month in the year on these topic
 - [ ] Look into [[Project idea]]
 - [ ] Search engine optimized for developers to find projects to contribute to or find common errors and issues
-- [ ] Play around with lint more
+- [x] Play around with lint more ✅ 2024-01-06
 
 
 ## Books

@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Table Relationships.md",
+                "file": "Databases/Database Table Relationship Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Table Relationships.md",
+                "file": "Databases/Database Table Relationship Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Table Relationships.md"
+                "file": "Databases/Database Table Relationship Types.md"
               }
             }
           },
@@ -314,10 +314,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "097bc3a1e42145d3",
+  "active": "09b225a55a9ff653",
   "lastOpenFiles": [
-    "Databases/Database Table Relationship Types.md",
     "Databases/Table Relationships.md",
+    "Databases/Database Table Relationship Types.md",
     "Databases/System Design NoSQL Databases and When to Use Them..md",
     "Databases/_SQL Tool_.md",
     "Databases/Relationship Reading.md",

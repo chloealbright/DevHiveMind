@@ -11,6 +11,10 @@ Relates:
 
 Database relationships are associations between tables that are created using join statements to retrieve data.`Join` statements are then used to retrieve data from multiple tables based on these relationships. There are different types of joins, such as INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN, which determine how data from related tables is combined.
 
+## Most Common Relationships
+The most prevalent relationships are many-to-one or vice versa, as well as one-to-many. In one-to-one relationships, both sides hold unique values, while in many-to-many relationships, both sides can contain duplicates.
+
+For simplicity and clarity, it's advisable to focus on one-to-one, many-to-one, and one-to-many relationships. This approach helps maintain a straightforward understanding of unique and duplicate values on each side of the relationship.
 
 ### One-to-One Relationships:
 One-to-one relationships are less common because, typically, if there's only one row associated with another row, they could be merged into a single table. An example involves separating customer information into two tables: one with name and ID, and another with personal details. This creates a one-to-one relationship, allowing restricted access to sensitive data while using the common elements for other relationships. Another example is the assignment of resources like equipment. In a one-to-one relationship, each item is assigned to one person, ensuring exclusivity. Although one-to-one relationships may not be frequently used, they can be relevant in scenarios where data protection or resource allocation requires such specificity. Some DBMS tools permit securing individual columns, potentially eliminating the need for one-to-one relationships.
@@ -36,6 +40,15 @@ Maintaining referential integrity in a database ensures that relationships betwe
 
 
 ![[Relationship Example Two.png]]
+
+## Junction Table
+A junction table encompasses multiple foreign keys, exemplified by, for instance, a movie rental table linking a rental table's primary key and a movie table's primary key.
+
+Commonly associated with many-to-many relationships, junction tables are employed when records in both entities may reference multiple records in each other's entities, necessitating an intermediary entity—known as a junction table—to consolidate these multiple connections.
+
+An entity, defined as something with distinct and independent existence, is integral to understanding the structure of these relationships. Junction tables optimize data normalization, bringing it to its lowest normalized level. This approach is especially useful when dealing with elements that could be duplicated across multiple entries, such as dates or times.
+
+Consider the example of doctors and patients: a junction table might contain primary keys for both doctor and patient IDs. This setup allows for the creation of additional table relationships, such as those between doctors and appointments, as well as patients and procedures.
 
 
 ![[Relationship Example Three.png]]

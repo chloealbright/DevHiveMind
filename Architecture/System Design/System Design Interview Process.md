@@ -15,16 +15,15 @@ Relates:
 - Clarify any ambiguities in the problem statement.
 - Identify key requirements and constraints, such as expected traffic, data volume, latency, and scalability.
 
-**Step 2: Design Deep Dive (10 - 25 minutes)**
+**Step 2: Design Deep Dive (15 - 25 minutes)**
 - Focus on data come up with a Entity Relationship Diagram (ERD) defining relationships.
+- Talk about high-level components mentioning stuff about Scalability, maybe Fault Tolerance, and Security.
+- List the major components that the system will need. These might include servers, databases, cache, load balancer, messaging queues, Monitoring and Logging, maybe microservices etc, whatever your familiar with talk about it.
+- Talk about the trade-offs between performance, scalability, and cost.
 - Talk about potential database type you might use or when you utilize an API whatever comes to mind.
 - Discuss stateless vs statefull application service with microservices, servers, cache servers etc..
 
-**Step 3: Propose High-Level Design (10 - 15 minutes)**
-- Talk about high-level components mentioning stuff about Scalability, maybe Fault Tolerance, and Security.
-- List the major components that the system will need. These might include servers, databases, cache, load balancer, messaging queues, maybe microservices etc, whatever your familiar with talk about.
-
-**Step 4: Wrap (3 - 5 minutes)**
+**Step 3: Wrap (3 - 5 minutes)**
 - Summarize of key design decisions mentioning whatever else you want mention or alternative decisions.  
 - Ask about any outstanding concerns.
 

@@ -43,7 +43,7 @@ app server needs to stateless meaning it doesn't store data 
 
 access other services that use aoi to return info based on your input like a user id 
 
-say you dont know about t his but my idea is ..... 
+You can say say you dont know about this but my idea is ..... 
 
 -> this will distribute to different servers pools  
 

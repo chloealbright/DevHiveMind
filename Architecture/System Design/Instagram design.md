@@ -43,7 +43,7 @@ app server needs to stateless meaning it doesn't store data 
 
 access other services that use aoi to return info based on your input like a user id 
 
-You can say say you dont know about this but my idea is ..... 
+You can say you don't know about this but my idea is ..... 
 
 -> this will distribute to different servers pools  
 
@@ -63,19 +63,6 @@ TIME 
 
 86,400 * 30 days 2,500,000 sec per month 
 
-
-
-num place 
-
-300 hundred 
-
-600,000 thousand 
-
-900,000,000 million 
-
-120,000,000,000 billion 
-
-150,000,000,000,000 trillion 
 
 
 

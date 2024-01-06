@@ -40,6 +40,15 @@ Relates:
 - Client-side > Server/services (Architecture) > Database.
 - Consider SQL for structured data or NoSQL for unstructured data.
 
+### Tactic 
+
+You can say you don't know about this but my idea is ..... 
+
+-> this will distribute to different servers pools  
+
+-> we also need a cache probably for Likes  
+
+-> we also a couple of master DB and slaveDB  
 
 ### Load Balancer and Cache:
 
@@ -57,15 +66,68 @@ Relates:
 - Detailed calculations for bandwidth and storage requirements.
 
 ### Summary:
+- Talk about the breakdown of daily traffic, memory, bandwidth, and storage requirements.
+- Emphasize the need for redundancy, scalability, and monitoring
 
-- Daily traffic, memory, bandwidth, and storage calculations.
-- Emphasize the need for redundancy, scalability, and monitoring.
-  
-### Alternative Summary:
 
-- Breakdown of traffic, memory, bandwidth, and storage requirements.
-- Conversion of units for better readability.
-- Key emphasis on the importance of scalability and redundancy.
+
+## Talking Stats
+
+Time:
+
+- 60 seconds * 60 minutes = 3,600 seconds per hour
+- 3,600 seconds * 24 hours = 86,400 seconds per day
+- 86,400 seconds * 30 days = 2,592,000 seconds per month
+
+Number Places:
+- 300 hundred
+- 600,000 thousand
+- 900,000,000 million
+- 120,000,000,000 billion
+- 150,000,000,000,000 trillion
+
+
+Data Size:
+| Unit          | Equivalent in Bytes                    |
+|---------------|----------------------------------------|
+| 1 Kilobyte    | 1,024 Bytes                             |
+| 1 Megabyte    | 1,024 Kilobytes = 1,048,576 Bytes       |
+| 1 Gigabyte    | 1,024 Megabytes = 1,073,741,824 Bytes    |
+| 1 Terabyte    | 1,024 Gigabytes = 1,099,511,627,776 Bytes|
+| 1 Petabyte    | 1,024 Terabytes = 1,125,899,906,842,624 Bytes|
+
+
+Traffic Estimate:
+
+- Active users: 10 million
+- Posts viewed: 30 per user
+- Requests: 300 million (10 million * 30)
+- Writes: 10 million
+- Requests per second: 3,000 (300 million / 86,400 seconds)
+- Writes per second: 115 (10 million / 86,400 seconds)
+
+Memory:
+
+- Cache for Instagram highlights: 150 GB (300 million requests * 500 bytes)
+- Adjusted cache: 30 GB (20% of 150 GB)
+- Total memory: 90 GB (30 GB * 3 for replication)
+
+Bandwidth:
+
+- Bandwidth required: 450,000 GB (300 million * 1.5 MB)
+- Bandwidth per second: 5.2 GB (450,000 GB / 86,400 seconds)
+
+Storage:
+
+- Daily storage for writes: 15 TB (10 million writes * 1.5 MB)
+- Yearly storage: 55 PB (15 TB * 365 days * 10 years)
+
+Summary:
+
+- Traffic: Daily active users * average reads and writes per user
+- Memory: Read requests per day * average request size * 20%
+- Bandwidth: Requests per day * request size
+- Storage: Writes per day * size of write * time to store data
 
 ![[System Design Cheatsheet.gif]]
 

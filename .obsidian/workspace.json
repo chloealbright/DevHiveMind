@@ -4,6 +4,24 @@
     "type": "split",
     "children": [
       {
+        "id": "5ddfb7558391c186",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09b225a55a9ff653",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Database Table Relationships.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "215cdcda6a1ecf85",
         "type": "tabs",
         "children": [
@@ -13,13 +31,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Functional Dependencies.md",
+                "file": "Databases/NoSQL vs SQL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33b86be1c65961be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/DBMS Keys.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Functional Dependencies.md",
+                "file": "Databases/Database Table Relationships.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Functional Dependencies.md",
+                "file": "Databases/Database Table Relationships.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Functional Dependencies.md"
+                "file": "Databases/Database Table Relationships.md"
               }
             }
           },
@@ -247,11 +278,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "09b225a55a9ff653",
   "lastOpenFiles": [
-    "Databases/Frontend Database.md",
     "Databases/DBMS Keys.md",
     "Databases/Database Table Relationships.md",
+    "Databases/NoSQL vs SQL.md",
+    "Databases/Functional Dependencies.md",
+    "Databases/Frontend Database.md",
     "Databases/App Schema.md",
     "Home.md",
     "_Low Priority Refinement/Database/DB Data Types.md",
@@ -262,7 +295,6 @@
     "_Low Priority Refinement/Database/Setup/MYSQL Setup.md",
     "_Low Priority Refinement/Database/Other Stuff.md",
     "Databases/Types of Tables in logical database models.md",
-    "Databases/Functional Dependencies.md",
     "Databases/Table Relationships.md",
     "Databases/Normalization & Denormalization.md",
     "Databases/Data Visualization Normalization or Denormalization.md",
@@ -274,7 +306,6 @@
     "Architecture/Clean Code.md",
     "Architecture/Technology Options/Database.md",
     "Architecture/Web Server Architecture/Best Practices for User Account Routes.md",
-    "Databases/Best Practices for Database Schema Design.md",
     "_Images/Interview/system design.gif",
     "Infographics/System Design Cheatsheet.gif",
     "Infographics/System Design BluePrint.jpg",

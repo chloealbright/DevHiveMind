@@ -10,16 +10,6 @@ Relates:
 ![[DB UML relationship types.jpeg]]
 
 
-
-### Primary Key:
-A Primary Key is a single field selected by the designer to uniquely identify a record in a table (or relation) and cannot be null (empty or unassigned) also can't be changed or repeated in the entity diagram . The primary key serves as a unique identifier for each record, ensuring data integrity.
-
-### Foreign Key:
-A Foreign Key is a reference to the Primary Key from one table that is used in another table to establish a connection or relationship between them. It facilitates the linkage between tables and is typically used to maintain referential integrity.
-
-### Secondary (or Alternative) Key:
-A Secondary Key, also known as an Alternative Key, is any field in a table that is not chosen as the Primary Key or Foreign Key. While it may not uniquely identify records, it provides an alternative means of organizing and accessing data.
-
 ### One-to-Many Relationship:
 In a one-to-many relationship, one record from one table is connected to one or more records in another table. This relationship is depicted by a line with one endpoint representing the "one" side and a symbol like a crow's foot indicating the "many" side. For instance, a Customers table may be linked to a Dishes table, where each customer can have a favorite dish. The Foreign Key, in this case, is placed on the "many" side, representing the connection from many customers to one dish.
 

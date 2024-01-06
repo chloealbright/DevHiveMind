@@ -79,7 +79,7 @@ Examples include:
 - { Name, Phone }
 
 
-#### Alternate Key
+#### Alternate/Secondary Key
 Alternate keys are not the primary key, including candidate keys. 
 
 - A candidate key that is not selected as the primary key.

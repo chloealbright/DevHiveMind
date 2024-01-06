@@ -33,28 +33,13 @@ NoSQL databases, a diverse category, offer varied trade-offs based on the specif
 
 - **CP Systems (Partition Tolerance + Consistency):** Examples include MongoDB, Hbase, and Redis. These focus on partition tolerance and consistency, ensuring accuracy at the expense of immediate availability.
 
+
+
 The term NoSQL encompasses various non-relational databases, with four main types: key-value, document, wide-column, and graph databases. The choice among these depends on specific needs:
 
-- **Key-Value Stores:** Suited for fast retrieval of unstructured data, used in caching, user preference storage, and scenarios prioritizing simplicity (e.g., Redis, DynamoDB).
+- **Key-Value Stores:** In key-value databases like Redis and DynamoDB, data is stored in pairs comprising a unique identifier and a corresponding data value. The inherent flexibility allows values to accommodate varying amounts of unstructured data. Tailored for rapid retrieval of unstructured information, these databases find application in caching, user preference storage, and situations where simplicity is prioritized. They prove particularly effective for session management, user preferences, and personalized product recommendations.
 
-
-Key-value databases store data in pairs, each containing a unique id and a data value. These databases provide a flexible storage structure since values can store any amount of unstructured data.
-
-## **Use cases**
-
-Session management, user preferences, and product recommendations.
-
-## **Examples**
-
-Amazon DynamoDB, Azure Cosmos DB, Riak.
-
-## In-memory key-value databases
-
-The data is primarily stored in memory, unlike disk-based databases. By eliminating disk access, these databases enable minimal response times. Because all data is stored in main memory, in-memory databases risk losing data upon a process or server failure. In-memory databases can persist data on disks by storing each operation in a log or by taking snapshots.
-
-## Examples
-
-Redis, Memcached, Amazon Elasticache.
+- **In-memory Key-Value Stores:** Distinguished by storing data predominantly in memory rather than on disk, these databases, exemplified by Redis, Memcached, and Amazon Elasticache, prioritize rapid access times by eliminating disk-related delays. However, the in-memory nature poses a potential data loss risk during process or server failures. To mitigate this, in-memory databases adopt strategies like storing operations in logs or taking snapshots, allowing for data persistence on disks while maintaining the advantages of swift memory-based retrieval.
 
 - **Document Databases:** Document databases, exemplified by MongoDB and CouchDB, share a structure akin to key-value databases. However, in this context, keys and values are encapsulated within documents formatted in markup languages like JSON, XML, or YAML. This approach proves invaluable for agile development and diverse data types, making it well-suited for applications such as user profiles, product catalogs, and content management where flexible data storage is paramount.
 
@@ -62,22 +47,9 @@ Redis, Memcached, Amazon Elasticache.
 
 - **Graph Databases:** Designed for illustrating multidimensional relationships, suitable for social networks, fraud detection, and recommendation engines (e.g., Neo4j, JanusGraph, Amazon Neptune, Cosmos DB through Azure Gremlin).
 
-
-
 ## Unique Use Case Databases
 
-### Time series databases
-
-These databases store data in time-ordered streams. Data is not sorted by value or id but by the time of collection, ingestion, or other timestamps included in the metadata.
-
-## Use cases
-
-Industrial telemetry, DevOps, and Internet of Things (IOT) applications.
-
-## Examples
-
-Graphite, Prometheus, Amazon Timestream.
-
+- **Time Series Databases:** Specialized in organizing data chronologically, time series databases arrange information in time-ordered streams based on collection or ingestion timestamps. Unlike conventional sorting by value or ID, these databases prioritize temporal sequencing. Widely applied in industrial telemetry, DevOps, and Internet of Things (IoT) scenarios, they facilitate efficient analysis of time-sensitive data. Notable examples encompass Graphite, Prometheus, and Amazon Timestream, each tailored for managing and querying time-based datasets.
 
 ### Ledger databases
 

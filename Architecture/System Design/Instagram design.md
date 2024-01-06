@@ -10,46 +10,6 @@ Relates:
 
 
 
-Step 2 Propose high-level design and get buy-in: 10 - 15 minutes
-  
-Step 3 Design deep dive: 10 - 25 minutes  
-  
-Step 4 Wrap: 3 - 5 minutes
-
-
-
-
-
-
-
-Define Use cases/stories 
-
-user should be able to upload pictures or videos 
-
-user should be able to view photos and videos they uploaded 
-
-user should be able to follow other user, they should also be able to like and comment  on there post 
-
-user should have feed for containing other users post  
-
-user should be able to block or unfollow other users 
-
-ask about scope 
-
-priority or return in organized order from a pool of post from your friends 
-
-user post cap based on how many people your following 
-
-
-Entity(ask about ERD) 
-
-
-
-
-
-diagram define relationships  
-
-high-level components 
 
 
 

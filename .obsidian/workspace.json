@@ -44,7 +44,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/System Design/System Design.md",
+                "file": "Architecture/System Design/System Design Interview Process.md",
                 "mode": "source",
                 "source": false
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/System Design/System Design.md",
+                "file": "Architecture/System Design/System Design Interview Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/System Design/System Design.md",
+                "file": "Architecture/System Design/System Design Interview Process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/System Design/System Design.md"
+                "file": "Architecture/System Design/System Design Interview Process.md"
               }
             }
           },
@@ -280,8 +280,9 @@
   },
   "active": "07de4b13c41d9e77",
   "lastOpenFiles": [
+    "Infographics/System Design Cheatsheet.gif",
+    "Architecture/System Design/System Design Interview Process.md",
     "Architecture/System Design/Instagram design.md",
-    "Architecture/System Design/System Design.md",
     "Architecture/System Design/Spotify system design.md",
     "Home.md",
     "Algorithms & Data Structures/Interview Template with Time Table.md",
@@ -289,7 +290,6 @@
     "Algorithms & Data Structures/Common Declarative Algorithms.md",
     "Algorithms & Data Structures/Problem-solving Regimen.md",
     "Infographics/System Design BluePrint.jpg",
-    "Infographics/System Design Cheatsheet.gif",
     "Infographics/Redis persist data.gif",
     "Infographics/Process and Thread.jpeg",
     "Infographics/Piliars Of OOP.jpeg",
@@ -315,7 +315,6 @@
     "Algorithms & Data Structures/Algorithms/Algorithm Pattern vs Simple Solution.md",
     "Algorithms & Data Structures/Algorithms/Algorithms & Visual Abstraction.md",
     "Algorithms & Data Structures/Algorithms/Approach Pivot.md",
-    "Algorithms & Data Structures/Algorithms/Algorithm Most Common Built in Functions.md",
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/App Schema.canvas",
     "Mind Maps/Redux Map.canvas",

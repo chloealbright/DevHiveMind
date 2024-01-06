@@ -7,6 +7,8 @@ Started:
 EditDate: 
 Relates:
 ---
+Describes the relationship between attributes in a table, indicating that the value of one attribute uniquely determines the value of another.
+
 Now that we know a different kind of keys in DBMS, let’s see how to identify them when given a table from a database. For this, we use the concept of functional dependencies.
 
 ![[Functional Dependencies.png]]

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Is Active Attribute.md",
+                "file": "Databases/Record Life Cycle.md",
                 "mode": "source",
                 "source": false
               }
@@ -67,7 +67,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "a87b8a5a77018df2",
@@ -79,13 +80,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Table Relationships.md",
+                "file": "Databases/Which normalization to pick.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "5e9990998cd6137b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +177,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Is Active Attribute.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +193,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Is Active Attribute.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,9 +214,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Databases/Is Active Attribute.md"
-              }
+              "state": {}
             }
           },
           {
@@ -313,14 +319,17 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "09b225a55a9ff653",
+  "active": "5e9990998cd6137b",
   "lastOpenFiles": [
+    "Databases/Which normalization to pick.md",
+    "Databases/Types of Tables in logical database models.md",
+    "Databases/NoSQL vs SQL.md",
+    "Database Relationship With Endpoints & Interfaces.md",
     "Databases/Table Relationships.md",
-    "Databases/Is Active Attribute.md",
+    "Databases/Record Life Cycle.md",
     "Databases/Database Table Relationship Types.md",
     "Databases/Untitled Diagram.svg",
     "Databases/System Design NoSQL Databases and When to Use Them..md",
-    "Databases/NoSQL vs SQL.md",
     "Mind Maps/Java Behind the Scenes.md",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Testing.canvas",
@@ -357,9 +366,6 @@
     "_Low Priority Refinement/Database/Multi Model DB.md",
     "_Low Priority Refinement/Database/Setup/MYSQL Setup.md",
     "_Low Priority Refinement/Database/Other Stuff.md",
-    "Databases/Types of Tables in logical database models.md",
-    "Databases/Data Visualization Normalization or Denormalization.md",
-    "Databases/Normalization & Denormalization Trade-offs.md",
     "Mind Maps/Docker InDeph.canvas",
     "Architecture/Web Server Architecture",
     "Web/Pagination.pdf",

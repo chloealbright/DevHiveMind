@@ -38,7 +38,7 @@ In this example, the `IsActive` column could be set to `true` for active users a
 Using the "is active" column provides a flexible and scalable way to manage the lifecycle of records in a database, especially when dealing with scenarios where data might transition between active and inactive states.
 
 
-Examplommon Relationships
+## Example
 
 Consider a one-to-many relationship example: Imagine you have a table for customers purchasing alcohol, and another table for order IDs. The order table contains a foreign key, the customer ID, referencing the primary key of the customer table. Since a customer can place multiple orders for different or similar products on different dates, you might have duplicate customer IDs for the same person in the order table.
 

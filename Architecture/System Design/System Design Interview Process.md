@@ -33,12 +33,9 @@ Relates:
 - Discuss stateless vs statefull application service with microservices, servers, cache servers etc..
 
 #### Things to mention 
-- You can say you don't know about this but my idea is ..... 
-	- this will distribute to different servers pools  
-- we also need a cache probably for Likes  
-- we also a couple of master DB and slaveDB  
-- Multiple load balancers for different types of traffic.
-- Local cache for improved response time.
+- You can distribute traffic across server pool for different types of traffic.
+- Local cache for improved response time for example you can store Likes in a social media app.  
+- Talk about number of master DB to slave DB. 
 - CDN network for content distribution.
 
 ### **Step 3: Wrap (3 - 5 minutes)**
@@ -46,29 +43,7 @@ Relates:
 - Ask about any outstanding concerns.
 
 
-
-
-
-
-
-
-
-### Traffic Estimates:
-
-- Estimate read and write requests per second.
-- Calculate memory, bandwidth, and storage requirements.
-
-### Bandwidth and Storage Estimates:
-
-- Detailed calculations for bandwidth and storage requirements.
-
-### Summary:
-- Talk about the breakdown of daily traffic, memory, bandwidth, and storage requirements.
-- Emphasize the need for redundancy, scalability, and monitoring
-
-
-
-## Talking Stats
+# Talking Stats  
 ### Data Size:
 | Unit          | Equivalent in Bytes                    |
 |---------------|----------------------------------------|
@@ -91,33 +66,33 @@ Relates:
 - 120,000,000,000 billion
 - 150,000,000,000,000 trillion
 
-### Traffic Estimate Example:
+## Traffic Estimate Example:
+
+
+### Network Traffic Estimate Example:
 - Active users Posting: 10 million `POST Request`
 - User Post viewed: 30 views per user or 30 `GET Request`
 - GET traffic = 300 million (10 million * 30)
 - `GET Requests` total traffic per second: 3,000 (300 million / 86,400 seconds)
 - Active user `POST Request` per second: 115 (10 million / 86,400 seconds)
 
-### Memory:
+### Memory Storage Estimate Example:
 - Cache for Instagram highlights: 150 GB (300 million requests * 500 bytes)
 - Adjusted cache: 30 GB (20% of 150 GB)
 - Total memory: 90 GB (30 GB * 3 for replication)
 
-Bandwidth:
+### Bandwidth:
+- Bandwidth required: 450,000 GB (300 million(Active users) * 1.5 MB)
+- Bandwidth per second: 5.2 GB (450,000 GB / 86,400 seconds in a day)
 
-- Bandwidth required: 450,000 GB (300 million * 1.5 MB)
-- Bandwidth per second: 5.2 GB (450,000 GB / 86,400 seconds)
-
-Storage:
-
+### Storage:
 - Daily storage for writes: 15 TB (10 million writes * 1.5 MB)
 - Yearly storage: 55 PB (15 TB * 365 days * 10 years)
 
-Summary:
-
+### Summary:
 - Traffic: Daily active users * average reads and writes per user
 - Memory: Read requests per day * average request size * 20%
-- Bandwidth: Requests per day * request size
+- Bandwidth: Requests per day * average request size
 - Storage: Writes per day * size of write * time to store data
 
 ![[System Design Cheatsheet.gif]]

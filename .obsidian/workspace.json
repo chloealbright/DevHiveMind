@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/System Design/System Design Interview Process.md",
+                "file": "Architecture/System Design/Instagram design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/System Design/System Design Interview Process.md",
+                "file": "Architecture/System Design/Instagram design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/System Design/System Design Interview Process.md"
+                "file": "Architecture/System Design/Instagram design.md"
               }
             }
           },
@@ -291,10 +291,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "07de4b13c41d9e77",
+  "active": "99b48d4352fcb8ff",
   "lastOpenFiles": [
-    "Architecture/System Design/Instagram design.md",
     "Architecture/System Design/System Design Interview Process.md",
+    "Architecture/System Design/Instagram design.md",
     "Architecture/Methodology/Admin functionality God Mode/Database Migrations.md",
     "_Low Priority Refinement/Database/DB Data Types.md",
     "_Low Priority Refinement/Database/Database Archetecture/Database Diagram.md",

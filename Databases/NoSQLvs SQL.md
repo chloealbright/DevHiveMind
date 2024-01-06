@@ -7,6 +7,41 @@ Started:
 EditDate: 
 Relates:
 ---
+![[CAP.png]]
+
+## CAP
+The CAP Theorem, standing for Consistency, Availability, and Partition Tolerance, posits that in database systems, one can only achieve two out of the three mentioned elements simultaneously. These components play critical roles in defining the performance characteristics of a database, and choosing the appropriate combination is essential based on specific requirements. Here's a breakdown of these elements:
+
+1. **Consistency:**
+   - In the context of the CAP Theorem, consistency refers to ensuring that data throughout the system is identical. This is particularly crucial in scenarios where accuracy is of utmost importance, such as in banking or high-stakes transactions.
+
+2. **Availability:**
+   - Availability pertains to users' ability to read and write data, even in the face of network failures. It emphasizes uninterrupted access to the system, irrespective of network issues.
+
+3. **Partition Tolerance:**
+   - Partition tolerance signifies the system's ability to operate seamlessly, even when parts of the network are down. It ensures the system remains functional despite potential disruptions.
+
+The CAP Theorem helps in making informed decisions when selecting a database system, considering the trade-offs between these three factors. Relational databases, while providing consistency, often lack partition tolerance and high availability, as they can experience downtime during updates.
+
+NoSQL databases, being a diverse category, offer various trade-offs based on the specific type chosen. For instance:
+- **AP Systems (Partition Tolerance + Availability):** Examples include CouchDB, Cassandra, and DynamoDB. These systems prioritize partition tolerance and availability, accepting eventual consistency as data replicates across machines.
+
+- **CP Systems (Partition Tolerance + Consistency):** Examples include MongoDB, Hbase, and Redis. These systems focus on partition tolerance and consistency, ensuring accuracy at the expense of immediate availability.
+
+It's important to note that NoSQL is a broad term encompassing various non-relational databases, with four main types: key-value, document, wide-column, and graph databases. Each type serves different purposes, and the selection depends on specific needs:
+
+- **Key-Value Stores:** Suited for fast retrieval of unstructured data, often used in caching, user preference storage, and scenarios where simplicity is crucial (e.g., Redis, DynamoDB).
+
+- **Document Databases:** Useful for flexible data storage, especially in scenarios requiring agile development and a variety of data types (e.g., MongoDB, CouchDB).
+
+- **Wide-Column Stores:** Ideal for scenarios with known queries and large amounts of data, providing fast querying of specific data parts (e.g., Cassandra, HBase).
+
+- **Graph Databases:** Designed for showcasing multidimensional relationships in scenarios such as social networks, fraud detection, and recommendation engines (e.g., Neo4j, JanusGraph).
+
+The suitability of NoSQL versus relational databases depends on specific use cases. While NoSQL excels in scenarios prioritizing partition tolerance and availability, relational databases are preferred when absolute consistency and complex SQL queries are paramount. The choice should align with the particular needs of the application or system at hand.
+
+
+
 ### **Choosing Between NoSQL and Relational Databases: Considerations and Evaluation**
 
 #### **CAP Theorem and Fundamental Differences:**
@@ -21,6 +56,16 @@ Recall the CAP theorem, which highlights the trade-off between consistency, avai
   - Weak consistency is acceptable.
   - Schema is flexible, defined as needed.
   - Suited for agile projects with evolving data, prioritizing availability and scalability.
+
+
+
+Non-relational databases are commonly employed for managing unstructured data. The term NoSQL serves as an umbrella encompassing a diverse array of technologies. These technologies may not share any inherent similarities beyond a fundamental characteristic: their departure from a relational structure. The absence of a rigid relational framework results in the storage of unstructured or semi-structured data. While some semblance of structure may exist, it tends to be loosely defined and lacks stringent enforcement.
+
+The term NoSQL is often interpreted as "not only SQL," emphasizing the flexibility and less rigid nature of these solutions. Although debates about terminology ownership may persist, it's essential to acknowledge the potential variations in definition.
+
+In the realm of NoSQL databases, some may lack transactional capabilities, and they typically eschew the traditional tabular format and SQL querying. However, it's noteworthy that certain NoSQL databases do incorporate SQL-like functionalities, blurring the lines between the traditional relational and NoSQL paradigms. Furthermore, NoSQL databases, in general, are renowned for not mandating a fixed schema, although this flexibility can vary depending on the specific NoSQL database in use.
+
+
 
 Here's a breakdown of what each term in BASE signifies:
 

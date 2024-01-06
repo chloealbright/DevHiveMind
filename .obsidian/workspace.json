@@ -80,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/NoSQL vs SQL.md",
+                "file": "Databases/NoSQLvs SQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -327,10 +327,13 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "f5c472e976e12eab",
   "lastOpenFiles": [
-    "_Low Priority Refinement/Database/DB Fundamentals/Data.md",
+    "Databases/NoSQLvs SQL.md",
     "_Low Priority Refinement/Database/NOSQL/General Info.md",
+    "_Images/Database/DB CAP.png",
+    "_Images/CAP.png",
+    "_Low Priority Refinement/Database/DB Fundamentals/Data.md",
     "Databases/Cloud Databases.md",
     "_Low Priority Refinement/Database/conf.md",
     "_Low Priority Refinement/Database/Constraints.md",
@@ -342,7 +345,6 @@
     "Databases/Self-joining relationships.md",
     "_Low Priority Refinement/Database/SQL Table Structure.md",
     "_Low Priority Refinement/Database/Hadoop.md",
-    "Databases/NoSQL vs SQL.md",
     "_Low Priority Refinement/Database/Other Stuff.md",
     "_Low Priority Refinement/Database/Triggers in SQL.md",
     "Databases/Database Table Relationship Types.md",
@@ -354,7 +356,6 @@
     "Databases/Knex vs Sequelize.md",
     "Databases/Which normalization to pick.md",
     "Databases/Record Life Cycle.md",
-    "Databases/Table Relationships.md",
     "Infographics/Architecture/Cache going wrong.gif",
     "Databases/Untitled Diagram.svg",
     "Mind Maps/Drafts/Url.canvas",
@@ -372,8 +373,6 @@
     "Mind Maps/UML/Package Diagram with classes.svg",
     "Mind Maps/UML/Package Diagram with No-classes.svg",
     "Mind Maps/UML/Park Alert Activity Diagram.svg",
-    "Mind Maps/UML/Requirement life cycle.svg",
-    "Mind Maps/UML/UML Monitor Project.png",
     "Mind Maps/Docker InDeph.canvas",
     "Architecture/Web Server Architecture",
     "Web/Pagination.pdf",

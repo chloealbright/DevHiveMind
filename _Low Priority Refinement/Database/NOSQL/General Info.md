@@ -7,19 +7,8 @@ Started:
 EditDate: 
 Relates:
 ---
-Non-Relational databases is used for unstructured data 
-
-NoSQL is an umbrella term, one which encompasses a number of different technologies. These different technologies aren't even necessarily related in any way beyond the single defining characteristic of NoSQL: they are not relational in nature. This lack of relational structure results in unstructured or semi-structured data in storage; there may be structure, but it is loose in nature, lax in enforcement. 
-
-Often, NoSQL is used to mean "not only SQL," meaning that these solutions are more flexible and less rigid in nature. I'm sure there are die-hards in this argument of terminology ownership, but just be aware of the potential difference in definition 
-
-Some NOSQL DB don't have transactions which generally doesn't use tables or SQL but there are some that do when it at least comes to SQL besides that it NOSQL generally doesn't require a fixed schema but It can vary depending on what no SQL DB is used
 
 
-![[DB CAP.png]]
-
-
-## CAP
 stands for **Consistency, Availability,** and **Partition** tolerance. And it states, we can only have two out of three of those items. 
 
 **Consistency** here means that, data throughout the system is the same. It's when accuracy is of highest importance, so you're going to think banking, high-stakes transactions, maybe online deposits to your checking account. Availability relates to users being able to write and read the data regardless of failures in the network. And finally, partition tolerance means that the system is up and running, working as expected even if some of the network is down. Because we can only choose two out of these three very important factors, CAP Theorem helps us form intelligent decisions when choosing the right database for our needs. Relational databases, overall don't offer partition tolerance, nor do they offer high availability because they keep records that beta other users during updates. They do offer reliable, consistent data though. NoSQL databases offer partition tolerance, along with subspecialties related to availability or consistency in general, depending on the specific NoSQL database chosen. So relational databases offer extreme consistency but since data is found on only one machine generally, the partition tolerance suffers again. Also, because such systems lack records during updates, the availability isn't very high. Let's look at NoSQL systems that focus on partition tolerance and availability. How these systems work, is that all users can write to machine one in this case, but they read from machine two, three, four, et cetera. The consistent most accurate data here is on machine one. But the data, only makes it to the other machines in the systems after replication. Therefore, although there could be imperfect consistency in data, eventually as the machines that replicate data, the idea is that they will be consistent. So, they will have eventual consistency. Examples of such systems include CouchDB, Cassandra, and DynamoDB. Now, let's look at NoSQL systems that focus on partition tolerance and consistency, or CP systems. In this case, users read and write to machine one, and then replication occurs. The consistent, most accurate data here is on machine one. This data only makes it to the other machines in the system, after replication. Examples of such systems include MongoDB, Hbase, and Redis, along with relational databases with fail over. 

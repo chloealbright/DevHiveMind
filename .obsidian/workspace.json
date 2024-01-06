@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Knex vs Sequelize.md",
+                "file": "Databases/Which normalization to pick.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Knex vs Sequelize.md",
+                "file": "Databases/Which normalization to pick.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Knex vs Sequelize.md"
+                "file": "Databases/Which normalization to pick.md"
               }
             }
           },
@@ -314,10 +314,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "7437fee43f8ddc8e",
+  "active": "097bc3a1e42145d3",
   "lastOpenFiles": [
-    "Databases/Knex.md",
+    "Infographics/Architecture/Cache going wrong.gif",
     "Databases/Knex vs Sequelize.md",
+    "Databases/Knex.md",
     "Mind Maps/Untitled Kanban.md",
     "Databases/NoSQL vs SQL.md",
     "_Low Priority Refinement/Dev Todo.md",
@@ -360,7 +361,6 @@
     "Databases/App Schema.md",
     "_Low Priority Refinement/Database/DB Data Types.md",
     "_Low Priority Refinement/Database/Create Tables.md",
-    "_Low Priority Refinement/Database/GUIDs.md",
     "Mind Maps/Docker InDeph.canvas",
     "Architecture/Web Server Architecture",
     "Web/Pagination.pdf",

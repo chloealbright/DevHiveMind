@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "948ce721afb9176a",
+        "id": "96450118d6a0a366",
         "type": "tabs",
         "children": [
           {
-            "id": "b6f62abe94256334",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database Table Relationships.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5091afa80888f3dc",
+            "id": "c6aee15a989e7fca",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,33 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "41bd97f4ea9939e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI & Chatgpt/prompts/Development/Note Refiner.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b42a8d6c2d13483b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Low Priority Refinement/Database/Functional Dependencies.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,8 +81,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -285,15 +247,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5091afa80888f3dc",
+  "active": "c6aee15a989e7fca",
   "lastOpenFiles": [
+    "_Low Priority Refinement/Database/DBMS.md",
     "Databases/Database Table Relationships.md",
+    "AI & Chatgpt/prompts/Development/Note Refiner.md",
     "_Low Priority Refinement/Database/DBMS Keys.md",
     "Language Overlap/Pure Functions vs Impure Functions.md",
     "_Low Priority Refinement/Database/Constraints.md",
     "_Low Priority Refinement/Database/Functional Dependencies.md",
     "_Low Priority Refinement/Database/Database Archetecture/DBMS Types of Keys.md",
-    "AI & Chatgpt/prompts/Development/Note Refiner.md",
     "_Low Priority Refinement/Database/Relationships/SQL Table Structure.md",
     "Databases/Table Relationships.md",
     "Databases/Relationship Reading.md",
@@ -312,7 +275,6 @@
     "_Low Priority Refinement/Database/Database Archetecture/Fact Table.md",
     "_Low Priority Refinement/Database/Database Archetecture/Decentralized Data Management.md",
     "Databases/Data Architecture.md",
-    "Databases/Best Practices for Database Schema Design.md",
     "_Images/Interview/system design.gif",
     "Infographics/System Design Cheatsheet.gif",
     "Infographics/System Design BluePrint.jpg",

@@ -28,26 +28,21 @@ It Enforces referential integrity by ensuring that values in the foreign key mat
 
 
 #### Composite Key
-A composite key is a set of two or more attributes ensuring unique tuple identification. Example:
+A composite key is a combination of two or more attributes that collectively ensure the unique identification of a tuple.
 
-- A key composed of multiple columns to uniquely identify a record.
-- Combines two or more attributes to create a unique identifier.
+- Comprising multiple columns to achieve a distinctive record identification.
+- Involves the amalgamation of two or more attributes to form a singular, unique identifier.
 
 - { Name, Phone }
 
+
 #### Compound Key:
-
 - Similar to a composite key, a compound key is composed of multiple columns, but these columns may individually represent partial keys.
-
-
 
 #### Unique Key
 A unique key ensures uniqueness but allows one null value. Examples include `SSN`, `Email`, or { Name, Phone }.
 
-
-- Similar to a primary key but allows null values.
-- Ensures that each value in the field is unique.
-- Often used when a column needs to have unique values but doesn't need to serve as the primary key.
+Often used when a column needs to have unique values but doesn't need to serve as the primary key.
 
 #### Super Key
 A super key is a set of attributes that uniquely identifies a tuple.
@@ -90,7 +85,6 @@ Only one choice for an alternate key is allowed, such as:
 - { SSN }
 
 
-
 #### Artificial Key
 Artificial keys have no business relevance but handle data management challenges. They are often used in complex primary key situations.
 
@@ -104,7 +98,3 @@ A surrogate key is an auto-generated key used to bring datasets together efficie
 A natural key is an alternative key already present in the table and is unique, such as a social security number.
 
 Ensure data integrity by choosing appropriate primary and alternate keys based on the unique characteristics of the data being modeled.
-
-
-- A key that is derived from the actual data and characteristics of the entity it represents.
-- Examples include a person's social security number or a product's serial number.

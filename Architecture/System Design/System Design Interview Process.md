@@ -8,15 +8,22 @@ Started:
 EditDate: 
 Relates:
 ---
-**Step 1: Understand the Problem and Establish Design Scope (3 - 10 minutes)**
+### **Step 1: Understand the Problem and Establish Design Scope (3 - 10 minutes)**
 - Ask question to get clarification on scope and priorities.
 - Break down the problem into distinct use cases / user stories.
 - Understand the interactions between different components of the system based on these use cases.
 - Clarify any ambiguities in the problem statement.
 - Identify key requirements and constraints, such as expected traffic, data volume, latency, and scalability.
 
-**Step 2: Design Deep Dive (15 - 25 minutes)**
+#### Use Cases/Stories Example:
+1. User uploads pictures or videos.
+2. User views uploaded photos and videos.
+3. User follows, likes, and comments on posts.
+4. User has a feed containing posts from friends.
+5. User can block or unfollow other users.
 
+### **Step 2: Design Deep Dive (15 - 25 minutes)**
+**Follow this Flow - Database > Server/services (Architecture) > Client Side**
 - Focus on data come up with a Entity Relationship Diagram (ERD) defining relationships.
 - Talk about high-level components mentioning stuff about Scalability, maybe Fault Tolerance, and Security.
 - List the major components that the system will need. These might include servers, databases, cache, load balancer, messaging queues, Monitoring and Logging, maybe microservices etc, whatever your familiar with talk about it.
@@ -25,36 +32,26 @@ Relates:
 - maybe talk about when you utilize an API whatever comes to mind.
 - Discuss stateless vs statefull application service with microservices, servers, cache servers etc..
 
-**Step 3: Wrap (3 - 5 minutes)**
-- Summarize of key design decisions mentioning whatever else you want mention or alternative decisions.  
-- Ask about any outstanding concerns.
-
-### Use Cases/Stories Example:
-
-1. User uploads pictures or videos.
-2. User views uploaded photos and videos.
-3. User follows, likes, and comments on posts.
-4. User has a feed containing posts from friends.
-5. User can block or unfollow other users.
-
-
-
-
-### Tactic 
-
-You can say you don't know about this but my idea is ..... 
-
--> this will distribute to different servers pools  
-
--> we also need a cache probably for Likes  
-
--> we also a couple of master DB and slaveDB  
-
-### Load Balancer and Cache:
-
+#### Things to mention 
+- You can say you don't know about this but my idea is ..... 
+	- this will distribute to different servers pools  
+- we also need a cache probably for Likes  
+- we also a couple of master DB and slaveDB  
 - Multiple load balancers for different types of traffic.
 - Local cache for improved response time.
 - CDN network for content distribution.
+
+### **Step 3: Wrap (3 - 5 minutes)**
+- Summarize of key design decisions mentioning whatever else you want mention or alternative decisions.  
+- Ask about any outstanding concerns.
+
+
+
+
+
+
+
+
 
 ### Traffic Estimates:
 

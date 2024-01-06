@@ -7,65 +7,42 @@ Started:
 EditDate: 
 Relates:
 ---
-The relationships between these entities would be:  
-  
-A Skill Category would have many Skills.  
-  
-A Skill would belong to one Skill Category and would have many related Skills.  
-  
-A Demand record would belong to one Skill.  
-  
-A Resume would have many Skill Experience records.  
-  
-A Skill Experience record would belong to one Resume and one Skill.  
-  
-A Matching record would belong to one Resume and one Skill.  
-  
-A Job would have many Job Skill records.  
-  
-A Job Skill record would belong to one Job and one Skill.  
-  
-A Job Match record would belong to one Job and one Resume.
-
-
-
-Relational databases use a schema to define tables and the relationships between them. They are based on the relational model, emphasizing data consistency and integrity.
-
 ## Simple Relational Model Representation
 
 
 ![[relational model.png]]
 
+1. **Address - Customer:**
+   - An Address can have a one-to-one relationship with a Customer.
+   - A Customer can have a one-to-one relationship with an Address.
 
+2. **Customer - Order:**
+   - A Customer can place one or more Orders.
+   - An Order belongs to one Customer.
 
-## Relational Database Query Examples
+3. **Order - Order Item:**
+   - An Order can have one or more Order Items.
+   - An Order Item belongs to one Order.
 
-```sql
--- INSERT
-INSERT INTO customers (first_name, last_name, email)
-VALUES ('John', 'Doe', 'john.doe@example.com');
+4. **Product - Order Item:**
+   - A Product can be listed in one or many Order Items.
+   - An Order Item belongs to one Product.
 
--- UPDATE
-UPDATE customers
-SET email = 'john.doe_updated@example.com'
-WHERE id = 1;
+In terms of database schema:
 
--- DELETE
-DELETE FROM customers
-WHERE id = 1;>)](<-- SELECT
-SELECT * FROM customers;
+- **Address Table:**
+  - Fields: AddressID (Primary Key), Street, City, State, ZIP, CustomerID (Foreign Key referencing Customer table).
 
--- INSERT
-INSERT INTO customers (first_name, last_name, email)
-VALUES ('John', 'Doe', 'john.doe@example.com');
+- **Customer Table:**
+  - Fields: CustomerID (Primary Key), FirstName, LastName, Email, Phone, AddressID (Foreign Key referencing Address table).
 
--- UPDATE
-UPDATE customers
-SET email = 'john.doe_updated@example.com'
-WHERE id = 1;
+- **Order Table:**
+  - Fields: OrderID (Primary Key), OrderDate, CustomerID (Foreign Key referencing Customer table).
 
--- DELETE
-DELETE FROM customers
-WHERE id = 1;>)
-```
+- **Order Item Table:**
+  - Fields: OrderItemID (Primary Key), OrderID (Foreign Key referencing Order table), ProductID (Foreign Key referencing Product table), Quantity, Price.
 
+- **Product Table:**
+  - Fields: ProductID (Primary Key), ProductName, Description, Price.
+
+This structure ensures that each customer can have a unique address and place multiple orders. Each order can contain multiple items, and each item is associated with a specific product. The foreign keys maintain the relationships between the tables, reflecting the defined connections in the relational model.

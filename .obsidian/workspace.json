@@ -18,26 +18,25 @@
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "215cdcda6a1ecf85",
+        "type": "tabs",
+        "children": [
           {
             "id": "5bfce42e395be913",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Relationship Reading.md",
+                "file": "Databases/_SQL Tool_.md",
                 "mode": "source",
                 "source": false
               }
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "215cdcda6a1ecf85",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "d61c20658519b075",
             "type": "leaf",
@@ -74,8 +73,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Relationship Reading.md",
+                "file": "Databases/Database Table Relationship Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Relationship Reading.md",
+                "file": "Databases/Database Table Relationship Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Relationship Reading.md"
+                "file": "Databases/Database Table Relationship Types.md"
               }
             }
           },
@@ -303,21 +301,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5bfce42e395be913",
+  "active": "09b225a55a9ff653",
   "lastOpenFiles": [
+    "Databases/_SQL Tool_.md",
+    "Databases/Relationship Reading.md",
+    "Databases/Database Table Relationship Types.md",
     "Databases/Password Hashing.md",
     "Databases/NoSQL vs SQL.md",
     "Databases/Normalization & Denormalization.md",
     "Databases/Knex.md",
     "Databases/Functional Dependencies.md",
-    "Databases/Database Table Relationship Types.md",
     "Databases/DBMS Keys.md",
     "Databases/Frontend Database.md",
     "Databases/App Schema.md",
     "Home.md",
     "_Low Priority Refinement/Database/DB Data Types.md",
     "_Low Priority Refinement/Database/Create Tables.md",
-    "Databases/Relationship Reading.md",
     "_Low Priority Refinement/Database/GUIDs.md",
     "_Low Priority Refinement/Database/Multi Model DB.md",
     "_Low Priority Refinement/Database/Setup/MYSQL Setup.md",
@@ -330,7 +329,6 @@
     "Databases/Data Architecture.md",
     "Algorithms & Data Structures/Sorts/Examination of Best Practices for Sorting.md",
     "Architecture/Clean Code.md",
-    "Architecture/Technology Options/Database.md",
     "_Images/Interview/system design.gif",
     "Infographics/System Design Cheatsheet.gif",
     "Infographics/System Design BluePrint.jpg",

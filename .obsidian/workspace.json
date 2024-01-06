@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "5ddfb7558391c186",
+        "id": "215cdcda6a1ecf85",
         "type": "tabs",
         "children": [
           {
@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database Table Relationship Types.md",
+                "file": "Databases/Is Active Attribute.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,13 +30,7 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "215cdcda6a1ecf85",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "d61c20658519b075",
             "type": "leaf",
@@ -72,7 +66,13 @@
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "a87b8a5a77018df2",
+        "type": "tabs",
+        "children": [
           {
             "id": "097bc3a1e42145d3",
             "type": "leaf",
@@ -85,8 +85,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -168,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database Table Relationship Types.md",
+                "file": "Databases/Is Active Attribute.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database Table Relationship Types.md",
+                "file": "Databases/Is Active Attribute.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database Table Relationship Types.md"
+                "file": "Databases/Is Active Attribute.md"
               }
             }
           },
@@ -307,29 +306,51 @@
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-read-it-later:ReadItLater: Save clipboard": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "copilot:Copilot Chat": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "periodic-notes:Open today": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "periodic-notes:Open today": false
+      "copilot:Copilot Chat": false
     }
   },
   "active": "09b225a55a9ff653",
   "lastOpenFiles": [
     "Databases/Table Relationships.md",
+    "Databases/Is Active Attribute.md",
     "Databases/Database Table Relationship Types.md",
+    "Databases/Untitled Diagram.svg",
     "Databases/System Design NoSQL Databases and When to Use Them..md",
+    "Databases/NoSQL vs SQL.md",
+    "Mind Maps/Java Behind the Scenes.md",
+    "Mind Maps/Drafts/Url.canvas",
+    "Mind Maps/Drafts/Testing.canvas",
+    "Mind Maps/Drafts/Java Logging.canvas",
+    "Mind Maps/Drafts/Gateway.canvas",
+    "Mind Maps/Drafts/File system.canvas",
+    "Mind Maps/Drafts/Event Messaging.canvas",
+    "Mind Maps/Drafts/Event Driven Architecture.canvas",
+    "Mind Maps/Drafts/Domain-driven design.canvas",
+    "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
+    "Mind Maps/UML/Class Cases Robust P3.svg",
+    "Mind Maps/UML/Layer to Package Diagram.svg",
+    "Mind Maps/UML/Lucidchart App Map.svg",
+    "Mind Maps/UML/Package Diagram with classes.svg",
+    "Mind Maps/UML/Package Diagram with No-classes.svg",
+    "Mind Maps/UML/Park Alert Activity Diagram.svg",
+    "Mind Maps/UML/Requirement life cycle.svg",
+    "Mind Maps/UML/UML Monitor Project.png",
+    "_Excalidraw/Scripts/Downloaded/Create DrawIO file.md",
+    "_Excalidraw/Scripts/Downloaded/Create DrawIO file.svg",
+    "Home.md",
     "Databases/_SQL Tool_.md",
     "Databases/Relationship Reading.md",
     "Databases/Password Hashing.md",
-    "Databases/NoSQL vs SQL.md",
     "Databases/Normalization & Denormalization.md",
     "Databases/Knex.md",
     "Databases/Functional Dependencies.md",
     "Databases/DBMS Keys.md",
     "Databases/Frontend Database.md",
     "Databases/App Schema.md",
-    "Home.md",
     "_Low Priority Refinement/Database/DB Data Types.md",
     "_Low Priority Refinement/Database/Create Tables.md",
     "_Low Priority Refinement/Database/GUIDs.md",
@@ -339,38 +360,16 @@
     "Databases/Types of Tables in logical database models.md",
     "Databases/Data Visualization Normalization or Denormalization.md",
     "Databases/Normalization & Denormalization Trade-offs.md",
-    "Databases/Building a Coherent Data Architecture  A Top-Down Approach.md",
-    "Databases/Data Architecture.md",
-    "Algorithms & Data Structures/Sorts/Examination of Best Practices for Sorting.md",
-    "_Images/Interview/system design.gif",
-    "Infographics/System Design Cheatsheet.gif",
-    "Infographics/System Design BluePrint.jpg",
-    "Infographics/Redis persist data.gif",
-    "Infographics/Process and Thread.jpeg",
-    "Infographics/Piliars Of OOP.jpeg",
-    "Infographics/OSI Layer.gif",
-    "Infographics/logging metrics.gif",
-    "Infographics/Message Systems.gif",
-    "Infographics/Load Balance Algo.jpeg",
     "Mind Maps/Docker InDeph.canvas",
-    "Mind Maps/App Schema.canvas",
-    "Mind Maps/Redux Map.canvas",
     "Architecture/Web Server Architecture",
     "Web/Pagination.pdf",
     "Architecture/Design Patterns Layers.pdf",
     "_Low Priority Refinement/Language",
     "_Low Priority Refinement/Devops",
     "Algorithms & Data Structures/Patterns",
-    "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/UML",
     "Language Overlap/Tools",
     "Architecture/Methodology/Twelve Factor App Official Description",
-    "Architecture/Methodology/Docker Twelve Factors App",
-    "Mind Maps/Drafts/Gateway.canvas",
-    "Mind Maps/Drafts/Event Messaging.canvas",
-    "Mind Maps/Drafts/Testing.canvas",
-    "Mind Maps/Drafts/Domain-driven design.canvas",
-    "Mind Maps/Drafts/File system.canvas",
-    "Mind Maps/Drafts/Url.canvas"
+    "Architecture/Methodology/Docker Twelve Factors App"
   ]
 }

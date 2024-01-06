@@ -11,7 +11,13 @@ Database relationships are associations between tables that are created using jo
 
 In the Database Configuration application, you can define Structured Query Language (SQL) statements for joins, and create relationships between parent and child objects. You can use a join to link data from multiple objects. The parent is the existing object and the child is the object that you are create. 
 
+
+
+
 Data tables and relationships can change in codebase a lot endpoints are structured in order of db table dependencies  
+
+
+you can append data to data not in tables 
 
 Most common relationships is between many to one or vise vera one to many 
 

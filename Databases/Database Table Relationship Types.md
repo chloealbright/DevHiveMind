@@ -9,6 +9,8 @@ Relates:
 ---
 ![[DB UML relationship types.jpeg]]
 
+Database relationships are associations between tables that are created using join statements to retrieve data.`Join` statements are then used to retrieve data from multiple tables based on these relationships. There are different types of joins, such as INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN, which determine how data from related tables is combined.
+
 
 ### One-to-One Relationships:
 One-to-one relationships are less common because, typically, if there's only one row associated with another row, they could be merged into a single table. An example involves separating customer information into two tables: one with name and ID, and another with personal details. This creates a one-to-one relationship, allowing restricted access to sensitive data while using the common elements for other relationships. Another example is the assignment of resources like equipment. In a one-to-one relationship, each item is assigned to one person, ensuring exclusivity. Although one-to-one relationships may not be frequently used, they can be relevant in scenarios where data protection or resource allocation requires such specificity. Some DBMS tools permit securing individual columns, potentially eliminating the need for one-to-one relationships.

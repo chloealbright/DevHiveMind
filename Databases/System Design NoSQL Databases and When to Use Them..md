@@ -7,7 +7,10 @@ Started:
 EditDate: 
 Relates:
 ---
+Use [Hadoop](https://hadoop.apache.org/) for fast data processing for large amount of data
 
+
+If you use other databases like an H2 in embedded mode it can help in terms of running a database in a restricted environment like TD but it restricts the access of the database to external services that you may want to connect to
 
 
 These are the famous NoSQL database types.

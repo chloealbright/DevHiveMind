@@ -9,7 +9,7 @@ Relates:
 ---
 ![[DB UML relationship types.jpeg]]
 
-Database relationships are associations between tables that are created using join statements to retrieve data.`Join` statements are then used to retrieve data from multiple tables based on these relationships. There are different types of joins, such as INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN, which determine how data from related tables is combined.
+Database relationships are associations between tables that are created using join statements to retrieve data. [[Self-joining relationships| Join]] statements are then used to retrieve data from multiple tables based on these relationships. There are different types of joins, such as INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN, which determine how data from related tables is combined.
 
 ## Most Common Relationships
 The most prevalent relationships are many-to-one or vice versa, as well as one-to-many. In one-to-one relationships, both sides hold unique values, while in many-to-many relationships, both sides can contain duplicates.

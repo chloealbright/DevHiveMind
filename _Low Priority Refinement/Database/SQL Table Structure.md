@@ -27,7 +27,7 @@ table.foreign("file_id").references("file.id") 
 
 [https://www.cockroachlabs.com/blog/common-foreign-key-mistakes/](https://www.cockroachlabs.com/blog/common-foreign-key-mistakes/)  
 
-Foreign# 
+Foreign
 
 table.foreign(columns, [foreignKeyName])[.onDelete(statement).onUpdate(statement).withKeyName(foreignKeyName).deferrable(type)] 
 

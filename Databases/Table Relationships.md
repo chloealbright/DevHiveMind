@@ -14,10 +14,7 @@ In the Database Configuration application, you can define Structured Query Langu
 
 
 
-Data tables and relationships can change in codebase a lot endpoints are structured in order of db table dependencies  
-
-
-you can append data to data not in tables 
+Data tables and relationships can change in codebase a lot endpoints are structured in order of db table dependencies. you can append data to data not in tables using interfaces when process network request body 
 
 Most common relationships is between many to one or vise vera one to many 
 
@@ -27,13 +24,10 @@ Then one to one 
 One side means unique value many means duplicate value 
 
 
-
-
 One to one means both sides have unique values  
 
 Many to many means both can have duplicates  
 
-Relationship mean filtering in powerBI 
 
 Stick to only one to one and many to one and one to many relationship  
 

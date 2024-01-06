@@ -8,7 +8,7 @@ EditDate:
 Relates:
 ---
 
-Step 1 Understand the problem and establish design scope: 3 - 10 minutes
+
 
 Step 2 Propose high-level design and get buy-in: 10 - 15 minutes
   
@@ -18,13 +18,11 @@ Step 4 Wrap: 3 - 5 minutes
 
 
 
-Define user stories  
-  
-Ask questions to clarify
 
 
 
-Use cases/stories 
+
+Define Use cases/stories 
 
 user should be able to upload pictures or videos 
 
@@ -45,7 +43,9 @@ user post cap based on how many people your following 
 
 Entity(ask about ERD) 
 
---------- 
+
+
+
 
 diagram define relationships  
 
@@ -72,7 +72,8 @@ Cache is used for reading data frequently that isn't modified you would also wan
   
 To scale up you want to keep your web tier stateless build redundancies on each tier cache data as much as you can support multiple data centers host CDN networks scale your data to your by sharding to individual services and monitor your system and use automation tools
 
---------------------------- 
+
+
 
 we need multiple load balancer(without his you,ll go outside the dns) for all the HTTP request traffic for the post/ likes/ comments/ and feeds 
 

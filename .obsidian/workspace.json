@@ -11,9 +11,42 @@
             "id": "00bcf55442ebb881",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Infographics/Security/Web Session Security Animated.gif"
+                "file": "Algorithms & Data Structures/Interview Template with Time Table.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "99b48d4352fcb8ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/System Design/Instagram design.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "9edec8380beacc5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07de4b13c41d9e77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/System Design/System Design.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -99,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infographics/Security/Web Session Security Animated.gif",
+                "file": "Architecture/System Design/System Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infographics/Security/Web Session Security Animated.gif",
+                "file": "Architecture/System Design/System Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infographics/Security/Web Session Security Animated.gif"
+                "file": "Architecture/System Design/System Design.md"
               }
             }
           },
@@ -245,26 +278,28 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "00bcf55442ebb881",
+  "active": "07de4b13c41d9e77",
   "lastOpenFiles": [
-    "Infographics/Security/Web Session Security.jpeg",
-    "Infographics/Security/Security By OSI Layer.jpeg",
-    "Infographics/Security/OAuth Two.jpeg",
-    "Infographics/Security/JWT.jpeg",
-    "Infographics/DevOps/Software Life Cycle.gif",
-    "Infographics/DevOps/Linux File System.gif",
-    "Infographics/DevOps/Linux Boot Process.gif",
-    "Infographics/DevOps/DevOps Roadmap.gif",
-    "Infographics/Databases/Types of DB.jpg",
-    "Infographics/Databases/Type of db use Case.gif",
-    "Infographics/Databases/Database & Data Structrues.jpg",
+    "Architecture/System Design/Instagram design.md",
+    "Architecture/System Design/System Design.md",
+    "Architecture/System Design/Spotify system design.md",
     "Home.md",
-    "Algorithms & Data Structures/Problem-solving Regimen.md",
-    "Algorithms & Data Structures/Algo pathway.md",
     "Algorithms & Data Structures/Interview Template with Time Table.md",
-    "Algorithms & Data Structures/Common Imperative Algorithms.md",
-    "Algorithms & Data Structures/Common Declarative Algorithms.md",
     "Algorithms & Data Structures/Collections Framework.md",
+    "Algorithms & Data Structures/Common Declarative Algorithms.md",
+    "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "Infographics/System Design BluePrint.jpg",
+    "Infographics/System Design Cheatsheet.gif",
+    "Infographics/Redis persist data.gif",
+    "Infographics/Process and Thread.jpeg",
+    "Infographics/Piliars Of OOP.jpeg",
+    "Infographics/OSI Layer.gif",
+    "Infographics/logging metrics.gif",
+    "Infographics/Message Systems.gif",
+    "Infographics/Load Balance Algo.jpeg",
+    "Infographics/Authentication in REST.gif",
+    "Algorithms & Data Structures/Algo pathway.md",
+    "Algorithms & Data Structures/Common Imperative Algorithms.md",
     "Algorithms & Data Structures/Coding Interview Tips.md",
     "Algorithms & Data Structures/All Sorts of Sorts.md",
     "Algorithms & Data Structures/AlgoFlow.md",
@@ -281,8 +316,6 @@
     "Algorithms & Data Structures/Algorithms/Algorithms & Visual Abstraction.md",
     "Algorithms & Data Structures/Algorithms/Approach Pivot.md",
     "Algorithms & Data Structures/Algorithms/Algorithm Most Common Built in Functions.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/Data.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Data Architecture.md",
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/App Schema.canvas",
     "Mind Maps/Redux Map.canvas",

@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "a87b8a5a77018df2",
@@ -179,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Types of Tables in logical database models.md",
+                "file": "Databases/Knex vs Sequelize.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Types of Tables in logical database models.md",
+                "file": "Databases/Knex vs Sequelize.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Types of Tables in logical database models.md"
+                "file": "Databases/Knex vs Sequelize.md"
               }
             }
           },
@@ -325,11 +326,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "097bc3a1e42145d3",
+  "active": "7437fee43f8ddc8e",
   "lastOpenFiles": [
+    "Databases/Types of Tables in logical database models.md",
     "Databases/Which normalization to pick.md",
     "Databases/Normalization & Denormalization.md",
-    "Databases/Types of Tables in logical database models.md",
     "Databases/Record Life Cycle.md",
     "Databases/System Design NoSQL Databases and When to Use Them..md",
     "Databases/Knex vs Sequelize.md",

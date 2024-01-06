@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/System Design/Spotify system design.md",
+                "file": "Architecture/System Design/System Design NoSQL Databases and When to Use Them..md",
                 "mode": "source",
                 "source": false
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/System Design/Spotify system design.md",
+                "file": "Architecture/System Design/System Design NoSQL Databases and When to Use Them..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/System Design/Spotify system design.md",
+                "file": "Architecture/System Design/System Design NoSQL Databases and When to Use Them..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/System Design/Spotify system design.md"
+                "file": "Architecture/System Design/System Design NoSQL Databases and When to Use Them..md"
               }
             }
           },
@@ -305,6 +305,8 @@
   "active": "a6d4f6da19079ce8",
   "lastOpenFiles": [
     "Architecture/System Design/System Design Thought Process Flow.md",
+    "Architecture/System Design/Spotify system design.md",
+    "_Images/Interview/system design.gif",
     "Architecture/System Design/System Design NoSQL Databases and When to Use Them..md",
     "Architecture/Methodology/Admin functionality God Mode/Database Migrations.md",
     "_Low Priority Refinement/Database/DB Data Types.md",
@@ -314,7 +316,6 @@
     "_Low Priority Refinement/Database/DB Fundamentals/database Explained.md",
     "Architecture/System Design/System Design Interview Process.md",
     "Infographics/System Design Cheatsheet.gif",
-    "Architecture/System Design/Spotify system design.md",
     "Home.md",
     "Algorithms & Data Structures/Interview Template with Time Table.md",
     "Algorithms & Data Structures/Collections Framework.md",
@@ -328,7 +329,6 @@
     "Infographics/logging metrics.gif",
     "Infographics/Message Systems.gif",
     "Infographics/Load Balance Algo.jpeg",
-    "Infographics/Authentication in REST.gif",
     "Algorithms & Data Structures/Algo pathway.md",
     "Algorithms & Data Structures/Common Imperative Algorithms.md",
     "Algorithms & Data Structures/Coding Interview Tips.md",
@@ -339,7 +339,6 @@
     "Algorithms & Data Structures/Patterns/Knapsack Pattern.md",
     "Algorithms & Data Structures/Patterns/Key Base Attributes of  Grokking Algorithm patterns.md",
     "Algorithms & Data Structures/Patterns/Depth First Search & Breadth-First Search.md",
-    "Algorithms & Data Structures/Patterns/Binary search 101.md",
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/App Schema.canvas",
     "Mind Maps/Redux Map.canvas",

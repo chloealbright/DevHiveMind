@@ -8,9 +8,15 @@ EditDate:
 Relates:
 ---
 ### **Step 1: Understand the Problem and Establish Design Scope (3 - 10 minutes)**
-During this step, it's crucial to seek clarification on the project's scope and priorities. Break down the problem into specific use cases or user stories, outlining the interactions between system components. Identify key requirements and constraints, such as expected traffic, data volume, latency, and scalability.
+During this step, it's crucial to seek clarification on the system scope and priorities like for example they may ask design an Instagram reel feature. Break down the problem into specific use cases or user stories, outlining the interactions between system components. Identify key requirements and constraints, such as expected traffic, data volume, latency, and scalability.
 
+#### Start small 
+Focus on the action like pressing the button ask what it does and expand on that in terms of what you think should happen like collecting certain data and where would that go or be connected to and the different processes that need to happen. 
+
+Then you ask about things like user base and the size of it estimation of it and determine things like constraints and bottlenecks which will then lead to database questions which may require specialized databases that are NoSQL or SQL. 
 #### Use Cases/Stories Example:
+>[!important]
+>Doing this helps with coming up with data model
 1. User uploads pictures or videos.
 2. User views uploaded photos and videos.
 3. User follows, likes, and comments on posts.
@@ -97,6 +103,43 @@ Summarize key design decisions, highlighting any alternative considerations. Inv
 - Memory: Read requests per day * average request size * 20%
 - Bandwidth: Requests per day * average request size
 - Storage: Writes per day * size of write * time to store data
+
+
+# Alt Design
+
+Certainly, let's refine the estimation with a music streaming service as an example.
+
+### Music Streaming Service Estimation:
+
+**Assumptions:**
+- Average song duration: 3 minutes
+- Average songs played per hour per user: 20 songs
+- Average daily active users: 10 million
+- Average hours of music played per user per day: 3 hours
+- Number of days in a month: 30
+
+#### Math Problem:
+
+1. **Daily Usage Estimation:**
+   - Songs played per user per day: 20 songs/hour * 3 hours = 60 songs
+   - Total daily songs played: 60 songs/user * 10 million users = 600 million songs
+   - Total daily music duration: 600 million songs * 3 minutes/song = 1,800 million minutes
+
+2. **Monthly Usage Estimation:**
+   - Total monthly music duration: 1,800 million minutes * 30 days = 54,000 million minutes
+
+3. **Conversion to Seconds:**
+   - Total monthly music duration in seconds: 54,000 million minutes * 60 seconds/minute = 3,240,000 million seconds
+
+### Why This Information Matters:
+
+**Throughput Considerations:**
+- The system needs to handle a massive volume of song requests and streaming data.
+- Infrastructure must support concurrent users and maintain low latency during high usage periods.
+- Designing the database, server architecture, and network bandwidth should accommodate this estimated daily and monthly load.
+- Ensuring scalability is crucial to handle potential growth in user base and usage patterns.
+
+This estimation allows us to properly design and dimension the infrastructure to meet the demands of the music streaming service, ensuring a smooth and responsive user experience.
 
 
 ![[System Design Cheatsheet.gif]]

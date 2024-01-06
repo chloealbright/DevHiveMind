@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Choosing Database.md",
+                "file": "Databases/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Choosing Database.md",
+                "file": "Databases/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Choosing Database.md"
+                "file": "Databases/Untitled.md"
               }
             }
           },
@@ -352,10 +352,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "d61c20658519b075",
+  "active": "b88b25226062d555",
   "lastOpenFiles": [
-    "Databases/Types of Tables in logical database models.md",
+    "Databases/Choosing Database.md",
     "Databases/Untitled.md",
+    "Databases/Types of Tables in logical database models.md",
     "_Low Priority Refinement/Database/SQL Table Structure.md",
     "_Low Priority Refinement/Database/DB Fundamentals/Data.md",
     "Databases/System Design NoSQL Databases and When to Use Them..md",
@@ -364,7 +365,6 @@
     "_Low Priority Refinement/Database/Other Stuff.md",
     "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md",
     "Architecture/Technology Options/Database.md",
-    "Databases/Choosing Database.md",
     "_Low Priority Refinement/Database/NOSQL/General Info.md",
     "_Images/Database/DB CAP.png",
     "_Images/CAP.png",

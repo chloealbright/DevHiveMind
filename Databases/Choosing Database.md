@@ -9,42 +9,6 @@ Relates:
 ---
 ![[CAP.png]]
 
-## CAP
-The CAP Theorem, standing for Consistency, Availability, and Partition Tolerance, posits that in database systems, one can only achieve two out of the three mentioned elements simultaneously. These components play critical roles in defining the performance characteristics of a database, and choosing the appropriate combination is essential based on specific requirements. Here's a breakdown of these elements:
-
-1. **Consistency:**
-   - In the context of the CAP Theorem, consistency refers to ensuring that data throughout the system is identical. This is particularly crucial in scenarios where accuracy is of utmost importance, such as in banking or high-stakes transactions.
-
-2. **Availability:**
-   - Availability pertains to users' ability to read and write data, even in the face of network failures. It emphasizes uninterrupted access to the system, irrespective of network issues.
-
-3. **Partition Tolerance:**
-   - Partition tolerance signifies the system's ability to operate seamlessly, even when parts of the network are down. It ensures the system remains functional despite potential disruptions.
-
-The CAP Theorem helps in making informed decisions when selecting a database system, considering the trade-offs between these three factors. Relational databases, while providing consistency, often lack partition tolerance and high availability, as they can experience downtime during updates.
-
-
-
-![[DB Popularity.png]]
-
-NoSQL databases, being a diverse category, offer various trade-offs based on the specific type chosen. For instance:
-- **AP Systems (Partition Tolerance + Availability):** Examples include CouchDB, Cassandra, and DynamoDB. These systems prioritize partition tolerance and availability, accepting eventual consistency as data replicates across machines.
-
-- **CA Systems (Consistency + Availability):** Examples include traditional relational databases like MySQL, PostgreSQL, and Oracle Database.Suited for scenarios where maintaining data consistency is critical, and a high level of availability is also required.Commonly used in applications such as financial systems, where precise, real-time data accuracy is non-negotiable.
-
-- **CP Systems (Partition Tolerance + Consistency):** Examples include MongoDB, Hbase, and Redis. These systems focus on partition tolerance and consistency, ensuring accuracy at the expense of immediate availability.
-
-It's important to note that NoSQL is a broad term encompassing various non-relational databases, with four main types: key-value, document, wide-column, and graph databases. Each type serves different purposes, and the selection depends on specific needs:
-
-- **Key-Value Stores:** Suited for fast retrieval of unstructured data, often used in caching, user preference storage, and scenarios where simplicity is crucial (e.g., Redis, DynamoDB).
-
-- **Document Databases:** Useful for flexible data storage, especially in scenarios requiring agile development and a variety of data types (e.g., MongoDB, CouchDB).
-
-- **Wide-Column Stores:** Ideal for scenarios with known queries and large amounts of data, providing fast querying of specific data parts (e.g., Cassandra, HBase).
-
-- **Graph Databases:** Designed for showcasing multidimensional relationships in scenarios such as social networks, fraud detection, and recommendation engines (e.g., Neo4j, JanusGraph).
-
-The suitability of NoSQL versus relational databases depends on specific use cases. While NoSQL excels in scenarios prioritizing partition tolerance and availability, relational databases are preferred when absolute consistency and complex SQL queries are paramount. The choice should align with the particular needs of the application or system at hand.
 
 
 
@@ -58,7 +22,7 @@ Recall the CAP theorem, which highlights the trade-off between consistency, avai
   - Well-defined schema upfront.
   - Ideal for applications requiring high data integrity (e.g., banking).
 
-- **BASE("Basically Available, Soft state, Eventually consistent") principles (NoSQL Databases):**
+- **BASE(Basically Available, Soft state, Eventually consistent) principles (NoSQL Databases):**
   - Weak consistency is acceptable.
   - Schema is flexible, defined as needed.
   - Suited for agile projects with evolving data, prioritizing availability and scalability.

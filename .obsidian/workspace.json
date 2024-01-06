@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "a87b8a5a77018df2",
@@ -123,7 +123,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Database/SQL Table Structure.md",
+                "file": "Databases/Choosing Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Database/SQL Table Structure.md",
+                "file": "Databases/Choosing Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Database/SQL Table Structure.md"
+                "file": "Databases/Choosing Database.md"
               }
             }
           },
@@ -352,8 +352,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "3f6352350e6f6581",
+  "active": "d61c20658519b075",
   "lastOpenFiles": [
+    "Databases/Types of Tables in logical database models.md",
+    "Databases/Untitled.md",
+    "_Low Priority Refinement/Database/SQL Table Structure.md",
     "_Low Priority Refinement/Database/DB Fundamentals/Data.md",
     "Databases/System Design NoSQL Databases and When to Use Them..md",
     "_Low Priority Refinement/Database/DB Fundamentals/Transaction.md",
@@ -362,7 +365,6 @@
     "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md",
     "Architecture/Technology Options/Database.md",
     "Databases/Choosing Database.md",
-    "Databases/Untitled.md",
     "_Low Priority Refinement/Database/NOSQL/General Info.md",
     "_Images/Database/DB CAP.png",
     "_Images/CAP.png",
@@ -374,14 +376,12 @@
     "_Low Priority Refinement/Database/Multi Model DB.md",
     "_Low Priority Refinement/Database/H2.md",
     "Databases/Self-joining relationships.md",
-    "_Low Priority Refinement/Database/SQL Table Structure.md",
     "_Low Priority Refinement/Database/Hadoop.md",
     "_Low Priority Refinement/Database/Triggers in SQL.md",
     "Databases/Database Table Relationship Types.md",
     "Databases/App Schema.md",
     "Databases/Normalization & Denormalization.md",
     "Databases/DBMS Keys.md",
-    "Databases/Functional Dependencies.md",
     "Infographics/Architecture/Cache going wrong.gif",
     "Databases/Untitled Diagram.svg",
     "Mind Maps/Drafts/Url.canvas",

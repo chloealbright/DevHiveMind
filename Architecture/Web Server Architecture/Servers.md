@@ -11,6 +11,8 @@ Relates: "[[Proxy]]"
 - A backend server refers to the server-side of an application, responsible for processing requests, handling business logic, and interacting with databases.  
 - It receives requests from the frontend (user interface) or other clients, processes the requests, and sends back the appropriate responses.  
 - The backend often includes a web server, application server, and a database server.  
+
+A CDN is a web server that acts like a cache and communicate with the origin backend web server to get the content. An API gateway is a web server that authenticate user and serve API responses from backend web servers.
   
 **Proxy Servers:**  
 - A proxy server acts as an intermediary between clients and other servers.  

@@ -23,17 +23,6 @@ Sometimes the backend architecture requires real-time Bidirectional communicatio
 
 Ultimately, learning communication protocols is important for a backend engineer, and it is possible to go as deep as desired in any protocol. Maybe one day you will write an RFC proposing a new protocol.
 
-## Web Servers
-
-Web servers are becoming increasingly important as backend infrastructure relays on HTTP web communications. Web servers deliver static or dynamic content served on top of the HTTP protocol. If you build a Web API you may spin up your own web server in your language of choice or use a web framework such as Express or Django.
-
-Modern web servers support both HTTP/1.1 and HTTP/2. HTTP/3 is slowly getting support as its newer protocol. Configuring your web server with the appropriate protocol is critical for performance and resilience of your backend application; And it all depends on the environment. For example, Do you expect multiple concurrent requests from the same client? or do you expect fewer requests but from many clients? Based on that, you can pick multiplexing HTTP/2 or vanilla simple HTTP/1.1.
-
-The internal architecture of web servers can also differ. Web servers can be single or multithreaded. They can have one thread or multiple listener threads. There are many ways client connections can be accepted and distributed among the threads. If you choose an off-the-shelf web server you are stuck with its architecture. If you build your own from scratch you get to choose the architecture that is right for you. I wrote an article going through multiple designs for threading and connection management in [backend servers](https://medium.com/@hnasr/threads-and-connections-in-backend-applications-a225eed3eddb), you may want to check it out.
-
-Additionally, web servers can set any where in the stack. For example, a CDN is a web server that acts like a cache and communicate with the origin backend web server to get the content. An API gateway is a web server that authenticate user and serve API responses from backend web servers.
-
-Examples of off-the-shelf web servers are Apache Tomcat, Apache httpd, and [NGINX](https://medium.com/@hnasr/the-architecture-of-nginx-2b32fc0b7877). The latter can act as both a web server and a proxy. You may build your own web server in any language by listening on a TCP port and understand how to speak the HTTP protocol, you can of course use an HTTP library that does most of the work for you.
 
 ## Proxies
 
@@ -49,15 +38,6 @@ A common uses cases of proxies are caching, API gateways, authentication, load b
 
 Example of proxies are [NGINX](https://medium.com/@hnasr/the-architecture-of-nginx-2b32fc0b7877), HAProxy and Envoy. Proxies are one of the most interesting topics in backend engineering and one can specialize in learning and improving them. Cloudflare [recently](https://youtu.be/QbOAHkaFU6w) moved away from NGINX, their primary reverse proxy, and built their own proxy because of certain limitations in NGINX. I discussed that in details in an episode of the [backend engineering show.](https://youtu.be/QbOAHkaFU6w)
 
-## Messaging Systems
-
-Messaging systems are becoming increasingly important as we move towards interconnected systems and services. As services start to communicate to each other, coupling and dependencies increase which increases the complexity of building scalable backend applications. Messaging systems are designed to remove this coupling
-
-Messaging systems at their core support a feature called publish-subscribe where a client can publish a message and other clients can subscribe to consume this content. The choice of architecting how publishing and consumption is made is up to the messaging system. For example, [Kafka](https://youtu.be/R873BlNVUB4) use long-polling model while [RabbitMQ](https://youtu.be/Cie5v59mrTg) uses push model, both has pros and cons.
-
-Consuming a message also comes with an interesting and hard to solve problem. How do you make sure the consumer reads the message only once? These guarantees complicates the messaging system design.
-
-Messaging systems are truly interesting piece of technology that is fundamentals to backend engineering. This field might interest you.
 
 ## Message Formats
 

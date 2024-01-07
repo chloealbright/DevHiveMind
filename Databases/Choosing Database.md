@@ -7,6 +7,17 @@ Started:
 EditDate: 
 Relates:
 ---
+
+Information is refined structured data
+
+
+structured data v unstructured data
+
+then render down to sql or nosql 
+
+then render down to cap 
+
+
 ![[CAP.png]]
 ### **CAP Theorem and Fundamental Differences:**
 The CAP Theorem, representing Consistency, Availability, and Partition Tolerance, asserts that in database systems, achieving all three elements simultaneously is not possible. These components are pivotal in shaping a database's performance characteristics, and the selection of an appropriate combination is crucial based on specific requirements. Here's a breakdown of these elements:

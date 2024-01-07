@@ -71,7 +71,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md",
+                "file": "Architecture/Load Balancer.md",
                 "mode": "source",
                 "source": false
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md",
+                "file": "Architecture/Load Balancer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md",
+                "file": "Architecture/Load Balancer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md"
+                "file": "Architecture/Load Balancer.md"
               }
             }
           },
@@ -308,11 +308,17 @@
   },
   "active": "a0424b4a87b07646",
   "lastOpenFiles": [
+    "Architecture/Clean Code Approach Reflection.md",
+    "Architecture/Load Balancer.md",
+    "Architecture/Chaos Engineering.md",
+    "Architecture/Load Balancing and Scaling.md",
+    "Databases/Knex vs Sequelize.md",
+    "Databases/Functional Dependencies.md",
+    "Architecture/System Design/System Design Thought Process Flow.md",
     "Databases/Sharding & Pagination.md",
     "Databases/Normalization & Denormalization.md",
     "Databases/Knex.md",
     "Databases/Database Sharding.md",
-    "Architecture/System Design/System Design Thought Process Flow.md",
     "Databases/Frontend Database.md",
     "Architecture/Technology Options/Database.md",
     "Databases/Choosing Database.md",
@@ -347,12 +353,6 @@
     "Architecture/Technology Options/Caches.md",
     "Architecture/Arch to think about.md",
     "Architecture/Web Server Architecture/Servers.md",
-    "Cloud/AWS/AWS Cloud Services.md",
-    "Devops/Docker/Docker volumes.md",
-    "Architecture/App Layers/Infrastructure.md",
-    "_Low Priority Refinement/API/The six constraints of REST.md",
-    "_Low Priority Refinement/Obsidian Understanding its Core Design Principles  by TfTHacker  Obsidian Observer  Medium.md",
-    "_Low Priority Refinement/My Obsidian Setup — My Notes and My Theme settings  by Nuno Campos  Obsidian Observer  Apr, 2023  Medium.md",
     "Mind Maps/Docker InDeph.canvas",
     "Architecture/Web Server Architecture",
     "Web/Pagination.pdf",

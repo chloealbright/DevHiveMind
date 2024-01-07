@@ -4,50 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c635013c759404c4",
+        "id": "a76c2eda088f803c",
         "type": "tabs",
         "children": [
           {
-            "id": "0126ccd8aa3a9b0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Low Priority Refinement/Database/DB Data Types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "426b12d3b5423d07",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Mind Maps/Drafts/Url.canvas",
-                "viewState": {
-                  "x": 300,
-                  "y": 260.5,
-                  "zoom": -0.900199393009559
-                }
-              }
-            }
-          },
-          {
-            "id": "4031fb706a961af5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Sharding & Pagination.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7bb1a9862956d6be",
+            "id": "5f85c634f47ff1d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,49 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "a76c2eda088f803c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "df018f31d83c2c25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Technology Options/Database.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0424b4a87b07646",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Load Balancer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5f85c634f47ff1d6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "_Cheatsheet/SQL Practice Interview Questions .pdf"
-              }
-            }
-          }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Sharding & Pagination.md",
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Sharding & Pagination.md",
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Sharding & Pagination.md"
+                "file": "Architecture/System Design/System Design Thought Process Flow.md"
               }
             }
           },
@@ -328,8 +247,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "4031fb706a961af5",
+  "active": "5f85c634f47ff1d6",
   "lastOpenFiles": [
+    "Home.md",
     "_Cheatsheet/SQL Practice Interview Questions .pdf",
     "_Cheatsheet/Python Junior Cheathseets.pdf",
     "_Cheatsheet/Prompt.jpg",
@@ -380,11 +300,9 @@
     "Infographics/Databases/Type of db use Case.gif",
     "Infographics/Databases/Types of DB.jpg",
     "Architecture/System Design/How to Choose Resource Granularity.md",
-    "Home.md",
     "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md",
     "Architecture/Technology Options/Caches.md",
     "Mind Maps/Docker InDeph.canvas",
-    "Architecture/Web Server Architecture",
-    "Web/Pagination.pdf"
+    "Architecture/Web Server Architecture"
   ]
 }

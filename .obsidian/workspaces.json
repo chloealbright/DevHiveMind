@@ -1619,89 +1619,101 @@
       },
       "active": "6693af7d125374ec"
     },
-    "db": {
+    "Database": {
       "main": {
         "id": "0cbb3f0709975816",
         "type": "split",
         "children": [
           {
-            "id": "215cdcda6a1ecf85",
+            "id": "ff428d9f1cf3727c",
             "type": "tabs",
             "children": [
               {
-                "id": "09b225a55a9ff653",
+                "id": "7a5435ea12ccb96a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Databases/Database Table Relationship Types.md",
+                    "file": "Architecture/System Design/System Design Thought Process Flow.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "811603e7cac7b016",
+                "id": "80f0c68b121b3eb5",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "Infographics/Databases/Execution Order.jpg"
+                  }
+                }
+              },
+              {
+                "id": "c7bfdac4ffb2d30f",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "Infographics/Databases/Sql Exe Order.gif"
+                  }
+                }
+              },
+              {
+                "id": "1085727c8e920867",
+                "type": "leaf",
+                "state": {
+                  "type": "image",
+                  "state": {
+                    "file": "Infographics/Databases/Database Processes.gif"
+                  }
+                }
+              },
+              {
+                "id": "59acf39b54e5a21e",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Databases/System Design NoSQL Databases and When to Use Them..md",
+                    "file": "Databases/Database Sharding.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "9098981eb1e82e97",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e1e447314ce10ffd",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Architecture/Choosing Database.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "d61c20658519b075",
+                "id": "1a6dfbe1e600c493",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Databases/NoSQL vs SQL.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "1fac25659d31ad36",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Databases/Functional Dependencies.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "7437fee43f8ddc8e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Databases/NoSQL vs SQL.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "097bc3a1e42145d3",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Databases/Table Relationships.md",
+                    "file": "Databases/Sharding & Pagination.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1730,7 +1742,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "data",
+                    "query": "Pagination",
                     "matchingCase": true,
                     "explainSearch": false,
                     "collapseAll": true,
@@ -1783,7 +1795,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Databases/NoSQL vs SQL.md",
+                    "file": "Databases/Sharding & Pagination.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1800,7 +1812,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Databases/NoSQL vs SQL.md",
+                    "file": "Databases/Sharding & Pagination.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1823,7 +1835,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Databases/NoSQL vs SQL.md"
+                    "file": "Databases/Sharding & Pagination.md"
                   }
                 }
               },
@@ -1923,14 +1935,14 @@
           "obsidian-read-it-later:ReadItLater: Save clipboard": false,
           "obsidian-advanced-slides:Show Slide Preview": false,
           "table-editor-obsidian:Advanced Tables Toolbar": false,
-          "periodic-notes:Open today": false,
           "templater-obsidian:Templater": false,
           "obsidian-excalidraw-plugin:Create new drawing": false,
-          "copilot:Copilot Chat": false
+          "copilot:Copilot Chat": false,
+          "periodic-notes:Open today": false
         }
       },
-      "active": "7437fee43f8ddc8e"
+      "active": "1a6dfbe1e600c493"
     }
   },
-  "active": "db"
+  "active": "Database"
 }

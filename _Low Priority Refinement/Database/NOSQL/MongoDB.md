@@ -137,7 +137,7 @@ In terms of Node. js, MongoDB is the native driver for interacting with a MongoD
 
 [https://mongoosejs.com/docs/](https://mongoosejs.com/docs/)
 
-##  Mongoose v Sequelize
+## Mongoose v Sequelize
 
 Sequelize is a tool or a level of abstraction which converts data in a relational database into programmatic objects that can be manipulated by a developer using a programming language, such as JavaScript. Mongoose is an Object Document Mapper (ODM), a JavaScript layer to access MongoDB. 
 

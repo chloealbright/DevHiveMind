@@ -6,6 +6,7 @@
       {
         "id": "ff428d9f1cf3727c",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "7a5435ea12ccb96a",
@@ -66,6 +67,7 @@
       {
         "id": "9098981eb1e82e97",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "e1e447314ce10ffd",
@@ -92,12 +94,12 @@
             }
           },
           {
-            "id": "c17a123fc19e8908",
+            "id": "5cc01c14725695cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Database/Database Archetecture/Snowflake.md",
+                "file": "_Low Priority Refinement/Database/Constraints.md",
                 "mode": "source",
                 "source": false
               }
@@ -334,16 +336,21 @@
   },
   "active": "7a5435ea12ccb96a",
   "lastOpenFiles": [
-    "_Low Priority Refinement/Database/Database Archetecture/Snowflake.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Schema Design.md",
+    "Architecture/Microservices.md",
+    "Architecture/System Design/System Design Thought Process Flow.md",
+    "_Low Priority Refinement/Database/Constraints.md",
+    "_Low Priority Refinement/Database/conf.md",
+    "_Low Priority Refinement/Database/Setup/MYSQL Setup.md",
+    "_Low Priority Refinement/Database/NOSQL/MongoDB.md",
+    "Databases/Sharding & Pagination.md",
     "_Low Priority Refinement/Database/Database Archetecture/Table Team Work.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Star.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Schema Design.md",
     "_Low Priority Refinement/Database/Database Archetecture/Making Decesion.md",
     "_Low Priority Refinement/Database/Database Archetecture/Fact Table.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Snowflake.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Star.md",
     "Architecture/Decentralized Data Management.md",
     "Architecture/Choosing Database.md",
-    "Architecture/System Design/System Design Thought Process Flow.md",
-    "Databases/Sharding & Pagination.md",
     "Databases/Database Sharding.md",
     "Infographics/Databases/Database Processes.gif",
     "_Low Priority Refinement/Database/Other Stuff.md",
@@ -361,11 +368,6 @@
     "Databases/Knex vs Sequelize.md",
     "Databases/Knex.md",
     "Databases/Functional Dependencies.md",
-    "Databases/Frontend Database.md",
-    "Databases/Database Table Relationship Types.md",
-    "Databases/DBMS Keys.md",
-    "Databases/Cloud Databases.md",
-    "Architecture/SAAS.md",
     "Mind Maps/12 Factor App Docker.canvas",
     "_Cheatsheet/SQL Practice Interview Questions .pdf",
     "_Cheatsheet/Python Junior Cheathseets.pdf",

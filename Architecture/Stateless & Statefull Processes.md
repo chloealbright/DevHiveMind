@@ -24,9 +24,8 @@ Key characteristics of stateless processes include:
 Stateless processes are commonly used in web applications and microservices architectures. Each HTTP request to a web server, for example, can be considered stateless because the server processes the request without remembering prior requests. The statelessness makes it easier to scale, distribute, and maintain these systems. However, stateless systems may require additional mechanisms, like tokens or cookies, to manage user sessions and authentication while still maintaining their overall statelessness.
 
 
-Certainly! I'll provide examples of both stateless and stateful processes in TypeScript to highlight the difference.
 
-**Stateless Example:**
+## Stateless Example:
 
 ```typescript
 class StatelessCounter {
@@ -41,11 +40,9 @@ counterValue = StatelessCounter.increment(counterValue, 5); // Result: 5
 counterValue = StatelessCounter.increment(counterValue, 3); // Result: 8
 ```
 
-## Stateful
-
+## Statefull Example:
 In this example, `StatelessCounter` is a class that provides a stateless operation to increment a value. It takes the current value and an increment amount as parameters and returns the new value. The state is managed externally (in the `counterValue` variable), and each call to `increment` is independent of previous calls.
 
-**Statefull Example:**
 
 ```typescript
 class StatefulCounter {

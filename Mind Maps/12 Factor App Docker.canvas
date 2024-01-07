@@ -20,7 +20,7 @@
 		{"type":"file","file":"Architecture/Methodology/Docker Twelve Factors App/III Config.md","id":"aa9a44eb3106782b","x":80,"y":-234,"width":400,"height":209,"color":"1"},
 		{"type":"file","file":"Architecture/Methodology/Docker Twelve Factors App/II Dependencies.md","id":"4b093dc34d75dc9c","x":-719,"y":-655,"width":400,"height":210,"color":"1"},
 		{"type":"file","file":"Architecture/Methodology/Docker Twelve Factors App/VII Port binding.md","id":"91a59303341dc2cb","x":-551,"y":-387,"width":464,"height":362,"color":"1"},
-		{"type":"text","text":"### [[Stateless Processes]]","id":"319ef13acab5892f","x":1200,"y":-760,"width":360,"height":60,"color":"4"},
+		{"type":"text","text":"### [[Stateless & Statefull Processes |Stateless Processes]]","id":"319ef13acab5892f","x":1200,"y":-760,"width":360,"height":60,"color":"4"},
 		{"type":"text","text":"### [[Vertical vs Horizontal scaling | Horizontal Scaling]]","id":"7add0137b6a9879f","x":1200,"y":-700,"width":360,"height":60,"color":"4"},
 		{"type":"text","text":"### Proper logging becomes crucial. During shutdown and startup processes, detailed logging helps track the state of the application, identify potential issues, and ensure that it recovers properly after restarting.","id":"131614e1dcb6fa5a","x":1522,"y":202,"width":595,"height":162,"color":"#d726e4"},
 		{"type":"file","file":"Architecture/Methodology/Docker Twelve Factors App/VI Processes.md","id":"c204e877adc996b6","x":1122,"y":-339,"width":400,"height":400,"color":"#0084ff"},

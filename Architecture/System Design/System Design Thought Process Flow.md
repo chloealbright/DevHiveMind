@@ -35,7 +35,7 @@ Delve into the design by following the flow from Database to Server/Services (Ar
   - Identify major components: servers, databases, cache, load balancer, messaging queues, monitoring/logging, and microservices.
   - Discuss trade-offs between performance, scalability, and cost.
   - Consider the use of APIs for certain functionalities.
-  - Discuss stateless vs stateful application 
+  - Discuss [[Stateless & Statefull Processes| Stateless vs statefull]] application or process
   - Maybe talk microservices etc..
 
 - **Scalability and Performance:**

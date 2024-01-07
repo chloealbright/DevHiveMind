@@ -20,7 +20,7 @@ Database schema ends up influencing how you build out features in terms of the o
 
 
 
-Data modeling is the process of creating a simplified diagram of a software system and the data elements it contains, using text and symbols to represent the data and how it flows. Data models provide a blueprint for designing a new database or reengineering a legacy application. Overall, data modeling helps an organization use its data effectively to meet business needs for information.
+Data modeling is the process of creating a simplified diagram of a software system and the data elements it contains, using text and symbols to represent the data and how it flows. Data models provide a blueprint for designing a new database or re-engineering a legacy application. Overall, data modeling helps an organization use its data effectively to meet business needs for information.
 
 A data model can be thought of as a flowchart that illustrates data entities, their attributes and the relationships between entities. It enables [data management](https://www.techtarget.com/searchdatamanagement/definition/data-management) and analytics teams to document data requirements for applications and identify errors in development plans before any code is written.
 

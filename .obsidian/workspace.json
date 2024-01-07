@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "59acf39b54e5a21e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database Sharding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "80f0c68b121b3eb5",
             "type": "leaf",
             "state": {
@@ -62,19 +50,18 @@
             }
           },
           {
-            "id": "3b0f50e1b7399b4b",
+            "id": "59acf39b54e5a21e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Database/SQL Table Structure.md",
+                "file": "Databases/Database Sharding.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "9098981eb1e82e97",
@@ -86,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Choosing Database.md",
+                "file": "Architecture/Choosing Database.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,11 +95,16 @@
             "id": "c17a123fc19e8908",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_Low Priority Refinement/Database/Database Archetecture/Snowflake.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -194,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Database/SQL Table Structure.md",
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Database/SQL Table Structure.md",
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Database/SQL Table Structure.md"
+                "file": "Architecture/System Design/System Design Thought Process Flow.md"
               }
             }
           },
@@ -340,14 +332,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3b0f50e1b7399b4b",
+  "active": "7a5435ea12ccb96a",
   "lastOpenFiles": [
-    "_Low Priority Refinement/Database/Multi Model DB.md",
-    "Databases/Choosing Database.md",
-    "_Low Priority Refinement/Database/SQL Table Structure.md",
-    "_Low Priority Refinement/Database/Other Stuff.md",
-    "_Low Priority Refinement/Database/Triggers in SQL.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Snowflake.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Schema Design.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Table Team Work.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Star.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Making Decesion.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Fact Table.md",
+    "Architecture/Decentralized Data Management.md",
+    "Architecture/Choosing Database.md",
+    "Architecture/System Design/System Design Thought Process Flow.md",
+    "Databases/Sharding & Pagination.md",
+    "Databases/Database Sharding.md",
     "Infographics/Databases/Database Processes.gif",
+    "_Low Priority Refinement/Database/Other Stuff.md",
+    "_Low Priority Refinement/Database/SQL Table Structure.md",
+    "_Low Priority Refinement/Database/Multi Model DB.md",
+    "_Low Priority Refinement/Database/Triggers in SQL.md",
     "Infographics/Databases/Database & Data Structrues.jpg",
     "Infographics/Databases/Database Sharding.jpeg",
     "Infographics/Databases/Database Types.gif",
@@ -362,17 +364,9 @@
     "Databases/Frontend Database.md",
     "Databases/Database Table Relationship Types.md",
     "Databases/DBMS Keys.md",
-    "Databases/Database Sharding.md",
     "Databases/Cloud Databases.md",
     "Architecture/SAAS.md",
-    "Architecture/System Design/System Design Thought Process Flow.md",
-    "Architecture/PAAS.md",
-    "Architecture/Methodology/Docker Twelve Factors App/VI Processes.md",
-    "Databases/Sharding & Pagination.md",
     "Mind Maps/12 Factor App Docker.canvas",
-    "Mind Maps/Collection of UML Diagrams.md",
-    "Architecture/Stateless & Statefull Processes.md",
-    "Home.md",
     "_Cheatsheet/SQL Practice Interview Questions .pdf",
     "_Cheatsheet/Python Junior Cheathseets.pdf",
     "_Cheatsheet/Prompt.jpg",
@@ -386,8 +380,6 @@
     "_Pdf/Roadmaps/design-system.pdf",
     "_Pdf/Roadmaps/software-design-architecture.pdf",
     "_Pdf/Roadmaps/system-design.pdf",
-    "Architecture/Technology Options/Database.md",
-    "Web/Query String.md",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Java Logging.canvas",

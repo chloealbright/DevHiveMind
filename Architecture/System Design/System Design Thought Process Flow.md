@@ -23,13 +23,14 @@ Then you ask about things like user base and the size of it estimation of it and
 4. User has a feed containing posts from friends.
 5. User can block or unfollow other users.
 
-### **Step 2: Design Deep Dive (15 - 25 minutes)**
+### *Step 2: Design Deep Dive (15 - 25 minutes)
 Delve into the design by following the flow from Database to Server/Services (Architecture) to Client Side.
 
 - **Database:**
   - Create an Entity Relationship Diagram (ERD) to define relationships.
   - Consider SQL for structured data and NoSQL for unstructured data.
   - More things to think about when deciding between [[Choosing Database]] you can also talk about [[Database Sharding]]
+  - What type of [[Schema Design]] makes sense.
 
 - **Architecture:**
   - Identify major components: servers, databases, cache, load balancer, messaging queues, monitoring/logging, and microservices.

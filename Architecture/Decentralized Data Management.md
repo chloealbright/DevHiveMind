@@ -16,7 +16,7 @@ This design principle will help you better manage your database its also a basis
 
 If you are thinking about how could then another Microservice get access to the same data as its very much possible that another service do need it? Well, you should always create APIs for that as we going to see in next Microservice design principle.
 
-You can see this in following Microservice architecture we have different database for UserService, MessageService and FriendService.
+You can see this in following Microservice architecture we have different database for `UserService`, `MessageService` and `FriendService`.
 
 
 ## Security 

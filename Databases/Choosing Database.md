@@ -17,6 +17,8 @@ then render down to sql or nosql
 
 then render down to cap 
 
+You can choose [[Cloud Databases]]
+
 
 ![[CAP.png]]
 ### **CAP Theorem and Fundamental Differences:**

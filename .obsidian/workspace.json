@@ -13,34 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mind Maps/Collection of UML Diagrams.md",
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "956c9fffcb2cc89a",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Mind Maps/12 Factor App Docker.canvas",
-                "viewState": {
-                  "x": 153.4905362200326,
-                  "y": 23.4068681467204,
-                  "zoom": -1.387955106059351
-                }
-              }
-            }
-          },
-          {
-            "id": "6dd4dd5daf0eaad0",
+            "id": "59acf39b54e5a21e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Methodology/Docker Twelve Factors App/VI Processes.md",
+                "file": "Databases/Database Sharding.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c7bfdac4ffb2d30f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Types of Tables in logical database models.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "9098981eb1e82e97",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e1e447314ce10ffd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Choosing Database.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1a6dfbe1e600c493",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Sharding & Pagination.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mind Maps/Collection of UML Diagrams.md",
+                "file": "Databases/Types of Tables in logical database models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mind Maps/Collection of UML Diagrams.md",
+                "file": "Databases/Types of Tables in logical database models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mind Maps/Collection of UML Diagrams.md"
+                "file": "Databases/Types of Tables in logical database models.md"
               }
             }
           },
@@ -274,11 +302,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "7a5435ea12ccb96a",
+  "active": "c7bfdac4ffb2d30f",
   "lastOpenFiles": [
+    "Databases/Troubleshooting Queries.md",
+    "Databases/Normalization & Denormalization.md",
+    "Databases/Knex vs Sequelize.md",
+    "Databases/Knex.md",
+    "Databases/Functional Dependencies.md",
+    "Databases/Frontend Database.md",
+    "Databases/Database Table Relationship Types.md",
+    "Databases/DBMS Keys.md",
+    "Databases/Database Sharding.md",
+    "Databases/Cloud Databases.md",
+    "Architecture/SAAS.md",
     "Architecture/System Design/System Design Thought Process Flow.md",
+    "Architecture/PAAS.md",
+    "Databases/Choosing Database.md",
     "Architecture/Methodology/Docker Twelve Factors App/VI Processes.md",
+    "Databases/Sharding & Pagination.md",
     "Mind Maps/12 Factor App Docker.canvas",
+    "Mind Maps/Collection of UML Diagrams.md",
     "Architecture/Stateless & Statefull Processes.md",
     "Home.md",
     "_Cheatsheet/SQL Practice Interview Questions .pdf",
@@ -299,24 +342,11 @@
     "_Pdf/Roadmaps/system-design.pdf",
     "Architecture/Technology Options/Database.md",
     "Web/Query String.md",
-    "Databases/Sharding & Pagination.md",
     "Architecture/Load Balancer.md",
     "Architecture/Clean Code Approach Reflection.md",
     "Architecture/Chaos Engineering.md",
     "Architecture/Load Balancing and Scaling.md",
-    "Databases/Knex vs Sequelize.md",
-    "Databases/Functional Dependencies.md",
-    "Databases/Normalization & Denormalization.md",
-    "Databases/Knex.md",
-    "Databases/Database Sharding.md",
-    "Databases/Frontend Database.md",
-    "Databases/Choosing Database.md",
     "_Low Priority Refinement/Database/DB Data Types.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/Metadata.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/database Explained.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/Data formats.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/Data.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/Mock Data.md",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Java Logging.canvas",
@@ -329,7 +359,6 @@
     "Infographics/Databases/Sql Exe Order.gif",
     "Infographics/Databases/Type of db use Case.gif",
     "Infographics/Databases/Types of DB.jpg",
-    "Architecture/System Design/How to Choose Resource Granularity.md",
     "Architecture/Web Server Architecture"
   ]
 }

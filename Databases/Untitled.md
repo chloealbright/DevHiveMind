@@ -7,35 +7,9 @@ Started:
 EditDate: 
 Relates:
 ---
-## CAP
-The CAP Theorem, representing Consistency, Availability, and Partition Tolerance, asserts that in database systems, achieving all three elements simultaneously is not possible. These components are pivotal in shaping a database's performance characteristics, and the selection of an appropriate combination is crucial based on specific requirements. Here's a breakdown of these elements:
-
-1. **Consistency:**
-   - In the context of the CAP Theorem, consistency ensures uniformity of data throughout the system. This is especially critical in scenarios where precision, such as in banking or high-stakes transactions, is paramount.
-
-2. **Availability:**
-   - Availability concerns users' ability to read and write data, even when faced with network failures. It underscores uninterrupted access to the system, regardless of network issues.
-
-3. **Partition Tolerance:**
-   - Partition tolerance indicates the system's ability to function seamlessly, even if segments of the network are offline. It ensures the system remains operational despite potential disruptions.
-
-The CAP Theorem aids in making informed decisions when selecting a database system, necessitating a careful consideration of trade-offs among these three factors. Relational databases, while providing consistency, often lack partition tolerance and high availability, leading to potential downtime during updates.
 
 
-![[DB Popularity.png]]
-
-
-NoSQL databases, a diverse category, offer varied trade-offs based on the specific type chosen. For example:
-
-- **AP Systems (Partition Tolerance + Availability):** Examples include CouchDB, Cassandra, and DynamoDB. These prioritize partition tolerance and availability, accepting eventual consistency as data replicates across machines.
-
-- **CA Systems (Consistency + Availability):** Examples include traditional relational databases like MySQL, PostgreSQL, and Oracle Database. Suited for scenarios where maintaining data consistency is critical, coupled with a high level of availability, commonly used in applications such as financial systems.
-
-- **CP Systems (Partition Tolerance + Consistency):** Examples include MongoDB, Hbase, and Redis. These focus on partition tolerance and consistency, ensuring accuracy at the expense of immediate availability.
-
-
-
-The term NoSQL encompasses various non-relational databases, with four main types: key-value, document, wide-column, and graph databases. The choice among these depends on specific needs:
+The term NoSQL encompasses various non-relational databases, with four main types: key-value, document, wide-column, and graph databases.
 
 - **Key-Value Stores:** In key-value databases like Redis and DynamoDB, data is stored in pairs comprising a unique identifier and a corresponding data value. The inherent flexibility allows values to accommodate varying amounts of unstructured data. Tailored for rapid retrieval of unstructured information, these databases find application in caching, user preference storage, and situations where simplicity is prioritized. They prove particularly effective for session management, user preferences, and personalized product recommendations.
 
@@ -51,8 +25,4 @@ The term NoSQL encompasses various non-relational databases, with four main type
 
 - **Time Series Databases:** Specialized in organizing data chronologically, time series databases arrange information in time-ordered streams based on collection or ingestion timestamps. Unlike conventional sorting by value or ID, these databases prioritize temporal sequencing. Widely applied in industrial telemetry, DevOps, and Internet of Things (IoT) scenarios, they facilitate efficient analysis of time-sensitive data. Notable examples encompass Graphite, Prometheus, and Amazon Timestream, each tailored for managing and querying time-based datasets.
 
-- **Ledger Databases**: are based on logs that record events related to data values an example of this database is Amazon Quantum Ledger Database (QLDB). These databases store data changes that are used to verify the integrity of data. used in Banking systems, registrations, supply chains, and systems of record.  
-
-
-
-
+- **Ledger Databases:** Operating on log-based principles, ledger databases, such as Amazon Quantum Ledger Database (QLDB), meticulously record events associated with data values. These databases serve the crucial function of storing data changes, ensuring the integrity and immutability of the recorded information. Widely applied in domains like banking systems, registrations, supply chains, and systems of record, ledger databases provide a transparent and auditable trail of data modifications, reinforcing the reliability of the stored information.

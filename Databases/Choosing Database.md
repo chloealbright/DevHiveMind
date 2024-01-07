@@ -10,44 +10,57 @@ Relates:
 ![[CAP.png]]
 
 
-### Choosing Between NoSQL and Relational Databases
+### **CAP Theorem and Fundamental Differences:**
+The CAP Theorem, representing Consistency, Availability, and Partition Tolerance, asserts that in database systems, achieving all three elements simultaneously is not possible. These components are pivotal in shaping a database's performance characteristics, and the selection of an appropriate combination is crucial based on specific requirements. Here's a breakdown of these elements:
 
-#### **CAP Theorem and Fundamental Differences:**
-Recalling the CAP theorem, NoSQL databases focus on availability and partition tolerance, sacrificing some consistency, while relational databases prioritize consistency and isolation.
+1. **Consistency:**
+   - In the context of the CAP Theorem, consistency ensures uniformity of data throughout the system. This is especially critical in scenarios where precision, such as in banking or high-stakes transactions, is paramount.
 
-- **ACID - Atomicity, Consistency, Isolation, and Durability Principles (SQL Databases):**
-  - Strong consistency, precise data.
-  - Well-defined schema upfront.
-  - Ideal for applications requiring high data integrity (e.g., banking).
+2. **Availability:**
+   - Availability concerns users' ability to read and write data, even when faced with network failures. It underscores uninterrupted access to the system, regardless of network issues.
 
+3. **Partition Tolerance:**
+   - Partition tolerance indicates the system's ability to function seamlessly, even if segments of the network are offline. It ensures the system remains operational despite potential disruptions.
+
+The CAP Theorem aids in making informed decisions when selecting a database system, necessitating a careful consideration of trade-offs among these three factors. Relational databases, while providing consistency, often lack partition tolerance and high availability, leading to potential downtime during updates.
+
+#### When Choosing between CAP this what you should consider:
+
+- **AP Systems (Partition Tolerance + Availability):** Examples include CouchDB, Cassandra, and DynamoDB. These prioritize partition tolerance and availability, accepting eventual consistency as data replicates across machines.
+
+- **CA Systems (Consistency + Availability):** Examples include traditional relational databases like MySQL, PostgreSQL, and Oracle Database. Suited for scenarios where maintaining data consistency is critical, coupled with a high level of availability, commonly used in applications such as financial systems.
+
+- **CP Systems (Partition Tolerance + Consistency):** Examples include MongoDB, Hbase, and Redis. These focus on partition tolerance and consistency, ensuring accuracy at the expense of immediate availability.
+
+## ACID(SQL) Principles vs BASE(NOSQL) Principles
+
+### SQL
 1. **Atomicity:** Ensures that a transaction is treated as a single, indivisible unit of work. Either all the changes made in a transaction are committed to the database, or none of them are.
-    
+
 2. **Consistency:** Ensures that a transaction brings the database from one valid state to another. It guarantees that the integrity constraints of the database are not violated.
-    
+
 3. **Isolation:** Ensures that the execution of one transaction is isolated from the execution of other transactions. Even though multiple transactions may be executing concurrently, each transaction appears to be executed in isolation. This helps prevent interference between transactions.
-    
+
 4. **Durability:** Guarantees that once a transaction is committed, its effects are permanent and survive any subsequent failures. The changes made by a committed transaction are stored in non-volatile memory, ensuring they persist even in the face of power outages or crashes.
 
-- **BASE - Basically Available, Soft state, Eventually consistent Principles (NoSQL Databases):**
-  - Accepts weak consistency.
-  - Flexible schema, defined as needed.
-  - Suited for agile projects with evolving data, emphasizing availability and scalability.
-
+### NOSQL
 1. **Basically Available:**
-    
     - The system remains operational and responsive, providing basic availability even in the face of failures.
     - This means that the system will continue to handle read and write requests, ensuring some level of availability, even if it sacrifices consistency under certain conditions.
+
 2. **Soft state:**
-    
     - The system allows for the existence of "soft" or mutable state, meaning that the system's state can change over time, and it may not be consistent across all nodes in a distributed system.
     - This flexibility in state allows for adaptability and scalability in distributed environments.
+
 3. **Eventually Consistent:**
-    
     - The system guarantees that, given enough time and absence of further updates, all replicas of data in the system will converge to a consistent state.
     - Eventual consistency acknowledges that, during certain periods, replicas might be inconsistent, but these inconsistencies will be resolved over time.
 
 
-#### **Project Evaluation: Time, Money, Tech**
+![[DB Popularity.png]]
+
+
+### **Project Evaluation: Time, Money, Tech**
 
 **1. Time Considerations:**
 - **Team Expertise:** Consider the team's familiarity with each solution. Agile developers may find NoSQL advantageous for quicker development.

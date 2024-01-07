@@ -4,53 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "a87b8a5a77018df2",
+        "id": "c635013c759404c4",
         "type": "tabs",
         "children": [
           {
-            "id": "d61c20658519b075",
+            "id": "0126ccd8aa3a9b0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "93da830eba86c441",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5a3dc2082a6a853f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Web Server Architecture/Servers.md",
+                "file": "_Low Priority Refinement/Database/DB Fundamentals/Mock Data.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "65d5cbf97558e020",
+            "id": "426b12d3b5423d07",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Architecture/Technology Options/Caches.md",
-                "mode": "source",
-                "source": false
+                "file": "Infographics/Databases/Types of DB.jpg"
               }
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "a76c2eda088f803c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df018f31d83c2c25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/Choosing Database.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0424b4a87b07646",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -79,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CDN",
+                "query": "Mock",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -112,8 +122,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -133,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Technology Options/Caches.md",
+                "file": "Infographics/Databases/Types of DB.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Technology Options/Caches.md",
+                "file": "Infographics/Databases/Types of DB.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Technology Options/Caches.md"
+                "file": "Infographics/Databases/Types of DB.jpg"
               }
             }
           },
@@ -273,14 +282,30 @@
       "obsidian-read-it-later:ReadItLater: Save clipboard": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "periodic-notes:Open today": false,
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "copilot:Copilot Chat": false
+      "copilot:Copilot Chat": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "65d5cbf97558e020",
+  "active": "426b12d3b5423d07",
   "lastOpenFiles": [
+    "Infographics/Databases/Type of db use Case.gif",
+    "Infographics/Databases/Sql Exe Order.gif",
+    "Infographics/Databases/Execution Order.jpg",
+    "Infographics/Databases/Database Types.gif",
+    "Databases/Choosing Database.md",
+    "Infographics/Databases/Database Sharding.jpeg",
+    "Infographics/Databases/Database Processes.gif",
+    "Infographics/Databases/Database & Data Structrues.jpg",
+    "Architecture/System Design/System Design Thought Process Flow.md",
+    "Architecture/System Design/How to Choose Resource Granularity.md",
+    "Infographics/Databases/ACID.gif",
+    "Infographics/Security/Web Session Security Animated.gif",
+    "Infographics/Security/Web Session Security.jpeg",
+    "Infographics/Security/Security By OSI Layer.jpeg",
+    "_Low Priority Refinement/Database/DB Fundamentals/Mock Data.md",
+    "Home.md",
     "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md",
     "Architecture/Technology Options/Caches.md",
     "Architecture/Arch to think about.md",
@@ -288,13 +313,11 @@
     "Cloud/AWS/AWS Cloud Services.md",
     "Devops/Docker/Docker volumes.md",
     "Architecture/App Layers/Infrastructure.md",
-    "Architecture/System Design/System Design Thought Process Flow.md",
     "_Low Priority Refinement/API/The six constraints of REST.md",
     "_Low Priority Refinement/Obsidian Understanding its Core Design Principles  by TfTHacker  Obsidian Observer  Medium.md",
     "_Low Priority Refinement/My Obsidian Setup — My Notes and My Theme settings  by Nuno Campos  Obsidian Observer  Apr, 2023  Medium.md",
     "_Low Priority Refinement/Talking More Articulate Template.md",
     "_Low Priority Refinement/Study Session.md",
-    "Databases/Choosing Database.md",
     "Databases/Untitled.md",
     "_Low Priority Refinement/Database/DB Fundamentals/Transaction.md",
     "Databases/Database Table Relationship Types.md",
@@ -303,14 +326,6 @@
     "_Low Priority Refinement/Database/Other Stuff.md",
     "_Low Priority Refinement/Database/GUIDs.md",
     "_Low Priority Refinement/Database/DB Data Types.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/database Explained.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Making Decesion.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Decentralized Data Management.md",
-    "Databases/Self-joining relationships.md",
-    "_Images/Database/DB CAP.png",
-    "_Images/CAP.png",
-    "Infographics/Architecture/Cache going wrong.gif",
-    "Databases/Untitled Diagram.svg",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Java Logging.canvas",
@@ -320,12 +335,6 @@
     "Mind Maps/Drafts/Event Driven Architecture.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
-    "Mind Maps/UML/Class Cases Robust P3.svg",
-    "Mind Maps/UML/Layer to Package Diagram.svg",
-    "Mind Maps/UML/Lucidchart App Map.svg",
-    "Mind Maps/UML/Package Diagram with classes.svg",
-    "Mind Maps/UML/Package Diagram with No-classes.svg",
-    "Mind Maps/UML/Park Alert Activity Diagram.svg",
     "Mind Maps/Docker InDeph.canvas",
     "Architecture/Web Server Architecture",
     "Web/Pagination.pdf",

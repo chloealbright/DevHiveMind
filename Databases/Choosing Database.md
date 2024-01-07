@@ -33,7 +33,6 @@ The CAP Theorem aids in making informed decisions when selecting a database syst
 - **CP Systems (Partition Tolerance + Consistency):** Examples include MongoDB, Hbase, and Redis. These focus on partition tolerance and consistency, ensuring accuracy at the expense of immediate availability.
 
 ## ACID(SQL) Principles vs BASE(NOSQL) Principles
-
 ### SQL
  SQL, a domain-specific language for relational databases, ensures robustness through ACID principles:
 
@@ -45,6 +44,7 @@ The CAP Theorem aids in making informed decisions when selecting a database syst
 
 4. **Durability:** Committed transactions persist permanently, surviving failures, providing reliability even in adverse conditions.
 
+![[ACID.gif]]
 ### NoSQL
 NoSQL, diverse in data models, embraces BASE principles, offering flexibility and scalability:
 
@@ -80,6 +80,7 @@ The term NoSQL encompasses various non-relational databases, with four main type
 
 - **Ledger Databases:** Operating on log-based principles, ledger databases, such as Amazon Quantum Ledger Database (QLDB), meticulously record events associated with data values. These databases serve the crucial function of storing data changes, ensuring the integrity and immutability of the recorded information. Widely applied in domains like banking systems, registrations, supply chains, and systems of record, ledger databases provide a transparent and auditable trail of data modifications, reinforcing the reliability of the stored information.
 
+![[Database Types.gif]]
 ### **Final Determination: Project Evaluation - Time, Money, Tech**
 
 When deciding between NoSQL and SQL databases, assess the team's expertise, project complexity, and economic factors. Consider the following:

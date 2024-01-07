@@ -8,8 +8,6 @@ EditDate:
 Relates:
 ---
 ![[CAP.png]]
-
-
 ### **CAP Theorem and Fundamental Differences:**
 The CAP Theorem, representing Consistency, Availability, and Partition Tolerance, asserts that in database systems, achieving all three elements simultaneously is not possible. These components are pivotal in shaping a database's performance characteristics, and the selection of an appropriate combination is crucial based on specific requirements. Here's a breakdown of these elements:
 
@@ -79,6 +77,10 @@ The term NoSQL encompasses various non-relational databases, with four main type
 - **Time Series Databases:** Specialized in organizing data chronologically, time series databases arrange information in time-ordered streams based on collection or ingestion timestamps. Unlike conventional sorting by value or ID, these databases prioritize temporal sequencing. Widely applied in industrial telemetry, DevOps, and Internet of Things (IoT) scenarios, they facilitate efficient analysis of time-sensitive data. Notable examples encompass Graphite, Prometheus, and Amazon Timestream, each tailored for managing and querying time-based datasets.
 
 - **Ledger Databases:** Operating on log-based principles, ledger databases, such as Amazon Quantum Ledger Database (QLDB), meticulously record events associated with data values. These databases serve the crucial function of storing data changes, ensuring the integrity and immutability of the recorded information. Widely applied in domains like banking systems, registrations, supply chains, and systems of record, ledger databases provide a transparent and auditable trail of data modifications, reinforcing the reliability of the stored information.
+
+- **Spatial Databases:** Spatial databases, such as PostGIS and Oracle Spatial, specialize in storing and querying spatial or geographical data. They extend traditional databases to handle location-based information, offering spatial indexing and geometric operations. Designed for applications like GIS (Geographic Information Systems) and location-based services, spatial databases excel in managing geographical data such as maps, points of interest, and spatial relationships. Their capabilities empower users to perform spatial queries, analyze proximity, and support a wide range of geospatial applications, from mapping to urban planning.
+
+- **Vector Databases:** Vector databases, like Tile38 and Google's Bigtable, organize data as vectors or geometric shapes. Leveraging the power of vector representation, these databases excel in handling geospatial data with precision and efficiency. They are particularly suited for applications requiring real-time tracking, navigation systems, and dynamic mapping. By storing and processing vector data, these databases enable seamless manipulation of spatial information, making them essential for scenarios where accurate location-based insights and quick updates are crucial, such as logistics optimization and geospatial analytics.
 
 ![[Database Types.gif]]
 ### **Final Determination: Project Evaluation - Time, Money, Tech**

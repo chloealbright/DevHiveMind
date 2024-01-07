@@ -23,9 +23,14 @@
             "id": "426b12d3b5423d07",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "canvas",
               "state": {
-                "file": "Infographics/Databases/Types of DB.jpg"
+                "file": "Mind Maps/Drafts/Url.canvas",
+                "viewState": {
+                  "x": 300,
+                  "y": 260.5,
+                  "zoom": -0.900199393009559
+                }
               }
             }
           }
@@ -142,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infographics/Databases/Types of DB.jpg",
+                "file": "Databases/Choosing Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infographics/Databases/Types of DB.jpg",
+                "file": "Databases/Choosing Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infographics/Databases/Types of DB.jpg"
+                "file": "Databases/Choosing Database.md"
               }
             }
           },
@@ -288,13 +293,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "426b12d3b5423d07",
+  "active": "df018f31d83c2c25",
   "lastOpenFiles": [
-    "Infographics/Databases/Type of db use Case.gif",
+    "Mind Maps/Drafts/Url.canvas",
+    "Mind Maps/Drafts/Testing.canvas",
+    "Mind Maps/Drafts/Java Logging.canvas",
+    "Mind Maps/Drafts/Gateway.canvas",
+    "Mind Maps/Drafts/File system.canvas",
+    "Mind Maps/Drafts/Event Messaging.canvas",
+    "Mind Maps/Drafts/Event Driven Architecture.canvas",
+    "Mind Maps/Drafts/Domain-driven design.canvas",
+    "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
     "Infographics/Databases/Sql Exe Order.gif",
+    "Infographics/Databases/Type of db use Case.gif",
+    "Databases/Choosing Database.md",
+    "Infographics/Databases/Types of DB.jpg",
     "Infographics/Databases/Execution Order.jpg",
     "Infographics/Databases/Database Types.gif",
-    "Databases/Choosing Database.md",
     "Infographics/Databases/Database Sharding.jpeg",
     "Infographics/Databases/Database Processes.gif",
     "Infographics/Databases/Database & Data Structrues.jpg",
@@ -302,8 +317,6 @@
     "Architecture/System Design/How to Choose Resource Granularity.md",
     "Infographics/Databases/ACID.gif",
     "Infographics/Security/Web Session Security Animated.gif",
-    "Infographics/Security/Web Session Security.jpeg",
-    "Infographics/Security/Security By OSI Layer.jpeg",
     "_Low Priority Refinement/Database/DB Fundamentals/Mock Data.md",
     "Home.md",
     "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md",
@@ -326,15 +339,6 @@
     "_Low Priority Refinement/Database/Other Stuff.md",
     "_Low Priority Refinement/Database/GUIDs.md",
     "_Low Priority Refinement/Database/DB Data Types.md",
-    "Mind Maps/Drafts/Url.canvas",
-    "Mind Maps/Drafts/Testing.canvas",
-    "Mind Maps/Drafts/Java Logging.canvas",
-    "Mind Maps/Drafts/Gateway.canvas",
-    "Mind Maps/Drafts/File system.canvas",
-    "Mind Maps/Drafts/Event Messaging.canvas",
-    "Mind Maps/Drafts/Event Driven Architecture.canvas",
-    "Mind Maps/Drafts/Domain-driven design.canvas",
-    "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
     "Mind Maps/Docker InDeph.canvas",
     "Architecture/Web Server Architecture",
     "Web/Pagination.pdf",

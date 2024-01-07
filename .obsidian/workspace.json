@@ -6,7 +6,6 @@
       {
         "id": "ff428d9f1cf3727c",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "7a5435ea12ccb96a",
@@ -21,32 +20,14 @@
             }
           },
           {
-            "id": "80f0c68b121b3eb5",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Infographics/Databases/Execution Order.jpg"
-              }
-            }
-          },
-          {
-            "id": "c7bfdac4ffb2d30f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Infographics/Databases/Sql Exe Order.gif"
-              }
-            }
-          },
-          {
             "id": "1085727c8e920867",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Infographics/Databases/Database Processes.gif"
+                "file": "Databases/Database.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -61,22 +42,13 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "d64ddf831c7f451c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       },
       {
         "id": "9098981eb1e82e97",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "e1e447314ce10ffd",
@@ -103,7 +75,7 @@
             }
           },
           {
-            "id": "5cc01c14725695cc",
+            "id": "3692f549778dd3c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -113,21 +85,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "947573f25e4084ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -209,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database.md",
+                "file": "_Low Priority Refinement/Database/Constraints.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database.md",
+                "file": "_Low Priority Refinement/Database/Constraints.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -249,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database.md"
+                "file": "_Low Priority Refinement/Database/Constraints.md"
               }
             }
           },
@@ -355,16 +315,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "947573f25e4084ae",
+  "active": "3692f549778dd3c3",
   "lastOpenFiles": [
     "Databases/Database.md",
-    "Architecture/System Design/System Design Thought Process Flow.md",
-    "Architecture/Microservices.md",
+    "Databases/Database Relationship With Endpoints & Interfaces.md",
+    "_Cheatsheet/SQL-cheat-sheet.pdf",
+    "Databases/Database Sharding.md",
     "_Low Priority Refinement/Database/Constraints.md",
+    "_Cheatsheet/SQL Practice Interview Questions .pdf",
+    "_Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
+    "Infographics/Databases/Database Processes.gif",
+    "Architecture/System Design/System Design Thought Process Flow.md",
+    "Infographics/Databases/Sql Exe Order.gif",
+    "Infographics/Databases/Execution Order.jpg",
+    "Databases/Sharding & Pagination.md",
+    "Architecture/Choosing Database.md",
+    "Architecture/Microservices.md",
     "_Low Priority Refinement/Database/conf.md",
     "_Low Priority Refinement/Database/Setup/MYSQL Setup.md",
     "_Low Priority Refinement/Database/NOSQL/MongoDB.md",
-    "Databases/Sharding & Pagination.md",
     "_Low Priority Refinement/Database/Database Archetecture/Table Team Work.md",
     "_Low Priority Refinement/Database/Database Archetecture/Schema Design.md",
     "_Low Priority Refinement/Database/Database Archetecture/Making Decesion.md",
@@ -372,9 +341,6 @@
     "_Low Priority Refinement/Database/Database Archetecture/Snowflake.md",
     "_Low Priority Refinement/Database/Database Archetecture/Star.md",
     "Architecture/Decentralized Data Management.md",
-    "Architecture/Choosing Database.md",
-    "Databases/Database Sharding.md",
-    "Infographics/Databases/Database Processes.gif",
     "_Low Priority Refinement/Database/Other Stuff.md",
     "_Low Priority Refinement/Database/SQL Table Structure.md",
     "_Low Priority Refinement/Database/Multi Model DB.md",
@@ -382,15 +348,11 @@
     "Infographics/Databases/Database & Data Structrues.jpg",
     "Infographics/Databases/Database Sharding.jpeg",
     "Infographics/Databases/Database Types.gif",
-    "Infographics/Databases/Execution Order.jpg",
-    "Infographics/Databases/Sql Exe Order.gif",
     "Databases/Troubleshooting Queries.md",
     "Databases/Types of Tables in logical database models.md",
     "Databases/Normalization & Denormalization.md",
     "Databases/Knex vs Sequelize.md",
-    "Databases/Knex.md",
     "Mind Maps/12 Factor App Docker.canvas",
-    "_Cheatsheet/SQL Practice Interview Questions .pdf",
     "_Cheatsheet/Python Junior Cheathseets.pdf",
     "_Cheatsheet/Prompt.jpg",
     "_Cheatsheet/Git version control workflow.pdf",
@@ -402,7 +364,6 @@
     "_Cheatsheet/CLI-cheat-sheet.pdf",
     "_Pdf/Roadmaps/design-system.pdf",
     "_Pdf/Roadmaps/software-design-architecture.pdf",
-    "_Pdf/Roadmaps/system-design.pdf",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Java Logging.canvas",
@@ -411,7 +372,6 @@
     "Mind Maps/Drafts/Event Messaging.canvas",
     "Mind Maps/Drafts/Event Driven Architecture.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",
-    "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
-    "Architecture/Web Server Architecture"
+    "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas"
   ]
 }

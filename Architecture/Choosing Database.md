@@ -125,6 +125,7 @@ When deciding between NoSQL and SQL databases, assess the team's expertise, proj
 - **Structured Data:** Well-suited for predefined structured data, ensuring integrity.
 - **ACID Compliance:** Adheres to ACID properties, crucial for strict data consistency.
 - **Mature Ecosystem:** Well-established with a wide range of tools and expertise.
+- **Catalogs:** SQL Database have a catalogs which refers to a schema or system that stores metadata about the database itself. It contains information about tables, views, indexes, and other database objects. The catalog serves as a data dictionary, providing details about the structure, relationships, and properties of the database elements. This metadata is crucial for query optimization, data integrity, and overall management of the database system. Not all databases have catalogs in the traditional sense such as NoSQL databases.
 
 **Decision Factors:**
 - **Project Requirements:** Consider scalability, flexibility, and performance (NoSQL) or data consistency and a mature ecosystem (SQL).

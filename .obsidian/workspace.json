@@ -32,19 +32,49 @@
             }
           },
           {
+            "id": "80f0c68b121b3eb5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Infographics/Databases/Execution Order.jpg"
+              }
+            }
+          },
+          {
             "id": "c7bfdac4ffb2d30f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Infographics/Databases/Sql Exe Order.gif"
+              }
+            }
+          },
+          {
+            "id": "1085727c8e920867",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Infographics/Databases/Database Processes.gif"
+              }
+            }
+          },
+          {
+            "id": "3b0f50e1b7399b4b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Types of Tables in logical database models.md",
+                "file": "_Low Priority Refinement/Database/SQL Table Structure.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       },
       {
         "id": "9098981eb1e82e97",
@@ -72,6 +102,14 @@
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "c17a123fc19e8908",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -156,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Types of Tables in logical database models.md",
+                "file": "_Low Priority Refinement/Database/SQL Table Structure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Types of Tables in logical database models.md",
+                "file": "_Low Priority Refinement/Database/SQL Table Structure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Types of Tables in logical database models.md"
+                "file": "_Low Priority Refinement/Database/SQL Table Structure.md"
               }
             }
           },
@@ -302,9 +340,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c7bfdac4ffb2d30f",
+  "active": "3b0f50e1b7399b4b",
   "lastOpenFiles": [
+    "_Low Priority Refinement/Database/Multi Model DB.md",
+    "Databases/Choosing Database.md",
+    "_Low Priority Refinement/Database/SQL Table Structure.md",
+    "_Low Priority Refinement/Database/Other Stuff.md",
+    "_Low Priority Refinement/Database/Triggers in SQL.md",
+    "Infographics/Databases/Database Processes.gif",
+    "Infographics/Databases/Database & Data Structrues.jpg",
+    "Infographics/Databases/Database Sharding.jpeg",
+    "Infographics/Databases/Database Types.gif",
+    "Infographics/Databases/Execution Order.jpg",
+    "Infographics/Databases/Sql Exe Order.gif",
     "Databases/Troubleshooting Queries.md",
+    "Databases/Types of Tables in logical database models.md",
     "Databases/Normalization & Denormalization.md",
     "Databases/Knex vs Sequelize.md",
     "Databases/Knex.md",
@@ -317,7 +367,6 @@
     "Architecture/SAAS.md",
     "Architecture/System Design/System Design Thought Process Flow.md",
     "Architecture/PAAS.md",
-    "Databases/Choosing Database.md",
     "Architecture/Methodology/Docker Twelve Factors App/VI Processes.md",
     "Databases/Sharding & Pagination.md",
     "Mind Maps/12 Factor App Docker.canvas",
@@ -331,22 +380,14 @@
     "_Cheatsheet/Git Process Animated.gif",
     "_Cheatsheet/Git Flow.jpeg",
     "_Cheatsheet/Git Cheatsheet.jpeg",
-    "_Cheatsheet/Excel Shortcut.jpg",
-    "_Cheatsheet/Excel Formulas Cheat Sheet.jpg",
     "_Cheatsheet/docker_cheatsheet.pdf",
     "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
     "_Cheatsheet/CLI-cheat-sheet.pdf",
-    "_Cheatsheet/ChatGpt.jpeg",
     "_Pdf/Roadmaps/design-system.pdf",
     "_Pdf/Roadmaps/software-design-architecture.pdf",
     "_Pdf/Roadmaps/system-design.pdf",
     "Architecture/Technology Options/Database.md",
     "Web/Query String.md",
-    "Architecture/Load Balancer.md",
-    "Architecture/Clean Code Approach Reflection.md",
-    "Architecture/Chaos Engineering.md",
-    "Architecture/Load Balancing and Scaling.md",
-    "_Low Priority Refinement/Database/DB Data Types.md",
     "Mind Maps/Drafts/Url.canvas",
     "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Java Logging.canvas",
@@ -356,9 +397,6 @@
     "Mind Maps/Drafts/Event Driven Architecture.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",
     "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas",
-    "Infographics/Databases/Sql Exe Order.gif",
-    "Infographics/Databases/Type of db use Case.gif",
-    "Infographics/Databases/Types of DB.jpg",
     "Architecture/Web Server Architecture"
   ]
 }

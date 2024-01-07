@@ -1,9 +1,0 @@
----
-tags: 
-author:
-  - jacgit18
-Status: 
-Started: 
-EditDate:
----
-A trigger is a special type of stored procedure that automatically runs when an event occurs in the database server. DML triggers run when a user tries to modify data through a data manipulation language (DML) event. DML events are INSERT, UPDATE, or DELETE statements on a table or view.

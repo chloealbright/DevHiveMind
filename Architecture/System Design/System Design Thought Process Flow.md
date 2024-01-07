@@ -36,7 +36,7 @@ Delve into the design by following the flow from Database to Server/Services (Ar
   - Discuss trade-offs between performance, scalability, and cost.
   - Consider the use of APIs for certain functionalities.
   - Discuss [[Stateless & Statefull Processes| Stateless vs statefull]] application or process
-  - Maybe talk microservices etc..
+  - Maybe talk microservices or leverage knowledge of [[12 Factor App Docker.canvas|12 Factor App Docker]] which has some overlap, whatever comes to mind
 
 - **Scalability and Performance:**
   - Distribute traffic across server pools for different types of traffic.
@@ -44,7 +44,7 @@ Delve into the design by following the flow from Database to Server/Services (Ar
   - Discuss the number of master and slave databases.
   - Utilize CDN for content distribution.
 
-#### Things to mention:
+#### Other things to mention:
 - **Traffic Distribution:** Distribute traffic across server pools.
 - **Local Cache:** Use local cache for improved response times.
 - **Database Scaling:** Discuss the ratio of master to slave databases.

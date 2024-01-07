@@ -51,15 +51,8 @@ The term NoSQL encompasses various non-relational databases, with four main type
 
 - **Time Series Databases:** Specialized in organizing data chronologically, time series databases arrange information in time-ordered streams based on collection or ingestion timestamps. Unlike conventional sorting by value or ID, these databases prioritize temporal sequencing. Widely applied in industrial telemetry, DevOps, and Internet of Things (IoT) scenarios, they facilitate efficient analysis of time-sensitive data. Notable examples encompass Graphite, Prometheus, and Amazon Timestream, each tailored for managing and querying time-based datasets.
 
-### Ledger databases
+- **Ledger Databases**: are based on logs that record events related to data values an example of this database is Amazon Quantum Ledger Database (QLDB). These databases store data changes that are used to verify the integrity of data. used in Banking systems, registrations, supply chains, and systems of record.  
 
-Ledger databases are based on logs that record events related to data values. These databases store data changes that are used to verify the integrity of data.
 
-## Use cases
 
-Banking systems, registrations, supply chains, and systems of record.
-
-## Examples
-
-Amazon Quantum Ledger Database (QLDB).
 

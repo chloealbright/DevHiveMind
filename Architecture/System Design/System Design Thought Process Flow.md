@@ -143,7 +143,11 @@ Certainly, let's refine the estimation with a music streaming service as an exam
 This estimation allows us to properly design and dimension the infrastructure to meet the demands of the music streaming service, ensuring a smooth and responsive user experience.
 
 
+
 ![[System Design Cheatsheet.gif]]
 
 
 ![[System Design BluePrint.jpg]]
+
+## Advance Roadmap
+![[system-design.pdf]]

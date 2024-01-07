@@ -45,6 +45,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7bb1a9862956d6be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -76,9 +88,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5f85c634f47ff1d6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "_Cheatsheet/SQL Practice Interview Questions .pdf"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,7 +129,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Shard",
+                "query": "Pagination",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -160,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Load Balancer.md",
+                "file": "Databases/Sharding & Pagination.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Load Balancer.md",
+                "file": "Databases/Sharding & Pagination.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Load Balancer.md"
+                "file": "Databases/Sharding & Pagination.md"
               }
             }
           },
@@ -306,21 +328,38 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a0424b4a87b07646",
+  "active": "4031fb706a961af5",
   "lastOpenFiles": [
-    "Architecture/Clean Code Approach Reflection.md",
+    "_Cheatsheet/SQL Practice Interview Questions .pdf",
+    "_Cheatsheet/Python Junior Cheathseets.pdf",
+    "_Cheatsheet/Prompt.jpg",
+    "_Cheatsheet/Git version control workflow.pdf",
+    "_Cheatsheet/Git Process Animated.gif",
+    "_Cheatsheet/Git Flow.jpeg",
+    "_Cheatsheet/Git Cheatsheet.jpeg",
+    "_Cheatsheet/Excel Shortcut.jpg",
+    "_Cheatsheet/Excel Formulas Cheat Sheet.jpg",
+    "_Cheatsheet/docker_cheatsheet.pdf",
+    "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
+    "_Cheatsheet/CLI-cheat-sheet.pdf",
+    "_Cheatsheet/ChatGpt.jpeg",
+    "_Pdf/Roadmaps/design-system.pdf",
+    "_Pdf/Roadmaps/software-design-architecture.pdf",
+    "_Pdf/Roadmaps/system-design.pdf",
+    "Architecture/System Design/System Design Thought Process Flow.md",
+    "Architecture/Technology Options/Database.md",
+    "Web/Query String.md",
+    "Databases/Sharding & Pagination.md",
     "Architecture/Load Balancer.md",
+    "Architecture/Clean Code Approach Reflection.md",
     "Architecture/Chaos Engineering.md",
     "Architecture/Load Balancing and Scaling.md",
     "Databases/Knex vs Sequelize.md",
     "Databases/Functional Dependencies.md",
-    "Architecture/System Design/System Design Thought Process Flow.md",
-    "Databases/Sharding & Pagination.md",
     "Databases/Normalization & Denormalization.md",
     "Databases/Knex.md",
     "Databases/Database Sharding.md",
     "Databases/Frontend Database.md",
-    "Architecture/Technology Options/Database.md",
     "Databases/Choosing Database.md",
     "_Low Priority Refinement/Database/DB Data Types.md",
     "_Low Priority Refinement/Database/DB Fundamentals/Metadata.md",
@@ -340,29 +379,12 @@
     "Infographics/Databases/Sql Exe Order.gif",
     "Infographics/Databases/Type of db use Case.gif",
     "Infographics/Databases/Types of DB.jpg",
-    "Infographics/Databases/Execution Order.jpg",
-    "Infographics/Databases/Database Types.gif",
-    "Infographics/Databases/Database Sharding.jpeg",
-    "Infographics/Databases/Database Processes.gif",
-    "Infographics/Databases/Database & Data Structrues.jpg",
     "Architecture/System Design/How to Choose Resource Granularity.md",
-    "Infographics/Databases/ACID.gif",
-    "Infographics/Security/Web Session Security Animated.gif",
     "Home.md",
     "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md",
     "Architecture/Technology Options/Caches.md",
-    "Architecture/Arch to think about.md",
-    "Architecture/Web Server Architecture/Servers.md",
     "Mind Maps/Docker InDeph.canvas",
     "Architecture/Web Server Architecture",
-    "Web/Pagination.pdf",
-    "Architecture/Design Patterns Layers.pdf",
-    "_Low Priority Refinement/Language",
-    "_Low Priority Refinement/Devops",
-    "Algorithms & Data Structures/Patterns",
-    "Mind Maps/UML",
-    "Language Overlap/Tools",
-    "Architecture/Methodology/Twelve Factor App Official Description",
-    "Architecture/Methodology/Docker Twelve Factors App"
+    "Web/Pagination.pdf"
   ]
 }

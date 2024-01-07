@@ -13,7 +13,7 @@ A distributed system is defined as “An interconnected set of nodes that are li
 
 [[Caches]]
 [[Content Delivery Network]]
-[[Database]]
+[[Architecture/Technology Options/Database]]
 [[File System Storage]]
 [[Load Balancers]]
 [[Apache Kafka]]

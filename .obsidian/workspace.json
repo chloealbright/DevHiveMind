@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md",
+                "file": "Architecture/Technology Options/Caches.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md",
+                "file": "Architecture/Technology Options/Caches.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md"
+                "file": "Architecture/Technology Options/Caches.md"
               }
             }
           },
@@ -279,11 +279,11 @@
       "copilot:Copilot Chat": false
     }
   },
-  "active": "d61c20658519b075",
+  "active": "65d5cbf97558e020",
   "lastOpenFiles": [
+    "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md",
     "Architecture/Technology Options/Caches.md",
     "Architecture/Arch to think about.md",
-    "_Low Priority Refinement/How to Become a Good Backend Engineer (Fundamentals).md",
     "Architecture/Web Server Architecture/Servers.md",
     "Cloud/AWS/AWS Cloud Services.md",
     "Devops/Docker/Docker volumes.md",

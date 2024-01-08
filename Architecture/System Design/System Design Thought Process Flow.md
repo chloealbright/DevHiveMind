@@ -14,10 +14,10 @@ During this step, it's crucial to seek clarification on the system scope and pri
 Focus on the action like pressing the button ask what it does and expand on that in terms of what you think should happen like collecting certain data and where would that go or be connected to and the different processes that need to happen. 
 
 Then you ask about things like user base and the size of it estimation of it and determine things like constraints and bottlenecks which will then lead to database questions which may require specialized databases that are NoSQL or SQL DB. 
-#### Use Cases/Stories Example:
+#### Use Cases/[[User Stories]] Example:
 >[!important]
 >Doing this helps with coming up with data model
-1. User uploads pictures or videos.
+1. User uploads pictures and videos. or As a user I want to upload picture and videos to share.
 2. User views uploaded photos and videos.
 3. User follows, likes, and comments on posts.
 4. User has a feed containing posts from friends.
@@ -31,12 +31,13 @@ Delve into the design by following the flow from Database to Server/Services (Ar
   - Consider SQL for structured data and NoSQL for unstructured data.
   - More things to think about when deciding between [[Choosing Database]] you can also talk about [[Database Sharding]]
   - What type of [[Schema Design]] makes sense.
+  - You can also talk about [[Master-Slave Database Architecture]]
 
 - **Architecture:**
-  - Identify major components: servers, databases, cache, load balancer, messaging queues, monitoring/logging, and microservices.
+  - Identify major components: servers, databases, cache, load balancer,  [[Messaging systems]], *monitoring/logging for metrics*, and microservices.
   - Discuss trade-offs between performance, scalability, and cost.
   - Consider the use of APIs for certain functionalities.
-  - Discuss [[Stateless & Statefull Processes| Stateless vs Statefull]] application or process
+  - Discuss [[Stateless & Statefull Processes| Stateless vs Statefull]] application or process.
   - Maybe talk [[Microservices]](might not be relevant since small scope) or leverage knowledge of [[12 Factor App Docker.canvas|12 Factor App Docker]] which has some overlap with everything mentioned, whatever comes to mind.
 
 - **Scalability and Performance:**
@@ -44,11 +45,12 @@ Delve into the design by following the flow from Database to Server/Services (Ar
   - Implement local cache for improved response time.
   - Discuss the number of master and slave databases.
   - Implement a CDN network for content distribution.
+  
 
 #### Other things to mention:
 - **Traffic Distribution:** Distribute traffic across server pools.
 - **Local Cache:** Use local cache for improved response times.
-- **Database Scaling:** Discuss the ratio of master to slave databases.
+
 
 #### Scaling stuff to reference somewhere
 - [[Vertical vs Horizontal Scaling]]
@@ -56,6 +58,7 @@ Delve into the design by following the flow from Database to Server/Services (Ar
 - [[Concurrency Vs Horizontal Scaling]] 
 - Load balancing Placeholder
 - [[Resource Scaling]]
+- clean up [[Arch to think about]]
 
 ### **Step 3: Wrap (3 - 5 minutes)**
 Summarize key design decisions, highlighting any alternative considerations. Invite questions and address outstanding concerns.

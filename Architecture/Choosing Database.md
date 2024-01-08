@@ -7,8 +7,16 @@ Started:
 EditDate: 
 Relates:
 ---
+![[Structured vs Unstructured DB.png]]
+
 
 Information is refined structured data
+
+
+The main difference between unstructured data and structured data is that structured data is typically used for general stuff and it's very organized like user accounts and the information associated with that as for unstructured is typically did I like media audio, geo-location, and weather 
+
+Besides that, you want the other servers for database application you would want a master that handles the crud(Create Read Update Delete) processes and the copies would handle the reading operation you'll probably have more slaves databases and proportion to master the reason we want this because it allows queries to be processed in parallel Which is good for performance 
+
 
 
 structured data v unstructured data
@@ -101,10 +109,10 @@ The term NoSQL encompasses various non-relational databases, with four main type
 
 When deciding between NoSQL and SQL databases, assess the team's expertise, project complexity, and economic factors. Consider the following:
 
-**1. Time Considerations:**
+##### **1. Time Considerations:**
 - **Team Expertise:** Leverage Agile developers for quicker NoSQL development; opt for mature SQL for complex queries.
   
-**2. Economic Considerations:**
+##### **2. Economic Considerations:**
 - **Cost of Training:** Evaluate training costs, factoring in the learning curve.
 - **Server Scaling:** Consider scalability costs, especially when integrating NoSQL into an existing system.
 - **Overall System Complexity:** Assess the overall complexity and associated costs.

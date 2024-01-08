@@ -44,12 +44,12 @@
             }
           },
           {
-            "id": "3ab60fe1e92f323e",
+            "id": "0cac9a5461a07645",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Technology Options/Caches.md",
+                "file": "_Low Priority Refinement/Database/Database Archetecture/Fact Table.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Caches",
+                "query": "Load",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -160,8 +160,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Choosing Database.md",
+                "file": "_Low Priority Refinement/Database/Database Archetecture/Fact Table.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Choosing Database.md",
+                "file": "_Low Priority Refinement/Database/Database Archetecture/Fact Table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Choosing Database.md"
+                "file": "_Low Priority Refinement/Database/Database Archetecture/Fact Table.md"
               }
             }
           },
@@ -327,16 +326,28 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e1e447314ce10ffd",
+  "active": "0cac9a5461a07645",
   "lastOpenFiles": [
-    "Architecture/Technology Options/Caches.md",
+    "_Low Priority Refinement/Database/Database Archetecture/Table Team Work.md",
+    "Architecture/Technology Options/Load Balancers.md",
+    "Architecture/Load Balancer.md",
+    "Databases/Database Sharding.md",
+    "_Low Priority Refinement/Database/Constraints.md",
+    "_Low Priority Refinement/Database/DB Data Types.md",
     "Architecture/Choosing Database.md",
+    "_Low Priority Refinement/Database/conf.md",
+    "_Low Priority Refinement/Database/Setup/Postgresql Setup.md",
+    "_Low Priority Refinement/Database/Setup/MYSQL Setup.md",
+    "_Low Priority Refinement/Database/DB Fundamentals/Transaction.md",
+    "_Low Priority Refinement/Database/DB Fundamentals/Mock Data.md",
+    "_Low Priority Refinement/Database/DB Fundamentals/Metadata.md",
+    "_Low Priority Refinement/Database/DB Fundamentals/Data formats.md",
+    "_Low Priority Refinement/Database/DB Fundamentals/Data.md",
+    "Architecture/Technology Options/Caches.md",
     "Architecture/System Design/System Design Thought Process Flow.md",
     "Databases/Database.md",
-    "_Low Priority Refinement/Database/Constraints.md",
     "Databases/Database Relationship With Endpoints & Interfaces.md",
     "_Cheatsheet/SQL-cheat-sheet.pdf",
-    "Databases/Database Sharding.md",
     "_Cheatsheet/SQL Practice Interview Questions .pdf",
     "_Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
     "Infographics/Databases/Database Processes.gif",
@@ -344,26 +355,14 @@
     "Infographics/Databases/Execution Order.jpg",
     "Databases/Sharding & Pagination.md",
     "Architecture/Microservices.md",
-    "_Low Priority Refinement/Database/conf.md",
-    "_Low Priority Refinement/Database/Setup/MYSQL Setup.md",
     "_Low Priority Refinement/Database/NOSQL/MongoDB.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Table Team Work.md",
     "_Low Priority Refinement/Database/Database Archetecture/Schema Design.md",
     "_Low Priority Refinement/Database/Database Archetecture/Making Decesion.md",
     "_Low Priority Refinement/Database/Database Archetecture/Fact Table.md",
     "_Low Priority Refinement/Database/Database Archetecture/Snowflake.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Star.md",
-    "Architecture/Decentralized Data Management.md",
-    "_Low Priority Refinement/Database/Other Stuff.md",
-    "_Low Priority Refinement/Database/SQL Table Structure.md",
-    "_Low Priority Refinement/Database/Multi Model DB.md",
-    "_Low Priority Refinement/Database/Triggers in SQL.md",
     "Infographics/Databases/Database & Data Structrues.jpg",
     "Infographics/Databases/Database Sharding.jpeg",
     "Infographics/Databases/Database Types.gif",
-    "Databases/Troubleshooting Queries.md",
-    "Databases/Types of Tables in logical database models.md",
-    "Databases/Normalization & Denormalization.md",
     "Mind Maps/12 Factor App Docker.canvas",
     "_Cheatsheet/Python Junior Cheathseets.pdf",
     "_Cheatsheet/Prompt.jpg",

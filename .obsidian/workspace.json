@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "661ffea86e4f1357",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "64b341dbb183d797",
             "type": "leaf",
             "state": {
@@ -31,39 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "b8c6d78a066c7f5c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "bed0d16d0f4de067",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "02a299b5cf00ee68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/System Design/Use Case vs User Story.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -293,10 +249,10 @@
   },
   "active": "64b341dbb183d797",
   "lastOpenFiles": [
-    "Companies/Companies Worked At/TD/User Stories.md",
     "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
-    "Architecture/System Design/Use Case vs User Story.md",
     "Architecture/System Design/System Design Thought Process Flow.md",
+    "Companies/Companies Worked At/TD/User Stories.md",
+    "Architecture/System Design/Use Case vs User Story.md",
     "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
     "Companies/UML & User Stories Flow/User Story Flow and Breakdown.md",
     "Architecture/System Design/How to Choose Resource Granularity.md",

@@ -16,7 +16,7 @@ Focus on the action like pressing the button ask what it does and expand on that
 Then you ask about things like user base and the size of it estimation of it and determine things like constraints and bottlenecks which will then lead to database questions which may require specialized databases that are NoSQL or SQL DB. 
 #### [[Use Case vs User Story |User Story]] Example:
 >[!important]
->Doing this helps with coming up with data model also the if dealing with complex feature might want to consider using Use Cases over Stories.
+>Creating stories helps with building data model, also if dealing with complex feature might want to consider using Use Cases over Stories.
 1. As a user I want to upload picture and videos to share.
 2. As a user I want to view uploaded photos and videos.
 3. As a user I want to follow, like, and comment on posts.

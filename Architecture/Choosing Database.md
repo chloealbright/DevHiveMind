@@ -7,7 +7,9 @@ Started:
 EditDate: 
 Relates:
 ---
-![[Structured vs Unstructured DB.png]]
+![[Structured vs Unstructured Data.webp]]
+
+
 
 
 Information is refined structured data
@@ -25,7 +27,7 @@ then render down to sql or nosql
 
 then render down to cap 
 
-You can choose [[Cloud Databases]]
+You can also choose [[Cloud Databases]]
 
 
 ![[CAP.png]]

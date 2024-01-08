@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Database/Database Archetecture/Fact Table.md",
+                "file": "Architecture/Database Archetecture/Dimension Table.md",
                 "mode": "source",
                 "source": false
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Database/Database Archetecture/Fact Table.md",
+                "file": "Architecture/Choosing Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Database/Database Archetecture/Fact Table.md",
+                "file": "Architecture/Choosing Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Database/Database Archetecture/Fact Table.md"
+                "file": "Architecture/Choosing Database.md"
               }
             }
           },
@@ -326,15 +326,23 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "0cac9a5461a07645",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
-    "_Low Priority Refinement/Database/Database Archetecture/Table Team Work.md",
+    "_Images/Database/Structured vs Unstructured DB.png",
+    "Architecture/Choosing Database.md",
+    "_Images/Database/Structured vs Unstructured Data.webp",
+    "Architecture/Database Archetecture/Dimension Table.md",
+    "_Low Priority Refinement/Structured Data vs. Unstructured Data what are they and why care (1).md",
+    "_Low Priority Refinement/Structured Data vs. Unstructured Data what are they and why care.md",
+    "Architecture/Database Archetecture/Star.md",
+    "Architecture/Database Archetecture/Schema Design.md",
+    "Architecture/Database Archetecture/Fact Table.md",
+    "Architecture/Database Archetecture/Table Team Work.md",
     "Architecture/Technology Options/Load Balancers.md",
     "Architecture/Load Balancer.md",
     "Databases/Database Sharding.md",
     "_Low Priority Refinement/Database/Constraints.md",
     "_Low Priority Refinement/Database/DB Data Types.md",
-    "Architecture/Choosing Database.md",
     "_Low Priority Refinement/Database/conf.md",
     "_Low Priority Refinement/Database/Setup/Postgresql Setup.md",
     "_Low Priority Refinement/Database/Setup/MYSQL Setup.md",
@@ -353,13 +361,6 @@
     "Infographics/Databases/Database Processes.gif",
     "Infographics/Databases/Sql Exe Order.gif",
     "Infographics/Databases/Execution Order.jpg",
-    "Databases/Sharding & Pagination.md",
-    "Architecture/Microservices.md",
-    "_Low Priority Refinement/Database/NOSQL/MongoDB.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Schema Design.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Making Decesion.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Fact Table.md",
-    "_Low Priority Refinement/Database/Database Archetecture/Snowflake.md",
     "Infographics/Databases/Database & Data Structrues.jpg",
     "Infographics/Databases/Database Sharding.jpeg",
     "Infographics/Databases/Database Types.gif",
@@ -368,8 +369,6 @@
     "_Cheatsheet/Prompt.jpg",
     "_Cheatsheet/Git version control workflow.pdf",
     "_Cheatsheet/Git Process Animated.gif",
-    "_Cheatsheet/Git Flow.jpeg",
-    "_Cheatsheet/Git Cheatsheet.jpeg",
     "_Cheatsheet/docker_cheatsheet.pdf",
     "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
     "_Cheatsheet/CLI-cheat-sheet.pdf",

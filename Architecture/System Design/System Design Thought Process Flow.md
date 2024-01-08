@@ -14,14 +14,14 @@ During this step, it's crucial to seek clarification on the system scope and pri
 Focus on the action like pressing the button ask what it does and expand on that in terms of what you think should happen like collecting certain data and where would that go or be connected to and the different processes that need to happen. 
 
 Then you ask about things like user base and the size of it estimation of it and determine things like constraints and bottlenecks which will then lead to database questions which may require specialized databases that are NoSQL or SQL DB. 
-#### Use Cases/[[User Stories]] Example:
+#### [[Use Case vs User Story |User Story]] Example:
 >[!important]
->Doing this helps with coming up with data model
-1. User uploads pictures and videos. or As a user I want to upload picture and videos to share.
-2. User views uploaded photos and videos.
-3. User follows, likes, and comments on posts.
-4. User has a feed containing posts from friends.
-5. User can block or unfollow other users.
+>Doing this helps with coming up with data model also the if dealing with complex feature might want to consider using Use Cases over Stories.
+1. As a user I want to upload picture and videos to share.
+2. As a user I want to view uploaded photos and videos.
+3. As a user I want to follow, like, and comment on posts.
+4. As a user I want to see a feed containing posts from friends.
+5. As a user I want to block or unfollow other users.
 
 ### Step 2: Design Deep Dive (15 - 25 minutes)
 >[!important]

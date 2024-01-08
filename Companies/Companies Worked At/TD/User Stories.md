@@ -63,7 +63,7 @@ Features represent overarching changes aimed at enhancing customer experience an
 This comprehensive framework ensures a structured and adaptable approach to feature and epic development, promoting collaboration and strategic alignment across the organization.
 
 
-# **User Stories Intricacies**
+# User Stories Intricacies
 Stories aim to create a persona navigating various touch points with a product.
 
 User stories may engage various stakeholders, leading to diverse or misaligned acceptance criteria.

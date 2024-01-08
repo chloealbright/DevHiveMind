@@ -25,7 +25,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Databases/_Infographic/Data Pipline.gif"
+                "file": "Infographics/Data Pipline.gif"
               }
             }
           },
@@ -35,22 +35,42 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Databases/_Infographic/Data Stores.gif"
+                "file": "Infographics/Data Stores.gif"
               }
             }
           },
           {
-            "id": "3be3c4f3e07d2e01",
+            "id": "977df4fdfc0637fc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Infographics/Architecture/Cache 3.jpeg"
+                "file": "Databases/DB Fundamentals/GUIDs.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
+      },
+      {
+        "id": "624f17bd00ee7ef5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb588dd9a4ad67cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/DBMS Keys.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -79,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Stories",
+                "query": "queue ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -132,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infographics/Architecture/Cache 3.jpeg",
+                "file": "Databases/DBMS Keys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infographics/Architecture/Cache 3.jpeg",
+                "file": "Databases/DBMS Keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infographics/Architecture/Cache 3.jpeg"
+                "file": "Databases/DBMS Keys.md"
               }
             }
           },
@@ -278,20 +298,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3be3c4f3e07d2e01",
+  "active": "eb588dd9a4ad67cc",
   "lastOpenFiles": [
-    "Infographics/Architecture/Cache 2.jpeg",
-    "Infographics/Architecture/Cache 1.jpeg",
+    "Infographics/Data Stores.gif",
+    "Infographics/Data Pipline.gif",
+    "Architecture/System Design/System Design Thought Process Flow.md",
+    "Databases/DBMS Keys.md",
+    "Library/Backend/Apache Kafka.md",
+    "Algorithms & Data Structures/Abstract Data Types.md",
+    "Architecture/Architect decision.md",
+    "Framework/Consumers and Producers.md",
+    "Architecture/Messaging systems.md",
+    "Databases/DB Fundamentals/GUIDs.md",
     "Databases/_Infographic/ID Generators.gif",
-    "Databases/_Infographic/Data Stores.gif",
-    "Databases/_Infographic/Data Pipline.gif",
+    "Infographics/Architecture/Cache 1.jpeg",
+    "Infographics/Architecture/Cache 2.jpeg",
+    "Infographics/Architecture/Cache 3.jpeg",
     "Infographics/Web/Data Transmission.jpeg",
     "Infographics/Cookie vs session.gif",
     "Infographics/Web/Http Request Method.gif",
     "Infographics/Web/Network Protocols Applied.jpeg",
-    "Infographics/Web/Traffic Poliicies.gif",
-    "Infographics/Web/Url Process.gif",
-    "Architecture/System Design/System Design Thought Process Flow.md",
     "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
     "Companies/Companies Worked At/TD/User Stories.md",
     "Architecture/System Design/Use Case vs User Story.md",
@@ -303,19 +329,12 @@
     "Architecture/Master-Slave Database Architecture.md",
     "Home.md",
     "Architecture/Arch to think about.md",
-    "Databases/DBMS Keys.md",
     "Databases/Database Relationship With Endpoints & Interfaces.md",
-    "Architecture/Messaging systems.md",
     "Architecture/Load Balancing and Scaling.md",
     "Architecture/Concurrency Vs Horizontal Scaling.md",
     "Cloud/Benefits of cloud.md",
     "Architecture/Vertical vs Horizontal Scaling.md",
     "Architecture/Codebase Level Scaling & Optimization.md",
-    "Architecture/SOLID Design Principles.md",
-    "Architecture/Principles/_I_nterface Segregation Principle.md",
-    "Architecture/Database Archetecture/Making Decesion.md",
-    "Architecture/Clean Code.md",
-    "Architecture/Technology Options/Database.md",
     "Databases/_Infographic",
     "_Cheatsheet/SQL-cheat-sheet.pdf",
     "Architecture/Database Archetecture",

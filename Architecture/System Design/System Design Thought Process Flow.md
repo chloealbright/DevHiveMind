@@ -13,7 +13,7 @@ During this step, it's crucial to seek clarification on the system scope and pri
 #### Start small 
 Focus on the action like pressing the button ask what it does and expand on that in terms of what you think should happen like collecting certain data and where would that go or be connected to and the different processes that need to happen. 
 
-Then you ask about things like user base and the size of it estimation of it and determine things like constraints and bottlenecks which will then lead to database questions which may require specialized databases that are NoSQL or SQL. 
+Then you ask about things like user base and the size of it estimation of it and determine things like constraints and bottlenecks which will then lead to database questions which may require specialized databases that are NoSQL or SQL DB. 
 #### Use Cases/Stories Example:
 >[!important]
 >Doing this helps with coming up with data model
@@ -36,20 +36,26 @@ Delve into the design by following the flow from Database to Server/Services (Ar
   - Identify major components: servers, databases, cache, load balancer, messaging queues, monitoring/logging, and microservices.
   - Discuss trade-offs between performance, scalability, and cost.
   - Consider the use of APIs for certain functionalities.
-  - Discuss [[Stateless & Statefull Processes| Stateless vs statefull]] application or process
+  - Discuss [[Stateless & Statefull Processes| Stateless vs Statefull]] application or process
   - Maybe talk [[Microservices]](might not be relevant since small scope) or leverage knowledge of [[12 Factor App Docker.canvas|12 Factor App Docker]] which has some overlap with everything mentioned, whatever comes to mind.
 
 - **Scalability and Performance:**
   - Distribute traffic across server pools for different types of traffic.
   - Implement local cache for improved response time.
   - Discuss the number of master and slave databases.
-  - Utilize CDN for content distribution.
+  - Implement a CDN network for content distribution.
 
 #### Other things to mention:
 - **Traffic Distribution:** Distribute traffic across server pools.
 - **Local Cache:** Use local cache for improved response times.
 - **Database Scaling:** Discuss the ratio of master to slave databases.
-- **CDN:** Implement a CDN network for content distribution.
+
+#### Scaling stuff to reference somewhere
+- [[Vertical vs Horizontal Scaling]]
+- [[Benefits of cloud]]
+- [[Concurrency Vs Horizontal Scaling]] 
+- Load balancing Placeholder
+- [[Resource Scaling]]
 
 ### **Step 3: Wrap (3 - 5 minutes)**
 Summarize key design decisions, highlighting any alternative considerations. Invite questions and address outstanding concerns.

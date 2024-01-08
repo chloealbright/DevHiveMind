@@ -16,7 +16,7 @@ Concurrency and horizontal scaling are related but distinct concepts in the cont
 - **Definition**: Concurrency refers to an application's ability to execute multiple tasks or processes simultaneously. It's about efficiently managing and executing multiple tasks concurrently within a single instance of the application.  
   
 - **Key Points**:  
-- Concurrency is often achieved through techniques like multithreading or asynchronous programming.  
+- Concurrency is often achieved through techniques like multi-threading or asynchronous programming.  
 - It's essential for maximizing the utilization of available system resources and improving responsiveness.  
 - Concurrency primarily deals with optimizing the performance of a single instance of the application.  
   

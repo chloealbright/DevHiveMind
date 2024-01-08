@@ -34,6 +34,8 @@ Relates:
 
 - **Logical Call Stack**: A conceptual representation in asynchronous programming for tracking execution flow.
 
+- **MetaData**: Metadata is the data about the data. Metadata describes data relationships and characteristics, and is often referred to as a data dictionary, though that seems to be a term more prevalent in the relational world (though not exclusive to it by any means).
+
 - **Propagation** refers to the transmission, spread, or dissemination of something, such as information, signals, or effects, from one point or source to another. It involves the process of carrying or passing on these elements to reach a wider or different area, often involving a sequence of steps or changes as they move from their origin to their destination. Propagation can occur in various contexts, including in the fields of science, technology, communication, and biology. ^5487d3
 
 - **Scope Creep**: Unauthorized addition of features or work beyond the agreed-upon scope.

@@ -12,6 +12,11 @@ Started:
 EditDate: 
 Relates:
 ---
+![[DataBuisness.png]]
+Find out were to put 
+
+merging data with interfaces and integrating business logic backed by requirements probably codebase 
+
 [[_S_ingle Responsibility Principle]]
 [[_O_pen Closed Design Principle]]
 [[_L_iskov Substitution Principle]]

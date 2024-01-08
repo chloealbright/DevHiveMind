@@ -4,61 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "ff428d9f1cf3727c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "7a5435ea12ccb96a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1085727c8e920867",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "59acf39b54e5a21e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database Sharding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0cac9a5461a07645",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Database Archetecture/Dimension Table.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
         "id": "9098981eb1e82e97",
         "type": "tabs",
         "children": [
@@ -68,31 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Choosing Database.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a6dfbe1e600c493",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Sharding & Pagination.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3692f549778dd3c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_Low Priority Refinement/Database/Constraints.md",
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Load",
+                "query": "data",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -180,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Choosing Database.md",
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Choosing Database.md",
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Choosing Database.md"
+                "file": "Architecture/System Design/System Design Thought Process Flow.md"
               }
             }
           },
@@ -326,62 +247,62 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "e1e447314ce10ffd",
   "lastOpenFiles": [
-    "_Images/Database/Structured vs Unstructured DB.png",
-    "Architecture/Choosing Database.md",
-    "_Images/Database/Structured vs Unstructured Data.webp",
-    "Architecture/Database Archetecture/Dimension Table.md",
-    "_Low Priority Refinement/Structured Data vs. Unstructured Data what are they and why care (1).md",
-    "_Low Priority Refinement/Structured Data vs. Unstructured Data what are they and why care.md",
-    "Architecture/Database Archetecture/Star.md",
-    "Architecture/Database Archetecture/Schema Design.md",
-    "Architecture/Database Archetecture/Fact Table.md",
-    "Architecture/Database Archetecture/Table Team Work.md",
-    "Architecture/Technology Options/Load Balancers.md",
-    "Architecture/Load Balancer.md",
-    "Databases/Database Sharding.md",
-    "_Low Priority Refinement/Database/Constraints.md",
-    "_Low Priority Refinement/Database/DB Data Types.md",
-    "_Low Priority Refinement/Database/conf.md",
-    "_Low Priority Refinement/Database/Setup/Postgresql Setup.md",
-    "_Low Priority Refinement/Database/Setup/MYSQL Setup.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/Transaction.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/Mock Data.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/Metadata.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/Data formats.md",
-    "_Low Priority Refinement/Database/DB Fundamentals/Data.md",
-    "Architecture/Technology Options/Caches.md",
+    "Architecture/Load Balancing and Scaling.md",
     "Architecture/System Design/System Design Thought Process Flow.md",
+    "Architecture/Concurrency Vs Horizontal Scaling.md",
+    "Cloud/Benefits of cloud.md",
+    "Architecture/Vertical vs Horizontal Scaling.md",
+    "Architecture/Codebase Level Scaling & Optimization.md",
+    "_Images/Database/Data jobs Description.png",
+    "_Images/Database/Data jobs Skillsets.png",
+    "_Images/Database/Database requirement.png",
+    "_Images/Database/DataBuisness.png",
+    "Architecture/SOLID Design Principles.md",
+    "Architecture/Principles/_I_nterface Segregation Principle.md",
+    "Architecture/Database Archetecture/Making Decesion.md",
+    "Architecture/Clean Code.md",
+    "Architecture/Technology Options/Database.md",
     "Databases/Database.md",
+    "Architecture/Methodology/Admin functionality God Mode/Resource Scaling.md",
+    "Databases/Sharding & Pagination.md",
+    "Companies/Data Work.md",
+    "_Low Priority Refinement/Study Session.md",
+    "Databases/Database Sharding.md",
+    "_Images/Database/DB Popularity.png",
+    "_Images/Database/DB premises.png",
+    "_Images/Database/DB UML relationship types.jpeg",
+    "_Images/Database/Decentralized Data.png",
+    "_Images/Database/Dependencies.png",
+    "_Images/Database/Employee relationship.png",
+    "Databases/Self-joining relationships.md",
+    "Databases/Relationship Reading.md",
+    "Databases/Record Life Cycle.md",
+    "Databases/Password Hashing.md",
+    "Databases/Knex vs Sequelize.md",
+    "Databases/Database Table Relationship Types.md",
     "Databases/Database Relationship With Endpoints & Interfaces.md",
+    "Databases/Functional Dependencies.md",
+    "Databases/_Infographic",
     "_Cheatsheet/SQL-cheat-sheet.pdf",
-    "_Cheatsheet/SQL Practice Interview Questions .pdf",
-    "_Cheatsheet/sql-basics-cheat-sheet-letter.pdf",
-    "Infographics/Databases/Database Processes.gif",
-    "Infographics/Databases/Sql Exe Order.gif",
-    "Infographics/Databases/Execution Order.jpg",
-    "Infographics/Databases/Database & Data Structrues.jpg",
-    "Infographics/Databases/Database Sharding.jpeg",
-    "Infographics/Databases/Database Types.gif",
+    "Architecture/Database Archetecture",
+    "Mind Maps/Docker InDeph.canvas",
+    "Mind Maps/App Schema.canvas",
+    "Mind Maps/Redux Map.canvas",
+    "Architecture/Web Server Architecture",
+    "Web/Pagination.pdf",
+    "Architecture/Design Patterns Layers.pdf",
+    "_Low Priority Refinement/Language",
+    "_Low Priority Refinement/Devops",
+    "Algorithms & Data Structures/Patterns",
     "Mind Maps/12 Factor App Docker.canvas",
-    "_Cheatsheet/Python Junior Cheathseets.pdf",
-    "_Cheatsheet/Prompt.jpg",
-    "_Cheatsheet/Git version control workflow.pdf",
-    "_Cheatsheet/Git Process Animated.gif",
-    "_Cheatsheet/docker_cheatsheet.pdf",
-    "_Cheatsheet/Decimal-Binary-Hexadecimal Conversion Chart.pdf",
-    "_Cheatsheet/CLI-cheat-sheet.pdf",
-    "_Pdf/Roadmaps/design-system.pdf",
-    "_Pdf/Roadmaps/software-design-architecture.pdf",
-    "Mind Maps/Drafts/Url.canvas",
-    "Mind Maps/Drafts/Testing.canvas",
-    "Mind Maps/Drafts/Java Logging.canvas",
+    "Mind Maps/UML",
     "Mind Maps/Drafts/Gateway.canvas",
-    "Mind Maps/Drafts/File system.canvas",
     "Mind Maps/Drafts/Event Messaging.canvas",
-    "Mind Maps/Drafts/Event Driven Architecture.canvas",
+    "Mind Maps/Drafts/Testing.canvas",
     "Mind Maps/Drafts/Domain-driven design.canvas",
-    "Mind Maps/Drafts/_Command and Query Responsibility Segregation.canvas"
+    "Mind Maps/Drafts/File system.canvas",
+    "Mind Maps/Drafts/Url.canvas"
   ]
 }

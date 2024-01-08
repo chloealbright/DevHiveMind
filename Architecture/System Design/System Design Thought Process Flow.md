@@ -23,8 +23,11 @@ Then you ask about things like user base and the size of it estimation of it and
 4. User has a feed containing posts from friends.
 5. User can block or unfollow other users.
 
-### *Step 2: Design Deep Dive (15 - 25 minutes)
-Delve into the design by following the flow from Database to Server/Services (Architecture) to Client Side.
+### Step 2: Design Deep Dive (15 - 25 minutes)
+>[!important]
+When considering the features of your design, prioritize a forward-thinking approach that allows for future functionality. Ensure your design is flexible, accommodating potential expansions and enhancements seamlessly. Focus on building a foundation that supports scalability, making it easier to integrate additional features in the future. Think holistically about the design, anticipating potential modifications and advancements, and ensure that the architecture is adaptable to evolving requirements. This foresightedness will contribute to a more sustainable and extensible system over time.
+
+*Delve into the design by following the flow from Database to Server/Services (Architecture) to Client Side design.
 
 - **Database:**
   - Create an Entity Relationship Diagram (ERD) to define relationships.
@@ -44,13 +47,6 @@ Delve into the design by following the flow from Database to Server/Services (Ar
   - Distribute traffic across server pools for different types of traffic.
   - Implement local cache for improved response time.
   - Implement a CDN network for content distribution.
-  - While talking about feature of focus your designing keep into account how you designing meaning talk about it in a way that your designing in a way that if you to add future functionality  
-  
-
-#### Other things to mention:
-- **Traffic Distribution:** Distribute traffic across server pools.
-- **Local Cache:** Use local cache for improved response times.
-
 
 #### Scaling stuff to reference somewhere
 - [[Vertical vs Horizontal Scaling]]

@@ -8,18 +8,69 @@
         "type": "tabs",
         "children": [
           {
+            "id": "b7557bf587f316b2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "661ffea86e4f1357",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "64b341dbb183d797",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md",
+                "file": "Companies/Companies Worked At/TD/User Stories.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ]
+      },
+      {
+        "id": "b8c6d78a066c7f5c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c73ef34a10ce3e1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/UML & User Stories Flow/User Story Flow and Breakdown.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bed0d16d0f4de067",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "slave",
+                "query": "Stories",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -101,7 +152,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +168,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +189,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md"
-              }
+              "state": {}
             }
           },
           {
@@ -247,13 +294,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "64b341dbb183d797",
+  "active": "b7557bf587f316b2",
   "lastOpenFiles": [
+    "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
+    "Companies/Companies Worked At/TD/User Stories.md",
+    "Companies/Companies Worked At/TD/PI Planning.md",
+    "Companies/Companies Worked At/TD/Agile.md",
+    "Companies/UML & User Stories Flow/User Story Flow and Breakdown.md",
+    "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
+    "Architecture/System Design/System Design Thought Process Flow.md",
+    "Architecture/Master-Slave Database Architecture.md",
+    "_Images/master Slave.gif",
     "Home.md",
     "Architecture/Arch to think about.md",
-    "Architecture/Master-Slave Database Architecture.md",
-    "Architecture/System Design/System Design Thought Process Flow.md",
-    "_Images/master Slave.gif",
     "Databases/DBMS Keys.md",
     "Databases/Database Relationship With Endpoints & Interfaces.md",
     "Architecture/Messaging systems.md",
@@ -274,16 +327,11 @@
     "Databases/Database.md",
     "Architecture/Methodology/Admin functionality God Mode/Resource Scaling.md",
     "Databases/Sharding & Pagination.md",
-    "Companies/Data Work.md",
-    "_Low Priority Refinement/Study Session.md",
-    "Databases/Database Sharding.md",
     "_Images/Database/DB Popularity.png",
     "_Images/Database/DB premises.png",
     "_Images/Database/DB UML relationship types.jpeg",
     "_Images/Database/Decentralized Data.png",
     "_Images/Database/Dependencies.png",
-    "Databases/Self-joining relationships.md",
-    "Databases/Relationship Reading.md",
     "Databases/_Infographic",
     "_Cheatsheet/SQL-cheat-sheet.pdf",
     "Architecture/Database Archetecture",

@@ -3,9 +3,10 @@ tags:
   - generatorOutput
   - ChatGpt
   - example
+  - agile
 author:
   - chatgpt
-Status: done
+Status: Done
 Started: 
 EditDate: 
 Relates:

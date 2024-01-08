@@ -97,7 +97,7 @@ The term NoSQL encompasses various non-relational databases, with four main type
 - **Vector Databases:** Vector databases, like Tile38 and Google's Bigtable, organize data as vectors or geometric shapes. Leveraging the power of vector representation, these databases excel in handling geospatial data with precision and efficiency. They are particularly suited for applications requiring real-time tracking, navigation systems, and dynamic mapping. By storing and processing vector data, these databases enable seamless manipulation of spatial information, making them essential for scenarios where accurate location-based insights and quick updates are crucial, such as logistics optimization and geospatial analytics.
 
 ![[Database Types.gif]]
-### **Final Determination: Project Evaluation - Time, Money, Tech**
+##### **Final Determination: Project Evaluation - Time, Money, Tech**
 
 When deciding between NoSQL and SQL databases, assess the team's expertise, project complexity, and economic factors. Consider the following:
 
@@ -109,28 +109,28 @@ When deciding between NoSQL and SQL databases, assess the team's expertise, proj
 - **Server Scaling:** Consider scalability costs, especially when integrating NoSQL into an existing system.
 - **Overall System Complexity:** Assess the overall complexity and associated costs.
 
-**3. Tech Considerations:**
+##### **3. Tech Considerations:**
 - **Transactional Integrity:** Prioritize relational databases for critical transactional integrity.
 - **Project Complexity:** Evaluate tools needed and project complexity.
 - **Talent Availability:** Weigh the availability of talent and associated hiring/training costs.
 
 ### **Final Determination: Choosing Between NoSQL and SQL**
 
-**NoSQL Databases:**
+#### **NoSQL Databases:**
 - **Scalability:** Ideal for horizontal scalability, cost-effective for growing datasets.
 - **Flexibility:** Suited for rapid development, handling semi/unstructured data.
 - **High Performance:** Superior in certain use cases with high-volume read/write operations.
 
-**SQL Databases:**
+#### **SQL Databases:**
 - **Structured Data:** Well-suited for predefined structured data, ensuring integrity.
 - **ACID Compliance:** Adheres to ACID properties, crucial for strict data consistency.
 - **Mature Ecosystem:** Well-established with a wide range of tools and expertise.
 - **Catalogs:** SQL Database have a catalogs which refers to a schema or system that stores metadata about the database itself. It contains information about tables, views, indexes, and other database objects. The catalog serves as a data dictionary, providing details about the structure, relationships, and properties of the database elements. This metadata is crucial for query optimization, data integrity, and overall management of the database system. Not all databases have catalogs in the traditional sense such as NoSQL databases.
 
-**Decision Factors:**
+#### **Decision Factors:**
 - **Project Requirements:** Consider scalability, flexibility, and performance (NoSQL) or data consistency and a mature ecosystem (SQL).
 - **Data Structure:** For well-structured, relational data, opt for SQL; choose NoSQL for flexible models.
 - **Workload Analysis:** Heavy read/write operations may favor NoSQL's performance advantages.
 
-**Conclusion:**
+#### **Conclusion:**
 The choice hinges on your project's unique needs. Factors like scalability, data structure, and workload should guide the decision-making process.

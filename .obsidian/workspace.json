@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5e5b82a127097890",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Infographics/logging metrics.gif"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md",
+                "file": "Infographics/logging metrics.gif",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md",
+                "file": "Infographics/logging metrics.gif",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md"
+                "file": "Infographics/logging metrics.gif"
               }
             }
           },
@@ -247,10 +258,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "64b341dbb183d797",
+  "active": "5e5b82a127097890",
   "lastOpenFiles": [
-    "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
     "Architecture/System Design/System Design Thought Process Flow.md",
+    "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
     "Companies/Companies Worked At/TD/User Stories.md",
     "Architecture/System Design/Use Case vs User Story.md",
     "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",

@@ -8,38 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "64b341dbb183d797",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e5b82a127097890",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Infographics/Data Pipline.gif"
-              }
-            }
-          },
-          {
-            "id": "3ecb7e19e14ccb73",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Infographics/Data Stores.gif"
-              }
-            }
-          },
-          {
             "id": "977df4fdfc0637fc",
             "type": "leaf",
             "state": {
@@ -51,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "624f17bd00ee7ef5",
@@ -152,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/DBMS Keys.md",
+                "file": "Databases/DB Fundamentals/GUIDs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/DBMS Keys.md",
+                "file": "Databases/DB Fundamentals/GUIDs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/DBMS Keys.md"
+                "file": "Databases/DB Fundamentals/GUIDs.md"
               }
             }
           },
@@ -298,12 +265,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "eb588dd9a4ad67cc",
+  "active": "977df4fdfc0637fc",
   "lastOpenFiles": [
-    "Infographics/Data Stores.gif",
-    "Infographics/Data Pipline.gif",
     "Architecture/System Design/System Design Thought Process Flow.md",
     "Databases/DBMS Keys.md",
+    "Infographics/Data Stores.gif",
+    "Infographics/Data Pipline.gif",
     "Library/Backend/Apache Kafka.md",
     "Algorithms & Data Structures/Abstract Data Types.md",
     "Architecture/Architect decision.md",

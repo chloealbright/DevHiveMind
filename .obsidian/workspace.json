@@ -25,12 +25,32 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Infographics/logging metrics.gif"
+                "file": "Databases/_Infographic/Data Pipline.gif"
+              }
+            }
+          },
+          {
+            "id": "3ecb7e19e14ccb73",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Databases/_Infographic/Data Stores.gif"
+              }
+            }
+          },
+          {
+            "id": "3be3c4f3e07d2e01",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Infographics/Architecture/Cache 3.jpeg"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -112,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infographics/logging metrics.gif",
+                "file": "Infographics/Architecture/Cache 3.jpeg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infographics/logging metrics.gif",
+                "file": "Infographics/Architecture/Cache 3.jpeg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infographics/logging metrics.gif"
+                "file": "Infographics/Architecture/Cache 3.jpeg"
               }
             }
           },
@@ -258,8 +278,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5e5b82a127097890",
+  "active": "3be3c4f3e07d2e01",
   "lastOpenFiles": [
+    "Infographics/Architecture/Cache 2.jpeg",
+    "Infographics/Architecture/Cache 1.jpeg",
+    "Databases/_Infographic/ID Generators.gif",
+    "Databases/_Infographic/Data Stores.gif",
+    "Databases/_Infographic/Data Pipline.gif",
+    "Infographics/Web/Data Transmission.jpeg",
+    "Infographics/Cookie vs session.gif",
+    "Infographics/Web/Http Request Method.gif",
+    "Infographics/Web/Network Protocols Applied.jpeg",
+    "Infographics/Web/Traffic Poliicies.gif",
+    "Infographics/Web/Url Process.gif",
     "Architecture/System Design/System Design Thought Process Flow.md",
     "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
     "Companies/Companies Worked At/TD/User Stories.md",
@@ -270,7 +301,6 @@
     "Companies/Companies Worked At/TD/PI Planning.md",
     "Companies/Companies Worked At/TD/Agile.md",
     "Architecture/Master-Slave Database Architecture.md",
-    "_Images/master Slave.gif",
     "Home.md",
     "Architecture/Arch to think about.md",
     "Databases/DBMS Keys.md",
@@ -281,21 +311,11 @@
     "Cloud/Benefits of cloud.md",
     "Architecture/Vertical vs Horizontal Scaling.md",
     "Architecture/Codebase Level Scaling & Optimization.md",
-    "_Images/Database/Data jobs Description.png",
-    "_Images/Database/Data jobs Skillsets.png",
-    "_Images/Database/Database requirement.png",
-    "_Images/Database/DataBuisness.png",
     "Architecture/SOLID Design Principles.md",
     "Architecture/Principles/_I_nterface Segregation Principle.md",
     "Architecture/Database Archetecture/Making Decesion.md",
     "Architecture/Clean Code.md",
     "Architecture/Technology Options/Database.md",
-    "Databases/Database.md",
-    "_Images/Database/DB Popularity.png",
-    "_Images/Database/DB premises.png",
-    "_Images/Database/DB UML relationship types.jpeg",
-    "_Images/Database/Decentralized Data.png",
-    "_Images/Database/Dependencies.png",
     "Databases/_Infographic",
     "_Cheatsheet/SQL-cheat-sheet.pdf",
     "Architecture/Database Archetecture",

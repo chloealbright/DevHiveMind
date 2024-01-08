@@ -43,8 +43,8 @@ Delve into the design by following the flow from Database to Server/Services (Ar
 - **Scalability and Performance:**
   - Distribute traffic across server pools for different types of traffic.
   - Implement local cache for improved response time.
-  - Discuss the number of master and slave databases.
   - Implement a CDN network for content distribution.
+  - While talking about feature of focus your designing keep into account how you designing meaning talk about it in a way that your designing in a way that if you to add future functionality  
   
 
 #### Other things to mention:

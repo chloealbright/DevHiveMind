@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "25f892ae29b8fc84",
+        "id": "c1bb0b6fbdb9cefa",
         "type": "tabs",
         "children": [
           {
-            "id": "9a28571c09c097a6",
+            "id": "64b341dbb183d797",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Architecture/System Design/System Design Thought Process Flow.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "00801d79a544b0a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Arch to think about.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "39b74af22ac01068",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Master-Slave Database Architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -271,8 +247,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9a28571c09c097a6",
+  "active": "64b341dbb183d797",
   "lastOpenFiles": [
+    "Home.md",
     "Architecture/Arch to think about.md",
     "Architecture/Master-Slave Database Architecture.md",
     "Architecture/System Design/System Design Thought Process Flow.md",
@@ -280,7 +257,6 @@
     "Databases/DBMS Keys.md",
     "Databases/Database Relationship With Endpoints & Interfaces.md",
     "Architecture/Messaging systems.md",
-    "Home.md",
     "Architecture/Load Balancing and Scaling.md",
     "Architecture/Concurrency Vs Horizontal Scaling.md",
     "Cloud/Benefits of cloud.md",

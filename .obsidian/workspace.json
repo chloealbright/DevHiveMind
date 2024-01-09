@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c1bb0b6fbdb9cefa",
+        "id": "67f074eb0ba367a9",
         "type": "tabs",
         "children": [
           {
-            "id": "977df4fdfc0637fc",
+            "id": "49074a2b493d6dfa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/DB Fundamentals/GUIDs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "624f17bd00ee7ef5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "eb588dd9a4ad67cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/DBMS Keys.md",
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/DB Fundamentals/GUIDs.md",
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/DB Fundamentals/GUIDs.md",
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/DB Fundamentals/GUIDs.md"
+                "file": "Architecture/System Design/System Design Thought Process Flow.md"
               }
             }
           },
@@ -265,8 +247,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "977df4fdfc0637fc",
+  "active": "49074a2b493d6dfa",
   "lastOpenFiles": [
+    "Home.md",
     "Architecture/System Design/System Design Thought Process Flow.md",
     "Databases/DBMS Keys.md",
     "Infographics/Data Stores.gif",
@@ -294,7 +277,6 @@
     "Companies/Companies Worked At/TD/PI Planning.md",
     "Companies/Companies Worked At/TD/Agile.md",
     "Architecture/Master-Slave Database Architecture.md",
-    "Home.md",
     "Architecture/Arch to think about.md",
     "Databases/Database Relationship With Endpoints & Interfaces.md",
     "Architecture/Load Balancing and Scaling.md",

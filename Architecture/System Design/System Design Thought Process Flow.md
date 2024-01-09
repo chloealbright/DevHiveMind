@@ -25,7 +25,7 @@ Then you ask about things like user base and the size of it estimation of it and
 
 ### Step 2: Design Deep Dive (15 - 25 minutes)
 >[!important]
-When considering the features of your design, prioritize a forward-thinking approach that allows for future functionality. Ensure your design is flexible, accommodating potential expansions and enhancements seamlessly. Focus on building a foundation that supports scalability, making it easier to integrate additional features in the future. Think holistically about the design, anticipating potential modifications and advancements, and ensure that the architecture is adaptable to evolving requirements. This foresightedness will contribute to a more sustainable and extensible system over time.
+When considering the features of your design, prioritize a forward-thinking approach that allows for future functionality you can ##### briefly mention. Ensure your design is flexible, accommodating potential expansions and enhancements seamlessly. Focus on building a foundation that supports scalability, making it easier to integrate additional features in the future. Think holistically about the design, anticipating potential modifications and advancements, and ensure that the architecture is adaptable to evolving requirements. This foresightedness will contribute to a more sustainable and extensible system over time.
 
 *Delve into the design by following the flow from Database to Server/Services (Architecture) to Client Side design.
 

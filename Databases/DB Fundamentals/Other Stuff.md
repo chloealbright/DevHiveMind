@@ -36,7 +36,7 @@ tuple (plural tuples) 
     Unlike lists, tuples are not formed by consing. 
 
 
- 
+ A record is a full row with values from all columns and a tuple is a partial row with values from specific columns 
 
 These DB has tables with rows & columns which are referred to sometimes as Field & Records 
 

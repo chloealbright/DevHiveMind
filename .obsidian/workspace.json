@@ -8,18 +8,79 @@
         "type": "tabs",
         "children": [
           {
+            "id": "c5ef27842f7117f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/Proxy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "f26c573058791f4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/DB Fundamentals/Other Stuff.md",
+                "file": "Architecture/Web Server Architecture/Reverse proxy vs. API gateway vs. load balancer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5211fd008425ea05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Load Balancing and Scaling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed237d62c0279d2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Devops/Docker/Containerizing Microservices.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bd8f1c52e7d4808e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Load Balancer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4232b6841d5ced89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Arch to think about.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -48,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tuples",
+                "query": "load balancer",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -81,8 +142,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -102,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/DB Fundamentals/Other Stuff.md",
+                "file": "Devops/Docker/Containerizing Microservices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/DB Fundamentals/Other Stuff.md",
+                "file": "Devops/Docker/Containerizing Microservices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/DB Fundamentals/Other Stuff.md"
+                "file": "Devops/Docker/Containerizing Microservices.md"
               }
             }
           },
@@ -248,35 +308,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f26c573058791f4f",
+  "active": "ed237d62c0279d2d",
   "lastOpenFiles": [
+    "Devops/Docker/Docker Namespace in Deph.md",
+    "Devops/Docker/Containerizing Microservices.md",
+    "Devops/Docker/Docker Images containers Volumes.md",
+    "Devops/Docker/Bind Mount.md",
+    "Architecture/Technology Options/Load Balancers.md",
+    "Architecture/Load Balancer.md",
+    "Architecture/Arch to think about.md",
+    "Architecture/Load Balancing and Scaling.md",
+    "Web/Proxy.md",
+    "Architecture/Web Server Architecture/Reverse proxy vs. API gateway vs. load balancer.md",
+    "Architecture/System Design/Use Case vs User Story.md",
+    "Companies/Companies Worked At/TD/User Stories.md",
+    "Architecture/System Design/System Design Thought Process Flow.md",
+    "Databases/Dump File.md",
+    "Databases/Frontend Database.md",
+    "Databases/Database Table Relationship Types.md",
+    "Databases/Cloud Databases.md",
+    "Databases/DB Fundamentals/Other Stuff.md",
     "Companies/Companies Worked At/Tracflo/Business Requirements Thought Experiment.md",
     "Architecture/Technology Options/Caches.md",
     "Architecture/Choosing Database.md",
     "Databases/DB Fundamentals/Constraints.md",
     "Databases/Database.md",
     "Databases/DB Fundamentals/Data.md",
-    "Databases/Database Table Relationship Types.md",
     "Databases/DBMS Keys.md",
     "Databases/DB Fundamentals/GUIDs.md",
-    "Language/Java/Run-Time Data Areas.md",
-    "Databases/Types of Tables in logical database models.md",
-    "Databases/Record Life Cycle.md",
-    "Language/Typescript/Custom Typ.md",
-    "Databases/DB Fundamentals/Other Stuff.md",
-    "Databases/Functional Dependencies.md",
-    "Language/Typescript/Custom Type.md",
-    "Devops/Docker/Bind Mount.md",
-    "Devops/Docker/Docker Images containers Volumes.md",
-    "Devops/Docker/Docker Compose and Dockerfile.md",
-    "Devops/Docker/Docker volumes.md",
-    "Home.md",
     "Infographics/logging metrics.gif",
-    "Databases/Database Sharding.md",
-    "Architecture/System Design/System Design Thought Process Flow.md",
-    "Architecture/Monitoring & Observability.md",
-    "Architecture/Code standards.md",
-    "Architecture/Clean Code.md",
     "Infographics/Load Balancing.gif",
     "Infographics/Load Balance Algo.jpeg",
     "Infographics/Notification System.gif",

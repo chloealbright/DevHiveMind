@@ -39,3 +39,24 @@ then there is shading or partitioning but there are issues with joins 
 other option is distributed database but should avoid  because u sacrifice  consistence for availability  
 
 as the platform grows you may need microservies
+
+
+A load balancer is a category of technology rather than a specific technology. It refers to a device or software application that distributes network or application traffic across multiple servers to ensure no single server bears too much load, thereby improving the reliability, availability, and scalability of a system.  
+  
+There are different types of load balancers, and they can be implemented in various ways:  
+  
+1. **Hardware Load Balancers:** Dedicated physical devices designed to distribute traffic across servers.  
+  
+2. **Software Load Balancers:** Load balancing functionality implemented in software, often running on commodity hardware.  
+  
+3. **Application-Based Load Balancers:** Load balancing functionality integrated into applications or services.  
+  
+Load balancers can operate at different layers of the OSI model, such as:  
+  
+- **Layer 4 (Transport Layer):** Distributes traffic based on information in the transport layer, like IP addresses and port numbers. This is known as a TCP/UDP load balancer.  
+  
+- **Layer 7 (Application Layer):** Makes decisions based on application layer data, such as HTTP header information. This is known as an application or content-aware load balancer.  
+  
+API gateways and proxy servers, on the other hand, serve different purposes but may include load balancing features as part of their functionality. An API gateway manages, routes, and secures API traffic, while a proxy server acts as an intermediary between clients and servers.  
+  
+In summary, "load balancer" is a broad term encompassing various technologies that share the common goal of distributing network or application traffic to optimize performance and reliability. Different implementations cater to different needs and architectural requirements.

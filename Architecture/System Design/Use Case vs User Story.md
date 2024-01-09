@@ -7,12 +7,20 @@ Started: 2024-01-08
 EditDate: 
 Relates: "[[User Stories#User Stories Intricacies]]"
 ---
+ Use cases and User stories are both techniques used in software development to capture and describe requirements, but they have some differences.
+
+## User stories
+User stories are typically short, informal descriptions of a feature or functionality from an end user's perspective and are part of Agile methodologies, emphasizing collaboration and adaptability.
+
 ### User Story Structure:  
 "As a `[user type]`, I want` [an action]` so that `[benefit/value]`."  
   
 #### Example:  
 "As a website visitor, I want to easily reset my password so that I can regain access to my account."  
-  
+
+## Use cases
+Use cases are more detailed and structured descriptions of how a system interacts with an external entity, usually a user, to achieve a specific goal. They include a main success scenario and alternative scenarios to cover different paths the system may take and are often presented in a formalized format with step-by-step actions and potential variations. Use cases are also part of various software development methodologies, including both Agile and traditional approaches.
+
 ### Use Case Structure:  
 1. **Title:** Describes the goal of the use case.  
 2. **Actors:** Identifies the individuals or systems interacting with the system.  

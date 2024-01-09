@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "b501c1657297771d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9daab75f0fc42a63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Monitoring & Observability.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "c8e5475cd5f6c9dc",
         "type": "tabs",
         "children": [
@@ -29,9 +11,11 @@
             "id": "f26c573058791f4f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Infographics/logging metrics.gif"
+                "file": "Databases/DB Fundamentals/Other Stuff.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -64,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "queue ",
+                "query": "tuples",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -97,7 +81,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -117,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Monitoring & Observability.md",
+                "file": "Databases/DB Fundamentals/Other Stuff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Monitoring & Observability.md",
+                "file": "Databases/DB Fundamentals/Other Stuff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Monitoring & Observability.md"
+                "file": "Databases/DB Fundamentals/Other Stuff.md"
               }
             }
           },
@@ -263,8 +248,29 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9daab75f0fc42a63",
+  "active": "f26c573058791f4f",
   "lastOpenFiles": [
+    "Companies/Companies Worked At/Tracflo/Business Requirements Thought Experiment.md",
+    "Architecture/Technology Options/Caches.md",
+    "Architecture/Choosing Database.md",
+    "Databases/DB Fundamentals/Constraints.md",
+    "Databases/Database.md",
+    "Databases/DB Fundamentals/Data.md",
+    "Databases/Database Table Relationship Types.md",
+    "Databases/DBMS Keys.md",
+    "Databases/DB Fundamentals/GUIDs.md",
+    "Language/Java/Run-Time Data Areas.md",
+    "Databases/Types of Tables in logical database models.md",
+    "Databases/Record Life Cycle.md",
+    "Language/Typescript/Custom Typ.md",
+    "Databases/DB Fundamentals/Other Stuff.md",
+    "Databases/Functional Dependencies.md",
+    "Language/Typescript/Custom Type.md",
+    "Devops/Docker/Bind Mount.md",
+    "Devops/Docker/Docker Images containers Volumes.md",
+    "Devops/Docker/Docker Compose and Dockerfile.md",
+    "Devops/Docker/Docker volumes.md",
+    "Home.md",
     "Infographics/logging metrics.gif",
     "Databases/Database Sharding.md",
     "Architecture/System Design/System Design Thought Process Flow.md",
@@ -273,34 +279,13 @@
     "Architecture/Clean Code.md",
     "Infographics/Load Balancing.gif",
     "Infographics/Load Balance Algo.jpeg",
-    "Home.md",
     "Infographics/Notification System.gif",
-    "Architecture/Database Archetecture/Schema Design.md",
-    "Architecture/Master-Slave Database Architecture.md",
-    "Architecture/Choosing Database.md",
-    "Databases/DBMS Keys.md",
     "Infographics/Data Stores.gif",
     "Infographics/Data Pipline.gif",
-    "Library/Backend/Apache Kafka.md",
-    "Algorithms & Data Structures/Abstract Data Types.md",
-    "Architecture/Architect decision.md",
-    "Framework/Consumers and Producers.md",
-    "Architecture/Messaging systems.md",
-    "Databases/DB Fundamentals/GUIDs.md",
     "Databases/_Infographic/ID Generators.gif",
     "Infographics/Architecture/Cache 1.jpeg",
     "Infographics/Architecture/Cache 2.jpeg",
     "Infographics/Architecture/Cache 3.jpeg",
-    "Infographics/Web/Data Transmission.jpeg",
-    "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
-    "Companies/Companies Worked At/TD/User Stories.md",
-    "Architecture/System Design/Use Case vs User Story.md",
-    "Companies/Companies Worked At/TD/Business Requirements Life cycle.md",
-    "Companies/UML & User Stories Flow/User Story Flow and Breakdown.md",
-    "Architecture/System Design/How to Choose Resource Granularity.md",
-    "Companies/Companies Worked At/TD/PI Planning.md",
-    "Companies/Companies Worked At/TD/Agile.md",
-    "Architecture/Arch to think about.md",
     "Databases/_Infographic",
     "_Cheatsheet/SQL-cheat-sheet.pdf",
     "Architecture/Database Archetecture",

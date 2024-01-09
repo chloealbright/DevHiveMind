@@ -34,7 +34,9 @@ tuple (plural tuples) 
     Both Python and Haskell have a tuple data type as well as a list data type. 
     
     Unlike lists, tuples are not formed by consing. 
-    
+
+
+ 
 
 These DB has tables with rows & columns which are referred to sometimes as Field & Records 
 

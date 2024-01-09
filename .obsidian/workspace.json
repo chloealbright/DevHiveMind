@@ -20,6 +20,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "c8e5475cd5f6c9dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f26c573058791f4f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Infographics/logging metrics.gif"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -249,17 +265,18 @@
   },
   "active": "9daab75f0fc42a63",
   "lastOpenFiles": [
-    "Architecture/Code standards.md",
-    "Architecture/Monitoring & Observability.md",
-    "Architecture/Clean Code.md",
+    "Infographics/logging metrics.gif",
     "Databases/Database Sharding.md",
+    "Architecture/System Design/System Design Thought Process Flow.md",
+    "Architecture/Monitoring & Observability.md",
+    "Architecture/Code standards.md",
+    "Architecture/Clean Code.md",
     "Infographics/Load Balancing.gif",
     "Infographics/Load Balance Algo.jpeg",
     "Home.md",
     "Infographics/Notification System.gif",
     "Architecture/Database Archetecture/Schema Design.md",
     "Architecture/Master-Slave Database Architecture.md",
-    "Architecture/System Design/System Design Thought Process Flow.md",
     "Architecture/Choosing Database.md",
     "Databases/DBMS Keys.md",
     "Infographics/Data Stores.gif",
@@ -284,7 +301,6 @@
     "Companies/Companies Worked At/TD/PI Planning.md",
     "Companies/Companies Worked At/TD/Agile.md",
     "Architecture/Arch to think about.md",
-    "Databases/Database Relationship With Endpoints & Interfaces.md",
     "Databases/_Infographic",
     "_Cheatsheet/SQL-cheat-sheet.pdf",
     "Architecture/Database Archetecture",

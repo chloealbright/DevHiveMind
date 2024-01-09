@@ -7,17 +7,15 @@ Started:
 EditDate: 
 Relates:
 ---
+![[logging metrics.gif]]
+
 ## Monitoring
   - **Purpose:** Monitoring focuses on tracking the health and performance of a system, utilizing metrics, logs, and alerts to identify issues proactively.
   - **Components:** Monitoring tools generate alerts based on predefined thresholds, using metrics and logs to assess the system's overall health.
 
-- **Observability:**
+## Observability
   - **Purpose:** Observability goes beyond monitoring by providing deep insights into the internal states and behaviors of a system.
   - **Components:** Observability relies on instrumentation, including logging and tracing, to gather detailed insights. Metrics contribute numerical data for a comprehensive understanding of system behavior.
-
-
-
-
 
 
 ## Logging
@@ -29,7 +27,7 @@ Relates:
   - **Role in Monitoring and Observability:** Tracing complements monitoring and observability efforts by providing a detailed view of request journeys across multiple services, aiding in the diagnosis of issues and optimization of system performance.
 
 ## Metrics
-  - **Definition:** Metrics involve quantifiable measurements of system behavior, providing a numerical representation of specific aspects like response times, error rates, or resource usage.
+  - **Definition:** Metrics involve quantifiable measurements of system behavior, providing a numerical representation of specific aspects like response times, error rates, or resource usage. this info is pulled from Logging and Tracing.
   - **Role in Monitoring and Observability:** Metrics are fundamental to both monitoring and observability, offering numerical data for performance analysis. They contribute to tracking the health of a system over time and help in identifying trends and anomalies.
 
 

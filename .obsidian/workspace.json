@@ -11,9 +11,11 @@
             "id": "9daab75f0fc42a63",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Infographics/Load Balancing.gif"
+                "file": "Architecture/Monitoring & Observability.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Infographics/Load Balancing.gif",
+                "file": "Architecture/Monitoring & Observability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Infographics/Load Balancing.gif",
+                "file": "Architecture/Monitoring & Observability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Infographics/Load Balancing.gif"
+                "file": "Architecture/Monitoring & Observability.md"
               }
             }
           },
@@ -247,11 +249,14 @@
   },
   "active": "9daab75f0fc42a63",
   "lastOpenFiles": [
+    "Architecture/Code standards.md",
+    "Architecture/Monitoring & Observability.md",
+    "Architecture/Clean Code.md",
+    "Databases/Database Sharding.md",
+    "Infographics/Load Balancing.gif",
     "Infographics/Load Balance Algo.jpeg",
     "Home.md",
-    "Infographics/Load Balancing.gif",
     "Infographics/Notification System.gif",
-    "Databases/Database Sharding.md",
     "Architecture/Database Archetecture/Schema Design.md",
     "Architecture/Master-Slave Database Architecture.md",
     "Architecture/System Design/System Design Thought Process Flow.md",
@@ -270,7 +275,6 @@
     "Infographics/Architecture/Cache 2.jpeg",
     "Infographics/Architecture/Cache 3.jpeg",
     "Infographics/Web/Data Transmission.jpeg",
-    "Infographics/Cookie vs session.gif",
     "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
     "Companies/Companies Worked At/TD/User Stories.md",
     "Architecture/System Design/Use Case vs User Story.md",
@@ -281,8 +285,6 @@
     "Companies/Companies Worked At/TD/Agile.md",
     "Architecture/Arch to think about.md",
     "Databases/Database Relationship With Endpoints & Interfaces.md",
-    "Architecture/Load Balancing and Scaling.md",
-    "Architecture/Concurrency Vs Horizontal Scaling.md",
     "Databases/_Infographic",
     "_Cheatsheet/SQL-cheat-sheet.pdf",
     "Architecture/Database Archetecture",

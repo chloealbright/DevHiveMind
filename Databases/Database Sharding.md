@@ -11,6 +11,8 @@ Relates:
 
 Database sharding is a technique used in database management to improve scalability and performance by horizontally partitioning data across multiple databases or servers. The term "sharding" comes from the concept of dividing a larger object into smaller, manageable pieces or shards. This approach is particularly useful in handling large datasets and high transaction volumes.
 
+Database sharding is typically used when a single database becomes a bottleneck due to increased data volume or high transaction loads. It helps distribute data across multiple servers, improving performance and scalability. Use sharding when you need to handle large datasets, high traffic, or when horizontal scaling is necessary for your application.
+
 Here's an explanation of key aspects of database sharding:
 
 1. **Horizontal Partitioning:**

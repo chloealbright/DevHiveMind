@@ -4,71 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "f6891503c725962e",
+        "id": "b501c1657297771d",
         "type": "tabs",
         "children": [
           {
-            "id": "dfb045af82ab384d",
+            "id": "9daab75f0fc42a63",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a7c9fbb88b1d5d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Master-Slave Database Architecture.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6014567900f97e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Database Archetecture/Schema Design.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b13b76ea965f1410",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database Sharding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "62070ee1c69ea4f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Choosing Database.md",
-                "mode": "source",
-                "source": false
+                "file": "Infographics/Load Balancing.gif"
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Choosing Database.md",
+                "file": "Infographics/Load Balancing.gif",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Choosing Database.md",
+                "file": "Infographics/Load Balancing.gif",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Choosing Database.md"
+                "file": "Infographics/Load Balancing.gif"
               }
             }
           },
@@ -296,14 +245,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "62070ee1c69ea4f7",
+  "active": "9daab75f0fc42a63",
   "lastOpenFiles": [
+    "Infographics/Load Balance Algo.jpeg",
+    "Home.md",
+    "Infographics/Load Balancing.gif",
+    "Infographics/Notification System.gif",
     "Databases/Database Sharding.md",
     "Architecture/Database Archetecture/Schema Design.md",
     "Architecture/Master-Slave Database Architecture.md",
     "Architecture/System Design/System Design Thought Process Flow.md",
     "Architecture/Choosing Database.md",
-    "Home.md",
     "Databases/DBMS Keys.md",
     "Infographics/Data Stores.gif",
     "Infographics/Data Pipline.gif",
@@ -319,8 +271,6 @@
     "Infographics/Architecture/Cache 3.jpeg",
     "Infographics/Web/Data Transmission.jpeg",
     "Infographics/Cookie vs session.gif",
-    "Infographics/Web/Http Request Method.gif",
-    "Infographics/Web/Network Protocols Applied.jpeg",
     "Companies/Companies Worked At/TD/Attributes of Requirements & User Stories.md",
     "Companies/Companies Worked At/TD/User Stories.md",
     "Architecture/System Design/Use Case vs User Story.md",
@@ -333,7 +283,6 @@
     "Databases/Database Relationship With Endpoints & Interfaces.md",
     "Architecture/Load Balancing and Scaling.md",
     "Architecture/Concurrency Vs Horizontal Scaling.md",
-    "Cloud/Benefits of cloud.md",
     "Databases/_Infographic",
     "_Cheatsheet/SQL-cheat-sheet.pdf",
     "Architecture/Database Archetecture",

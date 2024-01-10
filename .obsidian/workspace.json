@@ -13,22 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md",
+                "file": "_Low Priority Refinement/API/API Design Basics.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "1088bb460e44f498",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_Low Priority Refinement/API/API Design Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_Low Priority Refinement/API/API Design Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_Low Priority Refinement/API/API Design Basics.md"
+              }
             }
           },
           {
@@ -252,9 +247,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1088bb460e44f498",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
+    "API/Api request by layer.md",
+    "_Low Priority Refinement/API/API Design Basics.md",
+    "API/API Gateway.md",
+    "API/API Call.md",
     "Architecture/System Design/System Design Thought Process Flow.md",
+    "API/API Design 101 From Basics to Best Practices  by Hayk Simonyan  Dec, 2023  Level Up Coding.md",
     "Infographics/Rest API Cheatsheet.gif",
     "Infographics/Data Science Path.gif",
     "Home.md",
@@ -277,10 +277,6 @@
     "Databases/DB Fundamentals/Other Stuff.md",
     "Companies/Companies Worked At/Tracflo/Business Requirements Thought Experiment.md",
     "Architecture/Technology Options/Caches.md",
-    "Architecture/Choosing Database.md",
-    "Databases/DB Fundamentals/Constraints.md",
-    "Databases/Database.md",
-    "Databases/DB Fundamentals/Data.md",
     "Infographics/logging metrics.gif",
     "Infographics/Load Balancing.gif",
     "Infographics/Load Balance Algo.jpeg",

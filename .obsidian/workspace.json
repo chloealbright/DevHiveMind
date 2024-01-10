@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1088bb460e44f498",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +110,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +126,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +147,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md"
-              }
+              "state": {}
             }
           },
           {
@@ -247,8 +252,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "12ab80f4f3341277",
+  "active": "1088bb460e44f498",
   "lastOpenFiles": [
+    "Architecture/System Design/System Design Thought Process Flow.md",
+    "Infographics/Rest API Cheatsheet.gif",
+    "Infographics/Data Science Path.gif",
     "Home.md",
     "Devops/Docker/Docker Namespace in Deph.md",
     "Devops/Docker/Containerizing Microservices.md",
@@ -262,7 +270,6 @@
     "Architecture/Web Server Architecture/Reverse proxy vs. API gateway vs. load balancer.md",
     "Architecture/System Design/Use Case vs User Story.md",
     "Companies/Companies Worked At/TD/User Stories.md",
-    "Architecture/System Design/System Design Thought Process Flow.md",
     "Databases/Dump File.md",
     "Databases/Frontend Database.md",
     "Databases/Database Table Relationship Types.md",
@@ -274,7 +281,6 @@
     "Databases/DB Fundamentals/Constraints.md",
     "Databases/Database.md",
     "Databases/DB Fundamentals/Data.md",
-    "Databases/DBMS Keys.md",
     "Infographics/logging metrics.gif",
     "Infographics/Load Balancing.gif",
     "Infographics/Load Balance Algo.jpeg",
@@ -283,8 +289,6 @@
     "Infographics/Data Pipline.gif",
     "Databases/_Infographic/ID Generators.gif",
     "Infographics/Architecture/Cache 1.jpeg",
-    "Infographics/Architecture/Cache 2.jpeg",
-    "Infographics/Architecture/Cache 3.jpeg",
     "Databases/_Infographic",
     "_Cheatsheet/SQL-cheat-sheet.pdf",
     "Architecture/Database Archetecture",

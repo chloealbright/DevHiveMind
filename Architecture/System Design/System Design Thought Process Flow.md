@@ -113,8 +113,6 @@ Summarize key design decisions, highlighting any alternative considerations. Inv
 
 
 # Alt Design
-*Estimation with a music streaming service as an example.*
-
 ### Music Streaming Service Estimation:
 
 **Assumptions:**

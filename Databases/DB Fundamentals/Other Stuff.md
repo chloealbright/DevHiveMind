@@ -186,35 +186,6 @@ We’ll now look at the various factors that could determine whether a column ge
 
 
 
--   DDL – Data Definition Language  
-    
-    -   used to define the database schema. 
-        
-    -   CREATE, DROP, ALTER 
-        
--   DQL – Data Query Language  
-    
-    -   used for performing queries on the data within schema objects. 
-        
-    -   SELECT 
-        
--   DML – Data Manipulation Language  
-    
-    -   used for manipulation of data present in the database 
-        
-    -   INSERT, UPDATE, DELETE 
-
-A trigger is a special type of stored procedure that automatically runs when an event occurs in the database server. DML triggers run when a user tries to modify data through a data manipulation language (DML) event. DML events are INSERT, UPDATE, or DELETE statements on a table or view.
-
-        
--   DCL – Data Control Language  
-    
-    -   deals with the database system's rights, permissions, and other controls. 
-        
-    -   GRANT, REVOKE
-
-
-
 ## Foreign Key Referential Actions 
 
 Referential integrity is [constrained by foreign keys](https://www.w3schools.com/sql/sql_foreignkey.asp), ensuring that values in a particular table match values that are found in a different table. 

@@ -72,7 +72,56 @@ In the context of SQL and relational databases, DCL, DDL, DML, and DQL are the p
 
 While DCL, DDL, DML, and DQL are fundamental to SQL, TCL and session control statements are additional components that play roles in managing transactions and customizing the behavior of database sessions. The specific features and sub-languages may vary slightly among different database management systems, as some systems may have their own extensions or variations.
 ![[Sql Exe Order.gif]]
+## Triggers
+In SQL, a trigger is a set of instructions or a set of actions that are automatically executed, or "triggered," in response to certain events on a particular table or view in a database. Triggers are used to enforce business rules, perform validation, maintain data integrity, or automate complex database operations. The events that can activate a trigger include INSERT, UPDATE, DELETE statements, or a combination of these.
 
+Here are some key points about SQL triggers:
+
+1. **Event Types:**
+   - **INSERT Trigger:** Fires when a new record is added to a table.
+   - **UPDATE Trigger:** Fires when one or more existing records are modified in a table.
+   - **DELETE Trigger:** Fires when a record is deleted from a table.
+
+2. **Timing:**
+   - **BEFORE Trigger:** Executes before the triggering event (INSERT, UPDATE, DELETE). It can be used to modify data before it is actually changed in the database.
+   - **AFTER Trigger:** Executes after the triggering event. It is commonly used for auditing or logging changes.
+
+3. **Triggering Conditions:**
+   - **Row-Level Trigger:** Executes once for each affected row.
+   - **Statement-Level Trigger:** Executes once for the entire triggering statement.
+
+4. **Syntax:**
+   - The basic syntax for creating a trigger varies slightly between different database management systems, but a generic example might look like this:
+   
+     ```sql
+     CREATE TRIGGER trigger_name
+     [BEFORE | AFTER] [INSERT | UPDATE | DELETE]
+     ON table_name
+     [FOR EACH ROW | FOR EACH STATEMENT]
+     [WHEN (condition)]
+     BEGIN
+         -- Trigger logic here
+     END;
+     ```
+
+   - The trigger logic within the `BEGIN` and `END` block defines the actions to be taken when the trigger is activated.
+
+5. **Example:**
+   - An example of an AFTER INSERT trigger that updates a timestamp column whenever a new record is inserted into a table:
+   
+     ```sql
+     CREATE TRIGGER after_insert_trigger
+     AFTER INSERT
+     ON your_table
+     FOR EACH ROW
+     BEGIN
+         UPDATE your_table
+         SET timestamp_column = CURRENT_TIMESTAMP
+         WHERE primary_key_column = NEW.primary_key_column;
+     END;
+     ```
+
+Triggers should be used judiciously, as they introduce additional complexity to the database schema and operations. Poorly designed triggers can impact performance and maintainability. It's important to understand the specific requirements and implications before implementing triggers in a database system.
 
 ![[Execution Order.jpg]]
 

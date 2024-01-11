@@ -9,31 +9,11 @@ Relates:
 ---
 ![[Structured vs Unstructured Data.webp]]
 
-
-
-
-Information is refined structured data or unrefined/refined  unstructured data
-
-
 Information can exist in both structured and unstructured forms. Refined information often refers to structured data, which is organized and formatted for specific purposes. Unrefined or unstructured data lacks a predefined format and organization or less of a predefined format that doesn't fit the standards of structured data.
 
-The main difference between unstructured data and structured data is that structured data is typically used for general stuff and it's very organized like user accounts and the information associated with that as for unstructured is typically did I like media audio, geo-location, and weather 
+When selecting a database or determining the number of databases for your architecture, it's crucial to first identify the nature of your data—whether it's structured or unstructured. Once this is clarified, you can narrow down your choices between SQL and NoSQL databases. For instance, if you anticipate dealing with a substantial amount of email data, opting for a NoSQL database becomes more likely.
 
-Besides that, you want the other servers for database application you would want a master that handles the crud(Create Read Update Delete) processes and the copies would handle the reading operation you'll probably have more slaves databases and proportion to master the reason we want this because it allows queries to be processed in parallel Which is good for performance 
-
-
-
-structured data v unstructured data
-
-identify the type of data or subset of unstructured/structured data
-
-then render down to sql or nosql 
-
-for example if emails then you know its NOSQL 
-
-then render down to cap 
-
-You can also choose [[Cloud Databases]]
+Furthermore, leveraging the CAP theorem can help refine your database selection further. The CAP theorem addresses the trade-offs between Consistency, Availability, and Partition Tolerance, aiding in making informed decisions based on your specific application requirements and priorities. Another side note is maybe considering [[Cloud Databases]].
 
 
 ![[CAP.png]]

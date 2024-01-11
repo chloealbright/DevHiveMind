@@ -31,7 +31,7 @@ Event-Driven Architecture (EDA) is a software design pattern that focuses on the
 6. **Event Handler:**
    - An event handler is a piece of code or a function that processes a specific type of event. Event handlers are responsible for taking appropriate actions in response to an event, such as updating data, sending notifications, or triggering other events.
 
-7. A**synchronous Communication:**
+7. **Asynchronous Communication:**
    - EDA often relies on asynchronous communication, meaning that event producers and consumers do not need to be available or active at the same time. This decoupling allows for better scalability and fault tolerance.
 
 8. **Loose Coupling:**

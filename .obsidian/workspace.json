@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "b755ca95394b15a9",
+        "id": "0dc4a6c2269803c6",
         "type": "tabs",
         "children": [
           {
-            "id": "166b341787b032e7",
+            "id": "266f0852da4c5b5c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "practice",
+                "query": "scaling",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -97,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Architecture/System Design/System Design Thought Process Flow.md"
+              }
             }
           },
           {
@@ -239,34 +247,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "166b341787b032e7",
+  "active": "266f0852da4c5b5c",
   "lastOpenFiles": [
-    "Companies/Culture/Types of Programmers To Avoid.md",
-    "Algorithms & Data Structures/Algo pathway.md",
-    "_Low Priority Refinement/Be Aware.md",
-    "Architecture/Clean Code Approach Reflection.md",
-    "Architecture/Code standards.md",
-    "Companies/Interview/Offense(Q&A).md",
-    "Companies/Culture/Navigating Work Dynamics.md",
-    "Companies/Employment Best Personal Practices.md",
-    "Algorithms & Data Structures/Coding Interview Tips.md",
-    "Architecture/Naming Conventions.md",
-    "Architecture/Clean Code.md",
-    "Architecture/Scope 1.md",
-    "Architecture/Scope.md",
-    "Architecture/System Scopes.md",
-    "Companies/UML & User Stories Flow/Use Case vs User Story.md",
-    "Algorithms & Data Structures/Problem-solving Regimen.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
-    "Algorithms & Data Structures/Algorithms/Iterating vs Traversing.md",
-    "Algorithms & Data Structures/Discrete math.md",
-    "Architecture/Choosing Database.md",
-    "Databases/Cloud Databases.md",
+    "Architecture/Arch to think about.md",
+    "Architecture/System Design/System Design Thought Process Flow.md",
+    "Architecture/Codebase Level Scaling & Optimization.md",
+    "Architecture/Concurrency Vs Horizontal Scaling.md",
+    "Architecture/Event-driven Architectural Pattern Decisions.md",
+    "Architecture/Event Driven Architecture.md",
+    "Architecture/Vertical vs Horizontal Scaling.md",
+    "Architecture/Methodology/Admin functionality God Mode/Resource Scaling.md",
     "Cloud/Benefits of cloud.md",
-    "Architecture/Web Server Architecture/Server Routes Order.md",
-    "Architecture/Web Server Architecture/Route Authentication.md",
-    "Architecture/Web Server Architecture/Reverse proxy vs. API gateway vs. load balancer.md",
-    "Architecture/Web Server Architecture/Best Practices for User Account Routes.md",
+    "Architecture/Choosing Database.md",
+    "Databases/Database Sharding.md",
+    "Architecture/App Layers/Infrastructure.md",
+    "Architecture/Messaging systems.md",
+    "Architecture/microservices and monolithic architecture.md",
+    "Web/Proxy.md",
+    "Companies/Companies Worked At/Tracflo/Tracflo Lesson.md",
+    "Databases/Database Core Functionality.md",
+    "Databases/Sharding & Pagination.md",
+    "API/Api request by layer.md",
+    "API/API pass-through.md",
+    "API/API Gateway.md",
+    "API/API Call.md",
+    "Databases/Cloud Databases.md",
+    "Architecture/FaaS.md",
+    "Architecture/SAAS.md",
+    "Architecture/IAAS.md",
     "Architecture/Design Patterns Layers.pdf",
     "Infographics/Rest API Cheatsheet.gif",
     "Infographics/Data Science Path.gif",

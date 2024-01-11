@@ -37,7 +37,7 @@ The CAP Theorem aids in making informed decisions when selecting a database syst
 
 - **CA Systems (Consistency + Availability):** Examples include traditional relational databases like MySQL, PostgreSQL, and Oracle Database. Suited for scenarios where maintaining data consistency is critical, coupled with a high level of availability, commonly used in applications such as financial systems.
 
-- **CP Systems (Partition Tolerance + Consistency):** Examples include MongoDB, Hbase, and Redis. These focus on partition tolerance and consistency, ensuring accuracy at the expense of immediate availability.
+- **CP Systems (Partition Tolerance + Consistency):** Examples include MongoDB, HBase, and Redis. These focus on partition tolerance and consistency, ensuring accuracy at the expense of immediate availability.
 
 ## ACID(SQL) Principles vs BASE(NOSQL) Principles
 ### SQL

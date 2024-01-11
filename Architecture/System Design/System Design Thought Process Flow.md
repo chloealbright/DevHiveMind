@@ -1,10 +1,12 @@
 ---
-tags: 
+tags:
+  - interview
+  - architecturalParadigm
 author:
   - jacgit18
 Status: Refinement
-Started: 
-EditDate: 
+Started: 2024-01-04
+EditDate: 2024-01-11
 Relates:
 ---
 ### **Step 1: Understand the Problem and Establish Design Scope (3 - 10 minutes)**
@@ -48,13 +50,16 @@ When considering the features of your design, prioritize a forward-thinking appr
   - Implement local cache for improved response time.
   - Implement a CDN network for content distribution.
 
-#### Scaling stuff to reference somewhere
+#### Scaling stuff to reference  or merge together somewhere
 - [[Vertical vs Horizontal Scaling]]
 - [[Benefits of cloud]]
 - [[Concurrency Vs Horizontal Scaling]] 
 - Load balancing Placeholder
 - [[Resource Scaling]]
 - clean up [[Arch to think about]]
+- [[Infrastructure]]
+- [[Elements Of A Distributed Systems]]
+- [[Event-driven Architectural Pattern Decisions]]
 
 ### **Step 3: Wrap (3 - 5 minutes)**
 Summarize key design decisions, highlighting any alternative considerations. Invite questions and address outstanding concerns.

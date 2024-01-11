@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/DB Fundamentals/GUIDs.md",
+                "file": "Databases/DB Fundamentals/Other Stuff.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,21 +30,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "46d95cdbdf9e4fb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/DB Fundamentals/Other Stuff.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "0206b533269595fe",
@@ -56,7 +43,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database Core Functionality.md",
+                "file": "Databases/Using Null.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,8 +73,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/DB Fundamentals/Other Stuff.md",
+                "file": "Databases/Using Null.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/DB Fundamentals/Other Stuff.md",
+                "file": "Databases/Using Null.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/DB Fundamentals/Other Stuff.md"
+                "file": "Databases/Using Null.md"
               }
             }
           },
@@ -315,24 +301,25 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "46d95cdbdf9e4fb6",
+  "active": "f181c4876fd00ade",
   "lastOpenFiles": [
+    "Databases/DB Fundamentals/Other Stuff.md",
+    "Databases/Using Null.md",
+    "Databases/Knex.md",
+    "Databases/Database Core Functionality.md",
+    "Databases/DBMS Keys.md",
+    "Databases/GUIDs.md",
     "Databases/Transaction.md",
     "Databases/_Infographic/Database & Data Structrues.jpg",
-    "Databases/DB Fundamentals/Other Stuff.md",
     "Architecture/Choosing Database.md",
     "Home.md",
-    "Databases/Database Core Functionality.md",
     "Databases/Mock Data.md",
-    "Databases/DB Fundamentals/GUIDs.md",
     "Databases/Constraint Types.md",
     "Databases/DB Fundamentals/Data.md",
-    "Databases/DBMS Keys.md",
     "Databases/Record Life Cycle.md",
     "Databases/Tables Without UUID.md",
     "Databases/Table With Non-Unique Records.md",
     "Databases/Password Hashing.md",
-    "Databases/Knex.md",
     "Databases/Dump File.md",
     "Databases/Normalization & Denormalization.md",
     "Databases/DB Fundamentals/Data formats.md",

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0dc4a6c2269803c6",
+        "id": "e922dd6a88152547",
         "type": "tabs",
         "children": [
           {
-            "id": "266f0852da4c5b5c",
+            "id": "a7ca086244391d57",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,100 +18,26 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6e8d9fa57f5a9c5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/DB Fundamentals/Data.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2df35d9565998774",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/DB Fundamentals/GUIDs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "247a114c9f9e443e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/DB Fundamentals/Mock Data.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6f3428778ecebbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/DB Fundamentals/Other Stuff.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "394582fc37480434",
+        "id": "0206b533269595fe",
         "type": "tabs",
         "children": [
           {
-            "id": "a88f73687b40c7c1",
+            "id": "f181c4876fd00ade",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Normalization & Denormalization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a83d1e492b1aceaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/DB Fundamentals/Transaction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b35d40168cae9b9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Record Life Cycle.md",
+                "file": "Databases/Database Core Functionality.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/DB Fundamentals/Data.md",
+                "file": "Databases/DB Fundamentals/Constraints.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/DB Fundamentals/Data.md",
+                "file": "Databases/DB Fundamentals/Constraints.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/DB Fundamentals/Data.md"
+                "file": "Databases/DB Fundamentals/Constraints.md"
               }
             }
           },
@@ -324,7 +250,6 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "homepage:Open homepage": false,
-      "periodic-notes:Open today": false,
       "janitor:Janitor: scan vault": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
@@ -336,11 +261,15 @@
       "obsidian-read-it-later:ReadItLater: Save clipboard": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "copilot:Copilot Chat": false
+      "copilot:Copilot Chat": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "6e8d9fa57f5a9c5a",
+  "active": "a7ca086244391d57",
   "lastOpenFiles": [
+    "Databases/Database Core Functionality.md",
+    "Databases/DB Fundamentals/Constraints.md",
+    "Home.md",
     "Databases/Record Life Cycle.md",
     "Databases/DB Fundamentals/Data.md",
     "Databases/DB Fundamentals/GUIDs.md",
@@ -354,7 +283,6 @@
     "Databases/DB Fundamentals/Other Stuff.md",
     "Databases/DB Fundamentals/Mock Data.md",
     "Databases/DB Fundamentals/Data formats.md",
-    "Databases/DB Fundamentals/Constraints.md",
     "Databases/Troubleshooting Queries.md",
     "Databases/DB Fundamentals/conf.md",
     "Databases/Setup/Postgresql Setup.md",
@@ -365,8 +293,6 @@
     "Architecture/Event-driven Architectural Pattern Decisions.md",
     "Architecture/Event Driven Architecture.md",
     "Architecture/Vertical vs Horizontal Scaling.md",
-    "Architecture/Methodology/Admin functionality God Mode/Resource Scaling.md",
-    "Cloud/Benefits of cloud.md",
     "Architecture/Design Patterns Layers.pdf",
     "Infographics/Rest API Cheatsheet.gif",
     "Infographics/Data Science Path.gif",

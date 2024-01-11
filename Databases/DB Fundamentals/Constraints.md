@@ -7,28 +7,10 @@ Started:
 EditDate: 
 Relates:
 ---
-Constraints are the rules enforced on the data columns of a table. These are used to limit the type of data that can go into a table. This ensures the accuracy and reliability of the data in the database. 
 
-Constraints could be either on a column level or a table level. The column level constraints are applied only to one column, whereas the table level constraints are applied to the whole table. 
-
-Following are some of the most commonly used constraints available in SQL. 
-
--   NOT NULL Constraint − Ensures that a column cannot have NULL value. 
-    
--   DEFAULT Constraint − Provides a default value for a column when none is specified. 
-    
--   UNIQUE Constraint− Ensures that all values in a column are different. 
-    
--   PRIMARY Key − Uniquely identifies each row/record in a database table. 
-    
--   FOREIGN Key − Uniquely identifies a row/record in any of the given database table. 
-    
--   CHECK Constraint − The CHECK constraint ensures that all the values in a column satisfies certain conditions. 
-    
--   INDEX − Used to create and retrieve data from the database very quickly. 
     
 
-Constraints can be specified when a table is created with the CREATE TABLE statement or you can use the ALTER TABLE statement to create constraints even after the table is created.
+
 
 
 # Constraint FK
@@ -101,13 +83,3 @@ OrderNumber int NOT NULL,     
 PersonID int FOREIGN KEY REFERENCES Persons(PersonID) );  
 ```
 
-### The following syntax allows us to name FOREIGN KEY constraint: 
-```SQL
-CREATE TABLE Orders (     
-OrderID int NOT NULL,     
-OrderNumber int NOT NULL,     
-PersonID int,     
-PRIMARY KEY (OrderID),     
-CONSTRAINT FK_PersonOrder FOREIGN KEY (PersonID)     
-REFERENCES Persons(PersonID) );
-```

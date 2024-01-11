@@ -13,7 +13,7 @@ Information can exist in both structured and unstructured forms. Refined informa
 
 When selecting a database or determining the number of databases for your architecture, it's crucial to first identify the nature of your data—whether it's structured or unstructured. Once this is clarified, you can narrow down your choices between SQL and NoSQL databases. For instance, if you anticipate dealing with a substantial amount of email data, opting for a NoSQL database becomes more likely.
 
-Furthermore, leveraging the CAP theorem can help refine your database selection further. The CAP theorem addresses the trade-offs between Consistency, Availability, and Partition Tolerance, aiding in making informed decisions based on your specific application requirements and priorities. Another side note is maybe considering [[Cloud Databases]].
+Furthermore, leveraging the CAP theorem can help refine your database selection further. The CAP theorem addresses the trade-offs between Consistency, Availability, and Partition Tolerance, aiding in making informed decisions based on your specific application requirements and priorities. Another consideration could be using [[Cloud Databases]].
 
 
 ![[CAP.png]]

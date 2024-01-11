@@ -7,8 +7,6 @@ EditDate:
 Relates:
 ---
 ![[Service Types.jpg]]
-![[Service Types overlap.png]]
-
 
 
 It is **Elastic** adapting to changes in workload usually dynamically & for short term like maybe dealing with an increase in web traffic  

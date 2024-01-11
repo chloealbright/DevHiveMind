@@ -2,14 +2,22 @@
 tags: 
 author:
   - jacgit18
-Status: 
+Status: Refinement
 Started: 
 EditDate: 
 Relates:
 ---
-Cloud Database are basically db in the cloud that falls under [[PAAS]] for storage or [[SAAS]] for storage and other cloud Data analytical tools. 
+![[Service Types overlap.png]]
 
-the benefits are performance at scale, secure and highly available and fully managed also giving you access to other AWS data services like Amazon Cloud-trail which is a service that enables governance, compliance, operational auditing, and risk auditing of your Amazon Web Services account. With Cloud-trail, you can log, continuously monitor, and retain account activity related to actions across your Amazon Web Services infrastructure.
+Cloud databases fall into different service models within cloud computing:
+
+1. **[[SAAS]] (Software as a Service):** Cloud databases under SaaS typically provide storage and data analytical tools. Users access these services through a web interface, and the provider manages infrastructure, maintenance, and updates.
+
+2. **[[IAAS]] (Infrastructure as a Service):** In the IaaS model, cloud databases offer storage without integrated data analytical tools. Users have more control over the infrastructure but are responsible for managing aspects like security and updates.
+
+3. **[[PAAS]] (Platform as a Service):** Cloud databases under PaaS fall in between, providing storage along with additional functionality. The platform takes care of infrastructure management, and users focus more on application development.
+
+The benefits of cloud databases include performance at scale, security, high availability, and full management by the cloud provider. Additionally, they grant access to other cloud services, such as AWS CloudTrail, which aids in governance, compliance, and auditing of AWS account activities, ensuring operational transparency and risk management.
 
 ![[Aws DB services.png]]
 

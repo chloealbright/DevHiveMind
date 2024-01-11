@@ -34,7 +34,9 @@ It Enforces referential integrity by ensuring that values in the foreign key mat
 
 
 #### Composite Key
-A composite key is a combination of two or more attributes that collectively ensure the unique identification of a tuple.
+A composite key, unique to a particular table, is formed by combining two or more columns. This amalgamation creates a distinctive identifier, ensuring the unique identification of tuples within the specified table.
+
+While technically a candidate key as the composite key verifies uniqueness, composite keys are only formed when the particular column or columns are used in combination with each other. 
 
 - Comprising multiple columns to achieve a distinctive record identification.
 - Involves the amalgamation of two or more attributes to form a singular, unique identifier.

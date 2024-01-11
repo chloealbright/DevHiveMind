@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Choosing Database.md",
+                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Choosing Database.md",
+                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Choosing Database.md",
+                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Choosing Database.md"
+                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md"
               }
             }
           },
@@ -249,6 +249,11 @@
   },
   "active": "878b69f996574fad",
   "lastOpenFiles": [
+    "Algorithms & Data Structures/Algorithms/Iterating vs Traversing.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
+    "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "Algorithms & Data Structures/Discrete math.md",
+    "Architecture/Choosing Database.md",
     "Databases/Cloud Databases.md",
     "Cloud/Benefits of cloud.md",
     "Architecture/Web Server Architecture/Server Routes Order.md",
@@ -270,11 +275,6 @@
     "Architecture/Methodology/Staged Deployment.md",
     "Architecture/Methodology/Source code vs Codebase.md",
     "Architecture/Methodology/Deployment Strategies.md",
-    "Architecture/Methodology/12 Factor App  Microservices Architecture.md",
-    "Architecture/Database Archetecture/Table Team Work.md",
-    "Architecture/Database Archetecture/Star.md",
-    "Architecture/Database Archetecture/Snowflake.md",
-    "Architecture/Database Archetecture/Schema Design.md",
     "Architecture/Design Patterns Layers.pdf",
     "Infographics/Rest API Cheatsheet.gif",
     "Infographics/Data Science Path.gif",

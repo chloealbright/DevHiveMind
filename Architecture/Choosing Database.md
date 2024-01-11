@@ -16,6 +16,7 @@ When selecting a database or determining the number of databases for your archit
 Furthermore, leveraging the CAP theorem can help refine your database selection further. The CAP theorem addresses the trade-offs between Consistency, Availability, and Partition Tolerance, aiding in making informed decisions based on your specific application requirements and priorities. Another consideration could be using [[Cloud Databases]].
 
 
+
 ![[CAP.png]]
 ### **CAP Theorem and Fundamental Differences:**
 The CAP Theorem, representing Consistency, Availability, and Partition Tolerance, asserts that in database systems, achieving all three elements simultaneously is not possible. These components are pivotal in shaping a database's performance characteristics, and the selection of an appropriate combination is crucial based on specific requirements. Here's a breakdown of these elements:
@@ -127,6 +128,9 @@ When deciding between NoSQL and SQL databases, assess the team's expertise, proj
 - **Project Requirements:** Consider scalability, flexibility, and performance (NoSQL) or data consistency and a mature ecosystem (SQL).
 - **Data Structure:** For well-structured, relational data, opt for SQL; choose NoSQL for flexible models.
 - **Workload Analysis:** Heavy read/write operations may favor NoSQL's performance advantages.
+
+>[!node]
+>Side note if you use other databases like an H2 in embedded mode it can help in terms of running a database in a restricted environment like TD but it restricts the access of the database to external services that you may want to connect to
 
 #### **Conclusion:**
 The choice hinges on your project's unique needs. Factors like scalability, data structure, and workload should guide the decision-making process.

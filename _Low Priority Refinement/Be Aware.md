@@ -34,6 +34,41 @@ Think Input output dependencies
 
 Kiss(Keep it simple stupid) principal
 
+
+
+
+# code review 
+
+Look at the comments and description. 
+
+	Is there enough context so someone code review it? Is the back-and-forth discussion polite and helpful, perfunctory?  
+	
+	Who is doing the review (manager, tech lead, engineer?) and how long does it take? 
+	
+	Look at the code. Are there tests being added? Are there comments? Are there one character variable names or functions with no more than 7 arguments? 
+	
+	Look at the build pipeline. Are tests being run automatically? 
+	
+	Ask about how it was deployed. Was the process manual or automatic?  
+	
+	Was there a staging environment, canarying? 
+
+Use this question as the entry point to ask about the "life of a commit" and to see the cultural dynamics on the team. If they aren't willing to show an actual review - this happened about 20% of the time for Alex - then ask the remaining follow-up questions. 
+
+
+
+
+
+# Codebase tips
+
+Deprecation, in its programming sense, is the process of taking older code and marking it as no longer being useful within the codebase, usually because it has been superseded by newer code. The deprecated code is not immediately removed from the codebase because doing so may cause regression errors. 
+
+When reading documentation about new features always learn about why something was created.  
+
+Identify how important the feature is its priority, if it is a dependency for other work streams. Then keep track of key info &  Submit what you learned when asking to be reassigned to a new feature or task  
+
+
+
 ## debugging
 
 “The art of debugging is figuring out what you really told your program to do rather than what you thought you told it to do.”” — Andrew Singer 

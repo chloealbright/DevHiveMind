@@ -42,7 +42,7 @@ Then transition into talking about the Naïve approach or go straight into talki
 
 You don't need to code everything if you can mention there might be a cleaner or better way to make it more readable or optimal by refactoring certain parts you could just talk about that. 
 
-	  
+When faced with a complex problem, consider two effective strategies: First, relax constraints and break down the main problem into smaller, more manageable sub-problems. This allows for a more focused and achievable approach. Second, explore solving problems that are similar or closely related to the one at hand. This can provide insights, solutions, or methodologies that may be adapted to address the primary challenge more effectively.
 
 ## Algo tip  
 

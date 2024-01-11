@@ -33,6 +33,7 @@ Relates: "[[Negotiation]]"
    - Acknowledge that good engineers may have shorter tenures.
    - Monitor if there's a pattern of simultaneous departures among talented individuals, which could impact team morale.
 
+
 **Note:** These insights aim to help evaluate work environments, managerial attitudes, and cultural aspects to make informed decisions about job opportunities.
 
 

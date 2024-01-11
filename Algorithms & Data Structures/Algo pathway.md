@@ -26,6 +26,7 @@ It's essential to consider the broader scope of a problem and its impact on the 
 
 
 
+
 ## Handling Numeric Values
 ![[numbers.png]]
 **Numeric values can also be represented with ASCII values

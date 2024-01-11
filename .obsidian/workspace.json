@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8fa9ae2b5282734e",
+        "id": "4ce746e731048f61",
         "type": "tabs",
         "children": [
           {
-            "id": "12ab80f4f3341277",
+            "id": "878b69f996574fad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/API/API Design Basics.md",
+                "file": "Architecture/Choosing Database.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/API/API Design Basics.md",
+                "file": "Architecture/Choosing Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/API/API Design Basics.md",
+                "file": "Architecture/Choosing Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/API/API Design Basics.md"
+                "file": "Architecture/Choosing Database.md"
               }
             }
           },
@@ -247,17 +247,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "878b69f996574fad",
   "lastOpenFiles": [
+    "Architecture/System Design/System Design Thought Process Flow.md",
+    "Home.md",
     "API/Api request by layer.md",
     "_Low Priority Refinement/API/API Design Basics.md",
     "API/API Gateway.md",
     "API/API Call.md",
-    "Architecture/System Design/System Design Thought Process Flow.md",
     "API/API Design 101 From Basics to Best Practices  by Hayk Simonyan  Dec, 2023  Level Up Coding.md",
     "Infographics/Rest API Cheatsheet.gif",
     "Infographics/Data Science Path.gif",
-    "Home.md",
     "Devops/Docker/Docker Namespace in Deph.md",
     "Devops/Docker/Containerizing Microservices.md",
     "Devops/Docker/Docker Images containers Volumes.md",

@@ -12,8 +12,10 @@ Relates:
 
 
 
-Information is refined structured data
+Information is refined structured data or unrefined/refined  unstructured data
 
+
+Information can exist in both structured and unstructured forms. Refined information often refers to structured data, which is organized and formatted for specific purposes. Unrefined or unstructured data lacks a predefined format and organization or less of a predefined format that doesn't fit the standards of structured data.
 
 The main difference between unstructured data and structured data is that structured data is typically used for general stuff and it's very organized like user accounts and the information associated with that as for unstructured is typically did I like media audio, geo-location, and weather 
 
@@ -23,7 +25,11 @@ Besides that, you want the other servers for database application you would want
 
 structured data v unstructured data
 
+identify the type of data or subset of unstructured/structured data
+
 then render down to sql or nosql 
+
+for example if emails then you know its NOSQL 
 
 then render down to cap 
 

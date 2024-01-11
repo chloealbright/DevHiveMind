@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
+                "file": "Architecture/Clean Code Approach Reflection.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "IA",
+                "query": "name",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
+                "file": "Architecture/Clean Code Approach Reflection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
+                "file": "Architecture/Clean Code Approach Reflection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md"
+                "file": "Architecture/Clean Code Approach Reflection.md"
               }
             }
           },
@@ -247,11 +247,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "878b69f996574fad",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
-    "Algorithms & Data Structures/Algorithms/Iterating vs Traversing.md",
-    "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
+    "Architecture/Scope 1.md",
+    "Architecture/Scope.md",
+    "Architecture/System Scopes.md",
+    "Companies/UML & User Stories Flow/Use Case vs User Story.md",
     "Algorithms & Data Structures/Problem-solving Regimen.md",
+    "Architecture/Naming Conventions.md",
+    "Architecture/Clean Code.md",
+    "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
+    "Algorithms & Data Structures/Algorithms/Iterating vs Traversing.md",
     "Algorithms & Data Structures/Discrete math.md",
     "Architecture/Choosing Database.md",
     "Databases/Cloud Databases.md",
@@ -268,13 +274,7 @@
     "Architecture/System Design/Elements Of A Distributed Systems.md",
     "Architecture/System Design/How to Choose Resource Granularity.md",
     "Architecture/System Design/System Design Thought Process Flow.md",
-    "Architecture/System Design/Use Case vs User Story.md",
     "Architecture/Principles/GRASP Design Principles.md",
-    "Architecture/Principles/_I_nterface Segregation Principle.md",
-    "Architecture/Principles/_D_ependency Inversion.md",
-    "Architecture/Methodology/Staged Deployment.md",
-    "Architecture/Methodology/Source code vs Codebase.md",
-    "Architecture/Methodology/Deployment Strategies.md",
     "Architecture/Design Patterns Layers.pdf",
     "Infographics/Rest API Cheatsheet.gif",
     "Infographics/Data Science Path.gif",

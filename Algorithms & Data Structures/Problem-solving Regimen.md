@@ -38,7 +38,7 @@ Relates:
 	- Delve into advanced algorithm patterns for solution. 
 	- Think about what patterns can be used for the problem which can be solved with many different patterns depending on the problem itself.
 	- Keep in mind that one pattern may be more Optimal then the other.
-	- Create helper functions for code modularity also implement naming convention. 
+	- Create helper functions for code modularity also implementing proper [[Naming Conventions]]. 
 
 ## Problem Solving Template Tablet Version
 **Use Microsoft whiteboard and draw on to top of image

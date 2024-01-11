@@ -7,7 +7,7 @@ Started: 2024-01-11
 EditDate: 
 Relates:
 ---
-In SQL, it's crucial to explicitly state whether a column allows NULL values, rather than relying on defaults. Assuming nullability based on defaults can lead to confusion, especially when rules governing the omission of this option for a given datatype are complex and not easily explainable. It's essential to avoid assumptions that your team or successors might not comprehend.
+In SQL, it's crucial to explicitly state whether a column allows NULL values meaning that the value is optional vs not null meaning it is required, rather than relying on defaults. Assuming null-ability based on defaults can lead to confusion, especially when rules governing the omission of this option for a given datatype are complex and not easily explainable. It's essential to avoid assumptions that your team or successors might not comprehend.
 
 Specifying nullability is vital in a relational database designed for efficient data integrity. Constraints, defined through NULL or NOT NULL, act as safeguards against undesirable data. Use NOT NULL for columns that must not contain nulls, creating a constraint to prevent accidental omissions.
 

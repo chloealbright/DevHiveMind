@@ -9,23 +9,6 @@ Relates:
 ---
 
 
-A relational database is one which employs the relational model, in which the raw data is organized into sets of tuples, and the tuples organized into relations. This relational model imposes structure on its contents, in contrast to unstructured or semi-structured data of the various NoSQL architectures. 
-
-tuple (plural tuples) 
-
-1.  (set theory) A finite sequence of terms.  
-    
-2.  (databases) A single row in a relational database. 
-    
-3.  (computing) A set of comma-separated values passed to a program or operating system as a parameter to a function call. 
-    
-4.  (programming) A fixed-size container data type similar to a list that can hold different types of elements. 
-    
-    Both Python and Haskell have a tuple data type as well as a list data type. 
-    
-    Unlike lists, tuples are not formed by consing. 
-
-
  A record is a full row with values from all columns and a tuple is a partial row with values from specific columns 
 
 These DB has tables with rows & columns which are referred to sometimes as Field & Records 
@@ -34,29 +17,11 @@ Multiple tables with no relationships are referred to as entices  
 
 SQL can be used both as a DDL, or data definition language, and a DML, or a data manipulation language. When we create a database or modify its schema, we'll use SQL as a DDL, and when we work with data inside the structure of a database, we'll use SQL as a DML. As an example, I'll step through the creation of one of the tables we designed earlier. Keep in mind, though, you don't need to follow along with this. I just want to show you how it's done in general. As you learn more about databases, about SQL, and about your DBMS in particular, you'll learn how to do this on your system. Before we define tables, we need to create a database, and in SQL, that's done like this. Sometimes we need to tell a system to use our newly created database. Now that I have a database, I'm going to switch over to software that will let me show you SQL statements and their results. For the rest of this chapter, I'll go through some examples using SQL that you can watch but that you don't need to follow along with. If you have a DBMS to use, that's great, but the intention here is just to show you how SQL queries work in general. 
 
-When we create db we use SQL as a DDL and when inside we use SQL as a DML 
+When establishing a database, SQL serves as the Data Definition Language (DDL) for defining its structure. Once inside the database, SQL transforms into the Data Manipulation Language (DML), enabling operations on the stored data.
 
-Making something not null means it is required  
 
-You can use REFERENCE newName(othertablePrimaryKeyID) to refer othertablePrimaryKeyID as a foreign key but with name of newName 
 
-To find date range you can do this Select .. From … Where Date > specify date AND Date < specify date 
 
-In the relational model, a primary key is a single attribute, or combination of attributes, which can be used to uniquely identify a row of data in a given table. Common primary keys include vendor ID, user ID, email address, or combination of attributes considered together such as first name, last name, and city of residence, all considered together as a single entity. It should be noted that what is an acceptable primary key in one situation may not uniquely identify data instances in another. 
-
-Again in the relational model, a foreign key is an attribute or collection of attributes from one relational table whose values must match another relational table's primary key. A common use for such an organizational scheme would be to link a street address in one table to a city in another, and perhaps to a country in a third. This eliminates repetitive data input, and reduces the possibility of error, increasing data accuracy. 
-
-What Is a Composite Key in SQL?  
-
-A composite key in SQL can be defined as a combination of multiple columns, and these columns are used to identify all the rows that are involved uniquely. Even though a single column can’t identify any row uniquely, a combination of over one column can uniquely identify any record. In other words, the combination key can also be described as a primary key that is being created by using multiple columns. However, the data types of different columns could differ from each other. You can also combine all the foreign keys to create a composite key in SQL. 
-
-A unique key is a constraint in SQL which helps in uniquely identifying a record in the data table. It is can be considered somewhat similar to the Primary key as both of them guarantees the uniqueness of a record. But unlike primary key, a unique key can accept NULL values and it can be used on more than one column of the data table. 
-
-DB transaction follow ACID(Atomic Consistent Isolated Durable)  
-
- Atomic here means that the transaction is indivisible, that pieces of it can't be separated out. Consistency means that whatever the transaction does, it needs to leave the database in a valid or consistent state. The actions in a transaction can't violate integrity rules that are defined for the database. Isolation means that while the activities in the transaction are being completed, nothing else can make changes to the data involved. If we were in the middle of moving money from one account to another, and the user submitted another transfer request, that request would have to wait until the first one finishes completely. Durability means that the information we change in the transaction actually gets written to the database. When the transaction is reported as complete, the data is there. The change has been made.  
-
-If error occurs during transaction and a step isn't completed the transaction changes are undone  
 
 MySQL, an open-source DBMS that includes a few other useful features on top of the SQL standard. SQL allows us to write statements which the DBMS interprets, and that's how we interact with the data in the database, from apps, or even within the DBMS itself. 
 
@@ -70,7 +35,7 @@ when records need to be related in a many-to-many relationship  An associative
 
  TIMESTAMP is great for recording when an order was placed, for example. We'll use DATE for the Birthday field, and DATETIME for events and reservations, because the time as well as the date, is important for those. 
 
-. Null is a value that represents the absence of a value. It's often used to represent a missing value in a database. If we don't have someone's phone number, we don't store the value false, for example, or a placeholder like zero. We use null to indicate that a value is missing rather than some placeholder value that might cause problems later on. Null isn't a data type. It's more of a condition. We talk about no values as being null or not null rather than being equal to null. If there's a value in a cell, than the cell, whatever type it is, is not null. Even if a cell contains the text "null," it's not null. If there's a missing value, no value at all, not even false or zero, that value is null. And when we define the columns later on, we'll have the opportunity to say whether a column can contain null values and whether the default value for a column is null or something else. 
+
 
 There's another kind of key too called a composite key. This is what we get when we use more than one field to uniquely identify a record. A composite key might be a combination of a first name, last name, and phone number, if the combination of all of those values is unique for every row. Usually, we'll want to use a single key, but if for some reason we can't add a key column to a particular table, and that table doesn't have one single column that can act as a natural key, we may need to use a composite key instead. We've defined all the primary keys that we'll need for now. In a little bit, we'll see how to use these as foreign keys, but first, we need to explore relationships between tables. 
 

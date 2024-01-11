@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/DB Fundamentals/Data.md",
+                "file": "Databases/DB Fundamentals/GUIDs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9512e35ed5ad4fbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/DB Fundamentals/Other Stuff.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "46d95cdbdf9e4fb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases/DB Fundamentals/Transaction.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "0206b533269595fe",
@@ -131,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database Core Functionality.md",
+                "file": "Databases/DB Fundamentals/Other Stuff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database Core Functionality.md",
+                "file": "Databases/DB Fundamentals/Other Stuff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database Core Functionality.md"
+                "file": "Databases/DB Fundamentals/Other Stuff.md"
               }
             }
           },
@@ -277,24 +302,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f181c4876fd00ade",
+  "active": "9512e35ed5ad4fbb",
   "lastOpenFiles": [
-    "Databases/DB Fundamentals/Data.md",
-    "Databases/Constraint Types.md",
-    "Home.md",
-    "Databases/DB Fundamentals/Other Stuff.md",
     "Databases/Database Core Functionality.md",
+    "Databases/DB Fundamentals/Other Stuff.md",
+    "Databases/DB Fundamentals/Transaction.md",
+    "Databases/Mock Data.md",
+    "Databases/DB Fundamentals/GUIDs.md",
+    "Databases/Constraint Types.md",
+    "Databases/DB Fundamentals/Data.md",
+    "Home.md",
     "Databases/DBMS Keys.md",
     "Databases/Record Life Cycle.md",
-    "Databases/DB Fundamentals/GUIDs.md",
-    "Databases/DB Fundamentals/Transaction.md",
     "Databases/Tables Without UUID.md",
     "Databases/Table With Non-Unique Records.md",
     "Databases/Password Hashing.md",
     "Databases/Knex.md",
     "Databases/Dump File.md",
     "Databases/Normalization & Denormalization.md",
-    "Databases/DB Fundamentals/Mock Data.md",
     "Databases/DB Fundamentals/Data formats.md",
     "Databases/Troubleshooting Queries.md",
     "Databases/DB Fundamentals/conf.md",

@@ -42,25 +42,37 @@ We can use foreign key restraints to help maintain referential integrity of ou
 
 
 ![[Database Processes.gif]]
+In the context of SQL and relational databases, DCL, DDL, DML, and DQL are the primary sub-languages that cover most of the operations related to database management. However, it's worth noting that there are some additional concepts or features that might be considered separate from these sub-languages:
 
+1. **TCL (Transaction Control Language):**
+   - **Purpose:** TCL is used to manage transactions within a database. It includes commands to control the beginning and ending of transactions, as well as to undo or commit changes.
+   - **Commands:**
+     - `COMMIT`: Saves all changes made during the current transaction.
+     - `ROLLBACK`: Undoes changes made during the current transaction.
+     - `SAVEPOINT`: Sets a point within a transaction to which you can later roll back.
+
+   Example:
+   ```sql
+   BEGIN TRANSACTION;
+   -- SQL statements
+   COMMIT;
+   ```
+
+2. **Session Control Statements:**
+   - **Purpose:** These statements are used to control the characteristics of a database session.
+   - **Commands:**
+     - `SET`: Modifies the session-specific settings, such as the isolation level.
+     - `USE`: Specifies the default database for a session.
+
+   Example:
+   ```sql
+   SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
+   USE database_name;
+   ```
+
+While DCL, DDL, DML, and DQL are fundamental to SQL, TCL and session control statements are additional components that play roles in managing transactions and customizing the behavior of database sessions. The specific features and sub-languages may vary slightly among different database management systems, as some systems may have their own extensions or variations.
 ![[Sql Exe Order.gif]]
 
 
 ![[Execution Order.jpg]]
 
-
-## Data Definition
-
-Data refers to facts and statistics collected for reference or analysis, including factual information used as a basis for reasoning, digital information for transmission or processing, and output from sensing devices. Essentially, everything mentioned about data aligns with the broader concept of information.
-
-### Information Definition
-
-Information is knowledge obtained from investigation, study, or instruction. It involves attributes communicated through sequences or arrangements, signals in communication systems, and quantitative measures. Comparatively, information is more valuable than data as it is created through communication after data analysis, highlighting its role in providing insight and knowledge.
-
-### Cardinality in Databases
-
-Cardinality pertains to the number of unique values in a relational table column relative to total rows. Database administrators assess and store cardinality in system tables for optimization purposes. A database not only stores data but ensures growth, change, sharing, speed, searchability, reliability, interdependence, consistency, protection, and security over time.
-
-### Database Complexity
-
-Databases are not merely for storage; they involve structured data with intricate planning. Companies manage multiple databases covering various data scopes. Indexing, serving as an internal map in databases between primary keys and other tables, establishes crucial relationships.

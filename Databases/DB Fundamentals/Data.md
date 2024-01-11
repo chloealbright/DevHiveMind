@@ -51,49 +51,6 @@ Companies have many databases representative scopes of data 
 An index is a internal map in DB between the primary key and other tables and there relationships
 
 
-## When to use certain Data Types
-
-The three most common are Character, Numeric, & Date/time 
-
--   Numeric 
-    
-    -   For whole numbers  
-        
-        -   integer(-2 bill to pos 2 bill),  
-            
-        -   small-Int, or big-Int  
-            
-    -   Decimals typically decimal else numeric to be more precise in decimal places 
-        
-    -   Use Real or Double for precision floating point values 
-        
-    
-
--   Character 
-    
-    -   Character for fixed string or char for something that has fixed length else if no fixed length varchar  
-        
-    -   For unlimited text use Text type 
-        
-    
-
--   Date/time 
-    
-    -   Date stores from 4713 bc to 5874897 ad 
-        
-    -   Time will store day accurate to 1 micro second 
-        
-    -   Timestamp records both time and date in same column 
-        
-    -   Timestamp with tie zone adds time zone awareness 
-        
-    
-
-Zip code should be text in table and not integer because it adds a zero at beginning automatically 
-
-[https://adamtheautomator.com/sql-server-data-types/](https://adamtheautomator.com/sql-server-data-types/)
-
-
 
 
 

@@ -29,7 +29,8 @@ Here's a simple example in the context of a hypothetical "Users" table:
 CREATE TABLE Users (
     UserID INT PRIMARY KEY,
     UserName VARCHAR(255),
-    IsActive BOOLEAN
+    IsActive BOOLEAN,
+    UserZipCode TEXT
 );
 ```
 
@@ -37,7 +38,7 @@ In this example, the `IsActive` column could be set to `true` for active users a
 
 Using the "is active" column provides a flexible and scalable way to manage the lifecycle of records in a database, especially when dealing with scenarios where data might transition between active and inactive states.
 
-
+Side note Zip code should be text in table and not integer because it adds a zero at beginning automatically 
 ## Example
 
 Consider a one-to-many relationship example: Imagine you have a table for customers purchasing alcohol, and another table for order IDs. The order table contains a foreign key, the customer ID, referencing the primary key of the customer table. Since a customer can place multiple orders for different or similar products on different dates, you might have duplicate customer IDs for the same person in the order table.

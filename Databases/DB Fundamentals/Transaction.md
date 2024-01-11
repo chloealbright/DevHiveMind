@@ -7,10 +7,6 @@ Started:
 EditDate: 
 Relates:
 ---
-https://fauna.com/blog/database-transaction
-
-
-
 A transaction is a collection of database operations that are treated as a unit. PostgreSQL guarantees that all the operations within a transaction complete or that none of them complete. This is an important property? It ensures that if something goes wrong in the middle of a transaction, changes made before the point of failure will not be reflected in the database. A transaction usually starts with a BEGIN command and ends with a COMMIT or ROLLBACK (see the next entries). 
 
 A commit marks the successful end of a transaction. When you perform a commit, you are telling PostgreSQL that you have completed a unit of operation and that all the changes that you made to the database should become permanent. 
@@ -54,8 +50,6 @@ Geospatial datatypes – Data types which are specifically optimized for storage
 
 Grouped Lock Request – A single operation that requests locks on more than one table or rows at a time. Either all or none of the requested locks will be granted. Issuing a grouped lock request at the beginning of a transaction that includes all of the tables/rows that can potentially be accessed by the transaction guarantees that a deadlock will not occur.
 
-
-
 Hash – An indexing method that provides for a fast retrieval (usually in only one additional disk access) of the row that has a matching column value. See Wikipedia  
 
 Hierarchical Model – A special case of a network model database in which each record type can participate only as the member of one set. 
@@ -80,9 +74,6 @@ Little-Endian – The little-endian convention is a type of addressing that refe
 
 Little-endian is the opposite of big-endian, which stores the most significant bit first. Because they are opposites, it is difficult to integrate two systems that use different endian conventions.
 
-
-
-
 Local Procedure Call – A software function call to a library function that exists in-process (same computer, same process space). This is in contrast to Remote Procedure Calls (RPC) which are to functions that reside a different process, whether they are the same computer (using interprocess communication) or a remote computer (using networking). Local procedure calls are significantly faster than remote procedure calls, but require computing resources on the local (client) computer. 
 
 Locking – A method for safely protecting objects from being changed by two or more users (processes/threads) at the same time. A write (exclusive) lock allows access from only one user (process/thread) at a time. A read (shared) lock allows read-only access from multiple users (processes/threads). 
@@ -90,10 +81,6 @@ Locking – A method for safely protecting objects from being changed by two or 
 Memory Database – A DBMS that keeps the entire contents of a database or table available in computer memory at all times while the database is opened. Frequently, in-memory databases are volatile, meaning that they have little or no durability if the computer malfunctions. Durability issues are frequently prioritized below performance, which increases substantially with memory as the storage media. 
 
 Mirroring – The ability to copy the changes each transaction made to the database from the master database to one or more slave databases so that exact copies of the master database are always available on the slaves.
-
-
-
-
 
 Modification Stored Procedure – An SQL stored procedure that contains one or more INSERT, UPDATE, and/or DELETE statements. 
 
@@ -107,15 +94,7 @@ Page – The basic unit of database file input/output. Database files may be org
 
 Positioned Update/Delete – An SQL UPDATE or DELETE statement that modifies the current row of a cursor.
 
-
-
-
-
 Raima Database Manager is an ACID-compliant embedded database management system designed for use in embedded systems applications. RDM has been designed to utilize multi-core computers, networking, and on-disk or in-memory storage management
-
-
-
-
 
 Read-only Transaction – A Multi-Version Concurrency Control (MVCC) feature that allows database data to be read by one process without blocking another process’s modification of that same data. Frequently referred to as a “snapshot.” 
 

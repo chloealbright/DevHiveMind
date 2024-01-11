@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Transaction.md",
+                "file": "Databases/DB Fundamentals/Other Stuff.md",
                 "mode": "source",
                 "source": false
               }
@@ -169,6 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Databases/DB Fundamentals/Other Stuff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,6 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Databases/DB Fundamentals/Other Stuff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/_Infographic/Database & Data Structrues.jpg"
+                "file": "Databases/DB Fundamentals/Other Stuff.md"
               }
             }
           },
@@ -313,9 +315,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "46d95cdbdf9e4fb6",
   "lastOpenFiles": [
     "Databases/Transaction.md",
+    "Databases/_Infographic/Database & Data Structrues.jpg",
     "Databases/DB Fundamentals/Other Stuff.md",
     "Architecture/Choosing Database.md",
     "Home.md",
@@ -340,7 +343,6 @@
     "Architecture/Arch to think about.md",
     "Architecture/Codebase Level Scaling & Optimization.md",
     "Architecture/Concurrency Vs Horizontal Scaling.md",
-    "Architecture/Event-driven Architectural Pattern Decisions.md",
     "Architecture/Design Patterns Layers.pdf",
     "Infographics/Rest API Cheatsheet.gif",
     "Infographics/Data Science Path.gif",
@@ -351,7 +353,6 @@
     "Infographics/Data Stores.gif",
     "Infographics/Data Pipline.gif",
     "Databases/_Infographic/ID Generators.gif",
-    "Infographics/Architecture/Cache 1.jpeg",
     "Databases/_Infographic",
     "_Cheatsheet/SQL-cheat-sheet.pdf",
     "Architecture/Database Archetecture",

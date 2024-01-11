@@ -27,43 +27,13 @@ Write Numbers as Numbers When Possible 
 
 If using a number, without units, it should never be a string. 
 
-Incorrect fontWeight: "700", 
 
-[https://tracflo.slab.com/posts/react-standards-eijb0gjk](https://tracflo.slab.com/posts/react-standards-eijb0gjk) 
 
-# Errors and Warnings 
 
-Never merge your code or create a pull request with errors or warnings in the terminal from Eslint or otherwise. 
 
-# File, Function, and Variable Names 
 
-React components should always use PascalCase, and are the only files that use PascalCase (first letter uppercase). All other files should use camelCase (first letter lowercase). Stick with .js, we don't use .jsx. 
 
-ReactComponent.js 
 
-functionFile.js 
-
-While there are probably exceptions, function and variable names will also follow the above rule. If a function or variable name refers to a react component, it will use PascalCase, otherwise use camelCase. 
-
-If you need to define a constant, like the environment variables, it should use uppercase snake_case, eg: UPPERCASE_SNAKE_CASE. 
-
-# Acronyms 
-
-In PascalCase and snakeCase, acronyms should generally only have the first letter capitalized: 
-
-RgbCode, UrlEndpoint 
-
-# Avoid Abbreviations 
-
-no args => yes arguments 
-
-here are times where abbreviations can make sense. Using i and/or l in a for loop for example  
-
-for (let i = 0, l = array.length; i < l; i++) {} 
-
-# General Formatting 
-
-Your text editor should honor .editorconfig files. Our editor config sets the editor to match Prettier and Eslint rules where possible. Tabs, for example, will be two spaces. This is a common JavaScript development standard.
 
 # Codebase tips
 

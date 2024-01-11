@@ -22,6 +22,8 @@ Clean code principles lead to highly modular source code easier to read and test
 - Keep it simple stupid. Simpler is always better. Reduce complexity as much as possible.
 - Boy scout rule. Leave the campground cleaner than you found it.
 - Always find root cause. Always look for the root cause of a problem.
+- Never merge your code or create a pull request with errors or warnings in the terminal from Eslint or otherwise. 
+- Your text editor should honor .editorconfig files. Our editor config sets the editor to match Prettier and Eslint rules where possible. Tabs, for example, will be two spaces. This is a common JavaScript development standard.
 
 ## Design rules
 - Keep configurable data at high levels.

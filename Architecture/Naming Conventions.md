@@ -115,3 +115,32 @@ const confirmedAppointmentEvent = new AppointmentConfirmed("123", new Date());
 ```
 
 Using past tense in event naming helps convey that the event represents something that has already occurred in the domain.
+
+
+
+
+# File, Function, and Variable Names 
+
+React components should always use PascalCase, and are the only files that use PascalCase (first letter uppercase). All other files should use camelCase (first letter lowercase). Stick with .js, we don't use .jsx. 
+
+ReactComponent.js 
+
+functionFile.js 
+
+While there are probably exceptions, function and variable names will also follow the above rule. If a function or variable name refers to a react component, it will use PascalCase, otherwise use camelCase. 
+
+If you need to define a constant, like the environment variables, it should use uppercase snake_case, eg: UPPERCASE_SNAKE_CASE. 
+
+# Acronyms 
+
+In PascalCase and snakeCase, acronyms should generally only have the first letter capitalized: 
+
+RgbCode, UrlEndpoint 
+
+# Avoid Abbreviations 
+
+no args => yes arguments 
+
+here are times where abbreviations can make sense. Using i and/or l in a for loop for example  
+
+for (let i = 0, l = array.length; i < l; i++) {} 

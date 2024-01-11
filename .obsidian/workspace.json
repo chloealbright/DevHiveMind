@@ -124,8 +124,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -145,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database Table Relationship Types.md",
+                "file": "Databases/DB Fundamentals/Other Stuff.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database Table Relationship Types.md",
+                "file": "Databases/DB Fundamentals/Other Stuff.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database Table Relationship Types.md"
+                "file": "Databases/DB Fundamentals/Other Stuff.md"
               }
             }
           },
@@ -291,19 +290,22 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9e0acdf9ca3f5cd7",
+  "active": "a7ca086244391d57",
   "lastOpenFiles": [
+    "Databases/Foreign Key Referential Actions.md",
+    "Databases/DB Fundamentals/Other Stuff.md",
+    "Databases/Knex.md",
+    "Databases/Dump File.md",
+    "Databases/Database Table Relationship Types.md",
     "Databases/DBMS Keys.md",
     "Architecture/App Layers/Infrastructure.md",
     "Databases/Normalization & Denormalization.md",
     "Databases/Types of Tables in logical database models.md",
-    "Databases/DB Fundamentals/Other Stuff.md",
     "Databases/Using Null.md",
     "Architecture/Choosing Database.md",
     "Databases/Functional Dependencies.md",
     "Language/Typescript/Custom Type.md",
     "Language/Typescript/Custom Typ.md",
-    "Databases/Knex.md",
     "Databases/Database Core Functionality.md",
     "Databases/GUIDs.md",
     "Databases/Transaction.md",
@@ -316,10 +318,7 @@
     "Databases/Tables Without UUID.md",
     "Databases/Table With Non-Unique Records.md",
     "Databases/Password Hashing.md",
-    "Databases/Dump File.md",
     "Databases/DB Fundamentals/Data formats.md",
-    "Databases/Troubleshooting Queries.md",
-    "Databases/DB Fundamentals/conf.md",
     "Architecture/Design Patterns Layers.pdf",
     "Infographics/Rest API Cheatsheet.gif",
     "Infographics/Data Science Path.gif",

@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Data Project Idea.md",
+                "file": "Architecture/Software Architectural Patterns.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Data Project Idea.md",
+                "file": "Architecture/Software Architectural Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Data Project Idea.md",
+                "file": "Architecture/Software Architectural Patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Data Project Idea.md"
+                "file": "Architecture/Software Architectural Patterns.md"
               }
             }
           },
@@ -296,8 +296,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "99cdb314cc36f8cf",
   "lastOpenFiles": [
+    "Architecture/Software Architecture vs System Design.md",
+    "Architecture/Decentralized Data Management.md",
+    "_Low Priority Refinement/Data Project Idea.md",
     "_Low Priority Refinement/Talking More Articulate Template.md",
     "Mind Maps/Drawing 2024-01-12 11.49.00.excalidraw.md",
     "Framework/Backend/Express.js.md",
@@ -321,9 +324,6 @@
     "Devops/Docker/Docker and kubernetes.md",
     "Devops/Docker/Containerizing Microservices.md",
     "Devops/Docker/Bind Mount.md",
-    "Devops/Build/Overview of Build Automation.md",
-    "Devops/Stages.md",
-    "Devops/Test Automation.md",
     "Databases/_Infographic/Database & Data Structrues.jpg",
     "Architecture/Design Patterns Layers.pdf",
     "Infographics/Rest API Cheatsheet.gif",

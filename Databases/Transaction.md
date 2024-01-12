@@ -8,7 +8,7 @@ EditDate:
 Relates:
 ---
 ### Transactions
-- A transaction is a collection of database operations treated as a unit.
+- A database transaction is  a sequence of operations that is performed on a database that can also be performed as a single unit of work typically through [[Stored Procedure]] or alternative methods.
 - PostgreSQL ensures that all operations within a transaction either complete entirely or none of them do.
 - This property prevents incomplete changes in case of a failure during a transaction.
 - Transactions typically begin with a BEGIN command and end with a COMMIT or ROLLBACK.

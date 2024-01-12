@@ -130,7 +130,7 @@ When deciding between NoSQL and SQL databases, assess the team's expertise, proj
 - **Workload Analysis:** Heavy read/write operations may favor NoSQL's performance advantages.
 
 >[!node]
->Side note if you use other databases like an H2 in embedded mode it can help in terms of running a database in a restricted environment like TD but it restricts the access of the database to external services that you may want to connect to
+>Side note if you use other databases like an H2 in embedded mode it can help in terms of running a database in a restricted environment like TD bank but it restricts the access of the database to external services that you may want to connect to
 
-#### **Conclusion:**
+#### Conclusion:
 The choice hinges on your project's unique needs. Factors like scalability, data structure, and workload should guide the decision-making process.

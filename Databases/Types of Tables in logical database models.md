@@ -59,6 +59,6 @@ In database design, logical models help define the structure and organization of
   
 10. **Queue Tables**: These tables are used to implement message queues, often in messaging systems. They store messages to be processed asynchronously.  
   
-12. **Linking or Junction Tables**: In many-to-many relationships, linking or junction tables are used to connect records from two other tables. They resolve the many-to-many relationship into two one-to-many relationships.  
+12. **Linking or Junction Tables**: In many-to-many relationships, linking or junction tables are used to connect records from two other tables. They resolve the many-to-many relationship into two one-to-many relationships.  linking tables model pure relationships rather than entities, the rows of an linking table do not represent entities. Instead, they describe the relationships among the entities the table represents. 
   
 13. **Blob Tables**: Blob (Binary Large Object) tables store binary data, such as images, documents, or multimedia files. They are used to manage and retrieve large binary data efficiently.

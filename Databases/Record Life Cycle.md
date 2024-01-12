@@ -7,7 +7,10 @@ Started:
 EditDate: 
 Relates:
 ---
+ A record is a full row with values from all columns/fields and a tuple is a partial record/row or subset of records with values from specific columns/fields. 
+
 The "is active" column in a database table is typically used to indicate whether a particular record or entry in the table is currently active or inactive. This column is often a boolean (true/false) or a binary (1/0) field. The purpose of this column is to provide a simple way to manage and filter data based on its active status.
+
 
 Here's a more detailed explanation:
 

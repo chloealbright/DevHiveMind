@@ -9,6 +9,10 @@ Relates:
 ---
 A database is a named collection of tables with fields or columns and records or rows. A database can also contain views, indexes, sequences, data types, operators, and functions. 
 
+When establishing a database, SQL serves as the Data Definition Language (DDL) for defining its structure. Once inside the database, SQL transforms into the Data Manipulation Language (DML), enabling operations on the stored data.
+
+MySQL, is a open-source DBMS that includes a few other useful features on top of the SQL standard. SQL allows us to write statements which the DBMS interprets, and that's how we interact with the data in the database, from apps, or even within the DBMS itself. 
+
 Besides that they are also constraints which are the rules enforced on the data columns of a table. These are used to limit the type of data that can go into a table. This ensures the accuracy and reliability of the data in the database. 
 
 Constraints could be either on a column level or a table level. The column level constraints are applied only to one column, whereas the table level constraints are applied to the whole table. 

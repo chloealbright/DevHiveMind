@@ -4,65 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e922dd6a88152547",
+        "id": "d051dc5b5b539088",
         "type": "tabs",
         "children": [
           {
-            "id": "a7ca086244391d57",
+            "id": "24f21ef6867f2183",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases/Database Core Functionality.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
         ]
-      },
-      {
-        "id": "0206b533269595fe",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f181c4876fd00ade",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Using Null.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "041e8e4b2f484872",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/DBMS Keys.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e0acdf9ca3f5cd7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases/Database Table Relationship Types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -144,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases/Database Core Functionality.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databases/Database Core Functionality.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databases/Database Core Functionality.md"
+                "file": "Home.md"
               }
             }
           },
@@ -290,35 +247,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a7ca086244391d57",
+  "active": "24f21ef6867f2183",
   "lastOpenFiles": [
-    "Databases/DB Fundamentals/Other Stuff.md",
+    "Databases/Stored Procedure.md",
+    "Databases/Transaction.md",
+    "Databases/Types of Tables in logical database models.md",
+    "Databases/Database Core Functionality.md",
+    "Databases/Database Relationship With Endpoints & Interfaces.md",
+    "Databases/Database Table Relationship Types.md",
+    "Databases/Database Sharding.md",
+    "Databases/DBMS Keys.md",
     "Databases/Foreign Key Referential Actions.md",
+    "Databases/Normalization & Denormalization.md",
+    "Databases/Relationship Reading.md",
+    "Databases/Self-joining relationships.md",
+    "Databases/Tables Without UUID.md",
+    "Architecture/Choosing Database.md",
+    "Databases/Record Life Cycle.md",
+    "Home.md",
     "Databases/Knex.md",
     "Databases/Dump File.md",
-    "Databases/Database Table Relationship Types.md",
-    "Databases/DBMS Keys.md",
     "Architecture/App Layers/Infrastructure.md",
-    "Databases/Normalization & Denormalization.md",
-    "Databases/Types of Tables in logical database models.md",
     "Databases/Using Null.md",
-    "Architecture/Choosing Database.md",
     "Databases/Functional Dependencies.md",
     "Language/Typescript/Custom Type.md",
     "Language/Typescript/Custom Typ.md",
-    "Databases/Database Core Functionality.md",
     "Databases/GUIDs.md",
-    "Databases/Transaction.md",
     "Databases/_Infographic/Database & Data Structrues.jpg",
-    "Home.md",
     "Databases/Mock Data.md",
     "Databases/Constraint Types.md",
-    "Databases/DB Fundamentals/Data.md",
-    "Databases/Record Life Cycle.md",
-    "Databases/Tables Without UUID.md",
-    "Databases/Table With Non-Unique Records.md",
-    "Databases/Password Hashing.md",
-    "Databases/DB Fundamentals/Data formats.md",
     "Architecture/Design Patterns Layers.pdf",
     "Infographics/Rest API Cheatsheet.gif",
     "Infographics/Data Science Path.gif",

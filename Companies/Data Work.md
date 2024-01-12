@@ -27,7 +27,7 @@ For an organization with hundreds and thousands of data sets, it needs Data Cata
 
 Data governance is to enforce data defining processes. The maturity of data catalog and data governance directly correlates with the degree of efficiency in a data organization to make the data well understood, trusted, and leveraged.  
 
-The lack of it leads to waste of resources due to confusion, excessive time spent in meetings to grab information, data duplications, unnecessary errors in the data, and black boxes of data as treated by business users.  
+The lack of it leads to waste of resources due to confusion, excessive time spent in meetings to grab information, data duplication's, unnecessary errors in the data, and black boxes of data as treated by business users.  
 
 Furthermore, as an organization matures in data governance, documenting the data by working directly with the Data Catalog should become a habit for everyone who works with or uses the data, ultimately leading to a happy business community given the transparency to trust the data provided to them. 
 

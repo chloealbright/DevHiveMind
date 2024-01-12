@@ -25,12 +25,12 @@ An Enterprise’s goal with build automation is to recreate the entire productio
 
 There are several benefits Enterprises can gain by utilizing build automation.  These include: 
 
--   Increased productivity so developers can focus on delivering more value. 
-    
--   Improvements in quality because issues are found and resolved faster. 
-    
--   Maintains a historical record for investigating issues. 
-    
+- Increased productivity so developers can focus on delivering more value. 
+ 
+- Improvements in quality because issues are found and resolved faster. 
+ 
+- Maintains a historical record for investigating issues. 
+  
 
 The aforementioned benefits lead to the ultimate benefits of saving time and money. 
 
@@ -42,24 +42,23 @@ The aforementioned benefits lead to the ultimate benefits of saving time and mon
 
 Before Enterprises adopt build automation, they must first develop a strategy that will outline the following: 
 
--   Build Automation process - understand the build process flow. Document the current process. Decide if some or all of the processes will be automated. 
-    
--   Determine which tools are needed. Create current and future state diagrams. Analyze if new tools need to be implemented to support the build automation. Conduct PoCs if necessary to better understand how the tools would work in your environment. 
-    
--   Analyze your talent skills- there might be knowledge gaps that can be filled with training or hiring new talent. 
-    
--   Measure success by documenting key metrics such as:  
-    
-    -   The <b>number of features</b> indicates the number of implemented changes and maps to create business value. 
-        
-    -   <b> Average build time</b>  indicates the average time to perform a build. 
-        
-    -   The percentage of failed builds impacts the overall team output due to rework. 
-        
-    -   <b>Change implementation lead time </b> affects the number of releases per period and overall product roadmap planning. 
-        
-    -   The <b>frequency of builds </b> indicates the overall output and activity of the project. 
-        
+- Build Automation process - understand the build process flow. Document the current process. Decide if some or all of the processes will be automated. 
+ 
+- Determine which tools are needed. Create current and future state diagrams. Analyze if new tools need to be implemented to support the build automation. Conduct PoCs if necessary to better understand how the tools would work in your environment. 
+ 
+- Analyze your talent skills- there might be knowledge gaps that can be filled with training or hiring new talent. 
+ 
+- **Measure success by documenting key metrics such as:**  
+    - The <b>number of features</b> indicates the number of implemented changes and maps to create business value. 
+
+    - <b>Average build time</b>  indicates the average time to perform a build. 
+
+    - The percentage of failed builds impacts the overall team output due to rework. 
+
+    - <b>Change implementation lead time </b> affects the number of releases per period and overall product roadmap planning. 
+
+    - The <b>frequency of builds </b> indicates the overall output and activity of the project. 
+
 
 # Categories of Build Automation tools 
 
@@ -69,22 +68,21 @@ Server tools are general web-based tools that execute build automation utilities
 
 These are the classification levels: 
 
--   Makefile  
-    
-    -   Make-based tools - a few examples are GNU make, make, and PVCS-make. 
-        
-    -   Non-Make-based tools - Apache Ant, Apache Maven, and Grade can also act as servers. Other examples include Perforce Jam, Rake, Stack, and Psake. 
-        
--   Build script(Makefile) generation tools - a few examples include CMake, GNU Build Systems (Autotools), and Meson. 
-    
--   Continuous Integration tools - a few examples include CircleCI, Jenkins, GitHub, GitLab, TravisCI, and BitBucket. 
-    
--   Configuration management tools - a few examples include Ansible, Chef, Puppet, and Salt. 
-    
--   Meta-build tools or package managers - a few examples include Homebrew, Pkgsrc, and Nix. 
-    
--   Other - another example is Open Build Service. 
-    
+- **Makefile:**  
+    - **Make-based tools:** a few examples are GNU make, make, and PVCS-make. 
+
+    - **Non-Make-based tools:** Apache Ant, Apache Maven, and Grade can also act as servers. Other examples include Perforce Jam, Rake, Stack, and Psake. 
+
+- **Build script(Makefile) generation tools:** a few examples include CMake, GNU Build Systems (Autotools), and Meson. 
+
+- **Continuous Integration tools:** a few examples include CircleCI, Jenkins, GitHub, GitLab, TravisCI, and BitBucket. 
+
+- **Configuration management tools:** a few examples include Ansible, Chef, Puppet, and Salt. 
+
+- **Meta-build tools or package managers:** a few examples include Homebrew, Pkgsrc, and Nix. 
+ 
+- **Other:** another example is Open Build Service. 
+
 
 # Use Case 
 

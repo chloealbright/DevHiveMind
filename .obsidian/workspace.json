@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Companies/Contribution Metrics.md",
+                "file": "Devops/Stages.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "112dbe559e3b0eb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Devops/Build/Overview of Build Automation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Companies/Contribution Metrics.md",
+                "file": "Devops/Build/Overview of Build Automation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Companies/Contribution Metrics.md",
+                "file": "Devops/Build/Overview of Build Automation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Companies/Contribution Metrics.md"
+                "file": "Devops/Build/Overview of Build Automation.md"
               }
             }
           },
@@ -247,34 +260,34 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ab957339d40f873b",
+  "active": "112dbe559e3b0eb2",
   "lastOpenFiles": [
-    "Companies/12 Key Metrics for Measuring Service Performance.md",
-    "Companies/Culture/Navigating Work Dynamics.md",
-    "Error Log/Type of errors.md",
-    "Error Log/Language Error.md",
-    "Home.md",
-    "Databases/Stored Procedure.md",
-    "Databases/Transaction.md",
-    "Databases/Types of Tables in logical database models.md",
-    "Databases/Database Core Functionality.md",
-    "Databases/Database Relationship With Endpoints & Interfaces.md",
-    "Databases/Database Table Relationship Types.md",
-    "Databases/Database Sharding.md",
-    "Databases/DBMS Keys.md",
-    "Databases/Foreign Key Referential Actions.md",
-    "Databases/Normalization & Denormalization.md",
-    "Databases/Relationship Reading.md",
-    "Databases/Self-joining relationships.md",
-    "Databases/Tables Without UUID.md",
-    "Architecture/Choosing Database.md",
-    "Databases/Record Life Cycle.md",
-    "Databases/Knex.md",
-    "Databases/Dump File.md",
-    "Architecture/App Layers/Infrastructure.md",
-    "Databases/Using Null.md",
-    "Databases/Functional Dependencies.md",
-    "Language/Typescript/Custom Type.md",
+    "Devops/Stages.md",
+    "Devops/Test Automation.md",
+    "Devops/Terraform.md",
+    "Devops/Hypervisors.md",
+    "Devops/Continuous Deployment.md",
+    "Devops/Continuous Integration.md",
+    "Devops/Deployment artifacts.md",
+    "Devops/Deployment Patterns.md",
+    "Devops/GitHub Actions.md",
+    "Companies/Interview/Interview Process.md",
+    "Companies/Money Talk/Negotiation.md",
+    "Companies/Money Talk/Decide between Salary and Equity.md",
+    "Companies/UML & User Stories Flow/Process of gathering requirements.md",
+    "Companies/UML & User Stories Flow/Features for a driving school.md",
+    "Companies/UML & User Stories Flow/Epics to user stories with acceptance criteria.md",
+    "Companies/UML & User Stories Flow/Class Diagram Example.md",
+    "Companies/Tech company hiring cycle & Hustle.md",
+    "Companies/Software Carpentier Journey.md",
+    "Companies/Employment Best Personal Practices.md",
+    "Companies/Data Work.md",
+    "_Low Priority Refinement/Contribution Metrics.md",
+    "_Low Priority Refinement/12 Key Metrics for Measuring Service Performance.md",
+    "Cloud/AWS/AWS Cloud Services.md",
+    "API/Type of APIs.md",
+    "API/Api request by layer.md",
+    "API/API pass-through.md",
     "Databases/_Infographic/Database & Data Structrues.jpg",
     "Architecture/Design Patterns Layers.pdf",
     "Infographics/Rest API Cheatsheet.gif",

@@ -66,7 +66,7 @@ Incorporating performance metrics into your technical resume can effectively sho
   - Demonstrated the ability to enhance user experience by optimizing software processes.
   - Achieved an impressive throughput of 40 users per hour during peak periods.
 
-This statistic translates to an annual user interaction rate of 350.4, highlighting sustained efficiency and proficiency in handling high workloads. Also elongate stats like for example instead of saying something like 1 year say may 12 month
+This statistic translates to an annual user interaction rate of 350.4, highlighting sustained efficiency and proficiency in handling high workloads. Also elongate stats like for example instead of saying something like 1 year say may 12 or 16 months etc.. 
 
 
 

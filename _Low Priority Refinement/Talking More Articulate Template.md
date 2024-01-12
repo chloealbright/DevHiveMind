@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - random
 author:
   - jacgit18
 Status: Organize
@@ -51,7 +52,7 @@ Border: disabled
 - 
 
 
-## Quotes & Proverbs
+## Quotes
 
 
 - 

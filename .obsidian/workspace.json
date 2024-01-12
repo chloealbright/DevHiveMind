@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Framework/Backend/Express.js.md",
+                "file": "_Low Priority Refinement/Data Project Idea.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,6 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_Low Priority Refinement/Data Project Idea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,6 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_Low Priority Refinement/Data Project Idea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mind Maps/Drawing 2024-01-12 11.49.00.excalidraw.md"
+                "file": "_Low Priority Refinement/Data Project Idea.md"
               }
             }
           },
@@ -296,8 +298,9 @@
   },
   "active": "c18a64a686e80f59",
   "lastOpenFiles": [
-    "Framework/Backend/Express.js.md",
+    "_Low Priority Refinement/Talking More Articulate Template.md",
     "Mind Maps/Drawing 2024-01-12 11.49.00.excalidraw.md",
+    "Framework/Backend/Express.js.md",
     "Framework/Backend/Apache vs Tomcat.md",
     "Language/Typescript/Node.js.md",
     "Devops/Docker/Docker Images containers Volumes.md",
@@ -321,7 +324,6 @@
     "Devops/Build/Overview of Build Automation.md",
     "Devops/Stages.md",
     "Devops/Test Automation.md",
-    "Devops/Terraform.md",
     "Databases/_Infographic/Database & Data Structrues.jpg",
     "Architecture/Design Patterns Layers.pdf",
     "Infographics/Rest API Cheatsheet.gif",

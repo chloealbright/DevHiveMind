@@ -150,7 +150,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Framework/Backend/Express.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +166,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Framework/Backend/Express.js.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Framework/Backend/Express.js.md"
+                "file": "Mind Maps/Drawing 2024-01-12 11.49.00.excalidraw.md"
               }
             }
           },
@@ -296,10 +294,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "99cdb314cc36f8cf",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
-    "Framework/Backend/Apache vs Tomcat.md",
     "Framework/Backend/Express.js.md",
+    "Mind Maps/Drawing 2024-01-12 11.49.00.excalidraw.md",
+    "Framework/Backend/Apache vs Tomcat.md",
     "Language/Typescript/Node.js.md",
     "Devops/Docker/Docker Images containers Volumes.md",
     "Framework/Frontend/Next.js.md",
@@ -323,7 +322,6 @@
     "Devops/Stages.md",
     "Devops/Test Automation.md",
     "Devops/Terraform.md",
-    "Devops/Hypervisors.md",
     "Databases/_Infographic/Database & Data Structrues.jpg",
     "Architecture/Design Patterns Layers.pdf",
     "Infographics/Rest API Cheatsheet.gif",

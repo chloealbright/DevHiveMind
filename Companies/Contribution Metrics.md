@@ -27,23 +27,23 @@ When describing the features you created in a codebase on your resume, you want 
 4. **Code Quality:**  
 	- **Bug Fixing:** If you resolved bugs, mention the number and types of bugs.  
 	- **Code Reviews:** Note your involvement in code reviews.  
-	  
+
 5. **Technologies and Tools:**  
 	- **Technology Stack:** List the technologies and tools you used.  
 	- **New Technologies:** Highlight if you introduced any new technologies or practices.  
-  
+
 6. **Testing and QA:**  
 	- **Unit Tests:** Specify if you wrote unit tests.  
 	- **Test Coverage:** Mention the percentage of code covered by tests.  
-	  
+
 7. **Collaboration and Teamwork:**  
 	- **Collaboration Tools:** Specify tools used for collaboration (e.g., Git, Jira).  
 	- **Team Size:** Indicate the size of the development team.  
-	  
+
 8. **Performance Improvements:**  
 	- **Optimizations:** Describe any performance optimizations you implemented.  
 	- **Scalability:** If applicable, mention improvements in system scalability.  
-	  
+
 When describing your achievements on your resume:  
   
 - **Quantify Impact:** Use specific numbers to quantify your impact, such as "Implemented X features, resulting in a Y% increase in system efficiency."  
@@ -66,7 +66,7 @@ Incorporating performance metrics into your technical resume can effectively sho
   - Demonstrated the ability to enhance user experience by optimizing software processes.
   - Achieved an impressive throughput of 40 users per hour during peak periods.
 
-This statistic translates to an annual user interaction rate of 350.4, highlighting sustained efficiency and proficiency in handling high workloads.
+This statistic translates to an annual user interaction rate of 350.4, highlighting sustained efficiency and proficiency in handling high workloads. Also elongate stats like for example instead of saying something like 1 year say may 12 month
 
 
 

@@ -47,7 +47,7 @@ Containers are running instances of images
 
 ![[Namespace docker.jpg]]
 
-![[Control Groups 1.jpg]]
+![[Control Groups.jpg]]
 ## Volumes:
 Volumes in Docker are a way to manage persistent data. A volume is a directory or file that exists outside the container's filesystem but can be accessed and used by the container. Volumes are used to store data that needs to persist across container restarts, updates, or removals. They are especially useful for databases, configuration files, and other stateful data.  
   

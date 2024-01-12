@@ -7,13 +7,13 @@ Started:
 EditDate: 
 Relates:
 ---
-Use Entrypoint instead of CMD in Docker because it is immutable
-
-Ctrl p q to exit container but keep it running
-
-Sure! In a Dockerfile, the "entry point" is a configuration that specifies the default command that should be run when a Docker container is started from the image created by that Dockerfile. It's like the initial process that kicks off when the container begins. This could be a script, an executable, or a command.
+Dockerfile, the "entry point" is a configuration that specifies the default command that should be run when a Docker container is started from the image created by that Dockerfile. It's like the initial process that kicks off when the container begins. This could be a script, an executable, or a command.
 
 The "CMD" instruction in a Dockerfile is used to set the default command and its arguments that will be executed when the container is started, unless a command is provided when running the container. The CMD instruction can be overridden by providing a command when you start the container using the `docker run` command.
+
+Use Entrypoint instead of CMD in Docker because it is immutable.
+
+`Ctrl + p + q` to exit container but keep it running.
 
 Here's an example of how they might be used in a Dockerfile:
 

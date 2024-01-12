@@ -7,7 +7,7 @@ Started:
 EditDate: 
 Relates:
 ---
-Express is a back-end  [[Language/Typescript/Node.js]]
+Express is a back-end  [[Node.js]]
 
 -   Routing to determine how an application responds to a client request coming in at a particular endpoint, which is considered a URI (or path) and a specific HTTP request method (GET, POST, and so on).
 

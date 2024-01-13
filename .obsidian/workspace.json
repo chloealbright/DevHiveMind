@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Choosing Database.md",
+                "file": "_Low Priority Refinement/Dev Todo.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/Choosing Database.md",
+                "file": "_Low Priority Refinement/Dev Todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/Choosing Database.md",
+                "file": "_Low Priority Refinement/Dev Todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/Choosing Database.md"
+                "file": "_Low Priority Refinement/Dev Todo.md"
               }
             }
           },
@@ -234,8 +234,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5,
-    "collapsed": true
+    "width": 345.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -267,6 +266,7 @@
   },
   "active": "1ae160b2eb93bf4d",
   "lastOpenFiles": [
+    "Architecture/Choosing Database.md",
     "_Low Priority Refinement/Python Learning Plan.md",
     "Home.md",
     "_Official Documentation/Express.js Docs.md",
@@ -296,7 +296,6 @@
     "_Low Priority Refinement/Finance World/Stock Size.md",
     "_Low Priority Refinement/Finance World/Stock liquidity.md",
     "_Low Priority Refinement/Finance World/Stock AI Pick 2.md",
-    "_Low Priority Refinement/Finance World/Stock AI Pick 1.md",
     "_Images/Finance/unnamed (64).gif",
     "_Images/Finance/zcqswkuo84g41.gif",
     "_Images/Finance/unnamed (9).png",

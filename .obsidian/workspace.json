@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "Mind Maps/Collection of UML Diagrams.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Mind Maps/Collection of UML Diagrams.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Mind Maps/Collection of UML Diagrams.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Mind Maps/Collection of UML Diagrams.md"
               }
             }
           },
@@ -232,8 +232,6 @@
       "workspaces:Manage workspace layouts": false,
       "homepage:Open homepage": false,
       "janitor:Janitor: scan vault": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "templater-obsidian:Templater": false,
       "obsidian-projects:Open projects": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
@@ -241,13 +239,21 @@
       "obsidian-read-it-later:ReadItLater: Save clipboard": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "copilot:Copilot Chat": false,
       "periodic-notes:Open today": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "copilot:Copilot Chat": false
     }
   },
-  "active": "3dfd6b9972066a3b",
+  "active": "c1a2d399a5b7be5c",
   "lastOpenFiles": [
+    "Mind Maps/UML/Park Alert Activity Diagram.svg",
+    "Mind Maps/UML/Requirement life cycle.svg",
+    "Mind Maps/UML/UML Monitor Project.png",
+    "Mind Maps/UML/Class Cases Robust P1.svg",
+    "Home.md",
     "_Low Priority Refinement/Finance World/Wash Sale.md",
     "_Low Priority Refinement/Finance World/vwap.md",
     "_Low Priority Refinement/Finance World/Valuations.md",
@@ -272,8 +278,6 @@
     "_Low Priority Refinement/Finance World/Shorting.md",
     "_Low Priority Refinement/Finance World/Short squeeze.md",
     "_Low Priority Refinement/Finance World/Short selling.md",
-    "_Low Priority Refinement/Finance World/Securities.md",
-    "_Low Priority Refinement/Finance World/Sector rotation.md",
     "_Images/Finance/unnamed (64).gif",
     "_Images/Finance/zcqswkuo84g41.gif",
     "_Images/Finance/unnamed (9).png",
@@ -281,9 +285,6 @@
     "_Images/Finance/unnamed (7).png",
     "_Images/Finance/unnamed (67).gif",
     "_Images/Finance/unnamed (66).gif",
-    "_Images/Finance/unnamed (65).gif",
-    "_Images/Finance/unnamed (63).gif",
-    "_Images/Finance/unnamed (62).gif",
     "_Images/Finance",
     "_Low Priority Refinement/Finance World/Business/Startup",
     "_Low Priority Refinement/Finance World/Business",

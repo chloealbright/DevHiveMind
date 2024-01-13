@@ -103,7 +103,7 @@ When deciding between NoSQL and SQL databases, assess the team's expertise, proj
   
 ##### **2. Economic Considerations:**
 - **Cost of Training:** Evaluate training costs, factoring in the learning curve.
-- **Server Scaling:** Consider scalability costs, especially when integrating NoSQL into an existing system.
+- **Server Scaling:** Consider [[Vertical vs Horizontal Scaling |scalability]] costs, especially when integrating NoSQL into an existing system.
 - **Overall System Complexity:** Assess the overall complexity and associated costs.
 
 ##### **3. Tech Considerations:**
@@ -127,7 +127,7 @@ When deciding between NoSQL and SQL databases, assess the team's expertise, proj
 #### **Decision Factors:**
 - **Project Requirements:** Consider scalability, flexibility, and performance (NoSQL) or data consistency and a mature ecosystem (SQL).
 - **Data Structure:** For well-structured, relational data, opt for SQL; choose NoSQL for flexible models.
-- **Workload Analysis:** Heavy read/write operations may favor NoSQL's performance advantages.
+- **Workload Analysis:** Heavy read/write operations may favor NoSQL's performance advantages. Evaluate the performance characteristics of the database. Understand read and write patterns, latency requirements, and query complexities. Test the database's performance under realistic conditions.
 
 >[!node]
 >Side note if you use other databases like an H2 in embedded mode it can help in terms of running a database in a restricted environment like TD bank but it restricts the access of the database to external services that you may want to connect to

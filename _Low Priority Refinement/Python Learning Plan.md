@@ -110,6 +110,14 @@ Week 7-8: Data Engineering with Python
 Spend 2-3 hours per week learning about data engineering concepts such as data pipelines, data cleaning, and data transformation.  
 Complete the DataCamp course "Data Engineering for Everyone" ([https://www.datacamp.com/courses/data-engineering-for-everyone](https://www.datacamp.com/courses/data-engineering-for-everyone)) to learn about best practices in data engineering.  
 
+SQL Advanced filtering and sorting, aggregate functions, grouping, nested sub Quries, and Joins 
+
+data visualization 
+https://seaborn.pydata.org/
+https://matplotlib.org/
+
+proabability 
+
 
 Week 9-10: Data Engineering Projects with Python  
   

@@ -128,6 +128,8 @@ When deciding between NoSQL and SQL databases, assess the team's expertise, proj
 - **Project Requirements:** Consider scalability, flexibility, and performance (NoSQL) or data consistency and a mature ecosystem (SQL).
 - **Data Structure:** For well-structured, relational data, opt for SQL; choose NoSQL for flexible models.
 - **Workload Analysis:** Heavy read/write operations may favor NoSQL's performance advantages. Evaluate the performance characteristics of the database. Understand read and write patterns, latency requirements, and query complexities. Test the database's performance under realistic conditions.
+- **Security and Compliance:** Prioritize security features, encryption options, and compliance with data protection regulations relevant to your industry (e.g., GDPR, HIPAA).
+- **Future Roadmap and Vendor Lock-In:** Consider the future development roadmap of the database and whether it aligns with your application's long-term needs. Be cautious of potential vendor lock-in and evaluate the portability of your data.
 
 >[!node]
 >Side note if you use other databases like an H2 in embedded mode it can help in terms of running a database in a restricted environment like TD bank but it restricts the access of the database to external services that you may want to connect to

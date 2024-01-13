@@ -170,14 +170,6 @@
             }
           },
           {
-            "id": "1877a5361950cc0e",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
-          },
-          {
             "id": "cbfe2bee689e7ccc",
             "type": "leaf",
             "state": {
@@ -196,9 +188,17 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "3dfd6b9972066a3b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 9
       },
       {
         "id": "7e98245a429f273f",
@@ -230,12 +230,10 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "homepage:Open homepage": false,
       "janitor:Janitor: scan vault": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
       "templater-obsidian:Templater": false,
       "obsidian-projects:Open projects": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
@@ -244,10 +242,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "copilot:Copilot Chat": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "c1a2d399a5b7be5c",
+  "active": "3dfd6b9972066a3b",
   "lastOpenFiles": [
     "_Low Priority Refinement/Finance World/Wash Sale.md",
     "_Low Priority Refinement/Finance World/vwap.md",

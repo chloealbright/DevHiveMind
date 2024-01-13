@@ -762,6 +762,9 @@ var init_prompt_values = __esm({
     BasePromptValue = class extends Serializable {
     };
     StringPromptValue = class extends BasePromptValue {
+      static lc_name() {
+        return "StringPromptValue";
+      }
       constructor(value) {
         super({ value });
         Object.defineProperty(this, "lc_namespace", {
@@ -1182,15 +1185,15 @@ var init_caches2 = __esm({
   }
 });
 
-// node_modules/langchain/node_modules/@langchain/community/dist/stores/doc/base.js
+// node_modules/@langchain/community/dist/stores/doc/base.js
 var init_base = __esm({
-  "node_modules/langchain/node_modules/@langchain/community/dist/stores/doc/base.js"() {
+  "node_modules/@langchain/community/dist/stores/doc/base.js"() {
   }
 });
 
-// node_modules/langchain/node_modules/@langchain/community/stores/doc/base.js
+// node_modules/@langchain/community/stores/doc/base.js
 var init_base2 = __esm({
-  "node_modules/langchain/node_modules/@langchain/community/stores/doc/base.js"() {
+  "node_modules/@langchain/community/stores/doc/base.js"() {
     init_base();
   }
 });
@@ -1573,6 +1576,12 @@ var require_ansi_styles = __commonJS({
 function _coerceToDict(value, defaultKey) {
   return value && !Array.isArray(value) && typeof value === "object" ? value : { [defaultKey]: value };
 }
+function stripNonAlphanumeric(input) {
+  return input.replace(/[-:.]/g, "");
+}
+function convertToDottedOrderFormat(epoch, runId) {
+  return stripNonAlphanumeric(`${new Date(epoch).toISOString().slice(0, -1)}000Z`) + runId;
+}
 var BaseTracer;
 var init_base4 = __esm({
   "node_modules/@langchain/core/dist/tracers/base.js"() {
@@ -1595,15 +1604,29 @@ var init_base4 = __esm({
       }
       async _startTrace(run) {
         var _a3;
-        if (run.parent_run_id !== void 0) {
-          const parentRun = this.runMap.get(run.parent_run_id);
+        const currentDottedOrder = convertToDottedOrderFormat(run.start_time, run.id);
+        const storedRun = { ...run };
+        if (storedRun.parent_run_id !== void 0) {
+          const parentRun = this.runMap.get(storedRun.parent_run_id);
           if (parentRun) {
-            this._addChildRun(parentRun, run);
-            parentRun.child_execution_order = Math.max(parentRun.child_execution_order, run.child_execution_order);
+            this._addChildRun(parentRun, storedRun);
+            parentRun.child_execution_order = Math.max(parentRun.child_execution_order, storedRun.child_execution_order);
+            storedRun.trace_id = parentRun.trace_id;
+            if (parentRun.dotted_order !== void 0) {
+              storedRun.dotted_order = [
+                parentRun.dotted_order,
+                currentDottedOrder
+              ].join(".");
+            } else {
+              console.warn(`Parent run with UUID ${storedRun.parent_run_id} not found.`);
+            }
           }
+        } else {
+          storedRun.trace_id = storedRun.id;
+          storedRun.dotted_order = currentDottedOrder;
         }
-        this.runMap.set(run.id, run);
-        await ((_a3 = this.onRunCreate) == null ? void 0 : _a3.call(this, run));
+        this.runMap.set(storedRun.id, storedRun);
+        await ((_a3 = this.onRunCreate) == null ? void 0 : _a3.call(this, storedRun));
       }
       async _endTrace(run) {
         var _a3;
@@ -4394,210 +4417,15 @@ var init_tracer_langchain = __esm({
 });
 
 // node_modules/@langchain/core/dist/tracers/tracer_langchain_v1.js
-var LangChainTracerV1;
 var init_tracer_langchain_v1 = __esm({
   "node_modules/@langchain/core/dist/tracers/tracer_langchain_v1.js"() {
     init_messages();
     init_env2();
     init_base4();
-    LangChainTracerV1 = class extends BaseTracer {
-      constructor() {
-        super();
-        Object.defineProperty(this, "name", {
-          enumerable: true,
-          configurable: true,
-          writable: true,
-          value: "langchain_tracer"
-        });
-        Object.defineProperty(this, "endpoint", {
-          enumerable: true,
-          configurable: true,
-          writable: true,
-          value: getEnvironmentVariable2("LANGCHAIN_ENDPOINT") || "http://localhost:1984"
-        });
-        Object.defineProperty(this, "headers", {
-          enumerable: true,
-          configurable: true,
-          writable: true,
-          value: {
-            "Content-Type": "application/json"
-          }
-        });
-        Object.defineProperty(this, "session", {
-          enumerable: true,
-          configurable: true,
-          writable: true,
-          value: void 0
-        });
-        const apiKey = getEnvironmentVariable2("LANGCHAIN_API_KEY");
-        if (apiKey) {
-          this.headers["x-api-key"] = apiKey;
-        }
-      }
-      async newSession(sessionName) {
-        const sessionCreate = {
-          start_time: Date.now(),
-          name: sessionName
-        };
-        const session = await this.persistSession(sessionCreate);
-        this.session = session;
-        return session;
-      }
-      async loadSession(sessionName) {
-        const endpoint = `${this.endpoint}/sessions?name=${sessionName}`;
-        return this._handleSessionResponse(endpoint);
-      }
-      async loadDefaultSession() {
-        const endpoint = `${this.endpoint}/sessions?name=default`;
-        return this._handleSessionResponse(endpoint);
-      }
-      async convertV2RunToRun(run) {
-        var _a3, _b;
-        const session = (_a3 = this.session) != null ? _a3 : await this.loadDefaultSession();
-        const serialized = run.serialized;
-        let runResult;
-        if (run.run_type === "llm") {
-          const prompts = run.inputs.prompts ? run.inputs.prompts : run.inputs.messages.map((x) => getBufferString(x));
-          const llmRun = {
-            uuid: run.id,
-            start_time: run.start_time,
-            end_time: run.end_time,
-            execution_order: run.execution_order,
-            child_execution_order: run.child_execution_order,
-            serialized,
-            type: run.run_type,
-            session_id: session.id,
-            prompts,
-            response: run.outputs
-          };
-          runResult = llmRun;
-        } else if (run.run_type === "chain") {
-          const child_runs = await Promise.all(run.child_runs.map((child_run) => this.convertV2RunToRun(child_run)));
-          const chainRun = {
-            uuid: run.id,
-            start_time: run.start_time,
-            end_time: run.end_time,
-            execution_order: run.execution_order,
-            child_execution_order: run.child_execution_order,
-            serialized,
-            type: run.run_type,
-            session_id: session.id,
-            inputs: run.inputs,
-            outputs: run.outputs,
-            child_llm_runs: child_runs.filter((child_run) => child_run.type === "llm"),
-            child_chain_runs: child_runs.filter((child_run) => child_run.type === "chain"),
-            child_tool_runs: child_runs.filter((child_run) => child_run.type === "tool")
-          };
-          runResult = chainRun;
-        } else if (run.run_type === "tool") {
-          const child_runs = await Promise.all(run.child_runs.map((child_run) => this.convertV2RunToRun(child_run)));
-          const toolRun = {
-            uuid: run.id,
-            start_time: run.start_time,
-            end_time: run.end_time,
-            execution_order: run.execution_order,
-            child_execution_order: run.child_execution_order,
-            serialized,
-            type: run.run_type,
-            session_id: session.id,
-            tool_input: run.inputs.input,
-            output: (_b = run.outputs) == null ? void 0 : _b.output,
-            action: JSON.stringify(serialized),
-            child_llm_runs: child_runs.filter((child_run) => child_run.type === "llm"),
-            child_chain_runs: child_runs.filter((child_run) => child_run.type === "chain"),
-            child_tool_runs: child_runs.filter((child_run) => child_run.type === "tool")
-          };
-          runResult = toolRun;
-        } else {
-          throw new Error(`Unknown run type: ${run.run_type}`);
-        }
-        return runResult;
-      }
-      async persistRun(run) {
-        let endpoint;
-        let v1Run;
-        if (run.run_type !== void 0) {
-          v1Run = await this.convertV2RunToRun(run);
-        } else {
-          v1Run = run;
-        }
-        if (v1Run.type === "llm") {
-          endpoint = `${this.endpoint}/llm-runs`;
-        } else if (v1Run.type === "chain") {
-          endpoint = `${this.endpoint}/chain-runs`;
-        } else {
-          endpoint = `${this.endpoint}/tool-runs`;
-        }
-        const response = await fetch(endpoint, {
-          method: "POST",
-          headers: this.headers,
-          body: JSON.stringify(v1Run)
-        });
-        if (!response.ok) {
-          console.error(`Failed to persist run: ${response.status} ${response.statusText}`);
-        }
-      }
-      async persistSession(sessionCreate) {
-        const endpoint = `${this.endpoint}/sessions`;
-        const response = await fetch(endpoint, {
-          method: "POST",
-          headers: this.headers,
-          body: JSON.stringify(sessionCreate)
-        });
-        if (!response.ok) {
-          console.error(`Failed to persist session: ${response.status} ${response.statusText}, using default session.`);
-          return {
-            id: 1,
-            ...sessionCreate
-          };
-        }
-        return {
-          id: (await response.json()).id,
-          ...sessionCreate
-        };
-      }
-      async _handleSessionResponse(endpoint) {
-        const response = await fetch(endpoint, {
-          method: "GET",
-          headers: this.headers
-        });
-        let tracerSession;
-        if (!response.ok) {
-          console.error(`Failed to load session: ${response.status} ${response.statusText}`);
-          tracerSession = {
-            id: 1,
-            start_time: Date.now()
-          };
-          this.session = tracerSession;
-          return tracerSession;
-        }
-        const resp = await response.json();
-        if (resp.length === 0) {
-          tracerSession = {
-            id: 1,
-            start_time: Date.now()
-          };
-          this.session = tracerSession;
-          return tracerSession;
-        }
-        [tracerSession] = resp;
-        this.session = tracerSession;
-        return tracerSession;
-      }
-    };
   }
 });
 
 // node_modules/@langchain/core/dist/tracers/initialize.js
-async function getTracingCallbackHandler(session) {
-  const tracer = new LangChainTracerV1();
-  if (session) {
-    await tracer.loadSession(session);
-  } else {
-    await tracer.loadDefaultSession();
-  }
-  return tracer;
-}
 async function getTracingV2CallbackHandler() {
   return new LangChainTracer();
 }
@@ -5141,9 +4969,6 @@ var init_manager = __esm({
           if (tracingEnabled && !callbackManager.handlers.some((handler) => handler.name === "langchain_tracer")) {
             if (tracingV2Enabled) {
               callbackManager.addHandler(await getTracingV2CallbackHandler(), true);
-            } else {
-              const session = getEnvironmentVariable2("LANGCHAIN_PROJECT") && getEnvironmentVariable2("LANGCHAIN_SESSION");
-              callbackManager.addHandler(await getTracingCallbackHandler(session), true);
             }
           }
         }
@@ -6142,7 +5967,56 @@ var init_fast_json_patch = __esm({
 });
 
 // node_modules/@langchain/core/dist/utils/stream.js
-var IterableReadableStream;
+function atee(iter, length = 2) {
+  const buffers = Array.from({ length }, () => []);
+  return buffers.map(async function* makeIter(buffer2) {
+    while (true) {
+      if (buffer2.length === 0) {
+        const result = await iter.next();
+        for (const buffer3 of buffers) {
+          buffer3.push(result);
+        }
+      } else if (buffer2[0].done) {
+        return;
+      } else {
+        yield buffer2.shift().value;
+      }
+    }
+  });
+}
+function concat(first, second) {
+  if (Array.isArray(first) && Array.isArray(second)) {
+    return first.concat(second);
+  } else if (typeof first === "string" && typeof second === "string") {
+    return first + second;
+  } else if (typeof first === "number" && typeof second === "number") {
+    return first + second;
+  } else if (
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    "concat" in first && // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    typeof first.concat === "function"
+  ) {
+    return first.concat(second);
+  } else if (typeof first === "object" && typeof second === "object") {
+    const chunk = { ...first };
+    for (const [key, value] of Object.entries(second)) {
+      if (key in chunk) {
+        chunk[key] = concat(chunk[key], value);
+      } else {
+        chunk[key] = value;
+      }
+    }
+    return chunk;
+  } else {
+    throw new Error(`Cannot concat ${typeof first} and ${typeof second}`);
+  }
+}
+async function pipeGeneratorWithSetup(to, generator, startSetup, ...args) {
+  const gen = new AsyncGeneratorWithSetup(generator, startSetup);
+  const setup = await gen.setup;
+  return { output: to(gen, setup, ...args), setup };
+}
+var IterableReadableStream, AsyncGeneratorWithSetup;
 var init_stream = __esm({
   "node_modules/@langchain/core/dist/utils/stream.js"() {
     IterableReadableStream = class extends ReadableStream {
@@ -6164,13 +6038,18 @@ var init_stream = __esm({
         this.ensureReader();
         try {
           const result = await this.reader.read();
-          if (result.done)
+          if (result.done) {
             this.reader.releaseLock();
-          return {
-            done: result.done,
-            value: result.value
-            // Cloudflare Workers typing fix
-          };
+            return {
+              done: true,
+              value: void 0
+            };
+          } else {
+            return {
+              done: false,
+              value: result.value
+            };
+          }
         } catch (e) {
           this.reader.releaseLock();
           throw e;
@@ -6229,6 +6108,55 @@ var init_stream = __esm({
             controller.enqueue(value);
           }
         });
+      }
+    };
+    AsyncGeneratorWithSetup = class {
+      constructor(generator, startSetup) {
+        Object.defineProperty(this, "generator", {
+          enumerable: true,
+          configurable: true,
+          writable: true,
+          value: void 0
+        });
+        Object.defineProperty(this, "setup", {
+          enumerable: true,
+          configurable: true,
+          writable: true,
+          value: void 0
+        });
+        Object.defineProperty(this, "firstResult", {
+          enumerable: true,
+          configurable: true,
+          writable: true,
+          value: void 0
+        });
+        Object.defineProperty(this, "firstResultUsed", {
+          enumerable: true,
+          configurable: true,
+          writable: true,
+          value: false
+        });
+        this.generator = generator;
+        this.setup = new Promise((resolve, reject) => {
+          this.firstResult = generator.next();
+          this.firstResult.then(startSetup).then(resolve, reject);
+        });
+      }
+      async next(...args) {
+        if (!this.firstResultUsed) {
+          this.firstResultUsed = true;
+          return this.firstResult;
+        }
+        return this.generator.next(...args);
+      }
+      async return(value) {
+        return this.generator.return(value);
+      }
+      async throw(e) {
+        return this.generator.throw(e);
+      }
+      [Symbol.asyncIterator]() {
+        return this;
       }
     };
   }
@@ -6517,7 +6445,7 @@ var init_log_stream = __esm({
 });
 
 // node_modules/@langchain/core/dist/runnables/config.js
-async function getCallbackMangerForConfig(config) {
+async function getCallbackManagerForConfig(config) {
   return CallbackManager.configure(config == null ? void 0 : config.callbacks, void 0, config == null ? void 0 : config.tags, void 0, config == null ? void 0 : config.metadata);
 }
 function mergeConfigs(config, options) {
@@ -6529,6 +6457,8 @@ function mergeConfigs(config, options) {
         copy[key] = { ...copy[key], ...options[key] };
       } else if (key === "tags") {
         copy[key] = ((_a3 = copy[key]) != null ? _a3 : []).concat((_b = options[key]) != null ? _b : []);
+      } else if (key === "configurable") {
+        copy[key] = { ...copy[key], ...options[key] };
       } else if (key === "callbacks") {
         const baseCallbacks = copy.callbacks;
         const providedCallbacks = (_c = options.callbacks) != null ? _c : config.callbacks;
@@ -6573,9 +6503,11 @@ function mergeConfigs(config, options) {
   }
   return copy;
 }
+var DEFAULT_RECURSION_LIMIT;
 var init_config = __esm({
   "node_modules/@langchain/core/dist/runnables/config.js"() {
     init_manager();
+    DEFAULT_RECURSION_LIMIT = 25;
   }
 });
 
@@ -6695,7 +6627,7 @@ function _coerceToRunnable(coerceable) {
 Instead got an unsupported type.`);
   }
 }
-var import_p_retry3, Runnable, RunnableBinding, RunnableEach, RunnableRetry, RunnableSequence, RunnableMap, RunnableLambda, RunnableWithFallbacks;
+var import_p_retry3, Runnable, RunnableBinding, RunnableEach, RunnableRetry, RunnableSequence, RunnableMap, RunnableLambda, RunnableWithFallbacks, RunnableAssign, RunnablePick;
 var init_base5 = __esm({
   "node_modules/@langchain/core/dist/runnables/base.js"() {
     import_p_retry3 = __toESM(require_p_retry(), 1);
@@ -6715,6 +6647,20 @@ var init_base5 = __esm({
           writable: true,
           value: true
         });
+        Object.defineProperty(this, "name", {
+          enumerable: true,
+          configurable: true,
+          writable: true,
+          value: void 0
+        });
+      }
+      getName(suffix) {
+        var _a3, _b;
+        const name = (
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          (_b = (_a3 = this.name) != null ? _a3 : this.constructor.lc_name()) != null ? _b : this.constructor.name
+        );
+        return suffix ? `${name}${suffix}` : name;
       }
       /**
        * Bind arguments to a Runnable, returning a new Runnable.
@@ -6822,18 +6768,21 @@ var init_base5 = __esm({
           callbacks: options.callbacks,
           tags: options.tags,
           metadata: options.metadata,
-          runName: options.runName
+          runName: options.runName,
+          configurable: options.configurable
         };
         const callOptions = { ...options };
         delete callOptions.callbacks;
         delete callOptions.tags;
         delete callOptions.metadata;
         delete callOptions.runName;
+        delete callOptions.configurable;
         return [runnableConfig, callOptions];
       }
       async _callWithConfig(func, input, options) {
-        const callbackManager_ = await getCallbackMangerForConfig(options);
-        const runManager = await (callbackManager_ == null ? void 0 : callbackManager_.handleChainStart(this.toJSON(), _coerceToDict2(input, "input"), void 0, options == null ? void 0 : options.runType, void 0, void 0, options == null ? void 0 : options.runName));
+        var _a3;
+        const callbackManager_ = await getCallbackManagerForConfig(options);
+        const runManager = await (callbackManager_ == null ? void 0 : callbackManager_.handleChainStart(this.toJSON(), _coerceToDict2(input, "input"), void 0, options == null ? void 0 : options.runType, void 0, void 0, (_a3 = options == null ? void 0 : options.runName) != null ? _a3 : this.getName()));
         let output;
         try {
           output = await func.bind(this)(input, options, runManager);
@@ -6855,8 +6804,11 @@ var init_base5 = __esm({
        */
       async _batchWithConfig(func, inputs, options, batchOptions) {
         const optionsList = this._getOptionsList(options != null ? options : {}, inputs.length);
-        const callbackManagers = await Promise.all(optionsList.map(getCallbackMangerForConfig));
-        const runManagers = await Promise.all(callbackManagers.map((callbackManager, i) => callbackManager == null ? void 0 : callbackManager.handleChainStart(this.toJSON(), _coerceToDict2(inputs[i], "input"), void 0, optionsList[i].runType, void 0, void 0, optionsList[i].runName)));
+        const callbackManagers = await Promise.all(optionsList.map(getCallbackManagerForConfig));
+        const runManagers = await Promise.all(callbackManagers.map((callbackManager, i) => {
+          var _a3;
+          return callbackManager == null ? void 0 : callbackManager.handleChainStart(this.toJSON(), _coerceToDict2(inputs[i], "input"), void 0, optionsList[i].runType, void 0, void 0, (_a3 = optionsList[i].runName) != null ? _a3 : this.getName());
+        }));
         let outputs;
         try {
           outputs = await func(inputs, optionsList, runManagers, batchOptions);
@@ -6877,20 +6829,15 @@ var init_base5 = __esm({
         let finalInputSupported = true;
         let finalOutput;
         let finalOutputSupported = true;
-        const callbackManager_ = await getCallbackMangerForConfig(options);
-        let runManager;
-        const serializedRepresentation = this.toJSON();
+        const callbackManager_ = await getCallbackManagerForConfig(options);
         async function* wrapInputForTracing() {
           for await (const chunk of inputGenerator) {
-            if (!runManager) {
-              runManager = await (callbackManager_ == null ? void 0 : callbackManager_.handleChainStart(serializedRepresentation, { input: "" }, void 0, options == null ? void 0 : options.runType, void 0, void 0, options == null ? void 0 : options.runName));
-            }
             if (finalInputSupported) {
               if (finalInput === void 0) {
                 finalInput = chunk;
               } else {
                 try {
-                  finalInput = finalInput.concat(chunk);
+                  finalInput = concat(finalInput, chunk);
                 } catch (e) {
                   finalInput = void 0;
                   finalInputSupported = false;
@@ -6900,17 +6847,21 @@ var init_base5 = __esm({
             yield chunk;
           }
         }
-        const wrappedInputGenerator = wrapInputForTracing();
+        let runManager;
         try {
-          const outputIterator = transformer(wrappedInputGenerator, runManager, options);
-          for await (const chunk of outputIterator) {
+          const pipe = await pipeGeneratorWithSetup(transformer, wrapInputForTracing(), async () => {
+            var _a3;
+            return callbackManager_ == null ? void 0 : callbackManager_.handleChainStart(this.toJSON(), { input: "" }, void 0, options == null ? void 0 : options.runType, void 0, void 0, (_a3 = options == null ? void 0 : options.runName) != null ? _a3 : this.getName());
+          }, options);
+          runManager = pipe.setup;
+          for await (const chunk of pipe.output) {
             yield chunk;
             if (finalOutputSupported) {
               if (finalOutput === void 0) {
                 finalOutput = chunk;
               } else {
                 try {
-                  finalOutput = finalOutput.concat(chunk);
+                  finalOutput = concat(finalOutput, chunk);
                 } catch (e) {
                   finalOutput = void 0;
                   finalOutputSupported = false;
@@ -6926,11 +6877,14 @@ var init_base5 = __esm({
         }
         await (runManager == null ? void 0 : runManager.handleChainEnd(finalOutput != null ? finalOutput : {}, void 0, void 0, void 0, { inputs: _coerceToDict2(finalInput, "input") }));
       }
-      _patchConfig(config = {}, callbackManager = void 0) {
+      _patchConfig(config = {}, callbackManager = void 0, recursionLimit = void 0) {
         const newConfig = { ...config };
         if (callbackManager !== void 0) {
           delete newConfig.runName;
           return { ...newConfig, callbacks: callbackManager };
+        }
+        if (recursionLimit !== void 0) {
+          newConfig.recursionLimit = recursionLimit;
         }
         return newConfig;
       }
@@ -6947,6 +6901,24 @@ var init_base5 = __esm({
         });
       }
       /**
+       * Pick keys from the dict output of this runnable. Returns a new runnable.
+       */
+      pick(keys3) {
+        return this.pipe(new RunnablePick(keys3));
+      }
+      /**
+       * Assigns new fields to the dict output of this runnable. Returns a new runnable.
+       */
+      assign(mapping) {
+        return this.pipe(
+          // eslint-disable-next-line @typescript-eslint/no-use-before-define
+          new RunnableAssign(
+            // eslint-disable-next-line @typescript-eslint/no-use-before-define
+            new RunnableMap({ steps: mapping })
+          )
+        );
+      }
+      /**
        * Default implementation of transform, which buffers input and then calls stream.
        * Subclasses should override this method if they can start producing output while
        * input is still being generated.
@@ -6959,7 +6931,7 @@ var init_base5 = __esm({
           if (finalChunk === void 0) {
             finalChunk = chunk;
           } else {
-            finalChunk = finalChunk.concat(chunk);
+            finalChunk = concat(finalChunk, chunk);
           }
         }
         yield* this._streamIterator(finalChunk, options);
@@ -7100,26 +7072,29 @@ var init_base5 = __esm({
         this.config = fields.config;
         this.configFactories = fields.configFactories;
       }
+      getName(suffix) {
+        return this.bound.getName(suffix);
+      }
       async _mergeConfig(options) {
         const config = mergeConfigs(this.config, options);
         return mergeConfigs(config, ...this.configFactories ? await Promise.all(this.configFactories.map(async (configFactory) => await configFactory(config))) : []);
       }
       bind(kwargs) {
-        return this.constructor({
+        return new this.constructor({
           bound: this.bound,
           kwargs: { ...this.kwargs, ...kwargs },
           config: this.config
         });
       }
       withConfig(config) {
-        return this.constructor({
+        return new this.constructor({
           bound: this.bound,
           kwargs: this.kwargs,
           config: { ...this.config, ...config }
         });
       }
       withRetry(fields) {
-        return this.constructor({
+        return new this.constructor({
           bound: this.bound.withRetry(fields),
           kwargs: this.kwargs,
           config: this.config
@@ -7385,12 +7360,13 @@ var init_base5 = __esm({
         this.first = fields.first;
         this.middle = (_a3 = fields.middle) != null ? _a3 : this.middle;
         this.last = fields.last;
+        this.name = fields.name;
       }
       get steps() {
         return [this.first, ...this.middle, this.last];
       }
       async invoke(input, options) {
-        const callbackManager_ = await getCallbackMangerForConfig(options);
+        const callbackManager_ = await getCallbackManagerForConfig(options);
         const runManager = await (callbackManager_ == null ? void 0 : callbackManager_.handleChainStart(this.toJSON(), _coerceToDict2(input, "input"), void 0, void 0, void 0, void 0, options == null ? void 0 : options.runName));
         let nextStepInput = input;
         let finalOutput;
@@ -7410,7 +7386,7 @@ var init_base5 = __esm({
       }
       async batch(inputs, options, batchOptions) {
         const configList = this._getOptionsList(options != null ? options : {}, inputs.length);
-        const callbackManagers = await Promise.all(configList.map(getCallbackMangerForConfig));
+        const callbackManagers = await Promise.all(configList.map(getCallbackManagerForConfig));
         const runManagers = await Promise.all(callbackManagers.map((callbackManager, i) => callbackManager == null ? void 0 : callbackManager.handleChainStart(this.toJSON(), _coerceToDict2(inputs[i], "input"), void 0, void 0, void 0, void 0, configList[i].runName)));
         let nextStepInputs = inputs;
         let finalOutputs;
@@ -7429,7 +7405,7 @@ var init_base5 = __esm({
         return finalOutputs;
       }
       async *_streamIterator(input, options) {
-        const callbackManager_ = await getCallbackMangerForConfig(options);
+        const callbackManager_ = await getCallbackManagerForConfig(options);
         const runManager = await (callbackManager_ == null ? void 0 : callbackManager_.handleChainStart(this.toJSON(), _coerceToDict2(input, "input"), void 0, void 0, void 0, void 0, options == null ? void 0 : options.runName));
         const steps = [this.first, ...this.middle, this.last];
         let concatSupported = true;
@@ -7450,7 +7426,7 @@ var init_base5 = __esm({
                 finalOutput = chunk;
               } else {
                 try {
-                  finalOutput = finalOutput.concat(chunk);
+                  finalOutput = concat(finalOutput, chunk);
                 } catch (e) {
                   finalOutput = void 0;
                   concatSupported = false;
@@ -7465,6 +7441,7 @@ var init_base5 = __esm({
         await (runManager == null ? void 0 : runManager.handleChainEnd(_coerceToDict2(finalOutput, "output")));
       }
       pipe(coerceable) {
+        var _a3;
         if (RunnableSequence.isRunnableSequence(coerceable)) {
           return new RunnableSequence({
             first: this.first,
@@ -7473,13 +7450,15 @@ var init_base5 = __esm({
               coerceable.first,
               ...coerceable.middle
             ]),
-            last: coerceable.last
+            last: coerceable.last,
+            name: (_a3 = this.name) != null ? _a3 : coerceable.name
           });
         } else {
           return new RunnableSequence({
             first: this.first,
             middle: [...this.middle, this.last],
-            last: _coerceToRunnable(coerceable)
+            last: _coerceToRunnable(coerceable),
+            name: this.name
           });
         }
       }
@@ -7488,11 +7467,12 @@ var init_base5 = __esm({
         return Array.isArray(thing.middle) && Runnable.isRunnable(thing);
       }
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      static from([first, ...runnables]) {
+      static from([first, ...runnables], name) {
         return new RunnableSequence({
           first: _coerceToRunnable(first),
           middle: runnables.slice(0, -1).map(_coerceToRunnable),
-          last: _coerceToRunnable(runnables[runnables.length - 1])
+          last: _coerceToRunnable(runnables[runnables.length - 1]),
+          name
         });
       }
     };
@@ -7532,14 +7512,14 @@ var init_base5 = __esm({
         return new RunnableMap({ steps });
       }
       async invoke(input, options) {
-        const callbackManager_ = await getCallbackMangerForConfig(options);
+        const callbackManager_ = await getCallbackManagerForConfig(options);
         const runManager = await (callbackManager_ == null ? void 0 : callbackManager_.handleChainStart(this.toJSON(), {
           input
         }, void 0, void 0, void 0, void 0, options == null ? void 0 : options.runName));
         const output = {};
         try {
           await Promise.all(Object.entries(this.steps).map(async ([key, runnable]) => {
-            output[key] = await runnable.invoke(input, this._patchConfig(options, runManager == null ? void 0 : runManager.getChild(key)));
+            output[key] = await runnable.invoke(input, this._patchConfig(options, runManager == null ? void 0 : runManager.getChild(`map:key:${key}`)));
           }));
         } catch (e) {
           await (runManager == null ? void 0 : runManager.handleChainError(e));
@@ -7547,6 +7527,31 @@ var init_base5 = __esm({
         }
         await (runManager == null ? void 0 : runManager.handleChainEnd(output));
         return output;
+      }
+      async *_transform(generator, runManager, options) {
+        const steps = { ...this.steps };
+        const inputCopies = atee(generator, Object.keys(steps).length);
+        const tasks2 = new Map(Object.entries(steps).map(([key, runnable], i) => {
+          const gen = runnable.transform(inputCopies[i], this._patchConfig(options, runManager == null ? void 0 : runManager.getChild(`map:key:${key}`)));
+          return [key, gen.next().then((result) => ({ key, gen, result }))];
+        }));
+        while (tasks2.size) {
+          const { key, result, gen } = await Promise.race(tasks2.values());
+          tasks2.delete(key);
+          if (!result.done) {
+            yield { [key]: result.value };
+            tasks2.set(key, gen.next().then((result2) => ({ key, gen, result: result2 })));
+          }
+        }
+      }
+      transform(generator, options) {
+        return this._transformStreamWithConfig(generator, this._transform.bind(this), options);
+      }
+      async stream(input, options) {
+        async function* generator() {
+          yield input;
+        }
+        return IterableReadableStream.fromAsyncGenerator(this.transform(generator(), options));
       }
     };
     RunnableLambda = class extends Runnable {
@@ -7575,14 +7580,54 @@ var init_base5 = __esm({
         });
       }
       async _invoke(input, config, runManager) {
+        var _a3;
         let output = await this.func(input, { config });
         if (output && Runnable.isRunnable(output)) {
-          output = await output.invoke(input, this._patchConfig(config, runManager == null ? void 0 : runManager.getChild()));
+          if ((config == null ? void 0 : config.recursionLimit) === 0) {
+            throw new Error("Recursion limit reached.");
+          }
+          output = await output.invoke(input, this._patchConfig(config, runManager == null ? void 0 : runManager.getChild(), ((_a3 = config == null ? void 0 : config.recursionLimit) != null ? _a3 : DEFAULT_RECURSION_LIMIT) - 1));
         }
         return output;
       }
       async invoke(input, options) {
         return this._callWithConfig(this._invoke, input, options);
+      }
+      async *_transform(generator, runManager, config) {
+        var _a3;
+        let finalChunk;
+        for await (const chunk of generator) {
+          if (finalChunk === void 0) {
+            finalChunk = chunk;
+          } else {
+            try {
+              finalChunk = concat(finalChunk, chunk);
+            } catch (e) {
+              finalChunk = chunk;
+            }
+          }
+        }
+        const output = await this.func(finalChunk, { config });
+        if (output && Runnable.isRunnable(output)) {
+          if ((config == null ? void 0 : config.recursionLimit) === 0) {
+            throw new Error("Recursion limit reached.");
+          }
+          const stream = await output.stream(finalChunk, this._patchConfig(config, runManager == null ? void 0 : runManager.getChild(), ((_a3 = config == null ? void 0 : config.recursionLimit) != null ? _a3 : DEFAULT_RECURSION_LIMIT) - 1));
+          for await (const chunk of stream) {
+            yield chunk;
+          }
+        } else {
+          yield output;
+        }
+      }
+      transform(generator, options) {
+        return this._transformStreamWithConfig(generator, this._transform.bind(this), options);
+      }
+      async stream(input, options) {
+        async function* generator() {
+          yield input;
+        }
+        return IterableReadableStream.fromAsyncGenerator(this.transform(generator(), options));
       }
     };
     RunnableWithFallbacks = class extends Runnable {
@@ -7669,6 +7714,129 @@ var init_base5 = __esm({
         }
         await Promise.all(runManagers.map((runManager) => runManager == null ? void 0 : runManager.handleChainError(firstError)));
         throw firstError;
+      }
+    };
+    RunnableAssign = class extends Runnable {
+      static lc_name() {
+        return "RunnableAssign";
+      }
+      constructor(fields) {
+        if (fields instanceof RunnableMap) {
+          fields = { mapper: fields };
+        }
+        super(fields);
+        Object.defineProperty(this, "lc_namespace", {
+          enumerable: true,
+          configurable: true,
+          writable: true,
+          value: ["langchain_core", "runnables"]
+        });
+        Object.defineProperty(this, "lc_serializable", {
+          enumerable: true,
+          configurable: true,
+          writable: true,
+          value: true
+        });
+        Object.defineProperty(this, "mapper", {
+          enumerable: true,
+          configurable: true,
+          writable: true,
+          value: void 0
+        });
+        this.mapper = fields.mapper;
+      }
+      async invoke(input, options) {
+        const mapperResult = await this.mapper.invoke(input, options);
+        return {
+          ...input,
+          ...mapperResult
+        };
+      }
+      async *_transform(generator, runManager, options) {
+        const mapperKeys = this.mapper.getStepsKeys();
+        const [forPassthrough, forMapper] = atee(generator);
+        const mapperOutput = this.mapper.transform(forMapper, this._patchConfig(options, runManager == null ? void 0 : runManager.getChild()));
+        const firstMapperChunkPromise = mapperOutput.next();
+        for await (const chunk of forPassthrough) {
+          if (typeof chunk !== "object" || Array.isArray(chunk)) {
+            throw new Error(`RunnableAssign can only be used with objects as input, got ${typeof chunk}`);
+          }
+          const filtered = Object.fromEntries(Object.entries(chunk).filter(([key]) => !mapperKeys.includes(key)));
+          if (Object.keys(filtered).length > 0) {
+            yield filtered;
+          }
+        }
+        yield (await firstMapperChunkPromise).value;
+        for await (const chunk of mapperOutput) {
+          yield chunk;
+        }
+      }
+      transform(generator, options) {
+        return this._transformStreamWithConfig(generator, this._transform.bind(this), options);
+      }
+      async stream(input, options) {
+        async function* generator() {
+          yield input;
+        }
+        return IterableReadableStream.fromAsyncGenerator(this.transform(generator(), options));
+      }
+    };
+    RunnablePick = class extends Runnable {
+      static lc_name() {
+        return "RunnablePick";
+      }
+      constructor(fields) {
+        if (typeof fields === "string" || Array.isArray(fields)) {
+          fields = { keys: fields };
+        }
+        super(fields);
+        Object.defineProperty(this, "lc_namespace", {
+          enumerable: true,
+          configurable: true,
+          writable: true,
+          value: ["langchain_core", "runnables"]
+        });
+        Object.defineProperty(this, "lc_serializable", {
+          enumerable: true,
+          configurable: true,
+          writable: true,
+          value: true
+        });
+        Object.defineProperty(this, "keys", {
+          enumerable: true,
+          configurable: true,
+          writable: true,
+          value: void 0
+        });
+        this.keys = fields.keys;
+      }
+      async _pick(input) {
+        if (typeof this.keys === "string") {
+          return input[this.keys];
+        } else {
+          const picked = this.keys.map((key) => [key, input[key]]).filter((v) => v[1] !== void 0);
+          return picked.length === 0 ? void 0 : Object.fromEntries(picked);
+        }
+      }
+      async invoke(input, options) {
+        return this._callWithConfig(this._pick.bind(this), input, options);
+      }
+      async *_transform(generator) {
+        for await (const chunk of generator) {
+          const picked = await this._pick(chunk);
+          if (picked !== void 0) {
+            yield picked;
+          }
+        }
+      }
+      transform(generator, options) {
+        return this._transformStreamWithConfig(generator, this._transform.bind(this), options);
+      }
+      async stream(input, options) {
+        async function* generator() {
+          yield input;
+        }
+        return IterableReadableStream.fromAsyncGenerator(this.transform(generator(), options));
       }
     };
   }
@@ -8137,6 +8305,9 @@ function _coerceMessagePromptTemplateLike(messagePromptTemplateLike) {
     throw new Error(`Could not coerce message prompt template from input. Received message type: "${message._getType()}".`);
   }
 }
+function isMessagesPlaceholder(x) {
+  return x.constructor.lc_name() === "MessagesPlaceholder";
+}
 var BaseMessagePromptTemplate, MessagesPlaceholder, BaseMessageStringPromptTemplate, BaseChatPromptTemplate, ChatMessagePromptTemplate, HumanMessagePromptTemplate, AIMessagePromptTemplate, SystemMessagePromptTemplate, ChatPromptTemplate;
 var init_chat = __esm({
   "node_modules/@langchain/core/dist/prompts/chat.js"() {
@@ -8176,6 +8347,7 @@ var init_chat = __esm({
         return "MessagesPlaceholder";
       }
       constructor(fields) {
+        var _a3;
         if (typeof fields === "string") {
           fields = { variableName: fields };
         }
@@ -8186,12 +8358,26 @@ var init_chat = __esm({
           writable: true,
           value: void 0
         });
+        Object.defineProperty(this, "optional", {
+          enumerable: true,
+          configurable: true,
+          writable: true,
+          value: void 0
+        });
         this.variableName = fields.variableName;
+        this.optional = (_a3 = fields.optional) != null ? _a3 : false;
       }
       get inputVariables() {
         return [this.variableName];
       }
       validateInputOrThrow(input, variableName) {
+        if (this.optional && !input) {
+          return false;
+        } else if (!input) {
+          const error = new Error(`Error: Field "${variableName}" in prompt uses a MessagesPlaceholder, which expects an array of BaseMessages as an input value. Received: undefined`);
+          error.name = "InputFormatError";
+          throw error;
+        }
         let isInputBaseMessage = false;
         if (Array.isArray(input)) {
           isInputBaseMessage = input.every((message) => isBaseMessage(message));
@@ -8207,8 +8393,9 @@ var init_chat = __esm({
         return true;
       }
       async formatMessages(values) {
+        var _a3;
         this.validateInputOrThrow(values[this.variableName], this.variableName);
-        return values[this.variableName];
+        return (_a3 = values[this.variableName]) != null ? _a3 : [];
       }
     };
     BaseMessageStringPromptTemplate = class extends BaseMessagePromptTemplate {
@@ -8379,7 +8566,7 @@ var init_chat = __esm({
             resultMessages.push(await this._parseImagePrompts(promptMessage, allValues));
           } else {
             const inputValues = promptMessage.inputVariables.reduce((acc, inputVariable) => {
-              if (!(inputVariable in allValues)) {
+              if (!(inputVariable in allValues) && !(isMessagesPlaceholder(promptMessage) && promptMessage.optional)) {
                 throw new Error(`Missing value for input variable \`${inputVariable.toString()}\``);
               }
               acc[inputVariable] = allValues[inputVariable];
@@ -9094,6 +9281,7 @@ var init_history = __esm({
 var init_runnables = __esm({
   "node_modules/@langchain/core/dist/runnables/index.js"() {
     init_base5();
+    init_config();
     init_passthrough();
     init_router();
     init_branch();
@@ -9365,6 +9553,7 @@ var init_bytes = __esm({
 var init_list = __esm({
   "node_modules/@langchain/core/dist/output_parsers/list.js"() {
     init_base11();
+    init_transform();
   }
 });
 
@@ -9372,6 +9561,21 @@ var init_list = __esm({
 var init_string2 = __esm({
   "node_modules/@langchain/core/dist/output_parsers/string.js"() {
     init_transform();
+  }
+});
+
+// node_modules/@langchain/core/dist/utils/json_patch.js
+var init_json_patch = __esm({
+  "node_modules/@langchain/core/dist/utils/json_patch.js"() {
+    init_fast_json_patch();
+  }
+});
+
+// node_modules/@langchain/core/dist/output_parsers/json.js
+var init_json = __esm({
+  "node_modules/@langchain/core/dist/output_parsers/json.js"() {
+    init_transform();
+    init_json_patch();
   }
 });
 
@@ -9383,6 +9587,7 @@ var init_output_parsers = __esm({
     init_list();
     init_string2();
     init_transform();
+    init_json();
   }
 });
 
@@ -26584,9 +26789,9 @@ var require_num_sort = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatStreamRequestPromptTruncation.js
+// node_modules/cohere-ai/api/types/ChatStreamRequestPromptTruncation.js
 var require_ChatStreamRequestPromptTruncation = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatStreamRequestPromptTruncation.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatStreamRequestPromptTruncation.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ChatStreamRequestPromptTruncation = void 0;
@@ -26597,9 +26802,9 @@ var require_ChatStreamRequestPromptTruncation = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatStreamRequestCitationQuality.js
+// node_modules/cohere-ai/api/types/ChatStreamRequestCitationQuality.js
 var require_ChatStreamRequestCitationQuality = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatStreamRequestCitationQuality.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatStreamRequestCitationQuality.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ChatStreamRequestCitationQuality = void 0;
@@ -26610,9 +26815,9 @@ var require_ChatStreamRequestCitationQuality = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatRequestPromptTruncation.js
+// node_modules/cohere-ai/api/types/ChatRequestPromptTruncation.js
 var require_ChatRequestPromptTruncation = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatRequestPromptTruncation.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatRequestPromptTruncation.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ChatRequestPromptTruncation = void 0;
@@ -26623,9 +26828,9 @@ var require_ChatRequestPromptTruncation = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatRequestCitationQuality.js
+// node_modules/cohere-ai/api/types/ChatRequestCitationQuality.js
 var require_ChatRequestCitationQuality = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatRequestCitationQuality.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatRequestCitationQuality.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ChatRequestCitationQuality = void 0;
@@ -26636,9 +26841,9 @@ var require_ChatRequestCitationQuality = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/GenerateRequestTruncate.js
+// node_modules/cohere-ai/api/types/GenerateRequestTruncate.js
 var require_GenerateRequestTruncate = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/GenerateRequestTruncate.js"(exports) {
+  "node_modules/cohere-ai/api/types/GenerateRequestTruncate.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.GenerateRequestTruncate = void 0;
@@ -26650,9 +26855,9 @@ var require_GenerateRequestTruncate = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/GenerateRequestReturnLikelihoods.js
+// node_modules/cohere-ai/api/types/GenerateRequestReturnLikelihoods.js
 var require_GenerateRequestReturnLikelihoods = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/GenerateRequestReturnLikelihoods.js"(exports) {
+  "node_modules/cohere-ai/api/types/GenerateRequestReturnLikelihoods.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.GenerateRequestReturnLikelihoods = void 0;
@@ -26664,9 +26869,9 @@ var require_GenerateRequestReturnLikelihoods = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/EmbedRequestTruncate.js
+// node_modules/cohere-ai/api/types/EmbedRequestTruncate.js
 var require_EmbedRequestTruncate = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/EmbedRequestTruncate.js"(exports) {
+  "node_modules/cohere-ai/api/types/EmbedRequestTruncate.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.EmbedRequestTruncate = void 0;
@@ -26678,65 +26883,65 @@ var require_EmbedRequestTruncate = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/EmbedResponse.js
+// node_modules/cohere-ai/api/types/EmbedResponse.js
 var require_EmbedResponse = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/EmbedResponse.js"(exports) {
+  "node_modules/cohere-ai/api/types/EmbedResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/RerankRequestDocumentsItem.js
+// node_modules/cohere-ai/api/types/RerankRequestDocumentsItem.js
 var require_RerankRequestDocumentsItem = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/RerankRequestDocumentsItem.js"(exports) {
+  "node_modules/cohere-ai/api/types/RerankRequestDocumentsItem.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/RerankRequestDocumentsItemText.js
+// node_modules/cohere-ai/api/types/RerankRequestDocumentsItemText.js
 var require_RerankRequestDocumentsItemText = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/RerankRequestDocumentsItemText.js"(exports) {
+  "node_modules/cohere-ai/api/types/RerankRequestDocumentsItemText.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/RerankResponse.js
+// node_modules/cohere-ai/api/types/RerankResponse.js
 var require_RerankResponse = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/RerankResponse.js"(exports) {
+  "node_modules/cohere-ai/api/types/RerankResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/RerankResponseResultsItem.js
+// node_modules/cohere-ai/api/types/RerankResponseResultsItem.js
 var require_RerankResponseResultsItem = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/RerankResponseResultsItem.js"(exports) {
+  "node_modules/cohere-ai/api/types/RerankResponseResultsItem.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/RerankResponseResultsItemDocument.js
+// node_modules/cohere-ai/api/types/RerankResponseResultsItemDocument.js
 var require_RerankResponseResultsItemDocument = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/RerankResponseResultsItemDocument.js"(exports) {
+  "node_modules/cohere-ai/api/types/RerankResponseResultsItemDocument.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ClassifyRequestExamplesItem.js
+// node_modules/cohere-ai/api/types/ClassifyRequestExamplesItem.js
 var require_ClassifyRequestExamplesItem = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ClassifyRequestExamplesItem.js"(exports) {
+  "node_modules/cohere-ai/api/types/ClassifyRequestExamplesItem.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ClassifyRequestTruncate.js
+// node_modules/cohere-ai/api/types/ClassifyRequestTruncate.js
 var require_ClassifyRequestTruncate = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ClassifyRequestTruncate.js"(exports) {
+  "node_modules/cohere-ai/api/types/ClassifyRequestTruncate.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ClassifyRequestTruncate = void 0;
@@ -26748,33 +26953,33 @@ var require_ClassifyRequestTruncate = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ClassifyResponse.js
+// node_modules/cohere-ai/api/types/ClassifyResponse.js
 var require_ClassifyResponse = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ClassifyResponse.js"(exports) {
+  "node_modules/cohere-ai/api/types/ClassifyResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ClassifyResponseClassificationsItem.js
+// node_modules/cohere-ai/api/types/ClassifyResponseClassificationsItem.js
 var require_ClassifyResponseClassificationsItem = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ClassifyResponseClassificationsItem.js"(exports) {
+  "node_modules/cohere-ai/api/types/ClassifyResponseClassificationsItem.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ClassifyResponseClassificationsItemLabelsValue.js
+// node_modules/cohere-ai/api/types/ClassifyResponseClassificationsItemLabelsValue.js
 var require_ClassifyResponseClassificationsItemLabelsValue = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ClassifyResponseClassificationsItemLabelsValue.js"(exports) {
+  "node_modules/cohere-ai/api/types/ClassifyResponseClassificationsItemLabelsValue.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ClassifyResponseClassificationsItemClassificationType.js
+// node_modules/cohere-ai/api/types/ClassifyResponseClassificationsItemClassificationType.js
 var require_ClassifyResponseClassificationsItemClassificationType = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ClassifyResponseClassificationsItemClassificationType.js"(exports) {
+  "node_modules/cohere-ai/api/types/ClassifyResponseClassificationsItemClassificationType.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ClassifyResponseClassificationsItemClassificationType = void 0;
@@ -26785,25 +26990,25 @@ var require_ClassifyResponseClassificationsItemClassificationType = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/DetectLanguageResponse.js
+// node_modules/cohere-ai/api/types/DetectLanguageResponse.js
 var require_DetectLanguageResponse = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/DetectLanguageResponse.js"(exports) {
+  "node_modules/cohere-ai/api/types/DetectLanguageResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/DetectLanguageResponseResultsItem.js
+// node_modules/cohere-ai/api/types/DetectLanguageResponseResultsItem.js
 var require_DetectLanguageResponseResultsItem = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/DetectLanguageResponseResultsItem.js"(exports) {
+  "node_modules/cohere-ai/api/types/DetectLanguageResponseResultsItem.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/SummarizeRequestLength.js
+// node_modules/cohere-ai/api/types/SummarizeRequestLength.js
 var require_SummarizeRequestLength = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/SummarizeRequestLength.js"(exports) {
+  "node_modules/cohere-ai/api/types/SummarizeRequestLength.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.SummarizeRequestLength = void 0;
@@ -26815,9 +27020,9 @@ var require_SummarizeRequestLength = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/SummarizeRequestFormat.js
+// node_modules/cohere-ai/api/types/SummarizeRequestFormat.js
 var require_SummarizeRequestFormat = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/SummarizeRequestFormat.js"(exports) {
+  "node_modules/cohere-ai/api/types/SummarizeRequestFormat.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.SummarizeRequestFormat = void 0;
@@ -26828,9 +27033,9 @@ var require_SummarizeRequestFormat = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/SummarizeRequestExtractiveness.js
+// node_modules/cohere-ai/api/types/SummarizeRequestExtractiveness.js
 var require_SummarizeRequestExtractiveness = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/SummarizeRequestExtractiveness.js"(exports) {
+  "node_modules/cohere-ai/api/types/SummarizeRequestExtractiveness.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.SummarizeRequestExtractiveness = void 0;
@@ -26842,41 +27047,41 @@ var require_SummarizeRequestExtractiveness = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/SummarizeResponse.js
+// node_modules/cohere-ai/api/types/SummarizeResponse.js
 var require_SummarizeResponse = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/SummarizeResponse.js"(exports) {
+  "node_modules/cohere-ai/api/types/SummarizeResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/TokenizeResponse.js
+// node_modules/cohere-ai/api/types/TokenizeResponse.js
 var require_TokenizeResponse = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/TokenizeResponse.js"(exports) {
+  "node_modules/cohere-ai/api/types/TokenizeResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/DetokenizeResponse.js
+// node_modules/cohere-ai/api/types/DetokenizeResponse.js
 var require_DetokenizeResponse = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/DetokenizeResponse.js"(exports) {
+  "node_modules/cohere-ai/api/types/DetokenizeResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatMessage.js
+// node_modules/cohere-ai/api/types/ChatMessage.js
 var require_ChatMessage = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatMessage.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatMessage.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatMessageRole.js
+// node_modules/cohere-ai/api/types/ChatMessageRole.js
 var require_ChatMessageRole = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatMessageRole.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatMessageRole.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ChatMessageRole = void 0;
@@ -26887,121 +27092,121 @@ var require_ChatMessageRole = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatConnector.js
+// node_modules/cohere-ai/api/types/ChatConnector.js
 var require_ChatConnector = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatConnector.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatConnector.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatDocument.js
+// node_modules/cohere-ai/api/types/ChatDocument.js
 var require_ChatDocument = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatDocument.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatDocument.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatCitation.js
+// node_modules/cohere-ai/api/types/ChatCitation.js
 var require_ChatCitation = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatCitation.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatCitation.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatSearchQuery.js
+// node_modules/cohere-ai/api/types/ChatSearchQuery.js
 var require_ChatSearchQuery = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatSearchQuery.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatSearchQuery.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatSearchResult.js
+// node_modules/cohere-ai/api/types/ChatSearchResult.js
 var require_ChatSearchResult = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatSearchResult.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatSearchResult.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/NonStreamedChatResponse.js
+// node_modules/cohere-ai/api/types/NonStreamedChatResponse.js
 var require_NonStreamedChatResponse = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/NonStreamedChatResponse.js"(exports) {
+  "node_modules/cohere-ai/api/types/NonStreamedChatResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatStreamEvent.js
+// node_modules/cohere-ai/api/types/ChatStreamEvent.js
 var require_ChatStreamEvent = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatStreamEvent.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatStreamEvent.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatStreamStartEvent.js
+// node_modules/cohere-ai/api/types/ChatStreamStartEvent.js
 var require_ChatStreamStartEvent = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatStreamStartEvent.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatStreamStartEvent.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatSearchQueriesGenerationEvent.js
+// node_modules/cohere-ai/api/types/ChatSearchQueriesGenerationEvent.js
 var require_ChatSearchQueriesGenerationEvent = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatSearchQueriesGenerationEvent.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatSearchQueriesGenerationEvent.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatSearchResultsEvent.js
+// node_modules/cohere-ai/api/types/ChatSearchResultsEvent.js
 var require_ChatSearchResultsEvent = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatSearchResultsEvent.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatSearchResultsEvent.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatTextGenerationEvent.js
+// node_modules/cohere-ai/api/types/ChatTextGenerationEvent.js
 var require_ChatTextGenerationEvent = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatTextGenerationEvent.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatTextGenerationEvent.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatCitationGenerationEvent.js
+// node_modules/cohere-ai/api/types/ChatCitationGenerationEvent.js
 var require_ChatCitationGenerationEvent = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatCitationGenerationEvent.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatCitationGenerationEvent.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/SearchQueriesOnlyResponse.js
+// node_modules/cohere-ai/api/types/SearchQueriesOnlyResponse.js
 var require_SearchQueriesOnlyResponse = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/SearchQueriesOnlyResponse.js"(exports) {
+  "node_modules/cohere-ai/api/types/SearchQueriesOnlyResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatStreamEndEvent.js
+// node_modules/cohere-ai/api/types/ChatStreamEndEvent.js
 var require_ChatStreamEndEvent = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatStreamEndEvent.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatStreamEndEvent.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatStreamEndEventFinishReason.js
+// node_modules/cohere-ai/api/types/ChatStreamEndEventFinishReason.js
 var require_ChatStreamEndEventFinishReason = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatStreamEndEventFinishReason.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatStreamEndEventFinishReason.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ChatStreamEndEventFinishReason = void 0;
@@ -27015,113 +27220,113 @@ var require_ChatStreamEndEventFinishReason = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ChatStreamEndEventResponse.js
+// node_modules/cohere-ai/api/types/ChatStreamEndEventResponse.js
 var require_ChatStreamEndEventResponse = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ChatStreamEndEventResponse.js"(exports) {
+  "node_modules/cohere-ai/api/types/ChatStreamEndEventResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/StreamedChatResponse.js
+// node_modules/cohere-ai/api/types/StreamedChatResponse.js
 var require_StreamedChatResponse = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/StreamedChatResponse.js"(exports) {
+  "node_modules/cohere-ai/api/types/StreamedChatResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/SingleGeneration.js
+// node_modules/cohere-ai/api/types/SingleGeneration.js
 var require_SingleGeneration = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/SingleGeneration.js"(exports) {
+  "node_modules/cohere-ai/api/types/SingleGeneration.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/SingleGenerationTokenLikelihoodsItem.js
+// node_modules/cohere-ai/api/types/SingleGenerationTokenLikelihoodsItem.js
 var require_SingleGenerationTokenLikelihoodsItem = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/SingleGenerationTokenLikelihoodsItem.js"(exports) {
+  "node_modules/cohere-ai/api/types/SingleGenerationTokenLikelihoodsItem.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ApiMeta.js
+// node_modules/cohere-ai/api/types/ApiMeta.js
 var require_ApiMeta = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ApiMeta.js"(exports) {
+  "node_modules/cohere-ai/api/types/ApiMeta.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ApiMetaApiVersion.js
+// node_modules/cohere-ai/api/types/ApiMetaApiVersion.js
 var require_ApiMetaApiVersion = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ApiMetaApiVersion.js"(exports) {
+  "node_modules/cohere-ai/api/types/ApiMetaApiVersion.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ApiMetaApiVersionBilledUnits.js
+// node_modules/cohere-ai/api/types/ApiMetaApiVersionBilledUnits.js
 var require_ApiMetaApiVersionBilledUnits = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ApiMetaApiVersionBilledUnits.js"(exports) {
+  "node_modules/cohere-ai/api/types/ApiMetaApiVersionBilledUnits.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/Generation.js
+// node_modules/cohere-ai/api/types/Generation.js
 var require_Generation = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/Generation.js"(exports) {
+  "node_modules/cohere-ai/api/types/Generation.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/EmbedFloatsResponse.js
+// node_modules/cohere-ai/api/types/EmbedFloatsResponse.js
 var require_EmbedFloatsResponse = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/EmbedFloatsResponse.js"(exports) {
+  "node_modules/cohere-ai/api/types/EmbedFloatsResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/EmbedByTypeResponse.js
+// node_modules/cohere-ai/api/types/EmbedByTypeResponse.js
 var require_EmbedByTypeResponse = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/EmbedByTypeResponse.js"(exports) {
+  "node_modules/cohere-ai/api/types/EmbedByTypeResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/EmbedByTypeResponseEmbeddings.js
+// node_modules/cohere-ai/api/types/EmbedByTypeResponseEmbeddings.js
 var require_EmbedByTypeResponseEmbeddings = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/EmbedByTypeResponseEmbeddings.js"(exports) {
+  "node_modules/cohere-ai/api/types/EmbedByTypeResponseEmbeddings.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ConnectorOAuth.js
+// node_modules/cohere-ai/api/types/ConnectorOAuth.js
 var require_ConnectorOAuth = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ConnectorOAuth.js"(exports) {
+  "node_modules/cohere-ai/api/types/ConnectorOAuth.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/Connector.js
+// node_modules/cohere-ai/api/types/Connector.js
 var require_Connector = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/Connector.js"(exports) {
+  "node_modules/cohere-ai/api/types/Connector.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ConnectorAuthStatus.js
+// node_modules/cohere-ai/api/types/ConnectorAuthStatus.js
 var require_ConnectorAuthStatus = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ConnectorAuthStatus.js"(exports) {
+  "node_modules/cohere-ai/api/types/ConnectorAuthStatus.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ConnectorAuthStatus = void 0;
@@ -27132,73 +27337,73 @@ var require_ConnectorAuthStatus = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/ListResponse.js
+// node_modules/cohere-ai/api/types/ListResponse.js
 var require_ListResponse = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/ListResponse.js"(exports) {
+  "node_modules/cohere-ai/api/types/ListResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/CreateConnectorOAuth.js
+// node_modules/cohere-ai/api/types/CreateConnectorOAuth.js
 var require_CreateConnectorOAuth = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/CreateConnectorOAuth.js"(exports) {
+  "node_modules/cohere-ai/api/types/CreateConnectorOAuth.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/CreateConnectorServiceAuth.js
+// node_modules/cohere-ai/api/types/CreateConnectorServiceAuth.js
 var require_CreateConnectorServiceAuth = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/CreateConnectorServiceAuth.js"(exports) {
+  "node_modules/cohere-ai/api/types/CreateConnectorServiceAuth.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/CreateResponse.js
+// node_modules/cohere-ai/api/types/CreateResponse.js
 var require_CreateResponse = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/CreateResponse.js"(exports) {
+  "node_modules/cohere-ai/api/types/CreateResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/GetResponse.js
+// node_modules/cohere-ai/api/types/GetResponse.js
 var require_GetResponse = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/GetResponse.js"(exports) {
+  "node_modules/cohere-ai/api/types/GetResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/DeleteResponse.js
+// node_modules/cohere-ai/api/types/DeleteResponse.js
 var require_DeleteResponse = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/DeleteResponse.js"(exports) {
+  "node_modules/cohere-ai/api/types/DeleteResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/UpdateResponse.js
+// node_modules/cohere-ai/api/types/UpdateResponse.js
 var require_UpdateResponse = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/UpdateResponse.js"(exports) {
+  "node_modules/cohere-ai/api/types/UpdateResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/OAuthAuthorizeResponse.js
+// node_modules/cohere-ai/api/types/OAuthAuthorizeResponse.js
 var require_OAuthAuthorizeResponse = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/OAuthAuthorizeResponse.js"(exports) {
+  "node_modules/cohere-ai/api/types/OAuthAuthorizeResponse.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/types/index.js
+// node_modules/cohere-ai/api/types/index.js
 var require_types2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/types/index.js"(exports) {
+  "node_modules/cohere-ai/api/types/index.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -27290,9 +27495,9 @@ var require_types2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/errors/CohereError.js
+// node_modules/cohere-ai/errors/CohereError.js
 var require_CohereError = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/errors/CohereError.js"(exports) {
+  "node_modules/cohere-ai/errors/CohereError.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.CohereError = void 0;
@@ -27325,9 +27530,9 @@ var require_CohereError = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/errors/CohereTimeoutError.js
+// node_modules/cohere-ai/errors/CohereTimeoutError.js
 var require_CohereTimeoutError = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/errors/CohereTimeoutError.js"(exports) {
+  "node_modules/cohere-ai/errors/CohereTimeoutError.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.CohereTimeoutError = void 0;
@@ -27341,9 +27546,9 @@ var require_CohereTimeoutError = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/errors/index.js
+// node_modules/cohere-ai/errors/index.js
 var require_errors2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/errors/index.js"(exports) {
+  "node_modules/cohere-ai/errors/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.CohereTimeoutError = exports.CohereError = void 0;
@@ -27358,9 +27563,9 @@ var require_errors2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/errors/BadRequestError.js
+// node_modules/cohere-ai/api/errors/BadRequestError.js
 var require_BadRequestError = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/errors/BadRequestError.js"(exports) {
+  "node_modules/cohere-ai/api/errors/BadRequestError.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -27411,9 +27616,9 @@ var require_BadRequestError = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/errors/ForbiddenError.js
+// node_modules/cohere-ai/api/errors/ForbiddenError.js
 var require_ForbiddenError = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/errors/ForbiddenError.js"(exports) {
+  "node_modules/cohere-ai/api/errors/ForbiddenError.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -27464,9 +27669,9 @@ var require_ForbiddenError = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/errors/NotFoundError.js
+// node_modules/cohere-ai/api/errors/NotFoundError.js
 var require_NotFoundError = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/errors/NotFoundError.js"(exports) {
+  "node_modules/cohere-ai/api/errors/NotFoundError.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -27517,9 +27722,9 @@ var require_NotFoundError = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/errors/InternalServerError.js
+// node_modules/cohere-ai/api/errors/InternalServerError.js
 var require_InternalServerError = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/errors/InternalServerError.js"(exports) {
+  "node_modules/cohere-ai/api/errors/InternalServerError.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -27570,9 +27775,9 @@ var require_InternalServerError = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/errors/index.js
+// node_modules/cohere-ai/api/errors/index.js
 var require_errors3 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/errors/index.js"(exports) {
+  "node_modules/cohere-ai/api/errors/index.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -27602,17 +27807,17 @@ var require_errors3 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/resources/connectors/client/requests/index.js
+// node_modules/cohere-ai/api/resources/connectors/client/requests/index.js
 var require_requests = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/resources/connectors/client/requests/index.js"(exports) {
+  "node_modules/cohere-ai/api/resources/connectors/client/requests/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/resources/connectors/client/index.js
+// node_modules/cohere-ai/api/resources/connectors/client/index.js
 var require_client = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/resources/connectors/client/index.js"(exports) {
+  "node_modules/cohere-ai/api/resources/connectors/client/index.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -27639,9 +27844,9 @@ var require_client = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/resources/connectors/index.js
+// node_modules/cohere-ai/api/resources/connectors/index.js
 var require_connectors = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/resources/connectors/index.js"(exports) {
+  "node_modules/cohere-ai/api/resources/connectors/index.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -27668,9 +27873,9 @@ var require_connectors = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/resources/index.js
+// node_modules/cohere-ai/api/resources/index.js
 var require_resources = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/resources/index.js"(exports) {
+  "node_modules/cohere-ai/api/resources/index.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -27716,17 +27921,17 @@ var require_resources = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/client/requests/index.js
+// node_modules/cohere-ai/api/client/requests/index.js
 var require_requests2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/client/requests/index.js"(exports) {
+  "node_modules/cohere-ai/api/client/requests/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/client/index.js
+// node_modules/cohere-ai/api/client/index.js
 var require_client2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/client/index.js"(exports) {
+  "node_modules/cohere-ai/api/client/index.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -27753,9 +27958,9 @@ var require_client2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/index.js
+// node_modules/cohere-ai/api/index.js
 var require_api = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/index.js"(exports) {
+  "node_modules/cohere-ai/api/index.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -27785,9 +27990,9 @@ var require_api = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/environments.js
+// node_modules/cohere-ai/environments.js
 var require_environments = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/environments.js"(exports) {
+  "node_modules/cohere-ai/environments.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.CohereEnvironment = void 0;
@@ -29665,9 +29870,9 @@ var require_browser2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/fetcher/Fetcher.js
+// node_modules/cohere-ai/core/fetcher/Fetcher.js
 var require_Fetcher = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/fetcher/Fetcher.js"(exports) {
+  "node_modules/cohere-ai/core/fetcher/Fetcher.js"(exports) {
     "use strict";
     var __awaiter = exports && exports.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -29730,7 +29935,7 @@ var require_Fetcher = __commonJS({
         } else {
           body = JSON.stringify(args.body);
         }
-        const makeRequest = () => __awaiter(this, void 0, void 0, function* () {
+        const makeRequest2 = () => __awaiter(this, void 0, void 0, function* () {
           const controller = new AbortController();
           let abortId = void 0;
           if (args.timeoutMs != null) {
@@ -29749,12 +29954,12 @@ var require_Fetcher = __commonJS({
           return response;
         });
         try {
-          let response = yield makeRequest();
+          let response = yield makeRequest2();
           for (let i = 0; i < ((_b = args.maxRetries) !== null && _b !== void 0 ? _b : DEFAULT_MAX_RETRIES); ++i) {
             if (response.status === 408 || response.status === 409 || response.status === 429 || response.status >= 500) {
               const delay = Math.min(INITIAL_RETRY_DELAY * Math.pow(i, 2), MAX_RETRY_DELAY);
               yield new Promise((resolve) => setTimeout(resolve, delay));
-              response = yield makeRequest();
+              response = yield makeRequest2();
             } else {
               break;
             }
@@ -29825,9 +30030,9 @@ var require_Fetcher = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/fetcher/getHeader.js
+// node_modules/cohere-ai/core/fetcher/getHeader.js
 var require_getHeader = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/fetcher/getHeader.js"(exports) {
+  "node_modules/cohere-ai/core/fetcher/getHeader.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getHeader = void 0;
@@ -29843,9 +30048,9 @@ var require_getHeader = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/fetcher/Supplier.js
+// node_modules/cohere-ai/core/fetcher/Supplier.js
 var require_Supplier = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/fetcher/Supplier.js"(exports) {
+  "node_modules/cohere-ai/core/fetcher/Supplier.js"(exports) {
     "use strict";
     var __awaiter = exports && exports.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -29888,9 +30093,9 @@ var require_Supplier = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/fetcher/index.js
+// node_modules/cohere-ai/core/fetcher/index.js
 var require_fetcher = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/fetcher/index.js"(exports) {
+  "node_modules/cohere-ai/core/fetcher/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Supplier = exports.getHeader = exports.fetcher = void 0;
@@ -30165,9 +30370,9 @@ var require_base64 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/auth/BasicAuth.js
+// node_modules/cohere-ai/core/auth/BasicAuth.js
 var require_BasicAuth = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/auth/BasicAuth.js"(exports) {
+  "node_modules/cohere-ai/core/auth/BasicAuth.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.BasicAuth = void 0;
@@ -30197,9 +30402,9 @@ var require_BasicAuth = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/auth/BearerToken.js
+// node_modules/cohere-ai/core/auth/BearerToken.js
 var require_BearerToken = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/auth/BearerToken.js"(exports) {
+  "node_modules/cohere-ai/core/auth/BearerToken.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.BearerToken = void 0;
@@ -30218,9 +30423,9 @@ var require_BearerToken = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/auth/index.js
+// node_modules/cohere-ai/core/auth/index.js
 var require_auth = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/auth/index.js"(exports) {
+  "node_modules/cohere-ai/core/auth/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.BearerToken = exports.BasicAuth = void 0;
@@ -30235,9 +30440,9 @@ var require_auth = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/streaming-fetcher/Stream.js
+// node_modules/cohere-ai/core/streaming-fetcher/Stream.js
 var require_Stream = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/streaming-fetcher/Stream.js"(exports) {
+  "node_modules/cohere-ai/core/streaming-fetcher/Stream.js"(exports) {
     "use strict";
     var __asyncValues = exports && exports.__asyncValues || function(o) {
       if (!Symbol.asyncIterator)
@@ -30259,10 +30464,10 @@ var require_Stream = __commonJS({
         }, reject);
       }
     };
-    var __await = exports && exports.__await || function(v) {
-      return this instanceof __await ? (this.v = v, this) : new __await(v);
+    var __await2 = exports && exports.__await || function(v) {
+      return this instanceof __await2 ? (this.v = v, this) : new __await2(v);
     };
-    var __asyncGenerator = exports && exports.__asyncGenerator || function(thisArg, _arguments, generator) {
+    var __asyncGenerator2 = exports && exports.__asyncGenerator || function(thisArg, _arguments, generator) {
       if (!Symbol.asyncIterator)
         throw new TypeError("Symbol.asyncIterator is not defined.");
       var g = generator.apply(thisArg, _arguments || []), i, q = [];
@@ -30285,7 +30490,7 @@ var require_Stream = __commonJS({
         }
       }
       function step(r) {
-        r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r);
+        r.value instanceof __await2 ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r);
       }
       function fulfill(value) {
         resume("next", value);
@@ -30307,19 +30512,19 @@ var require_Stream = __commonJS({
         this.terminator = terminator;
       }
       iterMessages() {
-        return __asyncGenerator(this, arguments, function* iterMessages_1() {
+        return __asyncGenerator2(this, arguments, function* iterMessages_1() {
           var e_1, _a3;
           let previous2 = "";
           try {
-            for (var _b = __asyncValues(this.stream), _c; _c = yield __await(_b.next()), !_c.done; ) {
+            for (var _b = __asyncValues(this.stream), _c; _c = yield __await2(_b.next()), !_c.done; ) {
               const chunk = _c.value;
               const bufferChunk = Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk);
               previous2 += bufferChunk;
               let terminatorIndex;
               while ((terminatorIndex = previous2.indexOf(this.terminator)) >= 0) {
                 const line = previous2.slice(0, terminatorIndex).trimEnd();
-                const message = yield __await(this.parse(JSON.parse(line)));
-                yield yield __await(message);
+                const message = yield __await2(this.parse(JSON.parse(line)));
+                yield yield __await2(message);
                 previous2 = previous2.slice(terminatorIndex + 1);
               }
             }
@@ -30328,7 +30533,7 @@ var require_Stream = __commonJS({
           } finally {
             try {
               if (_c && !_c.done && (_a3 = _b.return))
-                yield __await(_a3.call(_b));
+                yield __await2(_a3.call(_b));
             } finally {
               if (e_1)
                 throw e_1.error;
@@ -30337,19 +30542,19 @@ var require_Stream = __commonJS({
         });
       }
       [Symbol.asyncIterator]() {
-        return __asyncGenerator(this, arguments, function* _a3() {
+        return __asyncGenerator2(this, arguments, function* _a3() {
           var e_2, _b;
           try {
-            for (var _c = __asyncValues(this.iterMessages()), _d; _d = yield __await(_c.next()), !_d.done; ) {
+            for (var _c = __asyncValues(this.iterMessages()), _d; _d = yield __await2(_c.next()), !_d.done; ) {
               const message = _d.value;
-              yield yield __await(message);
+              yield yield __await2(message);
             }
           } catch (e_2_1) {
             e_2 = { error: e_2_1 };
           } finally {
             try {
               if (_d && !_d.done && (_b = _c.return))
-                yield __await(_b.call(_c));
+                yield __await2(_b.call(_c));
             } finally {
               if (e_2)
                 throw e_2.error;
@@ -30362,9 +30567,9 @@ var require_Stream = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/streaming-fetcher/index.js
+// node_modules/cohere-ai/core/streaming-fetcher/index.js
 var require_streaming_fetcher = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/streaming-fetcher/index.js"(exports) {
+  "node_modules/cohere-ai/core/streaming-fetcher/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Stream = void 0;
@@ -30375,9 +30580,9 @@ var require_streaming_fetcher = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/Schema.js
+// node_modules/cohere-ai/core/schemas/Schema.js
 var require_Schema = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/Schema.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/Schema.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.SchemaType = void 0;
@@ -30402,9 +30607,9 @@ var require_Schema = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/utils/getErrorMessageForIncorrectType.js
+// node_modules/cohere-ai/core/schemas/utils/getErrorMessageForIncorrectType.js
 var require_getErrorMessageForIncorrectType = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/utils/getErrorMessageForIncorrectType.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/utils/getErrorMessageForIncorrectType.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.getErrorMessageForIncorrectType = void 0;
@@ -30432,9 +30637,9 @@ var require_getErrorMessageForIncorrectType = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/utils/maybeSkipValidation.js
+// node_modules/cohere-ai/core/schemas/utils/maybeSkipValidation.js
 var require_maybeSkipValidation = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/utils/maybeSkipValidation.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/utils/maybeSkipValidation.js"(exports) {
     "use strict";
     var __awaiter = exports && exports.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -30490,9 +30695,9 @@ var require_maybeSkipValidation = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/schema-utils/stringifyValidationErrors.js
+// node_modules/cohere-ai/core/schemas/builders/schema-utils/stringifyValidationErrors.js
 var require_stringifyValidationErrors = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/schema-utils/stringifyValidationErrors.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/schema-utils/stringifyValidationErrors.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.stringifyValidationError = void 0;
@@ -30506,9 +30711,9 @@ var require_stringifyValidationErrors = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/schema-utils/JsonError.js
+// node_modules/cohere-ai/core/schemas/builders/schema-utils/JsonError.js
 var require_JsonError = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/schema-utils/JsonError.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/schema-utils/JsonError.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.JsonError = void 0;
@@ -30524,9 +30729,9 @@ var require_JsonError = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/schema-utils/ParseError.js
+// node_modules/cohere-ai/core/schemas/builders/schema-utils/ParseError.js
 var require_ParseError = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/schema-utils/ParseError.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/schema-utils/ParseError.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ParseError = void 0;
@@ -30542,9 +30747,9 @@ var require_ParseError = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/schema-utils/getSchemaUtils.js
+// node_modules/cohere-ai/core/schemas/builders/schema-utils/getSchemaUtils.js
 var require_getSchemaUtils = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/schema-utils/getSchemaUtils.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/schema-utils/getSchemaUtils.js"(exports) {
     "use strict";
     var __awaiter = exports && exports.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -30648,9 +30853,9 @@ var require_getSchemaUtils = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/schema-utils/index.js
+// node_modules/cohere-ai/core/schemas/builders/schema-utils/index.js
 var require_schema_utils = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/schema-utils/index.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/schema-utils/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.ParseError = exports.JsonError = exports.transform = exports.optional = exports.getSchemaUtils = void 0;
@@ -30675,9 +30880,9 @@ var require_schema_utils = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/date/date.js
+// node_modules/cohere-ai/core/schemas/builders/date/date.js
 var require_date2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/date/date.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/date/date.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.date = void 0;
@@ -30742,9 +30947,9 @@ var require_date2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/date/index.js
+// node_modules/cohere-ai/core/schemas/builders/date/index.js
 var require_date3 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/date/index.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/date/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.date = void 0;
@@ -30755,9 +30960,9 @@ var require_date3 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/utils/createIdentitySchemaCreator.js
+// node_modules/cohere-ai/core/schemas/utils/createIdentitySchemaCreator.js
 var require_createIdentitySchemaCreator = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/utils/createIdentitySchemaCreator.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/utils/createIdentitySchemaCreator.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.createIdentitySchemaCreator = void 0;
@@ -30777,9 +30982,9 @@ var require_createIdentitySchemaCreator = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/enum/enum.js
+// node_modules/cohere-ai/core/schemas/builders/enum/enum.js
 var require_enum2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/enum/enum.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/enum/enum.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.enum_ = void 0;
@@ -30822,9 +31027,9 @@ var require_enum2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/enum/index.js
+// node_modules/cohere-ai/core/schemas/builders/enum/index.js
 var require_enum3 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/enum/index.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/enum/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.enum_ = void 0;
@@ -30835,9 +31040,9 @@ var require_enum3 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/lazy/lazy.js
+// node_modules/cohere-ai/core/schemas/builders/lazy/lazy.js
 var require_lazy = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/lazy/lazy.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/lazy/lazy.js"(exports) {
     "use strict";
     var __awaiter = exports && exports.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -30901,9 +31106,9 @@ var require_lazy = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/utils/entries.js
+// node_modules/cohere-ai/core/schemas/utils/entries.js
 var require_entries = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/utils/entries.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/utils/entries.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.entries = void 0;
@@ -30914,9 +31119,9 @@ var require_entries = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/utils/filterObject.js
+// node_modules/cohere-ai/core/schemas/utils/filterObject.js
 var require_filterObject = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/utils/filterObject.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/utils/filterObject.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.filterObject = void 0;
@@ -30933,9 +31138,9 @@ var require_filterObject = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/utils/isPlainObject.js
+// node_modules/cohere-ai/core/schemas/utils/isPlainObject.js
 var require_isPlainObject = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/utils/isPlainObject.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/utils/isPlainObject.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.isPlainObject = void 0;
@@ -30956,9 +31161,9 @@ var require_isPlainObject = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/utils/keys.js
+// node_modules/cohere-ai/core/schemas/utils/keys.js
 var require_keys = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/utils/keys.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/utils/keys.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.keys = void 0;
@@ -30969,9 +31174,9 @@ var require_keys = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/utils/partition.js
+// node_modules/cohere-ai/core/schemas/utils/partition.js
 var require_partition = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/utils/partition.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/utils/partition.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.partition = void 0;
@@ -30990,9 +31195,9 @@ var require_partition = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/object-like/getObjectLikeUtils.js
+// node_modules/cohere-ai/core/schemas/builders/object-like/getObjectLikeUtils.js
 var require_getObjectLikeUtils = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/object-like/getObjectLikeUtils.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/object-like/getObjectLikeUtils.js"(exports) {
     "use strict";
     var __awaiter = exports && exports.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -31073,9 +31278,9 @@ var require_getObjectLikeUtils = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/object-like/index.js
+// node_modules/cohere-ai/core/schemas/builders/object-like/index.js
 var require_object_like = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/object-like/index.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/object-like/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.withParsedProperties = exports.getObjectLikeUtils = void 0;
@@ -31089,9 +31294,9 @@ var require_object_like = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/object/property.js
+// node_modules/cohere-ai/core/schemas/builders/object/property.js
 var require_property = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/object/property.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/object/property.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.isProperty = exports.property = void 0;
@@ -31110,9 +31315,9 @@ var require_property = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/object/object.js
+// node_modules/cohere-ai/core/schemas/builders/object/object.js
 var require_object2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/object/object.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/object/object.js"(exports) {
     "use strict";
     var __awaiter = exports && exports.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -31380,9 +31585,9 @@ var require_object2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/object/objectWithoutOptionalProperties.js
+// node_modules/cohere-ai/core/schemas/builders/object/objectWithoutOptionalProperties.js
 var require_objectWithoutOptionalProperties = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/object/objectWithoutOptionalProperties.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/object/objectWithoutOptionalProperties.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.objectWithoutOptionalProperties = void 0;
@@ -31394,9 +31599,9 @@ var require_objectWithoutOptionalProperties = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/object/index.js
+// node_modules/cohere-ai/core/schemas/builders/object/index.js
 var require_object3 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/object/index.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/object/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.property = exports.isProperty = exports.objectWithoutOptionalProperties = exports.object = exports.getObjectUtils = void 0;
@@ -31421,9 +31626,9 @@ var require_object3 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/lazy/lazyObject.js
+// node_modules/cohere-ai/core/schemas/builders/lazy/lazyObject.js
 var require_lazyObject = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/lazy/lazyObject.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/lazy/lazyObject.js"(exports) {
     "use strict";
     var __awaiter = exports && exports.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -31470,9 +31675,9 @@ var require_lazyObject = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/lazy/index.js
+// node_modules/cohere-ai/core/schemas/builders/lazy/index.js
 var require_lazy2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/lazy/index.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/lazy/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.lazyObject = exports.lazy = void 0;
@@ -31487,9 +31692,9 @@ var require_lazy2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/list/list.js
+// node_modules/cohere-ai/core/schemas/builders/list/list.js
 var require_list = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/list/list.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/list/list.js"(exports) {
     "use strict";
     var __awaiter = exports && exports.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -31579,9 +31784,9 @@ var require_list = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/list/index.js
+// node_modules/cohere-ai/core/schemas/builders/list/index.js
 var require_list2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/list/index.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/list/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.list = void 0;
@@ -31592,9 +31797,9 @@ var require_list2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/literals/stringLiteral.js
+// node_modules/cohere-ai/core/schemas/builders/literals/stringLiteral.js
 var require_stringLiteral = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/literals/stringLiteral.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/literals/stringLiteral.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.stringLiteral = void 0;
@@ -31626,9 +31831,9 @@ var require_stringLiteral = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/literals/booleanLiteral.js
+// node_modules/cohere-ai/core/schemas/builders/literals/booleanLiteral.js
 var require_booleanLiteral = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/literals/booleanLiteral.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/literals/booleanLiteral.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.booleanLiteral = void 0;
@@ -31660,9 +31865,9 @@ var require_booleanLiteral = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/literals/index.js
+// node_modules/cohere-ai/core/schemas/builders/literals/index.js
 var require_literals = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/literals/index.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/literals/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.booleanLiteral = exports.stringLiteral = void 0;
@@ -31677,9 +31882,9 @@ var require_literals = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/primitives/any.js
+// node_modules/cohere-ai/core/schemas/builders/primitives/any.js
 var require_any2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/primitives/any.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/primitives/any.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.any = void 0;
@@ -31689,9 +31894,9 @@ var require_any2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/primitives/boolean.js
+// node_modules/cohere-ai/core/schemas/builders/primitives/boolean.js
 var require_boolean2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/primitives/boolean.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/primitives/boolean.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.boolean = void 0;
@@ -31719,9 +31924,9 @@ var require_boolean2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/primitives/number.js
+// node_modules/cohere-ai/core/schemas/builders/primitives/number.js
 var require_number2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/primitives/number.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/primitives/number.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.number = void 0;
@@ -31749,9 +31954,9 @@ var require_number2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/primitives/string.js
+// node_modules/cohere-ai/core/schemas/builders/primitives/string.js
 var require_string2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/primitives/string.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/primitives/string.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.string = void 0;
@@ -31779,9 +31984,9 @@ var require_string2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/primitives/unknown.js
+// node_modules/cohere-ai/core/schemas/builders/primitives/unknown.js
 var require_unknown2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/primitives/unknown.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/primitives/unknown.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.unknown = void 0;
@@ -31791,9 +31996,9 @@ var require_unknown2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/primitives/index.js
+// node_modules/cohere-ai/core/schemas/builders/primitives/index.js
 var require_primitives = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/primitives/index.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/primitives/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.unknown = exports.string = exports.number = exports.boolean = exports.any = void 0;
@@ -31820,9 +32025,9 @@ var require_primitives = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/record/record.js
+// node_modules/cohere-ai/core/schemas/builders/record/record.js
 var require_record2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/record/record.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/record/record.js"(exports) {
     "use strict";
     var __awaiter = exports && exports.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -31949,9 +32154,9 @@ var require_record2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/record/index.js
+// node_modules/cohere-ai/core/schemas/builders/record/index.js
 var require_record3 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/record/index.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/record/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.record = void 0;
@@ -31962,9 +32167,9 @@ var require_record3 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/set/set.js
+// node_modules/cohere-ai/core/schemas/builders/set/set.js
 var require_set2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/set/set.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/set/set.js"(exports) {
     "use strict";
     var __awaiter = exports && exports.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -32038,9 +32243,9 @@ var require_set2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/set/index.js
+// node_modules/cohere-ai/core/schemas/builders/set/index.js
 var require_set3 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/set/index.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/set/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.set = void 0;
@@ -32051,9 +32256,9 @@ var require_set3 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/undiscriminated-union/undiscriminatedUnion.js
+// node_modules/cohere-ai/core/schemas/builders/undiscriminated-union/undiscriminatedUnion.js
 var require_undiscriminatedUnion = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/undiscriminated-union/undiscriminatedUnion.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/undiscriminated-union/undiscriminatedUnion.js"(exports) {
     "use strict";
     var __awaiter = exports && exports.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -32125,9 +32330,9 @@ var require_undiscriminatedUnion = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/undiscriminated-union/index.js
+// node_modules/cohere-ai/core/schemas/builders/undiscriminated-union/index.js
 var require_undiscriminated_union = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/undiscriminated-union/index.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/undiscriminated-union/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.undiscriminatedUnion = void 0;
@@ -32138,9 +32343,9 @@ var require_undiscriminated_union = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/union/discriminant.js
+// node_modules/cohere-ai/core/schemas/builders/union/discriminant.js
 var require_discriminant = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/union/discriminant.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/union/discriminant.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.discriminant = void 0;
@@ -32154,9 +32359,9 @@ var require_discriminant = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/union/union.js
+// node_modules/cohere-ai/core/schemas/builders/union/union.js
 var require_union2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/union/union.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/union/union.js"(exports) {
     "use strict";
     var __awaiter = exports && exports.__awaiter || function(thisArg, _arguments, P, generator) {
       function adopt(value) {
@@ -32317,9 +32522,9 @@ var require_union2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/union/index.js
+// node_modules/cohere-ai/core/schemas/builders/union/index.js
 var require_union3 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/union/index.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/union/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.union = exports.discriminant = void 0;
@@ -32334,9 +32539,9 @@ var require_union3 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/index.js
+// node_modules/cohere-ai/core/schemas/builders/index.js
 var require_builders = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/builders/index.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/builders/index.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -32375,9 +32580,9 @@ var require_builders = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/schemas/index.js
+// node_modules/cohere-ai/core/schemas/index.js
 var require_schemas = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/schemas/index.js"(exports) {
+  "node_modules/cohere-ai/core/schemas/index.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -32404,9 +32609,9 @@ var require_schemas = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/core/index.js
+// node_modules/cohere-ai/core/index.js
 var require_core2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/core/index.js"(exports) {
+  "node_modules/cohere-ai/core/index.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -32454,9 +32659,9 @@ var require_core2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatStreamRequestPromptTruncation.js
+// node_modules/cohere-ai/serialization/types/ChatStreamRequestPromptTruncation.js
 var require_ChatStreamRequestPromptTruncation2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatStreamRequestPromptTruncation.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatStreamRequestPromptTruncation.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -32497,9 +32702,9 @@ var require_ChatStreamRequestPromptTruncation2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatStreamRequestCitationQuality.js
+// node_modules/cohere-ai/serialization/types/ChatStreamRequestCitationQuality.js
 var require_ChatStreamRequestCitationQuality2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatStreamRequestCitationQuality.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatStreamRequestCitationQuality.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -32540,9 +32745,9 @@ var require_ChatStreamRequestCitationQuality2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatRequestPromptTruncation.js
+// node_modules/cohere-ai/serialization/types/ChatRequestPromptTruncation.js
 var require_ChatRequestPromptTruncation2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatRequestPromptTruncation.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatRequestPromptTruncation.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -32583,9 +32788,9 @@ var require_ChatRequestPromptTruncation2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatRequestCitationQuality.js
+// node_modules/cohere-ai/serialization/types/ChatRequestCitationQuality.js
 var require_ChatRequestCitationQuality2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatRequestCitationQuality.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatRequestCitationQuality.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -32626,9 +32831,9 @@ var require_ChatRequestCitationQuality2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/GenerateRequestTruncate.js
+// node_modules/cohere-ai/serialization/types/GenerateRequestTruncate.js
 var require_GenerateRequestTruncate2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/GenerateRequestTruncate.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/GenerateRequestTruncate.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -32669,9 +32874,9 @@ var require_GenerateRequestTruncate2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/GenerateRequestReturnLikelihoods.js
+// node_modules/cohere-ai/serialization/types/GenerateRequestReturnLikelihoods.js
 var require_GenerateRequestReturnLikelihoods2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/GenerateRequestReturnLikelihoods.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/GenerateRequestReturnLikelihoods.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -32712,9 +32917,9 @@ var require_GenerateRequestReturnLikelihoods2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/EmbedRequestTruncate.js
+// node_modules/cohere-ai/serialization/types/EmbedRequestTruncate.js
 var require_EmbedRequestTruncate2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/EmbedRequestTruncate.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/EmbedRequestTruncate.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -32755,9 +32960,9 @@ var require_EmbedRequestTruncate2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/EmbedResponse.js
+// node_modules/cohere-ai/serialization/types/EmbedResponse.js
 var require_EmbedResponse2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/EmbedResponse.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/EmbedResponse.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -32835,9 +33040,9 @@ var require_EmbedResponse2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/RerankRequestDocumentsItem.js
+// node_modules/cohere-ai/serialization/types/RerankRequestDocumentsItem.js
 var require_RerankRequestDocumentsItem2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/RerankRequestDocumentsItem.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/RerankRequestDocumentsItem.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -32910,9 +33115,9 @@ var require_RerankRequestDocumentsItem2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/RerankRequestDocumentsItemText.js
+// node_modules/cohere-ai/serialization/types/RerankRequestDocumentsItemText.js
 var require_RerankRequestDocumentsItemText2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/RerankRequestDocumentsItemText.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/RerankRequestDocumentsItemText.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -32955,9 +33160,9 @@ var require_RerankRequestDocumentsItemText2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/RerankResponse.js
+// node_modules/cohere-ai/serialization/types/RerankResponse.js
 var require_RerankResponse2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/RerankResponse.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/RerankResponse.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -33033,9 +33238,9 @@ var require_RerankResponse2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/RerankResponseResultsItem.js
+// node_modules/cohere-ai/serialization/types/RerankResponseResultsItem.js
 var require_RerankResponseResultsItem2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/RerankResponseResultsItem.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/RerankResponseResultsItem.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -33109,9 +33314,9 @@ var require_RerankResponseResultsItem2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/RerankResponseResultsItemDocument.js
+// node_modules/cohere-ai/serialization/types/RerankResponseResultsItemDocument.js
 var require_RerankResponseResultsItemDocument2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/RerankResponseResultsItemDocument.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/RerankResponseResultsItemDocument.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -33154,9 +33359,9 @@ var require_RerankResponseResultsItemDocument2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ClassifyRequestExamplesItem.js
+// node_modules/cohere-ai/serialization/types/ClassifyRequestExamplesItem.js
 var require_ClassifyRequestExamplesItem2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ClassifyRequestExamplesItem.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ClassifyRequestExamplesItem.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -33200,9 +33405,9 @@ var require_ClassifyRequestExamplesItem2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ClassifyRequestTruncate.js
+// node_modules/cohere-ai/serialization/types/ClassifyRequestTruncate.js
 var require_ClassifyRequestTruncate2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ClassifyRequestTruncate.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ClassifyRequestTruncate.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -33243,9 +33448,9 @@ var require_ClassifyRequestTruncate2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ClassifyResponse.js
+// node_modules/cohere-ai/serialization/types/ClassifyResponse.js
 var require_ClassifyResponse2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ClassifyResponse.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ClassifyResponse.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -33321,9 +33526,9 @@ var require_ClassifyResponse2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ClassifyResponseClassificationsItem.js
+// node_modules/cohere-ai/serialization/types/ClassifyResponseClassificationsItem.js
 var require_ClassifyResponseClassificationsItem2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ClassifyResponseClassificationsItem.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ClassifyResponseClassificationsItem.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -33404,9 +33609,9 @@ var require_ClassifyResponseClassificationsItem2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ClassifyResponseClassificationsItemLabelsValue.js
+// node_modules/cohere-ai/serialization/types/ClassifyResponseClassificationsItemLabelsValue.js
 var require_ClassifyResponseClassificationsItemLabelsValue2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ClassifyResponseClassificationsItemLabelsValue.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ClassifyResponseClassificationsItemLabelsValue.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -33449,9 +33654,9 @@ var require_ClassifyResponseClassificationsItemLabelsValue2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ClassifyResponseClassificationsItemClassificationType.js
+// node_modules/cohere-ai/serialization/types/ClassifyResponseClassificationsItemClassificationType.js
 var require_ClassifyResponseClassificationsItemClassificationType2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ClassifyResponseClassificationsItemClassificationType.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ClassifyResponseClassificationsItemClassificationType.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -33492,9 +33697,9 @@ var require_ClassifyResponseClassificationsItemClassificationType2 = __commonJS(
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/DetectLanguageResponse.js
+// node_modules/cohere-ai/serialization/types/DetectLanguageResponse.js
 var require_DetectLanguageResponse2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/DetectLanguageResponse.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/DetectLanguageResponse.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -33569,9 +33774,9 @@ var require_DetectLanguageResponse2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/DetectLanguageResponseResultsItem.js
+// node_modules/cohere-ai/serialization/types/DetectLanguageResponseResultsItem.js
 var require_DetectLanguageResponseResultsItem2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/DetectLanguageResponseResultsItem.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/DetectLanguageResponseResultsItem.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -33615,9 +33820,9 @@ var require_DetectLanguageResponseResultsItem2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/SummarizeRequestLength.js
+// node_modules/cohere-ai/serialization/types/SummarizeRequestLength.js
 var require_SummarizeRequestLength2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/SummarizeRequestLength.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/SummarizeRequestLength.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -33658,9 +33863,9 @@ var require_SummarizeRequestLength2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/SummarizeRequestFormat.js
+// node_modules/cohere-ai/serialization/types/SummarizeRequestFormat.js
 var require_SummarizeRequestFormat2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/SummarizeRequestFormat.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/SummarizeRequestFormat.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -33701,9 +33906,9 @@ var require_SummarizeRequestFormat2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/SummarizeRequestExtractiveness.js
+// node_modules/cohere-ai/serialization/types/SummarizeRequestExtractiveness.js
 var require_SummarizeRequestExtractiveness2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/SummarizeRequestExtractiveness.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/SummarizeRequestExtractiveness.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -33744,9 +33949,9 @@ var require_SummarizeRequestExtractiveness2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/SummarizeResponse.js
+// node_modules/cohere-ai/serialization/types/SummarizeResponse.js
 var require_SummarizeResponse2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/SummarizeResponse.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/SummarizeResponse.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -33820,9 +34025,9 @@ var require_SummarizeResponse2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/TokenizeResponse.js
+// node_modules/cohere-ai/serialization/types/TokenizeResponse.js
 var require_TokenizeResponse2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/TokenizeResponse.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/TokenizeResponse.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -33896,9 +34101,9 @@ var require_TokenizeResponse2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/DetokenizeResponse.js
+// node_modules/cohere-ai/serialization/types/DetokenizeResponse.js
 var require_DetokenizeResponse2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/DetokenizeResponse.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/DetokenizeResponse.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -33971,9 +34176,9 @@ var require_DetokenizeResponse2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatMessage.js
+// node_modules/cohere-ai/serialization/types/ChatMessage.js
 var require_ChatMessage2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatMessage.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatMessage.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -34047,9 +34252,9 @@ var require_ChatMessage2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatMessageRole.js
+// node_modules/cohere-ai/serialization/types/ChatMessageRole.js
 var require_ChatMessageRole2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatMessageRole.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatMessageRole.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -34090,9 +34295,9 @@ var require_ChatMessageRole2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatConnector.js
+// node_modules/cohere-ai/serialization/types/ChatConnector.js
 var require_ChatConnector2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatConnector.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatConnector.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -34138,9 +34343,9 @@ var require_ChatConnector2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatDocument.js
+// node_modules/cohere-ai/serialization/types/ChatDocument.js
 var require_ChatDocument2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatDocument.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatDocument.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -34181,9 +34386,9 @@ var require_ChatDocument2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatCitation.js
+// node_modules/cohere-ai/serialization/types/ChatCitation.js
 var require_ChatCitation2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatCitation.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatCitation.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -34229,9 +34434,9 @@ var require_ChatCitation2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatSearchQuery.js
+// node_modules/cohere-ai/serialization/types/ChatSearchQuery.js
 var require_ChatSearchQuery2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatSearchQuery.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatSearchQuery.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -34275,9 +34480,9 @@ var require_ChatSearchQuery2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatSearchResult.js
+// node_modules/cohere-ai/serialization/types/ChatSearchResult.js
 var require_ChatSearchResult2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatSearchResult.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatSearchResult.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -34353,9 +34558,9 @@ var require_ChatSearchResult2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/NonStreamedChatResponse.js
+// node_modules/cohere-ai/serialization/types/NonStreamedChatResponse.js
 var require_NonStreamedChatResponse2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/NonStreamedChatResponse.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/NonStreamedChatResponse.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -34438,9 +34643,9 @@ var require_NonStreamedChatResponse2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatStreamEvent.js
+// node_modules/cohere-ai/serialization/types/ChatStreamEvent.js
 var require_ChatStreamEvent2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatStreamEvent.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatStreamEvent.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -34481,9 +34686,9 @@ var require_ChatStreamEvent2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatStreamStartEvent.js
+// node_modules/cohere-ai/serialization/types/ChatStreamStartEvent.js
 var require_ChatStreamStartEvent2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatStreamStartEvent.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatStreamStartEvent.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -34555,9 +34760,9 @@ var require_ChatStreamStartEvent2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatSearchQueriesGenerationEvent.js
+// node_modules/cohere-ai/serialization/types/ChatSearchQueriesGenerationEvent.js
 var require_ChatSearchQueriesGenerationEvent2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatSearchQueriesGenerationEvent.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatSearchQueriesGenerationEvent.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -34631,9 +34836,9 @@ var require_ChatSearchQueriesGenerationEvent2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatSearchResultsEvent.js
+// node_modules/cohere-ai/serialization/types/ChatSearchResultsEvent.js
 var require_ChatSearchResultsEvent2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatSearchResultsEvent.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatSearchResultsEvent.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -34710,9 +34915,9 @@ var require_ChatSearchResultsEvent2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatTextGenerationEvent.js
+// node_modules/cohere-ai/serialization/types/ChatTextGenerationEvent.js
 var require_ChatTextGenerationEvent2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatTextGenerationEvent.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatTextGenerationEvent.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -34784,9 +34989,9 @@ var require_ChatTextGenerationEvent2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatCitationGenerationEvent.js
+// node_modules/cohere-ai/serialization/types/ChatCitationGenerationEvent.js
 var require_ChatCitationGenerationEvent2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatCitationGenerationEvent.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatCitationGenerationEvent.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -34860,9 +35065,9 @@ var require_ChatCitationGenerationEvent2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/SearchQueriesOnlyResponse.js
+// node_modules/cohere-ai/serialization/types/SearchQueriesOnlyResponse.js
 var require_SearchQueriesOnlyResponse2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/SearchQueriesOnlyResponse.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/SearchQueriesOnlyResponse.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -34934,9 +35139,9 @@ var require_SearchQueriesOnlyResponse2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatStreamEndEvent.js
+// node_modules/cohere-ai/serialization/types/ChatStreamEndEvent.js
 var require_ChatStreamEndEvent2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatStreamEndEvent.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatStreamEndEvent.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -35013,9 +35218,9 @@ var require_ChatStreamEndEvent2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatStreamEndEventFinishReason.js
+// node_modules/cohere-ai/serialization/types/ChatStreamEndEventFinishReason.js
 var require_ChatStreamEndEventFinishReason2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatStreamEndEventFinishReason.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatStreamEndEventFinishReason.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -35056,9 +35261,9 @@ var require_ChatStreamEndEventFinishReason2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatStreamEndEventResponse.js
+// node_modules/cohere-ai/serialization/types/ChatStreamEndEventResponse.js
 var require_ChatStreamEndEventResponse2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ChatStreamEndEventResponse.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ChatStreamEndEventResponse.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -35133,9 +35338,9 @@ var require_ChatStreamEndEventResponse2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/StreamedChatResponse.js
+// node_modules/cohere-ai/serialization/types/StreamedChatResponse.js
 var require_StreamedChatResponse2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/StreamedChatResponse.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/StreamedChatResponse.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -35225,9 +35430,9 @@ var require_StreamedChatResponse2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/SingleGeneration.js
+// node_modules/cohere-ai/serialization/types/SingleGeneration.js
 var require_SingleGeneration2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/SingleGeneration.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/SingleGeneration.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -35303,9 +35508,9 @@ var require_SingleGeneration2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/SingleGenerationTokenLikelihoodsItem.js
+// node_modules/cohere-ai/serialization/types/SingleGenerationTokenLikelihoodsItem.js
 var require_SingleGenerationTokenLikelihoodsItem2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/SingleGenerationTokenLikelihoodsItem.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/SingleGenerationTokenLikelihoodsItem.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -35349,9 +35554,9 @@ var require_SingleGenerationTokenLikelihoodsItem2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ApiMeta.js
+// node_modules/cohere-ai/serialization/types/ApiMeta.js
 var require_ApiMeta2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ApiMeta.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ApiMeta.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -35424,9 +35629,9 @@ var require_ApiMeta2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ApiMetaApiVersion.js
+// node_modules/cohere-ai/serialization/types/ApiMetaApiVersion.js
 var require_ApiMetaApiVersion2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ApiMetaApiVersion.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ApiMetaApiVersion.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -35501,9 +35706,9 @@ var require_ApiMetaApiVersion2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ApiMetaApiVersionBilledUnits.js
+// node_modules/cohere-ai/serialization/types/ApiMetaApiVersionBilledUnits.js
 var require_ApiMetaApiVersionBilledUnits2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ApiMetaApiVersionBilledUnits.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ApiMetaApiVersionBilledUnits.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -35549,9 +35754,9 @@ var require_ApiMetaApiVersionBilledUnits2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/Generation.js
+// node_modules/cohere-ai/serialization/types/Generation.js
 var require_Generation2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/Generation.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/Generation.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -35628,9 +35833,9 @@ var require_Generation2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/EmbedFloatsResponse.js
+// node_modules/cohere-ai/serialization/types/EmbedFloatsResponse.js
 var require_EmbedFloatsResponse2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/EmbedFloatsResponse.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/EmbedFloatsResponse.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -35705,9 +35910,9 @@ var require_EmbedFloatsResponse2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/EmbedByTypeResponse.js
+// node_modules/cohere-ai/serialization/types/EmbedByTypeResponse.js
 var require_EmbedByTypeResponse2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/EmbedByTypeResponse.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/EmbedByTypeResponse.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -35784,9 +35989,9 @@ var require_EmbedByTypeResponse2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/EmbedByTypeResponseEmbeddings.js
+// node_modules/cohere-ai/serialization/types/EmbedByTypeResponseEmbeddings.js
 var require_EmbedByTypeResponseEmbeddings2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/EmbedByTypeResponseEmbeddings.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/EmbedByTypeResponseEmbeddings.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -35833,9 +36038,9 @@ var require_EmbedByTypeResponseEmbeddings2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ConnectorOAuth.js
+// node_modules/cohere-ai/serialization/types/ConnectorOAuth.js
 var require_ConnectorOAuth2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ConnectorOAuth.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ConnectorOAuth.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -35880,9 +36085,9 @@ var require_ConnectorOAuth2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/Connector.js
+// node_modules/cohere-ai/serialization/types/Connector.js
 var require_Connector2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/Connector.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/Connector.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -35968,9 +36173,9 @@ var require_Connector2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ConnectorAuthStatus.js
+// node_modules/cohere-ai/serialization/types/ConnectorAuthStatus.js
 var require_ConnectorAuthStatus2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ConnectorAuthStatus.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ConnectorAuthStatus.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -36011,9 +36216,9 @@ var require_ConnectorAuthStatus2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/ListResponse.js
+// node_modules/cohere-ai/serialization/types/ListResponse.js
 var require_ListResponse2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/ListResponse.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/ListResponse.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -36085,9 +36290,9 @@ var require_ListResponse2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/CreateConnectorOAuth.js
+// node_modules/cohere-ai/serialization/types/CreateConnectorOAuth.js
 var require_CreateConnectorOAuth2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/CreateConnectorOAuth.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/CreateConnectorOAuth.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -36134,9 +36339,9 @@ var require_CreateConnectorOAuth2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/CreateConnectorServiceAuth.js
+// node_modules/cohere-ai/serialization/types/CreateConnectorServiceAuth.js
 var require_CreateConnectorServiceAuth2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/CreateConnectorServiceAuth.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/CreateConnectorServiceAuth.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -36180,9 +36385,9 @@ var require_CreateConnectorServiceAuth2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/CreateResponse.js
+// node_modules/cohere-ai/serialization/types/CreateResponse.js
 var require_CreateResponse2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/CreateResponse.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/CreateResponse.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -36254,9 +36459,9 @@ var require_CreateResponse2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/GetResponse.js
+// node_modules/cohere-ai/serialization/types/GetResponse.js
 var require_GetResponse2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/GetResponse.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/GetResponse.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -36328,9 +36533,9 @@ var require_GetResponse2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/DeleteResponse.js
+// node_modules/cohere-ai/serialization/types/DeleteResponse.js
 var require_DeleteResponse2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/DeleteResponse.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/DeleteResponse.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -36371,9 +36576,9 @@ var require_DeleteResponse2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/UpdateResponse.js
+// node_modules/cohere-ai/serialization/types/UpdateResponse.js
 var require_UpdateResponse2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/UpdateResponse.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/UpdateResponse.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -36445,9 +36650,9 @@ var require_UpdateResponse2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/OAuthAuthorizeResponse.js
+// node_modules/cohere-ai/serialization/types/OAuthAuthorizeResponse.js
 var require_OAuthAuthorizeResponse2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/OAuthAuthorizeResponse.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/OAuthAuthorizeResponse.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -36490,9 +36695,9 @@ var require_OAuthAuthorizeResponse2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/types/index.js
+// node_modules/cohere-ai/serialization/types/index.js
 var require_types3 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/types/index.js"(exports) {
+  "node_modules/cohere-ai/serialization/types/index.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -36584,9 +36789,9 @@ var require_types3 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/ChatStreamRequest.js
+// node_modules/cohere-ai/serialization/client/requests/ChatStreamRequest.js
 var require_ChatStreamRequest = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/ChatStreamRequest.js"(exports) {
+  "node_modules/cohere-ai/serialization/client/requests/ChatStreamRequest.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -36676,9 +36881,9 @@ var require_ChatStreamRequest = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/ChatRequest.js
+// node_modules/cohere-ai/serialization/client/requests/ChatRequest.js
 var require_ChatRequest = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/ChatRequest.js"(exports) {
+  "node_modules/cohere-ai/serialization/client/requests/ChatRequest.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -36768,9 +36973,9 @@ var require_ChatRequest = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/GenerateRequest.js
+// node_modules/cohere-ai/serialization/client/requests/GenerateRequest.js
 var require_GenerateRequest = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/GenerateRequest.js"(exports) {
+  "node_modules/cohere-ai/serialization/client/requests/GenerateRequest.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -36859,9 +37064,9 @@ var require_GenerateRequest = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/EmbedRequest.js
+// node_modules/cohere-ai/serialization/client/requests/EmbedRequest.js
 var require_EmbedRequest = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/EmbedRequest.js"(exports) {
+  "node_modules/cohere-ai/serialization/client/requests/EmbedRequest.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -36937,9 +37142,9 @@ var require_EmbedRequest = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/RerankRequest.js
+// node_modules/cohere-ai/serialization/client/requests/RerankRequest.js
 var require_RerankRequest = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/RerankRequest.js"(exports) {
+  "node_modules/cohere-ai/serialization/client/requests/RerankRequest.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -37016,9 +37221,9 @@ var require_RerankRequest = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/ClassifyRequest.js
+// node_modules/cohere-ai/serialization/client/requests/ClassifyRequest.js
 var require_ClassifyRequest = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/ClassifyRequest.js"(exports) {
+  "node_modules/cohere-ai/serialization/client/requests/ClassifyRequest.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -37096,9 +37301,9 @@ var require_ClassifyRequest = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/DetectLanguageRequest.js
+// node_modules/cohere-ai/serialization/client/requests/DetectLanguageRequest.js
 var require_DetectLanguageRequest = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/DetectLanguageRequest.js"(exports) {
+  "node_modules/cohere-ai/serialization/client/requests/DetectLanguageRequest.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -37142,9 +37347,9 @@ var require_DetectLanguageRequest = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/SummarizeRequest.js
+// node_modules/cohere-ai/serialization/client/requests/SummarizeRequest.js
 var require_SummarizeRequest = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/SummarizeRequest.js"(exports) {
+  "node_modules/cohere-ai/serialization/client/requests/SummarizeRequest.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -37226,9 +37431,9 @@ var require_SummarizeRequest = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/TokenizeRequest.js
+// node_modules/cohere-ai/serialization/client/requests/TokenizeRequest.js
 var require_TokenizeRequest = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/TokenizeRequest.js"(exports) {
+  "node_modules/cohere-ai/serialization/client/requests/TokenizeRequest.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -37272,9 +37477,9 @@ var require_TokenizeRequest = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/DetokenizeRequest.js
+// node_modules/cohere-ai/serialization/client/requests/DetokenizeRequest.js
 var require_DetokenizeRequest = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/DetokenizeRequest.js"(exports) {
+  "node_modules/cohere-ai/serialization/client/requests/DetokenizeRequest.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -37318,9 +37523,9 @@ var require_DetokenizeRequest = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/index.js
+// node_modules/cohere-ai/serialization/client/requests/index.js
 var require_requests3 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/client/requests/index.js"(exports) {
+  "node_modules/cohere-ai/serialization/client/requests/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.DetokenizeRequest = exports.TokenizeRequest = exports.SummarizeRequest = exports.DetectLanguageRequest = exports.ClassifyRequest = exports.RerankRequest = exports.EmbedRequest = exports.GenerateRequest = exports.ChatRequest = exports.ChatStreamRequest = void 0;
@@ -37367,9 +37572,9 @@ var require_requests3 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/client/index.js
+// node_modules/cohere-ai/serialization/client/index.js
 var require_client3 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/client/index.js"(exports) {
+  "node_modules/cohere-ai/serialization/client/index.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -37396,9 +37601,9 @@ var require_client3 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/resources/connectors/client/requests/CreateRequest.js
+// node_modules/cohere-ai/serialization/resources/connectors/client/requests/CreateRequest.js
 var require_CreateRequest = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/resources/connectors/client/requests/CreateRequest.js"(exports) {
+  "node_modules/cohere-ai/serialization/resources/connectors/client/requests/CreateRequest.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -37479,9 +37684,9 @@ var require_CreateRequest = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/resources/connectors/client/requests/UpdateRequest.js
+// node_modules/cohere-ai/serialization/resources/connectors/client/requests/UpdateRequest.js
 var require_UpdateRequest = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/resources/connectors/client/requests/UpdateRequest.js"(exports) {
+  "node_modules/cohere-ai/serialization/resources/connectors/client/requests/UpdateRequest.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -37561,9 +37766,9 @@ var require_UpdateRequest = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/resources/connectors/client/requests/index.js
+// node_modules/cohere-ai/serialization/resources/connectors/client/requests/index.js
 var require_requests4 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/resources/connectors/client/requests/index.js"(exports) {
+  "node_modules/cohere-ai/serialization/resources/connectors/client/requests/index.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.UpdateRequest = exports.CreateRequest = void 0;
@@ -37578,9 +37783,9 @@ var require_requests4 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/resources/connectors/client/index.js
+// node_modules/cohere-ai/serialization/resources/connectors/client/index.js
 var require_client4 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/resources/connectors/client/index.js"(exports) {
+  "node_modules/cohere-ai/serialization/resources/connectors/client/index.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -37607,9 +37812,9 @@ var require_client4 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/resources/connectors/index.js
+// node_modules/cohere-ai/serialization/resources/connectors/index.js
 var require_connectors2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/resources/connectors/index.js"(exports) {
+  "node_modules/cohere-ai/serialization/resources/connectors/index.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -37636,9 +37841,9 @@ var require_connectors2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/resources/index.js
+// node_modules/cohere-ai/serialization/resources/index.js
 var require_resources2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/resources/index.js"(exports) {
+  "node_modules/cohere-ai/serialization/resources/index.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -37684,9 +37889,9 @@ var require_resources2 = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/serialization/index.js
+// node_modules/cohere-ai/serialization/index.js
 var require_serialization = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/serialization/index.js"(exports) {
+  "node_modules/cohere-ai/serialization/index.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -37780,9 +37985,9 @@ var require_url_join = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/api/resources/connectors/client/Client.js
+// node_modules/cohere-ai/api/resources/connectors/client/Client.js
 var require_Client = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/api/resources/connectors/client/Client.js"(exports) {
+  "node_modules/cohere-ai/api/resources/connectors/client/Client.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -38258,9 +38463,9 @@ var require_Client = __commonJS({
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/Client.js
+// node_modules/cohere-ai/Client.js
 var require_Client2 = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/Client.js"(exports) {
+  "node_modules/cohere-ai/Client.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -38333,7 +38538,7 @@ var require_Client2 = __commonJS({
     var url_join_1 = __importDefault(require_url_join());
     var errors = __importStar(require_errors2());
     var Client_1 = require_Client();
-    var CohereClient = class {
+    var CohereClient4 = class {
       constructor(_options) {
         this._options = _options;
       }
@@ -38904,13 +39109,13 @@ var require_Client2 = __commonJS({
         });
       }
     };
-    exports.CohereClient = CohereClient;
+    exports.CohereClient = CohereClient4;
   }
 });
 
-// node_modules/langchain/node_modules/cohere-ai/index.js
+// node_modules/cohere-ai/index.js
 var require_cohere_ai = __commonJS({
-  "node_modules/langchain/node_modules/cohere-ai/index.js"(exports) {
+  "node_modules/cohere-ai/index.js"(exports) {
     "use strict";
     var __createBinding = exports && exports.__createBinding || (Object.create ? function(o, m, k, k2) {
       if (k2 === void 0)
@@ -47750,7 +47955,7 @@ var require_react_dom_development = __commonJS({
         var fallbackText = null;
         function initialize(nativeEventTarget) {
           root3 = nativeEventTarget;
-          startText = getText();
+          startText = getText2();
           return true;
         }
         function reset() {
@@ -47766,7 +47971,7 @@ var require_react_dom_development = __commonJS({
           var startValue = startText;
           var startLength = startValue.length;
           var end;
-          var endValue = getText();
+          var endValue = getText2();
           var endLength = endValue.length;
           for (start = 0; start < startLength; start++) {
             if (startValue[start] !== endValue[start]) {
@@ -47783,7 +47988,7 @@ var require_react_dom_development = __commonJS({
           fallbackText = endValue.slice(start, sliceTail);
           return fallbackText;
         }
-        function getText() {
+        function getText2() {
           if ("value" in root3) {
             return root3.value;
           }
@@ -64540,7 +64745,7 @@ var getOutputValue = (outputValues, outputKey) => {
 // node_modules/langchain/dist/memory/base.js
 init_messages2();
 
-// node_modules/langchain/node_modules/@langchain/community/dist/stores/message/in_memory.js
+// node_modules/@langchain/community/dist/stores/message/in_memory.js
 init_chat_history2();
 var ChatMessageHistory = class extends BaseListChatMessageHistory {
   constructor(messages4) {
@@ -64584,7 +64789,7 @@ var ChatMessageHistory = class extends BaseListChatMessageHistory {
   }
 };
 
-// node_modules/langchain/node_modules/@langchain/community/dist/memory/chat_memory.js
+// node_modules/@langchain/community/dist/memory/chat_memory.js
 var BaseChatMemory = class extends BaseMemory {
   constructor(fields) {
     var _a3, _b, _c, _d;
@@ -68995,6 +69200,8 @@ var BaseChatModel = class extends BaseLanguageModel {
     return this.generate(promptMessages, options, callbacks);
   }
   /**
+   * @deprecated Use .invoke() instead. Will be removed in 0.2.0.
+   *
    * Makes a single call to the chat model.
    * @param messages An array of BaseMessage instances.
    * @param options The call options or an array of stop sequences.
@@ -69007,6 +69214,8 @@ var BaseChatModel = class extends BaseLanguageModel {
     return generations[0][0].message;
   }
   /**
+   * @deprecated Use .invoke() instead. Will be removed in 0.2.0.
+   *
    * Makes a single call to the chat model with a prompt value.
    * @param promptValue The value of the prompt.
    * @param options The call options or an array of stop sequences.
@@ -69018,6 +69227,8 @@ var BaseChatModel = class extends BaseLanguageModel {
     return this.call(promptMessages, options, callbacks);
   }
   /**
+   * @deprecated Use .invoke() instead. Will be removed in 0.2.0.
+   *
    * Predicts the next message based on the input messages.
    * @param messages An array of BaseMessage instances.
    * @param options The call options or an array of stop sequences.
@@ -69028,6 +69239,8 @@ var BaseChatModel = class extends BaseLanguageModel {
     return this.call(messages4, options, callbacks);
   }
   /**
+   * @deprecated Use .invoke() instead. Will be removed in 0.2.0.
+   *
    * Predicts the next message based on a text input.
    * @param text The text input.
    * @param options The call options or an array of stop sequences.
@@ -69041,6 +69254,23 @@ var BaseChatModel = class extends BaseLanguageModel {
       throw new Error("Cannot use predict when output is not a string.");
     }
     return result.content;
+  }
+};
+var SimpleChatModel = class extends BaseChatModel {
+  async _generate(messages4, options, runManager) {
+    const text4 = await this._call(messages4, options, runManager);
+    const message = new AIMessage(text4);
+    if (typeof message.content !== "string") {
+      throw new Error("Cannot generate with a simple chat model when output is not a string.");
+    }
+    return {
+      generations: [
+        {
+          text: message.content,
+          message
+        }
+      ]
+    };
   }
 };
 
@@ -70044,8 +70274,8 @@ init_base13();
 var import_zod_to_json_schema3 = __toESM(require_zod_to_json_schema(), 1);
 init_prompt2();
 
-// node_modules/@langchain/core/dist/utils/json_patch.js
-init_fast_json_patch();
+// node_modules/@langchain/core/utils/json_patch.js
+init_json_patch();
 
 // node_modules/langchain/dist/output_parsers/openai_functions.js
 init_output_parser();
@@ -72762,7 +72992,7 @@ var OPENAI_MODELS = /* @__PURE__ */ new Set([
   "GPT-4" /* GPT_4 */,
   "GPT-4 TURBO" /* GPT_4_TURBO */,
   "GPT-4 32K" /* GPT_4_32K */,
-  "LocalAI" /* LOCAL_AI */
+  "LM STUDIO (LOCAL)" /* LM_STUDIO */
 ]);
 var AZURE_MODELS = /* @__PURE__ */ new Set([
   "AZURE GPT-3.5" /* AZURE_GPT_35_TURBO */,
@@ -72775,6 +73005,18 @@ var CLAUDE_MODELS = /* @__PURE__ */ new Set([
   "CLAUDE-1-100K" /* CLAUDE_1_100K */,
   "CLAUDE-INSTANT" /* CLAUDE_INSTANT_1 */,
   "CLAUDE-INSTANT-100K" /* CLAUDE_INSTANT_1_100K */
+]);
+var GOOGLE_MODELS = /* @__PURE__ */ new Set([
+  "GEMINI PRO" /* GEMINI_PRO */
+]);
+var OPENROUTERAI_MODELS = /* @__PURE__ */ new Set([
+  "OPENROUTER.AI" /* OPENROUTERAI */
+]);
+var OLLAMA_MODELS = /* @__PURE__ */ new Set([
+  "OLLAMA (LOCAL)" /* OLLAMA */
+]);
+var LM_STUDIO_MODELS = /* @__PURE__ */ new Set([
+  "LM STUDIO (LOCAL)" /* LM_STUDIO */
 ]);
 var DISPLAY_NAME_TO_MODEL = {
   ["GPT-3.5" /* GPT_35_TURBO */]: "gpt-3.5-turbo" /* GPT_35_TURBO */,
@@ -72789,18 +73031,26 @@ var DISPLAY_NAME_TO_MODEL = {
   ["AZURE GPT-3.5" /* AZURE_GPT_35_TURBO */]: "gpt-35-turbo" /* AZURE_GPT_35_TURBO */,
   ["AZURE GPT-3.5-16K" /* AZURE_GPT_35_TURBO_16K */]: "gpt-35-turbo-16k" /* AZURE_GPT_35_TURBO_16K */,
   ["AZURE GPT-4" /* AZURE_GPT_4 */]: "gpt-4" /* GPT_4 */,
-  ["AZURE GPT-4 32K" /* AZURE_GPT_4_32K */]: "gpt-4-32k" /* GPT_4_32K */
+  ["AZURE GPT-4 32K" /* AZURE_GPT_4_32K */]: "gpt-4-32k" /* GPT_4_32K */,
+  ["GEMINI PRO" /* GEMINI_PRO */]: "gemini-pro" /* GEMINI_PRO */
 };
 var OPENAI = "openai";
 var HUGGINGFACE = "huggingface";
 var COHEREAI = "cohereai";
 var AZURE_OPENAI = "azure_openai";
 var ANTHROPIC = "anthropic";
-var LOCALAI = "localai";
+var GOOGLE = "google";
+var OPENROUTERAI = "openrouterai";
+var LM_STUDIO = "lm_studio";
+var OLLAMA = "ollama";
 var VENDOR_MODELS = {
   [OPENAI]: OPENAI_MODELS,
   [AZURE_OPENAI]: AZURE_MODELS,
-  [ANTHROPIC]: CLAUDE_MODELS
+  [ANTHROPIC]: CLAUDE_MODELS,
+  [GOOGLE]: GOOGLE_MODELS,
+  [OPENROUTERAI]: OPENROUTERAI_MODELS,
+  [OLLAMA]: OLLAMA_MODELS,
+  [LM_STUDIO]: LM_STUDIO_MODELS
 };
 var DEFAULT_SETTINGS = {
   openAIApiKey: "",
@@ -72812,14 +73062,18 @@ var DEFAULT_SETTINGS = {
   azureOpenAIApiDeploymentName: "",
   azureOpenAIApiVersion: "",
   azureOpenAIApiEmbeddingDeploymentName: "",
+  googleApiKey: "",
+  openRouterAiApiKey: "",
+  openRouterModel: "cognitivecomputations/dolphin-mixtral-8x7b",
   defaultModel: "gpt-4-1106-preview" /* GPT_4_TURBO */,
   defaultModelDisplayName: "GPT-4 TURBO" /* GPT_4_TURBO */,
-  temperature: 0.7,
+  temperature: 0.1,
   maxTokens: 1e3,
   contextTurns: 3,
   userSystemPrompt: "",
   openAIProxyBaseUrl: "",
-  localAIModel: "",
+  ollamaModel: "llama2",
+  lmStudioPort: "1234",
   ttlDays: 30,
   stream: true,
   embeddingProvider: OPENAI,
@@ -73714,6 +73968,1540 @@ var VectorDBManager = class {
 };
 VectorDBManager.db = null;
 var vectorDBManager_default = VectorDBManager;
+
+// node_modules/@langchain/cohere/dist/chat_models.js
+var import_cohere_ai = __toESM(require_cohere_ai(), 1);
+init_messages2();
+init_outputs2();
+init_messages2();
+
+// node_modules/@langchain/cohere/dist/llms.js
+var import_cohere_ai2 = __toESM(require_cohere_ai(), 1);
+
+// node_modules/@langchain/cohere/dist/embeddings.js
+var import_cohere_ai3 = __toESM(require_cohere_ai(), 1);
+var CohereEmbeddings = class extends Embeddings2 {
+  /**
+   * Constructor for the CohereEmbeddings class.
+   * @param fields - An optional object with properties to configure the instance.
+   */
+  constructor(fields) {
+    var _a3, _b;
+    const fieldsWithDefaults = { maxConcurrency: 2, ...fields };
+    super(fieldsWithDefaults);
+    Object.defineProperty(this, "model", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: "small"
+    });
+    Object.defineProperty(this, "batchSize", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: 48
+    });
+    Object.defineProperty(this, "inputType", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "client", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    const apiKey = (fieldsWithDefaults == null ? void 0 : fieldsWithDefaults.apiKey) || getEnvironmentVariable2("COHERE_API_KEY");
+    if (!apiKey) {
+      throw new Error("Cohere API key not found");
+    }
+    this.client = new import_cohere_ai3.CohereClient({
+      token: apiKey
+    });
+    this.model = (_a3 = fieldsWithDefaults == null ? void 0 : fieldsWithDefaults.model) != null ? _a3 : this.model;
+    this.batchSize = (_b = fieldsWithDefaults == null ? void 0 : fieldsWithDefaults.batchSize) != null ? _b : this.batchSize;
+    this.inputType = fieldsWithDefaults == null ? void 0 : fieldsWithDefaults.inputType;
+  }
+  /**
+   * Generates embeddings for an array of texts.
+   * @param texts - An array of strings to generate embeddings for.
+   * @returns A Promise that resolves to an array of embeddings.
+   */
+  async embedDocuments(texts) {
+    const batches = chunkArray(texts, this.batchSize);
+    const batchRequests = batches.map((batch) => this.embeddingWithRetry({
+      model: this.model,
+      texts: batch,
+      inputType: this.inputType
+    }));
+    const batchResponses = await Promise.all(batchRequests);
+    const embeddings = [];
+    for (let i = 0; i < batchResponses.length; i += 1) {
+      const batch = batches[i];
+      const { embeddings: batchResponse } = batchResponses[i];
+      for (let j = 0; j < batch.length; j += 1) {
+        if ("float" in batchResponse && batchResponse.float) {
+          embeddings.push(batchResponse.float[j]);
+        } else if (Array.isArray(batchResponse)) {
+          embeddings.push(batchResponse[j]);
+        }
+      }
+    }
+    return embeddings;
+  }
+  /**
+   * Generates an embedding for a single text.
+   * @param text - A string to generate an embedding for.
+   * @returns A Promise that resolves to an array of numbers representing the embedding.
+   */
+  async embedQuery(text4) {
+    const { embeddings } = await this.embeddingWithRetry({
+      model: this.model,
+      texts: [text4],
+      inputType: this.inputType
+    });
+    if ("float" in embeddings && embeddings.float) {
+      return embeddings.float[0];
+    } else if (Array.isArray(embeddings)) {
+      return embeddings[0];
+    } else {
+      throw new Error(`Invalid response from Cohere API. Received: ${JSON.stringify(embeddings, null, 2)}`);
+    }
+  }
+  /**
+   * Generates embeddings with retry capabilities.
+   * @param request - An object containing the request parameters for generating embeddings.
+   * @returns A Promise that resolves to the API response.
+   */
+  async embeddingWithRetry(request2) {
+    return this.caller.call(async () => {
+      var _a3;
+      let response;
+      try {
+        response = await this.client.embed(request2);
+      } catch (e) {
+        e.status = (_a3 = e.status) != null ? _a3 : e.statusCode;
+        throw e;
+      }
+      return response;
+    });
+  }
+  get lc_secrets() {
+    return {
+      apiKey: "COHERE_API_KEY",
+      api_key: "COHERE_API_KEY"
+    };
+  }
+  get lc_aliases() {
+    return {
+      apiKey: "cohere_api_key",
+      api_key: "cohere_api_key"
+    };
+  }
+};
+
+// node_modules/@langchain/community/dist/chat_models/ollama.js
+init_messages2();
+init_outputs2();
+
+// node_modules/@langchain/core/utils/stream.js
+init_stream();
+
+// node_modules/@langchain/community/dist/utils/ollama.js
+async function* createOllamaStream(url, params, options) {
+  let formattedUrl = url;
+  if (formattedUrl.startsWith("http://localhost:")) {
+    formattedUrl = formattedUrl.replace("http://localhost:", "http://127.0.0.1:");
+  }
+  const response = await fetch(formattedUrl, {
+    method: "POST",
+    body: JSON.stringify(params),
+    headers: {
+      "Content-Type": "application/json"
+    },
+    signal: options.signal
+  });
+  if (!response.ok) {
+    let error;
+    const responseText = await response.text();
+    try {
+      const json2 = JSON.parse(responseText);
+      error = new Error(`Ollama call failed with status code ${response.status}: ${json2.error}`);
+    } catch (e) {
+      error = new Error(`Ollama call failed with status code ${response.status}: ${responseText}`);
+    }
+    error.response = response;
+    throw error;
+  }
+  if (!response.body) {
+    throw new Error("Could not begin Ollama stream. Please check the given URL and try again.");
+  }
+  const stream = IterableReadableStream.fromReadableStream(response.body);
+  const decoder = new TextDecoder();
+  let extra = "";
+  for await (const chunk of stream) {
+    const decoded = extra + decoder.decode(chunk);
+    const lines = decoded.split("\n");
+    extra = lines.pop() || "";
+    for (const line of lines) {
+      try {
+        yield JSON.parse(line);
+      } catch (e) {
+        console.warn(`Received a non-JSON parseable chunk: ${line}`);
+      }
+    }
+  }
+}
+async function* createOllamaGenerateStream(baseUrl, params, options) {
+  yield* createOllamaStream(`${baseUrl}/api/generate`, params, options);
+}
+async function* createOllamaChatStream(baseUrl, params, options) {
+  yield* createOllamaStream(`${baseUrl}/api/chat`, params, options);
+}
+
+// node_modules/@langchain/community/dist/chat_models/ollama.js
+var ChatOllama = class extends SimpleChatModel {
+  static lc_name() {
+    return "ChatOllama";
+  }
+  constructor(fields) {
+    var _a3, _b, _c;
+    super(fields);
+    Object.defineProperty(this, "lc_serializable", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: true
+    });
+    Object.defineProperty(this, "model", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: "llama2"
+    });
+    Object.defineProperty(this, "baseUrl", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: "http://localhost:11434"
+    });
+    Object.defineProperty(this, "embeddingOnly", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "f16KV", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "frequencyPenalty", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "logitsAll", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "lowVram", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "mainGpu", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "mirostat", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "mirostatEta", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "mirostatTau", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "numBatch", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "numCtx", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "numGpu", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "numGqa", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "numKeep", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "numPredict", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "numThread", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "penalizeNewline", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "presencePenalty", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "repeatLastN", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "repeatPenalty", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "ropeFrequencyBase", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "ropeFrequencyScale", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "temperature", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "stop", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "tfsZ", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "topK", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "topP", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "typicalP", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "useMLock", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "useMMap", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "vocabOnly", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "format", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    this.model = (_a3 = fields.model) != null ? _a3 : this.model;
+    this.baseUrl = ((_b = fields.baseUrl) == null ? void 0 : _b.endsWith("/")) ? fields.baseUrl.slice(0, -1) : (_c = fields.baseUrl) != null ? _c : this.baseUrl;
+    this.embeddingOnly = fields.embeddingOnly;
+    this.f16KV = fields.f16KV;
+    this.frequencyPenalty = fields.frequencyPenalty;
+    this.logitsAll = fields.logitsAll;
+    this.lowVram = fields.lowVram;
+    this.mainGpu = fields.mainGpu;
+    this.mirostat = fields.mirostat;
+    this.mirostatEta = fields.mirostatEta;
+    this.mirostatTau = fields.mirostatTau;
+    this.numBatch = fields.numBatch;
+    this.numCtx = fields.numCtx;
+    this.numGpu = fields.numGpu;
+    this.numGqa = fields.numGqa;
+    this.numKeep = fields.numKeep;
+    this.numPredict = fields.numPredict;
+    this.numThread = fields.numThread;
+    this.penalizeNewline = fields.penalizeNewline;
+    this.presencePenalty = fields.presencePenalty;
+    this.repeatLastN = fields.repeatLastN;
+    this.repeatPenalty = fields.repeatPenalty;
+    this.ropeFrequencyBase = fields.ropeFrequencyBase;
+    this.ropeFrequencyScale = fields.ropeFrequencyScale;
+    this.temperature = fields.temperature;
+    this.stop = fields.stop;
+    this.tfsZ = fields.tfsZ;
+    this.topK = fields.topK;
+    this.topP = fields.topP;
+    this.typicalP = fields.typicalP;
+    this.useMLock = fields.useMLock;
+    this.useMMap = fields.useMMap;
+    this.vocabOnly = fields.vocabOnly;
+    this.format = fields.format;
+  }
+  _llmType() {
+    return "ollama";
+  }
+  /**
+   * A method that returns the parameters for an Ollama API call. It
+   * includes model and options parameters.
+   * @param options Optional parsed call options.
+   * @returns An object containing the parameters for an Ollama API call.
+   */
+  invocationParams(options) {
+    var _a3;
+    return {
+      model: this.model,
+      format: this.format,
+      options: {
+        embedding_only: this.embeddingOnly,
+        f16_kv: this.f16KV,
+        frequency_penalty: this.frequencyPenalty,
+        logits_all: this.logitsAll,
+        low_vram: this.lowVram,
+        main_gpu: this.mainGpu,
+        mirostat: this.mirostat,
+        mirostat_eta: this.mirostatEta,
+        mirostat_tau: this.mirostatTau,
+        num_batch: this.numBatch,
+        num_ctx: this.numCtx,
+        num_gpu: this.numGpu,
+        num_gqa: this.numGqa,
+        num_keep: this.numKeep,
+        num_predict: this.numPredict,
+        num_thread: this.numThread,
+        penalize_newline: this.penalizeNewline,
+        presence_penalty: this.presencePenalty,
+        repeat_last_n: this.repeatLastN,
+        repeat_penalty: this.repeatPenalty,
+        rope_frequency_base: this.ropeFrequencyBase,
+        rope_frequency_scale: this.ropeFrequencyScale,
+        temperature: this.temperature,
+        stop: (_a3 = options == null ? void 0 : options.stop) != null ? _a3 : this.stop,
+        tfs_z: this.tfsZ,
+        top_k: this.topK,
+        top_p: this.topP,
+        typical_p: this.typicalP,
+        use_mlock: this.useMLock,
+        use_mmap: this.useMMap,
+        vocab_only: this.vocabOnly
+      }
+    };
+  }
+  _combineLLMOutput() {
+    return {};
+  }
+  /** @deprecated */
+  async *_streamResponseChunksLegacy(input, options, runManager) {
+    var _a3;
+    const stream = createOllamaGenerateStream(this.baseUrl, {
+      ...this.invocationParams(options),
+      prompt: this._formatMessagesAsPrompt(input)
+    }, options);
+    for await (const chunk of stream) {
+      if (!chunk.done) {
+        yield new ChatGenerationChunk({
+          text: chunk.response,
+          message: new AIMessageChunk({ content: chunk.response })
+        });
+        await (runManager == null ? void 0 : runManager.handleLLMNewToken((_a3 = chunk.response) != null ? _a3 : ""));
+      } else {
+        yield new ChatGenerationChunk({
+          text: "",
+          message: new AIMessageChunk({ content: "" }),
+          generationInfo: {
+            model: chunk.model,
+            total_duration: chunk.total_duration,
+            load_duration: chunk.load_duration,
+            prompt_eval_count: chunk.prompt_eval_count,
+            prompt_eval_duration: chunk.prompt_eval_duration,
+            eval_count: chunk.eval_count,
+            eval_duration: chunk.eval_duration
+          }
+        });
+      }
+    }
+  }
+  async *_streamResponseChunks(input, options, runManager) {
+    var _a3, _b;
+    try {
+      const stream = await this.caller.call(async () => createOllamaChatStream(this.baseUrl, {
+        ...this.invocationParams(options),
+        messages: this._convertMessagesToOllamaMessages(input)
+      }, options));
+      for await (const chunk of stream) {
+        if (!chunk.done) {
+          yield new ChatGenerationChunk({
+            text: chunk.message.content,
+            message: new AIMessageChunk({ content: chunk.message.content })
+          });
+          await (runManager == null ? void 0 : runManager.handleLLMNewToken((_a3 = chunk.message.content) != null ? _a3 : ""));
+        } else {
+          yield new ChatGenerationChunk({
+            text: "",
+            message: new AIMessageChunk({ content: "" }),
+            generationInfo: {
+              model: chunk.model,
+              total_duration: chunk.total_duration,
+              load_duration: chunk.load_duration,
+              prompt_eval_count: chunk.prompt_eval_count,
+              prompt_eval_duration: chunk.prompt_eval_duration,
+              eval_count: chunk.eval_count,
+              eval_duration: chunk.eval_duration
+            }
+          });
+        }
+      }
+    } catch (e) {
+      if (((_b = e.response) == null ? void 0 : _b.status) === 404) {
+        console.warn("[WARNING]: It seems you are using a legacy version of Ollama. Please upgrade to a newer version for better chat support.");
+        yield* this._streamResponseChunksLegacy(input, options, runManager);
+      } else {
+        throw e;
+      }
+    }
+  }
+  _convertMessagesToOllamaMessages(messages4) {
+    return messages4.map((message) => {
+      var _a3;
+      let role;
+      if (message._getType() === "human") {
+        role = "user";
+      } else if (message._getType() === "ai") {
+        role = "assistant";
+      } else if (message._getType() === "system") {
+        role = "system";
+      } else {
+        throw new Error(`Unsupported message type for Ollama: ${message._getType()}`);
+      }
+      let content3 = "";
+      const images = [];
+      if (typeof message.content === "string") {
+        content3 = message.content;
+      } else {
+        for (const contentPart of message.content) {
+          if (contentPart.type === "text") {
+            content3 = `${content3}
+${contentPart.text}`;
+          } else if (contentPart.type === "image_url" && typeof contentPart.image_url === "string") {
+            const imageUrlComponents = contentPart.image_url.split(",");
+            images.push((_a3 = imageUrlComponents[1]) != null ? _a3 : imageUrlComponents[0]);
+          } else {
+            throw new Error(`Unsupported message content type. Must either have type "text" or type "image_url" with a string "image_url" field.`);
+          }
+        }
+      }
+      return {
+        role,
+        content: content3,
+        images
+      };
+    });
+  }
+  /** @deprecated */
+  _formatMessagesAsPrompt(messages4) {
+    const formattedMessages = messages4.map((message) => {
+      let messageText;
+      if (message._getType() === "human") {
+        messageText = `[INST] ${message.content} [/INST]`;
+      } else if (message._getType() === "ai") {
+        messageText = message.content;
+      } else if (message._getType() === "system") {
+        messageText = `<<SYS>> ${message.content} <</SYS>>`;
+      } else if (ChatMessage.isInstance(message)) {
+        messageText = `
+
+${message.role[0].toUpperCase()}${message.role.slice(1)}: ${message.content}`;
+      } else {
+        console.warn(`Unsupported message type passed to Ollama: "${message._getType()}"`);
+        messageText = "";
+      }
+      return messageText;
+    }).join("\n");
+    return formattedMessages;
+  }
+  /** @ignore */
+  async _call(messages4, options, runManager) {
+    const chunks = [];
+    for await (const chunk of this._streamResponseChunks(messages4, options, runManager)) {
+      chunks.push(chunk.message.content);
+    }
+    return chunks.join("");
+  }
+};
+
+// node_modules/@google/generative-ai/dist/index.mjs
+var HarmCategory;
+(function(HarmCategory2) {
+  HarmCategory2["HARM_CATEGORY_UNSPECIFIED"] = "HARM_CATEGORY_UNSPECIFIED";
+  HarmCategory2["HARM_CATEGORY_HATE_SPEECH"] = "HARM_CATEGORY_HATE_SPEECH";
+  HarmCategory2["HARM_CATEGORY_SEXUALLY_EXPLICIT"] = "HARM_CATEGORY_SEXUALLY_EXPLICIT";
+  HarmCategory2["HARM_CATEGORY_HARASSMENT"] = "HARM_CATEGORY_HARASSMENT";
+  HarmCategory2["HARM_CATEGORY_DANGEROUS_CONTENT"] = "HARM_CATEGORY_DANGEROUS_CONTENT";
+})(HarmCategory || (HarmCategory = {}));
+var HarmBlockThreshold;
+(function(HarmBlockThreshold2) {
+  HarmBlockThreshold2["HARM_BLOCK_THRESHOLD_UNSPECIFIED"] = "HARM_BLOCK_THRESHOLD_UNSPECIFIED";
+  HarmBlockThreshold2["BLOCK_LOW_AND_ABOVE"] = "BLOCK_LOW_AND_ABOVE";
+  HarmBlockThreshold2["BLOCK_MEDIUM_AND_ABOVE"] = "BLOCK_MEDIUM_AND_ABOVE";
+  HarmBlockThreshold2["BLOCK_ONLY_HIGH"] = "BLOCK_ONLY_HIGH";
+  HarmBlockThreshold2["BLOCK_NONE"] = "BLOCK_NONE";
+})(HarmBlockThreshold || (HarmBlockThreshold = {}));
+var HarmProbability;
+(function(HarmProbability2) {
+  HarmProbability2["HARM_PROBABILITY_UNSPECIFIED"] = "HARM_PROBABILITY_UNSPECIFIED";
+  HarmProbability2["NEGLIGIBLE"] = "NEGLIGIBLE";
+  HarmProbability2["LOW"] = "LOW";
+  HarmProbability2["MEDIUM"] = "MEDIUM";
+  HarmProbability2["HIGH"] = "HIGH";
+})(HarmProbability || (HarmProbability = {}));
+var BlockReason;
+(function(BlockReason2) {
+  BlockReason2["BLOCKED_REASON_UNSPECIFIED"] = "BLOCKED_REASON_UNSPECIFIED";
+  BlockReason2["SAFETY"] = "SAFETY";
+  BlockReason2["OTHER"] = "OTHER";
+})(BlockReason || (BlockReason = {}));
+var FinishReason;
+(function(FinishReason2) {
+  FinishReason2["FINISH_REASON_UNSPECIFIED"] = "FINISH_REASON_UNSPECIFIED";
+  FinishReason2["STOP"] = "STOP";
+  FinishReason2["MAX_TOKENS"] = "MAX_TOKENS";
+  FinishReason2["SAFETY"] = "SAFETY";
+  FinishReason2["RECITATION"] = "RECITATION";
+  FinishReason2["OTHER"] = "OTHER";
+})(FinishReason || (FinishReason = {}));
+var TaskType;
+(function(TaskType2) {
+  TaskType2["TASK_TYPE_UNSPECIFIED"] = "TASK_TYPE_UNSPECIFIED";
+  TaskType2["RETRIEVAL_QUERY"] = "RETRIEVAL_QUERY";
+  TaskType2["RETRIEVAL_DOCUMENT"] = "RETRIEVAL_DOCUMENT";
+  TaskType2["SEMANTIC_SIMILARITY"] = "SEMANTIC_SIMILARITY";
+  TaskType2["CLASSIFICATION"] = "CLASSIFICATION";
+  TaskType2["CLUSTERING"] = "CLUSTERING";
+})(TaskType || (TaskType = {}));
+var GoogleGenerativeAIError = class extends Error {
+  constructor(message) {
+    super(`[GoogleGenerativeAI Error]: ${message}`);
+  }
+};
+var GoogleGenerativeAIResponseError = class extends GoogleGenerativeAIError {
+  constructor(message, response) {
+    super(message);
+    this.response = response;
+  }
+};
+var BASE_URL = "https://generativelanguage.googleapis.com";
+var API_VERSION = "v1";
+var PACKAGE_VERSION = "0.1.3";
+var PACKAGE_LOG_HEADER = "genai-js";
+var Task;
+(function(Task2) {
+  Task2["GENERATE_CONTENT"] = "generateContent";
+  Task2["STREAM_GENERATE_CONTENT"] = "streamGenerateContent";
+  Task2["COUNT_TOKENS"] = "countTokens";
+  Task2["EMBED_CONTENT"] = "embedContent";
+  Task2["BATCH_EMBED_CONTENTS"] = "batchEmbedContents";
+})(Task || (Task = {}));
+var RequestUrl = class {
+  constructor(model, task, apiKey, stream) {
+    this.model = model;
+    this.task = task;
+    this.apiKey = apiKey;
+    this.stream = stream;
+  }
+  toString() {
+    let url = `${BASE_URL}/${API_VERSION}/models/${this.model}:${this.task}`;
+    if (this.stream) {
+      url += "?alt=sse";
+    }
+    return url;
+  }
+};
+function getClientHeaders() {
+  return `${PACKAGE_LOG_HEADER}/${PACKAGE_VERSION}`;
+}
+async function makeRequest(url, body) {
+  let response;
+  try {
+    response = await fetch(url.toString(), {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "x-goog-api-client": getClientHeaders(),
+        "x-goog-api-key": url.apiKey
+      },
+      body
+    });
+    if (!response.ok) {
+      let message = "";
+      try {
+        const json2 = await response.json();
+        message = json2.error.message;
+        if (json2.error.details) {
+          message += ` ${JSON.stringify(json2.error.details)}`;
+        }
+      } catch (e) {
+      }
+      throw new Error(`[${response.status} ${response.statusText}] ${message}`);
+    }
+  } catch (e) {
+    const err = new GoogleGenerativeAIError(`Error fetching from ${url.toString()}: ${e.message}`);
+    err.stack = e.stack;
+    throw err;
+  }
+  return response;
+}
+function addHelpers(response) {
+  response.text = () => {
+    if (response.candidates && response.candidates.length > 0) {
+      if (response.candidates.length > 1) {
+        console.warn(`This response had ${response.candidates.length} candidates. Returning text from the first candidate only. Access response.candidates directly to use the other candidates.`);
+      }
+      if (hadBadFinishReason(response.candidates[0])) {
+        throw new GoogleGenerativeAIResponseError(`${formatBlockErrorMessage(response)}`, response);
+      }
+      return getText(response);
+    } else if (response.promptFeedback) {
+      throw new GoogleGenerativeAIResponseError(`Text not available. ${formatBlockErrorMessage(response)}`, response);
+    }
+    return "";
+  };
+  return response;
+}
+function getText(response) {
+  var _a3, _b, _c, _d;
+  if ((_d = (_c = (_b = (_a3 = response.candidates) === null || _a3 === void 0 ? void 0 : _a3[0].content) === null || _b === void 0 ? void 0 : _b.parts) === null || _c === void 0 ? void 0 : _c[0]) === null || _d === void 0 ? void 0 : _d.text) {
+    return response.candidates[0].content.parts[0].text;
+  } else {
+    return "";
+  }
+}
+var badFinishReasons = [FinishReason.RECITATION, FinishReason.SAFETY];
+function hadBadFinishReason(candidate) {
+  return !!candidate.finishReason && badFinishReasons.includes(candidate.finishReason);
+}
+function formatBlockErrorMessage(response) {
+  var _a3, _b, _c;
+  let message = "";
+  if ((!response.candidates || response.candidates.length === 0) && response.promptFeedback) {
+    message += "Response was blocked";
+    if ((_a3 = response.promptFeedback) === null || _a3 === void 0 ? void 0 : _a3.blockReason) {
+      message += ` due to ${response.promptFeedback.blockReason}`;
+    }
+    if ((_b = response.promptFeedback) === null || _b === void 0 ? void 0 : _b.blockReasonMessage) {
+      message += `: ${response.promptFeedback.blockReasonMessage}`;
+    }
+  } else if ((_c = response.candidates) === null || _c === void 0 ? void 0 : _c[0]) {
+    const firstCandidate = response.candidates[0];
+    if (hadBadFinishReason(firstCandidate)) {
+      message += `Candidate was blocked due to ${firstCandidate.finishReason}`;
+      if (firstCandidate.finishMessage) {
+        message += `: ${firstCandidate.finishMessage}`;
+      }
+    }
+  }
+  return message;
+}
+function __await(v) {
+  return this instanceof __await ? (this.v = v, this) : new __await(v);
+}
+function __asyncGenerator(thisArg, _arguments, generator) {
+  if (!Symbol.asyncIterator)
+    throw new TypeError("Symbol.asyncIterator is not defined.");
+  var g = generator.apply(thisArg, _arguments || []), i, q = [];
+  return i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function() {
+    return this;
+  }, i;
+  function verb(n) {
+    if (g[n])
+      i[n] = function(v) {
+        return new Promise(function(a2, b) {
+          q.push([n, v, a2, b]) > 1 || resume(n, v);
+        });
+      };
+  }
+  function resume(n, v) {
+    try {
+      step(g[n](v));
+    } catch (e) {
+      settle(q[0][3], e);
+    }
+  }
+  function step(r) {
+    r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r);
+  }
+  function fulfill(value) {
+    resume("next", value);
+  }
+  function reject(value) {
+    resume("throw", value);
+  }
+  function settle(f, v) {
+    if (f(v), q.shift(), q.length)
+      resume(q[0][0], q[0][1]);
+  }
+}
+var responseLineRE = /^data\: (.*)(?:\n\n|\r\r|\r\n\r\n)/;
+function processStream(response) {
+  const inputStream = response.body.pipeThrough(new TextDecoderStream("utf8", { fatal: true }));
+  const responseStream = getResponseStream(inputStream);
+  const [stream1, stream2] = responseStream.tee();
+  return {
+    stream: generateResponseSequence(stream1),
+    response: getResponsePromise(stream2)
+  };
+}
+async function getResponsePromise(stream) {
+  const allResponses = [];
+  const reader = stream.getReader();
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) {
+      return addHelpers(aggregateResponses(allResponses));
+    }
+    allResponses.push(value);
+  }
+}
+function generateResponseSequence(stream) {
+  return __asyncGenerator(this, arguments, function* generateResponseSequence_1() {
+    const reader = stream.getReader();
+    while (true) {
+      const { value, done } = yield __await(reader.read());
+      if (done) {
+        break;
+      }
+      yield yield __await(addHelpers(value));
+    }
+  });
+}
+function getResponseStream(inputStream) {
+  const reader = inputStream.getReader();
+  const stream = new ReadableStream({
+    start(controller) {
+      let currentText = "";
+      return pump();
+      function pump() {
+        return reader.read().then(({ value, done }) => {
+          if (done) {
+            if (currentText.trim()) {
+              controller.error(new GoogleGenerativeAIError("Failed to parse stream"));
+              return;
+            }
+            controller.close();
+            return;
+          }
+          currentText += value;
+          let match2 = currentText.match(responseLineRE);
+          let parsedResponse;
+          while (match2) {
+            try {
+              parsedResponse = JSON.parse(match2[1]);
+            } catch (e) {
+              controller.error(new GoogleGenerativeAIError(`Error parsing JSON response: "${match2[1]}"`));
+              return;
+            }
+            controller.enqueue(parsedResponse);
+            currentText = currentText.substring(match2[0].length);
+            match2 = currentText.match(responseLineRE);
+          }
+          return pump();
+        });
+      }
+    }
+  });
+  return stream;
+}
+function aggregateResponses(responses) {
+  const lastResponse = responses[responses.length - 1];
+  const aggregatedResponse = {
+    promptFeedback: lastResponse === null || lastResponse === void 0 ? void 0 : lastResponse.promptFeedback
+  };
+  for (const response of responses) {
+    if (response.candidates) {
+      for (const candidate of response.candidates) {
+        const i = candidate.index;
+        if (!aggregatedResponse.candidates) {
+          aggregatedResponse.candidates = [];
+        }
+        if (!aggregatedResponse.candidates[i]) {
+          aggregatedResponse.candidates[i] = {
+            index: candidate.index
+          };
+        }
+        aggregatedResponse.candidates[i].citationMetadata = candidate.citationMetadata;
+        aggregatedResponse.candidates[i].finishReason = candidate.finishReason;
+        aggregatedResponse.candidates[i].finishMessage = candidate.finishMessage;
+        aggregatedResponse.candidates[i].safetyRatings = candidate.safetyRatings;
+        if (candidate.content && candidate.content.parts) {
+          if (!aggregatedResponse.candidates[i].content) {
+            aggregatedResponse.candidates[i].content = {
+              role: candidate.content.role || "user",
+              parts: [{ text: "" }]
+            };
+          }
+          for (const part of candidate.content.parts) {
+            if (part.text) {
+              aggregatedResponse.candidates[i].content.parts[0].text += part.text;
+            }
+          }
+        }
+      }
+    }
+  }
+  return aggregatedResponse;
+}
+async function generateContentStream(apiKey, model, params) {
+  const url = new RequestUrl(
+    model,
+    Task.STREAM_GENERATE_CONTENT,
+    apiKey,
+    /* stream */
+    true
+  );
+  const response = await makeRequest(url, JSON.stringify(params));
+  return processStream(response);
+}
+async function generateContent(apiKey, model, params) {
+  const url = new RequestUrl(
+    model,
+    Task.GENERATE_CONTENT,
+    apiKey,
+    /* stream */
+    false
+  );
+  const response = await makeRequest(url, JSON.stringify(params));
+  const responseJson = await response.json();
+  const enhancedResponse = addHelpers(responseJson);
+  return {
+    response: enhancedResponse
+  };
+}
+function formatNewContent(request2, role) {
+  let newParts = [];
+  if (typeof request2 === "string") {
+    newParts = [{ text: request2 }];
+  } else {
+    for (const partOrString of request2) {
+      if (typeof partOrString === "string") {
+        newParts.push({ text: partOrString });
+      } else {
+        newParts.push(partOrString);
+      }
+    }
+  }
+  return { role, parts: newParts };
+}
+function formatGenerateContentInput(params) {
+  if (params.contents) {
+    return params;
+  } else {
+    const content3 = formatNewContent(params, "user");
+    return { contents: [content3] };
+  }
+}
+function formatEmbedContentInput(params) {
+  if (typeof params === "string" || Array.isArray(params)) {
+    const content3 = formatNewContent(params, "user");
+    return { content: content3 };
+  }
+  return params;
+}
+var SILENT_ERROR = "SILENT_ERROR";
+var ChatSession = class {
+  constructor(apiKey, model, params) {
+    this.model = model;
+    this.params = params;
+    this._history = [];
+    this._sendPromise = Promise.resolve();
+    this._apiKey = apiKey;
+    if (params === null || params === void 0 ? void 0 : params.history) {
+      this._history = params.history.map((content3) => {
+        if (!content3.role) {
+          throw new Error("Missing role for history item: " + JSON.stringify(content3));
+        }
+        return formatNewContent(content3.parts, content3.role);
+      });
+    }
+  }
+  /**
+   * Gets the chat history so far. Blocked prompts are not added to history.
+   * Blocked candidates are not added to history, nor are the prompts that
+   * generated them.
+   */
+  async getHistory() {
+    await this._sendPromise;
+    return this._history;
+  }
+  /**
+   * Sends a chat message and receives a non-streaming
+   * {@link GenerateContentResult}
+   */
+  async sendMessage(request2) {
+    var _a3, _b;
+    await this._sendPromise;
+    const newContent = formatNewContent(request2, "user");
+    const generateContentRequest = {
+      safetySettings: (_a3 = this.params) === null || _a3 === void 0 ? void 0 : _a3.safetySettings,
+      generationConfig: (_b = this.params) === null || _b === void 0 ? void 0 : _b.generationConfig,
+      contents: [...this._history, newContent]
+    };
+    let finalResult;
+    this._sendPromise = this._sendPromise.then(() => generateContent(this._apiKey, this.model, generateContentRequest)).then((result) => {
+      var _a4;
+      if (result.response.candidates && result.response.candidates.length > 0) {
+        this._history.push(newContent);
+        const responseContent = Object.assign({
+          parts: [],
+          // Response seems to come back without a role set.
+          role: "model"
+        }, (_a4 = result.response.candidates) === null || _a4 === void 0 ? void 0 : _a4[0].content);
+        this._history.push(responseContent);
+      } else {
+        const blockErrorMessage = formatBlockErrorMessage(result.response);
+        if (blockErrorMessage) {
+          console.warn(`sendMessage() was unsuccessful. ${blockErrorMessage}. Inspect response object for details.`);
+        }
+      }
+      finalResult = result;
+    });
+    await this._sendPromise;
+    return finalResult;
+  }
+  /**
+   * Sends a chat message and receives the response as a
+   * {@link GenerateContentStreamResult} containing an iterable stream
+   * and a response promise.
+   */
+  async sendMessageStream(request2) {
+    var _a3, _b;
+    await this._sendPromise;
+    const newContent = formatNewContent(request2, "user");
+    const generateContentRequest = {
+      safetySettings: (_a3 = this.params) === null || _a3 === void 0 ? void 0 : _a3.safetySettings,
+      generationConfig: (_b = this.params) === null || _b === void 0 ? void 0 : _b.generationConfig,
+      contents: [...this._history, newContent]
+    };
+    const streamPromise = generateContentStream(this._apiKey, this.model, generateContentRequest);
+    this._sendPromise = this._sendPromise.then(() => streamPromise).catch((_ignored) => {
+      throw new Error(SILENT_ERROR);
+    }).then((streamResult) => streamResult.response).then((response) => {
+      if (response.candidates && response.candidates.length > 0) {
+        this._history.push(newContent);
+        const responseContent = Object.assign({}, response.candidates[0].content);
+        if (!responseContent.role) {
+          responseContent.role = "model";
+        }
+        this._history.push(responseContent);
+      } else {
+        const blockErrorMessage = formatBlockErrorMessage(response);
+        if (blockErrorMessage) {
+          console.warn(`sendMessageStream() was unsuccessful. ${blockErrorMessage}. Inspect response object for details.`);
+        }
+      }
+    }).catch((e) => {
+      if (e.message !== SILENT_ERROR) {
+        console.error(e);
+      }
+    });
+    return streamPromise;
+  }
+};
+async function countTokens(apiKey, model, params) {
+  const url = new RequestUrl(model, Task.COUNT_TOKENS, apiKey, false);
+  const response = await makeRequest(url, JSON.stringify(Object.assign(Object.assign({}, params), { model })));
+  return response.json();
+}
+async function embedContent(apiKey, model, params) {
+  const url = new RequestUrl(model, Task.EMBED_CONTENT, apiKey, false);
+  const response = await makeRequest(url, JSON.stringify(params));
+  return response.json();
+}
+async function batchEmbedContents(apiKey, model, params) {
+  const url = new RequestUrl(model, Task.BATCH_EMBED_CONTENTS, apiKey, false);
+  const requestsWithModel = params.requests.map((request2) => {
+    return Object.assign(Object.assign({}, request2), { model: `models/${model}` });
+  });
+  const response = await makeRequest(url, JSON.stringify({ requests: requestsWithModel }));
+  return response.json();
+}
+var GenerativeModel = class {
+  constructor(apiKey, modelParams) {
+    var _a3;
+    this.apiKey = apiKey;
+    if (modelParams.model.startsWith("models/")) {
+      this.model = (_a3 = modelParams.model.split("models/")) === null || _a3 === void 0 ? void 0 : _a3[1];
+    } else {
+      this.model = modelParams.model;
+    }
+    this.generationConfig = modelParams.generationConfig || {};
+    this.safetySettings = modelParams.safetySettings || [];
+  }
+  /**
+   * Makes a single non-streaming call to the model
+   * and returns an object containing a single {@link GenerateContentResponse}.
+   */
+  async generateContent(request2) {
+    const formattedParams = formatGenerateContentInput(request2);
+    return generateContent(this.apiKey, this.model, Object.assign({ generationConfig: this.generationConfig, safetySettings: this.safetySettings }, formattedParams));
+  }
+  /**
+   * Makes a single streaming call to the model
+   * and returns an object containing an iterable stream that iterates
+   * over all chunks in the streaming response as well as
+   * a promise that returns the final aggregated response.
+   */
+  async generateContentStream(request2) {
+    const formattedParams = formatGenerateContentInput(request2);
+    return generateContentStream(this.apiKey, this.model, Object.assign({ generationConfig: this.generationConfig, safetySettings: this.safetySettings }, formattedParams));
+  }
+  /**
+   * Gets a new {@link ChatSession} instance which can be used for
+   * multi-turn chats.
+   */
+  startChat(startChatParams) {
+    return new ChatSession(this.apiKey, this.model, startChatParams);
+  }
+  /**
+   * Counts the tokens in the provided request.
+   */
+  async countTokens(request2) {
+    const formattedParams = formatGenerateContentInput(request2);
+    return countTokens(this.apiKey, this.model, formattedParams);
+  }
+  /**
+   * Embeds the provided content.
+   */
+  async embedContent(request2) {
+    const formattedParams = formatEmbedContentInput(request2);
+    return embedContent(this.apiKey, this.model, formattedParams);
+  }
+  /**
+   * Embeds an array of {@link EmbedContentRequest}s.
+   */
+  async batchEmbedContents(batchEmbedContentRequest) {
+    return batchEmbedContents(this.apiKey, this.model, batchEmbedContentRequest);
+  }
+};
+var GoogleGenerativeAI = class {
+  constructor(apiKey) {
+    this.apiKey = apiKey;
+  }
+  /**
+   * Gets a {@link GenerativeModel} instance for the provided model name.
+   */
+  getGenerativeModel(modelParams) {
+    if (!modelParams.model) {
+      throw new GoogleGenerativeAIError(`Must provide a model name. Example: genai.getGenerativeModel({ model: 'my-model-name' })`);
+    }
+    return new GenerativeModel(this.apiKey, modelParams);
+  }
+};
+
+// node_modules/@langchain/google-genai/dist/utils.js
+init_messages2();
+init_outputs2();
+function getMessageAuthor(message) {
+  var _a3;
+  const type2 = message._getType();
+  if (ChatMessage.isInstance(message)) {
+    return message.role;
+  }
+  return (_a3 = message.name) != null ? _a3 : type2;
+}
+function convertAuthorToRole(author) {
+  switch (author) {
+    case "ai":
+      return "model";
+    case "system":
+    case "human":
+      return "user";
+    default:
+      throw new Error(`Unknown / unsupported author: ${author}`);
+  }
+}
+function convertMessageContentToParts(content3, isMultimodalModel) {
+  if (typeof content3 === "string") {
+    return [{ text: content3 }];
+  }
+  return content3.map((c) => {
+    if (c.type === "text") {
+      return {
+        text: c.text
+      };
+    }
+    if (c.type === "image_url") {
+      if (!isMultimodalModel) {
+        throw new Error(`This model does not support images`);
+      }
+      if (typeof c.image_url !== "string") {
+        throw new Error("Please provide image as base64 encoded data URL");
+      }
+      const [dm, data] = c.image_url.split(",");
+      if (!dm.startsWith("data:")) {
+        throw new Error("Please provide image as base64 encoded data URL");
+      }
+      const [mimeType, encoding] = dm.replace(/^data:/, "").split(";");
+      if (encoding !== "base64") {
+        throw new Error("Please provide image as base64 encoded data URL");
+      }
+      return {
+        inlineData: {
+          data,
+          mimeType
+        }
+      };
+    }
+    throw new Error(`Unknown content type ${c.type}`);
+  });
+}
+function convertBaseMessagesToContent(messages4, isMultimodalModel) {
+  return messages4.reduce((acc, message, index2) => {
+    if (!isBaseMessage(message)) {
+      throw new Error("Unsupported message input");
+    }
+    const author = getMessageAuthor(message);
+    if (author === "system" && index2 !== 0) {
+      throw new Error("System message should be the first one");
+    }
+    const role = convertAuthorToRole(author);
+    const prevContent = acc.content[acc.content.length];
+    if (!acc.mergeWithPreviousContent && prevContent && prevContent.role === role) {
+      throw new Error("Google Generative AI requires alternate messages between authors");
+    }
+    const parts = convertMessageContentToParts(message.content, isMultimodalModel);
+    if (acc.mergeWithPreviousContent) {
+      const prevContent2 = acc.content[acc.content.length - 1];
+      if (!prevContent2) {
+        throw new Error("There was a problem parsing your system message. Please try a prompt without one.");
+      }
+      prevContent2.parts.push(...parts);
+      return {
+        mergeWithPreviousContent: false,
+        content: acc.content
+      };
+    }
+    const content3 = {
+      role,
+      parts
+    };
+    return {
+      mergeWithPreviousContent: author === "system",
+      content: [...acc.content, content3]
+    };
+  }, { content: [], mergeWithPreviousContent: false }).content;
+}
+function mapGenerateContentResultToChatResult(response) {
+  var _a3, _b;
+  if (!response.candidates || response.candidates.length === 0 || !response.candidates[0]) {
+    return {
+      generations: [],
+      llmOutput: {
+        filters: response.promptFeedback
+      }
+    };
+  }
+  const [candidate] = response.candidates;
+  const { content: content3, ...generationInfo } = candidate;
+  const text4 = (_b = (_a3 = content3.parts[0]) == null ? void 0 : _a3.text) != null ? _b : "";
+  const generation = {
+    text: text4,
+    message: new AIMessage({
+      content: text4,
+      name: content3 === null ? void 0 : content3.role,
+      additional_kwargs: generationInfo
+    }),
+    generationInfo
+  };
+  return {
+    generations: [generation]
+  };
+}
+function convertResponseContentToChatGenerationChunk(response) {
+  var _a3, _b;
+  if (!response.candidates || response.candidates.length === 0) {
+    return null;
+  }
+  const [candidate] = response.candidates;
+  const { content: content3, ...generationInfo } = candidate;
+  const text4 = (_b = (_a3 = content3.parts[0]) == null ? void 0 : _a3.text) != null ? _b : "";
+  return new ChatGenerationChunk({
+    text: text4,
+    message: new AIMessageChunk({
+      content: text4,
+      name: content3 === null ? void 0 : content3.role,
+      // Each chunk can have unique "generationInfo", and merging strategy is unclear,
+      // so leave blank for now.
+      additional_kwargs: {}
+    }),
+    generationInfo
+  });
+}
+
+// node_modules/@langchain/google-genai/dist/chat_models.js
+var ChatGoogleGenerativeAI = class extends BaseChatModel {
+  static lc_name() {
+    return "googlegenerativeai";
+  }
+  get lc_secrets() {
+    return {
+      apiKey: "GOOGLE_API_KEY"
+    };
+  }
+  get _isMultimodalModel() {
+    return this.modelName.includes("vision");
+  }
+  constructor(fields) {
+    var _a3, _b, _c, _d, _e, _f, _g, _h, _i, _j;
+    super(fields != null ? fields : {});
+    Object.defineProperty(this, "lc_serializable", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: true
+    });
+    Object.defineProperty(this, "modelName", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: "gemini-pro"
+    });
+    Object.defineProperty(this, "temperature", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "maxOutputTokens", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "topP", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "topK", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "stopSequences", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: []
+    });
+    Object.defineProperty(this, "safetySettings", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "apiKey", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    Object.defineProperty(this, "streaming", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: false
+    });
+    Object.defineProperty(this, "client", {
+      enumerable: true,
+      configurable: true,
+      writable: true,
+      value: void 0
+    });
+    this.modelName = (_b = (_a3 = fields == null ? void 0 : fields.modelName) == null ? void 0 : _a3.replace(/^models\//, "")) != null ? _b : this.modelName;
+    this.maxOutputTokens = (_c = fields == null ? void 0 : fields.maxOutputTokens) != null ? _c : this.maxOutputTokens;
+    if (this.maxOutputTokens && this.maxOutputTokens < 0) {
+      throw new Error("`maxOutputTokens` must be a positive integer");
+    }
+    this.temperature = (_d = fields == null ? void 0 : fields.temperature) != null ? _d : this.temperature;
+    if (this.temperature && (this.temperature < 0 || this.temperature > 1)) {
+      throw new Error("`temperature` must be in the range of [0.0,1.0]");
+    }
+    this.topP = (_e = fields == null ? void 0 : fields.topP) != null ? _e : this.topP;
+    if (this.topP && this.topP < 0) {
+      throw new Error("`topP` must be a positive integer");
+    }
+    if (this.topP && this.topP > 1) {
+      throw new Error("`topP` must be below 1.");
+    }
+    this.topK = (_f = fields == null ? void 0 : fields.topK) != null ? _f : this.topK;
+    if (this.topK && this.topK < 0) {
+      throw new Error("`topK` must be a positive integer");
+    }
+    this.stopSequences = (_g = fields == null ? void 0 : fields.stopSequences) != null ? _g : this.stopSequences;
+    this.apiKey = (_h = fields == null ? void 0 : fields.apiKey) != null ? _h : getEnvironmentVariable2("GOOGLE_API_KEY");
+    if (!this.apiKey) {
+      throw new Error("Please set an API key for Google GenerativeAI in the environment variable GOOGLE_API_KEY or in the `apiKey` field of the ChatGoogleGenerativeAI constructor");
+    }
+    this.safetySettings = (_i = fields == null ? void 0 : fields.safetySettings) != null ? _i : this.safetySettings;
+    if (this.safetySettings && this.safetySettings.length > 0) {
+      const safetySettingsSet = new Set(this.safetySettings.map((s) => s.category));
+      if (safetySettingsSet.size !== this.safetySettings.length) {
+        throw new Error("The categories in `safetySettings` array must be unique");
+      }
+    }
+    this.streaming = (_j = fields == null ? void 0 : fields.streaming) != null ? _j : this.streaming;
+    this.client = new GoogleGenerativeAI(this.apiKey).getGenerativeModel({
+      model: this.modelName,
+      safetySettings: this.safetySettings,
+      generationConfig: {
+        candidateCount: 1,
+        stopSequences: this.stopSequences,
+        maxOutputTokens: this.maxOutputTokens,
+        temperature: this.temperature,
+        topP: this.topP,
+        topK: this.topK
+      }
+    });
+  }
+  _combineLLMOutput() {
+    return [];
+  }
+  _llmType() {
+    return "googlegenerativeai";
+  }
+  async _generate(messages4, options, runManager) {
+    var _a3, _b, _c;
+    const prompt = convertBaseMessagesToContent(messages4, this._isMultimodalModel);
+    if (this.streaming) {
+      const tokenUsage = {};
+      const stream = this._streamResponseChunks(messages4, options, runManager);
+      const finalChunks = {};
+      for await (const chunk of stream) {
+        const index2 = (_b = (_a3 = chunk.generationInfo) == null ? void 0 : _a3.completion) != null ? _b : 0;
+        if (finalChunks[index2] === void 0) {
+          finalChunks[index2] = chunk;
+        } else {
+          finalChunks[index2] = finalChunks[index2].concat(chunk);
+        }
+      }
+      const generations = Object.entries(finalChunks).sort(([aKey], [bKey]) => parseInt(aKey, 10) - parseInt(bKey, 10)).map(([_, value]) => value);
+      return { generations, llmOutput: { estimatedTokenUsage: tokenUsage } };
+    }
+    const res = await this.caller.callWithOptions({ signal: options == null ? void 0 : options.signal }, async () => {
+      var _a4;
+      let output;
+      try {
+        output = await this.client.generateContent({
+          contents: prompt
+        });
+      } catch (e) {
+        if ((_a4 = e.message) == null ? void 0 : _a4.includes("400 Bad Request")) {
+          e.status = 400;
+        }
+        throw e;
+      }
+      return output;
+    });
+    const generationResult = mapGenerateContentResultToChatResult(res.response);
+    await (runManager == null ? void 0 : runManager.handleLLMNewToken((_c = generationResult.generations[0].text) != null ? _c : ""));
+    return generationResult;
+  }
+  async *_streamResponseChunks(messages4, options, runManager) {
+    var _a3;
+    const prompt = convertBaseMessagesToContent(messages4, this._isMultimodalModel);
+    const stream = await this.caller.callWithOptions({ signal: options == null ? void 0 : options.signal }, async () => {
+      const { stream: stream2 } = await this.client.generateContentStream({
+        contents: prompt
+      });
+      return stream2;
+    });
+    for await (const response of stream) {
+      const chunk = convertResponseContentToChatGenerationChunk(response);
+      if (!chunk) {
+        continue;
+      }
+      yield chunk;
+      await (runManager == null ? void 0 : runManager.handleLLMNewToken((_a3 = chunk.text) != null ? _a3 : ""));
+    }
+  }
+};
 
 // node_modules/@anthropic-ai/sdk/version.mjs
 var VERSION2 = "0.9.1";
@@ -75376,115 +77164,7 @@ var ChatAnthropic = class extends BaseChatModel {
   }
 };
 
-// node_modules/langchain/node_modules/@langchain/community/dist/embeddings/cohere.js
-var CohereEmbeddings = class extends Embeddings2 {
-  /**
-   * Constructor for the CohereEmbeddings class.
-   * @param fields - An optional object with properties to configure the instance.
-   */
-  constructor(fields) {
-    var _a3, _b;
-    const fieldsWithDefaults = { maxConcurrency: 2, ...fields };
-    super(fieldsWithDefaults);
-    Object.defineProperty(this, "modelName", {
-      enumerable: true,
-      configurable: true,
-      writable: true,
-      value: "small"
-    });
-    Object.defineProperty(this, "batchSize", {
-      enumerable: true,
-      configurable: true,
-      writable: true,
-      value: 48
-    });
-    Object.defineProperty(this, "apiKey", {
-      enumerable: true,
-      configurable: true,
-      writable: true,
-      value: void 0
-    });
-    Object.defineProperty(this, "client", {
-      enumerable: true,
-      configurable: true,
-      writable: true,
-      value: void 0
-    });
-    const apiKey = (fieldsWithDefaults == null ? void 0 : fieldsWithDefaults.apiKey) || getEnvironmentVariable2("COHERE_API_KEY");
-    if (!apiKey) {
-      throw new Error("Cohere API key not found");
-    }
-    this.modelName = (_a3 = fieldsWithDefaults == null ? void 0 : fieldsWithDefaults.modelName) != null ? _a3 : this.modelName;
-    this.batchSize = (_b = fieldsWithDefaults == null ? void 0 : fieldsWithDefaults.batchSize) != null ? _b : this.batchSize;
-    this.apiKey = apiKey;
-  }
-  /**
-   * Generates embeddings for an array of texts.
-   * @param texts - An array of strings to generate embeddings for.
-   * @returns A Promise that resolves to an array of embeddings.
-   */
-  async embedDocuments(texts) {
-    await this.maybeInitClient();
-    const batches = chunkArray(texts, this.batchSize);
-    const batchRequests = batches.map((batch) => this.embeddingWithRetry({
-      model: this.modelName,
-      texts: batch
-    }));
-    const batchResponses = await Promise.all(batchRequests);
-    const embeddings = [];
-    for (let i = 0; i < batchResponses.length; i += 1) {
-      const batch = batches[i];
-      const { body: batchResponse } = batchResponses[i];
-      for (let j = 0; j < batch.length; j += 1) {
-        embeddings.push(batchResponse.embeddings[j]);
-      }
-    }
-    return embeddings;
-  }
-  /**
-   * Generates an embedding for a single text.
-   * @param text - A string to generate an embedding for.
-   * @returns A Promise that resolves to an array of numbers representing the embedding.
-   */
-  async embedQuery(text4) {
-    await this.maybeInitClient();
-    const { body } = await this.embeddingWithRetry({
-      model: this.modelName,
-      texts: [text4]
-    });
-    return body.embeddings[0];
-  }
-  /**
-   * Generates embeddings with retry capabilities.
-   * @param request - An object containing the request parameters for generating embeddings.
-   * @returns A Promise that resolves to the API response.
-   */
-  async embeddingWithRetry(request2) {
-    await this.maybeInitClient();
-    return this.caller.call(this.client.embed.bind(this.client), request2);
-  }
-  /**
-   * Initializes the Cohere client if it hasn't been initialized already.
-   */
-  async maybeInitClient() {
-    if (!this.client) {
-      const { cohere } = await CohereEmbeddings.imports();
-      this.client = cohere;
-      this.client.init(this.apiKey);
-    }
-  }
-  /** @ignore */
-  static async imports() {
-    try {
-      const { default: cohere } = await Promise.resolve().then(() => __toESM(require_cohere_ai(), 1));
-      return { cohere };
-    } catch (e) {
-      throw new Error("Please install cohere-ai as a dependency with, e.g. `yarn add cohere-ai`");
-    }
-  }
-};
-
-// node_modules/langchain/node_modules/@huggingface/inference/dist/index.mjs
+// node_modules/@huggingface/inference/dist/index.mjs
 var __defProp3 = Object.defineProperty;
 var __export2 = (target, all3) => {
   for (var name in all3)
@@ -75659,7 +77339,7 @@ function getLines(onLine) {
       position3 = 0;
       fieldLength = -1;
     } else {
-      buffer2 = concat(buffer2, arr);
+      buffer2 = concat2(buffer2, arr);
     }
     const bufLength = buffer2.length;
     let lineStart = 0;
@@ -75731,7 +77411,7 @@ function getMessages(onId, onRetry, onMessage) {
     }
   };
 }
-function concat(a2, b) {
+function concat2(a2, b) {
   const res = new Uint8Array(a2.length + b.length);
   res.set(a2);
   res.set(b, a2.length);
@@ -76265,7 +77945,7 @@ var HfInferenceEndpoint = class {
   }
 };
 
-// node_modules/langchain/node_modules/@langchain/community/dist/embeddings/hf.js
+// node_modules/@langchain/community/dist/embeddings/hf.js
 var HuggingFaceInferenceEmbeddings = class extends Embeddings2 {
   constructor(fields) {
     var _a3, _b;
@@ -76402,7 +78082,7 @@ var BufferWindowMemory = class extends BaseChatMemory {
   }
 };
 
-// node_modules/langchain/node_modules/@langchain/community/dist/memory/motorhead_memory.js
+// node_modules/@langchain/community/dist/memory/motorhead_memory.js
 init_messages2();
 
 // node_modules/langchain/dist/memory/entity_memory.js
@@ -76581,10 +78261,8 @@ var import_react = __toESM(require_react());
 var ProxyChatOpenAI = class extends ChatOpenAI {
   constructor(fields) {
     super(fields != null ? fields : {});
-    const modelName = fields.localAIModel ? fields.localAIModel : fields.modelName;
     this["client"] = new openai_default({
       ...this["clientConfig"],
-      modelName,
       baseURL: fields.openAIProxyBaseUrl
     });
   }
@@ -76600,7 +78278,7 @@ var ProxyOpenAIEmbeddings = class extends OpenAIEmbeddings {
 };
 
 // src/aiState.ts
-var AIState = class {
+var _AIState = class {
   constructor(langChainParams) {
     this.langChainParams = langChainParams;
     this.buildModelMap();
@@ -76650,7 +78328,10 @@ var AIState = class {
       temperature,
       maxTokens,
       openAIProxyBaseUrl,
-      localAIModel
+      googleApiKey,
+      openRouterAiApiKey,
+      ollamaModel,
+      openRouterModel
     } = this.langChainParams;
     let config = {
       modelName: model,
@@ -76665,8 +78346,7 @@ var AIState = class {
           ...config,
           openAIApiKey,
           maxTokens,
-          openAIProxyBaseUrl,
-          localAIModel
+          openAIProxyBaseUrl
         };
         break;
       case ANTHROPIC:
@@ -76683,6 +78363,33 @@ var AIState = class {
           azureOpenAIApiInstanceName,
           azureOpenAIApiDeploymentName,
           azureOpenAIApiVersion
+        };
+        break;
+      case GOOGLE:
+        config = {
+          ...config,
+          apiKey: googleApiKey
+        };
+        break;
+      case OPENROUTERAI:
+        config = {
+          ...config,
+          modelName: openRouterModel,
+          openAIApiKey: openRouterAiApiKey,
+          openAIProxyBaseUrl: "https://openrouter.ai/api/v1"
+        };
+        break;
+      case LM_STUDIO:
+        config = {
+          ...config,
+          openAIApiKey: "placeholder",
+          openAIProxyBaseUrl: `http://localhost:${this.langChainParams.lmStudioPort}/v1`
+        };
+        break;
+      case OLLAMA:
+        config = {
+          ...config,
+          modelName: ollamaModel
         };
         break;
     }
@@ -76710,6 +78417,34 @@ var AIState = class {
         hasApiKey: Boolean(this.langChainParams.azureOpenAIApiKey),
         AIConstructor: ChatOpenAI,
         vendor: AZURE_OPENAI
+      };
+    }
+    for (const modelDisplayNameKey of GOOGLE_MODELS) {
+      modelMap[modelDisplayNameKey] = {
+        hasApiKey: Boolean(this.langChainParams.googleApiKey),
+        AIConstructor: ChatGoogleGenerativeAI,
+        vendor: GOOGLE
+      };
+    }
+    for (const modelDisplayNameKey of OPENROUTERAI_MODELS) {
+      modelMap[modelDisplayNameKey] = {
+        hasApiKey: Boolean(this.langChainParams.openRouterAiApiKey),
+        AIConstructor: ProxyChatOpenAI,
+        vendor: OPENROUTERAI
+      };
+    }
+    for (const modelDisplayNameKey of OLLAMA_MODELS) {
+      modelMap[modelDisplayNameKey] = {
+        hasApiKey: true,
+        AIConstructor: ChatOllama,
+        vendor: OLLAMA
+      };
+    }
+    for (const modelDisplayNameKey of LM_STUDIO_MODELS) {
+      modelMap[modelDisplayNameKey] = {
+        hasApiKey: true,
+        AIConstructor: ProxyChatOpenAI,
+        vendor: LM_STUDIO
       };
     }
     this.modelMap = modelMap;
@@ -76759,14 +78494,6 @@ var AIState = class {
           maxRetries: 3,
           maxConcurrency: 3
         });
-      case LOCALAI:
-        return new ProxyOpenAIEmbeddings({
-          openAIApiKey,
-          openAIProxyBaseUrl,
-          maxRetries: 3,
-          maxConcurrency: 3,
-          timeout: 1e4
-        });
       default:
         console.error("No embedding provider set. Using OpenAI.");
         return OpenAIEmbeddingsAPI;
@@ -76793,36 +78520,44 @@ var AIState = class {
       });
       switch (selectedModel.vendor) {
         case OPENAI:
-          AIState.chatOpenAI = newModelInstance;
+          _AIState.chatOpenAI = newModelInstance;
           break;
         case ANTHROPIC:
-          AIState.chatAnthropic = newModelInstance;
+          _AIState.chatAnthropic = newModelInstance;
           break;
         case AZURE_OPENAI:
-          AIState.azureChatOpenAI = newModelInstance;
+          _AIState.azureChatOpenAI = newModelInstance;
+          break;
+        case GOOGLE:
+          _AIState.chatGoogleGenerativeAI = newModelInstance;
+          break;
+        case OPENROUTERAI:
+          _AIState.chatOpenAI = newModelInstance;
+          break;
+        case OLLAMA:
+          _AIState.chatOllama = newModelInstance;
           break;
       }
-      AIState.chatModel = newModelInstance;
+      _AIState.chatModel = newModelInstance;
     } catch (error) {
       console.error(error);
       new import_obsidian.Notice(`Error creating model: ${modelDisplayName}`);
     }
   }
   setModel(newModelDisplayName) {
+    _AIState.isOllamaModelActive = newModelDisplayName === "OLLAMA (LOCAL)" /* OLLAMA */;
+    _AIState.isOpenRouterModelActive = newModelDisplayName === "OPENROUTER.AI" /* OPENROUTERAI */;
     let newModel = getModelName(newModelDisplayName);
-    const { localAIModel } = this.langChainParams;
-    if (newModelDisplayName === "LocalAI" /* LOCAL_AI */) {
-      if (!localAIModel) {
-        new import_obsidian.Notice("No local AI model provided! Please set it in settings first.");
-        console.error("No local AI model provided! Please set it in settings first.");
-        return;
-      }
-      if (!this.langChainParams.openAIProxyBaseUrl) {
-        new import_obsidian.Notice("Please set the OpenAI Proxy Base URL in settings.");
-        console.error("Please set the OpenAI Proxy Base URL in settings.");
-        return;
-      }
-      newModel = localAIModel;
+    switch (newModelDisplayName) {
+      case "OLLAMA (LOCAL)" /* OLLAMA */:
+        newModel = this.langChainParams.ollamaModel;
+        break;
+      case "LM STUDIO (LOCAL)" /* LM_STUDIO */:
+        newModel = "check_model_in_lm_studio_ui";
+        break;
+      case "OPENROUTER.AI" /* OPENROUTERAI */:
+        newModel = this.langChainParams.openRouterModel;
+        break;
     }
     try {
       this.langChainParams.model = newModel;
@@ -76849,7 +78584,7 @@ var AIState = class {
     }
   }
   async setChain(chainType, options = {}) {
-    if (!this.validateChatModel(AIState.chatModel)) {
+    if (!this.validateChatModel(_AIState.chatModel)) {
       console.error("setChain failed: No chat model set.");
       return;
     }
@@ -76857,14 +78592,19 @@ var AIState = class {
     switch (chainType) {
       case "llm_chain" /* LLM_CHAIN */: {
         if (options.forceNewCreation) {
-          AIState.chain = chainFactory_default.createNewLLMChain({
-            llm: AIState.chatModel,
+          if (_AIState.isOllamaModelActive) {
+            _AIState.chatModel.model = this.langChainParams.ollamaModel;
+          } else if (_AIState.isOpenRouterModelActive) {
+            _AIState.chatModel.modelName = this.langChainParams.openRouterModel;
+          }
+          _AIState.chain = chainFactory_default.createNewLLMChain({
+            llm: _AIState.chatModel,
             memory: this.memory,
             prompt: options.prompt || this.chatPrompt
           });
         } else {
-          AIState.chain = chainFactory_default.getLLMChainFromMap({
-            llm: AIState.chatModel,
+          _AIState.chain = chainFactory_default.getLLMChainFromMap({
+            llm: _AIState.chatModel,
             memory: this.memory,
             prompt: options.prompt || this.chatPrompt
           });
@@ -76886,8 +78626,8 @@ var AIState = class {
             parsedMemoryVectors,
             this.getEmbeddingsAPI()
           );
-          AIState.retrievalChain = RetrievalQAChain.fromLLM(
-            AIState.chatModel,
+          _AIState.retrievalChain = RetrievalQAChain.fromLLM(
+            _AIState.chatModel,
             vectorStore.asRetriever()
           );
           console.log("Existing vector store for document hash: ", docHash);
@@ -76897,13 +78637,13 @@ var AIState = class {
             console.error("Error creating vector store.");
             return;
           }
-          const baseCompressor = LLMChainExtractor.fromLLM(AIState.chatModel);
+          const baseCompressor = LLMChainExtractor.fromLLM(_AIState.chatModel);
           const retriever = new ContextualCompressionRetriever({
             baseCompressor,
             baseRetriever: this.vectorStore.asRetriever()
           });
-          AIState.retrievalChain = RetrievalQAChain.fromLLM(
-            AIState.chatModel,
+          _AIState.retrievalChain = RetrievalQAChain.fromLLM(
+            _AIState.chatModel,
             retriever
           );
           console.log(
@@ -76939,11 +78679,11 @@ var AIState = class {
     }
   }
   async countTokens(inputStr) {
-    return AIState.chatOpenAI.getNumTokens(inputStr);
+    return _AIState.chatOpenAI.getNumTokens(inputStr);
   }
   async runChatModel(userMessage, chatContext, abortController, updateCurrentAiMessage, addMessage, debug3 = false) {
     if (debug3) {
-      console.log("chatModel:", AIState.chatModel);
+      console.log("chatModel:", _AIState.chatModel);
       for (const [i, chatMessage] of chatContext.entries()) {
         console.log(
           `chat message ${i}:
@@ -76961,7 +78701,7 @@ ${chatMessage.message}`
       new HumanMessage(userMessage.message)
     ];
     let fullAIResponse = "";
-    await AIState.chatModel.call(
+    await _AIState.chatModel.call(
       messages4,
       { signal: abortController.signal },
       [
@@ -76983,13 +78723,13 @@ ${chatMessage.message}`
   }
   async runChain(userMessage, abortController, updateCurrentAiMessage, addMessage, debug3 = false) {
     var _a3, _b;
-    if (!this.validateChatModel(AIState.chatModel)) {
+    if (!this.validateChatModel(_AIState.chatModel)) {
       const errorMsg = "Chat model is not initialized properly, check your API key in Copilot setting and make sure you have API access.";
       new import_obsidian.Notice(errorMsg);
       console.error(errorMsg);
       return;
     }
-    if (!AIState.chain || !isSupportedChain(AIState.chain)) {
+    if (!_AIState.chain || !isSupportedChain(_AIState.chain)) {
       console.error(
         "Chain is not initialized properly, re-initializing chain: ",
         this.langChainParams.chainType
@@ -77004,7 +78744,7 @@ ${chatMessage.message}`
       chainType
     } = this.langChainParams;
     let fullAIResponse = "";
-    const chain = AIState.chain;
+    const chain = _AIState.chain;
     try {
       switch (chainType) {
         case "llm_chain" /* LLM_CHAIN */:
@@ -77012,7 +78752,7 @@ ${chatMessage.message}`
             console.log(
               `*** DEBUG INFO ***
 user message: ${userMessage}
-model: ${chain.llm.modelName}
+model: ${chain.llm.modelName || chain.llm.model}
 chain type: ${chainType}
 temperature: ${temperature}
 maxTokens: ${maxTokens}
@@ -77023,7 +78763,7 @@ chat context turns: ${chatContextTurns}
             console.log("chain:", chain);
             console.log("Chat memory:", this.memory);
           }
-          await AIState.chain.call(
+          await _AIState.chain.call(
             {
               input: userMessage,
               signal: abortController.signal
@@ -77054,7 +78794,7 @@ chat context turns: ${chatContextTurns}
             console.log("chain:", chain);
             console.log("embedding provider:", this.langChainParams.embeddingProvider);
           }
-          await AIState.retrievalChain.call(
+          await _AIState.retrievalChain.call(
             {
               query: userMessage,
               signal: abortController.signal
@@ -77096,6 +78836,9 @@ chat context turns: ${chatContextTurns}
     return fullAIResponse;
   }
 };
+var AIState = _AIState;
+AIState.isOllamaModelActive = false;
+AIState.isOpenRouterModelActive = false;
 function useAIState(aiState) {
   const { langChainParams } = aiState;
   const [currentModel, setCurrentModel] = (0, import_react.useState)(langChainParams.modelDisplayName);
@@ -77418,7 +79161,10 @@ var ChatIcons = ({
     /* @__PURE__ */ import_react4.default.createElement("option", { value: "AZURE GPT-3.5-16K" /* AZURE_GPT_35_TURBO_16K */ }, "AZURE GPT-3.5-16K" /* AZURE_GPT_35_TURBO_16K */),
     /* @__PURE__ */ import_react4.default.createElement("option", { value: "AZURE GPT-4" /* AZURE_GPT_4 */ }, "AZURE GPT-4" /* AZURE_GPT_4 */),
     /* @__PURE__ */ import_react4.default.createElement("option", { value: "AZURE GPT-4 32K" /* AZURE_GPT_4_32K */ }, "AZURE GPT-4 32K" /* AZURE_GPT_4_32K */),
-    /* @__PURE__ */ import_react4.default.createElement("option", { value: "LocalAI" /* LOCAL_AI */ }, "LocalAI" /* LOCAL_AI */)
+    /* @__PURE__ */ import_react4.default.createElement("option", { value: "GEMINI PRO" /* GEMINI_PRO */ }, "GEMINI PRO" /* GEMINI_PRO */),
+    /* @__PURE__ */ import_react4.default.createElement("option", { value: "OPENROUTER.AI" /* OPENROUTERAI */ }, "OPENROUTER.AI" /* OPENROUTERAI */),
+    /* @__PURE__ */ import_react4.default.createElement("option", { value: "LM STUDIO (LOCAL)" /* LM_STUDIO */ }, "LM STUDIO (LOCAL)" /* LM_STUDIO */),
+    /* @__PURE__ */ import_react4.default.createElement("option", { value: "OLLAMA (LOCAL)" /* OLLAMA */ }, "OLLAMA (LOCAL)" /* OLLAMA */)
   ), /* @__PURE__ */ import_react4.default.createElement("span", { className: "tooltip-text" }, "Model Selection"))), /* @__PURE__ */ import_react4.default.createElement("button", { className: "chat-icon-button", onClick: onStopGenerating }, /* @__PURE__ */ import_react4.default.createElement(StopIcon, { className: "icon-scaler" }), /* @__PURE__ */ import_react4.default.createElement("span", { className: "tooltip-text" }, "Stop Generating")), /* @__PURE__ */ import_react4.default.createElement("button", { className: "chat-icon-button", onClick: onNewChat }, /* @__PURE__ */ import_react4.default.createElement(RefreshIcon, { className: "icon-scaler" }), /* @__PURE__ */ import_react4.default.createElement("span", { className: "tooltip-text" }, "New Chat", /* @__PURE__ */ import_react4.default.createElement("br", null), "(unsaved history will be lost)")), /* @__PURE__ */ import_react4.default.createElement("button", { className: "chat-icon-button", onClick: onSaveAsNote }, /* @__PURE__ */ import_react4.default.createElement(SaveAsNoteIcon, { className: "icon-scaler" }), /* @__PURE__ */ import_react4.default.createElement("span", { className: "tooltip-text" }, "Save as Note")), /* @__PURE__ */ import_react4.default.createElement("div", { className: "chat-icon-selection-tooltip" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "select-wrapper" }, /* @__PURE__ */ import_react4.default.createElement(
     "select",
     {
@@ -86571,6 +88317,7 @@ var CopilotSettingTab = class extends import_obsidian10.PluginSettingTab {
   display() {
     const { containerEl } = this;
     containerEl.empty();
+    containerEl.style.userSelect = "text";
     containerEl.createEl("h2", { text: "Copilot Settings" });
     const buttonContainer = containerEl.createDiv({ cls: "button-container" });
     buttonContainer.createEl("button", {
@@ -86610,7 +88357,10 @@ var CopilotSettingTab = class extends import_obsidian10.PluginSettingTab {
       "AZURE GPT-3.5-16K" /* AZURE_GPT_35_TURBO_16K */,
       "AZURE GPT-4" /* AZURE_GPT_4 */,
       "AZURE GPT-4 32K" /* AZURE_GPT_4_32K */,
-      "LocalAI" /* LOCAL_AI */
+      "GEMINI PRO" /* GEMINI_PRO */,
+      "OPENROUTER.AI" /* OPENROUTERAI */,
+      "LM STUDIO (LOCAL)" /* LM_STUDIO */,
+      "OLLAMA (LOCAL)" /* OLLAMA */
     ];
     new import_obsidian10.Setting(containerEl).setName("Default Model").setDesc(
       createFragment((frag) => {
@@ -86677,6 +88427,49 @@ var CopilotSettingTab = class extends import_obsidian10.PluginSettingTab {
     });
     warningMessage.createEl("span", {
       text: " to see if you have correct API access first."
+    });
+    containerEl.createEl("h6", { text: "Google Gemini API" });
+    new import_obsidian10.Setting(containerEl).setName("Your Google API key").setDesc(
+      createFragment((frag) => {
+        frag.appendText("If you have Google Cloud, you can get Gemini API key ");
+        frag.createEl("a", {
+          text: "here",
+          href: "https://makersuite.google.com/app/apikey"
+        });
+      })
+    ).addText(
+      (text4) => {
+        text4.inputEl.type = "password";
+        text4.inputEl.style.width = "100%";
+        text4.setPlaceholder("Google API key").setValue(this.plugin.settings.googleApiKey).onChange(async (value) => {
+          this.plugin.settings.googleApiKey = value;
+          await this.plugin.saveSettings();
+        });
+      }
+    );
+    containerEl.createEl("h6", { text: "OpenRouter.ai API" });
+    new import_obsidian10.Setting(containerEl).setName("Your OpenRouterAI API key").setDesc(
+      createFragment((frag) => {
+        frag.appendText("You can get your OpenRouterAI key ");
+        frag.createEl("a", {
+          text: "here",
+          href: "https://openrouter.ai/keys"
+        });
+      })
+    ).addText((text4) => {
+      text4.inputEl.type = "password";
+      text4.inputEl.style.width = "100%";
+      text4.setPlaceholder("OpenRouterAI API key").setValue(this.plugin.settings.openRouterAiApiKey).onChange(async (value) => {
+        this.plugin.settings.openRouterAiApiKey = value;
+        await this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian10.Setting(containerEl).setName("OpenRouterAI model").setDesc("Default: cognitivecomputations/dolphin-mixtral-8x7b").addText((text4) => {
+      text4.inputEl.style.width = "100%";
+      text4.setPlaceholder("cognitivecomputations/dolphin-mixtral-8x7b").setValue(this.plugin.settings.openRouterModel).onChange(async (value) => {
+        this.plugin.settings.openRouterModel = value;
+        await this.plugin.saveSettings();
+      });
     });
     containerEl.createEl("h6", { text: "Azure OpenAI API" });
     new import_obsidian10.Setting(containerEl).setName("Your Azure OpenAI API key").setDesc(
@@ -86756,17 +88549,17 @@ var CopilotSettingTab = class extends import_obsidian10.PluginSettingTab {
     new import_obsidian10.Setting(containerEl).setName("Token limit").setDesc(
       createFragment((frag) => {
         frag.appendText(
-          "The maximum number of tokens to generate. Default is 1000."
+          "The maximum number of output tokens to generate. Default is 1000."
         );
         frag.createEl(
           "strong",
           {
-            text: "This number plus the length of your prompt must be smaller than the context window of the model."
+            text: "This number plus the length of your prompt (input tokens) must be smaller than the context window of the model."
           }
         );
       })
     ).addSlider(
-      (slider) => slider.setLimits(0, 8e3, 100).setValue(
+      (slider) => slider.setLimits(0, 1e4, 100).setValue(
         this.plugin.settings.maxTokens !== void 0 && this.plugin.settings.maxTokens !== null ? this.plugin.settings.maxTokens : 1e3
       ).setDynamicTooltip().onChange(async (value) => {
         this.plugin.settings.maxTokens = value;
@@ -86780,19 +88573,19 @@ var CopilotSettingTab = class extends import_obsidian10.PluginSettingTab {
         );
       })
     ).addSlider(
-      (slider) => slider.setLimits(1, 10, 1).setValue(
+      (slider) => slider.setLimits(1, 30, 1).setValue(
         this.plugin.settings.contextTurns !== void 0 && this.plugin.settings.contextTurns !== null ? this.plugin.settings.contextTurns : 3
       ).setDynamicTooltip().onChange(async (value) => {
         this.plugin.settings.contextTurns = value;
         await this.plugin.saveSettings();
       })
     );
-    containerEl.createEl("h4", { text: "Vector-based QA Settings (BETA). No context limit!" });
-    containerEl.createEl("h6", { text: 'To start the QA session, use the Mode Selection dropdown and select "QA: Active Note". Switch back to "Conversation" when you are done!' });
+    containerEl.createEl("h4", { text: "Vector-based QA Settings (Beta). No context limit!" });
+    containerEl.createEl("p", { text: 'To start the QA session, use the Mode Selection dropdown and select "QA: Active Note". Switch back to "Conversation" when you are done!' });
     containerEl.createEl(
-      "h6",
+      "p",
       {
-        text: "NOTE: OpenAI embeddings are not free but may give better QA results. CohereAI (recommended) offers trial API for FREE and the quality is very good! It is more stable than Huggingface Inference API. Huggingface embeddings are also free but the result is not as good, and you may see more API timeout errors. "
+        text: "NOTE: OpenAI embeddings are not free but may give better QA results. CohereAI offers trial API for FREE and the quality is very good! It is more stable than Huggingface Inference API (more timeouts)."
       }
     );
     new import_obsidian10.Setting(containerEl).setName("Embedding Provider").setDesc(
@@ -86800,7 +88593,7 @@ var CopilotSettingTab = class extends import_obsidian10.PluginSettingTab {
         frag.appendText("The embedding provider to use");
       })
     ).addDropdown((dropdown) => {
-      dropdown.addOption(OPENAI, "OpenAI").addOption(COHEREAI, "CohereAI").addOption(AZURE_OPENAI, "Azure OpenAI").addOption(HUGGINGFACE, "Huggingface").addOption(LOCALAI, "LocalAI").setValue(this.plugin.settings.embeddingProvider).onChange(async (value) => {
+      dropdown.addOption(OPENAI, "OpenAI").addOption(COHEREAI, "CohereAI").addOption(AZURE_OPENAI, "Azure OpenAI").addOption(HUGGINGFACE, "Huggingface").setValue(this.plugin.settings.embeddingProvider).onChange(async (value) => {
         this.plugin.settings.embeddingProvider = value;
         await this.plugin.saveSettings();
       });
@@ -86862,26 +88655,6 @@ var CopilotSettingTab = class extends import_obsidian10.PluginSettingTab {
         });
       }
     );
-    containerEl.createEl("h4", { text: "Local Copilot (EXPERIMENTAL, NO INTERNET NEEDED!!)" });
-    containerEl.createEl("p", { text: "To use Local Copilot, please check the doc to set up LocalAI server on your device. Once ready," });
-    containerEl.createEl("p", { text: "1. Set OpenAI Proxy Base URL to http://localhost:8080/v1 under Advanced Settings." });
-    containerEl.createEl("p", { text: "2. Type in the LocalAI Model name you have below." });
-    containerEl.createEl("p", { text: "3. Pick LocalAI in the Copilot Chat model selection dropdown to chat with it!" });
-    containerEl.createEl("p", { text: "Local models can be limited in capabilities and may not work for some use cases at this time. Keep in mind that it is still in early experimental phase. But it is definitely fun to try out!" });
-    containerEl.createEl("h6", { text: "When you are done, clear the OpenAI Proxy Base URL to switch back to non-local models." });
-    new import_obsidian10.Setting(containerEl).setName("LocalAI Model").setDesc(
-      createFragment((frag) => {
-        frag.appendText("The local model you'd like to use. Make sure you download that model in your LocalAI models directory.");
-        frag.createEl("br");
-        frag.appendText("NOTE: Please set OpenAI Proxy Base URL to http://localhost:8080/v1 under Advanced Settings");
-      })
-    ).addText((text4) => {
-      text4.inputEl.style.width = "100%";
-      text4.setPlaceholder("llama-2-uncensored-q4ks").setValue(this.plugin.settings.localAIModel).onChange(async (value) => {
-        this.plugin.settings.localAIModel = value;
-        await this.plugin.saveSettings();
-      });
-    });
     containerEl.createEl("h4", { text: "Advanced Settings" });
     new import_obsidian10.Setting(containerEl).setName("User custom system prompt").setDesc(
       createFragment((frag) => {
@@ -86922,6 +88695,35 @@ var CopilotSettingTab = class extends import_obsidian10.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
+    containerEl.createEl("h4", { text: "Local Copilot (No Internet Required!)" });
+    containerEl.createEl("div", {
+      text: "Please check the doc to set up LM Studio or Ollama server on your device.",
+      cls: "warning-message"
+    });
+    containerEl.createEl("p", { text: "Local models can be limited in capabilities and may not work for some use cases at this time. Keep in mind that it is still in early experimental phase. But some 13B even 7B models are already quite capable!" });
+    containerEl.createEl("h5", { text: "LM Studio" });
+    containerEl.createEl("p", { text: "To use Local Copilot with LM Studio:" });
+    containerEl.createEl("p", { text: "1. Start LM Studio server with CORS on. Default port is 1234 but if you change it, you can provide it below." });
+    containerEl.createEl("p", { text: "2. Pick LM Studio in the Copilot Chat model selection dropdown to chat with it!" });
+    new import_obsidian10.Setting(containerEl).setName("LM Studio server port").setDesc("The default is 1234").addText(
+      (text4) => text4.setPlaceholder("1234").setValue(this.plugin.settings.lmStudioPort).onChange(async (value) => {
+        this.plugin.settings.lmStudioPort = value;
+        await this.plugin.saveSettings();
+      })
+    );
+    containerEl.createEl("h5", { text: "Ollama" });
+    containerEl.createEl("p", { text: "To use Local Copilot with Ollama, pick Ollama in the Copilot Chat model selection dropdown." });
+    containerEl.createEl("p", { text: "Run the local Ollama server by running this in your terminal:" });
+    containerEl.createEl(
+      "strong",
+      { text: "OLLAMA_ORIGINS=app://obsidian.md* ollama serve" }
+    );
+    new import_obsidian10.Setting(containerEl).setName("Ollama model").setDesc("The default is llama2").addText(
+      (text4) => text4.setPlaceholder("llama2").setValue(this.plugin.settings.ollamaModel).onChange(async (value) => {
+        this.plugin.settings.ollamaModel = value;
+        await this.plugin.saveSettings();
+      })
+    );
     containerEl.createEl("h4", { text: "Development mode" });
     new import_obsidian10.Setting(containerEl).setName("Debug mode").setDesc(
       createFragment((frag) => {
@@ -95931,11 +97733,15 @@ var CopilotPlugin = class extends import_obsidian11.Plugin {
       azureOpenAIApiDeploymentName,
       azureOpenAIApiVersion,
       azureOpenAIApiEmbeddingDeploymentName,
+      googleApiKey,
+      openRouterAiApiKey,
+      openRouterModel,
       temperature,
       maxTokens,
       contextTurns,
       embeddingProvider,
-      localAIModel
+      ollamaModel,
+      lmStudioPort
     } = sanitizeSettings(this.settings);
     return {
       openAIApiKey,
@@ -95947,7 +97753,11 @@ var CopilotPlugin = class extends import_obsidian11.Plugin {
       azureOpenAIApiDeploymentName,
       azureOpenAIApiVersion,
       azureOpenAIApiEmbeddingDeploymentName,
-      localAIModel,
+      googleApiKey,
+      openRouterAiApiKey,
+      openRouterModel: openRouterModel || DEFAULT_SETTINGS.openRouterModel,
+      ollamaModel: ollamaModel || DEFAULT_SETTINGS.ollamaModel,
+      lmStudioPort: lmStudioPort || DEFAULT_SETTINGS.lmStudioPort,
       model: this.settings.defaultModel,
       modelDisplayName: this.settings.defaultModelDisplayName,
       temperature: Number(temperature),
@@ -96098,4 +97908,40 @@ react-dom/cjs/react-dom.development.js:
 
 js-yaml/dist/js-yaml.mjs:
   (*! js-yaml 4.1.0 https://github.com/nodeca/js-yaml @license MIT *)
+
+@google/generative-ai/dist/index.mjs:
+  (**
+   * @license
+   * Copyright 2023 Google LLC
+   *
+   * Licensed under the Apache License, Version 2.0 (the "License");
+   * you may not use this file except in compliance with the License.
+   * You may obtain a copy of the License at
+   *
+   *   http://www.apache.org/licenses/LICENSE-2.0
+   *
+   * Unless required by applicable law or agreed to in writing, software
+   * distributed under the License is distributed on an "AS IS" BASIS,
+   * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   * See the License for the specific language governing permissions and
+   * limitations under the License.
+   *)
+
+@google/generative-ai/dist/index.mjs:
+  (**
+   * @license
+   * Copyright 2023 Google LLC
+   *
+   * Licensed under the Apache License, Version 2.0 (the "License");
+   * you may not use this file except in compliance with the License.
+   * You may obtain a copy of the License at
+   *
+   *   http://www.apache.org/licenses/LICENSE-2.0
+   *
+   * Unless required by applicable law or agreed to in writing, software
+   * distributed under the License is distributed on an "AS IS" BASIS,
+   * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   * See the License for the specific language governing permissions and
+   * limitations under the License.
+   *)
 */

@@ -1,5 +1,5 @@
 {
-  "version": "0.5.13",
+  "version": "0.6.2",
   "endpoint": "https://api.openai.com",
   "models": {},
   "api_key": "",
@@ -13,6 +13,7 @@
   "outputToBlockQuote": false,
   "freeCursorOnStreaming": false,
   "allowJavascriptRun": false,
+  "experiment": false,
   "promptsPath": "textgenerator/prompts",
   "prefix": "\n\n",
   "tgSelectionLimiter": "^\\*\\*\\*",
@@ -46,7 +47,9 @@
     "calculate-tokens-for-template": true,
     "modal-suggest": false,
     "text-extractor-tool": false,
-    "stop-stream": true
+    "stop-stream": true,
+    "batch-generate-in-right-click-files-menu": true,
+    "tg-block-processor": true
   },
   "advancedOptions": {
     "generateTitleInstructEnabled": false,

@@ -1,0 +1,1 @@
+Guns appreciate in value

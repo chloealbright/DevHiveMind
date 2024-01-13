@@ -1,0 +1,1 @@
+Annuities: These are financial products that provide a stream of income in the future, typically in retirement.

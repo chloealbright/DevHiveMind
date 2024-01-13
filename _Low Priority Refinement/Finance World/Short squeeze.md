@@ -1,0 +1,1 @@
+a jump in stock price that forces a large number of short sellers to close their position which causes the stock price to increase meaning they brought more stock causing it to increase in price which creates an artificial stock price that will cause the price to increase until short sellers eventually sell

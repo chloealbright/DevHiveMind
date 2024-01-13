@@ -1,0 +1,5 @@
+The common Annual Dividend per Share (DPS) is the amount of money a company distributes to its shareholders for each share they own on an annual basis. The specific amount of the annual dividend per share can vary significantly depending on the company, its financial performance, and its dividend policy.
+
+The annual dividend per share is typically determined by the company's board of directors and is based on factors such as the company's profitability, cash flow, future growth prospects, and its desire to distribute a portion of earnings to shareholders. Companies may choose to increase, decrease, or maintain the dividend per share amount over time based on these considerations.
+
+It's important to note that the common Annual Dividend per Share is specific to companies that offer dividends to their shareholders. Not all companies pay dividends, and the dividend amount can vary greatly across different companies and industries. It is advisable to research and analyze individual companies to determine their specific dividend policies and historical dividend payments.

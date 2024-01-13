@@ -1,0 +1,28 @@
+
+Build sites for free and charge person or company a percentage of their revenue made  
+  
+Automate dropship  
+  
+Use Google trends to generate business ideas  
+  
+inserting ads in your website  
+  
+Shopify WordPress  
+  
+[https://brilliant.org/paths/probability-statistics-finance/](https://brilliant.org/paths/probability-statistics-finance/)  
+  
+Create templates with JavaScript  
+  
+Like your own implementation of a slider  
+  
+  
+Create plugins WordPress  
+  
+  
+Create courses or teach  
+  
+Build app  
+  
+use Fiver  
+  
+have a natural conversation talk about what is being asked questions about preference also pick gigs that have fewer people going for it and with the gigs with small pools of people applying to go lower than the price to get the job and build a reputation and go up in price

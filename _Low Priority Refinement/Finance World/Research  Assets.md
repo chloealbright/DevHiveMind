@@ -1,0 +1,16 @@
+- [ ] GLW
+- [ ] EDR
+- [ ] NEM
+	-  SUPPORT/RESISTANCE: 60/50 DESIRED ENTRY/ SELL POINT: 55-100 WHY IT HAS POTENTIAL: People may go into gold because of market uncertainty
+- [ ] SLV
+	-  SUPPORT/RESISTANCE: 50/60 DESIRED ENTRY/ SELL POINT: 55-100 WHY IT HAS POTENTIAL: High Growth
+- [ ] ARKW
+	-  SUPPORT/RESISTANCE: 50/60 DESIRED ENTRY/ SELL POINT: 55-100 WHY IT HAS POTENTIAL: High Growth
+- [ ] Etf
+	-  [KBWB](https://g.co/kgs/yGhgGv)
+	- [SPHD](https://g.co/kgs/x5eKV8)
+	-  Pey
+	-  Sdiv
+	-  Pgf
+	-  Div
+	

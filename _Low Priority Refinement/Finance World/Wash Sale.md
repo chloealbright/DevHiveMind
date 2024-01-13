@@ -1,0 +1,1 @@
+Owning the same stock across multiple brokerages does not lead to wash sale problems. Selling a stock at a loss, regardless of where it is located and buying it back within 30 days before or after realizing that loss is what leads to a wash sale problem, whether the stock is in one account or multiple accounts.

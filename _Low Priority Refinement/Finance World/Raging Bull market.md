@@ -1,0 +1,1 @@
+If the market it's like how it was when the pandemic started and there were a lot of buying opportunities don't buy as much as the price goes down and down try to time it to buy it at a better low instead of chasing the low

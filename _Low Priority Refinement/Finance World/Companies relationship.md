@@ -1,0 +1,1 @@
+Look into root of companies like delta airlines and how other companies affect it's stock price like Boeing who manufacturer plans if there doing good then this might result in airlines doing well

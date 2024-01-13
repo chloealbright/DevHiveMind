@@ -1,0 +1,1 @@
+Short selling is basically selling high to start a downtrend dial cost stock price to drop then re buy that stock at a lower price

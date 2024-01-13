@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mind Maps/Collection of UML Diagrams.md",
-                "mode": "source",
+                "file": "_Official Documentation/Git.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mind Maps/Collection of UML Diagrams.md",
+                "file": "_Official Documentation/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mind Maps/Collection of UML Diagrams.md",
+                "file": "_Official Documentation/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mind Maps/Collection of UML Diagrams.md"
+                "file": "_Official Documentation/Git.md"
               }
             }
           },
@@ -249,6 +249,9 @@
   },
   "active": "c1a2d399a5b7be5c",
   "lastOpenFiles": [
+    "_Official Documentation/Express.js Docs.md",
+    "_Official Documentation/GitHub Action.md",
+    "Mind Maps/Collection of UML Diagrams.md",
     "Mind Maps/UML/Park Alert Activity Diagram.svg",
     "Mind Maps/UML/Requirement life cycle.svg",
     "Mind Maps/UML/UML Monitor Project.png",
@@ -276,15 +279,12 @@
     "_Low Priority Refinement/Finance World/Stock AI Pick 2.md",
     "_Low Priority Refinement/Finance World/Stock AI Pick 1.md",
     "_Low Priority Refinement/Finance World/Shorting.md",
-    "_Low Priority Refinement/Finance World/Short squeeze.md",
-    "_Low Priority Refinement/Finance World/Short selling.md",
     "_Images/Finance/unnamed (64).gif",
     "_Images/Finance/zcqswkuo84g41.gif",
     "_Images/Finance/unnamed (9).png",
     "_Images/Finance/unnamed (8).png",
     "_Images/Finance/unnamed (7).png",
     "_Images/Finance/unnamed (67).gif",
-    "_Images/Finance/unnamed (66).gif",
     "_Images/Finance",
     "_Low Priority Refinement/Finance World/Business/Startup",
     "_Low Priority Refinement/Finance World/Business",

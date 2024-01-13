@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Python Learning Plan.md",
+                "file": "Architecture/Choosing Database.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Python Learning Plan.md",
+                "file": "Architecture/Choosing Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Python Learning Plan.md",
+                "file": "Architecture/Choosing Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Python Learning Plan.md"
+                "file": "Architecture/Choosing Database.md"
               }
             }
           },
@@ -265,7 +265,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5885e879e8e9b909",
+  "active": "1ae160b2eb93bf4d",
   "lastOpenFiles": [
     "_Low Priority Refinement/Python Learning Plan.md",
     "Home.md",

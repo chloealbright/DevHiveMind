@@ -116,7 +116,8 @@ data visualization
 https://seaborn.pydata.org/
 https://matplotlib.org/
 
-proabability 
+probability theory
+statistics with python
 
 
 Week 9-10: Data Engineering Projects with Python  

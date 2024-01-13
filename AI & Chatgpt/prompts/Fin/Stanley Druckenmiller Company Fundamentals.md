@@ -11,3 +11,20 @@ Act as a Financial expert and look into the fundamentals of the given company us
 
 
 Apply this to an analysis of Paypal
+
+
+Can you explain the investing principles of Stanley druckenmiller's investing guidelines  
+  
+Can you give me an example of companies in the sp500 that might match these investment principles?  
+  
+Can you give me an example of the company GLW that might match these investment principles?  
+
+Can you give me an example of REITs that might match these investment principles?
+  
+  
+Can we get more examples  
+  
+Then use [algo.io](http://algo.io/)  
+  
+  
+[https://www.forbes.com/advisor/investing/best-sp-500-etfs/](https://www.forbes.com/advisor/investing/best-sp-500-etfs/)

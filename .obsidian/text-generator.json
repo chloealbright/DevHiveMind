@@ -71,6 +71,39 @@
       "tags": "writing, brainstorming",
       "authorUrl": "https://www.buymeacoffee.com/haouarine",
       "repo": "text-gen/gpt-3-prompt-templates"
+    },
+    "tts": {
+      "packageId": "tts",
+      "name": "Text To Speech Package",
+      "version": "0.0.2",
+      "minTextGeneratorVersion": "0.6.0",
+      "description": "Contains Text To Speech Templates and support for TTS for other templates",
+      "author": "Noureddine",
+      "tags": "TTS, Speak",
+      "authorUrl": "https://www.buymeacoffee.com/haouarine",
+      "repo": "text-gen/TTS"
+    },
+    "vision": {
+      "packageId": "vision",
+      "name": "Vision Package",
+      "version": "0.0.1",
+      "minTextGeneratorVersion": "0.6.0",
+      "description": "Contains Vision Templates and support for Vision for other templates (Scripts)",
+      "author": "Noureddine",
+      "tags": "OpenAI,markdown,gpt-4-vision,vision,images",
+      "authorUrl": "https://www.buymeacoffee.com/haouarine",
+      "repo": "text-gen/tg-vision"
+    },
+    "smartConnections": {
+      "packageId": "smartConnections",
+      "name": "Smart Connections Package",
+      "version": "0.0.1",
+      "minTextGeneratorVersion": "0.6.0",
+      "description": "Contains Smart Connection Templates and support for Smart Connections for other templates (Script)",
+      "author": "Noureddine",
+      "tags": "smartConnections,smart-connections",
+      "authorUrl": "https://www.buymeacoffee.com/haouarine",
+      "repo": "text-gen/tg-smartConnections"
     }
   },
   "installedPackagesHash": {

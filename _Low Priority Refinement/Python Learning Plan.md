@@ -9,17 +9,6 @@ Relates:
 ---
 
 
-Week 1: 
-
--   Get familiar with basic Python syntax, data types, variables, functions, and control structures. 
-    
--   Resources: 
-    
-    -   Python for Everybody course by Coursera ([https://www.coursera.org/courses?query=python%20for%20everybody](https://www.coursera.org/courses?query=python%20for%20everybody)) 
-        
-    -   Codecademy's Python course ([https://www.codecademy.com/learn/introduction-to-python](https://www.codecademy.com/learn/introduction-to-python)) 
-    - Python Fundamentals ([https://www.pluralsight.com/courses/python-fundamentals](https://www.pluralsight.com/courses/python-fundamentals))
-        
 
 Week 2-3: 
 
@@ -102,18 +91,26 @@ Week 1-2: Introduction to Python
   
 Spend 2-3 hours per week reading the Python documentation and getting familiar with Python's syntax and basic programming concepts.  
 Complete the Codecademy Python course ([https://www.codecademy.com/learn/learn-python](https://www.codecademy.com/learn/learn-python)) to get hands-on experience with Python.  
+
+
 Week 3-4: Python Data Types and Control Structures  
   
 Spend 3-4 hours per week learning about Python's data types (strings, integers, lists, tuples, and dictionaries) and control structures (if/else statements, loops, and functions).  
 Complete the DataCamp course "Introduction to Python" ([https://www.datacamp.com/courses/intro-to-python-for-data-science](https://www.datacamp.com/courses/intro-to-python-for-data-science)) to practice working with data types and control structures.  
+
+
 Week 5-6: Python Libraries for Data Engineering  
   
 Spend 3-4 hours per week learning about Python libraries that are commonly used in data engineering, such as NumPy, Pandas, and Matplotlib.  
 Complete the DataCamp course "Manipulating DataFrames with pandas" ([https://www.datacamp.com/courses/pandas-foundations](https://www.datacamp.com/courses/pandas-foundations)) to get hands-on experience with Pandas.  
+
+
 Week 7-8: Data Engineering with Python  
   
 Spend 2-3 hours per week learning about data engineering concepts such as data pipelines, data cleaning, and data transformation.  
 Complete the DataCamp course "Data Engineering for Everyone" ([https://www.datacamp.com/courses/data-engineering-for-everyone](https://www.datacamp.com/courses/data-engineering-for-everyone)) to learn about best practices in data engineering.  
+
+
 Week 9-10: Data Engineering Projects with Python  
   
 Spend 2-3 hours per week working on data engineering projects using Python and the libraries you have learned.  

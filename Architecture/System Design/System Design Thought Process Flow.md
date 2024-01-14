@@ -56,7 +56,7 @@ When considering the features of your design, prioritize a forward-thinking appr
   
  - also creating Admin process that manage [[Resource Scaling]] note there are many more admin process were you can create a frontend to for internal use by developers
 
-Talk about [[Elements Of A Distributed Systems]] or merge into here since overlap vs centralized systems 
+Talk about [[Elements Of A Distributed Systems]] or merge into here since overlap compare to centralized systems 
 #### Scaling stuff to reference  or merge together somewhere
 
 

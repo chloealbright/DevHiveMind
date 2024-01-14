@@ -6,7 +6,7 @@ author:
   - jacgit18
 Status: Refinement
 Started: 2024-01-04
-EditDate: 2024-01-11
+EditDate: 2024-01-14
 Relates:
 ---
 ### **Step 1: Understand the Problem and Establish Design Scope (3 - 10 minutes)**
@@ -32,7 +32,6 @@ When considering the features of your design, prioritize a forward-thinking appr
 *Delve into the design by following the flow from Database to Server/Services (Architecture) to Client Side design.
 
 
-
 - **Database:**
   - Create an Entity Relationship Diagram (ERD) to define relationships.
   - Consider SQL for structured data and NoSQL for unstructured data.
@@ -51,14 +50,13 @@ When considering the features of your design, prioritize a forward-thinking appr
   - Distribute traffic across server pools for different types of traffic.
   - Implement local cache for improved response time.
   - Implement a CDN network for content distribution.
-  - You can talk about [[Vertical vs Horizontal Scaling]] in the context of database servers and instances of your application along with any microservices if you include that in your codebase architecture. Side note scaling can fall under Admin functionality weather that is resource scaling in a cloud environment or some custom built solution were create an admin dashboard for internal use by developers with a frontend  
-  - Besides that there is talking about the [[Benefits of cloud]] in terms of outsourcing functionality using different service architecture ranging  from IAAS to SAAS
+  - You can talk about [[Vertical vs Horizontal Scaling]] in the context of database servers and instances of your application along with any microservices if you include that in your codebase architecture. Side note scaling can fall under Admin functionality weather that is resource scaling in a cloud environment or some custom built solution like creating an admin dashboard for internal use by developers with a frontend that includes different [[XII Admin processes]].  
+  - Besides that there is talking about the [[Benefits of cloud]] in terms of outsourcing functionality or infrastructure using different service architecture ranging from IAAS to SAAS
   
- - also creating Admin process that manage [[Resource Scaling]] note there are many more admin process were you can create a frontend to for internal use by developers
 
-Talk about [[Elements Of A Distributed Systems]] or merge into here since overlap compare to centralized systems 
 #### Scaling stuff to reference  or merge together somewhere
 
+Talk about [[Elements Of A Distributed Systems]] or merge into here since overlap compare to centralized systems 
 
 - [[Concurrency Vs Horizontal Scaling]] 
 - Load balancing Placeholder

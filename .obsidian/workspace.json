@@ -4,16 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "30188af2037bca44",
+        "id": "07c5115082874736",
         "type": "tabs",
         "children": [
           {
-            "id": "dc96c95eca2c95ad",
+            "id": "d490d09845d9c7cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< Updated upstream
                 "file": "test.md",
+=======
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
+>>>>>>> Stashed changes
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +105,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "test.md",
+=======
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +126,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
                 "file": "test.md",
+=======
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +153,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< Updated upstream
                 "file": "test.md"
+=======
+                "file": "Architecture/System Design/System Design Thought Process Flow.md"
+>>>>>>> Stashed changes
               }
             }
           },
@@ -246,8 +262,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dc96c95eca2c95ad",
+  "active": "d490d09845d9c7cd",
   "lastOpenFiles": [
+<<<<<<< Updated upstream
     "Untitled.md",
     "test.md",
     "Home.md",
@@ -262,10 +279,16 @@
     "_Template/Untitled 3.md",
     "_Template/Untitled 4.md",
     "_Template/Untitled 5.md",
+=======
+    "Untitled 1.md",
+    "Untitled.md",
+>>>>>>> Stashed changes
     "Architecture/System Design/System Design Thought Process Flow.md",
+    "Architecture/Methodology/Admin functionality God Mode/Resource Scaling.md",
+    "Architecture/Methodology/Source code vs Codebase.md",
+    "Home.md",
     "Architecture/System Design/Elements Of A Distributed Systems.md",
     "Architecture/App Layers/Infrastructure.md",
-    "Architecture/Methodology/Admin functionality God Mode/Resource Scaling.md",
     "Cloud/Benefits of cloud.md",
     "Architecture/Vertical vs Horizontal Scaling.md",
     "Algorithms & Data Structures/Problem-solving Regimen.md",
@@ -276,6 +299,14 @@
     "_Low Priority Refinement/Finance World/Using RSI as Buy indicator.md",
     "_Low Priority Refinement/Finance World/Unsecured Credit.md",
     "_Low Priority Refinement/Finance World/Types of corporate bonds.md",
+    "_Low Priority Refinement/Finance World/Type of Stocks & Shares.md",
+    "_Low Priority Refinement/Finance World/type of bond etfs.md",
+    "_Low Priority Refinement/Finance World/Trends.md",
+    "_Low Priority Refinement/Finance World/Trading Patterns.md",
+    "_Low Priority Refinement/Finance World/Trading criteria.md",
+    "_Low Priority Refinement/Finance World/Trademarking.md",
+    "_Low Priority Refinement/Finance World/Time & Money.md",
+    "_Low Priority Refinement/Finance World/Tax.md",
     "_Images/Finance/unnamed (64).gif",
     "_Images/Finance/zcqswkuo84g41.gif",
     "_Images/Finance/unnamed (9).png",
@@ -295,7 +326,9 @@
     "Databases/_Infographic",
     "_Cheatsheet/SQL-cheat-sheet.pdf",
     "Architecture/Database Archetecture",
+    "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/App Schema.canvas",
+    "Mind Maps/Redux Map.canvas",
     "Architecture/Web Server Architecture",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/Drafts/Gateway.canvas",

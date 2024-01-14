@@ -47,16 +47,16 @@ When considering the features of your design, prioritize a forward-thinking appr
   - Discuss [[Stateless & Statefull Processes| Stateless vs Statefull]] application or process.
   - Maybe talk [[Microservices]](might not be relevant since small scope) or leverage knowledge of [[12 Factor App Docker.canvas|12 Factor App Docker]] which has some overlap with everything mentioned, whatever comes to mind.
 
-- **Scalability and Performance:**
+**Scalability and Performance:**
   - Distribute traffic across server pools for different types of traffic.
   - Implement local cache for improved response time.
   - Implement a CDN network for content distribution.
-  - You can talk about [[Vertical vs Horizontal Scaling]] in the context of database servers and instances of your application along with any microservices if you include that in your codebase architecture.
+  - You can talk about [[Vertical vs Horizontal Scaling]] in the context of database servers and instances of your application along with any microservices if you include that in your codebase architecture. Side note scaling can fall under Admin functionality weather that is resource scaling in a cloud environment or some custom built solution were create an admin dashboard for internal use by developers with a frontend  
   - Besides that there is talking about the [[Benefits of cloud]] in terms of outsourcing functionality using different service architecture ranging  from IAAS to SAAS
-  - also creating Admin process that manage [[Resource Scaling]]
+  
+ - also creating Admin process that manage [[Resource Scaling]] note there are many more admin process were you can create a frontend to for internal use by developers
 
 Talk about [[Elements Of A Distributed Systems]] or merge into here since overlap vs centralized systems 
-
 #### Scaling stuff to reference  or merge together somewhere
 
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "test.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 1.md"
+                "file": "test.md"
               }
             }
           },
@@ -248,10 +248,10 @@
   },
   "active": "dc96c95eca2c95ad",
   "lastOpenFiles": [
-    "Home.md",
-    "Untitled 1.md",
-    "Mind Maps/Redux Map.canvas",
     "Untitled.md",
+    "test.md",
+    "Home.md",
+    "Mind Maps/Redux Map.canvas",
     "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/Collection of UML Diagrams.md",
     "Mind Maps/Java Behind the Scenes.md",

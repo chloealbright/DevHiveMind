@@ -4,38 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "609333e3a94d03af",
+        "id": "30188af2037bca44",
         "type": "tabs",
         "children": [
           {
-            "id": "e17b30436300fad3",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Mind Maps/Redux Map.canvas",
-                "viewState": {
-                  "x": 1600,
-                  "y": 4560,
-                  "zoom": -3.842859511399319
-                }
-              }
-            }
-          },
-          {
-            "id": "7a2726c61a5794b8",
+            "id": "dc96c95eca2c95ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Untitled 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Untitled 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Untitled 1.md"
               }
             }
           },
@@ -232,8 +216,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5,
-    "collapsed": true
+    "width": 345.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -263,8 +246,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c18a64a686e80f59",
+  "active": "dc96c95eca2c95ad",
   "lastOpenFiles": [
+    "Home.md",
+    "Untitled 1.md",
     "Mind Maps/Redux Map.canvas",
     "Untitled.md",
     "Mind Maps/Docker InDeph.canvas",
@@ -272,7 +257,6 @@
     "Mind Maps/Java Behind the Scenes.md",
     "Mind Maps/Language Categories.md",
     "Mind Maps/Untitled Kanban.md",
-    "Home.md",
     "_Template/Untitled 1.md",
     "_Template/Untitled 2.md",
     "_Template/Untitled 3.md",

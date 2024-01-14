@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "10c23cf0721248fb",
+        "id": "2487880bde1db9c6",
         "type": "tabs",
         "children": [
           {
-            "id": "1ae160b2eb93bf4d",
+            "id": "e17b30436300fad3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Dev Todo.md",
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c30ac3ae69ca11ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Methodology/Admin functionality God Mode/Resource Scaling.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +34,64 @@
         ]
       },
       {
-        "id": "733579bb4b514677",
+        "id": "609333e3a94d03af",
         "type": "tabs",
         "children": [
           {
-            "id": "5885e879e8e9b909",
+            "id": "685a855d2dab3bc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_Low Priority Refinement/Python Learning Plan.md",
+                "file": "Architecture/System Design/Elements Of A Distributed Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d593e01c44cea95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/App Layers/Infrastructure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d733cac2f5fe2eed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cloud/Benefits of cloud.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e33089c0023224c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Vertical vs Horizontal Scaling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c14829accb3cbc3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_Low Priority Refinement/Dev Todo.md",
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_Low Priority Refinement/Dev Todo.md",
+                "file": "Architecture/System Design/System Design Thought Process Flow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_Low Priority Refinement/Dev Todo.md"
+                "file": "Architecture/System Design/System Design Thought Process Flow.md"
               }
             }
           },
@@ -188,6 +248,14 @@
             }
           },
           {
+            "id": "1877a5361950cc0e",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          },
+          {
             "id": "cbfe2bee689e7ccc",
             "type": "leaf",
             "state": {
@@ -206,17 +274,9 @@
                 "searchQuery": ""
               }
             }
-          },
-          {
-            "id": "3dfd6b9972066a3b",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 4
       },
       {
         "id": "7e98245a429f273f",
@@ -234,7 +294,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.5
+    "width": 345.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,8 +308,12 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "homepage:Open homepage": false,
       "janitor:Janitor: scan vault": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
       "templater-obsidian:Templater": false,
       "obsidian-projects:Open projects": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
@@ -256,26 +321,20 @@
       "obsidian-read-it-later:ReadItLater: Save clipboard": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "copilot:Copilot Chat": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "1ae160b2eb93bf4d",
+  "active": "e17b30436300fad3",
   "lastOpenFiles": [
-    "Architecture/Choosing Database.md",
-    "_Low Priority Refinement/Python Learning Plan.md",
+    "Architecture/System Design/Elements Of A Distributed Systems.md",
+    "Architecture/System Design/System Design Thought Process Flow.md",
+    "Architecture/App Layers/Infrastructure.md",
+    "Architecture/Methodology/Admin functionality God Mode/Resource Scaling.md",
+    "Cloud/Benefits of cloud.md",
+    "Architecture/Vertical vs Horizontal Scaling.md",
+    "Algorithms & Data Structures/Problem-solving Regimen.md",
     "Home.md",
-    "_Official Documentation/Express.js Docs.md",
-    "_Official Documentation/GitHub Action.md",
-    "Mind Maps/Collection of UML Diagrams.md",
-    "Mind Maps/UML/Park Alert Activity Diagram.svg",
-    "Mind Maps/UML/Requirement life cycle.svg",
-    "Mind Maps/UML/UML Monitor Project.png",
-    "Mind Maps/UML/Class Cases Robust P1.svg",
     "_Low Priority Refinement/Finance World/Wash Sale.md",
     "_Low Priority Refinement/Finance World/vwap.md",
     "_Low Priority Refinement/Finance World/Valuations.md",
@@ -294,14 +353,16 @@
     "_Low Priority Refinement/Finance World/Stocks aren't FDIC insured.md",
     "_Low Priority Refinement/Finance World/Stock support.md",
     "_Low Priority Refinement/Finance World/Stock Size.md",
-    "_Low Priority Refinement/Finance World/Stock liquidity.md",
-    "_Low Priority Refinement/Finance World/Stock AI Pick 2.md",
     "_Images/Finance/unnamed (64).gif",
     "_Images/Finance/zcqswkuo84g41.gif",
     "_Images/Finance/unnamed (9).png",
     "_Images/Finance/unnamed (8).png",
     "_Images/Finance/unnamed (7).png",
     "_Images/Finance/unnamed (67).gif",
+    "_Images/Finance/unnamed (66).gif",
+    "_Images/Finance/unnamed (65).gif",
+    "_Images/Finance/unnamed (63).gif",
+    "_Images/Finance/unnamed (62).gif",
     "_Images/Finance",
     "_Low Priority Refinement/Finance World/Business/Startup",
     "_Low Priority Refinement/Finance World/Business",

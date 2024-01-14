@@ -31,6 +31,8 @@ When considering the features of your design, prioritize a forward-thinking appr
 
 *Delve into the design by following the flow from Database to Server/Services (Architecture) to Client Side design.
 
+
+
 - **Database:**
   - Create an Entity Relationship Diagram (ERD) to define relationships.
   - Consider SQL for structured data and NoSQL for unstructured data.
@@ -49,16 +51,20 @@ When considering the features of your design, prioritize a forward-thinking appr
   - Distribute traffic across server pools for different types of traffic.
   - Implement local cache for improved response time.
   - Implement a CDN network for content distribution.
+  - You can talk about [[Vertical vs Horizontal Scaling]] in the context of database servers and instances of your application along with any microservices if you include that in your codebase architecture.
+  - Besides that there is talking about the [[Benefits of cloud]] in terms of outsourcing functionality using different service architecture ranging  from IAAS to SAAS
+  - also creating Admin process that manage [[Resource Scaling]]
+
+Talk about [[Elements Of A Distributed Systems]] or merge into here since overlap vs centralized systems 
 
 #### Scaling stuff to reference  or merge together somewhere
-- [[Vertical vs Horizontal Scaling]]
-- [[Benefits of cloud]]
+
+
 - [[Concurrency Vs Horizontal Scaling]] 
 - Load balancing Placeholder
-- [[Resource Scaling]]
 - clean up [[Arch to think about]]
-- [[Infrastructure]]
-- [[Elements Of A Distributed Systems]]
+- [[Infrastructure]] merge into this note here 
+- 
 - [[Event-driven Architectural Pattern Decisions]]
 
 ### **Step 3: Wrap (3 - 5 minutes)**

@@ -4,100 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "2487880bde1db9c6",
+        "id": "609333e3a94d03af",
         "type": "tabs",
         "children": [
           {
             "id": "e17b30436300fad3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md",
-                "mode": "source",
-                "source": false
+                "file": "Mind Maps/Redux Map.canvas",
+                "viewState": {
+                  "x": 1600,
+                  "y": 4560,
+                  "zoom": -3.842859511399319
+                }
               }
             }
           },
           {
-            "id": "c30ac3ae69ca11ef",
+            "id": "7a2726c61a5794b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Methodology/Admin functionality God Mode/Resource Scaling.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
-      },
-      {
-        "id": "609333e3a94d03af",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "685a855d2dab3bc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/System Design/Elements Of A Distributed Systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9d593e01c44cea95",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/App Layers/Infrastructure.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d733cac2f5fe2eed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cloud/Benefits of cloud.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e33089c0023224c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Vertical vs Horizontal Scaling.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c14829accb3cbc3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Algorithms & Data Structures/Problem-solving Regimen.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Architecture/System Design/System Design Thought Process Flow.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -325,16 +263,28 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e17b30436300fad3",
+  "active": "c18a64a686e80f59",
   "lastOpenFiles": [
-    "Architecture/System Design/Elements Of A Distributed Systems.md",
+    "Mind Maps/Redux Map.canvas",
+    "Untitled.md",
+    "Mind Maps/Docker InDeph.canvas",
+    "Mind Maps/Collection of UML Diagrams.md",
+    "Mind Maps/Java Behind the Scenes.md",
+    "Mind Maps/Language Categories.md",
+    "Mind Maps/Untitled Kanban.md",
+    "Home.md",
+    "_Template/Untitled 1.md",
+    "_Template/Untitled 2.md",
+    "_Template/Untitled 3.md",
+    "_Template/Untitled 4.md",
+    "_Template/Untitled 5.md",
     "Architecture/System Design/System Design Thought Process Flow.md",
+    "Architecture/System Design/Elements Of A Distributed Systems.md",
     "Architecture/App Layers/Infrastructure.md",
     "Architecture/Methodology/Admin functionality God Mode/Resource Scaling.md",
     "Cloud/Benefits of cloud.md",
     "Architecture/Vertical vs Horizontal Scaling.md",
     "Algorithms & Data Structures/Problem-solving Regimen.md",
-    "Home.md",
     "_Low Priority Refinement/Finance World/Wash Sale.md",
     "_Low Priority Refinement/Finance World/vwap.md",
     "_Low Priority Refinement/Finance World/Valuations.md",
@@ -342,17 +292,6 @@
     "_Low Priority Refinement/Finance World/Using RSI as Buy indicator.md",
     "_Low Priority Refinement/Finance World/Unsecured Credit.md",
     "_Low Priority Refinement/Finance World/Types of corporate bonds.md",
-    "_Low Priority Refinement/Finance World/Type of Stocks & Shares.md",
-    "_Low Priority Refinement/Finance World/type of bond etfs.md",
-    "_Low Priority Refinement/Finance World/Trends.md",
-    "_Low Priority Refinement/Finance World/Trading Patterns.md",
-    "_Low Priority Refinement/Finance World/Trading criteria.md",
-    "_Low Priority Refinement/Finance World/Trademarking.md",
-    "_Low Priority Refinement/Finance World/Time & Money.md",
-    "_Low Priority Refinement/Finance World/Tax.md",
-    "_Low Priority Refinement/Finance World/Stocks aren't FDIC insured.md",
-    "_Low Priority Refinement/Finance World/Stock support.md",
-    "_Low Priority Refinement/Finance World/Stock Size.md",
     "_Images/Finance/unnamed (64).gif",
     "_Images/Finance/zcqswkuo84g41.gif",
     "_Images/Finance/unnamed (9).png",
@@ -372,9 +311,7 @@
     "Databases/_Infographic",
     "_Cheatsheet/SQL-cheat-sheet.pdf",
     "Architecture/Database Archetecture",
-    "Mind Maps/Docker InDeph.canvas",
     "Mind Maps/App Schema.canvas",
-    "Mind Maps/Redux Map.canvas",
     "Architecture/Web Server Architecture",
     "Mind Maps/12 Factor App Docker.canvas",
     "Mind Maps/Drafts/Gateway.canvas",

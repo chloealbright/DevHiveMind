@@ -50,13 +50,16 @@ When considering the features of your design, prioritize a forward-thinking appr
   - Distribute traffic across server pools for different types of traffic.
   - Implement local cache for improved response time.
   - Implement a CDN network for content distribution.
-  - You can talk about [[Vertical vs Horizontal Scaling]] in the context of database servers and instances of your application along with any microservices if you include that in your codebase architecture. Side note scaling can fall under Admin functionality weather that is resource scaling in a cloud environment or some custom built solution like creating an admin dashboard for internal use by developers with a frontend that includes different [[XII Admin processes]].  
+  - You can talk about [[Vertical vs Horizontal Scaling]] in the context of database servers and instances of your application along with any microservices if you include that in your codebase architecture. Side note scaling can fall under Admin functionality weather that is resource scaling in a cloud environment or some custom built solution like creating an admin dashboard for internal use by developers with a frontend that includes different [[XII Admin processes]].
+  - Horizontal scaling is often more desirable since vertical scaling limitations like it is impossible to add unlimited CPU and memory to the server and it lacks fail over and redundancy if one server goes down the website app goes down with it completely 
   - Besides that there is talking about the [[Benefits of cloud]] in terms of outsourcing functionality or infrastructure using different service architecture ranging from IAAS to SAAS
   
 
 #### Scaling stuff to reference  or merge together somewhere
 
-Talk about [[Elements Of A Distributed Systems]] or merge into here since overlap compare to centralized systems 
+Talk about [[Elements Of A Distributed Systems]] or merge into here 
+
+- talk about centralized systems need to research more into 
 
 - [[Concurrency Vs Horizontal Scaling]] 
 - Load balancing Placeholder

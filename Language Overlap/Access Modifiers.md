@@ -16,12 +16,12 @@ What access modifier is limited to classes;; private
 what modifier is limited to package;; protected  
 where can protected classes be accessed;; package and subclass
 Which access modifier has more scope private or protected;; protected  
-UML sign for access [[Protected in Depth]] modifier;; hashtag  
-UML sign for access private modifier;; minus  
-UML sign for access public modifier;; plus  
-UML sign for mandatory;; asterisk  
-UML sign for optional;; O
-UML sign for static member for attributes and methods;; underline or bold and underline
+What UML sign is for access [[Protected in Depth]] modifier;; hashtag  
+What UML sign is for access private modifier;; minus  
+What UML sign is for access public modifier;; plus  
+What UML sign is for mandatory;; asterisk  
+What UML sign is for optional;; O
+What UML sign is for static member for attributes and methods;; underline or bold and underline
 
 ## Modifiers 
  Access modifiers are keywords in certain languages that help to restrict the scope of ***attributes, classes, methods,and constructors (member):

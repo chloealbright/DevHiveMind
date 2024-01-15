@@ -49,6 +49,24 @@ A backend developer needs to use various caching tools and techniques to impleme
 
 
 
+A cache serves as a swift, temporary storage for frequently accessed or resource-intensive data, enhancing web application performance by minimizing repeated database calls. The cache tier, faster than the database, contributes to improved system performance, reduced database workloads, and independent scalability.
+
+Upon a web page request, the server checks the cache for the response. If present, it promptly delivers the data to the client; otherwise, it queries the database, caches the response, and then serves it to the client—a strategy known as a read-through cache. Various caching strategies exist based on data type, size, and access patterns.
+
+Effective cache usage is recommended for frequently read, infrequently modified data. However, vital data should be stored in persistent data stores, as cache servers may lose volatile memory upon restart.
+
+Implementing an expiration policy is crucial. It ensures timely removal of expired cached data, preventing permanent storage in memory. Striking a balance in expiration dates is advised, avoiding excessively short durations to prevent frequent database reloads and steering clear of overly long durations to prevent stale data.
+
+
+Consistency: This involves keeping the data store and the cache in sync. Inconsistency can happen because data-modifying operations on the data store and cache are not in single transaction. When scaling across multiple regions, maintaining consistency between the data store and cache is challenging 
+
+Mitigating failures: A single cache server represents a potential single point of failure(SPOF), defined in Wikipedia as follows: “A single point of failure (SPOF) is a part of a system that, if it fails, will stop the entire system from working” [8]. As a result, multiple cache servers across different data centers are recommended to avoid SPOF. Another recommended approach is to over provision the required memory by certain percentages.This provides a buffer as the memory usage increases. 
+
+Eviction Policy:Once the cache is full, any requests to add items to the cache might cause existing items to be removed. This is called cache eviction. Least-recently-used(LRU) is the most popular cache eviction policy. Other eviction policies, such as the Least Frequently Used (LFU) or First in First Out (FIFO), can be adopted to satisfy different use cases. 
+
+
+
+
 
 Certainly! Caches play a crucial role in optimizing data access and improving system performance. Here are some variations and implementations of caches:  
   

@@ -32,21 +32,21 @@ When considering the features of your design, prioritize a forward-thinking appr
 *Delve into the design by following the flow from Database to Server/Services (Architecture) to Client Side design.
 
 
-- **Database:**
+### Database Architecture
   - Create an Entity Relationship Diagram (ERD) to define relationships.
   - Consider SQL for structured data and NoSQL for unstructured data.
   - More things to think about when deciding between [[Choosing Database]] you can also talk about [[Database Sharding]]
   - What type of [[Schema Design]] makes sense.
   - You can also talk about [[Master-Slave Database Architecture]]
 
-- **Architecture:**
+### Overall Architecture
   - Identify major components: servers, databases, cache, load balancer,  [[Messaging systems]], *monitoring/logging for metrics*, and microservices.
   - Discuss trade-offs between performance, scalability, and cost.
   - Consider the use of APIs for certain functionalities.
   - Discuss [[Stateless & Statefull Processes| Stateless vs Statefull]] application or process.
   - Maybe talk [[Microservices]](might not be relevant since small scope) or leverage knowledge of [[12 Factor App Docker.canvas|12 Factor App Docker]] which has some overlap with everything mentioned, whatever comes to mind.
 
-**Scalability and Performance:**
+### Scalability and Performance
   - Distribute traffic across server pools for different types of traffic.
   - Implement local cache for improved response time.
   - Implement a CDN network for content distribution.

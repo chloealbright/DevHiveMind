@@ -7,15 +7,7 @@ Started:
 EditDate: 
 Relates:
 ---
-For databases ask if the data is structured(SQL very organize) or unstructured(use NoSQl media, audio geo, weather) and how much amount of data will you be storing if the data is unstructured and you need to store massive amounts of data then you know you'll need a NOSql 
 
-When it Comes to vertical and horizontal scaling  
-
-  it is very simple but vertical scaling has a hard limit it is impossible to add unlimited CPU and memory to the server and it lacks fail over and redundancy if one server goes down the website app goes down with it completely 
-
-As for horizontal scaling it is more desirable when it comes to scaling application due to the limitations of vertical scaling 
-
-When server usage you should try to implement a load balancer which evenly distributes incoming traffic among web servers that have been defined in the load balancer 
 
 User connect to the public IP of a load balancer and the web servers communicate through private IP addresses within the network which is invisible to the internet 
 
@@ -47,6 +39,9 @@ CRUD(Create Read Update Delete) 
 
 This includes write, update, and delete operations Improving load response time which can be done by adding a cache layer and shifting static content by using a CDN Network 
 
+
+
+
 A cache is a temporary storage area that stores the result of expensive responses or frequently accessed data in memory so that subsequent requests are served more quickly.  
 
 every time a new web page loads, one or more database calls are executed to fetch data. The application performance is greatly affected by calling the database repeatedly.The cache can mitigate this problem. 
@@ -58,6 +53,10 @@ After receiving a request, a web server first checks if the cache has the availa
 Consider using cache when data is read frequently but modified infrequently. Since cached data is stored in volatile memory, a cache server is not ideal for persisting data. For instance, if a cache server restarts, all the data in memory is lost. Thus, important data should be saved in persistent data stores. 
 
 Expiration policy. It is a good practice to implement an expiration policy. Once cached data is expired, it is removed from the cache. When there is no expiration policy, cached data will be stored in the memory permanently. It is advisable not to make the expiration date too short as this will cause the system to reload data from the database too frequently. Meanwhile, it is advisable not to make the expiration date too long as the data can become stale. 
+
+
+
+
 
 Consistency: This involves keeping the data store and the cache in sync. Inconsistency can happen because data-modifying operations on the data store and cache are not in single transaction. When scaling across multiple regions, maintaining consistency between 
 

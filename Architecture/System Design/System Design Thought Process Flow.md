@@ -57,7 +57,16 @@ When considering the features of your design, prioritize a forward-thinking appr
 
 #### Scaling stuff to reference  or merge together somewhere
 
-Talk about [[Elements Of A Distributed Systems]] or merge into here 
+Talk about Elements Of A Distributed Systems
+
+[[Caches]]
+[[Content Delivery Network]]
+[[Architecture/Technology Options/Database]]
+[[File System Storage]]
+[[Load Balancers]]
+[[Apache Kafka]]
+[[Microservices]]
+[[IP Address Structure]]
 
 - talk about centralized systems need to research more into 
 

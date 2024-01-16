@@ -10,12 +10,7 @@ EditDate: 2024-01-14
 Relates:
 ---
 ### **Step 1: Understand the Problem and Establish Design Scope (3 - 10 minutes)**
-During this step, it's crucial to seek clarification on the system scope and priorities like for example they may ask design an Instagram reel feature. Break down the problem into specific use cases or user stories, outlining the interactions between system components. Identify key requirements and constraints, such as expected traffic, data volume, latency, and scalability.
-
-#### Start small 
-Focus on the action like pressing the button ask what it does and expand on that in terms of what you think should happen like collecting certain data and where would that go or be connected to and the different processes that need to happen. 
-
-Then you ask about things like user base and the size of it estimation of it and determine things like constraints and bottlenecks which will then lead to database questions which may require specialized databases that are NoSQL or SQL DB. 
+During this step, it's crucial to clarify the system scope and priorities. For instance, if asked to design an Instagram Reels feature, break down the problem into specific use cases, outlining interactions between system components. Identify key requirements like expected traffic, data volume, latency, and scalability. Inquire about the user base type which can give you insight on things like governance like what if user base  is under aged and estimate its size, as this is crucial for scalability considerations. Understand potential constraints and bottlenecks that may arise with a growing user base. This leads to decisions on database considerations, determining whether a NoSQL or SQL database aligns with specific needs and the nature of the data.
 #### [[Use Case vs User Story |User Story]] Example:
 >[!important]
 >Creating stories helps with building data model, also if dealing with complex feature might want to consider using Use Cases over Stories.
@@ -38,42 +33,45 @@ When considering the features of your design, prioritize a forward-thinking appr
   - More things to think about when deciding between [[Choosing Database]] you can also talk about [[Database Sharding]]
   - What type of [[Schema Design]] makes sense.
   - You can also talk about [[Master-Slave Database Architecture]]
+  - ????? [[File System Storage]] ??????
+
+- Load balancing Placeholder [[Load Balancers]]
 
 ### Overall Architecture
-  - Identify major components: servers, databases, [[Caches]], load balancer,  [[Messaging systems]], *monitoring/logging for metrics*, and microservices.
+  - Identify major components: physical or virtual servers, databases, [[Caches]], load balancer,  [[Messaging systems]], *monitoring/logging for metrics*, and [[Benefits of cloud |cloud infrastructure]] talking about cloud  in terms of outsourcing functionality or infrastructure using different service architecture ranging from IAAS to SAAS.
   - Discuss trade-offs between performance, scalability, and cost.
+  - Maybe CI/CD stuff
   - Consider the use of APIs for certain functionalities.
-  - Discuss [[Stateless & Statefull Processes| Stateless vs Statefull]] application or process.
+  - Discuss [[Stateless & Statefull Processes |Stateless vs Statefull]] application or process.
   - Maybe talk [[Microservices]](might not be relevant since small scope) or leverage knowledge of [[12 Factor App Docker.canvas|12 Factor App Docker]] which has some overlap with everything mentioned, whatever comes to mind.
+  - Making [[Event-driven Architectural Pattern Decisions]].
 
 ### Scalability and Performance
   - Distribute traffic across server pools for different types of traffic.
   - Implement local cache for improved response time.
-  - Implement a CDN network for content distribution.
+  - Implement a [[Content Delivery Network|CDN]] network for content distribution.
   - You can talk about [[Vertical vs Horizontal Scaling]] in the context of database servers and instances of your application along with any microservices if you include that in your codebase architecture. Side note scaling can fall under Admin functionality weather that is resource scaling in a cloud environment or some custom built solution like creating an admin dashboard for internal use by developers with a frontend that includes different [[XII Admin processes]].
   - Horizontal scaling is often more desirable since vertical scaling limitations like it is impossible to add unlimited CPU and memory to the server and it lacks fail over and redundancy if one server goes down the website app goes down with it completely 
-  - Besides that there is talking about the [[Benefits of cloud]] in terms of outsourcing functionality or infrastructure using different service architecture ranging from IAAS to SAAS
+
   
 
 #### Scaling stuff to reference  or merge together somewhere
+2. **Networking**: Networking components such as routers, load balancers, firewalls, and Content Delivery Networks (CDNs) play a crucial role in ensuring that data is transmitted efficiently between clients and servers. Load balancers distribute incoming traffic to multiple servers for load distribution and redundancy.
 
-Talk about Elements Of A Distributed Systems
+4. **Security**: Security measures like firewalls, intrusion detection systems, encryption, and access control mechanisms are part of the Infrastructure layer to protect the application from various security threats, including unauthorized access, data breaches, and DDoS attacks.
+
+5. **Compliance and Governance**: Infrastructure may include tools and processes to enforce compliance with regulatory requirements and organizational policies, ensuring data security and legal compliance.
+
+6. **Environmental Configuration**: Managing different environments (e.g., development, staging, production) and their configurations to maintain consistency and isolate development, testing, and production environments.
 
 
-[[Content Delivery Network]]
-[[Architecture/Technology Options/Database]]
-[[File System Storage]]
-- Load balancing Placeholder [[Load Balancers]]
-[[Microservices]]
-[[IP Address Structure]]
-
-- talk about centralized systems need to research more into 
+- Talk about centralized systems in comparison to decentralized systems which is mostly covered here need to research more into 
 
 - [[Concurrency Vs Horizontal Scaling]] 
 
-- [[Infrastructure]] merge into this note here 
-- 
-- [[Event-driven Architectural Pattern Decisions]]
+
+
+
 
 ### **Step 3: Wrap (3 - 5 minutes)**
 Summarize key design decisions, highlighting any alternative considerations. Invite questions and address outstanding concerns.

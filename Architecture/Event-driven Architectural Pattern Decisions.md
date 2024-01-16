@@ -20,7 +20,7 @@ The appropriate combination depends on the specific use case, scalability needs,
 - Event sourcing can be employed in a microservices architecture to store the state changes of a system as a sequence of events. This can enhance auditability and enable replaying events to rebuild state.  
   
 4. **Serverless with Event-Driven Architecture:**  
-- Serverless architectures often leverage an event-driven model where functions (FaaS) are triggered by events. Events could be changes in state, external triggers, or scheduled events. This can lead to a more scalable and cost-efficient system.  
+- Serverless architectures often leverage an event-driven model where functions ([[Benefits of cloud#FAAS |FaaS]]  ) are triggered by events. Events could be changes in state, external triggers, or scheduled events. This can lead to a more scalable and cost-efficient system.  
   
 5. **Serverless with Microservices:**  
 - Serverless functions can be used within a microservices architecture to handle specific functionalities or tasks. For example, a serverless function might process uploaded files, sending events to other microservices for further processing.  

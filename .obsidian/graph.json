@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "Boxing and Unboxing",
+  "search": "Infrastructure",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.3875372945914315,
+  "scale": 0.8426061206772907,
   "close": false
 }

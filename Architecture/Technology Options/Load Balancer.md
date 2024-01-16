@@ -7,6 +7,8 @@ Started: 2024-01-07
 EditDate: 
 Relates:
 ---
+![[Load Balancing.gif]]
+
 A load balancer is a category of technology rather than a specific technology. It refers to a device or software application that distributes network or application traffic across multiple servers(Like proxy, and other server types) to ensure no single server  bears too much load, thereby improving the reliability, availability, and scalability of a system.  
 
 There are different types of load balancers, and they can be implemented in various ways:  
@@ -52,3 +54,5 @@ In summary, while load balancers are often associated with network traffic manag
 
 
 Expanding the server count can introduce challenges, particularly with stateful servers. To mitigate this, separate stateless and stateful concerns by pushing state-related tasks to data cache or databases, relieving the application servers. Additionally, horizontally scaling with more servers may impact the database, prompting consideration for vertical scaling to enhance the database capacity rather than solely relying on horizontal scaling. Balancing server architecture ensures optimal performance and addresses potential issues with increased server count.
+
+![[Load Balance Algo.jpeg]]

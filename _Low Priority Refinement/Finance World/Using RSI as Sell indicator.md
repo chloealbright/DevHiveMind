@@ -1,5 +1,5 @@
-![[unnamed (17).png]]
-![[unnamed (18).png]]
+![[RSI Sell 1.png]]
+![[RSI Sell 2.png]]
 
 use RSI with support and resistance  
   

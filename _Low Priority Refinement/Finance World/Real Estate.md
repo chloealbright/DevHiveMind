@@ -1,4 +1,4 @@
-![[zcqswkuo84g41.gif]]
+![[Spite.gif]]
 ## Spite purchase
 
 By there  house live in it for a couple of years then leave and rent it out to him  

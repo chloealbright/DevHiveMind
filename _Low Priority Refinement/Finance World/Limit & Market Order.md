@@ -1,4 +1,4 @@
-![[unnamed (66).gif]]
+![[Order Type.gif]]
 
 ## For limit order use when
 - You want to specify your price, sometimes much different from where the stock is

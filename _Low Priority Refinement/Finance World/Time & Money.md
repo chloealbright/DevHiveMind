@@ -1,4 +1,6 @@
-![[unnamed (62).gif]]
+![[Time & Money.gif]]
+
+Need to Update 
 
 ## Hours in a lifetime
 ***692,040

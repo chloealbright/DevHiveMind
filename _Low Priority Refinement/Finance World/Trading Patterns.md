@@ -1,4 +1,4 @@
-![[unnamed (6).png]]
+![[Candle Guide.png]]
 
 ## Candlestick
 [https://www.ig.com/us/trading-strategies/16-candlestick-patterns-every-trader-should-know-180615#:~:text=A%20candlestick%20is%20a%20way,just%20a%20few%20price%20bars](https://www.ig.com/us/trading-strategies/16-candlestick-patterns-every-trader-should-know-180615#:~:text=A%20candlestick%20is%20a%20way,just%20a%20few%20price%20bars).  

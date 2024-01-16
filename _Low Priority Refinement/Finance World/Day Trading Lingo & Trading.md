@@ -1,4 +1,4 @@
-![[unnamed (67).gif]]
+![[Lingo.gif]]
 
 Going long buying a stock because you think it will increase in price  
   

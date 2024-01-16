@@ -1,8 +1,8 @@
 {
   "collapse-filter": false,
-  "search": "Infrastructure",
+  "search": "file: unnamed (60)",
   "showTags": false,
-  "showAttachments": false,
+  "showAttachments": true,
   "hideUnresolved": false,
   "showOrphans": false,
   "collapse-color-groups": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.8426061206772907,
+  "scale": 0.3139134945348748,
   "close": false
 }

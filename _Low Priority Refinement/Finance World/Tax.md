@@ -1,4 +1,4 @@
-  ![[unnamed (63).gif]]
+  ![[Taxes.gif]]
   
 
 ## Stock Taxes

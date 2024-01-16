@@ -1,4 +1,4 @@
-![[unnamed (61).gif]]
+![[Credit.gif]]
 
 be aware of APR which is annual percentage rate which interest paid each month but there will no intrest if you pay the full amount owed so don't carry overpayments into the next month  
   

@@ -1,6 +1,6 @@
 
-![[unnamed (15).png]]
-![[unnamed (16).png]]
+![[RSI Buy.png]]
+![[Multi Action.png]]
 
 a good indicator to buy is a bullish RSI divergences  
   

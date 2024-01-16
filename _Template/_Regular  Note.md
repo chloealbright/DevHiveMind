@@ -5,6 +5,7 @@ author:
 Status: Capture
 Started: 
 EditDate: 
-Relates:
+Relates: 
+Comments:
 ---
 create note from template like `Alt +n`

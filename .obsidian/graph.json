@@ -1,8 +1,8 @@
 {
   "collapse-filter": false,
-  "search": "file: unnamed (60)",
+  "search": "Load ",
   "showTags": false,
-  "showAttachments": true,
+  "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
   "collapse-color-groups": false,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.3139134945348748,
+  "scale": 0.746992548771685,
   "close": false
 }

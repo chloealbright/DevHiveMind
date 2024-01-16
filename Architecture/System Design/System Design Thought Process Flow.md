@@ -6,7 +6,7 @@ author:
   - jacgit18
 Status: Refinement
 Started: 2024-01-04
-EditDate: 2024-01-14
+EditDate: 2024-01-16
 Relates:
 ---
 ### **Step 1: Understand the Problem and Establish Design Scope (3 - 10 minutes)**
@@ -35,10 +35,9 @@ When considering the features of your design, prioritize a forward-thinking appr
   - You can also talk about [[Master-Slave Database Architecture]]
   - ????? [[File System Storage]] ??????
 
-- Load balancing Placeholder [[Load Balancers]]
 
 ### Overall Architecture
-  - Identify major components: physical or virtual servers, databases, [[Caches]], load balancer,  [[Messaging systems]], *monitoring/logging for metrics*, and [[Benefits of cloud |cloud infrastructure]] talking about cloud  in terms of outsourcing functionality or infrastructure using different service architecture ranging from IAAS to SAAS.
+  - Identify major components: physical or virtual servers, databases, [[Caches]], [[load balancer]],  [[Messaging systems]], *monitoring/logging for metrics*, and [[Benefits of cloud |cloud infrastructure]] talking about cloud  in terms of outsourcing functionality or infrastructure using different service architecture ranging from IAAS to SAAS.
   - Discuss trade-offs between performance, scalability, and cost.
   - Maybe CI/CD stuff
   - Consider the use of APIs for certain functionalities.
@@ -69,11 +68,7 @@ When considering the features of your design, prioritize a forward-thinking appr
 
 - [[Concurrency Vs Horizontal Scaling]] 
 
-
-
-
-
-### **Step 3: Wrap (3 - 5 minutes)**
+### Step 3: Wrap Up(3 - 5 minutes)
 Summarize key design decisions, highlighting any alternative considerations. Invite questions and address outstanding concerns.
 
 # Talking Stats  

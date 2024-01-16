@@ -2,7 +2,7 @@
 tags: 
 author:
   - jacgit18
-Status: Capture
+Status: Refinement
 Started: 
 EditDate: 
 Relates:
@@ -22,3 +22,12 @@ In scaling systems for millions of users:
 - Scale the data tier through sharding
 - Divide tiers into individual services
 - Monitor the system and leverage automation tools.
+
+
+Yes, in a sense, a CDN (Content Delivery Network) can be considered a network of web servers. However, there is a distinction in their primary functions:
+
+- **Web Servers:** Typically concentrate on handling dynamic content, processing requests, and managing server-side logic. They may be centralized in a data center.
+
+- **CDN:** Comprises a distributed network of servers strategically located in various geographic locations. While these servers can serve static content like web servers, the primary focus of a CDN is to optimize the delivery of content by caching and serving it from the server closest to the user, reducing latency and improving performance.
+
+So, while both involve servers, a CDN's emphasis is on content delivery optimization through distribution, caching, and proximity to end-users.

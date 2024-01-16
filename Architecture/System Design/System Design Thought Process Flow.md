@@ -63,15 +63,14 @@ Talk about Elements Of A Distributed Systems
 [[Content Delivery Network]]
 [[Architecture/Technology Options/Database]]
 [[File System Storage]]
-[[Load Balancers]]
+- Load balancing Placeholder [[Load Balancers]]
 [[Microservices]]
 [[IP Address Structure]]
 
 - talk about centralized systems need to research more into 
 
 - [[Concurrency Vs Horizontal Scaling]] 
-- Load balancing Placeholder
-- clean up [[Arch to think about]]
+
 - [[Infrastructure]] merge into this note here 
 - 
 - [[Event-driven Architectural Pattern Decisions]]

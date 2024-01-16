@@ -4,7 +4,7 @@ tags:
   - databases
 author:
   - jacgit18
-Status: Capture
+Status: Refinement
 Started: 2024-01-08
 EditDate: 
 Relates: "[[Fault tolerance]]"
@@ -46,5 +46,18 @@ In a master-slave database architecture, there are two types of database servers
 
 4. **Failover and Recovery:**
    - The system should be designed to handle failovers seamlessly. Automatic failover mechanisms ensure that in the event of a master failure, a slave can take over without manual intervention.
+
+Database replication enhances reliability and ensures high availability for websites. If a server goes offline, the data stored on another server allows the website to continue running seamlessly.
+
+Here's the flow:
+
+1. Users obtain the load balancer's IP address from DNS.
+2. Users connect to the load balancer using this IP address.
+3. The load balancer routes the HTTP request to either Server 1 or Server 2.
+4. A web server retrieves user data from a slave database.
+5. Data-modifying operations are directed to the master database, including write, update, and delete operations.
+6. To further improve load response time, consider implementing a cache layer and utilizing a CDN network to shift static content.
+
+
 
 In summary, the master-slave database architecture is a powerful solution for achieving high availability, scalability, and fault tolerance. The design considerations, including read-to-write ratios and replication latency, should be carefully evaluated based on the specific requirements of the application or system. Regular monitoring and maintenance are key to ensuring the smooth operation of a master-slave database setup.

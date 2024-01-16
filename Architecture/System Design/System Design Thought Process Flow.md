@@ -64,7 +64,6 @@ Talk about Elements Of A Distributed Systems
 [[Architecture/Technology Options/Database]]
 [[File System Storage]]
 [[Load Balancers]]
-[[Apache Kafka]]
 [[Microservices]]
 [[IP Address Structure]]
 

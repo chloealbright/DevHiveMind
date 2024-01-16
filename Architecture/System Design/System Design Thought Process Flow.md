@@ -40,7 +40,7 @@ When considering the features of your design, prioritize a forward-thinking appr
   - You can also talk about [[Master-Slave Database Architecture]]
 
 ### Overall Architecture
-  - Identify major components: servers, databases, cache, load balancer,  [[Messaging systems]], *monitoring/logging for metrics*, and microservices.
+  - Identify major components: servers, databases, [[Caches]], load balancer,  [[Messaging systems]], *monitoring/logging for metrics*, and microservices.
   - Discuss trade-offs between performance, scalability, and cost.
   - Consider the use of APIs for certain functionalities.
   - Discuss [[Stateless & Statefull Processes| Stateless vs Statefull]] application or process.
@@ -59,7 +59,7 @@ When considering the features of your design, prioritize a forward-thinking appr
 
 Talk about Elements Of A Distributed Systems
 
-[[Caches]]
+
 [[Content Delivery Network]]
 [[Architecture/Technology Options/Database]]
 [[File System Storage]]

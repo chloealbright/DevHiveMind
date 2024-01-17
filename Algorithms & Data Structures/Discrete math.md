@@ -22,6 +22,21 @@ If you find yourself with a professor deeply rooted in mathematics, expect a mor
 
 Each teaching style has its advantages and disadvantages. I, for instance, have a strong mathematical inclination but work as a software engineer, so I strive to infuse my teaching with practical insights.
 
+## Truth Tables
+use truth table to identify overlap conditions 
+🔼 AND 🔽OR
+
+logical implication like `p -> q` from discrete math in the programming context just means if the condition is true then do the action in the if statement body.
+
+| Truth Table |  | 1 🔼 2 🔼 3 | 1🔽2🔽3 |  |  |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| statement 1 |  | p | p | P | P |
+| statement 2 |  | p | p | P | P |
+| statement 3 |  | p | p | p | P |
+| Result |  | P | P | P | P |
+|  |  | Not Likely |  |  |  |
+|  |  | Proably |  |  |  |
+
 
 
 ***Additionally, here are the suggested projects for both Discrete 1 and 2:***

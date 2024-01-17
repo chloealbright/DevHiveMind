@@ -116,6 +116,8 @@ Step 4 - return indexes of values that match target
 use truth table to identify overlap conditions 
 🔼 AND 🔽OR
 
+logical implication like `p -> q` from discrete math in the programming context just means if the condition is true then do the action in the if statement body.
+
 | Truth Table |  | 1 🔼 2 🔼 3 | 1🔽2🔽3 |  |  |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | statement 1 |  | p | p | P | P |

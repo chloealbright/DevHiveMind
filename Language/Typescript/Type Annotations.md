@@ -42,7 +42,7 @@ greetTripled('Hiya', 5);
 
 ## Array Type Annotations 
 
-let names: string[] = ['Danny', 'Samantha']; 
+let names: string[] = `['Danny', 'Samantha']`; 
 
 An alternative method is to use the Array<T> syntax, where T stands for the type. 
 
@@ -83,9 +83,9 @@ let bestBooleans: boolean[] = [true, false]; 
 Multi-dimensional Arrays 
 
 So far we’ve looked at string[] arrays, but we could also have arrays that only contain numbers (number[]) or booleans (boolean[]). In fact, we can make arrays of any type whatsoever. We can also declare multidimensional arrays: arrays of arrays (of some type). 
-
+```
 let arr: string[][] = [['str1', 'str2'], ['more', 'strings']]; 
-
+```
 Think of the string[][] above as short for (string[])[], that is, an array where every element has type string[]. We’ll explore more complex array types in later lessons. 
 
 The empty array ([]) is compatible with any array type: 
@@ -98,8 +98,8 @@ names.push('Isabella');   
 
 numbers.push(30); 
 
-// Arrays: 
-
+// Arrays
+```
 let bestNumbers: number[] = [7,77,4]; 
 
 let bestLunches: string[] = ['chicken soup', 'non-chicken soup']; 
@@ -115,3 +115,4 @@ let bestMealPlan = [bestLunches, bestBreakfasts, ['baked potato', 'mashed pot
 let bestBooleansTwice = [bestBooleans, bestBooleans]; 
 
 let numbersMulti = [ [[1],[2,3]], [[7],bestNumbers] ];
+```

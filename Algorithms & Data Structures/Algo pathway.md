@@ -93,7 +93,7 @@ In cases of partial sorting, especially with elements within a specified range, 
 
 ## Unsorted Data
 
-For unsorted data, the choice of algorithm depends on the problem. If preserving order is not a priority, sorting followed by binary search can be effective. Otherwise, consider patterns that might include a linear search.
+For unsorted data, the choice of algorithm depends on the problem. If preserving order is not a priority, sorting followed by binary search can be effective. Otherwise, consider patterns that might include a linear search. Also depending on the problem if you have to search use a hashtable or hashmap.
 
 
 ## Sort Algorithm Boundary Cases

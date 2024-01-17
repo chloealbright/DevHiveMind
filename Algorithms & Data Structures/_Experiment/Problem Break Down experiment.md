@@ -88,7 +88,7 @@ Return = `[0,1]`
 
 ## <mark style="background: #CACFD9A6;">C</mark><mark style="background: #BBFABBA6;">R</mark><mark style="background: #D2B3FFA6;">U</mark><mark style="background: #FF5582A6;">D</mark>
 ## Steps Naive Attempt 
-**can list steps of some mixture of steps or a mixture of steps and psudocode 
+**can list steps or some mixture of steps and pseudocode 
 
 Two pointer pattern comes to mind also is probably the most optimal solution if data is sorted by default or if not not sorted the most optimal solution may include leveraging a data structure that is good with dealing with unsorted data like Hashtable/Hashtable/Map often refereed to as lookup tables which has a O(1) runtime for each action category but Search being the key Operation 
 

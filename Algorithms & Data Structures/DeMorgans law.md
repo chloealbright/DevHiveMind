@@ -9,7 +9,7 @@ Started:
 EditDate: 
 Relates: "[[Discrete math]]"
 ---
-De Morgan's Law of Union, often referred to as De Morgan's Law, is a fundamental principle in set theory. It states that the complement of the union of two sets, A and B, is equal to the intersection of the complements of A and B. This law can be expressed as `(A ∪ B)' = A' ∩ B'`. It serves as a key tool for manipulating sets and understanding their relationships.
+De Morgan's Law of Union, often referred to as De Morgan's Law, is a fundamental principle in set theory. It states that the complement of the union of two sets, A and B, is equal to the intersection of the complements of A and B. This law can be expressed as `(A ∪ B) = A ∩ B`. It serves as a key tool for manipulating sets and understanding their relationships.
 
 To further explore this concept, you can visit the following resource: [De Morgan's Law Explanation](https://www.cuemath.com/data/de-morgans-law/).
 

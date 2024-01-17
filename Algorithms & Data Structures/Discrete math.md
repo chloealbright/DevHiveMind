@@ -26,9 +26,7 @@ Each teaching style has its advantages and disadvantages. I, for instance, have 
 use truth table to identify overlap conditions 
 🔼 AND 🔽OR
 
-logical implication like `p -> q` from discrete math in the programming context just means if the condition is true then do the action in the if statement body.
-
-`!` negation
+logical implication like `p -> q` from discrete math in the programming context just means if the condition is true then do the action in the if statement body or in this case is `p` true then you can implement `q` you can use`!` for negation in javascript but in discrete math it is another sign.
 
 | Truth Table |  | 1 🔼 2 🔼 3 | 1🔽2🔽3 |  |  |
 | ---- | ---- | ---- | ---- | ---- | ---- |

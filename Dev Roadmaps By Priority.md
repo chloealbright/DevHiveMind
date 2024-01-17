@@ -6,7 +6,8 @@ author:
 Status: Express
 Started: 
 EditDate: 
-Relates:
+Relates: 
+Comments: Update maybe use OKR
 ---
 ![[Journey.gif]]
 ## [Other Road Maps](https://roadmap.sh/)
@@ -32,12 +33,10 @@ Relates:
 - [ ] [[Patterns & Infashstructure learning plan]]
 
 ## New Path
-#todo/Med/Dev 
+#todo/Low/Dev 
 - [ ] [[spring-boot.pdf]]
 - [[Python Learning Plan]]
 	- [ ] [[python.pdf]]
-
-#todo/Low/Dev 
 - [ ] [[angular.pdf]]
 
 ## Side Quest Revist

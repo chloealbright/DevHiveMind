@@ -118,14 +118,14 @@ use truth table to identify overlap conditions
 
 logical implication like `p -> q` from discrete math in the programming context just means if the condition is true then do the action in the if statement body.
 
-| Truth Table |  | 1 🔼 2 🔼 3 | 1🔽2🔽3 |  |  |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| statement 1 |  | p | p | P | P |
-| statement 2 |  | p | p | P | P |
-| statement 3 |  | p | p | p | P |
-| Result |  | P | P | P | P |
-|  |  | Not Likely |  |  |  |
-|  |  | Proably |  |  |  |
+| Truth Table |  | 1 | 2 | 3 | 1🔼2🔼3 | 1🔽2🔽3 |  |  |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| statement 1 |  | T | T | T | T | T | Placeholder |  |
+| statement 2 |  | T | T | F | F | T | Placeholder |  |
+| statement 3 |  |  |  |  | T | T | Placeholder |  |
+| **Result** |  |  |  |  | P | P |  |  |
+|  |  |  |  |  | Not Likely |  |  |  |
+|  |  |  |  |  | Proably |  |  |  |
 
 
 Pre condition 

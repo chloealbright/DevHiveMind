@@ -6,7 +6,7 @@ Status: Capture
 Started: 
 EditDate: 
 Relates: 
-Comments:
+Comments: This documentation discuss the type of question to ask when it comes to user base when designing a system.
 ---
 In a system design interview, understanding the user base is crucial for designing scalable and efficient systems. Here are some questions you might ask or consider when discussing the user base:  
   

@@ -8,13 +8,14 @@ author:
 Status: Refinement
 Started: 
 EditDate: 
-Relates:
+Relates: 
+Comments: This documentation is a observation about the overall structure of a algorithm at the function scope.
 ---
 ![[AlgoFlow.png]]
 
 ## When Reading Documentation
 
-When delving into documentation about a framework, library, language, technology, or new features, it's essential to understand the underlying "why" behind their creation. 
+When delving into documentation about a framework, library, language, technology, or new features, it's essential to understand the underlying "why" behind it's creation. 
 
 ## Algorithm Design
 
@@ -27,7 +28,7 @@ When delving into documentation about a framework, library, language, technology
 
 ### High Level Example
 
-Consider this example: adding a function that iterates through an array, processes its elements, and returns the sum. This approach is compared to simply using `array.reduce` to add the elements, which involves fewer steps and is more abstract.
+Lets your creating a function that iterates through an array, processes its elements, and returns the sum. This approach is compared to simply using `array.reduce` to add the elements, which involves fewer steps and is more abstract.
 
 ## Consider Scope
 

@@ -8,10 +8,9 @@ author:
 Status: Capture
 Started: 
 EditDate: 
-Relates:
+Relates: 
+Comments: This documentation discusses the decision making process around API call on the frontend versus the backend which depends on various factors, and there isn't a one-size-fits-all answer.
 ---
-The decision to make an API call on the frontend versus the backend depends on various factors, and there isn't a one-size-fits-all answer. Here are some considerations to help you decide:  
-  
 ### API Call on the Frontend:  
   
 1. **Real-Time Updates:**  
@@ -55,3 +54,5 @@ The decision to make an API call on the frontend versus the backend depends on v
 - Be mindful of CORS restrictions when making API calls directly from the frontend. If your frontend and backend are served from different domains, ensure proper CORS configuration on the server.  
   
 In many cases, a combination of frontend and backend API calls is used to strike a balance between real-time updates and security. The specific requirements of your application and the characteristics of your data and operations will guide the decision-making process.
+
+

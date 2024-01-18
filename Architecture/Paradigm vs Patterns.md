@@ -4,10 +4,11 @@ tags:
   - architecturalParadigm
 author:
   - jacgit18
-Status: Capture
+Status: Done
 Started: 
 EditDate: 
 Relates: "[[Event Driven Architecture]]"
+Comments:
 ---
 Patterns and paradigms are two distinct concepts in the field of software engineering and design.  
   

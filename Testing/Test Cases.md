@@ -46,7 +46,7 @@ Often, the expected result is obvious: the right output. However, in some cases,
 
 ##### Not be too specific  
 
-`Test cases need to consider a variety of conditions that the software will be expected to handle. The test case must be able to comprehensively test the software module with almost all possible combinations of main conditions. To be able to comprehensively test all combinations of conditions, the author must find a way to present these conditions such that it is easy for others to review  also small test cases are much faster than a big test case and just as effective.  
+Test cases need to consider a variety of conditions that the software will be expected to handle. The test case must be able to comprehensively test the software module with almost all possible combinations of main conditions. To be able to comprehensively test all combinations of conditions, the author must find a way to present these conditions such that it is easy for others to review  also small test cases are much faster than a big test case and just as effective.  
 
 ##### Cover a small part of functionality – they need to test a larger part of the system.  
 
@@ -76,19 +76,21 @@ Boundary case  
 
 Corner case  
 
-<mark style="background: #FFF3A3A6;"> A more complex boundary check (a corner is a two-dimensional boundary), for example combining <MIN_INT> and <MAX_INT> in a calculation. </mark>
+A more complex boundary check (a corner is a two-dimensional boundary), for example combining <MIN_INT> and <MAX_INT> in a calculation. 
 
-Occurs outside of normal operating parameters/inputs, specifically when multiple environmental variables or conditions are simultaneously at extreme levels , and the user is put at a corner of the configuration space, even though each parameter is within the specified range for that parameter.<mark style="background: #ABF7F7A6;"> (The "outside normal operating parameters" obviously means something like "outside typical combination of operating parameters", not strictly "outside allowed operating parameters". That is, you're still within the valid parameter space, but near its corner.) 
-</mark>
+Occurs outside of normal operating parameters/inputs, specifically when multiple environmental variables or conditions are simultaneously at extreme levels , and the user is put at a corner of the configuration space, even though each parameter is within the specified range for that parameter.
+
+> The "outside normal operating parameters" obviously means something like "outside typical combination of operating parameters", not strictly "outside allowed operating parameters". That is, you're still within the valid parameter space, but near its corner. 
+
 
 
 Edge case  
 
 	Occurs at an extreme (maximum or minimum) operating parameter. 
 
-<mark style="background: #FFF3A3A6;">	Edge / Boundary check = The maximum or minimum input that is expected to produce correct output. For example, a function which just adds one to a number will have an operating range from <MIN_INT> to <MAX_INT> - 1, since input smaller than <MIN_INT> can't be provided by the user and output larger than <MAX_INT> won't be useful. </mark>
+Edge / Boundary check = The maximum or minimum input that is expected to produce correct output. For example, a function which just adds one to a number will have an operating range from <MIN_INT> to <MAX_INT> - 1, since input smaller than <MIN_INT> can't be provided by the user and output larger than <MAX_INT> won't be useful. 
 
-<mark style="background: #FFF3A3A6;">	An edge case typically involves input values that require special handling in an algorithm behind a computer program. As a measure for validating the behavior of computer programs in such cases, unit tests are usually created; they are testing boundary conditions of an algorithm, function, or method. So practice unit test for edge casing that you can use in an interview when writing out the problem and clearing up the problem  </mark>
+An edge case typically involves input values that require special handling in an algorithm behind a computer program. As a measure for validating the behavior of computer programs in such cases, unit tests are usually created; they are testing boundary conditions of an algorithm, function, or method. So practice unit test for edge casing that you can use in an interview when writing out the problem and clearing up the problem  
 
 Input check   
 

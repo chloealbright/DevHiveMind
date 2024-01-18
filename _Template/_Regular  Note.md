@@ -6,6 +6,6 @@ Status: Capture
 Started: 
 EditDate: 
 Relates: 
-Comments:
+Comments: This documentation discusses
 ---
 create note from template like `Alt +n`

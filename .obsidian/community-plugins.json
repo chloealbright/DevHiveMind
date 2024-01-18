@@ -49,5 +49,8 @@
   "obsidian-admonition",
   "obsidian-custom-frames",
   "obsidian-git",
-  "excel"
+  "excel",
+  "heatmap-calendar",
+  "metaedit",
+  "peerdraft"
 ]

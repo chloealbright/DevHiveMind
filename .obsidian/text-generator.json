@@ -75,7 +75,7 @@
     "tts": {
       "packageId": "tts",
       "name": "Text To Speech Package",
-      "version": "0.0.2",
+      "version": "0.0.3",
       "minTextGeneratorVersion": "0.6.0",
       "description": "Contains Text To Speech Templates and support for TTS for other templates",
       "author": "Noureddine",

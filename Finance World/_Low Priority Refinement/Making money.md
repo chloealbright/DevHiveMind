@@ -25,4 +25,3 @@ Build app
   
 use Fiver  
   
-have a natural conversation talk about what is being asked questions about preference also pick gigs that have fewer people going for it and with the gigs with small pools of people applying to go lower than the price to get the job and build a reputation and go up in price

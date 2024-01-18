@@ -2,10 +2,11 @@
 tags: 
 author:
   - jacgit18
-Status: 
+Status: Refinement
 Started: 
 EditDate: 
-Relates:
+Relates: 
+Comments:
 ---
 "In the realm of programming, a 'build' represents a specific version of a software program. Typically, it's a pre-release iteration distinguished by a unique build number rather than a formal release number. In simpler terms, a software build is a collection of executable code that's prepared for use by end-users.
 

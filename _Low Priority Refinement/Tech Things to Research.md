@@ -21,9 +21,8 @@ Relates:
 - [ ] separate password for root and user  
 - [ ] look into setting up eclipse default vm arguments for javafx  
 - [ ] difference between float and double  
-
 - [ ] tech law  
-- [ ] Linux dependencies for oracle SQL database  
+
 - [ ] editing gnome dconf  
 - [ ] Pop3 email server for email privacy  
 - [ ] ASUS Tinker Board  

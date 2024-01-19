@@ -23,7 +23,7 @@ constraint helps with defining scope limiting in put size
 
 focus thought on the inputs i there are multiple prioritize the one with most actions like insertion, reads,  searches, and deletion then think about the other parameters or vise versa
 
-when it comes to does parameters overall you can maybe like this ok this is an array of integers so what built in functions can be leverage ok with Math, Array, and Numbers what built in functions make sense here
+when it comes to does parameters overall you can maybe like this ok this is an array of integers so what built in functions can be leverage ok with Math, Array, and Numbers what built in functions make sense here then may think along the lines of data structures 
 
 deepening on the input type this will influence you question and line of thought
 

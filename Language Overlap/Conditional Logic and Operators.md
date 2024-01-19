@@ -95,6 +95,8 @@ let age = ogAge || 99 // 99
 
 
 ## Short circuit evaluation 
+the most likely condition to be triggered goes first that is basically what short circuit is 
+
 
 go left to right 
 

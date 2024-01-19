@@ -38,7 +38,12 @@ When considering the features of your design, prioritize a forward-thinking appr
 
 
 ### Overall Architecture
-  - Identify major components: physical or virtual servers, databases, [[Caches]], [[load balancer]],  [[Messaging systems]], *monitoring/logging for metrics*, and [[Benefits of cloud |cloud infrastructure]] talking about cloud  in terms of outsourcing functionality or infrastructure using different service architecture ranging from IAAS to SAAS.
+  - Identify major components: physical or virtual servers, databases, [[Caches]],,  [[Messaging systems]], *monitoring/logging for metrics*, and [[Benefits of cloud |cloud infrastructure]] talking about cloud  in terms of outsourcing functionality or infrastructure using different service architecture ranging from IAAS to SAAS.
+**Maybe refine a little more **
+  - Networking components such as routers, [[Load Balancer]], firewalls, and Content Delivery Networks ([[Content Delivery Network |CDN]]) play a crucial role in ensuring that data is transmitted efficiently between clients and servers. Load balancers distribute incoming traffic to multiple servers for load distribution and redundancy.
+  - Security measures like firewalls, intrusion detection systems, encryption, and access control mechanisms are part of the Infrastructure layer to protect the application from various security threats, including unauthorized access, data breaches, and DDoS attacks.
+  - **Compliance and Governance**: Infrastructure may include tools and processes to enforce compliance with regulatory requirements and organizational policies, ensuring data security and legal compliance.
+
   - Discuss trade-offs between performance, scalability, and cost.
   - Maybe CI/CD stuff
   - Consider the use of APIs for certain functionalities.
@@ -49,21 +54,13 @@ When considering the features of your design, prioritize a forward-thinking appr
 ### Scalability and Performance
   - Distribute traffic across server pools for different types of traffic.
   - Implement local cache for improved response time.
-  - Implement a [[Content Delivery Network|CDN]] network for content distribution.
+
   - You can talk about [[Vertical vs Horizontal Scaling]] in the context of database servers and instances of your application along with any microservices if you include that in your codebase architecture. Side note scaling can fall under Admin functionality weather that is resource scaling in a cloud environment or some custom built solution like creating an admin dashboard for internal use by developers with a frontend that includes different [[XII Admin processes]].
   - Horizontal scaling is often more desirable since vertical scaling limitations like it is impossible to add unlimited CPU and memory to the server and it lacks fail over and redundancy if one server goes down the website app goes down with it completely 
 
   
 
 #### Scaling stuff to reference  or merge together somewhere
-2. **Networking**: Networking components such as routers, load balancers, firewalls, and Content Delivery Networks (CDNs) play a crucial role in ensuring that data is transmitted efficiently between clients and servers. Load balancers distribute incoming traffic to multiple servers for load distribution and redundancy.
-
-4. **Security**: Security measures like firewalls, intrusion detection systems, encryption, and access control mechanisms are part of the Infrastructure layer to protect the application from various security threats, including unauthorized access, data breaches, and DDoS attacks.
-
-5. **Compliance and Governance**: Infrastructure may include tools and processes to enforce compliance with regulatory requirements and organizational policies, ensuring data security and legal compliance.
-
-6. **Environmental Configuration**: Managing different environments (e.g., development, staging, production) and their configurations to maintain consistency and isolate development, testing, and production environments.
-
 
 - Talk about centralized systems in comparison to decentralized systems which is mostly covered here need to research more into 
 

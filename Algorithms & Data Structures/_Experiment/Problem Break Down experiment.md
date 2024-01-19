@@ -54,15 +54,27 @@ or
 #### best way best average time complexity to 
 access would be a set if you want to parse out duplicate values, arrays no side effects like the set
 
-or
+
 
 ### Search 
-#### best way best average time complexity to 
+#### best way best average time complexity to  
+use map/hashtable/hashmap also refereed to as a lookup tables for search when it comes to unsorted data 
+
+or
+
+binary search but the data has to be sorted 
+
+or
+
+otherwise use  a set or whatever else data structure since the rest searches at a O(n)
+
+
 
 
 ### Deletion 
 #### best way best average time complexity to 
 
+when it comes to deletion any can be used it just depends on the deaper use cases outside of runtime since there all delete at a O(n) runtime
 
 
 depending on what your trying to do you might pick a lesser optimal runtime based data structure based on what functionality  you want to utilize
@@ -126,25 +138,27 @@ logical implication like `p -> q` from discrete math in the programming context 
 | **Result** |  |  |  |  | P | P |  |  |
 |  |  |  |  |  | Not Likely |  |  |  |
 |  |  |  |  |  | Proably |  |  |  |
-
+### Two Pointer or any   Approach break down
 
 Pre condition 
-- Overlapping condition 
-- check size of array 
+- Define Overlapping condition that may apply also keep [[Conditional Logic and Operators#Short circuit evaluation |Short Circuit Evaluation]] same for other overlap condition below
+- Check size of array 
 
 loop condition
-- Overlapping condition 
+- Define Overlapping condition that may apply ...
 - Create condition to increment and decrement pointers
+- Define whatever else  condition are needed 
 
 post condition 
-- Overlapping condition 
+- Define Overlapping condition that may apply...
 
 
 ## Update does a Reads and might return boolean 
 
+- Reassign any variable or add to value or remove or add any values to data structure using or call a helper or built  in function 
 
-## Delete or Error Exemption if approach isnt deleting stuff
-
+### Delete 
+Delete any value from data structure the essentially falls under 
 
 
 are there scenario were the array has multiple values that add up to target one potential edge case but not relevant to this problem

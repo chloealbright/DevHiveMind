@@ -29,7 +29,7 @@ Relates:
 	- Typically we use all of the elements within the sliding window for the problem like too combine things or do some type of action within window range 
 - **Use Sorting:** Sort the input arrays/lists if necessary before applying the Two Pointer technique. 
 
-Two pointer and Sliding window can be interchangeable solution but one would just be more efficient then the other depending on the what the problem solution demands typically pointer is used for comparison while window is used for other action like adding or doing some other action with the elements in the range of the window but not specifically comparison
+Two pointer and Sliding window can be interchangeable solution but one would just be more efficient then the other depending on the what the problem solution demands typically pointer is used for comparison while window is used for other action like adding or doing some other action with the elements in the range of the window but not specifically comparison of values.
 ## Two Pointer
 
 - **Definition:** The Two Pointer pattern involves using two pointers to traverse arrays or strings.
@@ -46,7 +46,7 @@ Two pointer and Sliding window can be interchangeable solution but one would jus
   - Comparing values at two pointers.
   - Fast-slow pointer variations.
   - Very useful when dealing with cyclic Linked Lists or Arrays. 
- > [!important]  Used to compare the values at the two pointers instead of all the elements between the pointers. 
+ > [!important]  Used to compare the values at the two pointer instead of all the elements between the pointers. 
 - **Use Sorting:** Sort the input arrays/lists if necessary before applying the Two Pointer technique. 
 
 >[!note] Two pointer can be applied to two arrays or strings or a combination of a string and a array or used to find numbers in a range just like Sliding window  

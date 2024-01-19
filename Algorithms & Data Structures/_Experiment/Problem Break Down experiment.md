@@ -6,78 +6,85 @@ Status:
 Started: 
 EditDate: 
 Relates: 
-Comments:
+Comments: Refining to find optimal order of operations in terms of thought for solving a problem .
 ---
-Given an array of integers `nums` and an integer `target`, return _indices of the two numbers such that they add up to `target`_.
 
-You may assume that each input would have **_exactly_ one solution**, and you may not use the _same_ element twice.
+**Ask Question here
 
-You can return the answer in any order.
-
-**Example 1:**
-
-**Input:** nums = [2,7,11,15], target = 9
-**Output:** [0,1]
-**Explanation:** Because nums[0] + nums[1] == 9, we return [0, 1].
-
-**Example 2:**
-
-**Input:** nums = [3,2,4], target = 6
-**Output:** [1,2]
-
-**Example 3:**
-
-**Input:** nums = [3,3], target = 6
-**Output:** [0,1]
-
-**Constraints:**
-
-- `2 <= nums.length <= 104`
-- `-109 <= nums[i] <= 109`
-- `-109 <= target <= 109`
-- **Only one valid answer exists.**
-
-Ask Question here and after to verify this is what the question is asking
+like how often test or edge(extremes) cases will have sorted data if at all
 
 Given variables nums array with length minimum  of 2 and length maximum of 104 
 the numbers in the array range from -109 to 109 and this the same for the target
 returning one valid output array with maximum length of 2  containing the two indexes of the values  that add up to target  for each case 
 
-## is anything required in terms of 
+**Then verify this is what the question is asking
+
+constraint helps with defining scope limiting in put size 
+
+focus thought on the inputs i there are multiple prioritize the one with most actions like insertion, reads,  searches, and deletion then think about the other parameters or vise versa
+
+when it comes to does parameters overall you can maybe like this ok this is an array of integers so what built in functions can be leverage ok with Math, Array, and Numbers what built in functions make sense here
+
+deepening on the input type this will influence you question and line of thought
+
+
+List what is being reassign,  added too or remove from or inserted into weather it is a data structure a primitive value  
+
+List [[Algorithm Most Common Built in Functions]] relative to the problem your dealing with 
+
+
+## After you agree on the problem think is anything required in terms of 
 
 ### Insertion 
-#### best way best average time complexity to 
-insert is an array also a stack that is probably implemented by a array or a queue implemented by a link list or using a link list just terms of optimizations around Insertions
+The best way and average time complexity to Insert is a Linked List when it comes to other data structure there is also stacks and queues that are implemented with a linked list theses structures have a constant time complexity or O(1)  
 
-or 
-### Access(MOST COMMON ACTION)  
-#### best way best average time complexity to 
-access would be a set if you want to parse out duplicate values, arrays no side effects like the set
+Maps and graphs also have a constant time complexity 
 
-
-
-### Search 
-#### best way best average time complexity to  
-use map/hashtable/hashmap also refereed to as a lookup tables for search when it comes to unsorted data 
-
-or
-
-binary search but the data has to be sorted 
-
-or
-
-otherwise use  a set or whatever else data structure since the rest searches at a O(n)
+Then there is binary search tree with a Logarithmic Time complexity or O(log n) same for priority queues and heaps
+ 
+ and lastly array 's with a  linear time or O(n) side note there are also queues and stacks implemented by an array with the same runtime
 
 
+### Reads & Access(MOST COMMON ACTION)  
+The best way and average time complexity when it comes to `READS` which I consider a superset of `access` action because a lot of conditional logic weather within loops or outside of loops are just checking if current value or the entirety of the data structure or primitive value in a variable is a particular type or certain size/length or if some even exist.   
+
+Now when it come to the data structures you can use a set if you want to parse out duplicate values this has a runtime complexity of O(1) or use an arrays which doesn't have that side effect and also has a average O(1) complexity same for any structure implemented with an array
+
+If you have a partial solution but test cases are failing and have a whole bunch of conditional logic probably a good indicator to try another approach
+
+Pre condition 
+- Define Overlapping condition that may apply also keep [[Conditional Logic and Operators#Short circuit evaluation |Short Circuit Evaluation]] in mind same for other overlap condition below
+- Define Individual conditions or whatever else  condition are needed 
+
+loop condition
+- Define Overlapping condition that may apply ...
+- Create condition to increment and decrement pointers
+- Define Individual conditions or whatever else  condition are needed 
+
+post condition 
+- Define Overlapping condition that may apply...
+- Define Individual conditions or whatever else  condition are needed 
+
+
+### Search includes Update & Reads for Overall Algorithm
+
+The best way and average time complexity when it comes to searching is a map/hashtable/hashmap when it comes to unsorted data it is  also sometimes refereed to as a lookup table.
+
+On the opposite side of things if dealing with sorted data binary search is a good solution
+or Logarithmic Time complexity or O(log n)
+
+Otherwise use  a set or whatever else data structure since the rest searches at a O(n)
+
+
+Side note partially sorted data can be be indicator to do cyclic sort if you have a complete range of numbers
 
 
 ### Deletion 
-#### best way best average time complexity to 
 
-when it comes to deletion any can be used it just depends on the deaper use cases outside of runtime since there all delete at a O(n) runtime
+The best way and average time complexity when it comes to deletion is basically the same when it comes to all the data structure it  just depends on the deeper use cases outside of runtime since there all delete at a O(n) runtime
 
 
-depending on what your trying to do you might pick a lesser optimal runtime based data structure based on what functionality  you want to utilize
+Depending on what your trying to do you might pick a lesser optimal runtime based data structure based on what functionality  you want to utilize
 
 
 # Approach
@@ -103,6 +110,8 @@ Return = `[0,1]`
 **can list steps or some mixture of steps and pseudocode 
 
 Two pointer pattern comes to mind also is probably the most optimal solution if data is sorted by default or if not not sorted the most optimal solution may include leveraging a data structure that is good with dealing with unsorted data like Hashtable/Hashtable/Map often refereed to as lookup tables which has a O(1) runtime for each action category but Search being the key Operation 
+
+
 
 **Hash Map Approach:**
 - **Pros:**
@@ -134,14 +143,14 @@ logical implication like `p -> q` from discrete math in the programming context 
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | statement 1 |  | T | T | T | T | T | Placeholder |  |
 | statement 2 |  | T | T | F | F | T | Placeholder |  |
-| statement 3 |  |  |  |  | T | T | Placeholder |  |
-| **Result** |  |  |  |  | P | P |  |  |
+| statement 3 |  | F | F | F | F | F | Placeholder |  |
+| **Result** |  |  |  |  | N | P |  |  |
 |  |  |  |  |  | Not Likely |  |  |  |
 |  |  |  |  |  | Proably |  |  |  |
 ### Two Pointer or any   Approach break down
 
 Pre condition 
-- Define Overlapping condition that may apply also keep [[Conditional Logic and Operators#Short circuit evaluation |Short Circuit Evaluation]] same for other overlap condition below
+- Define Overlapping condition that may apply also keep Short Circuit Evaluation same for other overlap condition below
 - Check size of array 
 
 loop condition

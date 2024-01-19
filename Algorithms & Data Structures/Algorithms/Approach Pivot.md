@@ -1,12 +1,14 @@
 ---
 tags:
   - CodebaseDecision
+  - CodingProblem
 author:
   - jacgit18
-Status: Capture
+Status: Done
 Started: 
 EditDate: 
-Relates:
+Relates: 
+Comments: The purpose of this documentation is to identify when should you change your approach around solving a coding challenge.
 ---
 In the context of a technical interview with limited time, the strategic guidelines for refining your approach to a coding problem become even more crucial. Here are some considerations:
 

@@ -1,10 +1,12 @@
 ---
 tags: 
-author: jacgit18
+author:
+  - jacgit18
 Status: 
 Started: 
 EditDate: 
-Relates:
+Relates: 
+Comments: Random thought
 ---
 ![[Thought.gif]]
 

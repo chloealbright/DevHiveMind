@@ -9,7 +9,7 @@ Status: Refinement
 Started: 
 EditDate: 
 Relates: 
-Comments: This documentation is a observation about the overall structure of a algorithm at the function scope.
+Comments: This documentation is a observation about the overall structure of a algorithm at the function scope. Might create a updated mind map
 ---
 ![[AlgoFlow.png]]
 

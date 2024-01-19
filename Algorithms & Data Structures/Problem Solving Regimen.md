@@ -5,7 +5,8 @@ author:
 Status: Perpetual
 Started: 2023-12-15
 EditDate: 
-Relates:
+Relates: 
+Comments: The motivation behind this regimen is basically how I would prepare and practice challenges if I had not done one before and written in a way to avoid anti patterns I fell into.
 ---
 ![[Regimen.gif]]
 ## Prep  
@@ -18,7 +19,7 @@ Relates:
 	- Pick one problem something simple like an array question or something.
 	- Read problems and break them down to understand, don't solve practice doing this until you feel comfortable then revisit and solve. 
 	- Keep in mind when to change [[Approach Pivot |Approach]]
-	- ***Consider Pair Programming when you get to Optimal approach level or Naive approach or once you fill that you have enough repetition***
+	- ***Consider Pair Programming when you get to the point were your good at implementing Optimal solutions or Naive solutions or once you fill that you have enough repetition***
   
 2. [[AlgoFlow#**Brute Force Algorithm** |Bruteforce]] **Solution**:  
 	- Come up with a Bruteforce solution to gain insight into the problem's dynamics.  
@@ -37,9 +38,9 @@ Relates:
 	- Consider experiment with looping [[Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion |iteratively]] and [[Recursion & Recursion Runtime |recursively]].  
 	- Delve into advanced algorithm patterns for solution. 
 	- Think about what patterns can be used for the problem which can be solved with many different patterns depending on the problem itself.
-	- Keep in mind that one pattern may be more Optimal then the other.
+	- Keep in mind that one pattern may be more Optimal then the other depending on the specifics of the problem.
 	- Create helper functions for code modularity also implementing proper [[Naming Conventions]]. 
 
-## Problem Solving Template Tablet Version
-**Use Microsoft whiteboard and draw on to top of image
+## Problem Solving Template Tablet Version V1
+**Use Microsoft whiteboard and draw on to top of image might be better alternative haven't done anything extensive yet
 ![[Whiteboard.png]]

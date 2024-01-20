@@ -15,7 +15,8 @@ Started:
 DateFinished: 
 Comments: This documentation discusses
 Relates: 
-rating:
+rating: 
+pdf:
 ---
 ```
 ![cover|150]({{coverUrl}})

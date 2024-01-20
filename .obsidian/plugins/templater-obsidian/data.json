@@ -21,7 +21,13 @@
   ],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
-  "enabled_templates_hotkeys": [],
+  "enabled_templates_hotkeys": [
+    "_Template/Stars/Five Star.md",
+    "_Template/Stars/Four Star.md",
+    "_Template/Stars/Three Star.md",
+    "_Template/Stars/Two Star.md",
+    "_Template/Stars/One Star.md"
+  ],
   "startup_templates": [],
   "enable_ribbon_icon": true
 }

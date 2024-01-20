@@ -4,16 +4,18 @@ tags:
 title: '"{{title}}"'
 author:
   - "[{{author}}]"
+category: "{{category}}"
 publisher: "{{publisher}}"
-publish: "{{publishDate}}"
-total: 
+publishdate: "{{publishDate}}"
+pages: "{{totalPage}}"
 isbn: "{{isbn10}} {{isbn13}}"
 cover: "{{coverUrl}}"
 Status: Unread
 Started: 
-EditDate: 
+DateFinished: 
 Comments: This documentation discusses
-Relates:
+Relates: 
+rating:
 ---
 ```
 ![cover|150]({{coverUrl}})

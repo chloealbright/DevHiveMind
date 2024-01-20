@@ -74,7 +74,7 @@ renderHeatmapCalendar(this.container, calendarData)
 ```
 
 
-```dataviewjs
+```dataview
 
 LIST 
 FROM
@@ -85,4 +85,11 @@ FROM
 
 TABLE View 
 LIST View
+
+
+
+```dataview
+
+
+```
 

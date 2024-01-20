@@ -16,7 +16,7 @@ DateFinished:
 Comments: This documentation discusses
 Relates: 
 rating: 
-pdf:
+pdf: '"[Book PDF](pdfs/book_filename.pdf)"'
 ---
 ```
 ![cover|150]({{coverUrl}})

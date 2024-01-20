@@ -65,3 +65,5 @@ The main method creates and starts the two threads. It then waits for both threa
 By using preemptive scheduling, the operating system determines when each thread gets CPU time to execute. The synchronization mechanism provided by the lock ensures that only one thread can access and modify the shared state at any given time, avoiding data corruption or inconsistent results.
 
 This example demonstrates the use of threads with independent execution streams working on shared state while ensuring synchronization and mutual exclusion using a lock.
+
+

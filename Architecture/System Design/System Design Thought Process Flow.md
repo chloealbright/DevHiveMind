@@ -64,7 +64,6 @@ When considering the features of your design, prioritize a forward-thinking appr
 
 - Talk about centralized systems in comparison to decentralized systems which is mostly covered here need to research more into 
 
-- [[Concurrency Vs Horizontal Scaling]] 
 
 ### Step 3: Wrap Up(3 - 5 minutes)
 Summarize key design decisions, highlighting any alternative considerations. Invite questions and address outstanding concerns.

@@ -95,24 +95,29 @@ let age = ogAge || 99 // 99
 
 
 ## Short circuit evaluation 
-the most likely condition to be triggered goes first that is basically what short circuit is 
+In simple terms short circuit is  the most likely condition to be triggered goes first in the conditional statement but this depends on if your doing the `AND` or `OR`. 
 
-
-go left to right 
-
-if first is true don,t visit the next check 
-
-(variable true and method call) 
-
-No if keyword needed 
-
-Check the first condition if it's false we don't check the other condition 
-
-Which is a method called that returns boolean 
-
-Similar with or operator 
-
-Setting a variable to itself when you pass has a function parameter or a default value just in case you don't pass a value 
+Short-circuit evaluation is a programming language feature where the evaluation of a logical expression stops as soon as the result is determined. This occurs when the outcome can be determined by evaluating only part of the expression, without needing to evaluate the entire expression.  
+  
+In short-circuit evaluation, the order in which conditions are evaluated matters. There are two main logical operators that utilize short-circuit evaluation: `&&` (logical AND) and `||` (logical OR).  
+  
+1. **Logical AND (`&&`):**  
+- In an expression using `&&`, if the left operand is `false`, the overall result is `false`, and the right operand is not evaluated. This is because for the entire expression to be true, both operands must be true. If the left one is false, there's no need to check the right one.  
+  
+```javascript  
+// Example in JavaScript  
+let result = false && someFunction(); // someFunction() won't be called  
+```  
+  
+2. **Logical OR (`||`):**  
+- In an expression using `||`, if the left operand is `true`, the overall result is `true`, and the right operand is not evaluated. This is because for the entire expression to be true, only one of the operands needs to be true. If the left one is already true, the whole expression is true.  
+  
+```javascript  
+// Example in JavaScript  
+let result = true || someFunction(); // someFunction() won't be called  
+```  
+  
+Short-circuit evaluation is a valuable optimization technique, especially when dealing with conditions that involve costly operations or function calls. It helps improve efficiency by avoiding unnecessary evaluations when the result is already determined based on the evaluation of a part of the expression.
 
 ```javascript
 Name = Name || bob

@@ -6,19 +6,21 @@ tags:
   - systemDesign
 author:
   - jacgit18
-Status: refinement
+Status: Refinement
 Started: 
 EditDate: 
-Relates:
+Relates: 
+Comments:
 ---
 ![[System Scaling.png]]
 # Horizontal scaling  
 
-Horizontal scaling (aka scaling out) refers to adding additional nodes or machines to your infrastructure to cope with new demands. If you are hosting an application on a server and find that it no longer has the capacity or capabilities to handle traffic, adding a server may be your solution. 
+Horizontal scaling (aka scaling out) refers to adding additional nodes or machines to your infrastructure more specifically adding more instances of the application to distribute the workload and cope with new demands. If you are hosting an application on a server and find that it no longer has the capacity or capabilities to handle traffic, adding a server may be your solution. 
 
 It is quite similar to delegating workload among several employees instead of one. However, the downside of this may be the added complexity of your operation. You must decide which machine does what and how your new machines work with your old machines.  
 
-You can consider this the opposite of vertical scaling. 
+**Example**: When a popular website experiences high traffic, it can horizontally scale by deploying multiple web server instances behind a load balancer, ensuring that each instance shares the incoming requests.  
+
 
 ## Advantages of horizontal scaling 
 
@@ -26,7 +28,7 @@ Scaling is easier from a hardware perspective - All horizontal scaling requires 
 
 Fewer periods of downtime - Because you’re adding a machine, you don’t have to switch the old machine off while scaling. If done effectively, there may never be a need for downtime and clients are less likely to be impacted. 
 
-Increased resilience and fault tolerance - Relying on a single node for all your data and operations puts you at a high risk of losing it all when it fails. Distributing it among several nodes saves you from losing it all.  
+Increased resilience and [[Fault tolerance]] - Relying on a single node for all your data and operations puts you at a high risk of losing it all when it fails. Distributing it among several nodes saves you from losing it all.  
 
 Increased performance - If you are using horizontal scaling to manage your network traffic, it allows for more endpoints for connections, considering that the load will be delegated among multiple machines.    
 
@@ -35,6 +37,20 @@ Increased performance - If you are using horizontal scaling to manage your netwo
 Increased complexity of maintenance and operation - Multiple servers are harder to maintain than a single server is. Additionally, you will need to add software for load balancing and possibly virtualization. Backing up your machines may also become a little more complex. You will need to ensure that nodes synchronize and communicate effectively.  
 
 Increased Initial costs - Adding new servers is far more expensive than upgrading old ones.    
+
+
+## Horizontal Scaling Relationship with Concurrency
+
+Concurrency and horizontal scaling are related but distinct concepts in the context of handling increased workloads in software applications. Here's the difference between the two:  
+
+- **Definition**: Concurrency refers to an application's ability to execute multiple tasks or processes simultaneously. It's about efficiently managing and executing multiple tasks concurrently within a single instance of the application.  
+  
+- **Key Points**:  
+- Concurrency is often achieved through techniques like multi-threading or asynchronous programming.  
+- It's essential for maximizing the utilization of available system resources and improving responsiveness.  
+- Concurrency primarily deals with optimizing the performance of a single instance of the application.  
+  
+- **Example**: In a web server, concurrency is the ability to handle multiple incoming HTTP requests simultaneously by efficiently managing and processing them concurrently within the same server instance.  
 
 # Vertical scaling  
 
@@ -65,8 +81,20 @@ Less complicated maintenance - Not only is maintenance cheaper but it is less co
 Less need for software changes - You are less likely to change how the software on a server works or how it is implemented.
 
 
+## Vertical Scaling Relationship with Concurrency 
 
-# Microservice Scaling
+- Vertical scaling can indirectly impact concurrency. By increasing the resources of a single machine, you can potentially handle a higher level of concurrency because the machine has more processing power and memory to manage multiple tasks simultaneously.  
+  
+- However, vertical scaling has its limitations, and there comes a point where further increases in resources on a single machine may not be cost-effective or practical. At that stage, horizontal scaling (adding more machines) may become a more viable option.  
+  
+**Considerations:**  
+- **Concurrency Management:** Even with vertical scaling, effective concurrency management strategies are essential. This involves proper thread or process handling, synchronization, and resource allocation to ensure efficient utilization of the available resources.  
+  
+- **Scalability Strategies:** Systems often employ a combination of vertical and horizontal scaling strategies to achieve both increased resource capacity and enhanced concurrency handling. The choice depends on the specific requirements and constraints of the application.  
+
+
+
+# Microservice Scaling 
 At a higher scope, in terms of microservices, you can apply both vertical and horizontal scaling as well. Vertical scaling might involve optimizing the performance of a single microservice, while horizontal scaling can involve deploying multiple instances of a microservice to handle increased loads. This is a common approach in microservices architectures to achieve scalability and fault tolerance.
 
 

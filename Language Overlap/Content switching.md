@@ -27,8 +27,6 @@ Content switching is an essential mechanism in modern multitasking operating sys
 
 
 
-
-
 ## Flash
 #contextSwitchFlash
 What's a context switch;;context switch allows programmers to store the current state of a thread. 

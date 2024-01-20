@@ -16,5 +16,5 @@ Comments: This documentation discusses
 |  |  |  |  |
 
 
-![[Job Tracker]]
+![[Companies/Job Tracker]]
 

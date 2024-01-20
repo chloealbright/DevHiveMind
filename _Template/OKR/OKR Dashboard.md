@@ -83,13 +83,5 @@ FROM
 ```
 
 
-TABLE View 
-LIST View
 
-
-
-```dataview
-
-
-```
 

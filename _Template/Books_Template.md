@@ -18,10 +18,10 @@ Relates:
 rating: 
 pdf: '"[Book PDF](pdfs/book_filename.pdf)"'
 ---
-```
+
 ![cover|150]({{coverUrl}})
 
 
-```
+
 
 # {{title}}

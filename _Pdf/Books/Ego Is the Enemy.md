@@ -15,7 +15,7 @@ Started:
 DateFinished: 
 Comments: This documentation discusses
 Relates: 
-rating:
+rating: ⭐⭐⭐⭐
 ---
 
 ![cover|150](http://books.google.com/books/content?id=j0GXCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api)

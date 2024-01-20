@@ -10,10 +10,7 @@ Comments: This documentation discusses
 ---
 
 ```dataview
-
 LIST 
 FROM
-[[_Pdf/Books]]
-
-```
+[[Book Dir]]
 

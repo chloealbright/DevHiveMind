@@ -72,3 +72,16 @@ for(let page of dv.pages('"System Design Thought Process Flow"').where(p=>p.Edit
 
 renderHeatmapCalendar(this.container, calendarData)
 ```
+
+
+```dataviewjs
+
+LIST 
+FROM
+#CodebaseDecision 
+
+```
+
+
+TABLE View 
+LIST View

@@ -39,6 +39,7 @@ When considering the features of your design, prioritize a forward-thinking appr
 
 ### Overall Architecture
   - Identify major components: physical or virtual servers, databases, [[Caches]],,  [[Messaging systems]], *monitoring/logging for metrics*, and [[Benefits of cloud |cloud infrastructure]] talking about cloud  in terms of outsourcing functionality or infrastructure using different service architecture ranging from IAAS to SAAS.
+  
 **Maybe refine a little more **
   - Networking components such as routers, [[Load Balancer]], firewalls, and Content Delivery Networks ([[Content Delivery Network |CDN]]) play a crucial role in ensuring that data is transmitted efficiently between clients and servers. Load balancers distribute incoming traffic to multiple servers for load distribution and redundancy.
   - Security measures like firewalls, intrusion detection systems, encryption, and access control mechanisms are part of the Infrastructure layer to protect the application from various security threats, including unauthorized access, data breaches, and DDoS attacks.
@@ -60,9 +61,10 @@ When considering the features of your design, prioritize a forward-thinking appr
 
   
 
-#### Scaling stuff to reference  or merge together somewhere
 
-- Talk about centralized systems in comparison to decentralized systems which is mostly covered here need to research more into 
+#todo/Low/Research
+- [ ] Talk about centralized systems in comparison to decentralized systems which is mostly covered here need to research more into 
+
 
 
 ### Step 3: Wrap Up(3 - 5 minutes)

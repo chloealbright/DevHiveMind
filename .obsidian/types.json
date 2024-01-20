@@ -6,6 +6,7 @@
     "EditDate": "date",
     "Started": "date",
     "author": "multitext",
-    "Relates": "text"
+    "Relates": "text",
+    "publish": "text"
   }
 }

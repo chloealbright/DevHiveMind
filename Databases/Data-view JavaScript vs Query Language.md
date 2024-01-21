@@ -10,6 +10,8 @@ Comments: This documentation discusses
 ---
 DataView.js is a JavaScript library that allows you to work with data efficiently. In DataView.js, query types refer to different methods of retrieving and manipulating data. The two main query types are:
 
+![[2024-01-20 22.54.38 www.youtube.com d4a174dde6e8.png]]
+
 1. **DataView Query Language (DVQL):**
    - DVQL is a domain-specific query language designed for interacting with DataView.js.
    - It provides a structured way to express queries on the underlying data.

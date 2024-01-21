@@ -5,7 +5,7 @@ author:
 Status: 
 Started: 
 EditDate: 
-Relates: 
+Relates: "[[Heuristic]]"
 Comments: Refining to find optimal order of operations in terms of thought for solving a problem .
 ---
 

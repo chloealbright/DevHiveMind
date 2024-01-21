@@ -9,7 +9,7 @@
     "Relates": "text",
     "publish": "text",
     "DateFinished": "date",
-    "Status": "checkbox",
+    "Status": "text",
     "Read": "checkbox"
   }
 }

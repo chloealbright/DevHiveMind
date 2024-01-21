@@ -20,6 +20,5 @@ Table author as Author, pdf, ("![|30](" + cover + ")") as Cover, pages, category
 
 
 ```dataview
-Table tester from "_Pdf/Books/" where file.name.fileExtension == "pdf"
-
+Table tester from outgoing([[Book Dir]])
 ```

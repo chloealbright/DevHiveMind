@@ -10,7 +10,7 @@ publishdate: "{{publishDate}}"
 pages: "{{totalPage}}"
 isbn: "{{isbn10}} {{isbn13}}"
 cover: "{{coverUrl}}"
-Status: Unread
+Read: 
 Started: 
 DateFinished: 
 Comments: This documentation discusses

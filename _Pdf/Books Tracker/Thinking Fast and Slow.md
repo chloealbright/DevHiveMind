@@ -10,7 +10,7 @@ publishdate: 2011-10-25
 pages: "511"
 isbn: 1429969350 9781429969352
 cover: http://books.google.com/books/content?id=ZuKTvERuPG8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
-Status: Unread
+Read: 
 Started: 
 DateFinished: 
 Comments: 

@@ -10,7 +10,7 @@ publishdate: 2020-12-06
 pages: "276"
 isbn: "9798664653403"
 cover: http://books.google.com/books/content?id=TZWmzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api
-Status: Unread
+Read: 
 Started: 
 DateFinished: 
 Comments: 

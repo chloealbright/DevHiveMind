@@ -8,6 +8,8 @@
     "author": "multitext",
     "Relates": "text",
     "publish": "text",
-    "DateFinished": "date"
+    "DateFinished": "date",
+    "Status": "checkbox",
+    "Read": "checkbox"
   }
 }

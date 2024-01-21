@@ -18,5 +18,6 @@ Relates:
 rating: ⭐⭐⭐⭐
 pdf: "[[System Design Interview An Insider’s Guide.pdf]]"
 Priority: High
+Status: Unread
 ---
 ![cover|150](http://books.google.com/books/content?id=TZWmzQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api)

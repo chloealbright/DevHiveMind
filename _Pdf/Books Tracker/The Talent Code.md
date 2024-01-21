@@ -18,6 +18,7 @@ Relates:
 rating: ⭐⭐⭐⭐⭐
 pdf: "[[The Talent Code Greatness Isn_t Born.pdf]]"
 Priority: High
+Status: Unread
 ---
 
 ![cover|150](http://books.google.com/books/content?id=gIHSN-ht0xQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api)

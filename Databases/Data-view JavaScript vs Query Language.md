@@ -57,17 +57,14 @@ renderHeatmapCalendar(this.container, calendarData)
 
 - **Integration:** JavaScript API allows seamless integration with other JavaScript code and libraries. DVQL, being a specific query language, may have limitations in terms of integration with non-DataView.js code.
 
-   ``` dataview
+   ``` dataviewEXAMPLE
    TASK/ LIST field1 /TABLE field1, field2, fieldn
    FROM // Source ""/#
-   WHERE
-   FLATTEN field AS F
-   WHERE
-   GROUP BY
-   sort some_column
+   WHERE // if condition
+   FLATTEN field AS F // Metadata manipulation
+   WHERE // if condition the flattened array
+   GROUP BY // Grouping
+   SORT // Sorting
    ```
-
-
-![[2024-01-20 22.54.38 www.youtube.com d4a174dde6e8.png]]
 
 In summary, DataView Query Language (DVQL) provides a specialized syntax for data queries within DataView.js, while the DataView JavaScript API allows you to interact with DataView.js using JavaScript code, offering more flexibility but potentially requiring more verbosity.

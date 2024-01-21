@@ -49,7 +49,7 @@ placeholder
 
 --- end-multi-column
 
-
+## Update base it on folder arch and chloe word doc in terms of study regimen 
 
 ```dataviewjs
 dv.span("**🏋️ Exercise 🏋️**")
@@ -76,7 +76,7 @@ renderHeatmapCalendar(this.container, calendarData)
 
 ```dataview
 
-LIST 
+table 
 FROM
 #CodebaseDecision 
 

@@ -1,6 +1,3 @@
----
-publish: false 
----
 
 # {{date:dddd, MMMM D, YYYY}}
 ## Direction

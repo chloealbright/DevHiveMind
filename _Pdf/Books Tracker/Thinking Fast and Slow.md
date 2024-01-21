@@ -4,19 +4,19 @@ tags:
 title: '"Thinking, Fast and Slow"'
 author:
   - "[Daniel Kahneman]"
-category: "Psychology"
-publisher: "Farrar, Straus and Giroux"
-publishdate: "2011-10-25"
+category: Psychology
+publisher: Farrar, Straus and Giroux
+publishdate: 2011-10-25
 pages: "511"
-isbn: "1429969350 9781429969352"
-cover: "http://books.google.com/books/content?id=ZuKTvERuPG8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+isbn: 1429969350 9781429969352
+cover: http://books.google.com/books/content?id=ZuKTvERuPG8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api
 Status: Unread
 Started: 
 DateFinished: 
 Comments: This documentation discusses
 Relates: 
 rating: 
-pdf: '"[Book PDF](pdfs/book_filename.pdf)"'
+pdf: "[[Thinking, Fast and Slow by Daniel Kahneman (z-lib.org).pdf]]"
 ---
 
 ![cover|150](http://books.google.com/books/content?id=ZuKTvERuPG8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api)
@@ -24,4 +24,3 @@ pdf: '"[Book PDF](pdfs/book_filename.pdf)"'
 
 
 
-# Thinking, Fast and Slow

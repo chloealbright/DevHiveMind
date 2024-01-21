@@ -17,6 +17,7 @@ Comments:
 Relates: 
 rating: ⭐⭐⭐⭐
 pdf: "[[Thinking, Fast and Slow.pdf]]"
+Priority: High
 ---
 ![cover|150](http://books.google.com/books/content?id=ZuKTvERuPG8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api)
 

@@ -73069,7 +73069,7 @@ var DEFAULT_SETTINGS = {
   defaultModelDisplayName: "GPT-4 TURBO" /* GPT_4_TURBO */,
   temperature: 0.1,
   maxTokens: 1e3,
-  contextTurns: 3,
+  contextTurns: 15,
   userSystemPrompt: "",
   openAIProxyBaseUrl: "",
   ollamaModel: "llama2",
@@ -73141,6 +73141,18 @@ function sanitizeSettings(settings) {
   const contextTurns = Number(settings.contextTurns);
   sanitizedSettings.contextTurns = isNaN(contextTurns) ? DEFAULT_SETTINGS.contextTurns : contextTurns;
   return sanitizedSettings;
+}
+function sendNoteContentPrompt(noteName, noteContent) {
+  return `Please read the note below and be ready to answer questions about it. If there's no information about a certain topic, just say the note does not mention it. The content of the note is between "/***/":
+
+/***/
+
+${noteContent}
+
+/***/
+
+Please reply with the following word for word:"OK I've read this note titled [[ ${noteName} ]]. Feel free to ask related questions, such as 'give me a summary of this note in bullet points', 'what key questions does it answer', etc. "
+`;
 }
 function fixGrammarSpellingSelectionPrompt(selectedText) {
   return `Please fix the grammar and spelling of the following text and return it without any other changes:
@@ -78298,7 +78310,7 @@ var _AIState = class {
     this.langChainParams.options.noteContent = noteContent;
   }
   initChatPrompt() {
-    this.chatPrompt = ChatPromptTemplate.fromPromptMessages([
+    this.chatPrompt = ChatPromptTemplate.fromMessages([
       SystemMessagePromptTemplate.fromTemplate(
         this.langChainParams.systemMessage
       ),
@@ -78610,7 +78622,6 @@ var _AIState = class {
           });
         }
         this.langChainParams.chainType = "llm_chain" /* LLM_CHAIN */;
-        console.log("Set chain:", "llm_chain" /* LLM_CHAIN */);
         break;
       }
       case "retrieval_qa" /* RETRIEVAL_QA_CHAIN */: {
@@ -78721,8 +78732,9 @@ ${chatMessage.message}`
     updateCurrentAiMessage("");
     return fullAIResponse;
   }
-  async runChain(userMessage, abortController, updateCurrentAiMessage, addMessage, debug3 = false) {
+  async runChain(userMessage, abortController, updateCurrentAiMessage, addMessage, options = {}) {
     var _a3, _b;
+    const { debug: debug3 = false, ignoreSystemMessage = false } = options;
     if (!this.validateChatModel(_AIState.chatModel)) {
       const errorMsg = "Chat model is not initialized properly, check your API key in Copilot setting and make sure you have API access.";
       new import_obsidian.Notice(errorMsg);
@@ -78743,6 +78755,19 @@ ${chatMessage.message}`
       chatContextTurns,
       chainType
     } = this.langChainParams;
+    const systemPrompt = ignoreSystemMessage ? "" : systemMessage;
+    if (ignoreSystemMessage) {
+      const effectivePrompt = ignoreSystemMessage ? ChatPromptTemplate.fromMessages([
+        new MessagesPlaceholder("history"),
+        HumanMessagePromptTemplate.fromTemplate("{input}")
+      ]) : this.chatPrompt;
+      this.setChain(chainType, {
+        ...this.langChainParams.options,
+        prompt: effectivePrompt
+      });
+    } else {
+      this.setChain(chainType, this.langChainParams.options);
+    }
     let fullAIResponse = "";
     const chain = _AIState.chain;
     try {
@@ -78756,7 +78781,7 @@ model: ${chain.llm.modelName || chain.llm.model}
 chain type: ${chainType}
 temperature: ${temperature}
 maxTokens: ${maxTokens}
-system message: ${systemMessage}
+system prompt: ${systemPrompt}
 chat context turns: ${chatContextTurns}
 `
             );
@@ -78787,7 +78812,7 @@ model: ${chain.llm.modelName}
 chain type: ${chainType}
 temperature: ${temperature}
 maxTokens: ${maxTokens}
-system message: ${systemMessage}
+system prompt: ${systemPrompt}
 chat context turns: ${chatContextTurns}
 `
             );
@@ -79093,6 +79118,7 @@ var UseActiveNoteAsContextIcon = ({ className }) => /* @__PURE__ */ import_react
   },
   /* @__PURE__ */ import_react2.default.createElement("path", { d: "M19.439 7.85c-.049.322.059.648.289.878l1.568 1.568c.47.47.706 1.087.706 1.704s-.235 1.233-.706 1.704l-1.611 1.611a.98.98 0 0 1-.837.276c-.47-.07-.802-.48-.968-.925a2.501 2.501 0 1 0-3.214 3.214c.446.166.855.497.925.968a.979.979 0 0 1-.276.837l-1.61 1.61a2.404 2.404 0 0 1-1.705.707 2.402 2.402 0 0 1-1.704-.706l-1.568-1.568a1.026 1.026 0 0 0-.877-.29c-.493.074-.84.504-1.02.968a2.5 2.5 0 1 1-3.237-3.237c.464-.18.894-.527.967-1.02a1.026 1.026 0 0 0-.289-.877l-1.568-1.568A2.402 2.402 0 0 1 1.998 12c0-.617.236-1.234.706-1.704L4.23 8.77c.24-.24.581-.353.917-.303.515.077.877.528 1.073 1.01a2.5 2.5 0 1 0 3.259-3.259c-.482-.196-.933-.558-1.01-1.073-.05-.336.062-.676.303-.917l1.525-1.525A2.402 2.402 0 0 1 12 1.998c.617 0 1.234.236 1.704.706l1.568 1.568c.23.23.556.338.877.29.493-.074.84-.504 1.02-.968a2.5 2.5 0 1 1 3.237 3.237c-.464.18-.894.527-.967 1.02Z" })
 );
+var SendActiveNoteToPromptIcon = ({ className }) => /* @__PURE__ */ import_react2.default.createElement("svg", { xmlns: "http://www.w3.org/2000/svg", width: "24", height: "24", viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: "2", strokeLinecap: "round", strokeLinejoin: "round", className }, /* @__PURE__ */ import_react2.default.createElement("circle", { cx: 12, cy: 12, r: 10 }), /* @__PURE__ */ import_react2.default.createElement("path", { d: "m16 12-4-4-4 4M12 16V8" }));
 
 // src/components/ChatComponents/ChatIcons.tsx
 var import_react4 = __toESM(require_react());
@@ -79104,6 +79130,7 @@ var ChatIcons = ({
   onStopGenerating,
   onNewChat,
   onSaveAsNote,
+  onSendActiveNoteToPrompt,
   onForceRebuildActiveNoteContext,
   addMessage
 }) => {
@@ -79134,7 +79161,11 @@ var ChatIcons = ({
       const noteName = getFileName(file);
       const activeNoteOnMessage = {
         sender: AI_SENDER,
-        message: `OK Feel free to ask me questions about [[${noteName}]].`,
+        message: `OK Feel free to ask me questions about [[${noteName}]]. 
+
+Please note that this is a retrieval-based QA for notes longer than the model context window. Specific questions are encouraged. For generic questions like 'give me a summary', 'brainstorm based on the content', Chat mode with *Send Note to Prompt* button used with a *long context model* is a more suitable choice. 
+
+(This mode will be upgraded to work on the entire vault next)`,
         isVisible: true
       };
       addMessage(activeNoteOnMessage);
@@ -79173,9 +79204,9 @@ var ChatIcons = ({
       value: currentChain,
       onChange: handleChainChange
     },
-    /* @__PURE__ */ import_react4.default.createElement("option", { value: "llm_chain" }, "Conversation"),
-    /* @__PURE__ */ import_react4.default.createElement("option", { value: "retrieval_qa" }, "QA: Active Note")
-  ), /* @__PURE__ */ import_react4.default.createElement("span", { className: "tooltip-text" }, "Mode Selection"))), /* @__PURE__ */ import_react4.default.createElement("button", { className: "chat-icon-button", onClick: onForceRebuildActiveNoteContext }, /* @__PURE__ */ import_react4.default.createElement(UseActiveNoteAsContextIcon, { className: "icon-scaler" }), /* @__PURE__ */ import_react4.default.createElement("span", { className: "tooltip-text" }, "Rebuild Index for Active Note")));
+    /* @__PURE__ */ import_react4.default.createElement("option", { value: "llm_chain" }, "Chat"),
+    /* @__PURE__ */ import_react4.default.createElement("option", { value: "retrieval_qa" }, "QA")
+  ), /* @__PURE__ */ import_react4.default.createElement("span", { className: "tooltip-text" }, "Mode Selection"))), selectedChain === "llm_chain" && /* @__PURE__ */ import_react4.default.createElement("button", { className: "chat-icon-button", onClick: onSendActiveNoteToPrompt }, /* @__PURE__ */ import_react4.default.createElement(SendActiveNoteToPromptIcon, { className: "icon-scaler" }), /* @__PURE__ */ import_react4.default.createElement("span", { className: "tooltip-text" }, "Send Active Note to Prompt", /* @__PURE__ */ import_react4.default.createElement("br", null), "(use with long context models)")), selectedChain === "retrieval_qa" && /* @__PURE__ */ import_react4.default.createElement("button", { className: "chat-icon-button", onClick: onForceRebuildActiveNoteContext }, /* @__PURE__ */ import_react4.default.createElement(UseActiveNoteAsContextIcon, { className: "icon-scaler" }), /* @__PURE__ */ import_react4.default.createElement("span", { className: "tooltip-text" }, "Rebuild Index for Active Note")));
 };
 var ChatIcons_default = ChatIcons;
 
@@ -79191,7 +79222,6 @@ var ChatInput = ({
   const [rows, setRows] = (0, import_react5.useState)(1);
   const [shouldFocus, setShouldFocus] = (0, import_react5.useState)(false);
   const textAreaRef = (0, import_react5.useRef)(null);
-  ;
   const handleInputChange = (event) => {
     setInputMessage(event.target.value);
     updateRows(event.target.value);
@@ -87806,7 +87836,7 @@ var AppContext = React8.createContext(void 0);
 
 // src/langchainStream.ts
 var import_obsidian4 = require("obsidian");
-var getAIResponse = async (userMessage, chatContext, aiState, addMessage, updateCurrentAiMessage, updateShouldAbort, debug3 = false) => {
+var getAIResponse = async (userMessage, chatContext, aiState, addMessage, updateCurrentAiMessage, updateShouldAbort, options = {}) => {
   const abortController = new AbortController();
   updateShouldAbort(abortController);
   try {
@@ -87815,7 +87845,7 @@ var getAIResponse = async (userMessage, chatContext, aiState, addMessage, update
       abortController,
       updateCurrentAiMessage,
       addMessage,
-      debug3
+      options
     );
   } catch (error) {
     console.error("Model request failed:", error);
@@ -87907,7 +87937,7 @@ var Chat3 = ({
       addMessage,
       setCurrentAiMessage,
       setAbortController,
-      debug3
+      { debug: debug3 }
     );
   };
   const handleKeyDown = (event) => {
@@ -87938,6 +87968,47 @@ var Chat3 = ({
       console.error("Error saving chat as note:", error);
     }
   };
+  const handleSendActiveNoteToPrompt = async () => {
+    if (!app2) {
+      console.error("App instance is not available.");
+      return;
+    }
+    const file = app2.workspace.getActiveFile();
+    if (!file) {
+      new import_obsidian5.Notice("No active note found.");
+      console.error("No active note found.");
+      return;
+    }
+    const noteContent = await getFileContent(file);
+    const noteName = getFileName(file);
+    if (!noteContent) {
+      new import_obsidian5.Notice("No note content found.");
+      console.error("No note content found.");
+      return;
+    }
+    const promptMessageHidden = {
+      message: sendNoteContentPrompt(noteName, noteContent),
+      sender: USER_SENDER,
+      isVisible: false
+    };
+    const sendNoteContentUserMessage = `Please read this note [[${noteName}]] and be ready to answer questions about it.`;
+    const promptMessageVisible = {
+      message: sendNoteContentUserMessage,
+      sender: USER_SENDER,
+      isVisible: true
+    };
+    addMessage(promptMessageVisible);
+    addMessage(promptMessageHidden);
+    await getAIResponse(
+      promptMessageHidden,
+      chatContext,
+      aiState,
+      addMessage,
+      setCurrentAiMessage,
+      setAbortController,
+      { debug: debug3 }
+    );
+  };
   const forceRebuildActiveNoteContext = async () => {
     if (!app2) {
       console.error("App instance is not available.");
@@ -87960,9 +88031,9 @@ var Chat3 = ({
     await aiState.buildIndex(noteContent, docHash);
     const activeNoteOnMessage = {
       sender: AI_SENDER,
-      message: `Reading [[${noteName}]]...
+      message: `Indexing [[${noteName}]]...
 
- Please switch to "QA: Active Note" in Mode Selection to ask questions about it.`,
+ Please switch to "QA" in Mode Selection to ask questions about it.`,
       isVisible: true
     };
     if (currentChain === "retrieval_qa" /* RETRIEVAL_QA_CHAIN */) {
@@ -87997,7 +88068,12 @@ var Chat3 = ({
   }, []);
   const createEffect = (eventType, promptFn, options = {}) => {
     return () => {
-      const { custom_temperature, isVisible = false } = options;
+      const {
+        custom_temperature,
+        isVisible = false,
+        ignoreSystemMessage = true
+        // Ignore system message by default for commands
+      } = options;
       const handleSelection = async (selectedText, eventSubtype) => {
         const promptMessage = {
           message: promptFn(selectedText, eventSubtype),
@@ -88018,7 +88094,10 @@ var Chat3 = ({
           addMessage,
           setCurrentAiMessage,
           setAbortController,
-          debug3
+          {
+            debug: debug3,
+            ignoreSystemMessage
+          }
         );
       };
       emitter.on(eventType, handleSelection);
@@ -88098,6 +88177,7 @@ var Chat3 = ({
         clearCurrentAiMessage();
       },
       onSaveAsNote: handleSaveAsNote,
+      onSendActiveNoteToPrompt: handleSendActiveNoteToPrompt,
       onForceRebuildActiveNoteContext: forceRebuildActiveNoteContext,
       addMessage
     }
@@ -88581,7 +88661,7 @@ var CopilotSettingTab = class extends import_obsidian10.PluginSettingTab {
       })
     );
     containerEl.createEl("h4", { text: "Vector-based QA Settings (Beta). No context limit!" });
-    containerEl.createEl("p", { text: 'To start the QA session, use the Mode Selection dropdown and select "QA: Active Note". Switch back to "Conversation" when you are done!' });
+    containerEl.createEl("p", { text: 'To start the QA session, use the Mode Selection dropdown and select "QA". Switch back to "Chat" when you are done!' });
     containerEl.createEl(
       "p",
       {

@@ -64,7 +64,7 @@ const calendarData = {
     entries: []
 }
 
-for(let page of dv.pages('"DevBrain "').where(p=>p.EditDate)){
+for(let page of dv.pages('"Folder"').where(p=>p.EditDate)){
     calendarData.entries.push({
         date: page.file.name,
         intensity: page.EditDate,

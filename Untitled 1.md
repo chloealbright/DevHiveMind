@@ -37,15 +37,8 @@
 - Collaboration skills
 - Contribution to team goals
 
-### 5. Structured Format:
-#### Question 5:
-- *Walk us through your approach to handling technical challenges in banking operations, ensuring a structured and efficient resolution.*
 
-#### Behavioral Indicators:
-- Structured problem-solving
-- Efficiency in handling challenges
-
-### 6. Job-related Scenarios:
+### 6. Job-related/Star Scenarios:
 #### Question 6:
 - *Describe a scenario where you had to implement a new banking technology or system. What challenges did you face, and how did you overcome them?*
 

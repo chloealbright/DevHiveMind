@@ -37,13 +37,6 @@
 - Adaptability to new technologies
 - Quick learning ability
 
-### 5. Structured Format:
-#### Question 5:
-- *Walk us through your approach to solving challenges, even if they were not related to banking. How do you ensure a structured resolution?*
-
-#### Behavioral Indicators:
-- Structured problem-solving
-- Efficiency in handling challenges
 
 ### 6. Job-related Scenarios:
 #### Question 6:

@@ -31,7 +31,7 @@ As a Business Systems Analyst (BSA), engaging in purposeful conversations is cri
    
    Pose both contextual and non-contextual questions to extract additional information. For instance, you can introduce queries with phrases like "so, off-topic," allowing for a broader exploration of relevant details.
    
-1. **Privacy Considerations:**
+2. **Privacy Considerations:**
    - Safeguard private information, especially when formulating plans.
    - Be aware of the organizational culture and people's temperament.
    - Assess how the work may impact stakeholders, identifying supporters and non-supporters.

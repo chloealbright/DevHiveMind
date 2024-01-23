@@ -1,3 +1,12 @@
+---
+tags: 
+author: 
+Status: 
+Started: 
+EditDate: 
+Relates: 
+Comments:
+---
 A good Behavioral Interview Assessment should possess the following characteristics:
 
 1. **Relevance:**
@@ -24,7 +33,7 @@ A good Behavioral Interview Assessment should possess the following characterist
 8. **Standardized Evaluation Criteria:**
    - Establish clear criteria for evaluating responses to maintain objectivity and consistency among assessors.
 
-The main goal of a Behavioral Interview Assessment is to:
+### The main goal of a Behavioral Interview Assessment is to:
 
 - **Predict Future Behavior:**
   - Assess how candidates have behaved in the past to predict how they are likely to perform in future situations relevant to the job.

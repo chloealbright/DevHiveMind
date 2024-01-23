@@ -1155,6 +1155,10 @@ details.plug-tg-collapse summary::-webkit-details-marker {
 	margin-top: 0.25rem;
 	margin-bottom: 0.25rem;
 }
+.plug-tg-my-2 {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
 .plug-tg-my-4 {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
@@ -1238,6 +1242,9 @@ details.plug-tg-collapse summary::-webkit-details-marker {
 }
 .plug-tg-h-full {
 	height: 100%;
+}
+.plug-tg-h-px {
+	height: 1px;
 }
 .plug-tg-max-h-16 {
 	max-height: 4rem;
@@ -1473,6 +1480,9 @@ details.plug-tg-collapse summary::-webkit-details-marker {
 	--tw-bg-opacity: 1;
 	background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
+.plug-tg-bg-gray-200\/25 {
+	background-color: rgb(229 231 235 / 0.25);
+}
 .plug-tg-bg-gray-300 {
 	--tw-bg-opacity: 1;
 	background-color: rgb(209 213 219 / var(--tw-bg-opacity));
@@ -1572,6 +1582,9 @@ details.plug-tg-collapse summary::-webkit-details-marker {
 }
 .plug-tg-pl-0 {
 	padding-left: 0px;
+}
+.plug-tg-pr-0 {
+	padding-right: 0px;
 }
 .plug-tg-pr-2 {
 	padding-right: 0.5rem;

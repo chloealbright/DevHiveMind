@@ -41,6 +41,8 @@
 #### Question 5:
 - *Walk us through your approach to addressing technical challenges in operations, ensuring a structured and efficient resolution, drawing from experiences in other industries.*
 
+
+
 #### Behavioral Indicators:
 - Methodical problem-solving
 - Efficiency in handling challenges, regardless of industry

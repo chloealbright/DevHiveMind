@@ -10,7 +10,7 @@ EditDate: 2024-01-16
 Relates: 
 Comments: Still cleaning up this process flow maybe can convert to a mind map or something visual.
 ---
-![[System Design Cheatsheet.gif]]
+![[System design core concepts.gif]]
 ### **Step 1: Understand the Problem and Establish Design Scope (3 - 10 minutes)**
 During this step, it's crucial to clarify the system scope and priorities. For instance, if asked to design an Instagram Reels feature, break down the problem into specific use cases, outlining interactions between system components. Identify key requirements like expected traffic, data volume, latency, and scalability. Inquire about the [[Userbase]] type which can give you insight for things like estimating resources  or  things like governance, like what if user base  is under aged, as this is crucial for scalability considerations. Understand potential constraints and bottlenecks that may arise with a growing user base. This leads to decisions on database considerations, determining whether a NoSQL or SQL database aligns with specific needs and the nature of the data.
 #### [[Use Case vs User Story |User Story]] Example:
@@ -40,6 +40,7 @@ When considering the features of your design, prioritize a forward-thinking appr
 
 ### Overall Architecture
   - Identify major components: physical or virtual servers, databases, [[Caches]],,  [[Messaging systems]], *monitoring/logging for metrics*, and [[Benefits of cloud |cloud infrastructure]] talking about cloud  in terms of outsourcing functionality or infrastructure using different service architecture ranging from IAAS to SAAS.
+  - If your thinking of other [[Architectural Styles]] identify it then go into it.
   
 **Maybe refine a little more **
   - Networking components such as routers, [[Load Balancer]], firewalls, and Content Delivery Networks ([[Content Delivery Network |CDN]]) play a crucial role in ensuring that data is transmitted efficiently between clients and servers. Load balancers distribute incoming traffic to multiple servers for load distribution and redundancy.

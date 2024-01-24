@@ -5,7 +5,7 @@ author:
 Status: Capture
 Started: 2023-12-12
 EditDate: 
-Relates:
+Relates: "[[Business Requirements Life cycle]]"
 ---
 1. **Gathering Requirements:**
    - **Objective:** Understand and document the needs and expectations of stakeholders.
@@ -24,7 +24,7 @@ Relates:
 
 4. **User Stories:**
    - **Objective:** Further break down epics into user-centric, actionable tasks.
-   - **Methods:** Collaborate with stakeholders to create user stories using the "As a [user], I want [action], so that [benefit]" format.
+   - **Methods:** Collaborate with stakeholders to create user stories using the "As a `[user]`, I want `[action]`, so that `[benefit]`" format.
    - **Output:** User stories, providing a detailed perspective on end-user requirements.
 
 5. **Defining Acceptance Criteria:**

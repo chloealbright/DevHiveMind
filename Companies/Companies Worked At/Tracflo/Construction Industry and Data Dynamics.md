@@ -13,7 +13,6 @@ In the construction industry, a complex network of relationships exists among va
 
 1. **Company Hierarchy:**
    - Construction companies often hire General Contractors (GC) to oversee and manage construction projects.
-   - 
 
 2. **Role of General Contractors:**
    - General Contractors play a pivotal role in project management, organizing jobsites, and overseeing the construction schedule.

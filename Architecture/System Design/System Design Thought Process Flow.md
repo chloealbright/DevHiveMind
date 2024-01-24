@@ -28,7 +28,7 @@ When considering the features of your design, prioritize a forward-thinking appr
 
 *Delve into the design by following the flow from Database to Server/Services (Architecture) to Client Side design.
 
-
+more info read [[System Design Interview An Insider’s Guide.pdf]] and notes on this book [[System Design Interview - An Insider's Guide Second Edition]]
 ### Database Architecture
   - Create an Entity Relationship Diagram (ERD) to define relationships.
   - Consider SQL for structured data and NoSQL for unstructured data.

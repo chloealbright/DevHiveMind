@@ -9,12 +9,20 @@ EditDate:
 Relates:
 ---
 ## The Next Job
+fintech series A
+
 
 
 ## And the Next One 
 
 
 ## And the Next One... 
+Data first
+
+transferable skills highlight states 
+
+scenario around explaining something technical to non technical audience  
+
 
 
 ## TD Bank - Business Systems Analyst 

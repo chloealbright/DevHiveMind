@@ -54,6 +54,8 @@ console.log(memoizedExpensiveOperation(3, 4)); // This result will be retrieved 
 console.log(memoizedExpensiveOperation(5, 6)); // This result will be cached separately
 ```
 
+![[FibClosureMemiozation.png]]
+
 With memoization, you can save the results of expensive function calls and retrieve them quickly when the same inputs occur again, reducing computation time and improving overall performance.
 
 

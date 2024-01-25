@@ -8,6 +8,8 @@ EditDate:
 Relates:
 ---
 Dynamic programming is a powerful technique used in computer science and mathematics to solve optimization problems by breaking them down into smaller overlapping subproblems. There are several common dynamic programming patterns that are frequently used to design efficient algorithms. Here are some of the key dynamic programming patterns:  
+
+![[fibBottomUpDPForward vs fibBottomUpDPBackward.png]]
   
 1. **Memoization (Top-Down):**  
 - In this approach, you solve the problem recursively, but you store the results of subproblems in a data structure (usually a dictionary or an array) to avoid redundant computations.  

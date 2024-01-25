@@ -46,3 +46,5 @@ Data scientists, product managers, and data analysts play the role of bridging t
 Data Scientist drives a lot of decision being made  
 
 ![[Data jobs Description.png]]![[Data jobs Skillsets.png]]
+
+![[Data AnalystRoadmap.jpeg]]

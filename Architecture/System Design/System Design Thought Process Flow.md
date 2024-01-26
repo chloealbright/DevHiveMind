@@ -39,8 +39,8 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
 
 
 ### Overall Architecture
-  - Identify major components: physical or virtual servers, databases, [[Caches]],,  [[Messaging systems]], *monitoring/logging for metrics*, and [[Benefits of cloud |cloud infrastructure]] talking about cloud  in terms of outsourcing functionality or infrastructure using different service architecture ranging from IAAS to SAAS.
-  - If your thinking of other [[Architectural Styles]] identify it then go into it.
+  - Identify major components: physical or virtual servers, databases, [[Caches]],  [[Messaging systems]], *monitoring/logging for metrics*, and [[Benefits of cloud |cloud infrastructure]] talking about cloud  in terms of outsourcing functionality or infrastructure using different service architecture ranging from IAAS to SAAS.
+  - If your thinking of other [[Architectural Styles]] identify it then talk about it.
   
 **Maybe refine a little more **
   - Networking components such as routers, [[Load Balancer]], firewalls, and Content Delivery Networks ([[Content Delivery Network |CDN]]) play a crucial role in ensuring that data is transmitted efficiently between clients and servers. Load balancers distribute incoming traffic to multiple servers for load distribution and redundancy.
@@ -65,7 +65,7 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
 
 
 #todo/Low/Research
-- [ ] Talk about centralized systems in comparison to decentralized systems which is mostly covered here need to research more into 
+- [ ] Talk about centralized systems in comparison to decentralized systems which is mostly covered here need to research more about centralized systems 
 
 
 

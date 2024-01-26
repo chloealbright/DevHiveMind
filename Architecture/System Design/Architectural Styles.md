@@ -11,7 +11,7 @@ Comments: This documentation discusses
 Some common architectural styles in system design include:
 
 1. **Monolithic Architecture:** A single, unified codebase for the entire application.
-
+ ^3d19b0
 2. **Microservices Architecture:** Breaking down the application into small, independent services that communicate with each other.
 
 3. **Service-Oriented Architecture (SOA):** Designing the system as a collection of services that interact with each other.

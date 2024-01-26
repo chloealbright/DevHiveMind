@@ -38,8 +38,11 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
   - More things to think about when deciding between [[Choosing Database]] you can also talk about [[Database Sharding]]
   - What type of [[Schema Design]] makes sense.
   - You can also talk about [[Master-Slave Database Architecture]]
+  - Talk about [[Data Retention Target]]
   - ????? [[File System Storage]] ??????
 
+### Domain Driven Design(Possible Pathway)
+[[When to use Domain-Driven Design]] still refining domain driven design documentation depending on domain complexity determines weather it is necessary to implement.
 
 ### Overall Architecture
   - Identify major components: physical or virtual servers, databases, [[Caches]],  [[Messaging systems]], *monitoring/logging for metrics*, and [[Benefits of cloud |cloud infrastructure]] talking about cloud  in terms of outsourcing functionality or infrastructure using different service architecture ranging from IAAS to SAAS.

@@ -29,7 +29,7 @@ During this step, it's crucial to clarify the system scope and priorities and ga
 >[!important]
 When considering the features of your design, prioritize a forward-thinking approach that allows for future functionality. Ensure your design is flexible, accommodating potential expansions and enhancements seamlessly. Focus on building a foundation that supports scalability, making it easier to integrate additional features in the future. Think holistically about the design, anticipating potential modifications and advancements, and ensure that the architecture is adaptable to evolving requirements. This foresightedness will contribute to a more sustainable and extensible system over time.
 
-*Delve into the design by following the flow from Database to Server/Services (Architecture) to Client Side design.
+*Delve into the design by following the flow from Database ▶ Server/Services (Architecture) ▶ Client Side design.
 
 For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[System Design Interview - An Insider's Guide Second Edition|System Design notes]] on this book.
 ### Data Design & Database Architecture 
@@ -80,6 +80,7 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
 
 #todo/Low/Research
 - [ ] Talk about centralized systems in comparison to decentralized systems which is mostly covered here need to research more about centralized systems 
+- [ ] Also add stuff around security, testing, maintainability, and user experience to cover the rest of the core concepts of system design.
 
 
 

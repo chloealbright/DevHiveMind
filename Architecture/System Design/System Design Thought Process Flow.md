@@ -46,7 +46,7 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
 
 ### Overall Architecture
   - Identify major components: physical or virtual servers, databases, [[Caches]],  [[Messaging systems]], *monitoring/logging for metrics*, and [[Benefits of cloud |cloud infrastructure]] talking about cloud  in terms of outsourcing functionality or infrastructure using different service architecture ranging from IAAS to SAAS.
-  - If your thinking of other [[Architectural Styles]] identify it then talk about it.
+  - If your thinking of other [[Architectural Styles]] identify it then talk about it like maybe using a  .
   - Talk about selecting components for system from different perspectives like how is the community support or technical documentation around the different technology options.
   - You can also talk tech stack compatibility in the context of planing out a [[Migration Plan]] like sometimes the technologies you start out with don't make sense or you want to manage cost of your system.
   

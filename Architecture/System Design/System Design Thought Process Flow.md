@@ -4,7 +4,7 @@ tags:
   - architecturalParadigm
 author:
   - jacgit18
-Comments: Still cleaning up this process flow maybe can convert to a mind map or something visual.
+Comments: Still cleaning up this documentation I might convert to a mind map or something visual like some type of decision tree.
 Status: Refinement
 Started: 2024-01-04
 EditDate: 2024-01-26
@@ -49,16 +49,17 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
 
 - Depending on the Architectural Styles you then should talk and identify major components of your system like physical or virtual servers, databases, [[Caches]],  [[Messaging systems]], *monitoring/logging for metrics*, and [[Benefits of cloud |cloud infrastructure]] talking about cloud  in terms of outsourcing functionality or infrastructure using different service architecture ranging from IAAS to SAAS.
   
-- Talk about selecting components for system from different perspectives like how is the community support or technical documentation around the different technology options.
+- Talk about selecting components for system from different perspectives like how is the community support or technical documentation around the different technology options also cost.
 
 - You can also talk tech stack compatibility in the context of planing out a [[Migration Plan]] like sometimes the technologies you start out with don't make sense or you want to manage cost of your system.
   
-**Maybe refine a little more **
-  - Networking components such as routers, [[Load Balancer]], firewalls, and Content Delivery Networks ([[Content Delivery Network |CDN]]) play a crucial role in ensuring that data is transmitted efficiently between clients and servers. Load balancers distribute incoming traffic to multiple servers for load distribution and redundancy.
-  - Security measures like firewalls, intrusion detection systems, encryption, and access control mechanisms are part of the Infrastructure layer to protect the application from various security threats, including unauthorized access, data breaches, and DDoS attacks.
-  - **Compliance and Governance**: Infrastructure may include tools and processes to enforce compliance with regulatory requirements and organizational policies, ensuring data security and legal compliance.
 
-  - Discuss trade-offs between performance, scalability, and cost.
+- Networking components such as routers, [[Load Balancer]], firewalls, and Content Delivery Networks ([[Content Delivery Network |CDN]]) play a crucial role in ensuring that data is transmitted efficiently between clients and servers. Load balancers distribute incoming traffic to multiple servers for load distribution and redundancy.
+  
+- Security measures like firewalls, intrusion detection systems, encryption, and access control mechanisms are part of the Infrastructure layer to protect the application from various security threats, including unauthorized access, data breaches, and DDoS attacks.
+  
+- **Compliance and Governance**: Infrastructure may include tools and processes to enforce compliance with regulatory requirements and organizational policies, ensuring data security and legal compliance.
+
   - Maybe CI/CD stuff
   - Consider the use of APIs for certain functionalities.
   - Discuss [[Stateless & Statefull Processes |Stateless vs Statefull]] application or process.
@@ -66,10 +67,12 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
   - Making [[Event-driven Architectural Pattern Decisions]].
 
 ### Scalability and Performance
-  - Distribute traffic across server pools for different types of traffic.
+  - Distribute traffic across server pools for different types of traffic. talk about different trade-offs.
+  
   - Implement local cache for improved response time.
 
   - You can talk about [[Vertical vs Horizontal Scaling]] in the context of database servers and instances of your application along with any microservices if you include that in your codebase architecture. Side note scaling can fall under Admin functionality weather that is resource scaling in a cloud environment or some custom built solution like creating an admin dashboard for internal use by developers with a frontend that includes different [[XII Admin processes]].
+  
   - Horizontal scaling is often more desirable since vertical scaling limitations like it is impossible to add unlimited CPU and memory to the server and it lacks fail over and redundancy if one server goes down the website app goes down with it completely 
 
   

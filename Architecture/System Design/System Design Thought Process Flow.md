@@ -42,11 +42,13 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
   - ????? [[File System Storage]] ??????
 
 ### Domain Driven Design(Possible Pathway)
-[[When to use Domain-Driven Design]] still refining domain driven design documentation depending on domain complexity determines weather it is necessary to implement.
+[[When to use Domain-Driven Design]] still refining domain driven design documentation depending on domain complexity determines weather it is necessary to use meaning the more simpler the domain is the less need for domain driven design in my opinion.
 
 ### Overall Architecture
   - Identify major components: physical or virtual servers, databases, [[Caches]],  [[Messaging systems]], *monitoring/logging for metrics*, and [[Benefits of cloud |cloud infrastructure]] talking about cloud  in terms of outsourcing functionality or infrastructure using different service architecture ranging from IAAS to SAAS.
   - If your thinking of other [[Architectural Styles]] identify it then talk about it.
+  - Talk about selecting components for system from different perspectives like how is the community support or technical documentation around the different technology options.
+  - You can also talk tech stack compatibility in the context of planing out a [[Migration Plan]] like sometimes the technologies you start out with don't make sense or you want to manage cost of your system.
   
 **Maybe refine a little more **
   - Networking components such as routers, [[Load Balancer]], firewalls, and Content Delivery Networks ([[Content Delivery Network |CDN]]) play a crucial role in ensuring that data is transmitted efficiently between clients and servers. Load balancers distribute incoming traffic to multiple servers for load distribution and redundancy.

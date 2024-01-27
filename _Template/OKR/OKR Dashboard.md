@@ -53,6 +53,8 @@ placeholder
 
 need to create daily note with numeric meta data 
 
+add sprint value property for 2 week sprint for each task
+
 
 ```dataviewjs
 dv.span("**🏋️ Exercise 🏋️**")

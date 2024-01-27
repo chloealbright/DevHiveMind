@@ -59,3 +59,53 @@ In a system design interview, considering File System Storage as an option is cr
    - *Reasoning:* File systems can be designed to accommodate various data formats and support different types of clients accessing the storage.
 
 When discussing File System Storage in a system design interview, it's essential to consider the specific requirements of the system, scalability needs, data access patterns, and the overall architecture to make an informed choice.
+
+## Example of Data you May Store
+
+Lets say your working on a healthcare system when using something like Amazon S3 various types of files can be stored to support different aspects of healthcare data management, compliance, and patient care. Here are some examples of files that could be saved in Amazon S3 within the context of a healthcare system:  
+  
+1. **Electronic Health Records (EHRs):**  
+- **File Type:** Structured data files containing patient health records.  
+- **Purpose:** Centralized storage of patient information, including medical history, diagnoses, medications, and treatment plans.  
+  
+2. **Medical Images:**  
+- **File Type:** DICOM (Digital Imaging and Communications in Medicine) files for images like X-rays, MRIs, CT scans.  
+- **Purpose:** Archiving and sharing medical images securely, allowing for easy access by healthcare professionals.  
+  
+3. **Lab Reports:**  
+- **File Type:** PDFs, CSVs, or structured data files containing laboratory test results.  
+- **Purpose:** Centralized storage of diagnostic test results, enabling efficient retrieval and analysis.  
+  
+4. **Patient Consent Forms:**  
+- **File Type:** Scanned or digital copies of signed consent forms.  
+- **Purpose:** Storing patient consent documents for legal and compliance purposes.  
+  
+5. **Prescription Documents:**  
+- **File Type:** PDFs or structured data files containing prescription details.  
+- **Purpose:** Centralized storage of medication prescriptions for patient history and compliance tracking.  
+  
+6. **Billing and Invoicing Documents:**  
+- **File Type:** PDFs or structured data files related to billing and invoices.  
+- **Purpose:** Archiving financial documents related to patient billing and insurance claims.  
+  
+7. **Healthcare Policies and Compliance Documents:**  
+- **File Type:** PDFs or other document formats containing healthcare policies, compliance guidelines, and regulations.  
+- **Purpose:** Storing and ensuring access to important regulatory documents for compliance purposes.  
+  
+8. **Research Data and Publications:**  
+- **File Type:** PDFs, datasets, or research publications.  
+- **Purpose:** Centralized storage of healthcare-related research data, facilitating collaboration and knowledge sharing.  
+  
+9. **Training Materials:**  
+- **File Type:** Multimedia files, presentations, or documents for healthcare staff training.  
+- **Purpose:** Storing educational materials to support ongoing training and professional development.  
+  
+10. **Audit Trails and Logs:**  
+- **File Type:** Log files containing system and user activity information.  
+- **Purpose:** Tracking and auditing changes to healthcare data for security and compliance purposes.  
+  
+11. **Backup and Disaster Recovery Files:**  
+- **File Type:** Regularly updated backups of critical healthcare data.  
+- **Purpose:** Ensuring data resilience and enabling recovery in case of data loss or system failures.  
+  
+It's important to note that any healthcare data stored in Amazon S3 should comply with relevant healthcare data protection regulations, such as the Health Insurance Portability and Accountability Act (HIPAA) in the United States or other applicable standards in different regions. Implementing appropriate security measures, access controls, and encryption is essential to safeguard patient privacy and ensure compliance.

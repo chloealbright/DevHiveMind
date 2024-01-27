@@ -42,7 +42,7 @@ Comments: The motivation behind this regimen is basically how I would prepare an
 	- Create helper functions for code modularity also implementing proper [[Naming Conventions]]. 
 
 ## Problem Types to Focus On
-When it comes to coding challenges your more often going to be solving or creating some type of function to solve the given problem 80 % of the time vs maybe solving some type of `Object Oriented` problem were you are creating some class which seems to be rare from my experience so not as high priority so you can probably even do 10 % instead of 20% of these type of problems.
+When it comes to coding challenges your more often going to be solving or creating some type of function to solve the given problem 80 % of the time vs maybe solving some type of `Object Oriented` problem were you are creating some class with several functions which seems to be rare from my experience so not as high priority so you can probably even do 10 % instead of 20% of these type of problems. Side note Leetcode has some problems where it ask you to implement a heap class.
 
 
 **Object-Oriented (OO) Problems Example (20%):**

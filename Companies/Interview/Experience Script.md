@@ -16,6 +16,8 @@ Relevant maybe look for tech roles in the fintech construction industry or banki
 Build project that people can interact with should avoid general login feature people really wouldn't use it 
 
 
+Make sure to git commit to show something is happening or add something that indicates that work is being done to let recruiters know your doing stuff
+
 ## And the Next One 
 
 

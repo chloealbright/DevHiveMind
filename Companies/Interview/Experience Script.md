@@ -18,6 +18,8 @@ Build project that people can interact with should avoid general login feature p
 
 Make sure to git commit to show something is happening or add something that indicates that work is being done to let recruiters know your doing stuff
 
+Social media might be a good source in terms of system design
+
 ## And the Next One 
 
 

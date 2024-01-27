@@ -2,11 +2,11 @@
 tags: 
 author:
   - jacgit18
+Comments: This documentation discusses
 Status: Capture
 Started: 
 EditDate: 
-Relates: 
-Comments: This documentation discusses
+Relates:
 ---
 To identify conditional logic in a coding challenge problem statement, you can:
 
@@ -27,3 +27,46 @@ To identify conditional logic in a coding challenge problem statement, you can:
 8. **Examine Variable Usage:** Analyze how variables are used and modified based on specific conditions.
 
 By systematically examining these aspects, you can effectively identify and understand the conditional logic embedded in a coding challenge problem statement.
+
+## Problem Example 
+You are given a list of songs where the `ith` song has a duration of `time[i]` seconds.
+
+Return _the number of pairs of songs for which their total duration in seconds is divisible by_ `60`. Formally, we want the number of indices `i`, `j` such that `i < j` with `(time[i] + time[j]) % 60 == 0`.
+
+**Example 1:**
+
+**Input:** time = [30,20,150,100,40]
+**Output:** 3
+**Explanation:** Three pairs have a total duration divisible by 60:
+(time[0] = 30, time[2] = 150): total duration 180
+(time[1] = 20, time[3] = 100): total duration 120
+(time[1] = 20, time[4] = 40): total duration 60
+
+**Example 2:**
+
+**Input:** time = [60,60,60]
+**Output:** 3
+**Explanation:** All three pairs have a total duration of 120, which is divisible by 60.
+
+**Constraints:**
+
+- `1 <= time.length <= 6 * 104`
+- `1 <= time[i] <= 500`
+
+## Application of Methodology 
+Let's apply the methodologies to identify the conditional logic in the given problem statement:
+
+1. **Search for Keywords:** Look for phrases like "total duration divisible by 60" and "(time[i] + time[j]) % 60 == 0." These indicate the presence of conditional logic related to divisibility by 60.
+
+2. **Scan for Decision Points:** Identify the decision point involving the condition `(time[i] + time[j]) % 60 == 0` where the program decides if the total duration is divisible by 60.
+
+3. **Examine Constraints:** The constraints indicate the range of values for `time[i]` and set the boundaries for the problem.
+
+4. **Analyze Input-Output Scenarios:** The output depends on pairs of songs where the total duration is divisible by 60, highlighting the conditional nature of the problem.
+
+Now, let's list the conditional logic:
+
+- Conditional Statement: `(time[i] + time[j]) % 60 == 0`
+- Decision Point: Checking if the sum of durations is divisible by 60.
+  
+Therefore, the conditional logic is based on checking whether the total duration of pairs of songs is divisible by 60.

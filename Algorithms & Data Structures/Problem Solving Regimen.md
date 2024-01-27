@@ -23,7 +23,7 @@ Comments: The motivation behind this regimen is basically how I would prepare an
   
 2. [[AlgoFlow#**Brute Force Algorithm** |Bruteforce]] **Solution**:  
 	- Come up with a Bruteforce solution to gain insight into the problem's dynamics.  
-	- Break the problem down until you understand it think about the [[Algo pathway | Attributes of Data]] being passed.  
+	- Break the problem down until you understand it think about the [[Algo pathway |Attributes of Data]] being passed.  
   
 3. [[AlgoFlow#**Naïve Algorithm** |Naive]] **Solution**:  
 	- Develop a naive solution, distinct from the Bruteforce approach.  

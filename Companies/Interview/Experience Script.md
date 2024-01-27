@@ -9,8 +9,11 @@ EditDate:
 Relates:
 ---
 ## The Next Job
-fintech series A
 
+Relevant maybe look for tech roles in the fintech construction industry or banking industry or edtech industry since have experience in this which can make it easier to find next role
+
+
+Build project that people can interact with should avoid general login feature people really wouldn't use it 
 
 
 ## And the Next One 
@@ -19,9 +22,12 @@ fintech series A
 ## And the Next One... 
 Data first
 
-transferable skills highlight states 
+transferable skills highlight stats 
 
 scenario around explaining something technical to non technical audience  
+
+
+
 
 
 
@@ -37,7 +43,7 @@ Collaborating with a third-party upskilling firm conducting needs assessments wi
 
 ## TracFlo  
 
-I was employed at TracFlo, a fintech company operating within the construction industry with a primary objective to streamline construction projects by digitizing documentation and processes, specifically targeting the elimination of change orders. My role as a full stack developer involved contributing to various features on their new application.
+I was worked at TracFlo, an series A fintech startup operating within the construction industry with a primary objective to streamline construction projects by digitizing documentation and processes, specifically targeting the elimination of change orders. My role as a full stack developer involved contributing to various features on their new application.
 
 One of my initial tasks was managing the data migration process from the old WordPress app to the new one. I created different migration files using the Knex.js query builder library, focusing on diverse data tables from the old app. This process also involved redefining table relationships to accommodate changes in business logic.
 

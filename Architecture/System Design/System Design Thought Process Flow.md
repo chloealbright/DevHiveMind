@@ -39,7 +39,7 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
   - What type of [[Schema Design]] makes sense.
   - You can also talk about [[Master-Slave Database Architecture]]
   - Talk about [[Data Retention Target]]
-  - ????? [[File System Storage]] ??????
+  - You can maybe talk about [[File System Storage]] like Amazon S3.
 
 ### Domain Driven Design(Possible Pathway)
 [[When to use Domain-Driven Design]] still refining domain driven design documentation depending on domain complexity determines weather it is necessary to use meaning the more simpler the domain is the less need for domain driven design in my opinion.

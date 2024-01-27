@@ -90,12 +90,6 @@ Summarize key design decisions, highlighting any alternative considerations. Inv
 
 # Talking Stats 
 
---- start-multi-column: ID_uvpu
-```column-settings
-Number of Columns: 2
-Largest Column: standard
-```
-
 ### Data Size:
 | Unit          | Equivalent in Bytes                    |
 |---------------|----------------------------------------|
@@ -105,18 +99,12 @@ Largest Column: standard
 | 1 Terabyte    | 1,024 Gigabytes = 1,099,511,627,776 Bytes|
 | 1 Petabyte    | 1,024 Terabytes = 1,125,899,906,842,624 Bytes|
 
-
---- column-break ---
-
 ### Time:
 | Calculation                            | Result                       |
 |----------------------------------------|------------------------------|
 | 60 seconds * 60 minutes                | 3,600 seconds per hour       |
 | 3,600 seconds * 24 hours               | 86,400 seconds per day       |
 | 86,400 seconds * 30 days               | 2,592,000 seconds per month  |
-
-
---- end-multi-column
 
 ### Number Places:
 - 300 hundred

@@ -42,7 +42,7 @@ Comments: The motivation behind this regimen is basically how I would prepare an
 	- Create helper functions for code modularity also implementing proper [[Naming Conventions]]. 
 
 ## Problem Types to Focus On
-When it comes to coding challenges your more often going to be solving or creating some type of function to solve the given problem 80 % of the time vs maybe solving some type of `Object Oriented` problem were you are creating some class with several functions which seems to be rare from my experience so not as high priority so you can probably even do 10 % instead of 20% of these type of problems. Side note Leetcode has some problems where it ask you to implement a heap class.
+When it comes to coding challenges your more often going to be solving or creating some type of function to solve the given problem 80 % of the time vs maybe solving some type of `Object Oriented` problem were you are creating some class with several functions which seems to be rare from my experience so not as high priority so you can probably even do 10 % instead of 20% of these type of problems. Side note Leetcode has some problems where it ask you to implement a heap class and probably other OO questions. Also for overall interview prep you probably should prep by doing 80 % to 70 % coding challenges if your new to the technical interview process then 20% to 30% system design interview prep because from my experience you typically get those interviews from larger companies like a Bloomberg, Spotifty, Google, Direct TV, vs a startup were you may not get this type of interview stage but this may vary depending on the job level your interviewing for also.  
 
 
 **Object-Oriented (OO) Problems Example (20%):**

@@ -52,6 +52,7 @@ Comments: This documentation discusses the decision making process around API ca
   
 3. **Cross-Origin Resource Sharing (CORS):**  
 - Be mindful of CORS restrictions when making API calls directly from the frontend. If your frontend and backend are served from different domains, ensure proper CORS configuration on the server.  
+> 💡 A bad designed API were you're getting data from and using in your app can mess with your apps performance.
   
 In many cases, a combination of frontend and backend API calls is used to strike a balance between real-time updates and security. The specific requirements of your application and the characteristics of your data and operations will guide the decision-making process.
 

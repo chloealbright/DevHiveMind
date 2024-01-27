@@ -41,6 +41,30 @@ Comments: The motivation behind this regimen is basically how I would prepare an
 	- Keep in mind that one pattern may be more Optimal then the other depending on the specifics of the problem.
 	- Create helper functions for code modularity also implementing proper [[Naming Conventions]]. 
 
+## Problem Types to Focus On
+When it comes to coding challenges your more often going to be solving or creating some type of function to solve the given problem 80 % of the time vs maybe solving some type of `Object Oriented` problem were you are creating some class which seems to be rare from my experience so not as high priority so you can probably even do 10 % instead of 20% of these type of problems.
+
+
+**Object-Oriented (OO) Problems Example (20%):**
+1. Design a class hierarchy for a zoo with different animal types.
+2. Implement a basic banking system with classes for accounts, transactions, and customers.
+3. Create a class for a deck of cards with methods for shuffling and dealing.
+4. Design a class structure for a simple 2D game with characters, enemies, and items.
+5. Implement a class-based solution for a car rental system with cars, customers, and rentals.
+
+**Function-Based Problems Example (80%):**
+1. Write a function to find the factorial of a given number.
+2. Implement a function to check if a string is a palindrome.
+3. Create a function to find the largest element in an array.
+4. Write a function to calculate the nth Fibonacci number.
+5. Implement a function to reverse a linked list.
+6. Design a function that returns the common elements between two arrays.
+7. Create a function to check if a number is prime.
+8. Write a function to merge two sorted arrays.
+9. Implement a function to validate a Sudoku board.
+10. Design a function to calculate the area of different geometric shapes.
+
+This mix allows for practicing both the principles of object-oriented design and the development of algorithmic and logical problem-solving skills through functions.
 ## Problem Solving Template Tablet Version V1
 **Use Microsoft whiteboard and draw on to top of image might be better alternative haven't done anything extensive yet
 ![[Whiteboard.png]]

@@ -39,7 +39,7 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
   - What type of [[Schema Design]] makes sense.
   - You can also talk about [[Master-Slave Database Architecture]]
   - Talk about [[Data Retention Target]]
-  - You can maybe talk about [[File System Storage]] like Amazon S3.
+ 
 
 ### Domain Driven Design(Possible Pathway)
 [[When to use Domain-Driven Design]] still refining domain driven design documentation depending on domain complexity determines weather it is necessary to use meaning the more simpler the domain is the less need for domain driven design in my opinion.
@@ -52,19 +52,20 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
 - Talk about selecting components for system from different perspectives like how is the community support or technical documentation around the different technology options also cost.
 
 - You can also talk tech stack compatibility in the context of planing out a [[Migration Plan]] like sometimes the technologies you start out with don't make sense or you want to manage cost of your system.
-  
 
+- You can maybe talk about [[File System Storage]] services like Amazon S3.
+  
 - Networking components such as routers, [[Load Balancer]], firewalls, and Content Delivery Networks ([[Content Delivery Network |CDN]]) play a crucial role in ensuring that data is transmitted efficiently between clients and servers. Load balancers distribute incoming traffic to multiple servers for load distribution and redundancy.
   
 - Security measures like firewalls, intrusion detection systems, encryption, and access control mechanisms are part of the Infrastructure layer to protect the application from various security threats, including unauthorized access, data breaches, and DDoS attacks.
   
-- **Compliance and Governance**: Infrastructure may include tools and processes to enforce compliance with regulatory requirements and organizational policies, ensuring data security and legal compliance.
+- **Compliance and Governance***: Infrastructure may include tools and processes to enforce compliance with regulatory requirements and organizational policies, ensuring data security and legal compliance.
 
-  - Maybe CI/CD stuff
-  - Consider the use of APIs for certain functionalities.
-  - Discuss [[Stateless & Statefull Processes |Stateless vs Statefull]] application or process.
-  - Maybe talk [[Microservices]](might not be relevant since small scope) or leverage knowledge of [[12 Factor App Docker.canvas|12 Factor App Docker]] which has some overlap with everything mentioned, whatever comes to mind.
-  - Making [[Event-driven Architectural Pattern Decisions]].
+- Maybe CI/CD stuff
+- Consider the use of APIs for certain functionalities.
+- Discuss [[Stateless & Statefull Processes |Stateless vs Statefull]] application or process.
+- Maybe talk [[Microservices]](might not be relevant since small scope) or leverage knowledge of [[12 Factor App Docker.canvas|12 Factor App Docker]] which has some overlap with everything mentioned, whatever comes to mind.
+- Making [[Event-driven Architectural Pattern Decisions]].
 
 ### Scalability and Performance
   - Distribute traffic across server pools for different types of traffic. talk about different trade-offs.

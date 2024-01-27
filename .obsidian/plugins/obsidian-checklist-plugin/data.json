@@ -67,7 +67,9 @@
     "#todo/low/dev",
     "#todo/med/dev",
     "#todo/read/interview",
-    "#todo/perpetual"
+    "#todo/perpetual",
+    "#todo/low/research",
+    "#todo/high/dev"
   ],
   "_hiddenTags": []
 }

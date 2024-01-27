@@ -1,8 +1,10 @@
 ---
-tags: 
+tags:
+  - services
 author:
   - jacgit18
-Status: Refinement
+Comments: This documentation discusses file system storage which is a service not a database per say from what I gather. It also talks about when to consider using one in your system architecture.
+Status: Done
 Started: 
 EditDate: 
 Relates:

@@ -147,9 +147,9 @@ PATCH is somewhat analogous to the "update" concept found in CRUD (in general, H
     
     -   A PATCH is not necessarily idempotent, although it can be. Contrast this with PUT; which is always idempotent. The word "idempotent" means that any number of repeated, identical requests will leave the resource in the same state. For example if an auto-incrementing counter field is an integral part of the resource, then a PUT will naturally overwrite it (since it overwrites everything), but not necessarily so for PATCH. 
         
-    
+    PATCH: Update, Usually it is a partial update.
 
-[[Delete]]
+[[DELETE]]
 
 [[Other Methods]]
 

@@ -22,6 +22,10 @@ Social media might be a good source in terms of system design
 
 ## And the Next One 
 
+scenario around explaining something technical to non technical audience  
+
+
+
 driving results, and growing continuously.  
   
 my mind map helped carlos with his API project  
@@ -56,14 +60,7 @@ Tell Me About A Time You Worked On Something Outside Your OKR meaning Tell me ab
 
 
 ## And the Next One... 
-Data first
-
-transferable skills highlight stats 
-
-scenario around explaining something technical to non technical audience  
-
-
-
+**Highlight personal stats and lead with transferable skills**
 
 
 

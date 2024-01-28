@@ -1,3 +1,11 @@
+---
+tags: 
+author: 
+Status: Distilling
+Started: 
+EditDate: 
+Relates:
+---
 ## Easy setup guide
 
 [

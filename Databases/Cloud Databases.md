@@ -9,7 +9,7 @@ Relates:
 ---
 Cloud databases fall into different service models within cloud computing:
 
-1. **[[Benefits of cloud#SAAS | SAAS]] (Software as a Service):** Cloud databases under SaaS typically provide storage and data analytical tools. Users access these services through a web interface, and the provider manages infrastructure, maintenance, and updates.
+1. **[[Benefits of cloud#SAAS |SAAS]] (Software as a Service):** Cloud databases under SaaS typically provide storage and data analytical tools. Users access these services through a web interface, and the provider manages infrastructure, maintenance, and updates.
 
 2. **[[Benefits of cloud#IAAS |IAAS]] (Infrastructure as a Service):** In the IaaS model, cloud databases offer storage without integrated data analytical tools. Users have more control over the infrastructure but are responsible for managing aspects like security and updates.
 

@@ -14,7 +14,7 @@ Relates: "[[Attributes of Requirements & User Stories]]"
 # Business Requirements 
 Business requirements which are drivers for user stories and all this work refer to the high-level needs/wants and objectives of the organization or stakeholders that drive the development of a product or service.
 
-These requirements are typically contained inside within [[User Stories#**Themes In-Depth** | Themes]] which represent a higher level of abstraction that allows teams to understand the broader context and purpose of the work they are doing.
+These requirements are typically contained inside within [[User Stories#**Themes In-Depth** |Themes]] which represent a higher level of abstraction that allows teams to understand the broader context and purpose of the work they are doing.
 
 Each theme may encompass multiple business requirements that collectively contribute to achieving a specific business goal.
 

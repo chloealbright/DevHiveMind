@@ -28,22 +28,28 @@ scenario around explaining something technical to non technical audience
 
 driving results, and growing continuously.  
   
-my mind map helped carlos with his API project  
+
   
   
   
-Talk about moving Fast on your projects and failing fast using that experience on your projects to learn  
+**Talk about moving Fast on your projects and failing fast using that experience on your projects to learn**  
+*Basic*
+I worked on setting up typescript on a project i was using to track my leetcode it ended being very helpful because I got a deeper understanding of javascript also builds. This also lead to me adding typescript to another more advance project which is a fullstack project i,m building were i,m re-purposing a codebase I worked on by reverse engineering.    
+
+docker project
+
   
   
-Tell Me About A Time You Had To Handle Pressure  
+**Tell Me About A Time You Had To Handle Pressure**
   
-Tell Me About A Time You Worked With A Difficult Person  
+**Tell Me About A Time You Worked With A Difficult Person**
   
-Tell Me About A Time When The Project Was Ambiguous  
+**Tell Me About A Time When The Project Was Ambiguous**  
   
 Tell me about a time you had to manage conflicting priorities  
   
-Tell Me About A Time You Had To Learn Something Quickly  
+**Tell Me About A Time You Had To Learn Something Quickly** 
+PowerBI
   
 Tell Me About A Time A Project Took Longer Than Expected  
   

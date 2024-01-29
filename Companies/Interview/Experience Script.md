@@ -79,6 +79,8 @@ my mind map helped carlos with his API project
 ## And the Next One... 
 **Highlight personal stats and lead with transferable skills**
 
+So I come from a technical bootcamp background and have experience as a full-stack developer working in the venture capital space at a Series A startup. Additionally, I've worked as a Business Systems Analyst (BSA), where I had the opportunity to plan out bootcamps tailored for diverse developer populations who I supported. so my question is ...
+
 
 
 ## TD Bank - Business Systems Analyst 

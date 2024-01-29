@@ -36,9 +36,6 @@ docker project
 
 
   
-**Tell Me About A Time You Worked With A Difficult Person**
-
-  
 **Tell Me About A Time When The Project Was Ambiguous**  
 
 college doing one project between two classes one team frontend other team backend 
@@ -58,9 +55,7 @@ Under the wing or Tracflo more metrics to discuss
   
 **Tell me about a time you failed or made a mistake or pressure**
 Tracflo learning to read a codebase better or being to self dependent learned that is the least efficient approach 
-  
-**Tell Me About A Time You Received Constructive Feedback**
-????
+
 
 
 **Tell me about a time you disagreed with someone**
@@ -69,6 +64,15 @@ A stakeholder who we worked indirectly with and wasn't really
 
 **Tell Me About A Time You Worked On Something Outside Your OKR meaning Tell me about a time when you went above and beyond.**
 my mind map helped carlos with his API project  
+
+
+  
+**Tell Me About A Time You Received Constructive Feedback**
+????
+
+**Tell Me About A Time You Worked With A Difficult Person**
+????
+
 
 
 ## And the Next One... 

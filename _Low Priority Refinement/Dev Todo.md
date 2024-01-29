@@ -2,7 +2,7 @@
 tags: 
 author:
   - jacgit18
-Status: perpetual
+Status: Perpetual
 Started: 
 EditDate: 
 Relates:
@@ -37,13 +37,14 @@ Relates:
 
 Create code flow and decesion making mind map
 
-  Build something specific clear goals
+
   
 Pre post action like a read or a sort  
   
   
 Or a read to see if a sort is needed
 
+  Build something specific clear goals
 
 Track reference notes in Obsidian Which are notes that are essentially Notes written in someone Else's words to reference 
 
@@ -94,7 +95,6 @@ When you want to learn new languages in the future think about every time you ha
 
 ## Medium
 #todo/Read/Interview
-- [ ] [[_CODE/_Capture/12 Key Metrics for Measuring Service Performance]]
 - [x] [[Top 10 Microservices Design Principles and Best Practices for Experienced Developers  by Soma  Javarevisited  Medium]]
 - [ ] [[Obsidian Understanding its Core Design Principles  by TfTHacker  Obsidian Observer  Medium]]
 - [ ] [[My Obsidian Setup — My Notes and My Theme settings  by Nuno Campos  Obsidian Observer  Apr, 2023  Medium]]

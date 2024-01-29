@@ -23,10 +23,6 @@ Social media might be a good source in terms of system design
 ## And the Next One 
 
 scenario around explaining something technical to non technical audience  
-
-
-
-driving results, and growing continuously.  
   
 
   
@@ -46,21 +42,28 @@ docker project
   
 **Tell Me About A Time When The Project Was Ambiguous**  
   
-Tell me about a time you had to manage conflicting priorities  
+**Tell me about a time you had to manage conflicting priorities**
   
 **Tell Me About A Time You Had To Learn Something Quickly** 
-PowerBI
+PowerBI really got back to data base fundamentals and advanced database stuff like different schema I learned that you should create a scope of learning otherwise you can go to far out of scope for you task
   
-Tell Me About A Time A Project Took Longer Than Expected  
+**Tell Me About A Time A Project Took Longer Than Expected**
+Are Docker cohort where were asked to pivot and host the docker cohort sooner then we planned also there was misalignment between leadership and where developers where at because the cohort was tailored towards senior talent and was focused on intermediate  level understanding  there was assumption by leadership that the cohort should be intermediate when the developers required a beginner cohort.
+
+**Tell me about the project that you are most proud of**
+Under the wing or Tracflo more metrics to discuss
   
-Tell me about the project that you are most proud of  
+**Tell me about a time you failed or made a mistake**
+Tracflo learning to read a codebase better or being to self dependent learned that is the least efficient approach 
   
-Tell me about a time you failed or made a mistake  
+**Tell Me About A Time You Received Constructive Feedback**
+????
+
+
+**Tell me about a time you disagreed with someone**
+A stakeholder who we worked indirectly with and wasn't really 
   
-Tell Me About A Time You Received Constructive Feedback  
-  
-Tell me about a time you disagreed with someone  
-  
+
 **Tell Me About A Time You Worked On Something Outside Your OKR meaning Tell me about a time when you went above and beyond.**
 my mind map helped carlos with his API project  
 

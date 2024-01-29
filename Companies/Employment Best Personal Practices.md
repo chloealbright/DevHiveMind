@@ -10,6 +10,7 @@ Relates:
 ---
 When terminated from a job, be sure to request a formal letter explaining the reasons behind your termination. Additionally, avoid quitting a job abruptly, as it can have similar consequences to being fired, potentially impacting your eligibility for unemployment benefits.
 
+Always think and ask what is your out in business deal or situations
 
 
 When beginning a new role, there are several important steps to consider:

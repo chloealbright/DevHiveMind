@@ -40,9 +40,10 @@ docker project
 
 college doing one project between two classes one team frontend other team backend 
 
-
   
 **Tell me about a time you had to manage conflicting priorities**
+
+managing bootcamp vs participating in scrum standup
   
 **Tell Me About A Time You Had To Learn Something Quickly** 
 PowerBI really got back to data base fundamentals and advanced database stuff like different schema I learned that you should create a scope of learning otherwise you can go to far out of scope for you task

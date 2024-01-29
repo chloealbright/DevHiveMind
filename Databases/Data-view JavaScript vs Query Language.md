@@ -2,11 +2,11 @@
 tags: 
 author:
   - jacgit18
+Comments: This documentation discusses
 Status: Capture
 Started: 
 EditDate: 
-Relates: 
-Comments: This documentation discusses
+Relates:
 ---
 DataView.js is a JavaScript library that allows you to work with data efficiently. In DataView.js, query types refer to different methods of retrieving and manipulating data. The two main query types are:
 

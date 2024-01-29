@@ -34,13 +34,16 @@ I worked on setting up typescript on a project i was using to track my leetcode 
 
 docker project
 
-  
-  
-**Tell Me About A Time You Had To Handle Pressure**
+
   
 **Tell Me About A Time You Worked With A Difficult Person**
+
   
 **Tell Me About A Time When The Project Was Ambiguous**  
+
+college doing one project between two classes one team frontend other team backend 
+
+
   
 **Tell me about a time you had to manage conflicting priorities**
   
@@ -53,7 +56,7 @@ Are Docker cohort where were asked to pivot and host the docker cohort sooner th
 **Tell me about the project that you are most proud of**
 Under the wing or Tracflo more metrics to discuss
   
-**Tell me about a time you failed or made a mistake**
+**Tell me about a time you failed or made a mistake or pressure**
 Tracflo learning to read a codebase better or being to self dependent learned that is the least efficient approach 
   
 **Tell Me About A Time You Received Constructive Feedback**

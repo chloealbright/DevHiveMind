@@ -2991,7 +2991,219 @@ function around1(obj, method, createWrapper) {
 }
 
 // src/main.ts
+var import_obsidian6 = require("obsidian");
+
+// src/cookie.ts
 var import_obsidian4 = require("obsidian");
+
+// src/settings.ts
+var import_obsidian3 = require("obsidian");
+
+// src/tools.ts
+var createRandomId = () => {
+  return window.crypto.randomUUID();
+};
+var randomUint32 = () => {
+  return window.crypto.getRandomValues(new Uint32Array(1))[0];
+};
+
+// src/subscription.ts
+var import_obsidian = require("obsidian");
+var refreshSubscriptionData = async (plugin) => {
+  const settings = await getSettings(plugin);
+  const url = new URL(settings.subscriptionAPI);
+  url.searchParams.set("oid", settings.oid);
+  const data = await (0, import_obsidian.requestUrl)(url.toString()).json;
+  if (data) {
+    if (data.plan) {
+      settings.plan = data.plan;
+    }
+    if (data.usage) {
+      settings.duration = data.usage;
+    }
+    await saveSettings(settings, plugin);
+  }
+};
+
+// src/ui.ts
+var import_obsidian2 = require("obsidian");
+var ShowTextModal = class extends import_obsidian2.Modal {
+  constructor(app, title, message) {
+    super(app);
+    this.message = message;
+    this.title = title;
+  }
+  onOpen() {
+    this.titleEl.setText(this.title);
+    this.contentEl.setText(this.message);
+  }
+  onClose() {
+    this.containerEl.empty();
+  }
+};
+var showTextModal = (app, title, text2) => {
+  new ShowTextModal(app, title, text2).open();
+};
+
+// src/settings.ts
+var DEFAULT_SETTINGS = {
+  basePath: "https://www.peerdraft.app/cm/",
+  subscriptionAPI: "https://www.peerdraft.app/subscription",
+  connectAPI: "https://www.peerdraft.app/subscription/connect",
+  name: "",
+  signaling: "wss://www.peerdraft.app/signal",
+  oid: createRandomId(),
+  plan: {
+    type: "hobby",
+    email: ""
+  },
+  duration: 0,
+  version: ""
+};
+var FORCE_SETTINGS = {
+  basePath: "https://www.peerdraft.app/cm/",
+  subscriptionAPI: "https://www.peerdraft.app/subscription",
+  connectAPI: "https://www.peerdraft.app/subscription/connect",
+  signaling: "wss://www.peerdraft.app/signal"
+};
+var migrateSettings = async (plugin) => {
+  const oldSettings = await getSettings(plugin);
+  const newSettings = Object.assign({}, DEFAULT_SETTINGS, oldSettings, FORCE_SETTINGS, {
+    version: plugin.manifest.version
+  });
+  await saveSettings(newSettings, plugin);
+  if (oldSettings.version != newSettings.version) {
+    showTextModal(plugin.app, "Peerdraft updated", "A new version of Peerdraft was installed. Please restart Obsidian before you use Peerdraft again.");
+  }
+};
+var getSettings = async (plugin) => {
+  const settings = await plugin.loadData();
+  return settings;
+};
+var saveSettings = async (settings, plugin) => {
+  await plugin.saveData(settings);
+};
+var renderSettings = async (el, plugin) => {
+  el.empty();
+  const settings = await getSettings(plugin);
+  el.createEl("h1", { text: "What's your name?" });
+  const setting = new import_obsidian3.Setting(el);
+  setting.setName("Name");
+  setting.setDesc("This name will be shown to your collaborators");
+  setting.addText((text2) => {
+    text2.setValue(settings.name);
+    text2.onChange(async (value) => {
+      settings.name = value;
+      await saveSettings(settings, plugin);
+    });
+  });
+  el.createEl("h1", { text: "Your subscription" });
+  if (settings.plan.type === "hobby") {
+    el.createEl("div", { text: "You are on the free Hobby plan. You can collaborate with your peers for up to 2.5 hours a month. For unlimited collaboration time, sign-up for the Professional plan at 30 USD/year." });
+    el.createEl("p");
+    el.createEl("div", { text: `You have used Peerdraft for ${settings.duration} minutes so far.` });
+    el.createEl("p");
+    new import_obsidian3.Setting(el).setName("Subscribe").addButton((button) => {
+      button.setButtonText("Buy professional plan");
+      button.setCta();
+      button.onClick((e) => {
+        window.open(`https://peerdraft.app/checkout?oid=${settings.oid}`);
+      });
+    });
+    let connectEmail = "";
+    new import_obsidian3.Setting(el).setName("Use existing subscription").setDesc("If you already bought a subscription, enter the e-mail address associated with it and click on `Connect`.").addText((text2) => {
+      text2.setPlaceholder("me@test.com");
+      text2.onChange((value) => {
+        connectEmail = value;
+      });
+    }).addButton((button) => {
+      button.setButtonText("Connect");
+      button.onClick(async (e) => {
+        console.log("trying to get sub");
+        const data = await (0, import_obsidian3.requestUrl)({
+          url: settings.connectAPI,
+          method: "POST",
+          contentType: "application/json",
+          body: JSON.stringify({
+            email: connectEmail,
+            oid: settings.oid
+          })
+        }).json;
+        console.log(data);
+        if (data && data.plan) {
+          settings.plan = data.plan;
+          saveSettings(settings, plugin), await renderSettings(el, plugin);
+        }
+      });
+    });
+  } else if (settings.plan.type === "professional") {
+    el.createEl("div", { text: "You are on the professional plan for unlimited collaboration. Happy peerdrafting." });
+    el.createEl("p");
+    el.createEl("div", { text: `You have used Peerdraft for ${settings.duration} minutes so far.` });
+    el.createEl("p");
+  }
+  new import_obsidian3.Setting(el).setName("Refresh subscription data").setDesc("If you just subscribed or connected your license, click here to refresh your subscription information.").addButton((button) => {
+    button.setButtonText("Refresh");
+    button.onClick(async (e) => {
+      refreshSubscriptionData(plugin);
+      renderSettings(el, plugin);
+    });
+  });
+  el.createEl("h1", { text: "Help" });
+  const div = el.createDiv();
+  div.createSpan({ text: "If you need any help, " });
+  div.createEl("a", {
+    text: "get in touch",
+    attr: {
+      href: "mailto:dominik@peerdraft.app"
+    }
+  });
+  div.createSpan({ text: "." });
+};
+var createSettingsTab = (plugin) => {
+  return new class extends import_obsidian3.PluginSettingTab {
+    async display() {
+      await renderSettings(this.containerEl, plugin);
+    }
+  }(plugin.app, plugin);
+};
+var createSettingsModal = (plugin) => {
+  return new class extends import_obsidian3.Modal {
+    async onOpen() {
+      const el = this.contentEl;
+      el.empty();
+      const settings = await getSettings(plugin);
+      el.createEl("h1", { text: "What's your name?" });
+      const setting = new import_obsidian3.Setting(el);
+      setting.setName("Name");
+      setting.setDesc("This name will be shown to your collaborators");
+      setting.addText((text2) => {
+        text2.setValue(settings.name);
+        text2.onChange(async (value) => {
+          settings.name = value;
+          await saveSettings(settings, plugin);
+        });
+      });
+    }
+    onClose() {
+      this.contentEl.empty();
+    }
+  }(plugin.app);
+};
+
+// src/cookie.ts
+var import_remote = require("@electron/remote");
+var prepareCommunication = async (plugin) => {
+  const settings = await getSettings(plugin);
+  if (import_obsidian4.Platform.isDesktopApp) {
+    await import_remote.session.defaultSession.cookies.set({ url: "https://www.peerdraft.app", "name": "oid", "value": settings.oid, "domain": "www.peerdraft.app", "path": "/", "secure": true, "httpOnly": true, "sameSite": "no_restriction" });
+  } else if (import_obsidian4.Platform.isMobileApp) {
+    const signalingURL = new URL(settings.signaling);
+    signalingURL.searchParams.append("oid", settings.oid);
+    settings.signaling = signalingURL.toString();
+    await saveSettings(settings, plugin);
+  }
+};
 
 // src/data.ts
 var extensions = {};
@@ -12743,19 +12955,11 @@ var WebrtcProvider = class extends Observable {
   }
 };
 
-// src/tools.ts
-var createRandomId = () => {
-  return window.crypto.randomUUID();
-};
-var randomUint32 = () => {
-  return window.crypto.getRandomValues(new Uint32Array(1))[0];
-};
-
 // src/document.ts
 var getOrCreateSyncData = (id2, settings) => {
   if (!syncObjects[id2]) {
     const doc2 = new Doc();
-    const provider = new WebrtcProvider(id2, doc2, { signaling: settings.signaling });
+    const provider = new WebrtcProvider(id2, doc2, { signaling: [settings.signaling] });
     const text2 = doc2.getText("content");
     doc2.getText("owner").insert(0, provider.awareness.clientID.toFixed(0));
     syncObjects[id2] = { doc: doc2, provider, content: text2 };
@@ -13328,179 +13532,18 @@ var getOrCreateExtension = (id2, settings) => {
   return extensions[id2];
 };
 
-// src/settings.ts
-var import_obsidian2 = require("obsidian");
-
-// src/subscription.ts
-var import_obsidian = require("obsidian");
-var refreshSubscriptionData = async (plugin) => {
-  const settings = await getSettings(plugin);
-  const url = new URL(settings.subscriptionAPI);
-  url.searchParams.set("oid", settings.oid);
-  const data = await (0, import_obsidian.requestUrl)(url.toString()).json;
-  if (data) {
-    if (data.plan) {
-      settings.plan = data.plan;
-    }
-    if (data.usage) {
-      settings.duration = data.usage;
-    }
-    await saveSettings(settings, plugin);
-  }
-};
-
-// src/settings.ts
-var DEFAULT_SETTINGS = {
-  basePath: "https://www.peerdraft.app/cm/",
-  subscriptionAPI: "https://www.peerdraft.app/subscription",
-  connectAPI: "https://www.peerdraft.app/subscription/connect",
-  name: "",
-  signaling: ["wss://www.peerdraft.app/signal"],
-  oid: createRandomId(),
-  plan: {
-    type: "hobby",
-    email: ""
-  },
-  duration: 0
-};
-var FORCE_SETTINGS = {
-  basePath: "https://www.peerdraft.app/cm/",
-  subscriptionAPI: "https://www.peerdraft.app/subscription",
-  connectAPI: "https://www.peerdraft.app/subscription/connect",
-  signaling: ["wss://www.peerdraft.app/signal"]
-};
-var migrateSettings = async (plugin) => {
-  const oldSettings = await getSettings(plugin);
-  const newSettings = Object.assign({}, DEFAULT_SETTINGS, oldSettings, FORCE_SETTINGS);
-  await saveSettings(newSettings, plugin);
-};
-var getSettings = async (plugin) => {
-  const settings = await plugin.loadData();
-  return settings;
-};
-var saveSettings = async (settings, plugin) => {
-  await plugin.saveData(settings);
-};
-var renderSettings = async (el, plugin) => {
-  el.empty();
-  const settings = await getSettings(plugin);
-  el.createEl("h1", { text: "What's your name?" });
-  const setting = new import_obsidian2.Setting(el);
-  setting.setName("Name");
-  setting.setDesc("This name will be shown to your collaborators");
-  setting.addText((text2) => {
-    text2.setValue(settings.name);
-    text2.onChange(async (value) => {
-      settings.name = value;
-      await saveSettings(settings, plugin);
-    });
-  });
-  el.createEl("h1", { text: "Your subscription" });
-  if (settings.plan.type === "hobby") {
-    el.createEl("div", { text: "You are on the free Hobby plan. You can collaborate with your peers for up to 2.5 hours a month. For unlimited collaboration time, sign-up for the Professional plan at 30 USD/year." });
-    el.createEl("p");
-    el.createEl("div", { text: `You have used Peerdraft for ${settings.duration} minutes so far.` });
-    el.createEl("p");
-    new import_obsidian2.Setting(el).setName("Subscribe").addButton((button) => {
-      button.setButtonText("Buy professional plan");
-      button.setCta();
-      button.onClick((e) => {
-        window.open(`https://peerdraft.app/checkout?oid=${settings.oid}`);
-      });
-    });
-    let connectEmail = "";
-    new import_obsidian2.Setting(el).setName("Use existing subscription").setDesc("If you already bought a subscription, enter the e-mail address associated with it and click on `Connect`.").addText((text2) => {
-      text2.setPlaceholder("me@test.com");
-      text2.onChange((value) => {
-        connectEmail = value;
-      });
-    }).addButton((button) => {
-      button.setButtonText("Connect");
-      button.onClick(async (e) => {
-        console.log("trying to get sub");
-        const data = await (0, import_obsidian2.requestUrl)({
-          url: settings.connectAPI,
-          method: "POST",
-          contentType: "application/json",
-          body: JSON.stringify({
-            email: connectEmail,
-            oid: settings.oid
-          })
-        }).json;
-        console.log(data);
-        if (data && data.plan) {
-          settings.plan = data.plan;
-          saveSettings(settings, plugin), await renderSettings(el, plugin);
-        }
-      });
-    });
-  } else if (settings.plan.type === "professional") {
-    el.createEl("div", { text: "You are on the professional plan for unlimited collaboration. Happy peerdrafting." });
-    el.createEl("p");
-    el.createEl("div", { text: `You have used Peerdraft for ${settings.duration} minutes so far.` });
-    el.createEl("p");
-  }
-  new import_obsidian2.Setting(el).setName("Refresh subscription data").setDesc("If you just subscribed or connected your license, click here to refresh your subscription information.").addButton((button) => {
-    button.setButtonText("Refresh");
-    button.onClick(async (e) => {
-      refreshSubscriptionData(plugin);
-      renderSettings(el, plugin);
-    });
-  });
-  el.createEl("h1", { text: "Help" });
-  const div = el.createDiv();
-  div.createSpan({ text: "If you need any help, " });
-  div.createEl("a", {
-    text: "get in touch",
-    attr: {
-      href: "mailto:dominik@peerdraft.app"
-    }
-  });
-  div.createSpan({ text: "." });
-};
-var createSettingsTab = (plugin) => {
-  return new class extends import_obsidian2.PluginSettingTab {
-    async display() {
-      await renderSettings(this.containerEl, plugin);
-    }
-  }(plugin.app, plugin);
-};
-var createSettingsModal = (plugin) => {
-  return new class extends import_obsidian2.Modal {
-    async onOpen() {
-      const el = this.contentEl;
-      el.empty();
-      const settings = await getSettings(plugin);
-      el.createEl("h1", { text: "What's your name?" });
-      const setting = new import_obsidian2.Setting(el);
-      setting.setName("Name");
-      setting.setDesc("This name will be shown to your collaborators");
-      setting.addText((text2) => {
-        text2.setValue(settings.name);
-        text2.onChange(async (value) => {
-          settings.name = value;
-          await saveSettings(settings, plugin);
-        });
-      });
-    }
-    onClose() {
-      this.contentEl.empty();
-    }
-  }(plugin.app);
-};
-
 // src/statusbar.ts
-var import_obsidian3 = require("obsidian");
+var import_obsidian5 = require("obsidian");
 var addStatus = (file, plugin, settings) => {
   const id2 = syncedDocs[file.path];
   if (!id2)
     return;
-  const menu = new import_obsidian3.Menu();
+  const menu = new import_obsidian5.Menu();
   menu.addItem((item) => {
     item.setTitle("Copy link");
     item.onClick(() => {
       navigator.clipboard.writeText(settings.basePath + id2);
-      new import_obsidian3.Notice("Link copied to clipboard.");
+      new import_obsidian5.Notice("Link copied to clipboard.");
     });
   });
   menu.addItem((item) => {
@@ -13509,7 +13552,7 @@ var addStatus = (file, plugin, settings) => {
       delete syncedDocs[file.path];
       stopSync(id2);
       removeStatus(id2);
-      const notice = new import_obsidian3.Notice("Session stopped for " + file.name);
+      const notice = new import_obsidian5.Notice("Session stopped for " + file.name);
     });
   });
   const status = plugin.addStatusBarItem();
@@ -13528,19 +13571,12 @@ var removeStatus = (id2) => {
   status.remove();
 };
 
-// src/cookie.ts
-var import_remote = require("@electron/remote");
-var setCookie = async (plugin) => {
-  const settings = await getSettings(plugin);
-  await import_remote.session.defaultSession.cookies.set({ url: "https://www.peerdraft.app", "name": "oid", "value": settings.oid, "domain": "www.peerdraft.app", "path": "/", "secure": true, "httpOnly": true, "sameSite": "no_restriction" });
-};
-
 // src/main.ts
-var PeerDraftPlugin = class extends import_obsidian4.Plugin {
+var PeerDraftPlugin = class extends import_obsidian6.Plugin {
   async onload() {
     const plugin = this;
     await migrateSettings(plugin);
-    await setCookie(plugin);
+    await prepareCommunication(plugin);
     await refreshSubscriptionData(plugin);
     plugin.addCommand({
       id: "start-session-with-active-document",
@@ -13572,7 +13608,7 @@ var PeerDraftPlugin = class extends import_obsidian4.Plugin {
         stopSession(file, plugin);
       }
     });
-    plugin.register(around(import_obsidian4.MarkdownView.prototype, {
+    plugin.register(around(import_obsidian6.MarkdownView.prototype, {
       onUnloadFile(next) {
         return async function(file) {
           stopSession(file, plugin);
@@ -13590,7 +13626,7 @@ var PeerDraftPlugin = class extends import_obsidian4.Plugin {
   onunload() {
     Object.keys(syncedDocs).forEach((path) => {
       const file = this.app.vault.getAbstractFileByPath(path);
-      if (!file || !(file instanceof import_obsidian4.TFile))
+      if (!file || !(file instanceof import_obsidian6.TFile))
         return;
       stopSession(file, this);
     });
@@ -13603,7 +13639,7 @@ var stopSession = (file, plugin) => {
   delete syncedDocs[file.path];
   stopSync(id2);
   removeStatus(id2);
-  const notice = new import_obsidian4.Notice("Session stopped for " + file.name);
+  const notice = new import_obsidian6.Notice("Session stopped for " + file.name);
 };
 var startSession = async (editor, file, plugin) => {
   const settings = await getSettings(plugin);
@@ -13615,7 +13651,7 @@ var startSession = async (editor, file, plugin) => {
     effects: import_state.StateEffect.appendConfig.of(extension)
   });
   navigator.clipboard.writeText(settings.basePath + id2);
-  new import_obsidian4.Notice("Session started for " + file.name + ". Link copied to Clipboard.");
+  new import_obsidian6.Notice("Session started for " + file.name + ". Link copied to Clipboard.");
   addStatus(file, plugin, settings);
 };
 /*! Bundled license information:

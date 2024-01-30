@@ -6,7 +6,7 @@ Started:
 EditDate: 
 Relates:
 ---
-![[fib.png]]
+![[_Images/Algo/fib.png]]
 
 Much like the Binomial Heap, a Fibonacci Heap is a collection of trees, each adhering to either the Min-Heap or Max-Heap property. However, in the case of a Fibonacci Heap, the trees are far more flexible in their structure. They can take on various shapes, and it's even possible for all trees to consist of just single nodes. This stands in contrast to the Binomial Heap, where every tree must conform to the rigid structure of a Binomial Tree.
 

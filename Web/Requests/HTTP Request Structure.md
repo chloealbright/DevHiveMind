@@ -5,7 +5,7 @@ author:
 Status: 
 Started: 
 EditDate: 
-Relates:
+Relates: "[[HTTP Request]]"
 ---
 ![[Request Structure.png]]
 

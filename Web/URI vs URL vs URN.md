@@ -2,7 +2,8 @@
 tags: 
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses
+Status: Capture
 Started: 
 EditDate: 
 Relates:
@@ -53,3 +54,7 @@ most APIs are private and imperceptible, internal to companies, used by staff an
 
 
 ![[Url Process.gif]]
+
+
+
+

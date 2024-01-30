@@ -3,7 +3,7 @@ tags:
 author:
   - jacgit18
 Comments: This documentation discusses web sockets and when to use them.
-Status: 
+Status: Capture
 Started: 
 EditDate: 2024-01-29
 Relates:

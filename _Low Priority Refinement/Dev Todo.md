@@ -34,6 +34,7 @@ Relates:
 - [ ] Identify most expensive manual process  
 - [ ] look a little into alt ways to exclude dir
 - [ ] find a way to categorize code snippets that aren't in cold snippet folder to make it easier to search probably use tags
+- [ ] Maybe try doing this [[Web Socket chat client]]
 
 Create code flow and decesion making mind map
 

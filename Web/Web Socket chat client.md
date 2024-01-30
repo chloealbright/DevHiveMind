@@ -4,7 +4,8 @@ tags:
 author:
   - jacgit18
   - chatgpt
-Status: 
+Comments: This documentation discusses
+Status: Capture
 Started: 2023-11-22
 EditDate: 
 Relates:

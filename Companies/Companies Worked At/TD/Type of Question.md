@@ -12,7 +12,7 @@ Relates: "[[Elicitation]]"
 ---
 Effective communication relies on a variety of question types, each serving a specific purpose. 
 
-> All question start with a interrogative pronoun or interrogative adverb(Why,Which, When, Where, How ) which is a pronoun used to ask a question example being  
+> All question start with a interrogative pronoun or interrogative adverb(*Why, Which, When, Where, How*) which is a pronoun used to ask a question example being  
 
 Here's an overview of different question types and their applications:
 

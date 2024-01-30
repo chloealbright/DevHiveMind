@@ -2,7 +2,7 @@
 tags: 
 author:
   - jacgit18
-Comments: This documentation discusses websockets and when to use them.
+Comments: This documentation discusses web sockets and when to use them.
 Status: 
 Started: 
 EditDate: 2024-01-29

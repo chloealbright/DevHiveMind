@@ -50,3 +50,6 @@ Nouns are used instead of verbs for resources. For example, instead of /getUserI
 two types of APIs: private and public. 
 
 most APIs are private and imperceptible, internal to companies, used by staff and by partners with contractual agreements. This use of APIs is what is really driving the API revolution. Do not limit your thinking about the ways APIs can be used to public examples like the App Store. Partner and internal use of APIs is often more valuable.
+
+
+![[Url Process.gif]]

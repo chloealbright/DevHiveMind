@@ -11,6 +11,10 @@ Relates:
 
 Information can exist in both structured and unstructured forms. Refined information often refers to structured data, which is organized and formatted for specific purposes. Unrefined or unstructured data lacks a predefined format and organization or less of a predefined format that doesn't fit the standards of structured data.
 
+Then you have Semi-structured data which is data that does not fit neatly into the traditional structured model (like relational databases with fixed schemas) but has some level of structure. It may contain elements of both structured and unstructured data.
+
+Examples of semi-structured data include JSON (JavaScript Object Notation), XML (eXtensible Markup Language), and key-value pairs. These data formats allow for flexibility in representing information, and the structure can vary between different records. Databases that handle semi-structured data effectively are NoSQL databases. 
+
 When selecting a database or determining the number of databases for your architecture, it's crucial to first identify the nature of your data—whether it's structured or unstructured. Once this is clarified, you can narrow down your choices between SQL and NoSQL databases. For instance, if you anticipate dealing with a substantial amount of email data, opting for a NoSQL database becomes more likely.
 
 Furthermore, leveraging the CAP theorem can help refine your database selection further. The CAP theorem addresses the trade-offs between Consistency, Availability, and Partition Tolerance, aiding in making informed decisions based on your specific application requirements and priorities. Another consideration could be using [[Cloud Databases]].
@@ -112,7 +116,7 @@ When deciding between NoSQL and SQL databases, assess the team's expertise, proj
 - **Talent Availability:** Weigh the availability of talent and associated hiring/training costs.
 
 ### **Final Determination: Choosing Between NoSQL and SQL**
-
+![[Database Selection Process.webp]]
 #### **NoSQL Databases:**
 - **Scalability:** Ideal for horizontal scalability, cost-effective for growing datasets.
 - **Flexibility:** Suited for rapid development, handling semi/unstructured data.

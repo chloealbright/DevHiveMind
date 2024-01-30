@@ -2,11 +2,15 @@
 tags: 
 author:
   - jacgit18
-Status: 
+Comments: 
+Status: Refinement
 Started: 
 EditDate: 
 Relates:
 ---
+![[Http Request Method.gif]]
+
+
 -   Process of going to website  Request is made from application layer and might hit transport and session layer and sent to DNS 
     
 -   When a request happens we connect to a DNS (domain name server)  recursive resolver. The resolver then queries a DNS root nameserver. 
@@ -44,7 +48,7 @@ Relates:
     -   A RequestRedirect enum value, which can be one the following strings: the default value of follow, error, or manual 
         
 
-Debug with [res.text](https://developer.mozilla.org/en-US/docs/Web/API/Response/text) 
+Debug with *[res.text](https://developer.mozilla.org/en-US/docs/Web/API/Response/text)*
 
 Client Request(sends CRUD)-> exchange of data <-(returns body)Response 
 
@@ -71,7 +75,6 @@ Request can be resolved(accepted) or rejected and you may create test case to ha
 [[DELETE]]
 
 [[Other Methods]]
-
 
 
 

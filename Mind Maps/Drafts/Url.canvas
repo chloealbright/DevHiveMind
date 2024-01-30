@@ -1,8 +1,0 @@
-{
-	"nodes":[
-		{"id":"3e8c4bac22eb9b65","type":"file","file":"Infographics/Web/Url Process.gif","x":-360,"y":-480,"width":584,"height":759},
-		{"id":"fbcee1617b3da3e3","type":"file","file":"Infographics/Web/Http Request Method.gif","x":400,"y":-480,"width":560,"height":728},
-		{"id":"6220d7d11ab2bca6","type":"file","file":"Infographics/Web/Traffic Poliicies.gif","x":100,"y":320,"width":524,"height":681}
-	],
-	"edges":[]
-}

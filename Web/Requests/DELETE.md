@@ -2,54 +2,38 @@
 tags: 
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses Delete request.
+Status: Refinement
 Started: 
 EditDate: 
 Relates:
 ---
-Delete –> DELETE - request method deletes the specified resource. 
+**DELETE Method: Resource Deletion**
 
-Delete means delete-if-exists: If the resource doesn’t exist, fail this operation. If two valid delete operations arrive at once, delete the resource, and allow both to pass. 
+The DELETE request method removes the specified resource.
 
+- **Delete-if-exists:** If the resource doesn't exist, consider the operation a failure. If two valid delete operations occur simultaneously, delete the resource and allow both to proceed.
 
 ## How to Use DELETE for Asynchronous Deletion
 
-This recipe outlines an approach for using DELETE for asynchronous tasks. This recipe is appropriate when resource deletion takes a significant amount of time for cleanup and archival tasks in the backend. 
+This recipe outlines using DELETE for asynchronous tasks, ideal for resource deletion requiring substantial time for backend cleanup and archival tasks.
 
-On receiving a DELETE request, create a new resource, and return 202 (Accepted) with the response containing a representation of this resource. Let the client use this resource to track the status. When the client submits a GET request to the task resource, return response code 200 (OK) with a representation showing the current status of the task. 
+1. Upon receiving a DELETE request, create a new resource, and respond with 202 (Accepted), including a representation of this resource.
+  
 
-Supporting asynchronous resource deletion is even simpler than creating or updating resources. The following sequence of steps illustrates an implementation of this recipe: 
+```http
+   HTTP/1.1 202 Accepted
+   Content-Type: application/xml;charset=UTF-8
+   <status xmlns:atom="http://www.w3.org/2005/Atom">
+      <state>pending</state>
+      <atom:link href="http://www.example.org/task/1" rel="self"/>
+      <message xml:lang="en">Your request has been accepted for processing.</message>
+      <created>2009-07-05T03:10:00Z</created>
+      <ping-after>2009-07-05T03:15:00Z</ping-after>
+   </status>
+```
+   
 
-To begin, a client submits a request to delete a resource. 
+2. The client can query the URI http://www.example.org/task/1 to check the status of the request.
 
-DELETE /users/john HTTP/1.1 
-
-Host: www.example.org  
-
-The server creates a new resource and returns a representation indicating the status of the task. 
-
-HTTP/1.1 202 Accepted 
-
-Content-Type: application/xml;charset=UTF-8 
-
-<status xmlns:atom="http://www.w3.org/2005/Atom"> 
-
-  <state>pending</state> 
-
-  <atom:link href="http://www.example.org/task/1" rel="self"/> 
-
-  <message xml:lang="en">Your request has been accepted for processing.</message> 
-
-  <created>2009-07-05T03:10:00Z</ping> 
-
-  <ping-after>2009-07-05T03:15:00Z</ping-after> 
-
-</status>  
-
-The client can query the URI http://www.example.org/task/1 to learn the status of the request. 
-
-You can use the same approach for asynchronously updating a resource via the PUT method.
-
-
-
-Other METHOD
+This asynchronous deletion approach is straightforward, mirroring a similar strategy for updating a resource asynchronously via the PUT method.

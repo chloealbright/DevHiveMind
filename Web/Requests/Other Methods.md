@@ -2,15 +2,20 @@
 tags: 
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses other request.
+Status: Refinement
 Started: 
 EditDate: 
 Relates:
 ---
-CONNECT -> method starts two-way communications with the requested resource. It can be used to open a tunnel. For example, the CONNECT method can be used to access websites that use SSL (HTTPS). The client asks an HTTP Proxy server to tunnel the TCP connection to the desired destination. The server then proceeds to make the connection on behalf of the client. Once the connection has been established by the server, the Proxy server continues to proxy the TCP stream to and from the client. 
+## **CONNECT Method: Two-Way Communication**
 
-OPTIONS -> method requests permitted communication options for a given URL or server. A client can specify a URL with this method, or an asterisk (\*) to refer to the entire server. 
+The CONNECT method initiates two-way communications with the requested resource and can establish a tunnel. For instance, it is commonly used to access SSL-secured websites (HTTPS). In this scenario, the client requests an HTTP Proxy server to tunnel the TCP connection to the intended destination. The server then establishes the connection on behalf of the client, maintaining proxying of the TCP stream between the client and the server.
 
-sending OPTIONS with api URL gives you info on all api allowed functionality which is useful if you don't have documentation  
+## **OPTIONS Method: Communication Options Inquiry**
 
-TRACE -> method performs a message loop-back test along the path to the target resource, providing a useful debugging mechanism.
+The OPTIONS method requests permitted communication options for a specified URL or server. Clients can specify a URL with this method or use an asterisk (\*) to encompass the entire server. Sending OPTIONS with an API URL provides information on all allowed functionalities, serving as a useful tool in the absence of documentation.
+
+## **TRACE Method: Message Loop-Back Test**
+
+The TRACE method performs a message loop-back test along the path to the target resource, offering a valuable debugging mechanism for analyzing the communication path.

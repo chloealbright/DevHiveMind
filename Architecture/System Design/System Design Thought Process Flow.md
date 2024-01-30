@@ -35,7 +35,7 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
 ### Data Design & Database Architecture 
   - Create an Entity Relationship Diagram (ERD) to define relationships.
   - Consider SQL for structured data and NoSQL for unstructured data.
-  - More things to think about when deciding between [[Choosing Database]] you can also talk about [[Database Sharding]]
+  - More things to think about when deciding between [[Choosing Database]] you can also talk about [[Database Sharding]].
   - What type of [[Schema Design]] makes sense.
   - You can also talk about [[Master-Slave Database Architecture]]
   - Talk about [[Data Retention Target]]
@@ -82,6 +82,7 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
 #todo/Low/Research
 - [ ] Talk about centralized systems in comparison to decentralized systems which is mostly covered here need to research more about centralized systems 
 - [ ] Also add stuff around security, testing, maintainability, and user experience to cover the rest of the core concepts of system design.
+- [ ] [[Fault tolerance]]
 
 
 

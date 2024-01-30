@@ -15,6 +15,7 @@ As a Business Systems Analyst (BSA), engaging in purposeful conversations is cri
 
 1. **Ask Questions in this Order:**
    - **What(broadest question of them all):** Identify different scenarios and dependencies.
+*Interrogative adverbs - used to ask questions about manner, place, time, or reason.*
    - **Why:** Uncover the root causes at various scopes, using creative and indirect queries.
 	   - Other way of asking why  
 		   - Can you tell me what's leading you to this request  

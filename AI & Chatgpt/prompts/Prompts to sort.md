@@ -43,3 +43,20 @@ reformat individual sections for need and wants
 
 
 Create a Epic with acceptance criteria, risk, and definition of ready and done around a upskilling program
+
+
+
+
+
+
+
+
+Act as a senior developer create a partial skeleton of a Java assessment project to complete covering topics like Multi threading and concurrency, collections, generics, annotations, and streams to complete about a driving school  
+  
+  
+give context like ask to create assessment around an example like cars or something or dmv  
+  
+or a small part of a system  
+  
+  
+Act as a senior developer create a partial skeleton of a Java assessment project to complete covering topics like Multi threading, single threading, and concurrency, collections, generics, and annotations to complete about a driving school

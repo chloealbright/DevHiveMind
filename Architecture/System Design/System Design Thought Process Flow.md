@@ -81,10 +81,11 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
 
 #todo/Low/Research
 - [ ] Talk about centralized systems in comparison to decentralized systems which is mostly covered here need to research more about centralized systems 
+- [ ] monolithic arch might be central check with chatgpt
 - [ ] Also add stuff around security, testing, maintainability, and user experience to cover the rest of the core concepts of system design.
 - [ ] Integrate and talk [[Fault tolerance]]
 - [ ] look into talk about Load shedding and distributed Locking
-- [ ] maybe add stuff around circuit break pattern 
+- [ ] maybe add stuff around circuit break pattern seems relevant to system design but you can say that about all design patterns but it seems like this one is used heavily in comparison to others patterns or one of the heavily used patterns need to verify this
 
 
 

@@ -26,6 +26,19 @@ IPv6 is the latest version of the Internet Protocol, designed to address the lim
 
 ![[IPV6 vs IPV4.jpeg]]
 
+## Recommended DNS  to Use
+
+Phone DNS  
+[1dot1dot1dot1.cloudflare-dns.com](http://1dot1dot1dot1.cloudflare-dns.com/)  
+  
+Network and PC DNS ipv4  
+Primary DNS Server: 1.1.1.1  
+Secondary DNS Server: 1.0.0.1  
+  
+ipv6  
+2606:4700:4700::1111  
+2606:4700:4700::1001  
+
 ## **Main Differences Between IPv6 and IPv4**
 
 IPv4 and IPv6 are both addresses that are used to identify machines connected to a network. They are the same in principle but different in how they work. What are their differences? Below are the main differences between IPv4 and IPv6.

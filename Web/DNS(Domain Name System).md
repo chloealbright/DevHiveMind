@@ -2,38 +2,25 @@
 tags: 
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses DNS.
+Status: Capture
 Started: 
-EditDate: 
+EditDate: 2024-01-31
 Relates:
 ---
 ![[DNS resolve.png]]
 
--   DNS recursive resolver -   between website and load balancer  
-    
--   Border Gateway Protocol(probably not on interview) nice to know 
-    
--   why facebook went down 
-    
--   outsource things like different services like for a feed on Instagram to manage services  
-    
--   using indexes in databases and thinking about performance things that are unique to the user are things typically you want to reserve to indexing
-
-Recommended DNS  
----------------------------------------  
-Phone DNS  
-[1dot1dot1dot1.cloudflare-dns.com](http://1dot1dot1dot1.cloudflare-dns.com/)  
-  
-Network and PC DNS ipv4  
-Primary DNS Server: 1.1.1.1  
-Secondary DNS Server: 1.0.0.1  
-  
-ipv6  
-2606:4700:4700::1111  
-2606:4700:4700::1001  
-  
-  
-avoid DOH DNS-over-HTTPS make sure you disable this
+DNS, or Domain Name System, is a decentralized system that translates human-readable domain names (like www.example.com) into IP addresses used by computers to identify each other on a network. Essentially, DNS acts as a directory service for the internet, allowing users to access websites and other online resources using easily memorable names instead of numerical IP addresses.
 
 
-Suppose to get router every 2 years but 5 years at the max
+## Recursive Resolver
+A DNS recursive resolver is a crucial component in the DNS infrastructure. Its primary function is to fetch information on behalf of a client by navigating through the hierarchical structure of the DNS.
+
+When a user makes a request to access a website (for example, www.example.com), their device queries a DNS recursive resolver. The resolver, in turn, interacts with authoritative DNS servers to obtain the IP address associated with the requested domain. This involves a recursive process where the resolver iteratively queries different DNS servers until it reaches the authoritative server that holds the specific IP information for the domain.
+
+Regarding a load balancer, DNS doesn't directly interact with load balancers. However, the IP addresses returned by the DNS resolver could point to multiple servers managed by a load balancer. The load balancer then distributes incoming network traffic across these servers, ensuring optimal resource utilization and reliability.
+
+In summary, the DNS recursive resolver helps translate domain names into [[IP Address Structure |IP addresses]], and the IP addresses obtained from this process may be associated with servers managed by a load balancer for efficient distribution of incoming requests.
+
+
+

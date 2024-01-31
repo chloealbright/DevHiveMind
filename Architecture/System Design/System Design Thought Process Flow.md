@@ -82,7 +82,9 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
 #todo/Low/Research
 - [ ] Talk about centralized systems in comparison to decentralized systems which is mostly covered here need to research more about centralized systems 
 - [ ] Also add stuff around security, testing, maintainability, and user experience to cover the rest of the core concepts of system design.
-- [ ] [[Fault tolerance]]
+- [ ] Integrate and talk [[Fault tolerance]]
+- [ ] look into talk about Load shedding and distributed Locking
+- [ ] maybe add stuff around circuit break pattern 
 
 
 

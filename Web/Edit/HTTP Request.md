@@ -103,3 +103,11 @@ Request can be resolved(accepted) or rejected and you may create test case to ha
 
 
 
+## HTTP Request Structure
+![[Request Structure.png]]
+
+The `fetch()` method is used to make network requests, resolving to a `Response` object once the server responds with headers. It defaults to a GET request but can be configured for other methods like POST. The promise does not reject on HTTP errors; you need to check `Response.ok` or `Response.status` in a `then()` handler.
+
+Custom settings can be provided through the optional `init` object, including method, headers, body, mode, credentials, cache, redirect, referrer, referrer-policy, integrity, keepalive, and signal. For handling redirects, options like "follow," "error," and "manual" are available.
+
+Check the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/API/fetch) for more details, including exceptions and additional information on the `fetch()` method. Additionally, [FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData) can be used to construct a set of key/value pairs representing form fields and their values for easy submission.

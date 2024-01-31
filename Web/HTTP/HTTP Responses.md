@@ -3,8 +3,8 @@ tags:
 author:
   - jacgit18
 Comments: This documentation discusses HTTP Responses & Common Status Codes
-Status: 
-Started: 
+Status: Done
+Started: 2023-11-29
 EditDate: 2024-01-31
 Relates:
 ---

@@ -86,6 +86,8 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
 - [ ] Integrate and talk [[Fault tolerance]]
 - [ ] look into talk about Load shedding and distributed Locking
 - [ ] maybe add stuff around circuit break pattern seems relevant to system design but you can say that about all design patterns but it seems like this one is used heavily in comparison to others patterns or one of the heavily used patterns need to verify this
+- [ ] Look into https://blog.quastor.org/p/rate-limiting-stripe
+- [ ] 
 
 
 

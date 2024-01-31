@@ -3,6 +3,7 @@ tags:
   - servers
 author:
   - jacgit18
+Comments: This documentation discusses
 Status: Refinement
 Started: 
 EditDate: 
@@ -27,6 +28,7 @@ A cache is temporary storage that is relatively smaller in size with faster acce
 -   Application Caching: In application caching, the cache is placed between the application and data stores. These caches usually store database query results and/or objects that the application uses. Typical application caches include Memcached, Redis, DynamoDB, etc. 
 	
 -   One of the challenges with caching is ensuring consistency of the data between the cache and the underlying data layer (i.e. server or database).
+
 
 
 
@@ -106,3 +108,7 @@ Certainly! Caches play a crucial role in optimizing data access and improving sy
 - **Application-Specific Caches:** Tailored caches designed for specific software or use cases.  
   
 Each type of cache is designed to address specific performance challenges, balancing the trade-offs between speed, capacity, and complexity based on the requirements of the system or application.
+
+
+#todo/Med/Dev 
+- [ ] https://tigerabrodi.blog/deep-dive-into-http-caching

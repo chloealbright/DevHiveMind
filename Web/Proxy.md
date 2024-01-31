@@ -2,15 +2,13 @@
 tags: 
 author:
   - jacgit18
-Comments: 
-Status: 
+Comments: This documentation discusses proxies.
+Status: Refinement
 Started: 
-EditDate: 
+EditDate: 2024-01-30
 Relates:
 ---
-
 In computer networking, a proxy server is a server application that acts as an intermediary between a client requesting a resource and the server providing that resource.  
-
 
 - **Forward Proxy** serves clients and forwards their requests to external servers.
 - **Reverse Proxy** serves as an intermediary for clients and forwards requests to backend servers.
@@ -134,11 +132,6 @@ This example sets up a basic reverse proxy that listens on port 3000. Incoming r
 ![](https://miro.medium.com/v2/resize:fit:700/1*oeUPfO992X54Q15f39Nsig.png)
 
 Forward Proxy vs Reverse Proxy
-
-
-
-
-
 
 
 

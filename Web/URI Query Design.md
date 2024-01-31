@@ -2,12 +2,28 @@
 tags: 
 author:
   - jacgit18
-Comments: This documentation discusses URI Universal Resources Identifier
+Comments: This documentation discusses URI a super-set of  URL, talking about query design.
 Status: Capture
 Started: 
-EditDate: 
-Relates:
+EditDate: 2024-01-30
+Relates: "[[Structuring URL]]"
 ---
+A Query String assigns values to specified Query Parameters and is typically encoded. It is initiated by the "?" within the URL and includes parameters and their corresponding values, such as "id" and "123". Parameters are occasionally employed for session IDs.
+
+In the context of web and database queries, data transmission can occur through various means, including Query Strings/Params within the URL, URL Route Params, or Request Body Params. For example:
+
+- Query String/Param within URL:
+  - `https://example.com/api/data?category=tech&type=article`
+
+- URL Route Param:
+  - `https://example.com/api/data/category/tech/type/article`
+
+- Request Body Param:
+  - Included in the body of an HTTP request during data submission.
+
+Query Params play a crucial role in specifying conditions or filters when querying a database through a web application, allowing for dynamic and targeted retrieval of information.
+
+
 The query component in a URI plays a crucial role in uniquely identifying a resource. For instance:
 
 - `http://api.college.restapi.org/students/morgan/send-sms`

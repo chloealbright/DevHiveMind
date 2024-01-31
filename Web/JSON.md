@@ -2,39 +2,33 @@
 tags: 
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses JSON.
+Status: Capture
 Started: 
-EditDate: 
+EditDate: 2024-01-30
 Relates:
 ---
+### Working with JSON
 
-we use JSON to send data since a server may use a different language 
+- **Data Interchange:** JSON is utilized for data interchange, enabling communication between systems that may use different programming languages.
 
-the syntax stores and exchanges data and is just text created with JavaScript object notation which can be read in any language 
+- **Syntax and Exchange:** The syntax of JSON allows for the storage and exchange of data, presented as text in JavaScript Object Notation. This format is universally readable across various programming languages.
 
-we can wrap an object in the JSON parse method or JSON stringify  
+- **JSON Methods:** Objects can be encapsulated using the `JSON.parse` or `JSON.stringify` methods. 
+  - `JSON.stringify(object)` is used before making requests to servers or databases (via HTTP methods like GET, POST, PUT, or DELETE).
+  - Upon receiving data in the browser, `JSON.parse` is applied for processing.
 
-JSON stringify object -> make a request to server or db using  
+- **Parsing Process:**
+  - **Request to Server/DB:** Object is converted to a string using `JSON.stringify` before sending.
+  - **Browser Reception:** Upon receiving data, `JSON.parse` is employed to convert the string back to an object.
 
-Get, Post, Put or Delete 
+- **Dealing with JSON Order:**
+  - JSON order preservation is inherent; re-parsing may be necessary for specific scenarios, such as reordering keys (`JSON.stringify(JSON.parse(jsonVar))` or `JSON.parse(JSON.stringify(jsonVar))`).
 
-                                                                      |      that gets JSON parse       
+- **Manipulating JSON:**
+  - JSON is a protected primitive string; to alter its order, it's converted to an object using `JSON.parse` for mutability. 
+  - After manipulation, `JSON.stringify` is used to revert it to a string.
 
-                                                                     \/ 
+### JSONP
 
-   when it get browser  JSON parse  <-  on response  JSON stringify again  
-
-Dealing with JSON 
-
-JSON maybe parsed by default and the scenario where you want to re parse is to reorder the keys Json.stringify(Json.parse(jsonVar)) or Json.parse(Json.stringify(jsonVar)) 
-
-The order of JSON is preserved because JSON is a protected primitive type of string in order to alter it you need to convert it to an object that is mutable by parsing it to make it unprotected and you can manipulate it and  you can stringify to make it a string again 
-
-JSON.parse converts it back to the object where you can mutate it 
-
-Then you use the JSON.stringify and pass that object as Param to make it string again
-
-
-
-## JSONP
-JSONP stands for JSON with Padding. Requesting a file from another domain can cause problems, due to cross-domain policy. Requesting an external script from another domain does not have this problem. JSONP uses this advantage, and request files using the script tag instead of the XMLHttpRequest object.
+JSONP, or JSON with Padding, addresses cross-domain policy issues when requesting files from external domains. Leveraging the script tag instead of XMLHttpRequest, JSONP facilitates cross-domain data retrieval by embedding the response within a function call, overcoming typical cross-origin limitations.

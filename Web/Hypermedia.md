@@ -2,33 +2,24 @@
 tags: 
 author:
   - jacgit18
+Comments: This documentation discusses Hypermedia.
 Status: 
 Started: 
-EditDate: 
+EditDate: 2024-01-30
 Relates:
 ---
 ![[Hypertext vs Hypermedia.png]]
 
-What is Hypermedia? 
+**What is Hypermedia?**
+Hypermedia is an evolved form of hypertext that incorporates diverse media types, including text, graphics, audio, and video sequences. Unlike hypertext, hypermedia isn't limited to textual elements; it expands the concept by introducing clickable links within web pages, creating a network of interconnected, non-linear information. This approach allows users to access and interact with multimedia content, enhancing their overall experience. Image links, commonly connected to other web pages, represent a prevalent form of hypermedia. Its applications span diverse fields, from problem-solving and qualitative research to electronic learning and advanced educational tools.
 
-Hypermedia is an extension of hypertext that employs multiple forms of media such as text, graphics, audio or video sequences, still or moving graphics, etc. The structure of hypermedia is quite similar to that of a hypertext, except it’s not constrained to be just text-based. It extends the capabilities of hypertext systems by creating clickable links within web pages to create a network of interconnected non-linear information which user can both access and interact with for a better multimedia experience. The most common hypermedia type is image links which are often linked to other web pages. It is used in a variety of applications from problem solving and qualitative research to electronic studying and sophisticated learning. 
+**Difference between Hypertext and Hypermedia**
+- **Definition:** Hypertext involves text containing links that transfer users to other text chunks through mouse clicks or keypresses. Hypermedia extends the hypertext concept but includes various media elements like audio, images, video, and graphics.
 
-Difference between Hypertext and Hypermedia 
+- **Representation:** Hypertext forms an interconnected network of documents with links between them, featuring both static and dynamic content. Hypermedia goes beyond text, incorporating a wide range of multimedia elements such as audio, video, and graphics.
 
-Definition 
+- **Technology:** Hypertext, while widely associated with the World Wide Web, has roots in earlier technologies. It relies on human-computer interaction through hyperlinks. Hypermedia, a more recent development, utilizes non-linear multimedia elements to enhance overall experiences, particularly in education.
 
-Hypertext simply refers to text that contains links to other chunks of text to which the user is transferred to usually by a mouse click or keypress. The documents are linked together via hyperlinks which allow users to jump from one document to another within the same or different web pages. Hypermedia, on the other hand, is an extension of the term hypertext used in a similar way except it’s not constrained to text elements. In fact, hypermedia contains different media elements or morphologies such as audio, images, video, and still or moving graphics. 
+- **Applications:** Hypertext extends beyond internet-based linking and can be applied to various applications, including electronic studying, literary exploration, and qualitative research. Hypermedia, exemplified by the World Wide Web, defines a network of interconnected documents enriched by extensive cross-referencing tools like hypertext.
 
-Representation 
-
-Hypertext is an interconnected network of documents and other media referenced through links between them. It can contain either static or dynamic content in an electronic format. The static content is the content that can be delivered directly to the end users without any modification whereas dynamic content may subject to change based on user inputs. Hypermedia is the next level of multimedia experience which extends the notion of hypertext links to include not only text but a wide range of other multimedia elements such as audio, video, and graphics. 
-
-Technology 
-
-Although the term hypertext is widely used in association with the World Wide Web, the technology has been around since ages. The hypertext technology is solely based on human-computer interaction by strong cross referencing tools called hyperlinks. It facilitates effective use of text and links and how to implement it on the World Wide Web. Hypermedia technology is based on non-linear forms of media which include not only plain text but also other multimedia elements to enhance your overall multimedia experience. Hypermedia technology is a major breakthrough in the field of education. 
-
-Applications 
-
-Hypertext technology goes beyond the usual clicking and accessing “go to” links from one location to another on the internet. The hypertext model can be implemented on a wide range of applications and the degree of dynamic linking in the hypertext is not just limited to the internet. In fact, it can be applied to electronic studying, literary exploration, and qualitative research. Hypermedia application can be defined as a network of interconnected documents that are linked together by extensive cross-referencing tools such as hypertext. The best example of hypermedia is the World Wide Web. 
-
-Read more: Difference Between Hypertext and Hypermedia | Difference Between [http://www.differencebetween.net/technology/difference-between-hypertext-and-hypermedia/#ixzz7ULaITHrK](http://www.differencebetween.net/technology/difference-between-hypertext-and-hypermedia/#ixzz7ULaITHrK)
+*[Read more: Difference Between Hypertext and Hypermedia](http://www.differencebetween.net/technology/difference-between-hypertext-and-hypermedia/#ixzz7ULaITHrK)*

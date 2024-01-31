@@ -2,7 +2,7 @@
 tags: 
 author:
   - jacgit18
-Comments: 
+Comments: This documentation discusses Webhooks vs Polling.
 Status: Capture
 Started: 
 EditDate: 

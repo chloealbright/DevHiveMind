@@ -7,6 +7,12 @@ Started:
 EditDate: 
 Relates:
 ---
+two types of APIs: private and public. 
+
+most APIs are private and imperceptible, internal to companies, used by staff and by partners with contractual agreements. This use of APIs is what is really driving the API revolution. Do not limit your thinking about the ways APIs can be used to public examples like the App Store. Partner and internal use of APIs is often more valuable.
+
+
+
 API's are deployed to servers. A server can provide all sorts of functionality that is not an API. For instance, you could have a server that backs up your database every 24 hours.
 
 

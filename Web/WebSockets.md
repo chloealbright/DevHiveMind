@@ -58,3 +58,78 @@ WebSockets are versatile and can be used in various contexts where real-time, bi
 - Consider a chat application where users exchange messages in real time. WebSockets would be a suitable choice to deliver messages instantly to all connected users without the need for constant polling or delays associated with traditional HTTP.  
   
 In conclusion, WebSockets are a powerful tool for scenarios requiring real-time, bidirectional communication. Evaluate the specific needs of your application, and if responsiveness, low latency, and bidirectional communication are critical, WebSockets may be a beneficial choice.
+
+
+
+## WebSocket Example
+
+1. **Server-side (Node.js):**
+
+   The server-side code remains the same:
+
+   ```javascript
+   const WebSocket = require('ws');
+   const server = new WebSocket.Server({ port: 3000 });
+
+   server.on('connection', (socket) => {
+       console.log('Client connected');
+
+       // Handle messages from clients
+       socket.on('message', (message) => {
+           console.log(`Received: ${message}`);
+           
+           // Send a response back to the client
+           socket.send('Server received your message');
+       });
+
+       // Handle disconnect
+       socket.on('close', () => {
+           console.log('Client disconnected');
+       });
+   });
+   ```
+
+2. **Client-side (React):**
+
+   Create a React component that handles the WebSocket connection and communication:
+
+   ```jsx
+   import React, { useEffect } from 'react';
+
+   const WebSocketExample = () => {
+       useEffect(() => {
+           const socket = new WebSocket('ws://localhost:3000');
+
+           // Connection opened
+           socket.addEventListener('open', (event) => {
+               console.log('Connected to server');
+               socket.send('Hello, server!');
+           });
+
+           // Listen for messages
+           socket.addEventListener('message', (event) => {
+               console.log(`Server says: ${event.data}`);
+           });
+
+           // Connection closed
+           socket.addEventListener('close', (event) => {
+               console.log('Connection closed');
+           });
+
+           // Clean up the WebSocket connection on component unmount
+           return () => {
+               socket.close();
+           };
+       }, []); // Empty dependency array ensures the effect runs once on mount
+
+       return (
+           <div>
+               <p>WebSocket communication with React</p>
+           </div>
+       );
+   };
+
+   export default WebSocketExample;
+   ```
+
+ 

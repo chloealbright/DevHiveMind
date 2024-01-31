@@ -2,57 +2,35 @@
 tags: 
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses different types of storage around browsers.
+Status: Capture
 Started: 
-EditDate: 
+EditDate: 2024-01-30
 Relates:
 ---
-## Cookie storage 
+### Cookie Storage
 
-4 KB of capacity  
+- **Capacity:** Limited to 4 KB.
+- **HTML Support:** Compatible with HTML 4 and 5.
+- **Access Method:** Accessed through `window` object, using `document.cookie` with associated methods.
+- **Expiration:** Can be manually set.
+- **Storage:** Persists on both the browser and server.
+- **Request:** Sent with each HTTP request.
 
-Supports HTML 4 and 5  
+### Local Storage
 
-Accessible through window object 
+- **Capacity:** Allows up to 10 MB storage.
+- **HTML Support:** Supports HTML5.
+- **Access Method:** Accessible via the `window` object, using `localStorage`.
+- **Expiration:** Persistent; never expires.
+- **Storage:** Local storage is stored exclusively in the browser.
+- **Request:** Data stored in local storage is not sent with HTTP requests.
 
-Have to access through document.cookie and whatever method you want to put associated with it or assign value 
+### Session Storage
 
-You can manually set when it expires 
-
-Is stored on browser and server 
-
-And is sent with a request 
-
-## Local storage 
-
-The local storage basically stores the data from your current domain 
-
-Has a capacity of 10 MB 
-
-Supports HTML5 
-
-Local can be accessed by window object 
-
-So window.local storage or just local storage outside of a function where you can access the object of globally and just reference that 
-
-Never expires 
-
-Stored in browser 
-
-And isn't sent by request 
-
-## Session storage 
-
-Capacity of 5 MB 
-
-Support HTML5 
-
-Accessible from same tab 
-
-Is accessed by window so you can just say session storage thought whatever method 
-
-Expires on tab close 
-
-Is only stored on browser 
-
-And isn't sent with request
+- **Capacity:** Limited to 5 MB.
+- **HTML Support:** Compliant with HTML5.
+- **Access Method:** Accessed from the same tab through the `window` object using `sessionStorage`.
+- **Expiration:** Expires upon tab closure.
+- **Storage:** Exclusive to the browser; not stored on the server.
+- **Request:** Data stored in session storage is not sent with HTTP requests.

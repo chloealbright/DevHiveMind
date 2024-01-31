@@ -36,3 +36,4 @@ Here's how sharding and pagination are interconnected:
 
 In summary, sharding and pagination are closely related in distributed database systems, especially when dealing with large datasets. Pagination strategies must be designed to work seamlessly with the sharding approach to provide efficient data retrieval, consistent user experiences, and optimal query performance across the distributed environment. The choice of pagination techniques and how they interact with sharding is critical for delivering a scalable and responsive application.
 
+![[Pagination.pdf]]

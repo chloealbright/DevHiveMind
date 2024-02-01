@@ -1,8 +1,10 @@
 ---
-tags: 
+tags:
+  - testing
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses smoke test.
+Status: Done
 Started: 
 EditDate: 
 Relates:

@@ -7,7 +7,7 @@ Started:
 EditDate: 
 Relates:
 ---
-- [ ] [[Testing Heiarchy]] 
+- [ ] [[Testing Hierarchy]] 
 
 
    Summary that gives high level overview with the different testing mentioned 

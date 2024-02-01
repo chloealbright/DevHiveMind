@@ -66,6 +66,7 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
 - Discuss [[Stateless & Statefull Processes |Stateless vs Statefull]] application or process.
 - Maybe talk [[Microservices]](might not be relevant since small scope) or leverage knowledge of [[12 Factor App Docker.canvas|12 Factor App Docker]] which has some overlap with everything mentioned, whatever comes to mind.
 - Making [[Event-driven Architectural Pattern Decisions]].
+- Talk testing architecture or [[Testing Hierarchy]] maybe using [[Test Driven Development]] or talk about test automation 
 
 ### Scalability and Performance
   - Distribute traffic across server pools for different types of traffic. talk about different trade-offs.

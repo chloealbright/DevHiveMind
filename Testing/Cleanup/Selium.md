@@ -3,7 +3,8 @@ tags:
   - testing
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses
+Status: Refinement
 Started: 
 EditDate: 
 Relates:
@@ -12,7 +13,7 @@ Relates:
 
 Selenium is an umbrella project for a range of tools and libraries that enable and support the automation of web browsers. 
 
-##### **Selenium is for frontend test in java 
+##### Selenium is for frontend test in java 
 
 ## Selenium controls web browsers 
 

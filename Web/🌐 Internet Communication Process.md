@@ -2,10 +2,10 @@
 tags: 
 author:
   - jacgit18
-Comments: 
+Comments: This documentation discusses Internet Protocol.
 Status: Refinement
 Started: 
-EditDate: 
+EditDate: 2024-01-31
 Relates:
 ---
 ![[Protocol.gif]]
@@ -72,23 +72,13 @@ Relates:
 
 HTTP, a stateless application-level request/response protocol, utilizes extensible semantics and self-descriptive message payloads for flexible interaction with network-based hypertext information systems. It operates through message exchange over a reliable transport or session-layer "connection." While state management mechanisms like cookies exist in HTTP, they facilitate session management on the server side without fundamentally rendering HTTP stateful.
 
-
 Hypertext Transfer Protocol Secure is an extension of the Hypertext Transfer Protocol. It is used for secure communication over a computer network, and is widely used on the Internet. In HTTPS, the communication protocol is encrypted using Transport Layer Security or, formerly, Secure Sockets Layer.
 
 The Simple Mail Transfer Protocol is an internet standard communication protocol for electronic mail transmission. Mail servers and other message transfer agents use SMTP to send and receive mail messages
-
 
 The File Transfer Protocol is a standard communication protocol used for the transfer of computer files from a server to a client on a computer network. FTP is built on a client–server model architecture using separate control and data connections between the client and the server.
 
 
 
 
-The headers and body are completely different 
 
-You can create a request and response directly using the Request() and Response() constructors, but it's uncommon to do this directly. Instead, these are more likely to be created as results of other API actions using the Fetch Interfaces like fetch() 
-
-Within CRUD  
-
-we typically POST request on the front-end > and Get request on the back-end 
-
-if data is already created you do a GET on front-end at the endpoint and on the back-end the query action is down at whatever endpoint you defined

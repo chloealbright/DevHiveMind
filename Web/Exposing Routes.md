@@ -5,7 +5,7 @@ author:
 Comments: This documentation discusses route exposure.
 Status: Refinement
 Started: 
-EditDate: 
+EditDate: 2024-01-31
 Relates:
 ---
 Exposing routes in a monolithic API built with TypeScript typically involves using a web framework, such as Express.js, to define routes and handle HTTP requests. Here's a simplified process of exposing routes in a TypeScript monolith API using Express.js as an example:
@@ -62,7 +62,9 @@ app.listen(PORT, () => {
 
 This is a basic overview of how to expose routes in a monolithic API using TypeScript and Express.js. You can expand on this by adding database interactions, authentication, and more as needed for your specific application.
 
+> Side note should use *127.0.0.1* over *localhost*
 
+## Guarded Routes
 
 The opposite of exposing an API endpoint is "hiding" or "restricting" an API endpoint. In the context of API design and development, exposing an endpoint means making it publicly accessible for clients to interact with, typically over the internet.
 

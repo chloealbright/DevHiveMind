@@ -5,7 +5,7 @@ author:
 Comments: This documentation discusses other request.
 Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-01-30
 Relates:
 ---
 ## **CONNECT Method: Two-Way Communication**

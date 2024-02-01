@@ -983,30 +983,6 @@
             "type": "tabs",
             "children": [
               {
-                "id": "09b4f41d619e41ba",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Algorithms & Data Structures/Abstract Data Types.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "3d62529bfc4bbdd0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Algorithms & Data Structures/AlgoFlow.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
                 "id": "2ed43bfa0e681735",
                 "type": "leaf",
                 "state": {
@@ -1019,19 +995,43 @@
                 }
               },
               {
-                "id": "eec4593682685e9b",
+                "id": "a719dcad50158adb",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Algorithms & Data Structures/Coding Interview Tips.md",
+                    "file": "Companies/Companies Worked At/TD/Type of Question.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "a89cb5325c0a4543",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Companies/Companies Worked At/TD/Elicitation.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "a9bb0457789269c2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Algorithms & Data Structures/Algorithms/Big O.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           },
           {
             "id": "f37a7c1fb3d94013",
@@ -1043,13 +1043,86 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Algorithms & Data Structures/Attributes of Data.md",
+                    "file": "Algorithms & Data Structures/Patterns/Key Base Attributes of  Grokking Algorithm patterns.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "9baa7ec5238702c5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Algorithms & Data Structures/Problem Solving Regimen.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "3f4f072537da18a9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Algorithms & Data Structures/Identify Conditional Logic.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "a29cec9be71d64dd",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Algorithms & Data Structures/Recursion/Recursion & Recursion Runtime.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "aa5aec24cae2f5f9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Algorithms & Data Structures/Non-Linear Data Structures/Non-Linear Data Structure Runtime Comparison.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "7212277b6b5f0516",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "0187f6d829ab25fc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Algorithms & Data Structures/Algorithms/Algorithm Most Common Built in Functions.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 6
           }
         ],
         "direction": "vertical"
@@ -1131,7 +1204,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Algorithms & Data Structures/Algo pathway.md",
+                    "file": "Algorithms & Data Structures/Algorithms/Big O.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1148,7 +1221,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Algorithms & Data Structures/Algo pathway.md",
+                    "file": "Algorithms & Data Structures/Algorithms/Big O.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1171,7 +1244,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Algorithms & Data Structures/Algo pathway.md"
+                    "file": "Algorithms & Data Structures/Algorithms/Big O.md"
                   }
                 }
               },
@@ -1221,7 +1294,9 @@
                 "state": {
                   "type": "all-properties",
                   "state": {
-                    "sortOrder": "frequency"
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
                   }
                 }
               }
@@ -1249,6 +1324,9 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-book-search-plugin:Create new book note": false,
+          "obsidian-rich-links:Rich Links": false,
+          "excel:Create Excel File": false,
           "markdown-importer:Open format converter": false,
           "obsidian-advanced-slides:Show Slide Preview": false,
           "copilot:Copilot Chat": false,
@@ -1275,7 +1353,7 @@
           "periodic-notes:Open today": false
         }
       },
-      "active": "2ed43bfa0e681735"
+      "active": "c18a64a686e80f59"
     },
     "tracflo and mvc Arch": {
       "main": {

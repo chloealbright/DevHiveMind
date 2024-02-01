@@ -82,7 +82,7 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
 
 #todo/Low/Research
 - [ ] Talk about centralized systems in comparison to decentralized systems which is mostly covered here need to research more about centralized systems 
-- [ ] monolithic arch might be central check with chatgpt
+- [ ] monolithic architecture is an example of a centralized system. In a monolithic architecture, the entire application is built as a single, indivisible unit, making it centralized and typically deployed on a single server or a closely connected set of servers.
 - [ ] Also add stuff around security, testing, maintainability, and user experience to cover the rest of the core concepts of system design.
 - [ ] Integrate and talk [[Fault tolerance]]
 - [ ] look into talk about Load shedding and distributed Locking

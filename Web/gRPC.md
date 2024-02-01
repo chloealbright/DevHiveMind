@@ -4,7 +4,7 @@ author:
   - jacgit18
   - chatgpt
 Comments: This documentation discusses what gPRC and its use cases.
-Status: 
+Status: Done
 Started: 
 EditDate: 2024-01-30
 Relates:

@@ -7,7 +7,7 @@ author:
   - jacgit18
   - chatgpt
 Comments: This documentation discusses Syncthing Obsidian
-Status: 
+Status: Done
 Started: 
 EditDate: 
 Relates:
@@ -32,7 +32,7 @@ Sure! Here are the common directories you may find in an Obsidian vault:
 
 1. **Vault root directory**: This is the main directory where your Obsidian vault is located. It typically contains various files and folders related to your notes and configuration.
 
-2. **`.obsidian` directory**: This directory stores the configuration files for your Obsidian vault. It may contain files such as `config` (main configuration file), `plugins` (list of installed plugins), and `workspace` (workspace layout settings).
+2. **`\.obsidian` directory**: This directory stores the configuration files for your Obsidian vault. It may contain files such as `config` (main configuration file), `plugins` (list of installed plugins), and `workspace` (workspace layout settings).
 
 3. **`vault` directory**: The `vault` directory typically contains your actual note files. This is where you'll find your Markdown files (.md) or any other file formats you've chosen for your notes.
 

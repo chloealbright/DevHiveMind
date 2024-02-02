@@ -1,5 +1,8 @@
 ---
-tags: 
+tags:
+  - web
+  - HTTP
+  - protocol
 author:
   - jacgit18
 Comments: This documentation discusses the differences between WebHooks, WebSockets, and HTTP Streaming.

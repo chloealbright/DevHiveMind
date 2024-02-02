@@ -1,5 +1,8 @@
 ---
-tags: 
+tags:
+  - web
+  - servers
+  - MacroCodebaseDecision
 author:
   - jacgit18
 Comments: This documentation discusses proxies.

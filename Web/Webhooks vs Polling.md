@@ -1,5 +1,9 @@
 ---
-tags: 
+tags:
+  - comparison
+  - web
+  - HTTP
+  - protocol
 author:
   - jacgit18
 Comments: This documentation discusses Webhooks vs Polling.

@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - web
+  - DNS
 author:
   - jacgit18
 Comments: This documentation discusses DNS.

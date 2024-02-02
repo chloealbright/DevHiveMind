@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - web
+  - DNS
 author:
   - jacgit18
 Comments: This documentation discusses DNS resolver implementation.
@@ -8,7 +10,7 @@ Started: 2024-02-01
 EditDate: 
 Relates: "[[DNS(Domain Name System)]]"
 ---
-Implementing a DNS resolver in JavaScript involves making DNS queries and handling responses. You can use the `dns` module in Node.js for this purpose. If you have a load balancer, it might handle DNS resolution itself, and you can connect to the load balancer's IP address.  
+Implementing a DNS resolver in JavaScript involves making DNS queries and handling responses. You can use the `dns` module in [[Node.js]] for this purpose. If you have a [[Load Balancer]], it might handle DNS resolution itself, and you can connect to the load balancer's IP address.  
   
 Here's a simple example using Node.js `dns` module:  
   

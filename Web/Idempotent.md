@@ -1,11 +1,14 @@
 ---
-tags: 
+tags:
+  - web
+  - HTTP
+  - protocol
 author:
   - jacgit18
 Comments: This documentation discusses what idempotency is.
 Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-02
 Relates:
 ---
 **Idempotence** refers to the characteristic of certain operations that can be applied multiple times without altering the outcome.

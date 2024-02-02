@@ -1,5 +1,9 @@
 ---
-tags: 
+tags:
+  - web
+  - API
+  - concurrency
+  - multiThreading
 author:
   - jacgit18
 Comments: This documentation discusses Web Workers which relates to multi threading but in the Javascript ecosystem.
@@ -8,7 +12,7 @@ Started: 2023-11-23
 EditDate: 2024-01-30
 Relates:
 ---
-You can leverage the `Worker` API to execute functions concurrently in pure JavaScript, eliminating the need for HTML. Here's an illustrative example:
+You can leverage the `Worker` API to execute functions concurrently in pure JavaScript, eliminating the need for HTML. Here's an illustrative example: 
 
 ```javascript
 

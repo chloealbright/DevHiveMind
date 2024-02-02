@@ -1,8 +1,11 @@
 ---
-tags: 
+tags:
+  - web
+  - HTTP
+  - protocol
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses network request and request structure.
 Status: Refinement
 Started: 
 EditDate: 2024-01-30

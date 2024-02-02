@@ -1,5 +1,10 @@
 ---
-tags: 
+tags:
+  - web
+  - servers
+  - communication
+  - API
+  - MacroCodebaseDecision
 author:
   - jacgit18
   - chatgpt

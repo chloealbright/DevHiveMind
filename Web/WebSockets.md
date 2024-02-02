@@ -1,5 +1,8 @@
 ---
-tags: 
+tags:
+  - web
+  - protocol
+  - scalable
 author:
   - jacgit18
 Comments: This documentation discusses web sockets and when to use them.

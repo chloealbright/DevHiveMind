@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - web
+  - data
 author:
   - jacgit18
 Comments: This documentation discusses JSON.

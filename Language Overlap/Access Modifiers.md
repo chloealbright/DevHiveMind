@@ -58,6 +58,12 @@ What UML sign is for static member for attributes and methods;; underline or bol
 - private
 ```
 
+>[!note] 
+>Side note to test a private method, create an instance of that class and try to print the output of the variable or method that was private.
+>
+> You could try to call the private method in a class that should have access and asserts that the call failed.
+
+
 -  **[[Protected in Depth | Protected]]** - member can only be accessed within its package and by a subclass of its class in another package used a lot with UUID.
 ```java
 # protected

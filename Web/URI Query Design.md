@@ -1,5 +1,8 @@
 ---
-tags: 
+tags:
+  - web
+  - query
+  - HTTP
 author:
   - jacgit18
 Comments: This documentation discusses URI a super-set of  URL, talking about query design.

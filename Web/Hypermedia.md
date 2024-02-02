@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - web
 author:
   - jacgit18
 Comments: This documentation discusses Hypermedia.

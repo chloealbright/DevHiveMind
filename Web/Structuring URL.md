@@ -1,6 +1,10 @@
 ---
 tags:
   - API
+  - web
+  - protocol
+  - processes
+  - bestPractices
 author:
   - jacgit18
 Comments: This documentation discusses explains URI structure and best practices.

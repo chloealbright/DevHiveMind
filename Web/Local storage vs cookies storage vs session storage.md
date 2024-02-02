@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - web
+  - MicroCodebaseDecision
 author:
   - jacgit18
 Comments: This documentation discusses different types of storage around browsers.

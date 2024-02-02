@@ -1,5 +1,9 @@
 ---
-tags: 
+tags:
+  - web
+  - protocol
+  - OSI
+  - DNS
 author:
   - jacgit18
 Comments: This documentation discusses Internet Protocol.

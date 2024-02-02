@@ -1,6 +1,7 @@
 ---
 tags:
   - projectIdeas
+  - protocol
 author:
   - jacgit18
   - chatgpt

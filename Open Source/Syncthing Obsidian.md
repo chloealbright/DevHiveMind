@@ -4,7 +4,7 @@ tags:
 author:
   - jacgit18
   - chatgpt
-Comments: This documentation discusses s
+Comments: This documentation discusses Syncthing Obsidian
 Status: 
 Started: 
 EditDate: 

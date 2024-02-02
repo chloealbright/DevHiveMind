@@ -63,7 +63,7 @@ const result = 1 / 0;
 });  
 ```  
   
-4. **[[Data-Driven Testing]]**:  
+4. **[[Data Driven Testing]]**:  
   
 You have a large dataset, and you want to test your code against various data points. Iteration allows you to run the same test logic with multiple data points.  
 

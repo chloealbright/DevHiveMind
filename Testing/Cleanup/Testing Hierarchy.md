@@ -46,3 +46,9 @@ There are two types of testing manual and automated testing  
 [https://jestjs.io/docs/configuration#modulenamemapper-objectstring-string--arraystring](https://jestjs.io/docs/configuration#modulenamemapper-objectstring-string--arraystring)
 
 
+
+
+Functional testing: Checking functions by emulating business scenarios, based on functional requirements. Black-box testing is a common way to verify functions. 
+
+
+Usability testing: Validating how well a customer can use a system or web application to complete a task. 

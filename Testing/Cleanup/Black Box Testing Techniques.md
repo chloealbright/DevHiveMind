@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - testing
 author:
   - jacgit18
 Comments: This documentation discusses
@@ -8,9 +9,6 @@ Started:
 EditDate: 
 Relates:
 ---
-Reformat with other notes from [[Test Cases]]
-
-
 ### Simple Test Cases:
 
 - Simple test cases are designed to test the most common and straightforward scenarios of a software application.

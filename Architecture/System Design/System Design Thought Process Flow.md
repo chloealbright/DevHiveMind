@@ -8,7 +8,7 @@ Comments: Still cleaning up this documentation I might convert to a mind map or 
 Status: Refinement
 Started: 2024-01-04
 EditDate: 2024-01-26
-Version: "3.0"
+Version: "4.0"
 Relates:
 ---
 ![[System design core concepts.gif]]
@@ -66,7 +66,7 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
 - Discuss [[Stateless & Statefull Processes |Stateless vs Statefull]] application or process.
 - Maybe talk [[Microservices]](might not be relevant since small scope) or leverage knowledge of [[12 Factor App Docker.canvas|12 Factor App Docker]] which has some overlap with everything mentioned, whatever comes to mind.
 - Making [[Event-driven Architectural Pattern Decisions]].
-- Talk testing architecture or [[Testing Hierarchy]] maybe using [[Test Driven Development]] or talk about test automation 
+- Maybe talk testing architecture or [[Testing Hierarchy]] maybe using [[Test Driven Development]] or talk about test automation, [[Acceptance Testing]], [[Pre Acceptance Testing]],[[Type of Testing Techniques]]
 
 ### Scalability and Performance
   - Distribute traffic across server pools for different types of traffic. talk about different trade-offs.
@@ -80,10 +80,10 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
   
 
 
-#todo/Low/Research
+#todo/High/Research
 - [ ] Talk about centralized systems in comparison to decentralized systems which is mostly covered here need to research more about centralized systems 
 - [ ] monolithic architecture is an example of a centralized system. In a monolithic architecture, the entire application is built as a single, indivisible unit, making it centralized and typically deployed on a single server or a closely connected set of servers.
-- [ ] Also add stuff around security, testing, maintainability, and user experience to cover the rest of the core concepts of system design.
+- [ ] Also add stuff around security, maintainability, and user experience to cover the rest of the core concepts of system design.
 - [ ] Integrate and talk [[Fault tolerance]]
 - [ ] look into talk about Load shedding and distributed Locking
 - [ ] maybe add stuff around circuit break pattern seems relevant to system design but you can say that about all design patterns but it seems like this one is used heavily in comparison to others patterns or one of the heavily used patterns need to verify this

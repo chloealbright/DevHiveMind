@@ -67,15 +67,15 @@ For multiple cases create truth table to gauge likelihood of multiple cases bein
 
 # Types of Cases
 
-Base case  
+## Base case  
 
-	is where Recursion ends. 
+is where Recursion ends. 
 
-Boundary case  
+## Boundary case  
 
 	Occurs when one of the inputs is at or just beyond maximum or minimum limits. Example One Boundary analysis can be looking at current value and value before and after 
 
-Corner case  
+## Corner case  
 
 A more complex boundary check (a corner is a two-dimensional boundary), for example combining <MIN_INT> and <MAX_INT> in a calculation. 
 
@@ -85,9 +85,10 @@ Occurs outside of normal operating parameters/inputs, specifically when multiple
 
 
 
-Edge case  
+## Edge case  
 
-	Occurs at an extreme (maximum or minimum) operating parameter. 
+Occurs at an extreme (maximum or minimum) operating parameter. 
+
 
 Edge / Boundary check = The maximum or minimum input that is expected to produce correct output. For example, a function which just adds one to a number will have an operating range from <MIN_INT> to <MAX_INT> - 1, since input smaller than <MIN_INT> can't be provided by the user and output larger than <MAX_INT> won't be useful. 
 

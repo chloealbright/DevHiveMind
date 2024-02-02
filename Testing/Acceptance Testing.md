@@ -18,7 +18,7 @@ Key points about Acceptance Testing:
 
 2. **Formal Evaluation:** Acceptance Testing is a formal process where predefined acceptance criteria, often outlined in the project specifications, are used to determine the software's success.
 
-3. **Types of Acceptance Testing:**
+3. **Types of Acceptance Testing:** ^336347
    - **User Acceptance Testing (UAT):** End-users actively participate in testing the software to validate its functionality and usability in a real-world context.
    - **Business Acceptance Testing (BAT):** Business stakeholders evaluate the software against business objectives, ensuring it aligns with strategic goals.
    - **Operational Acceptance Testing (OAT):** Verifying that the system can be effectively operated and maintained in its intended operational environment.

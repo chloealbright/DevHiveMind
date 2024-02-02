@@ -3,7 +3,7 @@ tags:
   - testing
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses the difference between integration and system integration testing.
 Status: Done
 Started: 2023-11-30
 EditDate: 

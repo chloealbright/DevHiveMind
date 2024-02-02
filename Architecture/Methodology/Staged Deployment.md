@@ -26,7 +26,7 @@ Staged deployment, also known as phased deployment or environment progression, i
 
 7. On-Premises Environment: In contrast to cloud environments, on-premises environments involve deploying and managing applications on local infrastructure within an organization's data center. This environment provides direct control over hardware, network, and security but requires maintenance and scalability considerations.
 
-8. Staging Environment: The staging environment, also known as the pre-production environment or [[_Type of Testing#UAT Testing | UAT]] (User Acceptance Testing) environment, serves as a final checkpoint before deploying to production. It closely mirrors the production environment in terms of infrastructure, configuration, and data. It allows for end-to-end testing, user acceptance testing, and performance testing with realistic data and conditions.
+8. Staging Environment: The staging environment, also known as the pre-production environment or [[Acceptance Testing#^336347|UAT]] (User Acceptance Testing) environment, serves as a final checkpoint before deploying to production. It closely mirrors the production environment in terms of infrastructure, configuration, and data. It allows for end-to-end testing, user acceptance testing, and performance testing with realistic data and conditions.
 
 9. Production Environment: After successful testing and validation in the previous stages, the code changes are finally deployed to the production environment. This is the live environment where the application is accessed by end-users or customers. The deployment to the production environment is typically done with caution, following deployment procedures, rollback plans, and monitoring systems to ensure a smooth transition.
 

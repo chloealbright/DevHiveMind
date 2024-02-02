@@ -26,7 +26,7 @@ Key aspects of pre-acceptance testing include:
 
 6. **Regression Testing:** is testing existing software applications to make sure that a change or addition hasn’t broken any existing functionality. Its purpose is to catch bugs that may have been accidentally introduced into a new build or release candidate, and to ensure that previously eradicated bugs continue to stay dead.
  ^84bb7e
-7. **Stress Testing:** This test evaluates the software's resilience in challenging scenarios, like high user loads, resource limitations, or peak activity. The objective is to observe the system's behavior beyond its typical capacity, enabling developers to anticipate and mitigate potential issues such as bottlenecks, crashes, or performance degradation under stress. In essence, stress tests reveal the upper limits of a system's capacity by subjecting it to loads beyond the anticipated maximum, aiding in comprehensive performance assessment.
+7. **Stress Testing:** This test evaluates the software's resilience in challenging scenarios, like high user loads, resource limitations, or peak activity. The objective is to observe the system's behavior beyond its typical capacity, enabling developers to anticipate and mitigate potential issues such as bottlenecks, crashes, or performance degradation under stress. In essence, stress tests reveal the upper limits of a system's capacity by subjecting it to loads beyond the anticipated maximum, aiding in comprehensive performance assessment, also  is considered as a type of non-functional test. 
 
 8. **Security Testing:** Checking for vulnerabilities and ensuring that the software has adequate security measures in place to protect against potential threats.
 

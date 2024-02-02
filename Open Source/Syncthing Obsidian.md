@@ -1,6 +1,8 @@
 ---
 tags:
   - openSource
+  - proprietarySoftware
+  - tool
 author:
   - jacgit18
   - chatgpt

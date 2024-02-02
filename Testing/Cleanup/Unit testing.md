@@ -9,6 +9,9 @@ Started: 2023-11-23
 EditDate: 2024-02-02
 Relates:
 ---
+
+cheapest and most frequent test you should create then as you go up in testing things get more expensive.
+
 Unit testing plays a crucial role in the development of complex systems, especially when dealing with large volumes of data or intricate functionalities such as processing video frames. Here are several ways in which unit tests can contribute to the progress of development in such scenarios:  
   
 1. **Early Detection of Bugs:**  
@@ -130,3 +133,7 @@ When dealing with complex features that involve a multitude of test cases, unit 
 - Unit tests improve collaboration among team members. When multiple developers are working on different aspects of a complex feature, having a suite of unit tests helps each team member understand the expected behavior of various components. This shared understanding fosters effective collaboration and reduces misunderstandings.  
   
 In summary, unit testing is a powerful tool for managing complexity and addressing challenging test cases when building out complex features. It provides a structured and iterative approach to development, promotes focused problem-solving, and facilitates collaboration among team members.
+
+
+
+

@@ -81,11 +81,16 @@ A more complex boundary check (a corner is a two-dimensional boundary), for exam
 
 Occurs outside of normal operating parameters/inputs, specifically when multiple environmental variables or conditions are simultaneously at extreme levels , and the user is put at a corner of the configuration space, even though each parameter is within the specified range for that parameter.
 
+While edge cases occur when only one operating parameter is at an extreme, corner cases occur when multiple parameters are at an extreme. In corner case testing, multiple parameters are tested to identify where issues could arise.
+
 > The "outside normal operating parameters" obviously means something like "outside typical combination of operating parameters", not strictly "outside allowed operating parameters". That is, you're still within the valid parameter space, but near its corner. 
 
-
+## Iron Corner Case Testing
+Iron corner case testing is also known as boundary value analysis, and it seeks to test cases just outside and just inside edge cases.
 
 ## Edge case  
+Edge cases are errors that occur very infrequently. These errors can be as minor as a visual inconsistency or as serious as a total software crash. In order to root out these edge cases before they become an issue, regression testing can be employed to find the source of the problem.
+
 
 Occurs at an extreme (maximum or minimum) operating parameter. 
 
@@ -107,6 +112,22 @@ Special case check  
 	Non-obvious, non-boundary special values, for example, log(1 + the smallest floating-point number) avoid these cases especially in interview. 
 
 For the Corner, Edge, & Test cases more can be added later.
+
+
+## Error Guessing
+
+Error guessing is the process by which a developer or tester determines where there may be errors in the software and writes corresponding test cases to address these potential errors so that they may be corrected.
+
+
+## User Scenario Case Testing
+
+User scenario case testing asks the tester to step into the shoes of the end user. It utilizes actual test cases to ensure that all possible scenarios are addressed. This type of testing focuses on end-to-end scenarios to handle complex problems.
+
+## Decision/ Truth Table Testing
+
+Decision table testing is a form testing that assesses different combinations of inputs and places them in a table. The corresponding outputs are categorized into “true” or “false,” and these are used to determine where there is a problem that needs resolving. 
+
+
 
 
 
@@ -138,3 +159,8 @@ For the Corner, Edge, & Test cases more can be added later.
     - Sometimes, interviewers may present scenarios resembling real-world use cases.
     - These assess your ability to translate practical problems into code.
     - Especially important for roles that require understanding and solving real-world issues.
+
+
+
+
+

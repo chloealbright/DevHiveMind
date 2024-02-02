@@ -12,7 +12,9 @@ Relates: "[[Testing in Jest]]"
 Integration tests and system integration tests are two different levels of testing in software development that focus on ensuring that various components of a software system work together seamlessly. Let's break down each of these terms:
 
 ### Integration Tests:
-When creating an integration test, the process closely mirrors that of a unit test, especially when assessing a function. While unit tests focus on individual units, integration tests examine the interactions between different units or modules within an application. The primary distinction emerges when breaking down a function into modular helper functions. In such cases, integration tests center on the main function, concentrating on verifying edge cases addressed by the helper functions. These tests are crucial for identifying issues like data inconsistencies, communication problems, or unexpected behavior resulting from the combined interactions of various units. Integration tests are typically performed after thorough unit testing, serving as a crucial step in ensuring the robustness of the overall system.
+When creating an integration test, the process closely mirrors that of a unit test, especially when assessing a function. While unit tests focus on individual units, integration tests examine the interactions between different units or modules within an application testing different flows of business logic. The primary distinction emerges when breaking down a function into modular helper functions. In such cases, integration tests center on the main function, concentrating on verifying edge cases addressed by the helper functions. These tests are crucial for identifying issues like data inconsistencies, communication problems, or unexpected behavior resulting from the combined interactions of various units. Integration tests are typically performed after thorough unit testing, serving as a crucial step in ensuring the robustness of the overall system.
+
+
 
 #### Examples 
 

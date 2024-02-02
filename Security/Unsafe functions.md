@@ -4,6 +4,7 @@ tags:
   - javascript
 author:
   - jacgit18
+Comments: This documentation discusses unsafe function in code.
 Status: Capture
 Started: 2023-11-21
 EditDate: 

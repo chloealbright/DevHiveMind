@@ -53,6 +53,8 @@ Relates:
 
 - **Deserializer:** A utility class that performs the reverse operation of a serializer. It converts serialized data, often in formats like JSON or XML, back into structured business objects. Deserialization is essential for reconstructing information after storage or transmission.
 
+- **Sanity check:** In programming, a sanity check refers to a quick test or verification to ensure that a specific aspect of the code or system is functioning as expected. It helps developers identify obvious errors or inconsistencies early in the development process, ensuring the overall integrity of the program. Sanity checks are often simple and focused on key functionalities to catch potential issues before more extensive testing occurs.
+
 In summary, these terms collectively refer to tools used in software development to manage the conversion of data between raw formats and structured objects, facilitating tasks like storage, communication, and data manipulation. Abstraction is suggested to simplify discussions, especially when communicating with non-programmers, by using these terms without delving into technical details.
 
 

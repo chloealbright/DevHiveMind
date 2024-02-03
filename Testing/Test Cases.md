@@ -39,18 +39,17 @@ Test cases in programming and coding challenges are scenarios or inputs designed
 
 These refined guidelines aim to optimize the effectiveness and efficiency of test cases, promoting comprehensive testing while aligning with real-world usage patterns.
 
-# Test Case Considerations
+# Types of Cases 
 
 ###  Normal Case:
    - Evaluate correctness for typical inputs and anticipate potential issues.
    - Example: Consider sorting algorithms and potential failure on arrays with an odd number of elements due to partitioning. Include such scenarios in your test case.
+#### Test Case
+- A test case is a specific set of conditions or inputs used to test a particular aspect or functionality of a system or software. Test cases are designed to verify that the system behaves correctly under various conditions
+
 #### Base Case
    - Marks the conclusion of recursion.
-#### Input Check
-   - Input check refers to the process of validating and ensuring that the data provided as input to a system or program meets certain criteria or constraints. This helps prevent errors, enhance security, and ensure that the system functions as intended. Input checks typically involve verifying data types, range limits, and format adherence to ensure the reliability and safety of the software.
-#### Sanity Check
-   - Evaluates whether a given scenario makes logical sense.
-   - Example: Verifying the appropriateness of operations like sqrt(-1) and log(-1) in an application outputting only integers.
+
 ### Extremes:
    - Explore scenarios with:
      - Empty arrays or missing parameters.

@@ -1,7 +1,6 @@
 ---
 tags:
   - testing
-  - bestPractices
 author:
   - jacgit18
 Comments: This documentation discusses Pre Acceptance Testing.
@@ -10,15 +9,15 @@ Started:
 EditDate: 2024-02-02
 Relates:
 ---
-"Pre-acceptance testing" refers to the testing activities that occur before formal acceptance testing in a software development life cycle. It involves evaluating the software or system against specified criteria to ensure that it meets certain standards and is ready for acceptance testing by stakeholders.
+Pre-Acceptance Testing, also known as Alpha Testing, occurs before formal acceptance testing. It involves in-house testing by the development team or an independent testing team within the organization. The primary goal is to identify and address major issues before presenting the software to stakeholders for formal acceptance.
 
 Key aspects of pre-acceptance testing include:
 
 1. **Verification of Requirements:** Ensuring that the software has been developed according to the specified requirements and that these requirements are clear and complete.
 
-2. **[[Unit Testing]]:** Verifying the functionality of individual components or units of code to catch any defects early in the development process.
+2. **Unit Testing:** Verifying the functionality of individual components or units of code to catch any defects early in the development process.
 
-3. **[[Integration vs System Integration Testing#Integration Tests |Integration Testing]]:** Testing the interaction between different components or modules to identify and address issues related to their interfaces.
+3. **Integration Testing:** Testing the interaction between different components or modules to identify and address issues related to their interfaces.
 
 4. **System Testing:** Evaluating the entire system as a whole to confirm that it functions as intended and meets the overall project requirements.
 

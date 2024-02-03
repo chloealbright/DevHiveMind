@@ -40,3 +40,6 @@ Non-functional testing is a type of software testing that evaluates attributes o
 - **Examples:** Maintainability testing evaluates factors like code readability, documentation, and the ease with which changes can be implemented without causing unintended consequences.  
   
 Non-functional testing is crucial for ensuring that a software system not only meets the functional requirements but also satisfies the broader criteria related to performance, usability, reliability, and security. These tests help validate that the software meets user expectations and performs well in diverse and challenging environments.
+
+
+

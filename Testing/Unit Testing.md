@@ -9,9 +9,6 @@ Started: 2023-11-23
 EditDate: 2024-02-02
 Relates:
 ---
-
-cheapest and most frequent test you should create then as you go up in testing things get more expensive.
-
 Unit testing plays a crucial role in the development of complex systems, especially when dealing with large volumes of data or intricate functionalities such as processing video frames. Here are several ways in which unit tests can contribute to the progress of development in such scenarios:  
   
 1. **Early Detection of Bugs:**  
@@ -43,7 +40,7 @@ Unit testing plays a crucial role in the development of complex systems, especia
   
 In conclusion, unit testing is an invaluable practice in the development of complex systems, providing early bug detection, ensuring code stability, and contributing to the overall efficiency and reliability of the software development process.
 
-
+## Unit Test Example
 
 If you have an in-place sort function in TypeScript that doesn't return anything (i.e., it modifies the array in place), you can write unit tests for it using Jest. Here's an example:  
   
@@ -89,19 +86,14 @@ In this example:
 - The `it` block describes the specific behavior you're testing.  
 - The `expect` statement checks if the array has been sorted correctly after calling the `inplaceSort` function.  
   
-Make sure you have Jest installed (`npm install --save-dev jest`) and configured in your project, and you can run the tests using the `jest` command.  
-  
 Remember to adjust the test cases based on the specifics of your sorting function and the expected behavior for the types of data you're working with.
 
 
-
-
+## Use Cases
 
 For a CRUD app, unit tests may not be essential, as the simplicity of operations often doesn't warrant extensive testing. However, when your code undergoes frequent changes, having too many unit tests can become counterproductive. Striking a balance is crucial – avoid unnecessary tests.
 
-Yet, in intricate scenarios like a video frame checker, where numerous frames are involved, unit tests become invaluable. They aid in meticulous checks, ensuring the robustness of your code and facilitating smooth progress in development, as exemplified in the video you mentioned.
-
-
+Yet, in intricate scenarios like a video frame checker, where numerous frames are involved, unit tests become invaluable. They aid in meticulous checks, ensuring the robustness of your code and facilitating smooth progress in development, as mentioned in this [video](https://www.youtube.com/watch?v=IInciWyU74U) that talks a little about [[Code Coverage]].
 
 When dealing with complex features that involve a multitude of test cases, unit testing becomes even more crucial. Here's how unit testing can be particularly beneficial when working on intricate features with numerous challenging test cases:  
   

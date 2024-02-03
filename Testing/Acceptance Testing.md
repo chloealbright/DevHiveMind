@@ -1,7 +1,6 @@
 ---
 tags:
   - testing
-  - bestPractices
 author:
   - jacgit18
 Comments: This documentation discusses acceptance testing.

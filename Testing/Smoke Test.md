@@ -9,6 +9,7 @@ Started:
 EditDate: 
 Relates:
 ---
+![[Smoke Banner.gif]]
 A smoke test is a type of software testing that is designed to quickly assess the basic functionality of a software application or system. The primary purpose of a smoke test is to verify that the most critical and fundamental features of the software are working as expected and that the application can start and run without major issues. It's often performed at the early stages of development or after significant changes to ensure that the system is not "broken."  
   
 Key characteristics of a smoke test include:  
@@ -25,4 +26,4 @@ Key characteristics of a smoke test include:
   
 6. **Rapid Feedback**: The quick execution of smoke tests provides rapid feedback to developers, allowing them to address significant issues early in the development cycle.  
   
-Smoke tests are often a part of continuous integration and continuous delivery (CI/CD) pipelines, where they are executed automatically after each code commit to ensure that the software remains in a usable state. They are a valuable tool for quickly identifying show-stopping issues before more comprehensive testing is performed.
+Smoke tests are often a part of continuous integration and continuous delivery (CI/CD) pipelines, where they are executed automatically after each code commit to ensure that the software remains in a usable state. They are a valuable tool for quickly identifying show-stopping issues before more comprehensive testing is performed. 

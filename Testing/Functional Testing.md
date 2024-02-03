@@ -50,3 +50,5 @@ The goal is to ensure that each individual function or feature of the software b
 - Functional testing validates that the business logic implemented in the software functions correctly and consistently.  
   
 Functional testing is an integral part of the overall software testing process, providing assurance that the software not only meets its functional requirements but also delivers the intended features and capabilities to end-users. It ensures that the software behaves as expected, providing a reliable and user-friendly experience.
+
+

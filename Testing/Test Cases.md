@@ -67,15 +67,16 @@ These refined guidelines aim to optimize the effectiveness and efficiency of tes
    - Involves extreme operating parameters, testing the maximum or minimum input for correct output.
    - Important for validating program behavior, often addressed through unit tests.
    - Example: Checking boundary conditions of an algorithm, function, or method.
-
+##### Corner Case
+   - A corner case is a specific type of edge case where multiple variables or conditions come together, creating a unique and often challenging scenario.  
+   - It involves testing situations where different factors or parameters interact in a way that may not be immediately obvious or common.  
+   - For instance, if a system has conditions A, B, and C, a corner case might involve a combination of A and B, where both are simultaneously at their limits.
 ### Strange Input:
    - Challenge the code with unconventional inputs:
      - Already sorted arrays.
      - Arrays sorted in reverse order.
    - Develop these tests based on your understanding of the function, seeking clarification on constraints if needed.
-#### Corner Case
-   - Complex boundary checks involving multiple extreme environmental variables or conditions.
-   - Testing scenarios where parameters simultaneously reach extreme levels, identifying potential issues.
+
 
 
 ## Special Case Check:

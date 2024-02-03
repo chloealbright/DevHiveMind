@@ -4,7 +4,7 @@ tags:
 author:
   - jacgit18
 Comments: This documentation discusses smoke test.
-Status: Done
+Status: Capture
 Started: 
 EditDate: 
 Relates:

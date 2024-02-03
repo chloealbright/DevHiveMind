@@ -4,7 +4,7 @@ tags:
 author:
   - jacgit18
 Comments: This documentation discusses acceptance testing.
-Status: Done
+Status: Capture
 Started: 
 EditDate: 2024-02-02
 Relates:

@@ -8,7 +8,7 @@ tags:
 author:
   - jacgit18
 Comments: This documentation discusses what Selium is.
-Status: Refinement
+Status: Capture
 Started: 
 EditDate: 2024-02-02
 Relates:

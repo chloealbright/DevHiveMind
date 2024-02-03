@@ -7,7 +7,7 @@ tags:
 author:
   - jacgit18
 Comments: This documentation discusses black box testing tools and techniques.
-Status: Refinement
+Status: Capture
 Started: 
 EditDate: 2024-02-02
 Relates: "[[Type of Testing Techniques]]"

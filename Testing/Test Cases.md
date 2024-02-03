@@ -4,7 +4,7 @@ tags:
 author:
   - jacgit18
 Comments: This documentation discusses test cases.
-Status: Refinement
+Status: Capture
 Started: 
 EditDate: 2024-02-03
 Relates:
@@ -37,7 +37,7 @@ Test cases in programming and coding challenges are scenarios or inputs designed
    - Create truth tables for scenarios involving multiple test cases.
    - Evaluate the likelihood of multiple cases being true or false simultaneously.
 
-These refined guidelines aim to optimize the effectiveness and efficiency of test cases, promoting comprehensive testing while aligning with real-world usage patterns.
+These guidelines aim to optimize the effectiveness and efficiency of test cases, promoting comprehensive testing while aligning with real-world usage patterns.
 
 # Types of Cases 
 

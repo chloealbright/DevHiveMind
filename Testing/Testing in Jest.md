@@ -7,7 +7,7 @@ author:
   - jacgit18
 Comments: This documentation discusses different testing paradigms using jest library.
 Status: Done
-Started: 
+Started: 2023-11-06
 EditDate: 2024-02-02
 Relates:
 ---

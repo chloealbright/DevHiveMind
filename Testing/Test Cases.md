@@ -39,16 +39,16 @@ In software engineering, a test case is a specification of the inputs, execution
 
 These refined guidelines aim to optimize the effectiveness and efficiency of test cases, promoting comprehensive testing while aligning with real-world usage patterns.
 
-# Test Case Considerations:
+# Test Case Considerations
 
 ###  Normal Case:
    - Evaluate correctness for typical inputs and anticipate potential issues.
    - Example: Consider sorting algorithms and potential failure on arrays with an odd number of elements due to partitioning. Include such scenarios in your test case.
-#### Base Case:
+#### Base Case
    - Marks the conclusion of recursion.
-#### Input Check:
+#### Input Check
    - Input check refers to the process of validating and ensuring that the data provided as input to a system or program meets certain criteria or constraints. This helps prevent errors, enhance security, and ensure that the system functions as intended. Input checks typically involve verifying data types, range limits, and format adherence to ensure the reliability and safety of the software.
-#### Sanity Check:
+#### Sanity Check
    - Evaluates whether a given scenario makes logical sense.
    - Example: Verifying the appropriateness of operations like sqrt(-1) and log(-1) in an application outputting only integers.
 ### Extremes:
@@ -57,13 +57,13 @@ These refined guidelines aim to optimize the effectiveness and efficiency of tes
      - Very small (one element) and very large arrays.
      - Address nulls and handle "illegal" input, defining expected behavior.
    - Example: Test cases for generating the nth Fibonacci number should include situations where n is negative.
-#### Boundary Case:
+#### Boundary Case
    - Occurs at or just beyond maximum or minimum limits.
    - Example: Analyzing current, preceding, and succeeding values to explore boundary conditions.
-#### Iron Corner Case Testing:
+#### Iron Corner Case Testing
    - Also known as boundary value analysis.
    - Focuses on testing cases just outside and just inside edge cases.
-#### Edge Case:
+#### Edge Case
    - Errors occurring infrequently, ranging from visual inconsistencies to software crashes.
    - Involves extreme operating parameters, testing the maximum or minimum input for correct output.
    - Important for validating program behavior, often addressed through unit tests.
@@ -74,12 +74,13 @@ These refined guidelines aim to optimize the effectiveness and efficiency of tes
      - Already sorted arrays.
      - Arrays sorted in reverse order.
    - Develop these tests based on your understanding of the function, seeking clarification on constraints if needed.
-#### Corner Case:
+#### Corner Case
    - Complex boundary checks involving multiple extreme environmental variables or conditions.
    - Testing scenarios where parameters simultaneously reach extreme levels, identifying potential issues.
 
 
-## Special Case Check(Normal Case/Strange Input):
+## Special Case Check:
+**Falls under both Normal Case and Strange Input**
    - Addresses non-obvious, non-boundary special values.
    - Example: Handling scenarios like log(1 + the smallest floating-point number), particularly in interviews.
 

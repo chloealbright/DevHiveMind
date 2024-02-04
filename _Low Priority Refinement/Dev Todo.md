@@ -17,7 +17,7 @@ Relates:
 - [ ] Edit article on [Note taking](Note%20taking.md) ^776056
 - [ ] [[Data Project Idea]]
 - [ ] Read [Domain-driven design](Domain-driven%20design.md)
-- [ ] Look  at what needs to be refined in react and redux notes
+- [ ] Look at what needs to be refined in react and redux notes
 - [ ] Get certified in Linux 
 - [ ] Continue reading [[Grokking Algorithms - An illustrated guide for programmers and other curious people.pdf#page=160|Grokking Algorithms - An illustrated guide for programmers and other curious people, page 160]]
 - [ ] Looking to automating stock buys

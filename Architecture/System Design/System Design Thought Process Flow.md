@@ -64,7 +64,7 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
 - Maybe CI/CD stuff
 - Consider the use of APIs for certain functionalities.
 - Discuss [[Stateless & Statefull Processes |Stateless vs Statefull]] application or process.
-- Maybe talk [[Microservices]](might not be relevant since small scope) or leverage knowledge of [[12 Factor App Docker.canvas|12 Factor App Docker]] which has some overlap with everything mentioned, whatever comes to mind.
+- Maybe talk [[Microservices]](might not be relevant since small scope) or leverage knowledge of [[12 Factor App Docker.canvas|12 Factor App Docker]] which has some overlap with everything mentioned, whatever comes to mind also [[Eureka service]] for microservices.
 - Making [[Event-driven Architectural Pattern Decisions]].
 - Maybe talk testing architecture or [[Testing Hierarchy]] maybe using [[Test Driven Development]] or talk about test automation, [[Acceptance Testing]], [[Pre Acceptance Testing]],[[Type of Testing Techniques]]
 

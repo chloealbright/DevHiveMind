@@ -3,33 +3,34 @@ tags:
 author:
   - jacgit18
 Comments: This documentation discusses
-Status: 
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-04
 Relates:
 ---
-Express is a back-end  [[Node.js]]
+Express.js is a minimal and flexible [[Node.js]] web application framework that provides a set of robust features to develop web and mobile applications. It simplifies the process of building web servers and handling HTTP requests by offering a straightforward, unopinionated structure.
 
--   Routing to determine how an application responds to a client request coming in at a particular endpoint, which is considered a URI (or path) and a specific HTTP request method (GET, POST, and so on).
+Key features of Express.js include:
 
-To have more control over the exact string that can be matched by a route parameter, you can append a regular expression in parentheses (()): 
+1. **Routing:** Express facilitates the creation of routes, defining how the application responds to specific HTTP requests at designated endpoints.
 
-Route path: /user/:userId(\d+) 
+2. **Middleware:** It allows the use of middleware functions to perform tasks during the request-response cycle, such as logging, authentication, or modifying the request or response objects.
 
-Request URL: http://localhost:3000/user/42 
+3. **Template Engines:** Express supports various template engines, enabling the dynamic generation of HTML on the server side.
 
-req.params: {"userId": "42"} 
+4. **HTTP Utility Methods:** It provides methods to handle various HTTP methods like GET, POST, PUT, and DELETE, making it easier to handle different types of requests.
 
-Because the regular expression is usually part of a literal string, be sure to escape any \ characters with an additional backslash, for example \\d+.
+5. **Static File Serving:** Express can serve static files, such as images, stylesheets, and scripts, simplifying the integration of these assets into the application.
+
+6. **Extensibility:** Express is extensible, allowing developers to integrate additional modules or middleware to enhance functionality.
+
+Overall, Express.js is widely used for building scalable and maintainable web applications, offering developers the flexibility to structure their projects according to their needs.
+
+## Route Handlers
+Express route handlers enable the use of multiple callback functions, resembling [middleware](http://expressjs.com/en/guide/using-middleware.html), to manage requests. An exception is the ability to invoke `next('route')`, skipping subsequent route callbacks. This mechanism is valuable for applying pre-conditions to a route, allowing control to pass to subsequent routes if continuing with the current route is unnecessary. Route handlers can take the form of a function, an array of functions, or a combination of both, providing flexibility in implementation, as illustrated in the examples below.
 
 
 
-
-Route handlers 
-
-You can provide multiple callback functions that behave like [middleware](http://expressjs.com/en/guide/using-middleware.html) to handle a request. The only exception is that these callbacks might invoke next('route') to bypass the remaining route callbacks. You can use this mechanism to impose pre-conditions on a route, then pass control to subsequent routes if there’s no reason to proceed with the current route. 
-
-Route handlers can be in the form of a function, an array of functions, or combinations of both, as shown in the following examples. 
 
 ```javascript
 // A single callback function can handle a route. For example: 

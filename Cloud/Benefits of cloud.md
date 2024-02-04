@@ -1,9 +1,14 @@
 ---
-tags: 
-author: 
-Status: 
+tags:
+  - cloud
+  - services
+author:
+  - jacgit18
+  - chatgpt
+Comments: This documentation discusses types of cloud infrastructure.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-04
 Relates:
 ---
 ![[Service Types.jpg]]

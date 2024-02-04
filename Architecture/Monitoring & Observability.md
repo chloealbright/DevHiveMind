@@ -5,7 +5,7 @@ author:
 Status: Capture
 Started: 
 EditDate: 
-Relates:
+Relates: "[[Distributed tracking and monitoring]]"
 ---
 ![[logging metrics.gif]]
 

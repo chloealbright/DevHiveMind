@@ -1,10 +1,14 @@
 ---
-tags: 
+tags:
+  - cloud
+  - AWS
+  - services
 author:
   - jacgit18
+Comments: This documentation discusses AWS cloud services.
 Status: Refinement
 Started: 
-EditDate: 
+EditDate: 2024-02-04
 Relates:
 ---
 A website/App needs five things a Network, Security, Storage, Database, & Compute you can hire specialist & invest in technologies but Cloud makes all this cheaper & more efficient. The core services AWS provide are <mark style="background: #FFF3A3A6;">EC2</mark> for compute then for Databases there is <mark style="background: #FFF3A3A6;">RDS</mark> & <mark style="background: #FFF3A3A6;">DynamoBD</mark> then you storage service <mark style="background: #FFF3A3A6;">S3</mark> which can think of it being similar to a CDN. Then there is <mark style="background: #FFF3A3A6;">VPC</mark>  for networking & <mark style="background: #FFF3A3A6;">IAM</mark> for security. When it comes to these core services you are only billed for what  you use.  

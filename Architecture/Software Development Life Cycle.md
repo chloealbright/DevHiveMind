@@ -7,6 +7,9 @@ Started:
 EditDate: 
 Relates:
 ---
+![[Software Life Cycle.gif]]
+
+
 -   Are there situations where one SDLC should be used over another? 
     
 -   What steps are taken between Development and Testing in the Waterfall model? 

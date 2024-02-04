@@ -32,7 +32,7 @@ expect(a + b).toBe(expected);
 });  
 ```  
   
-2. **Boundary Testing**:  
+2. **[[Test Cases#Boundary Case |Boundary Testing]]**:  
   
 Testing boundary conditions ensures correct behavior near limits. Boundary testing can be a type of unit testing, but it can also extend to integration testing. It involves testing the behavior of the code at boundary conditions, ensuring it handles edge cases properly. The focus is still on the code's behavior in isolation.
   
@@ -46,7 +46,7 @@ expect(Math.sqrt(1)).toBe(1);
 });  
 ```  
   
-3. **Edge Cases**:  
+3. **[[Test Cases#Edge Case |Edge Cases]]**:  
   
 You want to test edge cases and corner cases to ensure that the code handles extreme or uncommon scenarios properly.  Similar to boundary testing, testing edge cases can be part of unit testing, especially when you're examining how the code behaves in specific extreme scenarios.
 

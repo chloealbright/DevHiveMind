@@ -6,7 +6,7 @@ author:
 Comments: This documentation discusses non functional testing.
 Status: Capture
 Started: 2024-02-02
-EditDate: 
+EditDate: 2024-02-03
 Relates:
 ---
 Non-functional testing is a type of software testing that evaluates attributes or characteristics of a system that are not related to specific behaviors or functions. Unlike functional testing, which verifies whether the software functions as expected, non-functional testing assesses qualities like performance, usability, reliability, and security. Here are some key aspects of non-functional testing:  

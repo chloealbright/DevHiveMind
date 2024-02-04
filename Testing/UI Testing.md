@@ -1,6 +1,7 @@
 ---
 tags:
   - testing
+  - frontend
 author:
   - jacgit18
 Comments: This documentation discusses User Interface Testing.

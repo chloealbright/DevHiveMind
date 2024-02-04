@@ -47,7 +47,7 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
 ### Overall Architecture
 - If your thinking of Architectural Styles like for example Monolithic Architecture identify the specifics around it and talk about it maybe compare in contrast it to other [[Architectural Styles]].
 
-- Depending on the Architectural Styles you then should talk and identify major components of your system like physical or virtual servers, databases, [[Caches]],  [[Messaging systems]], *monitoring/logging for metrics*, and [[Benefits of cloud |cloud infrastructure]] talking about cloud  in terms of outsourcing functionality or infrastructure using different service architecture ranging from IAAS to SAAS.
+- Depending on the Architectural Styles you then should talk and identify major components of your system like physical or virtual servers, databases, [[Caches]],  [[Messaging systems]], [[Monitoring & Observability |monitoring/logging for metrics]], and [[Benefits of cloud |cloud infrastructure]] talking about cloud  in terms of outsourcing functionality or infrastructure using different service architecture ranging from IAAS to SAAS.
   
 - Talk about selecting components for system from different perspectives like how is the community support or technical documentation around the different technology options also cost.
 
@@ -88,7 +88,7 @@ For more info read [[System Design Interview An Insider’s Guide.pdf]] and [[Sy
 - [ ] look into talk about Load shedding and distributed Locking
 - [ ] maybe add stuff around circuit break pattern seems relevant to system design but you can say that about all design patterns but it seems like this one is used heavily in comparison to others patterns or one of the heavily used patterns need to verify this
 - [ ] Look into https://blog.quastor.org/p/rate-limiting-stripe
-- [ ] 
+- [ ] talk picking languages and libraries and frameworks
 
 
 

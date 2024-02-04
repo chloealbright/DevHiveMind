@@ -1,8 +1,10 @@
 ---
-tags: 
+tags:
+  - javascript
+  - Framework
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses Express.js.
 Status: Done
 Started: 
 EditDate: 2024-02-04
@@ -29,34 +31,60 @@ Overall, Express.js is widely used for building scalable and maintainable web ap
 ## Route Handlers
 Express route handlers enable the use of multiple callback functions, resembling [middleware](http://expressjs.com/en/guide/using-middleware.html), to manage requests. An exception is the ability to invoke `next('route')`, skipping subsequent route callbacks. This mechanism is valuable for applying pre-conditions to a route, allowing control to pass to subsequent routes if continuing with the current route is unnecessary. Route handlers can take the form of a function, an array of functions, or a combination of both, providing flexibility in implementation, as illustrated in the examples below.
 
+Refined code snippets for handling routes in Express:
 
-
-
+1. Single callback function:
 ```javascript
-// A single callback function can handle a route. For example: 
+app.get('/example/a', (req, res) => {
+  res.send('Hello from A!');
+});
+```
 
-app.get('/example/a', (req, res) => {   res.send('Hello from A!') })  
+2. Multiple callback functions with `next`:
+```javascript
+app.get('/example/b', (req, res, next) => {
+  console.log('The response will be sent by the next function...');
+  next();
+}, (req, res) => {
+  res.send('Hello from B!');
+});
+```
 
-// More than one callback function can handle a route (make sure you specify the next object). For example: 
+3. Array of callback functions:
+```javascript
+const cb0 = (req, res, next) => {
+  console.log('CB0');
+  next();
+};
 
-app.get('/example/b', (req, res, next) => {   
-console.log('the response will be sent by the next function ...')   
-next() }, 
-		(req, res) => {  
-		 res.send('Hello from B!') 
-		})  
+const cb1 = (req, res, next) => {
+  console.log('CB1');
+  next();
+};
 
-// An array of callback functions can handle a route. For example: 
+const cb2 = (req, res) => {
+  res.send('Hello from C!');
+};
 
-const cb0 = function (req, res, next) {   console.log('CB0')   next() }  
+app.get('/example/c', [cb0, cb1, cb2]);
+```
 
-const cb1 = function (req, res, next) {   console.log('CB1')   next() }  
-const cb2 = function (req, res) {   res.send('Hello from C!') }  
+4. Combination of independent functions and arrays:
+```javascript
+const cb0 = (req, res, next) => {
+  console.log('CB0');
+  next();
+};
 
-app.get('/example/c', [cb0, cb1, cb2])  
+const cb1 = (req, res, next) => {
+  console.log('CB1');
+  next();
+};
 
-// A combination of independent functions and arrays of functions can handle a route. For example: 
-
-const cb0 = function (req, res, next) {   console.log('CB0')   next() }  const cb1 = function (req, res, next) {   console.log('CB1')   next() }  app.get('/example/d', [cb0, cb1], (req, res, next) => {   console.log('the response will be sent by the next function ...')   next() }, (req, res) => {   res.send('Hello from D!') })
-
+app.get('/example/d', [cb0, cb1], (req, res, next) => {
+  console.log('The response will be sent by the next function...');
+  next();
+}, (req, res) => {
+  res.send('Hello from D!');
+});
 ```

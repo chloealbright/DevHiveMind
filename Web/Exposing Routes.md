@@ -5,11 +5,12 @@ tags:
   - Framework
 author:
   - jacgit18
+  - chatgpt
 Comments: This documentation discusses route exposure.
 Status: Refinement
 Started: 
 EditDate: 2024-01-31
-Relates:
+Relates: "[[Express.js]]"
 ---
 Exposing routes in a monolithic API built with TypeScript typically involves using a web framework, such as Express.js, to define routes and handle HTTP requests. Here's a simplified process of exposing routes in a TypeScript monolith API using Express.js as an example:
 

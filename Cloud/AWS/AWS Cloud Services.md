@@ -29,3 +29,6 @@ Then there is  SAAS(Software as a service) where AWS handles everything
 
 ![[AWS Service Arch Example Two.png]]
 
+![[Cloud Services.gif]]
+
+![[Cloud Monitoring Services.jpeg]]

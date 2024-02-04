@@ -72,7 +72,7 @@ Relates:
 
 ![[OSI Layer.gif]]
 
-
+![[Network security By Layer.gif]]
 
 HTTP, a stateless application-level request/response protocol, utilizes extensible semantics and self-descriptive message payloads for flexible interaction with network-based hypertext information systems. It operates through message exchange over a reliable transport or session-layer "connection." While state management mechanisms like cookies exist in HTTP, they facilitate session management on the server side without fundamentally rendering HTTP stateful.
 

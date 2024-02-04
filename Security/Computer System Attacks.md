@@ -4,10 +4,11 @@ tags:
   - c
 author:
   - jacgit18
-Comments: 
+  - chatgpt
+Comments: This documentation discusses computer security.
 Status: Capture
-Started: 
-EditDate: 2024-02-03
+Started: 2024-02-03
+EditDate: 2024-02-04
 Relates:
 ---
 Attackers often leverage C for various reasons, primarily due to its low-level capabilities, efficiency, and direct access to system resources. Here are some reasons and common types of attacks associated with using C:

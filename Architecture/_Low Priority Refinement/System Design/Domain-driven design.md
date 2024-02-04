@@ -3,12 +3,13 @@ tags:
   - Domain
 author:
   - jacgit18
-Status: init
+Comments: This documentation discusses
+Status: Refinement
 Started: 
 EditDate: 
 Relates:
 ---
-
+![[Domain Driven.gif]]
 Domain-driven design (DDD) is an approach to software development that focuses on understanding and modeling the core domain of a business or application. It aims to align software design with the complexities and nuances of the domain, resulting in more maintainable, flexible, and scalable systems.
 
 Domain driven design is used when there's a lot of complexity in the domain that you're trying to build for

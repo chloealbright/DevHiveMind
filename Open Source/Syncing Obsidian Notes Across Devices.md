@@ -6,10 +6,10 @@ tags:
 author:
   - jacgit18
   - chatgpt
-Comments: This documentation discusses Syncthing Obsidian
+Comments: This documentation discusses using Syncthing to sync notes in  Obsidian across devices.
 Status: Done
-Started: 
-EditDate: 
+Started: 2022-12-01
+EditDate: 2024-02-03
 Relates:
 ---
 When using Syncthing to sync your Obsidian notes across devices, there are a few things you can avoid syncing to minimize the chances of sync conflicts:

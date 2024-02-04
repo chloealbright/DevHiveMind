@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"id":"cce86a5598cf0b5b","type":"file","file":"Infographics/Testing/Ways to Test.gif","x":-220,"y":-440,"width":559,"height":727},
-		{"id":"4e864ee355bdf4a0","type":"file","file":"Infographics/API/Api Testing.gif","x":-140,"y":340,"width":462,"height":600}
-	],
-	"edges":[]
-}

@@ -9,9 +9,9 @@ Started: 2024-02-02
 EditDate: 
 Relates:
 ---
-Functional testing is a type of software testing that focuses on verifying that the software application or system functions as intended and meets its specified requirements. 
+![[Ways to Test.gif]]
 
-Functional testing: This testing checks functions by emulating business scenarios, based on functional requirements. Black-box testing is a common way to verify functions. 
+Functional testing ensures that a software application or system operates according to its specified requirements by emulating business scenarios. This verification is often performed through [[Type of Testing Techniques#BLACK BOX TESTING|black-box testing]], examining the software's functions without delving into its internal code.
 
 The goal is to ensure that each individual function or feature of the software behaves correctly according to the functional specifications. Here are key aspects of functional testing:  
   

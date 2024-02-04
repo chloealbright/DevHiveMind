@@ -24,7 +24,7 @@ Though there are various types of software testing, the widely used testing meas
 
 ![[Testing type.png]]
 
-#### **BLACK BOX TESTING**
+#### BLACK BOX TESTING
 
 Also known as Behavioral Testing, Black box testing is a software testing technique where the application is tested without the knowledge of its internal code structure. The name only depicts that the software program is not perceived through the tester’s eyes. This type of testing commonly focuses on only the input and resultant output rather than the mechanisms that enable the output of the software system you can almost think about it as testing from the perspective of the user.
 

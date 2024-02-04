@@ -1,3 +1,13 @@
+---
+tags: 
+author:
+  - jacgit18
+Comments: 
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 By Pre-Seed, I mean the company does not have revenues nor has ever fundraised. But the founders have their idea, have worked on an MVP for a few months, and haven’t paid themselves since quitting their previous jobs. 
 
 Let’s say this stage is your best shot at getting a size able chunk of the equity (also highest risk/reward). 

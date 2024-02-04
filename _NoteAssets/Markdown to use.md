@@ -2,9 +2,11 @@
 tags:
   - Markup
   - favorite
-author: jacgit18
-Status: 
-Started: 
+author:
+  - jacgit18
+Comments: This documentation discusses
+Status: Done
+Started: 2022-11-01
 EditDate: 
 Relates:
 ---
@@ -28,8 +30,6 @@ And all open tabs
 
 
 
-
-▶
 
 | <img src="https://i.imgur.com/mHfA2Z7.png" alt="Image 1" width="300" height="200"> | <img src="https://i.imgur.com/vGJ8bhw.png" alt="Image 2" width="300" height="200"> |
 |:------------------------------------------------------------:|:------------------------------------------------------------:|

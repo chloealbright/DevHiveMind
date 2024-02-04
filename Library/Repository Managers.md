@@ -1,17 +1,17 @@
 ---
 tags:
   - library
+  - Java
+  - javascript
 author:
   - jacgit18
-Comments: 
+  - chatgpt
+Comments: This documentation discusses repository manager and the different options.
 Status: Refinement
 Started: 
-EditDate: 
+EditDate: 2024-02-03
 Relates:
 ---
-If JavaScript libraries are proving costly, replace them with smaller alternatives. Lighthouse in ChromeDevTools now recommends smaller libraries that improve bundle size.
-
-
 There are several alternative services and repositories to Maven Central that you can use for managing and hosting your Java project dependencies. Some popular ones include:  
   
 1. **JFrog Artifactory**: Artifactory is a widely used artifact repository manager that supports Maven along with other package managers. It offers a free community edition and a more feature-rich enterprise version.  
@@ -31,3 +31,6 @@ There are several alternative services and repositories to Maven Central that yo
 8. **Local Repositories**: In some cases, you might opt to set up a local Maven repository on your own infrastructure using tools like Apache Maven's `install` or `deploy` goals. This is useful for managing your project's internal dependencies.  
   
 The choice of which alternative service to use depends on your specific project needs, budget, and infrastructure preferences. Many organizations use a combination of these services to manage their dependencies effectively.
+
+>[!note]
+Consider replacing resource-intensive JavaScript libraries with smaller alternatives. ChromeDevTools' [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview#get-started) now recommends compact libraries, improving overall bundle size.

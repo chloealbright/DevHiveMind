@@ -32,7 +32,7 @@ Relates:
 
 In summary, while Spring is a comprehensive framework for building enterprise applications in Java, Spring Boot is a project within the Spring ecosystem that focuses on simplifying and accelerating the development of production-ready Spring applications by providing defaults and convention-based configurations.
 
-## Spring Boot  in Depth
+## Spring Boot in Depth
 
 Spring Boot is a framework built on top of the Spring framework, designed to simplify the process of developing and deploying Java-based applications. It streamlines the configuration and development process, offering conventions over configurations and providing a set of pre-built templates.
 

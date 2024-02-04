@@ -1,12 +1,16 @@
 ---
-tags: 
+tags:
+  - market
+  - finance
+  - economics
+  - sectors
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses different attributes of the stock market ebb and flow.
+Status: Done
 Started: 
 EditDate: 
-Relates: 
-Comments: Ebb & Flow
+Relates:
 ---
 ### Market Trends
 - **Bull & Bear Markets:**

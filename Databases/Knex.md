@@ -1,13 +1,20 @@
 ---
-tags: 
+tags:
+  - databases
+  - library
+  - QueryBuilder
+  - javascript
 author:
   - jacgit18
+Comments: 
 Status: Capture
 Started: 
 EditDate: 
 Relates:
 ---
 When you run a migration using Knex.js, the library typically checks the current state of the database against the migration files to determine whether any changes need to be applied.  
+
+[https://openbase.com/categories/js/best-javascript-query-builders-libraries](https://openbase.com/categories/js/best-javascript-query-builders-libraries)
   
 Here's a simplified process:  
   

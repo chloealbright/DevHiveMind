@@ -1,10 +1,12 @@
 ---
-tags: 
+tags:
+  - error
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses type of errors.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-03
 Relates:
 ---
 ## Syntax Error 

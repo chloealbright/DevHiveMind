@@ -7,6 +7,9 @@ Started:
 EditDate: 
 Relates:
 ---
+
+![[Chaos.gif]]
+
 Look into
 
 - What is Chaos Engineering? 

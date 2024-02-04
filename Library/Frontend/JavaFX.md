@@ -1,8 +1,12 @@
 ---
-tags: 
+tags:
+  - library
+  - openSource
+  - Java
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses
+Status: Done
 Started: 
 EditDate: 
 Relates:

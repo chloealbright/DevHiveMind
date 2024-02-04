@@ -9,11 +9,13 @@ tags:
   - concurrency
 author:
   - jacgit18
+Comments: This documentation discusses message systems.
 Status: Defining Relationships
-Started: 
-EditDate: 
+Started: 2023-09-01
+EditDate: 2024-02-03
 Relates:
 ---
+![[Message Systems.gif]]
 Backend developers need to possess the essential skill of working with messaging systems, which are crucial tools for enabling asynchronous communication between various components of a system, including services, applications, and devices. Messaging systems facilitate the transmission of messages containing data or commands without necessitating a direct connection or synchronous responses.
 
 The significance of messaging systems in backend development lies in their ability to:
@@ -42,7 +44,7 @@ Further, specific messaging system categories and examples include:
 
 1. **Publish-Subscribe Systems:** These distribute messages to multiple subscribers based on topics or channels. MQTT and Apache Pulsar are noteworthy examples.
 
-2. **WebSocket:** Enabling real-time, bidirectional communication in web applications.
+2. **[[WebSockets]]:** Enabling real-time, bidirectional communication in web applications.
 
 3. **HTTP/REST APIs:** While not traditional messaging systems, they are widely used for web application and web service communication.
 

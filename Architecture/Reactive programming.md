@@ -2,9 +2,12 @@
 tags:
   - architecturalParadigm
   - concurrency
-author: jacgit18
-Status: 
-Started: 
+author:
+  - jacgit18
+  - chatgpt
+Comments: This documentation discusses
+Status: Done
+Started: 2023-09-01
 EditDate: 
 Relates: "[[Declarative Coding]]"
 ---

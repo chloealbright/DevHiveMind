@@ -3,10 +3,12 @@ tags:
   - systemDesign
   - parallelProcesses
   - concurrency
+  - designPatterns
 author:
   - jacgit18
+  - chatgpt
 Comments: This documentation discusses Consumers and Producers
-Status: Refinement
+Status: Distilling
 Started: 2023-10-15
 EditDate: 2024-01-31
 Relates: "[[Messaging systems]]"

@@ -4,8 +4,10 @@ tags:
   - paradigm
 author:
   - jacgit18
+  - chatgpt
+Comments: This documentation discusses
 Status: Refinement
-Started: 
+Started: 2023-10-10
 EditDate: 
 Relates:
 ---

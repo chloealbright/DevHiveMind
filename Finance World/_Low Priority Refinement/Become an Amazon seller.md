@@ -1,3 +1,5 @@
+
+look into
 News freebie alerts to get free stuff to sell on something like Facebook marketplace  
   
 You can also look for the biggest parking lots in your area call the landlord and see if they need somebody to clean and maintain their property  

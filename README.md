@@ -6,6 +6,10 @@
 ## Overview
 This Software Development Knowledge Repository is a centralized and organized collection of information on various software development topics. It's designed to be a valuable resource for developers, both experienced and beginners, as well as anyone interested in the field.
 
+
+<center><h3>Graph View</h3></center>
+![](_Images/GraphView.png)
+
 ## Key Features
 
 - **Topics Coverage**: The repository covers a wide range of software development topics, including programming languages, frameworks, design patterns, best practices, Architecture, and more.
@@ -13,8 +17,6 @@ This Software Development Knowledge Repository is a centralized and organized co
 - **Markdown and Obsidian**: Markdown is used for creating the documentation in this knowledge repository due to its simplicity and universality as a plain text format. The primary tool for managing and editing these notes is [Obsidian](https://obsidian.md/), a powerful knowledge management app. With Obsidian, you can create notes using customizable Markdown templates, establish connections between related notes, and build a dynamic web of knowledge.
 
 - **Mindmaps**: One of the benefits of using Obsidian is the ability to create mind maps to connect related concepts and topics. Mind maps can help users navigate through the repository and understand the relationships between different subjects.
-
-![](_Images/GraphView.png)
 
 ## Contribution and Growth
 I encourage contributions from the community. Here are some best practices for maintaining and growing the repository:

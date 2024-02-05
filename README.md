@@ -8,6 +8,9 @@ This Software Development Knowledge Repository is a centralized and organized co
 
 ![](_Images/GraphView.png)
 
+
+![[Peek 2024-02-05 16-58.webm]]
+
 ## Key Features
 
 - **Topics Coverage**: The repository covers a wide range of software development topics, including programming languages, frameworks, design patterns, best practices, Architecture, and more.

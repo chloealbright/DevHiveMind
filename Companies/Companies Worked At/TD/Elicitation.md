@@ -14,7 +14,10 @@ Relates:
 As a Business Systems Analyst (BSA), engaging in purposeful conversations is critical. Ensure a structured approach by adhering to the following sequence:
 
 1. **Ask Questions in this Order:**
+
+*Interrogative pronoun*
    - **What(broadest question of them all):** Identify different scenarios and dependencies.
+
 *Interrogative adverbs - used to ask questions about manner, place, time, or reason.*
    - **Why:** Uncover the root causes at various scopes, using creative and indirect queries.
 	   - Other way of asking why  

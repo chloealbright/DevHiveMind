@@ -74,7 +74,9 @@ my mind map helped carlos with his API project
 **Tell Me About A Time You Worked With A Difficult Person**
 ????
 
+cia 
 
+potentially scam
 
 ## And the Next One... 
 **Highlight personal stats and lead with transferable skills**

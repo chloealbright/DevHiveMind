@@ -6,7 +6,7 @@
 ## Overview
 This Software Development Knowledge Repository is a centralized and organized collection of information on various software development topics. It's designed to be a valuable resource for developers, both experienced and beginners, as well as anyone interested in the field.
 
-![](_Images/GraphView.png)
+
 
 ![](_Images/GraphVIEW.webm)
 

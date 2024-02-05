@@ -118,6 +118,8 @@ When deciding between NoSQL and SQL databases, assess the team's expertise, proj
 
 ### **Final Determination: Choosing Between NoSQL and SQL**
 ![[Database Selection Process.webp]]
+
+![[Database requirement.png]]
 #### **NoSQL Databases:**
 - **Scalability:** Ideal for horizontal scalability, cost-effective for growing datasets.
 - **Flexibility:** Suited for rapid development, handling semi/unstructured data.

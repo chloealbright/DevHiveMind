@@ -45,7 +45,7 @@ In summary, database sharding is a technique that distributes a large database a
 
 
 
-Yes, sharding can refer to both horizontal and vertical partitioning of a database, and the distinction lies in how the data is divided.
+> Sharding can refer to both horizontal and vertical partitioning of a database, and the distinction lies in how the data is divided.
 
 1. **Horizontal Sharding (Sharding by Rows):**
    - This is the more common understanding of sharding. In horizontal sharding, the dataset is divided based on rows of data. Each shard contains a subset of the entire dataset, and the division is typically done based on a specific criterion like ranges of values, geographic regions, or other logical criteria.

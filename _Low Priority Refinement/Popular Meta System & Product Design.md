@@ -3,9 +3,9 @@ tags:
   - interview
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses popular Meta system and product design.
 Status: Capture
-Started: 
+Started: 2024-01-29
 EditDate: 
 Relates:
 ---

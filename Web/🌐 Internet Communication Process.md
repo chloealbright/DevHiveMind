@@ -74,6 +74,10 @@ Relates:
 
 ![[Network security By Layer.gif]]
 
+![[Network Protocols Applied.jpeg]]
+
+
+
 HTTP, a stateless application-level request/response protocol, utilizes extensible semantics and self-descriptive message payloads for flexible interaction with network-based hypertext information systems. It operates through message exchange over a reliable transport or session-layer "connection." While state management mechanisms like cookies exist in HTTP, they facilitate session management on the server side without fundamentally rendering HTTP stateful.
 
 Hypertext Transfer Protocol Secure is an extension of the Hypertext Transfer Protocol. It is used for secure communication over a computer network, and is widely used on the Internet. In HTTPS, the communication protocol is encrypted using Transport Layer Security or, formerly, Secure Sockets Layer.

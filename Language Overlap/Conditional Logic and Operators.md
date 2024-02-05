@@ -123,6 +123,18 @@ Short-circuit evaluation is a valuable optimization technique, especially when d
 Name = Name || bob
 ```
 
+### Logical Order of Conditions For AND (`&&`):
+  - **Put the most likely to be false first:** If the first condition is false, the overall result is already determined to be false, and there's no need to evaluate the second condition. This can improve efficiency in scenarios where the first condition is frequently false.
+
+  - **Put the most likely to be true first:** If the first condition is true, the second condition needs to be evaluated to determine the final result. However, if the first condition is false, short-circuiting will occur, and the second condition won't be evaluated. The choice depends on the specific use case and expected distribution of true/false values.
+
+### Logical Order of Conditions For OR (`||`):
+- **Order of Conditions:**
+  - **Put the most likely to be true first:** If the first condition is true, the overall result is already true, and there's no need to evaluate the second condition. This can be beneficial in scenarios where the first condition is frequently true.
+
+  - **Put the most likely to be false first:** If the first condition is false, the second condition needs to be evaluated to determine the final result. However, if the first condition is true, short-circuiting will occur, and the second condition won't be evaluated. As with `&&`, the choice depends on the specific use case and expected distribution of true/false values.
+
+In practice, the decision on the order of conditions often involves a trade-off between readability and optimization. It's essential to consider the context and the likelihood of conditions for making an informed decision.
 ### Optional Chaining Operator uses  Null Coalescing Operator ??
 
 Check if data is in object very useful when dealing with Api  

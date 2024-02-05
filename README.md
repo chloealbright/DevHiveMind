@@ -10,7 +10,7 @@ This Software Development Knowledge Repository is a centralized and organized co
 
 ![](_Images/GraphVIEW.mp4)
 
-[![Video](https://img.youtube.com/vi/MPK8RIC2P44/0.jpg)](https://www.youtube.com/watch?v=MPK8RIC2P44?autoplay=1)
+![](https://www.youtube.com/watch?v=MPK8RIC2P44)
 
 ## Key Features
 

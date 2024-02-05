@@ -1,8 +1,10 @@
 ---
-tags: 
+tags:
+  - databases
+  - query
 author:
   - jacgit18
-Status: 
+Status: Done
 Started: 
 EditDate: 
 Relates:

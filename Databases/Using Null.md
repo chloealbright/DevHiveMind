@@ -1,7 +1,10 @@
 ---
-tags: 
+tags:
+  - databases
+  - schema
 author:
   - jacgit18
+Comments: This documentation discusses Null in the the context of DBMS.
 Status: Capture
 Started: 2024-01-11
 EditDate: 

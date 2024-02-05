@@ -1,8 +1,12 @@
 ---
 tags:
   - debugging
+  - troubleshooting
+  - query
 author:
   - jacgit18
+  - chatgpt
+Comments: This documentation discusses how to debug database queries with built in string methods.
 Status: Done
 Started: 
 EditDate: 

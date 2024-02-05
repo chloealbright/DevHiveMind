@@ -7,6 +7,9 @@ Started:
 EditDate: 
 Relates:
 ---
+![[Docker.gif]]
+
+
 ![[Docker.png]]
 
 Use Docker prune to start from scratch when dealing with a bad image

@@ -37,7 +37,7 @@
 		{"type":"file","file":"Library/Frontend/Redux/Redux toolkit/Redux toolkit store.md","id":"94b12e23fb2c193f","x":2964,"y":6920,"width":840,"height":900,"color":"5"},
 		{"type":"file","file":"Library/Frontend/Redux/Redux toolkit/Redux toolkit configuere store.md","id":"388571589e88da4f","x":2002,"y":6971,"width":642,"height":869,"color":"5"},
 		{"type":"text","text":"![[Redux High level]]","id":"2272b98f7ef1dfd6","x":-128,"y":-1040,"width":488,"height":378},
-		{"type":"file","file":"_Images/Lib/Redux Flow.png","id":"3df2c22a5b722195","x":-660,"y":-980,"width":488,"height":320},
+		{"type":"file","file":"Library/_Infographic/Redux Flow.png","id":"3df2c22a5b722195","x":-660,"y":-980,"width":488,"height":320},
 		{"type":"file","file":"Library/Frontend/Redux/Redux toolkit/Redux toolkit Async Thunk.md","id":"1976a478f34ecb35","x":2124,"y":8120,"width":720,"height":1680,"color":"5"},
 		{"type":"file","file":"Library/Frontend/Redux/Redux toolkit/Redux toolkit with react & data fetching.md","id":"a74d797b607b56df","x":2984,"y":8080,"width":780,"height":2800,"color":"5"},
 		{"type":"file","file":"Library/Frontend/Redux/Redux toolkit/Redux toolkit extra reducer.md","id":"7c52138ffda6ca4d","x":1124,"y":8200,"width":760,"height":1880,"color":"5"},

@@ -7,7 +7,10 @@ Started:
 EditDate: 
 Relates:
 ---
-![[Development Stages to Production.png]]
+![[Software Life Cycle.gif]]
+
+
+
 
 Tries to remove roadblocks in terms of the different processes in software development from the idea stage to the implementation to the testing to the building to the deployment and observation of the system 
 
@@ -32,7 +35,7 @@ Cloud  
 
 Continuous monitoring 
 
-
+![[Development Stages to Production.png]]
 
 DevOps may help with releasing things quickly but it isn't the most stable thing that is where the site reliability engineer role comes in 
 
@@ -125,3 +128,6 @@ To achieve continuous deployment, you need a production environment to deploy in
 And finally, this is the end of your pipeline! 
 
 The next time a developer commits code into the repository, it will be run all over again.
+
+
+

@@ -4,7 +4,7 @@ tags:
   - favorite
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation list Markdown syntax to use in obsidian.
 Status: Done
 Started: 2022-11-01
 EditDate: 
@@ -23,24 +23,9 @@ And all open tabs
 
 
 
-
-| ![Image 1](image1.jpg) | ![Image 2](image2.jpg) |
-|:---------------------:|:---------------------:|
-|   Caption for Image 1  |   Caption for Image 2  |
-
-
-
-
 | <img src="https://i.imgur.com/mHfA2Z7.png" alt="Image 1" width="300" height="200"> | <img src="https://i.imgur.com/vGJ8bhw.png" alt="Image 2" width="300" height="200"> |
 |:------------------------------------------------------------:|:------------------------------------------------------------:|
 |                      Priority                      |                      Picking DB                       |
-
-
-
-
-
-
-<mark style="background: #FFF3A3A6;">embed content use with code snippets move code to code snip folder and embed also you can link git hub repo to code snip and embed that way maybe</mark>
 
 
 ^^ lets you pick anything 

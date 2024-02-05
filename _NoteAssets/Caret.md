@@ -4,7 +4,8 @@ tags:
   - Markup
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses caret symbol.
+Status: Done
 Started: 
 EditDate: 
 Relates: "[[Markdown to use]]"

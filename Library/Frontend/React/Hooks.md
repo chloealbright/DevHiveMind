@@ -1,47 +1,26 @@
 ---
-tags: 
+tags:
+  - web
+  - frontend
+  - library
 author:
   - jacgit18
-Status: 
+Status: Done
+Comments: This documentation discusses react hooks.
 Started: 
-EditDate: 
-Relates:
+EditDate: 2024-02-06
+Relates: "[[React High Level]]"
 ---
-A feature that allows you to use react features without creating class but cannot be used within classes it was created for more functional code 
+A distinctive feature in React, hooks facilitate the use of React functionalities without resorting to class components, promoting a more functional coding style. Classes, while powerful, come with challenges such as navigating the intricacies of the 'this' keyword, binding event handlers, and suboptimal minification and hot-reloading reliability.
 
-Cons of classes  
+Unlike classes, hooks offer a straightforward approach to reusing stateful component logic, addressing the absence of a standardized method for such reusability. Patterns like Higher Order Components (HOC) and render props have traditionally tackled some of these challenges.
 
-you need to have a understanding of this keyword, you have also remember to bind event handlers and classes in general don’t minify very well and makes hot reloading very unreliable      
+Hooks shine in simplifying the reuse of stateful logic without altering the component hierarchy, especially in scenarios involving complex components with data fetching and event subscriptions. They excel in organizing related code by allowing the definition of nested functions within a parent function.
 
-No particular way to reuse stateful component logic 
+With hooks, data fetching aligns with the lifecycle methods of class components: `componentDidMount` and `componentDidUpdate`. Event listeners find their place in `componentDidMount` and are cleaned up in `componentWillUnmount`.
 
-Hoc and render props patterns address some of these problems  
+Crucially, hooks should be invoked only at the top level or in parent components. Avoid calling hooks within loops, conditions, or nested functions, and ensure usage exclusively within React functions, not standard JavaScript functions.
 
-
-
-Hooks makes it easier to reuse stateful logic without changing component hierarchy  
-
-Hooks also is good for complex components that involve data fetching and event subscription and helps organize related code in one place defining nested function inside a parent function   
+When working with state variables, hooks like `useState` accommodate various types, such as strings, booleans, numbers, objects, and arrays. Unlike class components, where state is an object, `useState` allows you to add state to functional components directly. The hook takes two parameters: the current state and a state setter function. This setter function, used as a callback in an anonymous function, updates the state based on the new value. When dealing with arrays or objects, it's recommended to spread the state variable before calling the setter function to ensure proper state updating.
 
 
-
-Data fetching happens in componentDidMount  & componentDidUpdate 
-
-Event listeners are used in componentDidMount  & componentWillUnmount  
-
-Hooks let you split one component  into smaller functions based on what features are related   
-
-Hooks should only be call at the top level or parent component, hooks shouldn’t be called in a loop, condition or nested function and should be only called from a react function not regular JavaScript function 
-
-
-a state vairiable can be a string, boolean, number, & object, array   
-
-
-
-UseState allows you to add state to functional component and in classes state is a object with use state hook state doesn’t need to be a object 
-
-Takes in 2 params current state and state setter which is used as function taking in a new value and us in a anonymous callback function to update state 
-
-New state value depends on previous state value  
-
-When dealing with array or object always spread your state variable and then call the setter function

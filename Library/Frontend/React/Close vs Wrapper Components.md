@@ -1,13 +1,17 @@
 ---
-tags: 
+tags:
+  - web
+  - frontend
+  - "#CodebaseDecision"
+  - library
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses when to use close components vs wrapper components.
+Status: Done
 Started: 
-EditDate: 
-Relates:
+EditDate: 2024-02-06
+Relates: "[[React High Level]]"
 ---
-
 In React, the decision to use close components or wrapper components depends on the specific requirements and design of your application. Let's understand each concept:  
   
 1. Close Components:  
@@ -56,4 +60,3 @@ return <TodoItems todos={this.state.todos} />;
   
 In summary, close components focus on UI rendering and reusability, while wrapper components handle state management and provide data and behavior to their child components. Striking a balance between these two types of components helps to maintain a modular and manageable codebase.
 
-#CodebaseDecision

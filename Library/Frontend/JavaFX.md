@@ -5,10 +5,10 @@ tags:
   - Java
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses JavaFX library.
 Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-12
 Relates:
 ---
 JavaFX is an open source library of classes used in next generation client application platform for desktop, mobile and embedded systems built on Java. It is a collaborative effort by many individuals and companies with the goal of producing a modern, efficient, and fully featured toolkit for developing rich client applications.

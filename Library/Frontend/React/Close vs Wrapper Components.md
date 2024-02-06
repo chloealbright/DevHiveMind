@@ -69,7 +69,7 @@ The Life Cycle method are executed in a specific order the first being the const
 
 You need to call super method with prop param which calls base class constructor which allows access the props overall  
 
-Never do http req in constructor 
+
 
 The next method is a static method called  getDerivedStateFromProps(props, state)  with param of props and state  
 

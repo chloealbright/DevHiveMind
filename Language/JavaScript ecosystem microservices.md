@@ -6,7 +6,7 @@ Comments: This documentation discusses
 Status: Capture
 Started: 
 EditDate: 
-Relates: "[[Eureka service]]"
+Relates: "[[Eureka Service]]"
 ---
 In the JavaScript ecosystem, especially for microservices architecture, there isn't a direct equivalent to Eureka, which is a service registry and discovery server commonly used in Java-based microservices with Spring Cloud.  
   

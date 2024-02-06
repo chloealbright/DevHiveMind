@@ -4,7 +4,7 @@ tags:
   - query
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses database transaction.
 Status: Done
 Started: 
 EditDate: 

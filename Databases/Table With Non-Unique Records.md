@@ -4,6 +4,7 @@ tags:
   - tables
 author:
   - jacgit18
+Comments: This documentation discusses table With Non-Unique Records.
 Status: Done
 Started: 
 EditDate: 

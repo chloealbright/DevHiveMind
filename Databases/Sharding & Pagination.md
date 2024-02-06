@@ -1,5 +1,12 @@
 ---
-tags: 
+tags:
+  - databases
+  - sharding
+  - pagination
+  - data
+  - query
+  - scalability
+  - distributedSystem
 author:
   - jacgit18
 Status: Capture

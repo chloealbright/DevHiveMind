@@ -4,6 +4,7 @@ tags:
   - tables
 author:
   - jacgit18
+Comments: This documentation discusses database tables without UUID.
 Status: Capture
 Started: 
 EditDate: 

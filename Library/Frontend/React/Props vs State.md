@@ -1,5 +1,8 @@
 ---
-tags: 
+tags:
+  - web
+  - frontend
+  - library
 author:
   - jacgit18
 Status: 

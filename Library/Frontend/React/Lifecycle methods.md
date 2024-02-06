@@ -1,5 +1,8 @@
 ---
-tags: 
+tags:
+  - web
+  - frontend
+  - library
 author:
   - jacgit18
 Comments: 
@@ -8,24 +11,12 @@ Started:
 EditDate: 
 Relates:
 ---
-Mounting life cycle methods are called when an instance of a component is being created and inserted into DOM 
+The component's life cycle involves several key methods. The constructor initializes state and binds event handlers. Remember to call `super(props)` to access the props.
 
-The Life Cycle method are executed in a specific order the first being the constructor which is called whenever a component is created and is used to initialize state and binding event handlers to class instance or state  
+Avoid making HTTP requests in the constructor.
 
-You need to call super method with prop param which calls base class constructor which allows access the props overall  
+The `getDerivedStateFromProps` static method is used when the component's state depends on changes in props over time. It can be used to update the state based on props.
 
-Never do http req in constructor 
+In the `render` method, a pure function, read props and state, and return JSX/components. Avoid changing state, interacting with the DOM, or making requests here.
 
-The next method is a static method called  getDerivedStateFromProps(props, state)  with param of props and state  
-
-This method is rarely used but is used when the state of the component depend on changes in the prop over time an example would be you have a component that depends on the props being passed to the component this method can be used to set the state  
-
-This keyword is supported by this method  
-
-Third method is render which is a pure function that is required in classes and reads props and state and return jsx/ components 
-
-You should not change state or interact with DOM in this method or perform request 
-
-Forth is componentDidMount which is called only once in the whole lifecycle of a given component  and is invoke immediately after a component and all its children are rendered  to DOM 
-
-You can cause side effect in it make network request or interact with DOM
+The `componentDidMount` method is invoked once, right after the component and its children are rendered to the DOM. It's suitable for causing side effects, such as network requests or DOM interactions.

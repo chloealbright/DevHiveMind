@@ -61,3 +61,92 @@ return <TodoItems todos={this.state.todos} />;
 In summary, close components focus on UI rendering and reusability, while wrapper components handle state management and provide data and behavior to their child components. Striking a balance between these two types of components helps to maintain a modular and manageable codebase.
 
 
+
+
+
+
+
+
+
+
+#### State 
+
+The state starts with a default value when a Component mounts and then suffers from mutations in time (mostly generated from user events). It's a [serializable](onenote:Other.one#Serialization%20vs%20Parsing&section-id={CD0BD125-5364-4419-88DB-0D13D4F31B16}&page-id={FF98ADBC-AB2F-457E-A743-195AF759DF63}&end&base-path=https://mailcitytechcuny-my.sharepoint.com/personal/joshua_carpentier_mail_citytech_cuny_edu/Documents/Notebooks/Dev)* representation of one point in time—a snapshot. 
+
+State, in short, is like a variable scoped to a function, the state object is where you store property values that belong to the component, When the state object changes, the component re-renders. 
+
+A Component manages its own state internally, but—besides setting an initial state—has no business fiddling with the state of its children. You could say the state is private. 
+
+State is managed within the component 
+
+Variables declared in the function body 
+
+Can be changed so is mutable 
+
+Functional Components – useState Hook 
+
+Class Components – this.state 
+
+
+
+The state initiates with a default value when a component mounts and undergoes mutations over time, primarily triggered by user events. It represents a [serializable](onenote:Other.one#Serialization%20vs%20Parsing&section-id={CD0BD125-5364-4419-88DB-0D13D4F31B16}&page-id={FF98ADBC-AB2F-457E-A743-195AF759DF63}&end&base-path=https://mailcitytechcuny-my.sharepoint.com/personal/joshua_carpentier_mail_citytech_cuny_edu/Documents/Notebooks/Dev)* snapshot of a specific moment.
+
+In essence, state is comparable to a variable scoped to a function; the state object stores property values specific to the component. When the state changes, the component re-renders.
+
+Internally managed, a component handles its own state, maintaining a private nature except for setting the initial state. It is a mutable entity confined within the component, and its management differs between functional components using the `useState` hook and class components using `this.state`.
+
+
+#### Changing State  
+
+can get initial value & cannot be changed from parent component  
+
+Can set default values inside Component* & can change inside component  
+
+You can also set initial value for child Component state and cannot change state in child component  
+
+state contains “private” information for the component to initialize, change, and use on its own. 
+
+ ... State is reserved only for interactivity, that is, data that changes over time.
+
+
+## Keeping track of data between Renderings
+
+When a component needs to keep track of information between renderings the component itself can create, update, and use state. The initial data can be hard coded ), but it can also come from props. 
+
+You can see we have access to prevState within the callback, this will contain the previous state, even if the state has already been updated somewhere else. But React goes one step better, setState updates the state object and re-renders the component automagically. 
+
+setState  warning one! 
+
+It is tempting to write this.state.count = this.state.count + 1. Do not do this! React cannot listen to the state getting updated in this way, so your component will not re-render. Always use setState. 
+
+setState warning two! 
+
+It might also be tempting to write something like this: 
+
+
+// DO NOT USE 
+```javascript
+this.setState({   
+count: this.state.count + 1
+
+});  
+```
+Although this might look reasonable, doesn’t throw errors, and you might find examples that use this syntax online, it is wrong. This does not take into account the asynchronous nature that setState can use and might cause errors with out of sync state data. 
+
+Program as usual  and finally, render 
+```javascript
+render() {   
+return (
+<button onClick={() => this.updateCount()} >             
+
+Clicked {this.state.count} times 
+
+</button>
+); 
+
+}  
+```
+
+**onClick={() => this.updateCount()}** means that when the button is clicked the updateCount method will be called. We need to use [ES6’s arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) so updateCount will have access to this instance’s state. 
+
+The text rendered in the button is Clicked {this.state.count} times, which will use whatever this.state.count is at the time of rendering.

@@ -11,109 +11,89 @@ Started:
 EditDate: 2024-02-06
 Relates: "[[React High Level]]"
 ---
-### Before separating props and state, let's also identify where they overlap. 
-```
-Both props and state are plain JS objects 
+Before distinguishing between props and state, let's identify their commonalities:
 
-Both props and state changes trigger a render update 
+- Both props and state are plain JS objects.
+- Changes to either trigger a render update.
+- They are deterministic; If your Component generates different outputs for the same combination of props and state then you're doing something wrong. 
 
-Both props and state are deterministic. If your Component generates different outputs for the same combination of props and state then you're doing something wrong. 
+### Decision Guide:
+> tl;dr: If a Component needs to alter one of its attributes at some point in time, that attribute should be part of its state, otherwise it should just be a prop for that Component. 
 
-```
+#### Props:
+A component is unable to modify its props, yet it assumes the responsibility of assembling the props for its child components. 
 
-### Does this go inside props or state? 
+When it comes to changing props:
 
-tl;dr: If a Component needs to alter one of its attributes at some point in time, that attribute should be part of its state, otherwise it should just be a prop for that Component. 
+- Props can receive an initial value and be modified by the parent component.
+- Default values can be set inside the component, but any changes must occur externally.
+- Initial values for child component props can be established, and modifications can be made within the child component.
 
-#### Props 
+Props essentially serve as a means of conveying data from parent to child, encapsulating information set by the parent component (with optional defaults) that remains immutable within the receiving component.
 
-props (short for properties) are a Component's configuration, its options if you may. They are received from above and immutable as far as the Component receiving them is concerned. 
-
-A Component cannot change its props, but it is responsible for putting together the props of its child Components. 
-
-Changing Props  
-
-can get initial value & be changed from parent component  
-
-Can set default values inside Component* but cannot change inside component  
-
-You can also set initial value for child Component props and change props in child component  
-
-props contains information set by the parent component (although defaults can be set) and should not be changed. 
-
-... props are a way of passing data from parent to child. 
-
-#### State 
-
-The state starts with a default value when a Component mounts and then suffers from mutations in time (mostly generated from user events). It's a [serializable](onenote:Other.one#Serialization%20vs%20Parsing&section-id={CD0BD125-5364-4419-88DB-0D13D4F31B16}&page-id={FF98ADBC-AB2F-457E-A743-195AF759DF63}&end&base-path=https://mailcitytechcuny-my.sharepoint.com/personal/joshua_carpentier_mail_citytech_cuny_edu/Documents/Notebooks/Dev)* representation of one point in time—a snapshot. 
-
-State, in short, is like a variable scoped to a function, the state object is where you store property values that belong to the component, When the state object changes, the component re-renders. 
-
-A Component manages its own state internally, but—besides setting an initial state—has no business fiddling with the state of its children. You could say the state is private. 
-
-State is managed within the component 
-
-Variables declared in the function body 
-
-Can be changed so is mutable 
-
-Functional Components – useState Hook 
-
-Class Components – this.state 
-
-
-
-#### Changing State  
-
-can get initial value & cannot be changed from parent component  
-
-Can set default values inside Component* & can change inside component  
-
-You can also set initial value for child Component state and cannot change state in child component  
-
-state contains “private” information for the component to initialize, change, and use on its own. 
-
- ... State is reserved only for interactivity, that is, data that changes over time.
-
-
-## Keeping track of data between Renderings
-
-When a component needs to keep track of information between renderings the component itself can create, update, and use state. The initial data can be hard coded ), but it can also come from props. 
-
-You can see we have access to prevState within the callback, this will contain the previous state, even if the state has already been updated somewhere else. But React goes one step better, setState updates the state object and re-renders the component automagically. 
-
-setState <mark style="background: #FF5582A6;">warning one! </mark>
-
-It is tempting to write this.state.count = this.state.count + 1. Do not do this! React cannot listen to the state getting updated in this way, so your component will not re-render. Always use setState. 
-
-setState <mark style="background: #FF5582A6;">warning two! </mark>
-
-It might also be tempting to write something like this: 
-
-
-<mark style="background: #FF5582A6;">// DO NOT USE </mark>
 ```javascript
-this.setState({   
-count: this.state.count + 1
-
-});  
+// Example of using props in a child component
+const ChildComponent = ({ propValue }) => {
+  return <div>{propValue}</div>;
+};
 ```
-Although this might look reasonable, doesn’t throw errors, and you might find examples that use this syntax online, it is wrong. This does not take into account the asynchronous nature that setState can use and might cause errors with out of sync state data. 
 
-Program as usual  and finally, render 
+#### State:
+
+The state is a snapshot with default values at mount, subject to mutations primarily from user events.
+- Managed internally within the component.
+- Mutable and often used for interactivity.
+- Should not be altered by parent components.
+
 ```javascript
-render() {   
-return (
-<button onClick={() => this.updateCount()} >             
+// Example of using state in a functional component
+const MyComponent = () => {
+  const [count, setCount] = useState(0);
 
-Clicked {this.state.count} times 
+  const updateCount = () => {
+    setCount(count + 1);
+  };
 
-</button>
-); 
-
-}  
+  return (
+    <button onClick={updateCount}>
+      Clicked {count} times
+    </button>
+  );
+};
 ```
 
-**onClick={() => this.updateCount()}** means that when the button is clicked the updateCount method will be called. We need to use [ES6’s arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) so updateCount will have access to this instance’s state. 
+#### Changing Props and State:
 
-The text rendered in the button is Clicked {this.state.count} times, which will use whatever this.state.count is at the time of rendering.
+- Props can be changed by parent components and have initial values.
+- State can be changed within the component but not by parent components.
+
+### Keeping Track of Data:
+
+Components can use state to retain information between renderings, sourced from props or hardcoded.
+
+### Best Practices for `setState`:
+
+- Use `setState` instead of direct state mutation to ensure proper re-rendering.
+- Avoid synchronous state updates to prevent out-of-sync data.
+
+### Handling `onClick`:
+
+Ensure proper usage of arrow functions for access to the instance's state during `onClick` events.
+
+```javascript
+// Example of using arrow function in onClick
+<button onClick={() => updateCount()}>Clicked {count} times</button>
+```
+
+### Render Method:
+
+Use the `render` method to display dynamic content based on the current state.
+
+```javascript
+// Example of rendering based on state
+render() {
+  return <div>{this.state.count}</div>;
+}
+```
+
+This refined note provides a comprehensive understanding of the distinctions and best practices related to props and state in React components, including illustrative code snippets.

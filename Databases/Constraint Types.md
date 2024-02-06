@@ -1,8 +1,11 @@
 ---
-tags: 
+tags:
+  - databases
+  - schema
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses database constraint types.
+Status: Done
 Started: 
 EditDate: 
 Relates:

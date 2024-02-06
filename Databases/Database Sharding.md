@@ -1,7 +1,14 @@
 ---
-tags: 
+tags:
+  - databases
+  - scalability
+  - query
+  - sharding
+  - data
+  - distributedSystem
 author:
   - jacgit18
+Comments: This documentation discusses Database Sharding.
 Status: Refinement
 Started: 
 EditDate: 

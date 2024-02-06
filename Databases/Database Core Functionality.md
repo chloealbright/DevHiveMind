@@ -1,8 +1,11 @@
 ---
-tags: 
+tags:
+  - databases
+  - query
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses Database Core Functionality.
+Status: Done
 Started: 
 EditDate: 
 Relates:

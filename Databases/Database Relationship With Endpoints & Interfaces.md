@@ -1,7 +1,14 @@
 ---
-tags: 
+tags:
+  - web
+  - databases
+  - query
+  - data
+  - interfaces
+  - MicroCodebaseDecision
 author:
   - jacgit18
+Comments: This documentation discusses database queries and its relationship to server endpoints.
 Status: Capture
 Started: 
 EditDate: 

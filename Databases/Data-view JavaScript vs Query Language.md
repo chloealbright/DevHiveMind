@@ -1,8 +1,12 @@
 ---
-tags: 
+tags:
+  - databases
+  - query
+  - javascript
+  - obsidian
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses obsidian data view.
 Status: Capture
 Started: 
 EditDate: 

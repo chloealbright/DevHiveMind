@@ -1,8 +1,11 @@
 ---
-tags: 
+tags:
+  - databases
+  - cloud
 author:
   - jacgit18
-Status: Refinement
+Comments: This documentation discusses cloud databases.
+Status: Done
 Started: 
 EditDate: 
 Relates:

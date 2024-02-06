@@ -61,19 +61,3 @@ return <TodoItems todos={this.state.todos} />;
 In summary, close components focus on UI rendering and reusability, while wrapper components handle state management and provide data and behavior to their child components. Striking a balance between these two types of components helps to maintain a modular and manageable codebase.
 
 
-
-
-
-
-
-This method is rarely used but is used when the state of the component depend on changes in the prop over time an example would be you have a component that depends on the props being passed to the component this method can be used to set the state  
-
-This keyword is supported by this method  
-
-Third method is render which is a pure function that is required in classes and reads props and state and return jsx/ components 
-
-You should not change state or interact with DOM in this method or perform request 
-
-Forth is componentDidMount which is called only once in the whole lifecycle of a given component  and is invoke immediately after a component and all its children are rendered  to DOM 
-
-You can cause side effect in it make network request or interact with DOM

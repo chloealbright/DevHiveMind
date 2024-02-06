@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - web
+  - protocol
 author:
   - jacgit18
 Comments: This documentation discusses Border Gateway Protocol.

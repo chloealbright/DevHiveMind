@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - web
+  - HTTP
 author:
   - jacgit18
 Comments: This documentation discusses what Out request do and the difference between Put and Post request.

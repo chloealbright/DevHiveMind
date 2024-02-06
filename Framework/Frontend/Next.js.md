@@ -11,7 +11,17 @@ Started:
 EditDate: 2024-02-04
 Relates:
 ---
-[[Express.js]] is a backend framework for building APIs whereas Next. js is a full stack framework that uses some [[Node.js]] and builds upon React to improve the [[SEO]], development experience, and performance of your project. One of these features is a built-in API routing system that could replace Express but you can use them together. Side note there are packages in Next.js like Internationalization (i18n) from Next.js for foreign languages.
+Next.js is a React-based web framework that simplifies the development of web applications by providing a structured and opinionated approach. It solves several challenges faced in traditional React applications, such as server-side rendering, automatic code splitting, and easy client-side navigation.
+
+By offering server-side rendering, Next.js enhances performance and [[SEO]], as it generates HTML on the server instead of relying solely on client-side rendering. Automatic code splitting ensures that only the necessary JavaScript is sent to the browser, optimizing page load times. Additionally, Next.js facilitates client-side navigation through its built-in routing system, streamlining the development of single-page applications.
+
+In essence, Next.js aims to make React applications more efficient, scalable, and SEO-friendly, addressing common pain points in web development.
+
+Next.js also includes built-in support for Internationalization (i18n), making it easier for developers to create multilingual web applications. The i18n support in Next.js provides a convenient way to handle translations and adapt content for different languages.
+
+With Next.js's i18n features, developers can easily configure language-specific routing, format dates and numbers based on locale, and manage translations through various plugins or libraries. This built-in support simplifies the process of creating web applications that cater to a global audience by handling language-specific content and user experiences seamlessly.
+
+
 
 
 

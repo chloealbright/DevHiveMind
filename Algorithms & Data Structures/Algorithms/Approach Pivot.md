@@ -10,6 +10,8 @@ Started:
 EditDate: 
 Relates:
 ---
+Be mindful of algorithmic pattern conflicts. If you encounter a point where the logic breaks down and finding a fix becomes challenging, or if you're introducing numerous conditional statements to address various minor issues, consider it a signal to reassess and possibly modify your approach.
+
 In the context of a technical interview with limited time, the strategic guidelines for refining your approach to a coding problem become even more crucial. Here are some considerations:
 
 1. **Small Test Cases:**

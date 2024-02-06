@@ -7,74 +7,90 @@ Started:
 EditDate: 
 Relates:
 ---
-division includes a dividend / divisor = quotient  
+Division involves the relationship: dividend / divisor = quotient. For long division, it's expressed as divisor * quotient = dividend. Think of long division as the backend of regular division, introducing remainders. Take, for instance, 228 / 4:
 
-for long division the divisor * quotient = dividend  
+```
+4 ⟌ 228
+  - 20
+--------
+   28
 
-long division is like the backend of regular division  
+```
+Here, 4 goes into 22 five times, resulting in 20. The difference in long division is 28, obtained by subtracting 4 * 5 from 22.
 
-with remainder left 
+```
+4 ⟌ 228
+  - 20
+--------
+   28
+  - 28
+--------
+    0 (remainder)
+```
+Further, 4 goes into 28 seven times with a quotient of 57.
 
-228 / 4 = 
+```
+4 ⟌ 228
+  - 20
+--------
+   28
+  - 28
+--------
+    0
+```
+This process results in a remainder of 0.
 
-4⟌228 
+Modulo essentially mirrors long division. While dividend / divisor = quotient may yield a decimal (e.g., 10 / 3 = 3.333), modulo returns an integer remainder. For instance, 10 % 4 equals 2, indicating that 4 goes into 10 twice (8), leaving a remainder of 2. If the initial division isn't exact, the remainder is derived by subtracting the closest multiple of the divisor from the dividend.
 
-4 goes into 2 zero times which is 0 
 
-4 goes into 22 five times which is 20 diff in long division is 28 
 
-4 * quotient that goes into 22 which gets subtracted by the product 
+Certainly, here's the updated representation with the quotient 57 at the top and listing each step:
 
-4* 5 = 20 -22 = 2 
+```
+   57
+__________
+4 | 228
+   - 0         (4 goes into 2 zero times)
+   ------------
+      2         (Bring down the next digit)
+   ------------
+     22         (4 goes into 22 five times)
+   ×  5
+   ------------
+      20        (Subtract 20 from 22, giving us 2)
+   ------------
+       8        (Bring down the next digit)
+   ------------
+      28        (4 goes into 28 seven times)
+   ×  7
+   ------------
+       0        (No remainder)
+```
 
- 5 
+This layout includes the quotient 57 at the top and details each step in the long division process.
 
-4⟌228 
 
- - 20 
 
--------------- 
 
- 028 
+Certainly, here's the updated representation for the division of 60 by 30:
 
-4 goes in to 28 seven times which is 28 
+```
+   2
+__________
+30 | 60
+   - 60      (30 goes into 60 two times)
+   --------
+      0
+```
 
- 57 quotient 
+In this case, the quotient is 2, and there is no remainder.
 
-4⟌228 
 
- - 20 
-
--------------- 
-
- 028 
-
- -28 = 4 * 7 
-
------------- 
-
- 0 remander  
-
-modulo is basically long division  
-
-dividend / divisor = quotient but we return remainder value 
-
-ex: 10 / 3 = 3.333 
-
-but modulo returns a perfect value meaning not a decimal num 
-
-so it  
-
-3 quotient 
-
-divisor3⟌10 dividend 
-
- - 9 
-
- ----- 
-
-returns 1 remainder 
-
-so if initial division isn't prefect it subs 1 from dividend or checks the next lowest dividend the divisor goes into and returns remainder at end  
-
-10 % 4 = 2 since 4 only goes in to 10 two times which is 8 when subbed by 10 leaves a remainder 2
+Certainly! The modulo operation, represented by the `%` symbol, gives the remainder of the division of one number by another. Let's break down the example `30 % 60` step by step:  
+  
+1. **Divide:** Divide 30 by 60: `30 / 60 = 0.5`.  
+2. **Take Integer Part:** Keep only the integer part of the result: `0`.  
+3. **Multiply:** Multiply the integer part by the divisor (60): `0 * 60 = 0`.  
+4. **Subtract:** Subtract the result from the original number (30): `30 - 0 = 30`.  
+  
+So, `30 % 60` is equal to `30` because when 30 is divided by 60, the remainder is 30. In general, if `a % b` is performed, the result is the remainder when `a` is divided by `b`. If the result is `0`, it means that `a` is evenly divisible by `b`.

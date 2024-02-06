@@ -5,10 +5,11 @@ tags:
   - library
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses
+Status: Done
 Started: 
-EditDate: 
-Relates:
+EditDate: 2024-02-06
+Relates: "[[React High Level]]"
 ---
 ### Before separating props and state, let's also identify where they overlap. 
 ```

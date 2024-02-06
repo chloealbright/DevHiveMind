@@ -63,15 +63,8 @@ In summary, close components focus on UI rendering and reusability, while wrappe
 
 
 
-Mounting life cycle methods are called when an instance of a component is being created and inserted into DOM 
-
-The Life Cycle method are executed in a specific order the first being the constructor which is called whenever a component is created and is used to initialize state and binding event handlers to class instance or state  
-
-You need to call super method with prop param which calls base class constructor which allows access the props overall  
 
 
-
-The next method is a static method called  getDerivedStateFromProps(props, state)  with param of props and state  
 
 This method is rarely used but is used when the state of the component depend on changes in the prop over time an example would be you have a component that depends on the props being passed to the component this method can be used to set the state  
 

@@ -5,13 +5,13 @@ tags:
   - library
 author:
   - jacgit18
-Comments: 
-Status: 
+Comments: This documentation discusses
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-06
 Relates:
 ---
-The component's life cycle involves several key methods. The constructor initializes state and binds event handlers. Remember to call `super(props)` to access the props.
+The mounting lifecycle methods in React are invoked when a component instance is being created and inserted into the DOM. The process begins with the constructor, where state is initialized and event handlers are bound to the class instance or state. It's essential to call the `super(props)` method with the prop parameter to invoke the base class constructor, providing access to the overall props.
 
 Avoid making HTTP requests in the constructor.
 

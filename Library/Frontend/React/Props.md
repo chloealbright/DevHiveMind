@@ -5,10 +5,11 @@ tags:
   - library
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses
+Status: Done
 Started: 
-EditDate: 
-Relates:
+EditDate: 2024-02-06
+Relates: "[[React High Level]]"
 ---
 ## what are Props? 
 

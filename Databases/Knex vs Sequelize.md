@@ -1,7 +1,13 @@
 ---
-tags: 
+tags:
+  - databases
+  - library
+  - data
+  - query
+  - QueryBuilder
 author:
   - jacgit18
+Comments: This documentation discusses libraries to interact with databases and data models.
 Status: Capture
 Started: 
 EditDate: 

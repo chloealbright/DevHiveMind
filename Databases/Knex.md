@@ -6,7 +6,7 @@ tags:
   - javascript
 author:
   - jacgit18
-Comments: 
+Comments: This documentation discusses Knex.js library.
 Status: Capture
 Started: 
 EditDate: 

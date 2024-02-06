@@ -1,8 +1,12 @@
 ---
-tags: 
+tags:
+  - databases
+  - tables
+  - query
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses Self-joining relationships.
+Status: Done
 Started: 
 EditDate: 
 Relates:

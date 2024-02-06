@@ -1,7 +1,12 @@
 ---
-tags: 
+tags:
+  - databases
+  - data
+  - security
+  - schema
 author:
   - jacgit18
+Comments: This documentation discusses password hashing.
 Status: Capture
 Started: 
 EditDate: 

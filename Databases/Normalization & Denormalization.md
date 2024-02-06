@@ -1,7 +1,13 @@
 ---
-tags: 
+tags:
+  - databases
+  - data
+  - schema
+  - scalability
+  - tables
 author:
   - jacgit18
+Comments: This documentation discusses database table Normalization & Denormalization.
 Status: Refinement
 Started: 
 EditDate: 

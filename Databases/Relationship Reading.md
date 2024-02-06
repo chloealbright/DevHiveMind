@@ -1,8 +1,12 @@
 ---
-tags: 
+tags:
+  - databases
+  - schema
 author:
   - jacgit18
-Status: 
+  - chatgpt
+Comments: This documentation discusses how to read database table relationships.
+Status: Done
 Started: 
 EditDate: 
 Relates:

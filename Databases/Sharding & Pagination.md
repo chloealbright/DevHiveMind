@@ -9,6 +9,7 @@ tags:
   - distributedSystem
 author:
   - jacgit18
+Comments: This documentation discusses Sharding & Pagination relationship.
 Status: Capture
 Started: 
 EditDate: 

@@ -71,11 +71,10 @@ In summary, close components focus on UI rendering and reusability, while wrappe
 
 #### State 
 
-The state starts with a default value when a Component mounts and then suffers from mutations in time (mostly generated from user events). It's a [serializable](onenote:Other.one#Serialization%20vs%20Parsing&section-id={CD0BD125-5364-4419-88DB-0D13D4F31B16}&page-id={FF98ADBC-AB2F-457E-A743-195AF759DF63}&end&base-path=https://mailcitytechcuny-my.sharepoint.com/personal/joshua_carpentier_mail_citytech_cuny_edu/Documents/Notebooks/Dev)* representation of one point in time—a snapshot. 
 
 State, in short, is like a variable scoped to a function, the state object is where you store property values that belong to the component, When the state object changes, the component re-renders. 
 
-A Component manages its own state internally, but—besides setting an initial state—has no business fiddling with the state of its children. You could say the state is private. 
+
 
 State is managed within the component 
 
@@ -89,7 +88,7 @@ Class Components – this.state 
 
 
 
-The state initiates with a default value when a component mounts and undergoes mutations over time, primarily triggered by user events. It represents a [serializable](onenote:Other.one#Serialization%20vs%20Parsing&section-id={CD0BD125-5364-4419-88DB-0D13D4F31B16}&page-id={FF98ADBC-AB2F-457E-A743-195AF759DF63}&end&base-path=https://mailcitytechcuny-my.sharepoint.com/personal/joshua_carpentier_mail_citytech_cuny_edu/Documents/Notebooks/Dev)* snapshot of a specific moment.
+
 
 In essence, state is comparable to a variable scoped to a function; the state object stores property values specific to the component. When the state changes, the component re-renders.
 

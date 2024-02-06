@@ -40,7 +40,7 @@ const ChildComponent = ({ propValue }) => {
 
 #### State:
 
-The state is a snapshot with default values at mount, subject to mutations primarily from user events.
+The state is a snapshot with default values at component mount and undergoes mutations over time, primarily triggered by user events. It represents a serializable snapshot of a specific moment.
 - Managed internally within the component.
 - Mutable and often used for interactivity.
 - Should not be altered by parent components.

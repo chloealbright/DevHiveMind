@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - databases
+  - tables
 author:
   - jacgit18
 Status: Done

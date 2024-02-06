@@ -1,8 +1,11 @@
 ---
-tags: 
+tags:
+  - databases
+  - tables
+  - schema
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses GUIDs.
 Status: Done
 Started: 2023-11-23
 EditDate: 

@@ -4,6 +4,7 @@ tags:
   - library
   - QueryBuilder
   - javascript
+  - questions
 author:
   - jacgit18
 Comments: This documentation discusses Knex.js library.

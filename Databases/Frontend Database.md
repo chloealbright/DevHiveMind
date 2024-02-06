@@ -1,7 +1,10 @@
 ---
-tags: 
+tags:
+  - databases
+  - frontend
 author:
   - jacgit18
+Comments: This documentation discusses frontend application that use a database design for the frontend.
 Status: Done
 Started: 
 EditDate: 

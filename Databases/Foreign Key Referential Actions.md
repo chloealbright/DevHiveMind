@@ -1,7 +1,11 @@
 ---
-tags: 
+tags:
+  - databases
+  - tables
+  - schema
 author:
   - jacgit18
+Comments: This documentation discusses Foreign Key Referential Actions.
 Status: Capture
 Started: 
 EditDate: 

@@ -1,12 +1,14 @@
 ---
-tags: 
+tags:
+  - query
+  - obsidian
 author:
   - jacgit18
+Comments: This documentation highlights the most common views of data view.
 Status: Capture
 Started: 
 EditDate: 
-Relates: 
-Comments: This documentation highlights the most common views of data view.
+Relates:
 ---
 DataView in Obsidian supports various types of views that allow you to visualize and manipulate structured data within your notes. The primary views include:
 

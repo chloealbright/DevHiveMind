@@ -1,8 +1,12 @@
 ---
-tags: 
+tags:
+  - databases
+  - tables
+  - schema
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses Functional Dependencies.
+Status: Refinement
 Started: 
 EditDate: 
 Relates:

@@ -7,7 +7,7 @@ author:
 Comments: This documentation discusses Express.js.
 Status: Done
 Started: 
-EditDate: 2024-02-04
+EditDate: 2024-02-06
 Relates:
 ---
 Express.js is a minimal and flexible [[Node.js]] web application framework that provides a set of robust features to develop web and mobile applications. It simplifies the process of building web servers and handling HTTP requests by offering a straightforward, unopinionated structure.
@@ -31,7 +31,7 @@ Overall, Express.js is widely used for building scalable and maintainable web ap
 ## Route Handlers
 Express route handlers enable the use of multiple callback functions, resembling [middleware](http://expressjs.com/en/guide/using-middleware.html), to manage requests. An exception is the ability to invoke `next('route')`, skipping subsequent route callbacks. This mechanism is valuable for applying pre-conditions to a route, allowing control to pass to subsequent routes if continuing with the current route is unnecessary. Route handlers can take the form of a function, an array of functions, or a combination of both, providing flexibility in implementation, as illustrated in the examples below.
 
-Refined code snippets for handling routes in Express:
+Code snippets for handling routes in Express:
 
 1. Single callback function:
 ```javascript

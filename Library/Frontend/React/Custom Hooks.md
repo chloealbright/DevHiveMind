@@ -5,15 +5,16 @@ tags:
   - CodebaseDecision
   - library
   - react
+  - hook
 author:
   - jacgit18
 Comments: This documentation discusses what custom hooks are.
 Status: Done
 Started: 
 EditDate: 2024-02-06
-Relates: "[[React High Level]]"
+Relates: "[[Hooks]]"
 ---
-A custom hook in JavaScript is essentially a function prefixed with "use." It has the flexibility to utilize other hooks as necessary. Custom hooks serve as a way to share logic between multiple components, offering an alternative to Higher-Order Components (HOCs) and Render Props.
+A custom hook in JavaScript is essentially a function prefixed with "use." It has the flexibility to utilize other hooks as necessary. Custom hooks serve as a way to share logic between multiple components, offering an alternative to Higher-Order Components ([[Props#Higher Order Components (HOC) and Render Prop Pattern |HOCs]]) and Render Props.
 
 Here's an example of a custom hook that manages a simple counter:
 

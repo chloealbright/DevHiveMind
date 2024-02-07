@@ -1,86 +1,66 @@
 ---
-tags: 
+tags:
+  - web
+  - frontend
+  - library
+  - react
+  - hooks
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses useContext hook.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-07
 Relates:
 ---
-Use context  is used when you have nested components and you need to pass down props to a component deep inside another component which can be shitty in terms of performance  
+### Using Context in React:
 
+When dealing with nested components and the need to pass props to deeply nested components, manual [[Props#Prop-Drilling and Modification |prop drilling]] can lead to performance issues. This process, known as prop drilling, can become cumbersome.
 
-This known as prop drilling 
- 
+**Context API and useContext Hook:**
 
-Use context provides a way to pass data through the component tree without having to pass props down manually at entry level 
+The Context API, along with the `useContext` hook, offers a solution to this problem by allowing the passing of data through the component tree without manual prop passing at every level.
 
- 
-Use context is related to context Api 
+**Re-render Triggers:**
 
+After the initial render, React monitors changes in state and the React context provider. When a new value is provided to the context due to a state alteration, React notes the need to re-render components consuming that context, including their child components.
 
-useContext is Another way to trigger re-renders  
+The subsequent render phase follows the typical stages of behavior, involving the render and commit phases. Memoization can be employed to optimize performance by preventing unnecessary re-renders of components that consume the context.
 
+**Same Element Reference:**
 
-After initial render react look for changes in state & React context provider if it has been given a new value when state is altered the context has a new value and react will make a note to re-render all the components that consume the context value which include child components  
+Context provides a means to share data globally without the need to pass props manually at every level. This global sharing is especially useful for data like the current authenticated user, theme, or preferred language.
 
- 
-Then the render phase go through the same stages of behavior of render & commit  
+### When to Use Context:
 
+Context is designed for scenarios where data can be considered "global" for a tree of React components. Examples include the current authenticated user, theme, or preferred language. The following code demonstrates using context to manage the theme:
 
-Memo cam help with optimization  
+```jsx
+import React, { createContext, useContext } from 'react';
 
+const ThemeContext = createContext('light');
 
-Also Same Element Reference 
+function App() {
+  return (
+    <div className="App">
+      <ThemeContext.Provider value={'red'}>
+        <Content />
+      </ThemeContext.Provider>
+    </div>
+  );
+}
 
+function Content() {
+  const theme = useContext(ThemeContext);
 
-Context provides a way to pass data through component tree without having to pass down props manually at every level 
- 
-
-# When to Use Context 
-
-Context is designed to share data that can be considered “global” for a tree of React components, such as the current authenticated user, theme, or preferred language. For example, in the code below we manually thread through a “theme” prop to style the Button component. 
-
-
-
-```javascript
-const ThemeContext = createContext('light') 
-
-function App() { 
-
-return ( 
-
-    <div className="App"> 
-
-       <ThemeContext.Provider value={'red'}> 
-
-         <Content/> 
-
-       </ThemeContext.Provider> 
-
-    </div> 
-
-  ); 
-
-} 
-
-function Content(){ 
-
-   const theme = useContext(ThemeContext) 
-
-   return( 
-
-       <div className={theme}> 
-
-         <h2>Hello, World</h2> 
-
-       </div> 
-
-     ); 
-
-} 
+  return (
+    <div className={theme}>
+      <h2>Hello, World</h2>
+    </div>
+  );
+}
 
 export default App;
 ```
 
- 
+In this example, the `ThemeContext.Provider` allows the `Content` component and its children to consume the theme without manual prop passing, demonstrating the simplicity and power of the Context API in managing global state.

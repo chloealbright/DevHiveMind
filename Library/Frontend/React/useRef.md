@@ -1,69 +1,103 @@
 ---
-tags: 
+tags:
+  - web
+  - frontend
+  - library
+  - react
+  - hooks
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses useRef hook.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-14
 Relates:
 ---
-const refContainer = useRef(initialValue); 
+## `useRef` Hook in React:
 
-useRef returns a mutable ref object whose .current property is initialized to the passed argument (initialValue). The returned object will persist for the full lifetime of the component. 
+`useRef` is a React hook that returns a mutable ref object whose `.current` property is initialized to the passed argument (`initialValue`). The ref object persists for the full lifetime of the component, allowing you to store mutable values that persist across re-renders.
 
-A common use case is to access a child imperatively: 
+### Common Use Cases
 
-```Javascript
-functionTextInputWithFocusButton(){
-	constinputEl =useRef(null);
-		onstonButtonClick=()=>{
-			 // `current` points to the mounted text input 
-			 elementinputEl.current.focus();};
-			 return(
-					 <>       
-					  <inputref={inputEl} type="text"/>       
-					  <buttononClick={onButtonClick}>Focus the input </button>     
-					  </>
-					  ); 
+```javascript
+function TextInputWithFocusButton() {
+  const inputEl = useRef(null);
+
+  const onButtonClick = () => {
+    // `current` points to the mounted text input element
+    inputEl.current.focus();
+  };
+
+  return (
+    <>
+      <input ref={inputEl} type="text" />
+      <button onClick={onButtonClick}>Focus the input</button>
+    </>
+  );
+}
 ```
 
-Essentially, useRef is like a “box” that can hold a mutable value in its .current property. 
+Here, `useRef` is utilized to create a reference (`inputEl`) to a text input element. The `onButtonClick` function is then used to focus on the input element imperatively.
 
-You might be familiar with refs primarily as a way to [access the DOM](https://reactjs.org/docs/refs-and-the-dom.html). If you pass a ref object to React with <div ref={myRef} />, React will set its .current property to the corresponding DOM node whenever that node changes. 
+### More on `useRef`:
 
-However, useRef() is useful for more than the ref attribute. It’s [handy for keeping any mutable value around](https://reactjs.org/docs/hooks-faq.html#is-there-something-like-instance-variables) similar to how you’d use instance fields in classes. 
+- **Mutable Value Container:**
+  - `useRef` is like a "box" that can hold a mutable value in its `.current` property.
 
-This works because useRef() creates a plain JavaScript object. The only difference between useRef() and creating a {current: ...} object yourself is that useRef will give you the same ref object on every render. 
+- **Not Just for DOM Access:**
+  - While commonly used for accessing the DOM, `useRef` is handy for keeping any mutable value around, similar to instance fields in classes.
 
-Keep in mind that useRef doesn’t notify you when its content changes. Mutating the .current property doesn’t cause a re-render. If you want to run some code when React attaches or detaches a ref to a DOM node, you may want to use a [callback ref](https://reactjs.org/docs/hooks-faq.html#how-can-i-measure-a-dom-node) instead.
+- **Persistence Through Renders:**
+  - The ref object persists through re-renders, and `useRef` gives you the same ref object on every render.
 
+- **No Re-renders on Changes:**
+  - Mutating the **.current** property doesn't cause a re-render. It's useful for storing values that shouldn't trigger additional renders.
 
+- **Callback Refs:**
+  - If you need to be notified when the ref content changes, consider using a [callback ref](https://reactjs.org/docs/hooks-faq.html#how-can-i-measure-a-dom-node).
 
+### Use Cases:
 
-useRef can store the reference of a DOM node using ref attribute it can also be used to store any mutable value and the values will persist through re-renders while also not causing additional renders when it's values changes  
+- **DOM Node Reference:**
+  - Used to store the reference of a DOM node, making it accessible using the `ref` attribute.
 
-useRef hook can be used to create a generic container which can hold a mutable value similar to instance properties on a class component and doesn’t cause re-renders when the data it stores changes & at the same time it remembers the stored data even after other state variables trigger a re-render of the component
+- **Mutable Value Storage:**
+  - Can store any mutable value, and the value persists through re-renders without causing additional renders.
 
+- **Instance Property Equivalent:**
+  - Acts as a generic container for mutable values, similar to instance properties on a class component.
 
+### Data Flow and Component Hierarchy:
 
+- **Common Owner Component:**
+  - Find a common owner component in the hierarchy, ideally a single component above others that need the state.
 
+- **Ownership of State:**
+  - Either the common owner or another component higher up in the hierarchy should own the state.
 
-Find a common owner component (a single component above all the components that need the state in the hierarchy). 
+- **Creating a New Component:**
+  - If no suitable component owns the state, create a new component solely for holding the state and add it somewhere in the hierarchy above the common owner.
 
-Either the common owner or another component higher up in the hierarchy should own the state. 
+### Refs for Direct DOM Access:
 
-If you can’t find a component where it makes sense to own the state, create a new component solely for holding the state and add it somewhere in the hierarchy above the common owner component. 
+- **Accessing DOM Nodes:**
+  - Refs are useful for direct access to DOM nodes, like focusing on a username field in a login page.
 
-Then Data flow 
+- **Typical Usage:**
+  - Often created in the constructor, added as a ref property to a tag, and assigned to the ref from the constructor.
 
-Ref lets you access DOM nodes directly like a login page when you go to one you have react focus on the username field to just start typing instead of clicking on text box  typically stored and created in constructor then you add ref property to a tag and assign it to ref from constructor   
+- **Event Handling:**
+  - Refs can be used to access input values in event handlers, enhancing user interactions.
 
-Then reference the ref on componentDidMount to focus on tag 
+- **Functional Components:**
+  - Unlike class components, refs in functional components persist between renders.
 
-You also use ref to access input value on eventHandler 
+### Forwarding Refs:
 
-Doesn’t work with functional components   
+- **Passing Refs:**
+  - Forwarding refs involves passing a ref from a component to its child.
 
- Forwarding Refs passing ref from component to its child
+- **Enhanced Communication:**
+  - This mechanism allows enhanced communication between parent and child components, especially when dealing with functional components.
 
-#EDIT
+These aspects showcase the versatility of `useRef` beyond DOM access, providing a powerful tool for managing mutable values and optimizing certain aspects of React applications.

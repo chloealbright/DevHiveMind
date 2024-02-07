@@ -10,7 +10,7 @@ Comments: This documentation discusses the intricacies of using props and states
 Status: Done
 Started: 
 EditDate: 2024-02-06
-Relates: "[[React High Level]]"
+Relates: "[[Props]]"
 ---
 Before distinguishing between props and state, let's identify their commonalities:
 

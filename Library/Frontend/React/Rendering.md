@@ -9,8 +9,8 @@ author:
 Comments: This documentation discusses rendering in react.
 Status: Done
 Started: 
-EditDate: 
-Relates:
+EditDate: 2024-02-07
+Relates: "[[Lifecycle methods]]"
 ---
 ## React Rendering Process
 

@@ -4,13 +4,16 @@ tags:
   - frontend
   - library
   - react
+  - redux
+  - hooks
+  - props
 author:
   - jacgit18
 Comments: This documentation discusses different ways to manage state in react.
 Status: Done
 Started: 
 EditDate: 2024-02-06
-Relates: "[[React High Level]]"
+Relates:
 ---
 In React, you can seamlessly integrate both classes and functional components using hooks. While hooks are React-specific and may not be directly applicable in plain JavaScript, combining them with classes allows you to leverage the benefits of both paradigms.
 

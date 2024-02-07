@@ -5,13 +5,14 @@ tags:
   - "#CodebaseDecision"
   - library
   - react
+  - bestPractices
 author:
   - jacgit18
 Comments: This documentation discusses when to use close components vs wrapper components.
 Status: Done
 Started: 
 EditDate: 2024-02-06
-Relates: "[[React High Level]]"
+Relates:
 ---
 In React, the decision to use close components or wrapper components depends on the specific requirements and design of your application. Let's understand each concept:  
   

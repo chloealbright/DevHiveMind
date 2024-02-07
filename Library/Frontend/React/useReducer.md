@@ -1,42 +1,89 @@
 ---
-tags: 
+tags:
+  - web
+  - frontend
+  - library
+  - react
+  - hooks
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses useReducer hook.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-07
 Relates:
 ---
-Use reducer is a hook that is used for state management that is an al 
+## `useReducer` Hook in React for State Management
 
-The diff between the two is usetate is built using uesReducer  
+`useReducer` is a React hook utilized for state management, providing a more primitive approach compared to `useState`. It is closely related to JavaScript's `Array.prototype.reduce` method, offering a powerful mechanism for handling complex state transitions.
 
-Use reducer is a more primitive hook compared to useState  
-
-Reducer is related to Array.ProtoType.Reduce in javascript  
+### Key Differences:
 
 | JavaScript                                    | React                                                   |
 |-----------------------------------------------|---------------------------------------------------------|
-| Array.reduce(reducer, intialValue)            | UseReducer(reducer, intialState)                        |
-| SingleValue = reducer(accumulator, itemValue) | newState = reducer(currentState, action)                |
-| Reduce method returns a single value          | useReducer returns a pair of values[newState, dispatch] |
+| `Array.reduce(reducer, initialValue)`         | `useReducer(reducer, initialState)`                      |
+| `singleValue = reducer(accumulator, itemValue)`| `newState = reducer(currentState, action)`               |
+| `reduce` method returns a single value          | `useReducer` returns a pair of values `[newState, dispatch]` |
 
-Use reducer is used for local state inorder to access global state we use it in combination with useContext  
+### When to Use `useReducer`:
 
-When to use  
+1. **Complex State:**
+   - Use `useReducer` when dealing with state of type Object or Array.
+   - Ideal for scenarios where the number of state transitions is many, and transitions are related with complex business logic.
 
-UseState should be used when dealing with state that is of type Number, String, or Boolean and the number of state transitions is one or two, when state transitions are unrelated and little to none business logic and dealing with local state 
+2. **Global State Management:**
+   - Often used in combination with `useContext` to manage global state.
 
-UseReducer should be used when dealing with state that is of type Object or Array and the number of state transitions is many, when state transitions are related and complex business logic and dealing with global state  
+### Behavior Similar to `useState`:
 
-Behaves similar to useState in terms of render behavior  
+- **Rendering Behavior:**
+  - Behaves similarly to `useState` in terms of render behavior.
+  - When a button is clicked, the `dispatch` function of the reducer hook is called, flagging the `useReducer` component for necessary updates.
 
-When you click a button the reducer hooks dispatch function is called which flags to useReducer component for needed updates react traverses component tree to identify flagged components  create element is called then previous render is compared and changes are sent to commit phase  
+- **Performance Optimization:**
+  - If the state is updated to the same value after the initial render, the component won't re-render. This is beneficial for scenarios like a reset button where the value is set to zero.
 
-If you update the state to the same state value after initial render component wont re-render which good especially in the case of a reset button where you have a value of zero & you try to reset the value which is good for performance  
+- **Re-rendering After Updates:**
+  - If the state is updated with the same value after re-renders, React re-renders once more and then bails out of subsequent re-renders.
 
-If your updating value after re-renders react just like in useState will re-render one more time then bails out of other re-renders  
+### How It Works:
 
-Occurs after trigger 
+1. **Dispatch Function:**
+   - When a button is clicked, the reducer hook's `dispatch` function is called.
 
-The diff between useState & useReducer is the setState & Dispatcher which use switch statement or alternatives to it
+2. **Flagging Components:**
+   - The `dispatch` function flags the `useReducer` component for necessary updates.
+
+3. **React Traversal:**
+   - React traverses the component tree to identify flagged components.
+
+4. **Create Element and Render Comparison:**
+   - `React.createElement` is called, and the previous render is compared to identify changes.
+
+5. **Performance Optimization:**
+   - If the state is updated to the same value after the initial render, the component won't re-render, optimizing performance.
+
+6. **Re-render After Updates:**
+   - If the state is updated with the same value after re-renders, React re-renders once more and then bails out of subsequent re-renders.
+
+### Use Cases:
+
+- **`useState`:**
+  - Suitable for simple state types (Number, String, Boolean).
+  - Few state transitions with little to no business logic.
+  - Local state management.
+
+- **`useReducer`:**
+  - Ideal for complex state types (Object, Array).
+  - Many state transitions with complex business logic.
+  - Suitable for both local and global state management.
+
+### `useState` vs. `useReducer`:
+
+- **Dispatcher vs. `setState`:**
+  - The key difference lies in the `setState` function for `useState` and the `dispatch` function for `useReducer`.
+
+- **Switch Statement:**
+  - `useReducer` often employs a switch statement or alternatives to handle different actions.
+
+Understanding when to use each hook depends on the complexity and nature of the state transitions in your application. `useReducer` is a powerful tool for scenarios involving intricate state management and complex business logic.

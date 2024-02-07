@@ -1,38 +1,54 @@
 ---
-tags: 
+tags:
+  - web
+  - frontend
+  - library
+  - react
+  - hooks
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses useMemo hook.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-07
 Relates:
 ---
-Used for optimization  
+## Memoization with `useMemo` and `React.memo` in React
 
-useMemo is similar to use callBack and cache something like a function and takes in a array or dependencies as it second param  
+### `useMemo` Hook:
 
-The difference between the two hooks is that useCallback caches the provided function instance itself whereas useMemo invokes the provided function and caches its result  so if you need to cache a function use useCallback & if you need to cache the result of an invoked function use useMemo  
+The `useMemo` hook in React is employed for optimization purposes, allowing you to cache the result of a function and memoize it based on a set of dependencies. It takes an array of dependencies as its second parameter.
 
-React doesn’t care if props change when rendering but react Memo can make it where we can make things render base on props 
+```jsx
+const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
+```
 
-React memo performs a shallow comparison of the previous and new props & re-render the child component only if the props have changed 
+The key distinction between `useMemo` and `useCallback` lies in their caching behavior. While `useCallback` caches the provided function instance itself, `useMemo` invokes the function and caches its result. If you need to cache a function, use `useCallback`; if you need to cache the result of an invoked function, use `useMemo`.
 
-Giving you a performance boost in some scenario  
+### `React.memo`:
 
-## React memo no no's 
+`React.memo` is a higher-order component that can be applied to functional components. It performs a shallow comparison of the previous and new props and re-renders the child component only if the props have changed. This mechanism can provide a performance boost in scenarios where the component renders the same result given the same props.
 
-	there is no reason to wrap your child component with react memo if the child component itself has children elements  
+```jsx
+const MemoizedComponent = React.memo(MyComponent);
+```
 
-	Incorrect memo with Impure Component impure meaning props & state staying the same but component chagrining like maybe the a component with time in it   or random func that is being used in conjunction with some calculation 
+#### Best Practices and Caveats:
 
-	If a component has object or functions and your wrapping one of the its child components with react memo not good todo but useCallback can fix this issue  
+1. **Avoid Wrapping Components with Children:**
+   - Do not wrap a child component with `React.memo` if the child itself has children elements. `React.memo` is most effective when applied to leaf components without children.
 
+2. **Careful Usage with Impure Components:**
+   - Exercise caution when using `React.memo` with impure components. An impure component may have props and state that remain the same while the component itself undergoes changes (e.g., a component with time or a random function used in calculations). In such cases, consider using `useCallback` to address potential issues.
 
+3. **Understanding `React.memo` Limitations:**
+   - `React.memo` only checks for prop changes. If a function component wrapped in `React.memo` utilizes `useState`, `useReducer`, or `useContext` Hooks, it will still re-render when state or context changes.
 
-React.memo is a higher order component. 
+4. **Custom Comparison Function:**
+   - You can provide a custom comparison function as the second argument to `React.memo` for more control over the comparison process, especially when dealing with complex objects within the props.
 
-If your component renders the same result given the same props, you can wrap it in a call to React.memo for a performance boost in some cases by memoizing the result. This means that React will skip rendering the component, and reuse the last rendered result. 
+```jsx
+const MemoizedComponent = React.memo(MyComponent, (prevProps, nextProps) => customComparison(prevProps, nextProps));
+```
 
-React.memo only checks for prop changes. If your function component wrapped in React.memo has a useState, useReducer or useContext Hook in its implementation, it will still rerender when state or context change. 
-
-By default it will only shallowly compare complex objects in the props object. If you want control over the comparison, you can also provide a custom comparison function as the second argument.
+By understanding these nuances and best practices, you can effectively leverage `useMemo` and `React.memo` to optimize your React components and enhance performance where necessary.

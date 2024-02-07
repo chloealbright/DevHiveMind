@@ -5,13 +5,14 @@ tags:
   - library
   - errorHandling
   - react
+  - bestPractices
 author:
   - jacgit18
 Comments: This documentation discusses error handling phase in react life cycle.
 Status: Done
 Started: 
 EditDate: 2024-02-06
-Relates: "[[React High Level]]"
+Relates:
 ---
 In React, error boundary methods like `static getDerivedStateFromError(error)` and `static componentDidCatch(error, info)` are used to handle errors that occur during the rendering phase. When errors happen in the lifecycle methods or the constructor of a child component, these methods provide a way to gracefully manage and recover from those errors.
 

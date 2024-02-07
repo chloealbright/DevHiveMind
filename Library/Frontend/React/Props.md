@@ -10,7 +10,7 @@ Comments: This documentation discusses react props.
 Status: Done
 Started: 
 EditDate: 2024-02-06
-Relates: "[[React High Level]]"
+Relates:
 ---
 ## What are Props(Properties)?
 

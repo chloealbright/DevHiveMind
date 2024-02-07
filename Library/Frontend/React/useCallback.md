@@ -1,20 +1,59 @@
 ---
-tags: 
+tags:
+  - web
+  - frontend
+  - library
+  - react
+  - hooks
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses useCallback Hooks.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-07
 Relates:
 ---
-As react app scales you need to decide which components need to re-render on state change this were memo comes in were something only re renders if props or state change 
+### React Memoization and useCallback Hook:
 
-A new component re-renders when it's parent component re-renders and when dealing with function being passed as props values we need to be aware of reference equality  
+As a React application scales, optimizing re-renders becomes crucial. React.memo() provides a solution where components re-render only if their props or state change.
 
-Even though two functions have the same behavior it doesn’t mean they are equal to each other so the function before a re-render is different to  the function after a re-render a when passing a prop react.Memo sees the prop has change and will not prevent the re-render  
+When a parent component re-renders, its child components also re-render by default. However, when passing functions as props, we need to consider reference equality.
 
-This is where Use callback hook comes in  
+Even if two functions have identical behavior, they might not be considered equal. As a result, a function before a re-render differs from the function after a re-render. React.memo() might not prevent re-renders in such cases.
 
-useCallback is a hook that will return a memoized version of the callback function  that only changes if one of the dependencies has changed 
+This is where the useCallback hook becomes invaluable. useCallback() returns a memoized version of the callback function, ensuring that it changes only if its dependencies change.
 
-It is useful when passing callbacks to optimized child components that rely on reference equality to prevent unnecessary renders
+### useCallback Hook Usage:
+
+- **Optimizing Child Components:** useCallback is particularly useful when passing callbacks to optimized child components that rely on reference equality. By memoizing the callback function, unnecessary renders are prevented.
+
+Here's a refined explanation of useCallback:
+
+```jsx
+import React, { useCallback } from 'react';
+
+const ParentComponent = () => {
+  const handleClick = useCallback(() => {
+    console.log('Button clicked');
+  }, []); // Empty dependency array indicates no dependencies
+
+  return (
+    <div>
+      {/* Optimized ChildComponent that only re-renders if handleClick changes */}
+      <ChildComponent onClick={handleClick} />
+    </div>
+  );
+};
+
+const ChildComponent = React.memo(({ onClick }) => {
+  return (
+    <div>
+      <button onClick={onClick}>Click me</button>
+    </div>
+  );
+});
+
+export default ParentComponent;
+```
+
+In this example, the handleClick function is memoized using useCallback. ChildComponent, wrapped with React.memo(), only re-renders if handleClick changes, ensuring optimal performance as the application grows.

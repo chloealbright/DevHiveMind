@@ -1,11 +1,16 @@
 ---
-tags: 
+tags:
+  - web
+  - frontend
+  - library
+  - react
+  - HOC
 author:
   - jacgit18
 Status: 
 Started: 
 EditDate: 
-Relates:
+Relates: "[[Props#Higher Order Components (HOC) and Render Prop Pattern |HOC]]"
 ---
 ```javascript
 // example

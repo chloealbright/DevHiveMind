@@ -16,7 +16,7 @@ Relates:
 ![[React Icon.gif]]
 React, a JavaScript library by Facebook, empowers developers to build reusable UI components and manage application state efficiently. Its declarative approach simplifies creating interactive web applications, updating the UI responsively to data changes.
 
-Key benefits of React include efficient UI updates through the virtual DOM, a component-based architecture for modular development, declarative syntax for clear UI descriptions, one-way data binding for simplified data flow, and reusability/composability of components.
+Key benefits of React include efficient UI updates through the virtual DOM, a [[Types of Component |component-based architecture]] for modular development, declarative syntax for clear UI descriptions, one-way data binding for simplified data flow, and reusability/composability of components.
 
 React addresses challenges in manipulating the DOM by introducing a virtual DOM, minimizing updates for better performance. Component-based development enhances codebase manageability, while the declarative approach streamlines UI creation based on application state.
 

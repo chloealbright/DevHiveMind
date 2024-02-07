@@ -3,6 +3,7 @@ tags:
   - web
   - frontend
   - library
+  - react
 author:
   - jacgit18
 Comments: This documentation discusses different ways to manage state in react.

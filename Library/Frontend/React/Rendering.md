@@ -1,122 +1,103 @@
 ---
-tags: 
+tags:
+  - web
+  - frontend
+  - library
+  - react
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses rendering in react.
+Status: Done
 Started: 
 EditDate: 
 Relates:
 ---
-When running react App the code from the component gets translated into elements that will get mounted on the DOM. This process has two phase which are the render phase & commit phase  
+## React Rendering Process
 
-## Initial Render Process 
+When a React app runs, the component code undergoes a two-phase process: the render phase and the commit phase.
 
-React render is declarative no side effects 
+### Initial Render Process
 
-During the Render phase we start at the root and traverse down the leaf nodes(components) while traversing for each of the components react invokes the create element method and converts the component to JSX into react elements & stores that render output react elements are basically JavaScript objects that describe the structure of the UI once that conversion happens for all the components in the tree all the elements are handed over to the commit phase  
+During the Render phase:
 
-Before commit phase react perform reconciliation - Diff old and new tree of react elements(aka VDOM) 
+- Starting from the root and traversing down the component tree, React invokes the `createElement` method for each component, converting JSX into React elements.
+- The produced elements are handed over to the commit phase.
+- Before committing changes, React performs reconciliation, comparing the old and new Virtual DOM trees. In the commit phase, the elements are then applied to the actual DOM using the `React DOM` package. This entire process ensures a structured and efficient rendering mechanism.
 
-In the commit phase the elements are applied to the DOM using the react dom package  
+### Re-Render Process
+> Note: React Strict Mode double renders in dev mode
 
-## Re-Render Process  
+As you go down the component tree there is a check that happens where components are flagged for re-render:
 
-As we go down the component tree we check which components have been flagged for re-render  
+- Components can self-flag for an update by calling [[useState]] or [[useReducer]].
+- React invokes `createElement` for flagged components, converting them to React elements and stores that render output.
+- The new elements are compared with those from the last render.
+- A list of changes to the DOM is created and handed to the commit phase for application.
+- Rendering isn't the same as updating the Dom it  doesn't guarantee visible DOM changes; if a component renders the same element as in the previous render, no changes are applied. 
+- React batches updates for efficiency during the commit phase, though rendering can be slow.
 
-A component can flag itself for an update by calling the useState setter function or useReducer dispatcher function  
+### State Immutability
 
-For each of the flagged components  react invokes the create element method  and converts the component to JSX into react elements & stores that render output 
+In React, when updating state for objects or arrays, it's crucial to create a new copy rather than modifying the original directly. For objects, make a copy, update values, and then set state. Likewise, for arrays, clone the array, modify the copy, and use setState (with useState or useReducer). This approach ensures proper re-rendering and aligns with JavaScript's immutability principles, preventing unintended side effects.
 
-Once the conversion is done for all the flagged components  & the components affected by the flagged components react will compare the new set of react elements with the ones that were produced from the last render  
+this relates to [[Shallow Copy and Deep Copy(clone)]]
 
+### Parent and Child Components
 
+- Parent and child components render on page load.
+- Re-render occurs if the new state differs from the old state.
+- Child components might not re-render if state values remain the same.
+- React recursively renders child components when a parent component renders.
+- Optimization is achieved by referencing the same element from the previous render, avoiding unnecessary renders.
 
-Then a list is created with all the changes to the DOM and handed to the commit phase where changes are applied to the DOM 
+#### Example
 
-Rendering isn't the same as updating the Dom  
+```jsx
+import React, { useState, useEffect } from 'react';
 
-A component can be rendered without visible changes to the DOM  
+// Child Component
+const ChildComponent = ({ data }) => {
+  console.log('Child Component Rendered');
+  return <div>{data}</div>;
+};
 
-For example during rendering if the component converts into the same react element as it did in the previous  render the elements are discarded and no elements are discarded and no changes are applied to the DOM 
+// Parent Component
+const ParentComponent = () => {
+  const [state, setState] = useState({ value: 0 });
 
-All updates in react are batched and applied at once which helps with performance the commit phase tends to be fast but the render can be slow  
+  useEffect(() => {
+    console.log('Parent Component Rendered');
+  }, [state]);
 
-The behavior is similar in useState where we flag a component and go to the similar process above
+  const handleClick = () => {
+    // Creating a new object to update state
+    const newState = { ...state, value: state.value + 1 };
+    setState(newState);
+  };
 
-Note: React Strict Mode double renders in dev mode
+  return (
+    <div>
+      <button onClick={handleClick}>Increment</button>
+      <ChildComponent data={state.value} />
+    </div>
+  );
+};
 
+export default ParentComponent;
+```
 
-# State Immutability
+This example demonstrates a ParentComponent with a ChildComponent. The ChildComponent renders based on the `data` prop, and the ParentComponent updates its state with a new object to trigger a re-render when the button is clicked. The useEffect in the ParentComponent logs a message when it renders, showcasing the re-render behavior.
 
-Make a copy of state from an object and reference that new object reassigning state values and setting state instead of using original state object similar with array but you making a copy of array to push into then setState if your using useState hook or useReducer hook 
+### Avoiding Unnecessary Renders with Same Element Reference
 
-Similar to render phase but with arrays & object you need to make a copy of and mutate that otherwise no re-render this is more of JavaScript then react
+- Passing child components as props helps avoid unnecessary renders.
+- React optimizes re-renders by recognizing the same element reference.
+- Use `Same Element Reference` when the parent component re-renders due to state changes but not prop changes.
+- Avoid using `React.memo` everywhere by using `Same Element Reference` strategically.
 
+### When to Use Same Element Reference vs. React.memo
 
-#  Parent and Child
-
-Parent & child component render on pg load when parent re-render which happens when new state is different than old state 
-
-button 2 which set value to 0 has same new and old state so wont re-render after initial render  and thus the child wont retender 
-
-Third button has similar behavior but with value of 5 and renders parent & child then on next render just parent since react stops the re-render after it see no diff in state value  
-
-Child goes though render phase but not commit 
-
-Same with useReducer 
-
-When a parent component render, React will recursively render all of its child component 
-
-New state same as old state after initial render ? Both parent & child do not re-render 
-
-New state same as old state after re-renders? Parent re-renders one more time but child never re-renders  
-
-## Avoiding Unnecessary render with  Same Element Reference 
-
-Basically passing child as a prop when nesting child component between parent component  
-
-A component can change its state but not its props so while react traverse component tree and see parent has props it see,s that props is the child component  
-
-React automatically see,s that parent component is dependent on state re-renders parent but not child since prop & the component has no means of directly changing the prop so children prop doesn’t change  
-
-Make use of the react element that was previously created  
-
-Children props has to be referencing the same element from the previous render, will skip the render phase for the child component  
-
-In react when a parent component  renders react will recursively render all of its child components this can lead to unnecessary renders where the child component goes through the render phase but not the commit phase   
-
-But to optimize performance you can extract expensive child component and instead pass it down as props to the parent component  
-
-Whenever there is a re-render caused by a change in the state of the parent component React will optimize the re-render for you by knowing that the props has to be referencing the same element before and after the render 
-
-This will prevent you having to wrap components in react memo  
-
-When to use  Same Element Reference vs React memo  
-
-When your parent component re-renders because of state change in the parent component  
-
-The technique does not work if the parent component re-renders because of changes in its props 
-
-State change ? Yes 
-
-Props change? No  
-
-If your component doesn’t have props use same element ref to avoid having memo every where  
-
-When your child component is being asked to re-render due to changes in the parents state which do not affect the child components props in anyway 
-
-If React used memo all the time it wouldn’t be good 
-
-Because Shallow Comparison aren't free.  They're Big O(prop count) And they only buy something  if it bails out. 
-
-All comparison where we end up re-rendering are wasted. Why would expect always comparing to be faster? Considering many components always get different props 
-
-Ex  
-
-Initial component renders 10ms 
-
-Then we do a optimized render 2ms 
-
-Then re-render over & over again adding 2ms to the 10ms render which would suck 
-
-When you optimize the rendering of one component, react will also skip rendering that components entire subtree because its effectively stopping the default render children recursively  behavior of react
+- Use `Same Element Reference` when the parent component re-renders due to state changes (yes) but not prop changes (no).
+- If a component doesn't have props, use `Same Element Reference` to avoid widespread memoization.
+- Opt for `Same Element Reference` when the child component is asked to re-render due to parent state changes that don't affect child props.
+- `React.memo` isn't always ideal due to the cost of shallow comparisons and potential wasted renders. Choose wisely based on your app's specific needs.

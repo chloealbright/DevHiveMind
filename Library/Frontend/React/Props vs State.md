@@ -3,9 +3,10 @@ tags:
   - web
   - frontend
   - library
+  - react
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses the intricacies of using props and states together.
 Status: Done
 Started: 
 EditDate: 2024-02-06
@@ -41,9 +42,8 @@ const ChildComponent = ({ propValue }) => {
 #### State:
 
 The state is a snapshot with default values at component mount and undergoes mutations over time, primarily triggered by user events. It represents a serializable snapshot of a specific moment.
-- Managed internally within the component.
-- Mutable and often used for interactivity.
-- Should not be altered by parent components.
+- In essence, state is comparable to a variable scoped to a function; the state object stores property values specific to the component. When the state changes, the component re-renders.
+- Internally managed, a component handles its own state, maintaining a private nature except for setting the initial state. It is a mutable entity confined within the component, and its management differs between functional components using the `useState` hook and class components using `this.state`.
 
 ```javascript
 // Example of using state in a functional component
@@ -63,37 +63,51 @@ const MyComponent = () => {
 ```
 
 #### Changing Props and State:
-
-- Props can be changed by parent components and have initial values.
-- State can be changed within the component but not by parent components.
-
+- Props in React have initial values that can be passed from a parent component to a child component, but once set, these values are immutable from the parent. The parent component cannot directly change the values of props in the child component after the initial rendering.
+- Default values can be established within a Component and modified internally.
+- In React, a parent component can pass initial state values to its child components through props. However, once the child component has its initial state set, it cannot be directly altered externally by the parent or any other component. The state is managed internally within the component that owns it.
+- State encapsulates "private" information for a component's self-initialization, modification, and utilization.
+- State is exclusively designated for interactivity, representing data that undergoes changes over time.
 ### Keeping Track of Data:
 
-Components can use state to retain information between renderings, sourced from props or hardcoded.
+When a component necessitates the management of information across renderings, it can create, update, and utilize state internally. The initial data may be hardcoded or obtained from props.
 
-### Best Practices for `setState`:
+```jsx
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 0
+    };
+  }
 
-- Use `setState` instead of direct state mutation to ensure proper re-rendering.
-- Avoid synchronous state updates to prevent out-of-sync data.
+  handleClick = () => {
+    this.setState((prevState) => ({
+      count: prevState.count + 1
+    }));
+  };
 
-### Handling `onClick`:
-
-Ensure proper usage of arrow functions for access to the instance's state during `onClick` events.
-
-```javascript
-// Example of using arrow function in onClick
-<button onClick={() => updateCount()}>Clicked {count} times</button>
-```
-
-### Render Method:
-
-Use the `render` method to display dynamic content based on the current state.
-
-```javascript
-// Example of rendering based on state
-render() {
-  return <div>{this.state.count}</div>;
+  render() {
+    return (
+      <div>
+        <p>Count: {this.state.count}</p>
+        <button onClick={this.handleClick}>Increment Count</button>
+      </div>
+    );
+  }
 }
 ```
 
-This refined note provides a comprehensive understanding of the distinctions and best practices related to props and state in React components, including illustrative code snippets.
+In React, setState() enables the updating of state and triggers a re-render of the component automatically. It provides access to prevState within the callback, ensuring access to the previous state, even after state modifications elsewhere.
+
+However, a common pitfall arises when attempting to update state directly like this.state.count = this.state.count + 1. This approach bypasses React's ability to monitor state changes, resulting in a failure to re-render the component. Always use setState() to update state values.
+
+Two key warnings regarding setState():
+
+1. **Avoid Direct Assignment:**
+   It's tempting to directly modify state using `this.state.count = this.state.count + 1`, but this circumvents React's state management mechanism and prevents proper re-rendering. Always use `setState()`.
+
+2. **State Updates May Be Asynchronous:**
+   `setState()` may update state asynchronously, especially when it's called within event handlers or lifecycle methods. Thus, relying on the immediate state after calling `setState()` may yield unexpected results.
+
+

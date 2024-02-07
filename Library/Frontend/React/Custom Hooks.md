@@ -4,6 +4,7 @@ tags:
   - frontend
   - CodebaseDecision
   - library
+  - react
 author:
   - jacgit18
 Comments: This documentation discusses what custom hooks are.

@@ -3,6 +3,7 @@ tags:
   - web
   - frontend
   - library
+  - react
 author:
   - jacgit18
   - chatgpt
@@ -22,3 +23,7 @@ React addresses challenges in manipulating the DOM by introducing a virtual DOM,
 Additionally, React's unidirectional data flow, JSX for HTML-like syntax in JavaScript, and a thriving ecosystem with tools like React Router and Redux contribute to its popularity. For project setup, consider using create-react-app for streamlined configurations.
 
 Explore [React Docs](https://reactjs.org/docs/getting-started.html) and [create-react-app documentation](https://create-react-app.dev/docs/available-scripts/) for comprehensive details.
+
+React is [[Common Declarative Algorithms |declarative]], meaning you describe what you want the UI to look like, and React takes care of updating the DOM to match that description. This helps in writing more readable and maintainable code since you focus on the "what" rather than the "how."
+
+Additionally, React promotes the idea of having **no side effects** in components. This means that the components don't directly modify the state or interact with the DOM outside of their render function. This leads to a more predictable and easier-to-understand codebase, as changes in one part of the application are less likely to unintentionally affect other parts.

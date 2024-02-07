@@ -3,38 +3,22 @@ tags:
   - web
   - frontend
   - library
+  - react
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses Modal & Portals.
+Status: Done
 Started: 
 EditDate: 2024-02-06
 Relates: "[[React High Level]]"
 ---
 ![[React Portal Modal.png]]
-A modal is one of the built in windows in a web site like when you go to a newspaper and they ask you to signup 
 
-React Portals allows you the functionality to break out of the root DOM tree so you can render to a different DOM node that isn't root  
+A modal serves as a predefined window within a website, commonly encountered when prompted to sign up on platforms like newspapers. React Portals provide a powerful capability to render components outside the root DOM tree, enabling the display of content in a different DOM node.
 
-Portals are helpful for deal with a parent component css when the child component is a modal, pop up, or a tool tip 
+This functionality proves particularly useful when managing parent component styles while incorporating child components like modals, pop-ups, or tooltips.
 
-Portal code samples 
+### Portal Code Samples
 
-[https://codesandbox.io/s/00254q4n6p](https://codesandbox.io/s/00254q4n6p)  
-
-Index.js comment out see effect with and without portal  
-```javascript
-   return ( 
-
-      // return ReactDOM.createPortal( 
-
-….. 
-
-      </div>//, 
-
-      // modalRoot, 
-
-) 
-```
-
-[https://codepen.io/gaearon/pen/jGBWpE](https://codepen.io/gaearon/pen/jGBWpE)
+<body style="margin: 0; overflow: hidden;"> 
+<iframe src="https://codesandbox.io/s/00254q4n6p" style="width: 100%; height: 100vh; border: none;"></iframe> </body>

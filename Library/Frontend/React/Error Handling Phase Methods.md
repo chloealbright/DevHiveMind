@@ -4,6 +4,7 @@ tags:
   - frontend
   - library
   - errorHandling
+  - react
 author:
   - jacgit18
 Comments: This documentation discusses error handling phase in react life cycle.

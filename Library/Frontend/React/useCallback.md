@@ -57,3 +57,8 @@ export default ParentComponent;
 ```
 
 In this example, the handleClick function is memoized using useCallback. ChildComponent, wrapped with React.memo(), only re-renders if handleClick changes, ensuring optimal performance as the application grows.
+
+
+
+
+

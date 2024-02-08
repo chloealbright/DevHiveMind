@@ -8,26 +8,32 @@ Started:
 EditDate: 
 Relates:
 ---
-```javascript
-import { combineReducers } from 'redux'
+```jsx
+import React from 'react';
+import { connect } from 'react-redux';
+import { buyCake } from '../redux';
 
-import cakeReducer from './cake/cakeReducer'
+function CakeContainer(props) {
+  return (
+    <div>
+      <h2>Number of cakes - {props.numOfCakes} </h2>
+      <button onClick={props.buyCake}>Buy Cake</button>
+    </div>
+  );
+}
 
-import iceCreamReducer from './iceCream/iceCreamReducer'
+const mapStateToProps = state => {
+  return {
+    numOfCakes: state.cake.numOfCakes
+  };
+};
 
-import userReducer from './user/userReducer'
+const mapDispatchToProps = dispatch => {
+  return {
+    buyCake: () => dispatch(buyCake())
+  };
+};
 
-  
-
-const rootReducer = combineReducers({
-
-cake: cakeReducer,
-
-iceCream: iceCreamReducer,
-
-})
-
-  
-
-export default rootReducer
+export default connect(mapStateToProps, mapDispatchToProps)(CakeContainer);
 ```
+

@@ -1,6 +1,7 @@
 ---
 tags:
   - bestPractices
+  - versionControl
 author:
   - jacgit18
 Comments: This documentation discusses Semantic Versioning.

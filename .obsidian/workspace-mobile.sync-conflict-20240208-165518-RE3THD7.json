@@ -1,0 +1,237 @@
+{
+  "main": {
+    "id": "a9dc714fc66cf99c",
+    "type": "split",
+    "children": [
+      {
+        "id": "1122f6a6701b23cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f9776a0375596e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b0d81217da078dc4",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "9101c00d279b4f7a",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "92f1a519f6e5b61e",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "9ab17ac42cca339a",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "488e97b9c766f3f2",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency"
+          }
+        }
+      },
+      {
+        "id": "475cc3a05f8dfdf5",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "08f8df3ed2d7851c",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "358aa601924cfb01",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Home.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "669f60e7610623e9",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Home.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "211ef61d91193cef",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Home.md"
+          }
+        }
+      },
+      {
+        "id": "cf40c3d7503574ef",
+        "type": "leaf",
+        "state": {
+          "type": "Strange New Worlds",
+          "state": {}
+        }
+      },
+      {
+        "id": "8179b84b760fb56f",
+        "type": "leaf",
+        "state": {
+          "type": "reminder-list",
+          "state": {}
+        }
+      },
+      {
+        "id": "2dfff24fe7103ec4",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "fc2a8abc7d980c02",
+        "type": "leaf",
+        "state": {
+          "type": "podcast_player_view",
+          "state": {}
+        }
+      },
+      {
+        "id": "40ea709c2d3adf79",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {}
+        }
+      },
+      {
+        "id": "fc03fe2ed57dd8ba",
+        "type": "leaf",
+        "state": {
+          "type": "todo",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-rich-links:Rich Links": false,
+      "excel:Create Excel File": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "homepage:Open homepage": false,
+      "janitor:Janitor: scan vault": false,
+      "obsidian-plugin-update-tracker:Plugin Update Tracker": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-projects:Open projects": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian-read-it-later:ReadItLater: Save clipboard": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "3f9776a0375596e7",
+  "lastOpenFiles": [
+    "Home.md",
+    "_Pdf/Books Library.md",
+    "Algorithms & Data Structures/Algo pathway.md",
+    "Algorithms & Data Structures/Problem Solving Regimen.md",
+    "Mind Maps/12 Factor App Docker.canvas",
+    "Algorithms & Data Structures/Algorithms/Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion.md",
+    "Algorithms & Data Structures/Common Declarative Algorithms.md",
+    "Algorithms & Data Structures/Common Imperative Algorithms.md",
+    "Algorithms & Data Structures/Interview Template with Time Table.md",
+    "Algorithms & Data Structures/All Sorts of Sorts.md",
+    "Architecture/System Design/System Design Thought Process Flow.md",
+    "Architecture/Stateless & Statefull Processes.md",
+    "_Images/_Whiteboard/TreeGen.png",
+    "_Images/_Whiteboard/singleyQueueLinkedList.png",
+    "_Images/_Whiteboard/quicksort.png",
+    "_Images/_Whiteboard/postOrderHieghCheck.png",
+    "_Images/_Whiteboard/minMaxHeapRemoveFunc.png",
+    "_Images/_Whiteboard/minIHeapInsertFunc.png",
+    "_Images/_Whiteboard/mergeSort.png",
+    "_Images/_Whiteboard/Memoize.png",
+    "_Images/_Whiteboard/LInkedListGen.png",
+    "_Images/_Whiteboard/lc1721ALT.png"
+  ]
+}

@@ -2,66 +2,34 @@
 tags: 
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+Comments: This documentation is a code snippet showing how createSlice empowers you to mutate state without requiring explicit state return.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-08
 Relates:
 ---
-
-allows you to mutate state you dont need to return state
-
-it is kinda of like a combination of action and reducer in one
-
-
-redux toolkit handles state update in the background
-  
-
-also auto creates action creator function 
-
-it also returns main reducer
-  
-
-```javascript
-const createSlice = require('@reduxjs/toolkit').createSlice
-
-  
+```jsx
+import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-
-numOfCakes: 20
-
-}
-
-  
+  numOfCakes: 20,
+};
 
 const cakeSlice = createSlice({
+  name: 'cake',
+  initialState,
+  reducers: {
+    ordered: state => {
+      state.numOfCakes--;
+    },
+    restocked: (state, action) => {
+      state.numOfCakes += action.payload;
+    },
+  },
+});
 
-name: 'cake',
-
-initialState,
-
-reducers: {
-
-ordered: state => {
-
-state.numOfCakes--
-
-},
-
-restocked: (state, action) => {
-
-state.numOfCakes += action.payload
-
-}
-
-}
-
-})
-
-  
-
-module.exports = cakeSlice.reducer
-
-module.exports.cakeActions = cakeSlice.actions
+export const { ordered, restocked } = cakeSlice.actions;
+export default cakeSlice.reducer;
 ```
+
+`createSlice` serves as a hybrid of action and reducer, streamlining state updates in the background. Additionally, createSlice automatically generates action creator functions and returns the main reducer."

@@ -21,7 +21,7 @@
 		{"type":"file","file":"Library/Frontend/Redux/Base/Redux hooks.md","id":"a72c736dcec98e6d","x":2552,"y":-512,"width":488,"height":792,"color":"5"},
 		{"type":"text","text":"# Store\n\n### Store dispatch action to reducer","id":"fc1904baf01108d4","x":1950,"y":-1053,"width":320,"height":153,"color":"#6d4918"},
 		{"type":"text","text":"# Reducer\n### process state and action returns new state obj","id":"29d121cba4170b87","x":2250,"y":-820,"width":250,"height":160,"color":"3"},
-		{"type":"file","file":"Library/Frontend/Redux/Redux toolkit/Redux toolkit is deals with boiler plate code.md","id":"633918ee2dde774f","x":444,"y":6840,"width":400,"height":400,"color":"5"},
+		{"type":"file","file":"Library/Frontend/Redux/Redux toolkit/Redux Toolkit Purpose.md","id":"633918ee2dde774f","x":444,"y":6840,"width":400,"height":400,"color":"5"},
 		{"type":"file","file":"Library/Frontend/Redux/Redux toolkit/Redux Toolkit createSlice.md","id":"bdd5688d5754c0f2","x":1124,"y":6840,"width":600,"height":1168,"color":"5"},
 		{"type":"file","file":"Library/Frontend/Redux/Redux toolkit/Redux toolkit store.md","id":"94b12e23fb2c193f","x":2964,"y":6920,"width":840,"height":900,"color":"5"},
 		{"type":"file","file":"Library/Frontend/Redux/Redux toolkit/Redux toolkit configuere store.md","id":"388571589e88da4f","x":2002,"y":6971,"width":642,"height":869,"color":"5"},

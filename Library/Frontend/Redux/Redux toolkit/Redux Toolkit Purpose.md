@@ -2,10 +2,10 @@
 tags: 
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses how Redux toolkit deals with boiler plate code.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-08
 Relates:
 ---
 

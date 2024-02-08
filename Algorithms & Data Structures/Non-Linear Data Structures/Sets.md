@@ -91,5 +91,5 @@ In summary, while the terms are related, iteration is a specific form of travers
 ## Cons
 
 - Sets have intentional limitations and are not suitable for a wide range of use cases.
-- They are also not traverse-able meaning you cant iterate through it in specific order like an array were you iterate at the beginning or end or even the middle like if you wanted to do some sort of binary search which isn't possible because of the structure of a set. But sets are iterable like in the example above.
+- They are also not traverse-able meaning you cant iterate through it in specific order like an array were you iterate at the beginning or end or even the middle like if you wanted to do some sort of binary search which isn't possible because of the structure of a set. But sets are iterable like in the example above which relates to [[Iterating vs Traversing]].
 

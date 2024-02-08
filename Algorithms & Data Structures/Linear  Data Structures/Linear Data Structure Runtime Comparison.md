@@ -21,7 +21,6 @@ Operations on data structures can have varying worst-case and average-case time 
 >[!note]
 > In terms of create and update when doing insertion you are adding a new element that didn't exist before also insertion can be viewed as an update operation, particularly if you're adding or replacing an element in a data structure that already exists. For instance, if you're inserting a value into a specific position in an array, you are updating the array at that index. The distinction between creating and updating during insertion often depends on whether the element being inserted is entirely new or if it's modifying an existing structure. 
 
-- Set: Worst: O(n), Average: O(1) for add()
 - Array: Worst: O(n), Average: O(n) for push()
 - Stack: Worst: O(n), Average: O(1) for push()
 - Queue: Worst: O(n), Average: O(1) for enqueue and queue.unshift()
@@ -33,7 +32,6 @@ Operations on data structures can have varying worst-case and average-case time 
 
 Accessing elements in data structures can have different worst-case and average-case time complexities based on their implementation:
 
-- Set: Worst: O(n), Average: O(1) for has() (more like a search)
 - Array: Worst: O(n), Average: O(1) for `arr[3]`
 - Stack: Worst: O(n), Average: O(1) for accessing elements like `arr[LastIndex] `or `arr[FirstIndex]`
 - Queue: Worst: O(n), Average: O(1) for accessing elements like `arr[FirstIndex]` and `arr[LastIndex]`
@@ -45,7 +43,6 @@ Accessing elements in data structures can have different worst-case and average-
 >[!note] 
 >Searching and [[Iterating vs Traversing#^5bf9d2 | Traversing]] are common operations when working with data structures but have a slight distinction that searching involves looking for a specific element vs traversing is more broad visiting and inspecting all elements in a structure or proceess them. 
 
-- Set: Worst: O(n), Average: O(1) for has() or iterating through objects
 - Array: Worst: O(n), Average: O(n)
 - Stack: Worst: O(n), Average: O(n)
 - Queue: Worst: O(n), Average: O(n)
@@ -60,7 +57,6 @@ Binary search can be more efficient with sorted values, typically Worst: O(log n
 >- Deletion may also require reassigning pointers, changing the structure of a linked list, or shifting elements in an array to fill the gap left by the deleted item.
 >- In some cases, deletion can indeed be considered an "updating" operation because it changes the state of the data structure.
 
-- Set: Worst: O(n), Average: O(1) for delete()
 - Array: Worst: O(n), Average: O(1) for pop()
 - Stack: Worst: O(n), Average: O(1) for pop()
 - Queue: Worst: O(n), Average: O(1) for dequeue(), which is similar to pop()

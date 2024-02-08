@@ -10,8 +10,23 @@ Relates:
 ---
 ![[nonLinearRuntime.png]]
 
-### HashMap & HashTable
+### Set 
+**Insertion (CREATE/UPDATE) :
+- Set: Worst: O(n), Average: O(1) for add()
 
+
+**Access(Read):**
+- Set: doesn't have a specific access action because the way it is structured. 
+
+
+**Search:**
+- Set: Worst: O(n), Average: O(1) for `has()` or iterating through objects.
+
+
+**Delete(Delete/Update):**
+- Set: Worst: O(n), Average: O(1) for delete()
+
+### HashMap & HashTable
 **Insertion (CREATE/UPDATE) :
 - Hash-table: Worst: O(n), Average: O(1) for add()
 - HashMap: Worst: O(n), Average: O(1) for set()

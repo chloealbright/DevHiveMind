@@ -4,6 +4,7 @@ tags:
   - frontend
   - library
   - redux
+  - stateStore
 author:
   - jacgit18
 Comments: This documentation discusses Redux stores.

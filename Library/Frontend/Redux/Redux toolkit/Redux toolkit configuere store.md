@@ -1,7 +1,14 @@
 ---
-tags: 
+tags:
+  - web
+  - frontend
+  - library
+  - redux
+  - stateStore
+  - reduxToolKit
 author:
   - jacgit18
+Comments: This documentation discusses
 Status: 
 Started: 
 EditDate: 

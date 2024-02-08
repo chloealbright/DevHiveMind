@@ -5,6 +5,7 @@ tags:
   - library
   - react
   - redux
+  - stateStore
 author:
   - jacgit18
 Comments: This documentation discusses providers in Redux.

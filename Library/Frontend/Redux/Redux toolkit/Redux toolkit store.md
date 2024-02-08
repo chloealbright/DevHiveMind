@@ -7,48 +7,35 @@ tags:
   - stateStore
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+Comments: This documentation is a code snippet showing how redux toolkit store works.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-08
 Relates:
 ---
-```javascript
-const store = require('./app/store')
+```jsx
+import store from './app/store';
+import { cakeActions } from './features/cake/cakeSlice';
+import { icecreamActions } from './features/icecream/icecreamSlice';
+import { fetchUsers } from './features/user/userSlice';
 
-const cakeActions = require('./features/cake/cakeSlice').cakeActions
-
-const icecreamActions = require('./features/icecream/icecreamSlice').icecreamActions
-
-const fetchUsers = require('./features/user/userSlice').fetchUsers
-
-  
-
-console.log('Initial State ', store.getState())
+console.log('Initial State:', store.getState());
 
 const unsubscribe = store.subscribe(() => {
+  console.log('Updated State:', store.getState());
+});
 
-console.log('Updated State ', store.getState())
+store.dispatch(cakeActions.ordered());
+store.dispatch(cakeActions.ordered());
+store.dispatch(cakeActions.ordered());
+store.dispatch(cakeActions.restocked(3));
 
-})
+store.dispatch(icecreamActions.ordered());
+store.dispatch(icecreamActions.ordered());
+store.dispatch(icecreamActions.ordered());
+store.dispatch(icecreamActions.restocked(3));
 
-store.dispatch(cakeActions.ordered())
-
-store.dispatch(cakeActions.ordered())
-
-store.dispatch(cakeActions.ordered())
-
-store.dispatch(cakeActions.restocked(3))
-
-store.dispatch(icecreamActions.ordered())
-
-store.dispatch(icecreamActions.ordered())
-
-store.dispatch(icecreamActions.ordered())
-
-store.dispatch(icecreamActions.restocked(3))
-
-store.dispatch(fetchUsers())
-
-// unsubscribe()
+store.dispatch(fetchUsers());
+// unsubscribe();
 ```
+

@@ -1,5 +1,10 @@
 ---
-tags: 
+tags:
+  - web
+  - frontend
+  - library
+  - redux
+  - reduxToolKit
 author:
   - jacgit18
 Comments: This documentation is a code snippet showing how extra reducers work.

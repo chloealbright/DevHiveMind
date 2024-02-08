@@ -2,7 +2,7 @@
 tags: 
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation is a code snippet showing how
 Status: 
 Started: 
 EditDate: 

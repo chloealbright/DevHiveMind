@@ -7,7 +7,7 @@ tags:
   - stateStore
 author:
   - jacgit18
-Comments: This documentation is a code snippet showing
+Comments: This documentation is a code snippet showing how to create a store with root reducers and applying middleware.
 Status: Done
 Started: 
 EditDate: 2024-02-08

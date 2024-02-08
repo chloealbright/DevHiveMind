@@ -6,7 +6,7 @@ tags:
   - redux
 author:
   - jacgit18
-Comments: This documentation is a code snippet showing
+Comments: This documentation is a code snippet showing a Redux action for buying ice cream.
 Status: Done
 Started: 
 EditDate: 2024-02-08

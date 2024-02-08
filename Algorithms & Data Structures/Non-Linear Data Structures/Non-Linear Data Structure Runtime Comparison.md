@@ -18,15 +18,15 @@ Relates:
 
 **Access(Read):**
 - Hash-table: Access may not be straightforward.
-- HashMap: Worst: O(n), Average: O(1) for get()
+- HashMap: Worst: O(n), Average: O(1) for `myObject.keyName` alternatively you can use `myObject[keyName]`
 
 **Search:**
-- Hash-table: Worst: O(n), Average: O(1) for search() or iterating through objects
-- HashMap: Worst: O(n), Average: O(1) for get() or iterating through objects
+- Hash-table: Worst: O(n), Average: O(1) for iterating through objects
+- HashMap: Worst: O(n), Average: O(1) for `get()` or `has()` methods which searches through object main difference is `get()`returns value vs `has()` return boolean
 
 **Delete(Delete/Update):**
-- Hash-table: Worst: O(n), Average: O(1) for remove()
-- HashMap: Worst: O(n), Average: O(1) for delete()
+- Hash-table: Worst: O(n), Average: O(1) for `remove()`
+- HashMap: Worst: O(n), Average: O(1) for `delete()`
 
 # Binary Search Tree
 Binary Search Trees are data structures that maintain their elements in a way that allows for efficient searching and manipulation.

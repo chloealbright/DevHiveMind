@@ -1,62 +1,45 @@
 ---
-tags: 
+tags:
+  - web
+  - frontend
+  - library
+  - redux
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses Redux reducers.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-08
 Relates:
 ---
-```javascript
+```jsx
+const initialState = {
+  countToNothing: 10
+};
 
-intialState = {
-
-countToNothing: 10
-
-}
-  
-
-function reducer(state = intialState, **action**){
-
-switch(action.type){
-
-// returns new obj no mutation thus pure function
-
-Changes are only made with pure functions meaning a function that takes in an input and gives an output that is predictable
-
- case DO_ACTION: return {
-
-...state, // copy state update countToNothing
-
-  countToNothing: state.countToNothing - 1
-
- }
-
- default: return state
-
-  
- }
-
+function reducer(state = initialState, action) {
+  switch (action.type) {
+    // returns a new object, no mutation, thus a pure function
+    // Changes are only made with pure functions, meaning a function that takes in an input and gives an output that is predictable
+    case DO_ACTION:
+      return {
+        ...state, // copy state, update countToNothing
+        countToNothing: state.countToNothing - 1
+      };
+    default:
+      return state;
+  }
 }
 
-
-combineReducers = redux.combineReducers
-
+const combineReducers = redux.combineReducers;
 
 // similar structure
-
-function counterReducer(state = intialState, action)
-
-function otherCounterReducer(state = intialState, action)
-
+function counterReducer(state = initialState, action) {}
+function otherCounterReducer(state = initialState, action) {}
 
 const rootReducers = combineReducers({
-
-counter: counterReducer,
-
-otherCounter: otherCounterReducer
-
-  
-
-})
+  counter: counterReducer,
+  otherCounter: otherCounterReducer
+});
 ```
+

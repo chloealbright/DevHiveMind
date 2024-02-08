@@ -1,56 +1,51 @@
 ---
-tags: 
+tags:
+  - web
+  - frontend
+  - library
+  - redux
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses Redux stores.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-08
 Relates:
 ---
-```javascript
-createStore = redux.createStore
+```jsx
+const { createStore, applyMiddleware, bindActionCreators } = redux;
+const { createLogger } = reduxLogger;
+const thunkMiddleware = reduxThunk.default;
 
-applymiddleware = redux.applymiddleware
+const loggerMiddleware = createLogger();
 
-loggerMiddleware = reduxLogger.createLogger()
+const store = createStore(rootReducers, applyMiddleware(loggerMiddleware, thunkMiddleware));
 
-thunkMiddleware = redux-thunk.default
+// Initial state can be obtained with
+store.getState();
 
-  
+// Registers listeners
+store.subscribe(listeners);
 
-store = createStore(reducer)// for one reducer
+const unsubscribe = store.subscribe(() => console.log('Updating state', store.getState()));
 
-store = createStore(rootReducers, applymiddleware(logger, thunkMiddleware))
+// Then dispatch, which takes an action as a param and causes a state transition
+store.dispatch(doSomething());
+store.dispatch(doSomething());
+store.dispatch(doSomething());
 
-//initial state can be gotten with
+// Alternatively, dispatch using Bind Action Creators (not commonly used)
+const actions = bindActionCreators({ doSomething, otherAction }, store.dispatch);
+actions.doSomething();
 
-store.getState()
-
-  
-
-// registers listeners
-
-store.subscribe(listeners)
-
-unsubscribe = store.subscribe(() => log updating state store.getState())
-
-  
-
-// then dispatch which takes action as param and cause state transition
-
-  
-
-store.dispatch(doSomeThing())
-
-store.dispatch(doSomeThing())
-
-store.dispatch(doSomeThing())
-
-// alt dispatch is Bind Action Creators not really used
-
-const actions = bindActionCreators({doSomeThing, otherAction},store.dispatch)
-
-actions.doSomeThing()
-
-unsubscribe() // rest or state changes
+// Unsubscribe to reset state changes
+unsubscribe();
 ```
+
+## Store Short Description
+
+The store is a read-only, immutable object serving as the single source of truth for the entire state of the application or website. It takes a reducer as a parameter, encapsulating the logic for state transitions. All interactions with the state occur through the store, particularly when invoking `store.dispatch()`.
+
+When you dispatch an action, it flows through the store and into the reducer. The reducer, responsible for handling actions and updating the state accordingly, returns a new state. Crucially, the store remains unchanged; instead, a new state is created based on the existing state and the action dispatched.
+
+This immutability ensures that the state is not modified directly. The store serves as a centralized hub where actions are dispatched, and the state is updated through the pure functions defined in the reducer. This unidirectional flow allows for better predictability, debugging, and management of application state.

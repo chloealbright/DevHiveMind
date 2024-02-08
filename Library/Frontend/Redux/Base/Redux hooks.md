@@ -1,52 +1,41 @@
 ---
-tags: 
+tags:
+  - web
+  - frontend
+  - library
+  - react
+  - redux
+  - hooks
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses Redux hooks
+Status: Done
 Started: 
-EditDate: 
-Relates:
+EditDate: 2024-02-08
+Relates: "[[Hooks]]"
 ---
-```javascript
-// Alternate approach with Hooks
+```JSX
+// An alternative approach utilizing Hooks, particularly beneficial when working with Redux Toolkit in conjunction with react-redux for state management.
 
-// doesn't vary when working with redux toolkit more of react-redux sharing state with react
+// This code can be rendered directly in the App component, eliminating the need for connect(mapStateToProps, mapDispatchToProps)(App).
 
-  
+// While the code structure differs, the core concept remains the same.
 
-this would be render in the app component and you can get rid of connect(mapStateToProps, mapDispatchToProps)(App)
+import { buyCake } from '../redux';
 
-  
+function HooksCakeContainer() {
+  const numOfCakes = useSelector(state => state.cake.numOfCakes);
+  const dispatch = useDispatch();
 
-different code same core concept
-
-  
-
-import { buyCake } from '../redux'
-
-  
-
-function HooksCakeContainer () {
-
-const numOfCakes = useSelector(state => state.cake.numOfCakes)
-
-const dispatch = useDispatch()
-
-return (
-
-<div>
-
-<h2>Number of cakes - {numOfCakes} </h2>
-
-<button onClick={() => dispatch(buyCake())}>Buy Cake</button>
-
-</div>
-
-)
-
+  return (
+    <div>
+      <h2>Number of cakes - {numOfCakes} </h2>
+      <button onClick={() => dispatch(buyCake())}>Buy Cake</button>
+    </div>
+  );
 }
 
-  
-
-export default HooksCakeContainer
+export default HooksCakeContainer;
 ```
+
+

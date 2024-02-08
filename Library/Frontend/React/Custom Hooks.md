@@ -5,7 +5,7 @@ tags:
   - CodebaseDecision
   - library
   - react
-  - hook
+  - hooks
 author:
   - jacgit18
 Comments: This documentation discusses what custom hooks are.

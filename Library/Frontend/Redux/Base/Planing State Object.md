@@ -3,7 +3,6 @@ tags:
   - web
   - frontend
   - library
-  - react
   - redux
   - javascript
   - typescript

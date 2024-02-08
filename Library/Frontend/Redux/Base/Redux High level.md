@@ -10,7 +10,7 @@ Comments: This documentation discusses Redux.
 Status: Done
 Started: 
 EditDate: 2024-02-07
-Relates:
+Relates: "[[StateChange(view)]]"
 ---
 ![[Redux state flow.gif]]
 

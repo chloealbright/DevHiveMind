@@ -1,91 +1,62 @@
 ---
-tags: 
+tags:
+  - web
+  - frontend
+  - library
+  - react
+  - redux
+  - javascript
+  - typescript
 author:
   - jacgit18
-Status: 
+Comments: This documentation is a code snippet showing how mapStateToProps and mapDispatchToProps are used.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-07
 Relates:
 ---
-```javascript
-
+```jsx
 // mapStateToProps & mapDispatchToProps has second param called ownProps which is rarely used but is used with conditional rendering
 
-  
-
-function ItemContainer (props) {
-
-return (
-
-<>
-
-<h2>Item - {props.item}</h2>
-
-<div>
-
-<button onClick={props.buyItem}>Buy Items</button>
-
-</div>
-
-</>
-
-)
-
+function ItemContainer(props) {
+  return (
+    <>
+      <h2>Item - {props.item}</h2>
+      <div>
+        <button onClick={props.buyItem}>Buy Items</button>
+      </div>
+    </>
+  );
 }
-
-  
 
 const mapStateToProps = (state, ownProps) => {
+  const itemState = ownProps.cake
+    ? state.cake.numOfCakes
+    : state.iceCream.numOfIceCreams;
 
-const itemState = ownProps.cake
+  return {
+    item: itemState
+  };
+};
 
-? state.cake.numOfCakes
-
-: state.iceCream.numOfIceCreams
-
-return {
-
-item: itemState
-
-}
-
-}
-
-  
-
-// there will be situation where you dont want to subscribe to state and only pass dispatch to connect
-
+// there will be a situation where you don't want to subscribe to state and only pass dispatch to connect
 const mapDispatchToProps = (dispatch, ownProps) => {
+  const dispatchFunction = ownProps.cake
+    ? () => dispatch(buyCake())
+    : () => dispatch(buyIceCream());
 
-const dispatchFunction = ownProps.cake
-
-? () => dispatch(buyCake())
-
-: () => dispatch(buyIceCream())
-
-return {
-
-buyItem: dispatchFunction
-
-}
-
-}
-
-  
+  return {
+    buyItem: dispatchFunction
+  };
+};
 
 export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(ItemContainer);
 
-mapStateToProps,
-
-mapDispatchToProps
-
-)(ItemContainer)
-
-  
-
-APP
-
+// APP
 <ItemContainer cake />
-
 <ItemContainer /> // since no cake ice cream
 ```
+

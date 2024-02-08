@@ -7,6 +7,8 @@ tags:
   - redux
   - API
   - asynchronous
+  - javascript
+  - typescript
 author:
   - jacgit18
 Comments: This documentation is a code snippet showing how make API call in Redux with promises instead of Async Await.
@@ -107,3 +109,6 @@ store.subscribe(() => {
 // Dispatch the async action
 store.dispatch(fetchUsers());
 ```
+
+
+

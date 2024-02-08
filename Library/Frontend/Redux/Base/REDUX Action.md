@@ -1,28 +1,28 @@
 ---
-tags: 
+tags:
+  - web
+  - frontend
+  - library
+  - react
+  - redux
+  - javascript
+  - typescript
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-07
 Relates:
 ---
 ```javascript
+const DO_ACTION = 'DO_ACTION';
 
-const DO_ACTION ='DO_ACTION'
-
-  
-
-function doSomeThing(){
-	return {
-
-	 type: DO_ACTION,
-	 info: 'first redux action'
-
-	}
+function doSomething() {
+  return {
+    type: DO_ACTION,
+    info: 'First Redux action'
+  };
 }
-// actions can also be aysnc maybe might include a api call
+// Actions can also involve asynchronous operations, such as making API calls.
 ```
-
-  
-

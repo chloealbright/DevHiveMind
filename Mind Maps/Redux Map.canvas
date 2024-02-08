@@ -15,7 +15,7 @@
 		{"type":"file","file":"Library/Frontend/Redux/Base/Connect is a higher order component.md","id":"73ca822ca713a9ef","x":3080,"y":165,"width":760,"height":1915,"color":"5"},
 		{"type":"text","text":"### redux thunk is a middleware that defines async creators","id":"a7c15153fa61bc51","x":131,"y":-572,"width":309,"height":120},
 		{"type":"file","file":"Library/Frontend/Redux/Base/Async API Call in Redux.md","id":"1dead57491376a4e","x":-140,"y":-440,"width":400,"height":860,"color":"5"},
-		{"type":"file","file":"Library/Frontend/Redux/Base/Planing state obj.md","id":"eb2fbe6b75b415e4","x":-606,"y":-512,"width":380,"height":720},
+		{"type":"file","file":"Library/Frontend/Redux/Base/Planing State Object.md","id":"eb2fbe6b75b415e4","x":-606,"y":-512,"width":380,"height":720},
 		{"type":"file","file":"Library/Frontend/Redux/Base/REDUX Reducer.md","id":"4ca8d4d2b06ebcdf","x":920,"y":-900,"width":420,"height":1420,"color":"3"},
 		{"type":"text","text":"***react redux follows a flux pattern with this pattern data flows one way this better then mvc pattern***","id":"179a474798df83bf","x":1563,"y":-1251,"width":387,"height":120},
 		{"type":"file","file":"Library/Frontend/Redux/Base/Provider store.md","id":"96c3900fad1f39c4","x":3080,"y":-1008,"width":400,"height":696},

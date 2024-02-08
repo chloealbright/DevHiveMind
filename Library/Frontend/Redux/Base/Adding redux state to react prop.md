@@ -6,6 +6,8 @@ tags:
   - react
   - redux
   - props
+  - javascript
+  - typescript
 author:
   - jacgit18
 Comments: This documentation is a code snippet showing how add redux state to react props.

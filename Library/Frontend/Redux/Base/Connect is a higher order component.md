@@ -5,94 +5,57 @@ tags:
   - library
   - react
   - HOC
+  - redux
+  - javascript
+  - typescript
 author:
   - jacgit18
-Status: 
+Comments: This documentation is a code snippet showing connect higher order component.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-07
 Relates: "[[Props#Higher Order Components (HOC) and Render Prop Pattern |HOC]]"
 ---
-```javascript
-// example
-
-class ClickCounter extends Component {
-
-  
-
-render() {
-
-const { count, incrementCount } = this.props
-
-return <button onClick={incrementCount}>{this.props.name } Clicked {count} times</button>
-
-	}
-
-}
-
-  
-
-export default withCounter(ClickCounter, 5)
-
-  
+```jsx
+import React, { Component } from 'react';
 
 const withCounter = (WrappedComponent, incrementNumber) => {
+  class WithCounter extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        count: 0
+      };
+    }
 
-class WithCounter extends React.Component {
+    incrementCount = () => {
+      this.setState(prevState => {
+        return { count: prevState.count + incrementNumber };
+      });
+    }
 
-constructor(props) {
+    render() {
+      console.log('HOC', this.props.name);
+      return (
+        <WrappedComponent
+          count={this.state.count}
+          incrementCount={this.incrementCount}
+          {...this.props.name}
+        />
+      );
+    }
+  }
 
-super(props)
+  return WithCounter;
+};
 
-  
-
-this.state = {
-
-	count: 0
-
-	}
-
+class ClickCounter extends Component {
+  render() {
+    const { count, incrementCount } = this.props;
+    return <button onClick={incrementCount}>{this.props.name} Clicked {count} times</button>;
+  }
 }
 
-  
-
-incrementCount = () => {
-
-	this.setState(prevState => {
-
-		return { count: prevState.count + incrementNumber }
-
-	})
-
-}
-
-render() {
-
-	console.log('HOC', this.props.name)
-
-	return (
-
-		<WrappedComponent
-
-		count={this.state.count}
-
-		incrementCount={this.incrementCount}
-
-		{...this.props.name}
-
-		// lets you see name in button
-
-		// {...this.props}
-		/>
-
-	)}
-
-}
-
-return WithCounter
-
-}
-
-  
-
-export default withCounter
+export default withCounter(ClickCounter, 5);
 ```
+

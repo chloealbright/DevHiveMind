@@ -40,7 +40,7 @@ Learn more about TreeSet in Java: [TreeSet in Java with Examples](https://www.ge
 
 Sets are commonly used for eliminating duplicates and can accommodate arrays, strings, and potentially objects for other data structures.
 
-## Traversing a Set
+# Traversing a Set
 
 ```javascript
 const myArray = [1, 2, 3, 4, 5, 5];  
@@ -64,19 +64,20 @@ The order in which `Array.from` gets values from a Set is based on the order in 
   
 Regarding the terms "traverse" and "iteration":  
   
-- **Iteration:**  
-- Iteration refers to the process of accessing each element in a collection one at a time. In the context of programming, iteration is commonly associated with loops or other constructs that allow you to go through each item in a sequence, like a for loop or the `for...of` loop in JavaScript.  
+## **Iteration:**  
+ Iteration refers to the process of accessing each element in a collection one at a time. In the context of programming, iteration is commonly associated with loops or other constructs that allow you to go through each item in a sequence, like a for loop or the `for...of` loop in JavaScript.  
   
-- **Traverse:**  
-- Traverse generally means to move through or go across a data structure. It's a broader term that encompasses iteration but isn't limited to accessing elements in a specific order. It can involve moving through elements in any manner, including forwards, backwards, or based on certain conditions.  
+## **Traverse:**  
+Traverse generally means to move through or go across a data structure. It's a broader term that encompasses iteration but isn't limited to accessing elements in a specific order. It can involve moving through elements in any manner, including forwards, backwards, or based on certain conditions.  
   
-In the context of data structures like arrays or sets:  
-  
-- **Traversal of an array:**  
-- Typically involves moving from the first element to the last or vice versa. This is commonly associated with the concept of indexes.  
+## Set Traversal vs Iteration
   
 - **Iteration over a set:**  
-- In the case of sets, iteration often involves accessing elements one by one in the order in which they were added to the set. Sets do not have indexes like arrays, so the order is based on the internal structure that maintains uniqueness.  
+	- In the case of sets, iteration often involves accessing elements one by one in the order in which they were added to the set. Sets do not have indexes like arrays, so the order is based on the internal structure that maintains uniqueness.  
+
+- **Traversal of an array:**  
+	- Typically involves moving from the first element to the last or vice versa. This is commonly associated with the concept of indexes.  
+  
   
 In summary, while the terms are related, iteration is a specific form of traversal that involves accessing elements sequentially, and traversal is a broader term that encompasses various ways of moving through elements in a data structure. The order in `Array.from` reflects the order in which the Set iterates through its elements.
 

@@ -1,13 +1,16 @@
 ---
-tags: 
+tags:
+  - javascript
+  - bestPractices
 author:
   - jacgit18
+Comments: This documentation discusses
 Status: Capture
 Started: 
-EditDate: 
+EditDate: 2024-02-09
 Relates:
 ---
-### Best Practices for Script Tags in HTML
+
 
 When working with script tags in HTML, it's essential to consider various attributes for optimal performance and functionality. Here are some best practices:
 

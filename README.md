@@ -1,5 +1,6 @@
 
-![](Brain-Patterns-Illustration.gif)
+<img src="_Low Priority Refinement/_Main/Brain-Patterns-Illustration.gif" alt="Brain Patterns Illustration">
+
 
 <div style="text-align:center;"><h1>Dev Journey Knowledge Repository </h1></div>
 

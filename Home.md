@@ -1,7 +1,7 @@
 
 ---
 cssclass: dashboard
-banner: "![[Banner.gif]]"
+banner: "![[Hive Banner.gif]]"
 banner_y: 0.494
 banner_x: 0.5
 

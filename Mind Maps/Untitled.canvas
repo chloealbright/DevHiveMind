@@ -1,8 +1,10 @@
 {
 	"nodes":[
 		{"id":"f395ab11333254a1","type":"text","text":"## Clarifying Question","x":-980,"y":-860,"width":680,"height":744},
-		{"id":"8618a90a876b2a86","type":"text","text":"## Clarifying Question Answers \n\n\n## Point of focus \n- Given Input\n- Given Input Variation(Test Cases and Edge Cases) \n- Defined Primitive type Variables(Boolean, String, Integer, B) \n- or data structure being leveraged\n\n","x":-994,"y":-40,"width":694,"height":744},
-		{"id":"bb311c395d14aedf","type":"text","text":"## Step by Step","x":726,"y":-737,"width":394,"height":917}
+		{"id":"8618a90a876b2a86","type":"text","text":"## Clarifying Question Answers \n\n\n\n\n## Point of focus \n- Given Input\n- Given Input Variation(Test Cases and Edge Cases) \n- Defined Primitive type Variables(Boolean, String, Integer, etc..) \n- Defined Data structure being leveraged in approach\n- Search like where is you looping logic focused on the given input or Data structure. \n\t- Are you using a Binary Search or Linear Search\n\t- Is the Structure Traversable like an array where you can loop from the beginning, middle if you are using binary search logic or at the end.\n\t- Do is it matter that the structure is Traversable meaning if you don't care about the order you loop in can it at least be itterable like for example a set which can't be traversed or has access actions.\n\t- Is the given input and test cases pre sorted, partially sorted, or unsorted.\n\t- Are searching through a range of values or partial range.\n\n","x":-994,"y":-40,"width":694,"height":860},
+		{"id":"e15e52dfa9780b19","type":"text","text":"## Search\n\n- Use Map to improve search.\n- Set is also an option if you dont care about removing duplicates\n\n","x":-120,"y":-860,"width":680,"height":237},
+		{"id":"bb311c395d14aedf","type":"text","text":"## Step by Step","x":1460,"y":-800,"width":394,"height":1220},
+		{"id":"77e85144bef13843","type":"text","text":"## Input Attribute ","x":-22,"y":-515,"width":680,"height":744}
 	],
 	"edges":[]
 }

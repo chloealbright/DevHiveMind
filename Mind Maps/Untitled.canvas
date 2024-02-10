@@ -1,6 +1,8 @@
 {
 	"nodes":[
-		{"id":"f395ab11333254a1","x":-691,"y":-384,"width":451,"height":744,"type":"text","text":"## Clarifying Question"}
+		{"id":"f395ab11333254a1","type":"text","text":"## Clarifying Question","x":-980,"y":-860,"width":680,"height":744},
+		{"id":"8618a90a876b2a86","type":"text","text":"## Clarifying Question Answers \n\n\n## Point of focus \n- Given Input\n- Given Input Variation(Test Cases and Edge Cases) \n- Defined Primitive type Variables(Boolean, String, Integer, B) \n- or data structure being leveraged\n\n","x":-994,"y":-40,"width":694,"height":744},
+		{"id":"bb311c395d14aedf","type":"text","text":"## Step by Step","x":726,"y":-737,"width":394,"height":917}
 	],
 	"edges":[]
 }

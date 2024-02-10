@@ -60,6 +60,23 @@ const sum = valuesInSet.reduce((acc, value) => acc + value, 0);
 console.log(sum);
 ```
 
+In JavaScript, the `Set` object itself doesn't provide a built-in way to iterate directly like arrays or other iterable structures. However, you can use the `forEach` method available on the `Set` prototype to iterate over its elements. Here's an example:
+
+```javascript
+const mySet = new Set([1, 2, 3, 4, 5]);
+
+mySet.forEach((value) => {
+  console.log(value);
+});
+```
+
+The `forEach` method takes a callback function as its argument, and this function is called once for each element in the `Set`. The `value` parameter represents the current element in the iteration.
+
+Keep in mind that the order of iteration in a `Set` is based on the order in which elements were added to the set, but it's not guaranteed to be sorted.
+
+If you need more control over the iteration or want to perform specific operations, you might consider converting the `Set` to an array using `Array.from(mySet)` or the spread operator `[...mySet]` and then iterating over the array using traditional methods.
+
+
 The order in which `Array.from` gets values from a Set is based on the order in which the Set iterates through its values. Sets, like arrays, maintain the order of insertion, so the order of values in the resulting array will correspond to the order in which they were added to the Set.  
   
 Regarding the terms "traverse" and "iteration":  

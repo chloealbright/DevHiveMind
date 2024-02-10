@@ -1,8 +1,9 @@
 ---
 tags:
   - linear
-author: jacgit18
-Status: 
+author:
+  - jacgit18
+Status: Refinement
 Started: 
 EditDate: 
 Relates:
@@ -45,6 +46,9 @@ Sets are commonly used for eliminating duplicates and can accommodate arrays, st
 ```javascript
 const myArray = [1, 2, 3, 4, 5, 5];  
 const mySet = new Set();  
+const mySet = new Set(iterable like an array goes here or object if you want to iterate);
+const mySet = new Set([]);
+const mySet = new Set("hello");
   
 // Adding values from the array into the set during each iteration  
 for (const value of myArray) {  
@@ -75,6 +79,20 @@ The `forEach` method takes a callback function as its argument, and this functio
 Keep in mind that the order of iteration in a `Set` is based on the order in which elements were added to the set, but it's not guaranteed to be sorted.
 
 If you need more control over the iteration or want to perform specific operations, you might consider converting the `Set` to an array using `Array.from(mySet)` or the spread operator `[...mySet]` and then iterating over the array using traditional methods.
+
+If you want to iterate over a `Set` without converting it to an array, you can use the `for...of` loop directly on the `Set`. Here's an example:
+
+```javascript
+const mySet = new Set([1, 2, 3, 4, 5]);
+
+for (const value of mySet) {
+  console.log(value);
+}
+```
+
+The `for...of` loop can be used with any iterable, including `Set`. This allows you to iterate over the elements of the `Set` without the need to convert it to an array explicitly.
+
+This approach is more direct and avoids the intermediate step of creating an array.
 
 
 The order in which `Array.from` gets values from a Set is based on the order in which the Set iterates through its values. Sets, like arrays, maintain the order of insertion, so the order of values in the resulting array will correspond to the order in which they were added to the Set.  

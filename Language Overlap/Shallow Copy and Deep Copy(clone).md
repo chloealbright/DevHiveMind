@@ -12,42 +12,6 @@ Relates:
 
 
 
-// if they are nested they still share ref 
-
-let Jray = [1,2,3] 
-
-Jray.push([4,5,6]) // [1,2,3,[4,5,6] ]  
-
-let vArray = [...Jray] // [1,2,3,[4,5,6] ]  
-
-vArray[4].push(7)   
-
-Jray // has same length after pushing 7 
-
-vArray // has same length after pushing 7 
-
-// Array from and slice create shallow copies 
-
-// This Allows to mutate things when you shouldn't with object freeze 
-
-const obj = { 
-
-"first": 44, 
-
-"sec": 12, 
-
-"third": {"a": 1, "b": 2} 
-
-} 
-
-// shallow freeze 
-
-Object.freeze(obj) 
-
-obj.third.a = 8 // changes a to 8 
-
-The Object.freeze() method freezes an object. A frozen object can no longer be changed; freezing an object prevents new properties from being added to it, existing properties from being removed, prevents changing the enumerability, configurability, or writability of existing properties, and prevents the values of existing properties from being changed. In addition, freezing an object also prevents its prototype from being changed. freeze() returns the same object that was passed in. 
-
 Deep copy solves this 
 
 A deep copy copies all fields, and makes copies of dynamically allocated memory pointed to by the fields. A deep copy occurs when an object is copied along with the objects to which it refers. 

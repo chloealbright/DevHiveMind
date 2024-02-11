@@ -112,31 +112,36 @@ tArray === zArray // returns false different memory reference 
 **Nested Objects in Shallow Copy:**
 
 ```javascript
-let Jray = [1, 2, 3];
-Jray.push([4, 5, 6]);
+let jArray = [1, 2, 3];
+jArray.push([4, 5, 6]);
 // Results in [1,2,3,[4,5,6] ]  
 
-let vArray = [...Jray];
-vArray[4].push(7);
+let vArray = [...jArray];
+// Results in [1, 2, 3, [4, 5, 6]]
+
+vArray[4].push(7); 
+// jArray and vArray both get 7 pushed in them along with an increase of there array size 
+
+// So this ends up being [1, 2, 3, [4, 5, 6, 7]]
 ```
 
 **Array.from() and slice() for Shallow Copy:**
 
 ```javascript
-const shallowCopy = Array.from(Jray);
+const shallowCopy = Array.from(jArray);
 ```
 
 **Object.freeze() for Shallow Freeze:**
 
 ```javascript
 const obj = { "first": 44, "sec": 12, "third": { "a": 1, "b": 2 } };
-Object.freeze(obj);
-obj.third.a = 8; // changes a to 8
+Object.freeze(obj); // stops any changes to object also prevents its prototype from being changed. freeze() returns the same object that was passed in. 
+obj.third.a = 8; // attempts to reassign a to 8, but it won't happen due to Object.freeze()
 ```
 
 **Deep Copy:**
 
-Deep copy involves copying all fields and recursively making copies of referenced objects.
+"A deep copy copies all fields, and makes copies of dynamically allocated memory pointed to by the fields. A deep copy occurs when an object is copied along with the objects to which it referenced." In a deep copy, not only are the values of the fields copied, but if those fields contain references to other objects, the deep copy ensures that new copies of the referred objects are created as well. This extends recursively to all nested objects, resulting in a completely independent copy of the original structure with no shared references.
 
 ```javascript
 const newScore = JSON.parse(JSON.stringify(Score));

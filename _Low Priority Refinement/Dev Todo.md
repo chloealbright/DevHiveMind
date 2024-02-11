@@ -36,16 +36,16 @@ Relates:
 - [ ] find a way to categorize code snippets that aren't in cold snippet folder to make it easier to search probably use tags
 - [ ] Maybe try doing this [[WebSocket chat client]]
 
-Create code flow and decesion making mind map
+
+tangibles to learn 
+content management system  
+shopify  
+wix
 
 
-  
-Pre post action like a read or a sort  
-  
-  
-Or a read to see if a sort is needed
 
-  Build something specific clear goals
+
+Build something specific clear goals
 
 Track reference notes in Obsidian Which are notes that are essentially Notes written in someone Else's words to reference 
 
@@ -137,7 +137,15 @@ topics learned
 - [ ] Please proofread for spelling, grammar, and readability. also add more to this introduction while SEO optimizing.
 
 
+Try 
 
+Act as a software engineer Identify domain for a driving school in domain driven design  
+  
+Kepner trego decision analysis around code base decisions and projects  
+  
+Copy book content section and have chatgpt summarize it  
+  
+Ask chat GPT how would you write integration test for a particular function
 
 
 

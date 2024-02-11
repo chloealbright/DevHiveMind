@@ -10,6 +10,7 @@ Started:
 EditDate: 2024-01-29
 Relates:
 ---
+![[PutVPatch.gif]]
 ## **PUT(Update) Method: Complete Replacement**
   - The PUT request method creates a new resource or replaces the target resource's representation with the provided payload.
   - Update, in the context of PUT, implies an update-if-exists approach: Overwrite the current value entirely with the new one. If the resource doesn't exist, consider the operation a failure. In case of conflicting updates, accept both but designate the "latest" one for future reads.

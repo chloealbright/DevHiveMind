@@ -2,104 +2,118 @@
 tags: 
 author:
   - jacgit18
-Status: 
+Status: Refinement
 Started: 
 EditDate: 
 Relates:
 ---
 ![[Shallow and Deep Copy.gif]]
+Shallow copy involves creating a new object with an exact copy of values from the original. If the object contains references to other objects, only the memory addresses are copied.
 
+```javascript
+let xArray = [1, 2, 3];
+let yArray = xArray; // stores memory reference
 
+let zArray = [...yArray, 10]; // results in [1, 2, 3, 10]
+```
 
+**Object.assign(target, source) for Shallow Copy:**
 
-Deep copy solves this 
+```javascript
+const tArray = Object.assign([], zArray); // creates a new array
+tArray === zArray // returns false different memory reference 
+```
 
-A deep copy copies all fields, and makes copies of dynamically allocated memory pointed to by the fields. A deep copy occurs when an object is copied along with the objects to which it refers. 
+**Nested Objects in Shallow Copy:**
 
-// several libraries  like lodash, ramda and others has this built-in 
+```javascript
+let jArray = [1, 2, 3];
+jArray.push([4, 5, 6]);
+// Results in [1,2,3,[4,5,6] ]  
 
-const Score = { 
+let vArray = [...jArray];
+// Results in [1, 2, 3, [4, 5, 6]]
 
-"first": 44, 
+vArray[4].push(7); 
+// jArray and vArray both get 7 pushed in them along with an increase of there array size 
 
-"sec": 12, 
+// So this ends up being [1, 2, 3, [4, 5, 6, 7]]
+```
 
-"third": {"a": 1, "b": 2} 
+**Array.from() and slice() for Shallow Copy:**
 
-} 
+```javascript
+const shallowCopy = Array.from(jArray);
+```
 
-// One liner 
+**Object.freeze() for Shallow Freeze:**
 
-const newScore = JSON.parse(JSON.stringify(Score))  
+```javascript
+const obj = { "first": 44, "sec": 12, "third": { "a": 1, "b": 2 } };
+Object.freeze(obj); // stops any changes to object also prevents its prototype from being changed. freeze() returns the same object that was passed in. 
+obj.third.a = 8; // attempts to reassign a to 8, but it won't happen due to Object.freeze()
+```
 
-Score === newScore // ref different memory so false which we want 
+## Deep Copy
+**Depending on code requirements in terms
+
+"A deep copy copies all fields, and makes copies of dynamically allocated memory pointed to by the fields. A deep copy occurs when an object is copied along with the objects to which it referenced." In a deep copy, not only are the values of the fields copied, but if those fields contain references to other objects, the deep copy ensures that new copies of the referred objects are created as well. This extends recursively to all nested objects, resulting in a completely independent copy of the original structure with no shared references.
+
+Various libraries, such as lodash, ramda, and others, incorporate built-in functionality for deep copying.
+
+```javascript
+const Score = { "first": 44, "sec": 12, "third": { "a": 1, "b": 2 } };
+
+const newScore = JSON.parse(JSON.stringify(Score));
+
+Score === newScore // references different memory so false which we want 
 
 // this doesn't works with Dates, function, undefined, Infinity, RegExps, Maps, 
 
 Sets, Blobs, FileLists, ImageDates, and other complex data types 
+```
 
-// better way 
+**Better Custom Deep Clone Function:**
 
-const deepClone = (obj) =>{ 
+```javascript
+const deepClone = (obj) => {
+    if (typeof obj !== "object" || obj === null) return obj;
+    const newObj = Array.isArray(obj) ? [] : {};
+    for (let key in obj) {
+        const value = obj[key];
+        newObj[key] = deepClone(value);
+    }
+    return newObj;
+};
 
-if (typeof obj !== "object" || obj === null) return obj 
+let testArray = [44,22] 
+let testObj = { "first": 44, "sec": 12, "third": { "a": 1, "b": 2 } };
 
-// create array or object to hold values 
-
-const newObj = Array.isArray(obj) ? [] : {} 
-
-for(let key in obj){ 
-
-const value = obj[key] 
-
-// recursive call for nested objects & arrays 
-
-newObj[key] = deepClone(value) 
-
-} 
-
-return newObj 
-
-} 
-
-testArray = [44,22] 
-
-const newA = deepClone(testArray) 
-
+const newA = deepClone(testArray);
 testArray === newA //false good 
 
-testObj  = { 
-
-"first": 44, 
-
-"sec": 12, 
-
-"third": {"a": 1, "b": 2} 
-
-} 
-
-const objay = deepClone(testObj) 
-
+const objay = deepClone(testObj);
 objay === testObj //false good 
 
-// if you have a function with shallow copy that makes it impure deep copy fixes that 
+```
 
-const pure =(array, score=87, deepClone) =>{ 
+**Function Example with Deep Clone:**
+if you have a function with shallow copy that makes it impure deep copy fixes that 
 
-const newArray = deepClone(array) 
+```javascript
+const pure = (array, score = 87, deepClone) => {
+    const newArray = deepClone(array);
+    newArray.push(score);
+    return newArray;
+};
 
-newArray.push(score) 
+const impure = (array, score = 87) => {
+    array.push(score);
+    return array;
+};
+```
 
-return newArray 
+## Conclusion
 
-} 
+Shallow copies share references, making them susceptible to unintended mutations, while deep copies create independent copies, preventing such issues. Choose the appropriate method based on your needs.
 
-const impure =(array, score=87) =>{ 
-
-array.push(score) 
-
-return newArray 
-
-} 
-
-shallow shares ref so since object, arrays, and other data structures are mutable if one OBJ/DS  gets a new value push or added, the other array like in the examples will be mutated the same

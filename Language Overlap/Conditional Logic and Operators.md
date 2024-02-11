@@ -10,9 +10,9 @@ author:
 Status: Refinement
 Started: 
 EditDate: 
-Relates:
+Relates: "[[Flow of Control]]"
 ---
-This relates to [[Flow of Control]]
+
 
 
 
@@ -95,46 +95,22 @@ let age = ogAge || 99 // 99
 
 
 ## Short circuit evaluation 
-In simple terms short circuit is  the most likely condition to be triggered goes first in the conditional statement but this depends on if your doing the `AND` or `OR`. 
+Short-circuit evaluation is a programming language feature where logical expression evaluation stops as soon as the result is determined. This depends on the logical operator used: `&&` (logical AND) or `||` (logical OR).
 
-Short-circuit evaluation is a programming language feature where the evaluation of a logical expression stops as soon as the result is determined. This occurs when the outcome can be determined by evaluating only part of the expression, without needing to evaluate the entire expression.  
-  
-In short-circuit evaluation, the order in which conditions are evaluated matters. There are two main logical operators that utilize short-circuit evaluation: `&&` (logical AND) and `||` (logical OR).  
-  
-1. **Logical AND (`&&`):**  
-- In an expression using `&&`, if the left operand is `false`, the overall result is `false`, and the right operand is not evaluated. This is because for the entire expression to be true, both operands must be true. If the left one is false, there's no need to check the right one.  
-  
+1. **Logical AND (`&&`):** If the left operand is `false`, the right operand is not evaluated, as both must be true for the entire expression to be true.
+
 ```javascript  
-// Example in JavaScript  
 let result = false && someFunction(); // someFunction() won't be called  
 ```  
   
-2. **Logical OR (`||`):**  
-- In an expression using `||`, if the left operand is `true`, the overall result is `true`, and the right operand is not evaluated. This is because for the entire expression to be true, only one of the operands needs to be true. If the left one is already true, the whole expression is true.  
-  
+2. **Logical OR (`||`):** If the left operand is `true`, the right operand is not evaluated, as only one true operand is needed for the entire expression to be true.
+
 ```javascript  
-// Example in JavaScript  
 let result = true || someFunction(); // someFunction() won't be called  
 ```  
   
-Short-circuit evaluation is a valuable optimization technique, especially when dealing with conditions that involve costly operations or function calls. It helps improve efficiency by avoiding unnecessary evaluations when the result is already determined based on the evaluation of a part of the expression.
+Short-circuit evaluation optimizes efficiency, particularly with costly operations. For `&&`, put the most likely false condition first; for `||`, put the most likely true condition first. This decision involves a trade-off between readability and optimization.
 
-```javascript
-Name = Name || bob
-```
-
-### Logical Order of Conditions For AND (`&&`):
-  - **Put the most likely to be false first:** If the first condition is false, the overall result is already determined to be false, and there's no need to evaluate the second condition. This can improve efficiency in scenarios where the first condition is frequently false.
-
-  - **Put the most likely to be true first:** If the first condition is true, the second condition needs to be evaluated to determine the final result. However, if the first condition is false, short-circuiting will occur, and the second condition won't be evaluated. The choice depends on the specific use case and expected distribution of true/false values.
-
-### Logical Order of Conditions For OR (`||`):
-- **Order of Conditions:**
-  - **Put the most likely to be true first:** If the first condition is true, the overall result is already true, and there's no need to evaluate the second condition. This can be beneficial in scenarios where the first condition is frequently true.
-
-  - **Put the most likely to be false first:** If the first condition is false, the second condition needs to be evaluated to determine the final result. However, if the first condition is true, short-circuiting will occur, and the second condition won't be evaluated. As with `&&`, the choice depends on the specific use case and expected distribution of true/false values.
-
-In practice, the decision on the order of conditions often involves a trade-off between readability and optimization. It's essential to consider the context and the likelihood of conditions for making an informed decision.
 ### Optional Chaining Operator uses  Null Coalescing Operator ??
 
 Check if data is in object very useful when dealing with Api  

@@ -5,19 +5,15 @@ tags:
   - READ
   - AlgorithmComponent
   - testCases
+  - javascript
 author:
   - jacgit18
+Comments: This documentation discusses conditional logic.
 Status: Refinement
 Started: 
-EditDate: 
+EditDate: 2024-02-11
 Relates: "[[Flow of Control]]"
 ---
-
-
-
-
-## Conditional Logic 
-
 Using not equal might be better than saying not equal or equal to in conditional statement for problem-solving in code because it's fewer lines of code and conditions but the same result 
 
 Too many conditional statements approach doesn't address test cases very well 

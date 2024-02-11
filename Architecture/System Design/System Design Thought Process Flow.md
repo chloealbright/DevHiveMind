@@ -8,7 +8,7 @@ Comments: Still cleaning up this documentation I might convert to a mind map or 
 Status: Refinement
 Started: 2024-01-04
 EditDate: 2024-01-26
-Version: "4.0"
+Version: 2.8.0
 Relates:
 ---
 ![[System design core concepts.gif]]

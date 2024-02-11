@@ -55,7 +55,7 @@ obj.third.a = 8; // attempts to reassign a to 8, but it won't happen due to Obje
 ```
 
 ## Deep Copy
-**Depending on code requirements in terms
+> "Depending on specific code requirements and best practices, opting for a deep copy is often preferred to mitigate potential unintended side effects associated with shallow copies. Deep copies create independent duplicates of the entire data structure, ensuring changes in one copy do not impact the original, providing a more robust solution in scenarios where data immutability and isolation are crucial."
 
 "A deep copy copies all fields, and makes copies of dynamically allocated memory pointed to by the fields. A deep copy occurs when an object is copied along with the objects to which it referenced." In a deep copy, not only are the values of the fields copied, but if those fields contain references to other objects, the deep copy ensures that new copies of the referred objects are created as well. This extends recursively to all nested objects, resulting in a completely independent copy of the original structure with no shared references.
 

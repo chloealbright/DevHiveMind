@@ -5496,7 +5496,7 @@
       },
       "active": "e4eca5a255f17c5a"
     },
-    "cus": {
+    "new new": {
       "main": {
         "id": "0cbb3f0709975816",
         "type": "split",
@@ -5536,18 +5536,6 @@
                   "type": "markdown",
                   "state": {
                     "file": "Algorithms & Data Structures/_Experiment/Identify Conditional Logic.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "ce2529c049d452c1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Algorithms & Data Structures/Algorithms/Algorithm Most Common Built in Functions.md",
                     "mode": "source",
                     "source": false
                   }
@@ -5602,22 +5590,31 @@
                 }
               },
               {
-                "id": "e4eca5a255f17c5a",
+                "id": "83f8bb9ffb1809f7",
                 "type": "leaf",
                 "state": {
-                  "type": "canvas",
+                  "type": "markdown",
                   "state": {
-                    "file": "Mind Maps/Algo Thought Flow.canvas",
-                    "viewState": {
-                      "x": -762.215338167417,
-                      "y": -353.434755572316,
-                      "zoom": -0.5999999999999996
-                    }
+                    "file": "Algorithms & Data Structures/Non-Linear Data Structures/Sets.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "596a522c44c9a209",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language Overlap/Shallow Copy and Deep Copy(clone).md",
+                    "mode": "source",
+                    "source": false
                   }
                 }
               }
             ],
-            "currentTab": 8
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -5683,8 +5680,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 319.5,
-        "collapsed": true
+        "width": 319.5
       },
       "right": {
         "id": "eef3a19b1c6d3fd3",
@@ -5700,7 +5696,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Mind Maps/Algo Thought Flow.canvas",
+                    "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -5717,7 +5713,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Mind Maps/Algo Thought Flow.canvas",
+                    "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -5740,7 +5736,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Mind Maps/Algo Thought Flow.canvas"
+                    "file": "Algorithms & Data Structures/Linear  Data Structures/Linear Data Structure Runtime Comparison.md"
                   }
                 }
               },
@@ -5849,8 +5845,48 @@
           "periodic-notes:Open today": false
         }
       },
-      "active": "e4eca5a255f17c5a"
+      "floating": {
+        "id": "fa8da8e30f5fd910",
+        "type": "floating",
+        "children": [
+          {
+            "id": "afac9bd1a9fbec43",
+            "type": "window",
+            "children": [
+              {
+                "id": "44a9c295e6126bde",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "e4eca5a255f17c5a",
+                    "type": "leaf",
+                    "state": {
+                      "type": "canvas",
+                      "state": {
+                        "file": "Mind Maps/Algo Thought Flow.canvas",
+                        "viewState": {
+                          "x": 685.3011850089792,
+                          "y": 111.3340799661689,
+                          "zoom": -1.5999999999999999
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "vertical",
+            "x": 2149,
+            "y": 1183,
+            "width": 1717,
+            "height": 1147,
+            "maximize": true,
+            "zoom": 0
+          }
+        ]
+      },
+      "active": "b865d4f23c4866cd"
     }
   },
-  "active": "cus"
+  "active": "new new"
 }

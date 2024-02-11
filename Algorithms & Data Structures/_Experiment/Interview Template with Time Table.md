@@ -243,11 +243,12 @@ O(1) + O(n) = O(n) worst runtime takes president when adding up runtime 
 
 
 
-| *Complexity*     | Constant | Logarithmic | Linear | Linearithmic | Quadratic | Exponential | Cubic  | Fact      |
-| -------------- | -------- | ----------- | ------ | ------------ | --------- | ----------- | ------ | --------- |
-| ***Notation***       | O(1)     | O(log n)    | O(n)   | O(n log (n)) | O(n^2)    | O(2^n)      | O(n^3) | O(n!)     |
-|                |          | binaySearch |        | sort/search  | nestedLoop| recur       |tripLoop|           |
-|                |          | DivNConquer |        |              |           |             |        |           |
+| *Complexity* | Constant | Logarithmic | Linear | Linearithmic | Quadratic | Exponential | Cubic | Fact |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| ***Notation*** | O(1) | O(log n) | O(n) | O(n log (n)) | O(n^2) | O(2^n) | O(n^3) | O(n!) |
+|  |  | binaySearch |  | sort/search | nestedLoop | recur | tripLoop |  |
+|  |  | DivNConquer |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |  |
  
 ***In System design you would propose high-level design within 10 to 15 min then talk more depth about the system for 10 to 25 minutes or so and wrap up in 3 to 5 minutes  ***
 

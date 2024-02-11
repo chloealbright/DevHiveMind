@@ -6,21 +6,39 @@ tags:
   - postProcessing
 author:
   - jacgit18
-Status: done
+Comments: This documentation discusses the world of sorting algorithms.
+Status: Refinement
 Started: 
-EditDate: 
+EditDate: 2024-02-10
 Relates: "[[Big O]]"
 ---
-![[sortRuntime.png]]
+## Array Sorting Algorithms
 
-```html
-<iframe src="https://www.hackerearth.com/practice/algorithms/sorting/radix-sort/visualize/" allow="fullscreen"style="height: 100%; width: 100%; aspect-ratio: 4 / 3;"></iframe>
-```
+|Algorithm|Time Complexity|   |   |Space Complexity|
+|---|---|---|---|---|
+||Best|Average|Worst|Worst|
+|[Quicksort](http://en.wikipedia.org/wiki/Quicksort)|`Ω(n log(n))`|`Θ(n log(n))`|`O(n^2)`|`O(log(n))`|
+|[Mergesort](http://en.wikipedia.org/wiki/Merge_sort)|`Ω(n log(n))`|`Θ(n log(n))`|`O(n log(n))`|`O(n)`|
+|[Timsort](http://en.wikipedia.org/wiki/Timsort)|`Ω(n)`|`Θ(n log(n))`|`O(n log(n))`|`O(n)`|
+|[Heapsort](http://en.wikipedia.org/wiki/Heapsort)|`Ω(n log(n))`|`Θ(n log(n))`|`O(n log(n))`|`O(1)`|
+|[Bubble Sort](http://en.wikipedia.org/wiki/Bubble_sort)|`Ω(n)`|`Θ(n^2)`|`O(n^2)`|`O(1)`|
+|[Insertion Sort](http://en.wikipedia.org/wiki/Insertion_sort)|`Ω(n)`|`Θ(n^2)`|`O(n^2)`|`O(1)`|
+|[Selection Sort](http://en.wikipedia.org/wiki/Selection_sort)|`Ω(n^2)`|`Θ(n^2)`|`O(n^2)`|`O(1)`|
+|[Tree Sort](https://en.wikipedia.org/wiki/Tree_sort)|`Ω(n log(n))`|`Θ(n log(n))`|`O(n^2)`|`O(n)`|
+|[Shell Sort](http://en.wikipedia.org/wiki/Shellsort)|`Ω(n log(n))`|`Θ(n(log(n))^2)`|`O(n(log(n))^2)`|`O(1)`|
+|[Bucket Sort](http://en.wikipedia.org/wiki/Bucket_sort "Only for integers. k is a number of buckets")|`Ω(n+k)`|`Θ(n+k)`|`O(n^2)`|`O(n)`|
+|[Radix Sort](http://en.wikipedia.org/wiki/Radix_sort "Constant number of digits 'k'")|`Ω(nk)`|`Θ(nk)`|`O(nk)`|`O(n+k)`|
+|[Counting Sort](https://en.wikipedia.org/wiki/Counting_sort "Difference between maximum and minimum number 'k'")|`Ω(n+k)`|`Θ(n+k)`|`O(n+k)`|`O(k)`|
+|[Cubesort](https://en.wikipedia.org/wiki/Cubesort)|`Ω(n)`|`Θ(n log(n))`|`O(n log(n))`|`O(n)`|
+
+
+<body style="margin: 0; overflow: hidden;"> 
+<iframe src="https://www.hackerearth.com/practice/algorithms/sorting/radix-sort/visualize/" style="width: 100%; height: 75vh; border: none;"></iframe> </body>
 
 > [!important] On Interview you may be asked a question more so then actually implement also you can mention that you would use one sort or the other with reason why depending if it is relevant to problem your doing. 
 
 ### In-Place Sorting  
-When sorting is done in place, it means that the original input, such as an array, is modified directly during the sorting process, without creating a new sorted array. This relates to [[Shallow Copy and Deep Copy(clone)]] also examples of this type of sort are Bubble, Insertion, Selection, Heap, and Cyclic Sort.
+When sorting is done in place, it means that the original input, such as an array, is modified directly during the sorting process, without creating a new sorted array. This relates to [[Shallow Copy and Deep Copy(clone)]] also examples of this type of sort are Bubble, Insertion, Selection, Heap, and Cyclic sort.
 
 ### Merge Sort:
 

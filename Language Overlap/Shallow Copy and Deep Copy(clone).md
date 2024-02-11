@@ -8,25 +8,9 @@ EditDate:
 Relates:
 ---
 ![[Shallow and Deep Copy.gif]]
-https://medium.com/@manjuladube/understanding-deep-and-shallow-copy-in-javascript-13438bad941c  
 
-Shallow copy is a bit-wise copy of an object. A new object is created that has an exact copy of the values in the original object. If any of the fields of the object are references to other objects, just the reference addresses are copied i.e., only the memory address is copied. 
 
-let xArray = [1,2,3] 
 
-let yArray = xArray // stores memory ref  
-
-so if push to yArray both arrays will be pushed to  
-
-let zArray = [...yArray , 10] // will be [1,2,3,10] 
-
-yArray would stay  [1,2,3] 
-
-// with object.assign(target, source) 
-
-const tArray = Object .assign( [ ], zArray) // yArray would stay  [1,2,3,10] 
-
-tArray === zArray // returns false different memory ref 
 
 // if they are nested they still share ref 
 

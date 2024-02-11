@@ -86,3 +86,94 @@ These guidelines aim to optimize the effectiveness and efficiency of test cases,
 
 
 These considerations guide the creation of comprehensive test cases, covering normal, extreme, and unconventional scenarios to ensure robust functionality and identify potential edge cases.
+
+
+
+Here's a refined note with a code snippet:
+
+
+
+Shallow copy involves creating a new object with an exact copy of values from the original. If the object contains references to other objects, only the memory addresses are copied.
+
+```javascript
+let xArray = [1, 2, 3];
+let yArray = xArray; // stores memory reference
+
+let zArray = [...yArray, 10]; // results in [1, 2, 3, 10]
+```
+
+**Object.assign(target, source) for Shallow Copy:**
+
+```javascript
+const tArray = Object.assign([], zArray); // creates a new array
+tArray === zArray // returns false different memory reference 
+```
+
+**Nested Objects in Shallow Copy:**
+
+```javascript
+let Jray = [1, 2, 3];
+Jray.push([4, 5, 6]);
+// Results in [1,2,3,[4,5,6] ]  
+
+let vArray = [...Jray];
+vArray[4].push(7);
+```
+
+**Array.from() and slice() for Shallow Copy:**
+
+```javascript
+const shallowCopy = Array.from(Jray);
+```
+
+**Object.freeze() for Shallow Freeze:**
+
+```javascript
+const obj = { "first": 44, "sec": 12, "third": { "a": 1, "b": 2 } };
+Object.freeze(obj);
+obj.third.a = 8; // changes a to 8
+```
+
+**Deep Copy:**
+
+Deep copy involves copying all fields and recursively making copies of referenced objects.
+
+```javascript
+const newScore = JSON.parse(JSON.stringify(Score));
+```
+
+**Custom Deep Clone Function:**
+
+```javascript
+const deepClone = (obj) => {
+    if (typeof obj !== "object" || obj === null) return obj;
+    const newObj = Array.isArray(obj) ? [] : {};
+    for (let key in obj) {
+        const value = obj[key];
+        newObj[key] = deepClone(value);
+    }
+    return newObj;
+};
+
+const newA = deepClone(testArray);
+const objay = deepClone(testObj);
+```
+
+**Function Example with Deep Clone:**
+
+```javascript
+const pure = (array, score = 87, deepClone) => {
+    const newArray = deepClone(array);
+    newArray.push(score);
+    return newArray;
+};
+
+const impure = (array, score = 87) => {
+    array.push(score);
+    return array;
+};
+```
+
+**Conclusion:**
+
+Shallow copies share references, making them susceptible to unintended mutations, while deep copies create independent copies, preventing such issues. Choose the appropriate method based on your needs.

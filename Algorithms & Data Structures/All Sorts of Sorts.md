@@ -13,9 +13,15 @@ Relates: "[[Big O]]"
 ---
 ![[sortRuntime.png]]
 
+```html
 <iframe src="https://www.hackerearth.com/practice/algorithms/sorting/radix-sort/visualize/" allow="fullscreen"style="height: 100%; width: 100%; aspect-ratio: 4 / 3;"></iframe>
+```
 
 > [!important] On Interview you may be asked a question more so then actually implement also you can mention that you would use one sort or the other with reason why depending if it is relevant to problem your doing. 
+
+### In-Place Sorting  
+When sorting is done in place, it means that the original input, such as an array, is modified directly during the sorting process, without creating a new sorted array. This relates to [[Shallow Copy and Deep Copy(clone)]] also examples of this type of sort are Bubble, Insertion, Selection, Heap, and Cyclic Sort.
+
 ### Merge Sort:
 
 [[Merge sort]]is a reliable sorting algorithm that falls under the category of  `divide and conquer `sorts. It is known for its consistent and linear time complexity.
@@ -32,7 +38,7 @@ Quick Sort is particularly efficient for smaller arrays or datasets and has good
 ### Heap Sort
 alternatively you can use [[Heap Sort]] but it is a little slower than quicksort but you don't have to worry about worst-case and it has a better space complexity than merge sort 
 
-### [[Key Base Attributes of  Grokking Algorithm patterns#^b310e2| Cyclic Sort]]
+### [[Key Base Attributes of  Grokking Algorithm patterns#^b310e2 |Cyclic Sort]]
 A sort under grokking algorithms
 
 

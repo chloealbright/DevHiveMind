@@ -22,7 +22,7 @@ lower EXCELLENT runtime + higher WORST runtime = higher WORST runtime</mark>
 Let's delve into how to calculate the runtime of an algorithm, especially when you're dealing with complex algorithms composed of multiple parts with different runtimes. The key principle is that the worst-case runtime dominates and determines the overall complexity.
 
 For instance:
-- If you have part of an algorithm that is O(n)  and another part with O(n log(n)), the overall complexity is O(n log(n)), as it trends  🔼 towards the worst-case runtime.
+- If you have part of an algorithm that is O(n)  and another part with O(n log(n)), the overall complexity is O(n log(n)), as it trends 🔼 towards the worst-case runtime.
 
 In Big O notation, the dominant term is the one that matters most so for example:
 `O(n) + O(n log(n)) = O(n log(n))` 

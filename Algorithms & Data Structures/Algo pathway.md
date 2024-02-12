@@ -31,10 +31,12 @@ It's essential to consider the broader scope of a problem and its impact on the 
 ![[numbers.png]]
 **Numeric values can also be represented with ASCII values
 - For an array of numbers or numbers, consider attributes like:
-  - Natural numbers (positive and zero)
-  - Natural, integer, and rational numbers.
+  - Natural numbers (positive numbers)
+  - Whole numbers (Natural and zero)
+  - Integers (Whole and negative numbers)
+  - Rational numbers (Integers, Decimal, Fractions )
   - Min/Max values, zero, and decimal aspects.
-  - Evaluate range, order, and decimal floor/ceiling.
+  - Evaluate range, partial range, order, and decimal floor/ceiling.
 
 ## Handling String Values
 - For strings or arrays of strings, think about the following attributes:

@@ -17,16 +17,16 @@
 		{"id":"bc13b26f518aa299","type":"file","file":"Algorithms & Data Structures/_Coding Whiteboard/lc2.png","x":-2168,"y":-2808,"width":400,"height":257},
 		{"id":"b87e56d11a150d4e","type":"file","file":"Algorithms & Data Structures/_Coding Whiteboard/lc3nw.png","x":-666,"y":-2454,"width":400,"height":193},
 		{"id":"b488f7f1cb2f78d2","type":"text","text":"<center>\n  <h4 style=\"font-size: 50px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\">Optimal Sorts </h4>\n</center>\n\n","x":-485,"y":-1129,"width":880,"height":150},
-		{"id":"5599748caa5a7cf8","type":"text","text":"<center>\n  <h4 style=\"font-size: 50px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\">Cyclic Sort </h4>\n</center>\n\n","x":515,"y":-1129,"width":480,"height":150},
 		{"id":"38b7ed365001f13c","type":"file","file":"Algorithms & Data Structures/_Coding Whiteboard/lc268.png","x":555,"y":-916,"width":400,"height":291},
 		{"id":"993171a88d1c6138","type":"file","file":"Algorithms & Data Structures/_Coding Whiteboard/mergeSort.png","x":-485,"y":-884,"width":400,"height":259},
 		{"id":"216ae97b8ef097ba","type":"file","file":"Algorithms & Data Structures/_Coding Whiteboard/quicksort.png","x":-5,"y":-862,"width":399,"height":216},
 		{"id":"dae54ad49aa9ec97","type":"file","file":"Algorithms & Data Structures/_Coding Whiteboard/lc448.png","x":555,"y":-528,"width":400,"height":246},
 		{"id":"3f5c84e1e2d80ce6","type":"text","text":"<center>\n  <h4 style=\"font-size: 120px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\">Sort Algorithms </h4>\n</center>\n\n","x":-485,"y":-1569,"width":1480,"height":368,"color":"2"},
 		{"id":"986759463ed39fa2","type":"text","text":"<center>\n  <h4 style=\"font-size: 120px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\">Pointer Manipulation</h4>\n</center>\n\n","x":1200,"y":-1569,"width":1466,"height":368,"color":"3"},
-		{"id":"26c526b16b714c0a","type":"text","text":"\n# [[Key Base Attributes of  Grokking Algorithm patterns#Two Pointer |Two Pointer]] \n\n\n","x":1334,"y":-1077,"width":280,"height":75},
+		{"id":"26c526b16b714c0a","type":"text","text":"\n# [[Key Base Attributes of  Grokking Algorithm patterns#Two Pointer |Two Pointer]] \n\n\n","x":1320,"y":-1077,"width":294,"height":75},
 		{"id":"7875257352e32714","type":"text","text":"# Fast slow is basically a variation of two pointer used for detecting cycles in two pointer","x":1694,"y":-1149,"width":479,"height":294},
-		{"id":"b989aa10916de99d","type":"text","text":"# [[Key Base Attributes of  Grokking Algorithm patterns#Fast & Slow Pointers |Fast Slow Pointer]]","x":2214,"y":-1077,"width":380,"height":75}
+		{"id":"b989aa10916de99d","type":"text","text":"# [[Key Base Attributes of  Grokking Algorithm patterns#Fast & Slow Pointers |Fast Slow Pointer]]","x":2214,"y":-1077,"width":426,"height":75},
+		{"id":"5599748caa5a7cf8","type":"text","text":"# [[Key Base Attributes of  Grokking Algorithm patterns#Cyclic Sort |Cyclic Sort]]","x":593,"y":-1129,"width":325,"height":90}
 	],
 	"edges":[
 		{"id":"87b81ddd507e6712","fromNode":"26c526b16b714c0a","fromSide":"right","toNode":"b989aa10916de99d","toSide":"left"}

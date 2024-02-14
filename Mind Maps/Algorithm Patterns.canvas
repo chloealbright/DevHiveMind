@@ -1,18 +1,14 @@
 {
 	"nodes":[
-		{"id":"40730cb7c8ad45e8","x":-2880,"y":-2080,"width":1992,"height":2920,"type":"group","label":"Search"},
-		{"id":"c46f5531386ed038","type":"group","x":2840,"y":-2080,"width":2107,"height":2016,"label":"Backtracking"},
+		{"id":"c46f5531386ed038","type":"group","x":2960,"y":-2080,"width":2600,"height":2320,"label":"Backtracking"},
+		{"id":"40730cb7c8ad45e8","type":"group","x":-2880,"y":-2080,"width":1992,"height":2920,"label":"Search"},
 		{"id":"af497f0dfb13495a","type":"group","x":1080,"y":-2080,"width":1680,"height":2016,"label":"Pointer"},
-		{"id":"7d3a292e4edef874","x":-640,"y":-2080,"width":1640,"height":2016,"type":"group","label":"Sorting"},
-		{"id":"2e4f2058c518e9cb","x":-200,"y":100,"width":2120,"height":1480,"type":"group","label":"Untitled group"},
+		{"id":"7d3a292e4edef874","type":"group","x":-640,"y":-2080,"width":1640,"height":2016,"label":"Sorting"},
+		{"id":"2e4f2058c518e9cb","type":"group","x":-200,"y":100,"width":2120,"height":1480,"label":"Untitled group"},
 		{"id":"986759463ed39fa2","type":"text","text":"<center>\n  <h4 style=\"font-size: 120px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\">Pointer Manipulation</h4>\n</center>\n\n","x":1200,"y":-1569,"width":1466,"height":368,"color":"3"},
 		{"id":"26c526b16b714c0a","type":"text","text":"\n# [[Key Base Attributes of  Grokking Algorithm patterns#Two Pointer |Two Pointer]] \n\n\n","x":1260,"y":-1077,"width":354,"height":75},
 		{"id":"7875257352e32714","type":"text","text":"# Fast slow is basically a variation of two pointer used for detecting cycles in two pointer","x":1640,"y":-1149,"width":533,"height":309},
 		{"id":"b989aa10916de99d","type":"text","text":"# [[Key Base Attributes of  Grokking Algorithm patterns#Fast & Slow Pointers |Fast Slow Pointer]]","x":2214,"y":-1077,"width":486,"height":75},
-		{"id":"e69057eef2914fe4","type":"text","text":"<center>\n  <h4 style=\"font-size: 120px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\">Backtracking/Subst </h4>\n</center>\n\n","x":2960,"y":-1553,"width":1573,"height":368,"color":"5"},
-		{"id":"e8f5daa45271cd68","type":"text","text":"# [[Key Base Attributes of  Grokking Algorithm patterns#Subsets/Backtracking |Backtracking]]","x":3572,"y":-1119,"width":343,"height":116},
-		{"id":"64266aa511d2f43f","type":"file","file":"Algorithms & Data Structures/_Coding Whiteboard/Backtrack.png","x":3544,"y":-958,"width":399,"height":269},
-		{"id":"e967e089016e94ad","type":"text","text":"#### Function Structure:\n\nThis structure allows you to explore different paths in a matrix or graph, checking right, left, down, and up directions. It keeps track of visited positions and backtracks as needed.\n\n#### Additional Techniques:\n- You can use closure to create a function that takes in a matrix and returns an inner function with parameters for the current row and column values.\n- You can start the traversal from different roots in the matrix depending on your problem requirements.\n- The order of traversal can vary depending on the problem and can be customized to suit your needs.","x":4027,"y":-1023,"width":752,"height":718},
 		{"id":"3f5c84e1e2d80ce6","type":"text","text":"<center>\n  <h4 style=\"font-size: 120px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\">Sort Algorithms </h4>\n</center>\n\n","x":-565,"y":-1569,"width":1480,"height":368,"color":"2"},
 		{"id":"b488f7f1cb2f78d2","type":"text","text":"<center>\n  <h4 style=\"font-size: 50px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\">Optimal Sorts </h4>\n</center>\n\n","x":-565,"y":-1129,"width":880,"height":150},
 		{"id":"993171a88d1c6138","type":"file","file":"Algorithms & Data Structures/_Coding Whiteboard/mergeSort.png","x":-565,"y":-884,"width":400,"height":259},
@@ -35,8 +31,13 @@
 		{"id":"b475b69ad0b48a91","type":"file","file":"Algorithms & Data Structures/_Coding Whiteboard/lc49.png","x":237,"y":1215,"width":399,"height":256},
 		{"id":"b87e56d11a150d4e","type":"file","file":"Algorithms & Data Structures/_Coding Whiteboard/lc3nw.png","x":1418,"y":1246,"width":400,"height":193},
 		{"id":"8168d5c760f807a7","type":"file","file":"Algorithms & Data Structures/_Coding Whiteboard/lc986.png","x":796,"y":1266,"width":400,"height":153},
-		{"id":"e19264637f4761fe","x":1240,"y":-660,"width":451,"height":194,"type":"text","text":"# Add stuff Around Dummy nodes"},
-		{"id":"dcda9c3dcef382a3","x":1907,"y":-699,"width":709,"height":136,"type":"text","text":"# [[Key Base Attributes of  Grokking Algorithm patterns#Reversing a Linked List |Reversing a Linked List]]"}
+		{"id":"e19264637f4761fe","type":"text","text":"# Add stuff Around Dummy nodes","x":1240,"y":-660,"width":451,"height":194},
+		{"id":"dcda9c3dcef382a3","type":"text","text":"# [[Key Base Attributes of  Grokking Algorithm patterns#Reversing a Linked List |Reversing a Linked List]]","x":1907,"y":-699,"width":709,"height":136},
+		{"id":"e69057eef2914fe4","type":"text","text":"<center>\n  <h4 style=\"font-size: 120px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\">Backtracking/Subst </h4>\n</center>\n\n","x":3320,"y":-1553,"width":1573,"height":368,"color":"5"},
+		{"id":"e8f5daa45271cd68","type":"text","text":"# [[Key Base Attributes of  Grokking Algorithm patterns#Subsets/Backtracking |Backtracking]]","x":3932,"y":-1119,"width":343,"height":116},
+		{"id":"e967e089016e94ad","type":"text","text":"#### Function Structure:\n\nThis structure allows you to explore different paths in a matrix or graph, checking right, left, down, and up directions. It keeps track of visited positions and backtracks as needed.\n\n#### Additional Techniques:\n- You can use closure to create a function that takes in a matrix and returns an inner function with parameters for the current row and column values.\n- You can start the traversal from different roots in the matrix depending on your problem requirements.\n- The order of traversal can vary depending on the problem and can be customized to suit your needs.","x":4387,"y":-1023,"width":752,"height":718},
+		{"id":"64266aa511d2f43f","type":"file","file":"Algorithms & Data Structures/_Coding Whiteboard/Backtrack.png","x":3932,"y":-954,"width":399,"height":269},
+		{"id":"26831e9333011dd0","type":"text","text":"The reason why **\"Access\"** should be included, even though it's a subset of **\"Reads\"**, lies in the nuanced requirements of certain problems. While performing tasks like searching or implementing conditional logic, you may indeed engage in **\"Access\"** operations. However, when addressing traversal-related challenges, a full traversal of a specific data structure or path might not always be necessary. In scenarios like backtracking problems, you might find that performing a sub-action like **\"Access\"** suffices. For instance, consider a problem where you need to traverse a matrix in a **spiral** manner. In such cases, you're primarily accessing adjacent elements without necessarily reading the entire matrix. Therefore, including **\"Access\"** as a separate category of actions ensures comprehensive coverage when analyzing and solving problems. 🌀🔍","x":3225,"y":-631,"width":575,"height":831}
 	],
 	"edges":[
 		{"id":"87b81ddd507e6712","fromNode":"26c526b16b714c0a","fromSide":"right","toNode":"b989aa10916de99d","toSide":"left"}

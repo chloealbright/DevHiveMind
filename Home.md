@@ -11,6 +11,9 @@ banner_x: 0.5
 
 <button onclick="window.location.href='obsidian://open?vault=DevBrain&page=%5B%5B_Architecture%20Dashboard%5D%5D'">Architecture Dashboard</button>
 
+[Architecture Dashboard](#)
+
+
 [[_Architecture Dashboard]]
 
 # Vault Info

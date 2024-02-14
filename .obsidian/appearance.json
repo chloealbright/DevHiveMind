@@ -1,7 +1,7 @@
 {
   "accentColor": "",
   "cssTheme": "Royal Velvet",
-  "baseFontSize": 19,
+  "baseFontSize": 21,
   "enabledCssSnippets": [
     "dashboard",
     "dashboard-ReadLineLength",

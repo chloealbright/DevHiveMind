@@ -29,4 +29,4 @@ Certainly! Debugging regular expressions can be tricky, but there are some helpf
     - Use `RegExp.prototype.test()` if you only care about whether the regex matches a string (without capturing groups).
     - [For finding all occurrences of a global regex, use `String.prototype.match()` (again, without capturing groups)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec)[3](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec).
 
-Remember that testing your regex thoroughly with various input cases is crucial. It will help clarify your intentions and make debugging easier. Happy regex hunting! 🧵🔍
+Remember that testing your regex thoroughly with various input cases is crucial. It will help clarify your intentions and make debugging easier. Happy regex hunting! 

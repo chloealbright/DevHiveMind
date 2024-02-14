@@ -26,7 +26,8 @@
 		{"id":"b87e56d11a150d4e","type":"file","file":"Algorithms & Data Structures/_Coding Whiteboard/lc3nw.png","x":-666,"y":-2454,"width":400,"height":193},
 		{"id":"986759463ed39fa2","type":"text","text":"<center>\n  <h4 style=\"font-size: 120px; -webkit-text-stroke: 1px green; -webkit-text-fill-color: transparent;\">Pointer Manipulation</h4>\n</center>\n\n","x":-200,"y":-1600,"width":1466,"height":368,"color":"2"},
 		{"id":"26c526b16b714c0a","type":"text","text":"\n# [[Key Base Attributes of  Grokking Algorithm patterns#Two Pointer |Two Pointer]] \n\n\n","x":-120,"y":-1129,"width":280,"height":75},
-		{"id":"b989aa10916de99d","type":"text","text":"# [[Key Base Attributes of  Grokking Algorithm patterns#Fast & Slow Pointers |Fast Slow Pointer]]","x":760,"y":-1129,"width":380,"height":75}
+		{"id":"b989aa10916de99d","type":"text","text":"# [[Key Base Attributes of  Grokking Algorithm patterns#Fast & Slow Pointers |Fast Slow Pointer]]","x":760,"y":-1129,"width":380,"height":75},
+		{"id":"7875257352e32714","x":240,"y":-1201,"width":479,"height":294,"type":"text","text":"# Fast slow is basically a variation of two pointer used for detecting cycles in two pointer"}
 	],
 	"edges":[
 		{"id":"87b81ddd507e6712","fromNode":"26c526b16b714c0a","fromSide":"right","toNode":"b989aa10916de99d","toSide":"left"}

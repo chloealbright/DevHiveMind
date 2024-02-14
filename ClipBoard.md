@@ -1,4 +1,5 @@
-Patterns play a crucial role in problem-solving. Understanding when to apply a specific pattern is essential. However, real-world scenarios can be tricky. Here are a few considerations:
+Patterns play a crucial role in problem-solving. Understanding when to apply a specific pattern is essential. However, real-world scenarios can be tricky. Our brains are wired to seek efficiency. When faced with a problem, we instinctively look for the path of perceived least resistance.
+Sometimes, this leads us to consider brute-force approaches because you lack familiarity with specific patterns or algorithms. Here are a few considerations:
 
 1. **Pattern Application vs. Implementation Difficulty**:
     
@@ -14,15 +15,14 @@ Patterns play a crucial role in problem-solving. Understanding when to apply a s
     
     - Identifying when a chosen path isn’t viable is crucial. Sometimes, persistence on a specific approach leads to dead ends.
     - Knowing when to pivot—switching strategies or exploring alternative approaches—is a valuable skill. It prevents getting stuck and opens up new possibilities.
+
 4. **Awareness of Alternatives**:
-    
     - Lack of awareness about alternative approaches can limit problem-solving. Exploring different methods broadens your toolkit.
     - Stay curious and learn from others’ solutions to expand your repertoire.
 
-**5. Curiosity and Awareness:**
-
-- Stay curious. Learn from others’ solutions, read about different algorithms, and expand your toolkit.
-- Being aware of alternative approaches opens doors to creative problem-solving.
-
+5. **Technical Interview Tip**:
+    - During technical interviews, time is precious. You’re juggling problem-solving, coding, and communication.
+    - **Ask the Interviewer**: Before diving into an approach, inquire if they think a pattern applies. This prevents premature commitment and allows you to pivot if needed.
+    - Interviews are conversations. It’s okay to seek clarification or discuss your thought process.
 
 Remember, problem-solving is both an art and a science. Embrace challenges, iterate, and keep learning! 🚀🔍🌟

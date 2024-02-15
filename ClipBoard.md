@@ -2,7 +2,6 @@ Patterns play a crucial role in problem-solving. Understanding when to apply a s
 Sometimes, this leads us to consider brute-force approaches because you lack familiarity with specific patterns or algorithms. Here are a few considerations:
 
 1. **Pattern Application vs. Implementation Difficulty**:
-    
     - Sometimes, even if you recognize a pattern, implementing it can be challenging. You might encounter problems where the straightforward approach (outside the pattern) is more feasible due to perceived complexities in applying the pattern.
     - Balancing pattern knowledge with practical implementation skills is key.
 2. **English Problem Breakdown vs. Syntax Implementation**:

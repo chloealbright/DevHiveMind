@@ -51,8 +51,8 @@
 		{"id":"d48c234c57a6a567","x":3712,"y":1214,"width":788,"height":586,"type":"text","text":"![[Key Base Attributes of  Grokking Algorithm patterns#Top K Elements]]"},
 		{"id":"241d1f208b414dee","x":7820,"y":1600,"width":900,"height":447,"type":"text","text":"![[Key Base Attributes of  Grokking Algorithm patterns#K-Way Merge]]"},
 		{"id":"8a695e44195c85af","x":126,"y":20,"width":714,"height":498,"type":"text","text":"## Problem Statement phrasing used to Identify potential pattern"},
-		{"id":"79167be838ed283c","x":-336,"y":-478,"width":416,"height":158,"type":"text","text":"## Add something for topological sort which is specifically for graphs"},
-		{"id":"3afcf0a83a0845e5","x":-1397,"y":-19,"width":250,"height":60,"type":"text","text":"Add DFS and"}
+		{"id":"3afcf0a83a0845e5","x":-1397,"y":-160,"width":377,"height":201,"type":"text","text":"# Add DFS and BFS for tree and graphs"},
+		{"id":"79167be838ed283c","x":-373,"y":-528,"width":416,"height":300,"type":"text","text":"## Add something for topological sort which is specifically for graphs"}
 	],
 	"edges":[
 		{"id":"87b81ddd507e6712","fromNode":"26c526b16b714c0a","fromSide":"right","toNode":"b989aa10916de99d","toSide":"left"}

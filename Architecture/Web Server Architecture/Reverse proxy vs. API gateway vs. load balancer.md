@@ -5,7 +5,7 @@ author:
 Status: Capture
 Started: 
 EditDate: 
-Relates:
+Relates: "[[Proxy]]"
 ---
 ![[Proxy v Gateway v Balancer .jpeg]]
 

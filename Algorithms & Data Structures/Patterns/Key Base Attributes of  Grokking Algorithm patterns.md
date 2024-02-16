@@ -357,6 +357,141 @@ Bitwise XOR is a fundamental operation in binary arithmetic, offering a versatil
 Top K Elements is a versatile technique that is frequently applied in computer science and data analysis to identify and retrieve the K largest or smallest elements from a collection, allowing for efficient data processing and problem-solving.
 
 
+## Dynamic Programming
+
+- **Definition:** Dynamic Programming is a method for solving complex problems by breaking them down into simpler, overlapping subproblems and solving each subproblem only once, storing the results to avoid redundant computations.
+
+- **Key Elements:**
+  - **Optimal Substructure:**
+    - The problem can be broken down into smaller, simpler subproblems, and the solution to the overall problem can be constructed from optimal solutions to its subproblems.
+  - **Overlapping Subproblems:**
+    - Subproblems recur several times, and solutions to these subproblems are reused instead of recomputed.
+  - **Memoization or Tabulation:**
+    - Techniques to store and reuse solutions to subproblems, avoiding redundant calculations.
+  - **Recursive Formulation:**
+    - Often problems can be expressed recursively, solving for smaller instances and combining them for the overall solution.
+
+- **Potential Problem Goals:**
+  - Optimize time and space complexity by avoiding redundant computations.
+  - Achieve efficient solutions for problems with optimal substructure and overlapping subproblems.
+
+- **Use Cases:**
+  - **Fibonacci Sequence:**
+    - Calculate Fibonacci numbers efficiently using memoization or tabulation.
+  - **Shortest Path Problems:**
+    - Find the shortest path in a graph or grid using dynamic programming techniques.
+  - **Longest Common Subsequence:**
+    - Determine the longest common subsequence between two sequences.
+  - **Knapsack Problem:**
+    - Optimize the selection of items to maximize or minimize a value while staying within a given limit.
+
+- **Hints:**
+  - Recognize problems that exhibit optimal substructure and overlapping subproblems.
+  - Break down the problem into smaller, solvable subproblems.
+  - Consider memoization (top-down) or tabulation (bottom-up) based on the problem requirements.
+
+- **Example:**
+  - Solving the Fibonacci sequence efficiently using dynamic programming involves storing and reusing solutions to subproblems, reducing the overall time complexity.
+
+- **Comparison with Greedy or Divide and Conquer:**
+  - Dynamic programming differs from greedy algorithms and divide-and-conquer strategies by solving each subproblem only once and storing the results for future use.
+
+Understanding dynamic programming is crucial for tackling complex optimization problems efficiently. It provides a systematic approach to problem-solving by breaking down intricate problems into manageable subproblems and avoiding redundant computations through memoization or tabulation.
+
+
+## Knapsack Problem
+
+- **Definition:** The Knapsack Problem is a classic optimization problem where the goal is to select a subset of items with maximum value or minimum cost, considering the constraint of a limited capacity.
+
+- **Key Elements:**
+  - **Items:**
+    - A set of items, each with a specific weight and value.
+  - **Capacity:**
+    - The maximum weight or size that the knapsack can hold.
+  - **Objective:**
+    - Maximize the total value of selected items or minimize the total cost while staying within the capacity.
+
+- **Types of Knapsack Problems:**
+  - **0/1 Knapsack:**
+    - Each item can either be selected or rejected, not partially.
+  - **Fractional Knapsack:**
+    - Items can be broken into fractions, and a fraction of an item can be selected.
+  - **Multiple Knapsack:**
+    - Multiple knapsacks with different capacities, and items need to be distributed among them optimally.
+
+- **Potential Problem Goals:**
+  - Optimize the selection of items to maximize total value or minimize total cost within the given capacity.
+  - Implement efficient algorithms to solve different variations of the Knapsack Problem.
+
+- **Use Cases:**
+  - **Resource Allocation:**
+    - Allocating limited resources (like time, budget, or space) to maximize value.
+  - **Inventory Management:**
+    - Selecting items for sale to maximize profit within storage constraints.
+
+- **Hints:**
+  - Recognize the problem as a Knapsack Problem based on the presence of items, weights, values, and capacity constraints.
+  - Consider dynamic programming, greedy algorithms, or other optimization techniques depending on the problem type.
+
+- **Example:**
+  - Solving the 0/1 Knapsack Problem involves choosing items to maximize total value while not exceeding the knapsack's weight capacity.
+
+- **Comparison with Other Problems:**
+  - Different from dynamic programming problems where solutions to subproblems are reused; in Knapsack, each item is either selected or rejected, leading to overlapping subproblems.
+
+The Knapsack Problem is a fundamental optimization challenge with various real-world applications. Understanding its variations and choosing the appropriate algorithm is crucial for solving resource allocation problems efficiently.
+
+## Topological Sort
+
+- **Definition:** Topological Sort is an ordering of the vertices of a directed acyclic graph (DAG) such that for every directed edge (u, v), vertex u comes before vertex v in the ordering.
+
+- **Key Elements:**
+  - **Directed Acyclic Graph (DAG):**
+    - A graph with directed edges and no cycles.
+  - **Ordering:**
+    - Arranging vertices in a linear order based on dependencies.
+  - **Indegree and Outdegree:**
+    - Indegree represents the number of incoming edges to a vertex, and outdegree represents the number of outgoing edges.
+  - **Valid Topological Sort:**
+    - The ordering must be valid, satisfying the dependencies of the graph.
+
+- **Potential Problem Goals:**
+  - Find a valid topological ordering for a given directed acyclic graph.
+  - Identify dependencies and the order of execution for tasks or events.
+
+- **Use Cases:**
+  - **Course Prerequisites:**
+    - Determining the order in which courses must be taken based on prerequisites.
+  - **Task Scheduling:**
+    - Establishing a sequence for executing tasks with dependencies.
+  - **Compiler Dependency Resolution:**
+    - Resolving dependencies in compiling code with multiple source files.
+
+- **Hints:**
+  - Recognize the problem as involving a directed acyclic graph (DAG).
+  - Utilize indegree and outdegree information to identify the correct topological ordering.
+  - Employ depth-first search (DFS) or breadth-first search (BFS) algorithms to find the ordering.
+
+- **Algorithm Overview:**
+  - **Step 1:**
+    - Identify vertices with an indegree of 0; these are the potential starting points.
+  - **Step 2:**
+    - Remove the chosen vertex (with indegree 0) and its outgoing edges.
+  - **Step 3:**
+    - Update indegrees of remaining vertices.
+  - **Step 4:**
+    - Repeat Steps 1-3 until all vertices are included in the ordering.
+
+- **Example:**
+  - In a course prerequisite graph, a topological sort reveals the order in which courses should be taken to meet prerequisites.
+
+- **Comparison with Other Graph Algorithms:**
+  - Distinct from cyclic graphs, where no valid topological ordering exists.
+  - Unlike depth-first search (DFS), topological sort focuses on the linear ordering of vertices rather than exploration.
+
+Understanding topological sort is crucial for tasks involving dependencies and ordering, making it a fundamental tool in various domains such as project management, course planning, and compiler design.
+
+
 ## Working with Strings:
 - For common string operations, consider using maps or tries.
 

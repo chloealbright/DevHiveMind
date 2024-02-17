@@ -2,7 +2,7 @@
 tags:
   - Develop
   - Domain
-  - OO
+  - OOP
 author:
   - jacgit18
 Status: Refinement

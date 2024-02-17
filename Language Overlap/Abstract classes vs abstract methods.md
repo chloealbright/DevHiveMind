@@ -1,6 +1,6 @@
 ---
 tags:
-  - OO
+  - OOP
 author:
   - jacgit18
 Status: Refinement

@@ -4,11 +4,11 @@ tags:
   - dev
 author:
   - jacgit18
+Comments: This documentation discusses
 Status: Capture
 Started: 2023-12-12
 EditDate: 
 Relates: "[[Construction Industry and Data Dynamics]]"
-Comments:
 ---
 ## Tracflo Hypothetical Business Requirements Thoughts Experiment
 

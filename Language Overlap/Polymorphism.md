@@ -3,7 +3,7 @@ tags:
   - CodebaseDecision
   - MacroCodebaseDecision
   - MicroCodebaseDecision
-  - OO
+  - OOP
 author:
   - jacgit18
 Status: Refinement

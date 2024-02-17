@@ -1,11 +1,13 @@
 ---
-tags: 
+tags:
+  - OOP
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses use of closure and composition.
+Status: Done
 Started: 
-EditDate: 
-Relates:
+EditDate: 2024-02-17
+Relates: "[[Fundamentals of Object-Oriented Concepts#Composition over Inheritance Composition Example Composition |Composition]]"
 ---
 Decorators or wrappers, often implemented using closure and composition, are a mechanism for encapsulating and enhancing functions in a software context. Essentially, decorators "decorate" or wrap one piece of code with another, a concept synonymous with functional composition or higher-order functions.
 
@@ -22,9 +24,9 @@ let rectangleArea = (length, width) => {
 // A decorator that counts the parameters
 const countParams = (fn) => {
     return (...params) => {
-        console.log('countParams');
-        if (params.length !== fn.length) {
-            throw new Error(`Incorrect number of parameters for ${fn.name}`);
+    console.log('countParams');
+    if (params.length !== fn.length) {
+        throw new Error(`Incorrect number of parameters for ${fn.name}`);
         }
         return fn(...params);
     }
@@ -56,3 +58,5 @@ console.log(rectangleArea(20, 30)); // No error
 ```
 
 In this example, the decorators enhance the `rectangleArea` function by checking the number and type of parameters, showcasing the power of closure and composition in modifying and extending functionality.
+
+**composition** in this context refers to combining two or more functions to create a new one. This involves taking the output of one function and using it as the input for another.

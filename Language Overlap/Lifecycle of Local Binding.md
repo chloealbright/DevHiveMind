@@ -1,12 +1,16 @@
 ---
-tags: 
+tags:
+  - bindings
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses lifecycle of local bindings.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-17
 Relates:
 ---
+Local binding refers to the association of a variable with a value within a specific scope, typically limited to a certain part of a program or function. The variable's existence and value are confined to that particular area, and it doesn't affect variables with the same name in other parts of the program. This helps in organizing and managing data within different sections of code without causing conflicts.
+
 The ability to treat functions as values, combined with the fact that local bindings are re-created every time a function is called, brings up an interesting question. What happens to local bindings when the function call that created them is no longer active? 
 
 The following code shows an example of this. It defines a function, wrapValue, that creates a local binding. It then returns a function that accesses and returns this local binding. 
@@ -77,3 +81,7 @@ jane().finaltermScore(); // B+
 
 
 
+## Binding Overall
+The concept of local bindings is a programming language feature that can be found in various languages, not exclusive to #JavaScript. Many programming languages, especially those that support functions as first-class citizens or have lexical scoping, exhibit similar behavior with local bindings.
+
+Languages like #python, #ruby, and many functional programming languages share this characteristic. The specifics of scoping rules and the handling of local bindings may vary across languages, but the general idea of local bindings being created and maintained during function execution is a common concept in programming language design.

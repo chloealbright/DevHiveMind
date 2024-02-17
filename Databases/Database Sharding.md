@@ -9,9 +9,9 @@ tags:
 author:
   - jacgit18
 Comments: This documentation discusses Database Sharding.
-Status: Refinement
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-17
 Relates:
 ---
 ![[Database Sharding.jpeg]]

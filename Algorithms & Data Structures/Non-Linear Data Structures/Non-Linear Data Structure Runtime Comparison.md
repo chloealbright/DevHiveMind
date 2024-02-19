@@ -20,7 +20,7 @@ Relates:
 
 
 **Search:**
-- Set: Worst: O(n), Average: O(1) for `has()` or iterating through objects.
+- Set: Worst: O(n), Average: O(1) for `has()` or iterating through objects. ^03b8d8
 
 
 **Delete(Delete/Update):**
@@ -37,7 +37,7 @@ Relates:
 
 **Search:**
 - Hash-table: Worst: O(n), Average: O(1) for iterating through objects
-- HashMap: Worst: O(n), Average: O(1) for `get()` or `has()` methods which searches through object main difference is `get()`returns value vs `has()` return boolean
+- HashMap: Worst: O(n), Average: O(1) for `get()` or `has()` methods which searches through object main difference is `get()`returns value vs `has()` return boolean ^0b11f5
 
 **Delete(Delete/Update):**
 - Hash-table: Worst: O(n), Average: O(1) for `remove()`

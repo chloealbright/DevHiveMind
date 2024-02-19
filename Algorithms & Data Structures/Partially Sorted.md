@@ -12,6 +12,7 @@ A partially sorted array is not necessarily considered only a rotated array; the
   
 1. **Rotated Array:**  
 - Elements are shifted circularly. For example, `[3, 4, 5, 1, 2]` is a rotated version of `[1, 2, 3, 4, 5]`.  
+- Probably only one were Binary search can be applied were you want to get lowest value at the beginning to access it.  
   
 2. **Nearly Sorted Array:**  
 - Elements are mostly in sorted order, but a few elements are out of place. This can happen, for instance, when a small number of elements are swapped.  

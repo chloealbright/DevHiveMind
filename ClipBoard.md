@@ -33,6 +33,31 @@ console.log(isWellFormed("([)]")); // Output: false
 console.log(isWellFormed("{[]}")); // Output: true
 ```
 
+Alt
+```javascript
+// Creating a bracket map using Map
+const bracketMap = new Map([
+  ['(', ')'],
+  ['[', ']'],
+  ['{', '}'],
+  // Add more brackets as needed
+]);
+
+// Example usage for matching brackets
+function isBracketMatch(str) {
+  const stack = [];
+  for (const char of str) {
+    if (bracketMap.has(char)) {
+      stack.push(char);
+    } else if (bracketMap.values().includes(char) && bracketMap.get(stack.pop()) !== char) {
+      return false;
+    }
+  }
+  return stack.length === 0;
+}
+```
+
+
 This function takes a string `expression` as input and checks if the parentheses or brackets in the expression are well-formed. It uses a stack to keep track of opening symbols and pops from the stack when encountering closing symbols, ensuring proper nesting.
 
 

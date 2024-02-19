@@ -6,14 +6,12 @@ Sometimes, this leads us to consider brute-force approaches because you lack fam
     - Balancing pattern knowledge with practical implementation skills is key.
     
 2. **English Problem Breakdown vs. Syntax Implementation**:
-    
     - While coding, you often switch between two mental modes:
         - **English Mode**: Breaking down the problem conceptually, discussing it in English, and understanding the high-level process.
         - **Syntax Mode**: Figuring out the actual implementation details, considering syntax, data structures, and algorithms.
     - Bridging this gap can be tricky, especially for beginners.
     
 3. **Navigating Viability and Pivoting**:
-    
     - Identifying when a chosen path isn’t viable is crucial. Sometimes, persistence on a specific approach leads to dead ends.
     - Knowing when to pivot—switching strategies or exploring alternative approaches—is a valuable skill. It prevents getting stuck and opens up new possibilities.
 
@@ -26,4 +24,4 @@ Sometimes, this leads us to consider brute-force approaches because you lack fam
     - **Ask the Interviewer**: Before diving into an approach, inquire if they think a pattern applies. This prevents premature commitment and allows you to pivot if needed.
     - Interviews are conversations. It’s okay to seek clarification or discuss your thought process.
 
-Remember, problem-solving is both an art and a science. Embrace challenges, iterate, and keep learning! 🚀🔍🌟
+

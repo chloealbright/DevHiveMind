@@ -24,7 +24,7 @@
 		{"id":"ca62e46b96c8640f","type":"text","text":"## Strings","x":-303,"y":1460,"width":211,"height":53},
 		{"id":"d7df8a358d5c2c76","type":"text","text":"## Array  ","x":-303,"y":580,"width":170,"height":53},
 		{"id":"80aa24801bd6f049","type":"text","text":"Bigger range of values","x":-544,"y":-231,"width":250,"height":71},
-		{"id":"da447d8b515a18d3","type":"text","text":"Unicode","x":-447,"y":-300,"width":144,"height":60,"color":"6"},
+		{"id":"da447d8b515a18d3","type":"text","text":"Unicode","x":-460,"y":-300,"width":157,"height":60,"color":"6"},
 		{"id":"861854468e552a3b","type":"text","text":"Ascii","x":-94,"y":-300,"width":130,"height":60,"color":"6"},
 		{"id":"d2f1a8a1ed3d9acb","type":"text","text":"## Numbers","x":-303,"y":-480,"width":209,"height":53},
 		{"id":"5b67aab17a85a0fc","type":"text","text":"Can Decreased ","x":-467,"y":-661,"width":250,"height":60},
@@ -71,7 +71,8 @@
 		{"id":"1dddbf541fbab3f7","type":"text","text":"## Linked List","x":3700,"y":-1605,"width":289,"height":60},
 		{"id":"d8efb2641269bdc5","x":3700,"y":-1475,"width":250,"height":60,"type":"text","text":"## Tree"},
 		{"id":"cf17e6079bfd71ed","x":3700,"y":-1320,"width":250,"height":60,"type":"text","text":"## Graph"},
-		{"id":"efc4e4d2feb486df","type":"text","text":"# Non DS Built in Functions","x":1882,"y":-270,"width":820,"height":60}
+		{"id":"efc4e4d2feb486df","type":"text","text":"# Non DS Built in Functions","x":3415,"y":-310,"width":820,"height":60},
+		{"id":"0daf4dc22e491943","x":1953,"y":-400,"width":269,"height":67,"type":"text","text":"[[Algorithm Most Common Built in Functions#Absolute value |Absolute value]]"}
 	],
 	"edges":[
 		{"id":"96d016acd65b0fff","fromNode":"ca62e46b96c8640f","fromSide":"right","toNode":"fd325d709a909001","toSide":"left","color":"2"},
@@ -130,6 +131,7 @@
 		{"id":"0869f7a9c5122a92","fromNode":"d8efb2641269bdc5","fromSide":"right","toNode":"0676564d217769e0","toSide":"left"},
 		{"id":"88ac94afecbc8b25","fromNode":"d8efb2641269bdc5","fromSide":"right","toNode":"cfdda6a33108ebd3","toSide":"left"},
 		{"id":"d999c8155884996f","fromNode":"cf17e6079bfd71ed","fromSide":"right","toNode":"ba278a9ba0cac62b","toSide":"left"},
-		{"id":"c44b0ea22bb58d23","fromNode":"cf17e6079bfd71ed","fromSide":"right","toNode":"f81ef82171007f38","toSide":"left"}
+		{"id":"c44b0ea22bb58d23","fromNode":"cf17e6079bfd71ed","fromSide":"right","toNode":"f81ef82171007f38","toSide":"left"},
+		{"id":"0565a2baadf2b15d","fromNode":"eaa0306b2db490a2","fromSide":"right","toNode":"0daf4dc22e491943","toSide":"left","label":"Math"}
 	]
 }

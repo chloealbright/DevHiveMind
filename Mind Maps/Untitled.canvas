@@ -19,7 +19,6 @@
 		{"id":"89bca0c24d5f520d","type":"text","text":"### Linear","x":2723,"y":-1110,"width":250,"height":60},
 		{"id":"dbc7edeccaf8bc9f","type":"text","text":"Ob         UN\n-1   0 1    2","x":3985,"y":-947,"width":250,"height":60},
 		{"id":"239591fa02eeff5c","type":"text","text":"  ```javascript\n  const length = array.length;\n  const middle = Math.floor(length / 2);\n  const left = array.slice(0, middle);\n  const right = array.slice(middle);\n  ```\n","x":3924,"y":-784,"width":677,"height":179},
-		{"id":"21f6875ca85f7d23","type":"text","text":"array.Length\narray.Length - 1","x":3790,"y":-151,"width":320,"height":151},
 		{"id":"fb939de4f80d9504","type":"text","text":"## Object","x":-377,"y":1773,"width":250,"height":60},
 		{"id":"92a80e00194e903e","type":"text","text":"### Some Data Structure with these values  ","x":-386,"y":1893,"width":439,"height":160},
 		{"id":"80aa24801bd6f049","type":"text","text":"Bigger range of values","x":-544,"y":-231,"width":250,"height":71},
@@ -64,9 +63,9 @@
 		{"id":"cae3a9b501113eeb","type":"text","text":"## **_Imperative_**","x":2222,"y":-1200,"width":313,"height":60},
 		{"id":"3499ff7e5bb5953c","type":"text","text":"## **_Declarative_**","x":2222,"y":-1007,"width":313,"height":60},
 		{"id":"be4c5cd104aa1388","type":"file","file":"Algorithms & Data Structures/_Infographic/2D Array.png","x":2874,"y":-571,"width":400,"height":287},
-		{"id":"fd15648b4bbdd10a","type":"text","text":"\n\n| -1 |  | +1 |  |  |  |  |  |\n| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |\n| **-1** | 0 | 1 | 2 | 3 | *4* |  |  |\n| OB | 1 | 2 | 3 | 4 | UN |  |  |\n\n\n","x":2940,"y":-151,"width":740,"height":151},
 		{"id":"5821d09cadc7d49f","x":3360,"y":-627,"width":172,"height":400,"type":"file","file":"_NoteAssets/Images To Move/Stack.png"},
-		{"id":"7a53bfbf82b1e9fa","x":3620,"y":-488,"width":400,"height":121,"type":"file","file":"_NoteAssets/Images To Move/1D Array.png"}
+		{"id":"7a53bfbf82b1e9fa","x":2963,"y":-196,"width":400,"height":121,"type":"file","file":"_NoteAssets/Images To Move/1D Array.png"},
+		{"id":"21f6875ca85f7d23","type":"text","text":"array.Length\narray.Length - 1","x":3003,"y":-40,"width":320,"height":151}
 	],
 	"edges":[
 		{"id":"96d016acd65b0fff","fromNode":"ca62e46b96c8640f","fromSide":"right","toNode":"fd325d709a909001","toSide":"left","color":"2"},

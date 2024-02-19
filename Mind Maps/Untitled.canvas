@@ -64,7 +64,9 @@
 		{"id":"cae3a9b501113eeb","type":"text","text":"## **_Imperative_**","x":2222,"y":-1200,"width":313,"height":60},
 		{"id":"3499ff7e5bb5953c","type":"text","text":"## **_Declarative_**","x":2222,"y":-1007,"width":313,"height":60},
 		{"id":"be4c5cd104aa1388","type":"file","file":"Algorithms & Data Structures/_Infographic/2D Array.png","x":2874,"y":-571,"width":400,"height":287},
-		{"id":"84a4b518627128b0","type":"text","text":"\n\n| ***Push***/*Pop* |\n| ---- |\n| **1** |\n| 3 |\n| 2 |\n","x":3343,"y":-571,"width":195,"height":320}
+		{"id":"fd15648b4bbdd10a","type":"text","text":"\n\n| -1 |  | +1 |  |  |  |  |  |\n| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |\n| **-1** | 0 | 1 | 2 | 3 | *4* |  |  |\n| OB | 1 | 2 | 3 | 4 | UN |  |  |\n\n\n","x":2940,"y":-151,"width":740,"height":151},
+		{"id":"5821d09cadc7d49f","x":3360,"y":-627,"width":172,"height":400,"type":"file","file":"_NoteAssets/Images To Move/Stack.png"},
+		{"id":"7a53bfbf82b1e9fa","x":3620,"y":-488,"width":400,"height":121,"type":"file","file":"_NoteAssets/Images To Move/1D Array.png"}
 	],
 	"edges":[
 		{"id":"96d016acd65b0fff","fromNode":"ca62e46b96c8640f","fromSide":"right","toNode":"fd325d709a909001","toSide":"left","color":"2"},

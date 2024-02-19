@@ -14,17 +14,11 @@ Relates:
 ```javascript
 Math.abs(-1) = 1 
 ```
-### Round up
+### Rounding Numbers
 ```javascript
-Math.ceil(5.95) = 6 
-```
-### Round Down
-```javascript
-Math.floor(5.95) = 5 
-```
-### Round To Closest
-```javascript
-Math.round(5.95) = 6
+Math.ceil(5.95) = 6 // Up
+Math.floor(5.95) = 5 // Down
+Math.round(5.95) = 6 // Closest 
 ```
 
 ### Power
@@ -33,19 +27,24 @@ Math.pow(2,3) = 2^3 = 8 
 ```
 
 ### Square Root 
+returns base of the exponent passed 
 ```javascript
 Math.sqrt(25) = 5 
 ```
 
-
-
+### Cube Root 
+returns base of the exponent passed 
 ```javascript
-Math.cbrt(5) = returns base of the exponent passed which is 1.709975946676697 and exponent is always 3 so 1.709975946676697^3 = 5 always returns odd also happens to be a decimal if bigger it would return whole number 
-
+Math.cbrt(64) = 4^3 = 4 
+```
+### Max
+```javascript
 Math.max(value0...valueN) = max value 
+```
 
-let min = Infinity                                                                                               
-
+### Min
+```javascript
+let min = Infinity                        
 Math.min(min...valueN) = min value  
 ```
 

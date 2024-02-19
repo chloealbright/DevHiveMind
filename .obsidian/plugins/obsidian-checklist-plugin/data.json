@@ -61,15 +61,16 @@
     "#todo/low/shopping",
     "#todo/low/people",
     "#todo/med/gen",
-    "#todo/high/dev/codingchallenge",
-    "#todo/med/dev/codingchallenge",
     "#todo/low/dev/codingchallenge",
     "#todo/low/dev",
-    "#todo/med/dev",
     "#todo/read/interview",
     "#todo/perpetual",
     "#todo/low/research",
-    "#todo/high/dev"
+    "#todo/high/research",
+    "#todo/high/dev",
+    "#todo/high/dev/codingchallenge",
+    "#todo/med/dev/codingchallenge",
+    "#todo/med/dev"
   ],
   "_hiddenTags": []
 }

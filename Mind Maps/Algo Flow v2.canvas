@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"6aafc9b8ff9e7da6","type":"group","x":2400,"y":960,"width":2520,"height":1748,"label":"Search"},
-		{"id":"96e0f61d45cf77af","x":2760,"y":-920,"width":1440,"height":1545,"type":"group","label":"Sort"},
+		{"id":"96e0f61d45cf77af","x":2760,"y":-920,"width":2680,"height":1545,"type":"group","label":"Sort"},
 		{"id":"e647f2a1870e97e1","type":"group","x":760,"y":-720,"width":760,"height":781,"label":"Num Attributes"},
 		{"id":"8ed5a70a45fca99c","type":"group","x":760,"y":1120,"width":543,"height":950,"label":"String  Attributes"},
 		{"id":"d0c92a99295ec595","type":"text","text":"### Missing Values in Range","x":290,"y":200,"width":543,"height":60},
@@ -80,11 +80,14 @@
 		{"id":"6457b14062c44cb5","type":"text","text":"## [[Sets]] [[Non-Linear Data Structure Runtime Comparison#^03b8d8 |Constant Time]]","x":2579,"y":1360,"width":455,"height":60},
 		{"id":"cae3a9b501113eeb","type":"text","text":"## **Imperative**","x":2422,"y":1974,"width":313,"height":60},
 		{"id":"3499ff7e5bb5953c","type":"text","text":"## **_Declarative_**","x":2422,"y":2194,"width":313,"height":60},
-		{"id":"2e8b93c2e6c70435","x":3280,"y":-329,"width":250,"height":60,"type":"text","text":"## Sorting"},
-		{"id":"74f7158cfd27f6dc","x":2919,"y":-191,"width":250,"height":60,"type":"text","text":"Merge Sort"},
-		{"id":"59aac9f2f08320f3","x":3267,"y":-168,"width":250,"height":60,"type":"text","text":"Quick Sort"},
-		{"id":"39c0b7eb30f870f6","x":2896,"y":25,"width":484,"height":60,"type":"text","text":"# [[Key Base Attributes of  Grokking Algorithm patterns#Cyclic Sort |Cyclic Sort]]"},
-		{"id":"5c5708b88168ef04","x":2880,"y":140,"width":640,"height":440,"type":"text","text":"![[Key Base Attributes of  Grokking Algorithm patterns#Topological Sort]]"}
+		{"id":"39c0b7eb30f870f6","x":2880,"y":-320,"width":484,"height":60,"type":"text","text":"# [[Key Base Attributes of  Grokking Algorithm patterns#Cyclic Sort |Cyclic Sort]]"},
+		{"id":"b90d733e190b4c63","x":2922,"y":-180,"width":400,"height":291,"type":"file","file":"Algorithms & Data Structures/_Coding Whiteboard/lc268.png"},
+		{"id":"7d6e1a382e4db349","x":2922,"y":160,"width":400,"height":246,"type":"file","file":"Algorithms & Data Structures/_Coding Whiteboard/lc448.png"},
+		{"id":"5c5708b88168ef04","x":4140,"y":160,"width":640,"height":440,"type":"text","text":"![[Key Base Attributes of  Grokking Algorithm patterns#Topological Sort]]"},
+		{"id":"c1900d733fc738bc","x":4880,"y":160,"width":503,"height":311,"type":"text","text":"## Research more\n#todo/med/dev \n- [ ] Add something for topological sort which is specifically for graphs"},
+		{"id":"9388666a2e46910e","x":4412,"y":-824,"width":888,"height":790,"type":"text","text":"![[Merge sort]]"},
+		{"id":"8e877835b7fc6dca","x":3122,"y":-871,"width":909,"height":380,"type":"text","text":"![[Quick Sort]]"},
+		{"id":"2e8b93c2e6c70435","x":4060,"y":51,"width":250,"height":60,"type":"text","text":"## Sorting"}
 	],
 	"edges":[
 		{"id":"96d016acd65b0fff","fromNode":"ca62e46b96c8640f","fromSide":"right","toNode":"fd325d709a909001","toSide":"left","color":"2"},
@@ -152,6 +155,7 @@
 		{"id":"934a8c26de21021d","fromNode":"478667fc12bcdd94","fromSide":"left","toNode":"9da8c621c89f4817","toSide":"right","toEnd":"none"},
 		{"id":"f09860f4fe165c35","fromNode":"9da8c621c89f4817","fromSide":"right","toNode":"e481161a3cfe55e8","toSide":"left","toEnd":"none"},
 		{"id":"d1f56afc634e456e","fromNode":"9da8c621c89f4817","fromSide":"right","toNode":"c539150a20f457ba","toSide":"left","toEnd":"none"},
-		{"id":"f8818546360d0ee2","fromNode":"d0c92a99295ec595","fromSide":"right","toNode":"39c0b7eb30f870f6","toSide":"left","color":"3"}
+		{"id":"f8818546360d0ee2","fromNode":"d0c92a99295ec595","fromSide":"right","toNode":"39c0b7eb30f870f6","toSide":"left","color":"3"},
+		{"id":"a22b3d2b778a5af3","fromNode":"2e8b93c2e6c70435","fromSide":"top","toNode":"9388666a2e46910e","toSide":"left"}
 	]
 }

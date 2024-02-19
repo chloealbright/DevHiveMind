@@ -51,42 +51,24 @@ Certainly! Here's an updated note example that emphasizes the usage of a stack f
 
 **Example Code Snippet:**
 ```javascript
-class UndoMechanism {
-  constructor() {
-    this.operationsStack = [];
-  }
+const simplifyPath = (path) => {
+  const parts = path.split('/').filter(part => part !== ''); // Remove empty parts
+  const stack = [];
 
-  // Perform an operation and push it onto the stack
-  performOperation(operation) {
-    console.log(`Performing operation: ${operation}`);
-    this.operationsStack.push(operation);
-  }
-
-  // Undo the last operation by popping from the stack
-  undo() {
-    if (this.operationsStack.length === 0) {
-      console.log("Nothing to undo.");
-      return;
+  for (let part of parts) {
+    if (part === '.') {
+      continue; // Skip current directory markers
+    } else if (part === '..') {
+      stack.pop(); // Move one level up if encountering '..'
+    } else {
+      stack.push(part); // Push valid directory names to stack
     }
-
-    const lastOperation = this.operationsStack.pop();
-    console.log(`Undoing operation: ${lastOperation}`);
   }
-}
 
-// Example usage:
-const undoSystem = new UndoMechanism();
-
-undoSystem.performOperation("Edit text");
-undoSystem.performOperation("Insert image");
-undoSystem.performOperation("Delete paragraph");
-
-console.log("Current state:", undoSystem.getCurrentState());
-
-undoSystem.undo(); // Undo the last operation
-
-console.log("Current state after undo:", undoSystem.getCurrentState());
+  return '/' + stack.join('/');
+};
 ```
+
 
 In this example, the stack-based Undo Mechanism provides an elegant solution for managing and reverting operations, a common requirement in various coding challenges.
 

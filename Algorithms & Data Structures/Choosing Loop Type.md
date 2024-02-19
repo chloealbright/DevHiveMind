@@ -75,7 +75,5 @@ i++;
 Ultimately, the key is to choose the loop construct that best suits the requirements of the coding challenge, enhances code readability, and aligns with your coding style. It's often beneficial to experiment with different loop types and see which one feels most natural for a particular problem.
 
 
-Use stack for Undo Mechanism operation like for  example if you wanted to implement so type of thing in a coding challenge where your using the stack as pop things and unshift things    
-- If the problem involves an undo mechanism or tracking the order of operations, a stack can be beneficial. Each operation can be pushed onto the stack, and undoing involves popping from the stack.
 
 

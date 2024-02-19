@@ -14,9 +14,9 @@ Relates:
 ![[quickSort.gif]]
 
 
-  - **Quick Sort**: It's a divide and conquer algorithm, just like Merge Sort. It's known for being one of the fastest sorting algorithms on average but has some unfavorable worst-case behaviors.
+- **Quick Sort**: It's a divide and conquer algorithm, just like Merge Sort. It's known for being one of the fastest sorting algorithms on average but has some unfavorable worst-case behaviors.
 
-- **Average Runtime and Space Complexity**: Quick Sort has a better average runtime and space complexity compared to Merge Sort.
+- **Average Runtime and Space Complexity**: Quick Sort has a better average runtime and space complexity compared to Merge Sort for small inputs which is `Ο(n log n)` or *Linearithmic Time*.
 
 - **Pivoting Technique**: Quick Sort employs a pivoting technique to divide the main list into smaller lists. These smaller lists are further divided and sorted using the pivoting technique until the entire list is sorted. This process is a form of divide and conquer.
 

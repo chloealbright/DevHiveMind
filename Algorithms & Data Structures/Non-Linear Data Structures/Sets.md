@@ -108,7 +108,7 @@ Traverse generally means to move through or go across a data structure. It's a b
 ## Set Traversal vs Iteration
   
 - **Iteration over a set:**  
-	- In the case of sets, iteration often involves accessing elements one by one in the order in which they were added to the set. Sets do not have indexes like arrays, so the order is based on the internal structure that maintains uniqueness.  
+	- In the case of sets, iteration often involves accessing elements one by one randomly. Sets do not have indexes like arrays, so the order is based on the internal structure that maintains uniqueness.  
 
 - **Traversal of an array:**  
 	- Typically involves moving from the first element to the last or vice versa. This is commonly associated with the concept of indexes.  

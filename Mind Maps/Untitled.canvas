@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"6aafc9b8ff9e7da6","x":1160,"y":-1920,"width":1443,"height":1410,"type":"group","label":"Search"},
 		{"id":"d2f1a8a1ed3d9acb","type":"text","text":"### Numbers","x":-379,"y":120,"width":200,"height":53},
 		{"id":"9585a7d4f9b71583","type":"text","text":"### Alphabetic Order ","x":285,"y":690,"width":300,"height":53},
 		{"id":"41fac452e0ce903e","type":"text","text":"### Alphabetic Range ","x":285,"y":590,"width":300,"height":53},
@@ -42,13 +43,23 @@
 		{"id":"25329102cf33f0cf","x":1016,"y":495,"width":302,"height":60,"color":"5","type":"text","text":"### Duplicate Values"},
 		{"id":"b3998e713c9f6a67","x":1016,"y":590,"width":302,"height":60,"color":"5","type":"text","text":"### Unique Values"},
 		{"id":"a77873bfa2b20c96","x":120,"y":360,"width":250,"height":60,"type":"text","text":"### Max"},
-		{"id":"dbc7edeccaf8bc9f","x":1584,"y":-250,"width":250,"height":60,"type":"text","text":"Ob         UN\n-1   0 1    2"},
-		{"id":"239591fa02eeff5c","x":1523,"y":-87,"width":677,"height":179,"type":"text","text":"  ```javascript\n  const length = array.length;\n  const middle = Math.floor(length / 2);\n  const left = array.slice(0, middle);\n  const right = array.slice(middle);\n  ```\n"},
-		{"id":"21f6875ca85f7d23","x":1546,"y":150,"width":250,"height":60,"type":"text","text":"array.Length\narray.Length - 1"},
-		{"id":"5f7fd7ab64589a0e","x":1760,"y":-720,"width":250,"height":60,"type":"text","text":"## Search"},
-		{"id":"4c9e147cb250753c","x":1480,"y":-580,"width":306,"height":130,"type":"text","text":"### Traverse some order"},
-		{"id":"e868af9788aeda21","x":1967,"y":-569,"width":313,"height":119,"type":"text","text":"### Iterate no Specific order"},
-		{"id":"84a4b518627128b0","x":2455,"y":-800,"width":265,"height":580,"type":"text","text":"\n\n|  |\n| ---- |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n"}
+		{"id":"dbc7edeccaf8bc9f","x":2745,"y":-707,"width":250,"height":60,"type":"text","text":"Ob         UN\n-1   0 1    2"},
+		{"id":"239591fa02eeff5c","x":2684,"y":-544,"width":677,"height":179,"type":"text","text":"  ```javascript\n  const length = array.length;\n  const middle = Math.floor(length / 2);\n  const left = array.slice(0, middle);\n  const right = array.slice(middle);\n  ```\n"},
+		{"id":"21f6875ca85f7d23","x":2707,"y":-307,"width":250,"height":60,"type":"text","text":"array.Length\narray.Length - 1"},
+		{"id":"84a4b518627128b0","x":2810,"y":-127,"width":120,"height":199,"type":"text","text":"\n\n|  |\n| ---- |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n|  |\n"},
+		{"id":"89bca0c24d5f520d","x":1483,"y":-870,"width":250,"height":60,"type":"text","text":"### Linear"},
+		{"id":"af8b533555b5f509","x":1233,"y":-1449,"width":250,"height":60,"type":"text","text":"# Iterable"},
+		{"id":"6457b14062c44cb5","x":1225,"y":-1330,"width":250,"height":60,"type":"text","text":"## Sets"},
+		{"id":"eaaef77060b38f9c","x":1225,"y":-1190,"width":250,"height":60,"type":"text","text":"## Maps"},
+		{"id":"e868af9788aeda21","x":1170,"y":-1660,"width":380,"height":170,"type":"text","text":"Can Iterate over a structure meaning no specified order meaning there are structures that cant be traversed "},
+		{"id":"5f7fd7ab64589a0e","x":1789,"y":-1020,"width":250,"height":60,"type":"text","text":"## Search"},
+		{"id":"9da8c621c89f4817","x":2048,"y":-876,"width":250,"height":60,"type":"text","text":"### Binary"},
+		{"id":"56c29e39a438b323","type":"text","text":"## Array","x":2261,"y":-1330,"width":250,"height":60},
+		{"id":"1dddbf541fbab3f7","x":2261,"y":-1190,"width":250,"height":60,"type":"text","text":"## Linked List"},
+		{"id":"4dba084e7c3d76be","x":2223,"y":-1449,"width":327,"height":60,"type":"text","text":"# Traversalbe"},
+		{"id":"4c9e147cb250753c","x":2196,"y":-1660,"width":382,"height":170,"type":"text","text":"Can traverses a structure meaning in some specific order depending on the strucure"},
+		{"id":"b1e779e076ec0d1c","x":1587,"y":-626,"width":250,"height":60,"type":"text","text":"Recursive"},
+		{"id":"a050f55a75371808","x":1923,"y":-626,"width":250,"height":60,"type":"text","text":"Iterative"}
 	],
 	"edges":[
 		{"id":"96d016acd65b0fff","fromNode":"ca62e46b96c8640f","fromSide":"right","toNode":"fd325d709a909001","toSide":"left","color":"2"},
@@ -92,7 +103,15 @@
 		{"id":"590b1b53ee4b67a2","fromNode":"d2f1a8a1ed3d9acb","fromSide":"right","toNode":"79bc1f2ad745f2d0","toSide":"left"},
 		{"id":"9597e7e80ef30961","fromNode":"d2f1a8a1ed3d9acb","fromSide":"right","toNode":"a77873bfa2b20c96","toSide":"left"},
 		{"id":"37ac27a00331eafc","fromNode":"d2f1a8a1ed3d9acb","fromSide":"right","toNode":"82d39e439eab49f0","toSide":"left","color":"4"},
-		{"id":"0f3ddc48e0775abb","fromNode":"5f7fd7ab64589a0e","fromSide":"bottom","toNode":"4c9e147cb250753c","toSide":"top"},
-		{"id":"fb641cc8ce43a624","fromNode":"5f7fd7ab64589a0e","fromSide":"bottom","toNode":"e868af9788aeda21","toSide":"top"}
+		{"id":"e0ac2faef49113ae","fromNode":"5f7fd7ab64589a0e","fromSide":"bottom","toNode":"89bca0c24d5f520d","toSide":"top"},
+		{"id":"42cdff136f834d48","fromNode":"5f7fd7ab64589a0e","fromSide":"top","toNode":"56c29e39a438b323","toSide":"left"},
+		{"id":"18e0096a27c1c043","fromNode":"5f7fd7ab64589a0e","fromSide":"top","toNode":"6457b14062c44cb5","toSide":"right"},
+		{"id":"bb89e5db5c6020a9","fromNode":"5f7fd7ab64589a0e","fromSide":"bottom","toNode":"9da8c621c89f4817","toSide":"top"},
+		{"id":"d3653bee3e8edeae","fromNode":"89bca0c24d5f520d","fromSide":"bottom","toNode":"b1e779e076ec0d1c","toSide":"top"},
+		{"id":"5a09000924252dc5","fromNode":"9da8c621c89f4817","fromSide":"bottom","toNode":"a050f55a75371808","toSide":"top"},
+		{"id":"761bc71c96c6583a","fromNode":"9da8c621c89f4817","fromSide":"left","toNode":"b1e779e076ec0d1c","toSide":"top"},
+		{"id":"0b39cbee458a58dd","fromNode":"89bca0c24d5f520d","fromSide":"right","toNode":"a050f55a75371808","toSide":"top"},
+		{"id":"a8515f3fd964e251","fromNode":"5f7fd7ab64589a0e","fromSide":"top","toNode":"eaaef77060b38f9c","toSide":"right"},
+		{"id":"62bad39728000f3f","fromNode":"5f7fd7ab64589a0e","fromSide":"top","toNode":"1dddbf541fbab3f7","toSide":"left"}
 	]
 }

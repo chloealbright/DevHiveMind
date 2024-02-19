@@ -25,24 +25,22 @@ In essence, linear search is a specific application of [[Linear Iteration vs Lin
 **Performance:**
 - Linear search is suitable for small data sets.
 
-```javascript
-// Linear Search O(N)
-function indexEqualsValueSearch(arr) {
-    let low = 0;
-    let length = arr.length;
-    let min = Infinity;
+Certainly! Here's a simple implementation of linear search in JavaScript:
 
-    for (let start = 0; start < high; ++start) {
-        if (arr[start] === start) {
-            min = Math.min(min, arr[start]);
+```javascript
+function linearSearch(arr, target) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === target) {
+            return i; 
         }
     }
-
-    return min === Infinity ? -1 : min;
-    // Check current index and value to see if they match and find the lowest matching value
+    return -1; 
 }
 ```
-## Binary Search:
+
+## Binary Search
+>Modified binary search is just a variation of the core binary search structure
+
 Binary search, on the other hand, operates by dividing the search interval in half repeatedly. It begins with an interval covering the whole array or sorted data structure. If the value being sought is less than the item in the middle of the interval, the search narrows down to the lower half. If the value is greater, it narrows down to the upper half. This process continues until the value is found or the interval becomes empty. Binary search is highly efficient but requires the data to be sorted.
 
 This is the standard calculation for the middle index in a binary search or any situation where you want to find the midpoint of a range between two indices (`low` and `high`). This formula works well when you are dealing with the current range and want to split it into two halves.

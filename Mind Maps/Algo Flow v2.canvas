@@ -17,7 +17,7 @@
 		{"id":"89bca0c24d5f520d","type":"text","text":"### [[Linear search vs Binary search#Linear/Sequential Search|Linear]]","x":2643,"y":2060,"width":250,"height":60},
 		{"id":"b1e779e076ec0d1c","type":"text","text":"#### Recursive","x":2747,"y":2304,"width":250,"height":60},
 		{"id":"d946efd45df7c067","type":"text","text":"Easy Access Action","x":1730,"y":950,"width":303,"height":50},
-		{"id":"5f7fd7ab64589a0e","type":"text","text":"## Searching","x":2920,"y":1715,"width":280,"height":60},
+		{"id":"5f7fd7ab64589a0e","type":"text","text":"# Searching","x":2920,"y":1715,"width":280,"height":48},
 		{"id":"02ce8d9440662a5c","type":"text","text":"","x":4618,"y":1410,"width":250,"height":60},
 		{"id":"86e2e275d6e21bee","type":"text","text":"### Odd","x":1203,"y":-110,"width":250,"height":60},
 		{"id":"a1ed74c48ddd021f","type":"text","text":"### Even","x":1203,"y":-20,"width":250,"height":60},

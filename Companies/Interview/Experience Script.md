@@ -3,7 +3,8 @@ tags:
   - career
 author:
   - jacgit18
-Status: perpetual
+Comments: This documentation discusses
+Status: Perpetual
 Started: 
 EditDate: 
 Relates:
@@ -25,7 +26,13 @@ Social media might be a good source in terms of system design
 scenario around explaining something technical to non technical audience  
   
 
-  
+If we were to ask you to take over a project on Day 1, what would you accomplish in your first week?
+
+
+What are your 3 strongest technical strengths you will bring to this position? 
+
+Knowing when put minimum or maximum effort
+
   
   
 **Talk about moving Fast on your projects and failing fast using that experience on your projects to learn**  
@@ -74,10 +81,13 @@ my mind map helped carlos with his API project
 **Tell Me About A Time You Worked With A Difficult Person**
 ????
 
-cia 
 
-potentially scam
+##### Tell me about a time that you failed at work. What did you learn from it?(Overlaps with STAR) 
 
+Work as a Bsa for the first time I supported a technical boot camp and in the process of building a docker bootcamp there was some misconception from our upskilling vendor where they created a docker cohort but using Python when the bank used Java heavily I learned that even though we were dealing with senior level talent I learned they can be a disconnect between management expectation and were internal talent is at because a lot of them had little experience with docker and the curriculum being in python didn't help even though in engineering there is always talk of being language agnostic. and the primary goal was to teach docker.    
+
+## OKR Questions Possible line of questioning
+What were your goals last week, and did you finish them? What are you changing so that you can do them this month?
 
 
 ## And the Next One... 

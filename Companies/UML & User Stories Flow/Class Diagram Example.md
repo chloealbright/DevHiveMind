@@ -9,44 +9,81 @@ Relates: "[[Epics to user stories with acceptance criteria]]"
 ---
 class diagram based on the user stories for a driving school:
 
+**Administrator Table:**
+
+| Field       | Type     |
+|-------------|----------|
+| username    | VARCHAR  |
+| password    | VARCHAR  |
+| login()     | Method   |
+| addInstructor| Method   |
+| addCurriculum| Method   |
+| scheduleClass| Method   |
+
+
+**Instructor Table:**
+
+| Field           | Type       |
+|-----------------|------------|
+| instructorId    | INT        |
+| name            | VARCHAR    |
+| login()         | Method     |
+| viewSchedule    | Method     |
+| conductLesson   | Method     |
+| teachDefensiveDriving| Method |
+
+
+**Student Table:**
+
+| Field       | Type       |
+|-------------|------------|
+| studentId   | INT        |
+| name        | VARCHAR    |
+| login()     | Method     |
+| viewSchedule| Method     |
+| enrollInCourse| Method    |
+
+
+**Curriculum Table:**
+
+| Field          | Type     |
+|----------------|----------|
+| curriculumId   | INT      |
+| name           | VARCHAR  |
+| createCurriculum()| Method|
+| updateCurriculum()| Method|
+| deleteCurriculum()| Method|
+| getCurriculum()   | Method|
+
+
+**Lesson Table:**
+
+| Field       | Type       |
+|-------------|------------|
+| lessonId    | INT        |
+| title       | VARCHAR    |
+| description | VARCHAR    |
+| instructorId| INT        |
+| createLesson()| Method   |
+| updateLesson()| Method   |
+| deleteLesson()| Method   |
+| getLesson()   | Method   |
+
+
+**Schedule Table:**
+```markdown
+| Field       | Type     |
+|-------------|----------|
+| scheduleId  | INT      |
+| date        | DATE     |
+| time        | TIME     |
+| lessonId    | INT      |
+| createSchedule() | Method |
+| updateSchedule() | Method |
+| deleteSchedule() | Method |
+| getSchedule()    | Method |
 ```
-+------------------+             +------------------------+            +----------------------+
-|  Administrator   |             |      Instructor        |            |      Student         |
-+------------------+             +------------------------+            +----------------------+
-|                  |             |                        |            |                      |
-| - username       |             | - instructorId         |            | - studentId           |
-| - password       |             | - name                 |            | - name                |
-|                  |             |                        |            |                      |
-| + login()        |             | + login()              |            | + login()            |
-| + addInstructor()|             | + viewSchedule()       |            | + viewSchedule()      |
-| + addCurriculum()|             | + conductLesson()      |            | + enrollInCourse()    |
-| + scheduleClass()|             | + teachDefensiveDriving|            |                      |
-|                  |             |                        |            |                      |
-+------------------+             +------------------------+            +----------------------+
-         |                                  |                                   |
-         |                                  |                                   |
-         |                                  |                                   |
-         |                                  |                                   |
-         |                                  |                                   |
-         |                                  |                                   |
-         |                                  |                                   |
-         |                                  |                                   |
-         V                                  V                                   V
-+------------------------+   +-----------------------+                  +-----------------------+
-|        Curriculum       |   |        Lesson         |                  |       Schedule         |
-+------------------------+   +-----------------------+                  +-----------------------+
-| - curriculumId         |   | - lessonId            |                  | - scheduleId           |
-| - name                 |   | - title               |                  | - date                 |
-|                        |   | - description         |                  | - time                 |
-|                        |   | - instructorId        |                  | - lessonId             |
-|                        |   |                       |                  |                       |
-| + createCurriculum()   |   | + createLesson()      |                  | + createSchedule()     |
-| + updateCurriculum()   |   | + updateLesson()      |                  | + updateSchedule()     |
-| + deleteCurriculum()   |   | + deleteLesson()      |                  | + deleteSchedule()     |
-| + getCurriculum()      |   | + getLesson()         |                  | + getSchedule()        |
-|                        |   |                       |                  |                       |
-+------------------------+   +-----------------------+                  +-----------------------+
-```
+
 
 This class diagram represents the key entities and their relationships in the driving school system. The driving school administrator, instructor, and student are depicted as separate classes. The administrator class has attributes like username and password, while the instructor class has an additional attribute, instructorId. The student class has attributes like studentId and name.
 

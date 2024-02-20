@@ -2,8 +2,8 @@
 tags: 
 author:
   - chatgpt
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses writing styles.
+Status: Done
 Started: 
 EditDate: 
 Relates:

@@ -2,7 +2,7 @@
 tags: 
 author:
   - jacgit18
-Comments: This documentation discusses the slight but significant difference  between coding challenges and user stories.
+Comments: This documentation discusses the slight but significant difference between coding challenges and user stories.
 Status: Capture
 Started: 
 EditDate: 

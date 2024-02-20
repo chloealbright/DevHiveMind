@@ -2,11 +2,11 @@
 tags: 
 author:
   - jacgit18
+Comments: This documentation discusses
 Status: Capture
 Started: 
 EditDate: 
-Relates: 
-Comments: This documentation discusses
+Relates:
 ---
 | Applied |  |  |  |
 | ---- | ---- | ---- | ---- |
@@ -16,5 +16,5 @@ Comments: This documentation discusses
 |  |  |  |  |
 
 
-![[Companies/Job Tracker]]
+![[Job Tracker]]
 

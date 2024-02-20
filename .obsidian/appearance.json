@@ -9,5 +9,7 @@
     "customCallouts",
     "Iterative Rainbow Folder Icons"
   ],
-  "textFontFamily": "FiraCode Nerd Font Mono"
+  "textFontFamily": "FiraCode Nerd Font Mono",
+  "theme": "obsidian",
+  "interfaceFontFamily": "Source Code Pro"
 }

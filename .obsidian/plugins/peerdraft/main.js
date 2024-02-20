@@ -2949,12 +2949,9 @@ var require_simplepeer_min = __commonJS({
 // src/main.ts
 var main_exports = {};
 __export(main_exports, {
-  default: () => PeerDraftPlugin,
-  startSession: () => startSession,
-  stopSession: () => stopSession
+  default: () => PeerDraftPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_state = require("@codemirror/state");
 
 // node_modules/monkey-around/mjs/index.js
 function around(obj, factories) {
@@ -3043,6 +3040,9 @@ var ShowTextModal = class extends import_obsidian2.Modal {
 };
 var showTextModal = (app, title, text2) => {
   new ShowTextModal(app, title, text2).open();
+};
+var showNotice = (text2) => {
+  new import_obsidian2.Notice(text2);
 };
 
 // src/settings.ts
@@ -3206,10 +3206,10 @@ var prepareCommunication = async (plugin) => {
 };
 
 // src/data.ts
-var extensions = {};
 var syncedDocs = {};
 var syncObjects = {};
 var statusBars = {};
+var activeEditors = {};
 
 // node_modules/lib0/map.js
 var create = () => /* @__PURE__ */ new Map();
@@ -13503,10 +13503,14 @@ var yCollab = (ytext, awareness, { undoManager = new UndoManager(ytext) } = {}) 
   return plugins;
 };
 
+// src/editor.ts
+var import_state = require("@codemirror/state");
+
 // src/yjs.ts
 var yjs_default = yjs_exports;
 
 // src/editor.ts
+var import_state2 = require("@codemirror/state");
 var usercolors = [
   { dark: "#30bced", light: "#30bced33" },
   { dark: "#6eeb83", light: "#6eeb8333" },
@@ -13518,18 +13522,40 @@ var usercolors = [
   { dark: "#1be7ff", light: "#1be7ff33" }
 ];
 var userColor = usercolors[randomUint32() % usercolors.length];
-var getOrCreateExtension = (id2, settings) => {
-  if (!extensions[id2]) {
-    const syncData = getOrCreateSyncData(id2, settings);
-    const undoManager = new yjs_default.UndoManager(syncData.content);
-    syncData.provider.awareness.setLocalStateField("user", {
-      name: settings.name,
-      color: userColor.dark,
-      colorLight: userColor.light
-    });
-    extensions[id2] = yCollab(syncData.content, syncData.provider.awareness, { undoManager });
+var addExtensionToEditor = (id2, settings, editor) => {
+  const extension = createExtensionForSession(id2, settings);
+  const compartment = new import_state.Compartment();
+  const editorView = editor.cm;
+  if (!activeEditors[id2]) {
+    activeEditors[id2] = [];
   }
-  return extensions[id2];
+  activeEditors[id2].push({
+    compartment,
+    editor: editorView
+  });
+  editorView.dispatch({
+    effects: import_state2.StateEffect.appendConfig.of(compartment.of(extension))
+  });
+};
+var removeExtensionsForSession = (id2) => {
+  const actives = activeEditors[id2];
+  if (!actives)
+    return;
+  for (const active of actives) {
+    active.editor.dispatch({
+      effects: active.compartment.reconfigure([])
+    });
+  }
+};
+var createExtensionForSession = (id2, settings) => {
+  const syncData = getOrCreateSyncData(id2, settings);
+  const undoManager = new yjs_default.UndoManager(syncData.content);
+  syncData.provider.awareness.setLocalStateField("user", {
+    name: settings.name,
+    color: userColor.dark,
+    colorLight: userColor.light
+  });
+  return yCollab(syncData.content, syncData.provider.awareness, { undoManager });
 };
 
 // src/statusbar.ts
@@ -13543,16 +13569,13 @@ var addStatus = (file, plugin, settings) => {
     item.setTitle("Copy link");
     item.onClick(() => {
       navigator.clipboard.writeText(settings.basePath + id2);
-      new import_obsidian5.Notice("Link copied to clipboard.");
+      showNotice("Link copied to clipboard.");
     });
   });
   menu.addItem((item) => {
     item.setTitle("Stop shared session");
     item.onClick(() => {
-      delete syncedDocs[file.path];
-      stopSync(id2);
-      removeStatus(id2);
-      const notice = new import_obsidian5.Notice("Session stopped for " + file.name);
+      stopSession(file);
     });
   });
   const status = plugin.addStatusBarItem();
@@ -13569,6 +13592,27 @@ var removeStatus = (id2) => {
     return;
   delete statusBars[id2];
   status.remove();
+};
+
+// src/session.ts
+var startSession = async (editor, file, plugin) => {
+  const settings = await getSettings(plugin);
+  const id2 = initDocument(editor.getValue(), settings);
+  syncedDocs[file.path] = id2;
+  addExtensionToEditor(id2, settings, editor);
+  navigator.clipboard.writeText(settings.basePath + id2);
+  showNotice("Session started for " + file.name + ". Link copied to Clipboard.");
+  addStatus(file, plugin, settings);
+};
+var stopSession = (file) => {
+  const id2 = syncedDocs[file.path];
+  if (!id2)
+    return;
+  delete syncedDocs[file.path];
+  stopSync(id2);
+  removeStatus(id2);
+  removeExtensionsForSession(id2);
+  showNotice("Session stopped for " + file.name);
 };
 
 // src/main.ts
@@ -13605,13 +13649,13 @@ var PeerDraftPlugin = class extends import_obsidian6.Plugin {
           return false;
         if (checking)
           return true;
-        stopSession(file, plugin);
+        stopSession(file);
       }
     });
     plugin.register(around(import_obsidian6.MarkdownView.prototype, {
       onUnloadFile(next) {
         return async function(file) {
-          stopSession(file, plugin);
+          stopSession(file);
           return next.call(this, file);
         };
       }
@@ -13628,31 +13672,9 @@ var PeerDraftPlugin = class extends import_obsidian6.Plugin {
       const file = this.app.vault.getAbstractFileByPath(path);
       if (!file || !(file instanceof import_obsidian6.TFile))
         return;
-      stopSession(file, this);
+      stopSession(file);
     });
   }
-};
-var stopSession = (file, plugin) => {
-  const id2 = syncedDocs[file.path];
-  if (!id2)
-    return;
-  delete syncedDocs[file.path];
-  stopSync(id2);
-  removeStatus(id2);
-  const notice = new import_obsidian6.Notice("Session stopped for " + file.name);
-};
-var startSession = async (editor, file, plugin) => {
-  const settings = await getSettings(plugin);
-  const id2 = initDocument(editor.getValue(), settings);
-  syncedDocs[file.path] = id2;
-  const extension = getOrCreateExtension(id2, settings);
-  const editorView = editor.cm;
-  editorView.dispatch({
-    effects: import_state.StateEffect.appendConfig.of(extension)
-  });
-  navigator.clipboard.writeText(settings.basePath + id2);
-  new import_obsidian6.Notice("Session started for " + file.name + ". Link copied to Clipboard.");
-  addStatus(file, plugin, settings);
 };
 /*! Bundled license information:
 

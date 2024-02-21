@@ -29,7 +29,7 @@
 		{"id":"eaa0306b2db490a2","type":"text","text":"### Integers(Negatives)","x":814,"y":-280,"width":444,"height":60},
 		{"id":"a127ec6be2967a6f","type":"text","text":"Ascending","x":449,"y":207,"width":250,"height":60},
 		{"id":"0f0845e7947dc225","type":"text","text":"Descending","x":449,"y":294,"width":250,"height":60},
-		{"id":"d11472b8e9469b92","type":"text","text":"Split Return array","x":1367,"y":1963,"width":352,"height":60,"color":"3"},
+		{"id":"d11472b8e9469b92","type":"text","text":"[[Algorithm Most Common Built in Functions#Split |Split]] Return array","x":1367,"y":1963,"width":313,"height":60,"color":"3"},
 		{"id":"6076563a4e4481d8","type":"text","text":"join return string","x":1026,"y":970,"width":382,"height":60,"color":"2"},
 		{"id":"9f3e9abaa905df55","type":"text","text":"### Vairiable","x":1235,"y":787,"width":244,"height":55},
 		{"id":"92a80e00194e903e","type":"text","text":"### Some Data Structure with these values  ","x":-386,"y":1893,"width":439,"height":160},

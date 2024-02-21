@@ -89,7 +89,6 @@ const spltNames ={ 
 
      lastName: nameArray[2] 
 } 
-
 ```
 
 

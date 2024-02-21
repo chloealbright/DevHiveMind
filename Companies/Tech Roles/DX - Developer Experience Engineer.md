@@ -1,11 +1,14 @@
 ---
-tags: 
+tags:
+  - career
+  - employment
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+  - chatgpt
+Comments: This documentation discusses responsibilities of a DX engineer.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 A Developer Experience Engineer (DXE) is a professional who is responsible for improving the experience of developers who use a company's software development tools, platforms, and services. The goal of a DXE is to ensure that developers can work efficiently, productively, and with high satisfaction when using these tools and services.

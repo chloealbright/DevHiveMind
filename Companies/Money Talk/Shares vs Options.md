@@ -1,12 +1,15 @@
 ---
 tags:
+  - career
+  - employment
   - pay
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+  - chatgpt
+Comments: This documentation discusses choosing between shares and options.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates: "[[Decide between Salary and Equity]]"
 ---
 Navigating equity and stocks in startups requires a clear understanding of the terms involved. Here's a refined note to help clarify these concepts:

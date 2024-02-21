@@ -1,12 +1,14 @@
 ---
 tags:
+  - career
+  - employment
   - pay
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Express
+Comments: This documentation discusses Negotiation.
+Status: Perpetual
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 ![[Money Talk.gif]]

@@ -1,8 +1,9 @@
 ---
-tags: 
+tags:
+  - UML
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses different UML diagrams.
 Status: Refinement
 Started: 
 EditDate: 

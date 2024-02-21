@@ -1,11 +1,14 @@
 ---
-tags: 
+tags:
+  - career
+  - employment
+  - companies
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Refinement
+Comments: This documentation discusses different things to consider while on the job hunt.
+Status: Perpetual
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 ![[Tech Layoffs.png]]

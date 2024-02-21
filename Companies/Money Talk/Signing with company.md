@@ -1,12 +1,15 @@
 ---
 tags:
+  - career
   - employment
+  - companies
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+  - chatgpt
+Comments: This documentation discusses things to consider when sign with a company.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 Ensure a smooth employment experience with these refined considerations:

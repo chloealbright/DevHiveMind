@@ -1,11 +1,15 @@
 ---
-tags: 
+tags:
+  - career
+  - employment
+  - people
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+  - chatgpt
+Comments: This documentation discusses having a conversation with recruiters.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 ## **Optimizing Your Interview Approach:**

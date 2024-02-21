@@ -1,11 +1,16 @@
 ---
-tags: 
+tags:
+  - career
+  - employment
+  - people
+  - companies
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+  - chatgpt
+Comments: This documentation discusses behavior to be aware of.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 ### Decoding Evasive Interview Practices

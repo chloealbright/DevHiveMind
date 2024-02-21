@@ -3,10 +3,10 @@ tags:
   - bsa
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses requirement governance.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 ## **Approaches Comparison: Traditional vs. Adaptive**

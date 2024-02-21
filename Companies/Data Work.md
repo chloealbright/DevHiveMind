@@ -3,10 +3,10 @@ tags:
   - career
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses best practices when it comes to data and some of the types of roles.
 Status: Refinement
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 ![[DataBuisness.png]]

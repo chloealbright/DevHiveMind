@@ -3,10 +3,10 @@ tags:
   - bsa
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses how to conduct a CSA.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates: "[[Elicitation]]"
 ---
 ## Workstream Areas:

@@ -1,13 +1,14 @@
 ---
 tags:
+  - career
   - dev
   - Domain
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses Tracflo startup and the construction industry.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 **Tracflo: Digitizing Construction Workflow for Efficient Project Management**

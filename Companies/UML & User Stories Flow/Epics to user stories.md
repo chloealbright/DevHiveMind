@@ -1,11 +1,13 @@
 ---
-tags: 
+tags:
+  - agile
+  - example
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses a driving school related user story example with acceptance criteria.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-27
 Relates: "[[Features for a driving school]]"
 ---
 1. As a driving school administrator, I want to ensure that professional instructors are available for students.

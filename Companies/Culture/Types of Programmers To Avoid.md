@@ -1,12 +1,15 @@
 ---
 tags:
+  - career
   - dev
+  - employment
+  - people
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses type of developers you can run into.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 **Avoiding the Pitfalls: Programmer Archetypes to Steer Clear Of**

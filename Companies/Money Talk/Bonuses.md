@@ -1,12 +1,15 @@
 ---
 tags:
+  - career
+  - employment
   - pay
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+  - chatgpt
+Comments: This documentation discusses the intricacies of bonus.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 ![[Job Offer.jpg]]

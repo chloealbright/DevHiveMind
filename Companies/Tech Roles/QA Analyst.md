@@ -1,12 +1,14 @@
 ---
-tags: 
+tags:
+  - career
+  - employment
 author:
   - jacgit18
   - chatgpt
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses responsibilities of a QA Analyst engineer.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 **Elevating Quality Assurance: Key Responsibilities of a QA Analyst**

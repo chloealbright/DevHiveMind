@@ -1,11 +1,13 @@
 ---
-tags: 
+tags:
+  - career
+  - employment
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Capture
+Comments: This documentation discusses company stability.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates: "[[Negotiation]]"
 ---
 **Considering Company Stability and Compensation Bands:**

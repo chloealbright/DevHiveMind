@@ -1,12 +1,14 @@
 ---
-tags: 
+tags:
+  - career
+  - dev
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Capture
+Comments: This documentation discusses personal features worked on.
+Status: Done
 Started: 2023-12-14
 EditDate: 
-Relates:
+Relates: "[[Experience Script]]"
 ---
 **Create Ticket Endpoint**
 - No stats available for the old app, making comparisons unfeasible.

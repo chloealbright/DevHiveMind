@@ -1,12 +1,14 @@
 ---
 tags:
+  - career
+  - employment
   - questions
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Express
+Comments: This documentation discusses what questions to ask.
+Status: Perpetual
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 ![[attack.gif]]

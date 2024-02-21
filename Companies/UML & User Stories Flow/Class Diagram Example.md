@@ -1,17 +1,16 @@
 ---
-tags: 
+tags:
+  - UML
+  - OOP
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses a class diagram based on the user stories for a driving school.
+Status: Done
 Started: 
-EditDate: 
-Relates: "[[Epics to user stories with acceptance criteria]]"
+EditDate: 2024-02-20
+Relates: "[[Epics to user stories]]"
 ---
-class diagram based on the user stories for a driving school:
-
-**Administrator Table:**
-
+## Administrator Table
 | Field | Type |
 | ---- | ---- |
 | username | VARCHAR |
@@ -23,8 +22,7 @@ class diagram based on the user stories for a driving school:
 | scheduleClass | Method |
 
 
-**Instructor Table:**
-
+## Instructor Table
 | Field | Type |
 | ---- | ---- |
 | instructorId | INT |
@@ -36,8 +34,7 @@ class diagram based on the user stories for a driving school:
 | teachDefensiveDriving | Method |
 
 
-**Student Table:**
-
+## Student Table
 | Field | Type |
 | ---- | ---- |
 | studentId | INT |
@@ -48,8 +45,7 @@ class diagram based on the user stories for a driving school:
 | enrollInCourse | Method |
 
 
-**Curriculum Table:**
-
+## Curriculum Table
 | Field | Type |
 | ---- | ---- |
 | curriculumId | INT |
@@ -61,8 +57,7 @@ class diagram based on the user stories for a driving school:
 | getCurriculum() | Method |
 
 
-**Lesson Table:**
-
+## Lesson Table
 | Field | Type |
 | ---- | ---- |
 | lessonId | INT |

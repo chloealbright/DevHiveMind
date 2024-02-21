@@ -4,10 +4,11 @@ tags:
   - bsa
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Capture
+  - chatgpt
+Comments: This documentation discusses user story types available in Jira.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates: "[[User Stories]]"
 ---
 In Jira, user stories are a common way of expressing product features or functionalities from an end user's perspective. They help agile teams prioritize and deliver value incrementally. In Jira, user stories are typically created and managed within the context of an Agile board, which is associated with a specific project. 
@@ -42,6 +43,7 @@ Here are some common types of user stories in Jira:
 6. **Spike(Proof of Concept):**
    - A spike is a user story that is created to explore and gather more information about a certain aspect of the project.
    - It's often used when there is uncertainty or a need for research before estimating and committing to the work.
+
 >[!note] 
 >Clone and close stories if work continues into next sprint and just in general just quicker to create new stories; if no work has been done, move them forward to next sprint.
 

@@ -5,10 +5,11 @@ tags:
   - questions
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+  - chatgpt
+Comments: This documentation discusses type of question to ask working as a BSA.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates: "[[Elicitation]]"
 ---
 Effective communication relies on a variety of question types, each serving a specific purpose. 

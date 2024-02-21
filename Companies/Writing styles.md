@@ -1,11 +1,14 @@
 ---
-tags: 
+tags:
+  - blog
+  - career
+  - documentation
 author:
   - chatgpt
 Comments: This documentation discusses writing styles.
 Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 There are numerous writing styles, each with its own characteristics and purposes. Some common styles include:  

@@ -1,11 +1,13 @@
 ---
-tags: 
+tags:
+  - agile
+  - example
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses driving school example of a feature.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 **features for a driving school > convert features to epics**

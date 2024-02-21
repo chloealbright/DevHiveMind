@@ -1,11 +1,14 @@
 ---
-tags: 
+tags:
+  - career
+  - dev
+  - companies
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Refinement
+Comments: This documentation discusses lessons learnt from working at startup.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates: "[[Experience Script]]"
 ---
 ##### Working at a startup with a relatively new codebase involves:

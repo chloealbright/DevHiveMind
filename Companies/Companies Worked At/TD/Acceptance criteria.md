@@ -3,8 +3,8 @@ tags:
   - agile
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Capture
+Comments: This documentation discusses acceptance criteria.
+Status: Done
 Started: 2023-12-12
 EditDate: 
 Relates: "[[User Stories]]"

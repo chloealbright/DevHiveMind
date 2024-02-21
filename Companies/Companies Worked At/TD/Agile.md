@@ -3,7 +3,8 @@ tags:
   - agile
 author:
   - jacgit18
-Comments: This documentation discusses
+  - chatgpt
+Comments: This documentation discusses Agile framework as a whole.
 Status: Done
 Started: 2023-12-12
 EditDate: 

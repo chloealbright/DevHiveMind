@@ -7,10 +7,10 @@ tags:
 author:
   - jacgit18
   - chatgpt
-Comments: This documentation discusses
+Comments: This documentation discusses the flow of user stories in the context of a playing card game example.
 Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 ## Epic: Playing Card Game App

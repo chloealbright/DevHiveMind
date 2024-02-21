@@ -3,10 +3,10 @@ tags:
   - agile
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses PI planing at TD.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates: "[[Non-calendar fiscal year]]"
 ---
 ## TD Bank Fiscal Year and Sprint Planning

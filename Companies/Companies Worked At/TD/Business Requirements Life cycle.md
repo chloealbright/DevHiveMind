@@ -3,8 +3,8 @@ tags:
   - bsa
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses life cycle of business requirements.
+Status: Done
 Started: 2023-12-12
 EditDate: 
 Relates: "[[Attributes of Requirements & User Stories]]"

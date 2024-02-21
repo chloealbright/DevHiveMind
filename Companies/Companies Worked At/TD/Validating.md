@@ -3,10 +3,10 @@ tags:
   - bsa
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses validating business requirements.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates: "[[Business Requirements Life cycle]]"
 ---
 Ensure ongoing alignment between solutions and needs by incorporating regular checks and communication strategies:

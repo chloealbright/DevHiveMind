@@ -1,12 +1,16 @@
 ---
 tags:
+  - career
   - dev
+  - employment
+  - people
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+  - chatgpt
+Comments: This documentation discusses work dynamics.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-27
 Relates: "[[Negotiation]]"
 ---
 1. **Understanding Toil:**

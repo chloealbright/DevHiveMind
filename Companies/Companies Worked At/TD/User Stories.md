@@ -3,13 +3,15 @@ tags:
   - agile
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+  - chatgpt
+Comments: This documentation discusses the overall flow of user stories.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates: "[[PI Planning]]"
 ---
->[!important] Scrum master is there to address blockers and help move things like reaching out to stakeholders on your behave if they aren't helping you out  with what you need. 
+>[!important] 
+>Scrum master is there to address blockers and help move things like reaching out to stakeholders on your behave if they aren't helping you out  with what you need. 
 
 The flow from themes to epics to features to user stories can vary depending on the specific project management or development framework being used. However, there are commonly accepted practices in many agile methodologies the typical flow is from:
 

@@ -1,12 +1,15 @@
 ---
 tags:
+  - career
+  - employment
   - pay
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+  - chatgpt
+Comments: This documentation discusses the decision between aiming for a high salary vs company equity.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 Navigating compensation packages can be overwhelming, but considering key factors will help you make an informed decision:

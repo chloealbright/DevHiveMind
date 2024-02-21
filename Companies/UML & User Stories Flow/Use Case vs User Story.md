@@ -1,9 +1,10 @@
 ---
-tags: 
+tags:
+  - agile
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Capture
+Comments: This documentation discusses the distinction between use cases and user stories.
+Status: Done
 Started: 2024-01-08
 EditDate: 
 Relates: "[[User Stories#User Stories Intricacies]]"

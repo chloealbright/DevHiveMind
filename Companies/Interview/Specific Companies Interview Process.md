@@ -1,11 +1,14 @@
 ---
-tags: 
+tags:
+  - companies
+  - interview
+  - employment
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Capture
+Comments: This documentation discusses technical interview process for popular companies.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 ## Airbnb Interview Process:

@@ -1,8 +1,9 @@
 ---
-tags: 
+tags:
+  - companies
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses fiscal year and how it may vary by company.
 Status: Done
 Started: 2023-12-12
 EditDate: 

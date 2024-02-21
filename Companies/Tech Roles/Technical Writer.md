@@ -1,11 +1,14 @@
 ---
-tags: 
+tags:
+  - career
+  - employment
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+  - chatgpt
+Comments: This documentation discusses responsibilities of a technical writer.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 **Crafting Clarity in Complexity: The Dynamic Role of Technical Writers**

@@ -1,11 +1,14 @@
 ---
-tags: 
+tags:
+  - agile
+  - bsa
+  - career
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Capture
+Comments: This documentation discusses the process of gathering business requirements as BSA.
+Status: Done
 Started: 2023-12-12
-EditDate: 
+EditDate: 2024-02-20
 Relates: "[[Business Requirements Life cycle]]"
 ---
 1. **Gathering Requirements:**

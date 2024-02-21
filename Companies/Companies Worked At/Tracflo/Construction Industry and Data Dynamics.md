@@ -2,10 +2,11 @@
 tags:
   - dev
   - Domain
+  - example
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Capture
+Comments: This documentation discusses the relationship between data point in the construction industry.
+Status: Done
 Started: 2023-12-12
 EditDate: 
 Relates: "[[Tracflo & Construction Industry]]"

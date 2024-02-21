@@ -1,12 +1,15 @@
 ---
 tags:
+  - career
+  - employment
   - questions
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Capture
+  - chatgpt
+Comments: This documentation discusses the coffee chat.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 1. Immerse yourself in information about the person, their company, and the industry or technology they're involved in.

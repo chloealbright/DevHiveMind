@@ -1,11 +1,16 @@
 ---
-tags: 
+tags:
+  - career
+  - bsa
+  - dev
+  - companies
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Capture
+  - chatgpt
+Comments: This documentation discusses lessons learnt from working at TD bank.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates: "[[Experience Script]]"
 ---
 When joining an enterprise company, such as a bank, you may find that the process of running code is not always straightforward. The standard development environment provided may not be sufficient. For instance, you might need to be added to specific Active Directory (AD) groups or be placed under a particular domain to ensure smooth code development and access to necessary resources.

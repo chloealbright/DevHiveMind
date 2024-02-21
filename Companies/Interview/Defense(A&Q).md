@@ -1,12 +1,15 @@
 ---
 tags:
+  - career
+  - employment
   - questions
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Express
+  - chatgpt
+Comments: This documentation discusses question you will answer.
+Status: Perpetual
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 ![[Defense.gif]]
@@ -14,9 +17,9 @@ Relates:
 ## Technical Questions to Answer
 **Bring energy and a little comedy be social like they are your friends but not to much
 ### Starting Questions
-
-2. What have you been doing recently?
-3. Tell me about yourself.
+1. What have you been doing recently?
+2. Tell me about yourself.
+3. what is your tech stack?
 
 ### Assessing Collaboration and Conflict Resolution
 

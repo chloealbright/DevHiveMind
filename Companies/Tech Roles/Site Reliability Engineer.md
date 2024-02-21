@@ -1,11 +1,14 @@
 ---
-tags: 
+tags:
+  - career
+  - employment
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+  - chatgpt
+Comments: This documentation discusses responsibilities of a site reliability engineer.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 A Site Reliability Engineer (SRE) is a professional who is responsible for designing, implementing, and maintaining reliable and scalable systems and services in a company's infrastructure. The goal of an SRE is to ensure that the systems and services are available, reliable, and performant for the end-users.

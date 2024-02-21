@@ -1,11 +1,14 @@
 ---
-tags: 
+tags:
+  - career
+  - employment
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+  - chatgpt
+Comments: This documentation discusses responsibilities of a escalation engineer.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 An Escalation Engineer is a technical expert who is responsible for handling and resolving complex customer issues that have been escalated from lower levels of support. They are typically part of a company's customer support or technical support team and have extensive knowledge and expertise in the product or service they support.

@@ -1,12 +1,14 @@
 ---
-tags: 
+tags:
+  - career
+  - employment
 author:
   - jacgit18
   - chatgpt
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses responsibilities of a sales engineer.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 **Elevating Sales Excellence: Core Responsibilities of Sales Engineers**

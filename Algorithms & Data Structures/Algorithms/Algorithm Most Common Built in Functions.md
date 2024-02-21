@@ -69,6 +69,30 @@ let reg = newSring.replace(/\d/g, "")  
 ### String 
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) 
+
+## Split
+```javascript
+let name = "Alphonse Gabriel Capone";
+
+.split() 
+.split(separator) 
+.split(separator, limit) 
+
+let nameArray = name.split(' ') 
+["Alphonse", "Gabriel", "Capone"]
+
+const spltNames ={ 
+
+     firstName:  nameArray[0], 
+
+     middleName: nameArray[1], 
+
+     lastName: nameArray[2] 
+} 
+
+```
+
+
 ```javascript
 charCodeAt(a) = 97 
 
@@ -108,26 +132,10 @@ So, `""` is an empty string, while `" "` is a string with a space character in i
 [https://regexlearn.com/cheatsheet](https://regexlearn.com/cheatsheet) 
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) 
-```javascript
+
 String.match(regexp) or .matchAll(regexp) 
 
-String.split() .split(separator) .split(separator, limit) 
-
-let name = "Alphonse Gabriel Capone";                                                                 
-
-let nameArray = name.split(' ') 
-
-const spltNames ={ 
-
-     firstName:  nameArray[0], 
-
-     middleName: nameArray[1], 
-
-     lastName: nameArray[2] 
-
-} 
-
-    console.log (spltNames) 
+```javascript
 
 String.search(regexp) 
 

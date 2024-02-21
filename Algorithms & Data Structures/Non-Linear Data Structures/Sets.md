@@ -44,13 +44,16 @@ Sets are commonly used for eliminating duplicates and can accommodate arrays, st
 # Traversing a Set
 
 ```javascript
-const myArray = [1, 2, 3, 4, 5, 5];  
-const mySet = new Set();  
 const mySet = new Set(iterable like an array goes here or object if you want to iterate);
 const mySet = new Set([]);
 const mySet = new Set("hello");
-  
-// Adding values from the array into the set during each iteration  
+```
+
+##### Adding values from the array into the set during each iteration  
+```javascript
+const myArray = [1, 2, 3, 4, 5, 5];  
+const mySet = new Set();    
+
 for (const value of myArray) {  
 mySet.add(value);  
 }  
@@ -60,8 +63,6 @@ const valuesInSet = Array.from(mySet);
   
 // Calculate the sum using reduce  
 const sum = valuesInSet.reduce((acc, value) => acc + value, 0);  
-  
-console.log(sum);
 ```
 
 In JavaScript, the `Set` object itself doesn't provide a built-in way to iterate directly like arrays or other iterable structures. However, you can use the `forEach` method available on the `Set` prototype to iterate over its elements. Here's an example:

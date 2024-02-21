@@ -102,7 +102,7 @@
 		{"id":"6076563a4e4481d8","type":"text","text":"[[Algorithm Most Common Built in Functions#Array to String |join]] return string","x":1026,"y":970,"width":382,"height":60,"color":"2"},
 		{"id":"9f3e9abaa905df55","type":"text","text":"### Vairiable","x":1235,"y":787,"width":244,"height":55},
 		{"id":"d7df8a358d5c2c76","type":"text","text":"## Array  ","x":-303,"y":580,"width":170,"height":53,"color":"3"},
-		{"id":"0d697435e2e19a71","type":"text","text":"Filter","x":612,"y":815,"width":250,"height":60,"color":"3"}
+		{"id":"0d697435e2e19a71","type":"text","text":"[[Algorithm Most Common Built in Functions#Array Filter|Filter]]","x":612,"y":815,"width":250,"height":60,"color":"3"}
 	],
 	"edges":[
 		{"id":"96d016acd65b0fff","fromNode":"ca62e46b96c8640f","fromSide":"right","toNode":"fd325d709a909001","toSide":"left","color":"2"},

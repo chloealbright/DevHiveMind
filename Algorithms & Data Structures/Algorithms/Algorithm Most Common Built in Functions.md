@@ -203,13 +203,19 @@ Array.toString() method returns a string representing the specified array  
 
 ```
 
-### Callback function supports these params thisArg is Optional                                                                 #### Array Filter
-test if every element in array pass a condition return new array with the elements that pass the test or empty array if failed 
+### Callback function supports these params thisArg is Optional                                                                
+
+#### Array Filter
+This method empowers you to assess if each element in an array meets a specific condition, yielding a new array with the elements that fulfill the test or an empty array if the condition isn't met.
 ```javascript
-Array.filter()
+const words = ["apple", "banana", "grape", "kiwi"];
+const shortWords = words.filter(word => word.length < 6);
+// Result: shortWords = ["apple", "grape", "kiwi"]
 ```
 
-```
+
+
+
 
 ```javascript
 (element, index, array) =>  Arrow function                                                                       

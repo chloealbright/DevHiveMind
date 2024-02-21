@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"6aafc9b8ff9e7da6","type":"group","x":2120,"y":800,"width":2897,"height":2130,"label":"Search"},
+		{"id":"6aafc9b8ff9e7da6","type":"group","x":2120,"y":800,"width":3200,"height":2130,"label":"Search"},
 		{"id":"96e0f61d45cf77af","type":"group","x":2680,"y":-840,"width":2820,"height":1545,"label":"Sort"},
 		{"id":"36e3306da4ab28f3","type":"group","x":3600,"y":880,"width":860,"height":1234,"color":"4","label":"Untitled group"},
 		{"id":"0d5b4a3713b13319","type":"group","x":2576,"y":1665,"width":993,"height":775,"color":"5","label":"Untitled group"},
@@ -63,7 +63,7 @@
 		{"id":"a050f55a75371808","type":"text","text":"#### Iterative","x":3083,"y":2304,"width":250,"height":60},
 		{"id":"b1e779e076ec0d1c","type":"text","text":"#### Recursive","x":2747,"y":2304,"width":250,"height":60},
 		{"id":"7a53bfbf82b1e9fa","type":"file","file":"_NoteAssets/Images To Move/1D Array.png","x":3685,"y":1273,"width":212,"height":64},
-		{"id":"56c29e39a438b323","type":"text","text":"## Array","x":3748,"y":1130,"width":250,"height":60},
+		{"id":"56c29e39a438b323","type":"text","text":"## Array","x":3748,"y":1130,"width":250,"height":60,"color":"3"},
 		{"id":"239591fa02eeff5c","type":"text","text":"  ```javascript\n  const length = array.length;\n  const middle = Math.floor(length / 2);\n  const left = array.slice(0, middle);\n  const right = array.slice(middle);\n  ```\n","x":4155,"y":2488,"width":677,"height":179},
 		{"id":"2e8b93c2e6c70435","type":"text","text":"## Sorting","x":3904,"y":46,"width":250,"height":60},
 		{"id":"bc929a986562ba89","type":"text","text":"## Queues","x":4180,"y":1130,"width":250,"height":57},
@@ -79,8 +79,6 @@
 		{"id":"8e877835b7fc6dca","type":"text","text":"![[Quick Sort]]","x":3080,"y":-793,"width":909,"height":544},
 		{"id":"4dba084e7c3d76be","type":"text","text":"# [[Iterating vs Traversing#^5bf9d2|Traversalbe]]","x":3835,"y":893,"width":470,"height":60},
 		{"id":"4d6bed29ee7ed731","type":"text","text":"# Search Algorithm","x":4523,"y":1711,"width":440,"height":80},
-		{"id":"92104a1f8dfd0cba","type":"file","file":"Algorithms & Data Structures/_Infographic/2D Array.png","x":4583,"y":1044,"width":320,"height":229},
-		{"id":"02ce8d9440662a5c","type":"text","text":"","x":4618,"y":1410,"width":250,"height":60},
 		{"id":"f81ef82171007f38","type":"text","text":"### BFS","x":4618,"y":2054,"width":250,"height":60},
 		{"id":"ba278a9ba0cac62b","type":"text","text":"### DFS","x":4618,"y":2175,"width":250,"height":60},
 		{"id":"39c0b7eb30f870f6","type":"text","text":"# [[Key Base Attributes of  Grokking Algorithm patterns#Cyclic Sort |Cyclic Sort]]","x":2740,"y":-160,"width":484,"height":60},
@@ -99,7 +97,12 @@
 		{"id":"925f617c16d777c7","type":"text","text":"#### [[Algorithm Most Common Built in Functions#Min |Min]]","x":1954,"y":-551,"width":125,"height":60},
 		{"id":"af8b533555b5f509","type":"text","text":"# [[Iterating vs Traversing#^e9021e|Iterable]]","x":2280,"y":950,"width":500,"height":50},
 		{"id":"95dce9009e359e66","type":"text","text":"## Deletion","x":4838,"y":3320,"width":250,"height":60},
-		{"id":"6dae9f36d2eff64c","type":"text","text":"","x":4554,"y":863,"width":250,"height":60}
+		{"id":"6dae9f36d2eff64c","type":"text","text":"##### Two-Dimensional Array","x":4554,"y":863,"width":386,"height":60,"color":"3"},
+		{"id":"92104a1f8dfd0cba","type":"file","file":"Algorithms & Data Structures/_Infographic/2D Array.png","x":4940,"y":1214,"width":320,"height":229},
+		{"id":"4317ae874cc61af1","x":4493,"y":1040,"width":250,"height":60,"color":"3","type":"text","text":"##### Nested Array"},
+		{"id":"84a011f6ec72751e","x":4940,"y":1010,"width":250,"height":60,"color":"3","type":"text","text":"##### Matrix"},
+		{"id":"02ce8d9440662a5c","type":"text","text":"##### Doubly","x":4554,"y":1213,"width":250,"height":60},
+		{"id":"3f2bd05759706b72","x":4631,"y":1334,"width":250,"height":60,"type":"text","text":"##### Circular"}
 	],
 	"edges":[
 		{"id":"96d016acd65b0fff","fromNode":"ca62e46b96c8640f","fromSide":"right","toNode":"fd325d709a909001","toSide":"left","color":"2"},
@@ -174,7 +177,7 @@
 		{"id":"83dda269aa1ffe17","fromNode":"bc929a986562ba89","fromSide":"top","toNode":"56c29e39a438b323","toSide":"top","color":"2"},
 		{"id":"05a0b119dfdcbb11","fromNode":"bc929a986562ba89","fromSide":"bottom","toNode":"1dddbf541fbab3f7","toSide":"top","color":"2"},
 		{"id":"c6e0eb1e25c97959","fromNode":"b0d5eb91409aab19","fromSide":"bottom","toNode":"1dddbf541fbab3f7","toSide":"bottom","color":"6"},
-		{"id":"25be32479b6b4005","fromNode":"56c29e39a438b323","fromSide":"right","toNode":"6dae9f36d2eff64c","toSide":"left"},
+		{"id":"25be32479b6b4005","fromNode":"56c29e39a438b323","fromSide":"right","toNode":"6dae9f36d2eff64c","toSide":"left","color":"3"},
 		{"id":"b5871b13641ec772","fromNode":"1dddbf541fbab3f7","fromSide":"right","toNode":"02ce8d9440662a5c","toSide":"left"},
 		{"id":"52e942922958415f","fromNode":"998645ac0a80e98a","fromSide":"right","toNode":"9da8c621c89f4817","toSide":"left","color":"3","label":"If rotated"},
 		{"id":"22b50b76f680bea0","fromNode":"f13012b2a9ed16e5","fromSide":"right","toNode":"d0c92a99295ec595","toSide":"left","color":"3"},
@@ -188,6 +191,9 @@
 		{"id":"ee1cc121e480192f","fromNode":"bc929a986562ba89","fromSide":"left","toNode":"16e92aeedfed376e","toSide":"top","color":"2"},
 		{"id":"8ccba85dd6492708","fromNode":"bc929a986562ba89","fromSide":"right","toNode":"95dce9009e359e66","toSide":"top","color":"2"},
 		{"id":"11b117ea6b121786","fromNode":"b0d5eb91409aab19","fromSide":"left","toNode":"16e92aeedfed376e","toSide":"top","color":"6"},
-		{"id":"4559502555142804","fromNode":"b0d5eb91409aab19","fromSide":"right","toNode":"95dce9009e359e66","toSide":"top","color":"6"}
+		{"id":"4559502555142804","fromNode":"b0d5eb91409aab19","fromSide":"right","toNode":"95dce9009e359e66","toSide":"top","color":"6"},
+		{"id":"f00292bd71401eef","fromNode":"56c29e39a438b323","fromSide":"right","toNode":"4317ae874cc61af1","toSide":"left","color":"3"},
+		{"id":"f10016b55a617373","fromNode":"6dae9f36d2eff64c","fromSide":"right","toNode":"84a011f6ec72751e","toSide":"top","color":"3"},
+		{"id":"18e805e0b5192f6a","fromNode":"1dddbf541fbab3f7","fromSide":"right","toNode":"3f2bd05759706b72","toSide":"left"}
 	]
 }

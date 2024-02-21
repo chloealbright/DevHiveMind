@@ -162,6 +162,14 @@ The string against which to match the regular expression. If the match succeeds,
 ## Common Array/Object Types 
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) 
+
+
+### Array to String 
+```javascript
+Array.join(optionalSeparator) 
+```
+
+
 ```javascript
 Array.entries() returns a new Array Iterator object that contains the key/value pairs for each index in the array. 
 
@@ -171,7 +179,7 @@ Array.flat(depth) depth is optional 
 
 Array.includes(searchElement, fromIndex(Optional))        
 
-Array.join(separator(Optional)) 
+
 
 Array.reverse() 
 
@@ -195,7 +203,13 @@ Array.toString() method returns a string representing the specified array  
 
 ```
 
-### Callback function supports these params thisArg is Optional                                                                   
+### Callback function supports these params thisArg is Optional                                                                 #### Array Filter
+test if every element in array pass a condition return new array with the elements that pass the test or empty array if failed 
+```javascript
+Array.filter()
+```
+
+```
 
 ```javascript
 (element, index, array) =>  Arrow function                                                                       
@@ -206,7 +220,7 @@ Array.toString() method returns a string representing the specified array  
 
 Array.every() test if every element in array pass a condition and returns a Boolean value. 
 
-Array.filter() test if every element in array pass a condition return new array with the elements that pass the test or empty array if failed 
+
 
 Array.find() or findIndex() returns the first element/index in the provided array that satisfies the provided testing function If no values satisfy the testing function, undefined/-1 is returned. 
 

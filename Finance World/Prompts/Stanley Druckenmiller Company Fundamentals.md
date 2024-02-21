@@ -1,10 +1,14 @@
 ---
-tags: 
+tags:
+  - ChatGpt
+  - finance
+  - AI
 author:
   - jacgit18
-Status: Capture
+Comments: This is a ChatGpt prompt for listing companies to potentially invest into.
+Status: Perpetual
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 Act as a Financial expert and look into the fundamentals of the given company using Stanley Druckenmiller approach explain the Business Model and take it in to account in the analysis, also consider  Annual Reports, Financial Statements, Competitive Landscape, Management Quality, Industry Analysis, SWOT Analysis, Macro-Economic Factors, Risks Assessment, Valuation, Earnings Quality, Debt Levels and Financial Health, Corporate Governance, Customer and Supplier Relationships, and current events

@@ -3,11 +3,14 @@ tags:
   - prompt
   - AI
   - ChatGpt
+  - databases
+  - query
 author:
   - jacgit18
-Status: 
+Comments: This is a ChatGpt prompt for databases.
+Status: Perpetual
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 create a process flow for a manager requesting for a new hire providing information like there name, job title, job level, location, and specific skills wanted for role in addition comparing the job level to a skill matrix with list of skills and things like priority, and proficiency level associated with specific job level for software engineers  

@@ -3,11 +3,13 @@ tags:
   - prompt
   - AI
   - ChatGpt
+  - testing
 author:
   - jacgit18
-Status: 
+Comments: This is a ChatGpt prompt for software test.
+Status: Perpetual
 Started: 
-EditDate: 
+EditDate: 2024-02-20
 Relates:
 ---
 

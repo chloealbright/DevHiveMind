@@ -77,6 +77,18 @@ Number.isNaN('4.567abcdefgh') = false          
 'ab'.charCodeAt() = 97 // default to zero
 ```
 
+#### Ends With
+```javascript
+const str1 = 'Cats are the best!';
+
+str1.endsWith('best!') // Expected output: true
+str1.endsWith('best', 17)// Expected output: true
+
+const str2 = 'Is this a question?';
+str2.endsWith('question');// Expected output: false
+
+```
+
 #### Split
 ```javascript
 let name = "Alphonse Gabriel Capone";

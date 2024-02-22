@@ -3,6 +3,8 @@ tags:
   - prompt
   - AI
   - ChatGpt
+  - companies
+  - Writing
 author:
   - jacgit18
 Status: 

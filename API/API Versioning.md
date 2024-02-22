@@ -2,11 +2,11 @@
 tags: 
 author:
   - jacgit18
+Comments: This documentation discusses
 Status: Capture
 Started: 
 EditDate: 
-Relates: 
-Comments: This documentation discusses
+Relates:
 ---
 𝗪𝗵𝗮𝘁 𝗶𝘀 𝗔𝗣𝗜 𝘃𝗲𝗿𝘀𝗶𝗼𝗻𝗶𝗻𝗴, 𝗮𝗻𝗱 𝘄𝗵𝘆 𝗶𝘀 𝗶𝘁 𝗶𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁?  
   

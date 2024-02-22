@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - Docker
 author:
   - jacgit18
 Status: Capture

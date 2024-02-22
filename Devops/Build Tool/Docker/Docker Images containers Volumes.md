@@ -48,7 +48,7 @@ Containers are running instances of images
 
 ![[Kernal OS.jpg]]
 
-![[Namespace docker.jpg]]
+
 
 ![[Control Groups.jpg]]
 ## Volumes:

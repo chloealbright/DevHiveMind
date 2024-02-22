@@ -1,13 +1,12 @@
 ---
 tags:
-  - devops
   - Docker
 author:
   - jacgit18
 Comments: This documentation discusses
 Status: 
 Started: 
-EditDate: 
+EditDate: 2024-02-22
 Relates:
 ---
 Containerizing [[microservices]] enhances isolation, with two "COPY" commands aiding dependencies through layered caching in Docker. Leveraging official Docker images from companies or technologies, such as the node official image, ensures reliability.

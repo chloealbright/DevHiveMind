@@ -1,7 +1,9 @@
 ---
-tags: 
+tags:
+  - devops
 author:
   - jacgit18
+Comments: This documentation discusses
 Status: Refinement
 Started: 
 EditDate: 
@@ -12,9 +14,7 @@ Relates:
 
 
 
-Tries to remove roadblocks in terms of the different processes in software development from the idea stage to the implementation to the testing to the building to the deployment and observation of the system 
 
-By automating and streamlining processes optimizing the system 
 
 Developer and operation managers work together to close the gap to do this I suppose that I'm working separately in terms of developers working on new features and operations maintaining the system that is there 
 

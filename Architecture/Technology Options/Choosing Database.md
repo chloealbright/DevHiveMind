@@ -1,11 +1,14 @@
 ---
-tags: 
+tags:
+  - databases
+  - systemDesign
 author:
   - jacgit18
+  - chatgpt
 Comments: Guide to selecting a database.
 Status: Refinement
 Started: 
-EditDate: 
+EditDate: 2024-01-02
 Relates:
 ---
 ![[Structured vs Unstructured Data.webp]]

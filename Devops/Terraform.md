@@ -1,8 +1,10 @@
 ---
-tags: 
+tags:
+  - devops
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses
+Status: Refinement
 Started: 
 EditDate: 
 Relates:

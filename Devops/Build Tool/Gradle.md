@@ -1,78 +1,63 @@
 ---
-tags: 
+tags:
+  - devops
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses what Gradle is.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-22
 Relates:
 ---
-Gradle uses DSL over xml which is for Maven  
-  
-  
-There Are tools that convert gradle to Maven and vice versa in terms of the pom XML and the gradle build file
+Gradle employs a domain-specific language (DSL) rather than XML, a departure from Maven's XML-centric approach. There are tools available to convert Gradle to Maven and vice versa, translating between Gradle build files and Maven's pom XML.
 
+**Gradle Overview:**
+- Created in 2008 to address Maven's limitations.
+- Utilizes a Groovy-based DSL for build scripts, enhancing readability and conciseness.
+- Offers a customizable build model directly from the script, allowing dynamic addition of custom build logic.
 
--   What is Gradle? 
-    
--   Explain Gradle’s Build Lifecycle. 
-    
--   What is the use of the Gradle Java Plugin? 
-    
--   How do you create a build scan in Gradle? 
-    
--   Why would you choose Gradle over Maven or Ant? While choosing one build tool over the other would depend on the project requirements and protocol to be followed, Gradle has some distinct advantages over the other two tools. 
-    
-    -   It combines the flexibility of Ant and convention over the configuration capabilities of Maven 
-        
-    -   It checks for updates in inputs and outputs and executes incremental builds. Hence a faster build time 
-        
-    -   Uses Groovy, a DSL that is easy to read and write in 
-        
--   What is the equivalent of Pom.xml (Maven) in Gradle? What is the build script file name? 
-    
--   What is the difference between a Gradle Build.gradle script and a Maven build.xml script?
+**Gradle's Build Lifecycle:**
+- Introduces an incremental build feature for faster application building, particularly advantageous for minor code changes.
 
+**Gradle Java Plugin:**
+- Enhances flexibility with a code-based build script, replacing Maven's XML verbosity.
+- Supports easy customization of the build model within the script itself.
 
+**Creating a Build Scan in Gradle:**
+- Gradle allows the creation of build scans to analyze and optimize builds.
 
-Gradle was created in 2008 to solve some of the shortcomings of building projects with Maven.
+**Choosing Gradle Over Maven or Ant:**
+- Gradle combines Ant's flexibility with Maven's convention over configuration.
+- Implements efficient input and output checks for incremental builds, resulting in faster build times.
+- Utilizes Groovy, a DSL known for its readability and ease of use.
 
-Gradle’s founder, Hans Dockter, took inspiration from Maven but had a vision for a more modern build tool. The main features he added included:
+**Equivalent of Pom.xml in Gradle:**
+- The equivalent to Maven's pom.xml in Gradle is the build.gradle script. It defines project configurations in Groovy or Kotlin.
 
-	code-based build script to replace XML build file: using the Groovy language (and now Kotlin) makes defining build configurations less verbose than using lengthy XML tags
+**Difference Between Gradle Build.gradle and Maven build.xml:**
+- Gradle's build.gradle script is code-based, leveraging a DSL for conciseness.
+- Maven's build.xml script, in contrast, is XML-centric and may require separate plugins for customizations.
 
-	easily customisable build model: this is modified directly from the build script. Add custom build logic on the fly without having to develop a separate plugin (see Maven vs. Gradle customisation comparison below).
-
-	incremental build and other performance enhancements: makes building applications much faster, especially when making minor code changes that don’t require a full rebuild (see Gradle vs. Maven performance comparison below).
+Hans Dockter, Gradle's founder, envisioned a modern build tool with a code-based build script, incremental builds, and an easily customizable build model, addressing Maven's limitations and contributing to improved performance.
 
 ![[Gradle Timeline.png]]
 
-Gradle also runs inside the JVM. Out-of-the-box it supports building Java, Groovy, Scala, and even C++ applications. 3rd party plugins can be used for other languages like Kotlin.
+Gradle operates within the JVM and natively supports building Java, Groovy, Scala, and even C++ applications. Third-party plugins extend its capabilities to languages like Kotlin.
 
-With Gradle you decide if you want to write build scripts in Groovy or Kotlin. There are lots of similarities between the 2 languages.
+The flexibility of Gradle allows developers to choose between writing build scripts in Groovy or Kotlin, both sharing numerous similarities. These build scripts encompass essential configurations such as project details, applied plugins, and application dependencies.
 
-The build scripts contain configuration such as:
+In Gradle, a "task" represents a unit of work in the build process, equivalent to a Maven goal. Interacting with Gradle is facilitated through the Gradle CLI. For instance, executing `./gradlew test` triggers tasks like compiling code (`classes`), compiling test code (`testClasses`), and running tests (`test`).
 
--   the project’s group, name, and version
--   the plugins to apply
--   dependencies of the application
+Gradle organizes tasks in a task graph, enabling task dependencies. It ensures each task executes at most once, optimizing build efficiency by skipping tasks previously executed in unchanged conditions.
 
-In Gradle a task is a unit of work to get done in your build. It’s the equivalent of a Maven goal.
+As an open-source tool distributed under the Apache License, Gradle is free to use. Gradle Inc. maintains it and offers additional products and services through their paid Gradle Enterprise service.
 
-Once the build script is created, you can interact with Gradle via the Gradle CLI. Running ./gradlew test executes all tasks required to test your application, including:
+## Project Structure:
 
--   classes: compiles code and copies resources
--   testClasses: compiles all test code and copies test resources
--   test: actually runs the tests themselves
+Unlike Maven, Gradle necessitates additional files and directories in your repository:
 
-Gradle models all the tasks in your project in a task graph, where a task can have dependencies on other tasks. Gradle uses this to ensure each task executes at most once. If the task has been executed in a previous build and nothing has changed, Gradle saves time by not executing it again.
+1. **gradle directory:** Contains wrapper code and properties, crucial for the Gradle wrapper.
+2. **gradlew & gradlew.bat scripts:** Facilitate running a Gradle build via the wrapper.
+3. **settings.gradle:** Holds extra project settings like the project name.
 
-The Gradle build tool is an open-source free-to-use product, distributed under the Apache License. It’s maintained by Gradle Inc., who also offer other products and services as part of their paid Gradle Enterprise service.
-
-## Project structure
-
-Unlike Maven, Gradle requires several other files and directories to be added to your repository in addition to build.gradle.
-
-1.  gradle directory contains the wrapper code and properties (more on the Gradle wrapper shortly)
-2.  gradlew & gradlew.bat scripts for running a Gradle build via the wrapper
-3.  settings.gradle contains extra project settings like the project name
+This structure enhances Gradle's functionality and aligns with its philosophy of providing a customizable and efficient build system.

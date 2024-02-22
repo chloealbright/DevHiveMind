@@ -46,33 +46,51 @@ To meet CI/CD requirements, a dedicated server for running tasks minimizes unpre
 
 
 
-Gradle employs a domain-specific language (DSL) rather than XML, a departure from Maven's XML-centric approach. There are tools available to convert Gradle to Maven and vice versa, translating between Gradle build files and Maven's pom XML.
+## Build Then Deploy 
 
-**Gradle Overview:**
-- Created in 2008 to address Maven's limitations.
-- Utilizes a Groovy-based DSL for build scripts, enhancing readability and conciseness.
-- Offers a customizable build model directly from the script, allowing dynamic addition of custom build logic.
+The term Build is a generic term, that describes the overall process which includes compiling. In other words, the Compiler compiles and linker links the object files created by the compiler into e.g. an executable application (or a library). 
 
-**Gradle's Build Lifecycle:**
-- Introduces an incremental build feature for faster application building, particularly advantageous for minor code changes.
+A Building can (and usually does) involve several steps, such as pre-processing, compiling, linking, converting data files, running automated tests, packaging, etc. 
 
-**Gradle Java Plugin:**
-- Enhances flexibility with a code-based build script, replacing Maven's XML verbosity.
-- Supports easy customization of the build model within the script itself.
+Building is done when preparing an application for release 
 
-**Creating a Build Scan in Gradle:**
-- Gradle allows the creation of build scans to analyze and optimize builds.
+## Compile: 
 
-**Choosing Gradle Over Maven or Ant:**
-- Gradle combines Ant's flexibility with Maven's convention over configuration.
-- Implements efficient input and output checks for incremental builds, resulting in faster build times.
-- Utilizes Groovy, a DSL known for its readability and ease of use.
+	It is a more specific term. 
 
-**Equivalent of Pom.xml in Gradle:**
-- The equivalent to Maven's pom.xml in Gradle is the build.gradle script. It defines project configurations in Groovy or Kotlin.
+	It means that through the help of the compiler we convert the high-level language, i.e. source code into an object file. 
 
-**Difference Between Gradle Build.gradle and Maven build.xml:**
-- Gradle's build.gradle script is code-based, leveraging a DSL for conciseness.
-- Maven's build.xml script, in contrast, is XML-centric and may require separate plugins for customizations.
+	Compiling is part of a build process. 
 
-Hans Dockter, Gradle's founder, envisioned a modern build tool with a code-based build script, incremental builds, and an easily customizable build model, addressing Maven's limitations and contributing to improved performance.
+	Compiling is done at any time the compiler is involved in translating programming language code to machine code. 
+
+An artifact can be an archive file or a directory structure that includes the following structural elements: Compilation output for one or more of your modules. Libraries included in module dependencies. Collections of resources (web pages, images, descriptor files, and so on) 
+
+A developer could do this themselves, but it would be a tedious manual process involving: 
+
+	compiling the code 
+
+	packaging it up 
+
+	publishing the final artifact 
+
+Build tools automate these processes and make building software faster and simpler. 
+
+Due to the requirements of modern applications, Maven and Gradle also do a lot more. Including running the application locally, ensuring tests pass, analyzing the code, and much more. 
+
+### Maven vs. Gradle performance comparison 
+
+Gradle introduced several performance optimizations missing from Maven to improve build performance. 
+
+To see what difference they make, we’ll compare Maven vs. Gradle performance in these scenarios. 
+
+1.  clean, then full build with tests: simulates build on fresh code checkout or CI server 
+    
+2.  build with tests without clean: simulates rebuild with no changes 
+    
+3.  small code change, then build with tests: simulates rebuild after developer makes a change 
+    
+
+Each scenario was tested across the 2 project types below. An average was taken of 3 results. 
+
+Where the Gradle build task is shown below, the package phase was used in Maven. 

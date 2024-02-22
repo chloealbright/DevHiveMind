@@ -8,73 +8,45 @@ EditDate:
 Relates:
 ---
 ![[Maven v Gradle.png]]
+***Maven*** and ***Gradle*** belong to the realm of [[build]] tools, serving to automate the process of transforming application source code into publishable artifacts.
 
-Both ***Maven*** and ***Gradle*** fall into the category of build tools. They’re designed to automate the work involved to take your application’s source code and transform it into an ***artifact*** to be published. 
+In the JavaScript ecosystem, analogous tools include ***Yarn, NPM, PNPM, webpack bundler, gulp, babel, parcel, browserify, grunt, or requireJS.*** The term "build" corresponds to a diverse set of tools and processes, with the outfolder serving as a build folder for code execution in IntelliJ.
 
-In JavaScript the tools would be something like ***Yarn, NPM, PNPM, webpack bundler, gulp, babel, parcel, browserify, grunt, or requireJS ***
+In JavaScript, a bundler serves as the equivalent of a build tool. The meaning of "build" varies across languages; for interpreted languages like Python or Ruby, a build step may not be necessary. Generally, building involves preparing software to run on its intended platform. For instance, transpiling TypeScript to JavaScript in the case of a Node application or compiling code into an executable for languages like C and Rust.
 
-The outfolder is like a build folder for your code run in intelliJ
+Webpack, as explored in part 7, stands as the predominant tool for building production versions of React or other frontend JavaScript/TypeScript codebases. Its role encompasses complex tasks crucial for preparing code for deployment in a production environment.
 
-A bundler is JavaScript equivalent to a build tool 
+## Build and Deployment Process Clarification
 
-<mark style="background: #FFF3A3A6;">The term "build" has different meanings in different languages. In some interpreted languages such as Python or Ruby , there is actually no need for a build step at all. </mark>
+The term "Build" encompasses the comprehensive process, including compilation, where the compiler translates source code into object files linked by the linker, forming an executable application or library. Building involves multiple steps like pre-processing, compiling, linking, data file conversion, automated testing, and packaging, preparing an application for release.
 
-<mark style="background: #FFF3A3A6;">In general when we talk about building we mean preparing software to run on the platform where it's intended to run. This might mean, for example, that if you've written your application in TypeScript, and you intend to run it on Node, then the build step might be transpiling the TypeScript into JavaScript. </mark>
+### Compile:
 
-<mark style="background: #FFF3A3A6;">This step is much more complicated (and required) in compiled languages such as C and Rust where the code needs to be compiled into an executable. </mark>
+- A specific term referring to using a compiler to convert high-level source code into an object file.
+- Part of the broader build process.
+- Executed whenever the compiler translates programming language code into machine code.
 
-<mark style="background: #FFF3A3A6;">In part 7 we had a look at webpack that is the current de facto tool for building a production version of a React or any other frontend JavaScript or TypeScript codebase. 
-</mark>
+An artifact, the outcome of the build process, can be an archive file or a directory structure. It includes compilation output, libraries from module dependencies, and resource collections.
 
+While developers could manually perform these tasks, build tools like Maven and Gradle automate processes such as compilation, packaging, and artifact publication, streamlining software development.
 
-## ***Build*** Then ***Deploy*** 
+Modern applications' demands have extended Maven and Gradle's functionalities beyond basic building. They now handle tasks like local application execution, test verification, code analysis, and more.
 
-The term Build is a generic term, that describes the overall process which includes compiling. In other words, the Compiler compiles and linker links the object files created by the compiler into e.g. an executable application (or a library). 
+### Maven vs. Gradle Performance Comparison:
 
-A Building can (and usually does) involve several steps, such as pre-processing, compiling, linking, converting data files, running automated tests, packaging, etc. 
+Gradle has introduced performance optimizations, addressing gaps in Maven's capabilities. A comparison of Maven vs. Gradle performance considers scenarios like:
 
-Building is done when preparing an application for release 
+1. **Clean, then Full Build with Tests:**
+   - Simulates a build on fresh code checkout or CI server.
 
-## Compile: 
+2. **Build with Tests Without Clean:**
+   - Simulates a rebuild with no changes.
 
-	It is a more specific term. 
+3. **Small Code Change, Then Build with Tests:**
+   - Simulates a rebuild after a developer makes a change.
 
-	It means that through the help of the compiler we convert the high-level language, i.e. source code into an object file. 
+Testing was conducted across two project types, and an average of three results was considered for each scenario. In instances where the Gradle `build` task is mentioned, Maven's `package` phase was used for comparison. This performance analysis helps gauge the efficiency of Maven and Gradle in different build scenarios.
 
-	Compiling is part of a build process. 
-
-	Compiling is done at any time the compiler is involved in translating programming language code to machine code. 
-
-An artifact can be an archive file or a directory structure that includes the following structural elements: Compilation output for one or more of your modules. Libraries included in module dependencies. Collections of resources (web pages, images, descriptor files, and so on) 
-
-A developer could do this themselves, but it would be a tedious manual process involving: 
-
-	compiling the code 
-
-	packaging it up 
-
-	publishing the final artifact 
-
-Build tools automate these processes and make building software faster and simpler. 
-
-Due to the requirements of modern applications, Maven and Gradle also do a lot more. Including running the application locally, ensuring tests pass, analyzing the code, and much more. 
-
-### Maven vs. Gradle performance comparison 
-
-Gradle introduced several performance optimizations missing from Maven to improve build performance. 
-
-To see what difference they make, we’ll compare Maven vs. Gradle performance in these scenarios. 
-
-1.  clean, then full build with tests: simulates build on fresh code checkout or CI server 
-    
-2.  build with tests without clean: simulates rebuild with no changes 
-    
-3.  small code change, then build with tests: simulates rebuild after developer makes a change 
-    
-
-Each scenario was tested across the 2 project types below. An average was taken of 3 results. 
-
-Where the Gradle build task is shown below, the package phase was used in Maven. 
 
 ### Small Java project 
 10 subprojects each with 50 main classes and 50 test classes. 1,000 class total. 

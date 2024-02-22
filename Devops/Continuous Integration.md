@@ -46,51 +46,86 @@ To meet CI/CD requirements, a dedicated server for running tasks minimizes unpre
 
 
 
-## Build Then Deploy 
+## Maven vs. Gradle customization comparison
 
-The term Build is a generic term, that describes the overall process which includes compiling. In other words, the Compiler compiles and linker links the object files created by the compiler into e.g. an executable application (or a library). 
+Once your project is setup to compile your application and run the tests, you might want to add more functionality. Both Maven and Gradle offer plugins to, for example, run static code analysis on calculate test code coverage.
 
-A Building can (and usually does) involve several steps, such as pre-processing, compiling, linking, converting data files, running automated tests, packaging, etc. 
+What about further customisation though?
 
-Building is done when preparing an application for release 
+To customise a Maven build you only have 1 option, which is to write your own plugin. Writing custom plugins means creating a separate project and publishing the plugin artifact to be used in any project.
 
-## Compile: 
+With Gradle there are 3 levels of customisation.
 
-	It is a more specific term. 
+1.  build script: define tasks, methods, and classes to reuse within the build script
+2.  project: put code in the special buildSrc directory to reuse across multiple subprojects
+3.  cross-project: create a separate project and publish a reusable plugin, as with Maven
 
-	It means that through the help of the compiler we convert the high-level language, i.e. source code into an object file. 
+Customisation example
 
-	Compiling is part of a build process. 
+Gradle’s build script, coupled with its dynamic build model, allows more customisation than Maven. For example, we can easily register a task to print the dependency count.
 
-	Compiling is done at any time the compiler is involved in translating programming language code to machine code. 
+```
+tasks.register('countDependencies') {
+doLast { println "Dependency count: ${configurations.getByName('compileClasspath').getAllDependencies().size()}" 
+		}
+		 }
+```
 
-An artifact can be an archive file or a directory structure that includes the following structural elements: Compilation output for one or more of your modules. Libraries included in module dependencies. Collections of resources (web pages, images, descriptor files, and so on) 
+```
+$ ./gradlew countDependencies 
+> Task :countDependencies 
+> Dependency count: 6 BUILD SUCCESSFUL in 1s 
+> 1 actionable task: 1 executed
+```
 
-A developer could do this themselves, but it would be a tedious manual process involving: 
+To add similar custom behaviour in Maven involves creating an entire separate project.
 
-	compiling the code 
+Being able to reuse build logic so easily in Gradle is important to reduce duplication and improve maintainability, especially for larger multi-module projects.
 
-	packaging it up 
+Finally, both Maven and Gradle support multi-module projects for when your projects grows in size. In Maven the sub-modules are defined in the pom.xml build file itself whereas in Gradle they go in the settings.gradle file.
 
-	publishing the final artifact 
+Maven is used more but Gradle is getting more adoption
 
-Build tools automate these processes and make building software faster and simpler. 
+## Choosing between Maven & Gradle
 
-Due to the requirements of modern applications, Maven and Gradle also do a lot more. Including running the application locally, ensuring tests pass, analyzing the code, and much more. 
+Now you know the differences between Maven and Gradle, maybe you already have a preference?
 
-### Maven vs. Gradle performance comparison 
+If not, here are some further recommendations based on your situation.
 
-Gradle introduced several performance optimizations missing from Maven to improve build performance. 
+Using Gradle on a brand new project
 
-To see what difference they make, we’ll compare Maven vs. Gradle performance in these scenarios. 
+For a brand new project use Gradle instead of Maven, because it’s:
 
-1.  clean, then full build with tests: simulates build on fresh code checkout or CI server 
-    
-2.  build with tests without clean: simulates rebuild with no changes 
-    
-3.  small code change, then build with tests: simulates rebuild after developer makes a change 
-    
+-   faster
+-   more concise
+-   easier to customise
+-   promotes build code reuse
+-   improves the developer experience
 
-Each scenario was tested across the 2 project types below. An average was taken of 3 results. 
+In summary, Gradle increases developer productivity allowing businesses to more effectively add value to their customers.
 
-Where the Gradle build task is shown below, the package phase was used in Maven. 
+If you want to use Gradle for your next project and don’t know where to start, I recommend my extremely helpful all-in-one [Gradle Hero course](https://learn.tomgregory.com/courses/gradle-hero). It helps you master building Java applications with Gradle as quickly as possible.
+
+Considering a Maven to Gradle migration
+
+For a Maven to Gradle migration there are some other factors to consider.
+
+-   resourcing: Maven is more universally known than Gradle, so your team may take some time to get up to speed
+-   timeline: migrating projects takes time, so consider the lifespan of your application and the frequency you change it
+-   futureproof: Gradle is becoming more popular, has more active development, and has more modern features than Maven
+
+For an application that sees regular development, I recommend a migration to Gradle to save time for developers. If you consider all the development hours spent waiting for Maven builds to complete, suddenly the time investment to perform the migration can seem insignificant.
+
+Migrating your project might be quicker than you think. To learn about the steps involved see [How to do a Maven to Gradle migration on a Java Spring Boot project](https://tomgregory.com/how-to-do-a-maven-to-gradle-migration-on-a-java-spring-boot-project/).
+
+For applications that see very infrequent development (e.g. less than a few changes per year), sticking with Maven may still be the best option.
+
+For some inspiration, here’s the experience of the Spring Boot team who migrated from Maven to Gradle in early 2020.
+
+Migrating the build to Gradle has undoubtedly been a success. As noted above, a full Maven-based build was taking an hour or more, both on CI and on developers’ own machines. Over the last four weeks, the mean successful build time with Gradle has been 9 minutes 22 seconds, 
+
+Andy Wilkinson, [Migrating Spring Boot’s Build to Gradle](https://spring.io/blog/2020/06/08/migrating-spring-boot-s-build-to-gradle)
+
+Your team and Gradle
+
+If you know you want to migrate to Gradle, but need to convince your team, here are some benefits from different team-members’ perspectives.

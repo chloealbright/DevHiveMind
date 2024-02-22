@@ -67,10 +67,8 @@
 		{"id":"67bf976993c63b8e","type":"text","text":"#### [[Algorithm Most Common Built in Functions#Max |Max]]","x":1954,"y":-661,"width":125,"height":60},
 		{"id":"0daf4dc22e491943","type":"text","text":"#### [[Algorithm Most Common Built in Functions#Absolute value |Absolute value]]","x":1954,"y":-444,"width":349,"height":67},
 		{"id":"925f617c16d777c7","type":"text","text":"#### [[Algorithm Most Common Built in Functions#Min |Min]]","x":1954,"y":-551,"width":125,"height":60},
-		{"id":"7807d68b78e73016","type":"text","text":"#### [[Algorithm Most Common Built in Functions#Rounding Numbers |Rounding Numbers]]","x":1954,"y":-210,"width":366,"height":60},
 		{"id":"3efd06544de2a210","type":"text","text":"Can be reassigned","x":1568,"y":484,"width":323,"height":60},
-		{"id":"173f890c3551a66c","type":"text","text":"Fixed point","x":1908,"y":-103,"width":250,"height":60},
-		{"id":"62208d542ae9625c","type":"text","text":"parseFloat return only numbers","x":1809,"y":28,"width":391,"height":90},
+		{"id":"62208d542ae9625c","type":"text","text":"#### [[Algorithm Most Common Built in Functions#Number From String |String to Number]] ","x":1809,"y":28,"width":351,"height":60},
 		{"id":"e481161a3cfe55e8","type":"file","file":"Algorithms & Data Structures/_Coding Whiteboard/lc704.png","x":3200,"y":2521,"width":400,"height":292},
 		{"id":"3499ff7e5bb5953c","type":"text","text":"## **_Declarative_**","x":2142,"y":2244,"width":313,"height":60},
 		{"id":"92d089b44bebc434","type":"text","text":"# Update","x":3275,"y":3350,"width":250,"height":60},
@@ -105,7 +103,10 @@
 		{"id":"fd325d709a909001","type":"text","text":"### Length","x":1311,"y":461,"width":195,"height":53,"color":"5"},
 		{"id":"998645ac0a80e98a","type":"text","text":"### [[Partially Sorted]]","x":645,"y":625,"width":381,"height":60},
 		{"id":"d0c92a99295ec595","type":"text","text":"### Missing Values in Range","x":1714,"y":304,"width":354,"height":101},
-		{"id":"f13012b2a9ed16e5","type":"text","text":"### Unsorted","x":862,"y":401,"width":250,"height":60}
+		{"id":"f13012b2a9ed16e5","type":"text","text":"### Unsorted","x":862,"y":401,"width":250,"height":60},
+		{"id":"7807d68b78e73016","type":"text","text":"#### [[Algorithm Most Common Built in Functions#Rounding Numbers |Rounding Numbers]]","x":1834,"y":-340,"width":366,"height":60},
+		{"id":"173f890c3551a66c","type":"text","text":"#### [[Algorithm Most Common Built in Functions#Number Decimal place |Fixed Decimal Place]]","x":1882,"y":-241,"width":395,"height":60},
+		{"id":"46be2215c78bcc7c","x":1862,"y":-119,"width":250,"height":60,"type":"text","text":""}
 	],
 	"edges":[
 		{"id":"96d016acd65b0fff","fromNode":"ca62e46b96c8640f","fromSide":"right","toNode":"fd325d709a909001","toSide":"left","color":"2"},
@@ -202,6 +203,7 @@
 		{"id":"a020b377eae04d94","fromNode":"d2f1a8a1ed3d9acb","fromSide":"right","toNode":"ea00ba2f6fe54da5","toSide":"left","color":"4"},
 		{"id":"100a1f37b96c4b80","fromNode":"ea00ba2f6fe54da5","fromSide":"right","toNode":"62208d542ae9625c","toSide":"left","color":"#ff32c8","label":"Number"},
 		{"id":"42b50c05f79d1900","fromNode":"ca62e46b96c8640f","fromSide":"right","toNode":"ea00ba2f6fe54da5","toSide":"left","color":"2"},
-		{"id":"626fc8046e4c9c94","fromNode":"82d39e439eab49f0","fromSide":"bottom","toNode":"ea00ba2f6fe54da5","toSide":"top"}
+		{"id":"626fc8046e4c9c94","fromNode":"82d39e439eab49f0","fromSide":"bottom","toNode":"ea00ba2f6fe54da5","toSide":"top"},
+		{"id":"6d63ce0e517c1484","fromNode":"82d39e439eab49f0","fromSide":"right","toNode":"46be2215c78bcc7c","toSide":"left"}
 	]
 }

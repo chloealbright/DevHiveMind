@@ -50,21 +50,25 @@ Math.min(min...valueN) = min value  
 
 ## Common [[Primitive Types]]
 
-### Number 
+### Numbers
+
+#### Number Decimal place
 ```javascript
-123.456.toFixed() = 123                                                123.456.toFixed(1) = 123.5 automatically rounds 
-
-Number.parseFloat('4.567abcdefgh') = 4.567          
-Number.parseInt('4.567abcdefgh') = 4 
-
-// rm special characters 
-let text = "A(B){C};:a.b*!c??!1<>2@#3"                     let newSring = text.replace(/[\d\W_]+/g,"");
-// \d get rid of nums 
-let reg = newSring.replace(/\d/g, "")  
+123.456.toFixed() = 123           
+123.456.toFixed(1) = 123.5 automatically rounds 
 ```
 
+#### Number From String
+```javascript
+Number.parseFloat('4.567abcdefgh') = 4.567          
+Number.parseInt('4.567abcdefgh') = 4 
+```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt) 
+#### Check if Number
+```javascript
+Number.isNaN('4.567abcdefgh') = false          
+```
+
 
 ### String 
 
@@ -115,6 +119,13 @@ str.includes('searchString', 0))// true but false if 1 was passed array also has
 String.slice(beginIndex, endIndex(OPITIONAL) ) 
 
 toLowerCase() or toUpperCase() 
+
+
+// rm special characters 
+let text = "A(B){C};:a.b*!c??!1<>2@#3"                     let newSring = text.replace(/[\d\W_]+/g,"");
+// \d get rid of nums 
+let reg = newSring.replace(/\d/g, "")  
+
 ```
 
 The difference between `""` and `" "` lies in the content of the string.  

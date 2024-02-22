@@ -1,10 +1,12 @@
 ---
-tags: 
+tags:
+  - Docker
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses how docker compose and docker file work together.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-22
 Relates:
 ---
 Docker Compose and Dockerfile are two important components in the Docker ecosystem that work together to build and manage containerized applications. Here's an explanation of their relationship:  

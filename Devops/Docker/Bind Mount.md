@@ -3,7 +3,8 @@ tags:
   - Docker
 author:
   - jacgit18
-Status: Capture
+Comments: This documentation discusses the purpose of bind mounts.
+Status: Done
 Started: 2024-01-09
 EditDate: 
 Relates:

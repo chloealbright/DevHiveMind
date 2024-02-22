@@ -71,18 +71,30 @@ Number.isNaN('4.567abcdefgh') = false          
 
 
 ### String 
-#### Character Code
+#### Character to Ascii Code
 ```javascript
 'ab'.charCodeAt(1) = 98
 'ab'.charCodeAt() = 97 // default to zero
 ```
 
+
+#### Ascii Code to 
+```javascript
+'ab'.charCodeAt(1) = 98
+'ab'.charCodeAt() = 97 // default to zero
+```
+
+
 #### Ends With
 ```javascript
 const str1 = 'Cats are the best!';
 
+
 str1.endsWith('best!') // Expected output: true
 str1.endsWith('best', 17)// Expected output: true
+// best starts at index 13 but spelling is completed at index 17 or end of string
+
+// 'best' appears at or before the 17th
 
 const str2 = 'Is this a question?';
 str2.endsWith('question');// Expected output: false
@@ -109,9 +121,6 @@ const spltNames ={ 
 
 
 ```javascript
-
-
-charCodeAt(Num) to fromCharCode(Letter) 
 
 const alpha = Array.from(Array(26)).map((e, i) => i + 65); 
 

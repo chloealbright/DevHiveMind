@@ -1,6 +1,7 @@
 ---
 tags:
   - devops
+  - Docker
 author:
   - jacgit18
 Comments: This documentation discusses docker shims.

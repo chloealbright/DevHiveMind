@@ -1,10 +1,13 @@
 ---
-tags: 
+tags:
+  - devops
+  - Docker
 author:
   - jacgit18
+Comments: This documentation discusses
 Status: 
 Started: 
-EditDate: 
+EditDate: 2024-02-22
 Relates:
 ---
 In the context of Docker and operating systems, namespaces are a fundamental feature that provides process isolation and resource separation for running containers. Namespaces are a key building block that allows multiple processes to run in isolated environments, as if they were running on separate instances of the operating system. Each namespace encapsulates a specific aspect of the system's resources, creating a barrier that prevents processes in different namespaces from interfering with each other.

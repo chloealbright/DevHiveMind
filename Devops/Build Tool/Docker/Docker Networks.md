@@ -1,10 +1,13 @@
 ---
-tags: 
+tags:
+  - devops
+  - Docker
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses docker networks.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-22
 Relates:
 ---
 In Docker, networks play a crucial role in facilitating communication between containers. When you run multiple containers, they may need to communicate with each other for various reasons, such as sharing data or providing services.

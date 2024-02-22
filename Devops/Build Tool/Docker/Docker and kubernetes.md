@@ -7,10 +7,16 @@ Started:
 EditDate: 
 Relates:
 ---
-Docker and kubernetes can handle stateless and stateful apps  
-  
-  
-Stateless meaning doesn't have to remember anything  
-  
-  
-Stateful meaning has to remember stuff whether that's in a database or in variables in the code base
+Docker and Kubernetes are versatile tools capable of handling both stateless and stateful applications.
+
+- **Stateless Applications:**
+  - Stateless applications don't need to retain any information.
+  - They operate independently of previous interactions, making them easily scalable and resilient.
+  - Docker and Kubernetes efficiently manage the deployment and scaling of stateless applications.
+
+- **Stateful Applications:**
+  - Stateful applications need to remember information, whether stored in a database or variables within the code base.
+  - Docker and Kubernetes provide mechanisms like persistent volumes to manage stateful data.
+  - StatefulSets in Kubernetes are specifically designed to handle stateful workloads, ensuring stable network identities and persistent storage.
+
+In summary, Docker and Kubernetes offer a comprehensive solution for deploying and managing both stateless and stateful applications, addressing the diverse requirements of modern software architectures.

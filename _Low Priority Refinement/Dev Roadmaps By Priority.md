@@ -19,7 +19,7 @@ Relates:
 >[!note] Get to the level were you are doing 1 coding question a month while working full time
 - [ ] [[Clean Code]]
 	- [ ] Code Reusability
-- [ ] [[Design Patterns.pdf]]
+- [ ] [[Design Patterns Diagrams]]
 - [ ] [[Event Driven Architecture]] 
 - [ ] [[Domain-driven design]]depends on domain which may vary
 - [ ] [[Reactive programming]]
@@ -45,14 +45,13 @@ Relates:
 - [ ] [[nodejs.pdf]]
 - [ ] [[qa.pdf]]
 - [ ] [[react.pdf]]
-- [ ] [postgresql-dba](postgresql-dba.pdf)
+- [ ] [[postgresql-dba.pdf]]
 - [ ] [[Linux Learning Plan]]
 
 #todo/Low/Dev 
 - [ ] [[computer-science.pdf]]
 - [ ] [[devops.pdf]]
-- [ ] [Tech Things to Research](Tech%20Things%20to%20Research.md)
-
+- [ ] [[Tech Things to Research]]
 
 
 

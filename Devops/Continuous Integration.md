@@ -1,13 +1,15 @@
 ---
-tags: 
+tags:
+  - devops
 author:
   - jacgit18
+Comments: This documentation discusses CI/CD.
 Status: 
 Started: 
 EditDate: 
 Relates:
 ---
-## **Continuous Integration (CI) and Deployment (CI/CD): Bridging the Gap**
+### Continuous Integration & Deployment
 
 CI, strictly defined, involves frequently merging developer changes into the main branch, often "several times a day." While CI encompasses steps like linting, building, testing, packaging, and deployment, the industry often focuses on what occurs post-merge.
 
@@ -15,7 +17,7 @@ In practical CI, the process may deviate from strict definitions to foster devel
 
 While deployment isn't inherently part of the CI process, real-world scenarios demand considerations. Testing packages during CI ensures code integrity, even if deployment actions are deferred. The deployment process should ideally remain consistent across different branches, promoting efficiency and reliability.
 
-### **Continuous Delivery (CD) and Continuous Deployment (CD): Defining the Practice**
+#### Continuous Delivery & Continuous Deployment  
 
 The terms **Continuous Delivery** and **Continuous Deployment** (CD) describe CI practices that extend to deployments. CD ensures the main branch is deployable continuously, often coupled with automated deployments triggered by merges into the main branch.
 

@@ -3,7 +3,7 @@ tags:
   - devops
 author:
   - jacgit18
-Comments: This documentation discusses what are
+Comments: This documentation discusses what are Hypervisors.
 Status: Done
 Started: 
 EditDate: 2024-02-22

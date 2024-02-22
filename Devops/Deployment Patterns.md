@@ -1,10 +1,13 @@
 ---
-tags: 
+tags:
+  - devops
+  - pattern
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses deployment patterns.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-22
 Relates:
 ---
 ![[Deployment Patterns.jpeg]]

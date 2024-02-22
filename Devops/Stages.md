@@ -27,10 +27,10 @@ DevOps facilitates rapid releases, but for stability, the role of a [[Site Relia
 A feedback loop is exemplified when unit tests within the pipeline identify issues, signaling that the code isn't production-ready.
 
 **Components of an Excellent Pipeline:**
-A robust pipeline involves compiling and testing code (Continuous Integration), producing a deployable artifact (Continuous Delivery), and automatic application deployment (Continuous Deployment).
+A robust pipeline involves compiling and testing code ([[Continuous Integration]]), producing a [[Deployment Artifacts|deployable artifact]] (Continuous Delivery), and automatic application deployment (Continuous Deployment).
 
 **Automated Trigger:**
-The best pipelines automatically trigger upon code commits, either through polling or webhooks, ensuring seamless and consistent execution.
+The best pipelines automatically trigger upon code commits, either through [[Webhooks vs Polling |Polling or Webhooks]], ensuring seamless and consistent execution.
 
 **Code Checkout:**
 The CI server checks out code from the source repository based on the triggered commit, initiating the pipeline.

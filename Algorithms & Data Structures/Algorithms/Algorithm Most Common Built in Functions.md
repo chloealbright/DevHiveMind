@@ -71,10 +71,13 @@ Number.isNaN('4.567abcdefgh') = false          
 
 
 ### String 
+#### Character Code
+```javascript
+'ab'.charCodeAt(1) = 98
+'ab'.charCodeAt() = 97 // default to zero
+```
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) 
-
-## Split
+#### Split
 ```javascript
 let name = "Alphonse Gabriel Capone";
 
@@ -86,18 +89,15 @@ let nameArray = name.split(' ') 
 ["Alphonse", "Gabriel", "Capone"]
 
 const spltNames ={ 
-
      firstName:  nameArray[0], 
-
      middleName: nameArray[1], 
-
      lastName: nameArray[2] 
 } 
 ```
 
 
 ```javascript
-charCodeAt(a) = 97 
+
 
 charCodeAt(Num) to fromCharCode(Letter) 
 
@@ -135,7 +135,7 @@ The difference between `""` and `" "` lies in the content of the string.
   
 So, `""` is an empty string, while `" "` is a string with a space character in it.
 
-### String Regex 
+#### String Regex 
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) 
 

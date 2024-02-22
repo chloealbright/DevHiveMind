@@ -1,10 +1,13 @@
 ---
-tags: 
+tags:
+  - devops
+  - Docker
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses Open Container Initiative.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-22
 Relates:
 ---
 OCI stands for "Open Container Initiative," which is an open-source project focused on establishing industry standards for container formats and runtime. The goal of the OCI is to ensure that containers are vendor-neutral, interoperable, and can be easily created, distributed, and run across different container runtimes and platforms.

@@ -1,10 +1,13 @@
 ---
-tags: 
+tags:
+  - devops
+  - Docker
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses uses cases of Docker volumes.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-22
 Relates:
 ---
 Docker volumes are a way to manage and persist data in Docker containers. They are crucial for handling data that needs to persist beyond the lifecycle of a single container. Here are some potential use cases for Docker volumes:  

@@ -1,10 +1,13 @@
 ---
-tags: 
+tags:
+  - devops
+  - Docker
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses difference between Dockerd and Containerd.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-22
 Relates:
 ---
 Docker and dockerd, as well as container and containerd, are related terms in the context of containerization and container management, but they refer to different components within the container ecosystem.

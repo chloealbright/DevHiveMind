@@ -12,22 +12,9 @@ Relates:
 
 ![[Docker.png]]
 
-Use Docker prune to start from scratch when dealing with a bad image
-
-  
-Use Alpine image if you want to build a custom image so you've build off to something clean  
-  
-  
-Avoid using latest because I might not actually be the latest
 
 
-Do a Docker image command to make sure your images are correct meaning if you pull latest or some other tag it can appear as two individual images for some reason  
-  
-  
-To verify this you can do a darker image LS dash dash digests to compare the digest to see if they're the same especially if you have multiple images showing up  
-  
-  
-One image can have multiple tags associated with that's why you should do this often to verify
+
 
 ## Docker Images:
 
@@ -49,10 +36,6 @@ Containers are running instances of images
 ![[Kernal OS.jpg]]
 
 
-
-![[Control Groups.jpg]]
-## Volumes:
-Volumes in Docker are a way to manage persistent data. A volume is a directory or file that exists outside the container's filesystem but can be accessed and used by the container. Volumes are used to store data that needs to persist across container restarts, updates, or removals. They are especially useful for databases, configuration files, and other stateful data.  
   
 ### Relationships:  
 - Docker Images and Containers: Docker images serve as blueprints for creating containers. Containers are instantiated from Docker images. Each container runs an instance of an image, allowing you to run multiple instances of the same application with isolated environments.  

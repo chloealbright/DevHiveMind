@@ -1,6 +1,5 @@
 ---
 tags:
-  - devops
   - Docker
 author:
   - jacgit18
@@ -10,7 +9,9 @@ Started:
 EditDate: 2024-02-22
 Relates:
 ---
-Docker volumes are a way to manage and persist data in Docker containers. They are crucial for handling data that needs to persist beyond the lifecycle of a single container. Here are some potential use cases for Docker volumes:  
+ Docker volumes are essential for effectively managing and persisting data within Docker containers, particularly when that data needs to endure beyond the lifespan of a single container. In Docker, volumes represent directories or files external to the container's filesystem, providing a means for the container to access and utilize them. This functionality proves crucial for storing data that must endure across container restarts, updates, or removals, making volumes particularly valuable for managing databases, configuration files, and other forms of stateful data.
+
+## Volumes use cases  
   
 1. **Database Data**: Docker volumes can store database files, ensuring that data remains persistent even if the database container is removed or replaced. This is useful for databases like MySQL, PostgreSQL, or MongoDB.  
   

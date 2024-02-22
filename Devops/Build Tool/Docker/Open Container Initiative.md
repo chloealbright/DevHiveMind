@@ -1,6 +1,5 @@
 ---
 tags:
-  - devops
   - Docker
 author:
   - jacgit18

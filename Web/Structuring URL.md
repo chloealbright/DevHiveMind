@@ -15,7 +15,7 @@ Relates:
 ---
 ![[URL Structure.jpeg]]
 
-A URI, or Universal Resource Identifier, is a concise character sequence identifying an abstract or physical resource. It serves as a versatile method for naming and locating web resources. Official examples highlight that any character sequence identifying a resource is considered a URI. The whole thing is considered the URI so `scheme/protocol` to the`Anchor/Fragment` which is optional this identifies something specific as a function of the [[Structuring URL#Document |document]].
+A URI, or Universal Resource Identifier, is a concise character sequence identifying an abstract or physical resource. It serves as a versatile method for naming and locating web resources. Official examples highlight that any character sequence identifying a resource is considered a URI. The whole thing is considered the URI so `scheme/protocol` to the`Anchor/Fragment` which is optional this identifies something specific as a function of the [[Structuring URL#Document |document]]. ^9e3d3d
 
 URL(Universal Resource Locator), a subset or URI that is used to find resources on the internet starts at  the`scheme/protocol` common ones are `HTTP` or `HTTPS`,  URL  ends at query `parameter` which consist of query string separator `?` and [[URI Query Design |Query String]] parameter. The URL also details access methods like HTTP or FTP.
 

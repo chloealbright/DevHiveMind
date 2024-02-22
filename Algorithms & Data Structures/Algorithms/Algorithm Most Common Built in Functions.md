@@ -91,14 +91,14 @@ String.fromCharCode() = '' // empty string
 const str1 = 'Cats are the best!';
 
 
-str1.endsWith('best!') // Expected output: true
-str1.endsWith('best', 17)// Expected output: true
+str1.endsWith('best!') // output: true
+str1.endsWith('best', 17)// output: true
 // best starts at index 13 but spelling is completed at index 17 or end of string
 
 // 'best' appears at or before the 17th
 
 const str2 = 'Is this a question?';
-str2.endsWith('question');// Expected output: false
+str2.endsWith('question');// output: false
 
 ```
 
@@ -118,6 +118,15 @@ const spltNames ={ 
      middleName: nameArray[1], 
      lastName: nameArray[2] 
 } 
+```
+
+#### Specific Range of SubString
+```javascript
+const str = 'Mozilla';  
+  
+console.log(str.substring(1, 3)); // output: "oz"  
+  
+console.log(str.substring(2)); // output: "zilla"
 ```
 
 

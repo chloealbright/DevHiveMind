@@ -4,9 +4,9 @@ tags:
 author:
   - jacgit18
 Comments: This documentation discusses CI/CD.
-Status: 
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-22
 Relates:
 ---
 ### Continuous Integration & Deployment
@@ -33,7 +33,7 @@ To meet CI/CD requirements, a dedicated server for running tasks minimizes unpre
    - Pros: Flexibility, control, extensive plugin support.
    - Cons: Complexity in setup, potential for boilerplate code, hardware failure risks.
 
-2. **GitHub Actions and Cloud-based Solutions:**
+2. **[[GitHub Actions]] and Cloud-based Solutions:**
    - Pros: Simplified setup, no environment worries, easy configuration.
    - Cons: Limited customization for complex tasks, resource constraints, build time billing.
 
@@ -42,3 +42,5 @@ To meet CI/CD requirements, a dedicated server for running tasks minimizes unpre
 - **Cloud-based Solutions:** Ideal for small to medium projects with standard requirements. Simplicity in configuration, cost-effectiveness, and no need for an elaborate setup make it suitable for smaller projects.
 
 - **Self-hosted CI:** Preferable for larger projects with specific resource needs. More control over resources and suitability for extensive projects and teams make it a choice for larger enterprises.
+
+

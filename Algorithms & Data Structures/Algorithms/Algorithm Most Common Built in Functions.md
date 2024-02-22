@@ -78,10 +78,11 @@ Number.isNaN('4.567abcdefgh') = false          
 ```
 
 
-#### Ascii Code to 
+#### Ascii Code to Character
 ```javascript
-'ab'.charCodeAt(1) = 98
-'ab'.charCodeAt() = 97 // default to zero
+String.fromCharCode(98) = 'b'
+String.fromCharCode(97,98, ...nums) = 'ab'
+String.fromCharCode() = '' // empty string
 ```
 
 

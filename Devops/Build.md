@@ -3,15 +3,36 @@ tags:
   - devops
 author:
   - jacgit18
+  - chatgpt
 Comments: This documentation discusses software build.
-Status: Refinement
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-22
 Relates:
 ---
-"In the programming realm, a 'build' signifies a specific version of a software program, typically a pre-release iteration identified by a unique build number rather than a formal release number. Essentially, it's a collection of executable code tailored for end-users.
+In programming, a 'build' refers to a specific version of a software program, identified by a unique build number. It involves compiling source code, linking libraries, packaging assets, and creating executable software. The 'Build' encompasses the entire process of delivering your software, including steps like generating sources, compiling and testing, packaging into formats like JAR or WAR, and performing health checks. Modern practices favor full automation through tools like Maven or Ant, enabling Continuous Integration for seamless development workflows.
 
-Building an application involves pivotal steps like compiling source code, assembling necessary components, and creating an executable software version. This encompasses compiling code, linking libraries, packaging assets, and producing installation packages or container images.
+#### Application Build Process InDepth
+1. **Source Code Generation:** Develop the source code for the software.
 
-The 'Build' encapsulates the entire procedure necessary to create a 'deliverable' of your software. In Java, this often involves generating sources, compiling and testing sources, executing various tests (including unit and integration tests), packaging software into formats like JAR, WAR, EJB-JAR, or EAR, running health checks using static analyzers (e.g., Checkstyle, Findbugs, and PMD), and generating reports. Notably, compilation is just one facet of the broader build process, with modern best practices advocating for full automation using tools like Maven or Ant. This process can be executed continuously, known as Continuous Integration.
+2. **Compilation:** Translate the source code into machine-readable code (e.g., bytecode or machine code).
 
+3. **Testing:** Execute various tests, including unit and integration tests, to ensure the code functions as intended.
+
+4. **Library Linking:** Connect necessary libraries and dependencies to the compiled code.
+
+5. **Asset Packaging:** Bundle assets such as images, configuration files, or other resources with the compiled code.
+
+6. **Executable Software Creation:** Combine all components into an executable software version.
+
+7. **Packaging:** Package the software into specific formats like JAR (Java Archive), WAR (Web Application Archive), EJB-JAR (Enterprise JavaBeans Archive), or EAR (Enterprise Archive).
+
+8. **Health Checks:** Run health checks using static analyzers (e.g., Checkstyle, Findbugs, PMD) to ensure code quality.
+
+9. **Report Generation:** Generate reports detailing the results of tests and analysis.
+
+10. **Automation:** Modern best practices advocate for full automation using build tools like Maven or Ant.
+
+11. **Continuous Integration:** Execute the entire build process continuously to integrate changes seamlessly into the software, known as Continuous Integration.
+
+These steps collectively constitute the comprehensive process of building and delivering software.

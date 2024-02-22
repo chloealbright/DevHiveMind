@@ -5,6 +5,7 @@ tags:
   - cloud
 author:
   - jacgit18
+  - chatgpt
 Comments: This documentation discusses what are deployment artifacts.
 Status: Done
 Started: 

@@ -27,3 +27,21 @@ git merge --squash feature/dev-78_post_letter
 Execute small changes in branches to minimize dependencies. Prefer drafting pull requests instead of directly creating them. Note that draft PRs might not be available in all GitHub repositories, and you can refer to GitHub documentation for details.
 
 Handle merge conflicts diligently to maintain code integrity during the collaboration process.
+
+## Update branch to latest 
+```bash
+git checkout develop 
+git pull 
+git checkout previousBranch 
+git stash if uncommitted changes or staged changes ???? 
+git merge develop  
+
+git stash # To add changes to stash stack 
+git stash list # Shows list of stashed changes 
+git stash apply stash@{0} # Retrieve stash 
+git stash clear # Clear stash list  
+
+git add –A  
+git commit -m "changed thing" 
+git push
+```

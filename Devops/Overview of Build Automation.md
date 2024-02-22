@@ -1,10 +1,12 @@
 ---
-tags: 
+tags:
+  - devops
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses build automation.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-22
 Relates:
 ---
 # Background 
@@ -21,7 +23,7 @@ Before automated builds, software development teams would stitch together their 
 
 An Enterprise’s goal with build automation is to recreate the entire production environment based on what is in version control. To achieve this goal, Enterprises must utilize automation.  Enterprises will need to create scripts, and the configuration information should be stored in the version control system.  This should be a self-service system with no manual work required from human intervention. 
 
-# Benefits of Build Automation 
+## Benefits of Build Automation 
 
 There are several benefits Enterprises can gain by utilizing build automation.  These include: 
 
@@ -34,11 +36,8 @@ There are several benefits Enterprises can gain by utilizing build automation.�
 
 The aforementioned benefits lead to the ultimate benefits of saving time and money. 
 
-# How 
 
-# Popular Tools or Methodologies 
-
-# Build Automation Strategy 
+## Build Automation Strategy 
 
 Before Enterprises adopt build automation, they must first develop a strategy that will outline the following: 
 
@@ -60,7 +59,7 @@ Before Enterprises adopt build automation, they must first develop a strategy th
     - The <b>frequency of builds </b> indicates the overall output and activity of the project. 
 
 
-# Categories of Build Automation tools 
+## Categories of Build Automation tools 
 
 There are two categories of build automation tools:  utility and servers.  Utility tools primarily aim to generate build artifacts through compilation and dependency management.  Apache Ant, Apache Maven, and Gradle fit this category. 
 
@@ -84,12 +83,12 @@ These are the classification levels: 
 - **Other:** another example is Open Build Service. 
 
 
-# Use Case 
+## Use Case 
 
-# Google Cloud Platform (GCP) 
+### Google Cloud Platform (GCP) 
 
 [GCP](https://cloud.google.com/) is a cloud service provider.  One of its services, Elasticsearch, uses Gradle to build and test acceleration technology to minimize CI build feedback cycle times.  See this [webcast](https://www.youtube.com/watch?v=ltVD87kVpEM) for more details. 
 
-# Tinder 
+### Tinder 
 
 [Tinder](https://tinder.com/) is a dating app for making matches globally.   The impact of Covid drove build system teams to work remotely.  Tinder leveraged Gradle’s build caching strategies to optimize the build speed of their android app.  See this [webcast](https://www.youtube.com/watch?v=WGCeHWEJQfw) for more details.

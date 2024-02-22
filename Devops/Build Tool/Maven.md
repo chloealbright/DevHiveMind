@@ -1,59 +1,59 @@
 ---
-tags: 
+tags:
+  - devops
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses what Maven is and its history.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-22
 Relates:
 ---
-command to run a maven wrapper on a specific port
+### Why Maven was created
 
-./mvnw spring-boot:run -Dspring-boot.run.arguments=--server.port=8090
+Maven was created to provide a standard way to build projects, establish a clear definition of project structure, enable easy publishing of project information, and facilitate the sharing of JARs across multiple projects.
 
+**Pom.xml (Project Object Model) file:**
 
--   Why was [Maven](https://maven.apache.org/what-is-maven.html) created?  
-    
-    -   We wanted a standard way to build the projects, a clear definition of what the project consisted of, an easy way to publish project information, and a way to share JARs across several projects. 
-        
--   What is a [Pom.xml]([https://maven.apache.org/guides/introduction/introduction-to-the-pom.html#:~:text=A Project Object Model or,Maven to build the project.&text=Other information such as the,such can also be specified.)](https://maven.apache.org/guides/introduction/introduction-to-the-pom.html#:~:text=A%20Project%20Object%20Model%20or,Maven%20to%20build%20the%20project.&text=Other%20information%20such%20as%20the,such%20can%20also%20be%20specified.)) (Project Object Model) file? Which Build Tool uses it?  
-    
-    -   A Project Object Model or POM is Maven's fundamental unit of work. It is an XML file that contains information about the project and configuration details used by Maven to build the project.
+The POM file is Maven's fundamental unit of work, represented in XML format. It contains project information and configuration details essential for Maven to build the project. Maven utilizes the POM file to manage the project's lifecycle and dependencies.
 
-Maven was created in 2002 as a direct response to the frustrations of building Java applications using its predecessor, Apache Ant.
+**Key improvements in Maven:**
 
-3 key improvements that Maven’s creator, Jason van Zyl, included are:
+1. **Default directory structure:** Maven introduced a standard directory structure for Java projects, making it easier for developers to navigate between projects.
 
-	default directory structure in Java projects.: helps developers easily move between projects
+2. **Standardization of build process:** Maven standardized the build process by defining a default lifecycle with phases like compile, test, and package. This allows developers to build projects using a consistent approach on the Maven CLI.
 
-	standardize how Java applications are built: the default Maven lifecycle consists of a series of phases (e.g. compile, test, and package). Developers don’t have to rewrite build logic in new projects & can build projects on the Maven command line interface (CLI) in a standard way.
-
-	store dependencies externally: dependencies move out of version control and into a remote repository known as Maven Central. This makes updating dependency versions simpler.
-
+3. **External storage of dependencies:** Maven shifted the practice of storing dependencies externally, moving them out of version control and into a remote repository, commonly known as Maven Central. This simplifies the process of updating dependency versions.
 ![[Maven Timeline.png]]
 
-Maven runs within the Java Virtual Machine (JVM) and it’s core functionality builds Java applications only. Using 3rd party plugins like the kotlin-maven-plugin you can build Kotlin projects, the scala-maven-plugin for Scala projects, and other language plugins exist too.
+**Maven's Functionality and Extensibility:**
 
-<mark style="background: #FFB86CA6;">A Java virtual machine is a virtual machine that enables a computer to run Java programs as well as programs written in other languages that are also compiled to Java bytecode. The JVM is detailed by a specification that formally describes what is required in a JVM implementation.</mark>
+Maven operates within the Java Virtual Machine (JVM) and primarily builds Java applications. However, its extensibility is evident through 3rd party plugins like kotlin-maven-plugin for Kotlin projects, scala-maven-plugin for Scala projects, and similar language-specific plugins.
 
-Maven projects are defined with an XML build file containing at a basic level:
+A Java virtual machine enables the execution of Java programs and those compiled to Java bytecode from other languages. The JVM adheres to a specification that formally outlines the requirements for JVM implementations.
 
-	the project group, artifact id, and version
+**Maven Project Definition:**
 
-	what plugins to apply
+Maven projects are defined using an XML build file, which includes:
 
-	the project’s dependencies
+- Project group, artifact ID, and version.
+- Configuration of plugins to apply.
+- Declaration of project dependencies.
 
-You’ll see a Maven build file example later, but once created you can interact with the project via the Maven CLI.
+**Command to Run Maven Wrapper on a Specific Port:**
 
-For example, running mvn test executes the default Maven lifecycle, including all phases up to and including test.
+```bash
+./mvnw spring-boot:run -Dspring-boot.run.arguments=--server.port=8090
+```
 
-	validate: ensures the Maven project is correct
+Once a Maven build file is created, you can interact with the project using the Maven Command Line Interface (CLI). For instance, running `mvn test` executes the default Maven lifecycle, including phases such as:
 
-	compile: transforms Java source code into bytecode
+- `validate`: Ensures the Maven project is correct.
+- `compile`: Transforms Java source code into bytecode.
+- `test`: Executes tests to verify application functionality.
 
-	test: executes tests to verify application functionality
+Each phase incorporates specific goals, such as the `compiler:compile` goal in the compile phase. Further understanding of phases and goals will be explored later.
 
-Each phase has goals attached, which correspond to code that actually does the work. e.g. the compile phase contains the compiler:compile goal. You’ll learn more about how phases and goals work later.
+**Maven as an Open Source Project:**
 
-Finally, Maven is a free-to-use open source project whose source code is available on GitHub. It’s part of the Apache software foundation, which supports open-source software with help from donations
+Maven is an open-source project available on GitHub, part of the Apache Software Foundation. It operates under a free-to-use model, supported by donations to the foundation.

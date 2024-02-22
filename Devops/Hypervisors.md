@@ -1,10 +1,12 @@
 ---
-tags: 
+tags:
+  - devops
 author:
   - jacgit18
+Comments: This documentation discusses what are
 Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-22
 Relates:
 ---
 A hypervisor, also known as a virtual machine monitor (VMM), is a software or hardware component that enables the creation and management of virtual machines (VMs) on a physical computer or server. The primary purpose of a hypervisor is to allow multiple operating systems to run simultaneously on the same hardware, each within its isolated virtual environment. Here are some key points about hypervisors:  

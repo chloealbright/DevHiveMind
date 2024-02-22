@@ -1,10 +1,12 @@
 ---
-tags: 
+tags:
+  - Docker
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses relationship between Docker and kubernetes.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-22
 Relates:
 ---
 Docker and Kubernetes are versatile tools capable of handling both stateless and stateful applications.

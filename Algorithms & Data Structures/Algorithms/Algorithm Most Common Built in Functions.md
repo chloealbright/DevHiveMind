@@ -287,6 +287,32 @@ if a(1) - b(2) || b(2) - a(1) ==== 0 
 // keep original order of a and b 
 ```
 
+### Array at
+The negative index `-2` corresponds to the second-to-last element in the array. 
+```js
+const array1 = [5, 12, 8, 130, 44];
+
+let index = 2;
+
+array1.at(index) // output: "An index of 2 returns 8"
+
+index = -2;
+
+array1.at(index)// output: "An index of -2 returns 130" 
+```
+
+### Array concat
+returns a shallow copy
+```js 
+const array1 = ['a', 'b', 'c'];
+const array2 = ['d', 'e', 'f'];
+const array3 = array1.concat(array2);
+
+console.log(array3);
+// Expected output: Array ["a", "b", "c", "d", "e", "f"]
+
+```
+
 
 
 

@@ -182,15 +182,34 @@ So, `""` is an empty string, while `" "` is a string with a space character in i
 
 #### Regex 
 
-
+#### Match
+```js
 String.match(regexp) or .matchAll(regexp) 
 
 const inputString = "Hello World!";
-const matches = inputString.match(/[A-Z]/g); // get 
+const matches = inputString.match(/[A-Z]/g); // get capital leeters Output: ["H", "W"]
+```
+#### Match All
+```js
+const regexp = /t(e)(st(\d?))/g;
+const str = 'test1test2';
 
-console.log(matches); // Output: ["H", "W"]
+const array = [...str.matchAll(regexp)];
 
+console.log(array[0]);
+// Expected output: Array ["test1", "e", "st1", "1"]
 
+console.log(array[1]);
+// Expected output: Array ["test2", "e", "st2", "2"]
+
+/**
+[
+Array ["test1", "e", "st1", "1"], 
+
+Array ["test2", "e", "st2", "2"]
+]
+*/
+```
 
 
 ```javascript

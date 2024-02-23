@@ -336,6 +336,11 @@ console.log(array1.every(isBelowThreshold));
 ```
 
 
+### Array Fill
+```js
+Array.fill(value) (value, start) (value, start, end) start & end Optional 
+```
+
 ```javascript
 
 const alpha = Array.from(Array(26)).map((e, i) => i + 65); 
@@ -362,9 +367,9 @@ let reg = newSring.replace(/\d/g, "")  
 
 
 ```javascript
-Array.entries() returns a new Array Iterator object that contains the key/value pairs for each index in the array. 
 
-Array.fill(value) (value, start) (value, start, end) start & end Optional 
+
+
 
 Array.flat(depth) depth is optional 
 

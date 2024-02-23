@@ -374,6 +374,11 @@ Array.sort()
 > 0       sort b before a:  b(2) - a(1)  = 1 higher value placed first       
 
 === 0     keep original order of a and b 
+
+let sortedNumsAscending = nums.sort((a, b) => a - b);
+
+let sortedNumsDescending = nums.sort((a, b) => b - a);
+
 ```
 
 - `< 0`: When the comparison function returns a value less than zero (e.g., a negative number), it indicates that element `a` should be sorted before element `b`. In other words, element `a` will come before element `b` in the sorted array.

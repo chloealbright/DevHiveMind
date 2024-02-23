@@ -366,6 +366,13 @@ let test = plants.pop() // output: "tomato"
 ```
 
 ### Array Shift
+returns array removing first element
+```js
+const array1 = [1, 2, 3];
+
+const firstElement = array1.shift(); // output: Array [2, 3]
+```
+
 
 ### Array push
 returns mutated array by appending values at end
@@ -376,8 +383,34 @@ animals.push('cows')
 
 animals.push('chickens', 'cats', 'dogs');
 // output: Array ["pigs", "goats", "sheep", "cows", "chickens", "cats", "dogs"]
+```
+
+
+### Array Slice
+returns shallow copy array of `optional` given start and end
+```js
+const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+
+animals.slice()
+// output: Array ["ant", "bison", "camel", "duck", "elephant"]
+
+animals.slice(2)
+// output: Array ["camel", "duck", "elephant"]
+
+animals.slice(2, 4)
+// output: Array ["camel", "duck"]
+
+animals.slice(1, 5)
+// output: Array ["bison", "camel", "duck", "elephant"]
+
+animals.slice(-2)
+// output: Array ["duck", "elephant"]
+
+animals.slice(2, -1) 
+// output: Array ["camel", "duck"]
 
 ```
+
 
 ### Array Fill
 

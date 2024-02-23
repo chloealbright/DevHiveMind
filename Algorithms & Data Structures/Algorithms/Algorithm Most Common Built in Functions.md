@@ -90,7 +90,6 @@ String.fromCharCode() = '' // empty string
 ```javascript
 const str1 = 'Cats are the best!';
 
-
 str1.endsWith('best!') // output: true
 str1.endsWith('best', 17)// output: true
 // best starts at index 13 but spelling is completed at index 17 or end of string
@@ -99,8 +98,23 @@ str1.endsWith('best', 17)// output: true
 
 const str2 = 'Is this a question?';
 str2.endsWith('question');// output: false
-
 ```
+
+#### Include
+```javascript
+const sentence = 'The quick brown fox jumps.';
+
+const word = 'fox';
+
+sentence.includes(word) // ouputs true
+
+const mainString = "Hello, how are you?"; 
+const searchString = "how"; 
+// Check if the mainString includes the searchString starting from position 7 
+const includesResult = mainString.includes(searchString, 7); console.log(includesResult); // Output: false
+```
+
+
 
 #### Split
 ```javascript
@@ -166,15 +180,18 @@ The difference between `""` and `" "` lies in the content of the string.
   
 So, `""` is an empty string, while `" "` is a string with a space character in it.
 
-#### String Regex 
+#### Regex 
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) 
-
-[https://regexlearn.com/cheatsheet](https://regexlearn.com/cheatsheet) 
-
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) 
 
 String.match(regexp) or .matchAll(regexp) 
+
+const inputString = "Hello World!";
+const matches = inputString.match(/[A-Z]/g); // get 
+
+console.log(matches); // Output: ["H", "W"]
+
+
+
 
 ```javascript
 

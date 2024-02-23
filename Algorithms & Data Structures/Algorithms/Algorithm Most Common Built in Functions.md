@@ -385,6 +385,10 @@ animals.push('chickens', 'cats', 'dogs');
 // output: Array ["pigs", "goats", "sheep", "cows", "chickens", "cats", "dogs"]
 ```
 
+### Array UnShift
+returns array 
+
+
 
 ### Array Slice
 returns shallow copy array of `optional` given start and end
@@ -414,13 +418,23 @@ animals.slice(2, -1)
 ### Array Splice
 ```js
 const months = ['Jan', 'March', 'April', 'June'];
-months.splice(1, 0, 'Feb'); // Inserts at index 1
-// output: Array ["Jan", "Feb", "March", "April", "June"]
-months.splice(4, 1, 'May');
-// Replaces 1 element at index 4
-console.log(months);
-// output: Array ["Jan", "Feb", "March", "April", "May"]
 
+// Inserts at index 1
+months.splice(1, 0, 'Feb');
+// output: Array ["Jan", "Feb", "March", "April", "June"]
+
+// Replaces 1 element at index 3
+months.splice(3, 1, 'May');
+// output: Array ["Jan", "Feb", "March", "May", "June"]
+
+months.splice(3, 2, 'May');
+// output: Array ["Jan", "Feb", "March", "May"]
+
+months.splice(3, 1, 'May', 'Dec'); // moves June over
+// output: Array ["Jan", "Feb", "March", "May", "Dec", "June"]
+
+months.splice(3, 2, 'May', 'Dec'); // removes June 
+// output: Array ["Jan", "Feb", "March", "May", "Dec"]
 ```
 
 ### Array Fill

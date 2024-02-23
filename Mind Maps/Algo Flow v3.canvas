@@ -135,7 +135,8 @@
 		{"id":"c348f040e659dca0","type":"text","text":"### Multi Character","x":277,"y":2208,"width":359,"height":60},
 		{"id":"e481161a3cfe55e8","type":"file","file":"Algorithms & Data Structures/_Coding Whiteboard/lc704.png","x":3200,"y":2521,"width":400,"height":292},
 		{"id":"9597dc0a2f469337","type":"text","text":"### [[Algorithm Most Common Built in Functions#Slice |Slice]]","x":1448,"y":2479,"width":250,"height":60,"color":"2"},
-		{"id":"d820a9b2509a4952","x":634,"y":1461,"width":250,"height":60,"type":"text","text":"### Pop"}
+		{"id":"d820a9b2509a4952","x":634,"y":1461,"width":250,"height":60,"type":"text","text":"### Pop"},
+		{"id":"9500e2ffeb2896d0","x":389,"y":1560,"width":250,"height":60,"type":"text","text":"### Shift"}
 	],
 	"edges":[
 		{"id":"96d016acd65b0fff","fromNode":"ca62e46b96c8640f","fromSide":"right","toNode":"fd325d709a909001","toSide":"left","color":"2"},
@@ -268,6 +269,7 @@
 		{"id":"b32835345ecbcb2e","fromNode":"998645ac0a80e98a","fromSide":"right","toNode":"a73b83869550d3ce","toSide":"left","color":"3"},
 		{"id":"cf1b9f91ec7a0fb3","fromNode":"a73b83869550d3ce","fromSide":"bottom","toNode":"0d697435e2e19a71","toSide":"top","color":"3"},
 		{"id":"bf977a5d35b6f195","fromNode":"d7df8a358d5c2c76","fromSide":"right","toNode":"7873e05630bb9cea","toSide":"left"},
-		{"id":"bc1ced3bcdcc9386","fromNode":"d7df8a358d5c2c76","fromSide":"right","toNode":"d820a9b2509a4952","toSide":"left"}
+		{"id":"bc1ced3bcdcc9386","fromNode":"d7df8a358d5c2c76","fromSide":"right","toNode":"d820a9b2509a4952","toSide":"left"},
+		{"id":"32d4b5a37f2d0fff","fromNode":"d7df8a358d5c2c76","fromSide":"right","toNode":"9500e2ffeb2896d0","toSide":"left"}
 	]
 }

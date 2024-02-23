@@ -450,14 +450,16 @@ months.splice(3, 2, 'May', 'Dec'); // removes June
 
 
 ### Array From
-
+returns shallow copy array 
+an array of length 26 is generated 65 and + 1 is mapped to each elemetn 
 ```javascript
-const alpha = Array.from(Array(26)).map((e, i) => i + 65); 
+const alpha = Array.from(Array(26)).map((e, i) => i + 65);
 ```
 
 ### Array Map
+returns shallow copy with update values
 ```js
-const alphabet = alpha.map((x) =>{ String.fromCharCode(x)); 
+const alphabet = alpha.map((x) => String.fromCharCode(x)); // outputs capitalized alphabet [A, B, C, ..., Z]
 ```
 
 

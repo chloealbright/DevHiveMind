@@ -140,13 +140,14 @@
 		{"id":"b4663b5dadd09058","type":"text","text":"### [[Algorithm Most Common Built in Functions#Array push |Push]]","x":664,"y":1343,"width":250,"height":60,"color":"3"},
 		{"id":"e912707a10dc0e4d","x":1630,"y":1326,"width":250,"height":60,"color":"1","type":"text","text":"at"},
 		{"id":"ba562c96edc37058","x":1610,"y":1635,"width":250,"height":60,"color":"3","type":"text","text":"entries"},
-		{"id":"3a7720fb057c7d6e","x":1243,"y":1581,"width":250,"height":60,"color":"6","type":"text","text":"every"},
 		{"id":"53db662bc64d298c","x":1520,"y":1542,"width":250,"height":60,"color":"3","type":"text","text":"fill"},
 		{"id":"7873e05630bb9cea","type":"text","text":"### [[Algorithm Most Common Built in Functions#Array Slice|Slice]]","x":627,"y":1216,"width":164,"height":57,"color":"3"},
 		{"id":"0d697435e2e19a71","type":"text","text":"#### [[Algorithm Most Common Built in Functions#Array Filter|Filter]]","x":1008,"y":1335,"width":171,"height":57,"color":"3"},
 		{"id":"6076563a4e4481d8","type":"text","text":"### [[Algorithm Most Common Built in Functions#Array to String |join]]  ","x":950,"y":1600,"width":154,"height":60,"color":"2"},
 		{"id":"c806f5f280a1783e","x":1269,"y":1337,"width":250,"height":60,"color":"3","type":"text","text":"Splice"},
-		{"id":"af28b31710e23ea0","x":1427,"y":1418,"width":250,"height":60,"color":"3","type":"text","text":"concat"}
+		{"id":"af28b31710e23ea0","x":1427,"y":1418,"width":250,"height":60,"color":"3","type":"text","text":"concat"},
+		{"id":"3a7720fb057c7d6e","x":1260,"y":1630,"width":250,"height":60,"color":"6","type":"text","text":"every"},
+		{"id":"6f09c0617fe25487","x":1094,"y":1540,"width":250,"height":60,"color":"3","type":"text","text":"map"}
 	],
 	"edges":[
 		{"id":"96d016acd65b0fff","fromNode":"ca62e46b96c8640f","fromSide":"right","toNode":"fd325d709a909001","toSide":"left","color":"2"},

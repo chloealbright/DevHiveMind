@@ -69,6 +69,11 @@ Number.parseInt('4.567abcdefgh') = 4 
 Number.isNaN('4.567abcdefgh') = false          
 ```
 
+#### Parity Check
+```js
+const isEven = (number) => number % 2 === 0;
+```
+
 
 ### String 
 #### Character to Ascii Code
@@ -147,6 +152,24 @@ console.log(str.substring(1, 3)); // output: "oz"
 console.log(str.substring(2)); // output: "zilla"
 ```
 
+### Slice
+```js
+String.slice(beginIndex, endIndex(OPITIONAL) ) 
+const str = 'The quick brown fox jumps over the lazy dog.';
+
+console.log(str.slice(31));
+// Expected output: "the lazy dog."
+
+console.log(str.slice(4, 19));
+// Expected output: "quick brown fox"
+
+console.log(str.slice(-4));
+// Expected output: "dog."
+
+console.log(str.slice(-9, -5));
+// Expected output: "lazy"
+```
+
 #### Trim
 ```js
 ' Hello world! '.trim() = "Hello world!" 
@@ -171,12 +194,6 @@ lastIndexOf() 
 
 const str = 'searchString, or not to be, that is the question.'   
 str.includes('searchString', 0))// true but false if 1 was passed array also has a includes 
-
-
-
-String.slice(beginIndex, endIndex(OPITIONAL) ) 
-
-toLowerCase() or toUpperCase() 
 
 
 // rm special characters 
@@ -224,7 +241,21 @@ Array ["test2", "e", "st2", "2"]
 
 String.search(regexp) 
 
-String .replace(regexp, newSubstr) .replaceAll       String .replace(regexp,replacerFunction)  .replaceAll                                             String .replace(substr, newSubstr) .replaceAll        String .replace(substr, replacerFunction) .replaceAll
+String 
+.replace(regexp, newSubstr) 
+.replaceAll       
+
+String 
+.replace(regexp,replacerFunction)  
+.replaceAll    
+
+String 
+.replace(substr, newSubstr) 
+.replaceAll  
+
+String
+.replace(substr, replacerFunction) 
+.replaceAll
 ```
 
 

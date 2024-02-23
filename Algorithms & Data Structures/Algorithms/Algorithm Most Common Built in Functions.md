@@ -266,6 +266,27 @@ The string against which to match the regular expression. If the match succeeds,
 Array.join(optionalSeparator) 
 ```
 
+### Array Sort
+
+```javascript
+Array
+.sort() 
+.sort(a,b) 
+.sort(compareFunc) 
+.sort(inlineCompFunc)
+
+let sortedNumsAscending = nums.sort((a, b) => a - b);
+a(1) - b(2) = -1  < 0 
+// sort smaller before bigger lower value placed first
+
+let sortedNumsDescending = nums.sort((a, b) => b - a);
+b(2) - a(1) = 1  > 0 
+// sort bigger before smaller higher value placed first 
+
+if a(1) - b(2) || b(2) - a(1) ==== 0 
+// keep original order of a and b 
+```
+
 
 
 
@@ -359,35 +380,9 @@ Array.map() method creates a new array populated with the results of calling a p
 Array.some() method tests whether at least one element in the array passes the test implemented by the provided function. It returns true if, in the array, it finds an element for which the provided function returns true; otherwise it returns false. It doesn't modify the array. 
 ```
 
-## More advanced callback function 
-
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap) 
-
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from) 
-```javascript
-Array.sort() 
-
-.sort(a,b) .sort(compareFunc) .sort(inlineCompFunc)
-
-< 0       sort a before b:  a(1) - b(2) = -1 lower value placed first                        
- 
-> 0       sort b before a:  b(2) - a(1)  = 1 higher value placed first       
-
-=== 0     keep original order of a and b 
-
-let sortedNumsAscending = nums.sort((a, b) => a - b);
-
-let sortedNumsDescending = nums.sort((a, b) => b - a);
-
-```
-
-- `< 0`: When the comparison function returns a value less than zero (e.g., a negative number), it indicates that element `a` should be sorted before element `b`. In other words, element `a` will come before element `b` in the sorted array.
-
-- `> 0`: When the comparison function returns a value greater than zero (e.g., a positive number), it means that element `b` should be sorted before element `a`. This results in element `b` appearing before element `a` in the sorted array.
 
 
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) 
 
 ## Object iterate using for In loop 
 

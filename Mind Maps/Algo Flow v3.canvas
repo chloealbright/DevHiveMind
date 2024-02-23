@@ -132,7 +132,8 @@
 		{"id":"0df1cc4cc22c8a75","type":"text","text":"match","x":1221,"y":2774,"width":165,"height":50,"color":"3"},
 		{"id":"5d351a034933973c","type":"text","text":"Can chain other array methods or number or math functions that makes sense depending on problem","x":1555,"y":2824,"width":285,"height":291},
 		{"id":"765df1a3f9a07eac","type":"text","text":"#### [[Algorithm Most Common Built in Functions#Include |Includes]]","x":1211,"y":2689,"width":250,"height":50,"color":"6"},
-		{"id":"8d6bd4958800f7c0","type":"text","text":"### [[Algorithm Most Common Built in Functions#Ends With |End With]] or [[Algorithm Most Common Built in Functions#Starts With |Starts with]]","x":1054,"y":2589,"width":494,"height":50,"color":"6"}
+		{"id":"8d6bd4958800f7c0","type":"text","text":"### [[Algorithm Most Common Built in Functions#Ends With |End With]] or [[Algorithm Most Common Built in Functions#Starts With |Starts with]]","x":1054,"y":2589,"width":494,"height":50,"color":"6"},
+		{"id":"a73b83869550d3ce","x":960,"y":717,"width":140,"height":50,"type":"text","text":"### [[Algorithm Most Common Built in Functions#Array Sort |Sort]] "}
 	],
 	"edges":[
 		{"id":"96d016acd65b0fff","fromNode":"ca62e46b96c8640f","fromSide":"right","toNode":"fd325d709a909001","toSide":"left","color":"2"},

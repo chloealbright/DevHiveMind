@@ -307,13 +307,33 @@ returns a shallow copy
 const array1 = ['a', 'b', 'c'];
 const array2 = ['d', 'e', 'f'];
 const array3 = array1.concat(array2);
-
-console.log(array3);
-// Expected output: Array ["a", "b", "c", "d", "e", "f"]
-
+// output: Array ["a", "b", "c", "d", "e", "f"]
 ```
 
 
+### Array entries
+```js 
+const array1 = ['a', 'b', 'c'];
+
+const iterator1 = array1.entries();
+
+console.log(iterator1.next().value);
+// output: Array [0, "a"]
+
+console.log(iterator1.next().value);
+// output: Array [1, "b"]
+```
+
+### Array every
+```js 
+const isBelowThreshold = (currentValue) => currentValue < 40;
+
+const array1 = [1, 30, 39, 29, 10, 13];
+
+console.log(array1.every(isBelowThreshold));
+// output: true
+
+```
 
 
 ```javascript

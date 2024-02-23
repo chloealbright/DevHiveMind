@@ -357,7 +357,7 @@ Array.fill
 
 
 ### Array Pop
-returns mutated array by reducing length of array
+returns removed last element
 ```js
 const plants = ['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
 
@@ -366,7 +366,7 @@ let test = plants.pop() // output: "tomato"
 ```
 
 ### Array Shift
-returns array removing first element
+returns removing first element
 ```js
 const array1 = [1, 2, 3];
 
@@ -386,7 +386,16 @@ animals.push('chickens', 'cats', 'dogs');
 ```
 
 ### Array UnShift
-returns array 
+returns array with values appended to the beginning
+```js
+const array1 = [1, 2, 3];
+
+console.log(array1.unshift(4, 5));
+// Expected output: 5
+
+console.log(array1);
+// Expected output: Array [4, 5, 1, 2, 3]
+```
 
 
 

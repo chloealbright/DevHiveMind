@@ -101,7 +101,7 @@
 		{"id":"6076563a4e4481d8","type":"text","text":"### [[Algorithm Most Common Built in Functions#Array to String |join]]  ","x":1413,"y":1480,"width":154,"height":60,"color":"2"},
 		{"id":"a73b83869550d3ce","type":"text","text":"### [[Algorithm Most Common Built in Functions#Array Sort |Sort]] ","x":1490,"y":1220,"width":140,"height":50,"color":"3"},
 		{"id":"0d697435e2e19a71","type":"text","text":"#### [[Algorithm Most Common Built in Functions#Array Filter|Filter]]","x":1505,"y":1343,"width":171,"height":57,"color":"3"},
-		{"id":"d820a9b2509a4952","type":"text","text":"### Pop","x":704,"y":1470,"width":250,"height":80,"color":"#bbff00"},
+		{"id":"d820a9b2509a4952","type":"text","text":"### [[Algorithm Most Common Built in Functions#Array Pop |Pop]]","x":704,"y":1470,"width":250,"height":50,"color":"#bbff00"},
 		{"id":"7873e05630bb9cea","type":"text","text":"### [[Algorithm Most Common Built in Functions#Array Slice|Slice]]","x":1160,"y":1343,"width":164,"height":57,"color":"3"},
 		{"id":"e7da0726f1b38235","type":"text","text":"### Fixed","x":1112,"y":217,"width":193,"height":62},
 		{"id":"9f3e9abaa905df55","type":"text","text":"### Vairiable","x":1087,"y":345,"width":244,"height":55},
@@ -134,11 +134,12 @@
 		{"id":"84a011f6ec72751e","type":"text","text":"##### Matrix","x":4940,"y":1010,"width":250,"height":60,"color":"3"},
 		{"id":"4d6bed29ee7ed731","type":"text","text":"# Search Algorithm","x":4820,"y":1711,"width":440,"height":80},
 		{"id":"3801d47c16a9e09e","type":"text","text":"### [[Algorithm Most Common Built in Functions#Array UnShift |Unshift]]","x":704,"y":1343,"width":250,"height":60,"color":"3"},
-		{"id":"9500e2ffeb2896d0","type":"text","text":"### Shift","x":704,"y":1580,"width":250,"height":60,"color":"#bbff00"},
+		{"id":"9500e2ffeb2896d0","type":"text","text":"### [[Algorithm Most Common Built in Functions#Array Shift|Shift]]","x":704,"y":1580,"width":250,"height":60,"color":"#bbff00"},
 		{"id":"5f7fd7ab64589a0e","type":"text","text":"# Searching","x":2928,"y":1803,"width":280,"height":48},
 		{"id":"cf17e6079bfd71ed","type":"text","text":"## Graph","x":3930,"y":1965,"width":250,"height":60},
 		{"id":"d8efb2641269bdc5","type":"text","text":"## Tree","x":3898,"y":1880,"width":250,"height":60},
-		{"id":"eaaef77060b38f9c","type":"text","text":"## [[Map]] [[Non-Linear Data Structure Runtime Comparison#^0b11f5 |Constant Time]]","x":2360,"y":1453,"width":455,"height":50}
+		{"id":"eaaef77060b38f9c","type":"text","text":"## [[Map]] [[Non-Linear Data Structure Runtime Comparison#^0b11f5 |Constant Time]]","x":2360,"y":1453,"width":455,"height":50},
+		{"id":"7687d60c4ddab81c","x":3935,"y":1040,"width":245,"height":50,"type":"text","text":"add and remove"}
 	],
 	"edges":[
 		{"id":"96d016acd65b0fff","fromNode":"ca62e46b96c8640f","fromSide":"right","toNode":"fd325d709a909001","toSide":"left","color":"2"},
@@ -209,7 +210,7 @@
 		{"id":"1d9d2797efb407d7","fromNode":"2e8b93c2e6c70435","fromSide":"left","toNode":"39c0b7eb30f870f6","toSide":"right"},
 		{"id":"d2467ddfff37ad21","fromNode":"9da8c621c89f4817","fromSide":"right","toNode":"239591fa02eeff5c","toSide":"left"},
 		{"id":"a143a9ee9cb9eda3","fromNode":"b0d5eb91409aab19","fromSide":"top","toNode":"56c29e39a438b323","toSide":"bottom","color":"6"},
-		{"id":"83dda269aa1ffe17","fromNode":"bc929a986562ba89","fromSide":"top","toNode":"56c29e39a438b323","toSide":"top","color":"2","label":"shift"},
+		{"id":"83dda269aa1ffe17","fromNode":"bc929a986562ba89","fromSide":"top","toNode":"56c29e39a438b323","toSide":"top","color":"2","label":"Push and Shift"},
 		{"id":"05a0b119dfdcbb11","fromNode":"bc929a986562ba89","fromSide":"bottom","toNode":"1dddbf541fbab3f7","toSide":"top","color":"2"},
 		{"id":"c6e0eb1e25c97959","fromNode":"b0d5eb91409aab19","fromSide":"bottom","toNode":"1dddbf541fbab3f7","toSide":"bottom","color":"6"},
 		{"id":"25be32479b6b4005","fromNode":"56c29e39a438b323","fromSide":"right","toNode":"6dae9f36d2eff64c","toSide":"left","color":"3"},

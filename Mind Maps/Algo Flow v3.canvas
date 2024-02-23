@@ -88,8 +88,6 @@
 		{"id":"9f3e9abaa905df55","type":"text","text":"### Vairiable","x":1596,"y":800,"width":244,"height":55},
 		{"id":"ca62e46b96c8640f","type":"text","text":"## Strings","x":-312,"y":1754,"width":211,"height":53,"color":"2"},
 		{"id":"b3998e713c9f6a67","type":"text","text":"### Unique Values","x":272,"y":890,"width":302,"height":60,"color":"5"},
-		{"id":"0d697435e2e19a71","type":"text","text":"#### [[Algorithm Most Common Built in Functions#Array Filter|Filter]]","x":929,"y":950,"width":250,"height":57,"color":"3"},
-		{"id":"6076563a4e4481d8","type":"text","text":"### [[Algorithm Most Common Built in Functions#Array to String |join]]  ","x":1336,"y":979,"width":154,"height":60,"color":"2"},
 		{"id":"25329102cf33f0cf","type":"text","text":"### Duplicate Values","x":281,"y":1105,"width":364,"height":50,"color":"5"},
 		{"id":"998645ac0a80e98a","type":"text","text":"### [[Partially Sorted]]","x":264,"y":748,"width":381,"height":60},
 		{"id":"f13012b2a9ed16e5","type":"text","text":"### Unsorted","x":264,"y":545,"width":250,"height":60},
@@ -133,7 +131,10 @@
 		{"id":"5d351a034933973c","type":"text","text":"Can chain other array methods or number or math functions that makes sense depending on problem","x":1555,"y":2824,"width":285,"height":291},
 		{"id":"765df1a3f9a07eac","type":"text","text":"#### [[Algorithm Most Common Built in Functions#Include |Includes]]","x":1211,"y":2689,"width":250,"height":50,"color":"6"},
 		{"id":"8d6bd4958800f7c0","type":"text","text":"### [[Algorithm Most Common Built in Functions#Ends With |End With]] or [[Algorithm Most Common Built in Functions#Starts With |Starts with]]","x":1054,"y":2589,"width":494,"height":50,"color":"6"},
-		{"id":"a73b83869550d3ce","x":960,"y":717,"width":140,"height":50,"type":"text","text":"### [[Algorithm Most Common Built in Functions#Array Sort |Sort]] "}
+		{"id":"a73b83869550d3ce","x":1020,"y":753,"width":140,"height":50,"color":"3","type":"text","text":"### [[Algorithm Most Common Built in Functions#Array Sort |Sort]] "},
+		{"id":"0d697435e2e19a71","type":"text","text":"#### [[Algorithm Most Common Built in Functions#Array Filter|Filter]]","x":844,"y":982,"width":171,"height":57,"color":"3"},
+		{"id":"6076563a4e4481d8","type":"text","text":"### [[Algorithm Most Common Built in Functions#Array to String |join]]  ","x":1211,"y":945,"width":154,"height":60,"color":"2"},
+		{"id":"7873e05630bb9cea","x":840,"y":1286,"width":280,"height":154,"type":"text","text":"Slice shallow copy a portion of array"}
 	],
 	"edges":[
 		{"id":"96d016acd65b0fff","fromNode":"ca62e46b96c8640f","fromSide":"right","toNode":"fd325d709a909001","toSide":"left","color":"2"},
@@ -216,7 +217,7 @@
 		{"id":"711c311fb536c0d0","fromNode":"92d089b44bebc434","fromSide":"right","toNode":"95dce9009e359e66","toSide":"left"},
 		{"id":"e2fbdf86c885cc4d","fromNode":"c348f040e659dca0","fromSide":"right","toNode":"d11472b8e9469b92","toSide":"left","color":"2"},
 		{"id":"c9641893a498e8fe","fromNode":"b3998e713c9f6a67","fromSide":"right","toNode":"0d697435e2e19a71","toSide":"left","color":"3"},
-		{"id":"10826ddfca0876fd","fromNode":"0d697435e2e19a71","fromSide":"right","toNode":"6076563a4e4481d8","toSide":"left","color":"3"},
+		{"id":"10826ddfca0876fd","fromNode":"0d697435e2e19a71","fromSide":"bottom","toNode":"6076563a4e4481d8","toSide":"left","color":"3"},
 		{"id":"0db3f8034da650a4","fromNode":"d11472b8e9469b92","fromSide":"top","toNode":"0d697435e2e19a71","toSide":"bottom","color":"3"},
 		{"id":"5901e26e440858d1","fromNode":"d11472b8e9469b92","fromSide":"top","toNode":"6076563a4e4481d8","toSide":"bottom","color":"3"},
 		{"id":"ee1cc121e480192f","fromNode":"bc929a986562ba89","fromSide":"left","toNode":"16e92aeedfed376e","toSide":"top","color":"2"},
@@ -261,6 +262,10 @@
 		{"id":"3f0a2c9e591c4512","fromNode":"41fac452e0ce903e","fromSide":"right","toNode":"f8e79c60c60d7ec1","toSide":"left","label":"relates"},
 		{"id":"e6d47c1ed35dbd9e","fromNode":"9585a7d4f9b71583","fromSide":"right","toNode":"f8e79c60c60d7ec1","toSide":"left","label":"relates"},
 		{"id":"7b26a8b74ef60ebd","fromNode":"ecfc42ef14105761","fromSide":"bottom","toNode":"fdcf7eb070026dda","toSide":"top","toEnd":"none"},
-		{"id":"980212a6b84428a3","fromNode":"41fac452e0ce903e","fromSide":"right","toNode":"ecfc42ef14105761","toSide":"left","label":"relates"}
+		{"id":"980212a6b84428a3","fromNode":"41fac452e0ce903e","fromSide":"right","toNode":"ecfc42ef14105761","toSide":"left","label":"relates"},
+		{"id":"9b821d1be2dc5edf","fromNode":"f13012b2a9ed16e5","fromSide":"right","toNode":"a73b83869550d3ce","toSide":"left","color":"3"},
+		{"id":"b32835345ecbcb2e","fromNode":"998645ac0a80e98a","fromSide":"right","toNode":"a73b83869550d3ce","toSide":"left","color":"3"},
+		{"id":"cf1b9f91ec7a0fb3","fromNode":"a73b83869550d3ce","fromSide":"bottom","toNode":"0d697435e2e19a71","toSide":"top","color":"3"},
+		{"id":"bf977a5d35b6f195","fromNode":"d7df8a358d5c2c76","fromSide":"right","toNode":"7873e05630bb9cea","toSide":"left"}
 	]
 }

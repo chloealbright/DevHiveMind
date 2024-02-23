@@ -267,7 +267,7 @@ Array.join(optionalSeparator) 
 ```
 
 ### Array Sort
-
+in place sort reduces writes
 ```javascript
 Array
 .sort() 

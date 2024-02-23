@@ -448,8 +448,6 @@ months.splice(3, 2, 'May', 'Dec'); // removes June
 
 ### Array Fill
 
-
-
 ```javascript
 
 const alpha = Array.from(Array(26)).map((e, i) => i + 65); 
@@ -477,36 +475,15 @@ let reg = newSring.replace(/\d/g, "")  
 
 ```javascript
 
-
-
-
 Array.flat(depth) depth is optional 
 
 Array.includes(searchElement, fromIndex(Optional))        
 
-
-
 Array.reverse() 
-
-shift()  // removes the first element or 
-unshift()  // adds one or more elements to the beginning of an array 
-
-slice(start, end) start & end Optional returns a shallow copy of a portion of an array ```
+```
 ## Optional                                     
 
- ```javascript   
-                                         splice(start)                                                                                          
-splice(start, deleteCount)                                                                      
 
-splice(start, deleteCount, item1)                                                      
-
-splice(start, deleteCount, item1, item2, itemN)                              
-
-items are elements to add to the array, beginning from start. 
-
-Array.toString() method returns a string representing the specified array  
-
-```
 
 ### Callback function supports these params thisArg is Optional                                                                
 

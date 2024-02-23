@@ -134,7 +134,7 @@
 		{"id":"a73b83869550d3ce","x":1020,"y":753,"width":140,"height":50,"color":"3","type":"text","text":"### [[Algorithm Most Common Built in Functions#Array Sort |Sort]] "},
 		{"id":"0d697435e2e19a71","type":"text","text":"#### [[Algorithm Most Common Built in Functions#Array Filter|Filter]]","x":844,"y":982,"width":171,"height":57,"color":"3"},
 		{"id":"6076563a4e4481d8","type":"text","text":"### [[Algorithm Most Common Built in Functions#Array to String |join]]  ","x":1211,"y":945,"width":154,"height":60,"color":"2"},
-		{"id":"7873e05630bb9cea","x":840,"y":1286,"width":280,"height":154,"type":"text","text":"Slice shallow copy a portion of array"}
+		{"id":"7873e05630bb9cea","x":840,"y":1286,"width":280,"height":154,"color":"3","type":"text","text":"Slice shallow copy a portion of array"}
 	],
 	"edges":[
 		{"id":"96d016acd65b0fff","fromNode":"ca62e46b96c8640f","fromSide":"right","toNode":"fd325d709a909001","toSide":"left","color":"2"},

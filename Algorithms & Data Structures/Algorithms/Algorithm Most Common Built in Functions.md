@@ -448,11 +448,21 @@ months.splice(3, 2, 'May', 'Dec'); // removes June
 
 ### Array Fill
 
+
+### Array From
+
 ```javascript
-
 const alpha = Array.from(Array(26)).map((e, i) => i + 65); 
+```
 
+### Array Map
+```js
 const alphabet = alpha.map((x) =>{ String.fromCharCode(x)); 
+```
+
+
+```js
+
 
 String.includes(searchString, position(OPITIONAL) )  
 // or  
@@ -481,7 +491,7 @@ Array.includes(searchElement, fromIndex(Optional))        
 
 Array.reverse() 
 ```
-## Optional                                     
+
 
 
 

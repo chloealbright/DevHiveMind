@@ -57,7 +57,6 @@
 		{"id":"27db0598cd9ab942","type":"text","text":"# Coding Style","x":2142,"y":1880,"width":376,"height":60},
 		{"id":"f181c6d2b5f3fc1f","type":"text","text":"### SubString = individual characters","x":622,"y":1963,"width":339,"height":160},
 		{"id":"c348f040e659dca0","type":"text","text":"### Multi Character","x":622,"y":2163,"width":359,"height":60},
-		{"id":"d11472b8e9469b92","type":"text","text":"### [[Algorithm Most Common Built in Functions#Split |Split]]","x":1367,"y":1963,"width":373,"height":60,"color":"3"},
 		{"id":"8d6bd4958800f7c0","type":"text","text":"### [[Algorithm Most Common Built in Functions#Ends With |End With]] ","x":1351,"y":2433,"width":389,"height":96,"color":"6"},
 		{"id":"ecfc42ef14105761","type":"text","text":"### [[Algorithm Most Common Built in Functions#Character to Ascii Code |Character to Code]]","x":1327,"y":2580,"width":373,"height":60,"color":"1"},
 		{"id":"f8e79c60c60d7ec1","type":"text","text":"### [[Algorithm Most Common Built in Functions#Ascii Code to Character |Code to Character]]","x":1327,"y":2700,"width":373,"height":65,"color":"2"},
@@ -117,8 +116,11 @@
 		{"id":"39385449ae56a059","type":"text","text":"### Empty Space = \" \"","x":582,"y":2529,"width":395,"height":60},
 		{"id":"60eaa452b58a3486","type":"text","text":"### Empty String =  \"\"","x":602,"y":2421,"width":395,"height":60},
 		{"id":"d12a903cbb8a0c13","x":622,"y":2274,"width":418,"height":90,"type":"text","text":"##### word or character exist in string"},
-		{"id":"765df1a3f9a07eac","x":1264,"y":2163,"width":250,"height":60,"color":"6","type":"text","text":"#### [[Algorithm Most Common Built in Functions#Include |Includes]]"},
-		{"id":"0df1cc4cc22c8a75","x":1769,"y":2266,"width":250,"height":60,"type":"text","text":"match"}
+		{"id":"765df1a3f9a07eac","x":1226,"y":2084,"width":250,"height":60,"color":"6","type":"text","text":"#### [[Algorithm Most Common Built in Functions#Include |Includes]]"},
+		{"id":"0df1cc4cc22c8a75","x":1575,"y":2144,"width":165,"height":50,"color":"3","type":"text","text":"match"},
+		{"id":"c00306235821983c","x":1546,"y":2224,"width":205,"height":50,"color":"3","type":"text","text":"matchAll"},
+		{"id":"d11472b8e9469b92","type":"text","text":"### [[Algorithm Most Common Built in Functions#Split |Split]]","x":1476,"y":1893,"width":373,"height":60,"color":"3"},
+		{"id":"dc949d24f4fcb3b7","x":1691,"y":1561,"width":250,"height":60,"color":"2","type":"text","text":"### [[Algorithm Most Common Built in Functions#Specific Range of SubString| SubString]]"}
 	],
 	"edges":[
 		{"id":"96d016acd65b0fff","fromNode":"ca62e46b96c8640f","fromSide":"right","toNode":"fd325d709a909001","toSide":"left","color":"2"},
@@ -225,6 +227,8 @@
 		{"id":"a4bbc1108d22d861","fromNode":"fd325d709a909001","fromSide":"right","toNode":"45ce70fa63c373fb","toSide":"left","toEnd":"none"},
 		{"id":"baddd83c04cc80eb","fromNode":"ca62e46b96c8640f","fromSide":"right","toNode":"d12a903cbb8a0c13","toSide":"left","color":"2"},
 		{"id":"d8a338ad709a0291","fromNode":"d12a903cbb8a0c13","fromSide":"right","toNode":"765df1a3f9a07eac","toSide":"left"},
-		{"id":"ec0c9a423b85b6b7","fromNode":"d12a903cbb8a0c13","fromSide":"right","toNode":"0df1cc4cc22c8a75","toSide":"left"}
+		{"id":"ec0c9a423b85b6b7","fromNode":"d12a903cbb8a0c13","fromSide":"right","toNode":"0df1cc4cc22c8a75","toSide":"left"},
+		{"id":"c609508a253b2142","fromNode":"d12a903cbb8a0c13","fromSide":"right","toNode":"c00306235821983c","toSide":"left"},
+		{"id":"19f755c8060f18c0","fromNode":"f181c6d2b5f3fc1f","fromSide":"right","toNode":"dc949d24f4fcb3b7","toSide":"left"}
 	]
 }

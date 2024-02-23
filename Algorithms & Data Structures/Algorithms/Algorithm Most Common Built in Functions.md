@@ -114,7 +114,11 @@ const searchString = "how";
 const includesResult = mainString.includes(searchString, 7); console.log(includesResult); // Output: false
 ```
 
-
+### Repeat string
+```javascript
+const mood = 'Happy! ';
+mood.repeat(3)// output: "Happy! Happy! Happy! "
+```
 
 #### Split
 ```javascript
@@ -216,9 +220,9 @@ Array ["test2", "e", "st2", "2"]
 
 String.search(regexp) 
 
-String .replace(regexp, newSubstr) .replaceAll       String .replace(regexp,replacerFunction)  .replaceAll                                              String .replace(substr, newSubstr) .replaceAll        String .replace(substr, replacerFunction) .replaceAll
+String .replace(regexp, newSubstr) .replaceAll       String .replace(regexp,replacerFunction)  .replaceAll                                             String .replace(substr, newSubstr) .replaceAll        String .replace(substr, replacerFunction) .replaceAll
 ```
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace) 
+
 
 ```javascript
 RegExp.prototype.test()  executes a search for a match between a regular expression and a specified string returns true or false 
@@ -238,9 +242,6 @@ regex1.exec(str1)
 The string against which to match the regular expression. If the match succeeds, the exec() method returns an array or null if fail 
 
 ## Common Array/Object Types 
-
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) 
-
 
 ### Array to String 
 ```javascript
@@ -265,7 +266,7 @@ shift()  // removes the first element or
 unshift()  // adds one or more elements to the beginning of an array 
 
 slice(start, end) start & end Optional returns a shallow copy of a portion of an array ```
-## Optional                                           
+## Optional                                     
 
  ```javascript   
                                          splice(start)                                                                                          

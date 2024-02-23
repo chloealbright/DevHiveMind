@@ -446,8 +446,6 @@ months.splice(3, 2, 'May', 'Dec'); // removes June
 // output: Array ["Jan", "Feb", "March", "May", "Dec"]
 ```
 
-### Array Fill
-
 
 ### Array From
 returns shallow copy array 
@@ -463,25 +461,6 @@ const alphabet = alpha.map((x) => String.fromCharCode(x)); // outputs capitalize
 ```
 
 
-```js
-
-
-String.includes(searchString, position(OPITIONAL) )  
-// or  
-String.indexOf(searchString, position(OPITIONAL) ) 
-//or  
-lastIndexOf() 
-
-const str = 'searchString, or not to be, that is the question.'   
-str.includes('searchString', 0))// true but false if 1 was passed array also has a includes 
-
-
-// rm special characters 
-let text = "A(B){C};:a.b*!c??!1<>2@#3"                     let newSring = text.replace(/[\d\W_]+/g,"");
-// \d get rid of nums 
-let reg = newSring.replace(/\d/g, "")  
-
-```
 
 
 

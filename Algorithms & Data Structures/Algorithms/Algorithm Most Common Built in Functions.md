@@ -147,6 +147,15 @@ console.log(str.substring(1, 3)); // output: "oz"
 console.log(str.substring(2)); // output: "zilla"
 ```
 
+#### Trim
+```js
+' Hello world! '.trim() = "Hello world!" 
+' Hello world! '.trimEnd() = " Hello world!" // only end
+' Hello world! '.trimStart() = "Hello world! " // only start
+```
+
+
+
 
 ```javascript
 
@@ -163,7 +172,7 @@ lastIndexOf() 
 const str = 'searchString, or not to be, that is the question.'   
 str.includes('searchString', 0))// true but false if 1 was passed array also has a includes 
 
-' Hello world! '.trim() = "Hello world!" or trimEnd() or trimStart() 
+
 
 String.slice(beginIndex, endIndex(OPITIONAL) ) 
 
@@ -177,12 +186,7 @@ let reg = newSring.replace(/\d/g, "")  
 
 ```
 
-The difference between `""` and `" "` lies in the content of the string.  
-  
-- `""` represents an empty string with zero characters.  
-- `" "` represents a string containing a single space character.  
-  
-So, `""` is an empty string, while `" "` is a string with a space character in it.
+
 
 #### Regex 
 

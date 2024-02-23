@@ -105,6 +105,16 @@ const str2 = 'Is this a question?';
 str2.endsWith('question');// output: false
 ```
 
+#### Starts With
+```javascript
+const str1 = 'Saturday night plans';
+
+str1.startsWith('Sat')// output: true
+str1.startsWith('Sat', 0); // output: true
+str1.startsWith('Sat', 3) // output: false
+```
+
+
 #### Include
 ```javascript
 const sentence = 'The quick brown fox jumps.';

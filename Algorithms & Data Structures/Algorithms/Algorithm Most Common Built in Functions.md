@@ -330,16 +330,35 @@ const isBelowThreshold = (currentValue) => currentValue < 40;
 
 const array1 = [1, 30, 39, 29, 10, 13];
 
-console.log(array1.every(isBelowThreshold));
-// output: true
+console.log(array1.every(isBelowThreshold)); // output: true
+```
+
+
+### Array Fill
+returns mutated array not shallow copy
+```js
+const array1 = [1, 2, 3, 4];
+
+// Fill with 0 from position 2 until position 4
+array1.fill(0, 2, array1.length) // output: Array [1, 2, 0, 0]
+
+// Fill with 5 from position 1
+array1.fill(5, 1) // output: Array [1, 5, 5, 5]
+
+array1.fill(6)// output: Array [6, 6, 6, 6]
+
+//start & end Optional 
+Array.fill
+(value) 
+(value, start) 
+(value, start, end) 
 
 ```
 
 
 ### Array Fill
-```js
-Array.fill(value) (value, start) (value, start, end) start & end Optional 
-```
+
+
 
 ```javascript
 
@@ -420,7 +439,6 @@ const shortWords = words.filter(word => word.length < 6);
 
 (function(element, index, array) { /* ... */ }, thisArg) Inline callback  
 
-Array.every() test if every element in array pass a condition and returns a Boolean value. 
 
 
 

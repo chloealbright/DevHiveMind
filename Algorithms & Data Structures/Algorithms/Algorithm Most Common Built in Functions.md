@@ -82,14 +82,12 @@ const isEven = (number) => number % 2 === 0;
 'ab'.charCodeAt() = 97 // default to zero
 ```
 
-
 #### Ascii Code to Character
 ```javascript
 String.fromCharCode(98) = 'b'
 String.fromCharCode(97,98, ...nums) = 'ab'
 String.fromCharCode() = '' // empty string
 ```
-
 
 #### Ends With
 ```javascript
@@ -129,7 +127,7 @@ const searchString = "how";
 const includesResult = mainString.includes(searchString, 7); console.log(includesResult); // Output: false
 ```
 
-### Repeat string
+#### Repeat string
 ```javascript
 const mood = 'Happy! ';
 mood.repeat(3)// output: "Happy! Happy! Happy! "
@@ -162,7 +160,7 @@ console.log(str.substring(1, 3)); // output: "oz"
 console.log(str.substring(2)); // output: "zilla"
 ```
 
-### Slice
+#### Slice
 ```js
 String.slice(beginIndex, endIndex(OPITIONAL) ) 
 const str = 'The quick brown fox jumps over the lazy dog.';
@@ -190,32 +188,7 @@ console.log(str.slice(-9, -5));
 
 
 
-```javascript
-
-const alpha = Array.from(Array(26)).map((e, i) => i + 65); 
-
-const alphabet = alpha.map((x) =>{ String.fromCharCode(x)); 
-
-String.includes(searchString, position(OPITIONAL) )  
-// or  
-String.indexOf(searchString, position(OPITIONAL) ) 
-//or  
-lastIndexOf() 
-
-const str = 'searchString, or not to be, that is the question.'   
-str.includes('searchString', 0))// true but false if 1 was passed array also has a includes 
-
-
-// rm special characters 
-let text = "A(B){C};:a.b*!c??!1<>2@#3"                     let newSring = text.replace(/[\d\W_]+/g,"");
-// \d get rid of nums 
-let reg = newSring.replace(/\d/g, "")  
-
-```
-
-
-
-#### Regex 
+### [[Regular expression#Regular Expression |Regex]] 
 
 #### Match
 ```js
@@ -292,6 +265,33 @@ The string against which to match the regular expression. If the match succeeds,
 ```javascript
 Array.join(optionalSeparator) 
 ```
+
+
+
+
+```javascript
+
+const alpha = Array.from(Array(26)).map((e, i) => i + 65); 
+
+const alphabet = alpha.map((x) =>{ String.fromCharCode(x)); 
+
+String.includes(searchString, position(OPITIONAL) )  
+// or  
+String.indexOf(searchString, position(OPITIONAL) ) 
+//or  
+lastIndexOf() 
+
+const str = 'searchString, or not to be, that is the question.'   
+str.includes('searchString', 0))// true but false if 1 was passed array also has a includes 
+
+
+// rm special characters 
+let text = "A(B){C};:a.b*!c??!1<>2@#3"                     let newSring = text.replace(/[\d\W_]+/g,"");
+// \d get rid of nums 
+let reg = newSring.replace(/\d/g, "")  
+
+```
+
 
 
 ```javascript

@@ -14,6 +14,82 @@ In general, simple and well-optimized regex patterns tend to have faster runtime
   
 It's important to consider the specific implementation details of the regex engine being used, as different programming languages and libraries may employ different strategies for regex matching. If performance is a critical concern, profiling and testing with representative data sets can help identify potential bottlenecks and optimize the regex usage.
 
+### Regular Expression 
+- `^` asserts the start of the string. It specifies that the pattern that follows should match at the beginning of the string. For example, in `/^[a-zA-Z]+$/`, `^` ensures that the pattern `[a-zA-Z]+` must start matching from the beginning of the string.
+
+- `+$` asserts the end of the string. It specifies that the pattern that precedes it should match all the way to the end of the string. For example, in `/^[a-zA-Z]+$/`, `$` ensures that the pattern `[a-zA-Z]+` must match until the end of the string.
+
+**Alphabet Validation:**
+```js
+/^[a-zA-Z]+$/
+```
+
+**Email Validation:**
+   ```javascript
+   /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+   ```
+
+**URL Validation:**
+   ```javascript
+   /^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$/
+   ```
+
+**Phone Number (North America):**
+   ```javascript
+   /^\+?[1-9]\d{1,14}$/
+   ```
+
+**Date (YYYY-MM-DD):**
+   ```javascript
+   /^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$/
+   ```
+
+**Username (Alphanumeric + Underscore):**
+   ```javascript
+   /^[a-zA-Z0-9_]+$/
+   ```
+
+**HTML Tags (Basic):**
+   ```javascript
+   /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/
+   ```
+
+**IPv4 Address:**
+   ```javascript
+   /^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/
+   ```
+
+**Credit Card Number (Luhn Algorithm):**
+   ```javascript
+   /^(?!0+$)\d{1,19}?$/
+   ```
+
+**Hex Color Code:**
+   ```javascript
+   /^#?([a-fA-F0-9]{6}|[a-fA-F0-9]{3})$/
+   ```
+
+To create a regular expression pattern to parse out numbers from a string, you can use the following:
+
+```javascript
+/\d+/g
+```
+
+Explanation:
+
+- `\d`: Matches any digit (0-9).
+- `+`: Allows for one or more occurrences of the digit.
+- `g`: Global flag, which means the pattern will be applied globally to the entire string, extracting all occurrences of digits.
+
+Example:
+
+```javascript
+const inputString = "There are 42 apples and 123 oranges.";
+const numbersArray = inputString.match(/\d+/g);
+console.log(numbersArray); // Output: ['42', '123']
+```
+
+These are just a few examples; regular expressions can be tailored for various specific needs. Always consider the specific requirements of your use case when crafting or selecting a regular expression pattern.
 
 ### Debugging Regular Expression
 

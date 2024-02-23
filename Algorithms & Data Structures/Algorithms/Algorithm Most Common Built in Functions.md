@@ -356,6 +356,29 @@ Array.fill
 ```
 
 
+### Array Pop
+returns mutated array by reducing length of array
+```js
+const plants = ['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
+
+let test = plants.pop() // output: "tomato"
+// ['broccoli', 'cauliflower', 'cabbage', 'kale'];
+```
+
+### Array Shift
+
+### Array push
+returns mutated array by appending values at end
+```js
+const animals = ['pigs', 'goats', 'sheep'];
+animals.push('cows')
+// output: Array ["pigs", "goats", "sheep", "cows"]
+
+animals.push('chickens', 'cats', 'dogs');
+// output: Array ["pigs", "goats", "sheep", "cows", "chickens", "cats", "dogs"]
+
+```
+
 ### Array Fill
 
 

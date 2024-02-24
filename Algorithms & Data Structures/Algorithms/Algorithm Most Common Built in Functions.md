@@ -569,6 +569,20 @@ set1.forEach((point) => {
 set1.size // output: 1
 ```
 
+#### has
+```js
+const set1 = new Set([1, 2, 3, 4, 5]);
+
+console.log(set1.has(1));
+// Expected output: true
+
+console.log(set1.has(5));
+// Expected output: true
+
+console.log(set1.has(6));
+// Expected output: false
+```
+
 ### Map
 
 #### ForEach
@@ -584,8 +598,6 @@ myMap.forEach((value, key) => {
   console.log(`Key: ${key}, Value: ${value}`);
 });
 ```
-
-In this example, the `forEach` method is called on the `myMap` Map object. The provided callback function takes two parameters - the `value` and the `key` for each entry in the Map. The callback function then logs each key-value pair to the console.
 
 #### Get
 ```js

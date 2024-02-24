@@ -50,3 +50,13 @@ function processUserInput(callback) { 
     } 
 
 processUserInput(greeting);
+
+
+
+
+```javascript
+
+// Inline callback 
+(function(element, index, array) { /* ... */ }, thisArg)  
+
+```

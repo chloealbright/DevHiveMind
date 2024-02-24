@@ -332,6 +332,25 @@ const array1 = [1, 30, 39, 29, 10, 13];
 console.log(array1.every(isBelowThreshold)); // output: true
 ```
 
+### Array Flat 
+```js
+const arr1 = [0, 1, 2, [3, 4]];
+
+console.log(arr1.flat());
+// output: Array [0, 1, 2, 3, 4]
+
+const arr2 = [0, 1, [2, [3, [4, 5]]]];
+
+console.log(arr2.flat());
+// output: Array [0, 1, 2, Array [3, Array [4, 5]]]
+
+console.log(arr2.flat(2));
+// output: Array [0, 1, 2, 3, Array [4, 5]]
+
+console.log(arr2.flat(Infinity));
+// output: Array [0, 1, 2, 3, 4, 5]
+```
+
 ### Array Fill
 returns mutated array not shallow copy
 ```js
@@ -462,7 +481,18 @@ const array1 = [5, 12, 8, 130, 44];
 const found = array1.find((element) => element > 10);
 // output: 12
 
+const isLargeNumber = (element) => element > 13;
+array1.findIndex(isLargeNumber) // output: 3
 
+
+
+const found = array1.findLast((element) => element > 45); // output: 130
+
+
+const isLargeNumber = (element) => element > 45;
+array1.findLastIndex(isLargeNumber)
+// output: 3
+// Index of element with value: 130
 
 
 Array.flat(depth) depth is optional 
@@ -472,19 +502,19 @@ Array.includes(searchElement, fromIndex(Optional))        
 Array.reverse() 
 ```
 
-## Array Functions with Callback Params`
-
-
+## Array Func with Callback Params
 thisArg is a `optional` param for most built in functions that take in callback functions     
-
-
 
 #### Array Filter
 This method empowers you to assess if each element in an array meets a specific condition, yielding a new array with the elements that fulfill the test or an empty array if the condition isn't met.
 ```javascript
 const words = ["apple", "banana", "grape", "kiwi"];
-const shortWords = words.filter(word => word.length < 6);
-// Result: shortWords = ["apple", "grape", "kiwi"]
+const shortWords = words.filter(word => word.length < 6);// Result: shortWords = ["apple", "grape", "kiwi"]
+
+shortWords.forEach((element) => console.log(element));
+// "apple"  
+// "grape"  
+// "kiwi"
 ```
 
 

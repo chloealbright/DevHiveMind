@@ -575,9 +575,9 @@ In this example:
 - The final result is the sum of all elements in the array.
 
 ### Object 
-Object iterate using for In loop 
 
 #### Entries
+Object iterate using for In loop 
 ```js
 const object1 = {
   a: 'somestring',

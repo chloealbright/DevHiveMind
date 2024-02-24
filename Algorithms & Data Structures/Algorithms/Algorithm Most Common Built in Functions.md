@@ -497,7 +497,7 @@ const reversed = array1.reverse();
 // output: "reversed:" Array ["three", "two", "one"]
 ```
 
-## Array Func with Callback Params
+## Array Func with [[Callback]] Params
 thisArg is a `optional` param for most built in functions that take in callback functions     
 
 #### Array Filter
@@ -577,9 +577,6 @@ In this example:
 ### Object 
 Object iterate using for In loop 
 
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects) 
-
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) 
 
 
 ### Set

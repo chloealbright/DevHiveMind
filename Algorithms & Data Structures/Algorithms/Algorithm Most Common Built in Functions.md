@@ -517,24 +517,104 @@ Array.some() method tests whether at least one element in the array passes the t
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) 
 
+
+### Set
+
+#### Add
+```js
+const set1 = new Set();
+
+set1.add(42);
+set1.add(42);
+set1.add(13);
+
+for (const item of set1) {
+  console.log(item);
+  // output: 42
+  // output: 13
+}
+```
+
+#### Clear 
+```js
+const set1 = new Set();
+set1.add(1);
+set1.add('foo');
+
+set1.size // output: 2
+
+set1.clear();
+
+set1.size// output: 0
+```
+
+#### Delete 
+```js
+const set1 = new Set();
+set1.add({ x: 10, y: 20 }).add({ x: 20, y: 30 });
+
+Set {
+  { x: 10, y: 20 },
+  { x: 20, y: 30 }
+}
+
+
+// Delete any point with `x > 10`.
+set1.forEach((point) => {
+  if (point.x > 10) {
+    set1.delete(point);
+  }
+});
+
+set1.size // output: 1
+```
+
 ### Map
-#### Set
+
+#### ForEach
+```javascript
+let myMap = new Map();
+
+myMap.set('key1', 'value1');
+myMap.set('key2', 'value2');
+myMap.set('key3', 'value3');
+
+// Using forEach on Map
+myMap.forEach((value, key) => {
+  console.log(`Key: ${key}, Value: ${value}`);
+});
+```
+
+In this example, the `forEach` method is called on the `myMap` Map object. The provided callback function takes two parameters - the `value` and the `key` for each entry in the Map. The callback function then logs each key-value pair to the console.
+
+#### Get
 ```js
 const map1 = new Map();
 map1.set('bar', 'foo');
 
 map1.get('bar') // output: "foo"
+map1.get('baz')// output: undefined
+```
 
-console.log(map1.get('baz')); // output: undefined
+#### has
+```js
+const map1 = new Map();
+map1.set('bar', 'foo');
+
+map1.has('bar') // output: true
+map1.has('baz') // output: false
+```
+
+
+#### Set
+```js
+const map1 = new Map();
+map1.set('bar', 'foo');
 ```
 
 
 
 
-#### Set 
-
-                                                                      
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 
 
 

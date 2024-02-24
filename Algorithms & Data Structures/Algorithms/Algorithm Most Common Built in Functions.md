@@ -3,9 +3,9 @@ tags:
   - MicroCodebaseDecision
 author:
   - jacgit18
-Status: 
+Status: Refinement
 Started: 
-EditDate: 2024-02-19
+EditDate: 2024-02-23
 Relates:
 ---
 ## Common Math 

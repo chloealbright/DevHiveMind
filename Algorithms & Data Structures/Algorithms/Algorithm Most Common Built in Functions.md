@@ -518,22 +518,24 @@ shortWords.forEach((element) => console.log(element));
 ```
 
 
+#### Array FlatMap
+both maps and flattens the result in a single step.
+```js
+const arr1 = [[1], 2, [1]];
+
+const result = arr1.flatMap((num) => (num === 2 ? [2, 2] : 1));
+// output: Array [1, 2, 2, 1]
+```
 
 
 
 ```javascript
-(element, index, array) =>  Arrow function             
 
-(callbackFn, thisArg) Callback function            
-
-(function(element, index, array) { /* ... */ }, thisArg) Inline callback  
+// Inline callback 
+(function(element, index, array) { /* ... */ }, thisArg)  
 
 
 
-
-Array.find() or findIndex() returns the first element/index in the provided array that satisfies the provided testing function If no values satisfy the testing function, undefined/-1 is returned. 
-
-Array.map() method creates a new array populated with the results of calling a provided function on every element in the calling array like multiplying each element by 2 in the array. 
 
 Array.some() method tests whether at least one element in the array passes the test implemented by the provided function. It returns true if, in the array, it finds an element for which the provided function returns true; otherwise it returns false. It doesn't modify the array. 
 ```

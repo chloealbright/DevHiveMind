@@ -288,6 +288,7 @@ if a(1) - b(2) || b(2) - a(1) ==== 0 
 ```
 
 ### Array at
+alt approach to array notation access`array[0]`
 The negative index `-2` corresponds to the second-to-last element in the array. 
 ```js
 const array1 = [5, 12, 8, 130, 44];

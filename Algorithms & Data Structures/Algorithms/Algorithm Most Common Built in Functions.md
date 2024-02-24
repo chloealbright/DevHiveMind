@@ -609,9 +609,46 @@ console.log(obj.prop);
 // Expected output: 42
 ```
 
+#### getOwnPropertyNames
+```js
+const object1 = {
+  a: 1,
+  b: 2,
+  c: 3,
+};
 
+Object.getOwnPropertyNames(object1) 
+// output: Array ["a", "b", "c"]
+```
 
+#### Keys
+```js
+const object1 = {
+  a: 'somestring',
+  b: 42,
+  c: false,
+};
 
+console.log(Object.keys(object1));
+// output: Array ["a", "b", "c"]
+```
+
+ both methods provide the names of properties belonging directly to an object, but `Object.keys()` is limited to enumerable properties and does not include Symbol keys, while `Object.getOwnPropertyNames()` includes all own properties, regardless of enumerability, and includes Symbol keys.
+
+#### hasOwnProperty
+```js
+const object1 = {};
+object1.property1 = 42;
+
+console.log(object1.hasOwnProperty('property1'));
+// output: true
+
+console.log(object1.hasOwnProperty('toString'));
+// output: false
+
+console.log(object1.hasOwnProperty('hasOwnProperty'));
+// output: false
+```
 
 ### Set
 Iterable object

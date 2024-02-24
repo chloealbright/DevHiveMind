@@ -517,10 +517,23 @@ Array.some() method tests whether at least one element in the array passes the t
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) 
 
-Map(uses has()):                                                                   
-[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) 
+### Map
+#### Set
+```js
+const map1 = new Map();
+map1.set('bar', 'foo');
 
-Set(uses has()):                                                                        
+map1.get('bar') // output: "foo"
+
+console.log(map1.get('baz')); // output: undefined
+```
+
+
+
+
+#### Set 
+
+                                                                      
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 
 

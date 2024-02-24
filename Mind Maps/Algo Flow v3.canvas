@@ -102,7 +102,6 @@
 		{"id":"04277c69d1d0dcbb","type":"text","text":"# Returns String","x":2310,"y":-1437,"width":449,"height":60,"color":"2"},
 		{"id":"06413c3de7a7fc2a","type":"text","text":"# Returns Number","x":1768,"y":-1437,"width":449,"height":60,"color":"1"},
 		{"id":"39385449ae56a059","type":"text","text":"### Empty Space = \" \"","x":231,"y":3005,"width":395,"height":60},
-		{"id":"92a80e00194e903e","type":"text","text":"### Some Data Structure with these values  ","x":-466,"y":2158,"width":439,"height":160},
 		{"id":"ecfc42ef14105761","type":"text","text":"### [[Algorithm Most Common Built in Functions#Character to Ascii Code |Character to Code]]","x":1054,"y":1924,"width":373,"height":60,"color":"1"},
 		{"id":"fdcf7eb070026dda","type":"text","text":"Implement some conditional logic around range depends on problem ","x":982,"y":2028,"width":445,"height":120},
 		{"id":"d11472b8e9469b92","type":"text","text":"### [[Algorithm Most Common Built in Functions#Split |Split]]","x":1529,"y":2118,"width":373,"height":60,"color":"3"},
@@ -112,7 +111,6 @@
 		{"id":"83530d618210f901","type":"text","text":"##### Character Code","x":250,"y":1979,"width":377,"height":60},
 		{"id":"41fac452e0ce903e","type":"text","text":"### Alphabetic Range ","x":272,"y":2113,"width":355,"height":53},
 		{"id":"ca62e46b96c8640f","type":"text","text":"## Strings","x":-312,"y":1754,"width":211,"height":53,"color":"2"},
-		{"id":"fb939de4f80d9504","type":"text","text":"## Object","x":-457,"y":2038,"width":250,"height":60},
 		{"id":"621d34172855a93f","type":"text","text":"###### Ends with Word or Character ","x":210,"y":2764,"width":457,"height":60},
 		{"id":"d12a903cbb8a0c13","type":"text","text":"##### word or character exist in string","x":201,"y":3105,"width":418,"height":90},
 		{"id":"d820a9b2509a4952","type":"text","text":"### [[Algorithm Most Common Built in Functions#Array Pop |Pop]]","x":664,"y":1640,"width":250,"height":50,"color":"#bbff00"},
@@ -147,7 +145,9 @@
 		{"id":"c348f040e659dca0","type":"text","text":"### Multi Character","x":277,"y":2343,"width":359,"height":60},
 		{"id":"6dcaf3843411ca15","type":"text","text":"### Letter Case ","x":280,"y":2446,"width":339,"height":50},
 		{"id":"9585a7d4f9b71583","type":"text","text":"### Alphabetic Order ","x":281,"y":2226,"width":355,"height":53},
-		{"id":"fd325d709a909001","type":"text","text":"### Length","x":818,"y":217,"width":195,"height":53,"color":"5"}
+		{"id":"fd325d709a909001","type":"text","text":"### Length","x":818,"y":217,"width":195,"height":53,"color":"5"},
+		{"id":"fb939de4f80d9504","type":"text","text":"## Object","x":-300,"y":3800,"width":211,"height":60,"color":"#00fa53"},
+		{"id":"92a80e00194e903e","type":"text","text":"### Some Data Structure with these values  ","x":-29,"y":3480,"width":439,"height":160}
 	],
 	"edges":[
 		{"id":"96d016acd65b0fff","fromNode":"ca62e46b96c8640f","fromSide":"right","toNode":"fd325d709a909001","toSide":"left","color":"2"},

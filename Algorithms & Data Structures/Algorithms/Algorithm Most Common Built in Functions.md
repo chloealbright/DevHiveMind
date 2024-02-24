@@ -474,6 +474,44 @@ returns shallow copy with update values
 const alphabet = alpha.map((x) => String.fromCharCode(x)); // outputs capitalized alphabet [A, B, C, ..., Z]
 ```
 
+#### Includes
+
+```javascript
+const array1 = [1, 2, 3];
+
+array1.includes(2) // output: true
+
+const pets = ['cat', 'dog', 'bat'];
+
+pets.includes('cat') // output: true
+
+pets.includes('cat', 1) // output: false
+
+pets.includes('at') // output: false
+```
+
+#### Reverse 
+```javascript
+const array1 = ['one', 'two', 'three'];
+const reversed = array1.reverse();
+// output: "reversed:" Array ["three", "two", "one"]
+```
+
+## Array Func with Callback Params
+thisArg is a `optional` param for most built in functions that take in callback functions     
+
+#### Array Filter
+This method empowers you to assess if each element in an array meets a specific condition, yielding a new array with the elements that fulfill the test or an empty array if the condition isn't met.
+```javascript
+const words = ["apple", "banana", "grape", "kiwi"];
+const shortWords = words.filter(word => word.length < 6);// Result: shortWords = ["apple", "grape", "kiwi"]
+
+shortWords.forEach((element) => console.log(element));
+// "apple"  
+// "grape"  
+// "kiwi"
+```
+
 ### Array Find
 ```javascript
 const array1 = [5, 12, 8, 130, 44];
@@ -495,21 +533,6 @@ array1.findLastIndex(isLargeNumber)
 // Index of element with value: 130
 ```
 
-## Array Func with Callback Params
-thisArg is a `optional` param for most built in functions that take in callback functions     
-
-#### Array Filter
-This method empowers you to assess if each element in an array meets a specific condition, yielding a new array with the elements that fulfill the test or an empty array if the condition isn't met.
-```javascript
-const words = ["apple", "banana", "grape", "kiwi"];
-const shortWords = words.filter(word => word.length < 6);// Result: shortWords = ["apple", "grape", "kiwi"]
-
-shortWords.forEach((element) => console.log(element));
-// "apple"  
-// "grape"  
-// "kiwi"
-```
-
 
 #### Array FlatMap
 both maps and flattens the result in a single step.
@@ -520,20 +543,36 @@ const result = arr1.flatMap((num) => (num === 2 ? [2, 2] : 1));
 // output: Array [1, 2, 2, 1]
 ```
 
+#### Reduce 
+reduce an array to a single value iterating over each element of the array, applying a callback function that you provide, and accumulates a result. The callback function takes four parameters: accumulator, current value, current index, and the array itself.
+
+```javascript
+array.reduce(callback(accumulator, currentValue, currentIndex, array), initialValue);
+```
+
+- `callback`: A function that is called once for each element in the array. It takes four parameters:
+  - `accumulator`: The accumulated result.
+  - `currentValue`: The current element being processed in the array.
+  - `currentIndex`: The index of the current element being processed.
+  - `array`: The array `reduce` was called upon.
+
+- `initialValue` (optional): An initial value for the accumulator. If not provided, the first element of the array is used as the initial accumulator value.
 
 
 ```javascript
+const numbers = [1, 2, 3, 4, 5];
 
-Array.includes(searchElement, fromIndex(Optional))        
+const sum = numbers.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+}, 0);
 
-Array.reverse() 
-
+console.log(sum); // Output: 15
 ```
 
-```javascript
-Array.reverse() 
-```
-
+In this example:
+- `accumulator` starts at `0` (provided as the second argument to `reduce`).
+- The callback function adds each `currentValue` to the `accumulator`.
+- The final result is the sum of all elements in the array.
 
 ### Object 
 Object iterate using for In loop 

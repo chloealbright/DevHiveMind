@@ -474,7 +474,7 @@ returns shallow copy with update values
 const alphabet = alpha.map((x) => String.fromCharCode(x)); // outputs capitalized alphabet [A, B, C, ..., Z]
 ```
 
-#### Includes
+#### Array Includes
 ```javascript
 const array1 = [1, 2, 3];
 
@@ -489,7 +489,7 @@ pets.includes('cat', 1) // output: false
 pets.includes('at') // output: false
 ```
 
-#### Reverse 
+#### Array Reverse 
 ```javascript
 const array1 = ['one', 'two', 'three'];
 const reversed = array1.reverse();
@@ -542,7 +542,7 @@ const result = arr1.flatMap((num) => (num === 2 ? [2, 2] : 1));
 // output: Array [1, 2, 2, 1]
 ```
 
-#### Reduce 
+#### Array Reduce 
 reduce an array to a single value iterating over each element of the array, applying a callback function that you provide, and accumulates a result. The callback function takes four parameters: accumulator, current value, current index, and the array itself.
 
 ```javascript

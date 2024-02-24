@@ -259,7 +259,7 @@ regex1.exec(str1)
 ```
 The string against which to match the regular expression. If the match succeeds, the exec() method returns an array or null if fail 
 
-## Common Array/Object Types 
+# Common [[Arrays |Array]] Functions  
 
 ### Array to String 
 ```javascript
@@ -310,7 +310,6 @@ const array3 = array1.concat(array2);
 // output: Array ["a", "b", "c", "d", "e", "f"]
 ```
 
-
 ### Array entries
 ```js 
 const array1 = ['a', 'b', 'c'];
@@ -333,7 +332,6 @@ const array1 = [1, 30, 39, 29, 10, 13];
 console.log(array1.every(isBelowThreshold)); // output: true
 ```
 
-
 ### Array Fill
 returns mutated array not shallow copy
 ```js
@@ -354,7 +352,6 @@ Array.fill
 (value, start, end) 
 
 ```
-
 
 ### Array Pop
 returns removed last element
@@ -396,8 +393,6 @@ console.log(array1.unshift(4, 5));
 console.log(array1);
 // Expected output: Array [4, 5, 1, 2, 3]
 ```
-
-
 
 ### Array Slice
 returns shallow copy array of `optional` given start and end
@@ -460,11 +455,15 @@ returns shallow copy with update values
 const alphabet = alpha.map((x) => String.fromCharCode(x)); // outputs capitalized alphabet [A, B, C, ..., Z]
 ```
 
-
-
-
-
+### Array Find
 ```javascript
+const array1 = [5, 12, 8, 130, 44];
+
+const found = array1.find((element) => element > 10);
+// output: 12
+
+
+
 
 Array.flat(depth) depth is optional 
 
@@ -473,10 +472,12 @@ Array.includes(searchElement, fromIndex(Optional))        
 Array.reverse() 
 ```
 
+## Array Functions with Callback Params`
 
 
+thisArg is a `optional` param for most built in functions that take in callback functions     
 
-### Callback function supports these params thisArg is Optional                                                                
+
 
 #### Array Filter
 This method empowers you to assess if each element in an array meets a specific condition, yielding a new array with the elements that fulfill the test or an empty array if the condition isn't met.
@@ -491,9 +492,9 @@ const shortWords = words.filter(word => word.length < 6);
 
 
 ```javascript
-(element, index, array) =>  Arrow function                                                                       
+(element, index, array) =>  Arrow function             
 
-(callbackFn, thisArg) Callback function                                   
+(callbackFn, thisArg) Callback function            
 
 (function(element, index, array) { /* ... */ }, thisArg) Inline callback  
 
@@ -508,10 +509,8 @@ Array.some() method tests whether at least one element in the array passes the t
 ```
 
 
-
-
-
-## Object iterate using for In loop 
+### Object 
+Object iterate using for In loop 
 
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects) 
 
@@ -519,7 +518,7 @@ Array.some() method tests whether at least one element in the array passes the t
 
 
 ### Set
-
+Iterable object
 #### Add
 ```js
 const set1 = new Set();
@@ -584,7 +583,7 @@ console.log(set1.has(6));
 ```
 
 ### Map
-
+Iterable object
 #### ForEach
 ```javascript
 let myMap = new Map();

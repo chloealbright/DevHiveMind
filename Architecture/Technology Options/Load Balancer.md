@@ -1,11 +1,15 @@
 ---
-tags: 
+tags:
+  - systemDesign
+  - distributedSystem
+  - scaling
 author:
   - jacgit18
+Comments: This documentation discusses what a load balancer purpose.
 Status: Refinement
 Started: 2024-01-07
-EditDate: 
-Relates:
+EditDate: 2024-02-25
+Relates: "[[Dynamic Scaling]]"
 ---
 ![[Load Balancing.gif]]
 

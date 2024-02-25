@@ -24,7 +24,7 @@
 		{"type":"text","text":"### Proper logging becomes crucial. During shutdown and startup processes, detailed logging helps track the state of the application, identify potential issues, and ensure that it recovers properly after restarting.","id":"131614e1dcb6fa5a","x":1524,"y":245,"width":798,"height":278,"color":"#d726e4"},
 		{"type":"text","text":"### [[Stateless & Statefull Processes |Stateless Processes]]","id":"319ef13acab5892f","x":1202,"y":-717,"width":420,"height":60,"color":"4"},
 		{"type":"text","text":"### [[Vertical vs Horizontal Scaling| Horizontal Scaling]]","id":"7add0137b6a9879f","x":1202,"y":-657,"width":420,"height":60,"color":"4"},
-		{"type":"text","text":"### [[Load Balancing and Scaling |Load Balancing]]","id":"f73640ddf1ef4869","x":1202,"y":-597,"width":420,"height":60,"color":"4"},
+		{"type":"text","text":"### [[Dynamic Scaling|Load Balancing]]","id":"f73640ddf1ef4869","x":1202,"y":-597,"width":420,"height":60,"color":"4"},
 		{"type":"text","text":"### [[Fault tolerance]]","id":"8841a2e63a7b4e20","x":1202,"y":-537,"width":420,"height":60,"color":"4"},
 		{"type":"text","text":"### Resource Utilization","id":"de5a4662ccd51a85","x":1202,"y":-478,"width":440,"height":50,"color":"4"},
 		{"type":"file","file":"Architecture/Methodology/Docker Twelve Factors App/VI Processes.md","id":"c204e877adc996b6","x":1124,"y":-296,"width":400,"height":400,"color":"#0084ff"},

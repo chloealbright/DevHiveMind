@@ -8,8 +8,8 @@ author:
   - jacgit18
 Status: Refinement
 Started: 
-EditDate: 
-Relates: 
+EditDate: 2024-02-25
+Relates: "[[Dynamic Scaling]]"
 Comments:
 ---
 ![[System Scaling.png]]

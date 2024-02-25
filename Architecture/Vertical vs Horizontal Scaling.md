@@ -52,6 +52,11 @@ Concurrency and horizontal scaling are related but distinct concepts in the cont
   
 - **Example**: In a web server, concurrency is the ability to handle multiple incoming HTTP requests simultaneously by efficiently managing and processing them concurrently within the same server instance.  
 
+## Horizontal Scaling Relationship with Load Balancing
+
+When employing horizontal scaling, a load balancer sits in front of the multiple servers and acts as the entry point for incoming requests. Its primary role is to distribute the incoming traffic across the available servers in a way that ensures an even distribution of workloads. The load balancer uses various algorithms to determine which server should handle each incoming request, based on factors like server health, current load, response time, and more. By effectively distributing the workload, horizontal scaling helps prevent individual servers from becoming overloaded, thereby enhancing system performance and reliability.
+
+
 # Vertical scaling  
 
 Vertical scaling (aka scaling up) describes adding additional resources to a system so that it meets demand. How is this different from horizontal scaling?  
@@ -91,6 +96,27 @@ Less need for software changes - You are less likely to change how the software 
 - **Concurrency Management:** Even with vertical scaling, effective concurrency management strategies are essential. This involves proper thread or process handling, synchronization, and resource allocation to ensure efficient utilization of the available resources.  
   
 - **Scalability Strategies:** Systems often employ a combination of vertical and horizontal scaling strategies to achieve both increased resource capacity and enhanced concurrency handling. The choice depends on the specific requirements and constraints of the application.  
+
+## Vertical Scaling Relationship with Load Balancing
+
+Unlike horizontal scaling, where multiple servers handle the load, vertical scaling typically involves a single server. Therefore, load balancing in the context of vertical scaling may not seem as relevant at first glance. However, in some cases, vertical scaling can be complemented with a limited form of load balancing.
+
+For example, even if you have a powerful server after vertical scaling, you can still use a load balancer to distribute traffic across different components of the server, such as multiple CPUs or network interfaces. This can help make better use of the server's internal resources and improve its overall performance.
+
+## Load Balancing Scaling 
+
+**Resilience**
+One of the major problems with vertical scaling is of **Single Point of Failure**. If the system fails, you don’t have any backup. Horizontal scaling provides us with resilience, meaning it can handle failure as there are other nodes to function if one of the nodes fails!
+
+**Interaction/ Calls between System**
+To communicate between nodes in horizontal scaling, Network calls are made, whereas in vertical scaling is simple Interprocess communication which is faster.
+
+**Data Consistency**
+It is quite logical to see why there is Data Consistency in Vertical Scaling, as there is a single data point. In contrast, there is a chance of Data Inconsistency as there are multiple nodes and data points in Horizontal Scaling.
+
+**Hardware Limitations**
+Don’t you think that vertical scaling has a fundamental problem of reaching saturation? You keep increasing the computation power of a single machine, but there has to be a point where it will become almost impossible to go further. This is the hardware limitation of Vertical Scaling, which is not the case for Horizontal Scaling, that scales well.
+
 
 
 

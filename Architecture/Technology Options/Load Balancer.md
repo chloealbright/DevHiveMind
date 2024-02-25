@@ -9,17 +9,14 @@ Relates:
 ---
 ![[Load Balancing.gif]]
 
-A load balancer is a category of technology rather than a specific technology. It refers to a device or software application that distributes network or application traffic across multiple servers(Like proxy, and other server types) to ensure no single server  bears too much load, thereby improving the reliability, availability, and scalability of a system.  
+Load balancing is a crucial aspect of distributed systems and computer networking, aiming to distribute workloads across multiple computing resources for optimal utilization, minimal response time, and high availability. This is especially vital in scenarios where a single server cannot handle all incoming requests, as seen in high-traffic web applications and large-scale systems.
 
-There are different types of load balancers, and they can be implemented in various ways:  
-  
-1. **Hardware Load Balancers:** Dedicated physical devices designed to distribute traffic across servers.  
-  
-2. **Software Load Balancers:** Load balancing functionality implemented in software, often running on commodity hardware.  
-  
-3. **Application-Based Load Balancers:** Load balancing functionality integrated into applications or services.  
-  
-#### Load balancers can operate at different layers of the OSI model, such as:  
+A load balancer, falling under a category rather than a specific technology, is a device or software application that disperses network or application traffic among multiple servers (e.g., proxies and various server types). This ensures no single server is overwhelmed, enhancing the reliability, availability, and scalability of a system.
+
+Horizontal scaling and vertical scaling are two fundamental approaches to achieving load balancing, providing flexibility in adapting to varying workloads and maintaining system efficiency.
+
+
+ #### Load balancers can operate at different layers of the OSI model, such as:  
   **DNS ->load balancer(also  makes all server appear as one IP) -> server pool -> cache ->DB 
   
 - **Layer 4 (Transport Layer):** Distributes traffic based on information in the transport layer, like IP addresses and port numbers. This is known as a TCP/UDP load balancer.  

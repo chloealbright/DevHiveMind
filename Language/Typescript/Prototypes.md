@@ -1,10 +1,12 @@
 ---
-tags: 
+tags:
+  - javascript
 author:
   - jacgit18
+Comments: This documentation discusses
 Status: 
 Started: 
-EditDate: 
+EditDate: ""
 Relates:
 ---
 Objects in JavaScript have an internal property known as prototype. It is simply a reference to another object and contains common attributes/properties across all instances of the object. An object’s prototype attribute specifies the object from which it inherits properties.  
@@ -20,9 +22,7 @@ class User { 
     constructor(email, name){ 
 
         this.email = email; 
-
         this.name = name; 
-
         this.score = 0; 
 
     } 
@@ -30,7 +30,6 @@ class User { 
     login(){ 
 
         console.log(this.email, 'just logged in'); 
-
         return this; 
 
     } 
@@ -73,7 +72,7 @@ libraryName.LibraryClass.prototype.functionNameAdeded = function(){ 
 
 let numArray = [1,2,-8,3,-4,7]; 
 
-logs 
+// logs 
 
 [ 
     1, 

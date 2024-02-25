@@ -12,7 +12,7 @@ Relates:
 
 ### Set 
 **Insertion (CREATE/UPDATE) :
-- Set: Worst: O(n), Average: O(1) for add()
+- Set: Worst: O(n), Average: O(1) for `add()` ^0b928b
 
 
 **Access(Read):**
@@ -29,7 +29,7 @@ Relates:
 ### HashMap & HashTable
 **Insertion (CREATE/UPDATE) :
 - Hash-table: Worst: O(n), Average: O(1) for add()
-- HashMap: Worst: O(n), Average: O(1) for set()
+- HashMap: Worst: O(n), Average: O(1) for set() ^22edde
 
 **Access(Read):**
 - Hash-table: Access may not be straightforward.

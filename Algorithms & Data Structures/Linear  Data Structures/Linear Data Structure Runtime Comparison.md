@@ -24,7 +24,7 @@ Operations on data structures can have varying worst-case and average-case time 
 - Array: Worst: O(n), Average: O(n) for push()
 - Stack: Worst: O(n), Average: O(1) for push()
 - Queue: Worst: O(n), Average: O(1) for enqueue and queue.shift()
-- Singly-Linked List: Worst: O(n), Average: O(1) for reassigning a pointer
+- Singly-Linked List: Worst: O(n), Average: O(1) for reassigning a pointer ^a8bac8
 - Doubly-Linked List: Worst: O(n), Average: O(1) for reassigning a pointer
 
 

@@ -48,9 +48,9 @@ Relates: "[[Experience Script]]"
 
 ## Personal Experience
 
-Worked on the GetLetterByID endpoint, delving into the complexities of simultaneous codebase changes, including TypeScript interfaces and the incorporation of new utils, necessitating code refactoring. Faced the challenge of comprehending and efficiently reading code without initial tests, leading to the identification and visualization of the codebase structure on whiteboard.
+Worked on the `GetLetterByID` endpoint, delving into the complexities of simultaneous codebase changes, including TypeScript interfaces and the incorporation of new utils, necessitating code refactoring. Faced the challenge of comprehending and efficiently reading code without initial tests, leading to the identification and visualization of the codebase structure on whiteboard.
 
-Navigated potential pitfalls, such as issues between integration tests and endpoints, SQL fixtures, and different layers like Controller, data, model, routes, and service layer. Gained experience in reading errors across a large codebase and honed skills in debugging various parts of the system.
+Navigated potential pitfalls, such as issues between integration tests and endpoints, SQL fixtures, and different layers like Controller, data, model, routes, and service layer. Gained experience in reading errors across a large codebase and honed skills in debugging various parts of the system like using `toString()` to debug database queries.
 
 Recognizing the balance in learning is crucial – knowing when to seek help and avoiding the pitfalls of tackling everything independently to prevent burnout.
 

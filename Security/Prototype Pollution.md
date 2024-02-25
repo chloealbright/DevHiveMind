@@ -2,6 +2,7 @@
 tags:
   - security
   - javascript
+  - web
 author:
   - jacgit18
   - chatgpt

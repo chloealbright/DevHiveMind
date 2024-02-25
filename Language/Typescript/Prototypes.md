@@ -1,12 +1,14 @@
 ---
 tags:
   - javascript
+  - web
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+  - chatgpt
+Comments: This documentation discusses what are prototypes.
+Status: Done
 Started: 
-EditDate: ""
+EditDate: 2024-02-25
 Relates:
 ---
 Objects in JavaScript have an internal property known as prototype. It is simply a reference to another object and contains common attributes/properties across all instances of the object. An object’s prototype attribute specifies the object from which it inherits properties.  
@@ -37,7 +39,6 @@ class User { 
     logout(){ 
 
         console.log(this.email, 'just logged out'); 
-
         return this; 
 
     } 
@@ -45,8 +46,8 @@ class User { 
     updateScore(){ 
 
         this.score++; 
-
-        console.log(this.email, 'score is now', this.score); 
+        console.log(
+        this.email, 'score is now', this.score); 
 
         return this; 
 
@@ -85,7 +86,7 @@ let numArray = [1,2,-8,3,-4,7]; 
 ```
 
 
-
+This JavaScript code represents the prototype chain of an empty array object. The object has various built-in array methods and properties, such as `concat`, `forEach`, `length`, etc. Additionally, it inherits methods and properties from the generic Object prototype, like `hasOwnProperty` and `toString`. The `[[Prototype]]` property shows the immediate prototype of the object, and in this case, it points to the generic Object prototype.
 
 ```javascript
 [[Prototype]]: Array(0) 

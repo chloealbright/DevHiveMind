@@ -3,8 +3,10 @@ tags:
   - security
   - bestPractices
   - javascript
+  - web
 author:
   - jacgit18
+  - chatgpt
 Comments: This documentation discusses ways to mitigate prototype pollution.
 Status: Capture
 Started: 2024-02-04

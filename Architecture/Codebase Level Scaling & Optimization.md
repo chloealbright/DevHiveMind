@@ -8,9 +8,10 @@ tags:
 author:
   - jacgit18
   - chatgpt
+Comments: This documentation discusses scaling at the codebase level.
 Status: Refinement
 Started: 
-EditDate: 
+EditDate: 2024-02-25
 Relates: "[[Vertical vs Horizontal Scaling]]"
 ---
 When it comes to optimizing your codebase at the component or process level, there are several strategies you can employ. This approach allows you to enhance the performance of a specific element within your codebase without necessitating a major architectural overhaul. Here are some key techniques:

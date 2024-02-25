@@ -6,11 +6,11 @@ tags:
   - systemDesign
 author:
   - jacgit18
+Comments: This documentation discusses Scaling.
 Status: Refinement
 Started: 
 EditDate: 2024-02-25
 Relates: "[[Dynamic Scaling]]"
-Comments:
 ---
 ![[System Scaling.png]]
 # Horizontal scaling  

@@ -24,7 +24,7 @@ Relates:
 
 
 **Delete(Delete/Update):**
-- Set: Worst: O(n), Average: O(1) for delete()
+- Set: Worst: O(n), Average: O(1) for delete() ^a73e52
 
 ### HashMap & HashTable
 **Insertion (CREATE/UPDATE) :
@@ -41,7 +41,7 @@ Relates:
 
 **Delete(Delete/Update):**
 - Hash-table: Worst: O(n), Average: O(1) for `remove()`
-- HashMap: Worst: O(n), Average: O(1) for `delete()`
+- HashMap: Worst: O(n), Average: O(1) for `delete()` ^2057fe
 
 # Binary Search Tree
 Binary Search Trees are data structures that maintain their elements in a way that allows for efficient searching and manipulation.

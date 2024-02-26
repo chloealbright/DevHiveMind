@@ -32,3 +32,14 @@ Relates: "[[Experience Script]]"
 **EditMaterials & EditEquipment Endpoint**
 - While the edit endpoint creation was successful, the connection to the front-end didn't materialize.
 - The processing time for material edits on the new app was 8222.9 ms, likely similar for equipment due to their resemblance.
+
+### Miscellaneous Things Learned 
+
+In the data layer, the data model establishes a binding that facilitates seamless interaction within the codebase. This binding ensures a cohesive connection between various components, enabling efficient utilization of the data model throughout the application.
+
+Across layers, asynchronous functions, strategically implemented, create a responsive, non-blocking environment for seamless communication and side effect handling.
+
+Request validation utilities, like `utils.inputPrompt`, enhance code robustness, ensuring systematic input validation for reliability and security.
+
+A nuanced approach involves introducing a dedicated data sub-layer, encapsulating database connectivity and managing interface operations. This enhances clarity and maintainability, streamlining data management complexities within the application architecture.
+

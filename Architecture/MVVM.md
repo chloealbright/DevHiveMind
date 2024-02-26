@@ -23,23 +23,23 @@ Overall, MVVM is a popular architectural pattern for building modern GUI applica
 
 The Model-View-ViewModel (MVVM) architecture and application services serve different purposes in the structure of an application. MVVM is a design pattern that separates an application into three interconnected components: Model, View, and ViewModel. On the other hand, application services are part of the service layer and are responsible for coordinating the application's business logic and interactions between different components.  
   
-Let's explore the relationship between MVVM and application services:  
+#### Relationship between MVVM and application services  
   
 1. **MVVM Architecture:**  
-- **Model:** Represents the application's data and business logic. It is responsible for managing the application's state and responding to requests for data.  
-- **View:** Represents the user interface (UI) elements and is responsible for displaying information to the user. It observes changes in the ViewModel and updates the UI accordingly.  
-- **ViewModel:** Serves as an intermediary between the Model and the View. It exposes data and commands to the View and handles user input. The ViewModel also communicates with the Model to retrieve and update data.  
+	- **Model:** Represents the application's data and business logic. It is responsible for managing the application's state and responding to requests for data.  
+	- **View:** Represents the user interface (UI) elements and is responsible for displaying information to the user. It observes changes in the ViewModel and updates the UI accordingly.  
+	- **ViewModel:** Serves as an intermediary between the Model and the View. It exposes data and commands to the View and handles user input. The ViewModel also communicates with the Model to retrieve and update data.  
   
 2. **Application Services:**  
-- **Role:** Application services are responsible for coordinating the application's business logic, managing transactions, and orchestrating interactions between different components.  
-- **Location:** Application services typically reside in the service layer, acting as a bridge between the presentation layer (MVVM) and the domain layer. They encapsulate use cases and handle application-specific logic.  
+	- **Role:** Application services are responsible for coordinating the application's business logic, managing transactions, and orchestrating interactions between different components.  
+	- **Location:** Application services typically reside in the service layer, acting as a bridge between the presentation layer (MVVM) and the domain layer. They encapsulate use cases and handle application-specific logic.  
   
 3. **Relationship:**  
-- **ViewModel Interaction:** Application services are often used by ViewModels to perform specific business operations. For example, when a user triggers an action in the UI, the ViewModel might call an application service to handle the corresponding use case.  
-- **Data Retrieval and Updates:** Application services may interact with the Model to retrieve or update data based on business requirements. They might encapsulate complex business rules and coordinate the execution of multiple domain operations.  
+	- **ViewModel Interaction:** Application services are often used by ViewModels to perform specific business operations. For example, when a user triggers an action in the UI, the ViewModel might call an application service to handle the corresponding use case.  
+	- **Data Retrieval and Updates:** Application services may interact with the Model to retrieve or update data based on business requirements. They might encapsulate complex business rules and coordinate the execution of multiple domain operations.  
   
 4. **Separation of Concerns:**  
-- **MVVM Separation:** MVVM emphasizes the separation of concerns, where the ViewModel handles UI-related logic, and the Model manages data and business logic.  
-- **Application Service Coordination:** Application services handle the coordination of business logic that may involve multiple components, including interactions with the Model, validation, and data manipulation.  
+	- **MVVM Separation:** MVVM emphasizes the separation of concerns, where the ViewModel handles UI-related logic, and the Model manages data and business logic.  
+	- **Application Service Coordination:** Application services handle the coordination of business logic that may involve multiple components, including interactions with the Model, validation, and data manipulation.  
   
 In summary, the relationship between MVVM and application services involves the coordination of responsibilities. Application services act as the orchestrators of business logic, handling complex use cases and interactions between different layers of the application. ViewModels in the MVVM architecture may leverage application services to perform specific business operations and maintain a separation of concerns between the UI and the underlying business logic.

@@ -180,7 +180,8 @@
 		{"id":"7a53bfbf82b1e9fa","type":"file","file":"Algorithms & Data Structures/_Infographic/1D Array.png","x":3965,"y":1273,"width":212,"height":64},
 		{"id":"5f7fd7ab64589a0e","type":"text","text":"# Searching","x":3208,"y":1803,"width":280,"height":48},
 		{"id":"eaaef77060b38f9c","type":"text","text":"## [[Map]] [[Non-Linear Data Structure Runtime Comparison#^0b11f5 |Constant Time]]","x":2680,"y":1413,"width":455,"height":50},
-		{"id":"b82dfa6f674e0796","x":-100,"y":3360,"width":719,"height":345,"type":"text","text":"Objects in JavaScript have constant time access for their properties but may vary based on the underlying hash map implementation used by the JavaScript engine.\n\nThe average-case time complexity for access, search, insertion, and deletion is typically considered O(1). This constant time complexity is achieved through the use of hash maps, which enable efficient property access and manipulation."}
+		{"id":"b82dfa6f674e0796","x":-100,"y":3360,"width":842,"height":375,"type":"text","text":"Objects in JavaScript have constant time access for their properties but may vary based on the underlying hash map implementation used by the JavaScript engine.\n\nThe average-case time complexity for access, search, insertion, and deletion is typically considered O(1). This constant time complexity is achieved through the use of hash maps, which enable efficient property access and manipulation."},
+		{"id":"a056bd51a912b4f2","x":5668,"y":1547,"width":652,"height":273,"type":"text","text":"When deciding whether to implement a queue or a stack using an array implementation is simpler and has benefits in terms of access action versus a linked list is a little bit more complex but increases search time complexity"}
 	],
 	"edges":[
 		{"id":"96d016acd65b0fff","fromNode":"ca62e46b96c8640f","fromSide":"right","toNode":"fd325d709a909001","toSide":"left","color":"2"},
@@ -333,6 +334,6 @@
 		{"id":"5f33988ebbf261cc","fromNode":"5f7fd7ab64589a0e","fromSide":"top","toNode":"48d987bb85b70c5e","toSide":"right"},
 		{"id":"71eefc4637fb45be","fromNode":"56c29e39a438b323","fromSide":"top","toNode":"b21a8f41ba9f5449","toSide":"bottom","toEnd":"none"},
 		{"id":"4eb2122b961f6c6c","fromNode":"eaaef77060b38f9c","fromSide":"top","toNode":"b21a8f41ba9f5449","toSide":"bottom"},
-		{"id":"b073da7544b6235b","fromNode":"fb939de4f80d9504","fromSide":"top","toNode":"b82dfa6f674e0796","toSide":"bottom","toEnd":"none"}
+		{"id":"0ea573c5b1ad15a5","fromNode":"fb939de4f80d9504","fromSide":"top","toNode":"b82dfa6f674e0796","toSide":"left","toEnd":"none"}
 	]
 }

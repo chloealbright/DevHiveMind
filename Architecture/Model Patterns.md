@@ -1,11 +1,13 @@
 ---
-tags: 
+tags:
+  - pattern
+  - MacroCodebaseDecision
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Capture
+Comments: This documentation discusses some of the different patterns.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-26
 Relates:
 ---
 ![[Model Patterns.gif]]

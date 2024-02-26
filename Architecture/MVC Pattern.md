@@ -12,21 +12,10 @@ Relates:
 
 
 
-// import uuid regex .test(testCompanyId) generate uuid in test file 
-
-// uuuid package to create random uuid 
-
-// in every param are uuid that need to be validated
 
 
 
-This is fundamentally no different than indenting a list on a page in an old-school textbook or other document, for which the tab key was developed and included in every major typewriter design in history.
 
-
-While the machine doesn’t actually care if you use tabs or spaces (unless you’re using Python or something similar in which whitespace is part of the syntax), the size of your source code will increase by the use of spaces over tabs, especially if you indent by four spaces. If you are five levels deep in a nested function and you’re indenting an expression like String str = '' with 20 spaces, that line of source code contains more indentation characters than it does code, which is truly absurd by any standard. Multiply that by hundreds (or thousands) of files, with hundreds of lines of code each, and you’re going to have MBs upon MBs of spaces everywhere.
-
-
-So, at the end of the day, tabs versus spaces is truly a matter of preference, however the tab is still the character specifically designed for indentation, and using one tab character per indentation level instead of 2 or 4 spaces will use less disk space / memory / compiler resources and the like.
 
 
 

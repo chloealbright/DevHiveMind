@@ -1,8 +1,10 @@
 ---
-tags: 
+tags:
+  - javascript
 author:
   - jacgit18
-Status: init
+Comments: This documentation discusses
+Status: Done
 Started: 2023-12-07
 EditDate: 
 Relates:

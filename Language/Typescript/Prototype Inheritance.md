@@ -21,7 +21,7 @@ JavaScript's prototype inheritance provides a mechanism for objects to inherit p
 2. **Object Creation:**
    Objects in JavaScript can be created using constructor functions or object literals. Constructor functions, when invoked with the `new` keyword, create instances with a link to their prototype.
 
-### Class Syntax Sugar:
+### Class Syntax Sugar
 
 1. **Class Keyword:**
    The `class` keyword was introduced in ECMAScript 2015 (ES6) to provide a more familiar syntax for defining constructor functions and their prototypes.
@@ -33,10 +33,25 @@ JavaScript's prototype inheritance provides a mechanism for objects to inherit p
      }
 
      speak() {
-       console.log(`${this.name} makes a sound.`);
+	    return this.name
      }
    }
    ```
+
+Is equivalent to the following prototype-based code:  
+  
+```javascript  
+function Animal(name) {  
+this.name = name;  
+}  
+  
+MyClass.prototype.speak = function() {  
+return this.name;  
+};  
+```  
+  
+Both approaches achieve the same result, but the class syntax provides a more concise and readable way to express object-oriented concepts. Under the hood, JavaScript still uses prototypes for managing the inheritance chain and method lookups.
+
 
 2. **Extends Keyword:**
    The `extends` keyword is used to create a subclass that inherits from a superclass. It simplifies the process of prototype chaining.

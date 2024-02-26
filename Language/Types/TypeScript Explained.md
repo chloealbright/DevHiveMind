@@ -226,7 +226,7 @@ mathTutor(wrongAdd);
   
 2. **TypeScript Compiler (tsc)**:  
 - The TypeScript compiler (`tsc`) processes TypeScript code and checks it for type correctness during development. It enforces static typing rules and helps catch type-related errors early in the development process.  
-- The TypeScript compiler also generates corresponding JavaScript code (`.js` files) from the TypeScript source code. The generated JavaScript code is what will be executed in the browser.  
+- The TypeScript compiler also generates corresponding JavaScript code (`DOT.js` files) from the TypeScript source code. The generated JavaScript code is what will be executed in the browser.  
   
 3. **Type Erasure**:  
 - During the TypeScript-to-JavaScript transpilation process, TypeScript's type annotations and type information are removed. This process is called "type erasure." The resulting JavaScript code does not contain type information.  

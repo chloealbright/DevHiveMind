@@ -2,146 +2,76 @@
 tags: 
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses
+Status: Done
 Started: 
 EditDate: 
 Relates:
 ---
-In JavaScript, the this keyword is a little different compared to other languages. It refers to an object, but it depends on how or where it is being invoked. It also has some differences between strict mode and non-strict mode. 
-
--   In an object method, this refers to the object 
-    
--   Alone, this refers to the global object 
-    
--   In a function, this refers to the global object 
-    
--   In a function, in strict mode, this is undefined 
-    
--   In an event, this refers to the element that received the event 
-    
--   Methods like call(), apply(), and bind() can refer this to any object
-
-
-"this" Methods are properties of an object which are functions. The value of this inside a method is equal to the calling object. In simple words, this value is the object “before dot”, the one used to call the method.
-
-
-"this" in a function 
-
-The keyword this when used in a function refers to the global object. 
-
-The keyword this when used alone refers to the global object. 
-
-The keyword this when used in an event handler refers to the element that received the event. 
-
-The keyword this when used in an arrow function refers to the parent object.
-
-
-
-
-
-
-'this' keyword references the object that is executing the current function/method 
-
-a method is function part of a object/class  
-
-If a function is not part of object/class it references the global object in the case of a browser and node that would be window object 
-
-const video = { 
-
-title:'a' 
-
-play(){ 
-
-console.log(this)  
-
-      } 
-
-} 
-
-video.play() // prints video object 
-
-video.stop = function(){ 
-
-console.log(this)  
-
-} 
-
-video.stop() // prints video object 
-
-function not part of object/class  
-
-function playvid(){ 
-
-console.log(this)  
-
-} 
-
-playvid() // prints window object 
-
-Function Video(title){ 
-
-this.title = title 
-
-console.log(this)  
-
-} 
-
-const v = new Video('b')// logs new empty object called Video with title 
-
-callback anonymous function 
-
-forEach takes two parameters 
-
-const video = { 
-
-title:'a', 
-
-tag: [a, b,c ] 
-
-showTag(){ 
-
-// this.tags reference video object 
-
-this.tags.forEach(function(tag){ 
-
-console.log(this.title) // prints window not video object so cant access title 
-
-console.log(this.title, tag)  
-
-}, this )  
-
-// the this changes object from window to video only specific to forEach callback 
-
-      } 
-
-} 
-
-video.showTag() 
-
-so you want to bind the function to object when it comes to situations like this 
-
-const video = { 
-
-title:'a', 
-
-tag: [a, b,c ] 
-
-showTag(){ 
-
-this.tags.forEach(function(tag){ 
-
-console.log(this.title) 
-
-console.log(this.title, tag)  
-
-}, this )  
-
-      } 
-
-} 
-
-video.showTag() 
-
-const vid = video.showTag.bind(video) // creates new instance of showTag and set this to video object 
-
-vid()
+In JavaScript, the `this` keyword is dynamic, depending on its invocation context. Key points include:
+
+- **In Object Methods:**
+  - `this` refers to the object calling the method.
+
+- **Alone or in a Function:**
+  - In a function alone, `this` points to the global object.
+  - In a function within strict mode, `this` is `undefined`.
+
+- **In Events:**
+  - In an event handler, `this` refers to the element receiving the event.
+
+- **Methods like `call()`, `apply()`, and `bind()`:**
+  - These methods allow explicit setting of `this` to any object.
+
+Understanding these principles is crucial for effective use of the `this` keyword. For instance, in a method, `this` represents the object invoking the method. In contrast, when used in a standalone function, it refers to the global object. Special considerations apply in strict mode and event handlers.
+
+### Code Snippets:
+
+#### 1. Object Methods:
+```javascript
+const video = {
+  title: 'a',
+  play() {
+    console.log(this); // Refers to the video object
+  },
+};
+
+video.play(); // Prints the video object
+```
+
+#### 2. Function and Global Object:
+```javascript
+function playvid() {
+  console.log(this); // Refers to the global object (window in a browser)
+}
+
+playvid(); // Prints the global object
+
+function Video(title) {
+  this.title = title;
+  console.log(this); // Logs a new empty object called Video with title
+}
+
+const v = new Video('b'); // Logs a new object with title
+```
+
+#### 3. Event Handler and Arrow Function:
+```javascript
+const video = {
+  title: 'a',
+  tag: ['a', 'b', 'c'],
+  showTag() {
+    this.tag.forEach(function(tag) {
+      console.log(this.title); // Prints undefined in strict mode, or window in non-strict
+      console.log(this.title, tag);
+    }, this); // Sets 'this' to the video object within the forEach callback
+  },
+};
+
+video.showTag(); // Prints tags with the video title
+
+const vid = video.showTag.bind(video); // Creates a new instance with 'this' set to video
+vid(); // Prints tags with the video title
+```
+
+These snippets illustrate how the `this` keyword behaves in different contexts, emphasizing its dynamic nature in JavaScript.

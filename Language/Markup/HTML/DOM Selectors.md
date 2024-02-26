@@ -7,6 +7,8 @@ Started:
 EditDate: 
 Relates:
 ---
+![[Dom.jpeg]]
+
 getElementsByTagName - Find elements by tag name  
   
 getElementsByClassName - Find elements by class name  

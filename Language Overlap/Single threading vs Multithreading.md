@@ -43,31 +43,3 @@ This could be a trick question since threads usually only stop once they finish 
 Example: "There isn't a direct way to stop a thread in Java. Often, you have to wait for a thread to die when it finishes executing. If you need to manually kill a thread, you can use a Volatile boolean variable within a thread that throws an exception when triggered from another thread."
 
 
-
-What's a race condition?
-
-Race conditions occur when a system is unable to execute multiple functions simultaneously. This question addresses one of the primary obstacles to multithreading, so it's important to show awareness of the issue. When you give your answer, briefly define what a race condition is and mention what strategy a programmer might use to fix the issue.
-
-Example: "A race condition occurs when multiple concurrent threads compete to run first. If the thread that wins the race isn't the one that was supposed to run first, the code may exhibit unexpected behavior. You can resolve this problem with synchronization."
-
-From <[https://www.indeed.com/career-advice/interviewing/multithreading-interview-questions](https://www.indeed.com/career-advice/interviewing/multithreading-interview-questions)>
-
-
-
-What's synchronization?
-
-Synchronization is a useful way to fix race conditions that arise during multithreading. If you mention synchronization in another answer, the interviewer may ask you to define it further. Understanding synchronization shows that you are able to mitigate some of the dangers of multithreading. When answering this question, you can give a simple explanation of what synchronization accomplishes.
-
-Example: "Synchronization forces threads to run one at a time to prevent a race condition or multiple threads trying to perform the same task."
-
-From <[https://www.indeed.com/career-advice/interviewing/multithreading-interview-questions](https://www.indeed.com/career-advice/interviewing/multithreading-interview-questions)>
-
-
-
-Why might you use synchronized block?
-
-Synchronized block allows programmers to synchronize a specific subset of a method. This question shows that you understand several ways to use synchronization when managing multiple threads. When answering this question, give a brief explanation of synchronized block and how it works in the context of multithreading.
-
-Example: "Synchronized block allows you to designate a particular portion of a method as synchronized. That is, only a single thread is able to run until it completes, prioritizing that thread above others."
-
-From <[https://www.indeed.com/career-advice/interviewing/multithreading-interview-questions](https://www.indeed.com/career-advice/interviewing/multithreading-interview-questions)>

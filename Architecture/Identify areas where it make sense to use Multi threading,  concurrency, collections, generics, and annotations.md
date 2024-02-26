@@ -3,11 +3,13 @@ tags:
   - CodebaseDecision
   - MicroCodebaseDecision
   - MacroCodebaseDecision
+  - example
 author:
   - jacgit18
-Status: done
+Comments: This documentation discusses
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-26
 Relates:
 ---
 In the driving school system, here are some areas where it makes sense to utilize multi-threading, concurrency, collections, generics, and annotations:

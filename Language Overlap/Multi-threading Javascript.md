@@ -1,8 +1,11 @@
 ---
-tags: 
+tags:
+  - multiThreading
+  - javascript
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses
+Status: Refinement
 Started: 
 EditDate: 
 Relates:

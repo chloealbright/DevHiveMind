@@ -18,6 +18,12 @@ Sequence of programmed instructions
 The thing that executes a program's code
 Utilizes process resources
 
+"Single-threaded" means that we open a single connection and measure the speeds from that. "Multi-threaded" means that we're using multiple connections - usually anywhere from 3 to 8 - at the same time, and measure the total speed across them all. 
+
+Registers are used by the CPU when it's currently running a particular thread. When the OS decides to switch from one thread to another, the OS saves the current values of all the register into a private memory area specific to the first thread.
+
+"There isn't a direct way to stop a thread in Java. Often, you have to wait for a thread to die when it finishes executing. If you need to manually kill a thread, you can use a Volatile boolean variable within a thread that throws an exception when triggered from another thread."
+
 Each parent thread Can have up to 4 Child thread  running concurrently 
 ![[Concurrencey.jpg]]
 
@@ -92,7 +98,7 @@ thread.join(); // Blocks waiting for thread completion
 ![[Running Adder on thread Blocks.jpg]]
 
 ## Thread pool type  
-  
+  [[Thread pools]]
   
 ExecutorService interface  
 - Models thread pool behavior 

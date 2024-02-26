@@ -7,7 +7,13 @@ Started:
 EditDate: 
 Relates:
 ---
-  
+  ## What's a thread pool?
+
+A thread pool is a design pattern used to facilitate multithreading. Asking about thread pools might be one way for an interviewer to determine if you know how to write performance-efficient code. When answering the question, give a brief but precise definition and explain why thread pools are useful.
+
+Example: "A thread pool is a collection of worker threads created at start-up that programmers can assign tasks to as needed, then put back in the pool when complete. The main advantage of using a thread pool is having a supply of ready-made threads when you need them, which improves application performance."
+
+
 
 Thread pools are a concept in concurrent programming that involves managing a group or pool of threads to efficiently execute tasks. Instead of creating and destroying threads for each individual task, a thread pool maintains a set of worker threads that are ready to perform tasks as needed.
 

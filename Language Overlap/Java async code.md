@@ -7,7 +7,7 @@ Started:
 EditDate: 
 Relates:
 ---
-No, Java does not have native support for `async`/`await` syntax like some other programming languages, such as JavaScript with Node.js or C# with .NET. 
+Java does not have native support for `async`/`await` syntax like some other programming languages, such as JavaScript with Node.js or C# with .NET. 
 
 However, Java provides other mechanisms for handling asynchronous programming and concurrency. Here are a few approaches commonly used in Java for asynchronous programming:
 

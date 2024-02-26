@@ -6,7 +6,7 @@ tags:
   - example
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses areas where it make sense to use Multi threading, concurrency, collections, generics, and annotations.
 Status: Done
 Started: 
 EditDate: 2024-02-26

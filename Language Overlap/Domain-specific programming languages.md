@@ -7,13 +7,13 @@ Started:
 EditDate: 
 Relates:
 ---
-1.  SQL (Structured Query Language): used for database management
-2.  MATLAB: used for numerical analysis and scientific computing
-3.  R: used for statistical computing and data analysis
-4.  LaTeX: used for document preparation and typesetting
-5.  VHDL (VHSIC Hardware Description Language): used for designing digital circuits and systems
-6.  Verilog: used for designing digital circuits and systems
-7.  LabVIEW (Laboratory Virtual Instrument Engineering Workbench): used for instrument control and data acquisition in scientific and engineering applications
+1. SQL (Structured Query Language): used for database management
+2. MATLAB: used for numerical analysis and scientific computing
+3. R: used for statistical computing and data analysis
+4. LaTeX: used for document preparation and typesetting
+5. VHDL (VHSIC Hardware Description Language): used for designing digital circuits and systems
+6. Verilog: used for designing digital circuits and systems
+7. LabVIEW (Laboratory Virtual Instrument Engineering Workbench): used for instrument control and data acquisition in scientific and engineering applications
 8.  AutoLISP: used for developing custom AutoCAD commands and functions
 9.  AWK: used for text processing and data extraction
 10. G-code: used for controlling CNC machines in manufacturing and machining

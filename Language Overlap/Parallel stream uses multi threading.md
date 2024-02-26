@@ -9,7 +9,7 @@ Relates:
 ---
 Use parallel stream to handle writing to file with multithreading
 
-Certainly! Here's an updated version of the driving school example that incorporates Java streams, parallel streams, and multi-threading:
+Driving school example that incorporates Java streams, parallel streams, and multi-threading:
 
 ```java
 import java.util.ArrayList;

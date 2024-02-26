@@ -10,8 +10,6 @@ Started:
 EditDate: 2024-02-09
 Relates:
 ---
-
-
 When working with script tags in HTML, it's essential to consider various attributes for optimal performance and functionality. Here are some best practices:
 
 #### 1. **Positioning and Defer Attribute:**

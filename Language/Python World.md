@@ -1,73 +1,96 @@
 ---
-tags: 
+tags:
+  - python
 author:
   - jacgit18
+Comments: This documentation discusses python ecosystem.
 Status: Capture
 Started: 
-EditDate: 
+EditDate: 2024-02-26
 Relates:
 ---
-Python is a full-fledged, high-level, and object-oriented programming language. Since it’s been around for close to 30 years, it has a ton of libraries, APIs, and ancillary tools available. Python is conducive to several programming paradigms, and it’s extensively used for business applications. 
+Python is a robust, high-level, and object-oriented programming language with a rich history of nearly 30 years, boasting a vast ecosystem of libraries, APIs, and tools. It accommodates various programming paradigms and is widely employed in diverse business applications.
 
-Its community, libraries, and supporting platforms are far reaching. Hence, it is an ideal programming language for most businesses that are required to develop applications for different and often uncorrelated use cases.
+The language's extensive community, libraries, and supporting platforms make Python an ideal choice for businesses dealing with a range of use cases.
 
+However, Python faces challenges with multithreading due to its reliance on the Global Interpreter Lock (GIL), preventing the simultaneous execution of multiple threads. This constraint hinders the language's ability to run parallel processes, forcing sequential execution of historical processes.
 
-Python has issues with threads. It’s built on the Global Interpreter Lock, which does not allow it to operate several threads at once. This means that you cannot run another process before the sequentially historical process is over. 
+Despite being dynamically typed, Python's scalability can become a concern for larger teams as maintaining code becomes challenging with project expansion.
 
-Although Python is dynamically typed, it’s more of a drawback in terms of scaling. Larger teams can find it difficult to maintain code when the project scales. 
+In contrast to Node.js, Python lacks built-in support for multithreading, making it more rigid. While there are tools available for creating asynchronous apps, they involve workarounds, and Python's innate architecture limits true asynchronicity.
 
-In stark contrast to Node.js, Python doesn’t provide such functionalities and doesn’t support multithreading. You have to run and finish one process before others can be called in. This makes Python a little stringent. 
+The language's simplicity, which aids in bug detection, is advantageous for various projects, except for mobile app development. However, Python is gaining popularity for IoT solutions and cloud applications.
 
-Although there are some tools that can help you create asynchronous apps using Python, they don’t make Python inherently asynchronous. You would end up using workarounds in the project and not actually get the desired asynchronicity.  
+Jupyter Notebook serves as the original web application for creating and sharing computational documents, providing a straightforward, document-centric experience.
 
-Python’s innate architecture prohibits multithreading and is a problem in this aspect as well. It slows down the processing speed as processes don’t run parallelly. While Python’s syntax is easy to learn and execute, it is not fast enough for applications that frequently recall data from the web server.  
+PIP, akin to npm for Node.js, functions as a package manager for Python, facilitating the installation and management of additional libraries and dependencies.
 
-Python’s simpler syntax makes it apt for all forms of project except one – mobile apps. For IoT solutions and cloud apps, Python is being used more and more by a large number of programmers.  
-
-Python’s simpler syntax and lack of parallel processes come in handy while scanning the code for bugs and errors.
-
-
-
-The Jupyter Notebook is the original web application for creating and sharing computational documents. It offers a simple, streamlined, document-centric experience. 
-
-PIP is a package manager for Python, which means it allows you to install and manage libraries and dependencies that are supplemental to the standard library. basically the npm of python    
-
-venv is a module used to create and manage virtual environments is called venv . venv will usually install the most recent version of Python that you have available. If you have multiple versions of Python on your system, you can select a specific Python version by running python3 or whichever version you want.
-
+The venv module is used to create and manage virtual environments, ensuring compatibility with the most recent Python version available. If multiple Python versions are present, venv allows users to specify the desired version using commands like python3.
 
 ![[Python Data Structures.jpeg]]
-## Data Science Topics  
+## Data Science Topics
 
-Data Handling  
+### Data Handling
 
-	○ Working with Data, Data Exploration and Visualization 
-
-Machine Learning  
-
-	○ Supervised Learning, Regression, Classification, Evaluation Metrics, Clustering, Data Reduction, Ensemble Methods  
-
-Feature Engineering and Model Tuning  
-
-Natural Language Processing  
-
-Deep Neural Networks / Image Classification (CNN’s) 
-
-
-Jupyter Lab 
-
-Numpy/Pandas  
-
-Sklearn  
-
-Matplotlib & Seaborn  
-
-Keras
-
-
-
-
-In the context of Python programming, "Python" and "Python 3" refer to different versions of the Python programming language. Here are the key differences:  
+- **Working with Data:** Comprehensive exploration and manipulation of datasets, emphasizing data cleaning, preprocessing, and transformation.
   
+- **Data Exploration and Visualization:** Techniques for understanding and visualizing data, including statistical summaries, charts, and graphs to uncover patterns and insights.
+
+### Machine Learning
+
+- **Supervised Learning:** Understanding and implementing algorithms where the model is trained on labeled data, making predictions based on input features.
+
+- **Regression:** Techniques for predicting continuous outcomes, understanding relationships between variables.
+
+- **Classification:** Categorizing data into predefined classes or labels, a fundamental aspect of predictive modeling.
+
+- **Evaluation Metrics:** Assessing model performance using various metrics tailored to specific problem domains.
+
+- **Clustering:** Unsupervised learning methods for grouping similar data points based on inherent patterns.
+
+- **Data Reduction:** Techniques for reducing the dimensionality of datasets while retaining critical information.
+
+- **Ensemble Methods:** Strategies for combining multiple machine learning models to enhance predictive performance.
+
+### Feature Engineering and Model Tuning
+
+- Techniques for optimizing models by selecting relevant features and fine-tuning parameters to improve overall performance.
+
+### Natural Language Processing
+
+- Methods for enabling machines to understand, interpret, and generate human language, with applications in text analysis, sentiment analysis, and language generation.
+
+### Deep Neural Networks / Image Classification (CNN’s)
+
+- Understanding and implementing deep learning techniques, particularly Convolutional Neural Networks (CNNs), for tasks like image classification.
+
+### Jupyter Lab
+
+- An integrated development environment for data science that facilitates interactive computing, code development, and visualization in a collaborative environment.
+
+### Numpy/Pandas
+
+- **Numpy:** A library for numerical operations, providing support for large, multi-dimensional arrays and matrices.
+  
+- **Pandas:** A powerful data manipulation library offering data structures like DataFrames, enabling efficient data analysis and manipulation.
+
+### Sklearn
+
+- A comprehensive library for machine learning, offering tools for data preprocessing, model selection, and evaluation.
+
+### Matplotlib & Seaborn
+
+- **Matplotlib:** A versatile plotting library for creating static, animated, and interactive visualizations in Python.
+  
+- **Seaborn:** Built on Matplotlib, it provides a high-level interface for statistical graphics, simplifying the creation of informative and attractive visualizations.
+
+### Keras
+
+- An open-source deep learning library that facilitates the creation and training of neural networks, running on top of other popular deep learning frameworks.
+
+
+## Python vs Python 3
+
 1. **Python 2 vs. Python 3**: Python 2 and Python 3 are two major branches of the Python language. Python 2 was the older version and has been officially discontinued as of January 1, 2020. Python 3 is the current and actively maintained version of Python.  
   
 2. **Syntax Differences**: Python 3 introduced several syntax changes and improvements over Python 2. Some of the key differences include changes to the `print` statement (it's now a function in Python 3), integer division ( `/` performs true division in Python 3), and how strings are handled (Python 3 uses Unicode strings by default).  

@@ -1,10 +1,14 @@
 ---
-tags: 
+tags:
+  - c
+  - cPlusPlus
 author:
   - jacgit18
-Status: 
-Started: 
-EditDate: 
+  - chatgpt
+Comments: This documentation discusses relationship between c and c++.
+Status: Done
+Started: 2024-02-26
+EditDate: ""
 Relates:
 ---
 C is renowned for its high performance, closely aligned with low-level languages, albeit less readable than high-level counterparts like Python. Despite lacking classes, C operates as a functional language, playing a crucial role in operating system development.

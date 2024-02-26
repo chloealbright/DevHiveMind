@@ -1,6 +1,7 @@
 ---
 tags:
   - Markup
+  - css
 author:
   - jacgit18
   - chatgpt

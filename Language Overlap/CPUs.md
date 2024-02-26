@@ -62,3 +62,10 @@ Example: "Since each thread runs concurrently, multithreading makes efficient u
 
 
 
+In web design, the **content area** is the space containing the actual content, like text or images. Its dimensions, known as content width and height, can be explicitly defined using properties like width, min-width, max-width, height, min-height, and max-height, especially when box-sizing is set to content-box.
+
+The **padding area**, represented by a green box, extends the content area to include padding. Its dimensions, padding-box width and height, are determined by padding-top, padding-right, padding-bottom, and padding-left properties. The thickness of padding is adjustable through these properties.
+
+Moving outward, the **border area**, depicted in light orange, extends the padding area to encompass borders. Dimensions, border-box width and height, are controlled by border-width and shorthand border properties. Backgrounds typically extend under the border, but this behavior can be modified with the background-clip CSS property.
+
+The **margin area**, shown in orange, extends the border area to create space between elements. Margin-box width and height are influenced by margin-top, margin-right, margin-bottom, and margin-left properties. For non-replaced inline elements, space is determined by line-height, although borders and padding are still displayed around the content.

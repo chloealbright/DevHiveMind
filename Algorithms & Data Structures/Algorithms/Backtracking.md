@@ -1,5 +1,3 @@
-
-
 ```javascript
 function spiralOrderRecursive(matrix: number[][]): number[] {
     if (matrix.length === 0) { //if matrix is empty

@@ -1,1 +1,0 @@
-if your looking for one ask for things like there broker id or some type of license which isn't private

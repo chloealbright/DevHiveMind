@@ -1,1 +1,0 @@
-Mutual funds: These are investment vehicles that pool money from many investors and use it to buy a diversified portfolio of stocks, bonds, or other securities.

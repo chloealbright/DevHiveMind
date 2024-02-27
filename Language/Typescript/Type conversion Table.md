@@ -6,7 +6,7 @@ author:
   - jacgit18
 Comments: This documentation list JavaScript type conversion.
 Status: Done
-Started: 
+Started: 2023-12-07
 EditDate: 
 Relates:
 ---

@@ -2,14 +2,15 @@
 tags: 
 author:
   - jacgit18
-Status: done
+Comments: This documentation discusses
+Status: Done
 Started: 
 EditDate: 
-Relates: "[[Dynamic Programming Pattern]]"
+Relates: "[[Dynamic programming Patterns]]"
 ---
 ![[Memoization.gif]]
 
-Memoization is a valuable technique in computer science and [[Dynamic Programming Pattern]]. It involves caching and storing previously computed results of expensive function calls so that you can reuse them in future calls. This can significantly improve the performance of recursive or repetitive algorithms.
+Memoization is a valuable technique in computer science and Dynamic Programming Pattern. It involves caching and storing previously computed results of expensive function calls so that you can reuse them in future calls. This can significantly improve the performance of recursive or repetitive algorithms.
 
 
 Here is an example of a memoization decorator function in TypeScript that can handle multiple parameters:

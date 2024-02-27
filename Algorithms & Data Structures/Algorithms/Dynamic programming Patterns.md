@@ -3,7 +3,7 @@ tags:
 author:
   - jacgit18
 Comments: This documentation discusses Dynamic programming.
-Status: Capture
+Status: Refinement
 Started: 2023-12-09
 EditDate: 2024-02-27
 Relates:
@@ -11,6 +11,9 @@ Relates:
 Dynamic programming is a powerful technique used in computer science and mathematics to solve optimization problems by breaking them down into smaller overlapping subproblems. There are several common dynamic programming patterns that are frequently used to design efficient algorithms.
 
 #### How to Determine If Dynamic Programming Is Suitable
+
+>[!important] 
+> Divide&Conquer(includes Recursion) + memoization = Dynamic programming  
 
 1. **Divide into Subproblems**:
    - Can the problem be divided into smaller subproblems?
@@ -22,29 +25,43 @@ Dynamic programming is a powerful technique used in computer science and mathema
 
 >[!note]  
 >**Dynamic Programming Flow**
+>*Probably will come up with FANG Companies*
 >
 Divide into sub-Problems -> solve with recursion -> memioze or tabulate subproblems and store  
+
+### Understanding Caching
+
+- **Caching** is a technique used to store values for future use, reducing the need for recomputation.
+- Think of caching as having a backpack where you keep frequently used items for quick access, similar to reusing books or a pencil for school.
+- 
 ### Top-Down vs Bottom-Up
 
-- **Top-Down Approach** (***Memoization***):
-  - Recursive approach.
+#### Top-Down Approach (***Memoization***)
+  - Recursive approach can use closure.
   - Suitable for smaller input values.
   - Useful for functions where inputs predictably lead to the same outputs.
   - involves storing the return values of a function based on its parameters to avoid redundant calculations.
   - Ideal for problems with repetitive subproblems.
-
-
-
-- **Bottom-Up Approach** (***Tabulation***):
-  - Iterative and often more efficient, especially for large values.
-  - Uses known information to compute unknown values.
-  - Best for large-scale problems.
-
-#### Example: Fibonacci Sequence
-
-- **Top-Down Approach**:
-  - Uses closure, recursion, and memoization.
   - Suitable for shallow trees with small input values.
+
+```javascript
+export const memoize = (fn) => {
+  const cache = {};
+
+  return (...args) => {
+    const key = JSON.stringify(args);
+
+    if (key in cache) {
+      return cache[key];
+    }
+
+    const result = fn(...args);
+    cache[key] = result;
+    return result;
+  };
+};
+```
+
 ```javascript
 function fibonacciMaster() { // O(n)
   let cache = {};
@@ -64,9 +81,10 @@ function fibonacciMaster() { // O(n)
 }
 ```
 
-- **Bottom-Up Approach**:
-  - An iterative approach.
-  - More efficient for large values or deeper trees.
+#### Bottom-Up Approach(***Tabulation***)
+  - Iterative and often more efficient, especially for large values.
+  - Uses known information to compute unknown values.
+  - Best for large-scale problems.
 
 
 ```javascript
@@ -75,13 +93,9 @@ function fibonacciMaster2(n) { 
   let answer = [0,1]; 
 
   for ( let i = 2; i <= n; i++) { 
-
     answer.push(answer[i-2]+ answer[i-1]); 
-
   } 
-
   return answer.pop(); 
-
 } 
 ```
 

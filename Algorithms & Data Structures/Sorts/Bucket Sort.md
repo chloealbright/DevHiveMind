@@ -6,6 +6,7 @@ tags:
   - not-binary-by-Nature
 author:
   - jacgit18
+Comments: This documentation discusses
 Status: Capture
 Started: 
 EditDate: 

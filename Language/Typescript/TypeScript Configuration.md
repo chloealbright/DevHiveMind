@@ -1,11 +1,12 @@
 ---
-tags: 
+tags:
+  - typescript
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation explain the different aspects of ts-config file.
 Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-26
 Relates:
 ---
 In TypeScript's `tsconfig.json` file, the `target` and `module` options are used to configure the version of ECMAScript to which the TypeScript code will be compiled, as well as the module system used for generating code. Let's break down these concepts:  

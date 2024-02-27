@@ -1,11 +1,13 @@
 ---
-tags: 
+tags:
+  - javascript
 author:
   - jacgit18
-Comments: This documentation discusses
+  - chatgpt
+Comments: This documentation explain `this` keyword.
 Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-26
 Relates:
 ---
 In JavaScript, the `this` keyword is dynamic, depending on its invocation context. Key points include:

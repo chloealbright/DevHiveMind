@@ -3,10 +3,11 @@ tags:
   - dataType
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+  - chatgpt
+Comments: This documentation discusses string encoding.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-26
 Relates:
 ---
 ### Demystifying String Encoding in Node.js

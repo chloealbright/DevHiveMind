@@ -1,8 +1,11 @@
 ---
-tags: 
+tags:
+  - javascript
+  - typescript
 author:
   - jacgit18
-Status: 
+Comments: This documentation list JavaScript type conversion.
+Status: Done
 Started: 
 EditDate: 
 Relates:

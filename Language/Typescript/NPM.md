@@ -4,10 +4,10 @@ tags:
   - typescript
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses NPM.
 Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-26
 Relates:
 ---
 **(@) Prefix on NPM Packages**

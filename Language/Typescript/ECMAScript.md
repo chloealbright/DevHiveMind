@@ -3,7 +3,7 @@ tags:
   - javascript
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses ECMAScript.
 Status: Done
 Started: 2023-12-07
 EditDate: 

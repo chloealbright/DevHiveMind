@@ -1,11 +1,14 @@
 ---
-tags: 
+tags:
+  - javascript
+  - microservices
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Capture
+  - chatgpt
+Comments: This documentation discusses JavaScript
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-26
 Relates: "[[Eureka Service]]"
 ---
 In the JavaScript ecosystem, especially for microservices architecture, there isn't a direct equivalent to Eureka, which is a service registry and discovery server commonly used in Java-based microservices with Spring Cloud.  

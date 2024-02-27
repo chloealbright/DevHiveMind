@@ -1,8 +1,9 @@
 ---
-tags: 
+tags:
+  - javascript
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses polyfills.
 Status: Done
 Started: 
 EditDate: 2024-02-26

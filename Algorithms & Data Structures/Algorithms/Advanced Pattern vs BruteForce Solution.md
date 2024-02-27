@@ -1,15 +1,20 @@
 ---
 tags:
   - time
-author: jacgit18
-Status: 
+  - CodingProblem
+  - MicroCodebaseDecision
+author:
+  - jacgit18
+Comments: This documentation discusses how a advanced algorithm pattern isn't also the most optimal approach.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-27
 Relates:
 ---
 ### Algorithm Pattern are good for improving runtime 
 
->[!important] But doesn't always do so, sometimes a brute force approach can be more optimal depending on the problem
+>[!important] 
+>But doesn't always do so, sometimes a brute force approach can be more optimal depending on the problem
 
 
 ```javascript

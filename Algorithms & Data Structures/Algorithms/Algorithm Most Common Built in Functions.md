@@ -1,9 +1,11 @@
 ---
 tags:
   - MicroCodebaseDecision
+  - CodingProblem
 author:
   - jacgit18
-Status: Refinement
+Comments: This documentation discusses the most common built in functions used in coding challenge problems.
+Status: Done
 Started: 
 EditDate: 2024-02-23
 Relates:

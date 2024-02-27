@@ -48,6 +48,7 @@ Two pointer and Sliding window can be interchangeable solution but one would jus
   - Comparing values at two pointers.
   - Fast-slow pointer variations.
   - Very useful when dealing with cyclic Linked Lists or Arrays. 
+  - In Place sort.
  > [!important]  Used to compare the values at the two pointer instead of all the elements between the pointers. 
 - **Use Sorting:** Sort the input arrays/lists if necessary before applying the Two Pointer technique. 
 

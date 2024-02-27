@@ -5,11 +5,11 @@ tags:
   - time
 author:
   - jacgit18
+Comments: This documentation is a observation about the overall structure of a algorithm at the function scope. Might create a updated mind map
 Status: Refinement
 Started: 
 EditDate: 
-Relates: 
-Comments: This documentation is a observation about the overall structure of a algorithm at the function scope. Might create a updated mind map
+Relates:
 ---
 ![[AlgoFlow.png]]
 

@@ -2,11 +2,11 @@
 tags: 
 author:
   - jacgit18
+Comments: Random thought
 Status: 
 Started: 
 EditDate: 
-Relates: 
-Comments: Random thought
+Relates:
 ---
 ![[Thought.gif]]
 

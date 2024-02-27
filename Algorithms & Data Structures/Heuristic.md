@@ -2,11 +2,11 @@
 tags: 
 author:
   - jacgit18
+Comments: This documentation discusses
 Status: Capture
 Started: 
 EditDate: 
-Relates: 
-Comments: This documentation discusses
+Relates:
 ---
 A heuristic approach in programming involves using practical rules or guidelines that are not guaranteed to find an optimal solution but are effective in solving a problem or making decisions in a reasonable amount of time. Heuristics are often employed when finding an exact solution is computationally expensive or impractical.  
   

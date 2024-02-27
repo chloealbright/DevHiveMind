@@ -2,11 +2,11 @@
 tags: 
 author:
   - jacgit18
+Comments: The motivation behind this regimen is basically how I would prepare and practice challenges if I had not done one before and written in a way to avoid anti patterns I fell into.
 Status: Perpetual
 Started: 2023-12-15
 EditDate: 
-Relates: 
-Comments: The motivation behind this regimen is basically how I would prepare and practice challenges if I had not done one before and written in a way to avoid anti patterns I fell into.
+Relates:
 ---
 ![[Regimen.gif]]
 ## Prep  

@@ -4,10 +4,11 @@ tags:
   - CodingProblem
 author:
   - jacgit18
+  - chatgpt
 Comments: The purpose of this documentation is to identify when should you change your approach around solving a coding challenge.
 Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-27
 Relates:
 ---
 Be mindful of algorithmic pattern conflicts. If you encounter a point where the logic breaks down and finding a fix becomes challenging, or if you're introducing numerous conditional statements to address various minor issues, consider it a signal to reassess and possibly modify your approach.

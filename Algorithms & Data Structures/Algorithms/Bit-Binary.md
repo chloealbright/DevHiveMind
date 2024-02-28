@@ -1,13 +1,20 @@
 ---
 tags:
   - linear
+  - CodingProblem
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses what bit binary is.
+Status: Refinement
 Started: 
-EditDate: 
+EditDate: 2024-02-27
 Relates:
 ---
+"Bit binary" typically refers to binary representation, which is a linear representation of data. Binary representation uses a base-2 numeral system, where data is represented using only two symbols (usually 0 and 1). In this system, each digit is a power of 2, making it a linear representation of data.
+
+So, "bit binary" is a linear representation and is part of the broader concept of binary representation in computing.
+
+
 **Bitwise Operators**
 
 Bitwise operators work on binary representations of numbers, treating them as sequences of zeros and ones. They perform operations at the binary level but return standard numerical values in JavaScript. The main bitwise operators in JavaScript include:
@@ -127,6 +134,3 @@ Rest parameters make it easier to work with variable numbers of arguments within
 
 
 
-"Bit binary" typically refers to binary representation, which is a linear representation of data. Binary representation uses a base-2 numeral system, where data is represented using only two symbols (usually 0 and 1). In this system, each digit is a power of 2, making it a linear representation of data.
-
-So, "bit binary" is a linear representation and is part of the broader concept of binary representation in computing.

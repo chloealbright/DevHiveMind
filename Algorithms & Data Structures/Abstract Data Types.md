@@ -2,11 +2,11 @@
 tags: 
 author:
   - jacgit18
+Comments: Maybe delete
 Status: Refinement
 Started: 
 EditDate: 
-Relates: 
-Comments: Maybe delete
+Relates:
 ---
 ![[Abstract Data.gif]]
 

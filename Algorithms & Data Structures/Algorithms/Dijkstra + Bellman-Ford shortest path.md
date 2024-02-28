@@ -6,15 +6,15 @@ tags:
   - traversal
   - search
   - non-linear
-author: jacgit18
-Status: 
+author:
+  - jacgit18
+Comments: This documentation discusses path algorithms.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-27
 Relates:
 ---
 ![[graph Pathway.gif]]
-
-Certainly, here's a more structured version of your note about the choice between algorithms for solving the shortest path problem:
 
 # Choosing the Right Algorithm for Shortest Path Problems
 

@@ -2,10 +2,12 @@
 tags:
   - CodebaseDecision
   - time
-author: jacgit18
-Status: 
+author:
+  - jacgit18
+Comments: This documentation discusses runtime complexity.
+Status: Refinement
 Started: 
-EditDate: 
+EditDate: 2024-02-27
 Relates:
 ---
 

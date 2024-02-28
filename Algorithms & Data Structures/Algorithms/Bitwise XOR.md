@@ -1,11 +1,12 @@
 ---
 tags:
-  - interview
+  - CodingProblem
 author:
   - jacgit18
+Comments: This documentation discusses Bitwise XOR.
 Status: Refinement
 Started: 
-EditDate: 
+EditDate: 2024-02-27
 Relates: "[[Bit-Binary]]"
 ---
 The Bitwise XOR (exclusive OR) operation is a bitwise operation that compares corresponding bits of two binary numbers. It returns a new binary number where each bit is the result of XOR'ing the corresponding bits of the input numbers. Here's the relationship between the Bitwise XOR Pattern and bit binary:

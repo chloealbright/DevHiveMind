@@ -6,9 +6,10 @@ tags:
   - linear
 author:
   - jacgit18
-Status: Refinement
+Comments: This documentation discusses
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-27
 Relates: "[[Iterating vs Traversing]]"
 ---
 ![[many Ways.gif]]

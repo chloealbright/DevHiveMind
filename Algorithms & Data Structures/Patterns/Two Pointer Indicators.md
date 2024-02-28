@@ -47,3 +47,22 @@ When dealing with problems that involve the Two-Pointer technique, certain keywo
     - When the task involves checking whether a string or array is a palindrome, two pointers on both ends are often useful.
 
 Remember that these indicators are not exhaustive, and the best way to confirm the suitability of the two-pointer technique is to analyze the problem and identify patterns that align with the characteristics of this approach.
+
+
+### Two Pointer & Nested Loops
+Nested loops are less commonly used with two pointers, primarily because one of the advantages of employing two pointers is the potential for a more efficient single-pass traversal through the data structure. Two pointers are often applied to scenarios where the goal is to iterate through elements or subarrays in a way that reduces the overall time complexity compared to a naive nested loop approach.
+
+However, there are cases where nested loops with two pointers might be used:
+
+1. **Two-Dimensional Data Structures:**
+   - When dealing with a two-dimensional array or matrix, you may encounter situations where nested loops with two pointers are required. For example, if you need to traverse elements in a grid, you might use two pointers for rows and columns, resulting in nested loops.
+
+2. **Comparing Multiple Elements:**
+   - In some scenarios, you might need to compare multiple elements simultaneously. Nested loops can be useful when, for instance, you're checking relationships or conditions between each pair of elements in an array.
+
+3. **Multiple Pointers with Different Steps:**
+   - When employing multiple pointers with different step sizes, nested loops may be necessary to manage the variations in movement through the data structure.
+
+Despite these cases, it's crucial to carefully consider whether nested loops are truly necessary, as they can lead to higher time complexity. If a more efficient single-pass approach with two pointers is feasible, it's generally preferred.
+
+In summary, while nested loops with two pointers are less common due to their potential impact on time complexity, there are specific situations where they may be the most appropriate solution based on the nature of the problem and the characteristics of the data structure involved.

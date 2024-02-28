@@ -2,11 +2,11 @@
 tags: 
 author:
   - jacgit18
+Comments: Refining to find optimal order of operations in terms of thought for solving a problem .
 Status: 
 Started: 
 EditDate: 
 Relates: "[[Heuristic]]"
-Comments: Refining to find optimal order of operations in terms of thought for solving a problem .
 ---
 
 **Ask Question here

@@ -37,6 +37,8 @@ Two pointer and Sliding window can be interchangeable solution but one would jus
 Problem [[Two Pointer Indicators |Indicators]]
 *Right pointer doesn't always need to point to last element*
 
+don't always need to move both pointers one pointer can stay still
+
 - **Definition:** The Two Pointer pattern involves using two pointers to traverse arrays or strings.
 - **Commonalities & Common things to Leverage**
 	- Similar attributes to Sliding window 

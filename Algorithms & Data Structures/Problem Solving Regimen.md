@@ -43,7 +43,9 @@ Relates:
 
 
 ## Order of Patterns to Focus on 
-
+Two Pointer
+Fast Slow Pointer
+Sliding Window
 Do backtracking before dynamic programming
 
 ## Problem Types to Focus On

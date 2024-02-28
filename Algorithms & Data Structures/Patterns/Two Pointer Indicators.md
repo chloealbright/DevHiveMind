@@ -20,7 +20,7 @@ When dealing with problems that involve the Two-Pointer technique, certain keywo
    - Phrases like "find a pair with a given sum" or "find elements that add up to a target" often suggest the use of two pointers.
 
 4. **Sorted Array/List:**
-   - When the problem mentions that the input is sorted, it's a strong indicator that two pointers could be useful.
+   - When the problem mentions that the input is sorted, it's a strong indicator that two pointers could be useful but even if it is,nt sorted like for three po
 
 5. **Intersection of Arrays:**
    - If the problem involves finding the common elements between two arrays, using two pointers on sorted arrays can be effective.

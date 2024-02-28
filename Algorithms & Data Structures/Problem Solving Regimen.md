@@ -1,7 +1,10 @@
 ---
-tags: 
+tags:
+  - CodingProblem
+  - interview
 author:
   - jacgit18
+  - chatgpt
 Comments: The motivation behind this regimen is basically how I would prepare and practice challenges if I had not done one before and written in a way to avoid anti patterns I fell into.
 Status: Perpetual
 Started: 2023-12-15
@@ -43,15 +46,18 @@ Relates:
 
 
 ## Order of Patterns to Focus on 
-#### Pointer Manipulation
+#### Pointer Manipulation/Comparison 
 1. Two Pointer
 2. Fast Slow Pointer
 #### Range 
 3. Sliding Window
 #### Combination 
 4. Backtracking
-#### Optimization
+#### Optimization Pattern
 5. Dynamic Programming
+6. Knapsack
+#### Element Selection
+7. Top K Elements
 
 ## Problem Types to Focus On
 When tackling coding challenges, the emphasis is often on creating or solving functions (around 80% of the time) rather than dealing with Object Oriented (OO) problems, which occur less frequently in my experience. For a comprehensive interview preparation, allocate around 70-80% of your time to coding challenges, especially if you're new to technical interviews. System design interviews, comprising 20-30%, are more common in larger companies like Bloomberg, Spotify, Google, and Direct TV, while startups may have a different emphasis depending on the job level. Keep in mind that platforms like LeetCode cover a range of problems, including some that involve implementing classes or Object Oriented concepts. You may want to consider sometime for side projects or exploring some new technology as well this all depends on your level of proficiency and your current stage of your career like from my under standing senior developers don't get the standard Leetcode type interview. 

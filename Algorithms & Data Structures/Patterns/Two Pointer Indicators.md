@@ -50,7 +50,8 @@ Remember that these indicators are not exhaustive, and the best way to confirm t
 
 
 ### Two Pointer & Nested Loops
-Nested loops are less commonly used with two pointers, primarily because one of the advantages of employing two pointers is the potential for a more efficient single-pass traversal through the data structure. Two pointers are often applied to scenarios where the goal is to iterate through elements or subarrays in a way that reduces the overall time complexity compared to a naive nested loop approach.
+The Two-pointer technique typically utilizes a single loop for efficient traversal, minimizing the need for nested loops. This approach is favored for its ability to streamline linear or sequential tasks. Although nested loops may indicate an alternative strategy, the primary strength of two pointers lies in their capacity to achieve a more efficient single-pass traversal through the data structure. This technique is especially beneficial in scenarios where optimizing time complexity is a priority.
+
 
 However, there are cases where nested loops with two pointers might be used:
 
@@ -66,3 +67,41 @@ However, there are cases where nested loops with two pointers might be used:
 Despite these cases, it's crucial to carefully consider whether nested loops are truly necessary, as they can lead to higher time complexity. If a more efficient single-pass approach with two pointers is feasible, it's generally preferred.
 
 In summary, while nested loops with two pointers are less common due to their potential impact on time complexity, there are specific situations where they may be the most appropriate solution based on the nature of the problem and the characteristics of the data structure involved.
+
+## Example 
+
+```typescript
+function findPairsWithSum(nums: number[], targetSum: number): number[][] {
+    nums.sort((a, b) => a - b);  // Assuming the input array is sorted
+
+    const pairs: number[][] = [];
+
+    for (let i = 0; i < nums.length - 1; i++) {
+        let left = i + 1;
+        let right = nums.length - 1;
+
+        while (left < right) {
+            const currentSum = nums[i] + nums[left] + nums[right];
+
+            if (currentSum === targetSum) {
+                pairs.push([nums[i], nums[left], nums[right]]);
+                left++;
+                right--;
+            } else if (currentSum < targetSum) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+    }
+
+    return pairs;
+}
+
+// Example usage:
+const numsList: number[] = [1, 4, 2, 3, 7, 5, 8];
+const target: number = 12;
+const result: number[][] = findPairsWithSum(numsList, target);
+
+```
+

@@ -4,10 +4,10 @@ tags:
 author:
   - jacgit18
 Comments: This documentation discusses
-Status: Capture
+Status: Done
 Started: 
 EditDate: 2024-02-29
-Relates:
+Relates: "[[Map]]"
 ---
 ```javascript
 function isWellFormed(expression) {

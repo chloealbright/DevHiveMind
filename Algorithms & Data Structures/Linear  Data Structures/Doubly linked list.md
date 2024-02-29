@@ -1,9 +1,10 @@
 ---
 tags:
   - linear
+  - dataStructure
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses Doubly Linked List.
 Status: Capture
 Started: 
 EditDate: 

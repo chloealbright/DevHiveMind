@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - pattern
 author:
   - jacgit18
 Status: Capture

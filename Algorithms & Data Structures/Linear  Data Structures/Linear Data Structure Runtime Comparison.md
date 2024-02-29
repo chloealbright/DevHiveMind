@@ -1,7 +1,7 @@
 ---
 tags:
-  - time
   - dataStructure
+  - timeComplexity
 author:
   - jacgit18
 Comments: This documentation discusses Linear Data Structure and there runtime for there action.

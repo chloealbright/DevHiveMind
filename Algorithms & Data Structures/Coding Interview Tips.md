@@ -1,8 +1,10 @@
 ---
-tags: 
+tags:
+  - CodingProblem
+  - interview
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses tips for interview.
 Status: 
 Started: 
 EditDate: 

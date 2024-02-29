@@ -1,9 +1,10 @@
 ---
-tags: 
+tags:
+  - AlgorithmExamination
 author:
   - jacgit18
 Comments: Random thought
-Status: 
+Status: Done
 Started: 
 EditDate: 
 Relates:

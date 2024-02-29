@@ -1,49 +1,44 @@
 ---
-tags: 
+tags:
+  - dataType
+  - abstraction
+  - dataStructure
 author:
   - jacgit18
-Comments: Maybe delete
+Comments: This documentation discusses
 Status: Refinement
 Started: 
-EditDate: 
+EditDate: 2024-02-29
 Relates:
 ---
 ![[Abstract Data.gif]]
 
-Abstract Data Types are entities that are definitions of data and operations but do not have implementation details.  
+Abstract Data Types (ADTs) are conceptual entities in computer science that define a set of data and the operations that can be performed on that data without specifying the details of how these operations will be implemented. This approach allows for the separation of the 'what' from the 'how,' enabling the focus on what operations are to be performed without getting entangled in the specifics of how these operations are executed in any particular programming language.
+
+### Understanding ADTs Through Analogies:
+
+Imagine a smartphone: At an abstract level, you're aware of its specifications—RAM, processor, screen size, etc. You also know about the operations it can perform, such as calling, texting, and video streaming. The abstract view doesn't delve into the specifics of how these operations are executed; it just specifies that these operations are possible.
+
+Similarly, consider an array: Abstractly, you understand it as a collection of elements that can be accessed via indexes. You know you can perform operations like reading, modifying, and sorting the elements. However, the abstract view doesn't concern itself with how these operations are implemented—this varies with programming languages.
+
+### ADTs in Data Structures:
+
+Many data structures are considered Concrete Data Types (CDTs) because they come with specific implementations. However, some data structures, conceptualized as ADTs, can be implemented in numerous ways, with the specifics varying across different programming environments.
+
+ADTs provide a framework for understanding the behavior of data structures without locking into any one implementation. For example, a stack ADT defines behavior (like push and pop operations) without specifying how these behaviors are to be achieved. This conceptual framework allows for flexibility in implementation across different programming languages.
+
+### Examples of ADTs:
+
+- **Array, List, Map, Queue, Set, Stack, Table, Tree, and Vector:** These are all examples of ADTs, each with a range of possible implementations or CDTs. A container could be seen as a higher-level ADT encompassing these.
   
-meaning there is knowledge of the data and the operations that can be performed but since there are different languages we can specify implementation details differently because it varies from language to language.  
-  
-so let's say you have a smartphone its abstract or logical view is basically its tech specs like ram, processor screen size, etc ...  
-  
-then when you go deeper you have operations or methods/functions for calling(), text(), video(), and so on  
-  
-then you have the implementation which would basically be the syntax and its general structure including variables.  
-  
-lets say you have an array the abstract would be the array data type , index size position, and memory address and being able to read, modify and sort through the array  
-  
-then you have the implementation which would be the syntax depending on the language  
-  
-Abstract Data Types when it comes to Data Structure  
-  
-A lot of Data Structures are considered Concrete Data Type (CDT) where it contains an implementation of ADT. But there are Data Structure that can be implemented in several ways and its implementation may vary from language to language.  
-  
-Abstract data types, commonly abbreviated ADTs, are a way of classifying data structures based on how they are used and the behaviors they provide. They do not specify how the data structure must be implemented but simply provide a minimal expected interface and set of behaviors.  
-  
-Abstract Data Type(ADT) is a data type, where only behavior is defined but not implementation meaning as long as you do certain behavior like for a stack push and pop we don't care about how you implement or create push and pop  
-  
-Examples:  
-Array, List, Map, Queue, Set, Stack, Table, Tree, and Vector are ADTs. Each of these ADTs has many implementations i.e. CDT. The container is a high-level ADT of above all ADTs.  
-  
-Linked List is an Abstract Data Type (ADT) that holds a collection of Nodes, the nodes can be accessed in a sequential way. Linked List doesn’t provide a random access to a Node.  
-  
-ADT — Interface  
-The Linked List interface can be implemented in different ways, is important to have operations to insert a new node and to remove a Node:  
-  
-Since abstract data types don’t specify an implementation, this means it’s also incorrect to talk about the time complexity of a given abstract data type.  
-  
-ADT — Operations  
-Traversal : You must be thinking, “how could I print all the elements of a Linked List?”  
-A Linked List can be traversed , is possible to navigate in the list using the nodes next element.  
-  
-stack , and queues are considered abstract to
+- **Linked List:** This ADT represents a sequence of nodes connected in a linear fashion. The abstract definition includes operations for inserting and removing nodes but does not detail how these operations are implemented.
+
+### ADT Operations:
+
+- **Traversal:** For instance, traversing a linked list involves moving from node to node, an operation defined at the abstract level without specifying how traversal is to be programmed.
+
+### Interface vs. Implementation:
+
+- ADTs are about the interface—the set of operations that can be performed. Since ADTs don't specify implementation, discussing the time complexity of an ADT operation in abstract terms is not meaningful; time complexity is a property of a specific implementation.
+
+In essence, ADTs serve as a blueprint for data structures, outlining the required operations and behaviors without confining to any specific programming language or implementation details. This abstraction fosters versatility and innovation in how data structures are implemented and used across different software projects.

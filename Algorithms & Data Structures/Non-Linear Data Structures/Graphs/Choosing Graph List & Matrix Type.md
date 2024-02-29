@@ -1,9 +1,11 @@
 ---
-tags: 
+tags:
+  - dataStructure
+  - non-linear
 author:
   - jacgit18
 Comments: This documentation discusses
-Status: 
+Status: Done
 Started: 2023-11-02
 EditDate: 
 Relates: "[[Graph List & Matrix Type]]"

@@ -1,8 +1,10 @@
 ---
-tags: 
+tags:
+  - AlgorithmExamination
 author:
   - jacgit18
-Comments: This documentation discusses
+  - chatgpt
+Comments: This documentation discusses the purpose of searching algorithm and sorting algorithm.
 Status: Capture
 Started: 2024-02-19
 EditDate: 

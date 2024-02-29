@@ -1,9 +1,10 @@
 ---
-tags: 
+tags:
+  - dataStructure
 author:
   - chatgpt
 Comments: This documentation discusses
-Status: 
+Status: Done
 Started: 2023-11-03
 EditDate: 
 Relates:

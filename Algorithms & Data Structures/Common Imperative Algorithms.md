@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - MacroCodebaseDecision
+  - CodingProblem
 author:
   - jacgit18
 Comments: This documentation discusses

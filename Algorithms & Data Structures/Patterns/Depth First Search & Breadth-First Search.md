@@ -3,7 +3,6 @@ tags:
   - bfs
   - dfs
   - AlgorithmExamination
-  - potentialMerge
   - looping
   - search
   - traversal

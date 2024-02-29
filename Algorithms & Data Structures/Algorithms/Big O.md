@@ -1,7 +1,7 @@
 ---
 tags:
   - CodebaseDecision
-  - time
+  - timeComplexity
 author:
   - jacgit18
 Comments: This documentation discusses runtime complexity.

@@ -20,7 +20,7 @@ This Software Development Knowledge Repository is a centralized and organized co
 - **Mindmaps**: One of the benefits of using Obsidian is the ability to create mind maps to connect related concepts and topics. Mind maps can help users navigate through the repository and understand the relationships between different subjects.
 
 ## Contribution and Growth
-<img src="_Low Priority Refinement/_Main/Dataview.gif" alt="Data ">
+<img src="_NoteAssets/_Main/Dataview.gif" alt="Data ">
 
 I encourage contributions from the community. Here are some best practices for maintaining and growing the repository:
 

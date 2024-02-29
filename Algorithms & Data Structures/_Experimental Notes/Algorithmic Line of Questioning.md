@@ -1,11 +1,16 @@
 ---
-tags: 
+tags:
+  - CodingProblem
+  - questions
+  - interview
+  - example
 author:
   - jacgit18
+  - chatgpt
 Comments: This documentation discusses
 Status: Capture
 Started: 
-EditDate: 
+EditDate: 2024-02-29
 Relates:
 ---
 ## Interrogative pronoun

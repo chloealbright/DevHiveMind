@@ -4,7 +4,7 @@ tags:
   - dataStructure
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses Linear Data Structure and there runtime for there action.
 Status: Done
 Started: 
 EditDate: 2024-02-29

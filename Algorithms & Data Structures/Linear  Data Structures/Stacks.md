@@ -1,10 +1,11 @@
 ---
 tags:
   - linear
+  - dataStructure
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses Stacks.
+Status: Refinement
 Started: 
 EditDate: 
 Relates:
@@ -37,7 +38,7 @@ Stacks are commonly used in procedural programming as a memory stack. Building s
 **Stack & Heaps in Computer RAM:**
 The stack is allocated by the operating system when a process starts and is maintained in-line by the program. This allocation method is faster, and push and pop operations are typically efficient. Variables on the stack go out of scope and are automatically deallocated, making stack allocation faster compared to the heap.
 
-Variables on the heap must be manually destroyed and do not go out of scope. They are freed with "delete," "delete[]," or "free." Heap allocation is slower than stack allocation and can result in fragmentation with many allocations and deallocations. Data on the heap is typically accessed through pointers, allocated with "new" or "malloc," and can lead to allocation failures with large buffer requests.
+Variables on the heap must be manually destroyed and do not go out of scope. They are freed with "delete," "delete," or "free." Heap allocation is slower than stack allocation and can result in fragmentation with many allocations and deallocations. Data on the heap is typically accessed through pointers, allocated with "new" or "malloc," and can lead to allocation failures with large buffer requests.
 
 In summary, use the stack when you know the exact data size before compile time, and it's not too large. The heap is suitable when the data size is unknown at runtime or when significant data allocation is required, but it comes with the responsibility of managing memory and potential memory leaks.
 

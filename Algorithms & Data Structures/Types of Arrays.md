@@ -8,7 +8,7 @@ Comments: This documentation discusses the different types of Arrays.
 Status: Done
 Started: 2024-02-29
 EditDate: 
-Relates:
+Relates: "[[Arrays]]"
 ---
 1. **1D Array:**
    - *Definition:* An array with a single dimension, representing a list of elements.

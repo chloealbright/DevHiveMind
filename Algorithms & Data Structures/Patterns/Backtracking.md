@@ -1,3 +1,14 @@
+---
+tags:
+  - CodingProblem
+author:
+  - chatgpt
+Comments: This documentation discusses a leetcode problem where you create a spiral over a matrix.
+Status: Done
+Started: 
+EditDate: 
+Relates:
+---
 ```javascript
 function spiralOrderRecursive(matrix: number[][]): number[] {
     if (matrix.length === 0) { //if matrix is empty

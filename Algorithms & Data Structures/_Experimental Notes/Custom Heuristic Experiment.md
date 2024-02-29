@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - CodingProblem
 author:
   - jacgit18
 Comments: Refining to find optimal order of operations in terms of thought for solving a problem .

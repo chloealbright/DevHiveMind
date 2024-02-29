@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - dataStructure
+  - non-linear
 author:
   - jacgit18
 Comments: This documentation discusses

@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - CodingProblem
+  - MicroCodebaseDecision
 author:
   - jacgit18
 Comments: This documentation discusses

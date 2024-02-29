@@ -1,6 +1,7 @@
 ---
 tags:
   - non-linear
+  - dataStructure
 author:
   - jacgit18
 Comments: This documentation discusses

@@ -6,8 +6,8 @@ tags:
   - potentialMerge
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses different aspect of a algorithm to examine.
+Status: Refinement
 Started: 
 EditDate: 
 Relates: "[[Iteration vs Recursion]]"

@@ -1,6 +1,6 @@
 ---
 tags:
-  - time
+  - timeComplexity
 author:
   - jacgit18
 Comments: This documentation discusses

@@ -1,8 +1,10 @@
 ---
-tags: 
+tags:
+  - interview
+  - CodingProblem
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses ways to address anti patterns
 Status: Capture
 Started: 
 EditDate: 

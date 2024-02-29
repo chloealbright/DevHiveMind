@@ -1,5 +1,7 @@
 ---
-tags: 
+tags:
+  - linear
+  - dataStructure
 author:
   - chatgpt
 Comments: This documentation discusses

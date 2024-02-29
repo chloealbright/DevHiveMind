@@ -1,9 +1,11 @@
 ---
-tags: 
+tags:
+  - dataStructure
+  - CodingProblem
 author:
   - jacgit18
 Comments: This documentation discusses
-Status: Capture
+Status: Done
 Started: 2024-02-19
 EditDate: 
 Relates:

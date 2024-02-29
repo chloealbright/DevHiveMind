@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - CodingProblem
 author:
   - jacgit18
 Comments: This documentation discusses

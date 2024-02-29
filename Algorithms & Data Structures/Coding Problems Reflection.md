@@ -1,11 +1,14 @@
 ---
-tags: 
+tags:
+  - CodingProblem
+  - pattern
+  - thoughtExamination
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses approach to problems.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-29
 Relates:
 ---
 Patterns play a crucial role in problem-solving. Understanding when to apply a specific pattern is essential. However, real-world scenarios can be tricky. Our brains are wired to seek efficiency. When faced with a problem, we instinctively look for the path of perceived least resistance.

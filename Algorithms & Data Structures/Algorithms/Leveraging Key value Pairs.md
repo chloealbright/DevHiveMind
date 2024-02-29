@@ -3,7 +3,7 @@ tags:
   - CodingProblem
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses leetcode 20 checking for valid parentheses.
 Status: Done
 Started: 
 EditDate: 2024-02-29
@@ -72,7 +72,6 @@ This function takes a string `expression` as input and checks if the parentheses
 
 
 
-Certainly! Here's an updated note example that emphasizes the usage of a stack for an Undo Mechanism operation in a coding challenge:
 
 **Undo Mechanism Example:**
 - In a coding challenge scenario, implementing an Undo Mechanism using a stack can be a powerful solution. Consider a scenario where you need to manage a sequence of operations, and the ability to undo each operation is crucial. This is where a stack comes into play.

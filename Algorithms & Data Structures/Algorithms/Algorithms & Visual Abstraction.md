@@ -2,6 +2,7 @@
 tags:
   - AlgorithmExamination
   - CodingProblem
+  - pattern
 author:
   - jacgit18
   - chatgpt

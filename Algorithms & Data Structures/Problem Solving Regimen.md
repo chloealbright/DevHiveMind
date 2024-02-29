@@ -38,7 +38,7 @@ Relates:
   
 4. [[AlgoFlow#**Optimal Algorithm** |Optimal]] **Solution & [[Key Base Attributes of  Grokking Algorithm patterns |Grokking Algorithm]] Patterns**:
 	- Develop a Optimal approach
-	- Consider experiment with looping [[Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion |iteratively]] and [[Recursion & Recursion Runtime |recursively]].  
+	- Consider experiment with looping [[Iteration vs Recursion|iteratively]] and [[Recursion & Recursion Runtime |recursively]].  
 	- Delve into advanced algorithm patterns for solution. 
 	- Think about what patterns can be used for the problem which can be solved with many different patterns depending on the problem itself.
 	- Keep in mind that one pattern may be more Optimal then the other depending on the specifics of the problem.

@@ -6,7 +6,7 @@ tags:
   - linear
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses Linear Iteration vs Linear Recursion vs Binary Iteration vs Binary Recursion
 Status: Done
 Started: 
 EditDate: 2024-02-27
@@ -17,7 +17,7 @@ Relates: "[[Iterating vs Traversing]]"
 
 ## Linear iteration
 
-Linear iteration is a broader concept that refers to the process of sequentially visiting or processing each item in a collection/Data Structure, typically from the first item to the last, in a linear order.  It is not limited to searching for a specific value like a [[Linear search vs Binary search#^d39416 | Linear Search]]; it can involve various operations on each item in the collection, such as printing, modification, or computation.  
+Linear iteration is a broader concept that refers to the process of sequentially visiting or processing each item in a collection/Data Structure, typically from the first item to the last, in a linear order.  It is not limited to searching for a specific value like a [[Linear search vs Binary search#^d39416 |Linear Search]]; it can involve various operations on each item in the collection, such as printing, modification, or computation.  
 
 ```javascript
 function linearIteration(arr) {

@@ -1,8 +1,10 @@
 ---
-tags: 
+tags:
+  - CodingProblem
+  - AlgorithmComponent
 author:
   - chatgpt
-Comments: This documentation discusses
+Comments: This documentation discusses the difference between iterating and traversing.
 Status: Done
 Started: 2023-11-01
 EditDate: 
@@ -23,7 +25,7 @@ In programming, "iterating" and "traversing" are often used interchangeably to d
 In summary, while these terms are often used interchangeably and their meanings can overlap, "iterating" is a more general concept that can encompass various ways of processing data, while "traversing" typically implies a specific order or direction when accessing elements. The choice of which term to use can depend on the context and the specific operation you are performing in your code.
 
 
-## array.length - 1 vs array.length  
+## [[Arrays |Array]] Index Traversal
   
 1. **Using `array.length - 1`:**  
 - When you iterate from 0 to `array.length - 1` in a loop, you include all elements from the first element (index 0) up to the second-to-last element (index `array.length - 2`). The loop stops just before reaching the last element.  

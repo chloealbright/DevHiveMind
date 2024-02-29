@@ -3,7 +3,7 @@ tags:
   - CodingProblem
 author:
   - jacgit18
-Comments: This documentation discusses a rough process of breaking down a problem.
+Comments: This a rough thought process breaking down a problem.
 Status: Draft
 Started: 
 EditDate: 2024-02-29

@@ -1,9 +1,13 @@
 ---
-tags: 
+tags:
+  - AlgorithmComponent
+  - MicroCodebaseDecision
+  - pattern
+  - CodingProblem
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Capture
+Comments: This documentation discusses regular expressions.
+Status: Refinement
 Started: 2024-02-11
 EditDate: 
 Relates:

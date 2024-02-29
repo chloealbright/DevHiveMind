@@ -1,11 +1,13 @@
 ---
-tags: 
+tags:
+  - CodingProblem
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Capture
+  - chatgpt
+Comments: This documentation discusses finding conditional logic.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-29
 Relates:
 ---
 To identify conditional logic in a coding challenge problem statement, you can:

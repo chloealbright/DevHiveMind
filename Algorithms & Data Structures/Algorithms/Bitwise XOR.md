@@ -1,6 +1,7 @@
 ---
 tags:
   - CodingProblem
+  - pattern
 author:
   - jacgit18
 Comments: This documentation discusses Bitwise XOR.

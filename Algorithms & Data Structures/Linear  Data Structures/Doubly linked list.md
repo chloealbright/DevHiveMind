@@ -1,9 +1,10 @@
 ---
 tags:
   - linear
+  - dataStructure
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses Doubly Linked List.
 Status: Capture
 Started: 
 EditDate: 
@@ -22,9 +23,3 @@ Doubly linked list can take up more memory
 ![[DoubleLinkedListsStill.png]]
 
 
-## Circular Doubly Linked Lists 
-![[DoubleCircularLinkedLists.png]]
-
-
-
-A circular doubly linked list is a mixture of a doubly linked list and a circular linked list. Like the doubly linked list, it has an extra pointer called the previous pointer, and similar to the circular linked list, its last node points at the head node. This type of linked list is the bi-directional list. So, you can traverse it in both directions.

@@ -1,7 +1,10 @@
 ---
-tags: 
+tags:
+  - CodingProblem
+  - interview
 author:
   - jacgit18
+  - chatgpt
 Comments: The motivation behind this regimen is basically how I would prepare and practice challenges if I had not done one before and written in a way to avoid anti patterns I fell into.
 Status: Perpetual
 Started: 2023-12-15
@@ -35,7 +38,7 @@ Relates:
   
 4. [[AlgoFlow#**Optimal Algorithm** |Optimal]] **Solution & [[Key Base Attributes of  Grokking Algorithm patterns |Grokking Algorithm]] Patterns**:
 	- Develop a Optimal approach
-	- Consider experiment with looping [[Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion |iteratively]] and [[Recursion & Recursion Runtime |recursively]].  
+	- Consider experiment with looping [[Iteration vs Recursion|iteratively]] and [[Recursion & Recursion Runtime |recursively]].  
 	- Delve into advanced algorithm patterns for solution. 
 	- Think about what patterns can be used for the problem which can be solved with many different patterns depending on the problem itself.
 	- Keep in mind that one pattern may be more Optimal then the other depending on the specifics of the problem.
@@ -43,10 +46,29 @@ Relates:
 
 
 ## Order of Patterns to Focus on 
+#### Pointer Manipulation/Comparison 
 1. Two Pointer
 2. Fast Slow Pointer
+#### Range 
 3. Sliding Window
-4. Do backtracking before dynamic programming
+#### Search 
+4. Binary Search
+#### Combination 
+5. Backtracking
+#### Merge 
+6. Merge Interval
+7. K way Merge
+#### Tree Search 
+8. DFS
+9. BFS 
+#### Optimization Pattern
+10. Dynamic Programming
+11. Knapsack
+#### Element Selection
+12. Top K Elements
+#### Graph Search 
+13. DFS
+14. BFS 
 
 ## Problem Types to Focus On
 When tackling coding challenges, the emphasis is often on creating or solving functions (around 80% of the time) rather than dealing with Object Oriented (OO) problems, which occur less frequently in my experience. For a comprehensive interview preparation, allocate around 70-80% of your time to coding challenges, especially if you're new to technical interviews. System design interviews, comprising 20-30%, are more common in larger companies like Bloomberg, Spotify, Google, and Direct TV, while startups may have a different emphasis depending on the job level. Keep in mind that platforms like LeetCode cover a range of problems, including some that involve implementing classes or Object Oriented concepts. You may want to consider sometime for side projects or exploring some new technology as well this all depends on your level of proficiency and your current stage of your career like from my under standing senior developers don't get the standard Leetcode type interview. 

@@ -26,17 +26,11 @@ Math.round(5.95) = 6 // Closest
 ### Power
 ```javascript
 Math.pow(base,root) = 2^3 = 8 
-```
 
-### Square Root 
-returns root of the value passed 
-```javascript
+// Square Root returns root of the value passed 
 Math.sqrt(25) = 5 
-```
 
-### Cube Root 
-returns base of the exponent passed 
-```javascript
+// Cube Root returns base of the exponent passed 
 Math.cbrt(64) = 4^3 = 4 
 ```
 ### Max

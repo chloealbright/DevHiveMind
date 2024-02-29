@@ -1,9 +1,10 @@
 ---
-tags: 
+tags:
+  - CodingProblem
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Capture
+Comments: This documentation discusses hidden constraints.
+Status: Done
 Started: 2024-02-11
 EditDate: 
 Relates:

@@ -3,6 +3,7 @@ tags:
   - time
   - CodingProblem
   - MicroCodebaseDecision
+  - pattern
 author:
   - jacgit18
 Comments: This documentation discusses how a advanced algorithm pattern isn't also the most optimal approach.

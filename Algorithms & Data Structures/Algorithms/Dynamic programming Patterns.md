@@ -1,9 +1,12 @@
 ---
-tags: 
+tags:
+  - pattern
+  - CodingProblem
+  - MicroCodebaseDecision
 author:
   - jacgit18
 Comments: This documentation discusses Dynamic programming.
-Status: Refinement
+Status: Done
 Started: 2023-12-09
 EditDate: 2024-02-27
 Relates:

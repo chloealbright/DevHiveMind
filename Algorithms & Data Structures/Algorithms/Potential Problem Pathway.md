@@ -1,11 +1,12 @@
 ---
-tags: 
+tags:
+  - CodingProblem
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Capture
+Comments: This documentation discusses weather to prioritize examining potential built in functions vs focusing on Data Structures to leverages.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-29
 Relates:
 ---
 The choice between identifying data structures or exploring built-in functions first can depend on the specific nature of the problem and your familiarity with the available data structures and functions. However, a common and effective approach is to identify potential data structures first. Here's why:  

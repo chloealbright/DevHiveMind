@@ -1,12 +1,13 @@
 ---
 tags:
   - linear
+  - dataStructure
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses Queues.
 Status: Capture
 Started: 
-EditDate: 
+EditDate: 2024-02-29
 Relates:
 ---
 ![[Standard queue.gif]]
@@ -38,7 +39,7 @@ In terms of time complexity, traversal (going through all elements), enqueue, de
 
 When implementing queues, it is generally more efficient to use linked lists, as insertion and removal are O(1), indicating constant time complexity. Linked lists are well-suited for queue implementation. Using arrays for queues can be less efficient because dequeuing requires shifting array indices, resulting in O(n) time complexity, where 'n' is the number of elements in the array.
 
-Additionally, [[Priority Queue Implementation | priority queues ]]are introduced, which function like queues but prioritize items based on their importance. They are often implemented using a [[Binary Heap]]  data structure.
+Additionally, [[Priority Queue Implementation |priority queues ]]are introduced, which function like queues but prioritize items based on their importance. They are often implemented using a [[Binary Heap]]  data structure.
 
 Storing a binary heap as an array is advantageous due to lower memory usage, simpler memory management, and better locality of reference compared to a linked list implementation.
 

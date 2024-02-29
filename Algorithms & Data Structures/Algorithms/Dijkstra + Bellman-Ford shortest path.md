@@ -6,6 +6,7 @@ tags:
   - traversal
   - search
   - non-linear
+  - pattern
 author:
   - jacgit18
 Comments: This documentation discusses path algorithms.

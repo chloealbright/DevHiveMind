@@ -1,11 +1,14 @@
 ---
-tags: 
+tags:
+  - CodingProblem
+  - pattern
 author:
   - jacgit18
-Comments: This documentation discusses
+  - chatgpt
+Comments: This documentation discusses Memoization more in-depth.
 Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-29
 Relates: "[[Dynamic programming Patterns]]"
 ---
 ![[Memoization.gif]]

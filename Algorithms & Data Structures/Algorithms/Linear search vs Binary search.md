@@ -1,11 +1,14 @@
 ---
-tags: 
+tags:
+  - search
+  - pattern
+  - MicroCodebaseDecision
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses different types of search.
 Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-29
 Relates:
 ---
 ![[Linear(Sequential) v Binary search.gif]]
@@ -16,7 +19,7 @@ Relates:
 
 Linear search involves going through each element of an array or data structure one by one, starting from the beginning. This method checks each element sequentially to `find the desired value`.
 
-In essence, linear search is a specific application of [[Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion |linear iteration ]]  where the goal is to find a particular value. However, linear iteration can involve various types of processing, not just searching. Linear search is a common use case for linear iteration, but it's not the only use case.
+In essence, linear search is a specific application of [[Iteration vs Recursion|linear iteration ]]  where the goal is to find a particular value. However, linear iteration can involve various types of processing, not just searching. Linear search is a common use case for linear iteration, but it's not the only use case.
 
 **Use Cases:**
 - Linear search can be applied to any linear data structure, such as an array or a linked list, and is not limited by data order.

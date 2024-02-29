@@ -10,7 +10,7 @@ Comments: This documentation discusses
 Status: 
 Started: 
 EditDate: 
-Relates: "[[Linear Iteration vs Linear Recursion  vs Binary Iteration vs Binary Recursion]]"
+Relates: "[[Iteration vs Recursion]]"
 ---
 ![[paths.gif]]
 ## Problem Identification

@@ -1,11 +1,13 @@
 ---
-tags: 
+tags:
+  - pattern
+  - CodingProblem
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses Greedy algorithms and relation to Top k element patterns.
+Status: Done
 Started: 2023-12-05
-EditDate: 
+EditDate: 2024-02-29
 Relates:
 ---
 ## Greedy Algorithm Relationship to Top k elements

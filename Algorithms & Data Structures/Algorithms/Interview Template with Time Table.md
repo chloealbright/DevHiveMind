@@ -1,10 +1,12 @@
 ---
-tags: 
+tags:
+  - CodingProblem
 author:
   - jacgit18
+Comments: This a rough thought process breaking down a problem.
 Status: Draft
 Started: 
-EditDate: 
+EditDate: 2024-02-29
 Relates:
 ---
 <div style="background-color: orange; padding: 10px; border: 1px solid #ccc; color: black;"> 

@@ -1,13 +1,13 @@
 ---
 tags:
-  - javascript
+  - AlgorithmComponent
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses swapping values in an array.
 Status: Done
 Started: 
-EditDate: 
-Relates:
+EditDate: 2024-02-29
+Relates: "[[Arrays]]"
 ---
 ```javascript
 // Initialize two arrays

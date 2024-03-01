@@ -8,7 +8,7 @@ Comments: This documentation discusses Doubly Linked List.
 Status: Refinement
 Started: 
 EditDate: 2024-02-29
-Relates: "[[Type Of Linked List]]"
+Relates: "[[Type of Linked List]]"
 ---
 ![[DoubleCircularLinkedLists.png]]
 

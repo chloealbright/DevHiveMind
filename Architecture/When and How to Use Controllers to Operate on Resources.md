@@ -7,67 +7,18 @@ Started:
 EditDate: 
 Relates:
 ---
-In the case of RESTful web services, controllers can help increase the separation of concerns between servers and clients, improve network efficiency, and let servers implement complex operations atomically. 
+In the realm of RESTful web services, controllers play a pivotal role in enhancing the separation of concerns between servers and clients, fostering network efficiency, and facilitating the atomic implementation of complex operations.
 
-Designate a controller resource for each distinct operation. Let clients use the HTTP method POST to submit a request to trigger the operation. If the outcome of the operation is the creation of a new resource, return response code 201 (Created) with a Location header referring to the URI of the newly created resource. If the outcome is the modification of one or more existing resources, return response code 303 (See Other) with a Location with a URI that clients can use to fetch a representation of those modifications. If the server cannot provide a single URI to all the modified resources, return response code 200 (OK) with a representation in the body that clients can use to learn about the outcome. Handle errors as described in How to Return Errors. 
+To streamline this process, designate a controller resource for each distinct operation. Clients can then utilize the HTTP method POST to initiate a request and trigger the intended operation. If the outcome involves creating a new resource, respond with a 201 (Created) status code, accompanied by a Location header pointing to the URI of the newly created resource. In case of modifying existing resources, employ a 303 (See Other) status code with a Location URI for clients to fetch the modifications.
 
-A controller is a resource that can atomically make changes to resources. The need for such a resource may not be apparent from your domain model, but it can help the server abstract complex business operations and provide a way for clients to trigger those operations. This in turn reduces coupling between clients and servers. 
+Error handling follows the guidelines outlined in "How to Return Errors." A controller, despite not always being evident in the domain model, serves as a resource capable of atomically effecting changes to other resources. This abstraction aids in reducing coupling between clients and servers, fostering flexibility.
 
-Consider merging two address books for a user. A client on the mobile phone needs a way to synchronize all the contacts with the current address book on the server. One option is to use PUT as follows: 
+Consider the scenario of merging two address books for a user. Instead of the inefficient approach of downloading and merging the entire address book on the client side, a more effective solution involves the creation of a controller resource. This resource enables clients to submit their address books to the server for a merge, avoiding network inefficiencies and promoting a more streamlined separation of concerns.
 
-Submit a GET request to the address book resource to download the complete address book from the server. 
 
-Load the local list of contacts, and merge them with the address book downloaded from the server. 
 
-Submit a PUT request to the address book resource to replace the entire address book with the merged one. 
 
-This will do the job but with some limitations. For the client’s environment, downloading the entire address book and then merging it with the local list of contacts makes the client’s use of the network inefficient. Moreover, some users may have very large address books on the server, and not all fields in the address book may be relevant for the client. The client may not have enough computing power for handling the merge operation. More importantly, the application logic to merge entries in the address book belongs to the server, not the client. Expecting clients to deal with this task results in the duplication of code and poor separation of concerns. 
 
-Here is another option: 
-
-Get each address in the address book from the server. 
-
-If that address matches with an entry in the local storage, merge it, and update it by submitting a PUT request. 
-
-If there is a new contact in the local storage that does not exist on the server, submit a POST request to the address book to add it. 
-
-This approach has the additional drawback of network chattiness, which again is not suitable for the client’s constrained environment such as a mobile phone. 
-
-A more effective solution is to employ a controller resource to solve this problem. For this example, design a controller resource, and allow the client to submit the address book to the server for a merge. 
-
-# Request to merge an address book 
-
-POST /user/smith/address_merge HTTP/1.1 
-
-Host: [www.example.org](http://www.example.org/) 
-
-Content-Type: text/csv;charset=UTF-8 
-
-John Doe, 1 Main Street, Seattle, WA 
-
-Jane Doe, 100 North Street, Los Angeles, CA 
-
-... 
-
-# Response 
-
-HTTP/1.1 303 See Other 
-
-Location: [http://www.example.org/user/smith/address_book](http://www.example.org/user/smith/address_book) 
-
-Content-Type: text/html;charset=UTF-8 
-
-<html> 
-
- <body> 
-
- <p>See <a href=" [http://www.example.org/user/smith/address_book">address](http://www.example.org/user/smith/address_book%22%3Eaddress) 
-
- book</a> for the merged address book.</p> 
-
- </body> 
-
-</html>  
 
 After merging the address books, the server redirects the client to the user’s updated address book. The client can fetch a copy of the merged address book, if necessary. 
 

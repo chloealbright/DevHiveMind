@@ -97,6 +97,9 @@ What were your goals last week, and did you finish them? What are you changing s
 So I come from a technical bootcamp background and have experience as a full-stack developer working in the venture capital space at a Series A startup. Additionally, I've worked as a Business Systems Analyst (BSA), where I had the opportunity to plan out bootcamps tailored for diverse developer populations who I supported. so my question is ...
 
 
+### tech concept to speak about 
+What is the difference TypeScript, JavaScript, and Java the way I like to describe it is like Typescript is like using a stencil were it helps your trace clean lines vs javascript is like you are free hand writing without the stencil and java is like getting a a coloring book with some predefined lines.
+
 
 ## TD Bank - Business Systems Analyst 
 

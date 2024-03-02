@@ -138,3 +138,9 @@ Then the execution phase occurs 
 Or other functions where you store a function in a variable because hosting works differently in that context depending if you're using  var const let 
 
 Like even if you have a function with a VAR variable storing it it won't work because it's still a assignment and get skipped because it's not in memory like a function would be
+
+
+
+
+
+

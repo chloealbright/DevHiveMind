@@ -1,12 +1,14 @@
 ---
 tags:
   - API
+  - REST
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Capture
+  - chatgpt
+Comments: This documentation discusses different types of APIs.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-02
 Relates:
 ---
 1. **Data APIs (RESTful APIs):**  

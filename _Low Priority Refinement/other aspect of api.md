@@ -85,7 +85,7 @@ A microservices API gateway can deal with partial failures in a variety of ways,
 | [API Gateway](https://www.java67.com/2021/04/5-free-microservice-courses-for-java.html)                                                                                                                                                                                                                                            |
 |                                                                                                                                                                                                                                                                                                                                    |
 |                                                                                                                                                                                                                                                                                                                                    |
-| 
+|                                                                                                                                                                                                                                                                                                                                    |
 
 
 

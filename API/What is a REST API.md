@@ -1,13 +1,15 @@
 ---
 tags:
   - API
+  - REST
+  - web
 author:
   - jacgit18
   - chatgpt
 Comments: This documentation discusses
 Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-02
 Relates:
 ---
 An API, or Application Programming Interface, serves as a set of features and rules within a software program, facilitating interactions with other software or hardware. In the context of REST APIs, it encompasses tools for accessing and manipulating REST resources through verbs like GET, POST, PUT, and DELETE.
@@ -23,11 +25,6 @@ In contrast to traditional websites, where each page entails a complete HTML doc
 #### Single Page Applications and REST Resource
 
 This approach enables the creation of single-page applications and unified experiences across different platforms. For instance, platforms like LinkedIn utilize the same REST resource to provide data for both web browsers and mobile applications.
-
-
-#### Choosing Between GET and POST
-
-While GET is suitable for simple cases with one or two parameters, POST is often recommended for more complex scenarios. This includes situations where input payloads are intricate, as seen in enterprise-grade applications, ensuring pragmatic adherence to RESTful principles without unnecessary complications.
 
 #### API Design Considerations
 

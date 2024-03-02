@@ -1,11 +1,14 @@
 ---
-tags: 
+tags:
+  - API
+  - SoftwareDesign
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: init
+  - chatgpt
+Comments: This documentation discusses potential design choice for an API.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-02
 Relates:
 ---
 ### **Get-and-Set**

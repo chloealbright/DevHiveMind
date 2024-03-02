@@ -1,10 +1,13 @@
 ---
 tags:
   - API
+  - security
+  - data
+  - bestPractices
 author:
   - jacgit18
   - chatgpt
-Comments: This documentation discusses
+Comments: This documentation discusses things to watch for and do to protect API data.
 Status: Done
 Started: 
 EditDate: 2024-03-02

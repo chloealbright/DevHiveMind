@@ -1,32 +1,47 @@
 ---
-tags: 
+tags:
+  - languageOverlap
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses JavaScript and typescript relationship.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-02
 Relates:
 ---
 ![[java-script Inner Working.gif]]
 
-Javascript is a programming language that was used to make websites more interactive but now is used for more things ever since the v8 engine from google chrome was created which allowed people to use javascript for mobile, desktop, and server development.
+### Evolution of JavaScript and Its Versatility
 
-JavaScript is considered a weak type in language while Java is strong like when you're declaring something like a character you get to make it a character variable while in Java you can just make it let variable then you have to declare the function data type and whether it's private or public and so on for Java as for JavaScript you don't have to do that but if you're using typescript you can do strong typing in your code  
+JavaScript, initially conceived for enhancing website interactivity, has evolved far beyond its origins, thanks in part to the introduction of the V8 engine by Google Chrome. The V8 engine expanded JavaScript's utility, enabling its application in mobile, desktop, and server development.
 
-JavaScript files can referred as modules
+### Weak Typing in JavaScript and Strong Typing in Java
 
+JavaScript is often characterized as a weakly typed language, providing flexibility in variable declaration without explicitly specifying types. In contrast, Java is considered strongly typed, requiring explicit type declarations and additional details such as access modifiers (private/public) when defining variables and functions. However, with TypeScript, a superset of JavaScript, developers can introduce strong typing to enhance code robustness.
 
+### JavaScript Modules and TypeScript's Role
 
-It allocates memory 
+JavaScript files can be treated as modules, encapsulating code to promote modularity and maintainability. This modular approach allows for organized code structure and better code reuse. TypeScript, with its support for modules and strong typing, further enhances the organization and readability of JavaScript codebases.
 
-Parses and executes 
+### Memory Allocation and Garbage Collection
 
-Allocating memory is basically something as simple as declaring a variable and assigning a value 
+In the execution of JavaScript, the process involves memory allocation, parsing, and execution. Memory allocation includes declaring variables and assigning values. Notably, unused variables, especially global ones, can contribute to memory leaks. JavaScript, being a garbage-collected language, automatically manages memory. Garbage collection ensures that unused variables are identified and released, preventing memory bloat and enhancing the efficiency of the overall application.
 
-When declaring these variables if you don't use them they take up memory and can lead to memory leak especially with global variables 
+### TypeScript: Enhancing JavaScript with Types
 
-So because JavaScript is garbage collected that is memory is managed automatically.
+TypeScript stands as a superset of JavaScript, introducing a robust type system to the language. This means that TypeScript extends the capabilities of JavaScript by incorporating additional features, particularly in the realm of type safety.
 
+### Transpilation: Bridging TypeScript to JavaScript
+
+In the process of software development, TypeScript code undergoes transpilation, a mechanism that translates it into JavaScript code. This conversion ensures compatibility with web browsers, as they execute JavaScript. The tool responsible for this transformation is the TypeScript compiler (`tsc`), which takes TypeScript code as input and generates equivalent JavaScript code as output.
+
+### Preprocessing and ECMAScript Compatibility
+
+The transpilation process can be likened to preprocessing, where TypeScript acts as an intermediary layer between the developer and the JavaScript executed by browsers. This intermediate step allows developers to leverage advanced language features while ensuring compatibility with ECMAScript, the standard upon which JavaScript is based.
+
+### TypeScript Compiler (`tsc`): Facilitating the Conversion
+
+The TypeScript compiler (`tsc`) plays a crucial role in this conversion, handling the translation of TypeScript code into JavaScript. The resulting JavaScript code is then executed by web browsers, enabling developers to utilize TypeScript's features without sacrificing compatibility with the widely supported JavaScript runtime environment.
 
 # Execution Context
 

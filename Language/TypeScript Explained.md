@@ -10,23 +10,6 @@ Relates:
 
 
 
-TypeScript is a superset of JavaScript that adds types.  
-
-
-TypeScript is a transpiler or code that translates one language to the other   
-
-Like TypeScript renders down to JavaScript and JavaScript renders down to the browser to be executed  
-
-Can also be referred to as preprocessing   
-
-ecmascript
-
-
-TypeScript is a superset of JavaScript, which means that TypeScript code can be transpiled (converted) into JavaScript code for execution in a web browser. The TypeScript-to-JavaScript conversion is performed by a tool called the TypeScript compiler (`tsc`). Here's how TypeScript and its type system work in terms of being rendered down to JavaScript:
-
-
-
-
 
 The type system refers to TypeScript’s understanding of how your code is meant to function: mainly what data types should be stored under your variables.  
 

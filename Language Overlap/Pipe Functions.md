@@ -127,3 +127,10 @@ fwd(pal3) === rev(pal3); // false
 ### Pure Function with Clear Dependencies
 
 Finally, emphasizing the importance of writing pure functions with clear dependencies for positive code maintainability. Highlighting the negative aspect of non-unary functions in a pipe/compose chain, which can make the code less readable and harder to debug.
+
+
+
+
+
+
+

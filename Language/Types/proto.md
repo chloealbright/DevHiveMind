@@ -1,72 +1,93 @@
 ---
-tags: 
+tags:
+  - javascript
 author:
   - jacgit18
-Status: 
+  - chatgpt
+Comments: This documentation discusses
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-02
 Relates:
 ---
-3 Rules of Prototypal Inheritance 
+**1. Rules of Prototypal Delegation:**
 
-no circular reference allowed (person.__proto__ cant be gutiarist) 
+   - **No Circular Reference Allowed:**
+     - Explanation: An object's prototype (`__proto__`) should not create a circular reference, meaning it cannot refer back to itself or create a loop in the prototype chain.
+     - Example:
+       ```javascript
+       // Incorrect (Circular Reference)
+       person.__proto__ = guitarist; // This creates a circular reference
 
-__proto__ must be object or null 
+       // Correct
+       person.__proto__ = instrument; // Avoids circular reference
+       ```
 
-an object can only directly inherit from one object  
+   - **`__proto__` Must Be Object or Null:**
+     - Explanation: The `__proto__` property should be either an object or `null`. It should not be another type.
+     - Example:
+       ```javascript
+       // Correct
+       person.__proto__ = instrument; // Object
 
-your at school and have a paper but no pen but you have a friend with another friend who has a pen 
+       // Incorrect
+       person.__proto__ = 'someString'; // Not an object or null
+       ```
 
-you with paper > friend and his > friend with pen() 
+   - **Object Can Only Directly Inherit From One Object:**
+     - Explanation: An object can have only one prototype in its prototype chain. However, it can indirectly inherit from multiple objects through delegation.
+     - Example:
+       ```javascript
+       // Correct
+       person.__proto__ = instrument; // Single direct inheritance
 
-youObj = { 
+       // Incorrect
+       person.__proto__ = [guitar, piano]; // Multiple direct inheritance (not allowed)
+       ```
 
-paper: "" 
+**2. Object Delegation in JavaScript:**
+   - Explanation: Object delegation in JavaScript leverages the prototype chain to enable objects to delegate behavior to each other without a strict class hierarchy. This is more about sharing behavior than traditional class-based inheritance.
+   - Example:
+     ```javascript
+     youObj = {
+       paper: ""
+     }
 
-} 
+     friendWithPen = {
+       tool: pen()
+     }
 
-friendObj = { 
+     friendObj = {
+       otherFriend: friendWithPen.tool
+     }
 
-otherFriend: this.friendWithPen.tool 
+     Object.setPrototypeOf(friendWithPen, friendObj);
 
-} 
+     console.log(youObj.paper);
+     console.log(youObj.otherFriend.tool.pen());
+     ```
 
-friendWithPen = { 
+**3. Prototypal Delegation vs. Inheritance:**
+   - Explanation: JavaScript uses prototypal delegation, which is often mistakenly referred to as inheritance. This mechanism is more about delegation and sharing behavior among objects rather than true class-based inheritance.
+   - Example:
+     ```javascript
+     function Dog() {}
 
-tool: pen() 
+     Dog.prototype.breed = "bulldog";
 
-} 
+     let myDoggie = new Dog();
 
-obj.setPrototypeOf(friendWithPen, friendObj) 
+     // myDoggie doesn't have a "prototype" property, but it inherits from Dog.prototype
+     console.log(myDoggie.breed);
 
-youObj.paper 
+     function Cat() {}
+     let bear = {};
 
-youObj.otherFriend > friendWithPen.tool.pen()  
+     // "prototype" is a property on a function, not on instances
+     console.log(Cat.prototype);
 
-// otherFriend is a shared ref between youObj and friendObj 
+     // "__proto__" is a property on instances that points to their prototype
+     console.log(bear.__proto__);
+     ```
 
-youObj.__proto__ 
-
- // returns obj friendObj = {otherFriend: this.friendWithPen.tool } 
-
-As we can see, behavior delegation or object delegation is the more natural way to model objects in JavaScript. It leverages the prototype lookup process to enable peered objects to delegate behavior with each other without strictly declaring class hierarchy or tightly-coupled composition, like in traditional object-oriented languages. 
-
-this is know as prototype inheritance but isn't really inheritance more so object delegation  
-
-function Dog () {} 
-
-// Dog is a constructor prototype represents a new instance of dog using "new" keyword   
-
-Dog.prototype.breed = "bulldog" // similar to new Dog() 
-
-let myDoggie = new Dog() 
-
-myDoggie.prototype has no prototype but Dog does which is object with breed because myDoggie is a vairable that stores an instance of new Dog() 
-
-function cat () {} has a prototype object 
-
-let bear = {} // no prototype undefined but has __proto__ which is global 
-
-__proto__ is the property that on an object points out prototype that has been set for that object  
-
-prototype is the property on a function which is only available for functions were it is set as the property if you are using new keyword
+This refined explanation aims to clarify the concepts of prototypal delegation, circular references, and the nature of object-oriented behavior in JavaScript.

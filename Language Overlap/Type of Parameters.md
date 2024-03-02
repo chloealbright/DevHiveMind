@@ -1,10 +1,14 @@
 ---
-tags: 
+tags:
+  - javascript
+  - typescript
+  - parameters
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses different types of parameters.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-02
 Relates:
 ---
 ### Optional Parameters:

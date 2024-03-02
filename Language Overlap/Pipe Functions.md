@@ -5,11 +5,11 @@ tags:
 author:
   - jacgit18
   - chatgpt
-Comments: This documentation discusses
+Comments: This documentation discusses Pipe functions.
 Status: Done
 Started: 
 EditDate: 2024-03-02
-Relates: "[[Algorithm Most Common Built in Functions#Array Reduce |Array Reduce Function]]"
+Relates: "[[Algorithm Most Common Built in Functions]]"
 ---
 ### Composition Function (Right-to-Left)
 

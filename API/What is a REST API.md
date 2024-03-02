@@ -3,15 +3,16 @@ tags:
   - API
 author:
   - jacgit18
+  - chatgpt
 Comments: This documentation discusses
-Status: 
+Status: Done
 Started: 
 EditDate: 
 Relates:
 ---
-## REST and API: Foundations of Web Development
+An API, or Application Programming Interface, serves as a set of features and rules within a software program, facilitating interactions with other software or hardware. In the context of REST APIs, it encompasses tools for accessing and manipulating REST resources through verbs like GET, POST, PUT, and DELETE.
 
-### REST - Representational State Transfer
+### Representational State Transfer
 
 REST, or Representational State Transfer, is not a specific technology but a set of software architecture design constraints ensuring efficient, reliable, and scalable systems. It revolves around standardized methods, known as verbs, producing predictable outcomes by handling structured data, typically in JSON or XML formats. Representational State Transfer describes the transition between states, symbolizing the exchange of representations between applications and servers.
 
@@ -23,9 +24,6 @@ In contrast to traditional websites, where each page entails a complete HTML doc
 
 This approach enables the creation of single-page applications and unified experiences across different platforms. For instance, platforms like LinkedIn utilize the same REST resource to provide data for both web browsers and mobile applications.
 
-### API - Application Programming Interface
-
-An API, or Application Programming Interface, serves as a set of features and rules within a software program, facilitating interactions with other software or hardware. In the context of REST APIs, it encompasses tools for accessing and manipulating REST resources through verbs like GET, POST, PUT, and DELETE.
 
 #### Choosing Between GET and POST
 

@@ -1,9 +1,11 @@
 ---
 tags:
   - language
+  - Markup
 author:
   - jacgit18
-Comments: This documentation discusses
+  - chatgpt
+Comments: This documentation discusses YAMl.
 Status: Done
 Started: 
 EditDate: 2024-02-29
@@ -45,4 +47,3 @@ address:
 
 <iframe src="https://yaml.org/spec/1.2.2/" width="100%" height="1300" frameborder="0"> </iframe>
 
-#Markup

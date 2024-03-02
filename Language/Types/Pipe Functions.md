@@ -1,240 +1,129 @@
 ---
-tags: 
+tags:
+  - javascript
+  - FunctionTypes
 author:
   - jacgit18
-Status: 
+  - chatgpt
+Comments: This documentation discusses
+Status: Done
 Started: 
-EditDate: 
-Relates:
+EditDate: 2024-03-02
+Relates: "[[Algorithm Most Common Built in Functions#Array Reduce |Array Reduce Function]]"
 ---
+### Composition Function (Right-to-Left)
 
+To implement a composition function that processes values from right to left, we can use the `reduceRight()` method in JavaScript. This method applies a function iteratively against an accumulator and each element of the array, starting from the right and moving towards the left, ultimately reducing the array to a single value.
 
-Composition function right to left inside going outside 
+Here is an example implementation using the `reduceRight()` method:
 
-using The reduceRight() method applies a function against an accumulator and each value of the array (from right-to-left) to reduce it to a single value. 
+```javascript
+const comp = (...fns) => val => fns.reduceRight((prev, fn) => fn(prev), val);
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduceRight 
+const compRes = comp(multiplyBy5, sub1, add2)(4); // Returns 25
+```
 
-const comp = (...fns) => val => fns.reduceRight((prev, fn) => fn(prev),val) 
+### Pipe Function (Left-to-Right)
 
-const compRes = comp(multiplyBy5, sub1, add2)(4) // return 25 
+To create a pipe function that processes values from left to right, we can use the `reduce()` method in JavaScript. This method executes a user-supplied reducer callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element. The final result is a single value.
 
-Pipe Function left to right from start outside going inside 
+Here is an example implementation using the `reduce()` method:
 
-to do read left to right we use reduce The reduce() method executes a user-supplied "reducer" callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element. The final result of running the reducer across all elements of the array is a single value. 
+```javascript
+const pipe = (...fns) => val => fns.reduce((prev, fn) => fn(prev), val);
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce 
+const pipeRes = pipe(add2, sub1, multiplyBy5)(5); // Returns 30
+```
 
-const pipe = (...fns) => (val) => fns.reduce((prev, fn) => fn(prev), val); 
+### Debugging and Custom Functionality
 
-const pipeRes = pipe(add2, sub1, multiplyBy5)(5) // return 30 
+For debugging purposes, a custom `pipe` function is introduced, allowing for inspection of intermediate values during the execution of the pipe.
 
-// alt version 
+```javascript
+pipe = (...functions) => (value) => {
+  debugger;
+  return functions.reduce((currentValue, currentFunction) => {
+    debugger;
+    return currentFunction(currentValue);
+  }, value);
+};
+```
 
-const pipeRes2 = pipe( 
+### Pointer-Free and Curry Functions
 
-  add2, 
+Demonstrating a pointer-free approach where unary parameters are not explicitly seen between each function call. Additionally, a curried function example is provided for dividing by a constant.
 
-  sub1, 
+```javascript
+const divideBy = (divisor, num) => num / divisor;
 
-  multiplyBy5 
+const pipeRes3 = pipe(
+  add2,
+  sub1,
+  multiplyBy5,
+  x => divideBy(2, x)
+)(5); // Returns 15
 
-)(5);// return 30 
+const divBy = divisor => num => num / divisor;
+const divideBy2 = divBy(2);
 
-// debug 
+const pipeRes4 = pipe(
+  add2,
+  sub1,
+  multiplyBy5,
+  divideBy2
+)(5); // Returns 15
+```
 
-pipe = (...functions) => (value) => { 
+### Word Count Example
 
-  debugger; 
+An example of reusable pipe functionality is demonstrated by counting words in a string.
 
-  return functions.reduce((currentValue, currentFunction) => { 
+```javascript
+const lorem = "dad ada dij wdwh eicv dsc dacas cscs iihi";
 
-    debugger; 
+const splitOnSpace = string => string.split(' ');
+const count = array => array.length;
 
-    return currentFunction(currentValue); 
+const wordCount = pipe(
+  splitOnSpace,
+  count
+);
 
-  }, value); 
+wordCount(lorem); // Returns 9
+```
 
-}; 
+### Palindrome and Cloning Examples
 
-// custom pointer free were you do not see the unary param passed between each function 
+Combining functions to check for palindromes and three approaches to cloning an object are demonstrated.
 
-const divideBy = (divsor, num) => (num) => num /divisor 
+```javascript
+const pal1 = "taco cat";
+const pal2 = "UFO tofu";
+const pal3 = "Dave";
 
-const pipeRes3 = pipe( 
+const split = string => string.split(' ');
+const join = string => string.join('');
+const lower = string => string.toLowerCase();
+const reverse = array => array.reverse();
 
-  add2, 
+const fwd = pipe(
+  splitOnSpace,
+  join,
+  lower
+);
 
-  sub1, 
+const rev = pipe(
+  fwd,
+  split,
+  reverse,
+  join
+);
 
-  multiplyBy5, 
+fwd(pal1) === rev(pal1); // true
+fwd(pal2) === rev(pal2); // true
+fwd(pal3) === rev(pal3); // false
+```
 
-x => divideBy(2, x) 
+### Pure Function with Clear Dependencies
 
-)(5); // return 15 
-
-// curry  
-
-const divBy = (divsor) => (num) => num /divisor 
-
-const divideBy2 = divBy(2) // partially applied param 
-
-const pipeRes4 = pipe( 
-
-  add2, 
-
-  sub1, 
-
-  multiplyBy5, 
-
-divideBy2 
-
-)(5); // return 15 
-
-// count words 
-
-const lorem = "dad ada dij wdwh eicv dsc dacas cscs iihi" 
-
-const splitOnSpace = (string) =>  string.split(' ') 
-
-const count =  (array) =>  array.length 
-
-const wordCount = pipe( 
-
-spiltOnSpace, 
-
-count 
-
-) // 9 
-
-// pipe is reusable  
-
-const egbdf = "Every good boy does fine." 
-
-wordCount(egbdf) // 5 
-
-// combining process using palindrome 
-
-const pal1 = "taco cat" 
-
-const pal2 = "UFO tofu" 
-
-const pal3 = "Dave" 
-
-const spilt = (string) => string.split(' ') 
-
-const join = (string) => string.join('') 
-
-const lower = (string) => string.toLowerCase() 
-
-const reverse = (array) => array.reverse() 
-
-const fwd = pipe( 
-
-splitOnSpace, 
-
-join,  
-
-lower 
-
-) 
-
-const rev = pipe( 
-
-fwd, // nested pipe func 
-
-spilt, 
-
-reverse, 
-
-join,  
-
-) 
-
-fwd(pal1) === rev(pal1) // true 
-
-fwd(pal2) === rev(pal2) // true 
-
-fwd(pal3) === rev(pal3) // false 
-
-// clone approach 1 
-
-const scoreObj = {home: 0, away: 0} 
-
-const shallowClone = (obj) => Array.isArray(obj) ? [...obj] : {...obj} 
-
-const incrementHome = (obj) =>{ 
-
-obj.home += 1 // mutation 
-
-return obj 
-
-} 
-
-const homeScore = pipe( 
-
-shallowClone, 
-
-incrementHome 
-
-// another func ... etc 
-
-) 
-
-homeScore(scoreObj) // home: 1, away: 0} 
-
-scoreObj home: 0, away: 0} 
-
-homeScore(scoreObj) === scoreObj false 
-
-// clone approach 2 easier to debug use curry 
-
-let incrementHomeB = (cloneFn) => (obj) =>{ 
-
-const newObj = cloneFn(obj) 
-
-newObj.home += 1 // mutation 
-
-return newObj 
-
-} 
-
-// creates the partial by applying the first arg in advance 
-
-incrementHomeB = incrementHomeB(shallowClone)  
-
-const homeScoreB = pipe( 
-
-incrementHomeB 
-
-) 
-
-homeScoreB(scoreObj) // home: 1, away: 0} 
-
-scoreObj home: 0, away: 0} 
-
-// clone approach 3 
-
-const incrementHomeC = (obj, cloneFn) =>{ 
-
-const newObj = cloneFn(obj) 
-
-newObj.home += 1 // mutation 
-
-return newObj 
-
-} 
-
-const homeScoreC = pipe( 
-
-x => incrementHomeC(x, shallowClone) 
-
-) 
-
-homeScoreC(scoreObj) // home: 1, away: 0} 
-
-scoreObj home: 0, away: 0} 
-
-Pos Pure function with clear dependencies 
-
-Negative non-unary func in your pipe/ compose chain
+Finally, emphasizing the importance of writing pure functions with clear dependencies for positive code maintainability. Highlighting the negative aspect of non-unary functions in a pipe/compose chain, which can make the code less readable and harder to debug.

@@ -45,3 +45,5 @@ The pipe command (`|`) in Linux is a versatile tool for connecting and chaining 
     - In data science and analytics, pipes are used extensively to process, filter, and transform data through a series of commands and tools like `awk`, `sed`, `cut`, and more.
 
 The pipe command is a fundamental tool in Linux and Unix-like systems, enabling the construction of powerful and flexible command-line workflows by combining simple commands. Its versatility allows you to manipulate, analyze, and process data in various ways, making it an essential part of command-line usage.
+
+

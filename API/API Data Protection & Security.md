@@ -1,11 +1,13 @@
 ---
-tags: 
+tags:
+  - API
 author:
   - jacgit18
+  - chatgpt
 Comments: This documentation discusses
-Status: 
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-02
 Relates:
 ---
 ## **API Data Protection Recommendations**

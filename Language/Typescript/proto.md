@@ -4,7 +4,7 @@ tags:
 author:
   - jacgit18
   - chatgpt
-Comments: This documentation discusses
+Comments: This documentation discusses __proto__.
 Status: Done
 Started: 
 EditDate: 2024-03-02

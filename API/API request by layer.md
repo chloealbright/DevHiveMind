@@ -1,6 +1,7 @@
 ---
 tags:
   - API
+  - HTTP
 author:
   - jacgit18
 Comments: This documentation discusses

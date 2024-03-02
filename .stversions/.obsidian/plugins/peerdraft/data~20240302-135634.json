@@ -3,7 +3,7 @@
   "subscriptionAPI": "https://www.peerdraft.app/subscription",
   "connectAPI": "https://www.peerdraft.app/subscription/connect",
   "name": "Joshua",
-  "signaling": "wss://www.peerdraft.app/signal?oid=429dcb9d-b655-45be-a850-270d07f800bb",
+  "signaling": "wss://www.peerdraft.app/signal",
   "oid": "429dcb9d-b655-45be-a850-270d07f800bb",
   "plan": {
     "type": "hobby"

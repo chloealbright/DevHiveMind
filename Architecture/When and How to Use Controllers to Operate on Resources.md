@@ -7,223 +7,223 @@ Started:
 EditDate: 
 Relates:
 ---
-In the case of RESTful web services, controllers can help increase the separation of concerns between servers and clients, improve network efficiency, and let servers implement complex operations atomically. 
+In the realm of RESTful web services, controllers play a pivotal role in enhancing the separation of concerns between servers and clients, fostering network efficiency, and facilitating the atomic implementation of complex operations.
+
+To streamline this process, designate a controller resource for each distinct operation. Clients can then utilize the HTTP method POST to initiate a request and trigger the intended operation. If the outcome involves creating a new resource, respond with a 201 (Created) status code, accompanied by a Location header pointing to the URI of the newly created resource. In case of modifying existing resources, employ a 303 (See Other) status code with a Location URI for clients to fetch the modifications.
+
+Error handling follows the guidelines outlined in "How to Return Errors." A controller, despite not always being evident in the domain model, serves as a resource capable of atomically effecting changes to other resources. This abstraction aids in reducing coupling between clients and servers, fostering flexibility.
+
+Consider the scenario of merging two address books for a user. Instead of the inefficient approach of downloading and merging the entire address book on the client side, a more effective solution involves the creation of a controller resource. This resource enables clients to submit their address books to the server for a merge, avoiding network inefficiencies and promoting a more streamlined separation of concerns.
+
+1. **Controller Resource for Complex Operation:**
+
+```javascript
+// Controller resource to handle a complex operation
+app.post('/mergeAddressBooks', (req, res) => {
+    // Perform the merging logic on the server
+    // For simplicity, assuming success
+    res.status(200).json({ message: 'Address books merged successfully' });
+});
+```
+
+2. **Client-Side Operation Trigger using POST:**
+
+```javascript
+// Client-side code to trigger the merge operation
+fetch('/mergeAddressBooks', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(/* Data needed for the operation */),
+})
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+    })
+    .then(data => {
+        console.log(data); // Handle the successful response from the server
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+```
+
+3. **Handling Errors on the Server:**
+
+```javascript
+// Example of handling errors on the server
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).send('Something went wrong!');
+});
+```
+
+4. **Alternative PUT-based Approach for Merging Address Books:**
+
+```javascript
+// PUT-based approach for merging address books
+app.put('/addressBook', (req, res) => {
+    // Perform the merging logic on the server
+    // For simplicity, assuming success
+    res.status(200).json({ message: 'Address books merged successfully' });
+});
+```
+
+5. **Client-Side PUT Request for Merging:**
+
+```javascript
+// Client-side PUT request for merging address books
+fetch('/addressBook', {
+    method: 'PUT',
+    headers: {
+        'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(/* Merged address book data */),
+})
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+    })
+    .then(data => {
+        console.log(data); // Handle the successful response from the server
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+```
+
+These responses handle both success cases and errors, providing a foundation for more robust client-server interactions.
+
+Following the merging of address books, the server seamlessly redirects the client to the user's freshly updated address book, providing an avenue for the client to retrieve a copy of the merged address book if needed.
+
+In another scenario, let's explore a bookstore example where a store operator aims to decrease the pretax price of a book by 15 percent and concurrently update the posttax price to reflect this discount. The server can present the discount percentage as a resource, enabling clients to submit a PUT request to adjust the current discount. Within the same request, the server efficiently updates the total price of the book, ensuring a streamlined and cohesive modification process.
+
+
+```javascript
+const express = require('express');
+const bodyParser = require('body-parser');
+
+const app = express();
+const port = 3000;
 
-Designate a controller resource for each distinct operation. Let clients use the HTTP method POST to submit a request to trigger the operation. If the outcome of the operation is the creation of a new resource, return response code 201 (Created) with a Location header referring to the URI of the newly created resource. If the outcome is the modification of one or more existing resources, return response code 303 (See Other) with a Location with a URI that clients can use to fetch a representation of those modifications. If the server cannot provide a single URI to all the modified resources, return response code 200 (OK) with a representation in the body that clients can use to learn about the outcome. Handle errors as described in How to Return Errors. 
+// Middleware to parse JSON in the request body
+app.use(bodyParser.json());
 
-A controller is a resource that can atomically make changes to resources. The need for such a resource may not be apparent from your domain model, but it can help the server abstract complex business operations and provide a way for clients to trigger those operations. This in turn reduces coupling between clients and servers. 
+// Initial book data with pretax and posttax prices
+let book = {
+    title: 'Sample Book',
+    pretaxPrice: 50,
+    posttaxPrice: 0,
+    discountPercentage: 0,
+};
 
-Consider merging two address books for a user. A client on the mobile phone needs a way to synchronize all the contacts with the current address book on the server. One option is to use PUT as follows: 
+// Endpoint to get the current book information
+app.get('/book', (req, res) => {
+    res.json(book);
+});
 
-Submit a GET request to the address book resource to download the complete address book from the server. 
+// Endpoint to update the discount and recalculate prices
+app.put('/discount', (req, res) => {
+    const newDiscount = req.body.discountPercentage;
 
-Load the local list of contacts, and merge them with the address book downloaded from the server. 
+    // Update discount percentage
+    book.discountPercentage = newDiscount;
 
-Submit a PUT request to the address book resource to replace the entire address book with the merged one. 
+    // Recalculate posttax price based on the updated discount
+    book.posttaxPrice = book.pretaxPrice * (1 - book.discountPercentage / 100);
 
-This will do the job but with some limitations. For the client’s environment, downloading the entire address book and then merging it with the local list of contacts makes the client’s use of the network inefficient. Moreover, some users may have very large address books on the server, and not all fields in the address book may be relevant for the client. The client may not have enough computing power for handling the merge operation. More importantly, the application logic to merge entries in the address book belongs to the server, not the client. Expecting clients to deal with this task results in the duplication of code and poor separation of concerns. 
+    res.json({ message: 'Discount updated successfully', updatedBook: book });
+});
 
-Here is another option: 
+// Start the server
+app.listen(port, () => {
+    console.log(`Server is listening on port ${port}`);
+});
+```
 
-Get each address in the address book from the server. 
+To test this example:
 
-If that address matches with an entry in the local storage, merge it, and update it by submitting a PUT request. 
+1. Start the server.
+2. Make a `GET` request to `/book` to retrieve the initial book information.
+3. Make a `PUT` request to `/discount` with a JSON payload like `{ "discountPercentage": 15 }` to update the discount.
+4. Make another `GET` request to `/book` to see the updated book information with recalculated prices.
 
-If there is a new contact in the local storage that does not exist on the server, submit a POST request to the address book to add it. 
+This example demonstrates how a server can offer a discount percentage as a resource, allowing clients to efficiently submit a `PUT` request to modify both the discount and the associated prices in a single operation.
 
-This approach has the additional drawback of network chattiness, which again is not suitable for the client’s constrained environment such as a mobile phone. 
+In the server's response, a link is thoughtfully included to guide clients in discovering the 30-day offer. For clients presenting a user interface, embedding this link enables users to seamlessly navigate to the offer, enhancing the overall user experience.
 
-A more effective solution is to employ a controller resource to solve this problem. For this example, design a controller resource, and allow the client to submit the address book to the server for a merge. 
+Notably, these examples shed light on the challenges of mapping application operations to methods in the uniform interface. In the discount scenario, the server treats the current discount value as a resource, allowing clients to utilize the `PUT` method for updates. Similarly, for 30-day free electronic book offers, the server identifies them as a collection, permitting clients to use `POST` for adding new books. However, when amalgamating these tasks into a single request, a direct mapping to any HTTP method becomes less apparent, making controllers particularly relevant in such multifaceted scenarios.
 
-# Request to merge an address book 
+For instances like the one described, it's advised to avoid using the `POST` method directly on the book resource to avert tunneling. Tunneling occurs when a client uses the same method on a single URI for different actions. Here's an illustration of tunneling:
 
-POST /user/smith/address_merge HTTP/1.1 
 
-Host: [www.example.org](http://www.example.org/) 
+Certainly! Let's extend the previous example to include a 30-day free electronic book offer as a collection and demonstrate how a client can discover the offer by following a link in the server's response.
 
-Content-Type: text/csv;charset=UTF-8 
+```javascript
+const express = require('express');
+const bodyParser = require('body-parser');
 
-John Doe, 1 Main Street, Seattle, WA 
+const app = express();
+const port = 3000;
 
-Jane Doe, 100 North Street, Los Angeles, CA 
+app.use(bodyParser.json());
 
-... 
+let book = {
+    title: 'Sample Book',
+    pretaxPrice: 50,
+    posttaxPrice: 0,
+    discountPercentage: 0,
+};
 
-# Response 
+let freeBookOffers = [];
 
-HTTP/1.1 303 See Other 
+app.get('/book', (req, res) => {
+    // Include a link to the 30-day offer in the response
+    const bookWithLink = { ...book, offerLink: '/offers/30-day' };
+    res.json(bookWithLink);
+});
 
-Location: [http://www.example.org/user/smith/address_book](http://www.example.org/user/smith/address_book) 
+app.get('/offers/30-day', (req, res) => {
+    res.json(freeBookOffers);
+});
 
-Content-Type: text/html;charset=UTF-8 
+app.post('/offers/30-day', (req, res) => {
+    const newBook = req.body;
 
-<html> 
+    // Add the new book to the 30-day offer collection
+    freeBookOffers.push(newBook);
 
- <body> 
+    res.json({ message: 'Book added to 30-day offer', updatedOffers: freeBookOffers });
+});
 
- <p>See <a href=" [http://www.example.org/user/smith/address_book">address](http://www.example.org/user/smith/address_book%22%3Eaddress) 
+app.put('/discount', (req, res) => {
+    const newDiscount = req.body.discountPercentage;
 
- book</a> for the merged address book.</p> 
+    book.discountPercentage = newDiscount;
+    book.posttaxPrice = book.pretaxPrice * (1 - book.discountPercentage / 100);
 
- </body> 
+    res.json({ message: 'Discount updated successfully', updatedBook: book });
+});
 
-</html>  
+app.listen(port, () => {
+    console.log(`Server is listening on port ${port}`);
+});
+```
 
-After merging the address books, the server redirects the client to the user’s updated address book. The client can fetch a copy of the merged address book, if necessary. 
+To test this example:
 
-Here is another example. Consider a bookstore where a store operator wants to reduce the pretax price of a book by 15 percent, and update the posttax price to reflect this discount. The server can offer the discount percentage as a resource, and clients can submit a PUT request to modify the current discount. The server can update the total price of the book as part of the same request. 
+1. Start the server.
+2. Make a `GET` request to `/book` to retrieve the initial book information, which now includes a link to the 30-day offer.
+3. Make a `GET` request to `/offers/30-day` to discover the existing offers.
+4. Make a `POST` request to `/offers/30-day` with a JSON payload to add a new book to the 30-day offer collection.
+5. Make another `GET` request to `/offers/30-day` to see the updated offers.
 
-# Request to update the discount value 
-
-PUT /book/1234/discount HTTP/1.1 
-
-Host: [www.example.org](http://www.example.org/) 
-
-Content-Type: application/x-www-urlencoded 
-
-value=15 
-
-# Response 
-
-HTTP/1.1 204 No Content 
-
-Now consider that the client wants to offer a 30-day free access to an online version of the same book along with this 15 percent discount. The server can maintain a collection of all books that are currently being offered in the 30-day free plan, and the client can submit a POST request to add this particular book to that collection. 
-
-# Request to add the book to the list of offers 
-
-POST /30dayebookoffers HTTP/1.1 
-
-Host: [www.example.org](http://www.example.org/) 
-
-Content-Type: application/x-www-urlencoded 
-
-id=1234&from=2009-10-10&to=2000-11-10 
-
-# Response 
-
-HTTP/1.1 201 Created 
-
-Location: [http://www.example.org/30dayebookoffer/1234](http://www.example.org/30dayebookoffer/1234) 
-
-Content-Length: 0  
-
-If your business case requires that these two changes be done atomically, you can employ a controller resource for this purpose. 
-
-# Request to add a discount offer and 30-day free access 
-
-POST /book/1234/discountebookoffer HTTP/1.1 
-
-Host: [www.example.org](http://www.example.org/) 
-
-Content-Type: application/x-www-urlencoded 
-
-id=1234&discount=15&ebook_from=2009-10-10&ebook_to=2000-11-10 
-
-# Response 
-
-HTTP/1.1 303 See Other 
-
-Location: [http://www.example.org/book/1234](http://www.example.org/book/1234) 
-
-Content-Length: 0 
-
-# Request to get the updated book 
-
-GET /book/1234 HTTP/1.1 
-
-Host: [www.example.org](http://www.example.org/) 
-
-# Response 
-
-HTTP/1.1 200 OK 
-
-Content-Type: application/xml;charset=UTF-8 
-
-<book xmlns:atom=" [http://www.w3.org/2005/Atom](http://www.w3.org/2005/Atom)"> 
-
- <id>urn:example:book:1234</id> 
-
- <atom:link rel="self" href=" [http://www.example.org/book/1234"/](http://www.example.org/book/1234%22/)> 
-
- ... 
-
- <discount>15</discount> 
-
- ... 
-
- <atom:link rel=" [http://www.example.org/rels/offer](http://www.example.org/rels/offer)" 
-
- href=" [http://www.example.org/30dayebookoffer/1234"/](http://www.example.org/30dayebookoffer/1234%22/)> 
-
- ... 
-
-</book>  
-
-In the response, the server includes a link to let clients discover the 30-day offer. If the client is presenting a user interface to end users, it can provide a link to this offer for users to navigate to. 
-
-The key point to notice from these examples is the difficulty you might find in mapping operations in your application to the methods in the uniform interface. For example, in the discount example, the server identifies the current discount value as a resource so that clients can use PUT to update it. Similarly, the server identifies 30-day free electronic book offers as a collection and lets clients use POST to add a new book to this collection. But when it comes to combining these two tasks into a single request, a direct mapping to any HTTP method is not obvious. Controllers are most appropriate in such cases. 
-
-For use cases like the previous one, do not use the method POST directly on the book resource because it could lead to tunneling. Tunneling occurs whenever the client is using the same method on a single URI for different actions. Here is an example of tunneling: 
-
-# Request to add a discount offer 
-
-POST /book/1234 HTTP/1.1 
-
-Host: [www.example.org](http://www.example.org/) 
-
-Content-Type: application/x-www-urlencoded 
-
-op=updateDiscount&discount=15 
-
-# Response 
-
-HTTP/1.1 200 OK 
-
-Content-Type: application/xml;charset=UTF-8 
-
-<book xmlns:atom=" [http://www.w3.org/2005/Atom](http://www.w3.org/2005/Atom)"> 
-
- <id>urn:example:book:1234</id> 
-
- <atom:link rel="self" href=" [http://www.example.org/book/1234"/](http://www.example.org/book/1234%22/)> 
-
- ... 
-
- <discount>15</discount> 
-
- ... 
-
-</book> 
-
-# Request to add the book for 30-day offers 
-
-POST /book/1234 HTTP/1.1 
-
-Host: [www.example.org](http://www.example.org/) 
-
-Content-Type: application/x-www-urlencoded 
-
-op=30dayOffer&ebook_from=2009-10-10&ebook_to=2000-11-10 
-
-# Response 
-
-HTTP/1.1 200 OK 
-
-Content-Type: application/xml;charset=UTF-8 
-
-<book xmlns:atom=" [http://www.w3.org/2005/Atom](http://www.w3.org/2005/Atom)"> 
-
- <id>urn:example:book:1234</id> 
-
- <atom:link rel="self" href=" [http://www.example.org/book/1234"/](http://www.example.org/book/1234%22/)> 
-
- ... 
-
- <atom:link rel=" [http://www.example.org/rels/offer](http://www.example.org/rels/offer)" 
-
- href=" [http://www.example.org/30dayebookoffer/1234"/](http://www.example.org/30dayebookoffer/1234%22/)> 
-
-</book>  
+This example demonstrates how links in the server's response can guide clients to discover additional resources, in this case, the 30-day free electronic book offers.
 
 In the requests, the parameters op=updateDiscount and op=30dayOffer signify the operation. This leads to tunneling. 
 

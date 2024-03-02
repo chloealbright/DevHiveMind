@@ -217,7 +217,6 @@ Array ["test2", "e", "st2", "2"]
 
 
 ```javascript
-
 String.search(regexp) 
 
 String 

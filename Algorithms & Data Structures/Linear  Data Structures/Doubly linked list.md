@@ -8,7 +8,7 @@ Comments: This documentation discusses Doubly Linked List.
 Status: Capture
 Started: 
 EditDate: 
-Relates: "[[Type Of Linked List]]"
+Relates: "[[Type of Linked List]]"
 ---
 ![[DoubleLinkedLists.gif]]
 

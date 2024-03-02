@@ -7,110 +7,77 @@ Started:
 EditDate: 
 Relates:
 ---
-## Optional Parameters
+### Optional Parameters:
 
-When the code snippet above is compiled to JavaScript, the greet() function will correctly print 'Hello, Anonymous!'. That’s because when no arguments are passed in, name has the falsy value undefined, which means that name || 'Anonymous' evaluates to 'Anonymous'. Since the final code works as intended, we want to prevent TypeScript from throwing errors:
+In TypeScript, you can explicitly indicate that a parameter is optional by adding a `?` after its name. This informs TypeScript that the parameter is allowed to be `undefined` and doesn't always need to be provided.
 
-To indicate that a parameter is intentionally optional, we add a ? after its name. This tells TypeScript that the parameter is allowed to be undefined and doesn’t always have to be provided.
-
+```typescript
 function greet(name?: string) {
-
-  console.log(`Hello, ${name|| 'Anonymous'}!`);
-
+  console.log(`Hello, ${name || 'Anonymous'}!`);
 }
 
-greet(); // 
+greet(); // Outputs: Hello, Anonymous!
+```
 
-## Default Parameters
+In this example, the `name` parameter is marked as optional with `?`, allowing the function to be called without any arguments. If no argument is provided, `name` defaults to `'Anonymous'`.
 
-If a parameter is assigned a default value, TypeScript will infer the variable type to be the same as the default value’s type. (This is similar to how TypeScript infers the type of an initialized variable to be the same as the type of its initial value.)
+### Default Parameters:
 
-The following code snippet logs a string to greet a user’s name, and defaults to the name 'Anonymous' if no name is provided.
+Default parameters in TypeScript allow you to assign a default value directly in the function signature. TypeScript infers the variable type based on the default value's type.
 
-function greet(name = 'Anonymous') {
-
-  console.log(`Hello, ${name}!`);
-
+```typescript
+function greet(name: string = 'Anonymous') {
+  console.log(`Hello, ${name}!`);
 }
+```
 
-The function greet() can receive a string or undefined as its name parameter—if any other type is provided as an argument, TypeScript will consider that a type error.
+This function can receive a `string` or `undefined` as its `name` parameter. TypeScript infers the type based on the default value.
 
-This is a cleaner way of getting the same functionality we had in the previous exercise. There, we used ? to mark the name parameter as optional. But parameters with default values don’t need a ? after their name, since assigning a default value already implies that they’re optional parameters.
-
+```typescript
 function proclaim(status = 'not ready...', repeat = 1) {
-
-  for (let i = 0; i < repeat; i += 1) {
-
-    console.log(`I'm ${status}`);
-
-  }
-
+  for (let i = 0; i < repeat; i += 1) {
+    console.log(`I'm ${status}`);
+  }
 }
 
 proclaim();
-
 proclaim('ready?');
-
 proclaim('ready!', 3);
+```
 
+In the `proclaim` function, `status` and `repeat` are optional parameters with default values. TypeScript infers their types based on the default values provided.
 
+### JavaScript Optional Arguments:
 
-JavaScript Optional Arguments also known as Default parameters  
+JavaScript is lenient with the number of arguments passed to a function. TypeScript inherits this behavior. While it allows flexibility, it may lead to accidental errors when the wrong number of arguments is provided.
 
-The following code is allowed and executes without any problem: 
+```javascript
+function minus(a, b) {
+  if (b === undefined) return -a;
+  else return a - b;
+}
 
-function square(x) { return x * x; } 
+console.log(minus(10));       // Outputs: -10
+console.log(minus(10, 5));    // Outputs: 5
+```
 
-console.log(square(4, true, "hedgehog")); 
+Here, the `minus` function acts on either one or two arguments. If the second argument (`b`) is not provided, it defaults to `undefined`.
 
-// → 16 
+### Power Function with Default Parameter:
 
-We defined squares with only one parameter. Yet when we call it with three, the language doesn’t complain. It ignores the extra arguments and computes the square of the first one. 
+Default parameters in TypeScript offer a concise way to make function parameters optional.
 
-JavaScript is extremely broad-minded about the number of arguments you pass to a function. If you pass too many, the extra ones are ignored. If you pass too few, the missing parameters get assigned the value undefined. 
+```typescript
+function power(base: number, exponent: number = 2) {
+  let result = 1;
+  for (let count = 0; count < exponent; count++) {
+    result *= base;
+  }
+  return result;
+}
 
-The downside of this is that it is possible—likely, even—that you’ll accidentally pass the wrong number of arguments to functions. And no one will tell you about it. 
+console.log(power(4));   // Outputs: 16
+console.log(power(2, 6)); // Outputs: 64
+```
 
-The upside is that this behavior can be used to allow a function to be called with different numbers of arguments. For example, this minus function tries to imitate the - operator by acting on either one or two arguments: 
-
-function minus(a, b) { 
-
-  if (b === undefined) return -a; 
-
-  else return a - b; 
-
-} 
-
-console.log(minus(10)); 
-
-// → -10 
-
-console.log(minus(10, 5)); 
-
-// → 5 
-
-If you write an = operator after a parameter, followed by an expression, the value of that expression will replace the argument when it is not given. 
-
-For example, this version of power makes its second argument optional. If you don’t provide it or pass the value undefined, it will default to two, and the function will behave like a square. 
-
-function power(base, exponent = 2) { 
-
-  let result = 1; 
-
-  for (let count = 0; count < exponent; count++) { 
-
-    result *= base; 
-
-  } 
-
-  return result; 
-
-} 
-
-console.log(power(4)); 
-
-// → 16 
-
-console.log(power(2, 6)); 
-
-// → 64
+In the `power` function, the `exponent` parameter is optional, defaulting to `2` if not provided. This allows the function to behave like a square if only the `base` is given.

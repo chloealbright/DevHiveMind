@@ -7,8 +7,8 @@ author:
 Comments: This documentation discusses
 Status: Capture
 Started: 
-EditDate: 
-Relates:
+EditDate: 2024-03-03
+Relates: "[[Model Patterns]]"
 ---
 Yes, in addition to the controller and service layers, there are other layers in which it might make sense to make API calls based on the design and requirements of your application. Here are a few examples:
 

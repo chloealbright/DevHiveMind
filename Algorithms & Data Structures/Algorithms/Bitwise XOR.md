@@ -96,12 +96,7 @@ It means that the current value of `result` is being bitwise XOR-ed with the val
 In the specific case of the `singleNumber` function, the XOR operation is used in a loop to XOR all the numbers in the array. Since the XOR of a number with itself is 0, and XOR-ing 0 with any number leaves the number unchanged, this process effectively cancels out all the numbers that appear twice, leaving only the number that appears once.
 
 
-## Linked List Coding Problems
-#todo/High/Dev/CodingChallenge 
-- [ ] Object Pointer Reassignment
-	- Build a foundational understanding of reassigning pointers, which is the building Blocks for Tree and Graph Node Reassignment.  
-	- Helpful for Building Doubly Linked Lists and Cyclical Doubly Linked Lists Generator Functions
-	- Also Useful for Implementing Queues with Linked Lists
+
 
 
 

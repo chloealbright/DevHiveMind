@@ -1,9 +1,12 @@
 ---
 tags:
   - accessModifier
+  - UML
+  - OOP
 author:
   - jacgit18
-Comments: This documentation discusses
+  - chatgpt
+Comments: This documentation discusses access modifiers in the context of UML and object oriented classes.
 Status: Refinement
 Started: 
 EditDate: 2024-03-03
@@ -92,12 +95,3 @@ This product class diagram can repurposed for functions which would increase num
 - **Synchronized** - methods can only be accessed by one thread at a time. 
 
 - **Volatile** - the value of an attribute is read from main memory and not cached thread-locally.
-
-
-
-
-
-
-
-
-

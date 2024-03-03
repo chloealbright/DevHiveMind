@@ -11,6 +11,11 @@ Started:
 EditDate: 2024-03-02
 Relates:
 ---
+APIs are a set of protocols that define how system components interact with each other. As architectural styles evolve, APIs have gained prominence in recent years. The diagram below shows how the rise of microservices and cloud-native applications brings further granularity to services. In-process calls in monolithic applications transition to inter-process calls in microservice and serverless applications. Additionally, each process might reside on a different physical server, and service calls can fail due to various network issues.
+
+Increased service complexity emphasizes the need for more disciplined API designs.
+![[mono to Servless .png]]
+
 1. **Data APIs (RESTful APIs):**  
 	- These APIs primarily deal with data retrieval or manipulation. They are designed to expose data, often in a structured format such as JSON or XML.  
 	- Examples include APIs that retrieve information from a database, weather data, user profiles, or any other form of data that can be queried or manipulated.  

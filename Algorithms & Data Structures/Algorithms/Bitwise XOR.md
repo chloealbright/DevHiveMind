@@ -94,16 +94,3 @@ result = result ^ num;
 It means that the current value of `result` is being bitwise XOR-ed with the value of `num`, and the result is then stored back in the variable `result`. This operation is often used for its property that XOR-ing a value with itself (or with 0) results in 0. Therefore, when you XOR the same value multiple times, it effectively cancels out, and you are left with the XOR of the unique values.
 
 In the specific case of the `singleNumber` function, the XOR operation is used in a loop to XOR all the numbers in the array. Since the XOR of a number with itself is 0, and XOR-ing 0 with any number leaves the number unchanged, this process effectively cancels out all the numbers that appear twice, leaving only the number that appears once.
-
-
-
-
-
-
-
-## Union Find
-#todo/Med/Dev/CodingChallenge 
-- [ ] Create a Queue Generator Method Using Linked Lists
-- [ ] Replace BFS Queues with the New Queue
-- [ ] Edit and Create Other Data Structure Method Generators
-

@@ -10,7 +10,7 @@ Started:
 EditDate: 2024-03-03
 Relates: "[[Model Patterns]]"
 ---
-Yes, in addition to the controller and service layers, there are other layers in which it might make sense to make API calls based on the design and requirements of your application. Here are a few examples:
+When making API calls on the backend it is typically done in the controller and service layers, there are other layers in which it might make sense to make API calls based on the design and requirements of your application. Here are a few examples:
 
 1. **Repository/Data Access Layer:**
    - In some architectures, especially those following the Repository pattern, API calls related to data retrieval and persistence can be placed in the repository or data access layer.

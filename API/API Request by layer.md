@@ -4,8 +4,8 @@ tags:
   - HTTP
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Capture
+Comments: This documentation discusses locations in your code base were you can make API request.
+Status: Done
 Started: 
 EditDate: 2024-03-03
 Relates: "[[Model Patterns]]"
@@ -35,3 +35,5 @@ Yes, in addition to the controller and service layers, there are other layers in
    - Depending on your application structure, you might have utility or helper classes responsible for specific functionalities, and API calls could be encapsulated there.
 
 Ultimately, the choice of where to make API calls depends on the specific requirements of your application and the architectural patterns you're following. The key is to maintain a clean separation of concerns and ensure that each layer has a well-defined responsibility.
+
+

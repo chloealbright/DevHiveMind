@@ -1,12 +1,17 @@
 ---
 tags:
   - API
+  - web
+  - OS
+  - databases
+  - cloud
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+  - chatgpt
+Comments: This documentation discusses the distinction between Authentication and Authorization.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-03
 Relates:
 ---
 Authentication verifies identity, like recognizing someone at your home's door. Authorization determines access levels, allowing distinctions such as entering the house but not the bedroom. Testing various user types ensures robust authentication and authorization. The business logic involves delineating responsibilities among different parties like for example manger and employee. Implementing conditional render logic based on user roles and hiding frontend features enhances both security and user experience. 

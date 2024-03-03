@@ -37,6 +37,18 @@ Relates:
 - [ ] Maybe try doing this [[WebSocket chat client]]
 
 
+Create a Queue Generator Method Using Linked Lists  
+
+Union find also known as Disjoint-Set Union 
+  https://www.youtube.com/watch?v=ayW5B2W9hfo
+  
+meta & google  
+  
+djikstra  
+  
+min spanning tree
+
+
 tangibles to learn 
 content management system  
 shopify  

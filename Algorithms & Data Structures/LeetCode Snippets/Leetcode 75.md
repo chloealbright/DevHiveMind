@@ -71,7 +71,8 @@ function sortColors(nums) {
 }
 ```
 
-
+Ask yourself how many swap checks 
+makes sense
 ## Explained
 Let's simplify this problem and its solution like I'm explaining it to a child, using something familiar, like sorting colored balls.  
   

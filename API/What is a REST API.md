@@ -12,7 +12,34 @@ Started:
 EditDate: 2024-03-02
 Relates:
 ---
-An API, or Application Programming Interface, acts as a set of features and rules within a software program, facilitating interactions with other software or hardware. In the context of REST APIs, it provides tools for accessing and manipulating REST resources through verbs such as GET, POST, PUT, and DELETE.
+An API, or Application Programming Interface, acts as a set of features and rules within a software program, facilitating interactions with other software or hardware. In the context of REST APIs, it provides public and private tools for accessing and manipulating REST resources through verbs such as GET, POST, PUT, and DELETE.
+
+### API vs Servers
+APIs are deployed on servers, but it's important to understand that a server's capabilities extend far beyond hosting APIs. For instance, a server might be configured to perform regular tasks such as backing up your database every 24 hours, showcasing its versatile role in both maintenance and functionality.
+
+APIs, fundamentally, are designed to implement protocols that enable data transfer between two or more applications. This communication is essential for integrating and extending the capabilities of different software systems.
+
+Traditionally, a server refers to the physical hardware that hosts applications, often tasked with critical back-end functions like database access, and facilitating interactions (via APIs) with other server-hosted applications. This highlights a server's pivotal role in the underlying infrastructure that supports application functionalities.
+
+It's crucial to note that the scope of APIs is not confined to server-side applications. APIs serve as a communication protocol between any two applications, regardless of where they are hosted. This broad applicability of APIs underscores their importance in building interconnected, efficient, and scalable digital ecosystems.
+
+#### Understanding Declarative vs. Imperative APIs
+
+Declarative APIs, often at the heart of what is referred to as “policy” or “intent-based” networking, focus on the "what" of operations. They represent a desired state system where the user specifies the end state they wish to achieve without detailing the steps required to get there. Essentially, with a declarative API, you instruct the system on the state you desire, saying: "Ensure this state is achieved," without concerning yourself with the how.
+
+While it might seem that all API interactions are declarative, since they typically instruct the server on the desired outcome rather than the process to achieve it, the level of abstraction can vary. This variation affects how closely an API call might be perceived as declarative.
+
+##### Conclusion: Declarative APIs Focus on the "What"
+
+Conversely, imperative programming, which can be paralleled in API terms, emphasizes the "how" of operations. It involves commands that the computer executes to change the system's state, mirroring the imperative mood in language that issues commands. In the realm of APIs, Create, Update, or Delete operations (constituting three-quarters of CRUD operations) are imperative in nature as they direct the system to change its state. These API calls may range from vague to precise instructions on how to perform a task.
+
+##### Conclusion: Many API Calls are Imperative
+
+The distinction between declarative and imperative approaches in APIs is nuanced and often boils down to the level of abstraction and the atomicity of the operations requested. Describing API calls as purely declarative or imperative oversimplifies the complexity and diversity of API design and functionality. What is pivotal is understanding the abstraction level an API provides and how it allows users to articulate their intent or desired outcomes.
+
+In essence, the debate over declarative vs. imperative APIs underscores the importance of clarity, abstraction, and the specificity of intent in API design and interaction.
+
+
 
 ### Representational State Transfer (REST)
 

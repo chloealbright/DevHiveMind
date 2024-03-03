@@ -13,7 +13,7 @@ Relates: "[[Declarative Coding]]"
 ---
 ## Reactive Programming:
 
-Reactive Programming is a programming paradigm that deals with asynchronous data streams and the [[Glossary#^5487d3 |propagation]] of changes. Unlike being tied to a specific architectural style, it primarily focuses on how code handles events and asynchronous data. 
+Reactive Programming is a programming paradigm that deals with asynchronous data streams and the [[Tech Glossary#^5487d3|propagation]] of changes. Unlike being tied to a specific architectural style, it primarily focuses on how code handles events and asynchronous data. 
 
 In essence, reactive programming concentrates on how individual components or parts of a system manage and respond to data streams. 
 

@@ -9,7 +9,7 @@ Started:
 EditDate: 
 Relates:
 ---
-Concurrent programming is a paradigm in computer programming that deals with designing and implementing software systems that can handle multiple tasks or processes simultaneously. It involves the execution of multiple units of work [[Glossary#^4f0064 | concurrently]], allowing them to overlap in time and potentially make progress simultaneously.
+Concurrent programming is a paradigm in computer programming that deals with designing and implementing software systems that can handle multiple tasks or processes simultaneously. It involves the execution of multiple units of work [[Tech Glossary#^4f0064| concurrently]], allowing them to overlap in time and potentially make progress simultaneously.
 
 Concurrent programming is essential for building efficient and responsive software systems, as it enables parallelism, improves resource utilization, and enhances the overall performance and scalability of applications. It is especially valuable in situations where multiple tasks can be executed independently, allowing for efficient utilization of multicore processors and distributed systems.
 

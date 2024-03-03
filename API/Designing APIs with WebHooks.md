@@ -1,17 +1,18 @@
 ---
 tags:
   - API
+  - eventDriven
+  - web
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+  - chatgpt
+Comments: This documentation discusses what a web hook is and the benefits of using it for an API.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-03
 Relates:
 ---
-## Event-Driven Architecture: WebHooks and Real-Time Data Sharing
-
-[[Event Driven Architecture]] 
+## Real-Time Data Sharing
 
 In traditional request–response APIs, staying updated with dynamic data often involves resource-intensive polling. WebHooks offer a more efficient solution, enabling real-time event-driven data sharing. A WebHook is a lightweight API that triggers one-way data transmission through HTTP POST (or other methods). Unlike polling, WebHooks provide timely updates on specific events, minimizing resource wastage.
 

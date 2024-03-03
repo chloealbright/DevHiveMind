@@ -12,6 +12,7 @@ EditDate: 2024-02-20
 Relates:
 ---
 ![[AI vs Machine vs Deep.png]]
+
 1. **AI (Artificial Intelligence) Layers:**
    - **Rule-Based Systems:**
      - Traditional AI systems may include rule-based components where explicit rules are defined to make decisions or take actions.
@@ -43,3 +44,5 @@ Relates:
      - Produces the final prediction or output based on the learned features.
 
 It's important to note that these layers are interconnected, and the distinctions between them can sometimes blur, especially in the context of deep learning, which is a subset of machine learning, which in turn is a subset of artificial intelligence. The layers mentioned here provide a conceptual breakdown of the components involved in these domains.
+
+![[AI Layers.jpeg]]

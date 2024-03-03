@@ -3,12 +3,12 @@ tags:
   - accessModifier
 author:
   - jacgit18
+Comments: This documentation discusses
 Status: Refinement
 Started: 
-EditDate: 
+EditDate: 2024-03-03
 Relates:
 ---
-
 ## Flashcard
 #modifiers
 which access modifier allows code visible to all classes;; public  
@@ -24,14 +24,13 @@ What UML sign is for optional;; O
 What UML sign is for static member for attributes and methods;; underline or bold and underline
 
 ## Modifiers 
- Access modifiers are keywords in certain languages that help to restrict the scope of ***attributes, classes, methods,and constructors (member):
+ Access modifiers are keywords in certain languages that help to restrict the scope of ***attributes, classes, methods,and constructors (member):***
 
 - **no-modifier** - this is `default` to what is known as "*package-private*" making it visible only within its packages (named groups of related classes). 
 
 
 ## Class Diagram 
-#todo/Med/Dev 
-- [ ] *This can repurposed for function diagram which would increase number of tables also do this in obsidian you can also have big boxes to represent folders/modules
+This product class diagram can repurposed for functions which would increase number of tables.
 ![[Class Diagram.png]]
 ### UML Class Signs
 
@@ -64,7 +63,7 @@ What UML sign is for static member for attributes and methods;; underline or bol
 > You could try to call the private method in a class that should have access and asserts that the call failed.
 
 
--  **[[Protected in Depth | Protected]]** - member can only be accessed within its package and by a subclass of its class in another package used a lot with UUID.
+- [[Protected in Depth |Protected]] - member can only be accessed within its package and by a subclass of its class in another package used a lot with `UUID`.
 ```java
 # protected
 ```
@@ -77,22 +76,22 @@ What UML sign is for static member for attributes and methods;; underline or bol
 
 **These are the non-access modifiers for classes: 
 
--   Abstract - class cannot be used to create objects. 
--   Final - class cannot be inherited by other classes. 
+- **Abstract** - class cannot be used to create objects. 
+- **Final** - class cannot be inherited by other classes. 
 
 **These are the non-access modifiers for attributes and methods: 
 
-- Abstract - only be used in an abstract class and can only be used on methods. 
+- **Abstract** - only be used in an abstract class and can only be used on methods. 
 
-- Final - both cannot be overridden or modified. 
+- **Final** - both cannot be overridden or modified. 
   
--  [[Static methods | static ]]- both belong to the class and not the object. also in uml is represented by being underlined and a little bold. static members are used so, there will be one and only one copy of the member.
+- [[Static methods |Static]]- both belong to the class and not the object. also in uml is represented by being underlined and a little bold. static members are used so, there will be one and only one copy of the member.
  
--  transient - both are skipped when serializing the object containing them. 
+- **Transient** - both are skipped when serializing the object containing them. 
  
--  synchronized - methods can only be accessed by one thread at a time. 
+- **Synchronized** - methods can only be accessed by one thread at a time. 
 
--  Volatile - the value of an attribute is read from main memory and not cached thread-locally.
+- **Volatile** - the value of an attribute is read from main memory and not cached thread-locally.
 
 
 

@@ -1,10 +1,12 @@
 ---
-tags: 
+tags:
+  - API
 author:
   - jacgit18
-Status: Capture
+Comments: This is a medium article that discuss basic API design
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-02-25
 Relates:
 ---
 

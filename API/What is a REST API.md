@@ -23,26 +23,21 @@ Traditionally, a server refers to the physical hardware that hosts applications,
 
 It's crucial to note that the scope of APIs is not confined to server-side applications. APIs serve as a communication protocol between any two applications, regardless of where they are hosted. This broad applicability of APIs underscores their importance in building interconnected, efficient, and scalable digital ecosystems.
 
-#### Understanding Declarative vs Imperative APIs
-Declarative("what) APIs are the key pillar of what many vendors call “policy” or “intent-based” networking. 
+#### Understanding Declarative vs. Imperative APIs
 
-A declarative API is a desired state system. You provide a certain state you want the system to create. You don't care about all the steps needed to achieve that state. You just tell the system: "Please make sure that the state I provide will be there." 
+Declarative APIs, often at the heart of what is referred to as “policy” or “intent-based” networking, focus on the "what" of operations. They represent a desired state system where the user specifies the end state they wish to achieve without detailing the steps required to get there. Essentially, with a declarative API, you instruct the system on the state you desire, saying: "Ensure this state is achieved," without concerning yourself with the how.
 
-I haven’t seen a single API call that would tell the server how to do stuff. They always tell the server what we want to get done. Admittedly, some API calls are more abstracted than others, but that’s a different story. 
+While it might seem that all API interactions are declarative, since they typically instruct the server on the desired outcome rather than the process to achieve it, the level of abstraction can vary. This variation affects how closely an API call might be perceived as declarative.
 
-##### Conclusion: All API calls are declarative
+##### Conclusion: Declarative APIs Focus on the "What"
 
-In much the same way that the imperative mood in natural languages expresses commands, an imperative program consists of commands for the computer to perform. All Create, Update, or Delete (three quarters of CRUD) API calls are executed to change the state of the system. 
+Conversely, imperative programming, which can be paralleled in API terms, emphasizes the "how" of operations. It involves commands that the computer executes to change the system's state, mirroring the imperative mood in language that issues commands. In the realm of APIs, Create, Update, or Delete operations (constituting three-quarters of CRUD operations) are imperative in nature as they direct the system to change its state. These API calls may range from vague to precise instructions on how to perform a task.
 
-In computer science, imperative programming is a programming paradigm that uses statements that change a program’s state. In much the same way that the imperative mood in natural languages expresses commands, an imperative program consists of commands for the computer to perform. 
+##### Conclusion: Many API Calls are Imperative
 
-All Create, Update, or Delete (three quarters of CRUD) API calls are executed to change the state of the system. Admittedly, some API calls tell the system what to do in vague manner, while others are more precise. 
+The distinction between declarative and imperative approaches in APIs is nuanced and often boils down to the level of abstraction and the atomicity of the operations requested. Describing API calls as purely declarative or imperative oversimplifies the complexity and diversity of API design and functionality. What is pivotal is understanding the abstraction level an API provides and how it allows users to articulate their intent or desired outcomes.
 
-##### Conclusion: Many API calls are imperative 
-
-Using declarative and imperative to describe API calls makes as little sense as intent-based networking (TL&DR: every configuration is an expression of our intent). 
-
-What really matters is the level of abstraction an API call provides, and the atomicity of the requested operation. 
+In essence, the debate over declarative vs. imperative APIs underscores the importance of clarity, abstraction, and the specificity of intent in API design and interaction.
 
 
 

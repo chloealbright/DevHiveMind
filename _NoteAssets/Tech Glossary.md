@@ -3,10 +3,10 @@ tags:
   - glossary
 author:
   - jacgit18
-Comments: This documentation discusses
+Comments: This documentation discusses this is a glossary of technical terms with a brief explanation of technical jargon that can be backed link to.
 Status: Refinement
 Started: 
-EditDate: 
+EditDate: 2024-03-03
 Relates:
 ---
 - **API (Application Programming Interface)**: It's a software-to-software interface enabling data exchange between applications, forming the backbone of modern technology.

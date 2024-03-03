@@ -12,7 +12,7 @@ Relates:
 
 ---
 
-## **[[Glossary#^acb92b | Typed Languages]]:**
+## **[[Tech Glossary#^acb92b| Typed Languages]]:**
 
 ### **Statically Typed Languages:**
 

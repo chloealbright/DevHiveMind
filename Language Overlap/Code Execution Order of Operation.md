@@ -11,7 +11,7 @@ Relates:
 The terms "asynchronous" and "synchronous" refer to different approaches to handling tasks or operations in a program. Let's understand the purpose of asynchronous and synchronous code:
 
 ## Asynchronous Code:
-The purpose of asynchronous code is to enable non-blocking and **[[Glossary#^4f0064 | concurrent ]]**  execution of tasks or operations. In asynchronous programming, when a task is initiated, it doesn't block the execution flow of the program. Instead, the program continues executing other tasks or operations while the asynchronous task runs in the background. Asynchronous code is typically used when performing I/O operations, network requests, or any operation that may take a significant amount of time to complete.
+The purpose of asynchronous code is to enable non-blocking and **[[Tech Glossary#^4f0064| concurrent ]]**  execution of tasks or operations. In asynchronous programming, when a task is initiated, it doesn't block the execution flow of the program. Instead, the program continues executing other tasks or operations while the asynchronous task runs in the background. Asynchronous code is typically used when performing I/O operations, network requests, or any operation that may take a significant amount of time to complete.
 
 The benefits of asynchronous code include:
 
@@ -22,7 +22,7 @@ The benefits of asynchronous code include:
 3. Responsiveness: Asynchronous code is well-suited for user interfaces and event-driven systems, as it allows the program to respond to user input or events promptly without blocking the execution flow.
 
 ### Asynchronous In-deph
-In asynchronous code execution, tasks scheduled to run later, like fetching data, benefit from not blocking the entire program. The **[[Glossary#Logical Stack | logical]]**  or virtual stack in asynchronous programming isn't thread-bound, allowing efficiency by enabling other tasks during asynchronous operations.Instead, the logical call stack keeps track of the order of asynchronous calls, allowing other tasks to execute while waiting for the asynchronous operations to finish.
+In asynchronous code execution, tasks scheduled to run later, like fetching data, benefit from not blocking the entire program. The **[[Tech Glossary#Logical Stack| logical]]**  or virtual stack in asynchronous programming isn't thread-bound, allowing efficiency by enabling other tasks during asynchronous operations.Instead, the logical call stack keeps track of the order of asynchronous calls, allowing other tasks to execute while waiting for the asynchronous operations to finish.
 
 Local variables in async code reside in a state machine, effectively managing the execution context. This state machine facilitates pausing and resuming during asynchronous operations. Async stacks, acting as continuation stacks, represent the complex flow of execution in asynchronous code, making debugging more challenging than synchronous code.
 

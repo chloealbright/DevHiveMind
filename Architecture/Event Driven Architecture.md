@@ -1,6 +1,7 @@
 ---
 tags:
   - architecturalPatterns
+  - eventDriven
 author:
   - jacgit18
 Status: Capture

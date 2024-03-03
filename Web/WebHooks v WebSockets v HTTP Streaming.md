@@ -3,6 +3,7 @@ tags:
   - web
   - HTTP
   - protocol
+  - eventDriven
 author:
   - jacgit18
 Comments: This documentation discusses the differences between WebHooks, WebSockets, and HTTP Streaming.

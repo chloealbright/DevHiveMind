@@ -1,7 +1,9 @@
 ---
-tags: 
+tags:
+  - glossary
 author:
   - jacgit18
+Comments: This documentation discusses
 Status: Refinement
 Started: 
 EditDate: 
@@ -19,7 +21,7 @@ Relates:
 
 - **Checksum**: A numerical value calculated from data, often used for data integrity during transmission over networks.
 
-- **CMS**:  A content management system is computer software used to manage the creation and modification of digital content. A CMS is typically used for enterprise content management and web content management.
+- **CMS**: A content management system is computer software used to manage the creation and modification of digital content. A CMS is typically used for enterprise content management and web content management.
 
 - **Compiler**: Translates high-level language programs into machine instructions, but additional steps like linking are needed for executable code.
 
@@ -45,7 +47,6 @@ Relates:
 - **Typed languages** - Languages where data types are defined, known by the machine at compile-time or runtime.   ^acb92b
 
 - **Verbose**: Using more words than necessary to express something.
-
 
 - **Convertor:** A utility class responsible for converting data between plain, often raw, format and structured business objects. It plays a role in transforming information from a general form to one that aligns with the needs of specific applications or systems.
 

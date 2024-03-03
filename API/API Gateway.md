@@ -2,12 +2,14 @@
 tags:
   - API
   - servers
+  - systemComponent
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: Capture
+  - chatgpt
+Comments: This documentation discusses API Gateway.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-02
 Relates:
 ---
 An API Gateway is a server that acts as an API front-end, receiving API requests, enforcing throttling and security policies, passing requests to the back-end service, and then passing the response back to the requester. It often acts as an entry point for microservices or other backend services.  

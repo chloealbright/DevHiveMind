@@ -1,11 +1,15 @@
 ---
-tags: 
+tags:
+  - data
+  - metaData
+  - APIs
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+  - chatgpt
+Comments: This documentation discusses API meta data design.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-02
 Relates:
 ---
 ### Enhanced HTTP Headers Guidelines:

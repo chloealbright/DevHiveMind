@@ -1,11 +1,15 @@
 ---
-tags: 
+tags:
+  - API
+  - HTTP
+  - protocol
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+  - chatgpt
+Comments: This documentation discusses the different constraint of an API.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-02
 Relates:
 ---
 ![[six-paths-of-pain-naruto-w2mrtj5sk0ccusoz.gif]]

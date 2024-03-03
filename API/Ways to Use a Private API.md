@@ -1,11 +1,13 @@
 ---
-tags: 
+tags:
+  - API
+  - security
 author:
   - jacgit18
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses ways to use private APIs.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-02
 Relates:
 ---
 Private APIs offer a versatile toolkit for various applications, each contributing to enhanced efficiency and strategic development. Let's delve into the diverse applications and potential risks associated with Private APIs.

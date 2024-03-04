@@ -86,47 +86,6 @@ In summary, the Java libraries mentioned cater to diverse needs, from basic coll
 
 
 
- technologies/tools used in Java server-side development
-
-Jackson JSON/XML
-
-JPA and Hibernate
-
-Thymeleaf templating
-
-Graphite and Grafana monitoring
-
-Log4j and JSON for structured logging
-
-Splunk distributed logging collection
-
-Elasticsearch logstash kibana
-
-Hystrix curcuit breakers
-
-Spring Cloud Config
-
-Eureka service discovery
-
-Pivotal or AWS hosting
-
-Flyway or Liquibase database change management
-
-Sonar, findbugs, PMD static code analysis
-
-JUnit, Mockito, AssertJ for TDD
-
-RestAssured web service end to end tests with Cucumber and Serenity reports
-
-Selenium browser testing
-
-Litmus email html rendering testing
-
-Jenkins CI
-
-Embedded Tomcat or Jetty
-
-Java 8 upwards
 
 
 

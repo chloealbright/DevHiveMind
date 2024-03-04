@@ -5,10 +5,14 @@
   "content": "",
   "useDefaultFrontmatter": true,
   "defaultFrontmatterKeyType": "Camel Case",
-  "templateFile": "_Template/Books_Template.md",
+  "templateFile": "_NoteAssets/Template/Books_Template.md",
   "serviceProvider": "google",
   "naverClientId": "",
   "naverClientSecret": "",
   "localePreference": "default",
-  "openPageOnCompletion": true
+  "apiKey": "",
+  "openPageOnCompletion": true,
+  "showCoverImageInSearch": false,
+  "enableCoverImageSave": false,
+  "coverImagePath": ""
 }

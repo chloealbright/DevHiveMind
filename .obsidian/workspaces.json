@@ -1004,77 +1004,40 @@
       },
       "active": "9b11802b5e5a8bf5"
     },
-    "api": {
+    "l75": {
       "main": {
         "id": "0cbb3f0709975816",
         "type": "split",
         "children": [
           {
-            "id": "55f0d202c2ad6526",
+            "id": "3ffdf4f7b6bbd22a",
             "type": "tabs",
+            "dimension": 61.5681233933162,
             "children": [
               {
-                "id": "4e99b97e9837fc02",
+                "id": "30c1e5874357165e",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "excalidraw",
                   "state": {
-                    "file": "API/API pass-through.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "83ee7f87c4ed8916",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "API/API request by layer.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "67e06fd9e44bbc61",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "API/Authentication vs Authorization.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "903d95a5f888f60d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "API/Controlling API Traffic.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "Mind Maps/Leetcode 75.md"
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
-            "id": "a2cdf9b38789063d",
+            "id": "dae69b0360163935",
             "type": "tabs",
+            "dimension": 38.43187660668381,
             "children": [
               {
-                "id": "11f1c333aba20afd",
+                "id": "8ec67ed9b3cd1e6d",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "API/Designing Web APIs.md",
+                    "file": "Algorithms & Data Structures/LeetCode Snippets/Leetcode 75.md",
                     "mode": "source",
                     "source": false
                   }
@@ -1109,7 +1072,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "type narr",
+                    "query": "Backend",
                     "matchingCase": true,
                     "explainSearch": false,
                     "collapseAll": true,
@@ -1162,7 +1125,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "API/API request by layer.md",
+                    "file": "Algorithms & Data Structures/LeetCode Snippets/Leetcode 75.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1179,7 +1142,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "API/API request by layer.md",
+                    "file": "Algorithms & Data Structures/LeetCode Snippets/Leetcode 75.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1202,7 +1165,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "API/API request by layer.md"
+                    "file": "Algorithms & Data Structures/LeetCode Snippets/Leetcode 75.md"
                   }
                 }
               },
@@ -1311,8 +1274,287 @@
           "obsidian-book-search-plugin:Create new book note": false
         }
       },
-      "active": "83ee7f87c4ed8916"
+      "active": "8ec67ed9b3cd1e6d"
+    },
+    "Java to refine": {
+      "main": {
+        "id": "0cbb3f0709975816",
+        "type": "split",
+        "children": [
+          {
+            "id": "7526c899e4a7a5b3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2b252795b27d91b5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language/Java/Streams.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "ab7afbe63be77463",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language/Java/Static methods.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "735b2be08cc8bc45",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Language/Java/Static Method Reference.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "0cb687ed31a3cb15",
+        "type": "split",
+        "children": [
+          {
+            "id": "35a748fce277cec3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c18a64a686e80f59",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "6b26857b850e27fd",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "constructor",
+                    "matchingCase": true,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "9460d416af7fc81b",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              },
+              {
+                "id": "fa2d1f5e55d774d0",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              },
+              {
+                "id": "f8dba8fda82ad27e",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 319.5
+      },
+      "right": {
+        "id": "eef3a19b1c6d3fd3",
+        "type": "split",
+        "children": [
+          {
+            "id": "e554ac453d1d9575",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c50b7b0a3ec4946f",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Language/Java/Static Method Reference.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "f284fe95011fdbdb",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Language/Java/Static Method Reference.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "44d477889d1dd1f7",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "0300aef17e4d5541",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Language/Java/Static Method Reference.md"
+                  }
+                }
+              },
+              {
+                "id": "f9dd3247ae0d1430",
+                "type": "leaf",
+                "state": {
+                  "type": "Strange New Worlds",
+                  "state": {}
+                }
+              },
+              {
+                "id": "e25196040b431f9d",
+                "type": "leaf",
+                "state": {
+                  "type": "reminder-list",
+                  "state": {}
+                }
+              },
+              {
+                "id": "377f26e58347c30a",
+                "type": "leaf",
+                "state": {
+                  "type": "podcast_player_view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1877a5361950cc0e",
+                "type": "leaf",
+                "state": {
+                  "type": "review-queue-list-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "cbfe2bee689e7ccc",
+                "type": "leaf",
+                "state": {
+                  "type": "todo",
+                  "state": {}
+                }
+              },
+              {
+                "id": "e6c5516733d7d2c5",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  }
+                }
+              }
+            ],
+            "currentTab": 4
+          },
+          {
+            "id": "7e98245a429f273f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "cdc9cc484b6cd128",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 345.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-book-search-plugin:Create new book note": false,
+          "obsidian-rich-links:Rich Links": false,
+          "excel:Create Excel File": false,
+          "markdown-importer:Open format converter": false,
+          "obsidian-advanced-slides:Show Slide Preview": false,
+          "copilot:Copilot Chat": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "obsidian-read-it-later:ReadItLater: Save clipboard": false,
+          "templater-obsidian:Templater": false,
+          "obsidian-projects:Open projects": false,
+          "darlal-switcher-plus:Open in Headings Mode": false,
+          "darlal-switcher-plus:Open Symbols for the active editor": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "homepage:Open homepage": false,
+          "janitor:Janitor: scan vault": false,
+          "obsidian-textgenerator-plugin:Generate Text!": false,
+          "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+          "obsidian-spaced-repetition:Review flashcards": false,
+          "periodic-notes:Open today": false
+        }
+      },
+      "active": "735b2be08cc8bc45"
     }
   },
-  "active": "api"
+  "active": "Java to refine"
 }

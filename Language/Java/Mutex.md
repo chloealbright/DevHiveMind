@@ -1,9 +1,12 @@
 ---
-tags: 
+tags:
+  - multiThreading
+  - Java
 author:
   - jacgit18
   - chatgpt
-Status: Capture
+St: Done
+Comments: This documentation discusses Mutex.
 Started: 2023-11-20
 EditDate: 
 Relates:

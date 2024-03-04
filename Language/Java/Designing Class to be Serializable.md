@@ -1,10 +1,15 @@
 ---
-tags: 
+tags:
+  - Java
+  - Serialization
+  - ClassStructure
 author:
   - jacgit18
-Status: 
+  - chatgpt
+Comments: This documentation discusses how to make classes Serializable.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-03
 Relates:
 ---
 When crafting a Java class for serialization, meticulous attention to system design is crucial. Here's a refined breakdown:

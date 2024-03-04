@@ -30,9 +30,9 @@ function Button(props) {
 return <button onClick={props.onClick}>{props.label}</button>;  
 }  
 ```  
-  
+
 2. Wrapper Components:  
-Wrapper components, also known as "container" or "smart" components, are responsible for managing state, handling data fetching, and orchestrating the behavior of one or more close components. They typically provide data and behavior through props to their child components.  
+	- Wrapper components, also known as "container" or "smart" components, are responsible for managing state, handling data fetching, and orchestrating the behavior of one or more close components. They typically provide data and behavior through props to their child components.  
   
 Use wrapper components when:  
 - You need to manage state or handle data fetching for a specific part of your application.  

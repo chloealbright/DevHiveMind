@@ -9,7 +9,7 @@ Comments: This documentation discusses different things to consider while on the
 Status: Perpetual
 Started: 
 EditDate: 2024-02-20
-Relates:
+Relates: "[[Economic Trends to Track]]"
 ---
 ![[Tech Layoffs.png]]
 

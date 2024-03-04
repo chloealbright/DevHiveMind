@@ -1,3 +1,18 @@
+---
+tags:
+  - market
+  - finance
+  - economics
+  - sectors
+author:
+  - jacgit18
+  - chatgpt
+Comments: This documentation discusses bond types and their stability.
+Status: Done
+Started: 
+EditDate: 2024-03-04
+Relates:
+---
 1. **Government Bonds:**
    - **Treasury Bonds:**
      - **Issuer:** Issued by the federal government.

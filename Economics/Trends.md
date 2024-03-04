@@ -68,3 +68,6 @@ Relates:
 - Low stock volume can limit trades and indicates potential issues.
 - Check the news when analyzing price graph history.
 - Investigate the CEO of a company for additional insights.
+
+### Bank Trends
+- Changes in federal interest rates impact the Annual Percentage Yield (APY) of savings accounts. During economic downturns, Roth IRA contribution limits may increase.

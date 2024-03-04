@@ -46,3 +46,5 @@ Relates:
 It's important to note that these layers are interconnected, and the distinctions between them can sometimes blur, especially in the context of deep learning, which is a subset of machine learning, which in turn is a subset of artificial intelligence. The layers mentioned here provide a conceptual breakdown of the components involved in these domains.
 
 ![[AI Layers.jpeg]]
+
+![[AI layer 2 .gif]]

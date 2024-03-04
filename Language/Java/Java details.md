@@ -1,89 +1,90 @@
 ---
-tags: 
+tags:
+  - Java
+  - JVM
 author:
   - jacgit18
-Status: 
+Comments: This documentation discusses java.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-03
 Relates:
 ---
-JVM is a part of Java Run Environment (JRE). It cannot be separately downloaded and installed. To install JVM, you need to install JRE.
+#### **Overview of Java Ecosystem:**
 
-Java EE(Enterprise edition) is basically a add-on of libraries or API to support enterprise code development or services and isn't in development anymore but has been token over by eclipse and it's called Jakarta EE
+1. **Java Virtual Machine (JVM):**
+   - Part of Java Run Environment (JRE).
+   - Not separately downloadable; installation requires JRE.
+   - Platform-independent execution of Java source code.
+   - Utilizes JIT (Just-in-Time) compiler for enhanced performance.
 
-Java SE is also refereed to as API's 
-  
-But the JRE is still being used  
-  
-Java ME is a subset of JRE for embedded systems used in the internet of things  
+2. **Java Platform Editions:**
+   - **Java SE (Standard Edition):**
+     - Often referred to as APIs.
+     - Contains crucial package classes and runtime libraries.
+     - Used for general-purpose development.
+   - **Java EE (Enterprise Edition):**
+     - Deprecated, now Jakarta EE (maintained by Eclipse).
+     - Adds libraries/APIs for enterprise-level development.
+   - **Java ME (Micro Edition):**
+     - Subset of JRE for embedded systems (e.g., IoT).
 
-Android is also a Java environment but it's provided by Google It also uses the job of programming language but the runtime environment is a little different
+3. **Android:**
+   - Java-based environment provided by Google.
+   - Utilizes Java programming language with a unique runtime environment.
 
-Oracle JDK and OpenJDK
+4. **Oracle JDK and OpenJDK:**
+   - Both provide Java Development Kit (JDK).
+   - OpenJDK is open-source; Oracle JDK may include additional features.
+   - Used for Java development, including compilation and debugging.
 
->[!note] Java packages are always written in lowercase letters. Not like Java classes, where the first letter is usually a capital letter.
+### **Important Reasons for JRE Usage:**
 
-## Important reasons of using JRE:
+- **Class Libraries:** Houses essential package classes (e.g., math, swing, util).
+- **Runtime Libraries:** Supports the execution of Java applets.
+- **Java Web Start and Java Plug-in:** Deployment technologies.
 
--   JRE contains class libraries, JVM, and other supporting files. It does not contain any tool for Java development like a debugger, compiler, etc.
--   It uses important package classes like math, swingetc, util, lang, awt, and runtime libraries.
--   If you have to run Java applets, then JRE must be installed in your system.
+### **Important Reasons for JVM Usage:**
 
-## Important reasons of using JVM:
--   JVM provides a platform-independent way of executing Java source code.
--   It has numerous libraries, tools, and frameworks.
--   Once you run Java program, you can run on any platform and save lots of time.
--   JVM comes with JIT(Just-in-Time) compiler that converts Java source code into low-level machine language. Hence, it runs more faster as a regular application.
+- **Platform Independence:** Executes Java source code on any platform.
+- **Libraries, Tools, and Frameworks:** Abundance of resources for development.
+- **JIT (Just-in-Time) Compilation:** Transforms Java source code into machine language for improved performance.
 
-important features of JDK:
+### **Important Features of JDK:**
 
--   It enables you to handle multiple extensions in a single catch block.
--   JDK includes all features that JRE has.
--   It contains development tools such as a compiler, debugger, etc.
--   JDK provides the environment to develop and execute Java source code.
--   It can be installed on Windows, Unix, and Mac operating systems.
--   Diamond operator can be used in specifying a generic type interface instead of writing the exact one.
+- **Multiple Exceptions Handling:** Handles multiple exceptions in a single catch block.
+- **Comprehensive Toolkit:** Includes all features of JRE.
+- **Development Tools:** Compiler, debugger, and other development tools.
+- **Environment for Development and Execution:** Facilitates both code development and execution.
+- **Cross-Platform Installation:** Available on Windows, Unix, and Mac.
 
-important features of JRE:
+### **Important Features of JRE:**
 
--   Java Runtime Environment is a set of tools using which the JVM actually runs.
--   JRE contains deployment technology, including Java Web Start and Java Plug-in.
--   Developers can easily run the source code in JRE, but he/she cannot write and compile the Java program.
--   It includes integration libraries like Java Database Connectivity (JDBC), Remote Method Invocation (RMI), Java Naming and Directory Interface (JNDI), and more.
--   JRE has JVM and Java HotSpot virtual machine client.
-- Jre doesnt need to be installed since included in JDK
+- **Set of Tools for JVM:** Tools enabling the execution of Java programs.
+- **Deployment Technology:** Incorporates Java Web Start and Java Plug-in.
+- **Source Code Execution:** Allows running Java source code.
+- **Integration Libraries:** JDBC, RMI, JNDI, and more.
+- **JVM and Java HotSpot Virtual Machine Client:** Components of JRE.
 
-important features of JVM:
+### **Important Features of JVM:**
 
--   It enables you to run applications in a cloud environment or in your device.
--   Java Virtual Machine converts byte code to the machine-specific code.
--   It provides basic java functions like memory management, security, garbage collection, and more.
--   JVM runs the program by using libraries and files given by Java Runtime Environment.
--   JDK and JRE both contain Java Virtual Machine.
--   It can execute the java program line by line hence it is also called as interpreter.
--   JVM is easily customizable for example, you can allocate minimum and maximum memory to it.
--   It is independent from hardware and the operating system. So, you can write a java program once and run anywhere.
+- **Cloud and Device Execution:** Runs applications in cloud environments or devices.
+- **Byte Code to Machine-Specific Code Conversion:** Transforms Java byte code to machine-specific code.
+- **Basic Java Functions:** Manages memory, provides security, garbage collection, etc.
+- **Platform Independence:** Works independently of hardware and operating systems.
+- **JIT Compilation:** Converts Java source code into low-level machine language.
+- **Interpreted Execution:** Executes Java programs line by line.
 
+### **Static in Java:**
 
+- **Memory Management:** Used for memory management purposes.
+- **Applicable to Classes, Variables, Methods, and Blocks:** Can be applied to different elements.
+- **Belongs to Class Instance:** Associated with a specific class instance.
 
--   What does static mean in Java?
+### **J2EE Technologies:**
+- Servlet, JSP, and EJB (Enterprise JavaBeans) are key components.
+- Components are self-contained and assembled into J2EE applications.
+- Application clients, applets, servlets, JSPs, and EJBs are examples of J2EE components.
+- J2EE components are written in Java and deployed in production environments.
 
--   static is used for memory management
--   It can be used with classes, variables, methods, and blocks
--   They belong to the class instance of a specific instance
-
-
-
-You could ask like what are J2EE Technologies.
-
-Here quick Answer is Servlet, JSP and EJB.
-
-Source from Google:
-
-J2EE applications are made up of components. A J2EE component is a self-contained functional software unit that is assembled into a J2EE application with its related classes and files and that communicates with other components. The J2EE specification defines the following J2EE components:
-
--   Application clients and applets are components that run on the client.
--   Java Servlet and JavaServer Pages (JSP) technology components are Web components that run on the server.
--   Enterprise JavaBeans (EJB) components (enterprise beans) are business components that run on the server.
-
-J2EE components are written in the Java programming language and are compiled in the same way as any program in the language. The difference between J2EE components and "standard" Java classes is that J2EE components are assembled into a J2EE application, verified to be well formed and in compliance with the J2EE specification, and deployed to production, where they are run and managed by the J2EE server.
+In summary, the Java ecosystem comprises diverse components, each serving specific roles in different stages of software development and deployment. The choice of technologies depends on factors such as project requirements, development environment, and individual preferences.

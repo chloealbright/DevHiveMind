@@ -1,57 +1,40 @@
 ---
-tags: 
+tags:
+  - Java
+  - JVM
 author:
   - jacgit18
-Status: 
+  - chatgpt
+Comments: This documentation discusses the different components of JVM.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-03
 Relates:
 ---
-1) Class Loader 
+1. **Class Loader:**
+   - The class loader is a vital subsystem responsible for loading class files and executing three key functions: Loading, Linking, and Initialization.
 
-The class loader is a subsystem used for loading class files. It performs three major functions viz. Loading, Linking, and Initialization. 
+2. **Method Area:**
+   - The JVM Method Area stores class structures, metadata, Java method code, and the constant runtime pool.
 
-2) Method Area 
+3. **Heap:**
+   - The heap is a shared memory space where objects, arrays, and instance variables are stored, accessible across multiple threads.
 
-JVM Method Area stores structure of class like metadata, the code for Java methods, and the constant runtime pool. 
+4. **JVM Language Stacks:**
+   - JVM language stacks store local variables and partial results, with each thread having its own stack created upon thread creation.
 
-3) Heap 
+5. **PC Registers:**
+   - PC registers store the address of the currently executing Java virtual machine instruction, with each thread having a separate PC register.
 
-All the Objects, arrays, and instance variables are stored in a heap. This memory is shared across multiple threads. 
+6. **Native Method Stacks:**
+   - Native method stacks hold instructions of native code, dependent on native libraries, and allocate memory on native heaps or other stack types.
 
-4) JVM language Stacks 
+7. **Execution Engine:**
+   - The execution engine is a software type used for testing software, hardware, or complete systems. It lacks specific information about the tested product.
 
-Java language Stacks store local variables, and its partial results. Each and every thread has its own JVM language stack, created concurrently as the thread is created. A new frame is created when method is invoked, and it is removed when method invocation process is complete. 
+8. **Native Method Interface:**
+   - The Native Method Interface serves as a programming framework allowing Java code in a JVM to call libraries and native applications.
 
-5) PC Registers 
+9. **Native Method Libraries:**
+   - Native Method Libraries are a collection of needed Native Libraries (C, C++) for the Execution Engine.
 
-PC registers store the address of the Java virtual machine instruction, which is currently executing. In Java, each thread has its separate PC register. 
-
-6) Native Method Stacks 
-
-Native method stacks hold the instruction of native code depends on the native library. It allocates memory on native heaps or uses any type of stack. 
-
-7) Execution Engine 
-
-It is a type of software that is used to test software, hardware, or complete systems. The test execution engine never carries any information about the tested product. 
-
-8) Native Method interface 
-
-The Native Method Interface is a programming framework. It allows Java code, which is running in a JVM to call by libraries and native applications. 
-
-9) Native Method Libraries 
-
-Native Libraries is a collection of the Native Libraries (C, C++), which are needed by the Execution Engine.
-
-
-
-compare see if uyou should keep
--   JDK and JRE: The JDK enables programmers to create core Java programs that can be run by the JRE, which included JVM and class libraries. 
-    
--   Class Libraries: It is a group of dynamically loadable libraries that Java program can call at run time. 
-    
--   Compilers: It is a Java program that accepts text file of developers and compiles into Java class file. It is the common form of output given by compiler, which contains Java byte code. In Java, the primary compiler is Javac. 
-    
--   Debuggers: Debugger is a Java program that lets developers test and debug Java programs. 
-    
--   JavaDoc: JavaDoc is documentation made by Sun Microsystems for the Java. JavaDoc can be used generating API documentation in HTML file from the source program

@@ -1,14 +1,16 @@
 ---
-tags: 
+tags:
+  - Java
+  - tool
+Comments: This documentation discusses tools in java ecosystem.
 author:
   - jacgit18
-Status: 
+  - chatgpt
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-03
 Relates:
 ---
-**Technologies/Tools Used in Java Server-Side Development**
-
 *Core Java Server-Side Development:*
 
 1. **Jackson JSON/XML:**

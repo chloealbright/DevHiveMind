@@ -1,11 +1,18 @@
 ---
-tags: 
-author: 
-Comments: 
-Status: 
+tags:
+  - business
+  - selfEmployment
+  - employment
+  - finance
+  - economics
+author:
+  - jacgit18
+  - chatgpt
+Comments: This documentation discusses how to create a LLC and things to consider.
+Status: Done
 Started: 
-EditDate: 
-Relates:
+EditDate: 2024-03-04
+Relates: "[[Building Business]]"
 ---
 1. **Choose a Unique Name:**
    - Requirement: Ensure the name is distinct and adheres to state naming guidelines.
@@ -47,7 +54,7 @@ Relates:
 - A Limited Liability Company offers personal liability protection for members.
 - The process involves filing articles of organization with the New York Department of State.
 
-## Ongoing Fees for an LLC:
+## Ongoing Fees for an LLC
 
 - **Annual Report:**
   - Purpose: Provide updated business information.
@@ -146,4 +153,3 @@ Certainly, let's refine the information:
    - **Stay Informed:**
      - Be aware of potential or pending law changes that might affect the favorability of S Corps or LLCs.
 
-This refined information highlights the tax advantage of S Corps in terms of self-employment tax savings, acknowledges the ease of operation with LLCs, and emphasizes the importance of considering various factors beyond tax implications when choosing between the two business structures.

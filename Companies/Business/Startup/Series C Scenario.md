@@ -11,7 +11,7 @@ author:
 Comments: This documentation discusses Series C Stage of a startup.
 Status: Done
 Started: 2024-03-04
-EditDate: ""
+EditDate: 
 Relates:
 ---
 As a startup progresses into the Series C funding stage, it has likely achieved substantial growth and market traction. The Series C round, typically involving a larger funding amount (often exceeding $20M), is geared toward further scaling operations, solidifying market dominance, and positioning the company for sustained success. Here's a breakdown of the Series C scenario:

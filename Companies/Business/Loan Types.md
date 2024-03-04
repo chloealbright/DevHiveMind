@@ -1,10 +1,15 @@
 ---
-tags: 
-author: 
-Comments: 
-Status: 
+tags:
+  - business
+  - finance
+  - economics
+author:
+  - jacgit18
+  - chatgpt
+Comments: This documentation discusses Loan types.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-04
 Relates:
 ---
 ### Loan Basics:

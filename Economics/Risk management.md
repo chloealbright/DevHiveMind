@@ -1,8 +1,9 @@
-## Investing Strategies and Risk Management:
-
 ### ETFs and Volatility:
 - Buying ETFs helps mitigate volatility.
 - Investing in individual stocks is akin to building a personalized ETF.
+- Monitor risky investments after hours.
+- Bankruptcy doesn't necessarily mean loss; it can involve debt restructuring.
+  - Be cautious with dividend stocks, as they can impact company profits.
 
 ### Risk Tier Management:
 - Allocate 1% for risky, volatile trades.

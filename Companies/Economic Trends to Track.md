@@ -19,16 +19,12 @@ Investigating the core of companies such as Delta Airlines involves delving into
 - **Bull & Bear Markets:**
   - Bull markets typically last 7 years, while bear markets last about 18 months on average.
   - Bears occur every 4 to 6 years, with the last bear market in 2020 being the shortest in history.
-  - We're currently in a bull market due to government economic support.
 
 - **Investment Strategy:**
   - Pay attention to historical performance but seize opportunities to buy.
   - Stock stability often correlates with price falls – consider this for good companies.
   - Businesses should aim for 3-4% profit growth annually to combat inflation.
   - Set a 15% loss/gain threshold and prefer selling between the 1st and 25th of the month.
-
-- **Market Orders & IPOs:**
-  - Avoid market orders, use limit orders.
   - Avoid buying stocks on IPO day.
 
 - **Risk Management:**

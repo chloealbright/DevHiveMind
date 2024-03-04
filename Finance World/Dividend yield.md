@@ -4,7 +4,7 @@ Dividends are periodic payments made by a company to its shareholders out of its
 
 The formula for dividend yield is as follows:
 
-Dividend Yield = ([[Annual Dividend per Share]] / Stock Price) * 100
+Dividend Yield = (Annual Dividend per Share / Stock Price) * 100
 
 For example, if a stock has an annual dividend per share of $2 and its current market price is $50, the dividend yield would be (2 / 50) * 100 = 4%.
 

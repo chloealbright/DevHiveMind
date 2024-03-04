@@ -55,4 +55,4 @@
 - Top Line: Revenue (or Sales) is known as the top line (Lecture 4: Income Statement Explanation)  
 - Value Investors: Investors that buy securities that are underpriced through some form of fundamental analysis, including a low Price to Book ratio and a low Price to Earnings ratio (Lecture 36: More Detail on Growth Versus Value and P/E + P/R + DCF Overview)  
 - WACC: Weighted Average Cost of Capital is the calculation of a firm’s cost of capital (meaning cost of debt and equity) (Lecture 39: Calculating the Terminal Value)  
--                                                            Working Capital: It is the capital required to run the day-to-day business activities. The formula for Working Capital is Current Assets minus Current Liabilities (Lecture 17: Cash Flow Statement Analysis Exercise Answer Explanations)
+- Working Capital: It is the capital required to run the day-to-day business activities. The formula for Working Capital is Current Assets minus Current Liabilities (Lecture 17: Cash Flow Statement Analysis Exercise Answer Explanations)

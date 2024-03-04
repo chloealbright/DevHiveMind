@@ -1,1 +1,0 @@
-Securities: These are financial instruments that represent ownership in a company (stocks) or a debt obligation (bonds). Other securities include derivatives, such as options and futures, and structured products like mortgage-backed securities and collateralized debt obligations.

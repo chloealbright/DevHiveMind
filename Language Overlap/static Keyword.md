@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - Java
 author:
   - jacgit18
 Status: 

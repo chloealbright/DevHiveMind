@@ -1,10 +1,15 @@
 ---
-tags: 
-author: 
-Comments: 
-Status: 
+tags:
+  - market
+  - finance
+  - economics
+author:
+  - jacgit18
+  - chatgpt
+Comments: This documentation discusses the order to process to do when buying stocks.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-04
 Relates:
 ---
 1. **Annual Reports:**

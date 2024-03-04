@@ -1,16 +1,17 @@
 ---
-tags: 
+tags:
+  - market
+  - finance
+  - economics
 author:
   - jacgit18
   - chatgpt
-Comments: This documentation discusses
-Status: 
+Comments: This documentation discusses Debt instruments.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-04
 Relates:
 ---
-### Definition:
-
 A **debt instrument** is a fixed income asset legally obligating a debtor to repay borrowed amounts with interest. They are utilized by individuals, businesses, and governments for various purposes.
 
 ### Short-Term vs. Long-Term Debt Instruments:

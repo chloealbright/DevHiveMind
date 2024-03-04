@@ -11,6 +11,7 @@ EditDate: 2024-03-03
 Relates:
 ---
 #### **Overview of Java Ecosystem:**
+Java is open source while something like `C++` is not and cost money to use.
 
 1. **Java Virtual Machine (JVM):**
    - Part of Java Run Environment (JRE).

@@ -3,9 +3,11 @@ tags:
   - Java
 author:
   - jacgit18
-Status: 
+  - chatgpt
+Comments: This documentation discusses static keyword.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-04
 Relates:
 ---
 In Java, the keyword "static" is used to declare members (variables and methods) that belong to the class rather than instances of the class. Here's a brief explanation:

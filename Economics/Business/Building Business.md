@@ -1,3 +1,5 @@
+![[Buzniss.gif]]
+
 ## Business makes your taxes easier  
   
 Businesses have different tax rules than individuals. For example, businesses can deduct certain expenses from their income before paying taxes on the remaining amount. This can help reduce the amount of taxes they owe. Additionally, businesses may be eligible for certain tax credits that can further reduce their tax liability.  

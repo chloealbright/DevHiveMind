@@ -7,133 +7,94 @@ Started:
 EditDate: 
 Relates:
 ---
- technologies/tools used in Java server-side development
+**Technologies/Tools Used in Java Server-Side Development**
 
-Jackson JSON/XML
+*Core Java Server-Side Development:*
 
-JPA and Hibernate
+1. **Jackson JSON/XML:**
+   - Serialization/deserialization library for JSON and XML in Java.
 
-Thymeleaf templating
+2. **JPA and Hibernate:**
+   - Java Persistence API and its implementation, Hibernate, for object-relational mapping.
 
-Graphite and Grafana monitoring
+3. **Thymeleaf Templating:**
+   - Server-side Java templating engine for web applications.
 
-Log4j and JSON for structured logging
+4. **Graphite and Grafana Monitoring:**
+   - Graphite for monitoring and Grafana for visualizing and analyzing metrics.
 
-Splunk distributed logging collection
+5. **Log4j and JSON for Structured Logging:**
+   - Log4j for logging, with JSON format for structured logs.
 
-Elasticsearch logstash kibana
+6. **Splunk Distributed Logging Collection:**
+   - Platform for searching, monitoring, and analyzing machine-generated data.
 
-Hystrix curcuit breakers
+7. **Elasticsearch, Logstash, Kibana (ELK Stack):**
+   - Elasticsearch for search and analytics, Logstash for data processing, and Kibana for visualization.
 
-Spring Cloud Config
+8. **Hystrix Circuit Breakers:**
+   - Library for handling faults and latency tolerance in distributed systems.
 
-Eureka service discovery
+9. **Spring Cloud Config:**
+   - Centralized configuration management for distributed systems.
 
-Pivotal or AWS hosting
+10. **Eureka Service Discovery:**
+    - Service registry for resilient and elastic microservices.
 
-Flyway or Liquibase database change management
+11. **Pivotal or AWS Hosting:**
+    - Hosting solutions like Pivotal Cloud Foundry or Amazon Web Services.
 
-Sonar, findbugs, PMD static code analysis
+12. **Flyway or Liquibase Database Change Management:**
+    - Migration tools for version control of database schema changes.
 
-JUnit, Mockito, AssertJ for TDD
+13. **Sonar, FindBugs, PMD Static Code Analysis:**
+    - Tools for identifying and fixing code quality issues.
 
-RestAssured web service end to end tests with Cucumber and Serenity reports
+14. **JUnit, Mockito, AssertJ for TDD:**
+    - Testing frameworks for Test-Driven Development (TDD).
 
-Selenium browser testing
+15. **RestAssured, Cucumber, Serenity for Web Service Tests:**
+    - Tools for testing RESTful web services with behavior-driven development.
 
-Litmus email html rendering testing
+16. **Selenium for Browser Testing:**
+    - Web browser automation tool for testing web applications.
 
-Jenkins CI
+17. **Litmus for Email HTML Rendering Testing:**
+    - Tool for testing email rendering across different clients.
 
-Embedded Tomcat or Jetty
+18. **Jenkins CI:**
+    - Continuous Integration server for automating the build and testing process.
 
-Java 8 upwards
+19. **Embedded Tomcat or Jetty:**
+    - Embedded servlet containers for running Java web applications.
 
+20. **Java 8 Upwards:**
+    - Utilizing Java 8 and above features for modern Java development.
 
+*Internationalization Tool:*
 
+21. **Native2ascii:**
+    - JDK tool converting files with JRE-supported characters to ASCII or Unicode escapes for internationalization.
 
-Internationalization Tool 
+*Remote Method Invocation (RMI) Tools:*
 
-Internationalization is the process of designing an application so that it can be adapted to various languages and regions without engineering changes. 
+22. **Java IDL and RMI-IIOP Tools:**
+    - Java Interface Definition Language and RMI-IIOP tools for remote communication in distributed applications.
 
-For this purpose, the JDK brings native2ascii. This tool converts a file with characters supported by JRE to files encoded in ASCII or Unicode escapes. 
+*Java Deployment Tools:*
 
-4.4. Remote Method Invocation (RMI) Tools 
+23. **Java Plug-in Tool:**
+    - htmlconverter utility for converting HTML pages containing applets for Java Plug-in.
 
-RMI tools enable remote communication between Java applications thus providing scope for development of distributed applications. 
+24. **Java Web Start Tool:**
+    - javaws tool for downloading and launching Java applications without installation.
 
-RMI enables an object running in one JVM to invoke methods on an object running in another JVM. These tools include: 
+*Monitoring and Management Tools:*
 
-4.5. Java IDL and RMI-IIOP Tools 
+25. **Oracle JDK vs. OpenJDK:**
+    - Comparison of Oracle JDK and OpenJDK, including release schedules, support, and performance considerations.
 
-Java Interface Definition Language (IDL) adds Common Object-Based Request Broker Architecture (CORBA) capability to the Java platform. 
+*Amazon Corretto JDK:*
 
-These tools enable distributed Java web applications to invoke operations on remote network services using industry standard Object Management Group (OMG) – IDL. 
-
-Likewise, we could use Internet InterORB Protocol (IIOP). 
-
-RMI-IIOP, i.e. RMI over IIOP enables programming of CORBA servers and applications via the RMI API. Thus enabling connection between two applications written in any CORBA-compliant language via Internet InterORB Protocol (IIOP). 
-
-These tools include: 
-
-4.6. Java Deployment Tools 
-
-These tools help in deploying Java applications and applets on the web. They include: 
-
-4.7. Java Plug-in Tool 
-
-JDK provides us with htmlconverter. Furthermore, it's used in conjunction with the Java Plug-in. 
-
-On the one hand, Java Plug-in establishes a connection between popular browsers and the Java platform. As a result of this connection, applets on the website can run within a browser. 
-
-On the other hand, htmlconverter is a utility for converting an HTML page containing applets to a format for Java Plug-in. 
-
-4.8. Java Web Start Tool 
-
-JDK brings javaws. We can use it in conjunction with the Java Web Start. 
-
-This tool allows us to download and launch Java applications with a single click from the browser. Hence, there is no need to run any installation process. 
-
-4.9. Monitoring and Management Tools
-
-
-
-
-
-We can see that the major releases of Java SE came approximately every two years until Java SE 7. It took five years to move from Java SE 6, and another three after that to reach Java SE 8. 
-
-Since Java SE 10, we've come to expect new releases every six months. However, not all releases will be the Long-Term-Support (LTS) releases. As a result of Oracle's release plan, the LTS product releases will only happen every three years. 
-
-Java SE 17 is the latest LTS version, and Java SE 8 received free public updates until December 2020 for non-commercial usage. 
-
-This development kit got its current name after Oracle bought Sun Microsystems in 2010. Before that, the name was SUN JDK, and it was the official implementation of the Java programming language. 
-
-
-
-OpenJDK is behind Oracle JDK when it comes to java SE version Oralce is at 17lts while open is at 11  
-
-## Release Schedule 
-
-As we mentioned, ***Oracle will deliver releases every three years, while OpenJDK will be released every six months. ***
-
-Oracle provides long term support for its releases. On the other hand, OpenJDK only supports the changes to a release until the next version is released. 
-
-There's no real technical difference between the two, since the build process for Oracle JDK is based on that of OpenJDK. 
-
-When it comes to performance, ***Oracle's is much better regarding responsiveness and JVM performance.*** It puts more focus on stability because of the importance it gives to its enterprise customers. 
-
-OpenJDK, in contrast, delivers releases more often. As a result, we can encounter problems with instability. Based on [community feedback](https://www.reddit.com/r/java/comments/6g86p9/openjdk_vs_oraclejdk_which_are_you_using/), we know some OpenJDK users have encountered performance issues. 
-
-***Oracle JDK is fully developed by the Oracle Corporation, whereas OpenJDK is developed by Oracle, OpenJDK, and the Java Community.*** However, top-notch companies like Red Hat, Azul Systems, IBM, Apple Inc., and SAP AG also take an active part in its development. 
-
-As we can see from the link in the previous subsection, when it comes to ***popularity with the top companies that use Java Development Kits in their tools,*** such as Android Studio or IntelliJ IDEA, ***Oracle JDK used to be the more preferred, but both of those companies have switched to the OpenJDK based JetBrains*** [builds](https://bintray.com/jetbrains/intellij-jdk/). 
-
-Furthermore, major Linux distributions (Fedora, Ubuntu, Red Hat Enterprise Linux) provide OpenJDK as the default Java SE implementation. 
-
-### Differences between Amazon Corretto JDK and OpenJDK 
-
-One popular implementation of the Java Development Kit is Amazon Corretto. Although it is based on OpenJDK, there are a few differences between them. 
-
-Amazon Corretto is a free, multi-platform, production-ready distribution of the OpenJDK. It is developed, maintained, and supported by Amazon Web Services (AWS) and is designed specifically for running Java applications on AWS and other cloud platforms. Amazon Corretto provides long-term support (LTS) and security updates at no cost. 
-
-Another key difference between OpenJDK and Amazon Corretto JDK is that Amazon Corretto includes additional features and optimizations that are specifically designed to improve performance, security, and reliability in production environments.
+26. **Differences between Amazon Corretto JDK and OpenJDK:**
+    - Distinct features and optimizations in Amazon Corretto JDK designed for production environments.

@@ -1,10 +1,14 @@
 ---
-tags: 
+tags:
+  - Java
+  - ClassStructure
 author:
   - jacgit18
-Status: 
+  - chatgpt
+Comments: This documentation discusses common classes implemented by java classes.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-03
 Relates:
 ---
 In a Java codebase, there are several common Java classes that are often implemented or utilized by other classes. These classes provide specific functionalities or features that are commonly required in many applications. Here are some examples:

@@ -27,10 +27,6 @@ Investigating the core of companies such as Delta Airlines involves delving into
   - Set a 15% loss/gain threshold and prefer selling between the 1st and 25th of the month.
   - Avoid buying stocks on IPO day.
 
-- **Risk Management:**
-  - Monitor risky investments after hours.
-  - Bankruptcy doesn't necessarily mean loss; it can involve debt restructuring.
-  - Be cautious with dividend stocks, as they can impact company profits.
 
 - **Company Assessment:**
   - Evaluate a company's revenue and its protection against competition.

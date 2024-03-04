@@ -1,3 +1,18 @@
+---
+tags:
+  - market
+  - finance
+  - economics
+  - sectors
+author:
+  - jacgit18
+  - chatgpt
+Comments: This documentation discusses bond investments and there affect on the stock market.
+Status: Done
+Started: 
+EditDate: 2024-03-04
+Relates:
+---
 1. **High-Yield Bonds (Junk Bonds):**
    - **Concern:** If a company issues high-yield or junk bonds, it indicates Wall Street's perception that the company may struggle to repay debts.
    - **Implication:** This can be a negative signal for investors, suggesting higher risk associated with the company's financial stability.

@@ -1,3 +1,16 @@
+---
+tags:
+  - finance
+  - taxes
+author:
+  - jacgit18
+  - chatgpt
+Comments: This documentation discusses general things about taxes.
+Status: Perpetual
+Started: 
+EditDate: 2024-03-04
+Relates:
+---
   ![[Taxes.gif]]
   
 ## Stock Taxes

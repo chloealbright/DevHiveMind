@@ -1,9 +1,24 @@
+---
+tags:
+  - market
+  - finance
+  - economics
+  - sectors
+author:
+  - jacgit18
+  - chatgpt
+Comments: This documentation proper risk management strategies in stock market.
+Status: Perpetual
+Started: 
+EditDate: 2024-03-04
+Relates: "[[Economic Trends to Track]]"
+---
 ### ETFs and Volatility:
 - Buying ETFs helps mitigate volatility.
 - Investing in individual stocks is akin to building a personalized ETF.
 - Monitor risky investments after hours.
 - Bankruptcy doesn't necessarily mean loss; it can involve debt restructuring.
-  - Be cautious with dividend stocks, as they can impact company profits.
+- Be cautious with dividend stocks, as they can impact company profits.
 
 ### Risk Tier Management:
 - Allocate 1% for risky, volatile trades.

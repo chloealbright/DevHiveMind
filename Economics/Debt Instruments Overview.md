@@ -49,4 +49,6 @@ Debt instruments can be **short-term** (repaid within a year) or **long-term** (
 
 - Mortgages are debt instruments used for property purchases, featuring amortized payments and the property serving as collateral.
 
-This refined explanation offers a clear understanding of debt instruments, their types, and their significance in various financial contexts.
+
+
+

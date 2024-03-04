@@ -8,11 +8,13 @@ author:
   - jacgit18
   - chatgpt
 Comments: This documentation discusses different attributes of the stock market ebb and flow.
-Status: Done
+Status: Perpetual
 Started: 
 EditDate: 2024-03-04
 Relates:
 ---
+Investigating the core of companies such as Delta Airlines involves delving into their foundational aspects. The stock performance of entities like Boeing, responsible for manufacturing planes, can significantly impact airline stocks. If Boeing thrives, it may translate to positive outcomes for airlines like Delta, as a robust aerospace industry often correlates with the success of airline companies. Understanding these interconnections can be crucial for comprehending the dynamics influencing stock prices in the aviation sector.
+
 ### Market Trends
 - **Bull & Bear Markets:**
   - Bull markets typically last 7 years, while bear markets last about 18 months on average.

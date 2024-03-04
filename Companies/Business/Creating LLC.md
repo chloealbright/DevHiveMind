@@ -1,3 +1,12 @@
+---
+tags: 
+author: 
+Comments: 
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 1. **Choose a Unique Name:**
    - Requirement: Ensure the name is distinct and adheres to state naming guidelines.
    - Verification: Check name availability and compliance with your state's regulations.

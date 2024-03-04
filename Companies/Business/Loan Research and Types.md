@@ -1,3 +1,12 @@
+---
+tags: 
+author: 
+Comments: 
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ### Loan Basics:
 
 1. **Bank as Investment Companies:**

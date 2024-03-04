@@ -1,3 +1,12 @@
+---
+tags: 
+author: 
+Comments: 
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ### Intellectual Property Protection Strategy
 
 #### Creating a Logo and Adding Your Name

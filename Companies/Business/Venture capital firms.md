@@ -1,3 +1,12 @@
+---
+tags: 
+author: 
+Comments: 
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 Venture capital firms are investment companies that provide funding to startups and small businesses with high growth potential. They typically invest in early-stage companies that have a proven product or service, a solid management team, and a clear path to generating revenue.  
   
 Here's how venture capital firms work:  

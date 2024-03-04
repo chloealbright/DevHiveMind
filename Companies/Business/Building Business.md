@@ -1,3 +1,12 @@
+---
+tags: 
+author: 
+Comments: 
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ![[Buzniss.gif]]
 
 ## Business makes your taxes easier  

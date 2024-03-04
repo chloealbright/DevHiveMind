@@ -17,6 +17,7 @@ Relates:
 2. **Benchmarking with Best Performer:**
    - Strategy: Utilize your best-performing stock as a benchmark when selecting additional stocks. Compare potential investments to the success and characteristics of your top-performing stock.
 
+![[Market Cap.png]]
 ##### Types of Stocks and Investment Strategies
 
 1. **Common Shares:**

@@ -1,10 +1,14 @@
 ---
-tags: 
+tags:
+  - ClassStructure
+  - languageOverlap
 author:
   - jacgit18
-Status: 
+  - chatgpt
+Comments: This documentation discusses
+Status: Refinement
 Started: 
-EditDate: 
+EditDate: 2024-03-04
 Relates:
 ---
 In Java, it is possible to define a class within another class, such classes are known as nested classes. They enable you to logically group classes that are only used in one place, thus this increases the use of encapsulation, and creates more readable and maintainable code.

@@ -1,3 +1,12 @@
+---
+tags: 
+author: 
+Comments: 
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 - 10-K: Annual Earnings Report Filing Form (Lecture 23: [SEC.gov](http://sec.gov/) is Another Great Model Resource)  
 - 10-Q: Quarterly Earnings Report Filing Form (Lecture 23: [SEC.gov](http://sec.gov/) is Another Great Model Resource)  
 - 8-K: Important Press Releases (Lecture 23: [SEC.gov](http://sec.gov/) is Another Great Model Resource) 

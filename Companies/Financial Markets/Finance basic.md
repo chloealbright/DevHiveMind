@@ -1,3 +1,12 @@
+---
+tags: 
+author: 
+Comments: 
+Status: 
+Started: 
+EditDate: 
+Relates:
+---
 ## Understanding the Stock Market and Financial Metrics:
 
 ### Stock Market and Company Future:

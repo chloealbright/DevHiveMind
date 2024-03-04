@@ -1,13 +1,18 @@
 ---
-tags: 
-author: 
-Comments: 
-Status: 
+tags:
+  - market
+  - finance
+  - economics
+author:
+  - jacgit18
+  - chatgpt
+Comments: This documentation discusses margin accounts and how they differ from cash accounts.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-04
 Relates:
 ---
-When trading in a cash account, transactions involve actual cash rather than [[Margin Account#Mutual funds |mutual funds]]. Cash accounts have settlement times, impacting the frequency of trading. Unlike margin accounts, there are no restrictions on pattern day trading in cash accounts, and they don't operate on margin, avoiding certain limitations.
+When trading in a cash account(brokerage), transactions involve actual cash rather than [[Margin Account#Mutual funds |mutual funds]]. Cash accounts have settlement times, impacting the frequency of trading. Unlike margin accounts, there are no restrictions on pattern day trading in cash accounts, and they don't operate on margin, avoiding certain limitations.
 
 Margin accounts, on the other hand, involve a loan from the broker, allowing traders to use the broker's funds and providing features like instant settlement. However, pattern day trading restrictions come into play for accounts with less than $25,000. Exceeding a certain number of trades within a specific timeframe can lead to restrictions until the following week.
 

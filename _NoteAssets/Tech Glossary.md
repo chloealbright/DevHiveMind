@@ -1,8 +1,9 @@
 ---
 tags:
-  - glossary
+  - jargon
 author:
   - jacgit18
+  - chatgpt
 Comments: This documentation discusses this is a glossary of technical terms with a brief explanation of technical jargon that can be backed link to.
 Status: Refinement
 Started: 

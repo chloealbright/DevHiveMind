@@ -1,10 +1,10 @@
 ---
 tags: 
 author: 
-Comments: 
-Status: 
+Comments: This documentation discusses some basic things about the s
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-04
 Relates:
 ---
 ## Understanding the Stock Market and Financial Metrics:

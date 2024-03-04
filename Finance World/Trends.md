@@ -6,6 +6,7 @@ tags:
   - sectors
 author:
   - jacgit18
+  - chatgpt
 Comments: This documentation discusses different attributes of the stock market ebb and flow.
 Status: Done
 Started: 

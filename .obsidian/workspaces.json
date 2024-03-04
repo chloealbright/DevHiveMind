@@ -1004,77 +1004,40 @@
       },
       "active": "9b11802b5e5a8bf5"
     },
-    "api": {
+    "l75": {
       "main": {
         "id": "0cbb3f0709975816",
         "type": "split",
         "children": [
           {
-            "id": "55f0d202c2ad6526",
+            "id": "3ffdf4f7b6bbd22a",
             "type": "tabs",
+            "dimension": 61.5681233933162,
             "children": [
               {
-                "id": "4e99b97e9837fc02",
+                "id": "30c1e5874357165e",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "excalidraw",
                   "state": {
-                    "file": "API/API pass-through.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "83ee7f87c4ed8916",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "API/API request by layer.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "67e06fd9e44bbc61",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "API/Authentication vs Authorization.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "903d95a5f888f60d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "API/Controlling API Traffic.md",
-                    "mode": "source",
-                    "source": false
+                    "file": "Mind Maps/Leetcode 75.md"
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
-            "id": "a2cdf9b38789063d",
+            "id": "dae69b0360163935",
             "type": "tabs",
+            "dimension": 38.43187660668381,
             "children": [
               {
-                "id": "11f1c333aba20afd",
+                "id": "8ec67ed9b3cd1e6d",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "API/Designing Web APIs.md",
+                    "file": "Algorithms & Data Structures/LeetCode Snippets/Leetcode 75.md",
                     "mode": "source",
                     "source": false
                   }
@@ -1109,7 +1072,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "type narr",
+                    "query": "Backend",
                     "matchingCase": true,
                     "explainSearch": false,
                     "collapseAll": true,
@@ -1162,7 +1125,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "API/API request by layer.md",
+                    "file": "Algorithms & Data Structures/LeetCode Snippets/Leetcode 75.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1179,7 +1142,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "API/API request by layer.md",
+                    "file": "Algorithms & Data Structures/LeetCode Snippets/Leetcode 75.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1202,7 +1165,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "API/API request by layer.md"
+                    "file": "Algorithms & Data Structures/LeetCode Snippets/Leetcode 75.md"
                   }
                 }
               },
@@ -1311,8 +1274,8 @@
           "obsidian-book-search-plugin:Create new book note": false
         }
       },
-      "active": "83ee7f87c4ed8916"
+      "active": "8ec67ed9b3cd1e6d"
     }
   },
-  "active": "api"
+  "active": "pattern"
 }

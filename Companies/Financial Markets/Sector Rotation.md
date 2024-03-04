@@ -2,14 +2,16 @@
 tags:
   - sectors
   - economics
+  - market
+  - finance
 author:
   - jacgit18
   - chatgpt
 Comments: This documentation discusses sector rotations.
-Status: Done
+Status: Perpetual
 Started: 
 EditDate: 2024-03-03
-Relates:
+Relates: "[[Economic Trends to Track]]"
 ---
 **Strategic Sector Rotation in Economic Cycles: A Guided Approach**
 

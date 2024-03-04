@@ -4,6 +4,8 @@ tags:
   - finance
   - economics
   - sectors
+  - employment
+  - companies
 author:
   - jacgit18
   - chatgpt

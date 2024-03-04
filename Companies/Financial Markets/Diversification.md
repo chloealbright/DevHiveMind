@@ -1,9 +1,13 @@
 ---
-tags: 
+tags:
+  - market
+  - finance
+  - economics
+  - companies
 author:
   - jacgit18
   - chatgpt
-Comments: This documentation discusses
+Comments: This documentation discusses diversification.
 Status: Done
 Started: 
 EditDate: 2024-03-04

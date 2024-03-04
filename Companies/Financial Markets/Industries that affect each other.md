@@ -1,3 +1,19 @@
+---
+tags:
+  - market
+  - finance
+  - economics
+  - sectors
+  - companies
+author:
+  - jacgit18
+  - chatgpt
+Comments: This documentation discusses how different industries can effect each other.
+Status: Done
+Started: 
+EditDate: 2024-03-04
+Relates: "[[Economic Trends to Track]]"
+---
 The interactions between different industries in an economy can be complex and interconnected. Changes in one industry can have ripple effects on others, and these relationships can vary based on factors such as supply chains, consumer behavior, economic conditions, and government policies. Here are a few ways industries can affect each other:  
   
 1. **Supply Chain Dependencies:** Industries often rely on each other's products as inputs. For example, if the automotive industry faces disruptions in the supply of microchips, it can impact production in the electronics industry, which also uses these chips.  

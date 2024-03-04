@@ -1,3 +1,20 @@
+---
+tags:
+  - bankruptcy
+  - market
+  - finance
+  - economics
+  - employment
+  - companies
+author:
+  - jacgit18
+  - chatgpt
+Comments: This documentation discusses types of bankruptcy.
+Status: Done
+Started: 
+EditDate: 2024-03-04
+Relates:
+---
 When a company is in Chapter 11 bankruptcy, it signifies financial distress, and the possibility of liquidation or Chapter 7 bankruptcy can be concerning for investors. Chapter 7 involves the sale of a company's assets to repay creditors, often leaving shareholders with little or nothing. Therefore, Chapter 11 with a focus on restructuring is generally seen as a more favorable outcome for investors.
 
 In the context of mergers, it's crucial for investors to be aware of the potential dilution of stocks. Mergers may involve the issuance of new shares, reducing the ownership percentage of existing shareholders. Investors should carefully evaluate the terms of mergers, especially the impact on their ownership stake and the potential benefits or drawbacks.

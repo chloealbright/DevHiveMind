@@ -1,38 +1,59 @@
 ---
-tags: 
+tags:
+  - Java
+  - servers
+  - HTTP
 author:
   - jacgit18
-Status: 
+  - chatgpt
+Comments: This documentation discusses Apache Tomcat.
+Status: Done
 Started: 
-EditDate: 
+EditDate: 2024-03-03
 Relates:
 ---
-Apache Tomcat server: Apache Tomcat is a web container. It allows the users to run Servlet and JAVA Server Pages that are based on the web-applications. It can be used as the HTTP server. The performance of the Tomcat server is not as good as the designated web server. 
+**Apache Tomcat Server: A Comprehensive Overview**
 
-Key difference between Tomcat and the Apache HTTP Server 
+Apache Tomcat serves as a web container, enabling the execution of Servlets and Java Server Pages within web applications. While it functions as an HTTP server, its performance may not match that of dedicated web servers.
 
-the Apache HTTP Server, but the fundamental difference is that Tomcat provides dynamic content by employing Java-based logic, while the Apache web server's primary purpose is to simply serve up static content such as HTML, images, audio and text. 
+**Key Difference with Apache HTTP Server:**
 
-# Tomcat 9 & 10 are equivalent products 
+The fundamental contrast lies in their purposes. Tomcat employs Java-based logic to provide dynamic content, focusing on running Servlets and JSPs. On the other hand, the Apache HTTP Server primarily serves static content, including HTML, images, audio, and text.
 
-[Apache Tomcat](https://en.wikipedia.org/wiki/Apache_Tomcat) 9 and 10 are equivalent products. The only difference is support for changes for the package names in the Jakarta Servlet and related technologies from javax.* to jakarta.*. 
+**Tomcat 9 & 10 Equivalence:**
 
-This package name change is for legal reasons involved in the transfer of responsibility for [Jakarta EE](https://en.wikipedia.org/wiki/Jakarta_EE) (formerly Java EE) technologies from [Oracle Corp](https://en.wikipedia.org/wiki/Oracle_Corporation) to the [Eclipse Foundation](https://en.wikipedia.org/wiki/Eclipse_Foundation). 
+Tomcat 9 and 10 are functionally equivalent, with the main distinction being the package name changes in Jakarta Servlet and related technologies from javax.* to jakarta.*. This shift occurred due to the transition of responsibility for Jakarta EE technologies from Oracle Corp to the Eclipse Foundation. The package name alteration is detailed in the Jakarta EE 9 documentation.
 
-For more info, read [Understanding Jakarta EE 9](https://www.eclipse.org/community/eclipse_newsletter/2020/november/1.php). 
+For more information, refer to [Understanding Jakarta EE 9](https://www.eclipse.org/community/eclipse_newsletter/2020/november/1.php).
 
-To quote [the documentation](https://tomcat.apache.org/download-10.cgi): 
+**Migration Considerations:**
 
-Users of Tomcat 10 onwards should be aware that, as a result of the move from Java EE to Jakarta EE as part of the transfer of Java EE to the Eclipse Foundation, the primary package for all implemented APIs has changed from javax.* to jakarta.*. This will almost certainly require code changes to enable applications to migrate from Tomcat 9 and earlier to Tomcat 10 and later. A migration tool is under development to aid this process. 
+Users transitioning to Tomcat 10 should be aware of the package name changes. The move from Java EE to Jakarta EE necessitates adjustments in the code, and a migration tool is in development to facilitate this process.
 
-# Move to the latest 9 rather than 10 
+Quoting [Tomcat documentation](https://tomcat.apache.org/download-10.cgi):
 
-Tomcat 9 and 10 track the same development changes. If your goal is simply to gain some security fixes, as far as I know you'll get the same fixes in both 9 and 10. Do not take my word for this, just study the Tomcat Release Notes. 
+> "Users of Tomcat 10 onwards should be aware that... the primary package for all implemented APIs has changed from javax.* to jakarta.*. This will almost certainly require code changes to enable applications to migrate from Tomcat 9 and earlier to Tomcat 10 and later."
 
-So for the fastest easiest migration path, just upgrade to the latest 9 instead of 10. The current latest version of 9 is 9.0.44. 
+**Choosing Between Tomcat 9 and 10:**
 
-# Stick with Tomcat 10 
+1. **Move to the Latest 9:**
+   - Tomcat 9 and 10 share development changes, and security fixes are likely the same. Consider upgrading to the latest Tomcat 9 version (currently 9.0.44) for a straightforward migration path.
 
-Alternatively, if you want to proceed with using Tomcat 10, change the import statements across your code base to use jakarta.* in place of javax.*. 
+2. **Stick with Tomcat 10:**
+   - If opting for Tomcat 10, update import statements in your codebase from javax.* to jakarta.*. IDEs like IntelliJ offer features to simplify this migration process.
 
-IDEs such as IntelliJ have added features to assist in this migration chore.
+In summary, the choice between Tomcat 9 and 10 depends on your specific requirements and the readiness of your codebase for the Jakarta EE package naming shift. Consider the migration path that aligns best with your development goals and resources.
+
+## Apache vs Tomcat
+
+**Distinguishing Apache HTTP Server and Apache Tomcat: A Core Functionality Contrast**
+
+While both the Apache HTTP Server and Apache Tomcat contribute to web hosting, a pivotal disparity lies in their core functions. 
+
+Tomcat excels in delivering dynamic content through the use of Java-based logic, specifically implementing Java Servlet, JavaServer Pages (JSP), and WebSockets APIs. In contrast, the Apache HTTP Server primarily serves static content, including HTML, images, audio, and text.
+
+**Apache Tomcat:**
+
+A stalwart in the open-source domain, Apache Tomcat has been a mainstay since its inception in 1998, merely four years after the advent of Java. Functioning as a Java servlet container, Tomcat robustly implements essential Java enterprise specifications, providing a platform for dynamic content creation and execution. It has evolved to support technologies like Java Servlet, JSP, and WebSockets, embodying the commitment of the Apache Software Foundation to empower Java-based web applications.
+
+In essence, while the Apache HTTP Server excels at serving static content, Apache Tomcat stands out as a versatile and enduring platform for executing dynamic, Java-powered web applications.

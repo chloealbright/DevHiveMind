@@ -1,5 +1,0 @@
-## S corp vs llc
-
-there might be a law change coming or is here that makes S corp more favourable not sure but in general there are pros and cons when picking between the two
-
-An LLC is a type of business entity, while an S corporation is a tax classification. An S corporation election lets the Internal Revenue Service (IRS) know that your business should be taxed as an S corporation instead of a sole proprietorship, partnership, or C corporation. The main advantage of an S corporation over an LLC is that it can save you money on self-employment taxes. However, there are other factors to consider when choosing between the two. For example, LLCs are generally easier to set up and maintain than S corporations. They also offer more flexibility in terms of ownership and management structure. On the other hand, S corporations have more restrictions on ownership and are subject to more formalities than LLCsAd12
